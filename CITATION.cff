@@ -1,0 +1,46 @@
+# Citation File Format v1.2.0 — see https://citation-file-format.github.io/
+# Placeholders use <<KEY>> syntax (not Jinja {{KEY}}) to keep raw YAML parseable
+# during validation. Substitute with `bootstrap_project.py` or by hand.
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software  # software | dataset | book | article — pick one
+title: "castles"
+abstract: "castles — a standing cross-domain research think tank producing systematic reviews and methodology documentation, with forensic treatment of null and negative results as its distinctive method."
+
+# Authors — this project is attributed under the author's real identity by
+# explicit decision (ADR-0001 §Identity, 2026-08-21). The SKIE-pseudonym rule in
+# rules/publishing.md does not bind this repository. Add an `orcid:` line if one
+# should appear in the citation metadata.
+authors:
+  - family-names: Koirala
+    given-names: Sajan
+    # email intentionally omitted; see ADR-0001 §Identity
+
+# Versioning per Semantic Versioning 2.0.0 (https://semver.org/).
+# date-released is the ISO 8601 calendar date of the corresponding git tag.
+version: "0.0.1"
+date-released: "2026-08-21"
+url: "https://github.com/s-koirala/castles"
+repository-code: "https://github.com/s-koirala/castles"
+license: MIT  # SPDX identifier, e.g. MIT, Apache-2.0, CC-BY-4.0
+
+keywords:
+  - quant
+  - research
+
+# Zenodo concept DOI: add a `doi:` key on the first Zenodo release. Per
+# rules/publishing.md, each release tagged `skie-v{MAJOR.MINOR}` gets a fresh DOI
+# under the concept DOI. The key is omitted rather than placeholder-filled: the
+# template's `<<TODO: ...>>` form contains ': ' and is not a valid YAML plain
+# scalar, which broke `yaml.safe_load` and would fail the citation-cff pre-commit
+# hook. Same reason for omitting `preferred-citation:` until a published form
+# exists.
+
+# References — NOT the bibliography store. /cite-add writes to the project's
+# CSL-JSON store (scripts/build_bibliography.py); cffconvert cannot convert
+# entries under this key and GitHub reads only top-level + preferred-citation,
+# so anything placed here is write-only. Reserve it for works this software
+# itself builds on (CFF v1.2.0 reference schema). Rationale: see the upstream
+# audit trail in s-koirala/dotfiles, not a local path — the template's relative
+# reference does not resolve in a bootstrapped project.
+references: []
