@@ -542,3 +542,35 @@ dated addendum that identifies what it corrects. Retention follows the
 repository's git history; the tracked file is the durable record, and the
 round-2 artifact digests above bind this record to the exact artifact states
 verified.
+
+---
+
+# Addendum — provenance commit landed (2026-08-21)
+
+Appended per 21 CFR 11.10(e); no prior entry edited. Completes the terminal
+bookkeeping phase sequenced after the round-2 accept.
+
+- Commit: `2dc418763be6cbe2b6c2809e67f98ff2626dcdad` on `main`
+  ("docs(sweep): phase 1 gap-targeted corpus sweep; agenda rev 2; F005 layer
+  promoted to data") — 173 files: the three sweep records with CSL-JSON stores
+  and 161 search logs, the agenda at revision 2, the failure_log F005 addendum,
+  the deliverable spec, and this trail with both sidecars.
+- Trailers, verbatim from `git log -1`:
+  - `Repro-Log-Path: logs/reproducibility/repro_log_67058aa0d29d479c9a969a7ce3889b24.json`
+  - `Repro-Log-SHA256: 4db4997d5ec5bbeaf313e9a4c0976a1562aaeed4b1a397dfc82185ef2aa4aad3`
+  - `AI-Assistance: claude-fable-5 (role=multi)`
+- Deterministic pre-commit checks recorded: store counts 54/50/7 as declared,
+  zero store ids uncited in their reviews, PRISMA declarations present
+  (integration check PASS on all five gap sites; `revision: 2` confirmed).
+- Sweep-agent ReproLogs (gitignored; digests are the durable anchors):
+  `repro_log_4471f7f2091348dd901d083fdf8bc908.json` (sha256
+  `1b8da281d63eee4dc9428b3a64751c57a994643e8b1595c5d9a7c88818284be9`, f005
+  sweep). The lead-session commit ReproLog is carried by the trailers above.
+- Open items handed forward, not closed here: 15 round-1 + 4 round-2 logged
+  minors (deferred per invitesPolish=false); the level-definitions survey
+  erratum routing (the survey's headline claim is refuted by the F005 addendum
+  and the tracked survey does not yet carry a supersession marker) — assigned
+  to the lead session by f005 review recommendation (iv), decision not yet
+  taken; SSRN 3021585 remains unadjudicable.
+- This addendum and the spec's commit-box tick are committed separately as
+  closure bookkeeping; that commit's own trailers carry its provenance.
