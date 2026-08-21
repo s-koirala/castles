@@ -43,14 +43,14 @@ repos:
 
       - id: citation-cff
         name: CITATION.cff validator (CFF v1.2.0)
-        entry: python C:/Users/skoir/.claude/hooks/precommit_citation_cff.py
+        entry: python -c "import os,runpy,sys;runpy.run_path(os.path.expanduser('~/.claude/hooks/precommit_citation_cff.py'),run_name='__main__')"
         language: system
         files: ^CITATION\.cff(\.tmpl)?$
         pass_filenames: true
 
       - id: data-manifest-check
         name: Data manifest drift check
-        entry: python C:/Users/skoir/.claude/scripts/build_data_manifest.py --check
+        entry: python -c "import os,runpy,sys;runpy.run_path(os.path.expanduser('~/.claude/scripts/build_data_manifest.py'),run_name='__main__')" --check
         language: system
         pass_filenames: false
         always_run: true
