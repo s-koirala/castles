@@ -1,0 +1,14 @@
+{
+ "query_id": "q-github-src-10",
+ "platform": "raw.githubusercontent.com direct file retrieval (curl), Pine Script mirror of a TradingView published script",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "curl -sL https://raw.githubusercontent.com/RouZuoMong2003/SmartMoneyConcepts-LuxAlgo/main/SmartMoneyConcepts_LuxAlgo.pine",
+ "n_records_retrieved": 1,
+ "items": [
+  {
+   "repo": "RouZuoMong2003/SmartMoneyConcepts-LuxAlgo",
+   "path": "SmartMoneyConcepts_LuxAlgo.pine",
+   "note": "CC BY-NC-SA 4.0 mirror of the TradingView published open-source script Smart Money Concepts [LuxAlgo], Pine v5, 848 lines"
+  }
+ ]
+}

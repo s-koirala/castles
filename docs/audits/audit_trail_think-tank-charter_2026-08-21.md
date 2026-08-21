@@ -804,3 +804,89 @@ Three of the four criticals here could not have been found by any branch routed 
 rounds 1-2, because none had Bash and none could run a simulation. The routing
 decision that excluded quant-auditor was defensible when made and became wrong
 silently. **A routing decision is a claim about the artifact set, and it expires.**
+
+---
+
+# Addendum 7 - definitional survey, branch 1 unblocked by class, 2026-08-21T14:30:00-05:00
+
+## Outcome
+
+`research-librarian` delivered `docs/literature/lit_review_level-definitions_2026-08-21.md`
+plus an 81-record CSL-JSON store. 436 identified, 46 duplicates removed, 390
+screened, 309 excluded, 81 included, across Crossref, arXiv, GitHub code and
+repository search, raw Pine source, TradingView docs, and web search.
+
+**76 distinct operational definitions of "level" recovered**, partitioned by an
+affine-equivariance test (`L(a*p+b) = a*L(p)+b`) that is programmatically checkable
+rather than adjudicated. The partition was verified exact and disjoint over all 76.
+
+| Class | n | Share |
+|---|---|---|
+| N - independent of both confounds | 53 | 70% |
+| T - requires the tick/exchange grid | 12 | 16% |
+| R - requires round numbers | 7 | 9% |
+| unclassified - no rule obtainable | 4 | 5% |
+
+## What it unblocked
+
+Branch 1 was blocked on the premise that "level" cannot be separated from
+round-number clustering and tick discreteness. **That premise is false for 53 of
+76 definitions.** The block is lifted for Class N, conditioned for Class T
+(relocation must be lattice-constrained or surrogate levels become uncomputable),
+and replaced by a harder block for Class R, where no relocation or return-resampling
+null is admissible at all because relocation destroys the very property being tested.
+
+The charter's `construct` gate condition (iv) now requires a verdict to name its
+**definition class**. A `construct-negative` on Class N is silent about R and T, so
+a failure_log row without a class is not localised.
+
+## The finding registered as F005
+
+Of 76 definitions, 16 have ever had statistical apparatus attached. Of those, the
+7 that tested a level's own existence or location are all Class R, T, or N-X.
+**No Class N definition has ever had its existence tested** - not one pivot formula,
+extremum detector, clustering rule, or candle-geometry block. No source reports a
+confidence interval on a level location.
+
+Registered as F005 with layer `undetermined` and an explicit note that this is an
+*absence of testing*, not a null - a deliberate widening of the register's scope,
+flagged rather than smuggled. Its transferable positive is a checkable claim about
+why: the tested definitions are exactly those with an exogenous anchor against which
+"here and not there" is statable, so the testability gap tracks the identification
+problem rather than neglect.
+
+## Empirical separation of the two confounds
+
+Three definitions are jointly R and T. One is decisive: a tenfold tick-size
+reduction on an FX platform left limit orders clustered at the **old** permitted
+prices. Round-number behaviour survived removal of the grid that produced it. The
+branch needed exactly this natural experiment and did not know it existed.
+
+## Screening consequence for the four-instrument design
+
+Eight Class-N definitions are **affine-defective** - scale- but not
+translation-equivariant, because their tolerance is a percentage of price. One is
+not even scale-equivariant: its cluster-count selection compares a squared-price
+objective against an absolute constant. These must be screened out before any
+cross-instrument comparison, because ES near 7,700 and SI near 30 are not comparable
+under a percentage tolerance. This was not visible before the survey.
+
+## Gate verdict
+
+The research-compile gate returned `block` on 32 findings, all `G16`, all of the
+form "DOI did not resolve (HTTP 403)". **Same false-positive mechanism independently
+refuted in Addendum 5**, where all 40 sampled DOIs returned Handle System
+`responseCode: 1` against publisher 403s, with negative controls proving the check
+discriminating. The survey reports all 81 of its DOIs resolve via the Handle System.
+
+Disposition: dropped, on the Addendum 5 precedent. **Coverage caveat stated
+honestly** - Addendum 5 independently verified 40 specific identifiers; these are a
+different set of 32, verified by the producing agent rather than an independent one.
+The mechanism is identical and well-characterised, but this particular set has not
+had the independent pass. Recorded as `dropped (mechanism-established, set not
+independently re-verified)` rather than as a clean refutation.
+
+## Standing
+
+The cap remains reached. This addendum records a delegated deliverable and its
+consequences, not a fourth audit round. The survey itself is unaudited.

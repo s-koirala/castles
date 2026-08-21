@@ -212,6 +212,46 @@ provisional by the charter's own standard.
 
 ---
 
+## F005 — The most-used definitions of "level" have never been tested for existence
+
+- **Result as reported:** across 76 operational definitions of support/resistance
+  recovered from peer-reviewed literature, arXiv, GitHub, TradingView and
+  practitioner sources, only 16 have ever had statistical apparatus attached. Of
+  those, the 7 that tested the level's own **existence or location** are all Class R
+  (requires round numbers), Class T (requires the tick grid), or N-X (anchored to an
+  exogenous institutional grid). **Not one Class N definition — independent of both
+  confounds, and 70% of the corpus — has ever had its existence tested.** That
+  includes every pivot formula, every extremum detector, every clustering rule and
+  all eight candle-geometry constructions. No source reports a confidence interval
+  on a level location.
+- **Source:** [lit_review_level-definitions_2026-08-21.md](docs/literature/lit_review_level-definitions_2026-08-21.md),
+  81 included records from 390 screened. **Tier: mixed** — the review is a
+  single-screener, PRISMA-partial survey; its own declared gaps include that no full
+  text was read for any record and no forward-citation search was run, so the count
+  of definitions-with-a-test is a **lower bound**.
+- **Layer:** `undetermined`, and deliberately so.
+  - *Alternatives considered:* `source-artifact` (the literature tested what was
+    testable and the gap reflects publication practice), `question` (Class N
+    existence may not be identified without an exogenous anchor — which is precisely
+    what R, T and N-X definitions supply and N lacks), `data` (the tests exist but
+    are unindexed and the survey missed them).
+  - *Discriminating observation:* a forward-citation search from the seven tested
+    definitions, plus a targeted search for any Class N existence test. **Obtainable**
+    — the survey explicitly did not run one.
+  - *Why this is not yet a null:* no hypothesis has been tested and failed. This is
+    an **absence of testing**, not a negative result about levels. Registering it
+    here is a deliberate widening of the register's scope, flagged as such.
+- **Transferable positive:** the asymmetry is itself informative. The definitions
+  that *have* been tested are exactly those with an exogenous anchor — a round
+  number, a lattice, a strike — against which "the level is here and not there" is a
+  statable hypothesis. Class N definitions derive the level from the path itself,
+  which is what makes them convenient and also what makes an existence test require
+  a surrogate. **The testability gap tracks the identification problem, not neglect.**
+  That is a claim about why the literature looks the way it does, and it is checkable.
+- **Verified:** counts and taxonomy are the survey's own, verified programmatically
+  by it as exact and disjoint over all 76. Not independently re-verified.
+- **Autopsy:** not written. This row and F001 are the two that would most repay one.
+
 ## Column health check
 
 Standing check mandated by charter step 4: **the transfer column must not be

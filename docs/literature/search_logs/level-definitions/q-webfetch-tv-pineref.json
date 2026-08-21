@@ -1,0 +1,8 @@
+{
+ "query_id": "q-webfetch-tv-pineref",
+ "platform": "TradingView Pine Script v6 Language Reference via WebFetch",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "https://www.tradingview.com/pine-script-reference/v6/#fun_ta.pivothigh",
+ "n_records_retrieved": 0,
+ "finding": "VERIFICATION GAP. The reference manual is client-side rendered; WebFetch returned only the page header and navigation, not the function entry. The ta.pivothigh definition used in this review is taken from secondary restatements retrieved by q-websearch-01, not from the vendor reference itself, and is tiered accordingly."
+}

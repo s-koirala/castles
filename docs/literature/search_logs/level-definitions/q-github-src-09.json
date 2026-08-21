@@ -1,0 +1,37 @@
+{
+ "query_id": "q-github-src-09",
+ "platform": "raw.githubusercontent.com direct file retrieval (curl) at the repository default branch",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "curl -sL https://raw.githubusercontent.com/{repo}/{default-branch}/{path} for the seven paths listed below",
+ "n_records_retrieved": 7,
+ "items": [
+  {
+   "repo": "day0market/support_resistance",
+   "path": "pricelevels/cluster.py"
+  },
+  {
+   "repo": "day0market/support_resistance",
+   "path": "pricelevels/scoring/touch_scorer.py"
+  },
+  {
+   "repo": "BatuhanUsluel/Algorithmic-Support-and-Resistance",
+   "path": "SupportAndResistance.py"
+  },
+  {
+   "repo": "judopro/Stock_Support_Resistance_ML",
+   "path": "find_support_resistance_kmeans.py"
+  },
+  {
+   "repo": "bfolkens/py-market-profile",
+   "path": "src/market_profile/__init__.py"
+  },
+  {
+   "repo": "GregoryMorse/trendln",
+   "path": "trendln/__init__.py"
+  },
+  {
+   "repo": "joshyattridge/smart-money-concepts",
+   "path": "smartmoneyconcepts/smc.py"
+  }
+ ]
+}

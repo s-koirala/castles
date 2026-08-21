@@ -86,7 +86,44 @@ jumps, intraday autocorrelation, tick discreteness, and round-number clustering.
 Any of those moves the level statistics, so that surrogate would find a
 difference essentially always and attribute it to levels existing. Instead:
 
-> ### BLOCKED — branch 1 is not runnable as specified (quant-auditor F-3-1/F-3-3)
+> ### PARTIALLY UNBLOCKED 2026-08-21 — resolved by definition class
+>
+> The definitional survey
+> ([lit_review_level-definitions_2026-08-21.md](../literature/lit_review_level-definitions_2026-08-21.md))
+> found **76 distinct definitions** of "level" and partitioned them by an affine
+> test that is programmatically checkable rather than a judgment call: a
+> definition is independent of both confounds iff `L(a·p+b) = a·L(p)+b`.
+>
+> | Class | n | Surrogate admissibility |
+> |---|---|---|
+> | **N** — independent of both | **53 (70%)** | Random-relocation null **admissible as written** |
+> | **T** — requires the tick/exchange grid | 12 (16%) | Admissible **only if relocation is constrained to the lattice**; off-lattice relocation makes surrogate levels *uncomputable*, not merely wrong |
+> | **R** — requires round numbers | 7 (9%) | **No relocation or return-resampling null is admissible.** Relocating destroys roundness, so rejection is guaranteed and uninformative. The only identifying design located in the corpus is a redenomination natural experiment |
+> | unclassified | 4 (5%) | No rule obtainable from any source |
+>
+> **The premise that blocked this branch — that "level" cannot be separated from
+> round-number clustering and tick discreteness — is false for 53 of 76
+> definitions.** The block is lifted for Class N, conditioned for Class T, and
+> replaced by a *different and harder* block for Class R.
+>
+> **Consequence for every downstream artifact: a branch-1 claim must name its
+> definition class.** A `construct-negative` verdict on Class N says nothing
+> whatever about R or T. A failure_log row without a class is not localised.
+>
+> Three definitions are jointly R and T, and one separates the confounds
+> empirically: a tenfold tick-size reduction on an FX platform left limit orders
+> clustered at the **old** permitted prices — round-number behaviour surviving the
+> removal of the grid that produced it. That is the natural experiment this branch
+> needed and did not know existed.
+>
+> Eight Class-N definitions are **affine-defective**: scale- but not
+> translation-equivariant, because their tolerance is a percentage *of price*. One
+> is worse — its cluster-count selection compares a squared-price objective against
+> an absolute constant, so it is not even scale-equivariant. Screen these out
+> before any cross-instrument work: ES at ~7,700 and SI at ~30 are not comparable
+> under a percentage tolerance.
+>
+> ### The statistic remains invalid regardless of class (quant-auditor F-3-1/F-3-3)
 >
 > **The statistic is invalid on this data.** The dip test's null is derived for
 > i.i.d. sampling from a unimodal density. Price levels are integrated: over a

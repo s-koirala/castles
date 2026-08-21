@@ -1,0 +1,35 @@
+{
+ "query_id": "q-websearch-01",
+ "platform": "Claude Code WebSearch tool, US region",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "Pine Script \"ta.pivothigh\" definition \"leftbars\" \"rightbars\" returns price of the pivot high point",
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "url": "https://trading-strategies.academy/archives/4122"
+  },
+  {
+   "url": "https://pinewizards.com/technical-analysis-functions/ta-pivothigh-in-pine-script/"
+  },
+  {
+   "url": "https://www.tradingview.com/pine-script-docs/visuals/fills/"
+  },
+  {
+   "url": "https://pineify.app/pine-script-ta-pivothigh"
+  },
+  {
+   "url": "https://pineify.app/pine-script-ta-pivotlow"
+  },
+  {
+   "url": "https://www.codegenes.net/blog/how-pivothigh-and-pivotlow-function-work-on-tradingview-pinescript/"
+  },
+  {
+   "url": "https://in.tradingview.com/script/4bvrN6JO-Pivot-Points-High-LowGanesh"
+  },
+  {
+   "url": "https://de.tradingview.com/script/4bvrN6JO-Pivot-Points-High-LowGanesh"
+  }
+ ],
+ "extracted_verbatim": "ta.pivothigh(source, leftbars, rightbars) returns the price of a pivot high point, or NaN if there was no pivot high point. leftbars: how many bars to the left of a potential pivot are considered, and the current bar needs to be higher than these to qualify as a pivot high. rightbars: the number of bars to the right, and the current bar should be higher than these bars for it to be a pivot high. A pivot is confirmed only after rightbars complete.",
+ "tier_note": "Tier 5 restatements; the vendor reference page itself did not render (see q-webfetch-tv-pineref)."
+}

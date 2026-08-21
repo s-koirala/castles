@@ -1,0 +1,40 @@
+{
+ "query_id": "q-websearch-02",
+ "platform": "Claude Code WebSearch tool, US region",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "CME Group Market Profile TPO value area 70% one standard deviation Steidlmayer handbook definition",
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "url": "https://www.tradealgo.com/trading-guides/technical-analysis/market-profile-how-to-understand-value-areas-and-price-distribution"
+  },
+  {
+   "url": "https://www.luxalgo.com/library/concept/tpo-profile/"
+  },
+  {
+   "url": "https://traderalpha1.substack.com/p/a-comprehensive-guide-to-market-profile"
+  },
+  {
+   "url": "https://arxum.com/market-profile-trading/"
+  },
+  {
+   "url": "https://www.stptrading.io/blog/market-profile-vs-volume-profile/"
+  },
+  {
+   "url": "https://grandalgo.com/blog/market-profile-trading-explained"
+  },
+  {
+   "url": "https://sacredtraders.com/market-profile-basics-by-jayanthi-gopalakrishnan/"
+  },
+  {
+   "url": "https://help.cqg.com/cqgic/25/Documents/marketprofilevalueareasmpva.htm"
+  },
+  {
+   "url": "https://www.topstep.com/blog/intro-to-auction-market-theory-and-market-profile"
+  },
+  {
+   "url": "https://grokipedia.com/page/Market_profile"
+  }
+ ],
+ "finding": "No source above evidence tier 5 states the 70% value-area rule primitively. The claim that 70% approximates one standard deviation of a Gaussian is asserted only at tier 5. No CME Group or CBOT primary document was located. This replicates the negative already logged for the regime-classification corpus."
+}

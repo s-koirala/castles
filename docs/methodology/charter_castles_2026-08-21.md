@@ -230,7 +230,12 @@ layer may be asserted only with **all four** of:
   (iii) a **positive control** — an injected instance of the construct at the
         smallest interesting magnitude must be recovered by the same statistic,
         demonstrating the test could have found it;
-  (iv) an explicit scope: instrument, timescale, feature set, measurement;
+  (iv) an explicit scope: instrument, timescale, feature set, measurement, **and
+       — where the construct has competing operational definitions — the
+       definition class the verdict applies to**. A `construct-negative` on one
+       class is silent about the others. The level survey is the worked case: 76
+       definitions partition into three classes with different admissible nulls,
+       and a verdict naming no class is not localised;
   (v) a **negative control on the surrogate itself** — the surrogate must be shown,
       by the same statistic, *not* to exhibit the construct.
 

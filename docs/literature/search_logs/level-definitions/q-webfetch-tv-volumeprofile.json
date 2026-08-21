@@ -1,0 +1,20 @@
+{
+ "query_id": "q-webfetch-tv-volumeprofile",
+ "platform": "TradingView Help Center (tradingview.com/support) via WebFetch",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "https://www.tradingview.com/support/solutions/43000502040-volume-profile/",
+ "n_records_retrieved": 1,
+ "extracted_verbatim": {
+  "POC": "The price level for the time period with the highest traded volume.",
+  "value_area_algorithm": [
+   "Determine the total volume traded in the profile (total buys and sells).",
+   "Multiply total volume by the chosen percentage to establish the target volume.",
+   "Begin at the POC and expand outward by selecting the larger volume candidate between rows above and below.",
+   "If adding it does not exceed the remaining target volume, include it and update the corresponding boundary.",
+   "Continue alternating sides until reaching the target volume."
+  ],
+  "percentage": "this percentage is set to 70%, however, it is up to the trader's discretion",
+  "VAH_VAL": "When the target volume is reached, the highest included row becomes the Value Area High (VAH), and the lowest included row becomes the Value Area Low (VAL).",
+  "row_definition": "The page mentions user-defined parameters such as number of rows but gives no technical specification of row size or ticks per row."
+ }
+}

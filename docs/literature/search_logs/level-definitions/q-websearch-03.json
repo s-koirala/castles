@@ -1,0 +1,41 @@
+{
+ "query_id": "q-websearch-03",
+ "platform": "Claude Code WebSearch tool, US region",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "ICT \"order block\" original definition \"last down candle before\" operational rule Inner Circle Trader",
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "url": "https://fxopen.com/blog/en/what-are-the-inner-circle-trading-concepts/"
+  },
+  {
+   "url": "https://crosstrade.io/learn/price-action/order-blocks"
+  },
+  {
+   "url": "https://blog.trinitytrading.io/order-blocks-ict-trading-guide-2026/"
+  },
+  {
+   "url": "https://eplanetbrokers.com/training/mastering-order-blocks"
+  },
+  {
+   "url": "https://www.litefinance.org/blog/for-beginners/trading-strategies/ict-trading-strategy/"
+  },
+  {
+   "url": "https://atas.net/blog/what-are-ict-order-blocks-and-breaker-blocks-in-trading/"
+  },
+  {
+   "url": "https://innercircletrader.net/tutorials/ict-bullish-order-block/"
+  },
+  {
+   "url": "https://innercircletrader.net/tutorials/ict-order-block/"
+  },
+  {
+   "url": "https://innercircletrader.net/tutorials/ict-breaker-block-trading/"
+  },
+  {
+   "url": "https://kr.tradingview.com/script/yTEnsbav"
+  }
+ ],
+ "extracted_verbatim": "An order block is the last opposing candle before an impulsive move - the last bearish (down-close) candle before a bullish push for a bullish order block, the last bullish (up-close) candle before a bearish push for a bearish order block.",
+ "finding": "All ten records are tier 5. No primary written specification by the originator was located; every operational statement retrieved is a secondary restatement by a broker, vendor or educator site. The zone bounds - candle body versus candle high-low - are not agreed across the ten sources."
+}

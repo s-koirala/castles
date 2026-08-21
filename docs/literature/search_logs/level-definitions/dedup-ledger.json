@@ -1,0 +1,46 @@
+{
+ "slug": "level-definitions",
+ "date": "2026-08-21",
+ "rule": "Stage 1 (automated): exact identifier match, case-folded, over DOI for Crossref records, arXiv id with version stripped for arXiv records, and repo+path for GitHub records. Stage 2 (manual, single screener): same-work grouping across identifier systems - preprint or working-paper record superseded by its published version, chapter DOI variants across editions or platforms of the same book, and one arXiv-to-conference pair. Software: python 3.11 standard library set operations for stage 1; no reference-manager deduplication was used.",
+ "stage1_exact_identifier": {
+  "id_bearing_records": 398,
+  "distinct": 387,
+  "duplicate_instances_removed": 11
+ },
+ "stage2_same_work_across_identifiers": {
+  "duplicate_instances_removed": 35,
+  "groups": [
+   {"retained": "10.1093/rfs/hhg057", "removed": ["10.2139/ssrn.315660"], "n": 1},
+   {"retained": "10.1111/0022-1082.00265", "removed": ["10.3386/w7613", "10.1016/b978-075065516-3.50004-2"], "n": 2},
+   {"retained": "10.1016/j.euroecorev.2005.09.001", "removed": ["10.2139/ssrn.417321"], "n": 1},
+   {"retained": "10.1111/j.1540-6261.1994.tb04782.x", "removed": ["10.2307/2329272"], "n": 1},
+   {"retained": "10.1287/mnsc.1110.1364", "removed": ["10.2139/ssrn.1356192", "10.2139/ssrn.1303700"], "n": 2},
+   {"retained": "10.1088/1469-7688/2/4/301", "removed": ["10.2139/ssrn.507362"], "n": 1},
+   {"retained": "10.1088/1469-7688/2/5/308", "removed": ["10.2139/ssrn.316160"], "n": 1},
+   {"retained": "10.1287/opre.1090.0780", "removed": ["10.2139/ssrn.1273160"], "n": 1},
+   {"retained": "10.1016/j.jimonfin.2004.12.002", "removed": ["10.2139/ssrn.920687"], "n": 1},
+   {"retained": "10.1016/j.jfineco.2012.06.010", "removed": ["10.2139/ssrn.1664261"], "n": 1},
+   {"retained": "10.1016/j.jfineco.2004.08.005", "removed": ["10.2139/ssrn.519044"], "n": 1},
+   {"retained": "10.1088/1469-7688/3/6/301", "removed": ["10.2139/ssrn.458020"], "n": 1},
+   {"retained": "10.1016/j.rfe.2006.04.001", "removed": ["10.2139/ssrn.669761"], "n": 1},
+   {"retained": "10.1080/14697688.2013.803148", "removed": ["10.2139/ssrn.1970185"], "n": 1},
+   {"retained": "10.2307/2937922", "removed": ["10.3386/w2481"], "n": 1},
+   {"retained": "10.1111/1540-6261.00588", "removed": ["10.2139/ssrn.923370"], "n": 1},
+   {"retained": "10.5220/0014988200004091", "removed": ["arXiv:2507.01971"], "n": 1},
+   {"retained": "10.2139/ssrn.5007093", "removed": ["10.2139/ssrn.5043925"], "n": 1},
+   {"retained": "10.1016/j.gfj.2008.09.001", "removed": ["10.2139/ssrn.672097"], "n": 1},
+   {"retained": "10.1002/(sici)1099-1158(199710)2:4<267::aid-jfe57>3.0.co;2-j", "removed": ["10.1007/978-1-4615-4621-4_6"], "n": 1},
+   {"retained": "10.1201/9781420013146.ch13", "removed": ["10.1201/9781420013146-27", "10.1201/b14301-23"], "n": 2},
+   {"retained": "10.1201/9781420013146.ch30", "removed": ["10.1201/9781420013146-52", "10.1201/b14301-40"], "n": 2},
+   {"retained": "10.1201/9781420013146.ch32", "removed": ["10.1201/9781420013146-54", "10.1201/b14301-42", "10.4324/9781315115719-33"], "n": 3},
+   {"retained": "10.1002/9781119295594.ch6", "removed": ["10.1002/9781119202233.ch6"], "n": 1},
+   {"retained": "10.1002/9781119295594.ch1", "removed": ["10.1002/9781119202233.ch1"], "n": 1},
+   {"retained": "10.1002/9781119295594.fmatter", "removed": ["10.1002/9781119202233.fmatter"], "n": 1},
+   {"retained": "10.1007/0-387-26336-5_1957", "removed": ["10.1007/springerreference_2595"], "n": 1},
+   {"retained": "10.1007/0-387-26336-5_1585", "removed": ["10.1007/springerreference_2223"], "n": 1},
+   {"retained": "10.1142/9789812816214_0019", "removed": ["10.1142/9789812815385_0019"], "n": 1}
+  ]
+ },
+ "total_duplicates_removed": 46,
+ "caveat": "Stage 2 is a single-screener judgement. Its unit is the retrieved record, not the work; a record removed here was retrieved a second time under a different identifier for the same underlying study or chapter. Records removed at stage 2 are not eligible for the item-16b near-miss table, which lists works excluded on eligibility grounds rather than as duplicates."
+}
