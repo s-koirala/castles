@@ -43,7 +43,10 @@ predecessor: deliverable_spec_think-tank-charter_2026-08-21.md
     refute-gate dispositions, and remediation records.
   - check: file exists, written this session, per skill §Post-loop field spec.
 
-- [ ] Commit via /commit-with-provenance
+- [x] Commit via /commit-with-provenance — `a150e74aef0a` on `main`; `git log
+  -1` verified showing all three trailers (Repro-Log-Path, Repro-Log-SHA256
+  `3ccfcc2a…`, AI-Assistance `claude-fable-5 (role=multi)`); hash recorded as a
+  dated addendum in the audit trail per SCOPE-1-3
   - state: All remediated files committed with Repro-Log trailers, role=multi.
   - check: `git log -1` shows Repro-Log-Path / Repro-Log-SHA256 / AI-Assistance
     trailers.

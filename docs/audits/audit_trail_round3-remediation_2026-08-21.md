@@ -502,3 +502,31 @@ dated addendum that identifies what it corrects. Retention follows the
 repository's git history; the tracked file is the durable record, and the
 round-2 artifact digests above bind this record to the exact artifact states
 verified.
+
+---
+
+# Addendum — provenance commit landed (2026-08-21)
+
+Discharges SCOPE-1-3 (round 1, retained) and completes the round-1
+ai-assistance-statement's open item ("The commit hash is to be recorded here
+as a dated addendum when it lands"). Appended per 21 CFR 11.10(e); no prior
+entry edited.
+
+- Commit: `a150e74aef0af326c2165b4a209e5add3d4b0e02` on `main`
+  ("docs: remediate round-3 failures; charter Rev 3 citations, agenda
+  branch-1 attributions"), containing both remediated artifacts, both
+  deliverable specs, and this trail with its two sidecars.
+- Trailers, verbatim from `git log -1`:
+  - `Repro-Log-Path: logs/reproducibility/repro_log_6cb08a6f41dd497e9ca57d8e7f8d72c8.json`
+  - `Repro-Log-SHA256: 3ccfcc2a13fa8c175666799bf650696da6853c3686dc2756b33519a7d53d8e83`
+  - `AI-Assistance: claude-fable-5 (role=multi)`
+- A session-scoped ReproLog was additionally emitted before the terminal
+  bookkeeping phase: `repro_log_e23cae864c6c46289d17fe961cc05d5f.json`,
+  SHA-256 `61373c01eff7f2dcec72e9496bb8e7df52734f67ad75f70d2587a765901f415b`,
+  `git_head 57b409cb`, `config_resolved_sha256` = the round3-remediation spec
+  at audit time. Both logs are gitignored; the digests above are the
+  clone-durable anchors. The environment freeze digest is the SHA-256 of
+  empty output — the project venv holds zero installed packages, which is the
+  true state of this stdlib-only documentation session.
+- This addendum and the spec's box-5 tick are committed separately as closure
+  bookkeeping; that commit's own trailers carry its provenance.
