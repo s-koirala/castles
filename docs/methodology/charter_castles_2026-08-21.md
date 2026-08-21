@@ -3,8 +3,13 @@ type: charter
 slug: castles
 date: 2026-08-21
 status: living
-revision: 2
+revision: 3
 revision_note: >
+  Rev 3 (2026-08-21) remediates the round-3 audit failure under
+  deliverable_spec_round3-remediation_2026-08-21.md: the six claim-bearing H2
+  sections carrying neither an inline citation nor a CONVENTION label now carry
+  primary-source citations verified against Crossref (all DOI handles resolve).
+  No substantive position changed.
   Rev 2 (2026-08-21) applies critical-reviewer round-1 findings REV-1-1 through
   REV-1-6, REV-1-16, REV-1-18, REV-1-19. Rev 1 specified a vocabulary for
   negative-result forensics without the decision procedures that make it
@@ -54,9 +59,13 @@ it unchallenged, which is why it is stated here rather than assumed.
    > stated in §"Falsification of commitment 1" below and is open.
 
 2. **Negative-result forensics.** A published null is an object of study, not a
-   dead end. See §"Negative-result protocol". This is the house specialty and
-   the reason the project exists — see §"Prior art posture" for what is
-   genuinely novel here, which is less than the phrase implies.
+   dead end. See §"Negative-result protocol". Negative results are a shrinking
+   share of the published literature
+   ([Fanelli 2012](https://doi.org/10.1007/s11192-011-0494-7), *Scientometrics*
+   90:891–904), which is part of what makes the surviving ones worth forensic
+   attention. This is the house specialty and the reason the project exists —
+   see §"Prior art posture" for what is genuinely novel here, which is less
+   than the phrase implies.
 
 3. **No unlabelled constants.** Every numeric threshold in every artifact is
    either derived from a cited procedure, selected by a documented search over a
@@ -66,11 +75,18 @@ it unchallenged, which is why it is stated here rather than assumed.
 4. **Causal-time discipline.** For any time-indexed claim, state what
    information was available at the decision point. Applies beyond finance:
    an epidemiological exposure window, a citation-count snapshot, and a
-   backtest feature are the same problem.
+   backtest feature are the same problem — the formal treatment is leakage
+   ([Kaufman, Rosset, Perlich & Stitelman 2012](https://doi.org/10.1145/2382577.2382579),
+   *ACM Transactions on Knowledge Discovery from Data* 6(4):15).
 
 5. **Attribution fidelity.** A claim traced to a secondary source is marked as
    such. Method attributions are verified against the originating paper, not
-   against the field's habit of citing a review.
+   against the field's habit of citing a review: citation chains distort
+   claims and manufacture unfounded authority
+   ([Greenberg 2009](https://doi.org/10.1136/bmj.b2680), *BMJ* 339:b2680), and
+   misprint propagation suggests most citers never read the original
+   ([Simkin & Roychowdhury 2003](https://doi.org/10.25088/ComplexSystems.14.3.269),
+   *Complex Systems* 14(3):269–274).
 
 ## Admissible output types
 
@@ -89,13 +105,19 @@ Register of nulls encountered: [failure_log.md](../../failure_log.md).
 
 ### Systematic review standard
 
-A systematic review here is conducted and reported to **PRISMA 2020**, not to a
+A systematic review here is conducted and reported to **PRISMA 2020**
+([Page et al. 2021](https://doi.org/10.1136/bmj.n71), *BMJ* 372:n71), not to a
 lighter project-local standard. At minimum: a protocol registered before
-searching, eligibility criteria fixed in advance, the search strategy recorded
-verbatim per database with dates, dual independent screening and extraction with
-an agreement measure, a risk-of-bias instrument applied per included study, a
+searching ([PRISMA-P; Moher et al. 2015](https://doi.org/10.1186/2046-4053-4-1),
+*Systematic Reviews* 4:1), eligibility criteria fixed in advance, the search
+strategy recorded verbatim per database with dates, dual independent screening
+and extraction with an agreement measure, a risk-of-bias instrument applied per
+included study (for randomized designs, RoB 2 —
+[Sterne et al. 2019](https://doi.org/10.1136/bmj.l4898), *BMJ* 366:l4898), a
 flow accounting of records screened and excluded with reasons, and a
-small-study/publication-bias assessment. Search provenance and a CSL-JSON store
+small-study/publication-bias assessment
+([Egger, Davey Smith, Schneider & Minder 1997](https://doi.org/10.1136/bmj.315.7109.629),
+*BMJ* 315:629–634). Search provenance and a CSL-JSON store
 are necessary but nowhere near sufficient; a corpus with a query log is a
 narrative review and must be labelled as one.
 
@@ -104,6 +126,11 @@ narrative review and must be labelled as one.
 Inherits the hierarchy in `~/.claude/CLAUDE.md`: peer-reviewed literature →
 official documentation → professional standards → vetted technical forums →
 reproduction of the referenced method. No paraphrase without verification.
+`CONVENTION` — the ordering is a house standard, not itself derived from a
+study; graded evidence hierarchies are ordinary professional practice
+([GRADE; Guyatt et al. 2008](https://doi.org/10.1136/bmj.39489.470347.AD),
+*BMJ* 336:924–926), but this project's specific ordering carries no external
+warrant.
 
 Three project-local additions:
 
@@ -121,17 +148,24 @@ Three project-local additions:
 
 ## Publication-bias posture
 
-The project's input stream is published nulls, which are a non-random sample:
-selected on surprise, on contrarian framing, or on having refuted a
-high-profile positive. Nothing in the protocol below distinguishes "this null is
-informative" from "this null is what survived the file drawer" unless the
-following are recorded per source:
+The project's input stream is published nulls, which are a non-random sample
+([Franco, Malhotra & Simonovits 2014](https://doi.org/10.1126/science.1255484),
+*Science* 345:1502–1505 — most nulls are never written up at all): selected on
+surprise, on contrarian framing, or on having refuted a high-profile positive.
+Nothing in the protocol below distinguishes "this null is informative" from
+"this null is what survived the file drawer"
+([Rosenthal 1979](https://doi.org/10.1037/0033-2909.86.3.638), *Psychological
+Bulletin* 86:638–641) unless the following are recorded per source:
 
 - Was the study preregistered, and is there a registry or registered-report
   record?
 - Does a matched positive literature exist on the same question?
 - Is the null the study's primary declared outcome, or a secondary result
-  reframed?
+  reframed? Outcome switching is documented and common —
+  62% of trials in the reference cohort changed, introduced, or omitted a
+  primary outcome
+  ([Chan, Hróbjartsson, Haahr, Gøtzsche & Altman 2004](https://doi.org/10.1001/jama.291.20.2457),
+  *JAMA* 291:2457–2465).
 
 An unrecorded answer is recorded as unknown, not skipped.
 
@@ -301,11 +335,24 @@ is the honest position — and it is the project's first scheduled systematic
 review.
 
 Bodies of practice that already cover much of what the five steps do:
-equivalence testing and TOST for making nulls informative; SESOI specification,
-which is exactly the comparator step 2 needs; registered reports and
-results-blind review as the structural fix for the file drawer; severity and
-design-sensitivity analysis as the formal treatment of "could this design have
-found it"; and the existing negative-results and replication-study literature.
+equivalence testing and TOST for making nulls informative
+([Schuirmann 1987](https://doi.org/10.1007/BF01068419), *Journal of
+Pharmacokinetics and Biopharmaceutics* 15:657–680;
+[Lakens 2017](https://doi.org/10.1177/1948550617697177), *Social Psychological
+and Personality Science* 8:355–362); SESOI specification, which is exactly the
+comparator step 2 needs
+([Lakens, Scheel & Isager 2018](https://doi.org/10.1177/2515245918770963),
+*Advances in Methods and Practices in Psychological Science* 1:259–269);
+registered reports and results-blind review as the structural fix for the file
+drawer ([Chambers 2013](https://doi.org/10.1016/j.cortex.2012.12.016), *Cortex*
+49:609–610; [Chambers & Tzavella 2022](https://doi.org/10.1038/s41562-021-01193-7),
+*Nature Human Behaviour* 6:29–42); severity and design-sensitivity analysis as
+the formal treatment of "could this design have found it"
+([Mayo & Spanos 2006](https://doi.org/10.1093/bjps/axl003), *The British
+Journal for the Philosophy of Science* 57:323–357;
+[Rosenbaum 2004](https://doi.org/10.1093/biomet/91.1.153), *Biometrika*
+91:153–164); and the existing negative-results and replication-study
+literature.
 
 Until that review is written, no claim of novelty is made for anything in
 §"Negative-result protocol".
@@ -314,8 +361,10 @@ Until that review is written, no claim of novelty is made for anything in
 
 Commitment 1 asserts the method is domain-general. It is currently supported by
 zero artifacts: both seeded agendas are finance and software, and the only
-operational procedure anywhere in the protocol — surrogate-data testing — is a
-time-series technique with no cross-sectional analogue.
+operational procedure anywhere in the protocol — surrogate-data testing
+([Theiler, Eubank, Longtin, Galdrikian & Farmer 1992](https://doi.org/10.1016/0167-2789(92)90102-S),
+*Physica D* 58:77–94) — is a time-series technique with no cross-sectional
+analogue.
 
 **Test.** Work one epidemiological null and one engineering/reliability null
 through all five steps.

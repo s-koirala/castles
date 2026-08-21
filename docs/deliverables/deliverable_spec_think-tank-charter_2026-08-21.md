@@ -7,7 +7,17 @@ session_objective: Establish castles as a standing cross-domain research think t
 
 # Deliverables
 
-- [ ] `docs/methodology/charter_castles_2026-08-21.md`  — **UNTICKED round 3**
+- [x] `docs/methodology/charter_castles_2026-08-21.md`  — **TICKED under
+  [deliverable_spec_round3-remediation_2026-08-21.md](deliverable_spec_round3-remediation_2026-08-21.md)**
+  (Rev 3, 2026-08-21). Per-section check output: Standing commitments
+  `](http`=4/CONVENTION=1; Admissible output types 4/0; Evidence standard 1/1;
+  Publication-bias posture 3/0; Negative-result protocol 1/2; Failure taxonomy
+  0/1; Prior art posture 7/0; Falsification of commitment 1 1/0 — all eight
+  claim-bearing H2 spans PASS individually. Confirmed by audit rounds 1–2
+  (three branches; literature-check resolved 31 citations via Crossref/handle
+  API) in
+  [audit_trail_round3-remediation_2026-08-21.md](../audits/audit_trail_round3-remediation_2026-08-21.md).
+  The round-3 failure record below is retained unedited.
   - state: Charter states scope, admissible output types, evidence standards, and the negative-result forensics protocol; every methodological claim carries a citation or is explicitly labelled convention.
   - **round-3 result: FAILS.** The file contains exactly one `](http` and four
     `CONVENTION` tokens; six of eight claim-bearing H2 sections carry neither
@@ -22,7 +32,16 @@ session_objective: Establish castles as a standing cross-domain research think t
   - state: Four-branch subtopic tree (level estimation, state assignment, transition detection, parameter selection) with each branch naming its method, its citation, and its falsification test.
   - check: four H2 branch headings; a `**Falsification` block under each; **and** every branch names at least one attributed method (author-year or DOI). The original check tested the skeleton only and was blind to the missing-citation failure it was meant to catch (audit F-4, F-5).
 
-- [ ] `docs/research_notes/research_agenda_architecture_2026-08-21.md`  — **UNTICKED round 3**
+- [x] `docs/research_notes/research_agenda_architecture_2026-08-21.md`  — **TICKED under
+  [deliverable_spec_round3-remediation_2026-08-21.md](deliverable_spec_round3-remediation_2026-08-21.md)**
+  (2026-08-21). Per-branch check output: 1. Platform selection `](http`=9,
+  Falsification=Y; 2. Prior art 6/Y; 3. Human-in-the-loop frame 7/Y — all
+  three branches PASS individually (branch 1 was 0). Branch-1 attributions
+  verified against Crossref; Carchano & Pardo 2009 cited as a null with an
+  indecisive-about-magnitude license per audit finding REV-1-1. Confirmed by
+  audit rounds 1–2 in
+  [audit_trail_round3-remediation_2026-08-21.md](../audits/audit_trail_round3-remediation_2026-08-21.md).
+  The round-3 failure record below is retained unedited.
   - state: Three-branch subtopic tree (platform selection, prior art, human-in-the-loop) with the same per-branch structure.
   - **round-3 result: FAILS.** Per-branch citation counts are 0 / 6 / 7. Branch 1
     (Platform selection) names vendors and transports but not one attributed

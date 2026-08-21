@@ -1,0 +1,56 @@
+{
+  "round": 2,
+  "date": "2026-08-21",
+  "cwd": "C:/Users/skoir/castles",
+  "artifacts": [
+    "docs/methodology/charter_castles_2026-08-21.md",
+    "docs/research_notes/research_agenda_architecture_2026-08-21.md"
+  ],
+  "taskSpec": "Round 2 of the round3-remediation loop (deliverable_spec_round3-remediation_2026-08-21.md). Round 1 verdict was proceed-with-remediation with two substantive retained majors, both now remediated in docs/research_notes/research_agenda_architecture_2026-08-21.md: REV-1-1 — the Carchano & Pardo 2009 citation license was weakened from 'negligible impact where tested' to 'no detected difference where tested — indecisive about magnitude absent an equivalence bound' (fix (b) as specified by the finding); REV-1-2 — the sentence 'The question is not whether they failed but what the failures identify about the data' was rewritten to hold the question open at evidence tier ('Whether the reported failures hold is open at their evidence tiers... The autopsies' object is what the failures, if they hold, identify about the data'), and the F001/F002 register mapping was corrected to 'F002 and F001 respectively' matching failure_log.md. VERIFY ONLY: (a) both remediations are present and adequate against the retained findings' fix specifications; (b) the remediation edits introduced no new defect in their vicinity; (c) per-section citation/CONVENTION coverage is undisturbed (it was re-verified passing per-section after the edits). DO NOT re-raise: the six round-1 minors (REV-1-3 four-vs-five cardinality, REV-1-4 pending-tier enumeration, REV-1-5 branch-1 falsification parameters, REV-1-6 cross-sectional-analogue overstatement, LITERATURE-1-1 Ane & Geman non-replication caveat, LITERATURE-1-2 Crossref retroactive-registration year) — all are logged in the trail as open minors per invitesPolish=false, deferred by protocol, not missed. DO NOT re-raise SCOPE-1-2 (audit trail) and SCOPE-1-3 (provenance commit) — these are the documented terminal bookkeeping phase executed after this round returns accept. The G16 DOI-resolution false-positive class is closed: test handle resolution (https://doi.org/api/handles/{doi} responseCode 1), never publisher-page fetchability.",
+  "routing": [
+    "critical-reviewer",
+    "scope-auditor",
+    "literature-check"
+  ],
+  "tiers": [
+    {
+      "branch": "critical-reviewer",
+      "effort": "high"
+    },
+    {
+      "branch": "scope-auditor",
+      "effort": "medium"
+    },
+    {
+      "branch": "literature-check",
+      "effort": "high"
+    }
+  ],
+  "branch_verdicts": {
+    "critical-reviewer": "accept",
+    "scope-auditor": "accept",
+    "literature-check": "accept"
+  },
+  "residual_risks": {
+    "critical-reviewer": "Both retained round-1 majors are remediated as specified and no new defect was introduced in the vicinity of either edit. Residual risk is confined to items already dispositioned: (1) the six open minors logged per invitesPolish=false — notably the charter's construct-gate \"all four\"/five-item cardinality mismatch (REV-1-3) and the pending-tier enumeration gap (REV-1-4), which remain visible inconsistencies a cold reader could trip on until a polish pass runs; (2) terminal bookkeeping (SCOPE-1-2 audit trail, SCOPE-1-3 provenance commit) is sequenced after this accept and is not yet on disk; (3) the F001 load-bearing negative result remains preprint-tier by design — the deliverable now labels this correctly everywhere checked, but the project's most consequential claim still rests on an unrefereed source until the F001 autopsy executes protocol steps 1-2. None of these blocks acceptance of the two remediations under review.",
+    "scope-auditor": "Spec source: docs/deliverables/deliverable_spec_round3-remediation_2026-08-21.md (precedence 1; no conflict with the task spec). S-1 and S-2 verified satisfied per-section/per-branch, not by aggregate counts (predecessor F-1/F-5 discipline observed). Both round-1 retained majors (REV-1-1, REV-1-2) are remediated exactly per their fix specifications, with the F002/F001 register mapping confirmed against failure_log.md, and no drift introduced in the edited vicinity. Residual open spec items are S-3 (predecessor box-ticking), S-4 (audit trail), and S-5 (provenance commit) — all three are the documented terminal bookkeeping phase dispositioned in round 1 (SCOPE-1-1 dropped at refute gate; SCOPE-1-2/1-3 sequenced after accept) and are not re-reported. The residual risk is purely procedural: if the session ends without executing that bookkeeping phase, the predecessor spec will carry ticked-state drift and the trail/commit deliverables will be silently omitted with no auditor left in the loop to catch it; the trail and commit must be verified by the orchestrator after this round returns. No scope creep detected: shipped set matches the declared deliverable set with no undeclared additions.",
+    "literature-check": "Carchano & Pardo 2009 content claim verified at abstract level (five criteria; \"not significant differences between the resultant series\" confirmed verbatim), not against full text — adequate for the weakened claim license, which is strictly more conservative than the source. The phrase \"open at their evidence tiers\" applies most forcefully to F001 (preprint); F002 is accepted-preprint (NeurIPS 2024 Spotlight) and its layer is marked settled in failure_log.md — the sentence's tier-relative phrasing accommodates this and matches the fix specification verbatim, so no defect, but readers could over-read openness for F002. Six round-1 minors (including LITERATURE-1-1 Ané & Geman non-replication caveat and LITERATURE-1-2 Crossref retroactive-registration year) remain open in the trail per invitesPolish=false, deferred by protocol. arXiv 2606.27100 remains unrefereed; any future acceptance would require a tier bump in both artifacts and failure_log.md."
+  },
+  "remediate": [],
+  "refuted": [],
+  "minors_logged": [],
+  "refute_gate_dispositions": [],
+  "counts": {
+    "raw_critical": 0,
+    "raw_major": 0,
+    "raw_minor": 0,
+    "refuted": 0,
+    "retained_conservative": 0,
+    "to_remediate": 0,
+    "minors_logged": 0
+  },
+  "verdict": "accept",
+  "rounds_cap": 3,
+  "cap_reached": false,
+  "prior_dispositions": "Round 1 (this spec): 3 branches routed (critical-reviewer high, scope-auditor medium, literature-check high); literature-check verdict accept (31 citations verified via Crossref/handle API, per-section coverage confirmed); 5 raw majors -> refute gate dropped SCOPE-1-1 (logical proof: box-ticking deferral is documented in the spec's Self-executed section); retained REV-1-1 and REV-1-2 (both now remediated as described in taskSpec), SCOPE-1-2 and SCOPE-1-3 (terminal bookkeeping, sequenced after this round); 6 minors logged not remediated per invitesPolish=false. Predecessor spec (think-tank-charter) history: F-5 whole-file/aggregate counts inadmissible — per-section/per-branch verification mandatory; F-1 skeleton-only checks blind to missing citations; G16 40 DOI false positives on publisher-page 403s — handle resolution is the test."
+}

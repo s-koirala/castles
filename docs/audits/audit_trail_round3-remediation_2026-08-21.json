@@ -1,0 +1,316 @@
+{
+  "round": 1,
+  "date": "2026-08-21",
+  "cwd": "C:/Users/skoir/castles",
+  "artifacts": [
+    "docs/methodology/charter_castles_2026-08-21.md",
+    "docs/research_notes/research_agenda_architecture_2026-08-21.md"
+  ],
+  "taskSpec": "Remediation of the two round-3 failures from deliverable_spec_think-tank-charter_2026-08-21.md, executed under deliverable_spec_round3-remediation_2026-08-21.md (fresh 3-round cap, this is round 1 of the new spec). Charter Rev 3: the six claim-bearing H2 sections that carried neither an inline citation nor a CONVENTION label (Standing commitments; Admissible output types incl. PRISMA specification; Evidence standard; Publication-bias posture; Prior art posture; Falsification of commitment 1) must now each carry a verified primary-source citation or explicit CONVENTION label, verified PER SECTION, never by whole-file count (predecessor finding F-5). Architecture agenda: branch 1 (Platform selection) must name at least one attributed method (author-year with DOI/URL); branches 2-3 unchanged. All newly inserted citations were pre-verified against Crossref and the doi.org handle API by two citation-sourcing subagents; audit focus is (a) attribution fidelity — does each cited source actually support the claim at its insertion point, especially Carchano & Pardo 2009 which found NO significant roll-criterion differences and must only be cited as a null; (b) per-section coverage; (c) no regression of predecessor findings. The G16 DOI-resolution false-positive class is closed: test handle resolution (https://doi.org/api/handles/{doi} responseCode 1), never publisher-page fetchability — Oxford/Wiley/T&F/INFORMS 403s on automated requests are not failures.",
+  "routing": [
+    "critical-reviewer",
+    "scope-auditor",
+    "literature-check"
+  ],
+  "tiers": [
+    {
+      "branch": "critical-reviewer",
+      "effort": "high"
+    },
+    {
+      "branch": "scope-auditor",
+      "effort": "medium"
+    },
+    {
+      "branch": "literature-check",
+      "effort": "high"
+    }
+  ],
+  "branch_verdicts": {
+    "critical-reviewer": "proceed-with-remediation",
+    "scope-auditor": "proceed-with-remediation",
+    "literature-check": "accept"
+  },
+  "residual_risks": {
+    "critical-reviewer": "Acceptance criteria of the round-3 remediation spec are met: all six previously bare charter H2 sections (Standing commitments; Admissible output types incl. PRISMA; Evidence standard; Publication-bias posture; Prior art posture; Falsification of commitment 1) now carry per-section verified primary-source citations or an explicit CONVENTION label — verified section by section, not by whole-file count (F-5 satisfied); agenda branch 1 carries eleven attributed methods with author-year plus DOI/URL (F-1 satisfied); no G16-class DOI finding is raised (handle-API closure respected). Attribution fidelity at each insertion point checked from the artifact against reviewer knowledge of the sources: Chan 2004's 62% figure, Franco 2014's most-nulls-unwritten claim, Hoenig & Heisey's monotone-transform statement, Goldberg 1991 for ULP/relative-error, and the Clark/Ané-Geman/Easley trading-time chain all support their claims as placed. Residual risks: (1) REV-1-1 — the Carchano & Pardo license 'negligible impact where tested' is the one place the null-only condition is exceeded on the page; if left, downstream artifacts inherit an evidence-of-absence reading the quoted statistic does not support. (2) REV-1-2 — the charter and agenda now contradict each other verbatim on the F001/F002 foreclosure phrasing; a reader cannot tell which artifact governs. (3) I could not independently verify from the artifacts that the two citation-sourcing subagents' Crossref checks covered bibliographic-field accuracy (volume/page/journal strings) as opposed to handle resolution only — that verification belongs to literature-check and is assumed routed. (4) CHAMP items 7–16 were not opened per scope deferral; these artifacts contain specifications, not executed analyses, so exposure there is low, and quant-auditor participation is evidenced by F-3-2 in the charter's own text. RQI coverage: importance and originality adequate (originality explicitly disclaimed by the artifact pending its prior-art survey); method, presentation, and interpretation covered by the findings above. No critical findings; the two majors are textual fixes that do not disturb any remediated section's citation coverage.",
+    "scope-auditor": "Spec source: docs/deliverables/deliverable_spec_round3-remediation_2026-08-21.md (precedence 1; no conflict with the predecessor spec, which it consistently references). Traceability matrix for the two audited artifacts is fully satisfied. S-1 (charter Rev 3): all eight claim-bearing H2 spans checked individually — Standing commitments (Fanelli, Kaufman, Greenberg, Simkin & Roychowdhury inline DOIs), Admissible output types incl. PRISMA specification (Page 2021, Moher 2015, Sterne 2019, Egger 1997), Evidence standard (explicit CONVENTION label plus GRADE/Guyatt 2008), Publication-bias posture (Franco 2014, Rosenthal 1979, Chan 2004), Negative-result protocol (CONVENTION + Hoenig & Heisey), Failure taxonomy (CONVENTION), Prior art posture (Schuirmann, Lakens, Chambers, Mayo & Spanos, Rosenbaum), Falsification of commitment 1 (Theiler 1992) — each span carries an inline ](http citation or CONVENTION label; no whole-file counting was used (F-5 not regressed). S-2 (agenda): branch 1 now carries nine attributed methods with DOI/URL (López de Prado 2018, Clark 1973, Ané & Geman 2000, Easley et al. 2012, Carchano & Pardo 2009, Peng 2011, Sandve 2013, Goldberg 1991, IEEE 754-2019) plus its Falsification block; branches 2 and 3 retain their citations and Falsification blocks (per-branch, not aggregate); Carchano & Pardo 2009 is delivered in the specified kind — cited explicitly as a null with the transport caveat and the 'never for material sensitivity' restriction, so no silent substitution. The Rev 3 change is declared in the charter revision_note and in the agenda's Verification status section (documented drift, no finding). No scope creep detected: no artifact or capability shipped without a spec item behind it. Residual risks: (1) this branch verifies presence and kind only — whether each inserted citation actually supports the claim at its insertion point is literature-check's verdict, not established here; (2) the commit deliverable (S-5) is unverifiable with read-only tools and the git snapshot is stale; (3) findings SCOPE-1-1 through SCOPE-1-3 are bookkeeping items plausibly sequenced after this audit round, but the spec does not document that deferral, so they remain open until executed; (4) G16 DOI false-positive class honored — no publisher-page fetchability findings raised.",
+    "literature-check": "All acceptance criteria verified met. Charter: each of the six mandated H2 sections carries verified primary-source citations and/or explicit CONVENTION labels, checked per section (31 citations resolved via Crossref API / doi.org handle API; author lists, years, venues, volumes, pages all match; Chan 2004's 62% figure and Carchano & Pardo's null finding confirmed verbatim against abstracts). Agenda branch 1 carries nine attributed methods, far exceeding the one required; Carchano & Pardo 2009 is cited strictly as a null with an explicit usage guard matching its abstract. No predecessor-finding regression (no whole-file counting used; no G16-class publisher-403 findings raised — Science.org and complex-systems.com fetch failures were routed around via eutils, Semantic Scholar, and arXiv). Residual: (1) the Ané & Geman non-replication caveat (LITERATURE-1-1) is unremediated until inserted — a reader could carry the normality claim as settled; (2) López de Prado 2018 is a publisher-page book citation with no DOI — acceptable evidence tier but chapter-level content (ch. 2 bar taxonomy) verified from knowledge, not fetched text; (3) branches 2-3 and the four CONVENTION provenance claims referencing ~/.claude/CLAUDE.md were not re-audited per spec scope ('branches 2-3 unchanged')."
+  },
+  "remediate": [
+    {
+      "id": "REV-1-1",
+      "severity": "major",
+      "category": "interpretation",
+      "location": "docs/research_notes/research_agenda_architecture_2026-08-21.md:61-65",
+      "issue": "Carchano & Pardo 2009 is correctly framed as a null on the significance statement, but the pre-committed citation license 'negligible impact where tested' converts a failure-to-reject into a magnitude claim (evidence of absence). The sentence reports only 'no significant differences'; nothing on the page (an equivalence bound, an MDES, or the paper's near-identical-series magnitude evidence) licenses 'negligible'. This contradicts the charter's own standard — 'Failure to reject is not evidence of absence' (charter, construct gate (ii)) — and CHAMP item 24's rule that a large P value is read as indecisive, never as absence of an effect. The remediation spec's condition was 'must only be cited as a null'; 'negligible impact' exceeds a null.",
+      "evidence": "find **no significant differences** among five roll criteria for stock index futures. Whether that null transports to physically-settled or less liquid contracts is open; cite it for \"studied choice, negligible impact where tested\", never for material sensitivity.",
+      "fix": "Either (a) add the magnitude evidence that actually licenses 'negligible' — Carchano & Pardo's reported near-identity of the resulting return series — so the license rests on effect size, not on non-rejection; or (b) weaken the license to 'studied choice, no detected difference where tested; indecisive about magnitude absent an equivalence bound'.",
+      "reference": "CHAMP item 24; charter §Negative-result protocol gate (ii)",
+      "branch": "critical-reviewer",
+      "refutation": {
+        "finding_id": "REV-1-1",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Attempted refutation failed. (1) Reproduced the evidence at research_agenda_architecture_2026-08-21.md:60-65: the sentence reports only \"no significant differences\" yet licenses \"negligible impact where tested\" — exact match to the finding. (2) Reproduced the charter standard at charter_castles_2026-08-21.md:262-263: gate (ii) reads \"Failure to reject is not evidence of absence\". (3) Repo-wide grep shows this is the only mention of Carchano & Pardo; no equivalence bound, MDES, or magnitude evidence appears on the page or elsewhere in the artifact to license \"negligible\". The only candidate counter-evidence — that Carchano & Pardo 2009 itself reports near-identical rolled return series — lives in the paper, not on the page, and the finding already anticipates it as fix (a); it does not disprove the claim that the page's license exceeds the page's stated evidence. The scope argument that gate (ii) governs only the project's own construct-absence assertions is a severity quibble, not counter-evidence, and CHAMP item 24 applies regardless."
+      }
+    },
+    {
+      "id": "REV-1-2",
+      "severity": "major",
+      "category": "consistency",
+      "location": "docs/research_notes/research_agenda_architecture_2026-08-21.md:127-128",
+      "issue": "Cross-artifact contradiction and apparent predecessor-remediation regression: the agenda's branch-2 failure-autopsy bullet closes with the exact phrasing the charter's Evidence standard names, verbatim and in quotation marks, as a defect — foreclosing whether F001/F002 'failed' while the charter forbids treating a preprint-tier row as settled. The same bullet itself flags the F002 source as an unrefereed preprint ('the tier matters'), then forecloses the question anyway. The charter clause (Rev 2) was evidently written against this sentence, and the sentence survives in the sibling artifact of the same artifact set.",
+      "evidence": "The question is not whether they failed but what the failures *identify about the data*.",
+      "fix": "Rewrite to hold the question open per the charter's tier rule, e.g.: 'Whether the F002 failure survives refereeing is open (preprint tier); the autopsy's object is what the reported failures, if they hold, identify about the data.' Alternatively, if the charter clause was intended to be prospective-only, the charter must say so — as written the two artifacts contradict each other.",
+      "reference": "Charter §Evidence standard ('Phrasing that forecloses a question the register holds open (\"the question is not whether they failed\") is a defect'); CHAMP item 30",
+      "branch": "critical-reviewer",
+      "refutation": {
+        "finding_id": "REV-1-2",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Attempted refutation failed; the defect reproduces exactly. (1) docs/research_notes/research_agenda_architecture_2026-08-21.md:127-128 ends the failure-autopsy bullet with the verbatim sentence \"The question is not whether they failed but what the failures *identify about the data*.\" (2) docs/methodology/charter_castles_2026-08-21.md §Evidence standard (lines 143-147) states: \"No artifact may treat a `pending` or `preprint`-tier row as settled. Phrasing that forecloses a question the register holds open (\\\"the question is not whether they failed\\\") is a defect\" — quoting that exact phrasing as the canonical defect example, with no prospective-only qualifier anywhere in the clause. (3) The register does hold the question open at preprint tier: failure_log.md F001 (line 44) is sourced to an unrefereed preprint (\"Load-bearing, so the tier matters\"), and the agenda bullet itself labels the Noguer i Alonso & Pereira Franklin source \"unrefereed preprint.\" (Side note: the agenda's F001/F002 numbering is swapped relative to failure_log.md — the log has F001 = TSFM preprint row, F002 = Tan et al. peer-reviewed — but this does not rescue the sentence, since \"they failed\" spans both rows and one is preprint-tier either way.) The only escape routes the fix text names — a prospective-only qualifier in the charter, or both rows being peer-reviewed — are contradicted by the sources themselves. The cross-artifact contradiction stands."
+      }
+    },
+    {
+      "id": "SCOPE-1-2",
+      "severity": "major",
+      "category": "omitted",
+      "location": "docs/audits/",
+      "issue": "Spec item S-4 requires `docs/audits/audit_trail_round3-remediation_2026-08-21.md` (WI-3 §2 trail for this session). The file does not exist; docs/audits/ contains only the predecessor trail, session_trail_2026-08-21.md, and union_gate_waivers_2026-08-21.md.",
+      "evidence": "Glob of docs/audits/: audit_trail_think-tank-charter_2026-08-21.{md,json}, session_trail_2026-08-21.md, union_gate_waivers_2026-08-21.md, .gitkeep — no audit_trail_round3-remediation file.",
+      "fix": "Write the trail per the skill's post-loop field spec once this round's findings and refute-gate dispositions are recorded. Expected post-loop sequencing; reported for completeness of the traceability matrix, not as evidence of drift intent.",
+      "reference": "S-4",
+      "branch": "scope-auditor",
+      "refutation": {
+        "finding_id": "SCOPE-1-2",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Attempted refutation failed; the finding reproduces. (1) Spec source confirmed: docs/deliverables/deliverable_spec_round3-remediation_2026-08-21.md line 32 contains the unticked deliverable \"- [ ] docs/audits/audit_trail_round3-remediation_2026-08-21.md\" with state \"WI-3 §2 trail for this session's audit round(s)\" and check \"file exists, written this session, per skill §Post-loop field spec\". (2) Directory listing confirmed: Glob of docs/audits/ returns exactly .gitkeep, audit_trail_think-tank-charter_2026-08-21.json, audit_trail_think-tank-charter_2026-08-21.md, union_gate_waivers_2026-08-21.md, session_trail_2026-08-21.md — the required file is absent, matching the auditor's evidence verbatim. (3) A repo-wide grep for \"audit_trail_round3-remediation\" hits only the spec line itself, so the file exists nowhere else under an alternate path. The only candidate counter-argument — that the trail is by definition written after the audit loop completes, so its absence mid-round is expected — is a sequencing/severity argument the finding itself already concedes, not evidence the defect claim (file required by S-4, file absent) is false. Not refuted."
+      }
+    },
+    {
+      "id": "SCOPE-1-3",
+      "severity": "major",
+      "category": "omitted",
+      "location": "git history (unverifiable with read-only tools)",
+      "issue": "Spec item S-5 requires all remediated files committed via /commit-with-provenance with Repro-Log-Path / Repro-Log-SHA256 / AI-Assistance trailers, role=multi. The conversation-start git snapshot shows no remediation commit (HEAD is 'docs: unblock branch 1 by definition class; register F005') and this branch has no git access to verify trailers; the status could not be confirmed satisfied.",
+      "evidence": "Remediation spec: 'check: `git log -1` shows Repro-Log-Path / Repro-Log-SHA256 / AI-Assistance trailers.' Recent-commit list at session start contains no commit referencing the Rev 3 remediation.",
+      "fix": "Execute the /commit-with-provenance step after remediation completes and record the trailer-bearing commit hash in the audit trail. Reported as unmatched at audit time; downgrade to satisfied on trailer evidence.",
+      "reference": "S-5",
+      "branch": "scope-auditor",
+      "refutation": {
+        "finding_id": "SCOPE-1-3",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Attempted refutation via direct git inspection instead confirmed the finding: `git log -3 --format='%H%n%s%n%b'` shows HEAD = 57b409cb3fb6 with only a Co-Authored-By trailer (no Repro-Log-Path / Repro-Log-SHA256 / AI-Assistance trailers), and no trailer-bearing commit in recent history. `git status` shows the remediated files (docs/methodology/charter_castles_2026-08-21.md, docs/research_notes/research_agenda_architecture_2026-08-21.md) still modified and uncommitted, with docs/audits/session_trail_2026-08-21.md untracked. The /commit-with-provenance step required by S-5 has not been executed. Finding stands."
+      }
+    }
+  ],
+  "refuted": [
+    {
+      "id": "SCOPE-1-1",
+      "severity": "major",
+      "category": "omitted",
+      "location": "docs/deliverables/deliverable_spec_think-tank-charter_2026-08-21.md:10,25",
+      "issue": "Spec item S-3 (round3-remediation spec, deliverable 3) requires the predecessor spec's two unticked boxes to be ticked and annotated with a pointer to the remediation spec plus the passing check output. Both boxes remain '- [ ]' with 'UNTICKED round 3' annotations and no pointer to the remediation spec's check output.",
+      "evidence": "Predecessor spec line 10: '- [ ] `docs/methodology/charter_castles_2026-08-21.md`  — **UNTICKED round 3**'; line 25: '- [ ] `docs/research_notes/research_agenda_architecture_2026-08-21.md`  — **UNTICKED round 3**'. Remediation spec requires: 'Its two unticked boxes are ticked, each annotated with a pointer to this spec and the passing check output.'",
+      "fix": "After this audit round passes, tick both predecessor boxes with the required annotation (pointer to deliverable_spec_round3-remediation_2026-08-21.md and the per-section/per-branch check output). Sequencing after the audit round is plausible but is not documented in the spec as deferred, so it is reported as omitted at audit time.",
+      "reference": "S-3",
+      "branch": "scope-auditor",
+      "refutation": {
+        "finding_id": "SCOPE-1-1",
+        "refuted": true,
+        "evidence_type": "logical-proof",
+        "refutation_evidence": "The finding's raw observation reproduces (predecessor spec lines 10 and 25 are '- [ ]' with no pointer), but its load-bearing premise — that deferral of the box-ticking until after the audit round \"is not documented in the spec as deferred\" — is false, and the \"omitted at audit time\" classification collapses with it.\n\n(1) The deferral IS documented. deliverable_spec_round3-remediation_2026-08-21.md, Self-executed section (lines 88-90), enumerates: \"Spec box-ticking, audit-trail assembly, ReproLog emission, commit (reason: orchestrator bookkeeping mandated by the gate; no authored research content)\". Box-ticking is expressly grouped in the terminal bookkeeping phase together with audit-trail assembly and commit. That phase cannot precede the current audit round: deliverable 4 (lines 32-35) requires the trail to contain this round's \"findings, refute-gate dispositions, and remediation records\" — including the disposition of this very finding — so the phase containing box-ticking is documented as postdating the round now in progress.\n\n(2) Reductio on the finding's standard. All five deliverable boxes in the remediation spec are unticked, including deliverable 4 (audit trail of \"this session's audit round(s)\") and deliverable 5 (commit). Under the finding's rule — any unticked box at audit time is an omission — deliverable 4 would be \"omitted\" in every possible round-1 audit, since a trail recording the round's dispositions cannot exist before the round completes. A standard that no compliant execution can satisfy proves the spec's boxes are completion markers evaluated at gate time, not audit time; deliverable 3 sits in the same documented terminal chain (tick predecessor boxes -> assemble trail -> commit, per the Self-executed bullet and the \"post-edit\" audit delegation at line 68).\n\n(3) Scope confirmation: the audit delegation (line 68-77) defines the round as \"One specialist audit round over the two remediated files\" — the charter and the architecture agenda, exactly the artifact paths attached to this finding. The predecessor spec's checkbox state is a gate-time obligation of the orchestrator, not a property of the artifacts under audit; consistent with this, docs/audits/ contains no audit_trail_round3-remediation_2026-08-21.md yet (verified by ls), i.e., the workflow is mid-flight at precisely the point where the spec documents these boxes as still open.\n\nThe auditor's own \"claimed fix\" concedes the intended sequencing; the only asserted defect was lack of documentation of that sequencing, which point (1) disproves by direct quotation."
+      }
+    }
+  ],
+  "minors_logged": [
+    {
+      "id": "REV-1-3",
+      "severity": "minor",
+      "category": "consistency",
+      "location": "docs/methodology/charter_castles_2026-08-21.md:258-276",
+      "issue": "The construct gate's operative sentence says the layer may be asserted only with 'all four of:' but the list contains five conditions (i)–(v), and the closing sentence says 'Absent any of the five'. Stale count from the Rev 2 insertion of condition (v) (quant-auditor F-3-2). A gating rule whose cardinality contradicts itself invites a reading under which (v) is optional.",
+      "evidence": "The layer may be asserted only with **all four** of:",
+      "fix": "Change 'all four' to 'all five'.",
+      "reference": "CHAMP item 21 (internal consistency of reported criteria)",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-4",
+      "severity": "minor",
+      "category": "consistency",
+      "location": "docs/methodology/charter_castles_2026-08-21.md:144-147",
+      "issue": "The evidence-tier vocabulary is enumerated as a closed three-value set ('peer-reviewed', 'accepted-preprint', 'preprint'), but the very next sentence prohibits treating a 'pending'-tier row as settled — a tier value not in the enumerated set. A linter or reader applying the enumeration cannot classify a 'pending' row.",
+      "evidence": "carries its tier: `peer-reviewed`, `accepted-preprint`, or `preprint`. **No artifact may treat a `pending` or `preprint`-tier row as settled.**",
+      "fix": "Either add `pending` to the enumerated tier set (with its meaning, e.g. 'verification queued, source not yet read') or drop it from the prohibition sentence.",
+      "reference": "CHAMP item 21",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-5",
+      "severity": "minor",
+      "category": "reporting",
+      "location": "docs/research_notes/research_agenda_architecture_2026-08-21.md:20-27,75-95",
+      "issue": "The agenda's blanket test-design requirement states every test below must state alpha, target detection probability, and MDES before running, with `TO COMPUTE` markers where not yet computable — 'an omitted parameter becomes an unlabelled constant chosen after seeing the data.' Branch 1's shared-kernel falsification marks only the tolerance `TO COMPUTE` and omits alpha/detection-probability/n entirely (branches 2 and 3 both carry explicit parameter blocks). If the test is deterministic and these quantities are inapplicable, the document must say so; as written it violates its own stated rule.",
+      "evidence": "State it in ULPs or relative error ... with provenance, before running. `TO COMPUTE`.",
+      "fix": "Add a parameters line to branch 1's falsification: either 'alpha / power: N/A — deterministic byte-identical-input comparison; the only free parameter is the tolerance' with a note on run-to-run JIT nondeterminism (which would reintroduce an n-of-trials parameter), or `TO COMPUTE` markers matching branches 2–3.",
+      "reference": "CHAMP item 4 analog (test parameters stated and justified); agenda's own §Test-design requirement",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-6",
+      "severity": "minor",
+      "category": "interpretation",
+      "location": "docs/methodology/charter_castles_2026-08-21.md:363-367",
+      "issue": "The falsification-of-commitment-1 rationale asserts, uncited, that surrogate-data testing is 'a time-series technique with no cross-sectional analogue'. The universal negative is an overstatement: permutation/randomization tests and constrained null-model resampling are the standard cross-sectional analogues of constrained surrogate generation, and Theiler et al. themselves frame the method as constrained-realization Monte Carlo. The overstatement is conservative here (it strengthens the case that the commitment is untested), but under the charter's own attribution-fidelity commitment an uncited universal claim is a defect regardless of direction.",
+      "evidence": "surrogate-data testing ... is a time-series technique with no cross-sectional analogue.",
+      "fix": "Weaken to 'a time-series technique whose cross-sectional analogue (constrained permutation null models) is not specified in this charter', or cite a source for the claimed absence.",
+      "reference": "CHAMP item 30; charter commitment 5 (attribution fidelity)",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "LITERATURE-1-1",
+      "severity": "minor",
+      "category": "attribution-fidelity",
+      "location": "C:/Users/skoir/castles/docs/research_notes/research_agenda_architecture_2026-08-21.md:52-55 (branch 1, bar-construction bullet)",
+      "issue": "Ané & Geman 2000 is cited as unqualified support for 'the trading-time result that returns normalize under an activity-subordinated clock', but its central empirical result — approximate Gaussianity of returns conditioned on the number of trades — has a published peer-reviewed non-replication: Murphy & Izzeldin 2010, Applied Financial Economics 20(10), DOI 10.1080/09603101003636212, find returns conditioned on the re-centred number of trades are NOT approximately Gaussian and that the moment-recovery procedure fails in Monte Carlo. The bibliographic citation itself is accurate (J. Finance 55(5):2259-2284 verified via Crossref); the gap is that a contested/non-replicated result is carried without its tier caveat, in a project whose charter commitment 5 and evidence-tier rule make exactly this a defect, and whose specialty is registering nulls.",
+      "evidence": "Crossref 10.1111/0022-1082.00286 confirms the citation as written. Semantic Scholar and RePEc/T&F records confirm Murphy & Izzeldin, 'Recovering the moments of information flow and the normality of asset returns', Applied Financial Economics 20(10), 2010 (earlier 2005 working-paper comment), contradicting the normality claim. Clark 1973 (10.2307/1913889) and Easley, López de Prado & O'Hara 2012 (10.3905/jpm.2012.39.1.019) in the same sentence verified and unaffected.",
+      "fix": "Annotate the Ané & Geman citation with the non-replication (e.g. 'normality claim not replicated — Murphy & Izzeldin 2010, doi:10.1080/09603101003636212; the subordination framing stands on Clark 1973'), or drop Ané & Geman and rest the sentence on Clark 1973 and Easley et al. 2012. Candidate F-row for failure_log.md given the project's remit.",
+      "reference": "https://doi.org/10.1080/09603101003636212",
+      "branch": "literature-check"
+    },
+    {
+      "id": "LITERATURE-1-2",
+      "severity": "minor",
+      "category": "verification-pipeline",
+      "location": "C:/Users/skoir/castles/docs/methodology/charter_castles_2026-08-21.md:87-89 (Standing commitments, commitment 5)",
+      "issue": "Simkin & Roychowdhury is cited as 2003, which is the correct original publication year, but the Crossref record for DOI 10.25088/ComplexSystems.14.3.269 carries a retroactive registration year of 2024. The artifact is right and Crossref is misleading; recorded so that future 'verify against Crossref' passes (the exact method the Rev 3 revision_note declares) do not flag this as a year mismatch or 'correct' 2003 to 2024.",
+      "evidence": "Crossref works API returns year 2024 for 10.25088/ComplexSystems.14.3.269 with volume 14, issue 3, pages 269-274. arXiv cond-mat/0212043 journal-ref confirms: Complex Systems 14 (2003) 269-274. Handle resolves (G16 protocol satisfied). Content claim ('misprint propagation suggests most citers never read the original') matches the paper's thesis.",
+      "fix": "No artifact change required. Optionally record in the verification log / deliverable spec that this DOI's Crossref year field is a retroactive-registration artifact and the authoritative year (2003) comes from the journal reference, to prevent a future false-positive finding.",
+      "reference": "https://arxiv.org/abs/cond-mat/0212043",
+      "branch": "literature-check"
+    }
+  ],
+  "refute_gate_dispositions": [
+    {
+      "finding_id": "SCOPE-1-1",
+      "raised_by": "scope-auditor",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "omitted",
+        "location": "docs/deliverables/deliverable_spec_think-tank-charter_2026-08-21.md:10,25",
+        "issue": "Spec item S-3 (round3-remediation spec, deliverable 3) requires the predecessor spec's two unticked boxes to be ticked and annotated with a pointer to the remediation spec plus the passing check output. Both boxes remain '- [ ]' with 'UNTICKED round 3' annotations and no pointer to the remediation spec's check output.",
+        "evidence": "Predecessor spec line 10: '- [ ] `docs/methodology/charter_castles_2026-08-21.md`  — **UNTICKED round 3**'; line 25: '- [ ] `docs/research_notes/research_agenda_architecture_2026-08-21.md`  — **UNTICKED round 3**'. Remediation spec requires: 'Its two unticked boxes are ticked, each annotated with a pointer to this spec and the passing check output.'",
+        "fix": "After this audit round passes, tick both predecessor boxes with the required annotation (pointer to deliverable_spec_round3-remediation_2026-08-21.md and the per-section/per-branch check output). Sequencing after the audit round is plausible but is not documented in the spec as deferred, so it is reported as omitted at audit time.",
+        "reference": "S-3"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "logical-proof",
+      "refutation_evidence": "The finding's raw observation reproduces (predecessor spec lines 10 and 25 are '- [ ]' with no pointer), but its load-bearing premise — that deferral of the box-ticking until after the audit round \"is not documented in the spec as deferred\" — is false, and the \"omitted at audit time\" classification collapses with it.\n\n(1) The deferral IS documented. deliverable_spec_round3-remediation_2026-08-21.md, Self-executed section (lines 88-90), enumerates: \"Spec box-ticking, audit-trail assembly, ReproLog emission, commit (reason: orchestrator bookkeeping mandated by the gate; no authored research content)\". Box-ticking is expressly grouped in the terminal bookkeeping phase together with audit-trail assembly and commit. That phase cannot precede the current audit round: deliverable 4 (lines 32-35) requires the trail to contain this round's \"findings, refute-gate dispositions, and remediation records\" — including the disposition of this very finding — so the phase containing box-ticking is documented as postdating the round now in progress.\n\n(2) Reductio on the finding's standard. All five deliverable boxes in the remediation spec are unticked, including deliverable 4 (audit trail of \"this session's audit round(s)\") and deliverable 5 (commit). Under the finding's rule — any unticked box at audit time is an omission — deliverable 4 would be \"omitted\" in every possible round-1 audit, since a trail recording the round's dispositions cannot exist before the round completes. A standard that no compliant execution can satisfy proves the spec's boxes are completion markers evaluated at gate time, not audit time; deliverable 3 sits in the same documented terminal chain (tick predecessor boxes -> assemble trail -> commit, per the Self-executed bullet and the \"post-edit\" audit delegation at line 68).\n\n(3) Scope confirmation: the audit delegation (line 68-77) defines the round as \"One specialist audit round over the two remediated files\" — the charter and the architecture agenda, exactly the artifact paths attached to this finding. The predecessor spec's checkbox state is a gate-time obligation of the orchestrator, not a property of the artifacts under audit; consistent with this, docs/audits/ contains no audit_trail_round3-remediation_2026-08-21.md yet (verified by ls), i.e., the workflow is mid-flight at precisely the point where the spec documents these boxes as still open.\n\nThe auditor's own \"claimed fix\" concedes the intended sequencing; the only asserted defect was lack of documentation of that sequencing, which point (1) disproves by direct quotation.",
+      "reproduction_required": false,
+      "outcome": "dropped"
+    },
+    {
+      "finding_id": "REV-1-1",
+      "raised_by": "critical-reviewer",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "interpretation",
+        "location": "docs/research_notes/research_agenda_architecture_2026-08-21.md:61-65",
+        "issue": "Carchano & Pardo 2009 is correctly framed as a null on the significance statement, but the pre-committed citation license 'negligible impact where tested' converts a failure-to-reject into a magnitude claim (evidence of absence). The sentence reports only 'no significant differences'; nothing on the page (an equivalence bound, an MDES, or the paper's near-identical-series magnitude evidence) licenses 'negligible'. This contradicts the charter's own standard — 'Failure to reject is not evidence of absence' (charter, construct gate (ii)) — and CHAMP item 24's rule that a large P value is read as indecisive, never as absence of an effect. The remediation spec's condition was 'must only be cited as a null'; 'negligible impact' exceeds a null.",
+        "evidence": "find **no significant differences** among five roll criteria for stock index futures. Whether that null transports to physically-settled or less liquid contracts is open; cite it for \"studied choice, negligible impact where tested\", never for material sensitivity.",
+        "fix": "Either (a) add the magnitude evidence that actually licenses 'negligible' — Carchano & Pardo's reported near-identity of the resulting return series — so the license rests on effect size, not on non-rejection; or (b) weaken the license to 'studied choice, no detected difference where tested; indecisive about magnitude absent an equivalence bound'.",
+        "reference": "CHAMP item 24; charter §Negative-result protocol gate (ii)"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Attempted refutation failed. (1) Reproduced the evidence at research_agenda_architecture_2026-08-21.md:60-65: the sentence reports only \"no significant differences\" yet licenses \"negligible impact where tested\" — exact match to the finding. (2) Reproduced the charter standard at charter_castles_2026-08-21.md:262-263: gate (ii) reads \"Failure to reject is not evidence of absence\". (3) Repo-wide grep shows this is the only mention of Carchano & Pardo; no equivalence bound, MDES, or magnitude evidence appears on the page or elsewhere in the artifact to license \"negligible\". The only candidate counter-evidence — that Carchano & Pardo 2009 itself reports near-identical rolled return series — lives in the paper, not on the page, and the finding already anticipates it as fix (a); it does not disprove the claim that the page's license exceeds the page's stated evidence. The scope argument that gate (ii) governs only the project's own construct-absence assertions is a severity quibble, not counter-evidence, and CHAMP item 24 applies regardless.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    },
+    {
+      "finding_id": "REV-1-2",
+      "raised_by": "critical-reviewer",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "consistency",
+        "location": "docs/research_notes/research_agenda_architecture_2026-08-21.md:127-128",
+        "issue": "Cross-artifact contradiction and apparent predecessor-remediation regression: the agenda's branch-2 failure-autopsy bullet closes with the exact phrasing the charter's Evidence standard names, verbatim and in quotation marks, as a defect — foreclosing whether F001/F002 'failed' while the charter forbids treating a preprint-tier row as settled. The same bullet itself flags the F002 source as an unrefereed preprint ('the tier matters'), then forecloses the question anyway. The charter clause (Rev 2) was evidently written against this sentence, and the sentence survives in the sibling artifact of the same artifact set.",
+        "evidence": "The question is not whether they failed but what the failures *identify about the data*.",
+        "fix": "Rewrite to hold the question open per the charter's tier rule, e.g.: 'Whether the F002 failure survives refereeing is open (preprint tier); the autopsy's object is what the reported failures, if they hold, identify about the data.' Alternatively, if the charter clause was intended to be prospective-only, the charter must say so — as written the two artifacts contradict each other.",
+        "reference": "Charter §Evidence standard ('Phrasing that forecloses a question the register holds open (\"the question is not whether they failed\") is a defect'); CHAMP item 30"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Attempted refutation failed; the defect reproduces exactly. (1) docs/research_notes/research_agenda_architecture_2026-08-21.md:127-128 ends the failure-autopsy bullet with the verbatim sentence \"The question is not whether they failed but what the failures *identify about the data*.\" (2) docs/methodology/charter_castles_2026-08-21.md §Evidence standard (lines 143-147) states: \"No artifact may treat a `pending` or `preprint`-tier row as settled. Phrasing that forecloses a question the register holds open (\\\"the question is not whether they failed\\\") is a defect\" — quoting that exact phrasing as the canonical defect example, with no prospective-only qualifier anywhere in the clause. (3) The register does hold the question open at preprint tier: failure_log.md F001 (line 44) is sourced to an unrefereed preprint (\"Load-bearing, so the tier matters\"), and the agenda bullet itself labels the Noguer i Alonso & Pereira Franklin source \"unrefereed preprint.\" (Side note: the agenda's F001/F002 numbering is swapped relative to failure_log.md — the log has F001 = TSFM preprint row, F002 = Tan et al. peer-reviewed — but this does not rescue the sentence, since \"they failed\" spans both rows and one is preprint-tier either way.) The only escape routes the fix text names — a prospective-only qualifier in the charter, or both rows being peer-reviewed — are contradicted by the sources themselves. The cross-artifact contradiction stands.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    },
+    {
+      "finding_id": "SCOPE-1-2",
+      "raised_by": "scope-auditor",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "omitted",
+        "location": "docs/audits/",
+        "issue": "Spec item S-4 requires `docs/audits/audit_trail_round3-remediation_2026-08-21.md` (WI-3 §2 trail for this session). The file does not exist; docs/audits/ contains only the predecessor trail, session_trail_2026-08-21.md, and union_gate_waivers_2026-08-21.md.",
+        "evidence": "Glob of docs/audits/: audit_trail_think-tank-charter_2026-08-21.{md,json}, session_trail_2026-08-21.md, union_gate_waivers_2026-08-21.md, .gitkeep — no audit_trail_round3-remediation file.",
+        "fix": "Write the trail per the skill's post-loop field spec once this round's findings and refute-gate dispositions are recorded. Expected post-loop sequencing; reported for completeness of the traceability matrix, not as evidence of drift intent.",
+        "reference": "S-4"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Attempted refutation failed; the finding reproduces. (1) Spec source confirmed: docs/deliverables/deliverable_spec_round3-remediation_2026-08-21.md line 32 contains the unticked deliverable \"- [ ] docs/audits/audit_trail_round3-remediation_2026-08-21.md\" with state \"WI-3 §2 trail for this session's audit round(s)\" and check \"file exists, written this session, per skill §Post-loop field spec\". (2) Directory listing confirmed: Glob of docs/audits/ returns exactly .gitkeep, audit_trail_think-tank-charter_2026-08-21.json, audit_trail_think-tank-charter_2026-08-21.md, union_gate_waivers_2026-08-21.md, session_trail_2026-08-21.md — the required file is absent, matching the auditor's evidence verbatim. (3) A repo-wide grep for \"audit_trail_round3-remediation\" hits only the spec line itself, so the file exists nowhere else under an alternate path. The only candidate counter-argument — that the trail is by definition written after the audit loop completes, so its absence mid-round is expected — is a sequencing/severity argument the finding itself already concedes, not evidence the defect claim (file required by S-4, file absent) is false. Not refuted.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    },
+    {
+      "finding_id": "SCOPE-1-3",
+      "raised_by": "scope-auditor",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "omitted",
+        "location": "git history (unverifiable with read-only tools)",
+        "issue": "Spec item S-5 requires all remediated files committed via /commit-with-provenance with Repro-Log-Path / Repro-Log-SHA256 / AI-Assistance trailers, role=multi. The conversation-start git snapshot shows no remediation commit (HEAD is 'docs: unblock branch 1 by definition class; register F005') and this branch has no git access to verify trailers; the status could not be confirmed satisfied.",
+        "evidence": "Remediation spec: 'check: `git log -1` shows Repro-Log-Path / Repro-Log-SHA256 / AI-Assistance trailers.' Recent-commit list at session start contains no commit referencing the Rev 3 remediation.",
+        "fix": "Execute the /commit-with-provenance step after remediation completes and record the trailer-bearing commit hash in the audit trail. Reported as unmatched at audit time; downgrade to satisfied on trailer evidence.",
+        "reference": "S-5"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Attempted refutation via direct git inspection instead confirmed the finding: `git log -3 --format='%H%n%s%n%b'` shows HEAD = 57b409cb3fb6 with only a Co-Authored-By trailer (no Repro-Log-Path / Repro-Log-SHA256 / AI-Assistance trailers), and no trailer-bearing commit in recent history. `git status` shows the remediated files (docs/methodology/charter_castles_2026-08-21.md, docs/research_notes/research_agenda_architecture_2026-08-21.md) still modified and uncommitted, with docs/audits/session_trail_2026-08-21.md untracked. The /commit-with-provenance step required by S-5 has not been executed. Finding stands.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    }
+  ],
+  "counts": {
+    "raw_critical": 0,
+    "raw_major": 5,
+    "raw_minor": 6,
+    "refuted": 1,
+    "retained_conservative": 0,
+    "to_remediate": 4,
+    "minors_logged": 6
+  },
+  "verdict": "proceed-with-remediation",
+  "rounds_cap": 3,
+  "cap_reached": false,
+  "prior_dispositions": "Predecessor spec (think-tank-charter) ran 3 full rounds. Round-3 unticked both artifacts: charter had 1 whole-file citation and 4 CONVENTION tokens with 6/8 claim-bearing sections carrying neither; agenda branch citation counts were 0/6/7. F-5 (twice reproduced): whole-file/aggregate counts are inadmissible verification — a per-section/per-branch check is mandatory. F-1: agenda passed skeleton check while carrying zero citations. G16: 40 DOI findings were false positives (handle API resolves; publisher pages 403 automated requests) — overridden on reproduced counter-evidence, do not re-raise."
+}
