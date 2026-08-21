@@ -3,7 +3,19 @@ type: research_agenda
 slug: regime-classification
 date: 2026-08-21
 status: open
+revision: 2
+revision_note: >
+  Rev 2 (2026-08-21) integrates the Phase 1 gap-targeted sweep
+  (deliverable_spec_phase1-sweep_2026-08-21.md): regime-definitions survey,
+  method-gaps sweep, and the F005/calibration retrieval. Five gap sites updated
+  with citations or upgraded logged negatives; the branch-1 calibration blocker
+  is resolved; F005's headline claim is refuted (see failure_log.md) and the
+  branch-1 prior-art note added accordingly.
 corpus: docs/literature/lit_review_regime-classification_2026-08-21.md  # delivered 2026-08-21; 96 records, PRISMA 2020 partial (single screener)
+supplementary_corpora:
+  - docs/literature/lit_review_regime-definitions_2026-08-21.md   # 54 records, 59 definitions, PRISMA-ScR partial
+  - docs/literature/lit_review_regime-method-gaps_2026-08-21.md   # 50 records, targeted 3-front sweep
+  - docs/literature/lit_review_f005-class-n-tests_2026-08-21.md   # 7 records, calibration papers + F005 forward citations
 ---
 
 # Research agenda — regime classification
@@ -43,6 +55,27 @@ Three corrections to the first draft of this hazard (quant-auditor F-3-11):
 **Standing hazard — labeling.** State is latent and only observable after it
 ends. Any hand-labeled training set built by inspecting charts encodes
 lookahead. No branch below may use eye-labeled segments as ground truth.
+
+**Definitional basis (added Rev 2).** The definitional survey
+([lit_review_regime-definitions_2026-08-21.md](../literature/lit_review_regime-definitions_2026-08-21.md),
+59 operational definitions from 54 records) establishes: (a) *bull/bear* is
+defined at least five structurally different ways under one name pair, so a
+state name without its operational definition is not a claim; (b) against this
+agenda's four states, **range has no operational state definition at any tier,
+compression none above tier 5, and transition is named as an object only
+twice** — three of the four states this agenda studies are, as of the survey
+date, definitional gaps rather than established constructs; (c) 19 of 59
+definitions are lookahead by construction (all peak/trough dating algorithms
+and most clustering/segmentation schemes), instances of the labeling hazard
+above; (d) **no source at any tier attaches a null distribution to the
+assignment of a state at time t** — 36 of 59 definitions carry no null at all —
+which is this agenda's central question restated as a located literature gap
+(the survey's zero-record query "market regime" + "null distribution" across
+all of arXiv is logged); (e) the 20% bull/bear threshold has no locatable
+primary source and joins the Market Profile 70% value area as an unattributed
+industry convention; (f) the correlation-state school's correlated-Wishart
+surrogate is a stated, implemented feature-structure null — the nearest
+published analogue to branch 1's random-relocation design.
 
 > **Test-design requirement (charter step 2).** Every test below states its
 > alpha, its target detection probability, and the MDES that follows, before it
@@ -109,6 +142,31 @@ difference essentially always and attribute it to levels existing. Instead:
 > **Consequence for every downstream artifact: a branch-1 claim must name its
 > definition class.** A `construct-negative` verdict on Class N says nothing
 > whatever about R or T. A failure_log row without a class is not localised.
+>
+> **Prior art located (Rev 2, F005 forward-citation search).** The survey's
+> headline claim — that no Class N definition has ever had its existence
+> tested — is **refuted**:
+> [Garzarelli, Cristelli, Pompa, Zaccaria & Pietronero 2014](https://doi.org/10.1038/srep04487)
+> (*Scientific Reports* 4:4487; the read full text is arXiv:1110.5197 v1,
+> whose author list lacks Pompa) tests the existence of a path-derived
+> trailing-extremum level (fully affine-equivariant, Class N) via conditional
+> bounce probability against a shuffled-return null, finding significant
+> deflection increasing in prior bounces at 45–90 s timescales on LSE tick
+> data. Supporting peer-reviewed evidence at the trailing-extremum boundary:
+> Driessen, Lin & Van Hemert 2013 (*Review of Finance*), Huddart, Lang &
+> Yetman 2009 (*Management Science*), Mizrach & Weerts 2009. **Two narrower
+> negatives survive and now define this branch's contribution:** (a) no
+> located Class N existence test uses a null this branch would admit —
+> Garzarelli's shuffled-return surrogate is exactly the return-resampling
+> class ruled inadmissible above; (b) **no located source reports a
+> confidence interval on a level location** — coverage-bounded, not universal:
+> ~1,354 of 1,948 screened titles matched neither keyword net and were not
+> individually read (f005 review §10), the same bounding discipline whose
+> absence let F005's own headline fall to one missed record. The branch's
+> novelty claim is therefore not "first existence test" but "first existence
+> test under an admissible null, and first located interval on location in the
+> searched literature." See the F005 addendum in
+> [failure_log.md](../../failure_log.md).
 >
 > Three definitions are jointly R and T, and one separates the confounds
 > empirically: a tenfold tick-size reduction on an FX platform left limit orders
@@ -203,12 +261,21 @@ difference essentially always and attribute it to levels existing. Instead:
   Asymptotics: Mammen, Marron & Fisher 1992. Finite-sample comparison: Fischer,
   Mammen & Marron 1994. Family comparison: Ameijeiras-Alonso et al. 2018.
 
-  > **Blocker before implementation.** Hall & York (2001), "On the calibration of
-  > Silverman's test for multimodality", *Statistica Sinica* 11:515–536, is the
-  > principal published calibration correction and **has no DOI in any
-  > aggregator**, so it is not in the corpus. The direction of the Silverman
-  > test's size distortion is therefore unstated. Obtain this paper before
-  > implementing the Silverman route; the dip test does not depend on it.
+  > **Blocker RESOLVED 2026-08-21** (Phase 1 sweep;
+  > [lit_review_f005-class-n-tests_2026-08-21.md](../literature/lit_review_f005-class-n-tests_2026-08-21.md)).
+  > Hall & York (2001), "On the calibration of Silverman's test for
+  > multimodality", *Statistica Sinica* 11:515–536, was retrieved and read in
+  > full (open publisher PDF at
+  > [www3.stat.sinica.edu.tw/statistica/oldpdf/A11n28.pdf](https://www3.stat.sinica.edu.tw/statistica/oldpdf/A11n28.pdf);
+  > it has **no DOI anywhere** — re-confirmed, an irreducible FAIR F1 gap
+  > carried with the archival URL as locator). **The size distortion is
+  > conservative**: actual asymptotic levels 0.000/0.010/0.032/0.102 at nominal
+  > 0.01/0.05/0.10/0.20 (their Table 1). The calibration replaces λ=1 with a
+  > rational-polynomial λ(α) (their eq. 4.1), with a Monte Carlo variant for
+  > second-order effects. Two caveats bind here: valid for **one mode (j=1)
+  > only**, and derived under **i.i.d. sampling** — it does not repair the
+  > integrated-data defect above, so the Silverman route remains inadmissible on
+  > raw price paths even calibrated.
 
   **The dip statistic and the excess-mass statistic coincide up to a known
   constant for the k=1 vs k=2 null.** Registering both as family members misstates
@@ -216,10 +283,15 @@ difference essentially always and attribute it to levels existing. Instead:
   where one statistic is reported twice. Pick one; use excess mass only if k>2 is
   genuinely being tested, where the count-vs-location separation it offers is
   real. The dip test's own calibration paper — Cheng & Hall 1998,
-  [doi:10.1111/1467-9868.00141](https://doi.org/10.1111/1467-9868.00141) — is
-  **absent from the corpus**, the identical structural gap already flagged for
-  Silverman. It addresses the i.i.d. case only and does not repair the defect
-  above.
+  [doi:10.1111/1467-9868.00141](https://doi.org/10.1111/1467-9868.00141) — was
+  **retrieved and read in full 2026-08-21** (author self-archive; Phase 1
+  sweep). The "i.i.d. case only" caveat is **confirmed from the text**: the
+  entire framework is defined on the empirical distribution of an n-sample
+  drawn from F, with no dependent-data, mixing, or occupation-measure setting
+  anywhere; it calibrates away the uniform null's extreme conservatism
+  (asymptotic level zero at every nonzero nominal level) by estimating
+  d = |f″(x₀)|/f(x₀)³ and Monte-Carlo-calibrating from a matched unimodal
+  density. It does not repair the integrated-data defect above.
 - *Direction:* an **equivalence test against a pre-registered bound**, not a
   failed difference test. Failure to reject is not evidence of absence, and the
   charter's `construct` gate requires this explicitly.
@@ -244,7 +316,19 @@ Open questions:
   confirms the negative:** the targeted arXiv query was the only query in the
   entire review to return **zero records**, and no Crossref source was found. No
   null distribution is published. Deriving or simulating it is unavoidable, not
-  optional.
+  optional. **Rev 2 (Phase 1 sweep,
+  [lit_review_regime-method-gaps_2026-08-21.md](../literature/lit_review_regime-method-gaps_2026-08-21.md)):
+  the zero replicates on OpenAlex full-text, Semantic Scholar, and web search
+  (all hits tier-5), upgrading the negative from one platform to five. A
+  peer-reviewed derivation starting point exists in another field:** ER is
+  term-for-term the *straightness index* of movement ecology, whose null
+  expectation is a decaying function of window length n
+  ([Benhamou 2004](https://doi.org/10.1016/j.jtbi.2004.03.016), *Journal of
+  Theoretical Biology* 229:209–220) — so **any fixed ER threshold encodes a
+  window-dependent false-positive rate** — with the net-displacement moment
+  machinery for deriving the null in
+  [Codling, Plank & Benhamou 2008](https://doi.org/10.1098/rsif.2008.0014)
+  (*Journal of the Royal Society Interface* 5:813–834).
 - Variance ratio test ([Lo & MacKinlay 1988](https://doi.org/10.1093/rfs/1.1.41),
   *Review of Financial Studies* 1(1):41–66), homoskedastic and
   heteroskedasticity-robust statistics (dual-statistic structure verified via
@@ -261,7 +345,15 @@ Open questions:
   Markov models.
 - Hidden semi-Markov models: standard HMMs impose geometric state durations,
   which is a poor model of regime persistence — and regime duration is precisely
-  the quantity of interest.
+  the quantity of interest. **Rev 2: the gap literature is located (11
+  peer-reviewed records).** The direct answer to the geometric-duration misfit
+  in finance is [Bulla & Bulla 2006](https://doi.org/10.1016/j.csda.2006.07.021)
+  (*Computational Statistics & Data Analysis* 51:2192–2209); the practical
+  estimation route — arbitrary dwell-time distributions inside an
+  expanded-state HMM — is
+  [Langrock & Zucchini 2011](https://doi.org/10.1016/j.csda.2010.06.015)
+  (*CSDA* 55:715–724); duration-dependent switching precedents are Durland &
+  McCurdy 1994 and Maheu & McCurdy 2000 (records in the sweep store).
 - Filtered versus smoothed state probabilities. Published regime charts commonly
   plot smoothed probabilities, which condition on the full sample and are
   therefore lookahead. Cataloguing which published results are affected is a
@@ -319,7 +411,32 @@ Open questions:
   detector could achieve.
 - Detector operating characteristics: detection delay against average run length
   to false alarm. This is the honest way to compare detectors and is largely
-  absent from the trading literature.
+  absent from the trading literature. **Rev 2: assertion tested and sustained
+  in refined form** (Phase 1 sweep,
+  [lit_review_regime-method-gaps_2026-08-21.md](../literature/lit_review_regime-method-gaps_2026-08-21.md)):
+  the delay/ARL₀ tradition is a mature canon in sequential analysis —
+  [Lorden 1971](https://doi.org/10.1214/aoms/1177693055),
+  [Moustakides 1986](https://doi.org/10.1214/aos/1176350164),
+  [Lai 1998](https://doi.org/10.1109/18.737522), surveyed in
+  [Polunchenko & Tartakovsky 2012](https://doi.org/10.1007/s11009-011-9256-5) —
+  and it HAS been applied to finance, but inside the statistics literature —
+  the Frisén "financial surveillance" school:
+  [Frisén 2003](https://doi.org/10.1111/j.1751-5823.2003.tb00205.x) for the
+  evaluation-criteria taxonomy, and
+  [Bock, Andersson & Frisén 2007](https://doi.org/10.1002/9780470987179.ch3),
+  which explicitly recasts trading indicators as surveillance stopping rules —
+  not the trading literature: the sweep's ARL-vocabulary query within q-fin
+  returned zero records. The numerical operating-characteristic template for
+  the design-resolution study below is
+  [Moustakides, Polunchenko & Tartakovsky 2011](https://doi.org/10.5705/ss.2011.026a)
+  (*Statistica Sinica* 21:571–596). The standard ML changepoint benchmark
+  (van den Burg & Williams 2020, arXiv:2003.06222 — preprint) evaluates by
+  F1/cover, not delay/ARL₀. Theoretical delay/false-alarm optimality
+  guarantees for a restarted BOCPD variant DO exist — Alami, Maillard &
+  Féraud 2020, PMLR (no DOI and no arXiv record; OpenAlex W3035594853;
+  retrieve manually from PMLR, per the sweep's V3 caveat) — so the residual
+  gap is the *empirical* delay-vs-ARL₀ characterization of BOCPD-class
+  detectors on financial data, not the absence of any characterization.
 - Confirmation displacement expressed in deseasonalized sigma rather than fixed
   points. A fixed offset is a magic number; the multiplier is a fitted parameter
   with an interval.
@@ -365,6 +482,19 @@ Open questions:
   > 2018, *Journal of Portfolio Management*). Any value used here is a labelled
   > convention with no empirical backing, in the same class as the Market Profile
   > 70% value area — and must be sensitivity-analysed rather than fixed.
+  >
+  > **Rev 2: negative confirmed a second time by the targeted sweep** — no
+  > purge/embargo-length formal analysis exists (nearest formal relative:
+  > CSCV/PBO, [Bailey, Borwein, López de Prado & Zhu 2016](https://doi.org/10.21314/jcf.2016.322),
+  > which treats overfitting probability, not purge length). **But the adjacent
+  > rigorous literature that could ground the choice is located:** h-block CV
+  > ([Burman, Chow & Nolan 1994](https://doi.org/10.1093/biomet/81.2.351),
+  > *Biometrika* 81:351–358) and hv-block CV
+  > ([Racine 2000](https://doi.org/10.1016/S0304-4076(00)00030-0), *Journal of
+  > Econometrics* 99:39–61) give the consistency framework a purge/embargo
+  > length could be selected against rather than asserted, and
+  > Bergmeir & Benítez's evaluations (sweep store) show purging is not always
+  > necessary — its length is a testable quantity, not a fixed constant.
 - Stationary bootstrap (Politis & Romano 1994, *Journal of the American
   Statistical Association* — DOI pending verification) for confidence intervals
   under dependence, and block-length selection for it.
@@ -426,3 +556,12 @@ Citations in this document are queued for verification against primary sources
 by the `literature-check` branch declared in
 [deliverable_spec_think-tank-charter_2026-08-21.md](../deliverables/deliverable_spec_think-tank-charter_2026-08-21.md).
 Treat DOIs and volume/page numbers here as unconfirmed until that check returns.
+
+Rev 2 citations were added 2026-08-21 under
+[deliverable_spec_phase1-sweep_2026-08-21.md](../deliverables/deliverable_spec_phase1-sweep_2026-08-21.md)
+from the three sweep records named in the frontmatter; every Rev 2 DOI was
+verified against the doi.org handle API by the sweep agents (per-DOI logs under
+docs/literature/search_logs/), and Hall & York 2001, Cheng & Hall 1998, and
+Garzarelli et al. 2014 were read in full text. Publisher-page 403s to automated
+probes are recorded as the known G16 false-positive class, not resolution
+failures.

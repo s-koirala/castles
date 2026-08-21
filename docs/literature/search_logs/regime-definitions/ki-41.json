@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-41",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Bemporad+Breschi+Piga+Boyd+Fitting+jump+models+Automatica&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1304349,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1016/j.automatica.2018.06.022",
+   "title": "Fitting jump models",
+   "year": 2018,
+   "container": "Automatica",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.automatica.2020.109126",
+   "title": "Estimation of jump Box–Jenkins models",
+   "year": 2020,
+   "container": "Automatica",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1109/cdc.2018.8619819",
+   "title": "Prediction error methods in learning jump ARMAX models",
+   "year": 2018,
+   "container": "2018 IEEE Conference on Decision and Control (CDC)",
+   "type": "proceedings-article",
+   "abstract": ""
+  }
+ ]
+}

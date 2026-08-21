@@ -1,0 +1,90 @@
+{
+ "query_id": "dq-crossref-03",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=existence+of+support+and+resistance+levels&rows=10&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1902631,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "DOI": "10.1201/9781420033106.ch91",
+   "title": "Support And Resistance Levels",
+   "year": 2000,
+   "container": "101 Investment Tools for Buying Low &amp; Selling High",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119206552.ch3",
+   "title": "Buying and Selling = Support and Resistance Levels",
+   "year": 2012,
+   "container": "Trading and Investing in the Forex Market Using Chart Techniques",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/1350486x.2017.1297729",
+   "title": "Optimal prediction of resistance and support levels",
+   "year": 2016,
+   "container": "Applied Mathematical Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.14321/jj.362388.4",
+   "title": "Existence as Resistance:",
+   "year": 2023,
+   "container": "Resistance in the Era of Nationalisms",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-3-032-06862-0_4",
+   "title": "Existence as Resistance",
+   "year": 2025,
+   "container": "The Sonic Gaze",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/jj.20626755.13",
+   "title": "EXISTENCE AS RESISTANCE:",
+   "year": 2024,
+   "container": "Q Policing",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1057/9781137439598_8",
+   "title": "Levels: Realms of Existence",
+   "year": 2015,
+   "container": "Narrative Form",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1057/9780230503489_8",
+   "title": "Levels: Realms of Existence",
+   "year": 2003,
+   "container": "Narrative Form",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4324/9781315595498-7",
+   "title": "Levels of Human Existence",
+   "year": 2016,
+   "container": "Mind, Brain and the Elusive Soul",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/2102760",
+   "title": "Kierkegaard's Levels of Existence",
+   "year": 1941,
+   "container": "Philosophy and Phenomenological Research",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

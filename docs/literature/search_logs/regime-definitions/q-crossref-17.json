@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-17",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=crisis+calm+regime+flight+to+quality+turbulent+quiet+periods+asset+returns&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 11247,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.4760126",
+   "title": "ESG Investing During Calm and Crisis: Implied Expected Returns",
+   "year": 2024,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We examine the impact of ESG performance on option-implied expected returns. For a sample of S&amp;amp;P500 constituents over January 2007 to December 2021, we find that stocks with higher ESG scores have lower expected returns, but only during the Global Financial Crisis and the COVID-19 pandemic. We also find evidence of a positive, steeper ESG risk premium term structure during these crises, suggesting that investors expect a reversion to normal times within a year. Our results support the view that ESG investing reduces downside risk during crises, but contrast with the popular opinion that ESG investing increases expected stock returns over long periods.</jats:p>"
+  },
+  {
+   "DOI": "10.1080/1351847x.2012.742024",
+   "title": "Equilibrium moment restrictions on asset returns: normal and crisis periods",
+   "year": 2013,
+   "container": "The European Journal of Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.20955/wp.2010.002",
+   "title": "Can VAR Models Capture Regime Shifts in Asset Returns? A Long-Horizon Strategic Asset Allocation Perspective",
+   "year": 2010,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.1691621",
+   "title": "Can VAR Models Capture Regime Shifts in Asset Returns? A Long-Horizon Strategic Asset Allocation Perspective",
+   "year": 2010,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We examine whether simple VARs can produce empirical portfolio rules similar to those obtained under a range of multivariate Markov switching models, by studying the effects of expanding both the order of the VAR and the number/selection of predictor variables included. In a typical stock-bond strategic asset allocation problem on US data, we compute the out-of-sample certainty equivalent returns for a wide range of VARs and compare these measures of performance with those typical of non-linear models that account for bull-bear dynamics and characterize the differences in the implied hedging demands for a long-horizon investor with constant relative risk aversion preferences. In a horse race in which models are not considered in their individuality but instead as an overal class, we find that a power utility investor with a constant coefficient of relative risk aversion of 5 and a 5-year horizon, would be ready to pay as much as 8.1% in real terms to be allowed to select models from the MS class, while analogous calculation for the whole class of expanding window VAR leads to a disappointing 0.3% per annum. We conclude that most (if not all) VARs cannot produce portfolio ru"
+  },
+  {
+   "DOI": "10.2139/ssrn.5417018",
+   "title": "ESG Investing During Calm and Crisis: Evidence from Option-Implied Expected Returns",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/10971475.2025.2605836",
+   "title": "Does Human Capital Six-Factor Asset Pricing Model Explain the Variability in Asset Returns? A Lesson from the Normal and Crisis Periods in China",
+   "year": 2026,
+   "container": "The Chinese Economy",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2225937",
+   "title": "Dow Effects in Returns and in Volatility of Stock Markets during Quiet and Turbulent Times",
+   "year": 2013,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>The persistence in time of the calendar anomalies is one of the most disputed subjects from the financial literature. Quite often, the passing from quiet to turbulent periods of time provokes radical changes in the investors’ behaviors which affect the stock markets seasonality. In this paper we investigate the presence of the day of the week effects in returns and volatility for 32 indexes from advanced and emerging markets. We analyze this seasonality for two periods of time: a relative quiet period, from January 2000 to December 2006, and a more turbulent period, from January 2007 to September 2012. A GJR-GARCH model allows us to identify, for the two periods, various forms of day of the week effects in returns and volatility. However, only for few indexes we find the stability in time of the daily seasonality. For many of the advanced markets indexes, the day of the week effects in returns identified for the quiet period disappeared during the turbulent period. A less radical decline occurred for the day of the week effects in volatility. In the case of indexes from the emerging markets, the persistence in time of the daily seasonality in returns was more consistent in "
+  },
+  {
+   "DOI": "10.2139/ssrn.275969",
+   "title": "Asset Market Linkages in Crisis Periods",
+   "year": 2001,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We characterize asset return linkages during periods of stress by an extremal dependence measure. Contrary to correlation analysis, this non-parametric measure is not predisposed towards the normal distribution and can account for non-linear relationships. Our estimates for the G-5 countries suggest that simultaneous crashes in stock markets are about two times more likely than in bond markets. Moreover, stock-bond contagion is about as frequent as flight to quality from stocks into bonds. Extreme cross-border linkages are surprisingly similar to national linkages, illustrating a potential downside to international financial integration.</jats:p>"
+  }
+ ]
+}

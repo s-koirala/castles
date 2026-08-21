@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-10",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.container-title=Quantitative+Finance&query.title=regime&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 819,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.1080/14697688.2023.2288871",
+   "title": "Regime-switching affine term structures",
+   "year": 2023,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1088/1469-7688/2/2/303",
+   "title": "Option pricing under regime switching",
+   "year": 2002,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/14697688.2016.1161230",
+   "title": "Bifurcation patterns of market regime transition",
+   "year": 2016,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/14697688.2026.2659195",
+   "title": "Tactical asset allocation with macroeconomic regime detection",
+   "year": 2026,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/14697680902968013",
+   "title": "Multi-regime nonlinear capital asset pricing models",
+   "year": 2009,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/14697688.2017.1403035",
+   "title": "Estimating a regime switching pairs trading model",
+   "year": 2017,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

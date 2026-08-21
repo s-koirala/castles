@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-31",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Burns+Mitchell+Measuring+Business+Cycles&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1784430,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.4324/9781003679981-31",
+   "title": "Review of Burns and Mitchell, Measuring Business Cycles",
+   "year": 2025,
+   "container": "Readings in Business Cycles and National Income",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/2549570",
+   "title": "Measuring Business Cycles.",
+   "year": 1948,
+   "container": "Economica",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/1052315",
+   "title": "Measuring Business Cycles",
+   "year": 1947,
+   "container": "Southern Economic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

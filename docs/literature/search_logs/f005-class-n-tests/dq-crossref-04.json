@@ -1,0 +1,90 @@
+{
+ "query_id": "dq-crossref-04",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=pivot+point+statistical+test+null+distribution+intraday&rows=10&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2577339,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "DOI": "10.32614/cran.package.amp",
+   "title": "amp: Statistical Test for the Multivariate Point Null Hypotheses",
+   "year": 2022,
+   "container": "CRAN: Contributed Packages",
+   "type": "dataset",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.5040/9781350926110",
+   "title": "Lateral pivot shift maneuver test",
+   "year": 2016,
+   "container": "Lateral pivot shift maneuver test",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1371/journal.pone.0216287",
+   "title": "A robust Pearson correlation test for a general point null using a surrogate bootstrap distribution",
+   "year": 2019,
+   "container": "PLOS ONE",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1302/3114-221874",
+   "title": "Pivot Shift Test for ACL",
+   "year": 2022,
+   "container": "OrthoMedia",
+   "type": "dataset",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/0378-3758(88)90076-6",
+   "title": "The non-null distribution of the beta statistic in the test of the univariate general linear hypothesis, when the error distribution is spherically symmetric",
+   "year": 1988,
+   "container": "Journal of Statistical Planning and Inference",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/j.2517-6161.1969.tb00769.x",
+   "title": "On the Null Distribution of a Non-Parametric Test for the Bivariate Two-Sample Problem",
+   "year": 1969,
+   "container": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+   "type": "journal-article",
+   "abstract": "Summary A non-parametric test criterion U for the bivariate two-sample problem has been proposed by Mardia (1967). It is shown in Mardia (1968) that a two-sample test on a circle proposed by Wheeler and Watson (1964) has the same null distribution as that of U. In view of this additional application, we extend the table of critical values of U given in Mardia (1967), give a new approximation to the null distribution and compare it with the approximations given in Mardia (1967). We also apply the U-test to a geological problem."
+  },
+  {
+   "DOI": "10.14490/jjss1995.29.147",
+   "title": "ASYMPTOTIC APPROXIMATIONS OF THE NULL DISTRIBUTION OF THE ONE-WAY ANOVA TEST STATISTIC UNDER NONNORMALITY",
+   "year": 1999,
+   "container": "JOURNAL OF THE JAPAN STATISTICAL SOCIETY",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4236/jilsa.2012.44029",
+   "title": "Optimization of Intraday Trading Strategy Based on ACD Rules and Pivot Point System in Chinese Market",
+   "year": 2012,
+   "container": "Journal of Intelligent Learning Systems and Applications",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/00949650310001626071",
+   "title": "The null distribution of the likelihood-ratio test for two upper outliers in a gamma sample",
+   "year": 2004,
+   "container": "Journal of Statistical Computation and Simulation",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/s00362-022-01336-6",
+   "title": "On the eigenvalues associated with the limit null distribution of the Epps-Pulley test of normality",
+   "year": 2022,
+   "container": "Statistical Papers",
+   "type": "journal-article",
+   "abstract": "Abstract The Shapiro–Wilk test (SW) and the Anderson–Darling test (AD) turned out to be strong procedures for testing for normality. They are joined by a class of tests for normality proposed by Epps and Pulley that, in contrast to SW and AD, have been extended by Baringhaus and Henze to yield easy-to-use affine invariant and universally consistent tests for normality in any dimension. The limit null distribution of the Epps–Pulley test involves a sequences of eigenvalues of a certain integral operator induced by the covariance kernel of a Gaussian process. We solve the associated integral equ"
+  }
+ ]
+}

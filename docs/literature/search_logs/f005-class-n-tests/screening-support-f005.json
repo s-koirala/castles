@@ -1,0 +1,31 @@
+{
+ "query_id": "screening-support-f005",
+ "platform": "Crossref REST API works/{doi}; OpenAlex REST API works/doi:{doi}; Semantic Scholar Academic Graph API paper/DOI:{doi}; DOI Handle System REST API; arXiv (arxiv.org/pdf); nature.com (redirect); papers.ssrn.com (blocked)",
+ "date_searched": "2026-08-21",
+ "purpose": "Metadata and full-text re-retrieval for records already identified by fc-* and dq-* queries, executed to adjudicate boundary candidates during screening. No new identification; n_records 0.",
+ "fetches_verbatim": [
+  {"url": "https://api.crossref.org/works/10.1080/14697680902814258", "outcome": "metadata; no abstract"},
+  {"url": "https://api.crossref.org/works/10.1080/1350486x.2017.1297729", "outcome": "metadata; no abstract"},
+  {"url": "https://api.crossref.org/works/10.1109/csip.2012.6308960", "outcome": "metadata; no abstract"},
+  {"url": "https://api.crossref.org/works/10.2139/ssrn.4486459", "outcome": "metadata; no abstract"},
+  {"url": "https://api.crossref.org/works/10.2139/ssrn.4310592", "outcome": "metadata WITH full abstract; abstract quoted in review section 9.3"},
+  {"url": "https://api.openalex.org/works/doi:10.1080/14697680902814258?select=title,abstract_inverted_index", "outcome": "truncated abstract reconstructed from inverted index"},
+  {"url": "https://api.openalex.org/works/doi:10.1080/1350486X.2017.1297729?select=title,abstract_inverted_index", "outcome": "full abstract reconstructed; hidden-aspiration-level optimal prediction; screening: near-miss (theory, existence assumed)"},
+  {"url": "https://api.openalex.org/works/doi:10.1109/CSIP.2012.6308960?select=title,abstract_inverted_index", "outcome": "full abstract reconstructed; clusters stocks by extreme-point timing, not levels; excluded"},
+  {"url": "https://api.openalex.org/works/doi:10.1080/09603100802199679?select=title,abstract_inverted_index", "outcome": "full abstract reconstructed; turnover at n-day highs/lows; included"},
+  {"url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.2139/ssrn.4310592?fields=title,abstract,year,tldr", "outcome": "record present, abstract elided by publisher"},
+  {"url": "https://api.crossref.org/works/10.1287/mnsc.1080.0920", "outcome": "metadata WITH full abstract; volume spike at trading-range limits; included"},
+  {"url": "https://api.crossref.org/works/10.1093/rof/rfr026", "outcome": "metadata WITH full abstract; IV/beta decrease on approach, volatility increase after breakthrough; included"},
+  {"url": "https://doi.org/api/handles/10.1287/mnsc.1080.0920", "outcome": "responseCode 1"},
+  {"url": "https://doi.org/api/handles/10.1093/rof/rfr026", "outcome": "responseCode 1"},
+  {"url": "https://doi.org/api/handles/10.1080/09603100802199679", "outcome": "responseCode 1"},
+  {"url": "https://doi.org/api/handles/10.1080/09603100802243244", "outcome": "responseCode 100 (not found) - this candidate DOI for Mizrach & Weerts was WRONG and was discarded rather than recorded; the correct DOI 10.1080/09603100802199679 was then located via Crossref bibliographic query and verified responseCode 1. Recorded so the discard is visible.",
+   "note": "query that located the correct DOI: https://api.crossref.org/works?query.bibliographic=Mizrach+Weerts+highs+and+lows+behavioral+technical+analysis&rows=5"},
+  {"url": "https://doi.org/api/handles/10.1038/srep04487", "outcome": "responseCode 1"},
+  {"url": "https://www.nature.com/articles/srep04487", "outcome": "publisher redirect to idp.nature.com; full text taken from the arXiv version instead"},
+  {"url": "https://arxiv.org/pdf/1110.5197", "outcome": "arXiv v1 of Garzarelli et al. retrieved (PDF, 21 pages); text extracted with pdftotext and read in full; definitions and test apparatus quoted in review section 9.1"},
+  {"url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4486459", "outcome": "HTTP 403 (SSRN blocks unauthenticated fetch); abstract obtained via the Crossref record of the earlier version 10.2139/ssrn.4310592 instead"},
+  {"url": "https://api.crossref.org/works?query.title=moving+average+psychological+barrier&rows=6", "outcome": "confirms no journal-published version of the Li-Luo-Xiao paper exists in Crossref as of 2026-08-21; only posted-content 10.2139/ssrn.4486459"}
+ ],
+ "n_records_retrieved": 0
+}

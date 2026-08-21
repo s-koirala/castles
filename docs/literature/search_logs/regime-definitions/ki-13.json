@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-13",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Chow+Jacquier+Kritzman+Lowry+Optimal+portfolios+in+good+times+and+bad&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1095877,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2469/faj.v55.n3.2273",
+   "title": "Optimal Portfolios in Good Times and Bad",
+   "year": 1999,
+   "container": "Financial Analysts Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2469/dig.v30.n1.614",
+   "title": "Optimal Portfolios in Good Times and Bad",
+   "year": 2000,
+   "container": "CFA Digest",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.56687/9781447336488",
+   "title": "Good Times, Bad Times",
+   "year": 2017,
+   "container": "",
+   "type": "monograph",
+   "abstract": ""
+  }
+ ]
+}

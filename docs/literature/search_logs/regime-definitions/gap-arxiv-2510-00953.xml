@@ -1,0 +1,29 @@
+<!-- query_id: gap-arxiv-2510-00953 | platform: arXiv API (export.arxiv.org) | date_searched: 2026-08-21 | query_url_verbatim: http://export.arxiv.org/api/query?id_list=2510.00953&max_results=1 | note: metadata backfill for a record already retrieved by q-s2-02; not a discovery query, not counted in flow arithmetic -->
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WfYZyWECZMH6T86zuOYjBTZlyg8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.00953&amp;start=0&amp;max_results=1</title>
+  <updated>2026-08-21T20:21:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.00953" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.00953v1</id>
+    <title>Modeling Market States with Clustering and State Machines</title>
+    <updated>2025-10-01T14:28:12Z</updated>
+    <link href="https://arxiv.org/abs/2510.00953v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.00953v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work introduces a new framework for modeling financial markets through an interpretable probabilistic state machine. By clustering historical returns based on momentum and risk features across multiple time horizons, we identify distinct market states that capture underlying regimes, such as expansion phase, contraction, crisis, or recovery. From a transition matrix representing the dynamics between these states, we construct a probabilistic state machine that models the temporal evolution of the market. This state machine enables the generation of a custom distribution of returns based on a mixture of Gaussian components weighted by state frequencies. We show that the proposed benchmark significantly outperforms the traditional approach in capturing key statistical properties of asset returns, including skewness and kurtosis, and our experiments across random assets and time periods confirm its robustness.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-01T14:28:12Z</published>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Christian Oliva</name>
+    </author>
+    <author>
+      <name>Silviu Gabriel Tinjala</name>
+    </author>
+  </entry>
+</feed>

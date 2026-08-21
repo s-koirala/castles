@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-44",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Marsili+Dissecting+financial+markets+sectors+and+states&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1661174,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1088/1469-7688/2/4/305",
+   "title": "Dissecting financial markets: sectors and states",
+   "year": 2002,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1057/9781137434074.0010",
+   "title": "States and Markets in Hydrocarbon Export-Dependent States",
+   "year": null,
+   "container": "States and Markets in Hydrocarbon Sectors",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1057/9781137434074.0008",
+   "title": "States and Markets in Energy Policy",
+   "year": null,
+   "container": "States and Markets in Hydrocarbon Sectors",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-11",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.container-title=Journal+of+Business+and+Economic+Statistics&query.title=regime&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1659,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.1198/073500102317351930",
+   "title": "Regime Switches in Interest Rates",
+   "year": 2002,
+   "container": "Journal of Business &amp; Economic Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/07350015.2011.652053",
+   "title": "Regime-Specific Predictability in Predictive Regressions",
+   "year": 2012,
+   "container": "Journal of Business &amp; Economic Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/07350015.2025.2573151",
+   "title": "Regime-Specific Return Predictability in Quantiles",
+   "year": 2026,
+   "container": "Journal of Business &amp; Economic Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1198/07350010152596655",
+   "title": "Markov Regime Switching and Unit-Root Tests",
+   "year": 2001,
+   "container": "Journal of Business &amp; Economic Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/07350015.1994.10524546",
+   "title": "A Markov Model of Switching-Regime ARCH",
+   "year": 1994,
+   "container": "Journal of Business &amp; Economic Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/07350015.2017.1236521",
+   "title": "Guest Editors’ Introduction: Regime Switching and Threshold Models",
+   "year": 2017,
+   "container": "Journal of Business &amp; Economic Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

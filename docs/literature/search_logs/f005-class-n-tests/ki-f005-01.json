@@ -1,0 +1,41 @@
+{
+ "query_id": "ki-f005-01",
+ "platform": "Claude Code WebSearch tool (US region); www3.stat.sinica.edu.tw via WebFetch and curl; api.crossref.org; api.datacite.org",
+ "date_searched": "2026-08-21",
+ "purpose": "Known-item retrieval of Hall & York (2001), 'On the calibration of Silverman's test for multimodality', Statistica Sinica 11(2):515-536. Recorded project knowledge (research_agenda_regime-classification_2026-08-21.md, branch 1): the paper has no DOI in any aggregator. Task: locate the retrievable full-text route on the publisher's own site and extract the direction and form of the Silverman test's size distortion plus the proposed calibration.",
+ "steps_verbatim": [
+  {
+   "step": 1,
+   "tool": "WebSearch",
+   "query": "Hall York \"calibration of Silverman's test for multimodality\" Statistica Sinica site:www3.stat.sinica.edu.tw",
+   "n_links_returned": 9,
+   "relevant_hit": "https://www3.stat.sinica.edu.tw/statistica/j11n2/j11n28/j11n28.htm"
+  },
+  {
+   "step": 2,
+   "tool": "WebFetch",
+   "url": "https://www3.stat.sinica.edu.tw/statistica/j11n2/j11n28/j11n28.htm",
+   "outcome": "abstract page retrieved; full bibliographic metadata confirmed (Hall P, York M; Statistica Sinica 11(2), 2001, 515-536); on-page full-text link is password-gated (../../password.asp?vol=11&num=2&art=8)"
+  },
+  {
+   "step": 3,
+   "tool": "curl",
+   "url": "https://www3.stat.sinica.edu.tw/statistica/oldpdf/A11n28.pdf",
+   "outcome": "publisher-hosted open-access PDF retrieved without authentication; 282488 bytes, PDF 1.3, 22 pages (515-536); text extracted with pdftotext and read"
+  },
+  {
+   "step": 4,
+   "tool": "curl",
+   "url": "https://api.crossref.org/works?query.bibliographic=Hall+York+calibration+of+Silverman%27s+test+for+multimodality&rows=5&select=DOI,title,container-title,issued",
+   "outcome": "no matching record in the first page of relevance-ranked results; nearest hit is Silverman (1982) doi:10.1017/cbo9780511662430.015, a different work. Confirms absence from Crossref."
+  },
+  {
+   "step": 5,
+   "tool": "curl",
+   "url": "https://api.datacite.org/dois?query=Silverman%20multimodality%20calibration&page%5Bsize%5D=5",
+   "outcome": "{\"data\":[],\"meta\":{\"total\":0}} - confirms absence from DataCite."
+  }
+ ],
+ "n_records_retrieved": 1,
+ "disposition": "included; full text read; extraction in lit_review_f005-class-n-tests_2026-08-21.md section 8.1; CSL-JSON entry hallyork2001statsinica (no persistent identifier exists - FAIR F1 unsatisfiable for this record, recorded rather than repaired)"
+}

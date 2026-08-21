@@ -1,0 +1,372 @@
+{
+ "query_id": "gap-openalex-abstracts",
+ "platform": "OpenAlex REST API (api.openalex.org), per-DOI metadata backfill",
+ "date_searched": "2026-08-21",
+ "note": "Abstract backfill for included records; one GET per DOI at https://api.openalex.org/works/https://doi.org/{doi}. Executed to give the extraction step verifiable text; not a discovery query, so its records are not counted in the flow arithmetic.",
+ "items": [
+  {
+   "DOI": "10.1016/s0304-3932(01)00108-8",
+   "openalex_id": "https://openalex.org/W2035777923",
+   "title": "Dissecting the cycle: a methodological investigation",
+   "year": 2002,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/s0165-1889(02)00076-3",
+   "openalex_id": "https://openalex.org/W1977499272",
+   "title": "A comparison of two business cycle dating methods",
+   "year": 2003,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/07350015.2000.10524851",
+   "openalex_id": "https://openalex.org/W3124642734",
+   "title": "Identifying Bull and Bear Markets in Stock Returns",
+   "year": 2000,
+   "abstract": "This article uses a Markov-switching model that incorporates duration dependence to capture nonlinear structure in both the conditional mean and the conditional variance of stock returns. The model sorts returns into a high-return stable state and a low-return volatile state. We label these as bull and bear markets, respectively. The filter identifies all major stock-market downturns in over 160 years of monthly data. Bull markets have a declining hazard functions although the best market gains come at the start of a bull market. Volatility increases with duration in bear markets. Allowing volatility to vary with duration captures volatility clustering."
+  },
+  {
+   "DOI": "10.1080/07350015.2012.680412",
+   "openalex_id": "https://openalex.org/W3121177359",
+   "title": "Components of Bull and Bear Markets: Bull Corrections and Bear Rallies",
+   "year": 2012,
+   "abstract": "Existing methods of partitioning the market index into bull and bear regimes do not identify market corrections or bear market rallies. In contrast, our probabilistic model of the return distribution allows for rich and heterogeneous intraregime dynamics. We focus on the characteristics and dynamics of bear market rallies and bull market corrections, including, for example, the probability of transition from a bear market rally into a bull market versus back to the primary bear state. A Bayesian estimation approach accounts for parameter and regime uncertainty and provides probability statements regarding future regimes and returns. We show how to compute the predictive density of long-horizon returns and discuss the improvements our model provides over benchmarks. This article has online supplementary materials."
+  },
+  {
+   "DOI": "10.1016/0304-4076(94)90067-1",
+   "openalex_id": "https://openalex.org/W2157895285",
+   "title": "Autoregressive conditional heteroskedasticity and changes in regime",
+   "year": 1994,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3386/w3165",
+   "openalex_id": "https://openalex.org/W1582914998",
+   "title": "Long Swings in the Exchange Rate: Are they in the Data and Do Markets Know It?",
+   "year": 1989,
+   "abstract": "The value of the dollar appears to move in one direction for long periods of time. We develop a new statistical model of exchange rate dynamics as a sequence of stochastic, segmented time trends. The paper implements new techniques for parameter estimation and hypothesis testing for this framework."
+  },
+  {
+   "DOI": "10.1111/j.2517-6161.1980.tb01126.x",
+   "openalex_id": "https://openalex.org/W1606326889",
+   "title": "Threshold Autoregression, Limit Cycles and Cyclical Data",
+   "year": 1980,
+   "abstract": "Summary The notion of a limit cycle, which can only exist in a non-linear system, plays the key role in the modelling of cyclical data. We have shown that the class of threshold autoregressive models is general enough to capture this notion, a definition of which in discrete time is proposed. The threshold value has an interesting interpretation. Simulation results are presented which demonstrate that this new class of models exhibits some well-known features of non-linear vibrations. Detailed analyses of several real data sets are discussed."
+  },
+  {
+   "DOI": "10.1080/01621459.1994.10476462",
+   "openalex_id": "https://openalex.org/W2118234389",
+   "title": "Specification, Estimation, and Evaluation of Smooth Transition Autoregressive Models",
+   "year": 1994,
+   "abstract": "This article considers the application of two families of nonlinear autoregressive models, the logistic (LSTAR) and exponential (ESTAR) autoregressive models. This includes the specification of the model based on simple statistical tests: linearity testing against smooth transition autoregression, determining the delay parameter and choosing between LSTAR and ESTAR models are discussed. Estimation by nonlinear least squares is considered as well as evaluating the properties of the estimated model. The proposed techniques are illustrated by examples using both simulated and real time series."
+  },
+  {
+   "DOI": "10.1016/j.jedc.2006.12.004",
+   "openalex_id": "https://openalex.org/W3122672345",
+   "title": "Asset allocation under multivariate regime switching",
+   "year": 2007,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1093/rfs/15.4.1137",
+   "openalex_id": "https://openalex.org/W2005432509",
+   "title": "International Asset Allocation With Regime Shifts",
+   "year": 2002,
+   "abstract": "Correlations between international equity market returns tend to increase in highly volatile bear markets, which has led some to doubt the benefits of international diversification. This article solves the dynamic portfolio choice problem of a U.S. investor faced with a time-varying investment opportunity set modeled using a regime-switching process which may be characterized by correlations and volatilities that increase in bad times. International diversification is still valuable with regime changes and currency hedging imparts further benefit. The costs of ignoring the regimes are small for all-equity portfolios but increase when a conditionally risk-free asset can be held."
+  },
+  {
+   "DOI": "10.1198/073500102317351930",
+   "openalex_id": "https://openalex.org/W3122420083",
+   "title": "Regime Switches in Interest Rates",
+   "year": 2002,
+   "abstract": "We examine the econometric performance of regime-switching models for interest rate data from the United States, Germany, and the United Kingdom. Regime-switching models forecast better out-ofsample than single-regime models, including an affine multifactor model, but do not always match moments very well. Regime-switching models incorporating international short-rate and term spread information forecast better, match sample moments better, and classify regimes better than univariate regime-switching models. Finally, the regimes in interest rates correspond reasonably well with business cycles, at least in the United States."
+  },
+  {
+   "DOI": "10.2469/faj.v68.n3.3",
+   "openalex_id": "https://openalex.org/W2155179256",
+   "title": "Regime Shifts: Implications for Dynamic Strategies (corrected)",
+   "year": 2012,
+   "abstract": "Regime shifts present significant challenges for investors because they cause performance to depart significantly from the ranges implied by long-term averages of means and covariances. But regime shifts also present opportunities for gain. The authors show how to apply Markov-switching models to forecast regimes in market turbulence, inflation, and economic growth. They found that a dynamic process outperformed static asset allocation in backtests, especially for investors who seek to avoid large losses."
+  },
+  {
+   "DOI": "10.2469/faj.v66.n5.3",
+   "openalex_id": "https://openalex.org/W2099233100",
+   "title": "Skulls, Financial Turbulence, and Risk Management",
+   "year": 2010,
+   "abstract": "Based on a methodology introduced in 1927 to analyze human skulls and later applied to turbulence in financial markets, this study shows how to use a statistically derived measure of financial turbulence to measure and manage risk and to improve investment performance. View a webinar based on this article."
+  },
+  {
+   "DOI": "10.2469/faj.v55.n3.2273",
+   "openalex_id": "https://openalex.org/W2111560705",
+   "title": "Optimal Portfolios in Good Times and Bad",
+   "year": 1999,
+   "abstract": "Recent experience with emerging market investments and hedge funds has highlighted the fact that risk parameters are unstable. To address this problem, we introduce a procedure for identifying multivariate outliers and use the outliers to estimate a new covariance matrix. We suggest that a covariance matrix estimated from outliers characterizes a portfolio's riskiness during market turbulence better than a full-sample covariance matrix. We also introduce a procedure for blending an inside-sample covariance matrix with one from an outlier sample. This procedure enables one to express views about the likelihood of each risk regime and to differentiate one's aversion to them. Our framework collapses to the Markowitz mean–variance model if (1) we set the probabilities of the inside and outlying covariance matrixes equal to their empirical frequencies, (2) we are equally averse to both risk regimes, and (3) we estimate the inside and outlying covariances around the full sample's mean."
+  },
+  {
+   "DOI": "10.3905/jpm.2011.37.4.112",
+   "openalex_id": "https://openalex.org/W3124088450",
+   "title": "Principal Components as a Measure of Systemic Risk",
+   "year": 2011,
+   "abstract": "The U. S. government’s failure to provide adequate oversight and prudent regulation of the financial markets, together with excessive risk taking by some financial institutions, pushed the world financial system to the brink of systemic failure in 2008. As a consequence of this near catastrophe, both regulators and investors have become keenly interested in developing tools for monitoring systemic risk. But this is easier said than done. Securitization, private transacting, complexity, and “flexible accounting” prevent us from directly observing the many explicit linkages of financial institutions. As an alternative, the authors introduce a measure of implied systemic risk, the absorption ratio, which equals the fraction of the total variance of a set of asset returns explained or “absorbed” by a fixed number of eigenvectors. The absorption ratio captures the extent to which markets are unified or tightly coupled. When markets are tightly coupled, they are more fragile in the sense that negative shocks propagate more quickly and broadly than when markets are loosely linked. <b>TOPICS:</b>Analysis of individual factors/risk premia, volatility measures, statistical methods"
+  },
+  {
+   "DOI": "10.1145/3097983.3098060",
+   "openalex_id": "https://openalex.org/W2626473047",
+   "title": "Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data",
+   "year": 2017,
+   "abstract": "Subsequence clustering of multivariate time series is a useful tool for discovering repeated patterns in temporal data. Once these patterns have been discovered, seemingly complicated datasets can be interpreted as a temporal sequence of only a small number of states, or clusters. For example, raw sensor data from a fitness-tracking application can be expressed as a timeline of a select few actions (i.e., walking, sitting, running). However, discovering these patterns is challenging because it requires simultaneous segmentation and clustering of the time series. Furthermore, interpreting the resulting clusters is difficult, especially when the data is high-dimensional. Here we propose a new method of model-based clustering, which we call Toeplitz Inverse Covariance-based Clustering (TICC). Each cluster in the TICC method is defined by a correlation network, or Markov random field (MRF), characterizing the interdependencies between different observations in a typical subsequence of that cluster. Based on this graphical representation, TICC simultaneously segments and clusters the time series data. We solve the TICC problem through alternating minimization, using a variation of the expectation maximization (EM) algorithm. We derive closed-form solutions to efficiently solve the two resulting subproblems in a scalable way, through dynamic programming and the alternating direction method of multipliers (ADMM), respectively. We validate our approach by comparing TICC to several state-of-the-art baselines in a series of synthetic experiments, and we then demonstrate on an automobile sensor dataset how TICC can be used to learn interpretable clusters in real-world scenarios."
+  },
+  {
+   "DOI": "10.1007/s007800050018",
+   "openalex_id": "https://openalex.org/W1969306056",
+   "title": "From the bird's eye to the microscope: A survey of new stylized facts of the intra-daily foreign exchange markets",
+   "year": 1997,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/14697688.2010.481632",
+   "openalex_id": "https://openalex.org/W2158408140",
+   "title": "Patterns in high-frequency FX data: discovery of 12 empirical scaling laws",
+   "year": 2010,
+   "abstract": "We have discovered 12 independent new empirical scaling laws in foreign exchange data series that hold for close to three orders of magnitude and across 13 currency exchange rates. Our statistical analysis crucially depends on an event-based approach that measures the relationship between different types of events. The scaling laws give an accurate estimation of the length of the price-curve coastline, which turns out to be surprisingly long. The new laws substantially extend the catalogue of stylized facts and sharply constrain the space of possible theoretical explanations of the market mechanisms."
+  },
+  {
+   "DOI": "10.1080/14697688.2016.1164887",
+   "openalex_id": "https://openalex.org/W2417272239",
+   "title": "Profiling high-frequency equity price movements in directional changes",
+   "year": 2016,
+   "abstract": "Market prices are traditionally sampled in fixed time intervals to form time series. Directional change (DC) is an alternative approach to record price movements. Instead of sampling at fixed intervals, DC is data driven: price changes dictate when a price is recorded. DC provides us with a complementary way to extract information from data. It allows us to observe features that may not be recognized in time series. The argument is that time series and DC-based analysis complement each other. With data sampled at irregular time intervals in DC, however, some of the time series indicators cannot be used in DC-based analysis. For example, returns must be time adjusted and volatility must be amended accordingly. A major objective of this paper is to introduce indicators for profiling markets under DC. We analyse empirical high-frequency data on major equities traded on the UK stock market, and through DC profiling extract information complementary to features observed through time series profiling."
+  },
+  {
+   "DOI": "10.1177/1471082x211034048",
+   "openalex_id": "https://openalex.org/W3045635111",
+   "title": "Detecting bearish and bullish markets in financial time series using hierarchical hidden Markov models",
+   "year": 2021,
+   "abstract": "Financial markets exhibit alternating periods of rising and falling prices. Stock traders seeking to make profitable investment decisions have to account for those trends, where the goal is to accurately predict switches from bullish to bearish markets and vice versa. Popular tools for modelling financial time series are hidden Markov models, where a latent state process is used to explicitly model switches among different market regimes. In their basic form, however, hidden Markov models are not capable of capturing both short- and long-term trends, which can lead to a misinterpretation of short-term price fluctuations as changes in the long-term trend. In this article, we demonstrate how hierarchical hidden Markov models can be used to draw a comprehensive picture of market behaviour, which can contribute to the development of more sophisticated trading strategies. The feasibility of the suggested approach is illustrated in two real-data applications, where we model data from the Deutscher Aktienindex and the Deutsche Bank stock. The proposed methodology is implemented in the R package fHMM, which is available on CRAN."
+  },
+  {
+   "DOI": "10.1080/07350015.1994.10524545",
+   "openalex_id": "https://openalex.org/W2031123121",
+   "title": "Business-Cycle Phases and Their Transitional Dynamics",
+   "year": 1994,
+   "abstract": "This article examines differences in expansionary and contractionary phases of the business cycle. By extending the nonlinear Markov-switching estimation method of Hamilton to incorporate time-varying probabilities of transitions between the phases, the marginal benefits of the time-varying transition probability Markov-switching model are highlighted. Using this technique, I document the high correlation between the evolution of the phases inferred from the model and traditional reference cycles for monthly output data. Many of the economic variables that determine the time-varying probabilities help to predict turning points. The predictive power of standard leading indicators is evaluated and compared."
+  },
+  {
+   "DOI": "10.1002/jae.2511",
+   "openalex_id": "https://openalex.org/W1988671245",
+   "title": "How to Identify and Forecast Bull and Bear Markets?",
+   "year": 2016,
+   "abstract": "Summary Because the state of the equity market is latent, several methods have been proposed to identify past and current states of the market and forecast future ones. These methods encompass semi‐parametric rule‐based methods and parametric Markov switching models. We compare the mean‐variance utilities that result when a risk‐averse agent uses the predictions of the different methods in an investment decision. Our application of this framework to the S&P 500 shows that rule‐based methods are preferable for (in‐sample) identification of the state of the market, but Markov switching models for (out‐of‐sample) forecasting. In‐sample, only the mean return of the market index matters, which rule‐based methods exactly capture. Because Markov switching models use both the mean and the variance to infer the state, they produce superior forecasts and lead to significantly better out‐of‐sample performance than rule‐based methods. We conclude that the variance is a crucial ingredient for forecasting the market state. Copyright © 2016 John Wiley & Sons, Ltd."
+  },
+  {
+   "DOI": "10.1016/j.iref.2004.02.003",
+   "openalex_id": "https://openalex.org/W2063895138",
+   "title": "Two centuries of bull and bear market cycles",
+   "year": 2004,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.17578/10-1/2-3",
+   "openalex_id": "https://openalex.org/W3125070495",
+   "title": "Defining and Dating Bull and Bear Markets: Two Centuries of Evidence",
+   "year": 2006,
+   "abstract": "A compelling reason for engaging in on-market buy-backs is that it provides a signal about the undervaluation of the company. In this paper an alternative, accounting based, method of determining fundamental value and undervaluation is used, namely the Ohlson residual income valuation framework. It is found that prior to the announcement buy-back companies are significantly undervalued relative to comparable non-buy-back companies. This undervaluation is largely but not totally removed in the period immediately following the on-market buy-back implying on-market buy-backs are predominantly an effective signaling mechanism. Where the firm cites undervaluation as a specific motive for the buy-back then, in fact, a higher degree of undervaluation prior to the buy-back is evident. The results provide evidence that management can, and does, identify undervaluation and reduces this through the signaling mechanism of on-market buy-backs."
+  },
+  {
+   "DOI": "10.1016/0304-405x(89)90094-9",
+   "openalex_id": "https://openalex.org/W2151564376",
+   "title": "A Markov Model of Heteroskedasticity, Risk, and Learning in the Stock Market",
+   "year": 1989,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/j.1540-6261.1977.tb03312.x",
+   "openalex_id": "https://openalex.org/W2086150820",
+   "title": "STABILITY TESTS FOR ALPHAS AND BETAS OVER BULL AND BEAR MARKET CONDITIONS",
+   "year": 1977,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/2330303",
+   "openalex_id": "https://openalex.org/W2168972590",
+   "title": "An Analysis of Risk in Bull and Bear Markets",
+   "year": 1979,
+   "abstract": "In a recent article Fabozzi and Francis [3] presented the results of empirical tests designed to determine if the regression coefficients of the single-index market model were significantly different in bull and bear markets. Using three alternative definitions of bull and bear markets, Fabozzi and Francis (FF) concluded the coefficients of the single-index market model were not significantly different in the two types of markets."
+  },
+  {
+   "DOI": "10.1111/j.1540-6261.1979.tb00069.x",
+   "openalex_id": "https://openalex.org/W2151352599",
+   "title": "Mutual Fund Systematic Risk for Bull and Bear Markets: An Empirical Examination",
+   "year": 1979,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/0022-1082.00054",
+   "openalex_id": "https://openalex.org/W3121573664",
+   "title": "The Dow Theory: William Peter Hamilton's Track Record Reconsidered",
+   "year": 1998,
+   "abstract": "Alfred Cowles' test of the Dow Theory apparently provides strong evidence against the ability of Wall Street's most famous chartist to forecast the stock market. Cowles (1934) analyzes editorials published by the chief exponent of the Dow Theory, William Peter Hamilton. We review Cowles' evidence and find that it supports the contrary conclusion. Hamilton's timing strategies actually yield high Sharpe ratios and positive alphas for the period 1902 to 1929. Neural net modeling to replicate Hamilton's market calls provides interesting insight into the Dow Theory and allows us to examine the properties of the theory itself out of sample."
+  },
+  {
+   "DOI": "10.1016/j.automatica.2018.06.022",
+   "openalex_id": "https://openalex.org/W2768372652",
+   "title": "Fitting jump models",
+   "year": 2018,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3905/jfds.2020.2.3.025",
+   "openalex_id": "https://openalex.org/W3046287038",
+   "title": "Greedy Online Classification of Persistent Market States Using Realized Intraday Volatility Features",
+   "year": 2020,
+   "abstract": "In many financial applications, it is important to classify time-series data without any latency while maintaining persistence in the identified states. The authors propose a greedy online classifier that contemporaneously determines which hidden state a new observation belongs to without the need to parse historical observations and without compromising persistence. Their classifier is based on the idea of clustering temporal features while explicitly penalizing jumps between states by a fixed-cost regularization term that can be calibrated to achieve a desired level of persistence. Through a series of return simulations, the authors show that in most settings their new classifier remarkably obtains a higher accuracy than the correctly specified maximum likelihood estimator. They illustrate that the new classifier is more robust to misspecification and yields state sequences that are significantly more persistent both in and out of sample. They demonstrate how classification accuracy can be further improved by including features that are based on intraday data. Finally, the authors apply the new classifier to estimate persistent states of the S&amp;P 500 Index. <b>TOPICS:</b>Statistical methods, simulations, big data/machine learning <b>Key Findings</b> • A new greedy online classifier is proposed that contemporaneously determines which hidden state a new observation belongs to without the need to parse historical observations and without compromising temporal persistence. • A series of simulations demonstrates that the new classifier frequently obtains a higher accuracy and is more robust to misspecification than the correctly specified maximum likelihood estimator. • Classification accuracy can be improved by including features that are based on intraday volatility data."
+  },
+  {
+   "DOI": "10.3905/jpm.2015.42.1.103",
+   "openalex_id": "https://openalex.org/W2198003245",
+   "title": "Regime-Based Versus Static Asset Allocation: <i>Letting the Data Speak</i>",
+   "year": 2015,
+   "abstract": "Regime shifts present a big challenge to traditional strategic asset allocation. This article investigates whether regimebased asset allocation can effectively respond to changes in financial regimes at the portfolio level, in an effort to provide better long-term results than more static approaches can offer. The authors center their regime-based approach around a regime-switching model with time-varying parameters that can match financial markets’ tendency to change behavior abruptly and the fact that the new behavior often persists for several periods after a change. In an asset universe consisting of a global stock index and a global government bond index, they show that, even without any level of forecasting skill, holding a static portfolio may not be optimal. <b>TOPICS:</b>Statistical methods, portfolio management/multi-asset allocation"
+  },
+  {
+   "DOI": "10.1088/1469-7688/2/4/305",
+   "openalex_id": "https://openalex.org/W2152550402",
+   "title": "Dissecting financial markets: sectors and states",
+   "year": 2002,
+   "abstract": "By analysing a large data set of daily returns with the maximum likelihood data clustering technique, we identify economic sectors as clusters of assets with a similar economic dynamics. The sector size distribution follows Zipf's law. Secondly, we find that patterns of daily market-wide economic activity cluster into classes that can be identified with market states. The distribution of frequencies of market states shows scale-free properties and the memory of the market state process extends to long times (∼50 days). Assets in the same sector behave similarly across states. We characterize market efficiency by analysing the market's predictability and find that the market is indeed close to being efficient. We find evidence of the existence of a dynamic pattern after the market's crashes."
+  },
+  {
+   "DOI": "10.1038/srep00644",
+   "openalex_id": "https://openalex.org/W2158140512",
+   "title": "Identifying States of a Financial Market",
+   "year": 2012,
+   "abstract": "The understanding of complex systems has become a central issue because such systems exist in a wide range of scientific disciplines. We here focus on financial markets as an example of a complex system. In particular we analyze financial data from the S&P 500 stocks in the 19-year period 1992-2010. We propose a definition of state for a financial market and use it to identify points of drastic change in the correlation structure. These points are mapped to occurrences of financial crises. We find that a wide variety of characteristic correlation structure patterns exist in the observation time window, and that these characteristic correlation structure patterns can be classified into several typical \"market states\". Using this classification we recognize transitions between different market states. A similarity measure we develop thus affords means of understanding changes in states and of recognizing developments not previously seen."
+  },
+  {
+   "DOI": "10.1088/1367-2630/aae7e0",
+   "openalex_id": "https://openalex.org/W2949684560",
+   "title": "Identifying long-term precursors of financial market crashes using correlation patterns",
+   "year": 2018,
+   "abstract": "The study of the critical dynamics in complex systems is always interesting yet challenging. Here, we choose financial markets as an example of a complex system, and do comparative analyses of two stock markets—the S&P 500 (USA) and Nikkei 225 (JPN). Our analyses are based on the evolution of cross-correlation structure patterns of short-time epochs for a 32 year period (1985–2016). We identify 'market states' as clusters of similar correlation structures, which occur more frequently than by pure chance (randomness). The dynamical transitions between the correlation structures reflect the evolution of the market states. Power mapping method from the random matrix theory is used to suppress the noise on correlation patterns, and an adaptation of the intra-cluster distance method is used to obtain the 'optimum' number of market states. We find that the S&P 500 is characterized by four market states and Nikkei 225 by five. We further analyze the co-occurrence of paired market states; the probability of remaining in the same state is much higher than the transition to a different state. The transitions to other states mainly occur among the immediately adjacent states, with a few rare intermittent transitions to the remote states. The state adjacent to the critical state (market crash) may serve as an indicator or a 'precursor' for the critical state and this novel method of identifying the long-term precursors may be helpful for constructing the early warning system in financial markets, as well as in other complex systems."
+  },
+  {
+   "DOI": "10.1088/1742-5468/accce0",
+   "openalex_id": "https://openalex.org/W4367322800",
+   "title": "Identifying dominant industrial sectors in market states of the S&amp;P 500 financial data",
+   "year": 2023,
+   "abstract": "Abstract Understanding and forecasting changing market conditions in complex economic systems like the financial market is of great importance to various stakeholders such as financial institutions and regulatory agencies. Based on the finding that the dynamics of sector correlation matrices of the S&amp;P 500 stock market can be described by a sequence of distinct states via a clustering algorithm, we try to identify the industrial sectors dominating the correlation structure of each state. For this purpose, we use a method from explainable artificial intelligence (XAI) on daily S&amp;P 500 stock market data from 1992 to 2012 to assign relevance scores to every feature of each data point. To compare the significance of the features for the entire data set we develop an aggregation procedure and apply a Bayesian change point analysis to identify the most significant sector correlations. We show that the correlation matrix of each state is dominated only by a few sector correlations. Especially the energy and IT sector are identified as key factors in determining the state of the economy. Additionally we show that a reduced surrogate model, using only the eight sector correlations with the highest XAI-relevance, can replicate <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\"> <mml:mn>90</mml:mn> <mml:mi mathvariant=\"normal\">%</mml:mi> </mml:math> of the cluster assignments. In general our findings imply an additional dimension reduction of the dynamics of the financial market."
+  },
+  {
+   "DOI": "10.1080/14697688.2016.1161230",
+   "openalex_id": "https://openalex.org/W2125812681",
+   "title": "Bifurcation patterns of market regime transition",
+   "year": 2016,
+   "abstract": "Two general classes may be considered among quantitative trading systems: mean-reversion and momentum-based systems. The mean-reversion model assumes the stationarity of returns and the existence o..."
+  },
+  {
+   "DOI": "10.1080/096031097333745",
+   "openalex_id": "https://openalex.org/W2042287092",
+   "title": "Regime switching in stock market returns",
+   "year": 1997,
+   "abstract": "An extension of Hamilton's Markov switching techniques (Hamilton, J. B., 1989, A new approach to the economic analysis of nonstationary time series and the business cycle, Econometrica, 57, 357–84) is used to describe and analyse stock market returns. Using new tests, very strong evidence is found for switching behaviour. A major innovation is to use a multivariate specification that allows examination of whether the price/dividend ratio has marginal predictive power for stock market returns after accounting for state-dependent switching. We find strong evidence of predictability. The response of returns to the past price/dividend ratio is strongly asymmetric - about four times larger in the low-return state than in the high-return state. A second innovationis to allow the probability of transitions from one regime to another to depend on economic variables; again there is an asymmetric response to the past price/dividend ratio."
+  },
+  {
+   "DOI": "10.1080/10920277.2001.10595984",
+   "openalex_id": "https://openalex.org/W2293176873",
+   "title": "A Regime-Switching Model of Long-Term Stock Returns",
+   "year": 2001,
+   "abstract": "In this paper I first define the regime-switching lognormal model. Monthly data from the Standard and Poor’s 500 and the Toronto Stock Exchange 300 indices are used to fit the model parameters, using maximum likelihood estimation. The fit of the regime-switching model to the data is compared with other common econometric models, including the generalized autoregressive conditionally heteroskedastic model. The distribution function of the regime-switching model is derived. Prices of European options using the regime-switching model are derived and implied volatilities explored. Finally, an example of the application of the model to maturity guarantees under equity-linked insurance is presented. Equations for quantile and conditional tail expectation (Tail-VaR) risk measures are derived, and a numerical example compares the regime-switching lognormal model results with those using the more traditional lognormal stock return model."
+  },
+  {
+   "DOI": "10.1016/j.irfa.2017.11.001",
+   "openalex_id": "https://openalex.org/W2765446487",
+   "title": "A top-down approach to identifying bull and bear market states",
+   "year": 2017,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.ribaf.2021.101603",
+   "openalex_id": "https://openalex.org/W3104997766",
+   "title": "Identifying bull and bear market regimes with a robust rule-based method",
+   "year": 2021,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/07350015.2017.1236521",
+   "openalex_id": "https://openalex.org/W2596674677",
+   "title": "Guest Editors’ Introduction: Regime Switching and Threshold Models",
+   "year": 2017,
+   "abstract": "This special issue of the Journal of Business & Economic Statistics on “Regime Switching and Threshold Models” is motivated by the mounting empirical evidence of important nonlinearities in regress..."
+  },
+  {
+   "DOI": "10.1080/14697688.2026.2659195",
+   "openalex_id": "https://openalex.org/W4409424848",
+   "title": "Tactical asset allocation with macroeconomic regime detection",
+   "year": 2026,
+   "abstract": "This paper extends the tactical asset allocation literature by incorporating regime modeling using techniques from machine learning. We propose a novel model that classifies current regimes, forecasts the distribution of future regimes, and integrates these forecasts with the historical performance of individual assets to optimize portfolio allocations. Utilizing a macroeconomic data set from the FRED-MD database, our approach employs a modified k-means algorithm to ensure consistent regime classification over time. We then leverage these regime predictions to estimate expected returns and volatilities, which are subsequently mapped into portfolio allocations using various sizing schemes. Our method outperforms traditional benchmarks such as equal-weight, buy-and-hold, and random regime models. Additionally, we are the first to apply a regime detection model from a large macroeconomic dataset to tactical asset allocation, demonstrating significant improvements in portfolio performance. Our work presents several key contributions, including a novel data-driven regime detection algorithm tailored for uncertainty in forecasted regimes and applying the FRED-MD data set for tactical asset allocation."
+  },
+  {
+   "DOI": "10.1002/9781119202561.ch8",
+   "openalex_id": "https://openalex.org/W4249565515",
+   "title": "Trend Systems",
+   "year": 2012,
+   "abstract": "This chapter focuses on trend systems and emphasizes that trend analysis is the basis for many successful trading programs, some with audited performance published for more than thirty years. Being able to identify the trend is also vital if a person is a discretionary trader looking to increase his/her chances for success by trading on “the right side of the market.” Trend systems work because of three reasons. First, long-term trends capture large price moves caused by fundamental factors. Second, prices are not normally distributed but have a fat tail. Third reason is that money moves the markets. The moving average is still a consistent top performer, but the breakout often has higher returns at the same time it has higher risk; and all those trend systems are profitable in the long term. For any trend system, it is best to view a steady progression of trend changes from the short term to the long term."
+  },
+  {
+   "DOI": "10.4324/9781315115719-3",
+   "openalex_id": "https://openalex.org/W2498883811",
+   "title": "The Dow Theory",
+   "year": 2018,
+   "abstract": "Charles H. Dow is believed to have been the first to make a thorough effort to express the general trend of the securities market in terms of the average price of a selected few representative stocks. There is much in the writings of its original promulgator, Charles H. Dow, to suggest he did not think of his theory as a device for forecasting the stock market, or even as a guide for investors, but rather as a barometer of general business trends. Dow founded the Dow–Jones Financial News Service and is credited with the invention of stock market averages. The stocks included in these two Averages have been changed from time to time to keep the lists up to date and as nearly representative as possible of their respective groups. The comparison with tide, wave, and ripple has been used since the earliest days of the Dow Theory."
+  },
+  {
+   "DOI": "10.32614/cran.package.bbdetection",
+   "openalex_id": "https://openalex.org/W4399526222",
+   "title": "bbdetection: Identification of Bull and Bear States of the Market",
+   "year": 2021,
+   "abstract": "Implements two algorithms of detecting Bull and Bear markets in stock prices: the algorithm of Pagan and Sossounov (2002, &lt;<a href=\"https://doi.org/10.1002%2Fjae.664\" target=\"_top\">doi:10.1002/jae.664</a>&gt;) and the algorithm of Lunde and Timmermann (2004, &lt;<a href=\"https://doi.org/10.1198%2F073500104000000136\" target=\"_top\">doi:10.1198/073500104000000136</a>&gt;). The package also contains functions for printing out the dating of the Bull and Bear states of the market, the descriptive statistics of the states, and functions for plotting the results. For the sake of convenience, the package includes the monthly and daily data on the prices (not adjusted for dividends) of the S&amp;P 500 stock market index."
+  },
+  {
+   "DOI": "10.2139/ssrn.57932",
+   "openalex_id": "https://openalex.org/W1577602656",
+   "title": "Market Crashes, Market Regimes, and Regime-Separating Barriers",
+   "year": 1998,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.6067668",
+   "openalex_id": "https://openalex.org/W7125381789",
+   "title": "A Piecewise-Linear Model For Market Regime Identification",
+   "year": 2026,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.7245378",
+   "openalex_id": "https://openalex.org/W7202273034",
+   "title": "Real-Time Distributional Regime Monitoring: Online Wasserstein Detection of Market Stress",
+   "year": 2026,
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/14697688.2019.1622313",
+   "openalex_id": "https://openalex.org/W2884355356",
+   "title": "Forecasting market states",
+   "year": 2019,
+   "abstract": "We propose a novel methodology to define, analyze and forecast market states. In our approach, market states are identified by a reference sparse precision matrix and a vector of expectation values. In our procedure, each multivariate observation is associated to a given market state accordingly to a minimization of a penalized Mahalanobis distance. The procedure is made computationally very efficient and can be used with a large number of assets. We demonstrate that this procedure is successful at clustering different states of the markets in an unsupervised manner. In particular, we describe an experiment with one hundred log-returns and two states in which the methodology automatically associates states prevalently to pre- and post-crisis periods with one state gathering periods with average positive returns and the other state periods with average negative returns, therefore discovering spontaneously the common classification of ‘bull’ and ‘bear’ markets. In another experiment, with again one hundred log-returns and two states, we demonstrate that this procedure can be efficiently used to forecast off-sample future market states with significant prediction accuracy. This methodology opens the way to a range of applications in risk management and trading strategies in the context where the correlation structure plays a central role."
+  },
+  {
+   "DOI": "10.1080/14697688.2016.1171378",
+   "openalex_id": "https://openalex.org/W1959701668",
+   "title": "Detecting intraday financial market states using temporal clustering",
+   "year": 2016,
+   "abstract": "We propose the application of a high-speed maximum likelihood clustering algorithm to detect temporal financial market states, using correlation matrices estimated from intraday market microstructure features. We first determine the ex-ante intraday temporal cluster configurations to identify market states, and then study the identified temporal state features to extract state signature vectors (SSVs) which enable online state detection. The SSVs serve as low-dimensional state descriptors which can be used in learning algorithms for optimal planning in the high-frequency trading domain. We present a feasible scheme for real-time intraday state detection from streaming market data feeds. This study identifies an interesting hierarchy of system behaviour which motivates the need for timescale-specific state space reduction for participating agents."
+  },
+  {
+   "DOI": "10.1080/1350486x.2021.2007146",
+   "openalex_id": "https://openalex.org/W3137498966",
+   "title": "Structural Clustering of Volatility Regimes for Dynamic Trading Strategies",
+   "year": 2021,
+   "abstract": "We develop a new method to find the number of volatility regimes in a nonstationary financial time series by applying unsupervised learning to its volatility structure. We use change point detection to partition a time series into locally stationary segments and then compute a distance matrix between segment distributions. The segments are clustered into a learned number of discrete volatility regimes via an optimization routine. Using this framework, we determine the volatility clustering structure for financial indices, large-cap equities, exchange-traded funds and currency pairs. Our method overcomes the rigid assumptions necessary to implement many parametric regime-switching models while effectively distilling a time series into several characteristic behaviours. Our results provide a significant simplification of these time series and a strong descriptive analysis of prior behaviours of volatility. Finally, we create and validate a dynamic trading strategy that learns the optimal match between the current distribution of a time series and its past regimes, thereby making online risk-avoidance decisions at present."
+  }
+ ]
+}

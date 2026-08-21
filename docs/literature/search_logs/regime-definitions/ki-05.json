@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-05",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Hamilton+Susmel+Autoregressive+conditional+heteroskedasticity+and+changes+in+regime&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1123781,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1016/0304-4076(94)90067-1",
+   "title": "Autoregressive conditional heteroskedasticity and changes in regime",
+   "year": 1994,
+   "container": "Journal of Econometrics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1515/9780691218632-181",
+   "title": "21.1. Autoregressive Conditional Heteroskedasticity (ARCH)",
+   "year": 1994,
+   "container": "Time Series Analysis",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.493263",
+   "title": "Detecting Autoregressive Conditional Heteroskedasticity in Non-Gaussian Time Series",
+   "year": 2004,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>In economic time series conditional heteroskedasticity and conditional non-normality may occur simultaneously. Well known examples include time series of financial returns. The present paper examines a new test for (generalized) autoregressive conditional heteroskedasticity in Monte Carlo experiments with normal, fat-tailed and/or skewed conditional distributions. In the experiments the size of the new test is accurate and the test has good power against the considered ARCH and GARCH alternatives. Under conditional normality the test is as powerful as the standard Lagrange multiplier test for ARCH effects and a robust ARCH test. Under conditional non-normality the new test has often substantially more power then the other two tests.</jats:p>"
+  }
+ ]
+}

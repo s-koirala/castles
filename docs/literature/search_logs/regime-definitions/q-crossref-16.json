@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-16",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=online+real-time+market+regime+detection+filtered+probabilities&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 5921302,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.7245378",
+   "title": "Real-Time Distributional Regime Monitoring: Online Wasserstein Detection of Market Stress",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper develops a real-time market-stress monitor based on the geometry of rolling empirical return distributions. A strictly prior-information W1 score compares each current distribution with recursively updated low-and high-stress barycenters; thresholds are calibrated before 2007 and then frozen. Across four equity indices from 2000 through June 2026, raw DRP remains strongly scale-linked, while shapeonly DRP is much less correlated with realized volatility. In an extended seven-episode evaluation, raw DRP detects 21 of 28 market-event cases, compared with 15 for 22-day realized volatility, 14 for EWMA(0.94), and 13 for a pre-2007 fixed-parameter GARCH(1,1), while mean off-window alarm shares remain similar at 3.1%-3.5%. The paired detection advantage does not survive Holm correction, so it is interpreted as systematic but not decisive. Controlled experiments show why the distinction matters: realized volatility identifies scale shifts but is near chance for a variance-matched shape shift, whereas raw and shape-only DRP attain AUCs of 0.84 and 0.85. Predictive gains for future volatility remain limited. The evidence supports DRP as a complementary distribution-sensit"
+  },
+  {
+   "DOI": "10.2139/ssrn.6539358",
+   "title": "Cross-Asset Market Regime Detection Using Hidden Markov Models: A Framework for Real-Time Regime-Aware Risk Management",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>&lt;p&gt;Standard quantitative risk models assume financial returns follow a normal distribution with constant volatility. This paper demonstrates empirically that this assumption fails during regime shifts, producing an 11.58 percentage point underestimation of annual tail risk for S&amp;amp;P 500 returns spanning the 2020 COVID crisis and 2022 Federal Reserve rate shock (January 2020 – December 2024).&lt;/p&gt;\n&lt;p&gt;We implement a cross-asset Gaussian Hidden Markov Model (HMM) — the Kroniq Regime Radar — using nine features across five asset classes: SPY, VIX, TLT, GLD, and ICE BofA US High Yield credit spreads (FRED: BAMLH0A0HYM2). A rigorous BIC model selection sweep across K=3 through K=9, with 5 independent random seeds per K and minimum state-size stability validation, confirms K=5 as the optimal and production-ready state count. Models at K=6, K=7, and K=8 produce unstable micro-states (as few as 9 days), inconsistent with reliable live regime routing.&lt;/p&gt;\n&lt;p&gt;The five-state model produces a two-stage early warning for the March 2020 COVID crash: a Macro stress signal on October 1, 2019 — 141 calendar days before the February 19, 2020 SPY price peak —"
+  },
+  {
+   "DOI": "10.2139/ssrn.4493344",
+   "title": "Non-parametric online market regime detection and regime clustering for multidimensional and path-dependent data structures",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>In this work we present a non-parametric online market regime detection method for multidimensional data structures using a path-wise two-sample test derived from a maximum mean discrepancy-based similarity metric on path space that uses rough path signatures as a feature map. The latter similarity metric has been developed and applied as a discriminator in recent generative models for small data environments, and has been optimised here to the setting where the size of new incoming data is particularly small, for faster reactivity. &lt;br&gt;        &lt;br&gt;On the same principles, we also present a path-wise method for regime clustering which extends our previous work. The presented regime clustering techniques were designed as ex-ante market analysis tools that can identify periods of approximatively similar market activity, but the new results also apply to path-wise, high dimensional-, and to non-Markovian settings as well as to data structures that exhibit autocorrelation. &lt;br&gt;        &lt;br&gt;We demonstrate our clustering tools on easily verifiable synthetic datasets of increasing complexity, and also show how the outlined regime detection techniques can be u"
+  },
+  {
+   "DOI": "10.5220/0010383701480155",
+   "title": "Comparison between Filtered Canny Edge Detector and Convolutional Neural Network for Real Time Lane Detection in a Unity 3D Simulator",
+   "year": 2021,
+   "container": "Proceedings of the 6th International Conference on Internet of Things, Big Data and Security",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1787/888933380437",
+   "title": "Figure 4. Recession probabilities: real time and in-sample comparisons",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1201/b11030-6",
+   "title": "Filtered Hard Shadows",
+   "year": 2011,
+   "container": "Real-Time Shadows",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1021/acsenergylett.3c00132.s001",
+   "title": "Online Real-Time Detection of the Degradation Products of Lithium Oxygen Batteries",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.31979/etd.2m5d-8w79",
+   "title": "Adaptive Real-Time Fraud Detection Using Online Learning and Explicit Concept-Drift Detection",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": ""
+  }
+ ]
+}

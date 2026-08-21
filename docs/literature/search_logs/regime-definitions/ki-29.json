@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-29",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=van+Norden+Schaller+regime+switching+in+stock+market+returns&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2718865,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.58691",
+   "title": "Speculative Behaviour, Regime-Switching and Stock Market Crashes",
+   "year": 1998,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper uses regime-switching econometrics to study stock market crashes and to explore the ability of two very different economic explanations to account for historical crashes. The first explanation is based on historical accounts of \"manias and panics.\" Its key features are that \"overvaluation\" increases the probability and expected size of a crash. Using U.S. data for 1926-89, we find considerable support for this model's predictions. The second explanation is based on switches in fundamentals. Simulations show that switching fundamentals can cause markets to mimic speculative behaviour. However, switches in fundamentals do not coincide with most stock market crashes.</jats:p>"
+  },
+  {
+   "DOI": "10.1080/096031097333745",
+   "title": "Regime switching in stock market returns",
+   "year": 1997,
+   "container": "Applied Financial Economics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-1-4615-5129-4_15",
+   "title": "Speculative Behavior, Regime-Switching, and Stock Market Crashes",
+   "year": 1999,
+   "container": "Dynamic Modeling and Econometrics in Economics and Finance",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

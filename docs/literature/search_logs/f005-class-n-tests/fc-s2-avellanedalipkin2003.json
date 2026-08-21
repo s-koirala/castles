@@ -1,0 +1,538 @@
+{
+ "query_id": "fc-s2-avellanedalipkin2003",
+ "platform": "Semantic Scholar Academic Graph API (api.semanticscholar.org)",
+ "date_searched": "2026-08-21",
+ "seed_definition": "D52",
+ "seed_doi": "10.1088/1469-7688/3/6/301",
+ "query_url_verbatim": [
+  "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1088/1469-7688/3/6/301/citations?fields=title,year,externalIds&limit=500&offset=0"
+ ],
+ "n_records_retrieved": 75,
+ "items": [
+  {
+   "s2_id": "27052d66fbb52e48a4d4cc54d5c1ca0d83f36cf1",
+   "doi": "10.1016/j.frl.2026.110340",
+   "arxiv": null,
+   "title": "Bitcoin option expiration, gamma exposure, and intraday price reversals",
+   "year": 2026
+  },
+  {
+   "s2_id": "9e2ed3b8b78576fa102b35c6aa23a7572c035540",
+   "doi": null,
+   "arxiv": "2511.22766",
+   "title": "Beta-Dependent Gamma Feedback and Endogenous Volatility Amplification in Option Markets",
+   "year": 2025
+  },
+  {
+   "s2_id": "e5305e58b33a264e8acb03012fff0c7da7c4f845",
+   "doi": "10.1016/j.jbankfin.2025.107556",
+   "arxiv": null,
+   "title": "The stock market impact of volatility hedging: Evidence from end-of-day trading by VIX ETPs",
+   "year": 2025
+  },
+  {
+   "s2_id": "16d01fb79cd8429f7159ba372cc2d85f4dae878d",
+   "doi": "10.1002/fut.70038",
+   "arxiv": null,
+   "title": "Market Maker or Informed Trader: Who Drive the Relationship Between Option Trading and Underlying Returns? Evidence From Shanghai Stock Exchange 50 ETF Options",
+   "year": 2025
+  },
+  {
+   "s2_id": "418dd485a22e5938497a52561f504b7023fc5eba",
+   "doi": "10.1080/14697688.2023.2229375",
+   "arxiv": null,
+   "title": "The role of fleeting orders on option expiration days",
+   "year": 2023
+  },
+  {
+   "s2_id": "9d105a34445872a8a3e1dab3f3d7b9900610a852",
+   "doi": null,
+   "arxiv": "2301.05677",
+   "title": "Price impact in equity auctions: zero, then linear",
+   "year": 2023
+  },
+  {
+   "s2_id": "3524bfa1e5f3bf2f0da11b4edef095e3228417e6",
+   "doi": "10.1111/mafi.12375",
+   "arxiv": null,
+   "title": "In memoriam: Marco Avellaneda (1955–2022)",
+   "year": 2023
+  },
+  {
+   "s2_id": "0dd770cddfd727ae8aee63e853f4be878e3f71af",
+   "doi": "10.1016/j.jimonfin.2022.102627",
+   "arxiv": null,
+   "title": "The Impact of Option Hedging on the Spot Market Volatility",
+   "year": 2022
+  },
+  {
+   "s2_id": "4269be68d1a558a7b09643fc43da77acd2eda165",
+   "doi": "10.1016/j.jempfin.2022.01.003",
+   "arxiv": null,
+   "title": "Dynamic risk management and asset comovement",
+   "year": 2022
+  },
+  {
+   "s2_id": "90b5fee68f42688d5b766c7654069c6a1c50de94",
+   "doi": "10.1016/j.iref.2021.11.006",
+   "arxiv": null,
+   "title": "Information content of order imbalance in the index options market",
+   "year": 2021
+  },
+  {
+   "s2_id": "91fecd6c21491c8e4a037fdb3936faeb28a92329",
+   "doi": null,
+   "arxiv": "2007.07946",
+   "title": "Local time of infinite time horizon Brownian bridge",
+   "year": 2020
+  },
+  {
+   "s2_id": "9ded8b6ced159b9fcb7b9ae51f928759f5458acf",
+   "doi": "10.3390/math8071159",
+   "arxiv": null,
+   "title": "Discounted Optimal Stopping of a Brownian Bridge, with Application to American Options under Pinning",
+   "year": 2020
+  },
+  {
+   "s2_id": "77ff6fa1e88fdbb5256a69c76463bbfd7d39326f",
+   "doi": "10.1007/S11403-019-00259-0",
+   "arxiv": null,
+   "title": "Tradability, closeness to market prices, and expected profit: their measurement for a binomial model of options pricing in a heterogeneous market",
+   "year": 2020
+  },
+  {
+   "s2_id": "6e83a6b25477d89fe9a5ad249fc7b50a00faa62b",
+   "doi": "10.1007/S00181-019-01627-2",
+   "arxiv": null,
+   "title": "Expiration day effects on European trading volumes",
+   "year": 2020
+  },
+  {
+   "s2_id": "7698e2c4d7b4436b43a7fb868d4f2f69302bf51d",
+   "doi": "10.3390/math8010123",
+   "arxiv": null,
+   "title": "A Class of Itô Diffusions with Known Terminal Value and Specified Optimal Barrier",
+   "year": 2020
+  },
+  {
+   "s2_id": "7d4f66994cb11eb067106d03104e52d581d85ff6",
+   "doi": "10.1017/jpr.2022.78",
+   "arxiv": "1911.11971",
+   "title": "With or without replacement? Sampling uncertainty in Shepp’s urn scheme",
+   "year": 2019
+  },
+  {
+   "s2_id": "1ff042c396baa9075cdc55d526287229a20e317e",
+   "doi": "10.1007/s11403-019-00260-7",
+   "arxiv": null,
+   "title": "A simulation analysis of systemic counterparty risk in over-the-counter derivatives markets",
+   "year": 2019
+  },
+  {
+   "s2_id": "7e263eca9aeb9d5c12c4291438808226577622f6",
+   "doi": "10.1007/s11403-019-00260-7",
+   "arxiv": null,
+   "title": "A simulation analysis of systemic counterparty risk in over-the-counter derivatives markets",
+   "year": 2019
+  },
+  {
+   "s2_id": "911063d06a8642dc3f97c524b09dd0c6ca42bd27",
+   "doi": "10.1007/s11403-019-00259-0",
+   "arxiv": null,
+   "title": "Tradability, closeness to market prices, and expected profit: their measurement for a binomial model of options pricing in a heterogeneous market",
+   "year": 2019
+  },
+  {
+   "s2_id": "b09af97b5c3706b0f6f850cd386dec99d225fcb5",
+   "doi": "10.1017/jpr.2019.98",
+   "arxiv": "1904.00075",
+   "title": "Optimal stopping for the exponential of a Brownian bridge",
+   "year": 2019
+  },
+  {
+   "s2_id": "86b8eff98261a05244cde30d35e27069097409f7",
+   "doi": null,
+   "arxiv": "1903.11686",
+   "title": "Optimal exercise of American options under stock pinning",
+   "year": 2019
+  },
+  {
+   "s2_id": "a3ab5f1887c9744aa8a4db5bfa9d7f4a8ab4e8ba",
+   "doi": "10.1016/J.SPA.2020.03.007",
+   "arxiv": "1902.10261",
+   "title": "Optimally stopping a Brownian bridge with an unknown pinning time: A Bayesian approach",
+   "year": 2019
+  },
+  {
+   "s2_id": "2e120f22171e5e2dcd5d7468d6a068bc80be3111",
+   "doi": null,
+   "arxiv": null,
+   "title": "Optimal Stopping of a Brownian Bridge with an Uncertain Pinning Time",
+   "year": 2019
+  },
+  {
+   "s2_id": "bed567704a49b0f3e62ff06e05a1e4f3a5edf434",
+   "doi": "10.1007/s00181-019-01627-2",
+   "arxiv": null,
+   "title": "Expiration day effects on European trading volumes",
+   "year": 2019
+  },
+  {
+   "s2_id": "23f6a4ebfce118c921620280cee2d215a8235156",
+   "doi": null,
+   "arxiv": null,
+   "title": "The Integrity of Closing Prices",
+   "year": 2018
+  },
+  {
+   "s2_id": "3b1ce4d25f968fd7e66a7c6cdb5e370c6fde6cea",
+   "doi": "10.1111/mafi.12308",
+   "arxiv": null,
+   "title": "Option pricing models without probability: a rough paths approach",
+   "year": 2018
+  },
+  {
+   "s2_id": "a1ff588715ff7bb04310da2c03b8cdf996c4f77a",
+   "doi": "10.1016/J.JMAA.2017.10.072",
+   "arxiv": null,
+   "title": "Option pricing for a large trader with price impact and liquidity costs",
+   "year": 2018
+  },
+  {
+   "s2_id": "9178877a5f34e7830cd9d45b0f1f394ab34abd74",
+   "doi": "10.1016/J.SPA.2019.03.018",
+   "arxiv": "1705.00369",
+   "title": "Optimal stopping of a Brownian bridge with an unknown pinning point",
+   "year": 2017
+  },
+  {
+   "s2_id": "1d7705a85f7027e0816eda15b417b07398ec4fc4",
+   "doi": "10.2139/SSRN.2916853",
+   "arxiv": null,
+   "title": "A Practical Guide to Market Risk Model Validations (Part I - Introduction)",
+   "year": 2017
+  },
+  {
+   "s2_id": "081ae1e7352df0e6ee589cbb2aeed7007a74e4be",
+   "doi": "10.1142/S2382626616500027",
+   "arxiv": null,
+   "title": "Option Hedging with Smooth Market Impact",
+   "year": 2016
+  },
+  {
+   "s2_id": "4924dd6980484966bc2279496c894d0b652f95a9",
+   "doi": "10.2139/SSRN.2402006",
+   "arxiv": null,
+   "title": "INSTITUTIONAL INVESTORS AND THE DEPENDENCE STRUCTURE OF ASSET RETURNS",
+   "year": 2016
+  },
+  {
+   "s2_id": "b67e5586452cdf39e3062e4193b92460a4a14755",
+   "doi": "10.3917/FINA.372.0039",
+   "arxiv": null,
+   "title": "Feedback effects and endogenous risk in financial markets",
+   "year": 2016
+  },
+  {
+   "s2_id": "264c88d53e57e79d627c9cd373d37f56b461920d",
+   "doi": "10.1142/s0219024925500025",
+   "arxiv": "1501.00026",
+   "title": "Optimal Selling Time of a Stock under Capital Gains Taxes",
+   "year": 2014
+  },
+  {
+   "s2_id": "bab55b3c297c3031b780fe3c5c7613e9f8099175",
+   "doi": null,
+   "arxiv": null,
+   "title": "Optimal stopping of an $\\alpha$-Brownian bridge",
+   "year": 2014
+  },
+  {
+   "s2_id": "7d1c7d5daf296b9d4358cf83e6a69b0c1d14c299",
+   "doi": null,
+   "arxiv": "1409.5285",
+   "title": "Optimal stopping of an $\\alpha$-Brownian bridge",
+   "year": 2014
+  },
+  {
+   "s2_id": "728f8622aeec9fc6dda21832786b96293335d86b",
+   "doi": "10.1239/aap/1449859807",
+   "arxiv": "1409.2226",
+   "title": "Optimal double stopping of a Brownian bridge",
+   "year": 2014
+  },
+  {
+   "s2_id": "0283cdb437b8757114f4e74866e4faae55150d50",
+   "doi": "10.1080/14697688.2014.916817",
+   "arxiv": null,
+   "title": "Modelling the rebalancing slippage of leveraged exchange-traded funds",
+   "year": 2014
+  },
+  {
+   "s2_id": "eeb62e78554b5cd051ea5cca47dfe65df3a1fe24",
+   "doi": "10.1016/j.spl.2014.06.020",
+   "arxiv": "1404.4452",
+   "title": "Bias-correction of the maximum likelihood estimator for the α-Brownian bridge",
+   "year": 2014
+  },
+  {
+   "s2_id": "d3d36d8c6f566191403835ec1c9ffc2d19b9a2c3",
+   "doi": null,
+   "arxiv": "1402.0910",
+   "title": "The $500.00 AAPL close: Manipulation or hedging? A quantitative analysis",
+   "year": 2014
+  },
+  {
+   "s2_id": "23ff574a412f5e25f2998c5d75ff185d02f912d1",
+   "doi": "10.2139/SSRN.1571786",
+   "arxiv": null,
+   "title": "Returns and Option Activity over the Option-Expiration Week for S&P 100 Stocks",
+   "year": 2013
+  },
+  {
+   "s2_id": "d7e6e3ff35ec84126054d5ac27ef9618a7b90274",
+   "doi": "10.2139/SSRN.2318897",
+   "arxiv": null,
+   "title": "Closed-Form Solutions for Option Hedging with Market Impact",
+   "year": 2012
+  },
+  {
+   "s2_id": "421cbcd0b784a82d88d2630e3d6c65ec9f734e0d",
+   "doi": "10.1016/J.JFINECO.2012.06.010",
+   "arxiv": null,
+   "title": "Pinning in the S&P 500 Futures",
+   "year": 2012
+  },
+  {
+   "s2_id": "6a6f0855627427737642921561ac90c13e86eae3",
+   "doi": "10.1002/CPA.21404",
+   "arxiv": null,
+   "title": "Mathematical Models for Stock Pinning near Option Expiration Dates",
+   "year": 2012
+  },
+  {
+   "s2_id": "96e51105a74900c4c2a3ef7ed47cedb7299aa555",
+   "doi": "10.2139/SSRN.2413058",
+   "arxiv": null,
+   "title": "The Price Impacts of Index Option Hedging and the Anomalous Weekly Reversals",
+   "year": 2012
+  },
+  {
+   "s2_id": "8b00b0650210083508a790c1fe8003edf876266f",
+   "doi": null,
+   "arxiv": null,
+   "title": "Three Essays in Finance",
+   "year": 2011
+  },
+  {
+   "s2_id": "4d45190d84f2fd225061cf60930f3d8e38565fc7",
+   "doi": "10.1038/nature09659",
+   "arxiv": null,
+   "title": "Systemic risk in banking ecosystems",
+   "year": 2011
+  },
+  {
+   "s2_id": "efff195eb80bffaf9572174c0c452b8933fa06f3",
+   "doi": "10.1140/epjb/e2009-00316-y",
+   "arxiv": "0910.0064",
+   "title": "Eroding market stability by proliferation of financial instruments",
+   "year": 2009
+  },
+  {
+   "s2_id": "a1c32b83da334f74d31c679f27829c2524e14af3",
+   "doi": "10.1080/13504860802583444",
+   "arxiv": null,
+   "title": "Trader Behavior and its Effect on Asset Price Dynamics",
+   "year": 2009
+  },
+  {
+   "s2_id": "b3e76ce1280caec7ddeea512fc0f626ab51fc383",
+   "doi": "10.1239/jap/1238592123",
+   "arxiv": null,
+   "title": "Optimal Stopping of a Brownian Bridge",
+   "year": 2009
+  },
+  {
+   "s2_id": "600a349fba09f4d6d68a0f82b35fe9b14e2958bb",
+   "doi": "10.1080/14697680701881763",
+   "arxiv": null,
+   "title": "Modeling stock pinning",
+   "year": 2008
+  },
+  {
+   "s2_id": "e9f5db40e3a26bfbd634957d81d9912686f5822a",
+   "doi": "10.1142/S0219024907004287",
+   "arxiv": null,
+   "title": "AN EQUILIBRIUM-BASED MODEL OF STOCK-PINNING",
+   "year": 2007
+  },
+  {
+   "s2_id": "53e6ace0948f9b3aeb72b80566cc3a357d7a2277",
+   "doi": "10.1007/S11537-007-0657-8",
+   "arxiv": null,
+   "title": "Mean field games",
+   "year": 2007
+  },
+  {
+   "s2_id": "b448bb84605c11f0023d5f60fcc9a065f0e73105",
+   "doi": "10.1007/978-3-540-73327-0_4",
+   "arxiv": null,
+   "title": "Large investor trading impacts on volatility",
+   "year": 2007
+  },
+  {
+   "s2_id": "20d78135bf2d88ad46a1258ade4f99c74820ddc1",
+   "doi": "10.2139/SSRN.2867461",
+   "arxiv": null,
+   "title": "Does Option Trading Have a Pervasive Impact on Underlying Stock Prices?",
+   "year": 2007
+  },
+  {
+   "s2_id": "908d49401a72b2c4f858eed7cee171e2721965ee",
+   "doi": "10.1080/14697680601019522",
+   "arxiv": null,
+   "title": "Calibration of a nonlinear feedback option pricing model",
+   "year": 2007
+  },
+  {
+   "s2_id": "de3b2773126cbea0111992080a5b5ac67a090396",
+   "doi": "10.1016/J.MATPUR.2006.04.006",
+   "arxiv": null,
+   "title": "Towards a self-consistent theory of volatility",
+   "year": 2006
+  },
+  {
+   "s2_id": "c65433d7f755be556ab6bc104fe3f14e2572a6f0",
+   "doi": "10.1109/ACC.2006.1656392",
+   "arxiv": null,
+   "title": "Trader behavior and hedging feedback in the stock pinning phenomena",
+   "year": 2006
+  },
+  {
+   "s2_id": "e259ce75e8ab3365fd61d51bca3956e8d0f2107d",
+   "doi": "10.1016/J.JFINECO.2004.08.005",
+   "arxiv": null,
+   "title": "Stock Price Clustering on Option Expiration Dates",
+   "year": 2005
+  },
+  {
+   "s2_id": "096a22e8cd9158382582def0c4104ce751061251",
+   "doi": "10.1016/J.PHYSLETA.2005.01.076",
+   "arxiv": null,
+   "title": "Entropic calibration revisited",
+   "year": 2005
+  },
+  {
+   "s2_id": "289e31718bea0273d0cc5c8a05383fbcd2982827",
+   "doi": "10.2139/ssrn.4562800",
+   "arxiv": null,
+   "title": "The Equity Derivative Payoff Bias",
+   "year": 2023
+  },
+  {
+   "s2_id": "3d44c1b8bd2ce8cacd8b49aa21f9e30a380cfe1c",
+   "doi": null,
+   "arxiv": null,
+   "title": "The Lead-Lag Relationship between VIX Futures and SPX Futures",
+   "year": 2021
+  },
+  {
+   "s2_id": "7bb63630ac51ffbfb3bc4c9bd2cbef91ced49b97",
+   "doi": null,
+   "arxiv": null,
+   "title": "Quantification of feedback effects in FX options markets",
+   "year": 2019
+  },
+  {
+   "s2_id": "051f4e0189da5980b7c9e74f092c948197e6c32a",
+   "doi": null,
+   "arxiv": null,
+   "title": "Cross-market Information Transfer and Voluntary Corporate Disclosure: Evidence from Stock Options Trading",
+   "year": 2019
+  },
+  {
+   "s2_id": "023f00e327dac245bec33e3c05f734b10cd63586",
+   "doi": null,
+   "arxiv": null,
+   "title": "Estudio teórico-práctico de una combinación de opciones financieras: Bull Put Spread sobre Mediaset",
+   "year": 2018
+  },
+  {
+   "s2_id": "6d38e9f4f3b4c34d589d1daa721cdf2c20118d1d",
+   "doi": "10.1007/978-3-658-17574-0_7",
+   "arxiv": null,
+   "title": "Derivate als Informationsquelle",
+   "year": 2017
+  },
+  {
+   "s2_id": "9b6b1d2f85ecb4c08543d9d1eb28e2d6b5ffa793",
+   "doi": "10.4310/CMS.2016.V14.N7.A8",
+   "arxiv": null,
+   "title": "Option replication in discrete time with the cost of illiquidity",
+   "year": 2016
+  },
+  {
+   "s2_id": "b2674a10aff077180e3ee7b3778a157925e948aa",
+   "doi": "10.1007/978-1-4471-6506-4_2",
+   "arxiv": null,
+   "title": "Volatility Dynamics for a Single Underlying: Foundations",
+   "year": 2014
+  },
+  {
+   "s2_id": "2bc812f5776fd46ad65b02e3cb4903cecac4af17",
+   "doi": null,
+   "arxiv": null,
+   "title": "Valuation of Claims with Price Impact Function and Liquidity Costs",
+   "year": 2014
+  },
+  {
+   "s2_id": "58fc64d4b482c0198d0e50de8ecc53dff0de80b2",
+   "doi": null,
+   "arxiv": null,
+   "title": "Dynamic Programming and Trade Execution",
+   "year": 2013
+  },
+  {
+   "s2_id": "497cb0d3bc08dec2485e7b0f086eab2045398cbe",
+   "doi": null,
+   "arxiv": null,
+   "title": "to Operations Research manuscript ( Please , provide the mansucript number ! ) A Fully-Dynamic Closed-Form Solution for ∆-Hedging with Market Impact",
+   "year": 2011
+  },
+  {
+   "s2_id": "27015905fec6ed928c50222db8687a9a60bfd9ec",
+   "doi": null,
+   "arxiv": null,
+   "title": "Stock Price Pinning near Option Expiration Dates",
+   "year": 2011
+  },
+  {
+   "s2_id": "8347473beb85cb63724334ac8485bd2ec98ce30e",
+   "doi": null,
+   "arxiv": null,
+   "title": "Volatility dynamics",
+   "year": 2011
+  },
+  {
+   "s2_id": "3406b46fec63b5926ac2dfcb9776f4aad05a1e34",
+   "doi": null,
+   "arxiv": null,
+   "title": "Large investor trading impacts on volatility",
+   "year": 2007
+  },
+  {
+   "s2_id": "aa9aa24022c4cb6885e3244e02bf9a02ed782178",
+   "doi": null,
+   "arxiv": null,
+   "title": "The Effect of Optionability on Underlying Stock Prices",
+   "year": 2006
+  },
+  {
+   "s2_id": "3abe7527ce3ac172573321c2882b2daea84e71c1",
+   "doi": null,
+   "arxiv": null,
+   "title": "School of Social Sciences Modeling Stock Pinning",
+   "year": 2006
+  }
+ ]
+}

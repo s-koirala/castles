@@ -1,0 +1,4225 @@
+{
+ "query_id": "fc-openalex-harris1991",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-21",
+ "seed_definition": "D48",
+ "seed_doi": "10.1093/rfs/4.3.389",
+ "seed_openalex_id": "W2003569572",
+ "seed_cited_by_count_reported": 600,
+ "query_url_verbatim": [
+  "https://api.openalex.org/works?filter=cites:W2003569572&per-page=200&select=id,doi,title,publication_year,type&cursor=*",
+  "https://api.openalex.org/works?filter=cites:W2003569572&per-page=200&select=id,doi,title,publication_year,type&cursor=Ils5Ny4wLCAxMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyNzY4Njg0MTM3J10i",
+  "https://api.openalex.org/works?filter=cites:W2003569572&per-page=200&select=id,doi,title,publication_year,type&cursor=IlsnLUluZmluaXR5JywgNSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyMTU0Njk1NDg1J10i",
+  "https://api.openalex.org/works?filter=cites:W2003569572&per-page=200&select=id,doi,title,publication_year,type&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTYzNzYxODI1J10i"
+ ],
+ "n_records_retrieved": 601,
+ "items": [
+  {
+   "openalex_id": "https://openalex.org/W3123129688",
+   "doi": "https://doi.org/10.1016/s0304-405x(99)00057-4",
+   "title": "Commonality in liquidity",
+   "year": 2000,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2039682891",
+   "doi": "https://doi.org/10.1016/j.jfineco.2008.06.002",
+   "title": "Do liquidity measures measure liquidity?☆",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122281927",
+   "doi": "https://doi.org/10.1198/073500106000000071",
+   "title": "Realized Variance and Market Microstructure Noise",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2799345028",
+   "doi": "https://doi.org/10.1016/j.irfa.2018.09.003",
+   "title": "RETRACTED: Cryptocurrencies as a financial asset: A systematic analysis",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124147514",
+   "doi": "https://doi.org/10.1016/s1386-4181(00)00007-0",
+   "title": "Market microstructure: A survey",
+   "year": 2000,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1964211014",
+   "doi": "https://doi.org/10.1111/j.1540-6261.1994.tb04782.x",
+   "title": "Why do NASDAQ Market Makers Avoid Odd‐Eighth Quotes?",
+   "year": 1994,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2089901068",
+   "doi": "https://doi.org/10.1111/0022-1082.00259",
+   "title": "Presidential Address: Friction",
+   "year": 2000,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2131187707",
+   "doi": "https://doi.org/10.1093/rfs/7.1.149",
+   "title": "Minimum Price Variations, Discrete Bid–Ask Spreads, and Quotation Sizes",
+   "year": 1994,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1989387771",
+   "doi": "https://doi.org/10.1111/1540-6261.00604",
+   "title": "The Determinants of Underpricing for Seasoned Equity Offers",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1993656759",
+   "doi": "https://doi.org/10.1016/j.finmar.2004.11.001",
+   "title": "Market microstructure: A survey of microfoundations, empirical results, and policy implications",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2158442024",
+   "doi": "https://doi.org/10.1111/j.1540-6261.1997.tb04817.x",
+   "title": "Tick Size, Share Prices, and Stock Splits",
+   "year": 1997,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2736872974",
+   "doi": "https://doi.org/10.1016/j.econlet.2017.07.035",
+   "title": "Price clustering in Bitcoin",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2121732987",
+   "doi": "https://doi.org/10.1016/j.jeconom.2008.01.006",
+   "title": "Risk, jumps, and diversification",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2096434398",
+   "doi": "https://doi.org/10.1111/jofi.12185",
+   "title": "What's Not There: Odd Lots and Market Data",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2135112229",
+   "doi": "https://doi.org/10.1017/s0022109000003860",
+   "title": "Discounting and Clustering in Seasoned Equity Offering Prices",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122018748",
+   "doi": "https://doi.org/10.1016/j.jmoneco.2017.06.001",
+   "title": "Measuring uncertainty based on rounding: New method and application to inflation expectations",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2080887613",
+   "doi": "https://doi.org/10.1111/1540-6261.00588",
+   "title": "Currency Orders and Exchange Rate Dynamics: An Explanation for the Predictive Success of Technical Analysis",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2029929857",
+   "doi": "https://doi.org/10.1016/0304-405x(94)90036-1",
+   "title": "Bid-ask spreads in the interbank foreign exchange markets",
+   "year": 1994,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125504372",
+   "doi": "https://doi.org/10.1016/j.jfineco.2004.08.005",
+   "title": "Stock price clustering on option expiration dates",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2168639610",
+   "doi": "https://doi.org/10.1016/j.jfineco.2006.02.005",
+   "title": "An analysis of trade-size clustering and its relation to stealth trading☆",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1967952347",
+   "doi": "https://doi.org/10.1016/s1057-5219(99)00003-4",
+   "title": "Price discovery on the S&amp;P 500 index markets: An analysis of spot index, index futures, and SPDRs",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121291268",
+   "doi": "https://doi.org/10.1017/s0022109000003082",
+   "title": "Liquidity in the Futures Pits: Inferring Market Dynamics from Incomplete Data",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2027349009",
+   "doi": "https://doi.org/10.1016/s0927-538x(02)00093-8",
+   "title": "How should liquidity be measured?",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2900766825",
+   "doi": "https://doi.org/10.1016/j.irfa.2018.11.002",
+   "title": "The effects of markets, uncertainty and search intensity on bitcoin returns",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121359055",
+   "doi": "https://doi.org/10.1093/rfs/hhu044",
+   "title": "Cognitive Limitation and Investment Performance: Evidence from Limit Order Clustering",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121812192",
+   "doi": "https://doi.org/10.1016/j.finmar.2009.07.003",
+   "title": "New low-frequency spread measures",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121691924",
+   "doi": "https://doi.org/10.1016/j.jfineco.2020.07.002",
+   "title": "The price effects of liquidity shocks: A study of the SEC’s tick size experiment",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2938870430",
+   "doi": "https://doi.org/10.3390/jrfm12020067",
+   "title": "A Survey on Efficiency and Profitable Trading Opportunities in Cryptocurrency Markets",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2966684487",
+   "doi": "https://doi.org/10.1016/j.ribaf.2019.101075",
+   "title": "Volatility dynamics of crypto-currencies’ returns: Evidence from asymmetric and long memory GARCH models",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3170227077",
+   "doi": "https://doi.org/10.1080/09537325.2021.1939001",
+   "title": "A bibliometric review of cryptocurrencies as a financial asset",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2921255468",
+   "doi": "https://doi.org/10.1016/j.frl.2019.03.013",
+   "title": "Price clustering and sentiment in bitcoin",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122987879",
+   "doi": "https://doi.org/10.1287/mnsc.2016.2701",
+   "title": "Do Superstitious Traders Lose Money?",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4211147293",
+   "doi": "https://doi.org/10.1017/9781108761338",
+   "title": "Behavioral Public Performance",
+   "year": 2020,
+   "type": "book"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2088005809",
+   "doi": "https://doi.org/10.1287/mnsc.1100.1243",
+   "title": "Imperfect Competition in Financial Markets: An Empirical Study of Island and Nasdaq",
+   "year": 2010,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3166383344",
+   "doi": "https://doi.org/10.1257/jel.20241472",
+   "title": "Information Cascades and Social Learning",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4200362766",
+   "doi": "https://doi.org/10.1016/j.irfa.2021.102009",
+   "title": "Evidence of oil market price clustering during the COVID-19 pandemic",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2995321937",
+   "doi": "https://doi.org/10.1111/jels.12246",
+   "title": "Criminal Sentencing by Preferred Numbers",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122277513",
+   "doi": "https://doi.org/10.2307/2676265",
+   "title": "Trade Execution Costs on NASDAQ and the NYSE: A Post-Reform Comparison",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1600316578",
+   "doi": "https://doi.org/10.1016/s0304-405x(98)00008-7",
+   "title": "An empirical analysis of NYSE specialist trading1We thank Jim Cochrane, Joel Hasbrouck, Don Keim, Kim Shapiro, Jerry Warner, and an anonymous referee for their helpful comments. Seminar participants at the Ohio State Conference on `Dealer Markets', London School of Economics, University of Pennsylvania, and University of Wisconsion provided many helpful suggestions. Minder Cheng, Nicole Parent, and Ed Steffelin provided excellent research support. This research was completed while Madhavan was visiting the New York Stock Exchange. The comments and opinions contained in this paper are those of the authors and do not necessarily reflect those of the directors, members or officers of the New York Stock Exchange, Inc.1",
+   "year": 1998,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121375561",
+   "doi": "https://doi.org/10.1111/0022-1082.00183",
+   "title": "The Dynamics of Discrete Bid and Ask Quotes",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2104872410",
+   "doi": "https://doi.org/10.1006/jfin.1996.0002",
+   "title": "Tick Size, Spread, and Volume",
+   "year": 1996,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2038692446",
+   "doi": "https://doi.org/10.1086/467365",
+   "title": "Clustering and Competition in Asset Markets",
+   "year": 1997,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3123607116",
+   "doi": "https://doi.org/10.1017/s0022109000004014",
+   "title": "Negotiation and the IPO Offer Price: A Comparison of Integer vs. Non-Integer IPOs",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W71433086",
+   "doi": null,
+   "title": "Does a Large Minimum Price Variation Encourage Order Exposure",
+   "year": 1996,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125532618",
+   "doi": "https://doi.org/10.1111/0022-1082.00185",
+   "title": "Bank Deposit Rate Clustering: Theory and Empirical Evidence",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2146121595",
+   "doi": "https://doi.org/10.1093/rfs/11.1.81",
+   "title": "Market Making with Discrete Prices",
+   "year": 1998,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2116924000",
+   "doi": "https://doi.org/10.1111/j.1468-036x.2007.00410.x",
+   "title": "Clustering in US Stock Prices after Decimalisation",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2111960589",
+   "doi": "https://doi.org/10.2307/2676222",
+   "title": "Tick Size, Bid-Ask Spreads, and Market Structure",
+   "year": 2001,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2072001776",
+   "doi": "https://doi.org/10.1002/fut.2",
+   "title": "Clustering and psychological barriers: the importance of numbers",
+   "year": 2001,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1978859684",
+   "doi": "https://doi.org/10.1016/0927-538x(96)00016-9",
+   "title": "Price clustering on the Australian Stock Exchange",
+   "year": 1996,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1974189476",
+   "doi": "https://doi.org/10.1016/s0927-538x(02)00049-5",
+   "title": "The influence of cultural factors on price clustering: Evidence from Asia–Pacific stock markets",
+   "year": 2002,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125088490",
+   "doi": "https://doi.org/10.1016/j.euroecorev.2005.09.001",
+   "title": "Price clustering and natural resistance points in the Dutch stock market: A natural experiment",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2073583519",
+   "doi": "https://doi.org/10.1016/j.csda.2007.07.014",
+   "title": "Robustness of Fourier estimator of integrated volatility in the presence of microstructure noise",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2083032261",
+   "doi": "https://doi.org/10.1016/s0304-405x(01)00047-2",
+   "title": "Market reaction to public information: The atypical case of the Boston Celtics",
+   "year": 2001,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1986501669",
+   "doi": "https://doi.org/10.1016/s1386-4181(01)00032-5",
+   "title": "Price clustering in foreign exchange spot markets",
+   "year": 2002,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2029531672",
+   "doi": "https://doi.org/10.1016/s0378-4266(00)00131-x",
+   "title": "Do investors prefer round stock prices? Evidence from Israeli IPO auctions",
+   "year": 2001,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1551869559",
+   "doi": "https://doi.org/10.1016/s1574-0102(03)01013-6",
+   "title": "Market Microstructure",
+   "year": 2003,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3123776011",
+   "doi": "https://doi.org/10.1111/j.1475-6803.2004.00096.x",
+   "title": "TRADING COSTS AND QUOTE CLUSTERING ON THE NYSE AND NASDAQ AFTER DECIMALIZATION",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124381694",
+   "doi": "https://doi.org/10.2308/accr-50226",
+   "title": "Analysts' Motives for Rounding EPS Forecasts",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121591069",
+   "doi": "https://doi.org/10.1016/j.pacfin.2007.04.005",
+   "title": "Culture and stock price clustering: Evidence from The Peoples' Republic of China",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2028649634",
+   "doi": "https://doi.org/10.1016/j.apenergy.2011.10.022",
+   "title": "Assessing price clustering in European Carbon Markets",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2053402336",
+   "doi": "https://doi.org/10.1068/d317t",
+   "title": "Social Connectivities in Global Financial Markets",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1970861212",
+   "doi": "https://doi.org/10.1016/0927-538x(95)00019-h",
+   "title": "Reducing tick size on the Stock Exchange of Singapore",
+   "year": 1995,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1971759054",
+   "doi": "https://doi.org/10.1016/j.finmar.2005.07.001",
+   "title": "Price clustering on the limit-order book: Evidence from the Stock Exchange of Hong Kong",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2809440298",
+   "doi": "https://doi.org/10.1016/j.frl.2018.06.002",
+   "title": "Intraday price behavior of cryptocurrencies",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2051340220",
+   "doi": "https://doi.org/10.1111/j.1540-6288.2007.00172.x",
+   "title": "Price Clustering on the Tokyo Stock Exchange",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1997260999",
+   "doi": "https://doi.org/10.1016/j.physa.2010.06.037",
+   "title": "Impact of the tick-size on financial returns and correlations",
+   "year": 2010,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2149766303",
+   "doi": "https://doi.org/10.1002/fut.10086",
+   "title": "Optimal contract design: For whom?",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121831520",
+   "doi": "https://doi.org/10.1016/s0378-4266(03)00136-5",
+   "title": "Why markets should not necessarily reduce the tick size",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2009915829",
+   "doi": "https://doi.org/10.1016/j.intaccaudtax.2012.07.003",
+   "title": "Accounting conservatism and IPO underpricing: China evidence",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2955442069",
+   "doi": "https://doi.org/10.1016/j.ribaf.2019.05.007",
+   "title": "News and subjective beliefs: A Bayesian approach to Bitcoin investments",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2013487365",
+   "doi": "https://doi.org/10.1111/j.1540-6288.2008.00208.x",
+   "title": "Price Clustering: Evidence Using Comprehensive Limit‐Order Data",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122489135",
+   "doi": "https://doi.org/10.1016/j.jcorpfin.2021.101894",
+   "title": "The round number heuristic and entrepreneur crowdfunding performance",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4319788553",
+   "doi": "https://doi.org/10.1111/jofi.13214",
+   "title": "Do Municipal Bond Dealers Give Their Customers “Fair and Reasonable” Pricing?",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3024167742",
+   "doi": "https://doi.org/10.1007/s11192-020-03492-8",
+   "title": "A place next to Satoshi: foundations of blockchain and cryptocurrency research in business and economics",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2046071886",
+   "doi": "https://doi.org/10.1016/j.apenergy.2010.07.034",
+   "title": "Investigating price clustering in the oil futures market",
+   "year": 2010,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2955594194",
+   "doi": "https://doi.org/10.1111/fire.12187",
+   "title": "Increasing the Tick: Examining the Impact of the Tick Size Change on Maker‐Taker and Taker‐Maker Market Models",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2434639898",
+   "doi": "https://doi.org/10.1016/j.jbusres.2016.06.008",
+   "title": "Price clustering and the stability of stock prices",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2906163557",
+   "doi": "https://doi.org/10.1016/j.frl.2018.12.020",
+   "title": "Price clustering in Bitcoin market—An extension",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2943409348",
+   "doi": "https://doi.org/10.1142/s0219024919500201",
+   "title": "CRYPTOCURRENCIES IN FINANCE: REVIEW AND APPLICATIONS",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3126064187",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2009.02.017",
+   "title": "Market microstructure of the Pink Sheets",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4304845682",
+   "doi": "https://doi.org/10.1017/s0022109022001077",
+   "title": "When Bigger is Better: The Impact of a Tiny Tick Size on Undercutting Behavior",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1910237184",
+   "doi": "https://doi.org/10.1016/j.obhdp.2015.08.004",
+   "title": "The prospect of a perfect ending: Loss aversion and the round-number bias",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2081308563",
+   "doi": "https://doi.org/10.1111/fire.12042",
+   "title": "Clustering of Trade Prices by High‐Frequency and Non–High‐Frequency Trading Firms",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3186770131",
+   "doi": "https://doi.org/10.1007/s10479-021-04192-z",
+   "title": "The nexus between black and digital gold: evidence from US markets",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1910475370",
+   "doi": "https://doi.org/10.1002/fut.21666",
+   "title": "Futures Market Volatility: What Has Changed?",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4206186897",
+   "doi": "https://doi.org/10.1186/s40854-021-00307-4",
+   "title": "Intraday patterns of price clustering in Bitcoin",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4310251584",
+   "doi": "https://doi.org/10.1002/sej.1451",
+   "title": "Do the personal attributes of CEOs matter in the IPO pricing process? An examination of charisma and humility",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4281702885",
+   "doi": "https://doi.org/10.1111/fima.12405",
+   "title": "Does trade clustering reduce trading costs? Evidence from periodicity in algorithmic trading",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4293799549",
+   "doi": "https://doi.org/10.15604/ejef.2022.10.02.001",
+   "title": "PRICE CLUSTERING IN INTERNATIONAL FINANCIAL MARKETS DURING THE COVID-19 PANDEMIC AND ITS IMPLICATIONS",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4390230506",
+   "doi": "https://doi.org/10.1002/fut.22479",
+   "title": "Left‐digit biases: Individual and institutional investors",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4361295298",
+   "doi": "https://doi.org/10.1108/jiabr-05-2022-0140",
+   "title": "Efficiency and price clustering in Islamic stocks: evidence from three Asian countries",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3144633754",
+   "doi": "https://doi.org/10.1111/jfir.12247",
+   "title": "Round‐number biases on trading time: Evidence from international markets",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4392435233",
+   "doi": "https://doi.org/10.1108/rbf-02-2023-0053",
+   "title": "Another look at the price clustering behavior: evidence from the Muscat stock exchange",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4412781229",
+   "doi": "https://doi.org/10.1177/21582440251361212",
+   "title": "Why Do Investors Behave Irrationally in the Cryptocurrency and Emerging Stock Markets?",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2015795013",
+   "doi": "https://doi.org/10.1111/j.1540-6261.1997.tb03815.x",
+   "title": "Competition and Collusion in Dealer Markets",
+   "year": 1997,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2078507882",
+   "doi": "https://doi.org/10.1093/rfs/10.3.871",
+   "title": "Entry, Exit, Market Makers, and the Bid-Ask Spread",
+   "year": 1997,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2058128666",
+   "doi": "https://doi.org/10.1016/s0304-405x(96)00894-x",
+   "title": "Nasdaq market structure and spread patterns",
+   "year": 1997,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1984111604",
+   "doi": "https://doi.org/10.1016/s1386-4181(00)00004-5",
+   "title": "The trades of NYSE floor brokers",
+   "year": 2000,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W92645436",
+   "doi": null,
+   "title": "Decimalization: A Review of the Arguments and Evidence",
+   "year": 1997,
+   "type": "review"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2065267050",
+   "doi": "https://doi.org/10.1016/s0378-4266(98)00054-5",
+   "title": "Extreme price clustering in the London equity index futures and options markets",
+   "year": 1998,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122729992",
+   "doi": "https://doi.org/10.1016/s0304-405x(97)00011-1",
+   "title": "The degree of price resolution and equity trading costs",
+   "year": 1997,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1981056595",
+   "doi": "https://doi.org/10.1111/1467-9965.t01-1-00022",
+   "title": "A Partially Observed Model for Micromovement of Asset Prices with Bayes Estimation via Filtering",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2100687269",
+   "doi": "https://doi.org/10.1002/fut.1802",
+   "title": "Transaction Costs and Market Quality: Open Outcry Versus Electronic Trading",
+   "year": 2001,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121278172",
+   "doi": "https://doi.org/10.1016/s1386-4181(98)00008-1",
+   "title": "Security bid/ask dynamics with discreteness and clustering: Simple strategies for modeling and estimation",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2058974470",
+   "doi": "https://doi.org/10.1017/s0022109000002696",
+   "title": "Tick Size and Institutional Trading Costs: Evidence from Mutual Funds",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2161154830",
+   "doi": "https://doi.org/10.1007/s11238-007-9040-8",
+   "title": "Prospect-theory’s Diminishing Sensitivity Versus Economics’ Intrinsic Utility of Money: How the Introduction of the Euro can be Used to Disentangle the Two Empirically",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124354872",
+   "doi": "https://doi.org/10.1111/0022-1082.00390",
+   "title": "True Spreads and Equilibrium Prices",
+   "year": 2001,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2164074660",
+   "doi": "https://doi.org/10.1002/fut.10129",
+   "title": "Clustering in the futures market: Evidence from S&amp;P 500 futures contracts",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1975369330",
+   "doi": "https://doi.org/10.1002/(sici)1096-9934(199905)19:3<307::aid-fut4>3.0.co;2-5",
+   "title": "The determinants of bid-ask spreads in the foreign exchange futures market: A microstructure analysis",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1512403334",
+   "doi": "https://doi.org/10.1016/s0304-405x(98)00037-3",
+   "title": "Post-trade transparency on Nasdaq's national market system1We would like to thank Tom Abbott, Robert Battalio, George Benston, Bill Christie, Larry Fisher, Steve Foerster, Jason Greene, Mike Jensen, Pete Kyle, Paul Laux, Ananth Madhavan, Jean Masson, Junius Peake, Paul Schultz, Paul Seguin, Paul Torregrosa, Dave Whitcomb, as well as seminar participants at the Northern, Southern, and Western Finance Meetings, the Symposium on the Organization of Financial Trade and Exchange Mechanisms, the Symposium in Tribute to Larry Fisher, Baruch College, Georgetown University, the University of Wisconsin-Madison, the SEC, and Paul Seguin (the referee), for helpful comments and suggestions on earlier versions of this paper.1",
+   "year": 1998,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1514617270",
+   "doi": "https://doi.org/10.1016/s0169-7161(96)14024-4",
+   "title": "22 Modeling market microstructure time series",
+   "year": 1996,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2021331404",
+   "doi": "https://doi.org/10.1016/s1042-4431(98)00045-6",
+   "title": "Price clustering and bid-ask spreads in international bond futures",
+   "year": 1998,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2067330582",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2005.07.017",
+   "title": "An analysis of intraday patterns in price clustering on the Tokyo Stock Exchange",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2076163233",
+   "doi": "https://doi.org/10.1016/s0378-4266(01)00262-x",
+   "title": "Do investors prefer even-eighth prices? Evidence from NYSE limit orders",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2011097196",
+   "doi": "https://doi.org/10.1002/fut.10080",
+   "title": "Decreased price clustering in FTSE100 futures contracts following a transfer from floor to electronic trading",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2023490301",
+   "doi": "https://doi.org/10.1016/j.intfin.2005.03.003",
+   "title": "Clustering and psychological barriers in exchange rates",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2121324732",
+   "doi": "https://doi.org/10.1016/j.jebo.2009.05.023",
+   "title": "eBay’s proxy bidding: A license to shill",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3123025411",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2013.01.029",
+   "title": "The components of the illiquidity premium: An empirical analysis of US stocks 1927–2010",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1985412203",
+   "doi": "https://doi.org/10.1111/j.1540-6288.1999.tb00470.x",
+   "title": "Changing the Size of a Futures Contract: Liquidity and Microstructure Effects",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2135683432",
+   "doi": "https://doi.org/10.1016/s0927-538x(03)00019-2",
+   "title": "The impact of tick size on intraday stock price behavior: evidence from the Taiwan Stock Exchange",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2301849370",
+   "doi": "https://doi.org/10.1214/16-aoas904",
+   "title": "Integer percentages as electoral falsification fingerprints",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2074099699",
+   "doi": "https://doi.org/10.1016/j.eneco.2011.09.009",
+   "title": "Clustering in crude oil prices and the target pricing zone hypothesis",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2153270647",
+   "doi": "https://doi.org/10.1287/mnsc.1110.1364",
+   "title": "Penny Wise, Dollar Foolish: Buy–Sell Imbalances On and Around Round Numbers",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1987882557",
+   "doi": "https://doi.org/10.1111/j.1475-6803.2012.01313.x",
+   "title": "TRADE SIZE AND PRICE CLUSTERING: THE CASE OF SHORT SALES AND THE SUSPENSION OF PRICE TESTS",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2140061981",
+   "doi": "https://doi.org/10.1300/j284v03n03_05",
+   "title": "An Empirical Analysis of the Trading Structure at the Stockholm Stock Exchange",
+   "year": 2010,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2223860982",
+   "doi": "https://doi.org/10.1016/j.finmar.2015.10.003",
+   "title": "Limited cognition and clustered asset prices: Evidence from betting markets",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2851374521",
+   "doi": "https://doi.org/10.1111/fima.12229",
+   "title": "Initial Offer Precision and M&amp;A Outcomes",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2099830541",
+   "doi": "https://doi.org/10.1111/j.1467-629x.2007.00221.x",
+   "title": "Influence of cultural factors on price clustering and price resistance in China's stock markets",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2045031439",
+   "doi": "https://doi.org/10.1016/j.jcss.2012.09.010",
+   "title": "Multi-route query processing and optimization",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2100315533",
+   "doi": "https://doi.org/10.1007/s11156-008-0096-5",
+   "title": "Tick size change on the Stock Exchange of Thailand",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2806395320",
+   "doi": "https://doi.org/10.1007/s00778-018-0507-8",
+   "title": "Smooth Scan: robust access path selection without cardinality estimation",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2011350970",
+   "doi": "https://doi.org/10.1016/j.irfa.2011.02.003",
+   "title": "Share price clustering in Mexico",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2029194839",
+   "doi": "https://doi.org/10.1007/s11127-011-9807-x",
+   "title": "The politics of digits: evidence of odd taxation",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2171581654",
+   "doi": "https://doi.org/10.1002/jae.1122",
+   "title": "An inflated multivariate integer count hurdle model: an application to bid and ask quote dynamics",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2543568247",
+   "doi": "https://doi.org/10.1080/00036846.2016.1248284",
+   "title": "Price clustering on the Shanghai Stock Exchange",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2053417569",
+   "doi": "https://doi.org/10.1016/j.japwor.2009.06.006",
+   "title": "An examination of minimum tick sizes on the Tokyo Stock Exchange",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3126010678",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2009.03.001",
+   "title": "Dealer attention, the speed of quote adjustment to information, and net dealer revenue",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2099129812",
+   "doi": "https://doi.org/10.1080/00036846.2011.610747",
+   "title": "Price clustering in Australian water markets",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2603460033",
+   "doi": "https://doi.org/10.1007/s11156-017-0632-2",
+   "title": "One size fits all? High frequency trading, tick size changes and the implications for exchanges: market quality and market structure considerations",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2890145027",
+   "doi": "https://doi.org/10.3917/fina.391.0071",
+   "title": "Round-Number Bias in Investment: Evidence from Equity Crowdfunding",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1997700825",
+   "doi": "https://doi.org/10.1002/fut.20429",
+   "title": "Size clustering in the FTSE100 index futures market",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2123938120",
+   "doi": "https://doi.org/10.3905/jpm.2008.35.1.57",
+   "title": "Equity Market Microstructure: <i>Taking Stock of What We Know</i>",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2532323851",
+   "doi": "https://doi.org/10.1016/j.najef.2016.10.003",
+   "title": "The impact of numerical superstition on the final digit of stock price",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2972296771",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2019.105627",
+   "title": "Institutional investors’ cognitive constraints during initial public offerings",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3010618116",
+   "doi": "https://doi.org/10.32479/ijefi.9520",
+   "title": "FINANCIAL PERFORMANCE AS MEDIATOR ON THE IMPACT OF INVESTMENT AND FINANCIAL DECISIONS ON STOCK PRICE AND FUTURE PROFIT: THE CASE OF THE JORDANIAN FINANCIAL SECTOR",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3018781313",
+   "doi": "https://doi.org/10.3390/e22050499",
+   "title": "How Complexity and Uncertainty Grew with Algorithmic Trading",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2089262143",
+   "doi": "https://doi.org/10.1108/03074351211248180",
+   "title": "Earnings smoothing and the underpricing of seasoned equity offerings",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2025742674",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2014.01.026",
+   "title": "Clustering of intraday order-sizes by uninformed versus informed traders",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121557698",
+   "doi": null,
+   "title": "Stock Split Decisions: A Synthesis of Theory and Evidence",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2130017894",
+   "doi": "https://doi.org/10.1002/fut.21547",
+   "title": "Price Clustering in Individual Equity Options: Moneyness, Maturity, and Price Level",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2789806886",
+   "doi": "https://doi.org/10.1108/jerer-10-2016-0036",
+   "title": "REITs and REOCs and their initial stock market performance: a European perspective",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3211902513",
+   "doi": "https://doi.org/10.1108/jpif-06-2021-0052",
+   "title": "Can textual analysis solve the underpricing puzzle? A US REIT study",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2921787050",
+   "doi": "https://doi.org/10.1016/j.jempfin.2019.03.005",
+   "title": "Order price clustering, size clustering, and stock price movements: Evidence from the Taiwan Stock Exchange",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2971026478",
+   "doi": "https://doi.org/10.1016/j.qref.2019.08.008",
+   "title": "Does short selling affect the clustering of stock prices?",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3132635290",
+   "doi": "https://doi.org/10.1080/14697688.2022.2050285",
+   "title": "Modeling price clustering in high-frequency prices",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4280579762",
+   "doi": "https://doi.org/10.1108/cfri-02-2022-0013",
+   "title": "Trade price clustering in the corporate bond market",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4235234149",
+   "doi": "https://doi.org/10.1111/fima.12281",
+   "title": "Glamour among value: P/E ratios and value investor attention",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2079020225",
+   "doi": "https://doi.org/10.1108/10610420610703720",
+   "title": "Price‐end biases in financial products",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4206383970",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2022.106420",
+   "title": "Weighted Least Squares Realized Covariation Estimation",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4317556961",
+   "doi": "https://doi.org/10.1007/s11156-023-01125-8",
+   "title": "Trade-time clustering",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4413259122",
+   "doi": "https://doi.org/10.1016/j.jcorpfin.2025.102858",
+   "title": "Lazy dividends",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4416211186",
+   "doi": "https://doi.org/10.1287/mnsc.2024.06215",
+   "title": "Spectral Volume Models: Universal High-Frequency Periodicities in Intraday Trading Activities",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2116025521",
+   "doi": "https://doi.org/10.1016/0304-405x(95)00863-a",
+   "title": "Why Nasdaq market makers avoid odd-eighth quotes",
+   "year": 1996,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2159025466",
+   "doi": "https://doi.org/10.1111/j.1540-6261.1996.tb02702.x",
+   "title": "Robust Structure Without Predictability: The “Compass Rose” Pattern of the Stock Market",
+   "year": 1996,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2144994177",
+   "doi": "https://doi.org/10.1002/fut.20196",
+   "title": "Price clustering in E‐mini and floor‐traded index futures",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124496887",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2003.11.001",
+   "title": "Penny pricing and the components of spread and depth changes",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2096577923",
+   "doi": "https://doi.org/10.1016/j.jempfin.2009.09.003",
+   "title": "Frequency of observation and the estimation of integrated volatility in deep and liquid financial markets",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2053632272",
+   "doi": "https://doi.org/10.1016/s0378-4266(02)00398-9",
+   "title": "Trading costs, investor recognition and market response: An analysis of firms that move from the Amex (Nasdaq) to Nasdaq (Amex)",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2082989496",
+   "doi": "https://doi.org/10.1002/fut.10053",
+   "title": "Does tick size influence price discovery? Evidence from the Toronto Stock Exchange",
+   "year": 2002,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2093765042",
+   "doi": "https://doi.org/10.1016/j.asieco.2013.07.002",
+   "title": "Has political instability contributed to price clustering on Fiji's stock market?",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2142212951",
+   "doi": "https://doi.org/10.2469/faj.v54.n1.2142",
+   "title": "Is It Time to Split the S&amp;P 500 Futures Contract?",
+   "year": 1998,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1977835840",
+   "doi": "https://doi.org/10.1016/s0927-5398(99)00014-6",
+   "title": "Pricing behavior in an off-hours computerized market",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125794973",
+   "doi": "https://doi.org/10.1111/1540-6288.00025",
+   "title": "Spreads, Depths, and Quote Clustering on the NYSE and Nasdaq: Evidence after the 1997 Securities and Exchange Commission Rule Changes",
+   "year": 2002,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1987970688",
+   "doi": "https://doi.org/10.1016/s0261-5606(00)00022-x",
+   "title": "Internalization and stock price clustering: Finnish evidence",
+   "year": 2000,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2071437889",
+   "doi": "https://doi.org/10.1016/j.finmar.2009.10.002",
+   "title": "Price, trade size, and information revelation in multi-period securities markets",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1965777727",
+   "doi": "https://doi.org/10.1142/s0219024911006838",
+   "title": "STATISTICAL CAUSES FOR THE EPPS EFFECT IN MICROSTRUCTURE NOISE",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2087466532",
+   "doi": "https://doi.org/10.1016/j.eneco.2014.03.003",
+   "title": "What makes carbon traders cluster their orders?",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2165870809",
+   "doi": "https://doi.org/10.1142/s0219091508001490",
+   "title": "Impact of Tick-Size Reduction on the Market Liquidity — Evidence from the Emerging Order-Driven Market",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125938471",
+   "doi": "https://doi.org/10.22004/ag.econ.105518",
+   "title": "Electronic vs. Open Outcry: Side-by-Side Trading of KCBT Wheat Futures",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1592637274",
+   "doi": "https://doi.org/10.1002/fut.20149",
+   "title": "Fractional versus decimal pricing: Evidence from the UK Long Gilt futures market",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2076630258",
+   "doi": "https://doi.org/10.1111/j.1755-053x.2009.01037.x",
+   "title": "The Underpricing of Insurance IPOs",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1563648727",
+   "doi": "https://doi.org/10.1080/10835547.2004.12091135",
+   "title": "Clustering in Real Estate Prices: Determinants and Consequences",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2010131442",
+   "doi": "https://doi.org/10.1002/fut.20152",
+   "title": "How electronic trading affects bid-ask spreads and arbitrage efficiency between index futures and options",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2061596310",
+   "doi": "https://doi.org/10.1016/j.irfa.2012.08.007",
+   "title": "Trade size clustering and the cost of trading at the London Stock Exchange",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2019502715",
+   "doi": "https://doi.org/10.1016/s0378-4266(00)00101-1",
+   "title": "Decimalization, adverse selection, and market maker rents",
+   "year": 2001,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2085758431",
+   "doi": "https://doi.org/10.3150/11-bej384",
+   "title": "Model checks for the volatility under microstructure noise",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2098967256",
+   "doi": "https://doi.org/10.1002/fut.20357",
+   "title": "Decimalization, ETFs and futures pricing efficiency",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2133997657",
+   "doi": "https://doi.org/10.1016/j.physa.2008.10.014",
+   "title": "Tick size and stock returns",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2793030062",
+   "doi": "https://doi.org/10.1080/15427560.2018.1431887",
+   "title": "Price Clustering and Investor Sentiment",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2064380926",
+   "doi": "https://doi.org/10.1016/j.intfin.2012.11.011",
+   "title": "A substitution effect between price clustering and size clustering in credit default swaps",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2556945377",
+   "doi": "https://doi.org/10.1111/fima.12136",
+   "title": "Price Clustering Asymmetries in Limit Order Flows",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2888754207",
+   "doi": "https://doi.org/10.1016/j.najef.2018.08.014",
+   "title": "Machine over Mind? Stock price clustering in the era of algorithmic trading",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2929891947",
+   "doi": "https://doi.org/10.1016/j.mulfin.2019.04.002",
+   "title": "Price clustering and economic freedom: The case of cross-listed securities",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3123169894",
+   "doi": "https://doi.org/10.1016/j.qref.2014.09.003",
+   "title": "Price dynamics and market liquidity: An intraday event study on Euronext",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1543336001",
+   "doi": "https://doi.org/10.1016/j.physa.2014.09.016",
+   "title": "Tick size reduction and price clustering in a FX order book",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1984215373",
+   "doi": "https://doi.org/10.3390/w6113457",
+   "title": "Understanding Irrigator Bidding Behavior in Australian Water Markets in Response to Uncertainty",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1989226965",
+   "doi": "https://doi.org/10.1016/j.irfa.2005.09.005",
+   "title": "Liquidity distribution in the limit order book on the stock exchange of Thailand",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2162194738",
+   "doi": "https://doi.org/10.4284/0038-4038-2012.264",
+   "title": "A Psychological Reexamination of the Bertrand Paradox",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2768684137",
+   "doi": "https://doi.org/10.1016/j.qref.2017.11.006",
+   "title": "Price and trade size clustering: Evidence from the national stock exchange of India",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3049176729",
+   "doi": "https://doi.org/10.1007/s10693-020-00341-w",
+   "title": "Firm Opacity and the Clustering of Stock Prices: the Case of Financial Intermediaries",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2063021749",
+   "doi": "https://doi.org/10.1016/j.irfa.2013.12.001",
+   "title": "The implications of a price anchoring effect at the upstairs market of the London Stock Exchange",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2904063073",
+   "doi": "https://doi.org/10.47743/saeb-2019-0043",
+   "title": "PRICE CLUSTERING IN BANK STOCKS DURING THE GLOBAL FINANCIAL CRISIS",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2990266878",
+   "doi": "https://doi.org/10.1080/09599916.2019.1693418",
+   "title": "A comparison of realised measures for daily REIT volatility",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3017649695",
+   "doi": "https://doi.org/10.24135/afl.v9i0.200",
+   "title": "Price Clustering After the Introduction of Bitcoin Futures",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124293376",
+   "doi": "https://doi.org/10.1111/j.1755-053x.2008.00010.x",
+   "title": "Stock Splits in Switzerland: To Signal or Not to Signal?",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2588365398",
+   "doi": "https://doi.org/10.1007/s10693-017-0272-7",
+   "title": "Short-Sale Restrictions and Price Clustering: Evidence from SEC Rule 201",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4320031140",
+   "doi": "https://doi.org/10.15282/ijim.15.1.2022.8994",
+   "title": "BLOCKCHAIN AND CRYPTOCURRENCY INNOVATION FOR A SUSTAINABLE FINANCIAL SYSTEM",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2740097495",
+   "doi": null,
+   "title": "Mind the Gap : An Early Empirical Analysis of SEC's “Tick Size Pilot Program”",
+   "year": 2017,
+   "type": "book"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2964247287",
+   "doi": "https://doi.org/10.1080/10485252.2019.1643019",
+   "title": "Detecting price jumps in the presence of market microstructure noise",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1535336512",
+   "doi": "https://doi.org/10.1002/fut.21734",
+   "title": "The Impact of a Premium‐Based Tick Size on Equity Option Liquidity",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1663868468",
+   "doi": "https://doi.org/10.1111/ecoj.12402",
+   "title": "Pro‐competitive Rationing in Multi‐unit Auctions",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2739665264",
+   "doi": "https://doi.org/10.1080/15427560.2017.1344675",
+   "title": "Crossing of Psychological Price Levels: The Price Dynamics and Interaction between S&amp;P500 Index and Index Futures",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2969996637",
+   "doi": "https://doi.org/10.1016/j.pacfin.2019.101197",
+   "title": "Clustering and discounting in auction-style SEOs – Evidence from China",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4304808857",
+   "doi": "https://doi.org/10.1080/23322039.2022.2132641",
+   "title": "Impact of accounting conservatism on IPO under-pricing: evidence from India",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W12797369",
+   "doi": "https://doi.org/10.1007/978-3-319-09946-0_6",
+   "title": "How Tick Size Affects the High Frequency Scaling of Stock Return Distributions",
+   "year": 2014,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4386543222",
+   "doi": "https://doi.org/10.1590/s0034-759020230403x",
+   "title": "CRYPTOCURRENCY AND FINANCIAL SYSTEM: SYSTEMATIC LITERATURE REVIEW",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4381661039",
+   "doi": "https://doi.org/10.1007/s11142-023-09780-x",
+   "title": "Round number reference points and irregular patterns in reported gross margins",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2906871487",
+   "doi": "https://doi.org/10.1016/j.japwor.2018.12.002",
+   "title": "Trade-size clustering and price efficiency",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2145275496",
+   "doi": "https://doi.org/10.2307/2676274",
+   "title": "Can the Treatment of Limit Orders Reconcile the Differences in Trading Costs between NYSE and Nasdaq Issues?",
+   "year": 2001,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2103594075",
+   "doi": "https://doi.org/10.2307/2297828",
+   "title": "Some Theory of Statistical Inference for Nonlinear Science",
+   "year": 1991,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1965511477",
+   "doi": "https://doi.org/10.1006/jfin.1998.0249",
+   "title": "The Role of Tick Size in Upstairs Trading and Downstairs Trading",
+   "year": 1998,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1602258295",
+   "doi": null,
+   "title": "The Microstructure of Stock Markets",
+   "year": 2002,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125951066",
+   "doi": "https://doi.org/10.1016/s0304-405x(02)00153-8",
+   "title": "The impact of specialist firm acquisitions on market quality",
+   "year": 2002,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2022889571",
+   "doi": "https://doi.org/10.1002/(sici)1096-9934(199908)19:5<541::aid-fut3>3.0.co;2-7",
+   "title": "A comprehensive examination of the compass rose pattern in futures markets",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2037667376",
+   "doi": "https://doi.org/10.1023/b:requ.0000004782.92370.89",
+   "title": "The Split of the S&amp;P 500 Futures Contract: Effects on Liquidity and Market Dynamics",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2148184992",
+   "doi": "https://doi.org/10.1086/209735",
+   "title": "Another Day, Another Collar: An Evaluation of the Effects of NYSE Rule 80A on Trading Costs and Intermarket Arbitrage",
+   "year": 1998,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2051908983",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2008.12.004",
+   "title": "What do investment banks charge to underwrite American Depositary Receipts?",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1993138087",
+   "doi": "https://doi.org/10.1016/j.gfj.2006.06.008",
+   "title": "Is stock price rounded for economic reasons in the Chinese markets?",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2045912894",
+   "doi": "https://doi.org/10.1111/j.1540-6288.2001.tb00016.x",
+   "title": "Synthetic Trades and Calendar Day Patterns The Case of the Dollar/Sterling Markets",
+   "year": 2001,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2072072099",
+   "doi": "https://doi.org/10.1016/j.irfa.2010.01.007",
+   "title": "Price clustering and underpricing in the IPO aftermarket",
+   "year": 2010,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1973375132",
+   "doi": "https://doi.org/10.1016/j.jjie.2008.01.002",
+   "title": "Stock splits, liquidity, and information asymmetry—An empirical study on Tokyo Stock Exchange",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2007515774",
+   "doi": "https://doi.org/10.1080/13518470500146017",
+   "title": "Price resolution in an emerging market: Evidence from the Istanbul Stock Exchange",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2105747019",
+   "doi": "https://doi.org/10.1080/09603100600949218",
+   "title": "Price clustering in the CAC 40 index options market",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2153493725",
+   "doi": "https://doi.org/10.1111/j.1475-6803.1999.tb00722.x",
+   "title": "INTEREST RATE PARITY AND THE BEHAVIOR OF THE BID‐ASK SPREAD",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1516613703",
+   "doi": null,
+   "title": "Application of self-organizing maps to clustering of high-frequency financial data",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1980419061",
+   "doi": "https://doi.org/10.1111/j.1475-6803.2005.00120.x",
+   "title": "LIQUIDITY AND QUOTE CLUSTERING IN A MARKET WITH MULTIPLE TICK SIZES",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2130937899",
+   "doi": "https://doi.org/10.1109/tac.2004.824478",
+   "title": "Estimating Stochastic Volatility via Filtering for the Micromovement of Asset Prices",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1970000968",
+   "doi": "https://doi.org/10.1111/j.1745-6622.1997.tb00147.x",
+   "title": "Picking Your Tick: Toward a New Theory of Stock Splits",
+   "year": 1997,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2920859983",
+   "doi": "https://doi.org/10.1080/00036846.2019.1588946",
+   "title": "Price Clustering of Chinese IPOs: The Impact of Regulation, Cultural Factors, and Negotiation",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2011115675",
+   "doi": "https://doi.org/10.1111/j.1540-6288.2012.00353.x",
+   "title": "Price Clustering in the U.S. Dollar/Taiwan Dollar Swap Market",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2105516352",
+   "doi": "https://doi.org/10.1109/fuzzy.2011.6007567",
+   "title": "Ant colony optimization with dual pheromone tables for clustering",
+   "year": 2011,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2129214394",
+   "doi": "https://doi.org/10.1080/13504860903259852",
+   "title": "Risk Minimization for a Filtering Micromovement Model of Asset Price",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1014259881",
+   "doi": "https://doi.org/10.1016/j.knosys.2016.03.005",
+   "title": "Foreign exchange data crawling and analysis for knowledge discovery leading to informative decision making",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2011433614",
+   "doi": "https://doi.org/10.1108/03074350310768463",
+   "title": "Intradaily behavior of listed and unlisted security basket indices in the emerging Greek stock market",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3195678365",
+   "doi": "https://doi.org/10.1007/s11156-021-01004-0",
+   "title": "Does mutual fund ownership reduce stock price clustering? Evidence from active and index funds",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2252704906",
+   "doi": "https://doi.org/10.1080/10971475.2015.1081810",
+   "title": "Cultural Stock Price Clustering in the Chinese Equity Market",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2254322992",
+   "doi": "https://doi.org/10.1016/j.jkss.2016.01.002",
+   "title": "Modeling discrete stock price changes using a mixture of Poisson distributions",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2794585869",
+   "doi": "https://doi.org/10.1177/0312896218758838",
+   "title": "Do corporate directors ‘heap’ dividends? Evidence on dividend rounding and information uncertainty in Australian firms",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2915855502",
+   "doi": "https://doi.org/10.2478/fiqf-2018-0007",
+   "title": "DETERMINANTS OF INVESTMENT DECISIONS ON THE CAPITAL MARKET",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3108341070",
+   "doi": "https://doi.org/10.1177/1527002520975837",
+   "title": "The Predictive Power of College Football Spreads: Regular Season Versus Bowl Games",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2223875695",
+   "doi": "https://doi.org/10.1007/978-0-387-77117-5_21",
+   "title": "Security Market Microstructure: The Analysis of a Non-Frictionless Market",
+   "year": 2010,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2388419497",
+   "doi": "https://doi.org/10.1080/13504851.2016.1178839",
+   "title": "Quote activity and round quotes in a voice-brokered bond market",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2773908385",
+   "doi": "https://doi.org/10.1016/j.jebo.2017.12.019",
+   "title": "Clustered pricing in the corporate loan market: Theory and empirical evidence",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2988829778",
+   "doi": "https://doi.org/10.1002/ijfe.1768",
+   "title": "Trade‐size clustering and informed trading in global markets",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3126089826",
+   "doi": "https://doi.org/10.1111/j.1468-036x.2010.00602.x",
+   "title": "Tiny Prices in a Tiny Market: Evidence from Portugal on Optimal Share Prices",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4394808789",
+   "doi": "https://doi.org/10.1287/mnsc.2022.02935",
+   "title": "What Makes HFTs Tick? Tick Size Changes and Information Advantage in a Market with Fast and Slow Traders",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2996814336",
+   "doi": "https://doi.org/10.1007/s11579-019-00253-x",
+   "title": "On the probability of default in a market with price clustering and jump risk",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3185545532",
+   "doi": "https://doi.org/10.1016/j.frl.2021.102357",
+   "title": "Down to the cents: The case of international drug prices",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4283687702",
+   "doi": "https://doi.org/10.1016/j.physa.2022.127807",
+   "title": "On the dynamics of reporting data: A case study of UFO sightings",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4368340957",
+   "doi": "https://doi.org/10.1016/j.frl.2023.103904",
+   "title": "Clustering in Bitcoin balance",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4386421668",
+   "doi": "https://doi.org/10.1080/01629778.2023.2251459",
+   "title": "Efficiency and price clustering in the Baltic stock exchanges: evidence from a micro-level analysis",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3000320933",
+   "doi": "https://doi.org/10.1080/00036846.2020.1711507",
+   "title": "Priced on the note: the case of Japanese IPOs",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3118665909",
+   "doi": "https://doi.org/10.1080/15427560.2020.1867143",
+   "title": "Price Clustering, Preferences for Round Prices, and Expected Returns",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2007595435",
+   "doi": "https://doi.org/10.1016/j.gfj.2006.06.004",
+   "title": "Microstructure effects, bid–ask spreads and volatility in the spot foreign exchange market pre and post-EMU",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2766430636",
+   "doi": "https://doi.org/10.1080/15427560.2019.1587763",
+   "title": "Heaping on Dividends: The Role of Dividend Size and Information Uncertainty",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2575364888",
+   "doi": "https://doi.org/10.1111/fire.12118",
+   "title": "Macroeconomic Announcements and the Distribution of Price‐Endings in the U.S. Treasury Market",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3198076498",
+   "doi": "https://doi.org/10.1080/1350486x.2021.1960574",
+   "title": "Heterogeneity and Competition in Fragmented Markets: Fees Vs Speed",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2064405979",
+   "doi": "https://doi.org/10.1108/eb028762",
+   "title": "TICK SIZES, STOCK PRICES, AND SHARE TURNOVER: INTERNATIONAL EVIDENCE",
+   "year": 2002,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2894786823",
+   "doi": "https://doi.org/10.1080/13504851.2018.1527435",
+   "title": "Security design, market risk and round quotes in the treasury bond market",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3135826731",
+   "doi": "https://doi.org/10.1080/1351847x.2021.1894196",
+   "title": "Changing currencies and cognitive biases: evidence of the impact of introducing the Euro on dividend heaping in Europe",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3005978606",
+   "doi": "https://doi.org/10.2991/aebmr.k.200127.097",
+   "title": "Superstitions and Price Clustering in the Taiwan Stock Exchange",
+   "year": 2020,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2602020286",
+   "doi": "https://doi.org/10.1016/j.najef.2017.03.003",
+   "title": "Modeling spot rate using a realized stochastic volatility model with level effect and dynamic drift☆",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2765470869",
+   "doi": "https://doi.org/10.1007/978-981-10-6053-3_14",
+   "title": "The Impact of Reducing Tick Size on Malaysian’s Stock Market Liquidity",
+   "year": 2017,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2993439428",
+   "doi": "https://doi.org/10.3233/af-200308",
+   "title": "Sector categorization using gradient boosted trees trained on fundamental firm data",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4386804321",
+   "doi": "https://doi.org/10.1108/mf-01-2023-0016",
+   "title": "Dynamics of price clustering in the Pakistan stock exchange",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4391451090",
+   "doi": "https://doi.org/10.1016/j.jbef.2024.100893",
+   "title": "Price clustering on cryptocurrency order books at a US-based exchange",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4400778752",
+   "doi": "https://doi.org/10.1108/rbf-01-2024-0007",
+   "title": "Exploring the Nordic numbers: an analysis of price clustering in Scandinavian stocks",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4403990627",
+   "doi": "https://doi.org/10.1016/j.risk.2024.100002",
+   "title": "High price impact trade identification and its implication for volatility and price efficiency",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4408960172",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2025.107441",
+   "title": "Connections with investment banks and their value: Evidence from seasoned equity offerings",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1971796194",
+   "doi": "https://doi.org/10.1016/s0165-1889(97)00036-5",
+   "title": "Order flow and the bid-ask spread: An empirical probability model of screen-based trading",
+   "year": 1997,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125926994",
+   "doi": "https://doi.org/10.1016/s1386-4181(02)00021-6",
+   "title": "Specialist participation and limit orders",
+   "year": 2002,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2023704805",
+   "doi": "https://doi.org/10.1016/s0165-1765(00)00252-4",
+   "title": "An explanation for the compass rose pattern",
+   "year": 2000,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2149692358",
+   "doi": "https://doi.org/10.1080/135184799337181",
+   "title": "Market structure and bid-ask spreads: IBIS vs Nasdaq",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1981167006",
+   "doi": "https://doi.org/10.1006/jfin.2000.0309",
+   "title": "Implications of a Reduction in Tick Size on Short-Sell Order Execution",
+   "year": 2002,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2128461618",
+   "doi": "https://doi.org/10.1016/s0304-405x(97)00014-7",
+   "title": "Symposium on market microstructure: Focus on Nasdaq",
+   "year": 1997,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1972089800",
+   "doi": "https://doi.org/10.1002/fut.20133",
+   "title": "Splitting the S&amp;P 500 futures",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2029113271",
+   "doi": "https://doi.org/10.1007/s11156-006-7436-0",
+   "title": "Multi-market trading in the Eurodollar futures market",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2076347026",
+   "doi": "https://doi.org/10.1016/s1059-0560(03)00035-2",
+   "title": "Price rounding and bid–ask spreads before and after the decimalization",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2008893841",
+   "doi": "https://doi.org/10.1080/0960310042000238903",
+   "title": "Offering price clusters and underpricing in the US primary market",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2148309280",
+   "doi": "https://doi.org/10.1080/1351847042000254194",
+   "title": "Price exhaustion and number preference: time and price confluence in Australian stock prices",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2033506702",
+   "doi": "https://doi.org/10.1111/1468-0327.00098",
+   "title": "Theoretical perspective on euro liquidity",
+   "year": 2002,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2079065705",
+   "doi": "https://doi.org/10.1007/s11203-005-6103-8",
+   "title": "Bayesian Inference via Filtering for a Class of Counting Processes: Application to the Micromovement of Asset Price",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2086091108",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2006.05.016",
+   "title": "A note on the Wang and Wang measure of the quality of the compass rose",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124695580",
+   "doi": null,
+   "title": "Imperfect Competition in Financial Markets: ISLAND versus NASDAQ",
+   "year": 2003,
+   "type": "book"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1528960478",
+   "doi": "https://doi.org/10.1080/07474938.2013.808478",
+   "title": "Time-Deformation Modeling of Stock Returns Directed by Duration Processes",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2781800965",
+   "doi": "https://doi.org/10.1137/16m1094762",
+   "title": "Bayesian Inference via Filtering Equations for Ultrahigh Frequency Data (I): Model and Estimation",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122233632",
+   "doi": "https://doi.org/10.1002/fut.20213",
+   "title": "Too many options? Theory and evidence on option exchange design",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1532886209",
+   "doi": "https://doi.org/10.1007/3-540-48022-6_36",
+   "title": "Bayes Estimation via Filtering Equation for O-U Process with Discrete Noises: Application to the Micro-Movement of Stock Prices",
+   "year": 2007,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2038601232",
+   "doi": "https://doi.org/10.1007/s12197-009-9096-0",
+   "title": "Timing of price clustering and trader behavior in the foreign exchange market: evidence from Taiwan",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2278012549",
+   "doi": "https://doi.org/10.1515/nybj-2015-0001",
+   "title": "Price Clustering and Price Barriers: International Evidence",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2983971247",
+   "doi": "https://doi.org/10.1016/j.najef.2019.101101",
+   "title": "Currency magnitude and cognitive biases: Evidence of dividend rounding in Latin America",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2002594412",
+   "doi": "https://doi.org/10.1142/s0219091500000273",
+   "title": "Price Clustering in the Nikkei 225 Stock Index Futures Contract on the SIMEX: An Intraday Empirical Analysis",
+   "year": 2000,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2042293153",
+   "doi": "https://doi.org/10.1080/14697680902814258",
+   "title": "An empirical study of liquidity dynamics and resistance and support levels",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2085008563",
+   "doi": "https://doi.org/10.5296/ber.v4i2.6643",
+   "title": "Communication Technology and Exchanging Financial Assets: A Historical Perspective",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2112514181",
+   "doi": "https://doi.org/10.22004/ag.econ.21331",
+   "title": "Estimating Liquidity Costs in Agricultural Futures Markets using Bayesian Methods",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2141033063",
+   "doi": "https://doi.org/10.14208/bf03353827",
+   "title": "Comparing High Frequency Data of Stocks that are Traded Simultaneously in the US and Germany: Simulated Versus Empirical Data",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2166311919",
+   "doi": "https://doi.org/10.1080/00036840902881843",
+   "title": "Price clustering of IPOs in the secondary market",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2955933918",
+   "doi": "https://doi.org/10.17615/pby0-s610",
+   "title": "Some applications of mixed data sampling regression models",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122292716",
+   "doi": "https://doi.org/10.1016/j.najef.2015.06.002",
+   "title": "A new measure for heated negotiation in the IPO syndicate",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1566068235",
+   "doi": null,
+   "title": "The Effect of Regulation Fair Disclosure on Market Integration",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2024421487",
+   "doi": "https://doi.org/10.1109/icsssm.2012.6252256",
+   "title": "Research of performance clustering effects of open-end mutual funds in China",
+   "year": 2012,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2084082970",
+   "doi": "https://doi.org/10.1037/h0091583",
+   "title": "Analyzing numerical responses: A model and its application to examples from personnel and organizational management.",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2096148419",
+   "doi": "https://doi.org/10.5539/ijbm.v8n12p126",
+   "title": "Reducing Tick Size One the Stock Exchange of Tunis",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2108429658",
+   "doi": "https://doi.org/10.1007/978-3-7908-1992-2_3",
+   "title": "A multivariate integer count hurdle model: theory and application to exchange rate dynamics",
+   "year": 2007,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2184317630",
+   "doi": "https://doi.org/10.6126/apmr.2010.15.4.03",
+   "title": "Impact of Tick-Size Reduction on the Price Clustering: Evidence from the Emerging Order-Driven Market",
+   "year": 2010,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2185980524",
+   "doi": null,
+   "title": "Technology Impact on Capital Markets Research commissioned by the Financial Services Council (FSC)",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2463959132",
+   "doi": "https://doi.org/10.1057/9781137396495_1",
+   "title": "Introduction to High Frequency Financial Modelling",
+   "year": 2015,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2524927930",
+   "doi": "https://doi.org/10.1007/s12197-016-9375-5",
+   "title": "Liquidity, overpricing, and the tactics of informed traders",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2566188716",
+   "doi": "https://doi.org/10.47604/ijfa.295",
+   "title": "AN EMPIRICAL STUDY OF PRICE CLUSTERING ON THE NAIROBI SECURITIES EXCHANGE",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W271719185",
+   "doi": "https://doi.org/10.2753/ces1097-1475470104",
+   "title": "Herding on Ending Digits in Security Trading",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2735361676",
+   "doi": "https://doi.org/10.1007/s40844-017-0078-1",
+   "title": "Quantized price volatility model for transaction data",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125732813",
+   "doi": null,
+   "title": "Intraday price formation and volatility in the European Union emissions trading scheme : an introductory analysis",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3166103943",
+   "doi": "https://doi.org/10.1007/978-3-030-73667-5_6",
+   "title": "Tick Size Reduction and Liquidity Dimensions: Evidence from an Emerging Market",
+   "year": 2021,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4241634193",
+   "doi": "https://doi.org/10.1111/j.1468-036x.2011.00602.x",
+   "title": "Tiny Prices in a Tiny Market: Evidence from Portugal on Optimal Share Prices",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4244982903",
+   "doi": "https://doi.org/10.1108/rbf-03-2020-0056",
+   "title": "Stock loan lotteries and individual investor welfare",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4302313963",
+   "doi": "https://doi.org/10.17016/ifdp.2007.905",
+   "title": "Frequency of Observation and the Estimation of Integrated Volatility in Deep and Liquid Financial Markets",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4313647379",
+   "doi": "https://doi.org/10.1002/jcaf.22612",
+   "title": "Why do firms heap dividends? New evidence on the key role of firm characteristics",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4382776343",
+   "doi": "https://doi.org/10.1590/s0034-759020230403",
+   "title": "CRIPTOMOEDAS E SISTEMA FINANCEIRO: REVISÃO SISTEMÁTICA DE LITERATURA",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1491979629",
+   "doi": null,
+   "title": "Trading and Exchanges: Market Microstructure for Practitioners",
+   "year": 2002,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2140268443",
+   "doi": "https://doi.org/10.2139/ssrn.155187",
+   "title": "Commonality in Liquidity",
+   "year": 1999,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124399064",
+   "doi": null,
+   "title": "An ordered probit analysis of transaction stock prices",
+   "year": 1990,
+   "type": "report"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2123060556",
+   "doi": "https://doi.org/10.2139/ssrn.506542",
+   "title": "Realized Variance and Market Microstructure Noise",
+   "year": 2004,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2141439600",
+   "doi": "https://doi.org/10.2139/ssrn.1108553",
+   "title": "Do Liquidity Measures Measure Liquidity?",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2167036697",
+   "doi": "https://doi.org/10.2139/ssrn.218180",
+   "title": "Market Microstructure: A Survey",
+   "year": 2000,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1965864011",
+   "doi": "https://doi.org/10.2139/ssrn.185612",
+   "title": "Sixteenths: Direct Evidence on Institutional Execution Costs",
+   "year": 1999,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2077092253",
+   "doi": "https://doi.org/10.2139/ssrn.1014",
+   "title": "The Impact of Decimalization on Market Quality: An Empirical Investigation of the Toronto Stock Exchange",
+   "year": 1996,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1979696576",
+   "doi": "https://doi.org/10.2139/ssrn.120689",
+   "title": "Trade Execution Costs on NASDAQ and the NYSE: A Post-Reform Comparison",
+   "year": 1998,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2150332654",
+   "doi": "https://doi.org/10.2139/ssrn.128888",
+   "title": "Liquidity in the Futures Pits: Inferring Market Dynamics with Incomplete Data",
+   "year": 1998,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2024935606",
+   "doi": "https://doi.org/10.2139/ssrn.2365603",
+   "title": "Trading Rules, Competition for Order Flow and Market Fragmentation",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1519431899",
+   "doi": "https://doi.org/10.2139/ssrn.1892972",
+   "title": "What’s Not There: The Odd-Lot Bias in TAQ Data",
+   "year": 2011,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2130254744",
+   "doi": "https://doi.org/10.2139/ssrn.1042",
+   "title": "The Dynamics of Discrete Bid and Ask Quotes",
+   "year": 1997,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3105398057",
+   "doi": null,
+   "title": "",
+   "year": null,
+   "type": "other"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1484114977",
+   "doi": "https://doi.org/10.2139/ssrn.302398",
+   "title": "Imperfect Competition in Financial Markets: Island vs NASDAQ",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1770710013",
+   "doi": "https://doi.org/10.2139/ssrn.929916",
+   "title": "Liquidity and Prediction Market Efficiency",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2105161615",
+   "doi": "https://doi.org/10.2139/ssrn.2550306",
+   "title": "Bank Deposit Rate Clustering: Theory and Empirical Evidence",
+   "year": 2015,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1567754328",
+   "doi": "https://doi.org/10.2139/ssrn.923370",
+   "title": "Currency Orders and Exchange-Rate Dynamics: Explaining the Success of Technical Analysis",
+   "year": 2006,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1973575506",
+   "doi": "https://doi.org/10.2139/ssrn.304964",
+   "title": "Negotiation and the IPO Offer Price: A Comparison of Integer Versus Non-Integer Ipos",
+   "year": 2002,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2072231031",
+   "doi": "https://doi.org/10.2139/ssrn.519044",
+   "title": "Stock Price Clustering on Option Expiration Dates",
+   "year": 2004,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2094402764",
+   "doi": "https://doi.org/10.2139/ssrn.1410758",
+   "title": "New Low-Frequency Spread Measures",
+   "year": 2009,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1513998315",
+   "doi": "https://doi.org/10.2139/ssrn.142670",
+   "title": "The Quotation Behavior of Ecns and NASDAQ Market Makers",
+   "year": 1998,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3123441860",
+   "doi": "https://doi.org/10.2139/ssrn.243754",
+   "title": "Can the Treatment of Limit Orders Reconcile the Differences in Trading Costs between NYSE and NASDAQ Issues?",
+   "year": 2000,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1528554981",
+   "doi": "https://doi.org/10.2139/ssrn.79759",
+   "title": "Breaking the Eighth: Sixteenths on the New York Stock Exchange",
+   "year": 1998,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2104124596",
+   "doi": "https://doi.org/10.2139/ssrn.1424368",
+   "title": "Intraday Price Formation and Volatility in the European Union Emissions Trading Scheme: An Introductory Analysis",
+   "year": 2009,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2132828305",
+   "doi": "https://doi.org/10.2139/ssrn.59768",
+   "title": "Security Bid/Ask Dynamics with Discreteness and Clustering: Simple Strategies for Modeling and Estimation",
+   "year": 1998,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2139129412",
+   "doi": "https://doi.org/10.2139/ssrn.417321",
+   "title": "Price Clustering and Natural Resistance Points in the Dutch Stock Market: A Natural Experiment",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1585969792",
+   "doi": "https://doi.org/10.2139/ssrn.1713917",
+   "title": "Electronic vs. Open Outcry: Side-by-Side Trading of KCBT Wheat Futures",
+   "year": 2010,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2142272651",
+   "doi": "https://doi.org/10.2139/ssrn.439861",
+   "title": "Trading Costs and Quote Clustering on the NYSE and NASDAQ after Decimalization",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1999528776",
+   "doi": "https://doi.org/10.2139/ssrn.282909",
+   "title": "Why Markets Should Not Necessarily Reduce Tick Size",
+   "year": 2002,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2017645327",
+   "doi": "https://doi.org/10.2139/ssrn.2286",
+   "title": "The Degree of Price Resolution and Equity Trading Costs",
+   "year": 1996,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3171477235",
+   "doi": "https://doi.org/10.2139/ssrn.3851678",
+   "title": "Information Cascades and Social Learning",
+   "year": 2021,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4245402285",
+   "doi": "https://doi.org/10.2139/ssrn.2913555",
+   "title": "Tick Size Is little more than an Impediment to Liquidity Trading: Theory and Market Experimental Evidence",
+   "year": 2017,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1644177906",
+   "doi": "https://doi.org/10.2139/ssrn.458600",
+   "title": "Penny Pricing and the Components of Spread and Depth Changes",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2276042209",
+   "doi": "https://doi.org/10.2139/ssrn.1648994",
+   "title": "Paired Corporate Bond Trades",
+   "year": 2010,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3030440854",
+   "doi": "https://doi.org/10.1017/9781108761338",
+   "title": "Behavioral Public Performance: How People Make Sense of Government Metrics",
+   "year": 2020,
+   "type": "other"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1561314797",
+   "doi": null,
+   "title": "Price Clustering and Natural Resistance Points in the Dutch Stock Market",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W171060812",
+   "doi": "https://doi.org/10.2139/ssrn.972802",
+   "title": "Round Numbers and Security Returns*",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1967999165",
+   "doi": "https://doi.org/10.1111/j.1475-6803.1995.tb00564.x",
+   "title": "THE ROLE OF INFORMATION AND THE TIME BETWEEN TRADES: AN EMPIRICAL INVESTIGATION",
+   "year": 1995,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1606602712",
+   "doi": "https://doi.org/10.2139/ssrn.545822",
+   "title": "Behavioral Biases of Dealers in U.S. Treasury Auctions",
+   "year": 2004,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W179008913",
+   "doi": "https://doi.org/10.2139/ssrn.393222",
+   "title": "An Event Study of Reverse Stock Splits in Hong Kong Market",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W187850041",
+   "doi": "https://doi.org/10.2139/ssrn.59808",
+   "title": "The Effect of Tick Size on Volatility, Trader Behavior, and Market Quality",
+   "year": 1998,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1891508083",
+   "doi": "https://doi.org/10.2139/ssrn.1131265",
+   "title": "Decimalization, Realized Volatility, and Market Microstructure Noise",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W195988161",
+   "doi": "https://doi.org/10.2139/ssrn.966454",
+   "title": "Limit Order Clustering and Price Barriers on Financial Markets: Empirical Evidence from Euronext",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2121363880",
+   "doi": "https://doi.org/10.2139/ssrn.2496669",
+   "title": "Does Trade Clustering Reduce Trading Costs? Evidence from Periodicity in Algorithmic Trading",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2234592528",
+   "doi": "https://doi.org/10.2139/ssrn.728544",
+   "title": "Nines in the Endings of Stock Prices",
+   "year": 2005,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2618905415",
+   "doi": "https://doi.org/10.2139/ssrn.2905032",
+   "title": "The Best in Town: A Comparative Analysis of Low-Frequency Liquidity Estimators",
+   "year": 2017,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2950496664",
+   "doi": "https://doi.org/10.2139/ssrn.3001719",
+   "title": "Price Clustering in Bitcoin",
+   "year": 2017,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1765688271",
+   "doi": "https://doi.org/10.2139/ssrn.45366",
+   "title": "An Empirical Investigation of the Option Value of the Limit Order Book on the Australian Stock Exchange",
+   "year": 1997,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2092740233",
+   "doi": "https://doi.org/10.2139/ssrn.963460",
+   "title": "Market Microstructure of the Pink Sheets",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2157146817",
+   "doi": "https://doi.org/10.2139/ssrn.2104433",
+   "title": "Target Price Forecasts: Fundamentals and Behavioral Factors",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3004187563",
+   "doi": "https://doi.org/10.2139/ssrn.685944",
+   "title": "Demand for the Immediacy of Execution: Time is Money",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1602421847",
+   "doi": "https://doi.org/10.2139/ssrn.968349",
+   "title": "Decimalization and the ETFs and Futures Pricing Efficiency",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1990335851",
+   "doi": "https://doi.org/10.2139/ssrn.938419",
+   "title": "Interest Rate Clustering in UK Financial Services Markets",
+   "year": 2006,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2111196264",
+   "doi": "https://doi.org/10.2139/ssrn.872527",
+   "title": "Stock Splits in Switzerland: To Signal or Not to Signal?",
+   "year": 2005,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2596536206",
+   "doi": "https://doi.org/10.2139/ssrn.2912976",
+   "title": "FX Market Metrics: New Findings Based on CLS Bank Settlement Data",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1531361249",
+   "doi": "https://doi.org/10.2139/ssrn.1134",
+   "title": "Decimal Quotes: The Price is Right",
+   "year": 1996,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1552266986",
+   "doi": "https://doi.org/10.2139/ssrn.962033",
+   "title": "Capital Market Access to Smes in India",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1861646969",
+   "doi": "https://doi.org/10.2139/ssrn.2478124",
+   "title": "Do Superstitious Traders Lose Money?",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2082656300",
+   "doi": "https://doi.org/10.2139/ssrn.601523",
+   "title": "Culture and Stock Price Clustering: Evidence from the Peoples' Republic of China",
+   "year": 2004,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1505135283",
+   "doi": null,
+   "title": "Price Clustering in the FX Market: A Disaggregate Analysis Using Central Bank Intervention",
+   "year": 2004,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1572194775",
+   "doi": "https://doi.org/10.2139/ssrn.253896",
+   "title": "Specialist Participation and Limit Orders",
+   "year": 2000,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2058236766",
+   "doi": "https://doi.org/10.2139/ssrn.1105262",
+   "title": "Analysts’ Motives for Rounding EPS Forecasts",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124280539",
+   "doi": "https://doi.org/10.20955/wp.2013.020",
+   "title": "Does Commonality in Illiquidity Matter to Investors?",
+   "year": 2013,
+   "type": "report"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1491933144",
+   "doi": "https://doi.org/10.2139/ssrn.2212119",
+   "title": "Statistical Properties of Microstructure Noise",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1642494304",
+   "doi": "https://doi.org/10.48550/arxiv.physics/0603103",
+   "title": "Market Mill Dependence Pattern in the Stock Market: Distribution Geometry, Moments and Gaussization",
+   "year": 2006,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1648770346",
+   "doi": "https://doi.org/10.48550/arxiv.physics/0605138",
+   "title": "Market Mill Dependence Pattern in the Stock Market: Individual Portraits",
+   "year": 2006,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1929455910",
+   "doi": "https://doi.org/10.2139/ssrn.280064",
+   "title": "The Volume Return Relationship Under Asymmetry of Info and Short Sales Prohibitions",
+   "year": 2001,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1932638058",
+   "doi": "https://doi.org/10.2139/ssrn.1175087",
+   "title": "Reserve Price Formation in Online Auctions",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2131545104",
+   "doi": "https://doi.org/10.2139/ssrn.168428",
+   "title": "True Spreads and Equilibrium Prices",
+   "year": 1999,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2154695485",
+   "doi": "https://doi.org/10.5282/ubm/epub.13228",
+   "title": "Determinants and Effects of Reserve Prices in Hattrick Auctions",
+   "year": 2010,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2876489172",
+   "doi": "https://doi.org/10.2139/ssrn.3194932",
+   "title": "The Impact of Tick Sizes on Trader Behavior: Evidence from Cryptocurrency Exchanges",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2119572025",
+   "doi": "https://doi.org/10.2139/ssrn.1913880",
+   "title": "The Components of the Illiquidity Premium: An Empirical Analysis of U.S. Stocks 1927-2010",
+   "year": 2011,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2157214646",
+   "doi": null,
+   "title": "Clustering of Trading Activity in the DAX Index Options Market",
+   "year": 2005,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2268671778",
+   "doi": null,
+   "title": "Cross-sectional Analysis of Asymmetric Information after Decimalization",
+   "year": 2005,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2476195289",
+   "doi": "https://doi.org/10.1002/9781119218906.ch57",
+   "title": "Blockchain and Crypto‐currencies",
+   "year": 2016,
+   "type": "other"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2757006890",
+   "doi": "https://doi.org/10.2139/ssrn.3281477",
+   "title": "Reg NMS and Minimum-Tick Distort the Market in Opposing Directions: Theory and Market Experimental Evidence",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2800291373",
+   "doi": null,
+   "title": "Competition for Order Flow and Market Quality in the Gold and Silver Futures Markets",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3123378700",
+   "doi": null,
+   "title": "A Critical Evaluation of the Significance of Round Numbers in European Equity Markets in Light of the Predictions from Benford’s Law",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4312835646",
+   "doi": "https://doi.org/10.2139/ssrn.4230610",
+   "title": "Spectral Volume Models: Universal High-Frequency Periodicities in Intraday Trading Activities",
+   "year": 2022,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4318559601",
+   "doi": "https://doi.org/10.2139/ssrn.4341374",
+   "title": "Optimal Tick Size",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W904837528",
+   "doi": null,
+   "title": "Empirical Models of the Intraday Process of Price Changes and Liquidity : a Transaction Level Approach",
+   "year": 2000,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1511226378",
+   "doi": "https://doi.org/10.2139/ssrn.1303700",
+   "title": "Penny Wise, Dollar Foolish: The Left-Digit Effect in Security Trading",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1586414246",
+   "doi": "https://doi.org/10.2139/ssrn.411760",
+   "title": "An Examination of the Dissemination of Island Trades Through the Cincinnati Stock Exchange",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1600856333",
+   "doi": "https://doi.org/10.2139/ssrn.971074",
+   "title": "Rounding as Discrimination - Price Clustering in the OTC Tax-Exempt Bond Market",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W173069663",
+   "doi": "https://doi.org/10.2139/ssrn.392026",
+   "title": "Decimalization and Market Quality",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2005514681",
+   "doi": "https://doi.org/10.2139/ssrn.96",
+   "title": "Discrete Pricing and the Design of Dealership Markets&#x0D;",
+   "year": 1997,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2026347853",
+   "doi": "https://doi.org/10.1111/j.1911-3846.1994.tb00398.x",
+   "title": "Discussion of “Market Microstructure: An Examination of the Effects on Intraday Event Studies”*",
+   "year": 1994,
+   "type": "editorial"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2163139880",
+   "doi": "https://doi.org/10.2139/ssrn.964438",
+   "title": "Bookmaker and Pari-Mutuel Betting: Is a (Reverse) Favourite-Longshot Bias Built-In?",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2464118405",
+   "doi": "https://doi.org/10.25335/e5dp-tj15",
+   "title": "Essays in High-Frequency Trading",
+   "year": 2015,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2515913929",
+   "doi": null,
+   "title": "Price Clustering on the Australian Stock Exchange",
+   "year": 1995,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124024566",
+   "doi": "https://doi.org/10.2139/ssrn.1120313",
+   "title": "Frequency of Observation and the Estimation of Integrated Volatility in Deep and Liquid Financial Markets",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W619642793",
+   "doi": null,
+   "title": "When size matters: Clustering in the European Carbon Market",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1507748182",
+   "doi": "https://doi.org/10.2139/ssrn.756624",
+   "title": "Can a Stock Index Be Less Efficient than Underlying Shares? An Analysis Using Malta Stock Exchange Data",
+   "year": 2005,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1509299793",
+   "doi": "https://doi.org/10.2139/ssrn.1588352",
+   "title": "The Use of 'Lucky' Numbers in the Pricing of Chinese A-Share Initial Public Offerings",
+   "year": 2010,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1512895069",
+   "doi": null,
+   "title": "Query Mesh: An Efficient Multi-Route Approach to Query Optimization",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1547060820",
+   "doi": "https://doi.org/10.1002/9781118681145.ch18",
+   "title": "Bid‐Ask Spreads, Commissions, and Other Costs",
+   "year": 2013,
+   "type": "other"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1554191728",
+   "doi": "https://doi.org/10.48550/arxiv.physics/0601098",
+   "title": "Market Mill Dependence Pattern in the Stock Market: Asymmetry Structure, Nonlinear Correlations and Predictability",
+   "year": 2006,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1564650095",
+   "doi": "https://doi.org/10.1080/07474930701853509",
+   "title": "Realized Volatility: A Review",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W180724023",
+   "doi": "https://doi.org/10.2139/ssrn.1815782",
+   "title": "A Model of True Spreads on Limit Order Markets",
+   "year": 2011,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2007847237",
+   "doi": "https://doi.org/10.1093/rfs/4.3.385",
+   "title": "Introduction to the Market Microstructure Symposium",
+   "year": 1991,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2048583013",
+   "doi": "https://doi.org/10.1080/02102412.2003.10779493",
+   "title": "Cambios en las Variaciones Mínimas de los Precios, Liquidez y Profundidad en el Mercado de Acciones",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2075769834",
+   "doi": "https://doi.org/10.1016/j.na.2005.02.105",
+   "title": "Bayes estimation via filtering for a simple micro-movement model of asset price with discrete noises",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2185385473",
+   "doi": null,
+   "title": "Active vs. Passive ETFs",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2567542036",
+   "doi": "https://doi.org/10.2139/ssrn.2869883",
+   "title": "What is the Optimal Tick Size? A Cross-Sectional Analysis of Execution Costs on NASDAQ",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2751253046",
+   "doi": "https://doi.org/10.2139/ssrn.3024121",
+   "title": "The Real Costs of Natural Experiments",
+   "year": 2017,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2906654076",
+   "doi": "https://doi.org/10.2139/ssrn.3221299",
+   "title": "When Setting a Default Payment Harms Credit Card Holders",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2962289519",
+   "doi": "https://doi.org/10.2139/ssrn.3407970",
+   "title": "What makes HFTs tick? Tick size changes and information advantage in a market with fast and slow traders",
+   "year": 2019,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121187285",
+   "doi": "https://doi.org/10.1016/0304-405x(92)90038-y",
+   "title": "An Ordered Probit Analysis of Transaction Stock Prices",
+   "year": 1991,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3123028291",
+   "doi": "https://doi.org/10.2139/ssrn.3107985",
+   "title": "Glamour Among Value: P/E Ratios and Value Investor Attention",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4292773648",
+   "doi": "https://doi.org/10.2139/ssrn.4191675",
+   "title": "High-Frequency Liquidity in the Chinese Stock Market: Measurements, Patterns, and Determinants",
+   "year": 2022,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4301519721",
+   "doi": "https://doi.org/10.2139/ssrn.1027671",
+   "title": "Frequency of Observation and the Estimation of Integrated Volatility in Deep and Liquid Financial Markets",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4312227350",
+   "doi": "https://doi.org/10.2139/ssrn.4286385",
+   "title": "Tick-Size and Stock Price Crash Risk: Evidence from SEC’s Tick Size Pilot Program 2016",
+   "year": 2022,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4394926061",
+   "doi": "https://doi.org/10.2139/ssrn.4787238",
+   "title": "Exploring Crypto & Blockchain in Finance: Present & Future",
+   "year": 2024,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1482994059",
+   "doi": "https://doi.org/10.2139/ssrn.312668",
+   "title": "Information Production and IPO Offering Price Clusters: Further Evidence Explaining Underpricing and Long-Run Underperformance",
+   "year": 2002,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1492353522",
+   "doi": "https://doi.org/10.2139/ssrn.2490538",
+   "title": "Initial Offer Precision and M&amp;A Outcomes",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1503991028",
+   "doi": "https://doi.org/10.2139/ssrn.280059",
+   "title": "Price Formation in a Market with Short Sale Prohibition: An Empirical Investigation",
+   "year": 2001,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1529025299",
+   "doi": "https://doi.org/10.2139/ssrn.302654",
+   "title": "The Trade-Off Between Liquidity and Precision of Position in Option Contracts",
+   "year": 2002,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W195222541",
+   "doi": "https://doi.org/10.2139/ssrn.392583",
+   "title": "Option Exchange Design: Concentration of Trading and Open Interest at the Swedish Index Options Market",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W205443904",
+   "doi": null,
+   "title": "Impacto de cambios en los ticks: la introducción del euro en el mercado busrátil español",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2096663540",
+   "doi": null,
+   "title": "Psychological Barriers in Asian Equity Markets",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2115644764",
+   "doi": null,
+   "title": "IMPACTO SOBRE EL MERCADO BURSÁTIL ESPAÑOL DE LOS CAMBIOS EN LAS VARIACIONES MÍNIMAS DE PRECIOS TRAS LA INTRODUCCIÓN DEL EURO",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2155724129",
+   "doi": "https://doi.org/10.2139/ssrn.2375739",
+   "title": "Human Bias in Algorithmic Trading",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2175219190",
+   "doi": "https://doi.org/10.2139/ssrn.2694943",
+   "title": "An Alternative Measure of Illiquidity: Insights on the U.S. Treasury Bills, Notes and Bonds",
+   "year": 2015,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2247427366",
+   "doi": "https://doi.org/10.2139/ssrn.1150071",
+   "title": "Risk, Jumps, and Diversification",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W226166547",
+   "doi": "https://doi.org/10.2139/ssrn.2353534",
+   "title": "Price Discovery in the Foreign Exchange Market: The Analysis of Highs and Lows",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2272393941",
+   "doi": "https://doi.org/10.2139/ssrn.497482",
+   "title": "Why Firms Consolidate Their Stocks?",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2483946889",
+   "doi": "https://doi.org/10.2139/ssrn.2811965",
+   "title": "Superstitious Behavior in Financial Decision-Making",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2607349507",
+   "doi": "https://doi.org/10.2139/ssrn.2938417",
+   "title": "Nominal Price Level and Noise Trading",
+   "year": 2015,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2784017368",
+   "doi": "https://doi.org/10.2139/ssrn.3100363",
+   "title": "Natural Instability of Equilibrium Prices",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2807407304",
+   "doi": "https://doi.org/10.2139/ssrn.3098295",
+   "title": "Trade Volume Choice and Price Discovery: Evidence from Deutsche BBrse",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2950541895",
+   "doi": "https://doi.org/10.2139/ssrn.3047881",
+   "title": "Heaping on Dividends: The Role of Dividend Size and Information Uncertainty",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3041794644",
+   "doi": "https://doi.org/10.48550/arxiv.2006.04639",
+   "title": "Dynamic Network Risk",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3123452411",
+   "doi": "https://doi.org/10.2139/ssrn.967253",
+   "title": "An Inflated Multivariate Integer Count Hurdle Model: An Application to Bid and Ask Quote Dynamics",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124479632",
+   "doi": "https://doi.org/10.2139/ssrn.2052114",
+   "title": "Has Political Instability Contributed to Price Clustering on Fiji’s Stock Market?",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125691918",
+   "doi": "https://doi.org/10.26509/frbc-wp-199604",
+   "title": "Bank Deposit Rate Clustering : Theory and Empirical Evidence",
+   "year": 1996,
+   "type": "report"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3188973026",
+   "doi": "https://doi.org/10.2139/ssrn.3652630",
+   "title": "Competitive Quote Flipping and Trade Clusters",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3194411858",
+   "doi": "https://doi.org/10.2139/ssrn.3193283",
+   "title": "Impossibility of Stable Equilibrium Price",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3195409918",
+   "doi": "https://doi.org/10.2139/ssrn.3708609",
+   "title": "Round Number Reference Points and Irregular Patterns in Reported Gross Margins",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4285174505",
+   "doi": "https://doi.org/10.2139/ssrn.4115237",
+   "title": "Connections to Investment Banks and Their Value: Evidence from Seasoned Equity Offerings",
+   "year": 2022,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4312122749",
+   "doi": "https://doi.org/10.48550/arxiv.2212.11833",
+   "title": "Efficient Sampling for Realized Variance Estimation in Time-Changed Diffusion Models",
+   "year": 2022,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W928708420",
+   "doi": "https://doi.org/10.2139/ssrn.2128442",
+   "title": "A New Measure for Heated Negotiation in the IPO Syndicate",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W106755796",
+   "doi": "https://doi.org/10.2139/ssrn.2159759",
+   "title": "Size Clustering in European Carbon Markets",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1202235511",
+   "doi": "https://doi.org/10.1007/s40953-015-0007-2",
+   "title": "Time Scales, Wavelet Realized Volatility and Jump Variation: An Empirical Investigation for India",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W134763362",
+   "doi": null,
+   "title": "The Effect of Limit Order Book Information on Investors with Different Risk Attitudes",
+   "year": null,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1480851582",
+   "doi": null,
+   "title": "The Market Structure of Nasdaq Dealer Markets and Quoting Conventions",
+   "year": 2005,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1482861061",
+   "doi": "https://doi.org/10.2139/ssrn.891740",
+   "title": "How Do Investment Banks Price Underwriting Services for American Depositary Receipts?",
+   "year": 2006,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1486871238",
+   "doi": "https://doi.org/10.6092/unina/fedoa/989",
+   "title": "Bid-ask spread and liquidity determinants across various market structures on the italian bourse",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1496741619",
+   "doi": "https://doi.org/10.1002/9781118192528.ch7",
+   "title": "The Crude Oil Market",
+   "year": 2011,
+   "type": "other"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1499923724",
+   "doi": "https://doi.org/10.1002/9781118681145.ch11",
+   "title": "Decimalization and Discreteness",
+   "year": 2013,
+   "type": "other"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1503692403",
+   "doi": null,
+   "title": "Non-Linear Volatility Modelling of Economic and Financial Time Series Using High Frequency Data",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1545372839",
+   "doi": null,
+   "title": "Distribution of Trading Activity across Strike Prices in the DAX Index Options Market",
+   "year": 2004,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1551190667",
+   "doi": null,
+   "title": "Geschichte des russischen Reiches und der Sowjetunion",
+   "year": 2002,
+   "type": "book"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1556928071",
+   "doi": "https://doi.org/10.2139/ssrn.2313967",
+   "title": "Euro Conversion and the Competition for Order Flow Among European Exchanges",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1575087750",
+   "doi": "https://doi.org/10.2139/ssrn.1291876",
+   "title": "Trade-Size and Price Clustering: The Case of Short Sales",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1587379264",
+   "doi": "https://doi.org/10.2139/ssrn.2205033",
+   "title": "A Least Squares Regression Realised Covariation Estimation Under MMS Noise and Non-Synchronous Trading",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1788220535",
+   "doi": null,
+   "title": "Resolução ótima de preços na Bolsa de Valores de São Paulo",
+   "year": 2004,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1822012402",
+   "doi": "https://doi.org/10.2139/ssrn.1728712",
+   "title": "Tiny Prices in a Tiny Market - Evidence from Portugal on Optimal Share Prices",
+   "year": 2010,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1954330642",
+   "doi": "https://doi.org/10.1142/9789814355711_0006",
+   "title": "Filtering with Counting Process Observations and Other Factors: Applications to Bond Price Tick Data",
+   "year": 2011,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2015254905",
+   "doi": "https://doi.org/10.1109/csip.2012.6308960",
+   "title": "Clustering analysis of Dow Jones 30 based on extreme points",
+   "year": 2012,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2025329729",
+   "doi": "https://doi.org/10.1108/nbri-01-2014-0008",
+   "title": "Evolution of integer price clustering of IPOs in the aftermarket",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2103073367",
+   "doi": null,
+   "title": "Leverage, Derivatives, and Asset Markets",
+   "year": 2015,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2118769326",
+   "doi": "https://doi.org/10.22004/ag.econ.35537",
+   "title": "The Preference for Round Number Prices",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2136091213",
+   "doi": "https://doi.org/10.34626/vbek-kt09",
+   "title": "Psychological Barriers in the Eurozone's Stock Indices",
+   "year": 2014,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2146550620",
+   "doi": null,
+   "title": "Liquidez y Market Makers en el mercado de futuros: un análisis con datos de muy alta frecuencia",
+   "year": 1998,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2147467679",
+   "doi": "https://doi.org/10.24352/ub.ovgu-2018-395",
+   "title": "Comparison of the Stock Price Clustering of stocks which are traded in the US and Germany-Is XETRA more efficient than the NYSE?",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2149241315",
+   "doi": null,
+   "title": "Heated Negotiation within the Syndicate and IPOs",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2152442395",
+   "doi": null,
+   "title": "A liquidity study on the Nasdaq OMX Stockholm exchange",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2158032421",
+   "doi": "https://doi.org/10.1007/978-3-642-36219-4_4",
+   "title": "Humans vs. Algorithms – Who Follows Newcomb-Benford’s Law Better with Their Order Volume?",
+   "year": 2013,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2185054319",
+   "doi": null,
+   "title": "Macroeconomic Announcements and Price Clustering in the U.S. Treasury Market",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2188997755",
+   "doi": null,
+   "title": "Liquidity and Trading Cost Segmentation in Asia Pacifi cE quity Markets",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2197029654",
+   "doi": "https://doi.org/10.2139/ssrn.1508888",
+   "title": "A Model of Self-Reinforcing Financial Fads",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2257322033",
+   "doi": "https://doi.org/10.2139/ssrn.933636",
+   "title": "Underwriter Prestige and the Determination of SEO Discounts",
+   "year": 2006,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2258290699",
+   "doi": "https://doi.org/10.2139/ssrn.2129861",
+   "title": "Effect of Decimalization on Market Equilibrium and Price Discovery",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2259528728",
+   "doi": "https://doi.org/10.2139/ssrn.2225758",
+   "title": "Economic Valuation of Liquidity Timing",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2261433865",
+   "doi": null,
+   "title": "Interaction of equilibrium selection criteria: Round numbers as focal points in Treasury auctions",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2265761553",
+   "doi": null,
+   "title": "Intervals for Option Prices",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2283434266",
+   "doi": "https://doi.org/10.26021/5339",
+   "title": "The Effect of Optionability on Underlying Stock Prices",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2293094626",
+   "doi": "https://doi.org/10.2139/ssrn.2611154",
+   "title": "Endogenous Markov Switching Regression Models for High-Frequency Data Under Microstructure Noise",
+   "year": 2015,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2306469154",
+   "doi": "https://doi.org/10.2139/ssrn.2614853",
+   "title": "Internet Appendix to 'Understanding FX Liquidity'",
+   "year": 2015,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2317888884",
+   "doi": "https://doi.org/10.7763/joebm.2014.v2.110",
+   "title": "Stock Clustering Effect from Weekly Equity Options",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2338701267",
+   "doi": "https://doi.org/10.18297/etd/2273",
+   "title": "Mixture of Poisson distributions to model discrete stock price changes.",
+   "year": 2013,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2416533469",
+   "doi": "https://doi.org/10.2139/ssrn.2348159",
+   "title": "Price Clustering and Round Number Effects - Evidence from the German Market",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2483779290",
+   "doi": "https://doi.org/10.4018/978-1-60960-848-4.ch009",
+   "title": "Decimalization of Stock Exchanges",
+   "year": 2011,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2507335935",
+   "doi": "https://doi.org/10.1111/jfir.12097",
+   "title": "TRADE SIZE CLUSTERING IN THE E‐MINI INDEX FUTURES MARKETS",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2556029741",
+   "doi": null,
+   "title": "Three essays on market transparency",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2594789412",
+   "doi": "https://doi.org/10.1007/978-3-319-50969-3_5",
+   "title": "High Frequency Analysis: Market Microstructure Noise Issues",
+   "year": 2017,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2597257595",
+   "doi": null,
+   "title": "Essays On International Corporate Dividend Policy",
+   "year": 2012,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2723533978",
+   "doi": null,
+   "title": "Competition, market structure, and market imperfections : an examination of the Nasdaq Stock Market",
+   "year": 2002,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2727657760",
+   "doi": null,
+   "title": "Forecasting volatility and correlation : the role of option implied measures",
+   "year": 2012,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2761634116",
+   "doi": "https://doi.org/10.2139/ssrn.3038542",
+   "title": "Market Impact of Algorithmic Trading: A Reconciliation",
+   "year": 2017,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2784688217",
+   "doi": "https://doi.org/10.2139/ssrn.3102043",
+   "title": "Instability of Equilibrium Price",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2790155309",
+   "doi": "https://doi.org/10.24355/dbbs.084-200701110100-1",
+   "title": "Nonparametric Modelling and Estimation of Stochastic Volatility",
+   "year": 2006,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2791699357",
+   "doi": null,
+   "title": "Psychology of financial decisions, using large transaction datasets",
+   "year": 2017,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2804514597",
+   "doi": "https://doi.org/10.25911/5d514449f3b96",
+   "title": "Essays on Financial Applications of Nonlinear Models",
+   "year": 2017,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2889388107",
+   "doi": "https://doi.org/10.15396/eres2018_240",
+   "title": "The cost of a lucky price",
+   "year": 2018,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2896871365",
+   "doi": "https://doi.org/10.11606/d.12.2018.tde-21082018-142155",
+   "title": "Aplicação de estratégias de high frequency trading no mercado brasileiro de dólar futuro",
+   "year": 2018,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2900615498",
+   "doi": "https://doi.org/10.1145/3278252.3278287",
+   "title": "The Impact of Lucky Stock Code on IPO",
+   "year": 2018,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2903422237",
+   "doi": null,
+   "title": "Three essays in transaction cost analysis",
+   "year": 2018,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2904738893",
+   "doi": "https://doi.org/10.5817/fai2018-1-2",
+   "title": "Stock Prices and the Rate of Return Analysis: The Case of Warsaw Stock Exchange",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2949337865",
+   "doi": "https://doi.org/10.2139/ssrn.2825283",
+   "title": "Liquidity, Overpricing, and the Tactics of Informed Traders",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2951753739",
+   "doi": "https://doi.org/10.48550/arxiv.1009.6157",
+   "title": "Statistical causes for the Epps effect in microstructure noise",
+   "year": 2010,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2953602982",
+   "doi": "https://doi.org/10.2139/ssrn.3311978",
+   "title": "Equilibrium Market Volatility in Imperfect Competition of General Equilibrium",
+   "year": 2019,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2972634095",
+   "doi": "https://doi.org/10.2139/ssrn.3406919",
+   "title": "Information Environments and High Price Impact Trades: Implication for Volatility and Price Efficiency",
+   "year": 2019,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2981936562",
+   "doi": "https://doi.org/10.48550/arxiv.1910.09731",
+   "title": "Multiple Sample Clustering",
+   "year": 2019,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3022082421",
+   "doi": "https://doi.org/10.1007/978-3-030-43078-8_14",
+   "title": "Price Clustering in Stocks from the WIG 20 Index",
+   "year": 2020,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3049685606",
+   "doi": null,
+   "title": "Intuition or Rational Investing? The Stock Investors' Behaviour and the Nominal Effect on the Example of Polish Capital Market",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3097710388",
+   "doi": "https://doi.org/10.2139/ssrn.3331198",
+   "title": "Buy-Sell Imbalances around Round Numbers and High-Frequency Trading",
+   "year": 2019,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3103990288",
+   "doi": "https://doi.org/10.37625/abr.23.2.182-210",
+   "title": "Accounting Information Quality and the Clustering of Stock Prices",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3110721980",
+   "doi": "https://doi.org/10.1142/s2382626620500069",
+   "title": "Rethinking Decimalization: The Impact of Increased Tick Sizes on Trading Activity, Volatility, and Price Clustering",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3114617354",
+   "doi": "https://doi.org/10.1145/3430199.3430223",
+   "title": "Multiple Samples Clustering with Second-moment Information in Stock Clustering",
+   "year": 2020,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3117420358",
+   "doi": "https://doi.org/10.30845/ijbss.v11n11p6",
+   "title": "Superstitious Numbers and Price Clustering：A Study Based on CSI 300 Stock Index Futures",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121741764",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2013.09.010",
+   "title": "Economic valuation of liquidity timing",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122683186",
+   "doi": "https://doi.org/10.2139/ssrn.905124",
+   "title": "Price, Trade Size, and Information Revelation in Multi-Period Securities Markets",
+   "year": 2006,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124960481",
+   "doi": "https://doi.org/10.2139/ssrn.2499132",
+   "title": "The Impact of a Premium Based Tick Size on Equity Option Liquidity",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125116844",
+   "doi": "https://doi.org/10.2139/ssrn.3403818",
+   "title": "Sector Categorization Using Gradient Boosted Trees Trained on Fundamental Firm Data",
+   "year": 2019,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125692500",
+   "doi": "https://doi.org/10.2139/ssrn.391572",
+   "title": "Fractional Versus Decimal Pricing: Evidence from the UK Long Gilt Futures Market",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3145334674",
+   "doi": "https://doi.org/10.48550/arxiv.2103.16908",
+   "title": "Dimension reduction of open-high-low-close data in candlestick chart based on pseudo-PCA",
+   "year": 2021,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3146275914",
+   "doi": "https://doi.org/10.3390/books978-3-03943-534-0",
+   "title": "Blockchain and Cryptocurrencies",
+   "year": 2021,
+   "type": "book"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3162047668",
+   "doi": "https://doi.org/10.2139/ssrn.3475886",
+   "title": "A Place Beside Satoshi – Scientific Foundations of Blockchain and Cryptocurrency in Business and Economics",
+   "year": 2019,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3167446757",
+   "doi": "https://doi.org/10.2139/ssrn.3095869",
+   "title": "Toward a Unified Theory for Normal and Crash States in Financial Markets",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3176725317",
+   "doi": "https://doi.org/10.5204/thesis.eprints.208970",
+   "title": "Four patterns of mispricing in binary option markets",
+   "year": 2021,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3177405496",
+   "doi": "https://doi.org/10.2139/ssrn.3878809",
+   "title": "When Frictions are Fractional: Rough Noise in High-Frequency Data",
+   "year": 2021,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3200301203",
+   "doi": null,
+   "title": "Does the tick size regime on systematic internalisers improve market quality? : An Empirical Analysis on the Swedish Stock Market",
+   "year": 2021,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3200518858",
+   "doi": "https://doi.org/10.2139/ssrn.3905375",
+   "title": "Tacit Collusion among Dominant Banks: Evidence from Round-Yard Loan Pricing",
+   "year": 2021,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W32523240",
+   "doi": "https://doi.org/10.1007/978-1-4614-7789-1_15",
+   "title": "Parameter Estimation via Particle MCMC for Ultra-High Frequency Models",
+   "year": 2013,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4206429325",
+   "doi": "https://doi.org/10.2139/ssrn.4011269",
+   "title": "Weighted Least Squares Realized Covariation Estimation",
+   "year": 2022,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4211147080",
+   "doi": "https://doi.org/10.1002/9781119087946.biblio",
+   "title": "Bibliography",
+   "year": 2015,
+   "type": "paratext"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4213457151",
+   "doi": "https://doi.org/10.3390/jrfm15030097",
+   "title": "Information Jumps, Liquidity Jumps, and Market Efficiency",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4237287693",
+   "doi": "https://doi.org/10.2139/ssrn.2613157",
+   "title": "Rankings of Published Price-Earnings Ratios and Investor Attention",
+   "year": 2015,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4240049492",
+   "doi": "https://doi.org/10.2139/ssrn.2963323",
+   "title": "Stock Loan Lotteries and Individual Investor Performance",
+   "year": 2017,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4242210011",
+   "doi": "https://doi.org/10.2139/ssrn.3043951",
+   "title": "Stock Loan Lotteries and Individual Investor Performance",
+   "year": 2017,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4245399822",
+   "doi": "https://doi.org/10.2139/ssrn.2731442",
+   "title": "An Alternative Measure of Illiquidity: Insights on the U.S. Treasury Bills, Notes and Bonds",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4248254553",
+   "doi": "https://doi.org/10.2139/ssrn.3659917",
+   "title": "Lazy Dividends",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4251450017",
+   "doi": "https://doi.org/10.37625/abr.23.2",
+   "title": null,
+   "year": 2020,
+   "type": "paratext"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4255384280",
+   "doi": "https://doi.org/10.1007/978-3-319-45848-9_10",
+   "title": "Security Market Microstructure: The Analysis of a Non-frictionless Market",
+   "year": 2017,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4285305585",
+   "doi": "https://doi.org/10.2139/ssrn.4100606",
+   "title": "Paying for Integers",
+   "year": 2022,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4285306926",
+   "doi": "https://doi.org/10.2139/ssrn.4127951",
+   "title": "Competitive Quote Flipping and Trade Clusters",
+   "year": 2022,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4312424576",
+   "doi": "https://doi.org/10.2139/ssrn.4305661",
+   "title": "Tick Size and Stock Price Crash Risk: Evidence from the SEC's Tick Size Pilot Program 2016",
+   "year": 2022,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4312759779",
+   "doi": "https://doi.org/10.2139/ssrn.4302058",
+   "title": "When Does the Tick Size Help or Harm Market Quality? Evidence from the Tick Size Pilot",
+   "year": 2022,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4377047657",
+   "doi": "https://doi.org/10.1371/journal.pone.0285821",
+   "title": "Minimum tick size, market quality and costs of trade execution in Vietnam",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4382542044",
+   "doi": "https://doi.org/10.1108/mf-11-2022-0545",
+   "title": "Round offer prices in M&A transactions: costly negotiation and psychological preference",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4383266840",
+   "doi": "https://doi.org/10.31838/rna/2023.06.01.011",
+   "title": "Behavioral finance research of the Tehran Stock Exchange by mathematical round numbers in the Tehran Stock Exchange’s overall index",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4383647374",
+   "doi": "https://doi.org/10.2139/ssrn.4504042",
+   "title": "Price Clustering Behavior in Virtual Real Estate Markets",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4386716476",
+   "doi": "https://doi.org/10.2139/ssrn.4570090",
+   "title": "Focal Points for Giving",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4387415571",
+   "doi": "https://doi.org/10.2139/ssrn.4570544",
+   "title": "Coarse Pricing in QE Auctions",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4388721900",
+   "doi": "https://doi.org/10.24135/afl.v12i1.726",
+   "title": "PRICE CLUSTERING BEHAVIOR IN VIRTUAL REAL ESTATE MARKETS",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4389669547",
+   "doi": "https://doi.org/10.2139/ssrn.4663568",
+   "title": "Does Price Clustering Matter to Exchange Rate Movements?",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4391110055",
+   "doi": "https://doi.org/10.1111/jfir.12382",
+   "title": "Market structure and price clustering: Maker‐taker versus taker‐maker",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4391427017",
+   "doi": "https://doi.org/10.1080/1351847x.2024.2308634",
+   "title": "Institutionalization and prudence attitude in an imperfect competitive market",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4392566859",
+   "doi": "https://doi.org/10.2139/ssrn.4718961",
+   "title": "Can Daily Closing Prices Predict Future Movements? The Role of Limit Order Clustering",
+   "year": 2024,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4393253321",
+   "doi": "https://doi.org/10.1016/j.joep.2024.102729",
+   "title": "Focal points for giving",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4398152069",
+   "doi": "https://doi.org/10.2139/ssrn.4834010",
+   "title": "Tick Size, Market Quality, and Cross-Asset Arbitrage in the Commodity Futures Market",
+   "year": 2024,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4399477937",
+   "doi": "https://doi.org/10.2139/ssrn.4860429",
+   "title": "High-Frequency Liquidity in the Chinese Stock Market: Measurements, Patterns, and Determinants",
+   "year": 2024,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4405488392",
+   "doi": "https://doi.org/10.2139/ssrn.4995819",
+   "title": "High Price Impact Trades Identification and its Implication for Volatility and Price Efficiency",
+   "year": 2024,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4406110479",
+   "doi": "https://doi.org/10.1016/j.finmar.2024.100959",
+   "title": "Coarse pricing in QE auctions",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4406732097",
+   "doi": "https://doi.org/10.1016/j.pacfin.2025.102681",
+   "title": "High-frequency liquidity in the Chinese stock market: Measurements, patterns, and determinants",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4407554300",
+   "doi": "https://doi.org/10.1016/j.jcorpfin.2025.102750",
+   "title": "Tacit collusion among dominant banks: Evidence from round-yard loan pricing",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4407895165",
+   "doi": "https://doi.org/10.1007/s10690-025-09515-9",
+   "title": "Price Clustering in Bitcoin Markets: The Role of Transaction Fees",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4414066167",
+   "doi": "https://doi.org/10.1111/jfir.70020",
+   "title": "Price clustering and the informational efficiency of stock prices",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4414486043",
+   "doi": "https://doi.org/10.47743/saeb-2025-0034",
+   "title": "Effects of Price Clustering on African Stock Markets",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4414975890",
+   "doi": "https://doi.org/10.1016/j.finmar.2025.101024",
+   "title": "When does the tick size help or harm market quality? Evidence from the Tick Size Pilot",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W573378812",
+   "doi": null,
+   "title": "Evolutionary mechanism design using agent-based models",
+   "year": 2012,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W593860",
+   "doi": "https://doi.org/10.2139/ssrn.1941008",
+   "title": "Clustering of College Football Spreads",
+   "year": 2011,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W60426326",
+   "doi": null,
+   "title": "Floor versus electronic trading of government bond futures",
+   "year": 2003,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7132819065",
+   "doi": "https://doi.org/10.2139/ssrn.6318938",
+   "title": "Do economically meaningful quote differences convey private information?",
+   "year": 2026,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7155710282",
+   "doi": "https://doi.org/10.2139/ssrn.6651000",
+   "title": "Round-Number Anchoring in Overnight US Equity Order Sizes: Evidence from 274 Million Order Events on the Blue Ocean ATS",
+   "year": 2026,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7161424723",
+   "doi": "https://doi.org/10.1016/j.frl.2026.110193",
+   "title": "Do economically meaningful quote differences convey private information?",
+   "year": 2026,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7162692169",
+   "doi": "https://doi.org/10.1016/j.ribaf.2026.103494",
+   "title": "Strong clustering and weak barriers at round numbers in Bitcoin markets",
+   "year": 2026,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7163052752",
+   "doi": "https://doi.org/10.1016/j.intfin.2026.102355",
+   "title": "Fractional and around the clock: Trading activity in tokenized financial assets",
+   "year": 2026,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7163761825",
+   "doi": "https://doi.org/10.1016/j.qref.2026.102163",
+   "title": "Buy-sell imbalances on and around round numbers in cryptocurrencies",
+   "year": 2026,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7172539829",
+   "doi": "https://doi.org/10.2139/ssrn.7166739",
+   "title": "Quantisation Microstructure: The Tick-Race Law of Rebalancing Dust",
+   "year": 2026,
+   "type": "preprint"
+  }
+ ]
+}

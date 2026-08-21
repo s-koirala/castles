@@ -1,0 +1,104 @@
+{
+  "round": 2,
+  "date": "2026-08-21",
+  "cwd": "C:/Users/skoir/castles",
+  "artifacts": [
+    "docs/literature/lit_review_regime-definitions_2026-08-21.md",
+    "docs/literature/lit_review_regime-method-gaps_2026-08-21.md",
+    "docs/literature/lit_review_f005-class-n-tests_2026-08-21.md",
+    "docs/research_notes/research_agenda_regime-classification_2026-08-21.md",
+    "failure_log.md"
+  ],
+  "taskSpec": "Round 2 (verify-only) of the phase1-sweep loop (deliverable_spec_phase1-sweep_2026-08-21.md). Round 1 retained four majors, all now remediated: REV-1-1 — the unbounded universal 'no source anywhere reports a confidence interval on a level location' was rewritten in bounded form at both sites (agenda branch-1 prior-art note and failure_log F005 addendum): 'no located source... coverage-bounded, not universal (~1,354 of 1,948 screened titles matched neither keyword net...; f005 review §10)', and the novelty claim conditioned to 'first located interval on location in the searched literature'. REV-1-2 — the agenda's detector-OC insertion now carries Alami, Maillard & Féraud 2020 (PMLR, no DOI/arXiv, OpenAlex W3035594853, retrieve-manually caveat) and states the residual gap as the EMPIRICAL delay-vs-ARL0 characterization on financial data, not absence of any characterization. LITERATURE-1-1 — the Garzarelli prose author list was corrected to five authors (adding Pompa) at all five sites (f005 review store table + §9.1 + §9.4 quote; agenda prior-art note; failure_log addendum), each noting the read text is arXiv:1110.5197 v1 whose author list lacks Pompa. LITERATURE-1-2 — the recasting clause was reattached: Frisén 2003 now cited for the evaluation-criteria taxonomy and Bock, Andersson & Frisén 2007 (doi:10.1002/9780470987179.ch3) added as the record that recasts trading indicators as surveillance stopping rules. VERIFY ONLY: (a) each remediation present and adequate against its fix specification; (b) no new defect introduced in the vicinity of the edits; (c) no regression elsewhere. DO NOT re-raise the 15 round-1 logged minors (deferred per invitesPolish=false), the G16 publisher-403 class (closed on handle-API evidence), the G13 Hall-&-York-no-DOI fact (irreducible, carried with archival URL), or the terminal bookkeeping items (spec ticks, ReproLog, provenance commit — sequenced after this round returns accept).",
+  "routing": [
+    "critical-reviewer",
+    "scope-auditor",
+    "literature-check"
+  ],
+  "tiers": [
+    {
+      "branch": "critical-reviewer",
+      "effort": "high"
+    },
+    {
+      "branch": "scope-auditor",
+      "effort": "medium"
+    },
+    {
+      "branch": "literature-check",
+      "effort": "high"
+    }
+  ],
+  "branch_verdicts": {
+    "critical-reviewer": "accept",
+    "scope-auditor": "accept",
+    "literature-check": "accept"
+  },
+  "residual_risks": {
+    "critical-reviewer": "All four round-1 majors are remediated adequately in substance; the two new findings are presentation-level and do not touch any conclusion. Residual risks: (1) I did not independently re-verify the published Scientific Reports author list, the Alami OpenAlex ID (W3035594853), or the handle-API DOI logs — those rest on round-1 literature-check and the sweeps' logged evidence, per branch scoping. (2) A pre-existing cross-reference mislabel was observed outside the edit vicinity and is not raised as a finding because it plausibly sits among the 15 deferred round-1 minors: method-gaps review §8.5 (line 693) labels the q-s2-04 failure 'verification gap V2' while §10 numbers the S2 rate-limit gap V1 (V2 there is the single-screener gap). (3) The coverage-bound figure (~1,354 of 1,948) is internally consistent (1,825 citing works − 471 net-read = 1,354; remainder are the ~123 direct-query records screened individually), but the failure_log/agenda phrasing 'of 1,948 screened titles' silently spans two retrieval arms; a reader recomputing 1,948 − 471 = 1,477 will not reconcile it without the f005 review §2/§4 — acceptable given the §10 pointer is cited at both sites. (4) CHAMP items 7–16 remain with the quant-auditor branch, which was routed in round 1 (F-3-x findings are cited in the agenda), so no unrouted-analysis finding is warranted. RQI coverage: importance and method adequacy were established in round 1 and re-confirmed unchanged; originality is now correctly conditioned by the remediated novelty claim; presentation and interpretation are covered by the two findings above.",
+    "scope-auditor": "All four round-1 majors (REV-1-1, REV-1-2, LITERATURE-1-1, LITERATURE-1-2) are present and match their fix specifications; the spec-to-delivery traceability matrix for deliverable_spec_phase1-sweep_2026-08-21.md remains fully satisfied for the five artifact deliverables and the audit trail, with the commit/ReproLog items correctly sequenced after this round per the task spec. Residual scope risk is confined to: (1) the one minor above — a 4-of-5 caveat placement versus the task spec's 'each noting' claim, which cannot bias the record since the caveat is carried twice in the same document; (2) the 15 deferred round-1 minors, which remain logged-not-remediated by explicit policy (invitesPolish=false) and are outside this round's mandate; (3) correctness of the remediated claims themselves (e.g., whether the Alami 2020 optimality characterization is accurately summarized), which is method-auditor and literature-check ground, not scope. No omission, undocumented substitution, or scope creep detected in this round.",
+    "literature-check": "All four round-1 majors verified remediated with primary-source confirmation: (1) Garzarelli et al. 2014 published author list (Crossref, 10.1038/srep04487) is five authors including Pompa and arXiv:1110.5197 v1 is four authors lacking Pompa, matching the corrected prose and caveat at all five sites; (2) Frisen 2003 (ISR 71(2):403-434) and Bock, Andersson & Frisen 2007 (10.1002/9780470987179.ch3, 'The Relation between Statistical Surveillance and Technical Analysis in Finance') both verify exactly, with the recasting claim attached to the correct record; (3) the Alami, Maillard & Feraud 2020 record verifies — PMLR v119 (alami20a), OpenAlex W3035594853, no DOI, and no arXiv record (arXiv 2304.00232 is the distinct 2023 Alami-Mahfoud-Moulines MDP paper, confirming the negative); (4) the bounded CI-on-location claim and conditioned novelty claim are present at both required sites with counts matching f005 review section 10. Residual risks: the Alami paper's methodological detail is carried from abstract/OpenAlex-level verification, not full text, consistent with the artifact's own retrieve-manually caveat (an open HAL locator, hal-03021712, exists and could be added as a supplementary access route); the bounded negative 'no located CI on a level location' remains contingent on the ~1,354 individually unread titles, as the artifact now correctly states; Hall & York 2001 no-DOI status carried per prior disposition; the f005 review section 9.4 limit 2 quotes F005's original unbounded phrasing inside a search-scoped sentence ('survives this search'), which is internally bounded and was outside the fix specification's two named sites. No regression detected in the definitions review scope; deferred round-1 minors untouched per invitesPolish=false."
+  },
+  "remediate": [],
+  "refuted": [],
+  "minors_logged": [
+    {
+      "id": "REV-2-1",
+      "severity": "minor",
+      "category": "consistency",
+      "location": "failure_log.md:288",
+      "issue": "New sentence introduced by the REV-1-1 remediation has a wrong or ambiguous referent: grammatically it says the addendum refutes the unbounded form of negative (b) (the confidence-interval claim), but the addendum refutes the row's headline existence-test claim; no CI-reporting source was found, and the f005 review §9.4 explicitly states that part of the gap 'is intact'. Under the natural reading the sentence contradicts both the immediately preceding 'Two narrower negatives survive' and the f005 review.",
+      "evidence": "(b) no **located** source reports a confidence interval on a level location — coverage-bounded, not universal (~1,354 of 1,948 screened titles matched neither keyword net and were not individually read; f005 review §10). The unbounded form of exactly this claim is what this addendum refutes.",
+      "fix": "Re-anchor the referent so the refuted object is the headline, e.g.: 'An unbounded universal of exactly this form — the row's headline — is what this addendum refutes; hence the coverage bound here.' (mirrors the agenda's clearer phrasing 'the same bounding discipline whose absence let F005's own headline fall to one missed record').",
+      "reference": "CHAMP item 27 (conclusions consistent with results); internal consistency vs docs/literature/lit_review_f005-class-n-tests_2026-08-21.md §9.4 limit 2",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-2-2",
+      "severity": "minor",
+      "category": "reporting",
+      "location": "docs/literature/lit_review_f005-class-n-tests_2026-08-21.md:546",
+      "issue": "LITERATURE-1-1 fix specification says each of the five Garzarelli sites notes that the read full text is arXiv:1110.5197 v1 whose author list lacks Pompa. The §9.4 verdict blockquote carries the corrected five-author list but omits the provenance caveat (present at the other four sites: store table line 329, §9.1 lines 446-449, agenda lines 149-151, failure_log lines 266-269). No factual error propagates — the published version cited by DOI does carry five authors — so this is a spec-fidelity gap only, relevant because the blockquote is the quotable verdict most likely to be lifted standalone.",
+      "evidence": "> Garzarelli, Cristelli, Pompa, Zaccaria & Pietronero (2014), *Scientific\n> Reports* 4:4487, doi:10.1038/srep04487, tests the Class N construct ...",
+      "fix": "Append the caveat to the blockquote citation: '(read text: arXiv:1110.5197 v1, whose author list lacks Pompa)' — or record in the round log that the §9.4 omission is accepted because the caveat is stated twice earlier in the same document including at the canonical store entry.",
+      "reference": "SAMPL general principles (source attribution precision); round-1 LITERATURE-1-1 fix specification",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "SCOPE-2-1",
+      "severity": "minor",
+      "category": "partial",
+      "location": "docs/literature/lit_review_f005-class-n-tests_2026-08-21.md:546-547",
+      "issue": "The LITERATURE-1-1 remediation is described in the round-2 task spec as applied at five sites 'each noting the read text is arXiv:1110.5197 v1'. The author-list correction (Pompa added) is present at all five sites, but the arXiv-v1/author-list caveat accompanies only four of them; the §9.4 verdict block-quote carries the corrected five-author list without the read-text caveat.",
+      "evidence": "§9.4: 'Garzarelli, Cristelli, Pompa, Zaccaria & Pietronero (2014), *Scientific Reports* 4:4487, doi:10.1038/srep04487, tests the Class N construct...' — no version/read-text note, versus §9.1 (lines 448-449) and the store row (line 329) in the same document, which both carry 'read in full via arXiv:1110.5197 v1, whose author list lacks Pompa'.",
+      "fix": "Either append the read-text caveat to the §9.4 quote or record that the caveat is carried at document level (store + §9.1) rather than at every citation site. Substantively remediated; this is a delivery-vs-remediation-description discrepancy only.",
+      "reference": "LITERATURE-1-1",
+      "branch": "scope-auditor"
+    },
+    {
+      "id": "LITERATURE-2-1",
+      "severity": "minor",
+      "category": "misattributed-citation",
+      "location": "docs/literature/lit_review_regime-method-gaps_2026-08-21.md:487 (near-miss row E6)",
+      "issue": "Chapter 2 of Financial Surveillance is cited under the book editor's name ('Frisen ed. (2007) Statistical Models in Finance, ch. 2 of Financial Surveillance, doi:10.1002/9780470987179.ch2'); the chapter's author per Crossref is Helgi Tomasson, with Frisen as volume editor. The row sits in the vicinity of the LITERATURE-1-2 remediation (it references the ch. 3 inclusion) so it is reported rather than deferred, but it is non-load-bearing (an exclusion-table row) and the 'ed.' marker partially signals the editor role.",
+      "evidence": "Crossref record for 10.1002/9780470987179.ch2: chapter title 'Statistical Models in Finance', author Helgi Tomasson, book 'Financial Surveillance', 2007 (fetched 2026-08-21).",
+      "fix": "Rewrite E6 citation as 'Tomasson (2007) Statistical Models in Finance, ch. 2 of Frisen (ed.) Financial Surveillance, doi:10.1002/9780470987179.ch2'.",
+      "reference": "https://doi.org/10.1002/9780470987179.ch2",
+      "branch": "literature-check"
+    }
+  ],
+  "refute_gate_dispositions": [],
+  "counts": {
+    "raw_critical": 0,
+    "raw_major": 0,
+    "raw_minor": 4,
+    "refuted": 0,
+    "retained_conservative": 0,
+    "to_remediate": 0,
+    "minors_logged": 4
+  },
+  "verdict": "accept",
+  "rounds_cap": 3,
+  "cap_reached": false,
+  "prior_dispositions": "Round 1 (this spec): 3 branches, all proceed-with-remediation; 4 majors retained through the refute gate (REV-1-1 bounded-universal overreach, REV-1-2 omitted Alami counter-record, LITERATURE-1-1 Garzarelli author list missing Pompa, LITERATURE-1-2 Frisén/Bock misattribution) — all four now remediated per taskSpec; 15 minors logged not remediated per invitesPolish=false (incl. stale D01-D57 count in definitions review §1.2, ReproLog-SHA citation gaps, level-definitions survey erratum routing left to lead). Standing: G16 closed on handle-API evidence; F-5 aggregate-only verification inadmissible; charter promotion rule honored for F005 (verified by all three branches in round 1); register strike-don't-delete convention."
+}

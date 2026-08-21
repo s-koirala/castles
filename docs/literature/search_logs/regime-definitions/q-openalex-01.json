@@ -1,0 +1,90 @@
+{
+ "query_id": "q-openalex-01",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.openalex.org/works?search=%22market%20regime%22%20operational%20definition&per-page=10",
+ "total_results_reported": 1446,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "id": "https://openalex.org/W2119987440",
+   "DOI": "10.1017/s0020818300027569",
+   "title": "Theories of international regimes",
+   "year": 1987,
+   "venue": "International Organization",
+   "cited_by": 782
+  },
+  {
+   "id": "https://openalex.org/W2964689802",
+   "DOI": "10.1016/j.cpa.2019.102097",
+   "title": "ESG practices and the cost of debt: Evidence from EU countries",
+   "year": 2019,
+   "venue": "Critical Perspectives on Accounting",
+   "cited_by": 887
+  },
+  {
+   "id": "https://openalex.org/W2801463432",
+   "DOI": "10.1371/journal.pone.0195200",
+   "title": "Cryptocurrency price drivers: Wavelet coherence analysis revisited",
+   "year": 2018,
+   "venue": "PLoS ONE",
+   "cited_by": 144
+  },
+  {
+   "id": "https://openalex.org/W2952839046",
+   "DOI": "10.48550/arxiv.0812.2449",
+   "title": "Market bubbles and crashes",
+   "year": 2008,
+   "venue": "RePEc: Research Papers in Economics",
+   "cited_by": 33
+  },
+  {
+   "id": "https://openalex.org/W2097940988",
+   "DOI": "10.1093/wber/lhs017",
+   "title": "How Is the Liberalization of Food Markets Progressing? Market Integration and Transaction Costs in Subsistence Economies",
+   "year": 2012,
+   "venue": "The World Bank Economic Review",
+   "cited_by": 31
+  },
+  {
+   "id": "https://openalex.org/W1964184591",
+   "DOI": "",
+   "title": "Market Bubbles and Chrashes",
+   "year": 2008,
+   "venue": "Munich Personal RePEc Archive (Ludwig Maximilian University of Munich)",
+   "cited_by": 19
+  },
+  {
+   "id": "https://openalex.org/W1574674038",
+   "DOI": "10.18267/j.pep.225",
+   "title": "Credit guarantees in a credit market with adverse selection",
+   "year": 2003,
+   "venue": "Prague Economic Papers",
+   "cited_by": 26
+  },
+  {
+   "id": "https://openalex.org/W3113531589",
+   "DOI": "10.15678/eber.2020.080401",
+   "title": "Dependencies and systemic risk in the European insurance sector: New evidence based on Copula-DCC-GARCH model and selected clustering methods",
+   "year": 2020,
+   "venue": "Entrepreneurial Business and Economics Review",
+   "cited_by": 10
+  },
+  {
+   "id": "https://openalex.org/W2226850703",
+   "DOI": "10.1093/ser/mwv014",
+   "title": "Readjusting imagined markets: morality and institutional resilience in the German and British bank bailout of 2008",
+   "year": 2015,
+   "venue": "Socio-Economic Review",
+   "cited_by": 22
+  },
+  {
+   "id": "https://openalex.org/W4320035644",
+   "DOI": "10.1016/j.eswa.2023.119695",
+   "title": "Role of proliferation COVID-19 media chatter in predicting Indian stock market: Integrated framework of nonlinear feature transformation and advanced AI",
+   "year": 2023,
+   "venue": "Expert Systems with Applications",
+   "cited_by": 24
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Xen1NMIpx9NATmQofiAF+yc2gxg</id>
+  <title>arXiv Query: search_query=abs:"hidden semi-Markov" AND cat:q-fin*&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-08-21T20:02:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22hidden+semi-Markov%22+AND+cat:q-fin*&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2606.23492v1</id>
+    <title>Continuous Hidden Markov Models for Equity Returns: Heavy-Tail Emission Families and Regime-Conditional Value-at-Risk</title>
+    <updated>2026-06-22T15:39:33Z</updated>
+    <link href="https://arxiv.org/abs/2606.23492v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.23492v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Synthetic generators of daily equity returns let practitioners stress test, backtest, and design scenarios that a single realized market history cannot supply, but only if the generator reproduces the stylized facts of real returns: heavy tails, negligible linear autocorrelation, and slow decay of the absolute-return autocorrelation. Hidden Markov models with few Gaussian states were long thought unable to reproduce that slow decay, and the standard fix was to abandon them for more complex hidden semi-Markov models. We revisit this issue with a continuous hidden Markov model whose regime chain governs the autocorrelation while per-regime densities govern the marginal, separating the temporal and distributional sides of the original failure. A unified expectation-maximization framework fits Gaussian, Student-t, Laplace, and generalized-error emissions under shared forward-backward recursions and quantile-based initialization, and a spectral identity bounds the number of decay modes by the rank of the centred transition matrix. Across SPY walk-forward folds, a sector-balanced 30-ticker panel, a CRSP cross-decade transfer, and a six-asset basket, that bound was not binding once a few states were used: heavy-tailed marginals, not additional decay modes, closed most of the fit gap, recovering volatility clustering above the i.i.d. baseline and narrowing the kurtosis gap without a tuning hyperparameter. The original failure is therefore distributional, not temporal. On daily US equities, a simple, interpretable Markov model suffices, and unlike a bootstrap or semi-Markov fit that wins only on a single-window fit, the fitted model also yields a regime-conditional Value-at-Risk that passes a joint conditional-coverage test and a copula that reproduces cross-asset correlations: one interpretable generator serving both path simulation and downstream risk and portfolio tasks.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.RM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-22T15:39:33Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Abdulrahman Alswaidan</name>
+    </author>
+    <author>
+      <name>Cade Jin</name>
+    </author>
+    <author>
+      <name>Jeffrey D. Varner</name>
+    </author>
+  </entry>
+</feed>

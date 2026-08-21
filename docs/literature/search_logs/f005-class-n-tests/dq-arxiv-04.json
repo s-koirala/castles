@@ -1,0 +1,16 @@
+{
+ "query_id": "dq-arxiv-04",
+ "platform": "arXiv API v1 (export.arxiv.org, Atom)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "http://export.arxiv.org/api/query?search_query=all:%2252-week%20high%22%20AND%20cat:q-fin*&start=0&max_results=15&sortBy=relevance",
+ "total_results_reported": 1,
+ "n_records_retrieved": 1,
+ "items": [
+  {
+   "arxiv_id": "2602.06198v1",
+   "title": "Insider Purchase Signals in Microcap Equities: Gradient Boosting Detection of Abnormal Returns",
+   "published": "2026-02-05T21:19:28Z",
+   "summary": "This paper examines whether SEC Form 4 insider purchase filings predict abnormal returns in U.S. microcap stocks. The analysis covers 17,237 open-market purchases across 1,343 issuers from 2018 through 2024, restricted to market capitalizations between \\$30M and \\$500M. A gradient boosting classifier trained on insider identity, transaction history, and market conditions at disclosure achieves AUC of 0.70 on out-of-sample 2024 data. At an optimized threshold of 0.20, precision is 0.38 and recall is 0.69. The distance from the 52-week high dominates feature importance, accounting for 36% of pre"
+  }
+ ]
+}

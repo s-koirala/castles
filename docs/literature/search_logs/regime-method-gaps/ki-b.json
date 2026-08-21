@@ -1,0 +1,1540 @@
+[
+ {
+  "query": "Continuous inspection schemes Page Biometrika 1954",
+  "url": "https://api.crossref.org/works?query.bibliographic=Continuous%20inspection%20schemes%20Page%20Biometrika%201954&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 1009847,
+    "items": [
+     {
+      "DOI": "10.2307/2333009",
+      "title": [
+       "Continuous Inspection Schemes"
+      ],
+      "author": [
+       {
+        "given": "E. S.",
+        "family": "Page",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1954,
+         6
+        ]
+       ]
+      },
+      "container-title": [
+       "Biometrika"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1093/biomet/41.1-2.100",
+      "title": [
+       "CONTINUOUS INSPECTION SCHEMES"
+      ],
+      "author": [
+       {
+        "given": "E. S.",
+        "family": "PAGE",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1954
+        ]
+       ]
+      },
+      "container-title": [
+       "Biometrika"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.2307/2333020",
+      "title": [
+       "Sequential Tests for Binomial and Exponential Populations"
+      ],
+      "author": [
+       {
+        "given": "F. J.",
+        "family": "Anscombe",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "E. S.",
+        "family": "Page",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1954,
+         6
+        ]
+       ]
+      },
+      "container-title": [
+       "Biometrika"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Procedures for reacting to a change in distribution Lorden",
+  "url": "https://api.crossref.org/works?query.bibliographic=Procedures%20for%20reacting%20to%20a%20change%20in%20distribution%20Lorden&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 2120460,
+    "items": [
+     {
+      "DOI": "10.1214/aoms/1177693055",
+      "title": [
+       "Procedures for Reacting to a Change in Distribution"
+      ],
+      "author": [
+       {
+        "given": "G.",
+        "family": "Lorden",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1971,
+         12
+        ]
+       ]
+      },
+      "container-title": [
+       "The Annals of Mathematical Statistics"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1080/07474940802446244",
+      "title": [
+       "Sequential Change-Point Detection Procedures That are Nearly Optimal and Computationally Simple"
+      ],
+      "author": [
+       {
+        "given": "Gary",
+        "family": "Lorden",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Moshe",
+        "family": "Pollak",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2008,
+         11,
+         4
+        ]
+       ]
+      },
+      "container-title": [
+       "Sequential Analysis"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1214/lnms/1215540288",
+      "title": [
+       "Multistage tests of hypotheses"
+      ],
+      "author": [
+       {
+        "given": "Gary",
+        "family": "Lorden",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1986
+        ]
+       ]
+      },
+      "container-title": [
+       "Institute of Mathematical Statistics Lecture Notes - Monograph Series",
+       "Adaptive statistical procedures and related topics"
+      ],
+      "type": "book-chapter"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Optimal detection of a change in distribution Pollak",
+  "url": "https://api.crossref.org/works?query.bibliographic=Optimal%20detection%20of%20a%20change%20in%20distribution%20Pollak&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 3879332,
+    "items": [
+     {
+      "DOI": "10.1214/aos/1176346587",
+      "title": [
+       "Optimal Detection of a Change in Distribution"
+      ],
+      "author": [
+       {
+        "given": "Moshe",
+        "family": "Pollak",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1985,
+         3,
+         1
+        ]
+       ]
+      },
+      "container-title": [
+       "The Annals of Statistics"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1214/aos/1176350373",
+      "title": [
+       "Average Run Lengths of an Optimal Method of Detecting a Change in Distribution"
+      ],
+      "author": [
+       {
+        "given": "Moshe",
+        "family": "Pollak",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1987,
+         6,
+         1
+        ]
+       ]
+      },
+      "container-title": [
+       "The Annals of Statistics"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1080/07474940802446244",
+      "title": [
+       "Sequential Change-Point Detection Procedures That are Nearly Optimal and Computationally Simple"
+      ],
+      "author": [
+       {
+        "given": "Gary",
+        "family": "Lorden",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Moshe",
+        "family": "Pollak",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2008,
+         11,
+         4
+        ]
+       ]
+      },
+      "container-title": [
+       "Sequential Analysis"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Optimal stopping times for detecting changes in distributions Moustakides",
+  "url": "https://api.crossref.org/works?query.bibliographic=Optimal%20stopping%20times%20for%20detecting%20changes%20in%20distributions%20Moustakides&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 1819730,
+    "items": [
+     {
+      "DOI": "10.1214/aos/1176350164",
+      "title": [
+       "Optimal Stopping Times for Detecting Changes in Distributions"
+      ],
+      "author": [
+       {
+        "given": "George V.",
+        "family": "Moustakides",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1986,
+         12,
+         1
+        ]
+       ]
+      },
+      "container-title": [
+       "The Annals of Statistics"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1080/07474946.2010.520633",
+      "title": [
+       "A Note on “The Optimal Stopping Time for Detecting Changes in Discrete Time Markov Processes” by Han and Tsung"
+      ],
+      "author": [
+       {
+        "given": "George V.",
+        "family": "Moustakides",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Alexander G.",
+        "family": "Tartakovsky",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2010,
+         10,
+         29
+        ]
+       ]
+      },
+      "container-title": [
+       "Sequential Analysis"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1109/cdc.1986.267541",
+      "title": [
+       "Optimal sensor location for detecting changes in dynamical behavior"
+      ],
+      "author": [
+       {
+        "given": "M.",
+        "family": "Basseville",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "A.",
+        "family": "Benveniste",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "G.",
+        "family": "Moustakides",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Anne",
+        "family": "Rougee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1986,
+         12
+        ]
+       ]
+      },
+      "container-title": [
+       "1986 25th IEEE Conference on Decision and Control"
+      ],
+      "type": "proceedings-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "On optimum methods in quickest detection problems Shiryaev",
+  "url": "https://api.crossref.org/works?query.bibliographic=On%20optimum%20methods%20in%20quickest%20detection%20problems%20Shiryaev&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 4197520,
+    "items": [
+     {
+      "DOI": "10.1137/1108002",
+      "title": [
+       "On Optimum Methods in Quickest Detection Problems"
+      ],
+      "author": [
+       {
+        "given": "A. N.",
+        "family": "Shiryaev",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1963,
+         1
+        ]
+       ]
+      },
+      "container-title": [
+       "Theory of Probability &amp; Its Applications"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1080/07474946.2010.520580",
+      "title": [
+       "Quickest Detection Problems: Fifty Years Later"
+      ],
+      "author": [
+       {
+        "given": "Albert N.",
+        "family": "Shiryaev",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2010,
+         10,
+         29
+        ]
+       ]
+      },
+      "container-title": [
+       "Sequential Analysis"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1137/s0040585x97983717",
+      "title": [
+       "On Stochastic Models and Optimal Methods in the Quickest Detection Problems"
+      ],
+      "author": [
+       {
+        "given": "A. N.",
+        "family": "Shiryaev",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2009,
+         1
+        ]
+       ]
+      },
+      "container-title": [
+       "Theory of Probability &amp; Its Applications"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Information bounds and quick detection of parameter changes in stochastic systems Lai",
+  "url": "https://api.crossref.org/works?query.bibliographic=Information%20bounds%20and%20quick%20detection%20of%20parameter%20changes%20in%20stochastic%20systems%20Lai&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 9540990,
+    "items": [
+     {
+      "DOI": "10.1109/18.737522",
+      "title": [
+       "Information bounds and quick detection of parameter changes in stochastic systems"
+      ],
+      "author": [
+       {
+        "family": "Tze Leung Lai",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1998
+        ]
+       ]
+      },
+      "container-title": [
+       "IEEE Transactions on Information Theory"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1007/bfb0009310",
+      "title": [
+       "Information bounds, certainty equivalence and learning in asymptotically efficient adaptive control of time-invariant stochastic systems"
+      ],
+      "author": [
+       {
+        "given": "Tze Leung",
+        "family": "Lai",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         null
+        ]
+       ]
+      },
+      "container-title": [
+       "Lecture Notes in Control and Information Sciences",
+       "Topics in Stochastic Systems: Modelling, Estimation and Adaptive Control"
+      ],
+      "type": "book-chapter"
+     },
+     {
+      "DOI": "10.1109/9780470544198.part6",
+      "title": [
+       "Nonlinear Stochastic Dynamic Systems"
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2009
+        ]
+       ]
+      },
+      "container-title": [
+       "Bayesian Bounds for Parameter Estimation and Nonlinear Filtering/Tracking"
+      ],
+      "type": "book-chapter"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "A comparison of some control chart procedures Roberts Technometrics",
+  "url": "https://api.crossref.org/works?query.bibliographic=A%20comparison%20of%20some%20control%20chart%20procedures%20Roberts%20Technometrics&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 5162969,
+    "items": [
+     {
+      "DOI": "10.1080/00401706.1966.10490374",
+      "title": [
+       "A Comparison of Some Control Chart Procedures"
+      ],
+      "author": [
+       {
+        "given": "S. W.",
+        "family": "Roberts",
+        "sequence": "first",
+        "affiliation": [
+         {
+          "name": "Bell Telephone Laboratories, Zncorporated",
+          "place": [
+           "New Jersey"
+          ]
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1966,
+         8
+        ]
+       ]
+      },
+      "container-title": [
+       "Technometrics"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1080/00401706.2000.10485986",
+      "title": [
+       "Control Chart Tests Based on Geometric Moving Averages"
+      ],
+      "author": [
+       {
+        "given": "S. W.",
+        "family": "Roberts",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2000,
+         2
+        ]
+       ]
+      },
+      "container-title": [
+       "Technometrics"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1080/00401706.1959.10489860",
+      "title": [
+       "Control Chart Tests Based on Geometric Moving Averages"
+      ],
+      "author": [
+       {
+        "given": "S. W.",
+        "family": "Roberts",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1959,
+         8
+        ]
+       ]
+      },
+      "container-title": [
+       "Technometrics"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "State-of-the-art in sequential change-point detection Polunchenko Tartakovsky",
+  "url": "https://api.crossref.org/works?query.bibliographic=State-of-the-art%20in%20sequential%20change-point%20detection%20Polunchenko%20Tartakovsky&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 5909230,
+    "items": [
+     {
+      "DOI": "10.1007/s11009-011-9256-5",
+      "title": [
+       "State-of-the-Art in Sequential Change-Point Detection"
+      ],
+      "author": [
+       {
+        "given": "Aleksey S.",
+        "family": "Polunchenko",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Alexander G.",
+        "family": "Tartakovsky",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2011,
+         10,
+         8
+        ]
+       ]
+      },
+      "container-title": [
+       "Methodology and Computing in Applied Probability"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.5705/ss.2011.026a",
+      "title": [
+       "A numerical approach to performance analysis of quickest change-point detection procedures"
+      ],
+      "author": [
+       {
+        "given": "George V.",
+        "family": "Moustakides",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Aleksey S.",
+        "family": "Polunchenko",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Alexander G.",
+        "family": "Tartakovsky",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2011,
+         4
+        ]
+       ]
+      },
+      "container-title": [
+       "Statistica Sinica"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1080/07474940801989202",
+      "title": [
+       "Multidecision Quickest Change-Point Detection: Previous Achievements and Open Problems"
+      ],
+      "author": [
+       {
+        "given": "Alexander G.",
+        "family": "Tartakovsky",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2008,
+         5,
+         13
+        ]
+       ]
+      },
+      "container-title": [
+       "Sequential Analysis"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "A numerical approach to performance analysis of quickest change-point detection procedures Moustakides Polunchenko Tartakovsky",
+  "url": "https://api.crossref.org/works?query.bibliographic=A%20numerical%20approach%20to%20performance%20analysis%20of%20quickest%20change-point%20detection%20procedures%20Moustakides%20Polunchenko%20Tartakovsky&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 790982,
+    "items": [
+     {
+      "DOI": "10.5705/ss.2011.026a",
+      "title": [
+       "A numerical approach to performance analysis of quickest change-point detection procedures"
+      ],
+      "author": [
+       {
+        "given": "George V.",
+        "family": "Moustakides",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Aleksey S.",
+        "family": "Polunchenko",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Alexander G.",
+        "family": "Tartakovsky",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2011,
+         4
+        ]
+       ]
+      },
+      "container-title": [
+       "Statistica Sinica"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1109/isit.2002.1023489",
+      "title": [
+       "Asymptotic analysis of Bayesian quickest change detection procedures"
+      ],
+      "author": [
+       {
+        "given": "A.G.",
+        "family": "Tartakovsky",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "V.V.",
+        "family": "Veeravalli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         null
+        ]
+       ]
+      },
+      "container-title": [
+       "Proceedings IEEE International Symposium on Information Theory,"
+      ],
+      "type": "proceedings-article"
+     },
+     {
+      "DOI": "10.1080/07474940801989202",
+      "title": [
+       "Multidecision Quickest Change-Point Detection: Previous Achievements and Open Problems"
+      ],
+      "author": [
+       {
+        "given": "Alexander G.",
+        "family": "Tartakovsky",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2008,
+         5,
+         13
+        ]
+       ]
+      },
+      "container-title": [
+       "Sequential Analysis"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Restarted Bayesian online change-point detector achieves optimal detection delay Alami Maillard Feraud",
+  "url": "https://api.crossref.org/works?query.bibliographic=Restarted%20Bayesian%20online%20change-point%20detector%20achieves%20optimal%20detection%20delay%20Alami%20Maillard%20Feraud&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 82432,
+    "items": [
+     {
+      "DOI": "10.2139/ssrn.4902550",
+      "title": [
+       "Bayesian Autoregressive Online Change-Point Detection with Time-Varying Parameters"
+      ],
+      "author": [
+       {
+        "given": "Ioanna-Yvonni",
+        "family": "Tsaknaki",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Fabrizio",
+        "family": "Lillo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Piero",
+        "family": "Mazzarisi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2024
+        ]
+       ]
+      },
+      "type": "posted-content"
+     },
+     {
+      "DOI": "10.2139/ssrn.4910714",
+      "title": [
+       "Bayesian Autoregressive Online Change-Point Detection with Time-Varying Parameters"
+      ],
+      "author": [
+       {
+        "given": "Ioanna-Yvonni",
+        "family": "Tsaknaki",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Fabrizio",
+        "family": "Lillo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "ORCID": "https://orcid.org/0000-0002-7198-513X",
+        "authenticated-orcid": true,
+        "given": "Piero",
+        "family": "Mazzarisi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2024
+        ]
+       ]
+      },
+      "type": "posted-content"
+     },
+     {
+      "DOI": "10.2478/fiqf-2021-0025",
+      "title": [
+       "BAYESIAN ONLINE CHANGE POINT DETECTION IN FINANCE"
+      ],
+      "author": [
+       {
+        "ORCID": "https://orcid.org/0000-0001-8268-0326",
+        "authenticated-orcid": false,
+        "given": "REZA",
+        "family": "HABIBI",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2024,
+         1,
+         6
+        ]
+       ]
+      },
+      "container-title": [
+       "Financial Internet Quarterly"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "An evaluation of change point detection algorithms van den Burg Williams",
+  "url": "https://api.crossref.org/works?query.bibliographic=An%20evaluation%20of%20change%20point%20detection%20algorithms%20van%20den%20Burg%20Williams&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 7941546,
+    "items": [
+     {
+      "DOI": "10.5220/0009594001170124",
+      "title": [
+       "Evaluation of Change Point Detection Algorithms for Application in Big Data Mini-term 4.0"
+      ],
+      "author": [
+       {
+        "given": "E.",
+        "family": "Garcia",
+        "sequence": "first",
+        "affiliation": [
+         {
+          "name": "Ford Spain, Poligono industrial Ford S/N, CP 46440, Almussafes, Valencia, Spain, --- Select a Country ---"
+         }
+        ],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "N.",
+        "family": "Montes",
+        "sequence": "first",
+        "affiliation": [
+         {
+          "name": "Department of Mathematics, Physics and Technological Sciences, University CEU Cardenal Herrera, C/ San Bartolome 55, Alfara del Patriarca, Valencia, Spain, --- Select a Country ---"
+         }
+        ],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "J.",
+        "family": "Llopis",
+        "sequence": "first",
+        "affiliation": [
+         {
+          "name": "Ford Spain, Poligono industrial Ford S/N, CP 46440, Almussafes, Valencia, Spain, --- Select a Country ---"
+         }
+        ],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "A.",
+        "family": "Lacasa",
+        "sequence": "first",
+        "affiliation": [
+         {
+          "name": "Ford Spain, Poligono industrial Ford S/N, CP 46440, Almussafes, Valencia, Spain, --- Select a Country ---"
+         }
+        ],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2020
+        ]
+       ]
+      },
+      "container-title": [
+       "Proceedings of the 17th International Conference on Informatics in Control, Automation and Robotics"
+      ],
+      "type": "proceedings-article"
+     },
+     {
+      "DOI": "10.1007/978-3-642-87089-7_27",
+      "title": [
+       "Telecommunications-Related Information Services the User’s Point of View"
+      ],
+      "author": [
+       {
+        "given": "Jan",
+        "family": "van den Burg",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1984
+        ]
+       ]
+      },
+      "container-title": [
+       "Information Technology and the Computer Network"
+      ],
+      "type": "book-chapter"
+     },
+     {
+      "DOI": "10.1002/3527602631.ch12",
+      "title": [
+       "Mutations in\n            <i>Lactococcus lactis</i>\n            , and their Detection"
+      ],
+      "author": [
+       {
+        "given": "Jan",
+        "family": "Kok",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Bertus",
+        "family": "van den Burg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2003,
+         5,
+         27
+        ]
+       ]
+      },
+      "container-title": [
+       "Genetically Engineered Food"
+      ],
+      "type": "other"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ }
+]

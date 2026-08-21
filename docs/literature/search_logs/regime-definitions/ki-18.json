@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-18",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Oelschlager+Adam+Detecting+bearish+and+bullish+markets+in+financial+time+series+using+hierarchical+hidden+Markov+models&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 654029,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1177/1471082x211034048",
+   "title": "Detecting bearish and bullish markets in financial time series using hierarchical hidden Markov models",
+   "year": 2021,
+   "container": "Statistical Modelling",
+   "type": "journal-article",
+   "abstract": "<jats:p>Financial markets exhibit alternating periods of rising and falling prices. Stock traders seeking to make profitable investment decisions have to account for those trends, where the goal is to accurately predict switches from bullish to bearish markets and vice versa. Popular tools for modelling financial time series are hidden Markov models, where a latent state process is used to explicitly model switches among different market regimes. In their basic form, however, hidden Markov models are not capable of capturing both short- and long-term trends, which can lead to a misinterpretation of short-term price fluctuations as changes in the long-term trend. In this article, we demonstrate how hierarchical hidden Markov models can be used to draw a comprehensive picture of market behaviour, which can contribute to the development of more sophisticated trading strategies. The feasibility of the suggested approach is illustrated in two real-data applications, where we model data from the Deutscher Aktienindex and the Deutsche Bank stock. The proposed methodology is implemented in the R package fHMM, which is available on CRAN.</jats:p>"
+  },
+  {
+   "DOI": "10.53846/goediss-3687",
+   "title": "Application of Hidden Markov and Hidden Semi-Markov Models to Financial Time Series",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.36948/ijfmr.2022.v04i05.857",
+   "title": "Detecting Regime Changes in Financial Markets using Hidden Markov Models and Directional Changes",
+   "year": 2022,
+   "container": "International Journal For Multidisciplinary Research",
+   "type": "journal-article",
+   "abstract": "<jats:p>The purpose of this study is to construct a multivariate input based Hidden Markov model based on directional changes to detect regime changes in financial markets. For this study, a Hidden Markov Model with multivariate inputs was used. Directional changes were used on historical S&amp;P 500 index returns, additionally, Chicago Board Options Exchange's CBOE Volatility Index along with commonly used index performance indicators were used as inputs to the Hidden Markov Model. The Hidden Markov Model with Directional Change indicators is able to effectively classify regimes on the basis of their statistical properties viz. Mean and standard deviation. The motivation of this study is to model and detect regime changes in US financial markets over the 22-year period from 2000 to 2022. Hidden Markov Models have historically been used by modelling index returns using time series analysis and realised volatility, this paper uses directional changes along with other inputs as observed states to the Hidden Markov Model like the Chicago Board Options Exchange's CBOE Volatility index, 22 and 66 day returns of the S&amp;P 500 index in addition to the 22-day volatility of the S&amp;P 50"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+<!-- query_id: q-arxiv-05 | platform: arXiv API (export.arxiv.org) | date_searched: 2026-08-21 | query_url_verbatim: http://export.arxiv.org/api/query?search_query=abs:%22bull%22+AND+abs:%22bear%22+AND+abs:%22dating%22+AND+cat:q-fin*&max_results=10 -->
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FeLtcHAP2iw+Ooh+xkpVrQZX9QE</id>
+  <title>arXiv Query: search_query=abs:"bull" AND abs:"bear" AND abs:"dating" AND cat:q-fin*&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-21T20:05:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22bull%22+AND+(abs:%22bear%22+AND+(abs:%22dating%22+AND+cat:q-fin*))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>0</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+</feed>

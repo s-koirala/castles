@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-38",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Sperandeo+Trader+Vic+Methods+of+a+Wall+Street+Master&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2235466,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1002/9781119196792",
+   "title": "Trader Vic on Commodities",
+   "year": 2012,
+   "container": "",
+   "type": "edited-book",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118774946.ch4",
+   "title": "Wall Street: Games People Play",
+   "year": 2013,
+   "container": "The Master Trader",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118774946.ch20",
+   "title": "<i>Wall Street Week</i>\n            and Other Adventures",
+   "year": 2013,
+   "container": "The Master Trader",
+   "type": "other",
+   "abstract": ""
+  }
+ ]
+}

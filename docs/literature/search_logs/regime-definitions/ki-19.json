@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-19",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Filardo+Business-cycle+phases+and+their+transitional+dynamics&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2850078,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1080/07350015.1994.10524545",
+   "title": "Business-Cycle Phases and Their Transitional Dynamics",
+   "year": 1994,
+   "container": "Journal of Business &amp; Economic Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2833209",
+   "title": "Revisiting the Transitional Dynamics of Business-Cycle Phases with Mixed Frequency Data",
+   "year": 2016,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper introduces a Markov-switching model in which transition probabilities depend on higher frequency indicators and their lags through polynomial weighting schemes. The MSV-MIDAS model is estimated via maximum likelihood (ML) methods. The estimation relies on a slightly modified version of Hamilton's recursive filter. We use Monte Carlo simulations to assess the robustness of the estimation procedure and related test statistics. The results show that ML provides accurate estimates, but they suggest some caution in interpreting the tests of the parameters involved in the transition probabilities. We apply this new model to the detection and forecasting of business cycle turning points in the United States. We properly detect recessions by exploiting the link between GDP growth and higher frequency variables from financial and energy markets. The spread term is a particularly useful indicator to predict recessions in the United States. The empirical evidence also supports the use of functional polynomial weights in the MIDAS specification of the transition probabilities.</jats:p>"
+  },
+  {
+   "DOI": "10.1080/07474938.2017.1397837",
+   "title": "Revisiting the transitional dynamics of business cycle phases with mixed-frequency data",
+   "year": 2018,
+   "container": "Econometric Reviews",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

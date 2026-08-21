@@ -1,0 +1,232 @@
+{
+ "query_id": "fc-openalex-bhattacharya2012",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-21",
+ "seed_definition": "D51",
+ "seed_doi": "10.1287/mnsc.1110.1364",
+ "seed_openalex_id": "W2153270647",
+ "seed_cited_by_count_reported": 31,
+ "query_url_verbatim": [
+  "https://api.openalex.org/works?filter=cites:W2153270647&per-page=200&select=id,doi,title,publication_year,type&cursor=*"
+ ],
+ "n_records_retrieved": 31,
+ "items": [
+  {
+   "openalex_id": "https://openalex.org/W2296245425",
+   "doi": "https://doi.org/10.1080/10835547.2015.12092101",
+   "title": "The Effect of Pricing Strategy on Home Selection and Transaction Prices: An Investigation of the Left-Most Digit Effect",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W271719185",
+   "doi": "https://doi.org/10.2753/ces1097-1475470104",
+   "title": "Herding on Ending Digits in Security Trading",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4249535465",
+   "doi": "https://doi.org/10.33423/jmdc.v13i4.2354",
+   "title": "Small Rewards Leverage Big Change: The Effect of M-Payment Rewards on Charitable Donations",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2024935606",
+   "doi": "https://doi.org/10.2139/ssrn.2365603",
+   "title": "Trading Rules, Competition for Order Flow and Market Fragmentation",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2016463067",
+   "doi": "https://doi.org/10.2139/ssrn.1786456",
+   "title": "Do Investors Put Their Money Where Their Mouth Is? Stock Market Expectations and Investing Behavior",
+   "year": 2011,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2121363880",
+   "doi": "https://doi.org/10.2139/ssrn.2496669",
+   "title": "Does Trade Clustering Reduce Trading Costs? Evidence from Periodicity in Algorithmic Trading",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2078340913",
+   "doi": "https://doi.org/10.2139/ssrn.2137681",
+   "title": "Psychological Barriers in Oil Futures Markets",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3137989635",
+   "doi": "https://doi.org/10.2139/ssrn.3502442",
+   "title": "Can Facing the Truth Improve Outcomes? Effects of Information in Consumer Finance",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4389161484",
+   "doi": "https://doi.org/10.2139/ssrn.4630162",
+   "title": "Tracking Retail and Institutional Investors Activity in China",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3116080077",
+   "doi": "https://doi.org/10.2139/ssrn.2882741",
+   "title": "Rounding Up the Net Income: Earnings Cosmetics or Material Earnings Management?",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1987814512",
+   "doi": "https://doi.org/10.2139/ssrn.2524439",
+   "title": "Behavioral Influences in Non-Ferrous Metals Prices",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4239032764",
+   "doi": "https://doi.org/10.2139/ssrn.2184849",
+   "title": "Price Clustering or Psychological Barriers in Energy Futures?",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1559848986",
+   "doi": "https://doi.org/10.2139/ssrn.2323102",
+   "title": "Income Falsification on Mortgage Applications During the Housing Bubble",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W250300200",
+   "doi": "https://doi.org/10.2139/ssrn.2387022",
+   "title": "The Illusion of Wealth and Its Reversal",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2607349507",
+   "doi": "https://doi.org/10.2139/ssrn.2938417",
+   "title": "Nominal Price Level and Noise Trading",
+   "year": 2015,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122381461",
+   "doi": "https://doi.org/10.2139/ssrn.2825110",
+   "title": "Psychological Price Barriers in Frontier Equities",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3144594647",
+   "doi": "https://doi.org/10.2139/ssrn.3564728",
+   "title": "How Preferences for Round Numbers Affect Choices: Stickiness and Jumpiness in Credit Card Payments",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3195409918",
+   "doi": "https://doi.org/10.2139/ssrn.3708609",
+   "title": "Round Number Reference Points and Irregular Patterns in Reported Gross Margins",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3213998708",
+   "doi": "https://doi.org/10.2139/ssrn.3925756",
+   "title": "Liquidity and Price Impact at the 52 Week High",
+   "year": 2021,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4365794172",
+   "doi": "https://doi.org/10.2139/ssrn.4406954",
+   "title": "The Numbers Game: Signaling Effects of Pricing Formats in Housing Bargaining",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4399929712",
+   "doi": "https://doi.org/10.2139/ssrn.4872279",
+   "title": "Left-Digit Bias in Household Inflation Expectations",
+   "year": 2024,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2416533469",
+   "doi": "https://doi.org/10.2139/ssrn.2348159",
+   "title": "Price Clustering and Round Number Effects - Evidence from the German Market",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2461242446",
+   "doi": "https://doi.org/10.2139/ssrn.2488845",
+   "title": "The Correlated Trading and Investment Performance of Individual Investors",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3110734415",
+   "doi": "https://doi.org/10.2139/ssrn.3575390",
+   "title": "Are All Heuristics Created Equal? Evidence from P2P Investments",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3141287451",
+   "doi": "https://doi.org/10.2139/ssrn.3021585",
+   "title": "Faulty Anchors: Individual Investor Order Intensity and Order Type at the 52 Week High",
+   "year": 2017,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3163160485",
+   "doi": "https://doi.org/10.3386/w28796",
+   "title": "Loss Aversion in Housing Sales Prices: Evidence from Focal Point Bias",
+   "year": 2021,
+   "type": "report"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3176725317",
+   "doi": "https://doi.org/10.5204/thesis.eprints.208970",
+   "title": "Four patterns of mispricing in binary option markets",
+   "year": 2021,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4386579364",
+   "doi": "https://doi.org/10.2139/ssrn.4566627",
+   "title": "Do Household Investors Intensify Momentum Returns?",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4387350287",
+   "doi": "https://doi.org/10.2139/ssrn.4588908",
+   "title": "Left-Digit Bias in Self-Reported Height",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4387415571",
+   "doi": "https://doi.org/10.2139/ssrn.4570544",
+   "title": "Coarse Pricing in QE Auctions",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4396719951",
+   "doi": "https://doi.org/10.2139/ssrn.4821452",
+   "title": "Investor Disagreement, Liquidity, and Informational Efficiency at the 52 Week High",
+   "year": 2024,
+   "type": "preprint"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-10",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Ang+Bekaert+International+asset+allocation+with+regime+shifts&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 14133727,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1093/rfs/15.4.1137",
+   "title": "International Asset Allocation With Regime Shifts",
+   "year": 2002,
+   "container": "Review of Financial Studies",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3386/w7056",
+   "title": "International Asset Allocation with Time-Varying Correlations",
+   "year": 1999,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.156048",
+   "title": "International Asset Allocation with Time-Varying Correlations",
+   "year": 1999,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>It is widely believed that correlations between international equity markets tend to increase in highly volatile bear markets. This has led some to doubt the benefits of international diversification. This article solves the dynamic portfolio choice problem of a US investor faced with a time-varying investment opportunity set which may be characterized by correlations and volatilities that increase in bad times. We model the state dependence of US, UK and German equity returns using a regime-switching model and find evidence for the existence of a high volatility regime, in which returns are more highly correlated and have lower means. Solving the dynamic asset allocation problem for a CRRA investor, we show international diversification is still valuable with regime changes. Currency hedging imparts further benefit. The costs of ignoring the regimes are small for moderate levels of risk aversion, and the intertemporal hedging demands induced by time-varying correlations are negligible.</jats:p>"
+  }
+ ]
+}

@@ -1,0 +1,715 @@
+{
+ "query_id": "fc-openalex-sonnemans2006",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-21",
+ "seed_definition": "D54",
+ "seed_doi": "10.1016/j.euroecorev.2005.09.001",
+ "seed_openalex_id": "W3125088490",
+ "seed_cited_by_count_reported": 100,
+ "query_url_verbatim": [
+  "https://api.openalex.org/works?filter=cites:W3125088490&per-page=200&select=id,doi,title,publication_year,type&cursor=*"
+ ],
+ "n_records_retrieved": 100,
+ "items": [
+  {
+   "openalex_id": "https://openalex.org/W2736872974",
+   "doi": "https://doi.org/10.1016/j.econlet.2017.07.035",
+   "title": "Price clustering in Bitcoin",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121359055",
+   "doi": "https://doi.org/10.1093/rfs/hhu044",
+   "title": "Cognitive Limitation and Investment Performance: Evidence from Limit Order Clustering",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122987879",
+   "doi": "https://doi.org/10.1287/mnsc.2016.2701",
+   "title": "Do Superstitious Traders Lose Money?",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124381694",
+   "doi": "https://doi.org/10.2308/accr-50226",
+   "title": "Analysts' Motives for Rounding EPS Forecasts",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2027492495",
+   "doi": "https://doi.org/10.1016/j.joep.2013.01.010",
+   "title": "Do consumers prefer round prices? Evidence from pay-what-you-want decisions and self-pumped gasoline purchases",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2809440298",
+   "doi": "https://doi.org/10.1016/j.frl.2018.06.002",
+   "title": "Intraday price behavior of cryptocurrencies",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2051340220",
+   "doi": "https://doi.org/10.1111/j.1540-6288.2007.00172.x",
+   "title": "Price Clustering on the Tokyo Stock Exchange",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2906163557",
+   "doi": "https://doi.org/10.1016/j.frl.2018.12.020",
+   "title": "Price clustering in Bitcoin market—An extension",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4206186897",
+   "doi": "https://doi.org/10.1186/s40854-021-00307-4",
+   "title": "Intraday patterns of price clustering in Bitcoin",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4361295298",
+   "doi": "https://doi.org/10.1108/jiabr-05-2022-0140",
+   "title": "Efficiency and price clustering in Islamic stocks: evidence from three Asian countries",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4394757875",
+   "doi": "https://doi.org/10.1002/ijfe.2976",
+   "title": "Do ESG funds engage in portfolio pumping to gain higher flows? An application of Benford's Law",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4294948545",
+   "doi": "https://doi.org/10.18778/8220-862-7",
+   "title": "Efekty cenowe na polskim rynku kapitałowym",
+   "year": 2022,
+   "type": "book"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2161154830",
+   "doi": "https://doi.org/10.1007/s11238-007-9040-8",
+   "title": "Prospect-theory’s Diminishing Sensitivity Versus Economics’ Intrinsic Utility of Money: How the Introduction of the Euro can be Used to Disentangle the Two Empirically",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2067330582",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2005.07.017",
+   "title": "An analysis of intraday patterns in price clustering on the Tokyo Stock Exchange",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1967434964",
+   "doi": "https://doi.org/10.1353/mcb.2006.0066",
+   "title": "Euro-Illusion: A Natural Experiment",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2240251776",
+   "doi": "https://doi.org/10.1080/15427560.2012.654546",
+   "title": "Money Illusion and Nominal Inertia in Experimental Asset Markets",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2162307493",
+   "doi": "https://doi.org/10.2196/jmir.1656",
+   "title": "Risk Estimates From an Online Risk Calculator Are More Believable and Recalled Better When Expressed as Integers",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2768530487",
+   "doi": "https://doi.org/10.1016/j.regsciurbeco.2017.11.006",
+   "title": "Effects of unemployment news on economic perceptions – Evidence from German Federal States",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2023280818",
+   "doi": "https://doi.org/10.1016/j.joep.2007.10.003",
+   "title": "Clustering in dividends: Do managers rely on cognitive reference points?",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2223860982",
+   "doi": "https://doi.org/10.1016/j.finmar.2015.10.003",
+   "title": "Limited cognition and clustered asset prices: Evidence from betting markets",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2099830541",
+   "doi": "https://doi.org/10.1111/j.1467-629x.2007.00221.x",
+   "title": "Influence of cultural factors on price clustering and price resistance in China's stock markets",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2543568247",
+   "doi": "https://doi.org/10.1080/00036846.2016.1248284",
+   "title": "Price clustering on the Shanghai Stock Exchange",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2095205503",
+   "doi": "https://doi.org/10.1145/1865841.1865868",
+   "title": "A visual analytics system for financial time-series data",
+   "year": 2010,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2969410443",
+   "doi": "https://doi.org/10.1108/rbf-03-2019-0041",
+   "title": "Psychological barriers in the cryptocurrency market",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2099129812",
+   "doi": "https://doi.org/10.1080/00036846.2011.610747",
+   "title": "Price clustering in Australian water markets",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3085127572",
+   "doi": "https://doi.org/10.1002/jcpy.1192",
+   "title": "The Round‐Number Advantage in Consumer Debt Payoff",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3166289510",
+   "doi": "https://doi.org/10.1016/j.jempfin.2021.05.006",
+   "title": "Smoking hot portfolios? Trading behavior, investment biases, and self-control failure",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4303684383",
+   "doi": "https://doi.org/10.1016/j.jebo.2022.09.018",
+   "title": "Zero-ending prices, cognitive convenience, and price rigidity",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2093765042",
+   "doi": "https://doi.org/10.1016/j.asieco.2013.07.002",
+   "title": "Has political instability contributed to price clustering on Fiji's stock market?",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122179513",
+   "doi": "https://doi.org/10.1016/j.resourpol.2015.03.002",
+   "title": "Behavioral influences in non-ferrous metals prices",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2513381370",
+   "doi": "https://doi.org/10.1016/j.intfin.2016.11.007",
+   "title": "Psychological price barriers in frontier equities",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2162194738",
+   "doi": "https://doi.org/10.4284/0038-4038-2012.264",
+   "title": "A Psychological Reexamination of the Bertrand Paradox",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2889540358",
+   "doi": "https://doi.org/10.1017/9781108763493.012",
+   "title": "Third-Party Policymakers and the Limits of the Influence of Indicators",
+   "year": 2020,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2599969798",
+   "doi": "https://doi.org/10.1080/1350486x.2017.1297729",
+   "title": "Optimal prediction of resistance and support levels",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2995509327",
+   "doi": "https://doi.org/10.3390/su11247219",
+   "title": "An Empirical Investigation to the “Skew” Phenomenon in Stock Index Markets: Evidence from the Nikkei 225 and Others",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4286284854",
+   "doi": "https://doi.org/10.1080/00036846.2022.2074357",
+   "title": "Non-proportional thinking in IPOs",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4399856491",
+   "doi": "https://doi.org/10.1287/mnsc.2021.00157",
+   "title": "How to Design the Ask? Funding Units vs. Giving Money",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4414092047",
+   "doi": "https://doi.org/10.1287/mnsc.2020.01995",
+   "title": "Round Number Preferences and Left-Digit Bias: Evidence from Credit Card Repayments",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7118018270",
+   "doi": "https://doi.org/10.1016/j.ijer.2025.102921",
+   "title": "Are teachers objective and impartial in evaluating business school students?",
+   "year": 2026,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2609285991",
+   "doi": "https://doi.org/10.1007/s11147-017-9130-x",
+   "title": "Pricing double barrier options under a volatility regime-switching model with psychological barriers",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3038854905",
+   "doi": "https://doi.org/10.1093/jcr/ucaa035",
+   "title": "The Zero Bias in Target Retirement Fund Choice",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3195678365",
+   "doi": "https://doi.org/10.1007/s11156-021-01004-0",
+   "title": "Does mutual fund ownership reduce stock price clustering? Evidence from active and index funds",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2805794920",
+   "doi": "https://doi.org/10.1016/j.cam.2018.04.039",
+   "title": "Pricing European vanilla options under a jump-to-default threshold diffusion model",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4311832206",
+   "doi": "https://doi.org/10.1016/j.najef.2022.101864",
+   "title": "Psychological barriers and option pricing in a local volatility model",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2485943818",
+   "doi": "https://doi.org/10.1017/cbo9780511997730.012",
+   "title": "The visual analysis of financial data",
+   "year": 2013,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2996814336",
+   "doi": "https://doi.org/10.1007/s11579-019-00253-x",
+   "title": "On the probability of default in a market with price clustering and jump risk",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3185545532",
+   "doi": "https://doi.org/10.1016/j.frl.2021.102357",
+   "title": "Down to the cents: The case of international drug prices",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4368340957",
+   "doi": "https://doi.org/10.1016/j.frl.2023.103904",
+   "title": "Clustering in Bitcoin balance",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4386421668",
+   "doi": "https://doi.org/10.1080/01629778.2023.2251459",
+   "title": "Efficiency and price clustering in the Baltic stock exchanges: evidence from a micro-level analysis",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3118665909",
+   "doi": "https://doi.org/10.1080/15427560.2020.1867143",
+   "title": "Price Clustering, Preferences for Round Prices, and Expected Returns",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3001124446",
+   "doi": "https://doi.org/10.1080/1351847x.2020.1717976",
+   "title": "Towards a better understanding of the full impact of the left digit effect on individual trading behaviour: unearthing a trading profit effect",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4400778752",
+   "doi": "https://doi.org/10.1108/rbf-01-2024-0007",
+   "title": "Exploring the Nordic numbers: an analysis of price clustering in Scandinavian stocks",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2965915439",
+   "doi": "https://doi.org/10.1017/jpr.2019.22",
+   "title": "Some explicit results on one kind of sticky diffusion",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2042293153",
+   "doi": "https://doi.org/10.1080/14697680902814258",
+   "title": "An empirical study of liquidity dynamics and resistance and support levels",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2141033063",
+   "doi": "https://doi.org/10.14208/bf03353827",
+   "title": "Comparing High Frequency Data of Stocks that are Traded Simultaneously in the US and Germany: Simulated Versus Empirical Data",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2065043189",
+   "doi": "https://doi.org/10.1007/s40547-014-0027-7",
+   "title": "Asymmetric Impact of Reference Point Confidence on Consumer Evaluations",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2261442686",
+   "doi": "https://doi.org/10.1017/cbo9780511997730.008",
+   "title": "DATA MANAGEMENT TECHNOLOGIES",
+   "year": 2013,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W195988161",
+   "doi": "https://doi.org/10.2139/ssrn.966454",
+   "title": "Limit Order Clustering and Price Barriers on Financial Markets: Empirical Evidence from Euronext",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2950496664",
+   "doi": "https://doi.org/10.2139/ssrn.3001719",
+   "title": "Price Clustering in Bitcoin",
+   "year": 2017,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2743707439",
+   "doi": null,
+   "title": "Automatic Selection of High Quality Initial Seeds for Generating High Quality Clusters without requiring any User Inputs",
+   "year": 2014,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2058236766",
+   "doi": "https://doi.org/10.2139/ssrn.1105262",
+   "title": "Analysts’ Motives for Rounding EPS Forecasts",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1932638058",
+   "doi": "https://doi.org/10.2139/ssrn.1175087",
+   "title": "Reserve Price Formation in Online Auctions",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2154695485",
+   "doi": "https://doi.org/10.5282/ubm/epub.13228",
+   "title": "Determinants and Effects of Reserve Prices in Hattrick Auctions",
+   "year": 2010,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2907020177",
+   "doi": "https://doi.org/10.48550/arxiv.1901.01621",
+   "title": "A conversation around the analysis of the SiP effort estimation dataset",
+   "year": 2019,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1987814512",
+   "doi": "https://doi.org/10.2139/ssrn.2524439",
+   "title": "Behavioral Influences in Non-Ferrous Metals Prices",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122381461",
+   "doi": "https://doi.org/10.2139/ssrn.2825110",
+   "title": "Psychological Price Barriers in Frontier Equities",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124479632",
+   "doi": "https://doi.org/10.2139/ssrn.2052114",
+   "title": "Has Political Instability Contributed to Price Clustering on Fiji’s Stock Market?",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3144594647",
+   "doi": "https://doi.org/10.2139/ssrn.3564728",
+   "title": "How Preferences for Round Numbers Affect Choices: Stickiness and Jumpiness in Credit Card Payments",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4236617701",
+   "doi": "https://doi.org/10.2139/ssrn.3205699",
+   "title": "Third-Party Policymakers and the Limits of the Influence of Indicators",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4399929712",
+   "doi": "https://doi.org/10.2139/ssrn.4872279",
+   "title": "Left-Digit Bias in Household Inflation Expectations",
+   "year": 2024,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1782748932",
+   "doi": null,
+   "title": "KERUMUNAN HARGA SAHAM PADA MULTIFRAKSI",
+   "year": 2010,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2135698582",
+   "doi": null,
+   "title": "Limits to Observational Learning and Feedback Loops of Price Changes: A Model of Self-Reinforcing Financial Fads",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2136091213",
+   "doi": "https://doi.org/10.34626/vbek-kt09",
+   "title": "Psychological Barriers in the Eurozone's Stock Indices",
+   "year": 2014,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2147467679",
+   "doi": "https://doi.org/10.24352/ub.ovgu-2018-395",
+   "title": "Comparison of the Stock Price Clustering of stocks which are traded in the US and Germany-Is XETRA more efficient than the NYSE?",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2182045140",
+   "doi": null,
+   "title": "The Effect of Round Number Bias in U.S. and Chinese Stock Markets",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2197029654",
+   "doi": "https://doi.org/10.2139/ssrn.1508888",
+   "title": "A Model of Self-Reinforcing Financial Fads",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2207156658",
+   "doi": "https://doi.org/10.25916/sut.26225543",
+   "title": "Did the psychological barrier of US$100 crude oil price have an impact on price clustering behaviour in the oil futures market",
+   "year": 2024,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2275375047",
+   "doi": null,
+   "title": "Psychological barriers in individual stocks in the United States",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2283434266",
+   "doi": "https://doi.org/10.26021/5339",
+   "title": "The Effect of Optionability on Underlying Stock Prices",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2292085362",
+   "doi": null,
+   "title": "Vossiuspers UvA is een imprint van Amsterdam University Press. Deze uitgave is totstandgekomen onder auspiciën van de Universiteit van Amsterdam.",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2416533469",
+   "doi": "https://doi.org/10.2139/ssrn.2348159",
+   "title": "Price Clustering and Round Number Effects - Evidence from the German Market",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2759772657",
+   "doi": null,
+   "title": "Improving Investment Timing",
+   "year": 2011,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2774781205",
+   "doi": "https://doi.org/10.34626/721a-g688",
+   "title": "Psychological Barriers in Asian Markets",
+   "year": 2017,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2775421772",
+   "doi": "https://doi.org/10.34626/sv3p-jg16",
+   "title": "Psychological Barriers in the Latin America´s Stock Indices",
+   "year": 2017,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2786778983",
+   "doi": "https://doi.org/10.1080/00036846.2018.1430347",
+   "title": "A high-frequency analysis of price resolution and pricing barriers in equities on the adoption of a new currency",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2791699357",
+   "doi": null,
+   "title": "Psychology of financial decisions, using large transaction datasets",
+   "year": 2017,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2897129801",
+   "doi": "https://doi.org/10.2139/ssrn.3214811",
+   "title": "The Costly Zero Bias in Target Retirement Fund Choice",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2941716045",
+   "doi": "https://doi.org/10.15611/pn.2018.531.17",
+   "title": "W poszukiwaniu optymalnego przedziału cenowego akcji – zachowania inwestorów giełdowych wobec splitów na przykładzie GPW",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3022082421",
+   "doi": "https://doi.org/10.1007/978-3-030-43078-8_14",
+   "title": "Price Clustering in Stocks from the WIG 20 Index",
+   "year": 2020,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3103990288",
+   "doi": "https://doi.org/10.37625/abr.23.2.182-210",
+   "title": "Accounting Information Quality and the Clustering of Stock Prices",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3171380255",
+   "doi": "https://doi.org/10.48550/arxiv.2106.03679",
+   "title": "The CESAW dataset: a conversation",
+   "year": 2021,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3176725317",
+   "doi": "https://doi.org/10.5204/thesis.eprints.208970",
+   "title": "Four patterns of mispricing in binary option markets",
+   "year": 2021,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4251450017",
+   "doi": "https://doi.org/10.37625/abr.23.2",
+   "title": null,
+   "year": 2020,
+   "type": "paratext"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4383647374",
+   "doi": "https://doi.org/10.2139/ssrn.4504042",
+   "title": "Price Clustering Behavior in Virtual Real Estate Markets",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4388721900",
+   "doi": "https://doi.org/10.24135/afl.v12i1.726",
+   "title": "PRICE CLUSTERING BEHAVIOR IN VIRTUAL REAL ESTATE MARKETS",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4392566859",
+   "doi": "https://doi.org/10.2139/ssrn.4718961",
+   "title": "Can Daily Closing Prices Predict Future Movements? The Role of Limit Order Clustering",
+   "year": 2024,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4400961691",
+   "doi": "https://doi.org/10.1108/bjm-10-2023-0407",
+   "title": "Exploring the psychology of price barriers in Baltic stock markets",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4407895165",
+   "doi": "https://doi.org/10.1007/s10690-025-09515-9",
+   "title": "Price Clustering in Bitcoin Markets: The Role of Transaction Fees",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4414486043",
+   "doi": "https://doi.org/10.47743/saeb-2025-0034",
+   "title": "Effects of Price Clustering on African Stock Markets",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7162692169",
+   "doi": "https://doi.org/10.1016/j.ribaf.2026.103494",
+   "title": "Strong clustering and weak barriers at round numbers in Bitcoin markets",
+   "year": 2026,
+   "type": "article"
+  }
+ ]
+}

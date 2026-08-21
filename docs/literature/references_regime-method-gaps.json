@@ -1,0 +1,1687 @@
+[
+  {
+    "DOI": "10.1016/j.jtbi.2004.03.016",
+    "ISSN": "0022-5193",
+    "URL": "http://dx.doi.org/10.1016/j.jtbi.2004.03.016",
+    "author": [
+      {
+        "family": "Benhamou",
+        "given": "Simon"
+      }
+    ],
+    "container-title": "Journal of Theoretical Biology",
+    "container-title-short": "Journal of Theoretical Biology",
+    "id": "benhamou2004jjtbi2004030",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          7
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "209-220",
+    "publisher": "Elsevier BV",
+    "source": "Crossref",
+    "title": "How to reliably estimate the tortuosity of an animal's path:",
+    "type": "article-journal",
+    "volume": "229"
+  },
+  {
+    "DOI": "10.1098/rsif.2008.0014",
+    "ISSN": "1742-5689",
+    "URL": "http://dx.doi.org/10.1098/rsif.2008.0014",
+    "abstract": "<jats:p>Mathematical modelling of the movement of animals, micro-organisms and cells is of great relevance in the fields of biology, ecology and medicine. Movement models can take many different forms, but the most widely used are based on the extensions of simple random walk processes. In this review paper, our aim is twofold: to introduce the mathematics behind random walks in a straightforward manner and to explain how such models can be used to aid our understanding of biological processes. We introduce the mathematical theory behind the simple random walk and explain how this relates to Brownian motion and diffusive processes in general. We demonstrate how these simple models can be extended to include drift and waiting times or be used to calculate first passage times. We discuss biased random walks and show how hyperbolic models can be used to generate correlated random walks. We cover two main applications of the random walk model. Firstly, we review models and results relating to the movement, dispersal and population redistribution of animals and micro-organisms. This includes direct calculation of mean squared displacement, mean dispersal distance, tortuosity measures, as well as possible limitations of these model approaches. Secondly, oriented movement and chemotaxis models are reviewed. General hyperbolic models based on the linear transport equation are introduced and we show how a reinforced random walk can be used to model movement where the individual changes its environment. We discuss the applications of these models in the context of cell migration leading to blood vessel growth (angiogenesis). Finally, we discuss how the various random walk models and approaches are related and the connections that underpin many of the key processes involved.</jats:p>",
+    "author": [
+      {
+        "family": "Codling",
+        "given": "Edward A"
+      },
+      {
+        "family": "Plank",
+        "given": "Michael J"
+      },
+      {
+        "family": "Benhamou",
+        "given": "Simon"
+      }
+    ],
+    "container-title": "Journal of The Royal Society Interface",
+    "container-title-short": "J. R. Soc. Interface.",
+    "id": "codling2008rsif20080014",
+    "issue": "25",
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          4,
+          15
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "813-834",
+    "publisher": "The Royal Society",
+    "source": "Crossref",
+    "title": "Random walk models in biology",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.14529/cmse130408",
+    "ISSN": "2305-9052",
+    "URL": "http://dx.doi.org/10.14529/cmse130408",
+    "container-title": "Bulletin of the South Ural State University. Series \"Computational Mathematics and Software Engineering\"",
+    "container-title-short": "CMSE",
+    "id": "anon2013cmse130408",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "original-title": [
+      "Представление торговых сигналов на основе адаптивной скользящей средней Кауфмана в виде системы линейных неравенств"
+    ],
+    "publisher": "FSAEIHE South Ural State University (National Research University)",
+    "source": "Crossref",
+    "title": "REPRESENTATION OF TRADING SIGNALS BASED KAUFMAN ADAPTIVE MOVING AVERAGE AS A SYSTEM OF LINEAR INEQUALITIES",
+    "type": "article-journal",
+    "volume": "2"
+  },
+  {
+    "DOI": "10.1111/j.1540-6261.1992.tb04681.x",
+    "ISSN": "0022-1082",
+    "URL": "http://dx.doi.org/10.1111/j.1540-6261.1992.tb04681.x",
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>This paper tests two of the simplest and most popular trading rules—moving average and trading range break—by utilizing the Dow Jones Index from 1897 to 1986. Standard statistical analysis is extended through the use of bootstrap techniques. Overall, our results provide strong support for the technical strategies. The returns obtained from these strategies are not consistent with four popular null models: the random walk, the AR(1), the GARCH‐M, and the Exponential GARCH. Buy signals consistently generate higher returns than sell signals, and further, the returns following buy signals are less volatile than returns following sell signals, and further, the returns following buy signals are less volatile than returns following sell signals. Moreover, returns following sell signals are negative, which is not easily explained by any of the currently existing equilibrium models.</jats:p>",
+    "author": [
+      {
+        "family": "BROCK",
+        "given": "WILLIAM"
+      },
+      {
+        "family": "LAKONISHOK",
+        "given": "JOSEF"
+      },
+      {
+        "family": "LeBARON",
+        "given": "BLAKE"
+      }
+    ],
+    "container-title": "The Journal of Finance",
+    "container-title-short": "The Journal of Finance",
+    "id": "brock1992j15406261199",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          1992,
+          12
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "1731-1764",
+    "publisher": "Wiley",
+    "source": "Crossref",
+    "title": "Simple Technical Trading Rules and the Stochastic Properties of Stock Returns",
+    "type": "article-journal",
+    "volume": "47"
+  },
+  {
+    "DOI": "10.1111/0022-1082.00163",
+    "ISSN": "0022-1082",
+    "URL": "http://dx.doi.org/10.1111/0022-1082.00163",
+    "abstract": "<jats:p>In this paper we utilize White's Reality Check bootstrap methodology (White (1999)) to evaluate simple technical trading rules while quantifying the data‐snooping bias and fully adjusting for its effect in the context of the full universe from which the trading rules were drawn. Hence, for the first time, the paper presents a comprehensive test of performance across all technical trading rules examined. We consider the study of Brock, Lakonishok, and LeBaron (1992), expand their universe of 26 trading rules, apply the rules to 100 years of daily data on the Dow Jones Industrial Average, and determine the effects of data‐snooping.</jats:p>",
+    "author": [
+      {
+        "family": "Sullivan",
+        "given": "Ryan"
+      },
+      {
+        "family": "Timmermann",
+        "given": "Allan"
+      },
+      {
+        "family": "White",
+        "given": "Halbert"
+      }
+    ],
+    "container-title": "The Journal of Finance",
+    "container-title-short": "The Journal of Finance",
+    "id": "sullivan1999002210820016",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          1999,
+          10
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "1647-1691",
+    "publisher": "Wiley",
+    "source": "Crossref",
+    "title": "Data‐Snooping, Technical Trading Rule Performance, and the Bootstrap",
+    "type": "article-journal",
+    "volume": "54"
+  },
+  {
+    "DOI": "10.3390/e19110615",
+    "ISSN": "1099-4300",
+    "URL": "http://dx.doi.org/10.3390/e19110615",
+    "abstract": "<jats:p>Permutation entropy has become a standard tool for time series analysis that exploits the temporal and ordinal relationships within data. Motivated by a Kullback–Leibler divergence interpretation of permutation entropy as divergence from white noise, we extend pattern-based methods to the setting of random walk data. We analyze random walk null models for correlated time series and describe a method for determining the corresponding ordinal pattern distributions. These null models more accurately reflect the observed pattern distributions in some economic data. This leads us to define a measure of complexity using the deviation of a time series from an associated random walk null model. We demonstrate the applicability of our methods using empirical data drawn from a variety of fields, including to a variety of stock market closing prices.</jats:p>",
+    "author": [
+      {
+        "family": "DeFord",
+        "given": "Daryl"
+      },
+      {
+        "family": "Moore",
+        "given": "Katherine"
+      }
+    ],
+    "container-title": "Entropy",
+    "container-title-short": "Entropy",
+    "id": "deford2017e19110615",
+    "issue": "11",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          15
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "615",
+    "publisher": "MDPI AG",
+    "source": "Crossref",
+    "title": "Random Walk Null Models for Time Series Data",
+    "type": "article-journal",
+    "volume": "19"
+  },
+  {
+    "DOI": "10.21511/bbs.13(3).2018.06",
+    "ISSN": "1816-7403",
+    "URL": "http://dx.doi.org/10.21511/bbs.13(3).2018.06",
+    "abstract": "<jats:p>The aim of this study is to test a trading system based on the average directional index, which is complemented with the parabolic stop and reverse indicator. The trend-based system is tested onto the most actively traded USD based foreign currency pairs, using both monthly and weekly data set over 2000–2018. Sharpe and Sortino measures are used to track the performance of the currency pairs, based on total risk and downside risk assumptions. Results are robust tested by decomposing the data into pre and post 2008 financial crisis. Using an investment horizon over 18 years, the reliance upon the monthly model produced lower maximum drawdowns and lesser trades than the weekly model. While Swiss Franc had the best (worse) performance in the monthly (weekly) based model, the Chinese Renminbi witnessed the worse (best) performance in the monthly (weekly) based model. Pre and post financial crisis decompositions suggest the weekly-based system is more reliable than the monthly one with relatively more trades and positive performance, where the Chinese Renminbi and Japanese Yen posted the highest Sharpe and Sortino values of 0.996 and 4.452 respectively in the post crisis period. Proportionately high level of negative returns coupled with relatively low positive Sharpe and Sortino values, however, suggest that a trading system relying on the average directional index and parabolic stop and reverse indicator to be further tested and analyzed at higher frequencies.</jats:p>",
+    "author": [
+      {
+        "family": "Gurrib",
+        "given": "Ikhlaas"
+      }
+    ],
+    "container-title": "Banks and Bank Systems",
+    "container-title-short": "Banks and Bank Systems",
+    "id": "gurrib2018bbs133201806",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          10
+        ]
+      ]
+    },
+    "original-title": [
+      "Performance of the Average Directional Index as a market timing tool for the most actively traded USD based currency pairs"
+    ],
+    "page": "58-70",
+    "publisher": "LLC CPC Business Perspectives",
+    "source": "Crossref",
+    "title": "Performance of the Average Directional Index as a market timing tool for the most actively traded USD based currency pairs",
+    "type": "article-journal",
+    "volume": "13"
+  },
+  {
+    "DOI": "10.1016/j.csda.2006.07.021",
+    "ISSN": "0167-9473",
+    "URL": "http://dx.doi.org/10.1016/j.csda.2006.07.021",
+    "author": [
+      {
+        "family": "Bulla",
+        "given": "Jan"
+      },
+      {
+        "family": "Bulla",
+        "given": "Ingo"
+      }
+    ],
+    "container-title": "Computational Statistics &amp; Data Analysis",
+    "container-title-short": "Computational Statistics &amp; Data Analysis",
+    "id": "bulla2006jcsda2006070",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          12
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "2192-2209",
+    "publisher": "Elsevier BV",
+    "source": "Crossref",
+    "title": "Stylized facts of financial time series and hidden semi-Markov models",
+    "type": "article-journal",
+    "volume": "51"
+  },
+  {
+    "DOI": "10.1198/1061860032030",
+    "ISSN": "1061-8600",
+    "URL": "http://dx.doi.org/10.1198/1061860032030",
+    "author": [
+      {
+        "family": "Guédon",
+        "given": "Yann"
+      }
+    ],
+    "container-title": "Journal of Computational and Graphical Statistics",
+    "container-title-short": "Journal of Computational and Graphical Statistics",
+    "id": "gudon2003106186003203",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2003,
+          9
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "604-639",
+    "publisher": "Informa UK Limited",
+    "source": "Crossref",
+    "title": "Estimating Hidden Semi-Markov Chains From Discrete Sequences",
+    "type": "article-journal",
+    "volume": "12"
+  },
+  {
+    "DOI": "10.1016/j.artint.2009.11.011",
+    "ISSN": "0004-3702",
+    "URL": "http://dx.doi.org/10.1016/j.artint.2009.11.011",
+    "author": [
+      {
+        "family": "Yu",
+        "given": "Shun-Zheng"
+      }
+    ],
+    "container-title": "Artificial Intelligence",
+    "container-title-short": "Artificial Intelligence",
+    "id": "yu2010jartint20091",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          2
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "215-243",
+    "publisher": "Elsevier BV",
+    "source": "Crossref",
+    "title": "Hidden semi-Markov models",
+    "type": "article-journal",
+    "volume": "174"
+  },
+  {
+    "DOI": "10.1016/j.csda.2010.06.015",
+    "ISSN": "0167-9473",
+    "URL": "http://dx.doi.org/10.1016/j.csda.2010.06.015",
+    "author": [
+      {
+        "family": "Langrock",
+        "given": "R."
+      },
+      {
+        "family": "Zucchini",
+        "given": "W."
+      }
+    ],
+    "container-title": "Computational Statistics &amp; Data Analysis",
+    "container-title-short": "Computational Statistics &amp; Data Analysis",
+    "id": "langrock2011jcsda2010060",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "715-724",
+    "publisher": "Elsevier BV",
+    "source": "Crossref",
+    "title": "Hidden Markov models with arbitrary state dwell-time distributions",
+    "type": "article-journal",
+    "volume": "55"
+  },
+  {
+    "DOI": "10.1080/07350015.1994.10524543",
+    "ISSN": "0735-0015",
+    "URL": "http://dx.doi.org/10.1080/07350015.1994.10524543",
+    "author": [
+      {
+        "family": "Durland",
+        "given": "J. Michael"
+      },
+      {
+        "family": "McCurdy",
+        "given": "Thomas H."
+      }
+    ],
+    "container-title": "Journal of Business &amp; Economic Statistics",
+    "container-title-short": "Journal of Business &amp; Economic Statistics",
+    "id": "durland1994073500151994",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          1994,
+          7
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "279-288",
+    "publisher": "Informa UK Limited",
+    "source": "Crossref",
+    "title": "Duration-Dependent Transitions in a Markov Model of U.S. GNP Growth",
+    "type": "article-journal",
+    "volume": "12"
+  },
+  {
+    "DOI": "10.1080/07350015.2000.10524851",
+    "ISSN": "0735-0015",
+    "URL": "http://dx.doi.org/10.1080/07350015.2000.10524851",
+    "author": [
+      {
+        "family": "maheu",
+        "given": "John M."
+      },
+      {
+        "family": "McCurdy",
+        "given": "Thomas H."
+      }
+    ],
+    "container-title": "Journal of Business &amp; Economic Statistics",
+    "container-title-short": "Journal of Business &amp; Economic Statistics",
+    "id": "maheu2000073500152000",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2000,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "100-112",
+    "publisher": "Informa UK Limited",
+    "source": "Crossref",
+    "title": "Identifying Bull and Bear Markets in Stock Returns",
+    "type": "article-journal",
+    "volume": "18"
+  },
+  {
+    "DOI": "10.1561/2200000054",
+    "ISSN": "1935-8237",
+    "URL": "http://dx.doi.org/10.1561/2200000054",
+    "abstract": "<jats:p>Markov switching models (MSMs) are probabilistic models that employ multiple sets of parameters to describe different dynamic regimes that a time series may exhibit at different periods of time. The switching mechanism between regimes is controlled by unobserved random variables that form a first-order Markov chain. Explicit-duration MSMs contain additional variables that explicitly model the distribution of time spent in each regime. This allows to define duration distributions of any form, but also to impose complex dependence between the observations and to reset the dynamics to initial conditions. Models that focus on the first two properties are most commonly known as hidden semi-Markov models or segment models, whilst models that focus on the third property are most commonly known as changepoint models or reset models. In this monograph, we provide a description of explicitduration modelling by categorizing the different approaches into three groups, which differ in encoding in the explicit-duration variables different information about regime change/reset boundaries. The approaches are described using the formalism of graphical models, which allows to graphically represent and assess statistical dependence and therefore to easily describe the structure of complex models and derive inference routines. The presentation is intended to be pedagogical, focusing on providing a characterization of the three groups in terms of model structure constraints and inference properties. The monograph is supplemented with a software package that contains most of the models and examples described1. The material presented should be useful to both researchers wishing to learn about these models and researchers wishing to develop them further.</jats:p>",
+    "author": [
+      {
+        "family": "Chiappa",
+        "given": "Silvia"
+      }
+    ],
+    "container-title": "Foundations and Trends® in Machine Learning",
+    "id": "chiappa20142200000054",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          12,
+          23
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "803-886",
+    "publisher": "Emerald",
+    "source": "Crossref",
+    "title": "Explicit-Duration Markov Switching Models",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.1057/s41283-022-00112-y",
+    "ISSN": "1460-3799",
+    "URL": "http://dx.doi.org/10.1057/s41283-022-00112-y",
+    "author": [
+      {
+        "family": "Zakamulin",
+        "given": "Valeriy"
+      }
+    ],
+    "container-title": "Risk Management",
+    "container-title-short": "Risk Manag",
+    "id": "zakamulin2022s41283022001",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          23
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Springer Science and Business Media LLC",
+    "source": "Crossref",
+    "title": "Not all bull and bear markets are alike: insights from a five-state hidden semi-Markov model",
+    "type": "article-journal",
+    "volume": "25"
+  },
+  {
+    "DOI": "10.1016/j.frl.2021.101998",
+    "ISSN": "1544-6123",
+    "URL": "http://dx.doi.org/10.1016/j.frl.2021.101998",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Shixuan"
+      },
+      {
+        "family": "Gupta",
+        "given": "Rangan"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yue-Jun"
+      }
+    ],
+    "container-title": "Finance Research Letters",
+    "container-title-short": "Finance Research Letters",
+    "id": "wang2021jfrl20211019",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "101998",
+    "publisher": "Elsevier BV",
+    "source": "Crossref",
+    "title": "Bear, Bull, Sidewalk, and Crash: The Evolution of the US Stock Market Using Over a Century of Daily Data",
+    "type": "article-journal",
+    "volume": "43"
+  },
+  {
+    "DOI": "10.1007/s10479-024-05989-4",
+    "ISSN": "0254-5330",
+    "URL": "http://dx.doi.org/10.1007/s10479-024-05989-4",
+    "author": [
+      {
+        "family": "Qin",
+        "given": "Shanshan"
+      },
+      {
+        "family": "Tan",
+        "given": "Zhenni"
+      },
+      {
+        "family": "Wu",
+        "given": "Yuehua"
+      }
+    ],
+    "container-title": "Annals of Operations Research",
+    "container-title-short": "Ann Oper Res",
+    "id": "qin2024s10479024059",
+    "issue": "2-3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          26
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "1049-1081",
+    "publisher": "Springer Science and Business Media LLC",
+    "source": "Crossref",
+    "title": "On robust estimation of hidden semi-Markov regime-switching models",
+    "type": "article-journal",
+    "volume": "338"
+  },
+  {
+    "DOI": "10.3390/info10100322",
+    "ISSN": "2078-2489",
+    "URL": "http://dx.doi.org/10.3390/info10100322",
+    "abstract": "<jats:p>We implement hidden Markov models (HMMs) and hidden semi-Markov models (HSMMs) on Bitcoin/US dollar (BTC/USD) with the aim of market phase detection. We make analogous comparisons to Standard and Poor’s 500 (S and P 500), a benchmark traditional stock index and a protagonist of several studies in finance. Popular labels given to market phases are “bull”, “bear”, “correction”, and “rally”. In the first part, we fit HMMs and HSMMs and look at the evolution of hidden state parameters and state persistence parameters over time to ensure that states are correctly classified in terms of market phase labels. We conclude that our modelling approaches yield positive results in both BTC/USD and the S and P 500, and both are best modelled via four-state HSMMs. However, the two assets show different regime volatility and persistence patterns—BTC/USD has volatile bull and bear states and generally weak state persistence, while the S and P 500 shows lower volatility on the bull states and stronger state persistence. In the second part, we put our models to the test of detecting different market phases by devising investment strategies that aim to be more profitable on unseen data in comparison to a buy-and-hold approach. In both cases, for select investment strategies, four-state HSMMs are also the most profitable and significantly outperform the buy-and-hold strategy.</jats:p>",
+    "author": [
+      {
+        "family": "Suda",
+        "given": "David"
+      },
+      {
+        "family": "Spiteri",
+        "given": "Luke"
+      }
+    ],
+    "container-title": "Information",
+    "container-title-short": "Information",
+    "id": "suda2019info10100322",
+    "issue": "10",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          18
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "322",
+    "publisher": "MDPI AG",
+    "source": "Crossref",
+    "title": "Analysis and Comparison of Bitcoin and S and P 500 Market Features Using HMMs and HSMMs †",
+    "type": "article-journal",
+    "volume": "10"
+  },
+  {
+    "DOI": "10.1093/biomet/41.1-2.100",
+    "ISSN": "0006-3444",
+    "URL": "http://dx.doi.org/10.1093/biomet/41.1-2.100",
+    "author": [
+      {
+        "family": "PAGE",
+        "given": "E. S."
+      }
+    ],
+    "container-title": "Biometrika",
+    "container-title-short": "Biometrika",
+    "id": "page19544112100",
+    "issue": "1-2",
+    "issued": {
+      "date-parts": [
+        [
+          1954
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "100-115",
+    "publisher": "Oxford University Press (OUP)",
+    "source": "Crossref",
+    "title": "CONTINUOUS INSPECTION SCHEMES",
+    "type": "article-journal",
+    "volume": "41"
+  },
+  {
+    "DOI": "10.1214/aoms/1177693055",
+    "ISSN": "0003-4851",
+    "URL": "http://dx.doi.org/10.1214/aoms/1177693055",
+    "author": [
+      {
+        "family": "Lorden",
+        "given": "G."
+      }
+    ],
+    "container-title": "The Annals of Mathematical Statistics",
+    "container-title-short": "Ann. Math. Statist.",
+    "id": "lorden19711177693055",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          1971,
+          12
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "1897-1908",
+    "publisher": "Institute of Mathematical Statistics",
+    "source": "Crossref",
+    "title": "Procedures for Reacting to a Change in Distribution",
+    "type": "article-journal",
+    "volume": "42"
+  },
+  {
+    "DOI": "10.1080/00401706.1966.10490374",
+    "ISSN": "0040-1706",
+    "URL": "http://dx.doi.org/10.1080/00401706.1966.10490374",
+    "author": [
+      {
+        "family": "Roberts",
+        "given": "S. W."
+      }
+    ],
+    "container-title": "Technometrics",
+    "container-title-short": "Technometrics",
+    "id": "roberts1966004017061966",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          1966,
+          8
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "411-430",
+    "publisher": "Informa UK Limited",
+    "source": "Crossref",
+    "title": "A Comparison of Some Control Chart Procedures",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.1137/1108002",
+    "ISSN": "0040-585X",
+    "URL": "http://dx.doi.org/10.1137/1108002",
+    "abstract": "<jats:p>In this paper optimum methods are developed for observing a process (1), in which the moment when a “disorder” $\\theta$ appears is not known. The basic quantity characterizing the quality of this observation method is the mean time delay ${\\boldsymbol \\tau}$ for detection of a disorder.</jats:p>\n                  <jats:p>After making assumption (4) it is shown that for a given false alarm probability $\\omega$ or for a given ${\\bf N}$ — mathematical expectation of false alarm numbers occurring up to the moment the disorder appears — the observation method minimizing ${\\boldsymbol \\tau } = {\\boldsymbol \\tau } (\\omega)$ or ${\\boldsymbol \\tau} = {\\boldsymbol \\tau} ({\\boldsymbol N})$ is based on an observation of a posteriors probability (23).</jats:p>\n                  <jats:p>In § 3 a case is considered, wherein, the disorder appears on the background of steadystate conditions arising when the disorder is absent. A method is found for minimizing ${\\boldsymbol \\tau} = {\\boldsymbol \\tau} ({\\bf T})$ for a set ${\\bf T}$ — mathematical expectation of the time between two false alarms. The dependence ${\\boldsymbol \\tau} = {\\boldsymbol \\tau} ({\\bf T})$ is given by formula (36).</jats:p>",
+    "author": [
+      {
+        "family": "Shiryaev",
+        "given": "A. N."
+      }
+    ],
+    "container-title": "Theory of Probability &amp; Its Applications",
+    "container-title-short": "Theory Probab. Appl.",
+    "id": "shiryaev19631108002",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          1963,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "22-46",
+    "publisher": "Society for Industrial & Applied Mathematics (SIAM)",
+    "source": "Crossref",
+    "title": "On Optimum Methods in Quickest Detection Problems",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.1214/aos/1176346587",
+    "ISSN": "0090-5364",
+    "URL": "http://dx.doi.org/10.1214/aos/1176346587",
+    "author": [
+      {
+        "family": "Pollak",
+        "given": "Moshe"
+      }
+    ],
+    "container-title": "The Annals of Statistics",
+    "container-title-short": "Ann. Statist.",
+    "id": "pollak19851176346587",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          1985,
+          3,
+          1
+        ]
+      ]
+    },
+    "publisher": "Institute of Mathematical Statistics",
+    "source": "Crossref",
+    "title": "Optimal Detection of a Change in Distribution",
+    "type": "article-journal",
+    "volume": "13"
+  },
+  {
+    "DOI": "10.1214/aos/1176350373",
+    "ISSN": "0090-5364",
+    "URL": "http://dx.doi.org/10.1214/aos/1176350373",
+    "author": [
+      {
+        "family": "Pollak",
+        "given": "Moshe"
+      }
+    ],
+    "container-title": "The Annals of Statistics",
+    "container-title-short": "Ann. Statist.",
+    "id": "pollak19871176350373",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          1987,
+          6,
+          1
+        ]
+      ]
+    },
+    "publisher": "Institute of Mathematical Statistics",
+    "source": "Crossref",
+    "title": "Average Run Lengths of an Optimal Method of Detecting a Change in Distribution",
+    "type": "article-journal",
+    "volume": "15"
+  },
+  {
+    "DOI": "10.1214/aos/1176350164",
+    "ISSN": "0090-5364",
+    "URL": "http://dx.doi.org/10.1214/aos/1176350164",
+    "author": [
+      {
+        "family": "Moustakides",
+        "given": "George V."
+      }
+    ],
+    "container-title": "The Annals of Statistics",
+    "container-title-short": "Ann. Statist.",
+    "id": "moustakides19861176350164",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          1986,
+          12,
+          1
+        ]
+      ]
+    },
+    "publisher": "Institute of Mathematical Statistics",
+    "source": "Crossref",
+    "title": "Optimal Stopping Times for Detecting Changes in Distributions",
+    "type": "article-journal",
+    "volume": "14"
+  },
+  {
+    "DOI": "10.1109/18.737522",
+    "ISSN": "0018-9448",
+    "URL": "http://dx.doi.org/10.1109/18.737522",
+    "author": [
+      {
+        "family": "Tze Leung Lai"
+      }
+    ],
+    "container-title": "IEEE Transactions on Information Theory",
+    "container-title-short": "IEEE Trans. Inform. Theory",
+    "id": "tzeleunglai199818737522",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "page": "2917-2929",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "source": "Crossref",
+    "title": "Information bounds and quick detection of parameter changes in stochastic systems",
+    "type": "article-journal",
+    "volume": "44"
+  },
+  {
+    "DOI": "10.1007/s11009-011-9256-5",
+    "ISSN": "1387-5841",
+    "URL": "http://dx.doi.org/10.1007/s11009-011-9256-5",
+    "author": [
+      {
+        "family": "Polunchenko",
+        "given": "Aleksey S."
+      },
+      {
+        "family": "Tartakovsky",
+        "given": "Alexander G."
+      }
+    ],
+    "container-title": "Methodology and Computing in Applied Probability",
+    "container-title-short": "Methodol Comput Appl Probab",
+    "id": "polunchenko2011s11009011925",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          10,
+          8
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "649-684",
+    "publisher": "Springer Science and Business Media LLC",
+    "source": "Crossref",
+    "title": "State-of-the-Art in Sequential Change-Point Detection",
+    "type": "article-journal",
+    "volume": "14"
+  },
+  {
+    "DOI": "10.5705/ss.2011.026a",
+    "ISSN": "1017-0405",
+    "URL": "http://dx.doi.org/10.5705/ss.2011.026a",
+    "author": [
+      {
+        "family": "Moustakides",
+        "given": "George V."
+      },
+      {
+        "family": "Polunchenko",
+        "given": "Aleksey S."
+      },
+      {
+        "family": "Tartakovsky",
+        "given": "Alexander G."
+      }
+    ],
+    "container-title": "Statistica Sinica",
+    "container-title-short": "STAT Sinica",
+    "id": "moustakides2011ss2011026a",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          4
+        ]
+      ]
+    },
+    "page": "571",
+    "publisher": "Statistica Sinica (Institute of Statistical Science)",
+    "source": "Crossref",
+    "title": "A numerical approach to performance analysis of quickest change-point detection procedures",
+    "type": "article-journal",
+    "volume": "21"
+  },
+  {
+    "DOI": "10.1080/07474940802445790",
+    "ISSN": "0747-4946",
+    "URL": "http://dx.doi.org/10.1080/07474940802445790",
+    "author": [
+      {
+        "family": "Mei",
+        "given": "Yajun"
+      }
+    ],
+    "container-title": "Sequential Analysis",
+    "container-title-short": "Sequential Analysis",
+    "id": "mei2008074749408024",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          10,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "354-376",
+    "publisher": "Informa UK Limited",
+    "source": "Crossref",
+    "title": "Is Average Run Length to False Alarm Always an Informative Criterion?",
+    "type": "article-journal",
+    "volume": "27"
+  },
+  {
+    "DOI": "10.1007/s11009-018-9636-1",
+    "ISSN": "1387-5841",
+    "URL": "http://dx.doi.org/10.1007/s11009-018-9636-1",
+    "author": [
+      {
+        "family": "Kuhn",
+        "given": "J."
+      },
+      {
+        "family": "Mandjes",
+        "given": "M."
+      },
+      {
+        "family": "Taimre",
+        "given": "T."
+      }
+    ],
+    "container-title": "Methodology and Computing in Applied Probability",
+    "container-title-short": "Methodol Comput Appl Probab",
+    "id": "kuhn2018s11009018963",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          17
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "25-42",
+    "publisher": "Springer Science and Business Media LLC",
+    "source": "Crossref",
+    "title": "Practical Aspects of False Alarm Control for Change Point Detection: Beyond Average Run Length",
+    "type": "article-journal",
+    "volume": "21"
+  },
+  {
+    "DOI": "10.1098/rsta.2016.0298",
+    "ISSN": "1364-503X",
+    "URL": "http://dx.doi.org/10.1098/rsta.2016.0298",
+    "abstract": "<jats:p>The real-time detection of changes in a noisily observed signal is an important problem in applied science and engineering. The study of parametric optimal detection theory began in the 1930s, motivated by applications in production and defence. Today this theory, which aims to minimize a given measure of detection delay under accuracy constraints, finds applications in domains including radar, sonar, seismic activity, global positioning, psychological testing, quality control, communications and power systems engineering. This paper reviews developments in optimal detection theory and sequential analysis, including sequential hypothesis testing and change-point detection, in both Bayesian and classical (non-Bayesian) settings. For clarity of exposition, we work in discrete time and provide a brief discussion of the continuous time setting, including recent developments using stochastic calculus. Different measures of detection delay are presented, together with the corresponding optimal solutions. We emphasize the important role of the signal-to-noise ratio and discuss both the underlying assumptions and some typical applications for each formulation.</jats:p>\n                  <jats:p>This article is part of the themed issue ‘Energy management: flexibility, risk and optimization’.</jats:p>",
+    "author": [
+      {
+        "family": "Johnson",
+        "given": "P."
+      },
+      {
+        "family": "Moriarty",
+        "given": "J."
+      },
+      {
+        "family": "Peskir",
+        "given": "G."
+      }
+    ],
+    "container-title": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+    "container-title-short": "Phil. Trans. R. Soc. A.",
+    "id": "johnson2017rsta20160298",
+    "issue": "2100",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          10
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "20160298",
+    "publisher": "The Royal Society",
+    "source": "Crossref",
+    "title": "Detecting changes in real-time data: a user’s guide to optimal detection",
+    "type": "article-journal",
+    "volume": "375"
+  },
+  {
+    "DOI": "10.1111/j.1751-5823.2003.tb00205.x",
+    "ISSN": "0306-7734",
+    "URL": "http://dx.doi.org/10.1111/j.1751-5823.2003.tb00205.x",
+    "abstract": "<jats:title>Summary</jats:title><jats:p><jats:bold>Different criteria of optimality are used in different subcultures of statistical surveillance. One aim with this review is to bridge the gap between the different areas. The shortcomings of some criteria of optimality are demonstrated by their implications. Some commonly used methods are examined in detail, with respect to optimality. The examination is made for a standard situation in order to focus on the inferential principles. A uniform presentation of methods, by expressions of likelihood ratios, facilitates the comparisons between methods. The correspondences between criteria of optimality and methods are examined. The situations and parameter values for which some commonly used methods have optimality properties are thus determined. A linear approximation of the full likelihood ratio method, which satisfies several criteria of optimality, is presented. This linear approximation is used to examine when linear methods are approximately optimal. Methods for complicated situations are reviewed with respect to optimality and robustness.</jats:bold></jats:p>",
+    "author": [
+      {
+        "family": "Frisén",
+        "given": "Marianne"
+      }
+    ],
+    "container-title": "International Statistical Review",
+    "container-title-short": "Int Statistical Rev",
+    "id": "frisn2003j17515823200",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2003,
+          8
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "403-434",
+    "publisher": "Wiley",
+    "source": "Crossref",
+    "title": "Statistical Surveillance. Optimality and Methods",
+    "type": "article-journal",
+    "volume": "71"
+  },
+  {
+    "DOI": "10.1002/9780470987179.ch3",
+    "ISBN": "9780470061886",
+    "URL": "http://dx.doi.org/10.1002/9780470987179.ch3",
+    "author": [
+      {
+        "family": "Bock",
+        "given": "David"
+      },
+      {
+        "family": "Andersson",
+        "given": "Eva"
+      },
+      {
+        "family": "Frisén",
+        "given": "Marianne"
+      }
+    ],
+    "container-title": "Financial Surveillance",
+    "id": "bock2007978047098717",
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          12,
+          18
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "69-92",
+    "publisher": "Wiley",
+    "source": "Crossref",
+    "title": "The Relation between Statistical Surveillance and Technical Analysis in Finance",
+    "type": "document"
+  },
+  {
+    "DOI": "10.1371/journal.pone.0288627",
+    "ISSN": "1932-6203",
+    "URL": "http://dx.doi.org/10.1371/journal.pone.0288627",
+    "abstract": "<jats:p>The implementation of statistical techniques in on-line surveillance of financial markets has been frequently studied more recently. As a novel approach, statistical control charts which are famous tools for monitoring industrial processes, have been applied in various financial applications in the last three decades. The aim of this study is to propose a novel application of control charts called profile monitoring in the surveillance of the cryptocurrency markets. In this way, a new control chart is proposed to monitor the price variation of a pair of two most famous cryptocurrencies i.e., Bitcoin (BTC) and Ethereum (ETH). Parameter estimation, tuning and sensitivity analysis are conducted assuming that the random explanatory variable follows a symmetric normal distribution. The triggered signals from the proposed method are interpreted to convert the BTC and ETH at proper times to increase their total value. Hence, the proposed method could be considered a financial indicator so that its signal can lead to a tangible increase of the pair of assets. The performance of the proposed method is investigated through different parameter adjustments and compared with some common technical indicators under a real data set. The results show the acceptable and superior performance of the proposed method.</jats:p>",
+    "author": [
+      {
+        "family": "Yeganeh",
+        "given": "Ali"
+      },
+      {
+        "family": "Shongwe",
+        "given": "Sandile Charles"
+      }
+    ],
+    "container-title": "PLOS ONE",
+    "container-title-short": "PLoS ONE",
+    "editor": [
+      {
+        "family": "Bariviera",
+        "given": "Aurelio F."
+      }
+    ],
+    "id": "yeganeh2023journalpone0",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          20
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "e0288627",
+    "publisher": "Public Library of Science (PLoS)",
+    "source": "Crossref",
+    "title": "A novel application of statistical process control charts in financial market surveillance with the idea of profile monitoring",
+    "type": "article-journal",
+    "volume": "18"
+  },
+  {
+    "DOI": "10.1111/jtsa.12824",
+    "ISSN": "0143-9782",
+    "URL": "http://dx.doi.org/10.1111/jtsa.12824",
+    "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>In this article, we develop two families of sequential monitoring procedure to (timely) detect changes in the parameters of a GARCH(1,1) model. Our statistics can be applied irrespective of whether the historical sample is stationary or not, and indeed without previous knowledge of the regime of the observations before and after the break. In particular, we construct our detectors as the CUSUM process of the quasi‐Fisher scores of the log likelihood function. To ensure timely detection, we then construct our boundary function (exceeding which would indicate a break) by including a weighting sequence which is designed to shorten the detection delay in the presence of a changepoint. We consider two types of weights: a lighter set of weights, which ensures timely detection in the presence of changes occurring “early, but not too early” after the end of the historical sample; and a heavier set of weights, called “Rényi weights” which is designed to ensure timely detection in the presence of changepoints occurring very early in the monitoring horizon. In both cases, we derive the limiting distribution of the detection delays, indicating the expected delay for each set of weights. Our methodologies can be applied for a general analysis of changepoints in GARCH(1,1) sequences; however, they can also be applied to detect changes from stationarity to explosivity or vice versa, thus allowing to check for “volatility bubbles”, upon applying tests for stationarity before and after the identified break. Our theoretical results are validated via a comprehensive set of simulations, and an empirical application to daily returns of individual stocks.</jats:p>",
+    "author": [
+      {
+        "family": "Horváth",
+        "given": "Lajos"
+      },
+      {
+        "family": "Trapani",
+        "given": "Lorenzo"
+      },
+      {
+        "family": "Wang",
+        "given": "Shixuan"
+      }
+    ],
+    "container-title": "Journal of Time Series Analysis",
+    "container-title-short": "Journal Time Series Analysis",
+    "id": "horvth2025jtsa12824",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          23
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "981-996",
+    "publisher": "Wiley",
+    "source": "Crossref",
+    "title": "Sequential Monitoring for Changes in GARCH(1,1) Models Without Assuming Stationarity",
+    "type": "article-journal",
+    "volume": "46"
+  },
+  {
+    "DOI": "10.1093/jjfinec/nbab009",
+    "ISSN": "1479-8409",
+    "URL": "http://dx.doi.org/10.1093/jjfinec/nbab009",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>We generalize the Homm and Breitung (2012) CUSUM-based procedure for the real-time detection of explosive autoregressive episodes in financial price data to allow for time-varying volatility. Such behavior can heavily inflate the false positive rate (FPR) of the CUSUM-based procedure to spuriously signal the presence of an explosive episode. Our modified procedure involves replacing the standard variance estimate in the CUSUM statistics with a nonparametric kernel-based spot variance estimate. We show that the sequence of modified CUSUM statistics has a joint limiting null distribution which is invariant to any time-varying volatility present in the innovations and that this delivers a real-time monitoring procedure whose theoretical FPR is controlled. Simulations show that the modification is effective in controlling the empirical FPR of the procedure, yet sacrifices only a small amount of power to detect explosive episodes, relative to the standard procedure, when the shocks are homoskedastic. An empirical illustration using Bitcoin price data is provided.</jats:p>",
+    "author": [
+      {
+        "family": "Astill",
+        "given": "Sam"
+      },
+      {
+        "family": "Harvey",
+        "given": "David I"
+      },
+      {
+        "family": "Leybourne",
+        "given": "Stephen J"
+      },
+      {
+        "family": "Taylor",
+        "given": "A M Robert"
+      },
+      {
+        "family": "Zu",
+        "given": "Yang"
+      }
+    ],
+    "container-title": "Journal of Financial Econometrics",
+    "id": "astill2021nbab009",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "187-227",
+    "publisher": "Oxford University Press (OUP)",
+    "source": "Crossref",
+    "title": "CUSUM-Based Monitoring for Explosive Episodes in Financial Data in the Presence of Time-Varying Volatility",
+    "type": "article-journal",
+    "volume": "21"
+  },
+  {
+    "DOI": "10.1093/biomet/81.2.351",
+    "ISSN": "0006-3444",
+    "URL": "http://dx.doi.org/10.1093/biomet/81.2.351",
+    "author": [
+      {
+        "family": "BURMAN",
+        "given": "PRABIR"
+      },
+      {
+        "family": "CHOW",
+        "given": "EDMOND"
+      },
+      {
+        "family": "NOLAN",
+        "given": "DEBORAH"
+      }
+    ],
+    "container-title": "Biometrika",
+    "container-title-short": "Biometrika",
+    "id": "burman1994812351",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "351-358",
+    "publisher": "Oxford University Press (OUP)",
+    "source": "Crossref",
+    "title": "A cross-validatory method for dependent data",
+    "type": "article-journal",
+    "volume": "81"
+  },
+  {
+    "DOI": "10.1111/j.2517-6161.1994.tb01998.x",
+    "ISSN": "1369-7412",
+    "URL": "http://dx.doi.org/10.1111/j.2517-6161.1994.tb01998.x",
+    "abstract": "<jats:title>SUMMARY</jats:title>\n                  <jats:p>The problem of selecting the bandwidth of a kernel regression estimator when the observed data are serially correlated is considered. The bandwidth is selected by using a version of cross-validation that seeks a good one-step-ahead predictor of the data. This method, referred to as time series cross-validation (TSCV), simultaneously estimates an optimal bandwidth and, given a time series model for the errors, the autocorrelation function of the data. In addition, different time series models having the same number of parameters can be compared by using TSCV. Boundary kernels play a key role in the proposed methodology since one-step-ahead prediction entails extrapolating past the available data. Boundary kernels are used at the bandwidth selection stage, but ‘proper’ kernels are used to estimate the regression function. It is shown that smooth (i.e. at least continuous) boundary kernels have some robustness to misspecification of the error model. This means that a simple correlation model, such as the first-order autoregressive process, will often suffice for selecting a bandwidth. A simulation study and real data examples indicate the usefulness of TSCV for smoothing time series data.</jats:p>",
+    "author": [
+      {
+        "family": "Hart",
+        "given": "Jeffrey D."
+      }
+    ],
+    "container-title": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+    "id": "hart1994j25176161199",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          1994,
+          9,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "529-542",
+    "publisher": "Oxford University Press (OUP)",
+    "source": "Crossref",
+    "title": "Automated Kernel Smoothing of Dependent Data by Using Time Series Cross-Validation",
+    "type": "article-journal",
+    "volume": "56"
+  },
+  {
+    "DOI": "10.1016/s0304-4076(00)00030-0",
+    "ISSN": "0304-4076",
+    "URL": "http://dx.doi.org/10.1016/S0304-4076(00)00030-0",
+    "author": [
+      {
+        "family": "Racine",
+        "given": "Jeff"
+      }
+    ],
+    "container-title": "Journal of Econometrics",
+    "container-title-short": "Journal of Econometrics",
+    "id": "racine2000s03044076000",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2000,
+          11
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "39-61",
+    "publisher": "Elsevier BV",
+    "source": "Crossref",
+    "title": "Consistent cross-validatory model-selection for dependent data: hv-block cross-validation",
+    "type": "article-journal",
+    "volume": "99"
+  },
+  {
+    "DOI": "10.1016/j.ins.2011.12.028",
+    "ISSN": "0020-0255",
+    "URL": "http://dx.doi.org/10.1016/j.ins.2011.12.028",
+    "author": [
+      {
+        "family": "Bergmeir",
+        "given": "Christoph"
+      },
+      {
+        "family": "Benítez",
+        "given": "José M."
+      }
+    ],
+    "container-title": "Information Sciences",
+    "container-title-short": "Information Sciences",
+    "id": "bergmeir2012jins20111202",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "192-213",
+    "publisher": "Elsevier BV",
+    "source": "Crossref",
+    "title": "On the use of cross-validation for time series predictor evaluation",
+    "type": "article-journal",
+    "volume": "191"
+  },
+  {
+    "DOI": "10.1016/j.csda.2017.11.003",
+    "ISSN": "0167-9473",
+    "URL": "http://dx.doi.org/10.1016/j.csda.2017.11.003",
+    "author": [
+      {
+        "family": "Bergmeir",
+        "given": "Christoph"
+      },
+      {
+        "family": "Hyndman",
+        "given": "Rob J."
+      },
+      {
+        "family": "Koo",
+        "given": "Bonsoo"
+      }
+    ],
+    "container-title": "Computational Statistics &amp; Data Analysis",
+    "container-title-short": "Computational Statistics &amp; Data Analysis",
+    "id": "bergmeir2018jcsda2017110",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          4
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "70-83",
+    "publisher": "Elsevier BV",
+    "source": "Crossref",
+    "title": "A note on the validity of cross-validation for evaluating autoregressive time series prediction",
+    "type": "article-journal",
+    "volume": "120"
+  },
+  {
+    "DOI": "10.1007/s10994-020-05910-7",
+    "ISSN": "0885-6125",
+    "URL": "http://dx.doi.org/10.1007/s10994-020-05910-7",
+    "author": [
+      {
+        "family": "Cerqueira",
+        "given": "Vitor"
+      },
+      {
+        "family": "Torgo",
+        "given": "Luis"
+      },
+      {
+        "family": "Mozetič",
+        "given": "Igor"
+      }
+    ],
+    "container-title": "Machine Learning",
+    "container-title-short": "Mach Learn",
+    "id": "cerqueira2020s10994020059",
+    "issue": "11",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          13
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "1997-2028",
+    "publisher": "Springer Science and Business Media LLC",
+    "source": "Crossref",
+    "title": "Evaluating time series forecasting models: an empirical study on performance estimation methods",
+    "type": "article-journal",
+    "volume": "109"
+  },
+  {
+    "DOI": "10.1016/j.econlet.2023.111369",
+    "ISSN": "0165-1765",
+    "URL": "http://dx.doi.org/10.1016/j.econlet.2023.111369",
+    "author": [
+      {
+        "family": "Deng",
+        "given": "Ai"
+      }
+    ],
+    "container-title": "Economics Letters",
+    "container-title-short": "Economics Letters",
+    "id": "deng2023jeconlet2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "111369",
+    "publisher": "Elsevier BV",
+    "source": "Crossref",
+    "title": "Time series cross validation: A theoretical result and finite sample performance",
+    "type": "article-journal",
+    "volume": "233"
+  },
+  {
+    "DOI": "10.21314/jcf.2016.322",
+    "ISSN": "1460-1559",
+    "URL": "http://dx.doi.org/10.21314/jcf.2016.322",
+    "author": [
+      {
+        "family": "Bailey",
+        "given": "David"
+      },
+      {
+        "family": "Borwein",
+        "given": "Jonathan"
+      },
+      {
+        "family": "López de Prado",
+        "given": "Marcos"
+      },
+      {
+        "family": "Zhu",
+        "given": "Qiji Jim"
+      }
+    ],
+    "container-title": "The Journal of Computational Finance",
+    "container-title-short": "JCF",
+    "id": "bailey2016jcf2016322",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          9
+        ]
+      ]
+    },
+    "publisher": "Infopro Digital Services Limited",
+    "source": "Crossref",
+    "title": "The probability of backtest overfitting",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.2307/2171956",
+    "ISSN": "0012-9682",
+    "URL": "http://dx.doi.org/10.2307/2171956",
+    "author": [
+      {
+        "family": "West",
+        "given": "Kenneth D."
+      }
+    ],
+    "container-title": "Econometrica",
+    "container-title-short": "Econometrica",
+    "id": "west19962171956",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          1996,
+          9
+        ]
+      ]
+    },
+    "page": "1067",
+    "publisher": "JSTOR",
+    "source": "Crossref",
+    "title": "Asymptotic Inference about Predictive Ability",
+    "type": "article-journal",
+    "volume": "64"
+  },
+  {
+    "DOI": "10.1080/07350015.2012.693850",
+    "ISSN": "0735-0015",
+    "URL": "http://dx.doi.org/10.1080/07350015.2012.693850",
+    "author": [
+      {
+        "family": "Rossi",
+        "given": "Barbara"
+      },
+      {
+        "family": "Inoue",
+        "given": "Atsushi"
+      }
+    ],
+    "container-title": "Journal of Business &amp; Economic Statistics",
+    "container-title-short": "Journal of Business &amp; Economic Statistics",
+    "id": "rossi2012073500152012",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          7
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "432-453",
+    "publisher": "Informa UK Limited",
+    "source": "Crossref",
+    "title": "Out-of-Sample Forecast Tests Robust to the Choice of Window Size",
+    "type": "article-journal",
+    "volume": "30"
+  },
+  {
+    "DOI": "10.3982/ecta10581",
+    "ISSN": "0012-9682",
+    "URL": "http://dx.doi.org/10.3982/ecta10581",
+    "author": [
+      {
+        "family": "Hansen",
+        "given": "Peter Reinhard"
+      },
+      {
+        "family": "Timmermann",
+        "given": "Allan"
+      }
+    ],
+    "container-title": "Econometrica",
+    "container-title-short": "Econometrica",
+    "id": "hansen2015ecta10581",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "2485-2505",
+    "publisher": "The Econometric Society",
+    "source": "Crossref",
+    "title": "Equivalence Between Out-of-Sample Forecast Comparisons and Wald Statistics",
+    "type": "article-journal",
+    "volume": "83"
+  },
+  {
+    "DOI": "10.1016/j.jbankfin.2016.07.017",
+    "ISSN": "0378-4266",
+    "URL": "http://dx.doi.org/10.1016/j.jbankfin.2016.07.017",
+    "author": [
+      {
+        "family": "Kolev",
+        "given": "Gueorgui I."
+      },
+      {
+        "family": "Karapandza",
+        "given": "Rasa"
+      }
+    ],
+    "container-title": "Journal of Banking &amp; Finance",
+    "container-title-short": "Journal of Banking &amp; Finance",
+    "id": "kolev2017jjbankfin201",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "188-201",
+    "publisher": "Elsevier BV",
+    "source": "Crossref",
+    "title": "Out-of-sample equity premium predictability and sample split–invariant inference",
+    "type": "article-journal",
+    "volume": "84"
+  },
+  {
+    "DOI": "10.1002/for.3013",
+    "ISSN": "0277-6693",
+    "URL": "http://dx.doi.org/10.1002/for.3013",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>It is a common practice to split a time series into an in‐sample and pseudo‐out‐of‐sample segments and estimate the out‐of‐sample loss for a given statistical model by evaluating forecasting performance over the pseudo‐out‐of‐sample segment. We propose an alternative estimator of the out‐of‐sample loss, which, contrary to the conventional wisdom, utilizes criteria measured both in‐ and out‐of‐sample via a carefully constructed system of affine weights. We prove that, provided that the time series is stationary, the proposed estimator is the best linear unbiased estimator of the out‐of‐sample loss and outperforms the conventional estimator in terms of sampling variability. Application of the optimal estimator to Diebold–Mariano type tests of predictive ability leads to a substantial power gain without increasing finite sample size distortions. An extensive evaluation on real‐world time series from the M4 forecasting competition confirms superiority of the proposed estimator and also demonstrates substantial robustness to violations of the underlying assumption of stationarity.</jats:p>",
+    "author": [
+      {
+        "family": "Staněk",
+        "given": "Filip"
+      }
+    ],
+    "container-title": "Journal of Forecasting",
+    "container-title-short": "Journal of Forecasting",
+    "id": "stank2023for3013",
+    "issue": "8",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "2249-2279",
+    "publisher": "Wiley",
+    "source": "Crossref",
+    "title": "Optimal out‐of‐sample forecast evaluation under stationarity",
+    "type": "article-journal",
+    "volume": "42"
+  },
+  {
+    "DOI": "10.48550/arXiv.2003.06222",
+    "URL": "https://arxiv.org/abs/2003.06222",
+    "abstract": "Change point detection is an important part of time series analysis, as the presence of a change point indicates an abrupt and significant change in the data generating process. While many algorithms for change point detection have been proposed, comparatively little attention has been paid to evaluating their performance on real-world time series. Algorithms are typically evaluated on simulated data and a small number of commonly-used series with unreliable ground truth. Clearly this does not provide sufficient insight into the comparative performance of these algorithms. Therefore, instead of developing yet another change point detection method, we consider it vastly more important to properly evaluate existing algorithms on real-world data. To achieve this, we present a data set specifically designed for the evaluation of change point detection algorithms that consists of 37 time series from various application domains. Each series was annotated by five human annotators to provide ground truth on the presence and location of change points. We analyze the consistency of the human annotators, and describe evaluation metrics that can be used to measure algorithm performance in the presence of multiple ground truth annotations. Next, we present a benchmark study where 14 algorithms are evaluated on each of the time series in the data set. Our aim is that this data set will serve as a proving ground in the development of novel change point detection algorithms.",
+    "author": [
+      {
+        "family": "Burg",
+        "given": "Gerrit J. J. van den"
+      },
+      {
+        "family": "Williams",
+        "given": "Christopher K. I."
+      }
+    ],
+    "id": "vandenburg2020evalcpd",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "arXiv",
+    "title": "An Evaluation of Change Point Detection Algorithms",
+    "type": "article",
+    "version": "3"
+  }
+]

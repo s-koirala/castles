@@ -1,0 +1,505 @@
+{
+ "query_id": "fc-openalex-leyvarian1994",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-21",
+ "seed_definition": "D47",
+ "seed_doi": "10.1080/758526902",
+ "seed_openalex_id": "W1964342500",
+ "seed_cited_by_count_reported": 70,
+ "query_url_verbatim": [
+  "https://api.openalex.org/works?filter=cites:W1964342500&per-page=200&select=id,doi,title,publication_year,type&cursor=*"
+ ],
+ "n_records_retrieved": 70,
+ "items": [
+  {
+   "openalex_id": "https://openalex.org/W3121371786",
+   "doi": "https://doi.org/10.1016/j.rfe.2006.04.001",
+   "title": "Psychological barriers in gold prices?",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121359055",
+   "doi": "https://doi.org/10.1093/rfs/hhu044",
+   "title": "Cognitive Limitation and Investment Performance: Evidence from Limit Order Clustering",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122987879",
+   "doi": "https://doi.org/10.1287/mnsc.2016.2701",
+   "title": "Do Superstitious Traders Lose Money?",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2556409592",
+   "doi": "https://doi.org/10.20897/lectito.201639",
+   "title": "Looking for Psychological Barriers in nine European Stock Market Indices",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2157176160",
+   "doi": "https://doi.org/10.1080/00031305.1996.10473558",
+   "title": "On the Peculiar Distribution of the U.S. Stock Indexes' Digits",
+   "year": 1996,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2072001776",
+   "doi": "https://doi.org/10.1002/fut.2",
+   "title": "Clustering and psychological barriers: the importance of numbers",
+   "year": 2001,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125088490",
+   "doi": "https://doi.org/10.1016/j.euroecorev.2005.09.001",
+   "title": "Price clustering and natural resistance points in the Dutch stock market: A natural experiment",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1976885567",
+   "doi": "https://doi.org/10.1080/13504850500425667",
+   "title": "Benford's law and naturally occurring prices in certain ebaY auctions",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1998915990",
+   "doi": "https://doi.org/10.1016/s0927-5398(97)00024-8",
+   "title": "On the hypothesis of psychological barriers in stock markets and Benford's Law",
+   "year": 1998,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1981676911",
+   "doi": "https://doi.org/10.1016/j.jfineco.2011.04.003",
+   "title": "Investor attention, psychological anchors, and stock return predictability",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3121591069",
+   "doi": "https://doi.org/10.1016/j.pacfin.2007.04.005",
+   "title": "Culture and stock price clustering: Evidence from The Peoples' Republic of China",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3048908071",
+   "doi": "https://doi.org/10.1016/j.respol.2020.104084",
+   "title": "Detecting academic fraud using Benford law: The case of Professor James Hunton",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2023490301",
+   "doi": "https://doi.org/10.1016/j.intfin.2005.03.003",
+   "title": "Clustering and psychological barriers in exchange rates",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2079997916",
+   "doi": "https://doi.org/10.1016/s1058-3300(99)00002-6",
+   "title": "Evidence of psychological barriers in the conditional moments of major world stock indices",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1734232311",
+   "doi": "https://doi.org/10.1177/0148558x0401900202",
+   "title": "Reducing False Alarms in the Detection of Human Influence on Data",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2015389308",
+   "doi": "https://doi.org/10.1016/j.gfj.2008.09.001",
+   "title": "Psychological barriers in European stock markets: Where are they?",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2099830541",
+   "doi": "https://doi.org/10.1111/j.1467-629x.2007.00221.x",
+   "title": "Influence of cultural factors on price clustering and price resistance in China's stock markets",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2284019794",
+   "doi": "https://doi.org/10.1016/j.najef.2016.01.006",
+   "title": "Invisible walls: Do psychological barriers really exist in stock index levels?",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2969410443",
+   "doi": "https://doi.org/10.1108/rbf-03-2019-0041",
+   "title": "Psychological barriers in the cryptocurrency market",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2327508611",
+   "doi": "https://doi.org/10.1002/fut.21648",
+   "title": "Psychological Barriers and Option Pricing",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4281294218",
+   "doi": "https://doi.org/10.1007/s10479-022-04742-z",
+   "title": "Statistical methods for decision support systems in finance: how Benford’s law predicts financial risk",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2755596952",
+   "doi": "https://doi.org/10.1080/15427560.2017.1366492",
+   "title": "Do Price Barriers Exist in the European Carbon Market?",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2112177858",
+   "doi": "https://doi.org/10.2307/2331170",
+   "title": "Price Barriers and the Dynamics of Asset Prices in Equilibrium",
+   "year": 1997,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1993416551",
+   "doi": "https://doi.org/10.1016/j.rfe.2015.02.004",
+   "title": "Tracking exchange rate management in Latin America",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2739665264",
+   "doi": "https://doi.org/10.1080/15427560.2017.1344675",
+   "title": "Crossing of Psychological Price Levels: The Price Dynamics and Interaction between S&amp;P500 Index and Index Futures",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3049992737",
+   "doi": "https://doi.org/10.1108/rbf-05-2020-0099",
+   "title": "Psychological barriers in the electric market: study applied to the Nord Pool market",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1985746682",
+   "doi": "https://doi.org/10.1198/0003130042782",
+   "title": "First Significant Digit Patterns From Mixtures of Uniform Distributions",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122746345",
+   "doi": "https://doi.org/10.1080/14697680400008650",
+   "title": "Technical trading and the volatility of exchange rates",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2023088072",
+   "doi": "https://doi.org/10.1016/j.jempfin.2011.05.010",
+   "title": "Stock market trading activity and returns around milestones",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2165048824",
+   "doi": "https://doi.org/10.5539/ijbm.v9n4p160",
+   "title": "Benford’s Law and an Analysis in Istanbul Stock Exchange (BIST)",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2028302622",
+   "doi": "https://doi.org/10.1109/icmss.2010.5575999",
+   "title": "Does Chinese Stock Indices Agree with Benford's Law?",
+   "year": 2010,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2560546025",
+   "doi": "https://doi.org/10.1016/j.cesjef.2016.10.005",
+   "title": "Psychological barriers in stock market indices: Evidence from four southern European countries",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2151985395",
+   "doi": "https://doi.org/10.1080/0960310042000164211",
+   "title": "Number preference in Australian stocks",
+   "year": 2004,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1970628735",
+   "doi": "https://doi.org/10.1080/13504850802631814",
+   "title": "Benford's Law and psychological barriers in certain eBay auctions",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2591749060",
+   "doi": null,
+   "title": "Psychological Barriers and Prices Behaviour of TAIFEX Futures",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2795358937",
+   "doi": "https://doi.org/10.7819/rbgn.v20i2.3049",
+   "title": "Psychological Barriers in Single Stock Prices: Evidence from Three Emerging Markets",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4385249589",
+   "doi": "https://doi.org/10.1016/j.jcomm.2023.100350",
+   "title": "Psychological price barriers, El Niño, La Niña: New insights for the case of coffee",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1973892723",
+   "doi": "https://doi.org/10.1080/10242694.2013.763438",
+   "title": "Detecting Problems in Military Expenditure Data Using Digital Analysis",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4406204528",
+   "doi": "https://doi.org/10.1016/j.jbef.2025.101020",
+   "title": "Examining psychological barriers in exchange rates across various regimes and FX intervention",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2148309280",
+   "doi": "https://doi.org/10.1080/1351847042000254194",
+   "title": "Price exhaustion and number preference: time and price confluence in Australian stock prices",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1593256661",
+   "doi": null,
+   "title": "Magic numbers in the Dow",
+   "year": 2006,
+   "type": "book"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2278012549",
+   "doi": "https://doi.org/10.1515/nybj-2015-0001",
+   "title": "Price Clustering and Price Barriers: International Evidence",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3006589075",
+   "doi": "https://doi.org/10.4067/s0718-88702020000200029",
+   "title": "Do psychological barriers exist in Latin American stock markets?",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W271719185",
+   "doi": "https://doi.org/10.2753/ces1097-1475470104",
+   "title": "Herding on Ending Digits in Security Trading",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2139129412",
+   "doi": "https://doi.org/10.2139/ssrn.417321",
+   "title": "Price Clustering and Natural Resistance Points in the Dutch Stock Market: A Natural Experiment",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2149379781",
+   "doi": "https://doi.org/10.2139/ssrn.669761",
+   "title": "Psychological Barriers in Gold Prices?",
+   "year": 2005,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1561314797",
+   "doi": null,
+   "title": "Price Clustering and Natural Resistance Points in the Dutch Stock Market",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2234592528",
+   "doi": "https://doi.org/10.2139/ssrn.728544",
+   "title": "Nines in the Endings of Stock Prices",
+   "year": 2005,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1861646969",
+   "doi": "https://doi.org/10.2139/ssrn.2478124",
+   "title": "Do Superstitious Traders Lose Money?",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2082656300",
+   "doi": "https://doi.org/10.2139/ssrn.601523",
+   "title": "Culture and Stock Price Clustering: Evidence from the Peoples' Republic of China",
+   "year": 2004,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2285118996",
+   "doi": "https://doi.org/10.2139/ssrn.2733605",
+   "title": "Mind the Gap: Psychological Barriers in Gold and Silver Prices",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2152202542",
+   "doi": "https://doi.org/10.48550/arxiv.math/0607168",
+   "title": "Benford's law from 1881 to 2006",
+   "year": 2006,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2131978116",
+   "doi": null,
+   "title": "Number preference in Australian stock prices",
+   "year": 2003,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3123378700",
+   "doi": null,
+   "title": "A Critical Evaluation of the Significance of Round Numbers in European Equity Markets in Light of the Predictions from Benford’s Law",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2087669884",
+   "doi": "https://doi.org/10.1007/bf03178939",
+   "title": "A new approach to stock price modelling and the efficiency of the Italian stock exchange",
+   "year": 1999,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1968408239",
+   "doi": null,
+   "title": "Technical Trading and the Volatility of Exchange Rates",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1561026478",
+   "doi": null,
+   "title": "Noise Traders'Trigger Rates, FX Options, and Smiles",
+   "year": 2000,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2096663540",
+   "doi": null,
+   "title": "Psychological Barriers in Asian Equity Markets",
+   "year": 2013,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2103073367",
+   "doi": null,
+   "title": "Leverage, Derivatives, and Asset Markets",
+   "year": 2015,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2136091213",
+   "doi": "https://doi.org/10.34626/vbek-kt09",
+   "title": "Psychological Barriers in the Eurozone's Stock Indices",
+   "year": 2014,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2275375047",
+   "doi": null,
+   "title": "Psychological barriers in individual stocks in the United States",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2523426804",
+   "doi": "https://doi.org/10.2139/ssrn.2826647",
+   "title": "Volatility Derivatives and Downside Risk",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2775421772",
+   "doi": "https://doi.org/10.34626/sv3p-jg16",
+   "title": "Psychological Barriers in the Latin America´s Stock Indices",
+   "year": 2017,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2782431219",
+   "doi": "https://doi.org/10.1007/s12297-017-0396-8",
+   "title": "Aufdeckung von Versicherungsbetrug bei Kfz-Schäden mit Hilfe des Benford-Tests",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2905121131",
+   "doi": "https://doi.org/10.34626/qwkf-tw16",
+   "title": "Psychological Barriers in Three Markets with Different Profiles: ADR, ETF and Cryptocurrencies",
+   "year": 2018,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3123234497",
+   "doi": null,
+   "title": "Tracking the Exchange Rate Management in Latin America",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3128733488",
+   "doi": "https://doi.org/10.2139/ssrn.3683099",
+   "title": "Proximity Bias Leading to Psychological Barriers in Pakistani Stock Market at Index Level",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4392566859",
+   "doi": "https://doi.org/10.2139/ssrn.4718961",
+   "title": "Can Daily Closing Prices Predict Future Movements? The Role of Limit Order Clustering",
+   "year": 2024,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4400961691",
+   "doi": "https://doi.org/10.1108/bjm-10-2023-0407",
+   "title": "Exploring the psychology of price barriers in Baltic stock markets",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4413500862",
+   "doi": "https://doi.org/10.21511/imfi.22(3).2025.21",
+   "title": "Mind over market: Impact of investor sentiment on the Indian stock market",
+   "year": 2025,
+   "type": "article"
+  }
+ ]
+}

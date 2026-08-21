@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-03",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=identifying+states+financial+market+correlation+structure&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 4386246,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1016/j.irfa.2017.11.001",
+   "title": "A top-down approach to identifying bull and bear market states",
+   "year": 2018,
+   "container": "International Review of Financial Analysis",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1093/law/9780198865858.003.0016",
+   "title": "Central Securities Depositories in the United States",
+   "year": 2021,
+   "container": "Financial Market Infrastructures: Law and Regulation",
+   "type": "book-chapter",
+   "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>This chapter studies the US central securities depositories (CSDs) landscape, reviewing the market structure and regulatory regime of CSDs. The US financial system has a unique structure for CSDs. The only CSD in the United States, The Depository Trust Company (DTC), is both (i) member-owned and operated and (ii) not directly affiliated with any trading venue. The chapter provides a general overview of the services that DTC offers and the touch points where different practitioners will generally interact with DTC. Particularly, it discusses the process for becoming a member of DTC or making a security eligible in DTC. The chapter also looks at the different transactions DTC provides and why practitioners would want to use those transactions or seek to transact through a stock exchange or similar trading venue. Finally, the chapter examines the general legal framework for CSDs in the United States and how practitioners and members of the public can influence DTC policy.</jats:p>"
+  },
+  {
+   "DOI": "10.1016/j.physa.2010.12.027",
+   "title": "Identifying the structure of group correlation in the Korean financial market",
+   "year": 2011,
+   "container": "Physica A: Statistical Mechanics and its Applications",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/096031098333195",
+   "title": "International correlation structure of financial market movements - the evidence from the UK and the US",
+   "year": 1998,
+   "container": "Applied Financial Economics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4337/9781845428143.00023",
+   "title": "A New Financial Market Structure for East Asia: How to Promote Regional Financial Market Integration",
+   "year": 2005,
+   "container": "A New Financial Market Structure for East Asia",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.5089/9781451845686.001.a001",
+   "title": "Financial Liberalization, Bank Market Structure, and Financial Deepening",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1038/srep00644",
+   "title": "Identifying States of a Financial Market",
+   "year": 2012,
+   "container": "Scientific Reports",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.5040/9798216976318.ch-001",
+   "title": "United Kingdom Financial Regulation in the Context of the European Community Single Market Program for Financial Services",
+   "year": 1994,
+   "container": "Law and Structure of the International Financial System",
+   "type": "other",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-22",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Kaufman+Trading+Systems+and+Methods&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 6301252,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1002/9781119202561",
+   "title": "Trading Systems and Methods",
+   "year": 2012,
+   "container": "",
+   "type": "edited-book",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119202561.ch16",
+   "title": "Day Trading",
+   "year": 2012,
+   "container": "Trading Systems and Methods",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119202561.ch8",
+   "title": "Trend Systems",
+   "year": 2012,
+   "container": "Trading Systems and Methods",
+   "type": "other",
+   "abstract": ""
+  }
+ ]
+}

@@ -229,7 +229,8 @@ provisional by the charter's own standard.
   single-screener, PRISMA-partial survey; its own declared gaps include that no full
   text was read for any record and no forward-citation search was run, so the count
   of definitions-with-a-test is a **lower bound**.
-- **Layer:** `undetermined`, and deliberately so.
+- **Layer:** `data` — ~~`undetermined`~~ (original assignment, superseded by
+  the obtained discriminating observation; see the 2026-08-21 addendum below).
   - *Alternatives considered:* `source-artifact` (the literature tested what was
     testable and the gap reflects publication practice), `question` (Class N
     existence may not be identified without an exogenous anchor — which is precisely
@@ -251,6 +252,50 @@ provisional by the charter's own standard.
 - **Verified:** counts and taxonomy are the survey's own, verified programmatically
   by it as exact and disjoint over all 76. Not independently re-verified.
 - **Autopsy:** not written. This row and F001 are the two that would most repay one.
+- **ADDENDUM 2026-08-21 — discriminating observation OBTAINED; layer promoted
+  `undetermined` → `data` under the charter's promotion rule.** The recorded
+  observation (forward-citation search from the seven tested definitions plus a
+  targeted Class-N existence-test search) was executed under
+  [deliverable_spec_phase1-sweep_2026-08-21.md](docs/deliverables/deliverable_spec_phase1-sweep_2026-08-21.md);
+  full record at
+  [lit_review_f005-class-n-tests_2026-08-21.md](docs/literature/lit_review_f005-class-n-tests_2026-08-21.md)
+  (3,769 identified / 1,948 screened / 7 included; 1,825 distinct citing works
+  across the seven seeds).
+  - **The headline claim "not one Class N definition has ever had its existence
+    tested" is refuted as stated.**
+    [Garzarelli, Cristelli, Pompa, Zaccaria & Pietronero 2014](https://doi.org/10.1038/srep04487)
+    (*Scientific Reports* 4:4487, peer-reviewed, read in full via
+    arXiv:1110.5197 v1 — whose author list lacks Pompa; the published version
+    carries five authors) tests a path-derived trailing-extremum level — fully
+    affine-equivariant, Class N — via conditional bounce probability against a
+    shuffled-return null: deflection significantly above chance, increasing in
+    prior bounces, at 45–90 s timescales (not 180 s), LSE tick data.
+    Peer-reviewed boundary evidence: Driessen, Lin & Van Hemert 2013; Huddart,
+    Lang & Yetman 2009; Mizrach & Weerts 2009.
+  - *Why `data`:* the tests exist and the survey missed them. Sharpening:
+    Garzarelli was **retrieved by the survey (q-arxiv-01) but bulk-excluded
+    without a coded reason**, and the 52-week-high family was never retrieved
+    (vocabulary: "supports and resistances" defeats the phrase query "support
+    and resistance"). The alternative layers (`source-artifact`, `question`)
+    are not supported: the gap was recall, not publication practice or
+    identification.
+  - **Two narrower negatives survive:** (a) no located Class N existence test
+    uses a charter-admissible null — Garzarelli's shuffled-return surrogate is
+    exactly the return-resampling class branch 1 rules inadmissible; (b) no
+    **located** source reports a confidence interval on a level location —
+    coverage-bounded, not universal (~1,354 of 1,948 screened titles matched
+    neither keyword net and were not individually read; f005 review §10). The
+    unbounded form of exactly this claim is what this addendum refutes.
+  - **Transferable positive — WEAKENED.** The original claim ("the testability
+    gap tracks the identification problem, not neglect") is contradicted in
+    part: at least one Class N existence test was published and simply missed,
+    so neglect-of-retrieval explains part of the gap. What survives: no Class N
+    test with an *admissible* null exists, and that narrower gap does still
+    track the identification problem (a path-derived level needs a surrogate;
+    every published attempt reached for the inadmissible resampling class).
+  - *Unadjudicable candidate flagged:* SSRN 3021585 ("Faulty Anchors",
+    52-week-high family) — no abstract retrievable at any API, SSRN 403;
+    potentially a further included record.
 
 ## Column health check
 

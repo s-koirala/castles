@@ -1,0 +1,100 @@
+{
+ "query_id": "q-s2-02",
+ "platform": "Semantic Scholar Graph API (api.semanticscholar.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.semanticscholar.org/graph/v1/paper/search?query=identifying%20market%20states%20correlation%20clustering&fields=title,year,venue,externalIds,citationCount&limit=10",
+ "total_results_reported": 4135,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "paperId": "229f81ae7defb9920a56bbb45f6b51b298668b68",
+   "DOI": "10.1088/1742-5468/accce0",
+   "arXiv": "2208.14106",
+   "title": "Identifying dominant industrial sectors in market states of the S&P 500 financial data",
+   "year": 2022,
+   "venue": "Journal of Statistical Mechanics: Theory and Experiment",
+   "cited_by": 7
+  },
+  {
+   "paperId": "af4251d95bc3669a135030659bf535dff034ca3c",
+   "DOI": "10.1007/s44248-025-00035-5",
+   "arXiv": "",
+   "title": "Portfolio selection based on market states acquired via price and non-price data",
+   "year": 2025,
+   "venue": "Discover Data",
+   "cited_by": 0
+  },
+  {
+   "paperId": "225cec4f645cc9d5bf310a94fe308b40cbca585b",
+   "DOI": "10.48550/arXiv.2510.00953",
+   "arXiv": "2510.00953",
+   "title": "Modeling Market States with Clustering and State Machines",
+   "year": 2025,
+   "venue": "arXiv.org",
+   "cited_by": 0
+  },
+  {
+   "paperId": "8efca9ee10fea1cff561176f30f5d7b885bb350a",
+   "DOI": "10.1142/s0217979222501375",
+   "arXiv": "",
+   "title": "Identifying oil market states based on structure and evolution of the international crude oil trade networks",
+   "year": 2022,
+   "venue": "International Journal of Modern Physics B",
+   "cited_by": 2
+  },
+  {
+   "paperId": "e13425dd27b42f9a3b6a9364dc35e65ea43cb5d9",
+   "DOI": "10.1186/s12887-023-04073-3",
+   "arXiv": "",
+   "title": "Identifying spatial clustering of diarrhoea among children under 5 years across 707 districts in India: a cross sectional study",
+   "year": 2023,
+   "venue": "BMC Pediatrics",
+   "cited_by": 20
+  },
+  {
+   "paperId": "e9c7038caa75548c7e8e96914cb9a49441578a9b",
+   "DOI": "10.3390/jrfm15010024",
+   "arXiv": "",
+   "title": "Multiscale Partial Correlation Clustering of Stock Market Returns",
+   "year": 2022,
+   "venue": "Journal of Risk and Financial Management",
+   "cited_by": 16
+  },
+  {
+   "paperId": "7b1ee35e64207db61c8e3dc05eb23718e2acc352",
+   "DOI": "",
+   "arXiv": "2107.05663",
+   "title": "Dynamics of the market states in the space of correlation matrices with applications to financial markets",
+   "year": 2021,
+   "venue": "",
+   "cited_by": 8
+  },
+  {
+   "paperId": "3475d524e3b2b59ce901d3009bb7b0318867a4c0",
+   "DOI": "10.1186/s12889-023-15895-2",
+   "arXiv": "",
+   "title": "Identifying labour market pathways after a 30-day-long sickness absence –a three-year sequence analysis study in Finland",
+   "year": 2023,
+   "venue": "BMC Public Health",
+   "cited_by": 7
+  },
+  {
+   "paperId": "bc9d849ab84c2d43e43922a2d520fad6775de148",
+   "DOI": "",
+   "arXiv": "2505.24831",
+   "title": "Optimising cryptocurrency portfolios through stable clustering of price correlation networks",
+   "year": 2025,
+   "venue": "",
+   "cited_by": 2
+  },
+  {
+   "paperId": "cf366239fb0ae02ad74734dd91f41e44b1647d1f",
+   "DOI": "10.1088/1367-2630/aae7e0",
+   "arXiv": "1809.00885",
+   "title": "Identifying long-term precursors of financial market crashes using correlation patterns",
+   "year": 2018,
+   "venue": "New Journal of Physics",
+   "cited_by": 50
+  }
+ ]
+}

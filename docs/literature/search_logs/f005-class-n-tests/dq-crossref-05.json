@@ -1,0 +1,90 @@
+{
+ "query_id": "dq-crossref-05",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=52-week+high+anchoring+price+barrier+stock&rows=10&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 5140686,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.1087391",
+   "title": "Trading Volume, Price Momentum, and the 52-Week High Price Momentum Strategy in the Saudi Stock Market",
+   "year": 2008,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "This paper investigates the existence of a pure momentum strategy in the Saudi stock market (SSM), the largest market in the Middle East and one of the fastest growing markets in the world. Price momentum profitability in the SSM is very similar in magnitude and significance to these found in developed market. We also find that trading volume affects the profitability of a momentum strategy. Stocks possessing momentum combined with a high volume during the previous 3, 6, 9, and 12 months continue to perform better in the following 3, 6, 9, and 12 months than stocks with a low trading volume. T"
+  },
+  {
+   "DOI": "10.58837/chula.the.2009.712",
+   "title": "The comparison of volume-based 52-week high price momentum and volume-based stock return momentum strategies in the Stock Exchange of Thailand",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": "This study presents the comparison of investment strategies between the volume-based 52-week high price momentum and the volume-based stock return momentum strategies in the Stock Exchange of Thailand (SET) over 20-year time horizon, spanning over 1988-2007, using the approach of buying past winner stocks and selling past loser stocks based on two momentum strategies; JT momentum (Jegadeesh and Titman, JT, 1993) and 52-week high price momentum strategies (George and Hwang, GH, 2004). Following Lee and Swaminathan (LS, 2000), the portfolios are formed based on the interactions of past trading v"
+  },
+  {
+   "DOI": "10.58837/chula.the.2015.593",
+   "title": "Momentum strategy based on the timing of 52-week high price: Empirical evidence from the Stock Exchange of Thailand",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": "The goal of this paper is to study the profitability of momentum strategy based on the timing of 52-week high price in the Stock Exchange of Thailand during the period of January 2005 to December 2015. The results show that stocks that recently achieved the 52-week high price can significantly provide more superior returns than stocks that achieved the 52-week high price in the distant past. The bias agianst 52-week high price will increases if stocks has been traded at this price level shortly. Investors are uncomfortable to bid higher price. But if stock price breaks out 52-week high price, "
+  },
+  {
+   "DOI": "10.2139/ssrn.4353530",
+   "title": "The Asset Growth Return Premium and Anchoring on the 52-Week High",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.58837/chula.is.2025.53",
+   "title": "Salience, trading volume and 52-week high effects on stock returns: evidence from Thai stock market",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": "This study examines the interaction between salience effects and the 52-week high phenomenon in the Thai stock market, with particular attention to the mediating role of trading volume. Using data from SET100 constituents spanning May 2005 to December 2024, we employ the salience measure developed by Bordalo et al. (2012) and Cosemans and Frehen (2021) to investigate whether stocks with salient payoffs exhibit different return patterns when approaching their 52-week highs. Following Lin (2024), we test whether abnormal trading volume amplifies these behavioral effects. Our findings reveal a no"
+  },
+  {
+   "DOI": "10.2139/ssrn.4342006",
+   "title": "Corporate Insiders’ Exploitation of Investors’ Anchoring Bias at the 52-week High and Low",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.5210159",
+   "title": "The Anchoring Effect of 52-Week High on SEO Pricing",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.21073/kiar.2016..69.007",
+   "title": "Return, Volatility Change around a 52-week High and Low of Stock Price in Korea",
+   "year": 2016,
+   "container": "Korea International Accounting Review",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.4925973",
+   "title": "The 52-Week High Momentum Strategy: Evidence in Chinese Stock Market",
+   "year": 2024,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "This paper replicates George and Hwang (2004) using the extended data of \"A\" shares that are listed on the Shanghai Stock Exchange. We find that the 52-week high momentum strategy consistently produces positive returns for the sample period between 1995 and 2018. On average we report a monthly return of 0.28%, which is close to the return level that George and Hwang (2004) observed for the U.S. market. This momentum strategy also continues to remain profitable after we control for Fama-French five factors, firm size, potential interactions of different momentum strategies, long-term reversal a"
+  },
+  {
+   "DOI": "10.2139/ssrn.3421545",
+   "title": "Fundamental Strength and the 52-Week High Anchoring Effect",
+   "year": 2019,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

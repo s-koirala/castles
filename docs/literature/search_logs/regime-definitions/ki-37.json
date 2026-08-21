@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-37",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Fabozzi+Francis+Stability+tests+for+alphas+and+betas+over+bull+and+bear+market+conditions&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 47055,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1111/j.1540-6261.1977.tb03312.x",
+   "title": "STABILITY TESTS FOR ALPHAS AND BETAS OVER BULL AND BEAR MARKET CONDITIONS",
+   "year": 1977,
+   "container": "The Journal of Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1177/097226290300700205",
+   "title": "Stability of Alphas and Betas over Bull and Bear Markets: An Empirical Examination",
+   "year": 2003,
+   "container": "Vision: The Journal of Business Perspective",
+   "type": "journal-article",
+   "abstract": "<jats:p>This paper examines the influence of bull and bear markets on the stability of alpha and beta for the single index market model. The data for the study is collected for the period March 01, 1996 to March 31, 2001. The data pertains to the adjusted daily closing prices of 74 scrips that form a part of BSE-100 index. Two definitions of bull and bear markets are used. The analysis is carried out by estimating dummy variable regression, conducting a joint test (F-test) on alphas and betas, test for correlation coefficient and the paired t-test. The results indicate that alpha varies over both definitions of bull and bear market conditions whereas beta varies for one definition and is stable for the other. The variability of beta also dependents upon specific industry groups. However, one should take large samples from each industry group to draw any generalizations. The implications of the results for a portfolio manager are explained. It is also observed that the stability of alpha and beta depends upon the choice of bull and bear market conditions.</jats:p>"
+  },
+  {
+   "DOI": "10.2139/ssrn.1864240",
+   "title": "Attribution Analysis of Bull/Bear Alphas and Betas with Applications to Downside Risk Management",
+   "year": 2011,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PZk0oWmig9PLNG9KPgU6ICmZkiI</id>
+  <title>arXiv Query: search_query=abs:"Bayesian online changepoint detection" AND abs:"false alarm"&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-08-21T20:02:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22Bayesian+online+changepoint+detection%22+AND+abs:%22false+alarm%22&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2306.10612v1</id>
+    <title>Detecting Depegs: Towards Safer Passive Liquidity Provision on Curve Finance</title>
+    <updated>2023-06-18T18:17:37Z</updated>
+    <link href="https://arxiv.org/abs/2306.10612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.10612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a liquidity provider's (LP's) exposure to stablecoin and liquid staking derivative (LSD) depegs on Curve's StableSwap pools. We construct a suite of metrics designed to detect potential asset depegs based on price and trading data. Using our metrics, we fine-tune a Bayesian Online Changepoint Detection (BOCD) algorithm to alert LPs of potential depegs before or as they occur. We train and test our changepoint detection algorithm against Curve LP token prices for 13 StableSwap pools throughout 2022 and 2023, focusing on relevant stablecoin and LSD depegs. We show that our model, trained on 2022 UST data, is able to detect the USDC depeg in March of 2023 at 9pm UTC on March 10th, approximately 5 hours before USDC dips below 99 cents, with few false alarms in the 17 months on which it is tested. Finally, we describe how this research may be used by Curve's liquidity providers, and how it may be extended to dynamically de-risk Curve pools by modifying parameters in anticipation of potential depegs. This research underpins an API developed to alert Curve LPs, in real-time, when their positions might be at risk.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-18T18:17:37Z</published>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Thomas N. Cintra</name>
+    </author>
+    <author>
+      <name>Maxwell P. Holloway</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.09619v1</id>
+    <title>Risk-Calibrated Bayesian Streaming Intrusion Detection with SRE-Aligned Decisions</title>
+    <updated>2025-09-17T17:36:08Z</updated>
+    <link href="https://arxiv.org/abs/2510.09619v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.09619v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a risk-calibrated approach to streaming intrusion detection that couples Bayesian Online Changepoint Detection (BOCPD) with decision thresholds aligned to Site Reliability Engineering (SRE) error budgets. BOCPD provides run-length posteriors that adapt to distribution shift and concept drift; we map these posteriors to alert decisions by optimizing expected operational cost under false-positive and false-negative budgets. We detail the hazard model, conjugate updates, and an O(1)-per-event implementation. A concrete SRE example shows how a 99.9% availability SLO (43.2 minutes per month error budget) yields a probability threshold near 0.91 when missed incidents are 10x more costly than false alarms. We evaluate on the full UNSW-NB15 and CIC-IDS2017 benchmarks with chronological splits, comparing against strong unsupervised baselines (ECOD, COPOD, and LOF). Metrics include PR-AUC, ROC-AUC, Brier score, calibration reliability diagrams, and detection latency measured in events. Results indicate improved precision-recall at mid to high recall and better probability calibration relative to baselines. We release implementation details, hyperparameters, and ablations for hazard sensitivity and computational footprint. Code and reproducibility materials will be made available upon publication; datasets and implementation are available from the corresponding author upon reasonable request.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-17T17:36:08Z</published>
+    <arxiv:comment>11 pages, 7 figures. Primary category: cs.CR; cross-list: cs.LG, stat.ML. Implementation code and datasets are available from the corresponding author upon reasonable request. Code and reproducibility materials will be made available upon publication</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Michel Youssef</name>
+      <arxiv:affiliation>Independent Researcher</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

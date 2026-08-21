@@ -1,0 +1,40 @@
+{
+  "platform": "Anthropic WebSearch tool (Claude Code)",
+  "date_searched": "2026-08-21",
+  "queries": [
+    {
+      "query_id": "q-ws-01",
+      "query": "\"Kaufman efficiency ratio\" distribution random walk null simulation",
+      "n_results": 10,
+      "results": [
+        {"title": "Random Walk Null Models for Time Series Data", "url": "https://arxiv.org/pdf/1710.02175", "tier_assessment": "preprint (arXiv); screened further"},
+        {"title": "Kaufman Efficiency Ratio - Trend Concept | LuxAlgo Library", "url": "https://www.luxalgo.com/library/concept/kaufman-efficiency-ratio/", "tier_assessment": "tier-5 vendor"},
+        {"title": "Efficiency Ratio Strategy | QuantifiedStrategies.com", "url": "https://www.quantifiedstrategies.com/efficiency-ratio/", "tier_assessment": "tier-5 vendor"},
+        {"title": "Kaufman Efficiency Ratio | TrendSpider Learning Center", "url": "https://trendspider.com/learning-center/kaufman-efficiency-ratio/", "tier_assessment": "tier-5 vendor"},
+        {"title": "Random walks, Hurst exponent, and market efficiency | Quality & Quantity", "url": "https://link.springer.com/article/10.1007/s11135-025-02052-7", "tier_assessment": "peer-reviewed; off-target (Hurst, not ER)"},
+        {"title": "A procedure for testing the hypothesis of weak efficiency in financial markets | Statistical Methods & Applications", "url": "https://link.springer.com/article/10.1007/s10260-022-00627-4", "tier_assessment": "peer-reviewed; off-target (market efficiency testing, not ER)"},
+        {"title": "Variance-ratio Tests Robust to a Break in Drift", "url": "https://www.ejpam.com/index.php/ejpam/article/download/799/124/0", "tier_assessment": "peer-reviewed; off-target (variance ratio, already in main corpus family)"},
+        {"title": "Kaufman Efficiency Ratio | TC2000 Help Site", "url": "https://help.tc2000.com/m/69404/l/749623-kaufman-efficiency-ratio", "tier_assessment": "tier-5 vendor"},
+        {"title": "Testing for a Random Walk: A Simulation Experiment | Springer chapter", "url": "https://link.springer.com/chapter/10.1007/978-94-015-7819-6_4", "tier_assessment": "book chapter; off-target"},
+        {"title": "Kaufman's Efficiency Ratio (KER) - StrategyQuant", "url": "https://strategyquant.com/codebase/kaufmans-efficiency-ratio-ker/", "tier_assessment": "tier-5 vendor"}
+      ]
+    },
+    {
+      "query_id": "q-ws-02",
+      "query": "\"efficiency ratio\" OR \"fractal efficiency\" indicator sampling distribution derivation academic paper Kaufman KAMA",
+      "n_results": 9,
+      "results": [
+        {"title": "Reading the Markets: Kaufman's fractal efficiency ratio and market noise", "url": "http://readingthemarkets.blogspot.com/2009/11/kaufmans-fractal-efficiency-ratio-and.html", "tier_assessment": "tier-5 blog"},
+        {"title": "Kaufman's Adaptive Moving Average (KAMA) | StockCharts ChartSchool", "url": "https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/kaufmans-adaptive-moving-average-kama", "tier_assessment": "tier-5 vendor"},
+        {"title": "Kaufman Efficiency Ratio | LuxAlgo Library", "url": "https://www.luxalgo.com/library/concept/kaufman-efficiency-ratio/", "tier_assessment": "tier-5 vendor"},
+        {"title": "Kaufman's Efficiency Ratio (Fractal Efficiency) - QuantShare", "url": "https://www.quantshare.com/item-869-kaufman-s-efficiency-ratio-fractal-efficiency", "tier_assessment": "tier-5 vendor"},
+        {"title": "KAMA - Formula and how does it work? - tutorialspoint", "url": "https://www.tutorialspoint.com/kaufman-s-adaptive-moving-average-kama-formula-and-how-does-it-work", "tier_assessment": "tier-5 vendor"},
+        {"title": "Kaufman Efficiency Ratio PCF | TC2000 Help Site", "url": "https://help.tc2000.com/m/69445/l/755884-kaufman-efficiency-ratio", "tier_assessment": "tier-5 vendor"},
+        {"title": "Video on The Kaufman Efficiency Ratio and Balanced Momentum - LizardIndicators", "url": "https://www.lizardindicators.com/efficiency-ratio-balanced-momentum/", "tier_assessment": "tier-5 vendor"},
+        {"title": "Efficiency Ratio (Kaufman) - TradingView script", "url": "https://www.tradingview.com/script/dneYi7kK-Efficiency-Ratio-Kaufman/", "tier_assessment": "tier-5 vendor"},
+        {"title": "Efficiency Ratio for NinjaTrader 8 - LizardIndicators", "url": "https://www.lizardindicators.com/indicator-library-2/trend-analysis/efficiency-ratio/", "tier_assessment": "tier-5 vendor"}
+      ],
+      "verdict": "zero records above tier 5 bearing on an ER reference distribution"
+    }
+  ]
+}

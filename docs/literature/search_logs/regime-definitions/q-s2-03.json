@@ -1,0 +1,11 @@
+{
+ "query_id": "q-s2-03",
+ "platform": "Semantic Scholar Graph API (api.semanticscholar.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.semanticscholar.org/graph/v1/paper/search?query=market%20regime%20definition%20financial&fields=title,year,venue,externalIds,citationCount&limit=10",
+ "note": "retry of q-s2-01 after HTTP 429 rate limit",
+ "total_results_reported": null,
+ "n_records_retrieved": 0,
+ "items": [],
+ "error": "HTTP Error 429: "
+}

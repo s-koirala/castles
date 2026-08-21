@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-08",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.container-title=Journal+of+Financial+Econometrics&query.title=regime&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 572,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.4324/9780203892879-14",
+   "title": "Modelling regime shifts: Markov switching models",
+   "year": 2008,
+   "container": "Financial Econometrics",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1093/jjfinec/nbs023",
+   "title": "Component-Driven Regime-Switching Volatility",
+   "year": 2012,
+   "container": "Journal of Financial Econometrics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1093/jjfinec/nbt019",
+   "title": "Regime Switching and Bond Pricing",
+   "year": 2013,
+   "container": "Journal of Financial Econometrics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1093/jjfinec/nbm021",
+   "title": "Size and Value Anomalies under Regime Shifts",
+   "year": 2007,
+   "container": "Journal of Financial Econometrics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1093/jjfinec/nbag009",
+   "title": "Hedge Fund Investment: Optimal Portfolios with Regime-Switching",
+   "year": 2026,
+   "container": "Journal of Financial Econometrics",
+   "type": "journal-article",
+   "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>We investigate the benefits of including hedge funds into a portfolio of stocks, bonds, and commodities. We use a multivariate canonical vine copula regime-switching model which allows for non-linearity, asymmetry, and time variation in hedge fund returns. We find that the willingness to pay to access hedge funds is about 4 cents per dollar, and it increases with risk aversion; the weights in hedge funds show an inverse U-shape with risk aversion; hedge funds tend to replace stocks (bonds) for risk-averse (risk-tolerant) investors; investing in hedge funds increases historical returns only until 2008, but reduces volatility even after.</jats:p>"
+  },
+  {
+   "DOI": "10.1093/jjfinec/nbp014",
+   "title": "Modeling International Financial Returns with a Multivariate Regime-switching Copula",
+   "year": 2009,
+   "container": "Journal of Financial Econometrics",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

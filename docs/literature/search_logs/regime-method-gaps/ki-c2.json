@@ -1,0 +1,320 @@
+[
+ {
+  "query": "The probability of backtest overfitting Bailey Borwein Lopez de Prado Zhu journal of computational finance",
+  "url": "https://api.crossref.org/works?query.bibliographic=The%20probability%20of%20backtest%20overfitting%20Bailey%20Borwein%20Lopez%20de%20Prado%20Zhu%20journal%20of%20computational%20finance&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 117944,
+    "items": [
+     {
+      "DOI": "10.21314/jcf.2016.322",
+      "title": [
+       "The probability of backtest overfitting"
+      ],
+      "author": [
+       {
+        "given": "David",
+        "family": "Bailey",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Jonathan",
+        "family": "Borwein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Marcos",
+        "family": "López de Prado",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Qiji Jim",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2016,
+         9
+        ]
+       ]
+      },
+      "container-title": [
+       "The Journal of Computational Finance"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.2139/ssrn.2326253",
+      "title": [
+       "The Probability of Backtest Overfitting"
+      ],
+      "author": [
+       {
+        "given": "David H.",
+        "family": "Bailey",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Jonathan",
+        "family": "Borwein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "ORCID": "https://orcid.org/0000-0002-4107-3797",
+        "authenticated-orcid": true,
+        "given": "Marcos",
+        "family": "López de Prado",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Qiji Jim",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2013
+        ]
+       ]
+      },
+      "type": "posted-content"
+     },
+     {
+      "DOI": "10.2139/ssrn.2568435",
+      "title": [
+       "Mathematical Appendices to: 'The Probability of Backtest Overfitting'"
+      ],
+      "author": [
+       {
+        "given": "David H.",
+        "family": "Bailey",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Jonathan",
+        "family": "Borwein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "ORCID": "https://orcid.org/0000-0002-4107-3797",
+        "authenticated-orcid": true,
+        "given": "Marcos",
+        "family": "López de Prado",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Qiji Jim",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2015
+        ]
+       ]
+      },
+      "type": "posted-content"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Time series cross validation theoretical properties and empirical performance",
+  "url": "https://api.crossref.org/works?query.bibliographic=Time%20series%20cross%20validation%20theoretical%20properties%20and%20empirical%20performance&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 10022458,
+    "items": [
+     {
+      "DOI": "10.2139/ssrn.3996529",
+      "title": [
+       "Time Series Cross Validation: Theoretical Properties and Empirical Performance"
+      ],
+      "author": [
+       {
+        "ORCID": "https://orcid.org/0000-0001-9120-0961",
+        "authenticated-orcid": true,
+        "given": "Ai",
+        "family": "Deng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2022
+        ]
+       ]
+      },
+      "type": "posted-content"
+     },
+     {
+      "DOI": "10.1016/j.econlet.2023.111369",
+      "title": [
+       "Time series cross validation: A theoretical result and finite sample performance"
+      ],
+      "author": [
+       {
+        "ORCID": "https://orcid.org/0000-0001-9120-0961",
+        "authenticated-orcid": false,
+        "given": "Ai",
+        "family": "Deng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2023,
+         12
+        ]
+       ]
+      },
+      "container-title": [
+       "Economics Letters"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.7717/peerj-cs.2473/table-2",
+      "title": [
+       "Table 2: Time series cross-validation performance of the four tree-based models."
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         null
+        ]
+       ]
+      },
+      "type": "component"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ }
+]

@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-13",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=risk-on+risk-off+regime+financial+markets+definition&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2775669,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1002/9781118818459.ch3",
+   "title": "The Changing Character of Financial Markets",
+   "year": 2012,
+   "container": "Systemic Liquidity Risk and Bipolar Markets",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118818459.ch16",
+   "title": "Adjusting to More Correlated Financial Markets",
+   "year": 2012,
+   "container": "Systemic Liquidity Risk and Bipolar Markets",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118818459",
+   "title": "Systemic Liquidity Risk and Bipolar Markets",
+   "year": 2012,
+   "container": "",
+   "type": "monograph",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118818459.fmatter",
+   "title": "Front Matter",
+   "year": 2012,
+   "container": "Systemic Liquidity Risk and Bipolar Markets",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118818459.app1",
+   "title": "Appendix",
+   "year": 2012,
+   "container": "Systemic Liquidity Risk and Bipolar Markets",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118818459.index",
+   "title": "Index",
+   "year": 2012,
+   "container": "Systemic Liquidity Risk and Bipolar Markets",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118818459.ch1",
+   "title": "Introduction",
+   "year": 2012,
+   "container": "Systemic Liquidity Risk and Bipolar Markets",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.5971703",
+   "title": "THE DIMENSIONALITY OF SYSTEMIC RISK: FRAGILITY AND REGIME SHIFTS IN FINANCIAL MARKETS",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  }
+ ]
+}

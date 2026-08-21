@@ -1,0 +1,66 @@
+{
+ "query_id": "q-crossref-19",
+ "platform": "Crossref REST API (api.crossref.org), SSRN prefix filter 10.2139",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=market+regime+identification+states&filter=prefix:10.2139&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 55848,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.6067668",
+   "title": "A Piecewise-Linear Model For Market Regime Identification",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content"
+  },
+  {
+   "DOI": "10.2139/ssrn.3406068",
+   "title": "Market Regime Identification Using Hidden Markov Models",
+   "year": 2016,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article"
+  },
+  {
+   "DOI": "10.2139/ssrn.57932",
+   "title": "Market Crashes, Market Regimes, and Regime-Separating Barriers",
+   "year": 1998,
+   "container": "",
+   "type": "posted-content"
+  },
+  {
+   "DOI": "10.2139/ssrn.6565958",
+   "title": "Fluid Regime Trading: A Post-Mortem Analysis of Physics-Inspired Market Regime Classification",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content"
+  },
+  {
+   "DOI": "10.2139/ssrn.2761777",
+   "title": "Bifurcation Patterns of Market Regime Transition",
+   "year": 2016,
+   "container": "",
+   "type": "posted-content"
+  },
+  {
+   "DOI": "10.2139/ssrn.6487270",
+   "title": "Robust Reinforcement Learning for Market Making under Regime Uncertainty: Numerical Evidence from Multi-Regime Training",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content"
+  },
+  {
+   "DOI": "10.2139/ssrn.5994914",
+   "title": "Belief-Reality Divergence and Market Regime Stability",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content"
+  },
+  {
+   "DOI": "10.2139/ssrn.4493344",
+   "title": "Non-parametric online market regime detection and regime clustering for multidimensional and path-dependent data structures",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content"
+  }
+ ]
+}

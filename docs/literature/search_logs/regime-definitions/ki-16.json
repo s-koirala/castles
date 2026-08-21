@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-16",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Glattfelder+Dupuis+Olsen+Patterns+in+high-frequency+FX+data+discovery+of+12+empirical+scaling+laws&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 545658,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1080/14697688.2010.481632",
+   "title": "Patterns in high-frequency FX data: discovery of 12 empirical scaling laws",
+   "year": 2011,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118445785.ch20",
+   "title": "High Frequency Finance: Using Scaling Laws to Build Trading Models",
+   "year": 2012,
+   "container": "Handbook of Exchange Rates",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/coin.12114",
+   "title": "Modeling the High‐Frequency FX Market: An Agent‐Based Approach",
+   "year": 2017,
+   "container": "Computational Intelligence",
+   "type": "journal-article",
+   "abstract": "<jats:p>The development of computational intelligence‐based strategies for electronic markets has been the focus of intense research. To be able to design efficient and effective automated trading strategies, one first needs to understand the workings of the market, the strategies that traders use, and their interactions as well as the patterns emerging as a result of these interactions. In this article, we develop an agent‐based model of the foreign exchange (FX) market, which is the market for the buying and selling of currencies. Our agent‐based model of the FX market comprises heterogeneous trading agents that employ a strategy that identifies and responds to periodic patterns in the price time series. We use the agent‐based model of the FX market to undertake a systematic exploration of its constituent elements and their impact on the stylized facts (statistical patterns) of transactions data. This enables us to identify a set of sufficient conditions that result in the emergence of the stylized facts similarly to the real market data, and formulate a model that closely approximates the stylized facts. We use a unique high‐frequency data set of historical transactions data tha"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//I2vzUhaDQwgKqFPdUAER0Uyh2o</id>
+  <title>arXiv Query: search_query=abs:"purged cross-validation" OR abs:"combinatorial purged"&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-08-21T20:02:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22purged+cross-validation%22+OR+abs:%22combinatorial+purged%22&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.17645v1</id>
+    <title>Hopfield Networks for Asset Allocation</title>
+    <updated>2024-07-24T21:24:00Z</updated>
+    <link href="https://arxiv.org/abs/2407.17645v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.17645v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the first application of modern Hopfield networks to the problem of portfolio optimization. We performed an extensive study based on combinatorial purged cross-validation over several datasets and compared our results to both traditional and deep-learning-based methods for portfolio selection. Compared to state-of-the-art deep-learning methods such as Long-Short Term Memory networks and Transformers, we find that the proposed approach performs on par or better, while providing faster training times and better stability. Our results show that Modern Hopfield Networks represent a promising approach to portfolio optimization, allowing for an efficient, scalable, and robust solution for asset allocation, risk management, and dynamic rebalancing.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-24T21:24:00Z</published>
+    <arxiv:comment>12 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Carlo Nicolini</name>
+    </author>
+    <author>
+      <name>Monisha Gopalan</name>
+    </author>
+    <author>
+      <name>Jacopo Staiano</name>
+    </author>
+    <author>
+      <name>Bruno Lepri</name>
+    </author>
+    <arxiv:doi>10.1145/3677052.3698605</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3677052.3698605" title="doi"/>
+  </entry>
+</feed>

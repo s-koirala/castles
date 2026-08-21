@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-06",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Engel+Hamilton+Long+swings+in+the+dollar+are+they+in+the+data+and+do+markets+know+it&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 6365589,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.3386/w3165",
+   "title": "Long Swings in the Exchange Rate:  Are they in the Data and Do Markets Know It?",
+   "year": 1989,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1142/9789813148543_0003",
+   "title": "Do Long-Term Swings in the Dollar Affect Estimates of the Risk Premia?",
+   "year": 2017,
+   "container": "Studies in Foreign Exchange Economics",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.430382",
+   "title": "Long Swings in the Dollar and the Exchange Rate Exposure of Stock Returns",
+   "year": 2003,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Theoretical models predict that firm behavior will differ under a depreciating relative to an appreciating currency\r\nregime. Consequently, the exchange rate exposure of a firm's stock return should also depend on the currency regime. We\r\nassess these theoretical predictions by examining the exchange rate exposure of stock returns using an econometric model\r\nthat allows for stock returns to switch between two different regimes. We find that the two implied stock return regimes\r\ncorrespond to periods of depreciation and appreciation of the dollar. Consistent with the theory, we find that exchange\r\nrate exposures of industry stock returns are different in depreciations relative to appreciations. Over half of our\r\nsample of 30 industries have a statistically significant exposure coefficient and these exposures are double the size of\r\nthose estimated from single regime models. Almost all of the industries that are exposed have extensive international\r\ntrade. Evidence is also presented that is consistent with theoretical predictions that the size of the exchange rate\r\nchange is important in determining exposure.</jats:p>"
+  }
+ ]
+}

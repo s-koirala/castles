@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-05",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=volatility+regime+high+low+identification+stock+returns&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 5634925,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1201/9781420099553-10",
+   "title": "■ Detecting and Exploiting Regime Switching ARCH Dynamics in U.S. Stock and Bond Returns",
+   "year": 2009,
+   "container": "Stock Market Volatility",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.120630",
+   "title": "Regime Shifts and Changing Volatility in Stock Returns: A Rational Expectations Equilibrium Model",
+   "year": 1998,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>I present an intertemporal asset pricing model of learning to explain the GARCH behavior of stock returns and the intertemporal variation of expected returns. I assume that dividends follow a diffusion process whose drift rate shifts between two unobservable states at random times. I first show that the asset price is increasing and convex in investors' posterior probability of the good state. I then characterize the changes in asset price sensitivity to news, return volatility and expected returns as function of investors' level of uncertainty over the state of the economy.</jats:p>"
+  },
+  {
+   "DOI": "10.2139/ssrn.2430093",
+   "title": "Regime-Switching Behavior in the Conditional Volatility of MENA Stock Market Returns",
+   "year": 2014,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>The objective of this paper is to investigate the behavior of the time varying volatility in eleven MENA countries’ stock market using a three-state Markov regime-switching model over the period from October 30, 2006 to October 21, 2011. We find that MENA stock market volatility can be characterized by three regimes: tranquil period with low volatility of volatility, turmoil regime with high volatility of volatility and crisis regime with extremely high volatility of volatility. Besides, the Granger causation effects from the MSCI World index to MENA stock markets are stronger and statistically significant especially in crisis regime.</jats:p>"
+  },
+  {
+   "DOI": "10.2139/ssrn.2162854",
+   "title": "Stock Return Volatility, Operating Performance and Stock Returns: International Evidence on Drivers of the 'Low Volatility' Anomaly",
+   "year": 2012,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This study highlights the link between stock return volatility, operating performance, and stock returns. Prior studies suggest that there is a ‘low volatility’ anomaly, where firms with a low stock return volatility out-perform firms with a high stock return volatility. This paper confirms that low volatility stocks earn higher returns than high volatility stocks in emerging markets and developed markets outside of North America. We also show that low volatility stocks have higher operating returns and this might explain why low volatility stocks earn higher stock returns. These results provide a partial explanation for the ‘low volatility effect’ that is independent from the existence of market anomalies or per se inefficiencies that might otherwise drive a low volatility effect. We emphasize the importance of controlling for stock return volatility when analyzing operating performance and stock performance.</jats:p>"
+  },
+  {
+   "DOI": "10.20955/wp.2003.028",
+   "title": "Idiosyncratic Volatility, Stock Market Volatility, and Expected Stock Returns",
+   "year": 2003,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.21511/imfi.16(1).2019.17",
+   "title": "A Markov regime switching approach to estimating the volatility of Johannesburg Stock Exchange (JSE) returns",
+   "year": 2019,
+   "container": "Investment Management and Financial Innovations",
+   "type": "journal-article",
+   "abstract": "<jats:p>The study used the Markov regime switching model to investigate the presence of regimes in the volatility dynamics of the returns of JSE All-Share Index (ALSI). Volatility regimes are as a result of sudden changes in the underlying economy generating the market returns. In all, twelve candidate models were fitted to the data. Estimates from the regime switching model were compared to the industry standard non-switching GARCH (1,1) using the Deviance Information Criteria (DIC). The results show that the two-regime switching EGARCH model with skewed Student t innovations describes better the return of the JSE Index. Additionally, we backtest the model results in order to confirm our findings that the two-regime switching EGARCH is the best of the models for the sample period.</jats:p>"
+  },
+  {
+   "DOI": "10.2139/ssrn.515143",
+   "title": "Idiosyncratic Volatility, Stock Market Volatility, and Expected Stock Returns",
+   "year": 2004,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We show that the value-weighted idiosyncratic stock volatility and aggregate stock market volatility jointly exhibit strong predictive abilities for excess stock market returns, although they don't do so individually. While we uncover a positive risk-return relation in the stock market, as stipulated by the CAPM, the idiosyncratic volatility is negatively related to future stock returns. One potential explanation for the latter result is that the idiosyncratic volatility is a measure of divergence of opinion, which, as argued by Miller (1977), could lead a stock to be overvalued initially and to suffer capital losses subsequently. However, we find that the idiosyncratic volatility forecasts stock returns mainly because of its negative co-movements with the consumption-wealth ratio, which, as argued by some recent authors, is a proxy for the liquidity premium.</jats:p>"
+  },
+  {
+   "DOI": "10.23860/thesis-li-yanan-2014",
+   "title": "FORECASTING STOCK MARKET RETURNS VOLATILITY",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": ""
+  }
+ ]
+}

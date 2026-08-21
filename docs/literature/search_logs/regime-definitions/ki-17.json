@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-17",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Tsang+Tao+Serguieva+Ma+Profiling+high-frequency+equity+price+movements+in+directional+changes&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 240658,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1080/14697688.2016.1164887",
+   "title": "Profiling high-frequency equity price movements in directional changes",
+   "year": 2016,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1109/bigdata.2017.8258453",
+   "title": "Developing sustainable trading strategies using directional changes with high frequency data",
+   "year": 2017,
+   "container": "2017 IEEE International Conference on Big Data (Big Data)",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/isaf.1552",
+   "title": "Nowcasting directional change in high frequency FX markets",
+   "year": 2024,
+   "container": "Intelligent Systems in Accounting, Finance and Management",
+   "type": "journal-article",
+   "abstract": "<jats:title>Summary</jats:title><jats:p>Directional change (DC) is an alternative to time series in recording transactions: it only records the transactions at which price changes to the opposite direction of the current trend by a threshold specified by the observer. DC can only be confirmed in hindsight: one does not know that direction has changed until it is confirmed by a later transaction. The transaction in which the price confirms a DC is called a DC confirmation point. DC nowcasting is an attempt to recognize DC before the DC confirmation point. Accurate DC nowcasting will benefit trading. In this paper, we propose a method for DC nowcasting. This method is entirely data driven: it is based on the historical distribution of DC‐related indicators. Empirical results suggest that DC nowcasting is possible, even under a naïve rule. This opens the door to a promising research direction on an important topic.</jats:p>"
+  }
+ ]
+}

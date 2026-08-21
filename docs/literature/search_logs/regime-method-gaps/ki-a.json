@@ -1,0 +1,960 @@
+[
+ {
+  "query": "How to reliably estimate the tortuosity of an animal's path straightness sinuosity fractal dimension Benhamou",
+  "url": "https://api.crossref.org/works?query.bibliographic=How%20to%20reliably%20estimate%20the%20tortuosity%20of%20an%20animal%27s%20path%20straightness%20sinuosity%20fractal%20dimension%20Benhamou&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 14887,
+    "items": [
+     {
+      "DOI": "10.1016/j.jtbi.2004.03.016",
+      "title": [
+       "How to reliably estimate the tortuosity of an animal's path:"
+      ],
+      "author": [
+       {
+        "given": "Simon",
+        "family": "Benhamou",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2004,
+         7
+        ]
+       ]
+      },
+      "container-title": [
+       "Journal of Theoretical Biology"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1016/s0003-3472(05)80605-0",
+      "title": [
+       "Optimal sinuosity in central place foraging movements"
+      ],
+      "author": [
+       {
+        "given": "Pierre",
+        "family": "Bovet",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Simon",
+        "family": "Benhamou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1991,
+         7
+        ]
+       ]
+      },
+      "container-title": [
+       "Animal Behaviour"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1016/s0003-3472(05)80620-7",
+      "title": [
+       "Biological functions of sinuosity regulation: a reply to Budenberg"
+      ],
+      "author": [
+       {
+        "given": "Simon",
+        "family": "Benhamou",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Pierre",
+        "family": "Bovet",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1991,
+         7
+        ]
+       ]
+      },
+      "container-title": [
+       "Animal Behaviour"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Random walk models in biology Codling Plank Benhamou",
+  "url": "https://api.crossref.org/works?query.bibliographic=Random%20walk%20models%20in%20biology%20Codling%20Plank%20Benhamou&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 3491503,
+    "items": [
+     {
+      "DOI": "10.1098/rsif.2008.0014",
+      "title": [
+       "Random walk models in biology"
+      ],
+      "author": [
+       {
+        "given": "Edward A",
+        "family": "Codling",
+        "sequence": "first",
+        "affiliation": [
+         {
+          "name": "Department of Mathematics, University of EssexColchester CO4 3SQ, UK"
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Michael J",
+        "family": "Plank",
+        "sequence": "additional",
+        "affiliation": [
+         {
+          "name": "Department of Mathematics and Statistics, University of CanterburyChristchurch 8140, New Zealand"
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Simon",
+        "family": "Benhamou",
+        "sequence": "additional",
+        "affiliation": [
+         {
+          "name": "Behavioural Ecology Group, CEFE, CNRSMontpellier 34293, France"
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2008,
+         4,
+         15
+        ]
+       ]
+      },
+      "container-title": [
+       "Journal of The Royal Society Interface"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1111/2041-210x.12412",
+      "title": [
+       "Differentiating the Lévy walk from a composite correlated random walk"
+      ],
+      "author": [
+       {
+        "given": "Marie",
+        "family": "Auger‐Méthé",
+        "sequence": "first",
+        "affiliation": [
+         {
+          "name": "Department of Biological Sciences University of Alberta Edmonton Canada"
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Andrew E.",
+        "family": "Derocher",
+        "sequence": "additional",
+        "affiliation": [
+         {
+          "name": "Department of Biological Sciences University of Alberta Edmonton Canada"
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Michael J.",
+        "family": "Plank",
+        "sequence": "additional",
+        "affiliation": [
+         {
+          "name": "Department of Mathematics and Statistics University of Canterbury Christchurch New Zealnd"
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Edward A.",
+        "family": "Codling",
+        "sequence": "additional",
+        "affiliation": [
+         {
+          "name": "Department of Mathematical Sciences University of Essex Colchester UK"
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Mark A.",
+        "family": "Lewis",
+        "sequence": "additional",
+        "affiliation": [
+         {
+          "name": "Department of Biological Sciences University of Alberta Edmonton Canada"
+         },
+         {
+          "name": "Centre for Mathematical Biology Department of Mathematical and Statistical Sciences University of Alberta Edmonton Canada"
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2015,
+         6,
+         26
+        ]
+       ]
+      },
+      "container-title": [
+       "Methods in Ecology and Evolution"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1016/j.jtbi.2021.110728",
+      "title": [
+       "Three-dimensional random walk models of individual animal movement and their application to trap counts modelling"
+      ],
+      "author": [
+       {
+        "given": "D.A.",
+        "family": "Ahmed",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "S.",
+        "family": "Benhamou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "M.B.",
+        "family": "Bonsall",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "S.V.",
+        "family": "Petrovskii",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2021,
+         9
+        ]
+       ]
+      },
+      "container-title": [
+       "Journal of Theoretical Biology"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Data-snooping technical trading rule performance bootstrap Sullivan Timmermann White",
+  "url": "https://api.crossref.org/works?query.bibliographic=Data-snooping%20technical%20trading%20rule%20performance%20bootstrap%20Sullivan%20Timmermann%20White&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 129769,
+    "items": [
+     {
+      "DOI": "10.1111/0022-1082.00163",
+      "title": [
+       "Data‐Snooping, Technical Trading Rule Performance, and the Bootstrap"
+      ],
+      "author": [
+       {
+        "given": "Ryan",
+        "family": "Sullivan",
+        "sequence": "first",
+        "affiliation": [
+         {
+          "name": "Economic Analysis LLC,"
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Allan",
+        "family": "Timmermann",
+        "sequence": "additional",
+        "affiliation": [
+         {
+          "name": "University of California, San Diego and the Financial Markets Group London School of Economics"
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Halbert",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": [
+         {
+          "name": "University of California  San Diego"
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1999,
+         10
+        ]
+       ]
+      },
+      "container-title": [
+       "The Journal of Finance"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.2139/ssrn.3128788",
+      "title": [
+       "Technical Analysis, Spread Trading and Data Snooping Control"
+      ],
+      "author": [
+       {
+        "given": "Ioannis",
+        "family": "Psaradellis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Jason",
+        "family": "Laws",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "ORCID": "https://orcid.org/0000-0001-5738-1471",
+        "authenticated-orcid": true,
+        "given": "Athanasios A.",
+        "family": "Pantelous",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Georgios",
+        "family": "Sermpinis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2018
+        ]
+       ]
+      },
+      "type": "posted-content"
+     },
+     {
+      "DOI": "10.3386/w3818",
+      "title": [
+       "The Significance of Technical Trading-Rule Profits in the Foreign Exchange Market:  A Bootstrap Approach"
+      ],
+      "author": [
+       {
+        "given": "Richard",
+        "family": "Levich",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Lee",
+        "family": "Thomas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1991,
+         8
+        ]
+       ]
+      },
+      "type": "report"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Estimating hidden semi-Markov chains from discrete sequences Guedon",
+  "url": "https://api.crossref.org/works?query.bibliographic=Estimating%20hidden%20semi-Markov%20chains%20from%20discrete%20sequences%20Guedon&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 9801110,
+    "items": [
+     {
+      "DOI": "10.1198/1061860032030",
+      "title": [
+       "Estimating Hidden Semi-Markov Chains From Discrete Sequences"
+      ],
+      "author": [
+       {
+        "given": "Yann",
+        "family": "Guédon",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2003,
+         9
+        ]
+       ]
+      },
+      "container-title": [
+       "Journal of Computational and Graphical Statistics"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1017/9781108377423.002",
+      "title": [
+       "Observed Markov Chains"
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         null
+        ]
+       ]
+      },
+      "container-title": [
+       "Introduction to Hidden Semi-Markov Models"
+      ],
+      "type": "book-chapter"
+     },
+     {
+      "DOI": "10.1007/978-0-387-73173-5_5",
+      "title": [
+       "Reliability Theory for Discrete-Time Semi-Markov Systems"
+      ],
+      "author": [
+       {
+        "given": "Vlad",
+        "family": "Barbu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Nikolaos",
+        "family": "Limnios",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2008
+        ]
+       ]
+      },
+      "container-title": [
+       "Lecture Notes in Statistics",
+       "Semi-Markov Chains and Hidden Semi-Markov Models toward Applications"
+      ],
+      "type": "book-chapter"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Hidden semi-Markov models Yu survey artificial intelligence",
+  "url": "https://api.crossref.org/works?query.bibliographic=Hidden%20semi-Markov%20models%20Yu%20survey%20artificial%20intelligence&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 4754141,
+    "items": [
+     {
+      "DOI": "10.1016/j.artint.2009.11.011",
+      "title": [
+       "Hidden semi-Markov models"
+      ],
+      "author": [
+       {
+        "given": "Shun-Zheng",
+        "family": "Yu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2010,
+         2
+        ]
+       ]
+      },
+      "container-title": [
+       "Artificial Intelligence"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1016/b978-0-12-802767-7.00002-4",
+      "title": [
+       "General Hidden Semi-Markov Model"
+      ],
+      "author": [
+       {
+        "given": "Shun-Zheng",
+        "family": "Yu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2016
+        ]
+       ]
+      },
+      "container-title": [
+       "Hidden Semi-Markov Models"
+      ],
+      "type": "book-chapter"
+     },
+     {
+      "DOI": "10.1017/9781108377423.011",
+      "title": [
+       "Filters for Hidden Semi-Markov Models"
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         null
+        ]
+       ]
+      },
+      "container-title": [
+       "Introduction to Hidden Semi-Markov Models"
+      ],
+      "type": "book-chapter"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Hidden Markov models with arbitrary state dwell-time distributions Langrock Zucchini",
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ {
+  "query": "Duration-dependent transitions in a Markov model of US GNP growth Durland McCurdy",
+  "url": "https://api.crossref.org/works?query.bibliographic=Duration-dependent%20transitions%20in%20a%20Markov%20model%20of%20US%20GNP%20growth%20Durland%20McCurdy&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 111348,
+    "items": [
+     {
+      "DOI": "10.1080/07350015.1994.10524543",
+      "title": [
+       "Duration-Dependent Transitions in a Markov Model of U.S. GNP Growth"
+      ],
+      "author": [
+       {
+        "given": "J. Michael",
+        "family": "Durland",
+        "sequence": "first",
+        "affiliation": [
+         {
+          "name": "Capital Markets, Bank of Nova Scotia",
+          "place": [
+           "Canada"
+          ]
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Thomas H.",
+        "family": "McCurdy",
+        "sequence": "additional",
+        "affiliation": [
+         {
+          "name": "Queen's University",
+          "place": [
+           "Canada"
+          ]
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1994,
+         7
+        ]
+       ]
+      },
+      "container-title": [
+       "Journal of Business &amp; Economic Statistics"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.21034/dp.124",
+      "title": [
+       "A Markov Switching Model of GNP Growth With Duration Dependence"
+      ],
+      "author": [
+       {
+        "given": "Pok-sang",
+        "family": "Lam",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1997,
+         12,
+         1
+        ]
+       ]
+      },
+      "type": "posted-content"
+     },
+     {
+      "DOI": "10.1111/j.1468-2354.2004.00121.x",
+      "title": [
+       "A Markov‐Switching Model Of Gnp Growth With Duration Dependence*"
+      ],
+      "author": [
+       {
+        "given": "Pok‐sang",
+        "family": "Lam",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2004,
+         1,
+         13
+        ]
+       ]
+      },
+      "container-title": [
+       "International Economic Review"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Identifying bull and bear markets in stock returns Maheu McCurdy",
+  "error": "HTTP Error 429: Too Many Requests"
+ }
+]

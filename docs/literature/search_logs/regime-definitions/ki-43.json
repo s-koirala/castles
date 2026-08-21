@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-43",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Kritzman+Li+Page+Rigobon+Principal+components+as+a+measure+of+systemic+risk&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 7466721,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.1633027",
+   "title": "Principal Components as a Measure of Systemic Risk",
+   "year": 2019,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>The U. S. government’s failure to provide adequate oversight and prudent regulation of the financial markets, together with excessive risk taking by some financial institutions, pushed the world financial system to the brink of systemic failure in 2008. As a consequence of this near catastrophe, both regulators and investors have become keenly interested in developing tools for monitoring systemic risk. But this is easier said than done. Securitization, private transacting, complexity, and “flexible” accounting prevent us from directly observing the many explicit linkages of financial institutions. As an alternative, we introduce a measure of implied systemic risk called the absorption ratio, which equals the fraction of the total variance of a set of asset returns explained or “absorbed” by a fixed number of eigenvectors. The absorption ratio captures the extent to which markets are unified or tightly coupled. When markets are tightly coupled, they are more fragile in the sense that negative shocks propagate more quickly and broadly than when markets are loosely linked. We offer persuasive evidence that the absorption ratio effectively captures market fragility.\n\nWe show t"
+  },
+  {
+   "DOI": "10.3905/jpm.2011.37.4.112",
+   "title": "Principal Components as a Measure of Systemic Risk",
+   "year": 2011,
+   "container": "The Journal of Portfolio Management",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3905/pa.2013.1.2.016",
+   "title": "Practical Applications of Principal Components as a Measure of Systemic Risk",
+   "year": 2013,
+   "container": "Practical Applications",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

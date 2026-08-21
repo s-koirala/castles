@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-42",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Nystrup+Kolm+Lindstrom+Greedy+online+classification+of+persistent+market+states+using+realized+intraday+volatility+features&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 249441,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.3594875",
+   "title": "Greedy Online Classification of Persistent Market States Using Realized Intraday Volatility Features",
+   "year": 2020,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>In many financial applications it is important to classify time series data without any latency while maintaining persistence in the identified states. We propose a greedy online classifier that contemporaneously determines which hidden state a new observation belongs to without the need to parse historical observations and without compromising persistence. Our classifier is based on the idea of clustering temporal features while explicitly penalizing jumps between states by a fixed-cost regularization term that can be calibrated to achieve a desired level of persistence. Through a series of return simulations, we show that in most settings our new classifier remarkably obtains a higher accuracy than the correctly specified maximum likelihood estimator. We illustrate that the new classifier is more robust to misspecification and yields state sequences that are significantly more persistent both in and out of sample. We demonstrate how classification accuracy can be further improved by including features that are based on intraday data. Finally, we apply the new classifier to estimate persistent states of the S&amp;amp;P 500 index.</jats:p>"
+  },
+  {
+   "DOI": "10.3905/jfds.2020.2.3.025",
+   "title": "Greedy Online Classification of Persistent Market States Using Realized Intraday Volatility Features",
+   "year": 2020,
+   "container": "The Journal of Financial Data Science",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.3805831",
+   "title": "Feature Selection in Jump Models",
+   "year": 2021,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-28",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Hardy+A+regime-switching+model+of+long-term+stock+returns&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 4988924,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1080/10920277.2001.10595984",
+   "title": "A Regime-Switching Model of Long-Term Stock Returns",
+   "year": 2001,
+   "container": "North American Actuarial Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/10920277.2002.10596037",
+   "title": "“Author’s Reply: A Regime-Switching Model of Long-Term Stock Returns” by Mary Hardy, April 2001 - Discussion by Gordon E. Klein",
+   "year": 2002,
+   "container": "North American Actuarial Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/10920277.2002.10596036",
+   "title": "“A Regime-Switching Model of Long-Term Stock Returns” by Mary Hardy, April 2001",
+   "year": 2002,
+   "container": "North American Actuarial Journal",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

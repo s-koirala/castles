@@ -1,0 +1,282 @@
+<!-- query_id: q-arxiv-06 | platform: arXiv API (export.arxiv.org) | date_searched: 2026-08-21 | query_url_verbatim: http://export.arxiv.org/api/query?search_query=abs:%22directional+change%22+AND+abs:%22regime%22&max_results=10 -->
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FUR/HGPTKHGpmrRL5NdvCLzNkK8</id>
+  <title>arXiv Query: search_query=abs:"directional change" AND abs:"regime"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-21T20:05:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22directional+change%22+AND+abs:%22regime%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.14408v1</id>
+    <title>The Hidden Constant of Market Rhythms: How $1-1/e$ Defines Scaling in Intrinsic Time</title>
+    <updated>2025-11-18T12:14:22Z</updated>
+    <link href="https://arxiv.org/abs/2511.14408v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.14408v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Directional-change Intrinsic Time analysis has long revealed scaling laws in market microstructure, but the origin of their stability remains elusive. This article presents evidence that Intrinsic Time can be modeled as a memoryless exponential hazard process. Empirically, the proportion of directional changes to total events stabilizes near $1 - 1/e = 0.632$, matching the probability that a Poisson process completes one mean interval. This constant provides a natural heuristic to identify scaling regimes across thresholds and supports an interpretation of market activity as a renewal process in intrinsic time.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-18T12:14:22Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Thomas Houweling</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.12502v1</id>
+    <title>HIMEC: Directional Change Representation and Fixed-Interface Decoding for Remote Sensing Image Change Captioning</title>
+    <updated>2026-08-12T18:29:27Z</updated>
+    <link href="https://arxiv.org/abs/2608.12502v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.12502v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Remote sensing image change captioning (RSICC) converts bitemporal imagery into a sentence describing semantic changes. Most RSICC methods condition caption decoders directly on fused visual features, leaving intermediate change structure and decoder-interface consistency less studied. We present HIMEC, combining Directional Change Representation (DCR) with fixed-interface decoding. DCR separates signed differences into appearance-oriented, disappearance-oriented, and shared-context streams before fusion. A learned-query encoder converts the fused representation into visually conditioned change-query tokens that form the scene decoder's only sample-dependent memory. A training-only auxiliary phrase decoder supplies caption-derived supervision. With a fixed zero input, the scene decoder maintains the same interface during training and inference. Separately, we evaluate a local-to-scene cascade conditioned on teacher-forced local states during training and autoregressive states at inference. On changed LEVIR-CC validation pairs, these states have a mean cosine distance of 0.69. Regime-matched conditioning recovers most of the associated deficit, whereas permuting state correspondence causes no detectable penalty. These findings are limited to the evaluated cascade. In a matched three-seed comparison, HIMEC reaches a Consensus-based Image Description Evaluation (CIDEr) score of $142.81\pm0.60$ on LEVIR-CC, versus $139.51\pm3.40$ for direct fused-feature memory. On SECOND-CC, fixed-zero and regime-matched diagnostic conditioning reach 75.67 and 76.99 CIDEr, respectively, versus 60.77 for the mismatched cascade. The source code will be made publicly available at https://github.com/ayshaashra/HIMEC upon publication.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-12T18:29:27Z</published>
+    <arxiv:comment>Submitted to IEEE Transactions on Geoscience and Remote Sensing (TGRS) for review</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Aysha Ashraf</name>
+      <arxiv:affiliation>University of Electronic Science and Technology of China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shaina Ashraf</name>
+      <arxiv:affiliation>University of Bonn</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Wafaa I. M. Hussin</name>
+      <arxiv:affiliation>University of Electronic Science and Technology of China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ali Haider</name>
+      <arxiv:affiliation>University of Electronic Science and Technology of China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhi Lu</name>
+      <arxiv:affiliation>University of Electronic Science and Technology of China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhenming Peng</name>
+      <arxiv:affiliation>University of Electronic Science and Technology of China</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.15383v1</id>
+    <title>Intelligent trading strategy based on improved directional change and regime change detection</title>
+    <updated>2023-09-27T03:30:44Z</updated>
+    <link href="https://arxiv.org/abs/2309.15383v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.15383v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Previous research primarily characterized price movements according to time intervals, resulting in temporal discontinuity and overlooking crucial activities in financial markets. Directional Change (DC) is an alternative approach to sampling price data, highlighting significant points while blurring out noise details in price movements. However, traditional DC treated the thresholds of upward and downward trends with distinct intrinsic patterns as equivalent and preset them as fixed values, which are dependent on the subjective judgment of traders. To enhance the generalization performance of this methodology, we improved DC by introducing a modified threshold selection technique. Specifically, we addressed upward and downward trends distinctly by incorporating a decay coefficient. Further, we simultaneously optimized the threshold and decay coefficient using the Bayesian Optimization Algorithm (BOA). Additionally, we recognized the abnormal market state by regime change detection based on the Hidden Markov Model (RCD-HMM) to reduce the risk. Our Intelligent Trading Algorithm (ITA) was constructed based on above methods and the experiments were carried out on tick data from diverse currency pairs in the forex market. The experimental results showed a significant increase in profit and reduction in risk of DC-based trading strategies, which demonstrated the effectiveness of our proposed methods.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-27T03:30:44Z</published>
+    <arxiv:comment>22 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Bing Wu</name>
+    </author>
+    <author>
+      <name>Xiangzu Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.21754v1</id>
+    <title>Embedded Polygon Symbolic Transfer Entropy (EPSTE): A Geometric Token and Deep Learning Approach to Estimating Transfer Entropy in Neuroimaging Time Series</title>
+    <updated>2026-06-19T21:13:56Z</updated>
+    <link href="https://arxiv.org/abs/2606.21754v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.21754v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inferring directed interactions between neural systems from EEG and MEG remains challenging due to noise, nonstationarity, and the high sample complexity of information-theoretic estimators. Transfer Entropy (TE) provides a principled and model-free measure of directed information flow; however, its practical estimation is not stable in finite data regimes (particularly as embedding dimension increases). This work introduces Embedded Polygon Symbolic Transfer Entropy (EPSTE), a framework that reframes TE estimation as a learnable problem operating on structured symbolic representations of local temporal morphology rather than raw signal amplitudes. Neural time series are decomposed into sequences of geometric primitives derived from local triplets of samples encoding complementary aspects of waveform structure such as magnitude, curvature and directional change. These primitives are discretised into symbolic tokens, yielding a compact but expressive state space over which symbolic TE is estimated. A recurrent neural network with attention-based multiple-instance learning is trained to predict surrogate-validated TE values from bags of symbolic temporal windows. The method is evaluated on source-reconstructed MEG data parcellated using the AAL90 atlas and compared against a standard symbolic baseline using identical architectures and supervision. The results demonstrate that while local window-level predictions are noisy, aggregation across trials and channel pairs yields stable directed dependencies. At the pair level, EPSTE achieves near-perfect recovery of ground-truth directed structure and significantly lower absolute error than the baseline, indicating that representational geometry plays a critical role in enabling practical learnability of information-theoretic dependencies.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-19T21:13:56Z</published>
+    <arxiv:comment>45 pages, 13 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>David Alexander Finnigan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.02969v1</id>
+    <title>Control of electron beam polarization in the bubble regime of laser-wakefield acceleration</title>
+    <updated>2022-01-09T09:35:42Z</updated>
+    <link href="https://arxiv.org/abs/2201.02969v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.02969v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electron beam polarization in the bubble regime of the interaction between a high-intensity laser and a longitudinally pre-polarized plasma is investigated by means of the Thomas-Bargmann-Michel-Telegdi equation. Using a test-particle model, the dependence of the accelerated electron polarization on the bubble geometry is analyzed in detail. Tracking the polarization dynamics of individual electrons reveals that although the spin direction changes during both the self-injection process and acceleration phase, the former has the biggest impact. For nearly spherical bubbles, the polarization of electron beam persists after capture and acceleration in the bubble. By contrast, for aspherical bubble shapes, the electron beam becomes rapidly depolarized, and the net polarization direction can even reverse in the case of a oblate spheroidal bubble. These findings are confirmed via particle-in-cell simulations.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-09T09:35:42Z</published>
+    <arxiv:comment>8pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>H. C. Fan</name>
+    </author>
+    <author>
+      <name>X. Y. Liu</name>
+    </author>
+    <author>
+      <name>X. F. Li</name>
+    </author>
+    <author>
+      <name>J. F. Qu</name>
+    </author>
+    <author>
+      <name>Q. Yu</name>
+    </author>
+    <author>
+      <name>Q. Kong</name>
+    </author>
+    <author>
+      <name>S. M. Weng</name>
+    </author>
+    <author>
+      <name>M. Chen</name>
+    </author>
+    <author>
+      <name>M. Büscher</name>
+    </author>
+    <author>
+      <name>P. Gibbon</name>
+    </author>
+    <author>
+      <name>S. Kawata</name>
+    </author>
+    <author>
+      <name>Z. M. Sheng</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/ac8951</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/ac8951" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.7436v1</id>
+    <title>Ratchet effect enhanced by plasmons</title>
+    <updated>2014-11-27T01:11:06Z</updated>
+    <link href="https://arxiv.org/abs/1411.7436v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.7436v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ratchet effect -- a {\it dc} current induced by the electromagnetic wave impinging on the spatially modulated two-dimensional (2D) electron liquid -- occurs when the wave amplitude is spatially modulated with the same wave vector as the 2D liquid but is shifted in phase. The analysis within the framework of the hydrodynamic model shows that the ratchet current is dramatically enhanced in the vicinity of the plasmonic resonances and has nontrivial polarization dependence. In particular, for circular polarization, the current component, perpendicular to the modulation direction, changes sign with the inversion of the radiation helicity. Remarkably, in the high-mobility structures, this component might be much larger than the the current component in the modulation direction. We also discuss the non-resonant regime realized in dirty systems, where the plasma resonances are suppressed, and demonstrate that the non-resonant ratchet current is controlled by the Maxwell relaxation in the 2D liquid.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-27T01:11:06Z</published>
+    <arxiv:comment>6 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>I. V. Rozhansky</name>
+    </author>
+    <author>
+      <name>V. Yu. Kachorovskii</name>
+    </author>
+    <author>
+      <name>M. S. Shur</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0601248v3</id>
+    <title>Aging behavior of spin glasses under bond and temperature perturbations from laser illumination</title>
+    <updated>2007-01-06T09:59:09Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0601248v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0601248v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We have studied the nonequilibrium dynamics of spin glasses subjected to bond perturbation, which was based on the direct change in the spin-spin interaction $ΔJ$, using photo illumination in addition to temperature change $ΔT$. Differences in time-dependent magnetization are observed between that under $ΔT+ΔJ$ and $ΔT$ perturbations with the same $ΔT$. This differences shows the contribution of $ΔJ$ to spin-glass dynamics through the decrease in the overlap length. That is, the overlap length $L_{ΔT+ΔJ}$ under $ΔT+ΔJ$ perturbation is less than $L_{ΔT}$ under $ΔT$ perturbation. Furthermore, we observe the crossover between weakly and strongly perturbed regimes under bond cycling accompanied by temperature cycling. These effects of bond perturbation strongly indicates the existence of both chaos and the overlap length.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-01-12T09:50:37Z</published>
+    <arxiv:comment>8page, 7figure</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Ryuta Arai</name>
+    </author>
+    <author>
+      <name>katsuyoshi komatsu</name>
+    </author>
+    <author>
+      <name>Tetsuya Sato</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.75.144424</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.75.144424" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0606124v2</id>
+    <title>Current behavior of a quantum Hamiltonian ratchet in resonance</title>
+    <updated>2006-12-11T10:46:29Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0606124v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0606124v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the ratchet current that appears in a kicked Hamiltonian system when the period of the kicks corresponds to the regime of quantum resonance. In the classical analogue, a spatial-temporal symmetry should be broken to obtain a net directed current. It was recently discovered that in quantum resonance the temporal symmetry can be kept, and we prove that breaking the spatial symmetry is a necessary condition to find this effect.
+  Moreover, we show numerically and analytically how the direction of the motion is dramatically influenced by the strength of the kicking potential and the value of the period. By increasing the strength of the interaction this direction changes periodically, providing us with a non-expected source of current reversals in this quantum model. These reversals depend on the kicking period also, though this behavior is theoretically more difficult to analyze. Finally, we generalize the discussion to the case of a non-uniform initial condition.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-06-14T16:40:10Z</published>
+    <arxiv:comment>6 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Dario Poletti</name>
+    </author>
+    <author>
+      <name>Gabriel G. Carlo</name>
+    </author>
+    <author>
+      <name>Baowen Li</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.75.011102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.75.011102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.06329v3</id>
+    <title>Replica analysis of overfitting in generalized linear models</title>
+    <updated>2020-07-08T14:52:24Z</updated>
+    <link href="https://arxiv.org/abs/2004.06329v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.06329v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nearly all statistical inference methods were developed for the regime where the number $N$ of data samples is much larger than the data dimension $p$. Inference protocols such as maximum likelihood (ML) or maximum a posteriori probability (MAP) are unreliable if $p=O(N)$, due to overfitting. This limitation has for many disciplines with increasingly high-dimensional data become a serious bottleneck. We recently showed that in Cox regression for time-to-event data the overfitting errors are not just noise but take mostly the form of a bias, and how with the replica method from statistical physics once can model and predict this bias and the noise statistics. Here we extend our approach to arbitrary generalized linear regression models (GLM), with possibly correlated covariates. We analyse overfitting in ML/MAP inference without having to specify data types or regression models, relying only on the GLM form, and derive generic order parameter equations for the case of $L2$ priors. Second, we derive the probabilistic relationship between true and inferred regression coefficients in GLMs, and show that, for the relevant hyperparameter scaling and correlated covariates, the $L2$ regularization causes a predictable direction change of the coefficient vector. Our results, illustrated by application to linear, logistic, and Cox regression, enable one to correct ML and MAP inferences in GLMs systematically for overfitting bias, and thus extend their applicability into the hitherto forbidden regime $p=O(N)$.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-14T07:27:48Z</published>
+    <arxiv:comment>45 pages, 7 figures, accepted for publication in Journal of Physics A</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>ACC Coolen</name>
+    </author>
+    <author>
+      <name>M Sheikh</name>
+    </author>
+    <author>
+      <name>A Mozeika</name>
+    </author>
+    <author>
+      <name>F Aguirre-Lopez</name>
+    </author>
+    <author>
+      <name>F Antenucci</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.03210v2</id>
+    <title>From Kernels to Features: A Multi-Scale Adaptive Theory of Feature Learning</title>
+    <updated>2025-05-28T12:21:28Z</updated>
+    <link href="https://arxiv.org/abs/2502.03210v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.03210v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Feature learning in neural networks is crucial for their expressive power and inductive biases, motivating various theoretical approaches. Some approaches describe network behavior after training through a change in kernel scale from initialization, resulting in a generalization power comparable to a Gaussian process. Conversely, in other approaches training results in the adaptation of the kernel to the data, involving directional changes to the kernel. The relationship and respective strengths of these two views have so far remained unresolved. This work presents a theoretical framework of multi-scale adaptive feature learning bridging these two views. Using methods from statistical mechanics, we derive analytical expressions for network output statistics which are valid across scaling regimes and in the continuum between them. A systematic expansion of the network's probability distribution reveals that mean-field scaling requires only a saddle-point approximation, while standard scaling necessitates additional correction terms. Remarkably, we find across regimes that kernel adaptation can be reduced to an effective kernel rescaling when predicting the mean network output in the special case of a linear network. However, for linear and non-linear networks, the multi-scale adaptive approach captures directional feature learning effects, providing richer insights than what could be recovered from a rescaling of the kernel alone.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-05T14:26:50Z</published>
+    <arxiv:comment>33 pages, 12 figures, accepted at International Conference on Machine Learning 2025</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Noa Rubin</name>
+    </author>
+    <author>
+      <name>Kirsten Fischer</name>
+    </author>
+    <author>
+      <name>Javed Lindner</name>
+    </author>
+    <author>
+      <name>David Dahmen</name>
+    </author>
+    <author>
+      <name>Inbar Seroussi</name>
+    </author>
+    <author>
+      <name>Zohar Ringel</name>
+    </author>
+    <author>
+      <name>Michael Krämer</name>
+    </author>
+    <author>
+      <name>Moritz Helias</name>
+    </author>
+  </entry>
+</feed>

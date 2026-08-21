@@ -1,0 +1,33 @@
+<!-- query_id: q-arxiv-01 | platform: arXiv API (export.arxiv.org) | date_searched: 2026-08-21 | query_url_verbatim: http://export.arxiv.org/api/query?search_query=abs:%22market+regime%22+AND+abs:%22definition%22+AND+cat:q-fin*&max_results=10 -->
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/m24cejomiFaivwG4BA2vLwK33e8</id>
+  <title>arXiv Query: search_query=abs:"market regime" AND abs:"definition" AND cat:q-fin*&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-21T20:05:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22market+regime%22+AND+(abs:%22definition%22+AND+cat:q-fin*)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2608.15841v1</id>
+    <title>Self-Supervised Auxiliary Task Discovery for Stable Reinforcement Learning in Stock Trading</title>
+    <updated>2026-08-16T16:20:40Z</updated>
+    <link href="https://arxiv.org/abs/2608.15841v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.15841v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning has gained increasing attention as a data-driven approach for stock trading. However, learning a policy that is both profitable and stable remains challenging due to non-stationary market behaviour and noisy reward signals. Auxiliary tasks are often used to improve representation learning and stabilize training, yet they are usually designed manually and depend heavily on prior assumptions about targets and prediction horizons. Such fixed designs may not remain suitable across changing market regimes. In this work, we propose a self-supervised framework that automatically discovers auxiliary tasks to support reinforcement learning for stock trading. The auxiliary tasks are formulated as General Value Functions so that their predictions enrich the learned state representation and assist policy optimization. The framework consists of two networks. The main network learns the trading policy along with the auxiliary predictions, while the secondary network generates the definitions of auxiliary tasks through learned cumulants and discount factors. These tasks are updated using a meta gradient mechanism that accounts for their long-term impact on trading performance and improves training stability. We evaluate the proposed approach across four major equity indices: DJI, FTSE, Sensex, and TAIEX. The empirical results demonstrate that automatically discovered auxiliary tasks lead to more robust learning and improved trading performance compared to existing baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-16T16:20:40Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Arishi Orra</name>
+    </author>
+    <author>
+      <name>Himanshu Choudhary</name>
+    </author>
+    <author>
+      <name>Manoj Thakur</name>
+    </author>
+  </entry>
+</feed>

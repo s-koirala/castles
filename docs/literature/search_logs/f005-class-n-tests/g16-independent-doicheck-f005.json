@@ -1,0 +1,72 @@
+{
+ "query_id": "g16-independent-doicheck-f005",
+ "platform": "Crossref REST API works/{doi}; DOI Handle System REST API doi.org/api/handles/{doi}; browser-user-agent GET to doi.org",
+ "date_searched": "2026-08-21",
+ "purpose": "Independent re-verification of every DOI in the included corpus, prompted by G16 failures in the research-compile gate. The gate issues an unauthenticated HEAD to doi.org with a script user agent; several publishers answer HEAD with HTTP 403 regardless of registration status, and intermittently (the flagged set differed between two gate runs on 2026-08-21: run 1 flagged rof/rfr026, 1467-9868.00141, mnsc.1080.0920, ssrn.4486459; run 2 flagged 09603100802199679, rof/rfr026, 1467-9868.00141, ssrn.4486459). Same disposition method as search_logs/level-definitions/g16-independent-doicheck.json.",
+ "scope": "all 6 DOIs in references_f005-class-n-tests.json (the seventh entry, Hall & York 2001, has no DOI by confirmed fact - see ki-f005-01.json)",
+ "n_checked": 6,
+ "results": [
+  {
+   "doi": "10.1111/1467-9868.00141",
+   "handle_responseCode": 1,
+   "handle_target": "https://academic.oup.com/jrsssb/article/60/3/579/7083086",
+   "crossref_status": "ok",
+   "registered_title": "Calibrating the Excess Mass and Dip Tests of Modality",
+   "publisher": "Oxford University Press (OUP)",
+   "browser_get_status": 403,
+   "browser_get_final_url": "https://academic.oup.com/jrsssb/article/60/3/579/7083086"
+  },
+  {
+   "doi": "10.1038/srep04487",
+   "handle_responseCode": 1,
+   "handle_target": "https://www.nature.com/articles/srep04487",
+   "crossref_status": "ok",
+   "registered_title": "Memory effects in stock price dynamics: evidences of technical trading",
+   "publisher": "Springer Science and Business Media LLC",
+   "browser_get_status": 200,
+   "browser_get_final_url": "https://www.nature.com/articles/srep04487"
+  },
+  {
+   "doi": "10.1093/rof/rfr026",
+   "handle_responseCode": 1,
+   "handle_target": "https://academic.oup.com/rof/article/17/1/369/1580221",
+   "crossref_status": "ok",
+   "registered_title": "How the 52-Week High and Low Affect Option-Implied Volatilities and Stock Return Moments",
+   "publisher": "Oxford University Press (OUP)",
+   "browser_get_status": 403,
+   "browser_get_final_url": "https://academic.oup.com/rof/article/17/1/369/1580221"
+  },
+  {
+   "doi": "10.1287/mnsc.1080.0920",
+   "handle_responseCode": 1,
+   "handle_target": "https://pubsonline.informs.org/doi/10.1287/mnsc.1080.0920",
+   "crossref_status": "ok",
+   "registered_title": "Volume and Price Patterns Around a Stock's 52-Week Highs and Lows: Theory and Evidence",
+   "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+   "browser_get_status": 403,
+   "browser_get_final_url": "https://pubsonline.informs.org/doi/10.1287/mnsc.1080.0920"
+  },
+  {
+   "doi": "10.1080/09603100802199679",
+   "handle_responseCode": 1,
+   "handle_target": "http://www.tandfonline.com/doi/abs/10.1080/09603100802199679",
+   "crossref_status": "ok",
+   "registered_title": "Highs and lows: a behavioural and technical analysis",
+   "publisher": "Informa UK Limited",
+   "browser_get_status": 200,
+   "browser_get_final_url": "https://www.tandfonline.com/doi/abs/10.1080/09603100802199679"
+  },
+  {
+   "doi": "10.2139/ssrn.4486459",
+   "handle_responseCode": 1,
+   "handle_target": "https://www.ssrn.com/abstract=4486459",
+   "crossref_status": "ok",
+   "registered_title": "Moving Average as a Psychological Barrier: Evidence from International Markets",
+   "publisher": "Elsevier BV",
+   "browser_get_status": 403,
+   "browser_get_final_url": "https://www.ssrn.com/abstract=4486459"
+  }
+ ],
+ "n_handle_resolved": 6,
+ "n_crossref_registered": 6
+}

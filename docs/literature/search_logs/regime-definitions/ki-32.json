@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-32",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Botte+Bao+A+machine+learning+approach+to+regime+modeling+Two+Sigma&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 7783969,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1021/acsengineeringau.5c00087.s001",
+   "title": "Modeling Solvatochromic Effect by a Two-Step Machine Learning Approach for Organic Chromophores",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.20944/preprints202510.2374.v1",
+   "title": "A Two-Stage Machine Learning Approach to Bankruptcy Prediction: From Comprehensive Modeling to Feature Selection for Noise Reduction",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Corporate bankruptcy prediction has become increasingly critical amid economic uncertainty. This study proposes a novel two-stage machine learning approach to enhance bankruptcy prediction accuracy, applied to Tokyo Stock Exchange-listed companies. First, models were trained using 173 financial indicators. Second, a wrapper-based feature selection process was employed to reduce dimensionality and eliminate noise, thereby identifying an optimal seven-feature set. Two ensemble learning methods, Random Forest and LightGBM, were used. Random Forest correctly predicted 566 bankruptcies using the reduced feature set (88 more than when using all features) compared with 451 by LightGBM (31 more than when using all features). The study also addresses challenges posed by imbalanced data by employing resampling techniques (SMOTE, SMOTE-ENN, and KMeans). Additionally, the need for industry-specific modeling is recognized by constructing models for the six industry sectors. These findings highlight the importance of feature selection and ensemble learning for improving model generalizability and uncovering industry-specific patterns. This study contributes to the field of bankruptcy pre"
+  },
+  {
+   "DOI": "10.23880/ppej-16000213",
+   "title": "A Machine Learning Approach to Modeling Pore Pressure",
+   "year": 2020,
+   "container": "Petroleum &amp; Petrochemical Engineering Journal",
+   "type": "journal-article",
+   "abstract": "<jats:p>Machine  Learning  techniques  and  applications  have  lately  gained  a  lot  of  interest  in  many  areas,  including  spheres  of   arithmetic, finances, engineering, dialectology, and a lot more. This is owing to the upwelling of ground-breaking and  sophisticated machine learning procedures to exceedingly multifaceted complications along with the prevailing advances  in  high  speed  computing.  Numerous  usages  of  Machine  learning  in  daily  life  include  pattern  recognition,  automation,  data   processing  and  analysis,  and  so  on.  The  Petroleum  industry  is  not  lagging  behind  also.  On  the  contrary,  machine  learning   approaches have lately been applied to enhance production, forecast recoverable hydrocarbons, augment well placement  by means of pattern recognition, optimize hydraulic fracture design, and to help in reservoir characterization. In this paper,  three different machine learning models were trained and utilized to explore the feasibility of forecasting pore pressure of a  well. The machine learning algorithms include, Simple Linear Regression, Decision Stump and Multilayer Perceptron (ANN).  The predictive accuracies of the algori"
+  }
+ ]
+}

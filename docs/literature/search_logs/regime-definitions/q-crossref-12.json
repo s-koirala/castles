@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-12",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=market+regime&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 483371,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1093/law:ocl/9780198757245.003.0005",
+   "title": "The Market Investigations Regime",
+   "year": 2015,
+   "container": "UK Competition Law",
+   "type": "book-chapter",
+   "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>This chapter analyses the changes to the market investigations regime made under the Enterprise and Regulatory Reform Act 2013 (ERRA). It outlines the criticisms highlighted in the Government’s consultation on the options for reform, such as the length of time taken to complete market studies and investigations and the degree of duplication as a result of a two-stage process conducted separately by the Office of Fair Trading and the Competition Commission. The chapter then describes the changes to the regime, including wider information-gathering powers of the newly created Competition and Markets Authority (CMA), an enhanced ‘concurrency’ regime and the reduced statutory time limits for market studies and investigations. Finally, it comments on the concerns relating to confirmation bias and the expected impact of the reforms.</jats:p>"
+  },
+  {
+   "DOI": "10.5040/9781526509130.ch-004",
+   "title": "The market abuse regime",
+   "year": 2022,
+   "container": "Market Abuse and Insider Dealing",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2364430",
+   "title": "Revisiting Turkish Market Abuse Regime",
+   "year": 2013,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1057/jbr.2011.5",
+   "title": "Market abuse regime in Turkey",
+   "year": 2011,
+   "container": "Journal of Banking Regulation",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.57932",
+   "title": "Market Crashes, Market Regimes, and Regime-Separating Barriers",
+   "year": 1998,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Genotte and Leland (1990) present a theory of market crashes with a reverse-S demand curve, negatively-sloped at higher and lower prices and positively-sloped between. The crash takes the form of a downward jump from one point on the demand curve to another. In this paper, we revisit the theory of market crashes with a wider class of utility functions for which wealth effects are significant. This results in two demand curves, a normal demand curve along which price movements and trading are continuous, and a jump demand curve along which crashes occur. Within this framework, there are at least two demand curves which can lead to crashes: the reverse-S demand curve and a simpler backward-bending demand curve which is negatively-sloped at lower prices and positively-sloped at higher ones. Both crashes serve a\r\npositive purpose by returning the market to the interior of a well-behaved regime, but differ in how they start and end.</jats:p>"
+  },
+  {
+   "DOI": "10.2139/ssrn.3877650",
+   "title": "Market regime classification with signatures",
+   "year": 2021,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We provide a data-driven algorithm to classify market regimes for time series. &lt;br&gt;We utilise the path signature, encoding time series into easy-to-describe objects, and provide a metric structure which establishes a connection between separation of regimes and clustering of points.</jats:p>"
+  },
+  {
+   "DOI": "10.1111/j.1475-679x.2007.00231.x",
+   "title": "Market Transparency and the Accounting Regime",
+   "year": 2007,
+   "container": "Journal of Accounting Research",
+   "type": "journal-article",
+   "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>We model the interaction of financial market transparency and different accounting regimes. This paper provides a theoretical rationale for the recently proposed shift in accounting standards from historic cost accounting to marking to market. The paper shows that marking to market can provide investors with an early warning mechanism while historical cost gives management a “veil” under which they can potentially mask a firm's true economic performance. The model provides new explanations for several empirical findings and has some novel implications. We show that greater opacity in financial markets leads to more frequent and more severe crashes in asset prices (under a historic‐cost‐accounting regime). Moreover, our model indicates that historic cost accounting can make the financial market more rather than less volatile, which runs counter to conventional wisdom. The mechanism shown in the model also sheds light on the cause of many financial scandals in recent years.</jats:p>"
+  },
+  {
+   "DOI": "10.1080/096031097333745",
+   "title": "Regime switching in stock market returns",
+   "year": 1997,
+   "container": "Applied Financial Economics",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

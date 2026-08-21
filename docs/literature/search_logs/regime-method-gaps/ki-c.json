@@ -1,0 +1,872 @@
+[
+ {
+  "query": "A cross-validatory method for dependent data Burman Chow Nolan",
+  "url": "https://api.crossref.org/works?query.bibliographic=A%20cross-validatory%20method%20for%20dependent%20data%20Burman%20Chow%20Nolan&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 6498890,
+    "items": [
+     {
+      "DOI": "10.2307/2336965",
+      "title": [
+       "A Cross-Validatory Method for Dependent Data"
+      ],
+      "author": [
+       {
+        "given": "Prabir",
+        "family": "Burman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Edmond",
+        "family": "Chow",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Deborah",
+        "family": "Nolan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1994,
+         6
+        ]
+       ]
+      },
+      "container-title": [
+       "Biometrika"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1093/biomet/81.2.351",
+      "title": [
+       "A cross-validatory method for dependent data"
+      ],
+      "author": [
+       {
+        "given": "PRABIR",
+        "family": "BURMAN",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "EDMOND",
+        "family": "CHOW",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "DEBORAH",
+        "family": "NOLAN",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1994
+        ]
+       ]
+      },
+      "container-title": [
+       "Biometrika"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1016/s0304-4076(00)00030-0",
+      "title": [
+       "Consistent cross-validatory model-selection for dependent data: hv-block cross-validation"
+      ],
+      "author": [
+       {
+        "given": "Jeff",
+        "family": "Racine",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2000,
+         11
+        ]
+       ]
+      },
+      "container-title": [
+       "Journal of Econometrics"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Evaluating time series forecasting models empirical study performance estimation methods Cerqueira Torgo",
+  "url": "https://api.crossref.org/works?query.bibliographic=Evaluating%20time%20series%20forecasting%20models%20empirical%20study%20performance%20estimation%20methods%20Cerqueira%20Torgo&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 1083833,
+    "items": [
+     {
+      "DOI": "10.1007/s10994-020-05910-7",
+      "title": [
+       "Evaluating time series forecasting models: an empirical study on performance estimation methods"
+      ],
+      "author": [
+       {
+        "ORCID": "https://orcid.org/0000-0002-9694-8423",
+        "authenticated-orcid": false,
+        "given": "Vitor",
+        "family": "Cerqueira",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Luis",
+        "family": "Torgo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Igor",
+        "family": "Mozetič",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2020,
+         10,
+         13
+        ]
+       ]
+      },
+      "container-title": [
+       "Machine Learning"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1109/dsaa.2017.7",
+      "title": [
+       "A Comparative Study of Performance Estimation Methods for Time Series Forecasting"
+      ],
+      "author": [
+       {
+        "given": "Vitor",
+        "family": "Cerqueira",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Luis",
+        "family": "Torgo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Jasmina",
+        "family": "Smailovic",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Igor",
+        "family": "Mozetic",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2017,
+         10
+        ]
+       ]
+      },
+      "container-title": [
+       "2017 IEEE International Conference on Data Science and Advanced Analytics (DSAA)"
+      ],
+      "type": "proceedings-article"
+     },
+     {
+      "DOI": "10.1007/s11063-023-11239-8",
+      "title": [
+       "Model Selection for Time Series Forecasting An Empirical Analysis of Multiple Estimators"
+      ],
+      "author": [
+       {
+        "ORCID": "https://orcid.org/0000-0002-9694-8423",
+        "authenticated-orcid": false,
+        "given": "Vitor",
+        "family": "Cerqueira",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Luis",
+        "family": "Torgo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Carlos",
+        "family": "Soares",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2023,
+         3,
+         22
+        ]
+       ]
+      },
+      "container-title": [
+       "Neural Processing Letters"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Asymptotic inference about predictive ability West Econometrica",
+  "url": "https://api.crossref.org/works?query.bibliographic=Asymptotic%20inference%20about%20predictive%20ability%20West%20Econometrica&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 1640795,
+    "items": [
+     {
+      "DOI": "10.2307/2171956",
+      "title": [
+       "Asymptotic Inference about Predictive Ability"
+      ],
+      "author": [
+       {
+        "given": "Kenneth D.",
+        "family": "West",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1996,
+         9
+        ]
+       ]
+      },
+      "container-title": [
+       "Econometrica"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1002/9780470996430.ch14",
+      "title": [
+       "Inference About Predictive Ability"
+      ],
+      "author": [
+       {
+        "given": "Michael W.",
+        "family": "McCracken",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Kenneth D.",
+        "family": "West",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2004,
+         1
+        ]
+       ]
+      },
+      "container-title": [
+       "A Companion to Economic Forecasting"
+      ],
+      "type": "other"
+     },
+     {
+      "DOI": "10.2139/ssrn.958900",
+      "title": [
+       "Inference About Predictive Ability When There are Many Predictors"
+      ],
+      "author": [
+       {
+        "given": "Stanislav",
+        "family": "Anatolyev",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2007
+        ]
+       ]
+      },
+      "type": "posted-content"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Advances in financial machine learning Lopez de Prado notes on backtesting",
+  "url": "https://api.crossref.org/works?query.bibliographic=Advances%20in%20financial%20machine%20learning%20Lopez%20de%20Prado%20notes%20on%20backtesting&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 17220367,
+    "items": [
+     {
+      "DOI": "10.2139/ssrn.3197726",
+      "title": [
+       "Ten Financial Applications of Machine Learning"
+      ],
+      "author": [
+       {
+        "given": "Marcos",
+        "family": "Lopez de Prado",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2018
+        ]
+       ]
+      },
+      "container-title": [
+       "SSRN Electronic Journal"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.2139/ssrn.2606462",
+      "title": [
+       "Backtesting"
+      ],
+      "author": [
+       {
+        "given": "Marcos",
+        "family": "Lopez de Prado",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2015
+        ]
+       ]
+      },
+      "container-title": [
+       "SSRN Electronic Journal"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.2139/ssrn.3177534",
+      "title": [
+       "Financial Machine Learning in 10 Minutes (Presentation Slides)"
+      ],
+      "author": [
+       {
+        "given": "Marcos",
+        "family": "Lopez de Prado",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2018
+        ]
+       ]
+      },
+      "container-title": [
+       "SSRN Electronic Journal"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "The deflated Sharpe ratio correcting for selection bias backtest overfitting Bailey Lopez de Prado",
+  "url": "https://api.crossref.org/works?query.bibliographic=The%20deflated%20Sharpe%20ratio%20correcting%20for%20selection%20bias%20backtest%20overfitting%20Bailey%20Lopez%20de%20Prado&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 89928,
+    "items": [
+     {
+      "DOI": "10.2139/ssrn.2460551",
+      "title": [
+       "The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting and Non-Normality"
+      ],
+      "author": [
+       {
+        "given": "David H.",
+        "family": "Bailey",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "ORCID": "https://orcid.org/0000-0002-4107-3797",
+        "authenticated-orcid": true,
+        "given": "Marcos",
+        "family": "López de Prado",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2019
+        ]
+       ]
+      },
+      "type": "posted-content"
+     },
+     {
+      "DOI": "10.3905/pa.2014.2.3.089",
+      "title": [
+       "Practical Applications of The Deflated Sharpe Ratio:<i>Correcting for Selection Bias, Backtest Overfitting, and Non-Normality</i>The Deflated Sharpe Ratio:<i>Correcting for Selection Bias, Backtest Overfitting, and Non-Normality</i>David H. Bailey Marcos López de Prado"
+      ],
+      "author": [
+       {
+        "given": "Scott",
+        "family": "Cathy",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2014,
+         11
+        ]
+       ]
+      },
+      "container-title": [
+       "Practical Applications"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.3905/pa.2015.2.3.089",
+      "title": [
+       "Practical Applications of The Deflated Sharpe Ratio: <i>Correcting for Selection Bias, Backtest Overfitting, and Non-Normality</i>"
+      ],
+      "author": [
+       {
+        "given": "David H.",
+        "family": "Bailey",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Marcos",
+        "family": "López de Prado",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2015,
+         1,
+         31
+        ]
+       ]
+      },
+      "container-title": [
+       "Practical Applications"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Automated kernel smoothing of dependent data by using time series cross-validation Hart",
+  "url": "https://api.crossref.org/works?query.bibliographic=Automated%20kernel%20smoothing%20of%20dependent%20data%20by%20using%20time%20series%20cross-validation%20Hart&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 1032637,
+    "items": [
+     {
+      "DOI": "10.1111/j.2517-6161.1994.tb01998.x",
+      "title": [
+       "Automated Kernel Smoothing of Dependent Data by Using Time Series Cross-Validation"
+      ],
+      "author": [
+       {
+        "given": "Jeffrey D.",
+        "family": "Hart",
+        "sequence": "first",
+        "affiliation": [
+         {
+          "name": "Texas A&M University , College Station , USA"
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1994,
+         9,
+         1
+        ]
+       ]
+      },
+      "container-title": [
+       "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1111/1467-9892.00237",
+      "title": [
+       "A Bias Correction for Cross‐validation Bandwidth Selection when a Kernel Estimate is Based on Dependent Data"
+      ],
+      "author": [
+       {
+        "given": "Martin",
+        "family": "Skold",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2001,
+         7
+        ]
+       ]
+      },
+      "container-title": [
+       "Journal of Time Series Analysis"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1080/10485259608832667",
+      "title": [
+       "Some automated methods of smoothing time-dependent data"
+      ],
+      "author": [
+       {
+        "given": "Jeffrey D.",
+        "family": "Hart",
+        "sequence": "first",
+        "affiliation": [
+         {
+          "name": "Texas A & M University"
+         }
+        ],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1996,
+         1
+        ]
+       ]
+      },
+      "container-title": [
+       "Journal of Nonparametric Statistics"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ }
+]

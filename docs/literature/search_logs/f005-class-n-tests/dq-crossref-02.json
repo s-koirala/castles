@@ -1,0 +1,90 @@
+{
+ "query_id": "dq-crossref-02",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=support+resistance+levels+bootstrap+confidence+interval&rows=10&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2138825,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "DOI": "10.21236/ada158880",
+   "title": "On the Number of Bootstrap Simulations Required to Construct a Confidence Interval.",
+   "year": 1985,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.32614/cran.package.biosampler",
+   "title": "biosampleR: Biodiversity Index Calculation and Bootstrap Confidence Interval Estimation",
+   "year": 2023,
+   "container": "CRAN: Contributed Packages",
+   "type": "dataset",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.32614/cran.package.etasbootstrap",
+   "title": "ETASbootstrap: Bootstrap Confidence Interval Estimation for 'ETAS' Model Parameters",
+   "year": 2023,
+   "container": "CRAN: Contributed Packages",
+   "type": "dataset",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.31234/osf.io/pe4m2",
+   "title": "Correcting the Bias Correction for the Bootstrap Confidence Interval in Mediation Analysis",
+   "year": 2021,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "The bias-corrected bootstrap confidence interval (BCBCI) was once the method of choice for conducting inference on the indirect effect in mediation analysis due to its high power in small samples, but now it is criticized by methodologists for its inflated type I error rates. In its place, the percentile bootstrap confidence interval (PBCI), which does not adjust for bias, is currently the recommended inferential method for indirect effects. This study proposes two alternative bias-corrected bootstrap methods for creating confidence intervals around the indirect effect. Using a Monte Carlo sim"
+  },
+  {
+   "DOI": "10.51936/vvcb8367",
+   "title": "Confidence interval for the process capability index based on the bootstrap-t confidence interval for the standard deviation",
+   "year": 2014,
+   "container": "Advances in Methodology and Statistics",
+   "type": "journal-article",
+   "abstract": "This paper proposes a confidence interval for the process capability index based on the bootstrap-t confidence interval for the standard deviation. A Monte Carlo simulation study was conducted to compare the performance of the proposed confidence interval with the existing confidence interval based on the confidence interval for the standard deviation. Simulation results show that the proposed confidence interval performs well in terms of coverage probability in case of more skewed distributions. On the other hand, the existing confidence interval has a coverage probability close to the nomina"
+  },
+  {
+   "DOI": "10.32614/cran.package.hdci",
+   "title": "HDCI: High Dimensional Confidence Interval Based on Lasso and Bootstrap",
+   "year": 2017,
+   "container": "CRAN: Contributed Packages",
+   "type": "dataset",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.12677/aam.2021.1011403",
+   "title": "Model-Averaged Bootstrap Confidence Interval",
+   "year": 2021,
+   "container": "Advances in Applied Mathematics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1017/9781009025317.013",
+   "title": "General Procedure for Goodness-of-Fit Study, Construction of Confidence Interval, and 95% Confidence Bound with Parametric Bootstrap Method",
+   "year": 2022,
+   "container": "Generalized Frequency Distributions for Environmental and Water Engineering",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.28919/ejma.2025.5.5",
+   "title": "Bootstrap confidence interval for fractional diffusions and American options",
+   "year": 2025,
+   "container": "European Journal of Mathematics and Applications",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.29313/jrs.v4i1.3854",
+   "title": "Kepercayaan The Bootstrap Percentile Confidence Interval untuk Koefisien Variasi",
+   "year": 2024,
+   "container": "Jurnal Riset Statistika",
+   "type": "journal-article",
+   "abstract": "Abstract. The Inverse Gaussian (IG) distribution is used to model data that has a positively skewed or right-skewed distribution. The coefficient of variation (CV) is the ratio of the standard deviation to the mean value. It reflects a good measure of dispersion used when comparing two or more groups of data. One method for estimating the coefficient of variation (CV) confidence interval is The Bootstrap Percentile Confidence Interval (BPCI) method. In this thesis, the BPCI method will be applied to the coefficient of variation of the IG distribution on PM 2.5 air quality data. In the research"
+  }
+ ]
+}

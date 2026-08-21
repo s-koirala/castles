@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-35",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Gonzalez+Powell+Shi+Wilson+Two+centuries+of+bull+and+bear+market+cycles&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 49993,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1016/j.iref.2004.02.003",
+   "title": "Two centuries of bull and bear market cycles",
+   "year": 2005,
+   "container": "International Review of Economics &amp; Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.17578/10-1/2-3",
+   "title": "Defining and Dating Bull and Bear Markets: Two Centuries of Evidence",
+   "year": 2006,
+   "container": "Multinational Finance Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.3616733",
+   "title": "The Cycle of Rents: A Model of Rational Bull-and-Bear Cycles in an Efficient Market",
+   "year": 2020,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

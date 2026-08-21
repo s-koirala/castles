@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-02",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=bull+bear+market+dating+identification+rule&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1949773,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.32614/cran.package.bbdetection",
+   "title": "bbdetection: Identification of Bull and Bear States of the Market",
+   "year": 2021,
+   "container": "CRAN: Contributed Packages",
+   "type": "dataset",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.19166/derema.v18i1.6643",
+   "title": "IDENTIFIKASI BULL AND BEAR MARKET DI PASAR MODAL SYARIAH INDONESIA: PENDEKATAN MARKOV-SWITCHING [IDENTIFICATION OF THE BULL AND BEAR MARKET IN THE INDONESIAN SHARIA CAPITAL MARKET: THE MARKOV-SWITCHING APPROACH]",
+   "year": 2023,
+   "container": "DeReMa (Development Research of Management): Jurnal Manajemen",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.ribaf.2021.101603",
+   "title": "Identifying bull and bear market regimes with a robust rule-based method",
+   "year": 2022,
+   "container": "Research in International Business and Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerjcs.279/fig-1",
+   "title": "Figure 1: Bull (A) and Bear (B) price dynamics for Bitcoin market.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.4866889",
+   "title": "Asymmetries in Bitcoin Bull and Bear Market Phases",
+   "year": 2024,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.7012878",
+   "title": "Animal Magnetism: A Bull-Bear Polarisation Model of Endogenous Market Volatility",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>&lt;div&gt;\n This paper introduces animal magnetism: a structural model of market volatility inspired by two classical ideas, Keynes's animal spirits and Anderson's principle that \"more is different\". Keynes gives the economic intuition: markets are moved not only by calculation, but also by confidence, fear, positioning, liquidity pressure, and the urge to act under uncertainty. Anderson gives the physical intuition: when many simple components interact, collective behaviour can emerge that is not visible at the level of the individual component.\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n We model unresolved bullish and bearish market pressures as interacting binary variables in an Ising-type hidden layer. Their aggregate state is the hidden bull--bear polarisation. When these pressures weakly interact, the market remains balanced and well anchored. When interaction strengthens, the market can become crowded, reactive, and fragile. Near the critical threshold, small disturbances can be amplified because the hidden state has lost resistance.\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Coupling this hidden pressure layer to prices gives"
+  },
+  {
+   "DOI": "10.2139/ssrn.7274804",
+   "title": "Animal Magnetism: A Bull--Bear Polarisation Model of Endogenous Market Volatility",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper introduces animal magnetism: a structural model of market volatility inspired by two classical ideas, Keynes&amp;apos;s animal spirits and Anderson&amp;apos;s principle that ``more is different&amp;apos;&amp;apos;. Keynes gives the economic intuition: markets are moved not only by calculation, but also by confidence, fear, positioning, liquidity pressure, and the urge to act under uncertainty. Anderson gives the physical intuition: when many simple components interact, collective behaviour can emerge that is not visible at the level of the individual component.We model unresolved bullish and bearish market pressures as interacting binary variables in an Ising-type hidden layer. Their aggregate state is the hidden bull--bear polarisation. When these pressures weakly interact, the market remains balanced and well anchored. When interaction strengthens, the market can become crowded, reactive, and fragile. Near the critical threshold, small disturbances can be amplified because the hidden state has lost resistance.Coupling this hidden pressure layer to prices gives a structural stochastic-volatility model in which volatility clustering, fat-tailed returns, regime ch"
+  },
+  {
+   "DOI": "10.2139/ssrn.1571613",
+   "title": "Leverage Management in a Bull-Bear Switching Market",
+   "year": 2010,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>The large amount of leverage used by institutional investors and retail investors, corporations and households, is frequently cited as a major contributor of the current financial crisis. Recent events highlight the importance of leverage management, and the painful decision to de-leverage, especially when the market conditions may change drastically. Many institutional investors and university endowments managers debated heavily whether they should reduce leverage, or decrease their positions in risky asset holdings in a market downturn.\n\nShould an investor unwind his portfolio in the face of changing economic conditions?\n\nWe completely characterize an investor's optimal trading strategy in the presence of transaction costs in an economy that switches stochastically between two market conditions. We show that absent transactions cost, the investor acts myopically in each market, as if the other market did not exist, and invests a constant fraction of wealth in stock and bond. With transaction cost, we find that de-leveraging, reducing the degree of leverage, or keeping leverage unchanged can all be optimal outcomes as the market switches from a \"bull\" regime with high expe"
+  }
+ ]
+}

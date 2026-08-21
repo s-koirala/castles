@@ -1,0 +1,90 @@
+{
+ "query_id": "q-openalex-03",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.openalex.org/works?filter=title.search:bull%20and%20bear%20markets&sort=cited_by_count:desc&per-page=10",
+ "total_results_reported": 435,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "id": "https://openalex.org/W1970495888",
+   "DOI": "10.1016/0167-2681(90)90061-h",
+   "title": "Bulls, bears and market sheep",
+   "year": 1990,
+   "venue": "Journal of Economic Behavior & Organization",
+   "cited_by": 628
+  },
+  {
+   "id": "https://openalex.org/W2086150820",
+   "DOI": "10.1111/j.1540-6261.1977.tb03312.x",
+   "title": "STABILITY TESTS FOR ALPHAS AND BETAS OVER BULL AND BEAR MARKET CONDITIONS",
+   "year": 1977,
+   "venue": "The Journal of Finance",
+   "cited_by": 307
+  },
+  {
+   "id": "https://openalex.org/W2791501975",
+   "DOI": "10.1080/00036846.2018.1488075",
+   "title": "Spillovers between Bitcoin and other assets during bear and bull markets",
+   "year": 2018,
+   "venue": "Applied Economics",
+   "cited_by": 305
+  },
+  {
+   "id": "https://openalex.org/W3124642734",
+   "DOI": "10.1080/07350015.2000.10524851",
+   "title": "Identifying Bull and Bear Markets in Stock Returns",
+   "year": 2000,
+   "venue": "Journal of Business and Economic Statistics",
+   "cited_by": 302
+  },
+  {
+   "id": "https://openalex.org/W4240897231",
+   "DOI": "10.2307/1392140",
+   "title": "Identifying Bull and Bear Markets in Stock Returns",
+   "year": 2000,
+   "venue": "Journal of Business and Economic Statistics",
+   "cited_by": 233
+  },
+  {
+   "id": "https://openalex.org/W2151352599",
+   "DOI": "10.1111/j.1540-6261.1979.tb00069.x",
+   "title": "Mutual Fund Systematic Risk for Bull and Bear Markets: An Empirical Examination",
+   "year": 1979,
+   "venue": "The Journal of Finance",
+   "cited_by": 143
+  },
+  {
+   "id": "https://openalex.org/W1992143603",
+   "DOI": "10.1111/j.1475-6803.1993.tb00147.x",
+   "title": "DUAL BETAS FROM BULL AND BEAR MARKETS: REVERSAL OF THE SIZE EFFECT",
+   "year": 1993,
+   "venue": "The Journal of Financial Research",
+   "cited_by": 141
+  },
+  {
+   "id": "https://openalex.org/W3122121756",
+   "DOI": "10.3905/jpm.2001.319817",
+   "title": "Hedge Fund and Commodity Fund Investments in Bull and Bear Markets",
+   "year": 2001,
+   "venue": "The Journal of Portfolio Management",
+   "cited_by": 137
+  },
+  {
+   "id": "https://openalex.org/W2168972590",
+   "DOI": "10.2307/2330303",
+   "title": "An Analysis of Risk in Bull and Bear Markets",
+   "year": 1979,
+   "venue": "Journal of Financial and Quantitative Analysis",
+   "cited_by": 132
+  },
+  {
+   "id": "https://openalex.org/W1964803814",
+   "DOI": "10.1257/aer.90.4.1019",
+   "title": "A Preference Regime Model of Bull and Bear Markets",
+   "year": 2000,
+   "venue": "American Economic Review",
+   "cited_by": 119
+  }
+ ]
+}

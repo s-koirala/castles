@@ -1,0 +1,34 @@
+{
+ "query_id": "dq-arxiv-01",
+ "platform": "arXiv API v1 (export.arxiv.org, Atom)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "http://export.arxiv.org/api/query?search_query=all:%22support%20and%20resistance%22%20AND%20all:%22statistical%22%20AND%20cat:q-fin*&start=0&max_results=15&sortBy=relevance",
+ "total_results_reported": 4,
+ "n_records_retrieved": 4,
+ "items": [
+  {
+   "arxiv_id": "2101.07410v1",
+   "title": "Evidence and Behaviour of Support and Resistance Levels in Financial Time Series",
+   "published": "2021-01-19T01:54:19Z",
+   "summary": "This paper investigates the phenomenon of support and resistance levels (SR levels) in financial time series, which act as temporary price barriers that reverses price trends. We develop a heuristic discovery algorithm for this purpose, to discover and evaluate SR levels for intraday price series. Our simple approach discovers SR levels which are able to reverse price trends statistically significantly. Asset price entering SR levels with higher number of price bounces before are more likely to bounce on such SR levels again. We also show that the decay aspect of the discovered SR levels as de"
+  },
+  {
+   "arxiv_id": "2507.01971v1",
+   "title": "DeepSupp: Attention-Driven Correlation Pattern Analysis for Dynamic Time Series Support and Resistance Levels Identification",
+   "published": "2025-06-22T11:09:55Z",
+   "summary": "Support and resistance (SR) levels are central to technical analysis, guiding traders in entry, exit, and risk management. Despite widespread use, traditional SR identification methods often fail to adapt to the complexities of modern, volatile markets. Recent research has introduced machine learning techniques to address the following challenges, yet most focus on price prediction rather than structural level identification. This paper presents DeepSupp, a new deep learning approach for detecting financial support levels using multi-head attention mechanisms to analyze spatial correlations an"
+  },
+  {
+   "arxiv_id": "1401.1888v2",
+   "title": "Dynamical Models of Stock Prices Based on Technical Trading Rules Part I: The Models",
+   "published": "2014-01-09T04:41:39Z",
+   "summary": "In this paper we use fuzzy systems theory to convert the technical trading rules commonly used by stock practitioners into excess demand functions which are then used to drive the price dynamics. The technical trading rules are recorded in natural languages where fuzzy words and vague expressions abound. In Part I of this paper, we will show the details of how to transform the technical trading heuristics into nonlinear dynamic equations. First, we define fuzzy sets to represent the fuzzy terms in the technical trading rules; second, we translate each technical trading heuristic into a group o"
+  },
+  {
+   "arxiv_id": "1110.5197v1",
+   "title": "Memory effects in stock price dynamics: evidences of technical trading",
+   "published": "2011-10-24T11:02:17Z",
+   "summary": "Technical trading represents a class of investment strategies for Financial Markets based on the analysis of trends and recurrent patterns of price time series. According standard economical theories these strategies should not be used because they cannot be profitable. On the contrary it is well-known that technical traders exist and operate on different time scales. In this paper we investigate if technical trading produces detectable signals in price time series and if some kind of memory effect is introduced in the price dynamics. In particular we focus on a specific figure called supports"
+  }
+ ]
+}

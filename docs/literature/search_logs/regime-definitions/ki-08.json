@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-08",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Terasvirta+Specification+estimation+and+evaluation+of+smooth+transition+autoregressive+models&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 4488953,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2307/2291217",
+   "title": "Specification, Estimation, and Evaluation of Smooth Transition Autoregressive Models",
+   "year": 1994,
+   "container": "Journal of the American Statistical Association",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/01621459.1994.10476462",
+   "title": "Specification, Estimation, and Evaluation of Smooth Transition Autoregressive Models",
+   "year": 1994,
+   "container": "Journal of the American Statistical Association",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.1148137",
+   "title": "Modelling Multivariate Autoregressive Conditional Heteroskedasticity with the Double Smooth Transition Conditional Correlation GARCH Model",
+   "year": 2008,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>In this paper we propose a multivariate GARCH model with a time-varying conditional correlation structure. The new Double Smooth Transition Conditional Correlation GARCH model extends the Smooth Transition Conditional Correlation GARCH model of Silvennoinen and Terasvirta (2005) by including another variable according to which the correlations change smoothly between states of constant correlations. A Lagrange multiplier test is derived to test the constancy of correlations against the DSTCC-GARCH model, and another one to test for another transition in the STCC-GARCH framework. In addition, other specification tests, with the aim of aiding the model building procedure, are considered. Analytical expressions for the test statistics and the required derivatives are provided. The model is applied to a selection of world stock indices, and it is found that time is an important factor affecting correlations between them.</jats:p>"
+  }
+ ]
+}

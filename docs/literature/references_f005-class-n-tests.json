@@ -1,0 +1,254 @@
+[
+  {
+    "DOI": "10.1111/1467-9868.00141",
+    "ISSN": "1369-7412",
+    "URL": "http://dx.doi.org/10.1111/1467-9868.00141",
+    "abstract": "<jats:title>Summary</jats:title>\n               <jats:p>Nonparametric tests of modality are a distribution-free way of assessing evidence about inhomogeneity in a population, provided that the potential sub populations are sufficiently well separated. They include the excess mass and dip tests, which are equivalent in univariate settings and are alternatives to the bandwidth test. Only very conservative forms of the excess mass and dip tests are available at presently, however, and for that reason they are generally not competitive with the bandwidth test. In the present paper we develop a practical approach to calibrating the excess mass and dip tests to improve their level accuracy and power substantially. Our method exploits the fact that the limiting distribution of the excess mass statistic under the null hypothesis depends on unknowns only through a constant, which may be estimated. Our calibrated test exploits this fact and is shown to have greater power and level accuracy than the bandwidth test has. The latter tends to be quite conservative, even in an asymptotic sense. Moreover, the calibrated test avoids difficulties that the bandwidth test has with spurious modes in the tails, which often must be discounted through subjective intervention of the experimenter.</jats:p>",
+    "author": [
+      {
+        "family": "Cheng",
+        "given": "Ming-Yen"
+      },
+      {
+        "family": "Hall",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+    "id": "cheng1998146798680014",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          1998,
+          9,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "579-589",
+    "publisher": "Oxford University Press (OUP)",
+    "source": "Crossref",
+    "title": "Calibrating the Excess Mass and Dip Tests of Modality",
+    "type": "article-journal",
+    "volume": "60"
+  },
+  {
+    "DOI": "10.1038/srep04487",
+    "ISSN": "2045-2322",
+    "URL": "http://dx.doi.org/10.1038/srep04487",
+    "author": [
+      {
+        "family": "Garzarelli",
+        "given": "Federico"
+      },
+      {
+        "family": "Cristelli",
+        "given": "Matthieu"
+      },
+      {
+        "family": "Pompa",
+        "given": "Gabriele"
+      },
+      {
+        "family": "Zaccaria",
+        "given": "Andrea"
+      },
+      {
+        "family": "Pietronero",
+        "given": "Luciano"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "container-title-short": "Sci Rep",
+    "id": "garzarelli2014srep04487",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          27
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Springer Science and Business Media LLC",
+    "source": "Crossref",
+    "title": "Memory effects in stock price dynamics: evidences of technical trading",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.1093/rof/rfr026",
+    "ISSN": "1573-692X",
+    "URL": "http://dx.doi.org/10.1093/rof/rfr026",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>We provide a new perspective on option and stock price behavior around 52-week highs and lows. We analyze whether option-implied volatilities (IVs) change when stock prices approach or break through their 52-week high or low. We also study the effects of highs and lows on a stock’s beta and return volatility. We find that IVs and stock betas decrease when approaching a high or low, and that volatilities increase after breakthroughs. The effects are economically large and significant. The approach results can be explained by the anchoring theory. The breakthrough results are consistent with anchoring and the investor attention hypothesis.</jats:p>",
+    "author": [
+      {
+        "family": "Driessen",
+        "given": "Joost"
+      },
+      {
+        "family": "Lin",
+        "given": "Tse-Chun"
+      },
+      {
+        "family": "Van Hemert",
+        "given": "Otto"
+      }
+    ],
+    "container-title": "Review of Finance",
+    "id": "driessen2011rfr026",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          8,
+          24
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "369-401",
+    "publisher": "Oxford University Press (OUP)",
+    "source": "Crossref",
+    "title": "How the 52-Week High and Low Affect Option-Implied Volatilities and Stock Return Moments",
+    "type": "article-journal",
+    "volume": "17"
+  },
+  {
+    "DOI": "10.1287/mnsc.1080.0920",
+    "ISSN": "0025-1909",
+    "URL": "http://dx.doi.org/10.1287/mnsc.1080.0920",
+    "abstract": "<jats:p> We provide large sample evidence that past price extremes influence investors' trading decisions. Volume is strikingly higher, in both economic and statistical terms, when the stock price crosses either the upper or lower limit of its past trading range. This increase in volume is more pronounced the longer the time since the stock price last achieved the price extreme, the smaller the firm, the higher the individual investor interest in the stock, and the greater the ambiguity regarding valuation. These results are robust across model specifications and controls for past returns and news arrival. Volume spikes when price crosses either the upper or lower limit of the past trading range, then gradually subsides. After either event, returns are reliably positive and, among small investors, trades classified as buyer-initiated are elevated. Overall, results are more consistent with bounded rationality than with other candidate explanations. </jats:p>",
+    "author": [
+      {
+        "family": "Huddart",
+        "given": "Steven"
+      },
+      {
+        "family": "Lang",
+        "given": "Mark"
+      },
+      {
+        "family": "Yetman",
+        "given": "Michelle H."
+      }
+    ],
+    "container-title": "Management Science",
+    "container-title-short": "Management Science",
+    "id": "huddart2009mnsc10800920",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "16-31",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+    "source": "Crossref",
+    "title": "Volume and Price Patterns Around a Stock's 52-Week Highs and Lows: Theory and Evidence",
+    "type": "article-journal",
+    "volume": "55"
+  },
+  {
+    "DOI": "10.1080/09603100802199679",
+    "ISSN": "0960-3107",
+    "URL": "http://dx.doi.org/10.1080/09603100802199679",
+    "author": [
+      {
+        "family": "Mizrach",
+        "given": "Bruce"
+      },
+      {
+        "family": "Weerts",
+        "given": "Susan"
+      }
+    ],
+    "container-title": "Applied Financial Economics",
+    "container-title-short": "Applied Financial Economics",
+    "id": "mizrach2009096031008021",
+    "issue": "10",
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "767-777",
+    "publisher": "Informa UK Limited",
+    "source": "Crossref",
+    "title": "Highs and lows: a behavioural and technical analysis",
+    "type": "article-journal",
+    "volume": "19"
+  },
+  {
+    "DOI": "10.2139/ssrn.4486459",
+    "URL": "http://dx.doi.org/10.2139/ssrn.4486459",
+    "author": [
+      {
+        "family": "Li",
+        "given": "Yuanpeng"
+      },
+      {
+        "family": "Luo",
+        "given": "Yan"
+      },
+      {
+        "family": "Xiao",
+        "given": "Zhiguo"
+      }
+    ],
+    "id": "li2023ssrn4486459",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "publisher": "Elsevier BV",
+    "source": "Crossref",
+    "title": "Moving Average as a Psychological Barrier: Evidence from International Markets",
+    "type": "manuscript"
+  },
+  {
+    "URL": "https://www3.stat.sinica.edu.tw/statistica/j11n2/j11n28/j11n28.htm",
+    "author": [
+      {
+        "family": "Hall",
+        "given": "Peter"
+      },
+      {
+        "family": "York",
+        "given": "Matthew"
+      }
+    ],
+    "container-title": "Statistica Sinica",
+    "id": "hallyork2001statsinica",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "note": "No DOI exists for this article: confirmed absent from Crossref and DataCite by logged queries on 2026-08-21 (docs/literature/search_logs/f005-class-n-tests/ki-f005-01.json), consistent with recorded project knowledge in the regime-classification agenda. Publisher-hosted open-access full-text PDF, retrieved and read 2026-08-21: https://www3.stat.sinica.edu.tw/statistica/oldpdf/A11n28.pdf",
+    "page": "515-536",
+    "source": "publisher website (Statistica Sinica), retrieved 2026-08-21",
+    "title": "On the calibration of Silverman's test for multimodality",
+    "type": "article-journal",
+    "volume": "11"
+  }
+]

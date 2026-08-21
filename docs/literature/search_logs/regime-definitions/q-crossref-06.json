@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-06",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.container-title=Journal+of+Econometrics&query.title=regime&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 122,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.3390/econometrics13010009",
+   "title": "Investigating Some Issues Relating to Regime Matching",
+   "year": 2025,
+   "container": "Econometrics",
+   "type": "journal-article",
+   "abstract": "<jats:p>Markov switching models are a common tool used in many disciplines as well as in Economics, and estimation methods are available in many software packages. Estimated models are commonly used for allocating observations to regimes. This allocation is usually done using a rule based on the estimated smoothed probabilities, such as, in the two regime case, when it exceeds the threshold of 0.5. The accuracy of the regime matching is often measured by the concordance index. Can regime matching be improved by using other rules? By replicating a number of published two-and three- regime studies and the use of simulation methods, it demonstrates that other rules can improve on the performance of the rule based on the threshold of 0.5. Using simulated models we extend the analysis of a single series to investigate, and demonstrate the efficacy of Markov switching models identifying a common factor in multiple time series.</jats:p>"
+  },
+  {
+   "DOI": "10.3390/econometrics3020289",
+   "title": "Selection Criteria in Regime Switching Conditional Volatility Models",
+   "year": 2015,
+   "container": "Econometrics",
+   "type": "journal-article",
+   "abstract": "<jats:p>A large number of nonlinear conditional heteroskedastic models have been proposed in the literature. Model selection is crucial to any statistical data analysis. In this article, we investigate whether the most commonly used selection criteria lead to choice of the right specification in a regime switching framework. We focus on two types of models: the Logistic Smooth Transition GARCH and the Markov-Switching GARCH models. Simulation experiments reveal that information criteria and loss functions can lead to misspecification ; BIC sometimes indicates the wrong regime switching framework. Depending on the Data Generating Process used in the experiments, great care is needed when choosing a criterion.</jats:p>"
+  },
+  {
+   "DOI": "10.4324/9780203892879-14",
+   "title": "Modelling regime shifts: Markov switching models",
+   "year": 2008,
+   "container": "Financial Econometrics",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3390/econometrics5010003",
+   "title": "Regime Switching Vine Copula Models for Global Equity and Volatility Indices",
+   "year": 2017,
+   "container": "Econometrics",
+   "type": "journal-article",
+   "abstract": "<jats:p>For nearly every major stock market there exist equity and implied volatility indices. These play important roles within finance: be it as a benchmark, a measure of general uncertainty or a way of investing or hedging. It is well known in the academic literature that correlations and higher moments between different indices tend to vary in time. However, to the best of our knowledge, no one has yet considered a global setup including both equity and implied volatility indices of various continents, and allowing for a changing dependence structure. We aim to close this gap by applying Markov-switching R-vine models to investigate the existence of different, global dependence regimes. In particular, we identify times of “normal” and “abnormal” states within a data set consisting of North-American, European and Asian indices. Our results confirm the existence of joint points in a time at which global regime switching between two different R-vine structures takes place.</jats:p>"
+  },
+  {
+   "DOI": "10.3390/econometrics11020010",
+   "title": "Modeling COVID-19 Infection Rates by Regime-Switching Unobserved Components Models",
+   "year": 2023,
+   "container": "Econometrics",
+   "type": "journal-article",
+   "abstract": "<jats:p>The COVID-19 pandemic is characterized by a recurring sequence of peaks and troughs. This article proposes a regime-switching unobserved components (UC) approach to model the trend of COVID-19 infections as a function of this ebb and flow pattern. Estimated regime probabilities indicate the prevalence of either an infection up- or down-turning regime for every day of the observational period. This method provides an intuitive real-time analysis of the state of the pandemic as well as a tool for identifying structural changes ex post. We find that when applied to U.S. data, the model closely tracks regime changes caused by viral mutations, policy interventions, and public behavior.</jats:p>"
+  },
+  {
+   "DOI": "10.3390/econometrics12020014",
+   "title": "Financial and Oil Market’s Co-Movements by a Regime-Switching Copula",
+   "year": 2024,
+   "container": "Econometrics",
+   "type": "journal-article",
+   "abstract": "<jats:p>Over the years, oil prices and financial stock markets have always had a complex relationship. This paper analyzes the interactions and co-movements between the oil market (WTI crude oil) and two major stock markets in Europe and the US (the Euro Stoxx 50 and the SP500) for the period from 1990 to 2023. For that, I use both the time-varying and the Markov copula models. The latter one represents an extension of the former one, where the constant term of the dynamic dependence parameter is driven by a hidden two-state first-order Markov chain. It is also called the dynamic regime-switching (RS) copula model. To estimate the model, I use the inference function for margins (IFM) method together with Kim’s filter for the Markov switching process. The marginals of the returns are modeled by the GARCH and GAS models. Empirical results show that the RS copula model seems adequate to measure and evaluate the time-varying and non-linear dependence structure. Two persistent regimes of high and low dependency have been detected. There was a jump in the co-movements of both pairs during high regimes associated with instability and crises. In addition, the extreme dependence between cru"
+  }
+ ]
+}

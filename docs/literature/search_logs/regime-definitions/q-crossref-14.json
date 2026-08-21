@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-14",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=market+states+clustering+unsupervised+learning+stock+returns&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 4323587,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.4359910",
+   "title": "Herding States and&amp;nbsp;Stock Market Returns",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1093/oso/9780192847096.003.0010",
+   "title": "Stock Market Returns Do Not Follow a Random Walk",
+   "year": 2022,
+   "container": "The Economics of the Stock Market",
+   "type": "book-chapter",
+   "abstract": "<p>It used to be assumed that the pattern of stock-market returns followed a random walk with drift, i.e. that they gave positive long-term returns but periods of above-average return were no more likely to be followed by below-average than above average returns. As is now generally accepted, returns are mean reverting. After a short period of less than two years, they show negative serial correlation which becomes increasingly strong as the time horizon lengthens. This is demonstrated by using all available data covering the years 1801 to 2018, by the three non-overlapping periods of 1801 to 1971, 1871 to 1941, and 1941 to 2018, and by comparing non-overlapping and overlapping time periods for five and ten years.</p>"
+  },
+  {
+   "DOI": "10.1002/9781394214334.ch9",
+   "title": "Stock Returns and Monetary Policy",
+   "year": 2024,
+   "container": "Deep Learning Tools for Predicting Stock Market Movements",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3390/jrfm15010024",
+   "title": "Multiscale Partial Correlation Clustering of Stock Market Returns",
+   "year": 2022,
+   "container": "Journal of Risk and Financial Management",
+   "type": "journal-article",
+   "abstract": "<jats:p>This study proposes a wavelet procedure for estimating partial correlation coefficients between stock market returns over different time scales. The estimated partial correlations are subsequently used in a cluster analysis to identify, for each time scale, groups of stocks that exhibit distinct market movement characteristics and are therefore useful for portfolio diversification. The proposed procedure is demonstrated using all the major S&amp;P 500 sector indices as well as precious metals and energy sector futures returns during the last decade. The results suggest cluster formations that vary by time scale, which entails different stock selection strategies for investors differing in terms of their investment horizon orientation.</jats:p>"
+  },
+  {
+   "DOI": "10.23860/thesis-li-yanan-2014",
+   "title": "FORECASTING STOCK MARKET RETURNS VOLATILITY",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.4287550",
+   "title": "Machine Learning and The Cross-Section of Emerging Market Stock Returns",
+   "year": 2022,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper compares various machine learning models to predict the cross-section of emerging market stock returns. We document that allowing for non-linearities and interactions leads to economically and statistically superior out-of-sample returns compared to traditional linear models. Although we find that both linear and machine learning models show higher predictability for stocks associated with higher limits to arbitrage, we also show that this effect is less pronounced for non-linear models. Furthermore, significant net returns can be achieved when accounting for transaction costs, short-selling constraints, and limiting our investment universe to big stocks only.</jats:p>"
+  },
+  {
+   "DOI": "10.2139/ssrn.1108052",
+   "title": "Stock Market Crashes, Firm Characteristics, and Stock Returns",
+   "year": 2008,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>A number of studies have investigated the causes and impact of stock market crashes. The October 19, 1987 crash and the crashes that took place during the 1997-98 global emerging markets crisis and as a result of the burst of the high-tech bubble in 2000 have received considerable attention. These studies mainly focus on the factors leading to a crash and the volatility and co-movements of markets during and after the crash. How a stock market crash affects individual stocks and if stocks with different financial characteristics are affected differently in a crash is an issue that has not received sufficient attention. \r\n\r\nIn this paper, we define a stock market crash as a one-day event when the stock market index drops by more than 5-percent. There are eight such crashes that have taken place during the January 1, 1968-December 31, 2007 period. We use the event study methodology and the linear multivariate regression analysis technique with stock returns on the crash day as the dependent variable. The explanatory variables include the CAPM beta, size, market-to-book ratio, an illiquidity measure for the stock, and several debt, cash-flow, profitability, and liquidity ratio"
+  },
+  {
+   "DOI": "10.1093/oso/9780192847096.003.0021",
+   "title": "How the Market Returns to Fair Value",
+   "year": 2022,
+   "container": "The Economics of the Stock Market",
+   "type": "book-chapter",
+   "abstract": "<p>The stock market rotates around fair value, which is when corporate net worth and the market valuation of corporate equity are, when correctly valued, equal—the <italic>q</italic> ratio is mean reverting. This could occur through changes in net worth or in value or in some combination of both. To fit the assumptions of the neoclassical synthesis the adjustment must come from rises in net worth in response to changes in investment. It doesn’t and attempts to explain the incompatibility of the data on <italic>q</italic> with the neoclassical synthesis by allowing for tax effects have not succeeded. The mean reversion of equity <italic>q</italic> must therefore come from that of share prices and this is the natural effect of the stationarity of equity returns. When the market is cheap the returns from it are high and when overpriced low, so the risk of loss increases as share prices rise and declines as they fall. The rewards from holding equities thus rise and fall in a way that serves to restrict their swings.</p>"
+  }
+ ]
+}

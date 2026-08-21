@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-21",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Wilder+New+Concepts+in+Technical+Trading+Systems&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 10019748,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1002/9781119209713.ch30",
+   "title": "The Concepts and Mechanics of Spread Trading",
+   "year": 2016,
+   "container": "A Complete Guide to the Futures Market",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118728611.ch17",
+   "title": "Swing‐Trading Strategies",
+   "year": 2013,
+   "container": "Cycle Analytics for Traders",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118728611.fmatter",
+   "title": "Front Matter",
+   "year": 2013,
+   "container": "Cycle Analytics for Traders",
+   "type": "other",
+   "abstract": ""
+  }
+ ]
+}

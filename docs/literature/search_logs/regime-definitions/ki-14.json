@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-14",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Hallac+Vare+Boyd+Leskovec+Toeplitz+inverse+covariance-based+clustering+of+multivariate+time+series+data&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 879351,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.24963/ijcai.2018/732",
+   "title": "Toeplitz Inverse Covariance-based Clustering of Multivariate Time Series Data",
+   "year": 2018,
+   "container": "Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence",
+   "type": "proceedings-article",
+   "abstract": "<jats:p>Subsequence clustering of multivariate time series is a useful tool for discovering repeated patterns in temporal data. Once these patterns have been discovered, seemingly complicated datasets can be interpreted as a temporal sequence of only a small number of states, or clusters. However, discovering these patterns is challenging because it requires simultaneous segmentation and clustering of the time series. Here we propose a new method of model-based clustering, which we call Toeplitz Inverse Covariance-based Clustering (TICC). Each cluster in the TICC method is defined by a correlation network, or Markov random field (MRF), characterizing the interdependencies between different observations in a typical subsequence of that cluster. Based on this graphical representation, TICC simultaneously segments and clusters the time series data. We solve the TICC problem through a scalable algorithm that is able to efficiently solve for tens of millions of observations. We validate our approach by comparing TICC to several state-of-the-art baselines in a series of synthetic experiments, and we then demonstrate on an automobile dataset how TICC can be used to learn interpretable clu"
+  },
+  {
+   "DOI": "10.1145/3097983.3098060",
+   "title": "Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data",
+   "year": 2017,
+   "container": "Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1145/2783258.2783313",
+   "title": "Network Lasso",
+   "year": 2015,
+   "container": "Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+   "type": "proceedings-article",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-40",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Brown+Goetzmann+Kumar+The+Dow+Theory+William+Peter+Hamilton+Track+Record+Reconsidered&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 38684,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1093/oso/9780195148145.003.0019",
+   "title": "The Dow Theory: William Peter Hamilton’s Track Record Reconsidered",
+   "year": 2006,
+   "container": "The Equity Risk Premium Essays and Explorations",
+   "type": "book-chapter",
+   "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Alfred Cowles’ test of the Dow Theory apparently provides strong evidence against the ability of Wall Street’s most famous chartist, William Peter Hamilton, to forecast the stock market. Cowles’ (1934) analysis is a landmark in the development of empirical evidence about the informational efficiency of the market. He claims that market timing based on the Dow Theory results in returns that lag the market. In this article, we review Cowles’ evidence and find that it supports the contrary conclusion—the Dow Theory, as applied by Hamilton over the period 1902 to 1929, yields positive risk-adjusted returns. The difference in the results is apparently due to the lack of adjustment for risk. Cowles compares the returns obtained from Hamilton’s market timing strategy to a benchmark of a fully invested stock portfolio. In fact, the Hamilton portfolio, as Cowles interprets it, is frequently out of the market. Adjustment for systematic risk appears to vindicate Hamilton as a market timer.</jats:p>"
+  },
+  {
+   "DOI": "10.2139/ssrn.58690",
+   "title": "The Dow Theory: William Peter Hamilton's Track Record Re-Considered",
+   "year": 1998,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Alfred Cowles' (1934) test of the Dow Theory apparently provided strong evidence against the ability of Wall Street's most famous chartist to forecast the stock market. In this paper, we review Cowles' evidence and find that it supports the contrary conclusion -- that the Dow Theory, as applied by its major practitioner, William Peter Hamilton over the period 1902 to 1929, yielded positive risk-adjusted returns. A re-analysis of the Hamilton editorials suggests that his timing strategies yield high Sharpe ratios and positive alphas. Neural net modeling to replicate Hamilton's market calls provides interesting insight into the nature and content of the Dow Theory. This allows us to examine the properties of the Dow Theory itself out-of-sample.</jats:p>"
+  },
+  {
+   "DOI": "10.1111/0022-1082.00054",
+   "title": "The Dow Theory: William Peter Hamilton's Track Record Reconsidered",
+   "year": 1998,
+   "container": "The Journal of Finance",
+   "type": "journal-article",
+   "abstract": "<jats:p>Alfred Cowles' test of the Dow Theory apparently provides strong evidence against the ability of Wall Street's most famous chartist to forecast the stock market. <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#jofi054-bib-0009\">Cowles (1934)</jats:ext-link> analyzes editorials published by the chief exponent of the Dow Theory, William Peter Hamilton. We review Cowles' evidence and find that it supports the contrary conclusion. Hamilton's timing strategies actually yield high Sharpe ratios and positive alphas for the period 1902 to 1929. Neural net modeling to replicate Hamilton's market calls provides interesting insight into the Dow Theory and allows us to examine the properties of the theory itself out of sample.</jats:p>"
+  }
+ ]
+}

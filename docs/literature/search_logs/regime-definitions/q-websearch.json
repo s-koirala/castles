@@ -1,0 +1,126 @@
+{
+ "query_id": "q-websearch",
+ "platform": "WebSearch tool (Claude Code harness; US-region web index)",
+ "date_searched": "2026-08-21",
+ "note": "Practitioner/vendor/official-documentation tier sweep. Six queries executed verbatim; results are URL lists, not bibliographic records. n_records counts the URLs returned per query. No entry here is a CSL-JSON store candidate unless it carries a persistent identifier; these are logged for the tier-5/official-documentation synthesis sections of the review.",
+ "queries": [
+  {
+   "sub_id": "ws-01",
+   "query_verbatim": "NBER business cycle dating committee procedure peak trough announcement lag",
+   "n_urls_returned": 9,
+   "urls": [
+    "https://www.nber.org/research/business-cycle-dating",
+    "https://www.nber.org/research/business-cycle-dating/business-cycle-dating-procedure-frequently-asked-questions",
+    "https://www.nber.org/research/business-cycle-dating/business-cycle-dating-committee-announcements",
+    "https://web.stanford.edu/~rehall/BusCycle%204-10-03.pdf",
+    "https://www.nber.org/system/files/working_papers/w11422/w11422.pdf",
+    "https://www.aeaweb.org/conference/2020/preliminary/paper/zSQnRGEA",
+    "https://arxiv.org/pdf/2601.12039",
+    "https://diversification.com/term/nber-business-cycle-dating-committee",
+    "https://econbrowser.com/archives/2022/06/business-cycles-in-the-nber-business-cycle-dating-committee-framework-edition-xlxiv"
+   ],
+   "finding": "NBER's own FAQ states the dating is retrospective with no fixed timing rule; announcement lags observed range 4 to 21 months. Official-documentation tier (tier 2). The committee definition ('a significant decline in economic activity that is spread across the economy and lasts more than a few months', depth-diffusion-duration criteria) is an expert-judgment assignment mechanism, lookahead by construction."
+  },
+  {
+   "sub_id": "ws-02",
+   "query_verbatim": "Two Sigma \"machine learning approach to regime modeling\" white paper four regimes",
+   "n_urls_returned": 5,
+   "urls": [
+    "https://www.linkedin.com/posts/di-emma-wu_a-machine-learning-approach-to-regime-modeling-activity-7059670565921394688-hHqP",
+    "https://www.linkedin.com/posts/two-sigma-investments_a-machine-learning-approach-to-regime-modeling-activity-6851552635405840384--fsI?trk=public_profile_like_view",
+    "https://www.scribd.com/document/691358379/Machine-Learning-Approach-to-Regime-Modeling",
+    "https://www.twosigma.com/wp-content/uploads/2021/10/Machine-Learning-Approach-to-Regime-Modeling_.pdf",
+    "https://www.venn.twosigma.com/resources/streetview-a-machine-learning-approach-to-regime-modeling"
+   ],
+   "finding": "Botte & Bao (Two Sigma, 2021) vendor white paper: Gaussian mixture model over 17 factor-lens return series; four regimes identified and named post hoc by inspection of component moments (including a 'crisis' high-volatility component). Tier 5 (vendor). No persistent identifier; not a store candidate. Crossref known-item query ki-32 confirmed it is not DOI-indexed."
+  },
+  {
+   "sub_id": "ws-03",
+   "query_verbatim": "Wyckoff market cycle four phases accumulation markup distribution markdown definition",
+   "n_urls_returned": 10,
+   "urls": [
+    "https://www.litefinance.org/blog/for-professionals/wyckoff-method/",
+    "https://tradedots.medium.com/wyckoff-market-cycle-market-has-these-4-stages-only-buy-in-stage-2-cb23111d0f46",
+    "https://fxopen.com/blog/en/the-wyckoff-trading-method/",
+    "https://bookmap.com/blog/wyckoff-trading-strategy-understanding-market-cycles",
+    "https://www.cmcmarkets.com/en-gb/trading-strategy/what-is-wyckoff-method",
+    "https://www.tradingview.com/chart/BTCUSD/svBJcXiq-Understanding-Wyckoff-Market-Cycle/",
+    "https://pro.stockalarm.io/blog/wyckoff-volume-analysis-method",
+    "https://kenmacro.com/wyckoff-method-explained-2026/",
+    "https://algostorm.com/trend-and-market-cycles/",
+    "https://tw.tradingview.com/chart/BTCUSDT/sni5zn2C-Wyckoff-s-market-cycle-theory"
+   ],
+   "finding": "All ten URLs are broker/vendor/blog tier (tier 5). The four-phase vocabulary (accumulation, markup, distribution, markdown) is uniformly attributed to Richard D. Wyckoff but no primary text and no operational assignment rule (thresholds, windows, volume tests stated numerically) was located at any tier. Name-only definition; secondary restatement only. Crossref topical query q-crossref-15 for the same vocabulary returned only false-positive matches (Markdown the markup language)."
+  },
+  {
+   "sub_id": "ws-04",
+   "query_verbatim": "bear market definition \"20%\" decline origin convention bull market \"S&P Dow Jones\" OR \"Ned Davis\"",
+   "n_urls_returned": 10,
+   "urls": [
+    "https://www.sofi.com/learn/content/bear-market/",
+    "https://www.schwab.com/learn/story/market-correction-what-does-it-mean",
+    "https://www.fidelity.com/learning-center/smart-money/bear-vs-bull-market",
+    "https://greenlight.com/learning-center/investing/what-is-a-bear-market",
+    "https://www.hartfordfunds.com/practice-management/client-conversations/managing-volatility/bear-markets.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/what-is-a-bear-market-153851080.html",
+    "https://www.fidelity.com/viewpoints/market-and-economic-insights/bear-markets-the-business-cycle-explained",
+    "https://thecompoundingdad.substack.com/p/bear-markets",
+    "https://www.marketbeat.com/financial-terms/bear-market-how-they-occur/",
+    "https://www.fool.com/investing/how-to-invest/bear-market.aspx"
+   ],
+   "finding": "The 20% drawdown bear-market threshold circulates exclusively at tier 5 in this sweep (brokerage education pages). No primary specification and no origin was located; one source states outright that the 20% figure is 'somewhat arbitrary'. Same evidentiary status as the Market Profile 70% value area: a convention with no locatable primary source. The peer-reviewed treatments of the same construct (Pagan & Sossounov 2002, prior corpus; Lunde & Timmermann 2004, prior corpus) impose the threshold as an input rather than deriving it."
+  },
+  {
+   "sub_id": "ws-05",
+   "query_verbatim": "Ned Davis Research bull bear market objective definition \"30%\" OR \"13%\" rise 50 days",
+   "n_urls_returned": 10,
+   "urls": [
+    "https://jeffhirsch.tumblr.com/post/137748126213/its-an-official-ned-davis-research-defined-bear",
+    "https://www.bogleheads.org/forum/viewtopic.php?t=256107",
+    "https://seekingalpha.com/article/4371790-is-bull-argument-too-easy-days",
+    "https://www.morningstar.com/markets/how-do-you-tell-bear-market-rally-stocks-new-bull-run",
+    "https://thedowtheory.com/resources/bull-bear",
+    "https://www.morningstar.com.au/markets/how-do-you-tell-a-bear-market-rally-in-stocks-from-a-new-bull-run",
+    "https://cfaatlanta.org/images/meeting/102308/sth08_21.pdf",
+    "https://www.probabilitiesfund.com/this-is-not-the-longest-bull-market/",
+    "https://www.tfafunds.com/tactical/you-cant-argue-the-facts",
+    "https://www.franklintempleton.com/forms-literature/download/IBS-BBFL"
+   ],
+   "finding": "Ned Davis Research's rule (bull: +30% in DJIA over 50 calendar days or +13% after 155 calendar days; bear: -30% over 50 days or -13% after 145 days; Value Line Geometric 30% reversals also qualify) is fully operational -- threshold plus duration -- but reachable in this sweep only through secondary restatement on trade blogs and fund marketing pages (tier 5). No NDR primary document retrieved. The rule is a dual-condition threshold rule on price with duration qualifiers; assignment is retrospective (a state is confirmed only after the move completes), hence lookahead by construction at the segment level."
+  },
+  {
+   "sub_id": "ws-06",
+   "query_verbatim": "exchange trading session states definition \"opening auction\" halted continuous trading Nasdaq market state documentation",
+   "n_urls_returned": 8,
+   "urls": [
+    "https://www.nyse.com/network/article/nyse-increases-resiliancy-during-extreme-volatility",
+    "https://www.stocktitan.net/articles/opening-closing-auctions-explained",
+    "https://equicurious.com/learn/equities/stock-market-foundations/trading-sessions-halts-and-circuit-breakers-explained",
+    "https://www.nyse.com/trade/hours-calendars",
+    "https://daytradingtoolkit.com/market-insights/extended-trading-hours-23-hour-stock-market-day-traders",
+    "https://www.nasdaq.com/solutions/trading-at-closing-price",
+    "https://www.fool.com/investing/general/2013/08/22/news-trading-halted-in-nasdaq-securities.aspx",
+    "https://www.sec.gov/files/rules/sro/nasdaq/2017/34-79876.pdf"
+   ],
+   "finding": "Term-collision documentation: exchanges and SEC rule filings use 'market state' / 'Limit State' / 'Trading Pause' for the venue's operational session state (auction, continuous, halted), a deterministic protocol state machine unrelated to the statistical regime construct. Official-documentation tier (tier 2 for the SEC filing; tier 5 for the explainer pages). Recorded so the survey's naming-convention taxonomy can flag the collision; not a regime definition."
+  },
+  {
+   "sub_id": "ws-07",
+   "query_verbatim": "Bollinger Band squeeze definition BandWidth six-month low volatility compression bollingerbands.com",
+   "n_urls_returned": 10,
+   "urls": [
+    "https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/bollinger-band-squeeze",
+    "https://tradersagency.com/blog/bollinger-bands-trading-strategy",
+    "https://www.luxalgo.com/blog/bollinger-bands-strategy-squeeze-then-surge/",
+    "https://quantstock.org/blog/bollinger-bands-squeeze-strategy",
+    "https://newyorkcityservers.com/blog/bollinger-bands-forex-trading",
+    "https://www.tradealgo.com/trading-guides/technical-analysis/bollinger-bands-guide",
+    "https://www.algovestiq.com/learn/concepts/bollinger-bands",
+    "https://journalplus.co/learn/glossary/bollinger-bands/",
+    "https://www.snappchart.app/blog/technical-indicators/ai-bollinger-band-squeeze",
+    "https://cn.tradingview.com/script/HcbazIig-Bollinger-Bands-w-Squeeze-Alert"
+   ],
+   "finding": "The only located operational definition of a 'compression' state at any tier: the Bollinger Band Squeeze, BandWidth = (upper band - lower band)/middle band at its lowest value over the trailing six months (StockCharts ChartSchool formalisation, attributed to John Bollinger). Tier 5 (vendor/charting-education); the primary book (Bollinger 2001, Bollinger on Bollinger Bands) is not DOI-indexed (Crossref known-item query ki-24 negative). The rule is computable at t (trailing rolling minimum) but carries an unlabelled convention (six months) and no null distribution. No peer-reviewed operational definition of a compression state was located anywhere in this review (q-arxiv-08 returned zero records for 'volatility compression' in q-fin; q-crossref-18 returned only keyword collisions)."
+  }
+ ]
+}

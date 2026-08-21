@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-07",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.container-title=Journal+of+Empirical+Finance&query.title=regime&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 788,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.1016/j.jempfin.2004.05.002",
+   "title": "Regime shifts in interest rate volatility",
+   "year": 2005,
+   "container": "Journal of Empirical Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.jempfin.2014.06.007",
+   "title": "Regime switches in the risk–return trade-off",
+   "year": 2014,
+   "container": "Journal of Empirical Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/s0927-5398(00)00022-0",
+   "title": "Value-at-Risk: a multivariate switching regime approach",
+   "year": 2000,
+   "container": "Journal of Empirical Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.jempfin.2015.03.005",
+   "title": "The frequency of regime switching in financial market volatility",
+   "year": 2015,
+   "container": "Journal of Empirical Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.jempfin.2003.10.001",
+   "title": "Regime-switching stochastic volatility and short-term interest rates",
+   "year": 2004,
+   "container": "Journal of Empirical Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.jempfin.2014.06.004",
+   "title": "Are regime-shift sources of risk priced in the market?",
+   "year": 2014,
+   "container": "Journal of Empirical Finance",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

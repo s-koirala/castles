@@ -1,0 +1,47 @@
+{
+ "query_id": "ki-f005-02",
+ "platform": "DOI Handle System REST API (doi.org/api/handles); Crossref REST API (api.crossref.org); api.semanticscholar.org; academic.oup.com (blocked); Claude Code WebSearch tool; www.math.ntu.edu.tw via curl",
+ "date_searched": "2026-08-21",
+ "purpose": "Known-item retrieval and DOI verification of Cheng & Hall (1998), 'Calibrating the excess mass and dip tests of modality', JRSS-B 60(3):579-589, doi:10.1111/1467-9868.00141. Task: verify the DOI via the handle API, extract what the calibration addresses, and confirm or refute the agenda's claim that it addresses the i.i.d. case only.",
+ "steps_verbatim": [
+  {
+   "step": 1,
+   "tool": "curl",
+   "url": "https://doi.org/api/handles/10.1111/1467-9868.00141",
+   "outcome": "responseCode 1 (resolves); handle target https://academic.oup.com/jrsssb/article/60/3/579/7083086"
+  },
+  {
+   "step": 2,
+   "tool": "curl",
+   "url": "https://api.crossref.org/works/10.1111/1467-9868.00141",
+   "outcome": "registered journal-article; Cheng M-Y, Hall P; JRSS-B 60(3):579-589, 1998; full abstract captured verbatim (quoted in the review); is-referenced-by-count 76 at retrieval time"
+  },
+  {
+   "step": 3,
+   "tool": "curl",
+   "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1111/1467-9868.00141?fields=title,year,externalIds,openAccessPdf,abstract,citationCount",
+   "outcome": "record present (CorpusId 54956638, citationCount 104); openAccessPdf points at https://academic.oup.com/jrsssb/article-pdf/60/3/579/49589002/jrsssb_60_3_579.pdf (BRONZE)"
+  },
+  {
+   "step": 4,
+   "tool": "curl",
+   "url": "https://academic.oup.com/jrsssb/article-pdf/60/3/579/49589002/jrsssb_60_3_579.pdf",
+   "outcome": "publisher block: Cloudflare challenge page returned instead of the PDF. Publisher-side block, not a DOI failure (per task directive). Recorded as a route failure and routed around."
+  },
+  {
+   "step": 5,
+   "tool": "WebSearch",
+   "query": "\"Calibrating the excess mass and dip tests of modality\" Cheng Hall filetype:pdf",
+   "n_links_returned": 10,
+   "relevant_hit": "https://www.math.ntu.edu.tw/~cheng/edit_cheng/calibrating.pdf (first author's institutional self-archive)"
+  },
+  {
+   "step": 6,
+   "tool": "curl",
+   "url": "https://www.math.ntu.edu.tw/~cheng/edit_cheng/calibrating.pdf",
+   "outcome": "author self-archived copy of the published article retrieved (PDF 1.2, 10 pages, J. R. Statist. Soc. B (1998) 60, Part 3, pp. 579-589); text extracted with pdftotext and read"
+  }
+ ],
+ "n_records_retrieved": 1,
+ "disposition": "included; DOI verified responseCode 1; full text read from author self-archive; extraction in lit_review_f005-class-n-tests_2026-08-21.md section 8.2; CSL-JSON entry cheng1998146798680014"
+}

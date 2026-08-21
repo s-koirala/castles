@@ -1,0 +1,210 @@
+<!-- query_id: q-arxiv-04 | platform: arXiv API (export.arxiv.org) | date_searched: 2026-08-21 | query_url_verbatim: http://export.arxiv.org/api/query?search_query=abs:%22regime+detection%22+AND+cat:q-fin*&max_results=10 -->
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/anEGxlOZ9ekvcp6RN0agpOI0T+o</id>
+  <title>arXiv Query: search_query=abs:"regime detection" AND cat:q-fin*&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-21T20:05:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22regime+detection%22+AND+cat:q-fin*&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.11499v2</id>
+    <title>Tactical Asset Allocation with Macroeconomic Regime Detection</title>
+    <updated>2025-03-21T12:36:28Z</updated>
+    <link href="https://arxiv.org/abs/2503.11499v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.11499v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper extends the tactical asset allocation literature by incorporating regime modeling using techniques from machine learning. We propose a novel model that classifies current regimes, forecasts the distribution of future regimes, and integrates these forecasts with the historical performance of individual assets to optimize portfolio allocations. Utilizing a macroeconomic data set from the FRED-MD database, our approach employs a modified k-means algorithm to ensure consistent regime classification over time. We then leverage these regime predictions to estimate expected returns and volatilities, which are subsequently mapped into portfolio allocations using various sizing schemes. Our method outperforms traditional benchmarks such as equal-weight, buy-and-hold, and random regime models. Additionally, we are the first to apply a regime detection model from a large macroeconomic dataset to tactical asset allocation, demonstrating significant improvements in portfolio performance. Our work presents several key contributions, including a novel data-driven regime detection algorithm tailored for uncertainty in forecasted regimes and applying the FRED-MD data set for tactical asset allocation.</summary>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-14T15:26:10Z</published>
+    <arxiv:primary_category term="q-fin.PM"/>
+    <author>
+      <name>Daniel Cunha Oliveira</name>
+    </author>
+    <author>
+      <name>Dylan Sandfelder</name>
+    </author>
+    <author>
+      <name>André Fujita</name>
+    </author>
+    <author>
+      <name>Xiaowen Dong</name>
+    </author>
+    <author>
+      <name>Mihai Cucuringu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.16339v1</id>
+    <title>Financial Information Theory</title>
+    <updated>2025-11-20T13:19:41Z</updated>
+    <link href="https://arxiv.org/abs/2511.16339v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.16339v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a comprehensive framework for Financial Information Theory by applying information-theoretic concepts such as entropy, Kullback-Leibler divergence, mutual information, normalized mutual information, and transfer entropy to financial time series. We systematically derive these measures with complete mathematical proofs, establish their theoretical properties, and propose practical algorithms for estimation. Using S&amp;P 500 data from 2000 to 2025, we demonstrate empirical usefulness for regime detection, market efficiency testing, and portfolio construction. We show that normalized mutual information (NMI) behaves as a powerful, bounded, and interpretable measure of temporal dependence, highlighting periods of structural change such as the 2008 financial crisis and the COVID-19 shock. Our entropy-adjusted Value at Risk, information-theoretic diversification criterion, and NMI-based market efficiency test provide actionable tools for risk management and asset allocation. We interpret NMI as a quantitative diagnostic of the Efficient Market Hypothesis and demonstrate that information-theoretic methods offer superior regime detection compared to traditional autocorrelation- or volatility-based approaches. All theoretical results include rigorous proofs, and empirical findings are validated across multiple market regimes spanning 25 years of daily returns.</summary>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-20T13:19:41Z</published>
+    <arxiv:primary_category term="q-fin.PM"/>
+    <author>
+      <name>Miquel Noguer i Alonso</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.15835v1</id>
+    <title>Non-parametric online market regime detection and regime clustering for multidimensional and path-dependent data structures</title>
+    <updated>2023-06-27T23:43:19Z</updated>
+    <link href="https://arxiv.org/abs/2306.15835v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.15835v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we present a non-parametric online market regime detection method for multidimensional data structures using a path-wise two-sample test derived from a maximum mean discrepancy-based similarity metric on path space that uses rough path signatures as a feature map. The latter similarity metric has been developed and applied as a discriminator in recent generative models for small data environments, and has been optimised here to the setting where the size of new incoming data is particularly small, for faster reactivity.
+  On the same principles, we also present a path-wise method for regime clustering which extends our previous work. The presented regime clustering techniques were designed as ex-ante market analysis tools that can identify periods of approximatively similar market activity, but the new results also apply to path-wise, high dimensional-, and to non-Markovian settings as well as to data structures that exhibit autocorrelation.
+  We demonstrate our clustering tools on easily verifiable synthetic datasets of increasing complexity, and also show how the outlined regime detection techniques can be used as fast on-line automatic regime change detectors or as outlier detection tools, including a fully automated pipeline. Finally, we apply the fine-tuned algorithms to real-world historical data including high-dimensional baskets of equities and the recent price evolution of crypto assets, and we show that our methodology swiftly and accurately indicated historical periods of market turmoil.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-27T23:43:19Z</published>
+    <arxiv:comment>65 pages, 52 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Zacharia Issa</name>
+    </author>
+    <author>
+      <name>Blanka Horvath</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.22346v1</id>
+    <title>Representation Learning for Regime detection in Block Hierarchical Financial Markets</title>
+    <updated>2024-10-14T20:23:00Z</updated>
+    <link href="https://arxiv.org/abs/2410.22346v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.22346v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider financial market regime detection from the perspective of deep representation learning of the causal information geometry underpinning traded asset systems using a hierarchical correlation structure to characterise market evolution. We assess the robustness of three toy models: SPDNet, SPD-NetBN and U-SPDNet whose architectures respect the underlying Riemannian manifold of input block hierarchical SPD correlation matrices. Market phase detection for each model is carried out using three data configurations: randomised JSE Top 60 data, synthetically-generated block hierarchical SPD matrices and block-resampled chronology-preserving JSE Top 60 data. We show that using a singular performance metric is misleading in our financial market investment use cases where deep learning models overfit in learning spatio-temporal correlation dynamics.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-14T20:23:00Z</published>
+    <arxiv:comment>6 pages. Presented at the 2024 IEEE CIFEr conference. Analysis of block-resampled chronology-preserving lead-lag learning dynamics presented at: https://osf.io/msrgc/</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Alexa Orton</name>
+    </author>
+    <author>
+      <name>Tim Gebbie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.04536v1</id>
+    <title>Improving Portfolio Performance Using a Novel Method for Predicting Financial Regimes</title>
+    <updated>2023-09-20T04:10:10Z</updated>
+    <link href="https://arxiv.org/abs/2310.04536v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.04536v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work extends a previous work in regime detection, which allowed trading positions to be profitably adjusted when a new regime was detected, to ex ante prediction of regimes, leading to substantial performance improvements over the earlier model, over all three asset classes considered (equities, commodities, and foreign exchange), over a test period of four years. The proposed new model is also benchmarked over this same period against a hidden Markov model, the most popular current model for financial regime prediction, and against an appropriate index benchmark for each asset class, in the case of the commodities model having a test period cost-adjusted cumulative return over four times higher than that expected from the index. Notably, the proposed model makes use of a contrarian trading strategy, not uncommon in the financial industry but relatively unexplored in machine learning models. The model also makes use of frequent short positions, something not always desirable to investors due to issues of both financial risk and ethics; however, it is discussed how further work could remove this reliance on shorting and allow the construction of a long-only version of the model.</summary>
+    <category term="q-fin.RM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-20T04:10:10Z</published>
+    <arxiv:primary_category term="q-fin.RM"/>
+    <author>
+      <name>Piotr Pomorski</name>
+    </author>
+    <author>
+      <name>Denise Gorse</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.06190v1</id>
+    <title>Multi-Scale Markov Switching GARCH</title>
+    <updated>2026-06-04T13:59:31Z</updated>
+    <link href="https://arxiv.org/abs/2606.06190v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.06190v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Financial volatility exhibits substantial non-stationarity, making single-regime models inadequate for characterising changing market conditions. This paper proposes a triple-timeframe Markov-Switching GARCH (MS-GARCH) framework for volatility regime detection in EUR/USD across daily, four-hour, and hourly horizons. Three independent AR(1)-MS-GARCH models are estimated to capture macro, meso, and micro regime dynamics, while Filardo-style time-varying transition probabilities (TVTP) are incorporated at the shorter horizons through composite stress indicators. The resulting regime probabilities are combined through an outer-product construction into a 27-state cross-scale probability tensor. Using EUR/USD data from 2015-2025, the framework produces statistically distinct Calm, Turbulent, and Crisis regimes and achieves superior out-of-sample volatility forecasting performance relative to a conventional GARCH benchmark. The results suggest that volatility dynamics contain meaningful structure across multiple timescales and that modelling these scales separately provides a more informative representation of market conditions than a single-timescale approach.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-04T13:59:31Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Jayesh Chaudhary</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.21823v2</id>
+    <title>Investigating Conditional Restricted Boltzmann Machines in Regime Detection</title>
+    <updated>2025-12-30T19:46:51Z</updated>
+    <link href="https://arxiv.org/abs/2512.21823v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.21823v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study investigates the efficacy of Conditional Restricted Boltzmann Machines (CRBMs) for modeling high-dimensional financial time series and detecting systemic risk regimes. We extend the classical application of static Restricted Boltzmann Machines (RBMs) by incorporating autoregressive conditioning and utilizing Persistent Contrastive Divergence (PCD) to incorporate complex temporal dependency structures. Comparing a discrete Bernoulli-Bernoulli architecture against a continuous Gaussian-Bernoulli variant across a multi-asset dataset spanning 2013-2025, we observe a dichotomy between generative fidelity and regime detection. While the Gaussian CRBM successfully preserves static asset correlations, it exhibits limitations in generating long-range volatility clustering. Thus, we analyze the free energy as a relative negative log-likelihood (surprisal) under a fixed, trained model. We demonstrate that the model's free energy serves as a robust, regime stability metric. By decomposing the free energy into quadratic (magnitude) and structural (correlation) components, we show that the model can distinguish between pure magnitude shocks and market regimes. Our findings suggest that the CRBM offers a valuable, interpretable diagnostic tool for monitoring systemic risk, providing a supplemental metric to implied volatility metrics like the VIX.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-26T01:23:45Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Siddhartha Srinivas Rentala</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.08268v1</id>
+    <title>Multi-Agent Analysis of Off-Exchange Public Information for Cryptocurrency Market Trend Prediction</title>
+    <updated>2025-10-09T14:25:49Z</updated>
+    <link href="https://arxiv.org/abs/2510.08268v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.08268v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cryptocurrency markets present unique prediction challenges due to their extreme volatility, 24/7 operation, and hypersensitivity to news events, with existing approaches suffering from key information extraction and poor sideways market detection critical for risk management. We introduce a theoretically-grounded multi-agent cryptocurrency trend prediction framework that advances the state-of-the-art through three key innovations: (1) an information-preserving news analysis system with formal theoretical guarantees that systematically quantifies market impact, regulatory implications, volume dynamics, risk assessment, technical correlation, and temporal effects using large language models; (2) an adaptive volatility-conditional fusion mechanism with proven optimal properties that dynamically combines news sentiment and technical indicators based on market regime detection; (3) a distributed multi-agent coordination architecture with low communication complexity enabling real-time processing of heterogeneous data streams. Comprehensive experimental evaluation on Bitcoin across three prediction horizons demonstrates statistically significant improvements over state-of-the-art natural language processing baseline, establishing a new paradigm for financial machine learning with broad implications for quantitative trading and risk management systems.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-09T14:25:49Z</published>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Kairan Hong</name>
+    </author>
+    <author>
+      <name>Jinling Gan</name>
+    </author>
+    <author>
+      <name>Qiushi Tian</name>
+    </author>
+    <author>
+      <name>Yanglinxuan Guo</name>
+    </author>
+    <author>
+      <name>Rui Guo</name>
+    </author>
+    <author>
+      <name>Runnan Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.27848v1</id>
+    <title>Regime-Based Portfolio Allocation Using Hidden Markov Models and Reinforcement Learning</title>
+    <updated>2026-05-27T02:04:31Z</updated>
+    <link href="https://arxiv.org/abs/2605.27848v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.27848v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study develops a regime-aware portfolio allocation framework that integrates Markov switching models with Reinforcement Learning (RL) to dynamically allocate across equities (SPY), long-term Treasuries (TLT), and gold (GLD). Using daily ETF data from 2004-2025, we first characterize market behavior through a discrete Markov chain and then estimate a three-state Gaussian Hidden Markov Model (HMM) selected by the Bayesian Information Criterion (BIC). The estimated regimes-low-volatility, transitional, and high-volatility-exhibit strong persistence and state-dependent return dynamics consistent with recent findings on nonlinear market states (Ardia et al., 2024; Gupta &amp; Pierdzioch, 2023). State-conditional analysis shows that SPY dominates in stable regimes, while TLT and GLD provide protection during stressed periods, motivating regime-conditioned allocation rules.
+  We evaluate rule-based rotation and RL-driven strategies using a 30% out-of-sample test window with a one-day execution lag to avoid look-ahead bias. Both HMM-based allocations outperform a passive SPY benchmark, while the RL policy achieves the highest risk-adjusted performance, delivering the strongest Sharpe ratio and materially lower drawdowns, yet remains fully interpretable through discrete regime-dependent actions. Sensitivity analysis confirms the robustness of the three-state specification relative to two-state alternatives. Overall, the results demonstrate that RL can systematically enhance HMM-based regime detection, providing a transparent, adaptive, and empirically grounded framework for tactical asset allocation. The combined HMM-RL system provides a transparent, rules-based approach to tactical allocation that improves risk-adjusted performance relative to standard benchmark strategies.</summary>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-27T02:04:31Z</published>
+    <arxiv:primary_category term="q-fin.PM"/>
+    <author>
+      <name>Ajay Kumar Verma</name>
+    </author>
+    <author>
+      <name>Nunik Srikandi Putri</name>
+    </author>
+    <author>
+      <name>Neo Paul Lesupi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.03667v1</id>
+    <title>Market Regime Detection via Realized Covariances: A Comparison between Unsupervised Learning and Nonlinear Models</title>
+    <updated>2021-04-08T10:32:28Z</updated>
+    <link href="https://arxiv.org/abs/2104.03667v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.03667v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is broad empirical evidence of regime switching in financial markets. The transition between different market regimes is mirrored in correlation matrices, whose time-varying coefficients usually jump higher in highly volatile regimes, leading to the failure of common diversification methods. In this article, we aim to identify market regimes from covariance matrices and detect transitions towards highly volatile regimes, hence improving tail-risk hedging. Starting from the time series of fractionally differentiated sentiment-like future values, two models are applied on monthly realized covariance matrices to detect market regimes. Specifically, the regime detection is implemented via vector logistic smooth transition autoregressive model (VLSTAR) and through an unsupervised learning methodology, the agglomerative hierarchical clustering. Since market regime switches are unobservable processes that describe the latent change of market behaviour, the ability of correctly detecting market regimes is validated in two ways: firstly, randomly generated data are used to assess a correct classification when regimes are known; secondly, a naïve trading strategy filtered with the detected regime switches is used to understand whether an improvement is showed when accounting for regime switches. The results point to the VLSTAR as the best performing model for labelling market regimes.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-08T10:32:28Z</published>
+    <arxiv:comment>21 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Andrea Bucci</name>
+    </author>
+    <author>
+      <name>Vito Ciciretti</name>
+    </author>
+  </entry>
+</feed>

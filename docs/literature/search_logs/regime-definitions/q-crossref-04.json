@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-04",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=trending+versus+range-bound+market+regime+detection+trading&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 3178898,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1002/9781119197126.part1",
+   "title": "The World's Most Dynamic Trading Market",
+   "year": 2012,
+   "container": "Forex Patterns and Probabilities",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119197126.ch4",
+   "title": "Technical Analysis and the Forex Market",
+   "year": 2012,
+   "container": "Forex Patterns and Probabilities",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119197126.part2",
+   "title": "Trading Strategies for Trending Markets",
+   "year": 2012,
+   "container": "Forex Patterns and Probabilities",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119197126.part3",
+   "title": "Nontrending Trading Techniques",
+   "year": 2012,
+   "container": "Forex Patterns and Probabilities",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119197126.ch19",
+   "title": "Trading Lessons from Life",
+   "year": 2012,
+   "container": "Forex Patterns and Probabilities",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119197126.fmatter",
+   "title": "Front Matter",
+   "year": 2012,
+   "container": "Forex Patterns and Probabilities",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119197126.index",
+   "title": "Index",
+   "year": 2012,
+   "container": "Forex Patterns and Probabilities",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119197126",
+   "title": "Forex Patterns and Probabilities",
+   "year": 2012,
+   "container": "",
+   "type": "edited-book",
+   "abstract": ""
+  }
+ ]
+}

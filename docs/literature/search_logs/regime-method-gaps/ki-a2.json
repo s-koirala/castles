@@ -1,0 +1,331 @@
+[
+ {
+  "query": "Hidden Markov models with arbitrary state dwell-time distributions Langrock Zucchini computational statistics",
+  "url": "https://api.crossref.org/works?query.bibliographic=Hidden%20Markov%20models%20with%20arbitrary%20state%20dwell-time%20distributions%20Langrock%20Zucchini%20computational%20statistics&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 245654,
+    "items": [
+     {
+      "DOI": "10.1016/j.csda.2010.06.015",
+      "title": [
+       "Hidden Markov models with arbitrary state dwell-time distributions"
+      ],
+      "author": [
+       {
+        "given": "R.",
+        "family": "Langrock",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "W.",
+        "family": "Zucchini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2011,
+         1
+        ]
+       ]
+      },
+      "container-title": [
+       "Computational Statistics &amp; Data Analysis"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1016/j.csda.2025.108171",
+      "title": [
+       "Hidden semi-Markov models with inhomogeneous state dwell-time distributions"
+      ],
+      "author": [
+       {
+        "ORCID": "https://orcid.org/0009-0004-1556-9053",
+        "authenticated-orcid": false,
+        "given": "Jan-Ole",
+        "family": "Koslik",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2025,
+         9
+        ]
+       ]
+      },
+      "container-title": [
+       "Computational Statistics &amp; Data Analysis"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.1201/b20790-2",
+      "title": [
+       "Hidden Markov models: definition and properties"
+      ],
+      "author": [
+       {
+        "given": "Walter",
+        "family": "Zucchini",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Iain L.",
+        "family": "MacDonald",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       },
+       {
+        "given": "Roland",
+        "family": "Langrock",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "role": "author",
+          "vocabulary": "crossref"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2017,
+         12,
+         19
+        ]
+       ]
+      },
+      "container-title": [
+       "Hidden Markov Models for Time Series"
+      ],
+      "type": "book-chapter"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ },
+ {
+  "query": "Identifying bull and bear markets in stock returns Maheu McCurdy journal of business economic statistics",
+  "url": "https://api.crossref.org/works?query.bibliographic=Identifying%20bull%20and%20bear%20markets%20in%20stock%20returns%20Maheu%20McCurdy%20journal%20of%20business%20economic%20statistics&rows=3&select=DOI,title,author,issued,container-title,type",
+  "response": {
+   "status": "ok",
+   "message-type": "work-list",
+   "message-version": "1.0.0",
+   "message": {
+    "facets": {},
+    "total-results": 177604,
+    "items": [
+     {
+      "DOI": "10.1080/07350015.2000.10524851",
+      "title": [
+       "Identifying Bull and Bear Markets in Stock Returns"
+      ],
+      "author": [
+       {
+        "given": "John M.",
+        "family": "maheu",
+        "sequence": "first",
+        "affiliation": [
+         {
+          "name": "University of Alberta",
+          "place": [
+           "Canada"
+          ]
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Thomas H.",
+        "family": "McCurdy",
+        "sequence": "additional",
+        "affiliation": [
+         {
+          "name": "Rotman School of Management, University of Toronto",
+          "place": [
+           "Canada"
+          ]
+         }
+        ],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2000,
+         1
+        ]
+       ]
+      },
+      "container-title": [
+       "Journal of Business &amp; Economic Statistics"
+      ],
+      "type": "journal-article"
+     },
+     {
+      "DOI": "10.2139/ssrn.146531",
+      "title": [
+       "Identifying Bull and Bear Markets in Stock Returns"
+      ],
+      "author": [
+       {
+        "given": "John M.",
+        "family": "Maheu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Thomas H.",
+        "family": "McCurdy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         1999
+        ]
+       ]
+      },
+      "type": "posted-content"
+     },
+     {
+      "DOI": "10.1080/07350015.2012.680412",
+      "title": [
+       "Components of Bull and Bear Markets: Bull Corrections and Bear Rallies"
+      ],
+      "author": [
+       {
+        "given": "John M.",
+        "family": "Maheu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Thomas H.",
+        "family": "McCurdy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       },
+       {
+        "given": "Yong",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+         {
+          "vocabulary": "crossref",
+          "role": "author"
+         }
+        ]
+       }
+      ],
+      "issued": {
+       "date-parts": [
+        [
+         2012,
+         7
+        ]
+       ]
+      },
+      "container-title": [
+       "Journal of Business &amp; Economic Statistics"
+      ],
+      "type": "journal-article"
+     }
+    ],
+    "items-per-page": 3,
+    "query": {
+     "start-index": 0,
+     "search-terms": null
+    }
+   }
+  }
+ }
+]

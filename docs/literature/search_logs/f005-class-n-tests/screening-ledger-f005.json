@@ -1,0 +1,59 @@
+{
+ "ledger_id": "screening-ledger-f005",
+ "date": "2026-08-21",
+ "screener": "Claude Fable 5 (model id claude-fable-5), research-librarian agent, single screener, declared as automation tool under PRISMA 2020 item 8",
+ "identification": {
+  "fc_forward_citation_rows": 14,
+  "fc_records": {"openalex": 1768, "semantic_scholar": 1857},
+  "dq_direct_query_rows": 13,
+  "dq_records": {"crossref": 60, "arxiv": 7, "openalex": 75},
+  "ki_known_item_rows": 2,
+  "ki_records": 2,
+  "n_identified_total": 3769
+ },
+ "deduplication": {
+  "method": "programmatic; key = normalized DOI (lowercased, resolver prefix stripped; arXiv ids mapped to 10.48550/arxiv.*) where present, else normalized title (alphanumeric-only, first 80 chars); executed in Python 3.11 stdlib (no third-party dedup software)",
+  "manual_same_work_merges_recorded": {
+   "10.48550/arxiv.1110.5197": "10.1038/srep04487",
+   "10.2139/ssrn.4310592": "10.2139/ssrn.4486459",
+   "10.2139/ssrn.353749": "10.1287/mnsc.1080.0920",
+   "10.2139/ssrn.1118080": "10.1080/09603100802199679"
+  },
+  "manual_merge_hits": 5,
+  "n_duplicates_removed": 1821,
+  "n_distinct_screened": 1948
+ },
+ "per_seed_citing_union_after_dedup": {
+  "D46_donaldson1993_10.2307/2331416": 158,
+  "D47_leyvarian1994_10.1080/758526902": 90,
+  "D48_harris1991_10.1093/rfs/4.3.389": 726,
+  "D49_christieschultz1994_10.1111/j.1540-6261.1994.tb04782.x": 1002,
+  "D51_bhattacharya2012_10.1287/mnsc.1110.1364": 111,
+  "D52_avellanedalipkin2003_10.1088/1469-7688/3/6/301": 99,
+  "D54_sonnemans2006_10.1016/j.euroecorev.2005.09.001": 136,
+  "sum_of_per_seed_unions": 2322,
+  "distinct_across_all_seeds": 1825
+ },
+ "screening_method": {
+  "stage_1": "automated keyword net 1 over all distinct titles: /support|resist|technical analysis|pivot|swing|extrem|chart|barrier|round|cluster|level|breakout|retracement|zone|local time|mode|peak|s\\/r|price action/i -> 396 candidate titles, every one read by the screener with year and seed provenance",
+  "stage_2": "automated keyword net 2 over the remaining non-candidate titles: /test|signific|bootstrap|confidence|nonparam|kernel|density|anchor|reference point|52[- ]week|threshold|high|low|turning|reversal|bounce|reflect|empirical distribution|hypothesis/i -> 75 further titles, every one read by the screener",
+  "stage_3": "abstract or full-text adjudication of 13 boundary records (fetches in screening-support-f005.json and ws-f005-screening.json)",
+  "coverage_limit": "titles matching neither net (approximately 1,354 of 1,948 distinct records) were screened by the automated nets only and not individually read. Because the verdict is FOUND, further reading could only add findings in the same direction; it cannot flip the verdict. A NONE-FOUND verdict could not have been claimed on this coverage."
+ },
+ "boundary_records_adjudicated": [
+  {"doi": "10.1038/srep04487", "decision": "included", "reason": "direct statistical existence test of a path-derived (Class N) level: bounce-vs-cross at previous local extrema with stripe delta(tau) = mean |dP|; shuffled-return null; chi-squared at alpha 0.05"},
+  {"doi": "10.1093/rof/rfr026", "decision": "included", "reason": "approach/breach test at the 52-week high/low (trailing extremum, Class N): IV and beta fall on approach, volatility rises after breakthrough, significance stated"},
+  {"doi": "10.1287/mnsc.1080.0920", "decision": "included", "reason": "volume spike, in economic and statistical terms, when price crosses the past trading-range limit (path-derived level); robust to controls"},
+  {"doi": "10.1080/09603100802199679", "decision": "included", "reason": "turnover rises at n-day highs and lows and is increasing in n; event-study statistics at a path-derived level"},
+  {"doi": "10.2139/ssrn.4486459", "decision": "included", "reason": "barrier-existence methodology (discontinuous movement near the level; crossing effects) applied to the moving average, a path-derived Class N level; UNREFEREED working paper, tier recorded"},
+  {"doi": "10.1080/14697680902814258", "decision": "near-miss", "reason": "association of liquidity accumulation with reference price levels; same instrument class as D39 (Kavajecz & Odders-White), which the definitional survey classifies as a downstream-consequence test, not an existence test"},
+  {"doi": "10.1080/1350486x.2017.1297729", "decision": "near-miss", "reason": "optimal-stopping theory with a hidden aspiration level; existence is assumed via a prior law, not tested; already in the level-definitions corpus (survey note E19), not re-screened here beyond this boundary check"},
+  {"doi": "10.1109/csip.2012.6308960", "decision": "excluded", "reason": "clusters stocks by synchronic extreme-point timing; no level is located or tested"},
+  {"doi": "10.2139/ssrn.2353534", "decision": "near-miss", "reason": "tests non-randomness of price action after breakouts of monthly/52-week highs and lows, but the endpoint is alpha generation (profitability), the exclusion class the definitional survey fixed; unrefereed"},
+  {"doi": "10.48550/arXiv.2101.07410", "decision": "not re-screened", "reason": "Chung & Bellotti is already included in the level-definitions corpus as D28 and adjudicated there as a downstream-consequence test; task directive forbids re-screening the survey's 81 included records"},
+  {"doi": "10.2139/ssrn.4310592", "decision": "duplicate", "reason": "earlier SSRN version of 10.2139/ssrn.4486459; its Crossref abstract used for screening"},
+  {"doi": "10.2139/ssrn.3021585", "decision": "near-miss", "reason": "order intensity and order type at the 52-week high; no abstract retrievable from Crossref, OpenAlex, or Semantic Scholar, SSRN page blocked (HTTP 403); could not be adjudicated beyond title. Same instrument family as D51 transposed to a path-derived anchor; flagged for the lead session"},
+  {"doi": "10.1016/j.irfa.2013.12.001", "decision": "excluded", "reason": "anchoring at the upstairs market; no abstract retrievable, but title and venue indicate block-trade price anchoring, not a level existence test"}
+ ],
+ "flow": {"n_identified": 3769, "n_duplicates_removed": 1821, "n_screened": 1948, "n_excluded": 1941, "n_included": 7}
+}

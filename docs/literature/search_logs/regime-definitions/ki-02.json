@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-02",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Bry+Boschan+Cyclical+Analysis+of+Time+Series+Selected+Procedures+and+Computer+Programs&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 733472,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2307/2284114",
+   "title": "Cyclical Analysis of Time Series: Selected Procedures and Computer Programs",
+   "year": 1973,
+   "container": "Journal of the American Statistical Association",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/2344336",
+   "title": "Cyclical Analysis of Time Series: Selected Procedures and Computer Programs",
+   "year": 1972,
+   "container": "Journal of the Royal Statistical Society. Series A (General)",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/00031305.1971.10477262",
+   "title": "Interpretation and Analysis of Time-Series Scatters",
+   "year": 1971,
+   "container": "The American Statistician",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

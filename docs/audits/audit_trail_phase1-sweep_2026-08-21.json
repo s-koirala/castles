@@ -1,0 +1,379 @@
+{
+  "round": 1,
+  "date": "2026-08-21",
+  "cwd": "C:/Users/skoir/castles",
+  "artifacts": [
+    "docs/literature/lit_review_regime-definitions_2026-08-21.md",
+    "docs/literature/lit_review_regime-method-gaps_2026-08-21.md",
+    "docs/literature/lit_review_f005-class-n-tests_2026-08-21.md",
+    "docs/research_notes/research_agenda_regime-classification_2026-08-21.md",
+    "failure_log.md"
+  ],
+  "taskSpec": "Round 1 audit of the Phase 1 gap-targeted sweep (deliverable_spec_phase1-sweep_2026-08-21.md). Three research-librarian agents produced three scoping records with CSL-JSON stores and search logs: (1) lit_review_regime-definitions (54 records, 59 operational definitions of market regime, PRISMA-ScR partial declared); (2) lit_review_regime-method-gaps (50 records, three targets: assigner null distributions, detector delay/ARL0 operating characteristics, purge/embargo methodology); (3) lit_review_f005-class-n-tests (7 records; Hall & York 2001 and Cheng & Hall 1998 retrieved and read in full; F005 forward-citation search — 3769 identified / 1948 screened — with verdict FOUND: Garzarelli et al. 2014, doi:10.1038/srep04487, is a Class N level existence test, refuting F005's headline claim). The lead session then (4) revised the regime-classification agenda to revision 2, integrating results at five gap sites (Definitional basis paragraph; ER/Benhamou straightness-index analogue; HSMM/Bulla citations; detector-OC canon with refined absence claim; purge/embargo second confirmation + h-block/hv-block grounding; branch-1 calibration blocker resolved with Hall & York's conservative-direction finding; branch-1 prior-art note with the two surviving negatives), and (5) appended the F005 addendum to failure_log.md promoting the layer undetermined -> data under the charter's promotion rule, with the original text retained struck and the transferable positive explicitly weakened. AUDIT FOCUS: (a) citation and claim fidelity of the integrations — does each Rev 2 insertion in the agenda accurately represent what its sweep record establishes (especially: Hall & York conservatism figures 0.000/0.010/0.032/0.102 at nominal 0.01/0.05/0.10/0.20; the Garzarelli test description; the Benhamou straightness-index equivalence; the refined not-absent-but-in-statistics-literature ARL claim); (b) F005 promotion-rule compliance — layer change only on an obtained observation pointing a stated way, original text retained, transferable positive honestly re-argued; (c) PRISMA-ScR declarations honest (single screener, unmet items named); (d) the three gate 'block' verdicts: all are G16 publisher-403 false positives (independently dispositioned with handle-API logs at docs/literature/search_logs/*/g16-*.json — all DOIs responseCode 1) plus one irreducible G13 (Hall & York has no DOI anywhere; carried with archival URL as locator) — verify the dispositions are recorded in the reviews and adopt them; do NOT re-raise publisher-page fetchability findings; (e) internal consistency of the agenda after five insertions (no contradiction between the Definitional basis paragraph and existing branch text; no regression of Rev 1 audit fixes).",
+  "routing": [
+    "critical-reviewer",
+    "scope-auditor",
+    "literature-check"
+  ],
+  "tiers": [
+    {
+      "branch": "critical-reviewer",
+      "effort": "high"
+    },
+    {
+      "branch": "scope-auditor",
+      "effort": "medium"
+    },
+    {
+      "branch": "literature-check",
+      "effort": "high"
+    }
+  ],
+  "branch_verdicts": {
+    "critical-reviewer": "proceed-with-remediation",
+    "scope-auditor": "proceed-with-remediation",
+    "literature-check": "proceed-with-remediation"
+  },
+  "residual_risks": {
+    "critical-reviewer": "RQI coverage: importance covered (the sweep answers three recorded gaps plus a registered discriminating observation — adequate); originality covered (the F005 refutation narrows the novelty claim honestly, but the surviving novelty claim inherits REV-1-1's unbounded form); method, presentation, and interpretation covered by the findings above. Residual risks after remediation: (1) The level-definitions survey — outside this artifact set — still asserts the refuted headline and the '16 tested, 60 untested' §8.6.6 tally with no supersession marker; the f005 review's recommendation (iv) explicitly assigned the erratum decision to the lead session and no decision is recorded anywhere in the shipped set. This is promised-vs-shipped ground (scope-auditor) but it leaves a tracked document contradicting the register until routed. (2) Three of the four Class-N prior-art records (Driessen, Huddart, Mizrach) and the Li-Luo-Xiao working paper were adjudicated on abstracts only — declared, but the agenda's 'supporting peer-reviewed evidence' sentence inherits abstract-depth confidence; literature-check should prioritize these. (3) N6 'Faulty Anchors' (ssrn.3021585) remains unadjudicable and could add a further Class-N record, which would touch the 52-week-high boundary discussion but not the FOUND verdict. (4) All NONE-FOUND verdicts across the three sweeps are coverage-bounded (failed S2 queries, net-bounded citing-title screening, no book-index search); any downstream deliverable quoting them must carry the bound — REV-1-1 and REV-1-3 are the two places Rev 2 dropped it. (5) The method-gaps and definitions reviews cite only a reproducibility-log directory rather than the ReproLog SHA-256 the project contract requires; deferred to reproducibility-verifier. No critical finding: the design of the sweep validly discharges F005's discriminating observation, the promotion rule was followed with honest sharpening, and every quantitative figure checked (Hall & York table values, flow counts, definition counts) reconciles except the one arithmetic defect in REV-1-7.",
+    "scope-auditor": "Spec source used: docs/deliverables/deliverable_spec_phase1-sweep_2026-08-21.md (precedence 1); no conflict found between it and the task spec passed by the loop. Three risks remain unverified within this branch's read-only means. (1) The S-4 check 'no existing citation removed' from the agenda could not be independently verified without a git diff of Rev 1 vs Rev 2; the revision note asserts additive-only integration but a silent deletion would be invisible to file inspection alone — a diff-based confirmation at commit time would close this. (2) The S-1 check 'every included record resolves to a store entry' was verified at the aggregate level only (54 store ids == n_included 54, matching counts for the other two stores at 50 and 7); per-record resolution of all 111 entries was not enumerated, which sits in tension with the standing F-5 disposition against aggregate-only verification — a deterministic script check at spec-tick time is the cheap closure. (3) failure_log.md's 'Column health check' paragraph (lines 296-301, '2 transfers found, 2 none found... Rev 1 was 4-for-4') appears to have been updated this session as a consequence of the F005 transferable-positive weakening; the spec scopes the failure_log deliverable to 'F005 row update' only. The edit is charter-mandated maintenance and consistent with the addendum, so it is not raised as a scope-creep finding, but it is undeclared in the spec and should be mentioned in the trail. Correctness of the integrated claims (Hall & York figures, Garzarelli test description, Benhamou equivalence, ARL claim refinement) is outside this branch's scope and is left to the sibling auditors.",
+    "literature-check": "Verified 17 external citations against primary sources (Crossref, arXiv full text, publisher pages) plus the three sweep records as internal sources; all year/venue/volume/page metadata exact except the Garzarelli author list (finding 1-1). Residual gaps, none blocking: (1) Hall & York 2001 Table 1's exact quadruple 0.000/0.010/0.032/0.102 could not be independently re-extracted — both open PDFs (Statistica Sinica A11n28.pdf, 275.9KB matching the review's 282,488-byte record, and the Cheng & Hall self-archive) downloaded but this environment lacks PDF text extraction (pdftoppm unavailable); the direction (conservative), the lambda(alpha) polynomial+Monte-Carlo calibration form, the j=1-only scope, and the Cheng-Hall d=|f''(x0)|/f(x0)^3 constant were independently corroborated via the publisher abstract page and the Ameijeiras-Alonso et al. survey (arXiv:1609.05188), so the figures rest on two concordant in-project full-text readings of a pinned open source. (2) Driessen/Huddart/Mizrach remain abstract-verified and Li-Luo-Xiao abstract-only tier-5, exactly as the f005 review itself declares — carried, not new. (3) SSRN 3021585 ('Faulty Anchors') remains unadjudicable, flagged by the review. (4) Kaufman ER book attribution (1987/1995 editions) remains unverifiable in DOI-indexed sources; the agenda already labels it as needing a licensed copy. G16 publisher-403 and G13 Hall-&-York-no-DOI dispositions were checked (handle-API log shows responseCode 1 for all 6 store DOIs) and adopted per standing disposition; not re-raised. PRISMA-ScR partial-compliance declarations in all three sweep records are honest: single screener, unmet items named per item, keyword-net coverage limit stated. F005 promotion complies with the charter rule: observation obtained, points to the enumerated 'data' alternative, original layer retained struck, transferable positive re-argued against interest. No Rev 1 audit fix (F-3-1/3/10/11) regressed in Rev 2."
+  },
+  "remediate": [
+    {
+      "id": "REV-1-1",
+      "severity": "major",
+      "category": "interpretation",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:160-163; failure_log.md:283-284",
+      "issue": "Both Rev 2 integration sites state the surviving CI negative as an unbounded universal — 'no source anywhere reports a confidence interval on a level location' — and rest the branch-1 novelty claim ('first interval on location') on it. The f005 review states this finding in bounded form ('No confidence interval on a level location was found', §9.4 limit 2) and explicitly disclaims the coverage a universal would need: ~1,354 of 1,948 screened titles matched neither keyword net and were not individually read, and 'A NONE-FOUND verdict could not have been asserted on this coverage' (§10 item 2). This reinstates the exact overreach form whose refutation is the subject of the same addendum: F005's headline 'not one Class N definition has ever had its existence tested' was an unbounded universal from bounded search coverage, and it fell to one missed record.",
+      "evidence": "Agenda: '(b) **no source anywhere reports a confidence interval on a level location.** The branch's novelty claim is therefore not \"first existence test\" but \"first existence test under an admissible null, and first interval on location.\"' — versus f005 review §10.2: 'A NONE-FOUND verdict could not have been asserted on this coverage; the FOUND verdict does not depend on it.'",
+      "fix": "Rewrite both sites in the bounded form the review itself uses: 'no located source reports a confidence interval on a level location (coverage bound: §10 of the f005 review)', and condition the novelty claim accordingly ('first located interval on location in the searched literature'). Apply the same bounding discipline the addendum applies to negative (a), which correctly says 'no located Class N existence test'.",
+      "reference": "CHAMP item 30 (conclusions limited to what the analysis supports) / checklist C7; internal precedent: the F005 refutation itself",
+      "branch": "critical-reviewer",
+      "refutation": {
+        "finding_id": "REV-1-1",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Refutation attempt failed; every quoted element reproduces exactly. Agenda lines 160-163 and failure_log lines 283-284 both state the universal \"no source anywhere reports a confidence interval on a level location.\" The f005 review states the same negative only in bounded form (section 9.4 limit 2: \"No confidence interval on a level location was found... survives this search\") and section 10 item 2 explicitly disclaims the coverage a universal would need (\"~1,354 of 1,948 distinct titles matched neither keyword net and were not individually read. A NONE-FOUND verdict could not have been asserted on this coverage\"). The adjacent negative (a) at both sites is correctly bounded (\"no located Class N existence test\"), showing the universal phrasing of (b) is a genuine overreach, not a paraphrase convention. Finding stands."
+      }
+    },
+    {
+      "id": "REV-1-2",
+      "severity": "major",
+      "category": "reporting",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:425-429",
+      "issue": "The Rev 2 detector-OC insertion claims BOCPD's delay/ARL0 operating characteristics 'remain substantially uncharacterized — a live gap, not settled ground' while omitting the one directly on-target counter-record the sweep located: Alami, Maillard & Feraud (2020), Restarted BOCPD with detection-delay/false-alarm optimality guarantees (sweep near-miss E1, verification gap V3, OpenAlex W3035594853). The sweep excluded it from the store only for lacking a persistent identifier and explicitly instructed: 'Anyone consuming Target B's verdict should retrieve it manually from PMLR.' The agenda is a consumer of Target B's verdict and does not carry the record or the caveat. An agenda claiming a gap while dropping the nearest located prior art is the same failure pattern the F005 addendum in the same revision documents.",
+      "evidence": "Agenda: 'so BOCPD's operating characteristics on these criteria remain substantially uncharacterized — a live gap, not settled ground.' — versus method-gaps review §8.4: 'The one located work giving a BOCPD-class detector delay/false-alarm guarantees - Alami, Maillard & Feraud (2020), Restarted BOCPD - could not be included: no DOI and no arXiv record exists' and §10 V3: 'Anyone consuming Target B's verdict should retrieve it manually from PMLR.'",
+      "fix": "Add one sentence to the insertion: theoretical delay/false-alarm optimality guarantees for a restarted BOCPD variant exist (Alami, Maillard & Feraud 2020, PMLR; no persistent identifier — cite by venue and OpenAlex id, tier-flagged), so the residual gap is the empirical delay-vs-ARL0 characterization of BOCPD-class detectors on financial data, not the absence of any characterization.",
+      "reference": "CHAMP item 21 / SAMPL selective-reporting principle (checklist B4); method-gaps review §8.4, §10 V3",
+      "branch": "critical-reviewer",
+      "refutation": {
+        "finding_id": "REV-1-2",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Evidence reproduced, not refuted. (1) Agenda lines 425-429 contain the quoted 'remain substantially uncharacterized — a live gap, not settled ground' claim. (2) Grep of the agenda for 'Alami|W3035594853|Restarted' returns zero matches — the counter-record and V3 caveat are absent. (3) Method-gaps review lines 662-666 (§8.4) and 751-754 (V3) contain the cited counter-record text verbatim, including 'Anyone consuming Target B's verdict should retrieve it manually', and the E1 exclusion row (line 482) marks Alami, Maillard & Feraud (2020) as 'Directly on-target for B'. The sweep's own Target B verdict is 'PARTIALLY FOUND', which the agenda's unqualified gap framing omits. The defect claim stands."
+      }
+    },
+    {
+      "id": "LITERATURE-1-1",
+      "severity": "major",
+      "category": "citation-metadata / author-list error",
+      "location": "C:\\Users\\skoir\\castles\\docs\\literature\\lit_review_f005-class-n-tests_2026-08-21.md:329,446,545; C:\\Users\\skoir\\castles\\docs\\research_notes\\research_agenda_regime-classification_2026-08-21.md:149; C:\\Users\\skoir\\castles\\failure_log.md:266",
+      "issue": "The decisive F005-refuting record is cited in prose as 'Garzarelli, Cristelli, Zaccaria & Pietronero (2014)' (four authors), but the published version cited by DOI has five authors: Crossref for 10.1038/srep04487 lists Federico Garzarelli, Matthieu Cristelli, Gabriele Pompa, Andrea Zaccaria, Luciano Pietronero. The four-name list is the arXiv:1110.5197 v1 author list (full text was read from arXiv), carried onto the 2014 journal citation. The project's own CSL store (references_f005-class-n-tests.json) correctly includes Pompa, so the prose contradicts the canonical store in all three artifacts.",
+      "evidence": "Crossref works/10.1038/srep04487: authors = Garzarelli, Cristelli, Pompa, Zaccaria, Pietronero (5). arXiv abs/1110.5197: authors = Garzarelli, Cristelli, Zaccaria, Pietronero (4). references_f005-class-n-tests.json lines 43-55 contain family names Garzarelli, ..., Pompa, Zaccaria. All content claims (level definition, 9 LSE stocks/251 days of 2002, timescales 45/60/90/180 s, shuffled-return null ~0.5, chi-squared alpha=0.05 significant at 45-90 s not 180 s) verified correct against the arXiv full text.",
+      "fix": "Correct the prose author list to Garzarelli, Cristelli, Pompa, Zaccaria & Pietronero (2014) at all cited sites in the f005 review (sections 7, 9.1, 9.4), the agenda branch-1 prior-art note, and the failure_log F005 addendum; where the arXiv version is the read text, note the version/author-list difference explicitly.",
+      "reference": "https://api.crossref.org/works/10.1038/srep04487; https://arxiv.org/abs/1110.5197",
+      "branch": "literature-check",
+      "refutation": {
+        "finding_id": "LITERATURE-1-1",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Refutation attempt failed; every element of the finding independently reproduced. (1) grep confirms the four-name list 'Garzarelli, Cristelli, Zaccaria & Pietronero' at lit_review_f005-class-n-tests_2026-08-21.md:329,446,545, research_agenda_regime-classification_2026-08-21.md:149, and failure_log.md:266. (2) Crossref works/10.1038/srep04487 returns five authors: Federico Garzarelli, Matthieu Cristelli, Gabriele Pompa, Andrea Zaccaria, Luciano Pietronero. (3) arXiv abs/1110.5197 is v1-only (24 Oct 2011) with exactly the four-name list, consistent with the auditor's provenance account. (4) docs/literature/references_f005-class-n-tests.json lines 41-62 (id garzarelli2014srep04487) contains all five authors including Pompa, so the prose contradicts the project's canonical CSL store. The finding stands."
+      }
+    },
+    {
+      "id": "LITERATURE-1-2",
+      "severity": "major",
+      "category": "misattribution",
+      "location": "C:\\Users\\skoir\\castles\\docs\\research_notes\\research_agenda_regime-classification_2026-08-21.md:417-420",
+      "issue": "The Rev 2 detector-OC insertion attributes to Frisén 2003 the claim that it 'explicitly recasts trading indicators as surveillance stopping rules'. Per the method-gaps sweep itself (section 8.4), that recasting is Bock, Andersson & Frisén (2007), 'The Relation between Statistical Surveillance and Technical Analysis in Finance' (doi:10.1002/9780470987179.ch3) — 'the single located record that does to trading indicators what Target B asks for'. Frisén 2003 (ISR 71:403-434) is the surveillance-optimality taxonomy; its abstract contains no trading-indicator content.",
+      "evidence": "lit_review_regime-method-gaps_2026-08-21.md lines 671-676: 'Frisen (2003) ... taxonomizes the criteria; Bock, Andersson & Frisen (2007) ... explicitly recast technical-analysis indicators as surveillance stopping rules'. Crossref abstract for 10.1111/j.1751-5823.2003.tb00205.x: optimality criteria, likelihood-ratio methods — no recasting of trading indicators.",
+      "fix": "Reattach the relative clause: cite Frisén 2003 for the evaluation-criteria taxonomy and add Bock, Andersson & Frisén 2007 (doi:10.1002/9780470987179.ch3) as the record that recasts trading indicators as surveillance stopping rules. The refined absence claim itself (framing exists in the statistics literature, q-fin ARL query zero) is faithfully carried and needs no change.",
+      "reference": "https://api.crossref.org/works/10.1111/j.1751-5823.2003.tb00205.x; lit_review_regime-method-gaps_2026-08-21.md §8.4",
+      "branch": "literature-check",
+      "refutation": {
+        "finding_id": "LITERATURE-1-2",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Refutation attempt failed; finding confirmed by primary sources. (1) Agenda lines 418-420 attach \"which explicitly recasts trading indicators as surveillance stopping rules\" solely to the Frisen 2003 citation. (2) Crossref record for 10.1111/j.1751-5823.2003.tb00205.x confirms Frisen 2003 is \"Statistical Surveillance. Optimality and Methods\" (ISR); its abstract covers optimality criteria and likelihood-ratio methods only — no trading-indicator content. (3) Crossref record for 10.1002/9780470987179.ch3 confirms Bock, Andersson & Frisen 2007, \"The Relation between Statistical Surveillance and Technical Analysis in Finance\", is the recasting work, matching method-gaps sweep section 8.4 (lines 671-676). The only counter-reading (relative clause attaching to \"the Frisen school\" rather than the citation) still leaves Frisen 2003 as the sole cited support for the recasting claim, so it does not overturn the misattribution."
+      }
+    }
+  ],
+  "refuted": [],
+  "minors_logged": [
+    {
+      "id": "REV-1-3",
+      "severity": "minor",
+      "category": "reporting",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:476-477",
+      "issue": "The purge/embargo insertion states 'no purge/embargo-length formal analysis exists', stripping the coverage bound the sweep attaches to its own verdict. The sweep's limitations section states its NONE FOUND verdicts are 'none found in the indexed literature searched', which is weaker than 'none anywhere' — and the sweep additionally records that one platform (Semantic Scholar, q-s2-04) never executed for exactly this target (verification gap V1/V2).",
+      "evidence": "Agenda: '**Rev 2: negative confirmed a second time by the targeted sweep** — no purge/embargo-length formal analysis exists' — versus method-gaps review §10: 'the NONE FOUND verdicts are correspondingly \"none found in the indexed literature searched\", which is weaker than \"none anywhere\".'",
+      "fix": "Change to 'no purge/embargo-length formal analysis was located (second confirmation; coverage bounds and one failed-platform gap in the sweep's §10)'.",
+      "reference": "Checklist C7 / method-gaps review §10 (V1, V2)",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-4",
+      "severity": "minor",
+      "category": "consistency",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:417-421",
+      "issue": "Misattribution within the ARL insertion: the agenda credits Frisén 2003 as the record 'which explicitly recasts trading indicators as surveillance stopping rules'. Per the sweep, Frisén 2003 'systematizes surveillance evaluation metrics ... the evaluation-frame taxonomy'; the record that 'explicitly recast technical-analysis indicators as surveillance stopping rules and evaluate them by delay and false-alarm properties' is Bock, Andersson & Frisén 2007 (doi:10.1002/9780470987179.ch3), described by the sweep as 'the single located record that does to trading indicators what Target B asks for'. A reader citing Frisén 2003 for the recasting claim cites the wrong source.",
+      "evidence": "Agenda: '(the Frisén \"financial surveillance\" school, [Frisén 2003](https://doi.org/10.1111/j.1751-5823.2003.tb00205.x), which explicitly recasts trading indicators as surveillance stopping rules)' — versus method-gaps §8.4: 'Bock, Andersson & Frisen (2007) [10.1002/9780470987179.ch3] explicitly recast technical-analysis indicators as surveillance stopping rules'.",
+      "fix": "Attach the recasting clause to Bock, Andersson & Frisén 2007 (book chapter, tier-flagged BC) and keep Frisén 2003 as the criteria taxonomy, matching the sweep's role assignments.",
+      "reference": "CHAMP item 22 (reporting fidelity); method-gaps review §7 role column, §8.4",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-5",
+      "severity": "minor",
+      "category": "consistency",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:486-487",
+      "issue": "Second misattribution: 'Bergmeir & Benítez's evaluations (sweep store) show purging is not always necessary'. Per the sweep, the purging-not-always-necessary result (K-fold CV valid for purely autoregressive fits with uncorrelated errors) belongs to Bergmeir, Hyndman & Koo 2018 (doi:10.1016/j.csda.2017.11.003); Bergmeir & Benítez 2012 is the empirical comparison of blocked/modified CV schemes and does not carry that boundary result.",
+      "evidence": "Agenda: 'Bergmeir & Benítez's evaluations (sweep store) show purging is not always necessary' — versus method-gaps §7: 'Bergmeir, Hyndman & Koo (2018) ... shows standard K-fold CV can be valid for purely autoregressive fits with uncorrelated errors - the boundary of when purging is even necessary.'",
+      "fix": "Cite Bergmeir, Hyndman & Koo 2018 for the not-always-necessary claim; cite Bergmeir & Benítez 2012 separately (or as 'the Bergmeir line of evaluations, sweep store') for the scheme comparisons.",
+      "reference": "CHAMP item 22; method-gaps review §7, §8.5",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-6",
+      "severity": "minor",
+      "category": "consistency",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:150-153; failure_log.md:269-271",
+      "issue": "Both integration sites describe Garzarelli et al. 2014's construct as a 'path-derived trailing-extremum level'. The f005 review defines it as a 'previous local minimum or maximum of the price series subsampled at timescale tau' with a dispersion-scaled stripe — a Group B path-local-extremum rule — and reserves 'trailing extremum' for the 52-week-high/Donchian D59 family (§9.2), whose admissibility as Class N existence evidence it explicitly leaves as an open taxonomy call for the lead session. The label merges the decisive record with the supporting family and blurs the distinction the review took care to preserve ('only Garzarelli tests the latter').",
+      "evidence": "failure_log: 'tests a path-derived trailing-extremum level — fully affine-equivariant, Class N' — versus f005 review §9.1: 'A support or resistance is a previous local minimum or maximum of the price series subsampled at timescale tau' and §9.2 heading: 'The 52-week-high family: approach/breach designs at a trailing extremum'.",
+      "fix": "In both sites, describe Garzarelli's construct as a 'path-derived local-extremum level (previous local min/max at timescale tau, dispersion-scaled stripe)' and keep 'trailing-extremum' for the Driessen/Huddart/Mizrach 52-week-high family only.",
+      "reference": "f005 review §9.1 vs §9.2 ('Classification honesty' paragraph)",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-7",
+      "severity": "minor",
+      "category": "consistency",
+      "location": "docs/literature/lit_review_f005-class-n-tests_2026-08-21.md:273-277 and 615-618",
+      "issue": "Screening-coverage arithmetic does not reconcile against its stated denominator. Section 4: net 1 matched 396 titles, net 2 a further 75, 471 read individually, 'about 1,354' matched neither net. Section 10 item 2: '~1,354 of 1,948 distinct titles matched neither keyword net'. But 471 + 1,354 = 1,825 — the distinct citing-work count — not 1,948 (the full screened set). Either the nets were applied only to the 1,825 citing titles (making 'of 1,948' the wrong denominator, and leaving the screening depth of the ~123 direct-query records unstated), or the neither-net count over 1,948 should be ~1,477. A number that appears twice must reconcile, and this one bounds the coverage claim behind the surviving negatives.",
+      "evidence": "§4: 'net 1 matched 396 titles, net 2 matched a further 75, and all 471 were read individually ... Titles matching neither net (about 1,354) were screened by the nets only' — §10: '~1,354 of 1,948 distinct titles matched neither keyword net and were not individually read.' 471 + 1,354 = 1,825 ≠ 1,948.",
+      "fix": "State the actual net-application population (presumably the 1,825 deduplicated citing titles), correct the §10 denominator, and add one sentence on how the ~123 direct-query records were screened.",
+      "reference": "CHAMP item 19 / PRISMA 2020 16a flow-count consistency",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-8",
+      "severity": "minor",
+      "category": "reporting",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:76-78",
+      "issue": "Definitional-basis item (f) calls the correlated-Wishart surrogate 'the nearest published analogue to branch 1's random-relocation design' without tier-flagging that the record carrying the explicit Wishart null (D42, arXiv:2003.07058v2) is an unrefereed preprint with 'no refereed version located' per the survey. The agenda applies tier discipline to preprints elsewhere in the same document (Adams & MacKay 'unrefereed preprint'; van den Burg & Williams 'preprint'), so the omission is internally inconsistent; 'published' also overstates 'located'.",
+      "evidence": "Agenda: 'the correlation-state school's correlated-Wishart surrogate is a stated, implemented feature-structure null — the nearest published analogue to branch 1's random-relocation design.' — versus definitions review: 'arXiv:2003.07058v2 | preprint | The correlation-state school's explicit Wishart-ensemble null; no refereed version located.'",
+      "fix": "Add the tier flag: '...a stated, implemented feature-structure null (stated explicitly only in an unrefereed preprint, arXiv:2003.07058; the school's founding record, Münnix et al. 2012, Sci Rep, is peer-reviewed) — the nearest located analogue...'.",
+      "reference": "CLAUDE.md evidence hierarchy; definitions review §7 tier table and §8.8; agenda's own tier-hazard convention (branch 3)",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-9",
+      "severity": "minor",
+      "category": "consistency",
+      "location": "failure_log.md:245-252 vs 285-291",
+      "issue": "F005's transferable-positive text — 'The testability gap tracks the identification problem, not neglect.' — is contradicted in part by the addendum but retained unstruck in its original position; the weakening lives only in an addendum bullet ~40 lines below. This deviates from the register's own inline-strike convention, applied in the same file at F001 (withdrawn positive shown struck inline) and at F005's own layer line (~~undetermined~~ struck). A reader of the row's top takes a contradicted claim as live. (The unstruck 'Result as reported' headline is acceptable as a historical report of the survey's claim, since the addendum refutes it in the same row.)",
+      "evidence": "F005: '**The testability gap tracks the identification problem, not neglect.**' (unstruck) — versus the F001 precedent in the same file: '**Transferable positive:** **none found.** ~~\"volatility remains a live target\"~~ (Rev 1, withdrawn)'.",
+      "fix": "Strike the contradicted sentence inline (retain it, per append-only) and append '(weakened 2026-08-21 — see addendum)'; the addendum's re-argued narrower positive then stands as the live claim.",
+      "reference": "failure_log Rev 2 convention ('original assignments are shown struck rather than deleted'); prior-disposition register convention",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-10",
+      "severity": "minor",
+      "category": "standard-coverage",
+      "location": "docs/literature/lit_review_regime-method-gaps_2026-08-21.md:90-95",
+      "issue": "PRISMA-ScR item-number slip in the conformance statement: 'no critical appraisal of individual sources was performed (ScR item 16, not met...)'. Critical appraisal of individual sources is item 12 (methods); item 16 is the results-section counterpart ('critical appraisal within sources'). The sibling definitions review's own item table (its §1.4) maps 12 = 'Critical appraisal of individual sources' and 16 = 'Critical appraisal within sources', so the two artifacts disagree on numbering for the same declaration. The declaration itself is honest; only the item citation is off.",
+      "evidence": "method-gaps §1.3: 'no critical appraisal of individual sources was performed (ScR item 16, not met - an evidence tier is recorded per record instead...)' — versus definitions review §1.4 table: '12 Critical appraisal of individual sources | not applicable, declared ... 16 Critical appraisal within sources | not applicable'.",
+      "fix": "Cite 'ScR items 12/16' in the method-gaps conformance statement, matching the definitions review's mapping.",
+      "reference": "PRISMA-ScR (Tricco et al. 2018, doi:10.7326/M18-0850) item list; declared-standard coverage check",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "SCOPE-1-1",
+      "severity": "minor",
+      "category": "partial",
+      "location": "docs/literature/lit_review_regime-definitions_2026-08-21.md:102",
+      "issue": "Stale internal definition count: section 1.2 states 'Section 8 numbers definitions D01-D57', but the section 8 synthesis enumerates through D59, and both the agenda frontmatter (line 16, '59 definitions') and the task handoff state 59 definitions. The delivered enumeration does not match its own declared extent.",
+      "evidence": "Line 102: 'Section 8 numbers definitions D01-D57; prior-corpus definitional content is numbered P01-P10' — versus D58 and D59 present at lines 798-799, 905-906, 916, and elsewhere in the synthesis table; agenda supplementary_corpora line 16: '54 records, 59 definitions'.",
+      "fix": "Correct line 102 to 'D01-D59' (one-line edit in the review).",
+      "reference": "S-1",
+      "branch": "scope-auditor"
+    },
+    {
+      "id": "SCOPE-1-2",
+      "severity": "minor",
+      "category": "partial",
+      "location": "docs/audits/ (docs/audits/audit_trail_phase1-sweep_2026-08-21.md absent)",
+      "issue": "Spec deliverable 6 (WI-3 §2 audit trail for this session, attested) does not yet exist. This is expected sequencing — the trail is produced by the audit round now running — but it is an open spec item that must exist and be attested before the spec can be ticked complete.",
+      "evidence": "deliverable_spec_phase1-sweep_2026-08-21.md lines 57-59: 'docs/audits/audit_trail_phase1-sweep_2026-08-21.md ... check: file exists, written this session, attested.' Glob of docs/audits/ returns only think-tank-charter, round3-remediation, and session_trail files.",
+      "fix": "Write and attest the phase1-sweep audit trail before closing the session; verify at spec-tick time.",
+      "reference": "S-6",
+      "branch": "scope-auditor"
+    },
+    {
+      "id": "SCOPE-1-3",
+      "severity": "minor",
+      "category": "partial",
+      "location": "git HEAD (spec deliverable 7)",
+      "issue": "Spec deliverable 7 (commit via /commit-with-provenance with Repro-Log-Path / Repro-Log-SHA256 / AI-Assistance trailers, role=multi) has not yet been made — the sweep artifacts are uncommitted at audit time. Expected sequencing (commit is the spec's final step) but an open item.",
+      "evidence": "deliverable_spec_phase1-sweep_2026-08-21.md lines 61-64; git status at session start shows the most recent commit is 57b409c (pre-sweep) and the new literature/agenda artifacts are not in a provenance commit.",
+      "fix": "Complete the /commit-with-provenance step after remediation and trail attestation; verify trailers with git log -1.",
+      "reference": "S-7",
+      "branch": "scope-auditor"
+    },
+    {
+      "id": "LITERATURE-1-3",
+      "severity": "minor",
+      "category": "construct misdescription",
+      "location": "C:\\Users\\skoir\\castles\\docs\\research_notes\\research_agenda_regime-classification_2026-08-21.md:150-151; C:\\Users\\skoir\\castles\\failure_log.md:268-270",
+      "issue": "Garzarelli's tested construct is described as 'a path-derived trailing-extremum level'. The sweep record defines it as previous local minima/maxima of the price subsampled at timescale tau with a dispersion-scaled stripe (Group B path-extremum rule), and reserves 'trailing-window path extremum' for the Donchian/52-week-high D59 family (Driessen, Huddart, Mizrach). The descriptor conflates the two designs and dilutes the sweep's explicit 'classification honesty' distinction (only Garzarelli tests bounce-vs-cross deflection; the 52-week-high family tests behaviour at a defined location). Class N membership — the load-bearing claim — is correct for both.",
+      "evidence": "lit_review_f005-class-n-tests_2026-08-21.md §9.1: 'a previous local minimum or maximum of the price series subsampled at timescale tau... not identical to any of the survey's 76 numbered definitions'; §9.2: 'The 52-week high/low is the trailing-window path extremum — the Donchian-type construct the survey files as D59'; §9.2 closing: 'only Garzarelli tests the latter'. arXiv:1110.5197 confirms the local-extremum definition.",
+      "fix": "In the agenda and failure_log addendum, replace 'trailing-extremum level' with 'local-extremum level (previous local minima/maxima at timescale tau with dispersion-scaled stripe)' for Garzarelli, and keep 'trailing-extremum' for the Driessen/Huddart/Mizrach boundary records; optionally restate the deflection-vs-behaviour distinction in one clause.",
+      "reference": "lit_review_f005-class-n-tests_2026-08-21.md §9.1-9.2",
+      "branch": "literature-check"
+    },
+    {
+      "id": "LITERATURE-1-4",
+      "severity": "minor",
+      "category": "misattribution (within author cluster)",
+      "location": "C:\\Users\\skoir\\castles\\docs\\research_notes\\research_agenda_regime-classification_2026-08-21.md:486-487",
+      "issue": "The purge/embargo insertion states 'Bergmeir & Benítez's evaluations (sweep store) show purging is not always necessary — its length is a testable quantity'. The sweep attributes that specific result (standard K-fold CV can be valid for purely autoregressive fits with uncorrelated errors) to Bergmeir, Hyndman & Koo 2018 (doi:10.1016/j.csda.2017.11.003); Bergmeir & Benítez 2012 (doi:10.1016/j.ins.2011.12.028) is the blocked/modified-CV empirical comparison.",
+      "evidence": "lit_review_regime-method-gaps_2026-08-21.md lines 710-712 and store row bergmeir2018jcsda2017110: 'K-fold CV can be valid for purely autoregressive fits - purging is not always necessary, so its length is a testable quantity, not a dogma' attached to Bergmeir, Hyndman & Koo (2018).",
+      "fix": "Cite 'Bergmeir, Hyndman & Koo 2018 (with Bergmeir & Benítez 2012 as the empirical comparison)' or rephrase to 'the Bergmeir-line evaluations' with both DOIs.",
+      "reference": "lit_review_regime-method-gaps_2026-08-21.md §8.5",
+      "branch": "literature-check"
+    },
+    {
+      "id": "LITERATURE-1-5",
+      "severity": "minor",
+      "category": "evidence-tier omission",
+      "location": "C:\\Users\\skoir\\castles\\docs\\research_notes\\research_agenda_regime-classification_2026-08-21.md:76-78",
+      "issue": "Definitional-basis item (f) calls the correlated-Wishart surrogate 'the nearest published analogue to branch 1's random-relocation design' with no tier label. The defining source of that null (D42) is arXiv:2003.07058v2, a preprint with 'no refereed version located' per the survey's own tier table. The agenda flags preprint tier elsewhere (Adams & MacKay BOCPD 'Tier hazard'), so the omission is inconsistent with its own practice and 'published' overstates the tier.",
+      "evidence": "lit_review_regime-definitions_2026-08-21.md line 772 and 812: 'arXiv:2003.07058v2 | **PREPRINT** ... no refereed version located'; §8.8 conclusion names D42 as the stated-and-implemented Wishart null.",
+      "fix": "Append a tier qualifier: '(stated and implemented in a preprint-tier source, arXiv:2003.07058; no refereed version located)'.",
+      "reference": "lit_review_regime-definitions_2026-08-21.md §7/§8.8",
+      "branch": "literature-check"
+    },
+    {
+      "id": "LITERATURE-1-6",
+      "severity": "minor",
+      "category": "internal consistency (register)",
+      "location": "C:\\Users\\skoir\\castles\\failure_log.md:297-301",
+      "issue": "The 'Column health check' still reads 'Current state — 2 transfers found, 2 \"none found\"', which counts only F001-F004. After the F005 addendum the register has five rows and F005 carries a weakened-but-surviving transferable positive, so the standing check mandated by charter step 4 is stale in the same file that was edited this session.",
+      "evidence": "failure_log.md line 300 vs the F005 'Transferable positive — WEAKENED' block at lines 285-291 added by the same revision.",
+      "fix": "Update the tally to include F005 (e.g. '3 transfers found, of which 1 weakened by its discriminating observation; 2 none found') or scope the check explicitly to a stated window.",
+      "reference": "charter step 4 standing check, failure_log.md",
+      "branch": "literature-check"
+    }
+  ],
+  "refute_gate_dispositions": [
+    {
+      "finding_id": "REV-1-1",
+      "raised_by": "critical-reviewer",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "interpretation",
+        "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:160-163; failure_log.md:283-284",
+        "issue": "Both Rev 2 integration sites state the surviving CI negative as an unbounded universal — 'no source anywhere reports a confidence interval on a level location' — and rest the branch-1 novelty claim ('first interval on location') on it. The f005 review states this finding in bounded form ('No confidence interval on a level location was found', §9.4 limit 2) and explicitly disclaims the coverage a universal would need: ~1,354 of 1,948 screened titles matched neither keyword net and were not individually read, and 'A NONE-FOUND verdict could not have been asserted on this coverage' (§10 item 2). This reinstates the exact overreach form whose refutation is the subject of the same addendum: F005's headline 'not one Class N definition has ever had its existence tested' was an unbounded universal from bounded search coverage, and it fell to one missed record.",
+        "evidence": "Agenda: '(b) **no source anywhere reports a confidence interval on a level location.** The branch's novelty claim is therefore not \"first existence test\" but \"first existence test under an admissible null, and first interval on location.\"' — versus f005 review §10.2: 'A NONE-FOUND verdict could not have been asserted on this coverage; the FOUND verdict does not depend on it.'",
+        "fix": "Rewrite both sites in the bounded form the review itself uses: 'no located source reports a confidence interval on a level location (coverage bound: §10 of the f005 review)', and condition the novelty claim accordingly ('first located interval on location in the searched literature'). Apply the same bounding discipline the addendum applies to negative (a), which correctly says 'no located Class N existence test'.",
+        "reference": "CHAMP item 30 (conclusions limited to what the analysis supports) / checklist C7; internal precedent: the F005 refutation itself"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Refutation attempt failed; every quoted element reproduces exactly. Agenda lines 160-163 and failure_log lines 283-284 both state the universal \"no source anywhere reports a confidence interval on a level location.\" The f005 review states the same negative only in bounded form (section 9.4 limit 2: \"No confidence interval on a level location was found... survives this search\") and section 10 item 2 explicitly disclaims the coverage a universal would need (\"~1,354 of 1,948 distinct titles matched neither keyword net and were not individually read. A NONE-FOUND verdict could not have been asserted on this coverage\"). The adjacent negative (a) at both sites is correctly bounded (\"no located Class N existence test\"), showing the universal phrasing of (b) is a genuine overreach, not a paraphrase convention. Finding stands.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    },
+    {
+      "finding_id": "REV-1-2",
+      "raised_by": "critical-reviewer",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "reporting",
+        "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:425-429",
+        "issue": "The Rev 2 detector-OC insertion claims BOCPD's delay/ARL0 operating characteristics 'remain substantially uncharacterized — a live gap, not settled ground' while omitting the one directly on-target counter-record the sweep located: Alami, Maillard & Feraud (2020), Restarted BOCPD with detection-delay/false-alarm optimality guarantees (sweep near-miss E1, verification gap V3, OpenAlex W3035594853). The sweep excluded it from the store only for lacking a persistent identifier and explicitly instructed: 'Anyone consuming Target B's verdict should retrieve it manually from PMLR.' The agenda is a consumer of Target B's verdict and does not carry the record or the caveat. An agenda claiming a gap while dropping the nearest located prior art is the same failure pattern the F005 addendum in the same revision documents.",
+        "evidence": "Agenda: 'so BOCPD's operating characteristics on these criteria remain substantially uncharacterized — a live gap, not settled ground.' — versus method-gaps review §8.4: 'The one located work giving a BOCPD-class detector delay/false-alarm guarantees - Alami, Maillard & Feraud (2020), Restarted BOCPD - could not be included: no DOI and no arXiv record exists' and §10 V3: 'Anyone consuming Target B's verdict should retrieve it manually from PMLR.'",
+        "fix": "Add one sentence to the insertion: theoretical delay/false-alarm optimality guarantees for a restarted BOCPD variant exist (Alami, Maillard & Feraud 2020, PMLR; no persistent identifier — cite by venue and OpenAlex id, tier-flagged), so the residual gap is the empirical delay-vs-ARL0 characterization of BOCPD-class detectors on financial data, not the absence of any characterization.",
+        "reference": "CHAMP item 21 / SAMPL selective-reporting principle (checklist B4); method-gaps review §8.4, §10 V3"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Evidence reproduced, not refuted. (1) Agenda lines 425-429 contain the quoted 'remain substantially uncharacterized — a live gap, not settled ground' claim. (2) Grep of the agenda for 'Alami|W3035594853|Restarted' returns zero matches — the counter-record and V3 caveat are absent. (3) Method-gaps review lines 662-666 (§8.4) and 751-754 (V3) contain the cited counter-record text verbatim, including 'Anyone consuming Target B's verdict should retrieve it manually', and the E1 exclusion row (line 482) marks Alami, Maillard & Feraud (2020) as 'Directly on-target for B'. The sweep's own Target B verdict is 'PARTIALLY FOUND', which the agenda's unqualified gap framing omits. The defect claim stands.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    },
+    {
+      "finding_id": "LITERATURE-1-1",
+      "raised_by": "literature-check",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "citation-metadata / author-list error",
+        "location": "C:\\Users\\skoir\\castles\\docs\\literature\\lit_review_f005-class-n-tests_2026-08-21.md:329,446,545; C:\\Users\\skoir\\castles\\docs\\research_notes\\research_agenda_regime-classification_2026-08-21.md:149; C:\\Users\\skoir\\castles\\failure_log.md:266",
+        "issue": "The decisive F005-refuting record is cited in prose as 'Garzarelli, Cristelli, Zaccaria & Pietronero (2014)' (four authors), but the published version cited by DOI has five authors: Crossref for 10.1038/srep04487 lists Federico Garzarelli, Matthieu Cristelli, Gabriele Pompa, Andrea Zaccaria, Luciano Pietronero. The four-name list is the arXiv:1110.5197 v1 author list (full text was read from arXiv), carried onto the 2014 journal citation. The project's own CSL store (references_f005-class-n-tests.json) correctly includes Pompa, so the prose contradicts the canonical store in all three artifacts.",
+        "evidence": "Crossref works/10.1038/srep04487: authors = Garzarelli, Cristelli, Pompa, Zaccaria, Pietronero (5). arXiv abs/1110.5197: authors = Garzarelli, Cristelli, Zaccaria, Pietronero (4). references_f005-class-n-tests.json lines 43-55 contain family names Garzarelli, ..., Pompa, Zaccaria. All content claims (level definition, 9 LSE stocks/251 days of 2002, timescales 45/60/90/180 s, shuffled-return null ~0.5, chi-squared alpha=0.05 significant at 45-90 s not 180 s) verified correct against the arXiv full text.",
+        "fix": "Correct the prose author list to Garzarelli, Cristelli, Pompa, Zaccaria & Pietronero (2014) at all cited sites in the f005 review (sections 7, 9.1, 9.4), the agenda branch-1 prior-art note, and the failure_log F005 addendum; where the arXiv version is the read text, note the version/author-list difference explicitly.",
+        "reference": "https://api.crossref.org/works/10.1038/srep04487; https://arxiv.org/abs/1110.5197"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Refutation attempt failed; every element of the finding independently reproduced. (1) grep confirms the four-name list 'Garzarelli, Cristelli, Zaccaria & Pietronero' at lit_review_f005-class-n-tests_2026-08-21.md:329,446,545, research_agenda_regime-classification_2026-08-21.md:149, and failure_log.md:266. (2) Crossref works/10.1038/srep04487 returns five authors: Federico Garzarelli, Matthieu Cristelli, Gabriele Pompa, Andrea Zaccaria, Luciano Pietronero. (3) arXiv abs/1110.5197 is v1-only (24 Oct 2011) with exactly the four-name list, consistent with the auditor's provenance account. (4) docs/literature/references_f005-class-n-tests.json lines 41-62 (id garzarelli2014srep04487) contains all five authors including Pompa, so the prose contradicts the project's canonical CSL store. The finding stands.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    },
+    {
+      "finding_id": "LITERATURE-1-2",
+      "raised_by": "literature-check",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "misattribution",
+        "location": "C:\\Users\\skoir\\castles\\docs\\research_notes\\research_agenda_regime-classification_2026-08-21.md:417-420",
+        "issue": "The Rev 2 detector-OC insertion attributes to Frisén 2003 the claim that it 'explicitly recasts trading indicators as surveillance stopping rules'. Per the method-gaps sweep itself (section 8.4), that recasting is Bock, Andersson & Frisén (2007), 'The Relation between Statistical Surveillance and Technical Analysis in Finance' (doi:10.1002/9780470987179.ch3) — 'the single located record that does to trading indicators what Target B asks for'. Frisén 2003 (ISR 71:403-434) is the surveillance-optimality taxonomy; its abstract contains no trading-indicator content.",
+        "evidence": "lit_review_regime-method-gaps_2026-08-21.md lines 671-676: 'Frisen (2003) ... taxonomizes the criteria; Bock, Andersson & Frisen (2007) ... explicitly recast technical-analysis indicators as surveillance stopping rules'. Crossref abstract for 10.1111/j.1751-5823.2003.tb00205.x: optimality criteria, likelihood-ratio methods — no recasting of trading indicators.",
+        "fix": "Reattach the relative clause: cite Frisén 2003 for the evaluation-criteria taxonomy and add Bock, Andersson & Frisén 2007 (doi:10.1002/9780470987179.ch3) as the record that recasts trading indicators as surveillance stopping rules. The refined absence claim itself (framing exists in the statistics literature, q-fin ARL query zero) is faithfully carried and needs no change.",
+        "reference": "https://api.crossref.org/works/10.1111/j.1751-5823.2003.tb00205.x; lit_review_regime-method-gaps_2026-08-21.md §8.4"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Refutation attempt failed; finding confirmed by primary sources. (1) Agenda lines 418-420 attach \"which explicitly recasts trading indicators as surveillance stopping rules\" solely to the Frisen 2003 citation. (2) Crossref record for 10.1111/j.1751-5823.2003.tb00205.x confirms Frisen 2003 is \"Statistical Surveillance. Optimality and Methods\" (ISR); its abstract covers optimality criteria and likelihood-ratio methods only — no trading-indicator content. (3) Crossref record for 10.1002/9780470987179.ch3 confirms Bock, Andersson & Frisen 2007, \"The Relation between Statistical Surveillance and Technical Analysis in Finance\", is the recasting work, matching method-gaps sweep section 8.4 (lines 671-676). The only counter-reading (relative clause attaching to \"the Frisen school\" rather than the citation) still leaves Frisen 2003 as the sole cited support for the recasting claim, so it does not overturn the misattribution.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    }
+  ],
+  "counts": {
+    "raw_critical": 0,
+    "raw_major": 4,
+    "raw_minor": 15,
+    "refuted": 0,
+    "retained_conservative": 0,
+    "to_remediate": 4,
+    "minors_logged": 15
+  },
+  "verdict": "proceed-with-remediation",
+  "rounds_cap": 3,
+  "cap_reached": false,
+  "prior_dispositions": "This is round 1 for the phase1-sweep spec (fresh cap). Standing project dispositions that bind: G16 DOI-resolution false-positive class is closed — the test is handle-API resolution (https://doi.org/api/handles/{doi} responseCode 1), never publisher-page fetchability (established for the level-definitions review, commit b4e82e8, and re-confirmed with per-DOI logs by all three sweep agents this session). F-5 (predecessor charter spec): whole-file/aggregate verification counts are inadmissible — verify per-section/per-site. Charter promotion rule: a failure_log layer changes only when the discriminating observation was actually obtained and pointed the stated way. Register convention: original rows retained with strikethrough, never deleted."
+}

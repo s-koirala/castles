@@ -1,0 +1,547 @@
+{
+ "query_id": "fc-openalex-avellanedalipkin2003",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-21",
+ "seed_definition": "D52",
+ "seed_doi": "10.1088/1469-7688/3/6/301",
+ "seed_openalex_id": "W3125836525",
+ "seed_cited_by_count_reported": 78,
+ "query_url_verbatim": [
+  "https://api.openalex.org/works?filter=cites:W3125836525&per-page=200&select=id,doi,title,publication_year,type&cursor=*"
+ ],
+ "n_records_retrieved": 76,
+ "items": [
+  {
+   "openalex_id": "https://openalex.org/W2038686546",
+   "doi": "https://doi.org/10.1007/s11537-007-0657-8",
+   "title": "Mean field games",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2037102228",
+   "doi": "https://doi.org/10.1038/nature09659",
+   "title": "Systemic risk in banking ecosystems",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125504372",
+   "doi": "https://doi.org/10.1016/j.jfineco.2004.08.005",
+   "title": "Stock price clustering on option expiration dates",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3100223094",
+   "doi": "https://doi.org/10.1140/epjb/e2009-00316-y",
+   "title": "Eroding market stability by proliferation of financial instruments",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122647810",
+   "doi": "https://doi.org/10.1093/rfs/hhaa082",
+   "title": "Does Option Trading Have a Pervasive Impact on Underlying Stock Prices?",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1666218421",
+   "doi": "https://doi.org/10.1103/physreve.91.012819",
+   "title": "Modeling foreign exchange market activity around macroeconomic news: Hawkes-process approach",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2505257925",
+   "doi": "https://doi.org/10.1142/s2382626616500027",
+   "title": "Option Hedging with Smooth Market Impact",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3123801885",
+   "doi": "https://doi.org/10.1016/j.jfineco.2012.06.010",
+   "title": "Pinning in the S&P 500 futures",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2767432952",
+   "doi": "https://doi.org/10.1016/j.jmaa.2017.10.072",
+   "title": "Option pricing for a large trader with price impact and liquidity costs",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4213420418",
+   "doi": "https://doi.org/10.1016/j.jimonfin.2022.102627",
+   "title": "The impact of option hedging on the spot market volatility",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2034755030",
+   "doi": "https://doi.org/10.1239/jap/1238592123",
+   "title": "Optimal Stopping of a Brownian Bridge",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2170427460",
+   "doi": "https://doi.org/10.1142/s0219024916500102",
+   "title": "INSTITUTIONAL INVESTORS AND THE DEPENDENCE STRUCTURE OF ASSET RETURNS",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2912238300",
+   "doi": "https://doi.org/10.1007/s00181-019-01627-2",
+   "title": "Expiration day effects on European trading volumes",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3042459916",
+   "doi": "https://doi.org/10.3390/math8071159",
+   "title": "Discounted Optimal Stopping of a Brownian Bridge, with Application to American Options under Pinning",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2927497835",
+   "doi": "https://doi.org/10.1017/jpr.2019.98",
+   "title": "Optimal stopping for the exponential of a Brownian bridge",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125905086",
+   "doi": "https://doi.org/10.1080/14697680701881763",
+   "title": "Modeling stock pinning",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2962717797",
+   "doi": "https://doi.org/10.1239/aap/1449859807",
+   "title": "Optimal double stopping of a Brownian bridge",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3124229286",
+   "doi": "https://doi.org/10.1080/14697688.2014.916817",
+   "title": "Modelling the rebalancing slippage of leveraged exchange-traded funds",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125793519",
+   "doi": "https://doi.org/10.1016/j.jbankfin.2013.07.030",
+   "title": "Returns and option activity over the option-expiration week for S&P 100 stocks",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4385258727",
+   "doi": "https://doi.org/10.1080/14697688.2023.2229375",
+   "title": "The role of fleeting orders on option expiration days",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2159313672",
+   "doi": "https://doi.org/10.1002/cpa.21404",
+   "title": "Mathematical Models for Stock Pinning near Option Expiration Dates",
+   "year": 2012,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2012789961",
+   "doi": "https://doi.org/10.1016/j.physleta.2005.01.076",
+   "title": "Entropic calibration revisited",
+   "year": 2005,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2021283700",
+   "doi": "https://doi.org/10.1080/13504860802583444",
+   "title": "Trader Behavior and its Effect on Asset Price Dynamics",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2036715754",
+   "doi": "https://doi.org/10.1016/j.spl.2014.06.020",
+   "title": "Bias-correction of the maximum likelihood estimator for the<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si8.gif\" display=\"inline\" overflow=\"scroll\"><mml:mi>α</mml:mi></mml:math>-Brownian bridge",
+   "year": 2014,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1164113157",
+   "doi": null,
+   "title": "Dynamic Programming and Trade Execution",
+   "year": 2013,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3041836043",
+   "doi": "https://doi.org/10.1111/mafi.12308",
+   "title": "Option pricing models without probability: a rough paths approach",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4229554608",
+   "doi": "https://doi.org/10.1017/s0021900200005295",
+   "title": "Optimal Stopping of a Brownian Bridge",
+   "year": 2009,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4200212205",
+   "doi": "https://doi.org/10.1016/j.iref.2021.11.006",
+   "title": "Information content of order imbalance in the index options market",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2970119491",
+   "doi": "https://doi.org/10.1007/s11403-019-00260-7",
+   "title": "A simulation analysis of systemic counterparty risk in over-the-counter derivatives markets",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4210452256",
+   "doi": "https://doi.org/10.1016/j.jempfin.2022.01.003",
+   "title": "Dynamic risk management and asset comovement",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1978474243",
+   "doi": "https://doi.org/10.1142/s0219024907004287",
+   "title": "AN EQUILIBRIUM-BASED MODEL OF STOCK-PINNING",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2999119243",
+   "doi": "https://doi.org/10.3390/math8010123",
+   "title": "A Class of Itô Diffusions with Known Terminal Value and Specified Optimal Barrier",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2098850036",
+   "doi": "https://doi.org/10.1080/14697680601019522",
+   "title": "Calibration of a nonlinear feedback option pricing model",
+   "year": 2007,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2597055770",
+   "doi": "https://doi.org/10.1017/s0001867800049089",
+   "title": "Optimal double stopping of a Brownian bridge",
+   "year": 2015,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2610516688",
+   "doi": "https://doi.org/10.1016/j.spa.2019.03.018",
+   "title": "Optimal stopping of a Brownian bridge with an unknown pinning point",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2620300906",
+   "doi": "https://doi.org/10.3917/fina.372.0039",
+   "title": "Feedback effects and endogenous risk in financial markets",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2964094096",
+   "doi": "https://doi.org/10.1016/j.spa.2020.03.007",
+   "title": "Optimally stopping a Brownian bridge with an unknown pinning time: A Bayesian approach",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2072231031",
+   "doi": "https://doi.org/10.2139/ssrn.519044",
+   "title": "Stock Price Clustering on Option Expiration Dates",
+   "year": 2004,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2126664220",
+   "doi": "https://doi.org/10.2139/ssrn.1305174",
+   "title": "Eroding Market Stability by Proliferation of Financial Instruments",
+   "year": 2008,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4254020904",
+   "doi": "https://doi.org/10.2139/ssrn.970592",
+   "title": "Does Option Trading Have a Pervasive Impact on Underlying Stock Prices?",
+   "year": 2007,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2002205333",
+   "doi": "https://doi.org/10.2139/ssrn.1664261",
+   "title": "Pinning in the S&amp;P 500 Futures",
+   "year": 2010,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1931653375",
+   "doi": "https://doi.org/10.2139/ssrn.2318897",
+   "title": "Closed-Form Solutions for Option Hedging with Market Impact",
+   "year": 2012,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2612470808",
+   "doi": "https://doi.org/10.2139/ssrn.2916853",
+   "title": "A Practical Guide to Market Risk Model Validations (Part I - Introduction)",
+   "year": 2017,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2145809552",
+   "doi": "https://doi.org/10.2139/ssrn.914467",
+   "title": "Modeling Stock Pinning",
+   "year": 2006,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4386091748",
+   "doi": "https://doi.org/10.2139/ssrn.4470636",
+   "title": "The Stock Market Impact of Volatility Hedging: Evidence from End-of-Day Trading by VIX ETPs",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2614073808",
+   "doi": "https://doi.org/10.2139/ssrn.2945989",
+   "title": "Thinking About Theta: An Analysis of Time Decay, Early Unwind and Closeout Feedback Effects",
+   "year": 2017,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3104702756",
+   "doi": null,
+   "title": "Discounted Optimal Stopping of a Brownian Bridge, with Application to American Options under Pinning",
+   "year": 2023,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4315649520",
+   "doi": "https://doi.org/10.1111/mafi.12375",
+   "title": "In memoriam: Marco Avellaneda (1955–2022)",
+   "year": 2023,
+   "type": "other"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4386902695",
+   "doi": "https://doi.org/10.2139/ssrn.4562800",
+   "title": "The Derivative Payoff Bias",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1567459285",
+   "doi": "https://doi.org/10.48550/arxiv.1402.0910",
+   "title": "The $500.00 AAPL close: Manipulation or hedging? A quantitative analysis",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1745441948",
+   "doi": "https://doi.org/10.1142/s0219024925500025",
+   "title": "OPTIMAL SELLING TIME OF A STOCK UNDER CAPITAL GAINS TAXES",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W1783966308",
+   "doi": "https://doi.org/10.48550/arxiv.1409.2226",
+   "title": "Optimal double stopping of a Brownian bridge",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W208294039",
+   "doi": null,
+   "title": "Three Essays in Finance",
+   "year": 2011,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2125174294",
+   "doi": "https://doi.org/10.1109/acc.2006.1656392",
+   "title": "Trader behavior and hedging feedback in the stock pinning phenomena",
+   "year": 2006,
+   "type": "conference-paper"
+  },
+  {
+   "openalex_id": "https://openalex.org/W213022384",
+   "doi": "https://doi.org/10.1007/978-1-4471-6506-4_2",
+   "title": "Volatility Dynamics for a Single Underlying: Foundations",
+   "year": 2014,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2170051928",
+   "doi": null,
+   "title": "Optimal stopping of an $\\alpha$-Brownian bridge",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2267517525",
+   "doi": "https://doi.org/10.2139/ssrn.2413058",
+   "title": "The Price Impacts of Index Option Hedging and the Anomalous Weekly Reversals",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2283434266",
+   "doi": "https://doi.org/10.26021/5339",
+   "title": "The Effect of Optionability on Underlying Stock Prices",
+   "year": 2006,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2741080409",
+   "doi": null,
+   "title": "Stock Price Pinning near Option Expiration Dates",
+   "year": 2011,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2769867052",
+   "doi": "https://doi.org/10.1007/978-3-658-17574-0_7",
+   "title": "Derivate als Informationsquelle",
+   "year": 2017,
+   "type": "book-chapter"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2803957845",
+   "doi": null,
+   "title": "Option Pricing in Non-Competitive Markets",
+   "year": 2017,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2966323649",
+   "doi": "https://doi.org/10.1007/s11403-019-00259-0",
+   "title": "Tradability, closeness to market prices, and expected profit: their measurement for a binomial model of options pricing in a heterogeneous market",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2977695082",
+   "doi": null,
+   "title": "The Integrity of Closing Prices",
+   "year": 2018,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2991617780",
+   "doi": "https://doi.org/10.1017/jpr.2022.78",
+   "title": "With or without replacement? Sampling uncertainty in Shepp’s urn scheme",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3042738340",
+   "doi": "https://doi.org/10.48550/arxiv.2007.07946",
+   "title": "Local time of infinite time horizon Brownian bridge",
+   "year": 2020,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125316444",
+   "doi": "https://doi.org/10.1080/14697680701881763",
+   "title": "Modeling stock pinning",
+   "year": 2008,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3125450464",
+   "doi": null,
+   "title": "Optimal Selling Time of a Stock under Capital Gains Taxes",
+   "year": 2014,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4247806035",
+   "doi": "https://doi.org/10.1002/9780470061602.eqf07023",
+   "title": "Stock Pinning",
+   "year": 2010,
+   "type": "reference-entry"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4252840346",
+   "doi": "https://doi.org/10.1007/s11403-019-00265-2",
+   "title": "A simulation analysis of systemic counterparty risk in over-the-counter derivatives markets",
+   "year": 2019,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4285249425",
+   "doi": "https://doi.org/10.2139/ssrn.4140487",
+   "title": "No Max Pain, No Max Gain: A Case of Predictable Reversal",
+   "year": 2022,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4388070296",
+   "doi": "https://doi.org/10.2139/ssrn.4595840",
+   "title": "Equity Option Return Predictability and Expiration Days",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4402843216",
+   "doi": "https://doi.org/10.2139/ssrn.4936978",
+   "title": "A Model for the Hedging Impact of Option Market Makers",
+   "year": 2024,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4405350421",
+   "doi": "https://doi.org/10.2139/ssrn.5012508",
+   "title": "0DTE Gambits: Delta Hedging and Endogenous Market Manipulation at Bitcoin Options Expiry",
+   "year": 2024,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7140889887",
+   "doi": "https://doi.org/10.3917/e.fina.372.0039",
+   "title": "Feedback effects and endogenous risk in financial markets",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7164801909",
+   "doi": "https://doi.org/10.1016/j.frl.2026.110340",
+   "title": "Bitcoin option expiration, gamma exposure, and intraday price reversals",
+   "year": 2026,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7169507277",
+   "doi": "https://doi.org/10.2139/ssrn.6970964",
+   "title": "Pin Risk, Jumps, and Option Trading",
+   "year": 2026,
+   "type": "preprint"
+  }
+ ]
+}

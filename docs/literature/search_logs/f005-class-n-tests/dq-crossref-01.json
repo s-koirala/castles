@@ -1,0 +1,90 @@
+{
+ "query_id": "dq-crossref-01",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=support+resistance+levels+statistical+significance+test&rows=10&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 3382069,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "DOI": "10.7717/peerj-cs.3913/table-3",
+   "title": "Table 3: Statistical significance test.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj-cs.2264/supp-12",
+   "title": "Supplemental Information 12: Assessment of statistical significance of Test accuracy and Test loss",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj-cs.3837/table-3",
+   "title": "Table 3: One-way ANOVA statistical significance test results.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerjcs.1134/table-11",
+   "title": "Table 11: Statistical significance\n                      <i>T</i>\n                      -test results.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj-cs.3490/table-15",
+   "title": "Table 15: LEAF evaluation results with statistical significance test.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4324/9781315134918-25",
+   "title": "Statistical Tests and Substantive Significance",
+   "year": 2017,
+   "container": "The Significance test Controversy",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4324/9781315134918-34",
+   "title": "Statistical Significance in Psychological Research",
+   "year": 2017,
+   "container": "The Significance test Controversy",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj-cs.1137/table-2",
+   "title": "Table 2: Statistical significance test results in 20-shot setting.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj-cs.3872/table-9",
+   "title": "Table 9: Statistical significance testing using Wilcoxon signed-rank test.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj-cs.3171/table-5",
+   "title": "Table 5: Statistical significance one-tailed t-test results using 5% and 10% level of significance.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  }
+ ]
+}

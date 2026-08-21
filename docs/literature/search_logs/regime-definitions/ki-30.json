@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-30",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Pharasi+identifying+long-term+precursors+of+financial+market+crashes+using+correlation+patterns&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 718321,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1088/1367-2630/aae7e0",
+   "title": "Identifying long-term precursors of financial market crashes using correlation patterns",
+   "year": 2018,
+   "container": "New Journal of Physics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2469697",
+   "title": "Interpreting Financial Market Crashes as Earthquakes: A New Early Warning System for Medium Term Crashes",
+   "year": 2014,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We propose a modeling framework which allows for creating probability predictions on a future market crash in the medium term, like sometime in the next five days. Our framework draws upon noticeable similarities between stock returns around a financial market crash and seismic activity around earthquakes. Our model is incorporated in an Early Warning System for future crash days. Testing our EWS on S&amp;P 500 data during the recent financial crisis, we find positive Hanssen-Kuiper Skill Scores. Furthermore our modeling framework is capable of exploiting  information in the returns series not captured by well known and commonly used volatility models. EWS based on our models outperform EWS based on the volatility models forecasting extreme price movements, while forecasting is much less time-consuming.</jats:p>"
+  },
+  {
+   "DOI": "10.1088/1742-5468/ac59ab",
+   "title": "A new attempt to identify long-term precursors for endogenous financial crises in the market correlation structures",
+   "year": 2022,
+   "container": "Journal of Statistical Mechanics: Theory and Experiment",
+   "type": "journal-article",
+   "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Prediction of events in financial markets is every investor’s dream and, usually, wishful thinking. From a more general, economic and societal viewpoint, the identification of indicators for large events is highly desirable to assess systemic risks. Unfortunately, the very nature of financial markets, particularly the predominantly non-Markovian character as well as non-stationarity, make this challenge a formidable one, leaving little hope for fully fledged answers. Nevertheless, it is called for to collect pieces of evidence in a variety of observables to be assembled like the pieces of a puzzle that eventually might help to catch a glimpse of long-term indicators or precursors for large events—if at all in a statistical sense. Here, we present a new piece for this puzzle. We use the quasi-stationary market states that exist in the time evolution of the correlation structure in financial markets. Recently, we identified such market states relative to the collective motion of the market as a whole. We study their precursor properties in the US stock markets over 16 years, including two endogenous crises, the dot-com bubble b"
+  }
+ ]
+}

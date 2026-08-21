@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-09",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Guidolin+Timmermann+International+asset+allocation+under+regime+switching+skew+and+kurtosis+preferences&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 288557,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.20955/wp.2005.034",
+   "title": "International Asset Allocation under Regime Switching, Skew and Kurtosis Preferences",
+   "year": 2005,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.676023",
+   "title": "International Asset Allocation Under Regime Switching, Skew and Kurtosis Preferences",
+   "year": 2005,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper proposes a new tractable approach to solving asset allocation problems in situations with a large number of risky assets which pose problems for standard approaches. Investor preferences are assumed to be defined over moments of the wealth distribution such as its mean, variance, skew and kurtosis. Time-variations in investment opportunities are represented by a flexible regime switching process. We develop analytical methods that only require solving a small set of difference equations and can be applied even in the presence of large numbers of risky assets. In the context of a four-moment international CAPM specification that relates stock returns in five regions to returns on a global market portfolio, we find evidence of distinct bull and bear states. Ignoring regimes, an unhedged US investor's optimal portfolio is strongly diversified internationally. The presence of regimes in the return distribution leads to a large increase in the investor's optimal holdings of US stocks as does the introduction of skew and kurtosis preferences. Our paper therefore offers an explanation of the strong home bias observed in US investors' asset allocation based on regime swi"
+  },
+  {
+   "DOI": "10.1093/rfs/hhn006",
+   "title": "International asset allocation under regime switching, skew, and kurtosis preferences",
+   "year": 2008,
+   "container": "Review of Financial Studies",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

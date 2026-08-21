@@ -1,0 +1,930 @@
+{
+ "query_id": "fc-s2-donaldson1993",
+ "platform": "Semantic Scholar Academic Graph API (api.semanticscholar.org)",
+ "date_searched": "2026-08-21",
+ "seed_definition": "D46",
+ "seed_doi": "10.2307/2331416",
+ "query_url_verbatim": [
+  "https://api.semanticscholar.org/graph/v1/paper/DOI:10.2307/2331416/citations?fields=title,year,externalIds&limit=500&offset=0"
+ ],
+ "n_records_retrieved": 131,
+ "items": [
+  {
+   "s2_id": "0d6a48adad39064e026979bbd04608f9ceef4e0a",
+   "doi": "10.1108/jal-04-2025-0199",
+   "arxiv": null,
+   "title": "Investor sentiment from images: a few-shot learning investigation",
+   "year": 2025
+  },
+  {
+   "s2_id": "5a7b98698dca7d28b397e403590964874acc2c15",
+   "doi": "10.1016/j.najef.2025.102422",
+   "arxiv": null,
+   "title": "The valuation of variance swaps with psychological barriers in the underlying dynamics",
+   "year": 2025
+  },
+  {
+   "s2_id": "0a19db53f2fb9b15a728647cb35ba4c20892057c",
+   "doi": "10.1016/j.jbef.2025.101020",
+   "arxiv": null,
+   "title": "Examining psychological barriers in exchange rates across various regimes and FX intervention",
+   "year": 2025
+  },
+  {
+   "s2_id": "7f1525a55f02585c9543e2754d50faeb8cb3a0e4",
+   "doi": "10.1108/rbf-01-2024-0007",
+   "arxiv": null,
+   "title": "Exploring the Nordic numbers: an analysis of price clustering in Scandinavian stocks",
+   "year": 2024
+  },
+  {
+   "s2_id": "b715239189e42cf100fa1db677ca4d556aad2d74",
+   "doi": "10.1007/s11071-023-08702-5",
+   "arxiv": null,
+   "title": "On risk and market sentiments driving financial share price dynamics",
+   "year": 2023
+  },
+  {
+   "s2_id": "7feb63a8cad7d5a3cd1b4b0d21404d3ac4f08fb4",
+   "doi": "10.1016/j.jcomm.2023.100350",
+   "arxiv": null,
+   "title": "Psychological price barriers, El Niño, La Niña: New insights for the case of coffee",
+   "year": 2023
+  },
+  {
+   "s2_id": "75739aa1c98496358cf2114adbe31116b7c94ce8",
+   "doi": "10.1016/j.najef.2022.101864",
+   "arxiv": null,
+   "title": "Psychological barriers and option pricing in a local volatility model",
+   "year": 2023
+  },
+  {
+   "s2_id": "2d2ea022b9d13f38933b8c3c18c8b3f3831b649b",
+   "doi": "10.1007/s10614-021-10224-4",
+   "arxiv": null,
+   "title": "Price Change and Trading Volume: Behavioral Heterogeneity in Stock Market",
+   "year": 2021
+  },
+  {
+   "s2_id": "fa7c957bfeb5c567c12ab1a4985fbc78715e0744",
+   "doi": "10.1080/10293523.2021.1886722",
+   "arxiv": null,
+   "title": "Improvements in forecasting insurance stock excess returns: Comparing the investor sentiment endurance index with the CAPM and Fama-French models",
+   "year": 2021
+  },
+  {
+   "s2_id": "1683a305e2669f2d5731231fae8e4c5f6b58836d",
+   "doi": "10.2139/SSRN.3224543",
+   "arxiv": null,
+   "title": "The round number heuristic and entrepreneur crowdfunding performance",
+   "year": 2021
+  },
+  {
+   "s2_id": "c1b06756b0e481a65121c7e7a6f0b467f5c57c51",
+   "doi": "10.4067/S0718-88702020000200029",
+   "arxiv": null,
+   "title": "Do psychological barriers exist in Latin American stock markets?",
+   "year": 2020
+  },
+  {
+   "s2_id": "013f0e1cdae4acb5eb766b06668adc82435a5449",
+   "doi": "10.3897/jucs.2020.059",
+   "arxiv": null,
+   "title": "Comparative Study of Real Time Machine Learning Models for Stock Prediction through Streaming Data",
+   "year": 2020
+  },
+  {
+   "s2_id": "8bee472b3372ef68b6b1c0ec7f6220910f39c24a",
+   "doi": "10.2139/ssrn.3326588",
+   "arxiv": null,
+   "title": "Alternative Facts in Peer-to-Peer Loans? Borrower Misreporting Dynamics and Implications",
+   "year": 2020
+  },
+  {
+   "s2_id": "681b2d8fcd797ff260e679ac2e429b3d7b6d170e",
+   "doi": "10.1108/rbf-05-2020-0099",
+   "arxiv": null,
+   "title": "Psychological barriers in the electric market: study applied to the Nord Pool market",
+   "year": 2020
+  },
+  {
+   "s2_id": "aec8c8c896d02e34829ae1800775b7004767e919",
+   "doi": "10.2139/ssrn.3406811",
+   "arxiv": null,
+   "title": "A Markov chain approximation scheme for option pricing under skew diffusions",
+   "year": 2020
+  },
+  {
+   "s2_id": "3509f89b1e496c4a305f08c8e791ffb17d40ceb8",
+   "doi": "10.1080/1351847X.2020.1725083",
+   "arxiv": null,
+   "title": "Pricing European options under a diffusion model with psychological barriers and leverage effect",
+   "year": 2020
+  },
+  {
+   "s2_id": "eaa2eacbf2e81e61f1bd0b6e49b91e02c5621f69",
+   "doi": "10.1080/1351847X.2020.1717976",
+   "arxiv": null,
+   "title": "Towards a better understanding of the full impact of the left digit effect on individual trading behaviour: unearthing a trading profit effect",
+   "year": 2020
+  },
+  {
+   "s2_id": "92b76b7ca445e6ba782b43793f3d279002f56b20",
+   "doi": "10.1007/978-3-030-39033-4_10",
+   "arxiv": null,
+   "title": "Machine Learning Models for Stock Prediction Using Real-Time Streaming Data",
+   "year": 2019
+  },
+  {
+   "s2_id": "cf25bdb9c2684e0cfa3943ee1428a07177b4291b",
+   "doi": "10.3390/su11247219",
+   "arxiv": null,
+   "title": "An Empirical Investigation to the “Skew” Phenomenon in Stock Index Markets: Evidence from the Nikkei 225 and Others",
+   "year": 2019
+  },
+  {
+   "s2_id": "a34313de8cc779f4951272a9342fe408c610819b",
+   "doi": "10.1016/J.JEMPFIN.2019.07.009",
+   "arxiv": null,
+   "title": "Investor target prices",
+   "year": 2019
+  },
+  {
+   "s2_id": "fa457df08a7e7150cdfa80fd53332541be4cddd6",
+   "doi": "10.1016/J.ENPOL.2019.110891",
+   "arxiv": null,
+   "title": "Regulated equity returns: A puzzle",
+   "year": 2019
+  },
+  {
+   "s2_id": "df081a341aa2310f4dcbbb322a7c7c4237435358",
+   "doi": "10.21315/aamjaf2019.15.1.4",
+   "arxiv": null,
+   "title": "Are there Psychological Barriers in Asian Stock Markets?",
+   "year": 2019
+  },
+  {
+   "s2_id": "b7ec0564457145fcdd365d86014f310c107d4c84",
+   "doi": "10.1108/RBF-03-2019-0041",
+   "arxiv": null,
+   "title": "Psychological barriers in the cryptocurrency market",
+   "year": 2019
+  },
+  {
+   "s2_id": "430f754c8421a21120384d5e3c31807a7b3f0144",
+   "doi": "10.1108/ijmf-10-2018-0305",
+   "arxiv": null,
+   "title": "Individualism, synchronized stock price movements, and stock market volatility",
+   "year": 2019
+  },
+  {
+   "s2_id": "c10d41b13e9b0cc9650a4a164f382db51abd3414",
+   "doi": "10.2139/SSRN.2220313",
+   "arxiv": null,
+   "title": "Individualism, Synchronized Stock Price Movements, and Stock Market Volatility",
+   "year": 2019
+  },
+  {
+   "s2_id": "290e1c90d9e981b862001abeddf325b93b0f9b06",
+   "doi": null,
+   "arxiv": null,
+   "title": "Psychological Barriers in Three Markets with Different Profiles: ADR, ETF and Cryptocurrencies",
+   "year": 2018
+  },
+  {
+   "s2_id": "1b9ea62b35533d42053da6e4a3bbb01570281b26",
+   "doi": "10.1016/j.cam.2018.04.039",
+   "arxiv": null,
+   "title": "Pricing European vanilla options under a jump-to-default threshold diffusion model",
+   "year": 2018
+  },
+  {
+   "s2_id": "1cc1f328f084fb5fbc38745bfc79b5475884f466",
+   "doi": null,
+   "arxiv": null,
+   "title": "Essays in Financial Economics",
+   "year": 2018
+  },
+  {
+   "s2_id": "58417948fcc9893d5217e825709ea17d4a3a6a76",
+   "doi": "10.7819/RBGN.V20I2.3049",
+   "arxiv": null,
+   "title": "Psychological Barriers in Single Stock Prices: Evidence from Three Emerging Markets",
+   "year": 2018
+  },
+  {
+   "s2_id": "28d1c759f7a89a88f5344f275fad7aea6b06a78d",
+   "doi": "10.1080/00036846.2018.1430347",
+   "arxiv": null,
+   "title": "A high-frequency analysis of price resolution and pricing barriers in equities on the adoption of a new currency",
+   "year": 2018
+  },
+  {
+   "s2_id": "8439ba62edc6c36996517469dfaf1c600f7b3ed4",
+   "doi": "10.1080/15427560.2017.1366492",
+   "arxiv": null,
+   "title": "Do Price Barriers Exist in the European Carbon Market?",
+   "year": 2018
+  },
+  {
+   "s2_id": "e137caa8e89846049fdb5bd083fdd422c6ba3c3a",
+   "doi": null,
+   "arxiv": null,
+   "title": "Psychological Barriers in the Latin America´s Stock Indices",
+   "year": 2017
+  },
+  {
+   "s2_id": "476e58085838796c46d72b5ff335ad0e32a2bb2a",
+   "doi": null,
+   "arxiv": null,
+   "title": "Psychological Barriers in Asian Markets",
+   "year": 2017
+  },
+  {
+   "s2_id": "97a50ab9117a59a400c052df332202ac4ba6282d",
+   "doi": "10.1016/J.CESJEF.2016.10.005",
+   "arxiv": null,
+   "title": "Psychological barriers in stock market indices: Evidence from four southern European countries",
+   "year": 2017
+  },
+  {
+   "s2_id": "44b9f93da224d02a212146ffe25a5b89e00e3362",
+   "doi": "10.1080/15427560.2017.1344675",
+   "arxiv": null,
+   "title": "Crossing of Psychological Price Levels: The Price Dynamics and Interaction between S&P500 Index and Index Futures",
+   "year": 2017
+  },
+  {
+   "s2_id": "63f2837b2c15d7a741d6bb8d6904e74b8e46da0d",
+   "doi": "10.2139/SSRN.2825110",
+   "arxiv": null,
+   "title": "Psychological Price Barriers in Frontier Equities",
+   "year": 2017
+  },
+  {
+   "s2_id": "94c2e6c7eee66fea6284f622c079f62172c45c78",
+   "doi": "10.1287/mnsc.2016.2701",
+   "arxiv": null,
+   "title": "Do Superstitious Traders Lose Money?",
+   "year": 2017
+  },
+  {
+   "s2_id": "6c590fcb9d66d84b7a6dd2f1f0a3066406c87c2a",
+   "doi": "10.1007/S11147-017-9130-X",
+   "arxiv": null,
+   "title": "Pricing double barrier options under a volatility regime-switching model with psychological barriers",
+   "year": 2017
+  },
+  {
+   "s2_id": "16b87d571db5cb67756b6818da8ea6116d4771f1",
+   "doi": "10.1007/s11147-017-9130-x",
+   "arxiv": null,
+   "title": "Pricing double barrier options under a volatility regime-switching model with psychological barriers",
+   "year": 2017
+  },
+  {
+   "s2_id": "2d0d4df54f368f58b9fcdfc73a8dbd460ba53f1e",
+   "doi": "10.2139/SSRN.2826647",
+   "arxiv": null,
+   "title": "Volatility Derivatives and Downside Risk",
+   "year": 2016
+  },
+  {
+   "s2_id": "0b00fc4a4ffd48c441db4aefb1ebf36e6ca7179c",
+   "doi": "10.20897/LECTITO.201639",
+   "arxiv": null,
+   "title": "Looking for Psychological Barriers in nine European Stock Market Indices",
+   "year": 2016
+  },
+  {
+   "s2_id": "55dd145e0176ab7461221e3837803571eacc96df",
+   "doi": "10.1016/J.NAJEF.2016.01.006",
+   "arxiv": null,
+   "title": "Invisible walls: Do psychological barriers really exist in stock index levels?",
+   "year": 2016
+  },
+  {
+   "s2_id": "66ae66be3c4498b14d60e8ea75aef79c6ddf6aec",
+   "doi": "10.2139/ssrn.2733605",
+   "arxiv": null,
+   "title": "Mind the Gap: Psychological Barriers in Gold and Silver Prices",
+   "year": 2016
+  },
+  {
+   "s2_id": "58e2aac89b84a41d22d14f25a0d510685c894b4f",
+   "doi": "10.2139/SSRN.2524439",
+   "arxiv": null,
+   "title": "Behavioral Influences in Non-Ferrous Metals Prices",
+   "year": 2015
+  },
+  {
+   "s2_id": "9405decc567a674c1cb3e2d61fd1089ff142b31f",
+   "doi": null,
+   "arxiv": null,
+   "title": "Leverage, Derivatives, and Asset Markets",
+   "year": 2015
+  },
+  {
+   "s2_id": "9aa530a258ecfa55df6a82f4a5232f193c6eda1f",
+   "doi": "10.1016/J.RFE.2015.02.004",
+   "arxiv": null,
+   "title": "Tracking exchange rate management in Latin America",
+   "year": 2015
+  },
+  {
+   "s2_id": "4eee88df98bf32919a3f50c0c9caefc91f47b85c",
+   "doi": "10.19030/JABR.V31I1.8986",
+   "arxiv": null,
+   "title": "Intraday Index Volatility: Evidence from Currency Adjusted Stock Indices",
+   "year": 2014
+  },
+  {
+   "s2_id": "f110e9b6f31fe8fe6a2250243f3f33b8cf3f74aa",
+   "doi": "10.1515/nybj-2015-0001",
+   "arxiv": null,
+   "title": "Price Clustering and Price Barriers: International Evidence",
+   "year": 2014
+  },
+  {
+   "s2_id": "5543bdfc7ea4d667d381e04ccd2f66d5d0ce4a80",
+   "doi": null,
+   "arxiv": null,
+   "title": "Psychological Barriers in the Eurozone's Stock Indices",
+   "year": 2014
+  },
+  {
+   "s2_id": "4070a71bfe3383a96ea3ee89419b80c1beb3271c",
+   "doi": "10.1080/15427560.2014.968719",
+   "arxiv": null,
+   "title": "Psychological Oil Price Barrier and Firm Returns",
+   "year": 2014
+  },
+  {
+   "s2_id": "a3714899203351c287333c7f7e32e38b4a708643",
+   "doi": null,
+   "arxiv": null,
+   "title": "Essays On International Market Efficiency and Manipulation",
+   "year": 2014
+  },
+  {
+   "s2_id": "04f5851b48920b106e116e8df63d80683f73cd81",
+   "doi": "10.1016/J.IRFA.2013.12.001",
+   "arxiv": null,
+   "title": "The implications of a price anchoring effect at the upstairs market of the London Stock Exchange",
+   "year": 2014
+  },
+  {
+   "s2_id": "dedaabef6784ec913e90061958d21b95684184ee",
+   "doi": "10.2139/SSRN.2394008",
+   "arxiv": null,
+   "title": "Investor Sentiment in News and the Calendar Anomaly -- New Evidence from a Large Textual Data",
+   "year": 2014
+  },
+  {
+   "s2_id": "d23c9a7f84ed838c948e7004554a439bc180e5df",
+   "doi": "10.2753/CES1097-1475470104",
+   "arxiv": null,
+   "title": "Herding on Ending Digits in Security Trading",
+   "year": 2014
+  },
+  {
+   "s2_id": "dc053287c815ff9b04f22bee58f50b5ac60fa42c",
+   "doi": "10.19030/JABR.V30I1.8275",
+   "arxiv": null,
+   "title": "Dollar Index Adjusted Stock Indices",
+   "year": 2013
+  },
+  {
+   "s2_id": "8088776fe922b4c943c9568d3783a1ca24c43d04",
+   "doi": "10.1002/FUT.21648",
+   "arxiv": null,
+   "title": "Psychological Barriers and Option Pricing: Psychological Barriers and Option Pricing",
+   "year": 2013
+  },
+  {
+   "s2_id": "1387ad2094705a71e285a84990bbed31edf30d78",
+   "doi": "10.1111/IRFI.12003",
+   "arxiv": null,
+   "title": "The Calendar Structure of the Japanese Stock Market: The ‘Sell in May Effect’ Versus the ‘Dekansho-Bushi Effect’",
+   "year": 2013
+  },
+  {
+   "s2_id": "74018456fdef7effd52253d41b59c447f297bc38",
+   "doi": null,
+   "arxiv": null,
+   "title": "Regional Financial Markets With Common Currency",
+   "year": 2012
+  },
+  {
+   "s2_id": "2a2acf218055bb24cc250c149c388dbef637095e",
+   "doi": "10.1109/CSIP.2012.6308960",
+   "arxiv": null,
+   "title": "Clustering analysis of Dow Jones 30 based on extreme points",
+   "year": 2012
+  },
+  {
+   "s2_id": "1894acab950a03cf7140a6cfe0cf0e9397b0e4f5",
+   "doi": null,
+   "arxiv": null,
+   "title": "A Critical Evaluation of the Significance of Round Numbers in European Equity Markets in Light of the Predictions from Benford’s Law",
+   "year": 2012
+  },
+  {
+   "s2_id": "d4287ef6e1923f711858f030f55bbba2272ef345",
+   "doi": "10.2139/SSRN.2115355",
+   "arxiv": null,
+   "title": "Psychological Barriers and Option Pricing",
+   "year": 2012
+  },
+  {
+   "s2_id": "3b93ff7b29cd810217a32d2d041cbc4a33feb63b",
+   "doi": null,
+   "arxiv": null,
+   "title": "A Critical Evaluation of the Significance of Round Numbers in Major European Stock Indices in Light of the Predictions from Benford’s Law",
+   "year": 2012
+  },
+  {
+   "s2_id": "6f0d854882e999aece5442f506124f6d2ae35262",
+   "doi": "10.1016/J.ENECO.2011.09.009",
+   "arxiv": null,
+   "title": "Clustering in crude oil prices and the target pricing zone hypothesis",
+   "year": 2012
+  },
+  {
+   "s2_id": "556ff2f683a881d2908d65e4b2f09837ee6d93c6",
+   "doi": "10.1016/J.JFINECO.2011.04.003",
+   "arxiv": null,
+   "title": "Investor attention, psychological anchors, and stock return predictability",
+   "year": 2012
+  },
+  {
+   "s2_id": "6ea19ee501b07be50603146da30c158279c3c3bf",
+   "doi": "10.1016/J.JEMPFIN.2011.05.010",
+   "arxiv": null,
+   "title": "Stock market trading activity and returns around milestones",
+   "year": 2011
+  },
+  {
+   "s2_id": "d6673498d7b55b4d37c917059db585c348c03735",
+   "doi": null,
+   "arxiv": null,
+   "title": "Psychological barriers in individual stocks in the United States",
+   "year": 2011
+  },
+  {
+   "s2_id": "ca77e2775a0c5a44fbcd139552890e8f7734b4f8",
+   "doi": "10.1016/J.MARPOL.2010.12.002",
+   "arxiv": null,
+   "title": "Using existing scientific capacity to set targets for ecosystem-based management: A Puget Sound case study",
+   "year": 2011
+  },
+  {
+   "s2_id": "bd4866d554472e26efd9a85f8180e763af34b0f0",
+   "doi": "10.1080/14697680902814258",
+   "arxiv": null,
+   "title": "An empirical study of liquidity dynamics and resistance and support levels",
+   "year": 2010
+  },
+  {
+   "s2_id": "cd496e6611ae7d3e1690b6de18b19dc5ee803d1c",
+   "doi": "10.1080/13504850802631814",
+   "arxiv": null,
+   "title": "Benford's Law and psychological barriers in certain eBay auctions",
+   "year": 2010
+  },
+  {
+   "s2_id": "13189f2da7ecb472f97eb9b68d5a96a2500e872b",
+   "doi": "10.1016/J.AOS.2008.05.003",
+   "arxiv": null,
+   "title": "Identification through technical analysis: A study of charting and UK non-professional investors",
+   "year": 2009
+  },
+  {
+   "s2_id": "53c44273522f1fccf62127f2ecd4acae8600fa5a",
+   "doi": "10.1111/J.1467-629X.2007.00221.X",
+   "arxiv": null,
+   "title": "Influence of Cultural Factors on Price Clustering and Price Resistance in China's Stock Markets",
+   "year": 2007
+  },
+  {
+   "s2_id": "fd79b83fedb087030b2e770ba27031193062547f",
+   "doi": "10.1257/jel.45.4.936",
+   "arxiv": null,
+   "title": "The Obstinate Passion of Foreign Exchange Professionals: Technical Analysis",
+   "year": 2007
+  },
+  {
+   "s2_id": "8e74022b48bcc95ab6416201b563bf69ee3f2d2e",
+   "doi": "10.1016/J.INTFIN.2005.03.003",
+   "arxiv": null,
+   "title": "Clustering and psychological barriers in exchange rates",
+   "year": 2006
+  },
+  {
+   "s2_id": "7d681d64b0f0ec79aff827a5e3c55e440919b52c",
+   "doi": null,
+   "arxiv": null,
+   "title": "Magic numbers in the Dow",
+   "year": 2006
+  },
+  {
+   "s2_id": "136c0fd6738419c42b773c13e651ad306eacd69e",
+   "doi": "10.1080/1351847042000254194",
+   "arxiv": null,
+   "title": "Price exhaustion and number preference: time and price confluence in Australian stock prices",
+   "year": 2005
+  },
+  {
+   "s2_id": "de4eed6e8582bc53230d11100bc4e45323baed17",
+   "doi": "10.1080/14697680400008650",
+   "arxiv": null,
+   "title": "Technical trading and the volatility of exchange rates",
+   "year": 2004
+  },
+  {
+   "s2_id": "cd19d47da8880c84ea0e08a93750b9575d26c5a6",
+   "doi": "10.1177/0148558X0401900202",
+   "arxiv": null,
+   "title": "Reducing False Alarms in the Detection of Human Influence on Data",
+   "year": 2004
+  },
+  {
+   "s2_id": "95bdc881171eae5f068d8d5545ae59b0133d1e82",
+   "doi": "10.1198/0003130042782",
+   "arxiv": null,
+   "title": "First Significant Digit Patterns From Mixtures of Uniform Distributions",
+   "year": 2004
+  },
+  {
+   "s2_id": "32c8093e2fb863a10c67cb2abd2268fa92a92f6b",
+   "doi": "10.1016/J.EUROECOREV.2005.09.001",
+   "arxiv": null,
+   "title": "Price Clustering and Natural Resistance Points in the Dutch Stock Market",
+   "year": 2003
+  },
+  {
+   "s2_id": "091da0f995cabfecd65b7c2bb54f9bbdd711ece9",
+   "doi": "10.1207/S15427579JPFM0402_03",
+   "arxiv": null,
+   "title": "Anchoring and Psychological Barriers in Foreign Exchange Markets",
+   "year": 2003
+  },
+  {
+   "s2_id": "322c5ef2fa2d37949c5d0d02afced4a151b49fba",
+   "doi": "10.1177/223386590300600103",
+   "arxiv": null,
+   "title": "Do Psychological Barriers Exist in the Stock Price Indices? Evidence from Asia's Emerging Markets",
+   "year": 2003
+  },
+  {
+   "s2_id": "ab86ce0282340d5bc985de66e07200e2110641a6",
+   "doi": "10.1016/S0927-538X(02)00049-5",
+   "arxiv": null,
+   "title": "The influence of cultural factors on price clustering : evidence from Asia-Pacific stock markets",
+   "year": 2002
+  },
+  {
+   "s2_id": "e60b664d825b999d5fe22e4cd9203cf5d87d4133",
+   "doi": "10.1002/FUT.2",
+   "arxiv": null,
+   "title": "Clustering and psychological barriers: the importance of numbers",
+   "year": 2001
+  },
+  {
+   "s2_id": "12473f2d032419fb4280f91fe3a469234a0bdbc1",
+   "doi": null,
+   "arxiv": null,
+   "title": "Noise Traders? Trigger Rates, FX Options, and Smiles",
+   "year": 2000
+  },
+  {
+   "s2_id": "b981bdc40f1cde749a31e162a3a35e473fa85e39",
+   "doi": "10.1257/AER.90.4.1005",
+   "arxiv": null,
+   "title": "Losing Sleep at the Market: The Daylight Saving Anomaly: Reply",
+   "year": 2000
+  },
+  {
+   "s2_id": "d0ac88fa42b113d402ba5022b878666b7f4f2d1a",
+   "doi": "10.1016/S1058-3300(99)00002-6",
+   "arxiv": null,
+   "title": "Evidence of psychological barriers in the conditional moments of major world stock indices",
+   "year": 1999
+  },
+  {
+   "s2_id": "242395b196a07d16582163f959791b2a01e2fbbe",
+   "doi": "10.1007/BF03178939",
+   "arxiv": null,
+   "title": "A new approach to stock price modelling and the efficiency of the Italian stock exchange",
+   "year": 1999
+  },
+  {
+   "s2_id": "3ddd6f1ce7cea974459eed8d76e654c6168f6e5c",
+   "doi": "10.1016/S0927-5398(97)00024-8",
+   "arxiv": null,
+   "title": "On the hypothesis of psychological barriers in stock markets and Benford's Law",
+   "year": 1998
+  },
+  {
+   "s2_id": "a0e1b4f4b48a87a81d81bd421cbda4c542f9d4cc",
+   "doi": "10.2307/2331170",
+   "arxiv": null,
+   "title": "Price Barriers and the Dynamics of Asset Prices in Equilibrium",
+   "year": 1997
+  },
+  {
+   "s2_id": "843289417cd1fb5e8a649b82a5c87aaf8aa53de7",
+   "doi": "10.1016/S1044-0283(96)90011-3",
+   "arxiv": null,
+   "title": "The impact of price limits on foreign currency futures' price volatility and market efficiency",
+   "year": 1996
+  },
+  {
+   "s2_id": "f3250f5e9e7de76cb65c1407d3e63dd659499c78",
+   "doi": "10.51505/ijebmr.2025.9808",
+   "arxiv": null,
+   "title": "Clean and Dirty Cryptocurrencies: Herding Behavior During Recent Geopolitical Crises",
+   "year": 2025
+  },
+  {
+   "s2_id": "bc8f5da4d9c2f5cf60b916da7011042b6a0f2368",
+   "doi": null,
+   "arxiv": null,
+   "title": "Twitter Based Sentimental Analysis of Impact of COVID-19 on Economy using Naïve Bayes Classifier",
+   "year": 2021
+  },
+  {
+   "s2_id": "d8bb4b1d1bb1c0dfccee6d1aa5f1ea81bc04b5f9",
+   "doi": null,
+   "arxiv": null,
+   "title": "PROJECT SUBMITTED IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE DEGREE",
+   "year": 2021
+  },
+  {
+   "s2_id": "3f43c6598bc1d0bb1c17c21d9c5884b60f2f82ff",
+   "doi": null,
+   "arxiv": null,
+   "title": "Speculative Trade with Anchored Expectations",
+   "year": 2021
+  },
+  {
+   "s2_id": "a0690d31834846ad3705c074be64a7ea8e3b3098",
+   "doi": null,
+   "arxiv": null,
+   "title": "Coarse Expectations and Perfectly Non-Revealing Equilibria",
+   "year": 2021
+  },
+  {
+   "s2_id": "c4753918ebef9d9c755faf458b22262a0176d60e",
+   "doi": null,
+   "arxiv": null,
+   "title": "Coarse Expectations and Non-Fundamental Volatility",
+   "year": 2021
+  },
+  {
+   "s2_id": "63488e01da5ce76d29809245ade456b0b688cb73",
+   "doi": null,
+   "arxiv": null,
+   "title": "INTERNATIONAL JOURNAL OF ARTIFICIAL INTELLIGENCE AND EXPERT SYSTEMS (IJAE)",
+   "year": 2021
+  },
+  {
+   "s2_id": "949ebf7c9a32db9b6c8526a39e0d1acd27a65783",
+   "doi": null,
+   "arxiv": null,
+   "title": "Non-Fundamental Volatility in Financial Markets",
+   "year": 2021
+  },
+  {
+   "s2_id": "108208173e3ae8dc65996fb719246b4075898810",
+   "doi": "10.36007/acta.2021.10.2.8",
+   "arxiv": null,
+   "title": "PRESENCE OF PRICE CLUSTERING AND PSYCHOLOGICAL BARRIERS IN BITCOIN MARKET",
+   "year": 2021
+  },
+  {
+   "s2_id": "bcf7e00541d6b4154de266ffd6bb396a8a8282d6",
+   "doi": null,
+   "arxiv": null,
+   "title": "Does the Tail Wag the Dog? How Options Affect Stock Price Dynamics∗",
+   "year": 2020
+  },
+  {
+   "s2_id": "33d101d9c7147f6254bcef3ca0e6a9d2d2026c0a",
+   "doi": null,
+   "arxiv": null,
+   "title": "Towards a better understanding of the full impact of the left digit effect on individual trading behaviour",
+   "year": 2020
+  },
+  {
+   "s2_id": "3d2ad6c14d75601007cb9de3540f39c27544a8c0",
+   "doi": "10.2139/ssrn.3667920",
+   "arxiv": null,
+   "title": "Expectation Anchoring and Brownian Motion in Financial Markets",
+   "year": 2020
+  },
+  {
+   "s2_id": "89871b8d48d7e0ce4da27c06a595d508fef47bd3",
+   "doi": "10.2139/ssrn.3424623",
+   "arxiv": null,
+   "title": "Investor Sentiment, Behavioral Heterogeneity and Stock Market Dynamics",
+   "year": 2019
+  },
+  {
+   "s2_id": "f639531d56d23893c70424ffe01def8accd5839d",
+   "doi": null,
+   "arxiv": null,
+   "title": "Existence and Time Trend of the Psychological Barrier in Bitcoin Markets: Evidence from US, Europe, Hong Kong",
+   "year": 2019
+  },
+  {
+   "s2_id": "e60c58dea5235ad1b973b4c82ec3690792a4d149",
+   "doi": null,
+   "arxiv": null,
+   "title": "Price Change, Trading Volume and Heterogeneous Beliefs in Stock Market",
+   "year": 2017
+  },
+  {
+   "s2_id": "75e08e7c35cc92fad64a7e76450b3bbee11347fd",
+   "doi": null,
+   "arxiv": null,
+   "title": "Psychological Barriers at Round Numbers in Single Stock Prices: Evidence from Three Developed Markets",
+   "year": 2017
+  },
+  {
+   "s2_id": "71c141ef111fa22eb3535d8c9c20abff9d04e6dc",
+   "doi": null,
+   "arxiv": null,
+   "title": "The role of media content in explaining the index futures market behaviour: a thesis presented in partial fulfilment of the requirements for the degree of Doctor of Philosophy in Finance at Massey University, Palmerston North, New Zealand",
+   "year": 2015
+  },
+  {
+   "s2_id": "93b06d75fe8ef42869824352e10278efe9470410",
+   "doi": null,
+   "arxiv": null,
+   "title": "Charles A. Dice Center for Research in Financial Economics Psychological Barriers, Expectational Errors, and Underreaction to News",
+   "year": 2015
+  },
+  {
+   "s2_id": "c340cac4faba6a51b357eee55c120134c8332631",
+   "doi": "10.32657/10356/61776",
+   "arxiv": null,
+   "title": "Essays in interactional dynamics of financial markets",
+   "year": 2014
+  },
+  {
+   "s2_id": "ff2c8ad7d8e35e7d5588d10dcf8c010ba8a4b98a",
+   "doi": null,
+   "arxiv": null,
+   "title": "Price Barriers in the Stock Market and Their Effect on the Black-Scholes Option Pricing Model",
+   "year": 2013
+  },
+  {
+   "s2_id": "4374d5107cb7ff4e965c5ba30af5acb434b92a95",
+   "doi": "10.1007/978-1-4471-4600-1_44",
+   "arxiv": null,
+   "title": "Technical Analysis and the Timing Strategies of Liquidity Providers: Evidence from China’s A-Shares Stock Market",
+   "year": 2013
+  },
+  {
+   "s2_id": "95f0e679981e4c95e060507aec864d80ff4ce624",
+   "doi": null,
+   "arxiv": null,
+   "title": "Horario de verano y su efecto en la valoración de activos: evidencia para Chile, Brasil y México",
+   "year": 2011
+  },
+  {
+   "s2_id": "e5544b34c924a139af27c0506eb8f5b986ba4085",
+   "doi": null,
+   "arxiv": null,
+   "title": "Psychological Barriers and Prices Behaviour of TAIFEX Futures",
+   "year": 2011
+  },
+  {
+   "s2_id": "903496592713844fd921b78d8b0408312d07e168",
+   "doi": null,
+   "arxiv": null,
+   "title": "Psychological Barriers on the Dutch Stock Exchange : An investigation of the AEX and its constituent equities",
+   "year": 2010
+  },
+  {
+   "s2_id": "aaaec0ac66fbd082c4df596db7591f96810c4d1c",
+   "doi": null,
+   "arxiv": null,
+   "title": "Limits to Observational Learning and Feedback Loops of Price Changes: A Model of Self-Reinforcing Financial Fads",
+   "year": 2009
+  },
+  {
+   "s2_id": "5abb9af805f5b76564cc67779db26feda6fa1835",
+   "doi": "10.1016/J.GFJ.2008.09.001",
+   "arxiv": null,
+   "title": "Psychological barriers in European stock markets: Where are they?",
+   "year": 2009
+  },
+  {
+   "s2_id": "1e69a7399b4121e4d88070b3026a3561f5011a9d",
+   "doi": null,
+   "arxiv": null,
+   "title": "Three essays on empirical finance : the alphas and betas Amsterdam : Thela",
+   "year": 2009
+  },
+  {
+   "s2_id": "4f285187c312d00244ae6b4cba05a6a41c573c98",
+   "doi": "10.1016/J.PACFIN.2007.04.005",
+   "arxiv": null,
+   "title": "Culture and Stock Price Clustering: Evidence from The Peoples' Republic of China",
+   "year": 2008
+  },
+  {
+   "s2_id": "4efc44e03138ed5e3f148a056e2d5527ef428554",
+   "doi": "10.2139/SSRN.669761",
+   "arxiv": null,
+   "title": "Psychological Barriers in Gold Prices",
+   "year": 2007
+  },
+  {
+   "s2_id": "e155e82ea59b6fbee5ec06f502f68d65ed82e5b6",
+   "doi": null,
+   "arxiv": null,
+   "title": "Essays on technical analysis in financial markets",
+   "year": 2006
+  },
+  {
+   "s2_id": "fe29862b4c776c94f740109cb4e54568bd66a3e1",
+   "doi": "10.2139/SSRN.728544",
+   "arxiv": null,
+   "title": "Nines in the Endings of Stock Prices",
+   "year": 2006
+  },
+  {
+   "s2_id": "9b0e909db548d0f0d1cbc6e77ff63fb686277b9c",
+   "doi": null,
+   "arxiv": null,
+   "title": "School of ACCOUNTING , ECONOMICS AND FINANCE School Working Papers – Series 2003 SWP 2003 / 06 PRICE EXHAUSTION AND NUMBER PREFERENCE : time and price confluence in Australian stock prices",
+   "year": 2004
+  },
+  {
+   "s2_id": "22659691a53fddad8d091ec8016f35747dcda853",
+   "doi": "10.2139/ssrn.601523",
+   "arxiv": null,
+   "title": "Culture and stock price clustering : Evidence from The Peoples ’ Republic of China by",
+   "year": 2004
+  },
+  {
+   "s2_id": "10be9edf976952f7df527d90be99255fb593d98c",
+   "doi": null,
+   "arxiv": null,
+   "title": "Number preference in Australian stock prices",
+   "year": 2003
+  },
+  {
+   "s2_id": "1e8b7c8494343fe933c104ea448ad8be149a6ba2",
+   "doi": null,
+   "arxiv": null,
+   "title": "Price clustering and natural resistance points in the Dutch stock market : a natural experiment Version April 2004",
+   "year": 2003
+  },
+  {
+   "s2_id": "491e38d67ed027da4eff017b188927f12984409b",
+   "doi": null,
+   "arxiv": null,
+   "title": "Barriers in U . S . Benchmark Bond Yields",
+   "year": 2001
+  },
+  {
+   "s2_id": "3e663e2e4519f5499f52857796e7edddc4aeb5e0",
+   "doi": "10.1016/J.JEMPFIN.2002.12.001",
+   "arxiv": null,
+   "title": "Investor Sentiment and the Near-Term Stock Market",
+   "year": 2001
+  },
+  {
+   "s2_id": "10af2cc671c80299fcbe0e1dc6c1243c2461858f",
+   "doi": "10.2139/ssrn.208623",
+   "arxiv": null,
+   "title": "Losing Sleep at the Market: The Daylight-Savings Anomaly",
+   "year": 2000
+  },
+  {
+   "s2_id": "0f37e1f85d1b2b82f0c9d611c1c929970b0b489a",
+   "doi": "10.1080/10293523.1998.11082384",
+   "arxiv": null,
+   "title": "Toetse vir sielkundige hindernisse in Suid-Afrikaanse aandelebeursindekse",
+   "year": 1998
+  },
+  {
+   "s2_id": "81c2576553b0800016d828d142175604bddaeb99",
+   "doi": "10.1016/S0927-5398(96)00012-6",
+   "arxiv": null,
+   "title": "Limit orders and ex-dividend day return distributions",
+   "year": 1997
+  },
+  {
+   "s2_id": "425ac7b247c873250620c500b9916ea37e6b6418",
+   "doi": null,
+   "arxiv": null,
+   "title": "Department of Economics",
+   "year": null
+  }
+ ]
+}

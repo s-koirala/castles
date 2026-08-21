@@ -1,0 +1,269 @@
+{
+ "slug": "regime-definitions",
+ "date": "2026-08-21",
+ "stage1_exact_identifier": {
+  "software": "Python 3.11 standard library (dict/Counter over case-folded DOI, version-stripped arXiv id); executed 2026-08-21 in-session",
+  "instances_removed": 17,
+  "duplicates": [
+   {
+    "identifier": "10.1057/9780230226203.0179",
+    "count": 2,
+    "queries": [
+     "ki-01",
+     "ki-20"
+    ]
+   },
+   {
+    "identifier": "10.2139/ssrn.146531",
+    "count": 2,
+    "queries": [
+     "ki-03",
+     "ki-04"
+    ]
+   },
+   {
+    "identifier": "10.1080/07350015.2000.10524851",
+    "count": 2,
+    "queries": [
+     "ki-03",
+     "q-openalex-03"
+    ]
+   },
+   {
+    "identifier": "10.2139/ssrn.1939486",
+    "count": 3,
+    "queries": [
+     "ki-03",
+     "ki-04",
+     "ki-34"
+    ]
+   },
+   {
+    "identifier": "10.1080/096031097333745",
+    "count": 3,
+    "queries": [
+     "ki-29",
+     "q-crossref-12",
+     "q-openalex-02"
+    ]
+   },
+   {
+    "identifier": "10.1088/1367-2630/aae7e0",
+    "count": 2,
+    "queries": [
+     "ki-30",
+     "q-s2-02"
+    ]
+   },
+   {
+    "identifier": "10.1111/j.1540-6261.1977.tb03312.x",
+    "count": 2,
+    "queries": [
+     "ki-37",
+     "q-openalex-03"
+    ]
+   },
+   {
+    "identifier": "10.23860/thesis-li-yanan-2014",
+    "count": 2,
+    "queries": [
+     "q-crossref-05",
+     "q-crossref-14"
+    ]
+   },
+   {
+    "identifier": "10.4324/9780203892879-14",
+    "count": 2,
+    "queries": [
+     "q-crossref-06",
+     "q-crossref-08"
+    ]
+   },
+   {
+    "identifier": "10.2139/ssrn.57932",
+    "count": 2,
+    "queries": [
+     "q-crossref-12",
+     "q-crossref-19"
+    ]
+   },
+   {
+    "identifier": "10.1111/j.1475-679x.2007.00231.x",
+    "count": 2,
+    "queries": [
+     "q-crossref-12",
+     "q-openalex-02"
+    ]
+   },
+   {
+    "identifier": "10.3390/jrfm15010024",
+    "count": 2,
+    "queries": [
+     "q-crossref-14",
+     "q-s2-02"
+    ]
+   },
+   {
+    "identifier": "10.2139/ssrn.4493344",
+    "count": 2,
+    "queries": [
+     "q-crossref-16",
+     "q-crossref-19"
+    ]
+   },
+   {
+    "identifier": "arxiv:2104.03667",
+    "count": 2,
+    "queries": [
+     "q-arxiv-02",
+     "q-arxiv-04"
+    ]
+   },
+   {
+    "identifier": "arxiv:2306.15835",
+    "count": 2,
+    "queries": [
+     "q-arxiv-02",
+     "q-arxiv-04"
+    ]
+   }
+  ]
+ },
+ "stage2_same_work_different_identifier": {
+  "note": "Single-screener judgement. Pattern: working-paper/preprint version superseded by the published version; book-chapter reprint of a journal article; JSTOR second DOI for the same article; sister-conference republication. The retained identifier is listed first.",
+  "instances_removed": 23,
+  "groups": [
+   {
+    "retained": "10.1080/07350015.2000.10524851",
+    "removed": [
+     "10.2139/ssrn.146531",
+     "10.2307/1392140"
+    ],
+    "work": "Maheu & McCurdy 2000, Identifying Bull and Bear Markets in Stock Returns"
+   },
+   {
+    "retained": "10.1080/07350015.2012.680412",
+    "removed": [
+     "10.2139/ssrn.1939486"
+    ],
+    "work": "Maheu, McCurdy & Song 2012, Components of Bull and Bear Markets"
+   },
+   {
+    "retained": "10.1016/0304-405x(89)90094-9",
+    "removed": [
+     "10.3386/w2818"
+    ],
+    "work": "Turner, Startz & Nelson 1989"
+   },
+   {
+    "retained": "10.1111/0022-1082.00054",
+    "removed": [
+     "10.2139/ssrn.58690",
+     "10.1093/oso/9780195148145.003.0019"
+    ],
+    "work": "Brown, Goetzmann & Kumar 1998, The Dow Theory"
+   },
+   {
+    "retained": "10.1016/j.jedc.2006.12.004",
+    "removed": [
+     "10.20955/wp.2005.002",
+     "10.2139/ssrn.940652"
+    ],
+    "work": "Guidolin & Timmermann 2007, Asset allocation under multivariate regime switching"
+   },
+   {
+    "retained": "10.1093/rfs/hhn006",
+    "removed": [
+     "10.20955/wp.2005.034",
+     "10.2139/ssrn.676023"
+    ],
+    "work": "Guidolin & Timmermann 2008 (retained record itself excluded on eligibility)"
+   },
+   {
+    "retained": "10.1145/3097983.3098060",
+    "removed": [
+     "10.24963/ijcai.2018/732"
+    ],
+    "work": "Hallac et al., TICC (KDD 2017 retained over IJCAI 2018 sister-track republication)"
+   },
+   {
+    "retained": "10.3905/jfds.2020.2.3.025",
+    "removed": [
+     "10.2139/ssrn.3594875"
+    ],
+    "work": "Nystrup, Kolm & Lindstrom 2020, Greedy Online Classification"
+   },
+   {
+    "retained": "10.3905/jpm.2011.37.4.112",
+    "removed": [
+     "10.2139/ssrn.1633027"
+    ],
+    "work": "Kritzman, Li, Page & Rigobon 2011, Principal Components as a Measure of Systemic Risk"
+   },
+   {
+    "retained": "10.1080/14697688.2016.1161230",
+    "removed": [
+     "10.2139/ssrn.2761777",
+     "arxiv:1507.03141"
+    ],
+    "work": "Kamenshchikov 2016, Bifurcation patterns of market regime transition"
+   },
+   {
+    "retained": "10.1080/14697688.2026.2659195",
+    "removed": [
+     "arxiv:2503.11499"
+    ],
+    "work": "Oliveira et al. 2026, Tactical asset allocation with macroeconomic regime detection"
+   },
+   {
+    "retained": "arxiv:2306.15835",
+    "removed": [
+     "10.2139/ssrn.4493344"
+    ],
+    "work": "Issa & Horvath (retained record itself excluded as prior-corpus coverage)"
+   },
+   {
+    "retained": "arxiv:2107.00066",
+    "removed": [
+     "10.2139/ssrn.3877650"
+    ],
+    "work": "Bilokon et al., Market regime classification with signatures (retained record itself excluded as prior-corpus coverage)"
+   },
+   {
+    "retained": "10.2139/ssrn.7012878",
+    "removed": [
+     "10.2139/ssrn.7274804"
+    ],
+    "work": "Animal Magnetism (both SSRN postings of the same paper; retained record itself excluded on eligibility)"
+   },
+   {
+    "retained": "10.1080/07474938.2017.1397837",
+    "removed": [
+     "10.2139/ssrn.2833209"
+    ],
+    "work": "Revisiting the transitional dynamics of business cycle phases (retained record itself excluded on eligibility)"
+   },
+   {
+    "retained": "10.1007/978-1-4615-5129-4_15",
+    "removed": [
+     "10.2139/ssrn.58691"
+    ],
+    "work": "van Norden & Schaller, Speculative Behaviour... (retained record itself excluded on eligibility)"
+   },
+   {
+    "retained": "10.1007/s007800050018",
+    "removed": [
+     "10.1007/978-1-4615-4621-4_2"
+    ],
+    "work": "Guillaume et al., From the bird's eye to the microscope (book reprint removed)"
+   },
+   {
+    "retained": "10.1057/9780230226203.0179",
+    "removed": [
+     "10.1057/978-1-349-95121-5_2322-1"
+    ],
+    "work": "Palgrave entry, business cycle measurement (two platform editions; retained record itself excluded on eligibility)"
+   }
+  ]
+ }
+}

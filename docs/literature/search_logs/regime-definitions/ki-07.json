@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-07",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Tong+Lim+Threshold+autoregression+limit+cycles+and+cyclical+data&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 3740788,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1142/9789812836281_0002",
+   "title": "Threshold Autoregression, Limit Cycles and Cyclical Data",
+   "year": 2009,
+   "container": "Exploration of a Nonlinear World",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/j.2517-6161.1980.tb01126.x",
+   "title": "Threshold Autoregression, Limit Cycles and Cyclical Data",
+   "year": 1980,
+   "container": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+   "type": "journal-article",
+   "abstract": "<jats:title>Summary</jats:title>\n                  <jats:p>The notion of a limit cycle, which can only exist in a non-linear system, plays the key role in the modelling of cyclical data. We have shown that the class of threshold autoregressive models is general enough to capture this notion, a definition of which in discrete time is proposed. The threshold value has an interesting interpretation. Simulation results are presented which demonstrate that this new class of models exhibits some well-known features of non-linear vibrations. Detailed analyses of several real data sets are discussed.</jats:p>"
+  },
+  {
+   "DOI": "10.1142/9789812836281_0003",
+   "title": "Review of the Paper by Howell Tong and K. S. Lim: “Threshold Autoregression, Limit Cycles and Cyclical Data (with Discussion)”",
+   "year": 2009,
+   "container": "Exploration of a Nonlinear World",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

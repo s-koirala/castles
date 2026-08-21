@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-15",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Wyckoff+accumulation+distribution+markup+markdown+market+phases&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1598301,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1007/978-1-4842-5149-2_3",
+   "title": "Writing Markdown",
+   "year": 2019,
+   "container": "Introducing Markdown and Pandoc",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-1-4842-5149-2_2",
+   "title": "Why Use Markdown and Pandoc",
+   "year": 2019,
+   "container": "Introducing Markdown and Pandoc",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-1-4842-5149-2_4",
+   "title": "Pandoc Markdown Extensions",
+   "year": 2019,
+   "container": "Introducing Markdown and Pandoc",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.4646533",
+   "title": "Cyclicality of Markup and Markdown: Evidence from Korean Firm Data",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-1-4842-5149-2_1",
+   "title": "The Beginner’s Guide to Markdown and Pandoc",
+   "year": 2019,
+   "container": "Introducing Markdown and Pandoc",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/979-8-8688-2931-4_8",
+   "title": "Modern Document Markup Systems",
+   "year": 2026,
+   "container": "From Markup to Markdown",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-1-4842-5149-2",
+   "title": "Introducing Markdown and Pandoc",
+   "year": 2019,
+   "container": "",
+   "type": "book",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/979-8-8688-2111-0_8",
+   "title": "Markup with Markdown",
+   "year": 2025,
+   "container": "Apress Pocket Guides",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

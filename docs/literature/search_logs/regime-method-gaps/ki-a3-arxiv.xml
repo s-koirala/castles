@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5TUM8FksFDO/6htfATzGLv1ZWyU</id>
+  <title>arXiv Query: search_query=&amp;id_list=1710.02175&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-21T20:17:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=1710.02175" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1710.02175v1</id>
+    <title>Random Walk Null Models for Time Series Data</title>
+    <updated>2017-10-05T18:34:25Z</updated>
+    <link href="https://arxiv.org/abs/1710.02175v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.02175v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Permutation entropy has become a standard tool for time series analysis that exploits the temporal properties of these data sets. Many current applications use an approach based on Shannon entropy, which implicitly assumes an underlying uniform distribution of patterns. In this paper, we analyze random walk null models for time series and determine the corresponding permutation distributions. These new techniques allow us to explicitly describe the behavior of real world data in terms of more complex generative processes. Additionally, building on recent results of Martinez, we define a validation measure that allows us to determine when a random walk is an appropriate model for a time series. We demonstrate the usefulness of our methods using empirical data drawn from a variety of fields.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-05T18:34:25Z</published>
+    <arxiv:comment>21 pages, 12 figures, and 2 tables</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Daryl DeFord</name>
+    </author>
+    <author>
+      <name>Katherine Moore</name>
+    </author>
+    <arxiv:doi>10.3390/e19110615</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e19110615" title="doi"/>
+  </entry>
+</feed>

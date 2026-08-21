@@ -1,0 +1,185 @@
+{
+ "query_id": "dq-openalex-03",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.openalex.org/works?search=%2252-week%20high%22%20barrier%20anchoring%20volatility&per-page=25&select=id,doi,title,publication_year,type",
+ "total_results_reported": 39,
+ "n_records_retrieved": 25,
+ "items": [
+  {
+   "openalex_id": "https://openalex.org/W4282962294",
+   "doi": "https://doi.org/10.1111/fire.12310",
+   "title": "Option trading and returns versus the 52‐week high and low",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4322007154",
+   "doi": "https://doi.org/10.1007/s11156-023-01138-3",
+   "title": "Fundamental strength and the 52-week high anchoring effect",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4311660571",
+   "doi": "https://doi.org/10.1080/1351847x.2022.2144401",
+   "title": "Expected profitability, the 52-week high and the idiosyncratic volatility puzzle",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4382399256",
+   "doi": "https://doi.org/10.1002/fut.22446",
+   "title": "Belief distortion near 52W high and low: Evidence from Indian equity options market",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4394754193",
+   "doi": "https://doi.org/10.1111/jfir.12399",
+   "title": "The asset growth return premium and anchoring on the 52‐week high",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7165856056",
+   "doi": "https://doi.org/10.3390/jrfm19070463",
+   "title": "Revisiting the Distress Risk Anomaly: The 52-Week High Effect and Lottery-Seeking in Distressed Stocks",
+   "year": 2026,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2098379462",
+   "doi": "https://doi.org/10.3386/w17333",
+   "title": "Behavioral Corporate Finance: An Updated Survey",
+   "year": 2011,
+   "type": "report"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2571543531",
+   "doi": "https://doi.org/10.1016/j.bir.2016.12.002",
+   "title": "Heuristics and stock buying decision: Evidence from Malaysian and Pakistani stock markets",
+   "year": 2017,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2556409592",
+   "doi": "https://doi.org/10.20897/lectito.201639",
+   "title": "Looking for Psychological Barriers in nine European Stock Market Indices",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2994628737",
+   "doi": null,
+   "title": "Investor Behavior and Asset Pricing Anomalies",
+   "year": 2019,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2560546025",
+   "doi": "https://doi.org/10.1016/j.cesjef.2016.10.005",
+   "title": "Psychological barriers in stock market indices: Evidence from four southern European countries",
+   "year": 2016,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3010341015",
+   "doi": "https://doi.org/10.14718/revfinanzpolitecon.2019.11.2.10",
+   "title": "Effect of heuristic anchoring and adjustment, and optimism bias, in stock market forecasts",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2612684607",
+   "doi": null,
+   "title": "Do Analysts Anchor Their Recommendation Revisions to Valuation Multiples",
+   "year": 2017,
+   "type": "dissertation"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2521252510",
+   "doi": "https://doi.org/10.2139/ssrn.2787744",
+   "title": "Swarm Intelligence? Stock Opinions of the Crowd and Stock Returns",
+   "year": 2016,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4394990294",
+   "doi": "https://doi.org/10.1016/j.irfa.2024.103333",
+   "title": "Left-tail risk and UK stock return predictability: Underreaction, overreaction, and arbitrage difficulties",
+   "year": 2024,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4385272747",
+   "doi": "https://doi.org/10.3390/jrfm16080349",
+   "title": "Moored Minds: An Experimental Insight into the Impact of the Anchoring and Disposition Effect on Portfolio Performance",
+   "year": 2023,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W2795358937",
+   "doi": "https://doi.org/10.7819/rbgn.v20i2.3049",
+   "title": "Psychological Barriers in Single Stock Prices: Evidence from Three Emerging Markets",
+   "year": 2018,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3136244092",
+   "doi": "https://doi.org/10.35944/jofrp.2021.10.1.004",
+   "title": "Behavioral Finance Research in 2020: Cui Bono et Quo Vadis?",
+   "year": 2021,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4297541813",
+   "doi": "https://doi.org/10.3390/jrfm15100432",
+   "title": "Review of the Literature on Merger Waves",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W3006589075",
+   "doi": "https://doi.org/10.4067/s0718-88702020000200029",
+   "title": "Do psychological barriers exist in Latin American stock markets?",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4383106838",
+   "doi": "https://doi.org/10.20944/preprints202307.0088.v1",
+   "title": "Moored Minds: An Experimental Insight into the Impact of Anchoring & Disposition Effect on Portfolio Performance",
+   "year": 2023,
+   "type": "preprint"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4214869731",
+   "doi": "https://doi.org/10.30699/ijf.2021.293531.1249",
+   "title": "The Impact of Anchoring Bias and Disposition Effect on Momentum Profit: The Role of Stock Liquidity",
+   "year": 2022,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4411057607",
+   "doi": "https://doi.org/10.3390/ijfs13020105",
+   "title": "Past, Present, and Future Research Trajectories on Retail Investor Behaviour: A Composite Bibliometric Analysis and Literature Review",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W4407102315",
+   "doi": "https://doi.org/10.1111/jifm.12231",
+   "title": "Analyst Responses to Changes in Credit Risk",
+   "year": 2025,
+   "type": "article"
+  },
+  {
+   "openalex_id": "https://openalex.org/W26330056",
+   "doi": null,
+   "title": "An investigation into the winner-loser and momentum anomalies in four medium-sized European markets",
+   "year": 2013,
+   "type": "dissertation"
+  }
+ ]
+}

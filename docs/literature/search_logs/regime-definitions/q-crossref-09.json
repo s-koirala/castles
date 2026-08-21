@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-09",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.container-title=International+Journal+of+Forecasting&query.title=regime&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 8300,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.3390/forecast8040075",
+   "title": "Regime-Dependent Sectoral Information Transmission in S&amp;P 500 Forecasting",
+   "year": 2026,
+   "container": "Forecasting",
+   "type": "journal-article",
+   "abstract": "<jats:p>Understanding which segments of the economy drive aggregate stock market movements is central to risk management. This study traces how the economic drivers of the Standard &amp; Poor’s 500 Index (S&amp;P 500) changed across two episodes: the 2020 COVID-19 shock and the 2025 technology-led period, using eleven sector indices and nine deep learning architectures. During COVID-19, forecasting power concentrated in Consumer Discretionary, Health Care, and Industrials before reorganizing sharply around Information Technology, consistent with a disruptive break. In 2025, Information Technology and market momentum dominated throughout, with no comparable reorganization, consistent with a gradual adjustment rather than a disruptive shift. This distinction, invisible from accuracy metrics alone (Gated Recurrent Unit: Mean Absolute Percentage Error = 3.41% and 2.16%), shows that information-concentration diagnostics can complement forecast-accuracy and risk-monitoring frameworks.</jats:p>"
+  },
+  {
+   "DOI": "10.1016/j.ijforecast.2017.09.006",
+   "title": "Probabilistic forecasting of industrial electricity load with regime switching behavior",
+   "year": 2018,
+   "container": "International Journal of Forecasting",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.ijforecast.2016.06.002",
+   "title": "Modeling the impact of forecast-based regime switches on US inflation",
+   "year": 2016,
+   "container": "International Journal of Forecasting",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/for.3228",
+   "title": "Regime‐Switching Density Forecasts Using Economists' Scenarios",
+   "year": 2024,
+   "container": "Journal of Forecasting",
+   "type": "journal-article",
+   "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>We propose an approach for generating macroeconomic density forecasts that incorporate information on multiple scenarios defined by experts. We adopt a regime‐switching framework in which sets of scenarios (“views”) are used as Bayesian priors on economic regimes. Predictive densities coming from different views are then combined by optimizing objective functions of density forecasting. We illustrate the approach with an empirical application to quarterly real‐time forecasts of the US GDP growth rate, in which we exploit the Fed's macroeconomic scenarios used for bank stress tests. We show that the approach achieves good accuracy in terms of average predictive scores and good calibration of forecast distributions. Moreover, it can be used to evaluate the contribution of economists' scenarios to density forecast performance.</jats:p>"
+  },
+  {
+   "DOI": "10.1002/1099-131x(200101)20:1<21::aid-for763>3.0.co;2-0",
+   "title": "Alternative regime switching models for forecasting inflation",
+   "year": 2001,
+   "container": "Journal of Forecasting",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.ijforecast.2025.05.001",
+   "title": "Deep switching state space model for nonlinear time series forecasting with regime switching",
+   "year": 2026,
+   "container": "International Journal of Forecasting",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

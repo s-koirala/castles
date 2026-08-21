@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-12",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Kritzman+Li+Skulls+financial+turbulence+and+risk+management&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 10925270,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2469/faj.v66.n5.3",
+   "title": "Skulls, Financial Turbulence, and Risk Management",
+   "year": 2010,
+   "container": "Financial Analysts Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2469/faj.v58.n3.2541",
+   "title": "The Mismeasurement of Risk",
+   "year": 2002,
+   "container": "Financial Analysts Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3905/jod.1996.407968",
+   "title": "Review of\n                    <i>The Dictionary of Financial Risk Management</i>\n                    by Gary Gastineau and Mark Kritzman",
+   "year": 1996,
+   "container": "The Journal of Derivatives",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

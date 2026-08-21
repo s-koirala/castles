@@ -1,0 +1,90 @@
+{
+ "query_id": "q-openalex-02",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.openalex.org/works?filter=title.search:market%20regimes&sort=cited_by_count:desc&per-page=10",
+ "total_results_reported": 3194,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "id": "https://openalex.org/W59570615",
+   "DOI": "10.1017/cbo9781139175050.006",
+   "title": "Divergent Production Regimes: Coordinated and Uncoordinated Market Economies in the 1980s and 1990s",
+   "year": 1999,
+   "venue": "Cambridge University Press eBooks",
+   "cited_by": 958
+  },
+  {
+   "id": "https://openalex.org/W2015852510",
+   "DOI": "10.1007/s00181-007-0175-9",
+   "title": "Tests for cointegration with two unknown regime shifts with an application to financial market integration",
+   "year": 2008,
+   "venue": "Empirical Economics",
+   "cited_by": 485
+  },
+  {
+   "id": "https://openalex.org/W3121714092",
+   "DOI": "10.1146/annurev-financial-110311-101808",
+   "title": "Regime Changes and Financial Markets",
+   "year": 2012,
+   "venue": "Annual Review of Financial Economics",
+   "cited_by": 421
+  },
+  {
+   "id": "https://openalex.org/W2151088719",
+   "DOI": "10.1086/666595",
+   "title": "Taste Regimes and Market-Mediated Practice",
+   "year": 2012,
+   "venue": "Journal of Consumer Research",
+   "cited_by": 400
+  },
+  {
+   "id": "https://openalex.org/W2049324910",
+   "DOI": "10.1111/j.1475-679x.2007.00231.x",
+   "title": "Market Transparency and the Accounting Regime",
+   "year": 2007,
+   "venue": "Journal of Accounting Research",
+   "cited_by": 385
+  },
+  {
+   "id": "https://openalex.org/W2134986635",
+   "DOI": "10.1016/j.enpol.2010.03.067",
+   "title": "Volatility behavior of oil, industrial commodity and stock markets in a regime-switching environment",
+   "year": 2010,
+   "venue": "Energy Policy",
+   "cited_by": 353
+  },
+  {
+   "id": "https://openalex.org/W2042287092",
+   "DOI": "10.1080/096031097333745",
+   "title": "Regime switching in stock market returns",
+   "year": 1997,
+   "venue": "Applied Financial Economics",
+   "cited_by": 342
+  },
+  {
+   "id": "https://openalex.org/W3122262361",
+   "DOI": "10.1257/089533003772034916",
+   "title": "The Mirage of Exchange Rate Regimes for Emerging Market Countries",
+   "year": 2003,
+   "venue": "The Journal of Economic Perspectives",
+   "cited_by": 329
+  },
+  {
+   "id": "https://openalex.org/W1537160468",
+   "DOI": "",
+   "title": "Exchange Rate Regimes for Emerging Markets: Reviving the Intermediate Option",
+   "year": 2000,
+   "venue": null,
+   "cited_by": 327
+  },
+  {
+   "id": "https://openalex.org/W2054484691",
+   "DOI": "10.2202/1558-3708.1145",
+   "title": "Forecasting Stock Market Volatility with Regime-Switching GARCH Models",
+   "year": 2005,
+   "venue": "Studies in Nonlinear Dynamics and Econometrics",
+   "cited_by": 312
+  }
+ ]
+}

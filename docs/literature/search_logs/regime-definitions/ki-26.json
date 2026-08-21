@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-26",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Prakash+James+Menzies+Structural+clustering+of+volatility+regimes+for+dynamic+trading+strategies&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 44035,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1080/1350486x.2021.2007146",
+   "title": "Structural Clustering of Volatility Regimes for Dynamic Trading Strategies",
+   "year": 2021,
+   "container": "Applied Mathematical Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.70897/whu.dis.0076",
+   "title": "Trading strategies and dynamic interactions under long-term volatility",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": "<jats:p xml:lang=\"en\">This dissertation investigates the behavior of trading strategies and the dynamics of global financial interactions under conditions of long-term market volatility. Volatility, as a central feature of financial markets, significantly shapes investor behavior, feedback mechanisms, and inter-market dependencies. Through a combination of empirical modeling and high-frequency data analysis, this research explores how traders respond to uncertainty and how financial systems across borders co-evolve in volatile regimes.\r\nChapter 1 analyzes autocorrelation and state-dependence in trading decisions, particularly under market distress. Using a Markov-switching framework, the study captures how trading behavior shifts between tranquil and distressed states. The results show that autocorrelation in trading intensifies under distress, suggesting momentum effects and delayed information processing. The findings also reveal that trading behavior is not only path-dependent but also influenced by perceived risk regimes, highlighting the role of market conditions in shaping investor responses.\r\nChapter 2 focuses on feedback trading strategies across different time intervals (d"
+  },
+  {
+   "DOI": "10.2139/ssrn.163148",
+   "title": "Dynamic Volatility Trading Strategies in the Currency Option Market Using Stochastic Volatility Forecasts",
+   "year": 1999,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>The conditional volatility of foreign exchange rates can be predicted with GARCH models, and with implied volatility extracted from currency options. This paper investigates whether the difference in these predictions is economically meaningful. In an efficient market, after accounting for transaction costs and risk, no trading strategy should earn abnormal risk-adjusted returns. In the absence of transaction costs, both the delta-neutral and the straddle trading stratgies lead to significant positive economic profits against the option market, regardless of which volatility prediction method is used. The agent using the Implied Stochastic Volatility Regression method (ISVR) earns larger profits than the agent using the GARCH method. However, after accounting for the transaction costs assumed to equal one percent of market prices, observed profits are not significantly different from zero in most trading strategies; the exception is for an agent using the ISVR method with a 5% price filter. Finally, on risk adjusted basis, the dynamic volatility trading strategies offered better risk-return relation: higher Sharpe ratio, lower correlation with several asset classes, and hig"
+  }
+ ]
+}

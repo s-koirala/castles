@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-23",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Weinstein+Secrets+for+profiting+in+bull+and+bear+markets+stage+analysis&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 7634968,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1002/9781118835043.ch9",
+   "title": "Bear Markets",
+   "year": 2014,
+   "container": "Profiting from Market Trends",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118774946.app1",
+   "title": "Appendix A: Expansions/Recessions and Bull/Bear Markets",
+   "year": 2013,
+   "container": "The Master Trader",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118835043.ch8",
+   "title": "Bull Markets",
+   "year": 2014,
+   "container": "Profiting from Market Trends",
+   "type": "other",
+   "abstract": ""
+  }
+ ]
+}

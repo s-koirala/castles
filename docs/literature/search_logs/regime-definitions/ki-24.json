@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-24",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Bollinger+on+Bollinger+Bands+squeeze+volatility&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 98492,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.4509904",
+   "title": "An Analysis of the Volatility of Indian Defence Stocks Using Bollinger Bands",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>The existence of a relationship between Stock market fluctuations and the economy of the state, country or region may be interrelated to each other in one way or another. This research paper is an effort to understand the fluctuations or volatility in Indian Defence stocks and how it has propelled the growth of the Indian Defence sector in recent times. Five major companies include/ includes Hindustan Aeronautics Limited (HAL),BHARAT ELECTRONICS LTD, Mazagon Dock Shipbuilders Limited, Cochin Shipyard Ltd, Bharat Dynamics Ltd for the period of one year approx. i.e., between 30-12-2021 to 30-01-2023 (272 days of stock trading).</jats:p>"
+  },
+  {
+   "DOI": "10.7717/peerj-cs.2626/fig-8",
+   "title": "Figure 8: Bollinger bands with price movements.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj-cs.2626/fig-9",
+   "title": "Figure 9: Combined indicators—Bollinger bands, SMA, and RSI.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  }
+ ]
+}

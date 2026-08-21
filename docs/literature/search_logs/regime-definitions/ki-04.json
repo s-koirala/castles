@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-04",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Maheu+McCurdy+Song+Components+of+bull+and+bear+markets+bull+corrections+and+bear+rallies&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 531559,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.1939486",
+   "title": "Components of Bull and Bear Markets: Bull Corrections and Bear Rallies",
+   "year": 2011,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Existing methods of partitioning the market index into bull and bear regimes do not identify market corrections or bear market rallies. In contrast, our probabilistic model of the return distribution allows for rich and heterogeneous intra-regime dynamics. We focus on the characteristics and dynamics of bear market rallies and bull market corrections, including, for example, the probability of transition from a bear market rally into a bull market versus back to the primary bear state. A Bayesian estimation approach accounts for parameter and regime uncertainty and provides probability statements regarding future regimes and returns. We show how to compute the predictive density of long-horizon returns and discuss the improvements our model provides over benchmarks.</jats:p>"
+  },
+  {
+   "DOI": "10.1080/07350015.2012.680412",
+   "title": "Components of Bull and Bear Markets: Bull Corrections and Bear Rallies",
+   "year": 2012,
+   "container": "Journal of Business &amp; Economic Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.146531",
+   "title": "Identifying Bull and Bear Markets in Stock Returns",
+   "year": 1999,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper uses a Markov switching model which incorporates duration dependence to capture nonlinear structure in both the conditional mean and variance of stock returns. The model sorts returns into a high return stable state and a low return volatile state. We label these as bull and bear markets respectively. The filter identifies all major stock market downturns in over 160 years of monthly data. We find that both bear and bull markets have declining hazard functions. Despite the declining hazards, the best market gains come at the start of a bull market. Moreover, allowing the conditional mean and volatility to vary with duration captures volatility clustering.</jats:p>"
+  }
+ ]
+}

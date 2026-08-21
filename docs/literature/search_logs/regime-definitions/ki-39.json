@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-39",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Edwards+Magee+Technical+Analysis+of+Stock+Trends+The+Dow+Theory&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 10002021,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.4324/9781315115719-3",
+   "title": "The Dow Theory",
+   "year": 2018,
+   "container": "Technical Analysis of Stock Trends",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4324/9781315115719-5",
+   "title": "Replacing Dow Theory with John Magee's Basing points Procedure",
+   "year": 2018,
+   "container": "Technical Analysis of Stock Trends",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4324/9781315115719-4",
+   "title": "The Dow Theory's defects",
+   "year": 2018,
+   "container": "Technical Analysis of Stock Trends",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

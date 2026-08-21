@@ -1,0 +1,27 @@
+{
+ "query_id": "ws-f005-screening",
+ "platform": "Claude Code WebSearch tool, US region",
+ "date_searched": "2026-08-21",
+ "purpose": "Web searches executed in support of screening boundary candidates (abstract or methodology retrieval where the API record carried none). These queries retrieved no new records into identification; they supplied screening evidence for records already identified by fc-* or dq-* queries. n_records is therefore 0 for each.",
+ "queries_verbatim": [
+  {
+   "ws_id": "ws-01",
+   "query": "\"Moving Average as a Psychological Barrier\" Li Luo Xiao international markets abstract",
+   "n_links_returned": 9,
+   "used_for": "screening 10.2139/ssrn.4486459; located the earlier SSRN version 10.2139/ssrn.4310592, whose Crossref record carries the full abstract (retrieved in screening-support-f005.json)"
+  },
+  {
+   "ws_id": "ws-02",
+   "query": "Yuanpeng Li Yan Luo Zhiguo Xiao moving average psychological barrier journal published \"conditional\" OR \"hazard\" OR \"M-values\" OR \"barrier proximity\" OR \"barrier hump\" methodology",
+   "n_links_returned": 21,
+   "used_for": "search for a peer-reviewed published version of the Li-Luo-Xiao working paper; none located. The record remains preprint/working-paper tier as of 2026-08-21."
+  },
+  {
+   "ws_id": "ws-03",
+   "query": "Gomes Waelbroeck \"liquidity dynamics and resistance and support levels\" Quantitative Finance abstract support resistance defined",
+   "n_links_returned": 10,
+   "used_for": "screening 10.1080/14697680902814258; recovered the definitional statement (levels as prices crossable with difficulty; liquidity measured as shares required to push price through a level) that the truncated OpenAlex abstract omitted"
+  }
+ ],
+ "n_records_retrieved": 0
+}

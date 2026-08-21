@@ -1,0 +1,232 @@
+<!-- query_id: q-arxiv-03 | platform: arXiv API (export.arxiv.org) | date_searched: 2026-08-21 | query_url_verbatim: http://export.arxiv.org/api/query?search_query=ti:%22market+states%22+AND+cat:q-fin*&max_results=10 -->
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZgmsoankEtGatADZqaff19fVmxw</id>
+  <title>arXiv Query: search_query=ti:"market states" AND cat:q-fin*&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-21T20:05:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22market+states%22+AND+cat:q-fin*&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>13</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1807.05836v3</id>
+    <title>Forecasting market states</title>
+    <updated>2019-05-27T21:21:52Z</updated>
+    <link href="https://arxiv.org/abs/1807.05836v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.05836v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a novel methodology to define, analyze and forecast market states. In our approach market states are identified by a reference sparse precision matrix and a vector of expectation values. In our procedure, each multivariate observation is associated with a given market state accordingly to a minimization of a penalized Mahalanobis distance. The procedure is made computationally very efficient and can be used with a large number of assets. We demonstrate that this procedure is successful at clustering different states of the markets in an unsupervised manner. In particular, we describe an experiment with one hundred log-returns and two states in which the methodology automatically associates states prevalently to pre- and post- crisis periods with one state gathering periods with average positive returns and the other state periods with average negative returns, therefore discovering spontaneously the common classification of `bull' and `bear' markets. In another experiment, with again one hundred log-returns and two states, we demonstrate that this procedure can be efficiently used to forecast off-sample future market states with significant prediction accuracy. This methodology opens the way to a range of applications in risk management and trading strategies in the context where the correlation structure plays a central role.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-13T16:43:39Z</published>
+    <arxiv:comment>13 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <arxiv:journal_ref>Quantitative Finance 19 (2019) 1491-1498</arxiv:journal_ref>
+    <author>
+      <name>Pier Francesco Procacci</name>
+    </author>
+    <author>
+      <name>Tomaso Aste</name>
+    </author>
+    <arxiv:doi>10.1080/14697688.2019.1622313</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/14697688.2019.1622313" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.5386v1</id>
+    <title>Zooming into market states</title>
+    <updated>2014-06-20T13:45:30Z</updated>
+    <link href="https://arxiv.org/abs/1406.5386v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.5386v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze the daily stock data of the Nasdaq Composite index in the 22-year period 1992-2013 and identify market states as clusters of correlation matrices with similar correlation structures. We investigate the stability of the correlation structure of each state by estimating the statistical fluctuations of correlations due to their non-stationarity. Our study is based on a random matrix approach recently introduced to model the non-stationarity of correlations by an ensemble of random matrices. This approach reduces the complexity of the correlated market to a single parameter which characterizes the fluctuations of the correlations and can be determined directly from the empirical return distributions. This parameter provides an insight into the stability of the correlation structure of each market state as well as into the correlation structure dynamics in the whole observation period. The analysis reveals an intriguing relationship between average correlation and correlation fluctuations. The strongest fluctuations occur during periods of high average correlation which is the case particularly in times of crisis.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-20T13:45:30Z</published>
+    <arxiv:comment>13 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <arxiv:journal_ref>J. Stat. Mech., P01029 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Desislava Chetalova</name>
+    </author>
+    <author>
+      <name>Rudi Schäfer</name>
+    </author>
+    <author>
+      <name>Thomas Guhr</name>
+    </author>
+    <arxiv:doi>10.1088/1742-5468/2015/01/P01029</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-5468/2015/01/P01029" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.07058v2</id>
+    <title>Market states: A new understanding</title>
+    <updated>2020-11-10T18:53:33Z</updated>
+    <link href="https://arxiv.org/abs/2003.07058v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.07058v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the clustering analysis of the financial markets of S&amp;P 500 (USA) and Nikkei 225 (JPN) markets over a period of 2006-2019 as an example of a complex system. We investigate the statistical properties of correlation matrices constructed from the sliding epochs. The correlation matrices can be classified into different clusters, named as market states based on the similarity of correlation structures. We cluster the S&amp;P 500 market into four and Nikkei 225 into six market states by optimizing the value of intracluster distances. The market shows transitions between these market states and the statistical properties of the transitions to critical market states can indicate likely precursors to the catastrophic events. We also analyze the same clustering technique on surrogate data constructed from average correlations of market states and the fluctuations arise due to the white noise of short time series. We use the correlated Wishart orthogonal ensemble for the construction of surrogate data whose average correlation equals the average of the real data.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-16T07:37:45Z</published>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Hirdesh K. Pharasi</name>
+    </author>
+    <author>
+      <name>Eduard Seligman</name>
+    </author>
+    <author>
+      <name>Thomas H. Seligman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.09004v2</id>
+    <title>Dependence structure of market states</title>
+    <updated>2015-07-09T11:25:42Z</updated>
+    <link href="https://arxiv.org/abs/1503.09004v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.09004v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the dependence structure of market states by estimating empirical pairwise copulas of daily stock returns. We consider both original returns, which exhibit time-varying trends and volatilities, as well as locally normalized ones, where the non-stationarity has been removed. The empirical pairwise copula for each state is compared with a bivariate K-copula. This copula arises from a recently introduced random matrix model, in which non-stationary correlations between returns are modeled by an ensemble of random matrices. The comparison reveals overall good agreement between empirical and analytical copulas, especially for locally normalized returns. Still, there are some deviations in the tails. Furthermore, we find an asymmetry in the dependence structure of market states. The empirical pairwise copulas exhibit a stronger lower tail dependence, particularly in times of crisis.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-31T11:18:59Z</published>
+    <arxiv:comment>19 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Desislava Chetalova</name>
+    </author>
+    <author>
+      <name>Marcel Wollschläger</name>
+    </author>
+    <author>
+      <name>Rudi Schäfer</name>
+    </author>
+    <arxiv:doi>10.1088/1742-5468/2015/08/P08012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-5468/2015/08/P08012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.04900v3</id>
+    <title>Detecting intraday financial market states using temporal clustering</title>
+    <updated>2017-02-24T16:37:27Z</updated>
+    <link href="https://arxiv.org/abs/1508.04900v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.04900v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose the application of a high-speed maximum likelihood clustering algorithm to detect temporal financial market states, using correlation matrices estimated from intraday market microstructure features. We first determine the ex-ante intraday temporal cluster configurations to identify market states, and then study the identified temporal state features to extract state signature vectors which enable online state detection. The state signature vectors serve as low-dimensional state descriptors which can be used in learning algorithms for optimal planning in the high-frequency trading domain. We present a feasible scheme for real-time intraday state detection from streaming market data feeds. This study identifies an interesting hierarchy of system behaviour which motivates the need for time-scale-specific state space reduction for participating agents.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-20T07:22:55Z</published>
+    <arxiv:comment>30 pages, 16 figures, 8 tables, published in Quantitative Finance</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <arxiv:journal_ref>Quantitative Finance, (2016),16:11, 1657-1678</arxiv:journal_ref>
+    <author>
+      <name>Dieter Hendricks</name>
+    </author>
+    <author>
+      <name>Tim Gebbie</name>
+    </author>
+    <author>
+      <name>Diane Wilcox</name>
+    </author>
+    <arxiv:doi>10.1080/14697688.2016.1171378</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/14697688.2016.1171378" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.05984v2</id>
+    <title>Dynamics of market states and risk assessment</title>
+    <updated>2023-09-12T01:48:02Z</updated>
+    <link href="https://arxiv.org/abs/2011.05984v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.05984v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Previous research explored various conditions of financial markets based on the similarity of correlation structures and classified as market states. We introduce modifications to previous selection criteria for these market states, mainly due to increased attention to the transition matrix between the states. Clustering and thus market states are fixed by the optimization of two parameters -- number of clusters and noise suppression, but in similar conditions, we give preference to the clustering which avoids large jumps in the transition matrix. We found statistically significant results applying this model to the SP 500 and Nikkei 225 markets for the pre-COVID-19 pandemic era (2006-2019). Retaining the epoch length of 20 trading days but reducing the shift of the epoch to a single trading day we are led to the concept of a trajectory of the market in the space of correlation matrices. We may visualize these states after dimensional scaling to two or three dimensions. This approach, using dynamics, improves the options of risk assessment, opens the door to dynamical treatments of markets (e.g. hedging), and shows noise suppression in a new light.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-10T15:48:07Z</published>
+    <arxiv:comment>22 pages and 27 figures. arXiv admin note: text overlap with arXiv:2003.07058</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Hirdesh K. Pharasi</name>
+    </author>
+    <author>
+      <name>Eduard Seligman</name>
+    </author>
+    <author>
+      <name>Suchetana Sadhukhan</name>
+    </author>
+    <author>
+      <name>Parisa Majari</name>
+    </author>
+    <author>
+      <name>Thomas H. Seligman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.12356v1</id>
+    <title>Early Warning Signals for Cryptocurrency Market States</title>
+    <updated>2022-11-22T15:49:13Z</updated>
+    <link href="https://arxiv.org/abs/2211.12356v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.12356v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Being archetypal complex systems, financial markets exhibit rich set of dynamics in their interactions. In this paper, we focus on the recently evolved cryptocurrency market as an example of a complex system and analyse the evolution of cross correlation structure of cryptocurrencies in the 5 year period from 2017 to 2022. We observe characteristic correlation structures in the observation time window duration and use these specific structures to cluster the cryptocurrency market in 4 market states.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-22T15:49:13Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Vishwas Kukreti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.03078v1</id>
+    <title>Constructing trading strategy ensembles by classifying market states</title>
+    <updated>2020-12-05T17:02:09Z</updated>
+    <link href="https://arxiv.org/abs/2012.03078v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.03078v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rather than directly predicting future prices or returns, we follow a more recent trend in asset management and classify the state of a market based on labels. We use numerous standard labels and even construct our own ones. The labels rely on future data to be calculated, and can be used a target for training a market state classifier using an appropriate set of market features, e.g. moving averages. The construction of those features relies on their label separation power. Only a set of reasonable distinct features can approximate the labels. For each label we use a specific neural network to classify the state using the market features from our feature space. Each classifier gives a probability to buy or to sell and combining all their recommendations (here only done in a linear way) results in what we call a trading strategy. There are many such strategies and some of them are somewhat dubious and misleading. We construct our own metric based on past returns but penalising for a low number of transactions or small capital involvement. Only top score-performance-wise trading strategies end up in final ensembles. Using the Bitcoin market we show that the strategy ensembles outperform both in returns and risk-adjusted returns in the out-of-sample period. Even more so we demonstrate that there is a clear correlation between the success achieved in the past (if measured in our custom metric) and the future.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-05T17:02:09Z</published>
+    <arxiv:comment>20 pages, 18 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Michal Balcerak</name>
+    </author>
+    <author>
+      <name>Thomas Schmelzer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.00913v1</id>
+    <title>Understanding Financial Market States Using Artificial Double Auction Market</title>
+    <updated>2015-03-03T12:10:11Z</updated>
+    <link href="https://arxiv.org/abs/1503.00913v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.00913v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ultimate value of theories of the fundamental mechanisms comprising the asset price in financial systems will be reflected in the capacity of such theories to understand these systems. Although the models that explain the various states of financial markets offer substantial evidences from the fields of finance, mathematics, and even physics to explain states observed in the real financial markets, previous theories that attempt to fully explain the complexities of financial markets have been inadequate. In this study, we propose an artificial double auction market as an agent-based model approach to study the origin of complex states in the financial markets, characterizing important parameters with an investment strategy that can cover the dynamics of the financial market. The investment strategy of chartist traders after market information arrives should reduce market stability originating in the price fluctuations of risky assets. However, fundamentalist traders strategically submit orders with a fundamental value and, thereby stabilize the market. We construct a continuous double auction market and find that the market is controlled by a fraction of chartists, P_{c}. We show that mimicking real financial markets state, which emerges in real financial systems, is given between approximately P_{c} = 0.40 and P_{c} = 0.85, but that mimicking the efficient market hypothesis state can be generated in a range of less than P_{c} = 0.40. In particular, we observe that the mimicking market collapse state created in a value greater than P_{c} = 0.85, in which a liquidity shortage occurs, and the phase transition behavior is P_{c} = 0.85.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-03T12:10:11Z</published>
+    <arxiv:comment>17 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Kyubin Yim</name>
+    </author>
+    <author>
+      <name>Gabjin Oh</name>
+    </author>
+    <author>
+      <name>Seunghwan Kim</name>
+    </author>
+    <arxiv:doi>10.1371/journal.pone.0152608</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1371/journal.pone.0152608" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.0297v1</id>
+    <title>RQA Application for the Monitoring of Financial and Commodity markets state</title>
+    <updated>2011-12-01T20:35:00Z</updated>
+    <link href="https://arxiv.org/abs/1112.0297v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.0297v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nowadays, when crashes and crises are rather frequent events, an effective monitoring system for the international financial market is needed. Modern nonlinear methods, such as Recurrence Quantification Analysis (RQA), demonstrate the ability to reveal the regularities of the system behavior. Thus, they can be useful for the analysis of the market state in real time. In present paper we did an effort to apply the RQA for the purpose of economic time series monitoring. 12 stock indexes, 6 currency pairs and 4 commodities were taken for the study.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-01T20:35:00Z</published>
+    <arxiv:comment>22 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Sergii Piskun</name>
+    </author>
+    <author>
+      <name>Oleksandr Piskun</name>
+    </author>
+    <author>
+      <name>Dmitry Chabanenko</name>
+    </author>
+  </entry>
+</feed>
