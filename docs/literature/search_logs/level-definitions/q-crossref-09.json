@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-09",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=support+resistance+levels+detection+algorithm&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 3975445,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1201/9781420033106.ch91",
+   "title": "Support And Resistance Levels",
+   "year": 2000,
+   "container": "101 Investment Tools for Buying Low &amp; Selling High",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119206552.ch3",
+   "title": "Buying and Selling = Support and Resistance Levels",
+   "year": 2012,
+   "container": "Trading and Investing in the Forex Market Using Chart Techniques",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/1350486x.2017.1297729",
+   "title": "Optimal prediction of resistance and support levels",
+   "year": 2016,
+   "container": "Applied Mathematical Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.21275/sr21226092410",
+   "title": "Glaucoma Detection Using Support Vector Machine Algorithm",
+   "year": 2021,
+   "container": "International Journal of Science and Research (IJSR)",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.17223/19988605/70/9",
+   "title": "Neural network testing of a data labeling algorithm for classifying support and resistance levels in financial markets",
+   "year": 2025,
+   "container": "Vestnik Tomskogo gosudarstvennogo universiteta. Upravlenie, vychislitel'naya tekhnika i informatika",
+   "type": "journal-article",
+   "abstract": "<jats:p>An algorithm for labeling data is presented to train a classifier capable of identifying support and resistance levels in financial market data. Using data obtained from this algorithm, a CNN-LSTM-MLP model was trained, incorporating causal convolutions, LSTM, and fully connected layers. An experiment with a simple trading strategy demonstrated the practical applicability of the model, accompanied by a 10% increase in profitability com-pared to a basic strategy where the model was not used.</jats:p>"
+  },
+  {
+   "DOI": "10.63254/acsse.v1i1.8",
+   "title": "Comparison of Classification Algorithm Accuracy Levels in Phishing Detection: Decision Tree, Random Forest, and Support Vector Machine",
+   "year": 2025,
+   "container": "Applied Computer Science and Software Engineering",
+   "type": "journal-article",
+   "abstract": "<jats:p>Phishing attacks have become a serious threat in the realm of cybersecurity, with both direct and indirect impacts on individuals and organizations. This study aims to compare the performance of three machine learning classification algorithms, namely Decision Tree, Random Forest, and Support Vector Machine, in detecting phishing cases using relevant datasets. The experimental results showed that Random Forest achieved the highest accuracy (96.675%), followed by Decision Tree (93.57%), while Support Vector Machine showed lower performance (54.724%). Cohen's Kappa also indicated that Ra"
+  },
+  {
+   "DOI": "10.37624/ijece/16.1.2023.17-30",
+   "title": "Breast Cancer Detection Using Support Vector Machine Algorithm",
+   "year": 2023,
+   "container": "International Journal of Electronics and Communication Engineering",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.22214/ijraset.2023.54188",
+   "title": "Breast Cancer Detection Using Support Vector Machine Algorithm",
+   "year": 2023,
+   "container": "International Journal for Research in Applied Science and Engineering Technology",
+   "type": "journal-article",
+   "abstract": "<jats:p>Abstract: Breast cancer is primary cancer affecting women and ranks second as the leading cause of female mortality. The crucial aspect is identifying the presence of breast cancer and pinpointing the affected area. Medical imaging consistently advances, and early detection of cancer is vital in lowering cancer death rates. The enhancement procedure for mammograms involves filtering and discrete wavelet transforms. Contrast stretching is utilized to boost image contrast. Improved Breast cancer early detection and diagnosis are achieved by segmenting mammogram images. From the segmented"
+  }
+ ]
+}

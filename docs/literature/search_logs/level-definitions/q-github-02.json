@@ -1,0 +1,50 @@
+{
+ "query_id": "q-github-02",
+ "platform": "GitHub REST API code search (api.github.com/search/code)",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "\"order_block\" language:python",
+ "total_count": 10848,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "repo": "arthiondaena/Algo-Trading-Dashboard",
+   "path": "indicators.py",
+   "html_url": "https://github.com/arthiondaena/Algo-Trading-Dashboard/blob/c00afa5f913a244807617c437f5244ea9ef7ac5d/indicators.py"
+  },
+  {
+   "repo": "daWanderbee/chuk-orders-dashboard",
+   "path": "watcher.py",
+   "html_url": "https://github.com/daWanderbee/chuk-orders-dashboard/blob/da35944709c62b8cbeb4dfe41885f465c0ee1607/watcher.py"
+  },
+  {
+   "repo": "arthiondaena/smc",
+   "path": "simple_smc.py",
+   "html_url": "https://github.com/arthiondaena/smc/blob/747ceee22e56d945f4d11a10ed38ce9e6dffb4a8/simple_smc.py"
+  },
+  {
+   "repo": "tradingwins1/udtrading-bot",
+   "path": "order_block.py",
+   "html_url": "https://github.com/tradingwins1/udtrading-bot/blob/01a6be78758c9ee20843bcb0f442c275f8e4b631/order_block.py"
+  },
+  {
+   "repo": "vedv0987-cloud/binbot-live",
+   "path": "indicators.py",
+   "html_url": "https://github.com/vedv0987-cloud/binbot-live/blob/1b6e23df496d4ec7bea1f699ad1ca86811e684a7/indicators.py"
+  },
+  {
+   "repo": "paulcloud17/SMC_patterns_test",
+   "path": "order_block.py",
+   "html_url": "https://github.com/paulcloud17/SMC_patterns_test/blob/65e48e232244adb0dd03df6516eed39c33c52896/order_block.py"
+  },
+  {
+   "repo": "rerocha1993/bot-trade-pro-backend",
+   "path": "core/order_block.py",
+   "html_url": "https://github.com/rerocha1993/bot-trade-pro-backend/blob/34b81f07f4f7cdccb62e2b9b814c9516291f5def/core/order_block.py"
+  },
+  {
+   "repo": "manuelinfosec/profittown-sniper-smc",
+   "path": "main.py",
+   "html_url": "https://github.com/manuelinfosec/profittown-sniper-smc/blob/f9afbf3964f3a1e3eaaaabcf348a7874cdb51ba7/main.py"
+  }
+ ]
+}

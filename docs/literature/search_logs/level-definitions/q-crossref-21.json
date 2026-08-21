@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-21",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=average+true+range+Wilder+volatility+stop+indicator&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 625798,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.32614/cran.package.truewap",
+   "title": "TrueWAP: True Range-Weighted Average Price ('TrueWAP')",
+   "year": 2025,
+   "container": "CRAN: Contributed Packages",
+   "type": "dataset",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119204428.ch9",
+   "title": "Average True Range (ATR)",
+   "year": 2012,
+   "container": "12 Simple Technical Indicators",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.1505782",
+   "title": "Forecasting the Technical Range Volatility with Moving Average (TRV-MA) Modle",
+   "year": 2009,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>When trading, investors make decisions based on not only the security and market variances but also the technical price range. However, academic literature investigating its properties is scarce. Better understandings of this risk measurement candidate are supposed to provide guidance for investors. In this paper, the statistical properties and dynamic structures of technical price range  are investigated broadly with different index data, and some interesting facts are discovered: 1) the technical range volatility follows the normal distribution approximately; 2) the dynamic structure"
+  },
+  {
+   "DOI": "10.1007/springerreference_25679",
+   "title": "stop indicator",
+   "year": null,
+   "container": "SpringerReference",
+   "type": "reference-entry",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7554/elife.46323.013",
+   "title": "Appendix 2\u2014table 1. The mean difference between estimated and true SSRT for participants who were included in the main analyses and participants who were excluded (because average RT on unsuccessful stop trials &gt; average RT on go trials).",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/springerreference_18468",
+   "title": "margin stop indicator",
+   "year": null,
+   "container": "SpringerReference",
+   "type": "reference-entry",
+   "abstract": ""
+  }
+ ]
+}

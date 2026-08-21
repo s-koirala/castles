@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-04",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=limit+order+book+price+clustering+depth&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2280801,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.2613532",
+   "title": "Price Clustering Asymmetries in Limit Order Flows",
+   "year": 2015,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We explore the relation between limit order price clustering and price efficiency. We find that executed sell limit orders cluster more frequently on round increments than buy limit orders and that this asymmetry in clustering is consistent with the well documented asymmetry in price response to marketable orders. Additionally, we find that the degree of clustering is positively related to volatility and that asymmetry in clustering depends on whether stock prices are rising or falling - sell limit orders cluster more frequently as prices are rising, while buy limit order cluster more "
+  },
+  {
+   "DOI": "10.2139/ssrn.968295",
+   "title": "Price Impact Cost Modeling in a Limit Order Book Market",
+   "year": 2007,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This study concerns price impact cost modeling in an electronic open limit order book market when trading is uninformed and demands immediacy of execution. In addition to characterizing a substantial amount of all trading in stocks, price impact costs could be measured rather unambiguously under these premises. Theoretical analysis shows that the price impact cost of uninformed market buy and sell orders is an increasing piecewise concave function of order size. Empirical cross-sectional price impact cost models for stocks trading in the limit order book system of the Stockholm Stock E"
+  },
+  {
+   "DOI": "10.2139/ssrn.2544361",
+   "title": "Mid-Price Prediction in a Limit Order Book",
+   "year": 2015,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We propose several nonparametric predictors of the mid-price in a limit order book, based on different features constructed from the order book data observed contemporaneously and in the recent past. We evaluate our predictors in the context of an order execution task by constructing order execution strategies that incorporate these predictors. In our evaluations, we use a large dataset of historical order placements, cancellations, and trades over a five-month period in 2013-2014 for liquid stocks traded on NASDAQ. We show that some of the features achieve statistically significant im"
+  },
+  {
+   "DOI": "10.2139/ssrn.966454",
+   "title": "Limit Order Clustering and Price Barriers on Financial Markets: Empirical Evidence from Euronext",
+   "year": 2007,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We investigate trade price and limit order price clustering on Euronext, a European stock market which is based on a computerized limit order book. We find evidence of widespread and pervasive trade price and limit order price clustering at increments of five and ten cents. Thus, investors appear to be naturally drawn to certain prominent numbers when placing limit orders. This tendency provides salient points in the order book where latent liquidity can accumulate. We also show that limit order clustering at round numbers generates price barriers. This means that there are price level"
+  },
+  {
+   "DOI": "10.2139/ssrn.7273201",
+   "title": "Prequential Benchmark of Limit Order Book Mid-Price Movement Prediction Models",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Predicting the direction of mid-price movements in highfrequency Limit Order Book (LOB) tick streams, where each tick is an individual trade transaction event, is the most demanding predictive modeling problem in financial machine learning. The tick stream is characterized by near-zero autocorrelation (ACF = 0.046 at lag 1), sample kurtosis of 1,282 (a measure of extreme fat-tailed return distributions) at the one-tick horizon, and microsecond latency requirements that render standard offline learning approaches inapplicable. This paper presents the most comprehensive prequential (test"
+  },
+  {
+   "DOI": "10.2139/ssrn.2136089",
+   "title": "Diminishing Price Impact in Asian Limit Order Book Markets",
+   "year": 2012,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper examines the significance of price impact and trade durations using vector autoregressions (VAR) as proposed by Dufour and Engle (2000) on modern central limit order book (LOB) markets in Asia - Hong Kong, Japan and Korea. Price impact on trades is measured using generalized impulse response functions (Pesaran and Shin, 1998). Model specification is determined using adaptive lasso (least absolute shrinkage and selection operator) developed by Zou (2006) with oracle properties for lag selection, which produces better interpretability than traditional least squares methods. Ou"
+  },
+  {
+   "DOI": "10.2139/ssrn.6635378",
+   "title": "Path Signatures as Universal Feature Extractors for Limit Order Book Mid-Price Prediction",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We apply the path signature transform \u2014 a canonical lossless encoding of multidimensional time series rooted in Chen's theorem (1954) and Rough Path Theory (Lyons 1998) \u2014 to the joint trajectory of bid price, ask price, bid volume, and ask volume extracted from limit order book (LOB) data. Truncating the signature at order 4 yields a 341-dimensional feature vector that constitutes a sufficient statistic for predicting the next mid-price direction without any manual feature engineering. Evaluated on the FI-2010 benchmark dataset (NASDAQ, 10 stocks, 10 trading days, 10-level LOB) and on "
+  },
+  {
+   "DOI": "10.2139/ssrn.5137175",
+   "title": "Limit order book spreads, depth, and market efficiency in a general equilibrium model",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  }
+ ]
+}

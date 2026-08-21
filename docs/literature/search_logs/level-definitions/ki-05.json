@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-05",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Donaldson+Kim+price+barriers+in+the+Dow+Jones+industrial+average&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 4010552,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2307/2331416",
+   "title": "Price Barriers in the Dow Jones Industrial Average",
+   "year": 1993,
+   "container": "The Journal of Financial and Quantitative Analysis",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/springerreference_1320",
+   "title": "Dow Jones Industrial Average Index (DJIA)",
+   "year": null,
+   "container": "SpringerReference",
+   "type": "reference-entry",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.4985308",
+   "title": "Support Vector Machines for Next-Day Stock Price Direction:A Study on Dow Jones Industrial Average Components",
+   "year": 2024,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  }
+ ]
+}

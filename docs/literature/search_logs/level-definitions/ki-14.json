@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-14",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Krugman+target+zones+and+exchange+rate+dynamics&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2473207,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.3386/w2481",
+   "title": "Target Zones and Exchange Rate Dynamics",
+   "year": 1988,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/2937922",
+   "title": "Target Zones and Exchange Rate Dynamics",
+   "year": 1991,
+   "container": "The Quarterly Journal of Economics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3386/w3418",
+   "title": "Target Zones with Limited Reserves",
+   "year": 1990,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  }
+ ]
+}

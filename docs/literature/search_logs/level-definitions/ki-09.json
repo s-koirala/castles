@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-09",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Bhattacharya+Holden+Jacobsen+penny+wise+dollar+foolish+buy-sell+imbalances+on+and+around+round+numbers&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2892,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1287/mnsc.1110.1364",
+   "title": "Penny Wise, Dollar Foolish: Buy\u2013Sell Imbalances On and Around Round Numbers",
+   "year": 2012,
+   "container": "Management Science",
+   "type": "journal-article",
+   "abstract": "<jats:p>This paper provides evidence that stock traders focus on round numbers as cognitive reference points for value. Using a random sample of more than 100 million stock transactions, we find excess buying (selling) by liquidity demanders at all price points one penny below (above) round numbers. Further, the size of the buy\u2013sell imbalance is monotonic in the roundness of the adjacent round number (i.e., largest adjacent to integers, second-largest adjacent to half-dollars, etc.). Conditioning on the price path, we find much stronger excess buying (selling) by liquidity demanders when the a"
+  },
+  {
+   "DOI": "10.2139/ssrn.1356192",
+   "title": "Penny Wise, Dollar Foolish: The Left-Digit Effect in Security Trading",
+   "year": 2009,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>In grocery stores, we see many prices at $2.99, $9.99, $19.99; in car lots, mark-downs to $5,990, $9,990, $19,990 are pervasive; in residential real estate, it is popular to list homes at $99,000, $299,000, $999,000.  This paper asks whether this left-digit effect \u2013 the propensity to anchor value on the left digits \u2013 exists in security trading as well.  We find that it does.  Using a random sample of more than 100 million stock transactions, we find that that the ratio of buys to sells by liquidity demanders is highest at prices ending at .99 and lowest at prices ending at .01.  This e"
+  },
+  {
+   "DOI": "10.2139/ssrn.1303700",
+   "title": "Penny Wise, Dollar Foolish: The Left-Digit Effect in Security Trading",
+   "year": 2008,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>The left-digit effect is defined as when a change in the left-most digit of a price (e.g., 7 to 6 when $7.00 drops to $6.99) dramatically affects the perception of the magnitude. Using a random sample of more than 100 million stock transactions, we find excess buying by liquidity demanders when the price starts above an integer and then drops below the integer. Conversely, we find excess selling by liquidity demanders when the price starts below an integer and then rises to the integer or above it. This is true under three buy-sell ratio measures, in multivariate regressions with vario"
+  }
+ ]
+}

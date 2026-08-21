@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-06",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Sonnemans+price+clustering+and+natural+resistance+points+in+the+Dutch+stock+market&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 3115138,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.417321",
+   "title": "Price Clustering and Natural Resistance Points in the Dutch Stock Market: A Natural Experiment",
+   "year": 2003,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>The main contribution of this study is the finding that round numbers can act as price barriers for individual stocks. In addition, a first step is made to explain this and the related phenomena of round number clustering by testing two competing hypotheses, using data from the Dutch stock market during 1990-2001. After January 1, 1999 stock prices were listed in euros, while guilders were still the currency of daily life until 2002. According to the aspiration level hypothesis investors will have target prices for the stocks they own. This hypothesis predicts that round number effects"
+  },
+  {
+   "DOI": "10.1016/j.euroecorev.2005.09.001",
+   "title": "Price clustering and natural resistance points in the Dutch stock market: A natural experiment",
+   "year": 2006,
+   "container": "European Economic Review",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2052114",
+   "title": "Has Political Instability Contributed to Price Clustering on Fiji\u2019s Stock Market?",
+   "year": 2012,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>The goal of this paper is to examine evidence of stock price clustering on the South Pacific Stock Exchange, located in Fiji, and explore its determinants. We find that stock prices cluster at the decimal of 0 and 5, with almost half of prices settling on these two decimals. Upon investigating the determinants of price clustering on the South Pacific Stock Exchange we find that price level and volume of trade have a statistically significant positive effect on price clustering. We also propose and test a \"panic trading\" hypothesis which states political instability induces price cluste"
+  }
+ ]
+}

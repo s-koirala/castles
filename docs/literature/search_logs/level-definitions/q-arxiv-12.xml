@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RReVurhiM/8kBgCpwfOuIubrrSY</id>
+  <title>arXiv Query: search_query=all:"round number" AND cat:q-fin*&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-08-21T18:13:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22round+number%22+AND+cat:q-fin*&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1402.0910v1</id>
+    <title>The $500.00 AAPL close: Manipulation or hedging? A quantitative analysis</title>
+    <updated>2014-02-04T23:18:02Z</updated>
+    <link href="https://arxiv.org/abs/1402.0910v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.0910v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Why do a market's prices move up or down? Claims about causes are made without actual information, and accepted or dismissed based upon poor or non-existent evidence. Here we investigate the price movements that ended with Apple stock closing at \$500.00 on January 18, 2013. There is a ready explanation for this price movement: market manipulation by those who sold stock options, who stood to directly benefit from this closing price. Indeed, one web commentator predicted this otherwise unlikely event publicly. This explanation was subsequently dismissed by press articles that claim that stock prices end near such round numbers based upon legitimate hedging activity. But how can we know? We show that the accepted model that points to hedging as the driving cause of prices is not quantitatively consistent with the price movement on that day. The price moved upward too quickly over a period in which the hedgers' position would require selling rather than buying. Under these conditions hedgers would have driven the price away from the strike price rather than toward it. We also show that a long published theory of the role of hedging is incomplete mathematically, and that the correct theory results in much weaker price movements. This evidence substantially weakens the case of those who claim hedging as cause of anomalous market price movements. The explanation that market manipulation is responsible for the final close cannot be dismissed based upon unsubstantiated, even invalid, hedging claims. Such proffered explanations shield potential illegal activity from further inquiry even though the claims behind those explanations have not been demonstrated.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-04T23:18:02Z</published>
+    <arxiv:comment>18 pages, 3 figures. Also available at http://necsi.edu/research/economics/options/AAPLclose.html</arxiv:comment>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <author>
+      <name>Yavni Bar-Yam</name>
+    </author>
+    <author>
+      <name>Marcus A. M. de Aguiar</name>
+    </author>
+    <author>
+      <name>Yaneer Bar-Yam</name>
+    </author>
+  </entry>
+</feed>

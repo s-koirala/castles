@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-24",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=kernel+density+estimation+price+distribution+modes+financial+time+series&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 6609115,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.1017/cbo9781139540933.007",
+   "title": "Dynamic Kernel Density Estimation and Time-Varying Quantiles",
+   "year": 2013,
+   "container": "Dynamic Models for Volatility and Heavy Tails",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj.15174/supp-8",
+   "title": "Supplemental Information 8: Kernel density estimation of patient distribution",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj.15174/fig-4",
+   "title": "Figure 4: Kernel density estimation of patient distribution, HFNC, and ventilator management.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.5173918",
+   "title": "Density Estimation for Financial Fraud Detection: A Multivariate Kernel-Based Approach",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>&lt;span&gt;The detection of insider trading has become increasingly challenging due to the complexity of modern financial markets. This paper introduces a novel approach using Volume-Weighted Multivariate Kernel Density Estimation to identify potential insider trading activities. By integrating volume-weighting with the Kernel Density Estimation framework, this method effectively captures abnormal price-volume relationships, providing a sophisticated means to flag irregular trading behaviour. This paper proposes a robust approach using Volume-Weighted Multivariate Kernel Density Estim"
+  },
+  {
+   "DOI": "10.2139/ssrn.2514882",
+   "title": "Log-Transform Kernel Density Estimation of Income Distribution",
+   "year": 2014,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Standard kernel density estimation methods are very often used in practice to estimate density function. It works well in numerous cases. However, it is known not to work so well with skewed, multimodal and heavy-tailed distributions. Such features are usual with income distributions, defined over the positive support. We first show that a preliminary logarithmic transformation of the data, combined with standard kernel density estimation methods, can provide a much better fit of the overall density estimation. Then, we show that the fit of the bottom of the distribution may not be sat"
+  },
+  {
+   "DOI": "10.1109/bife.2012.43",
+   "title": "The Comparison of Beta Distribution Estimation and Gauss Kernel Density Estimation in the Recovery Rates of Municipal Bonds",
+   "year": 2012,
+   "container": "2012 Fifth International Conference on Business Intelligence and Financial Engineering",
+   "type": "proceedings-article",
+   "abstract": ""
+  }
+ ]
+}

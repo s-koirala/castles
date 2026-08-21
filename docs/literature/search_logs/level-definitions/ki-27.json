@@ -1,0 +1,50 @@
+{
+ "query_id": "ki-27",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=point+and+figure+charting+box+size+reversal&rows=5&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1652428,
+ "n_records_retrieved": 5,
+ "items": [
+  {
+   "DOI": "10.1002/9781118662434.ch2",
+   "title": "Point and Figure Fundamentals",
+   "year": 2012,
+   "container": "Point and Figure Charting",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119204398.ch11",
+   "title": "Integrating Price Break, Kagi, Renko, and Point and Figure Charting",
+   "year": 2012,
+   "container": "Sentiment Indicators",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118662434.ch12",
+   "title": "Trading Options Using Point and Figure",
+   "year": 2012,
+   "container": "Point and Figure Charting",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj.21007/fig-2",
+   "title": "Figure 2: Median clade size class box plot.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj.13123/fig-5",
+   "title": "Figure 5: Box plot with centroid size variation.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  }
+ ]
+}

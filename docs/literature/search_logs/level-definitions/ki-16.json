@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-16",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Curcio+Goodhart+Guillaume+Payne+do+technical+trading+rules+generate+profits+conclusions+from+the+intra-day+foreign+exchange+market&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 11328,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1002/(sici)1099-1158(199710)2:4<267::aid-jfe57>3.0.co;2-j",
+   "title": "Do technical trading rules generate profits? Conclusions from the intra-day foreign exchange market",
+   "year": 1997,
+   "container": "International Journal of Finance &amp; Economics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-1-4615-4621-4_6",
+   "title": "Do Technical Trading Rules Generate Profits?",
+   "year": 2000,
+   "container": "Intradaily Exchange Rate Movements",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.947589",
+   "title": "Do Technical Trading Profits Remain in the Foreign Exchange Market? Evidence from Fourteen Currencies",
+   "year": 2006,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We examine the in- and out-of-sample behavior of two popular trading systems, Alexander and Double MA filters, for fourteen developed-country currencies using daily data with bid-ask spreads. We find significant in-sample returns in the early periods. But out-of-sample returns are lower and only occasionally significant. We show that a currency risk factor proposed in the literature is systematically related to these returns. We find no support for the hypotheses that falling transactions costs are responsible for declining trading profits or for the Adaptive Market hypothesis.  Import"
+  }
+ ]
+}

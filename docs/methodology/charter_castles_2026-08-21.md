@@ -25,6 +25,23 @@ that knowledge was established, and where it breaks.
 The domain is deliberately unbounded and expected to grow. There is no terminal
 goal state and no fixed deliverable set. What is fixed is the method.
 
+## What this is not
+
+**This repository specifies; it does not execute.** See
+[ADR-0003](../decisions/ADR-0003-specification-not-execution.md).
+
+In scope: corpora, definitional surveys, methods notes, failure autopsies,
+agendas, decision records, and the *specification* of a test — its null, its
+statistic, its surrogate, its aggregation rule, its refutation condition.
+
+Out of scope: running the test, fitting anything, backtesting, and any artifact
+reporting a result. Executing projects consume this output; a `TO COMPUTE` marker
+is a handoff, not a debt this repository pays.
+
+A branch is **complete when its test is fully specified**, not when it has been
+run. This boundary was unwritten through rounds 1–3 and the agendas drifted past
+it unchallenged, which is why it is stated here rather than assumed.
+
 ## Standing commitments
 
 1. **Unbounded domain, bounded method.** Any question may enter. Every question

@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-22",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=supply+and+demand+zones+price+action+trading+definition&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1505019,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.3905/jot.2015.2015.1.042",
+   "title": "Behind Stock Price Movement:<i>Supply and Demand in Market Microstructure and Market Influence</i>",
+   "year": 2015,
+   "container": "The Journal of Trading",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1093/oso/9780199352227.003.0002",
+   "title": "Cultural demand and supply in an imperial trading centre",
+   "year": 2018,
+   "container": "Oxford Scholarship Online",
+   "type": "book",
+   "abstract": "<p>The Liverpool Philharmonic Society lies fifth in line among the oldest concert-giving organisations in Europe. This chapter, tapping the Society\u2019s archive, examines the fundamental internal and external hierarchies which governed and shaped the early development of the Society\u2019s orchestra. To what extent were core values dictated by external supply and demand and to what extent by the personal interests of the leading figures in the Society? What conclusions can be reached about the elements of Liverpool\u2019s activities that were independently governed by local demands? Probing the social expe"
+  },
+  {
+   "DOI": "10.1109/energycon.2016.7514113",
+   "title": "Identifying price zones using nodal prices and supply &amp; demand weighted nodes",
+   "year": 2016,
+   "container": "2016 IEEE International Energy Conference (ENERGYCON)",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119202592.ch1",
+   "title": "The Spectrum of Price Action: Extreme Trends to Extreme Trading Ranges",
+   "year": 2012,
+   "container": "Trading Price Action Trends",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119202608.part4",
+   "title": "Trading Ranges",
+   "year": 2012,
+   "container": "Trading Price Action Trading Ranges",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119202608.ch22",
+   "title": "Tight Trading Ranges",
+   "year": 2012,
+   "container": "Trading Price Action Trading Ranges",
+   "type": "other",
+   "abstract": ""
+  }
+ ]
+}

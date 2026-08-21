@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-20",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Ni+Pearson+Poteshman+stock+price+clustering+on+option+expiration+dates&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1172524,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.519044",
+   "title": "Stock Price Clustering on Option Expiration Dates",
+   "year": 2004,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper presents striking evidence that option trading changes the prices of underlying stocks.  In particular, we show that on expiration dates the closing prices of stocks with listed options cluster at option strike prices.  On each expiration date, the returns of optionable stocks are altered by an average of at least 16.5 basis points, which translates into aggregate market capitalization shifts on the order of $9 billion.  We provide evidence that hedge re-balancing by option market-makers and stock price manipulation by firm proprietary traders contribute to the clustering.</"
+  },
+  {
+   "DOI": "10.1016/j.jfineco.2004.08.005",
+   "title": "Stock price clustering on option expiration dates",
+   "year": 2005,
+   "container": "Journal of Financial Economics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2469/dig.v36.n2.4133",
+   "title": "Stock Price Clustering on Option Expiration Dates",
+   "year": 2006,
+   "container": "CFA Digest",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

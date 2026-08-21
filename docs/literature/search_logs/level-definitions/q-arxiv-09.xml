@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GhXG40TYA0FrxxdD6Kr5BoRr/AU</id>
+  <title>arXiv Query: search_query=all:"trend line" AND all:"detection" AND cat:q-fin*&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-08-21T18:13:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22trend+line%22+AND+(all:%22detection%22+AND+cat:q-fin*)&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0605179v1</id>
+    <title>Microeconomic co-evolution model for financial technical analysis signals</title>
+    <updated>2006-05-20T15:41:12Z</updated>
+    <link href="https://arxiv.org/abs/physics/0605179v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0605179v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Technical analysis (TA) has been used for a long time before the availability of more sophisticated instruments for financial forecasting in order to suggest decisions on the basis of the occurrence of data patterns. Many mathematical and statistical tools for quantitative analysis of financial markets have experienced a fast and wide growth and have the power for overcoming classical technical analysis methods. This paper aims to give a measure of the reliability of some information used in TA by exploring the probability of their occurrence within a particular $microeconomic$ agent based model of markets, i.e., the co-evolution Bak-Sneppen model originally invented for describing species population evolutions. After having proved the practical interest of such a model in describing financial index so called avalanches, in the prebursting bubble time rise, the attention focuses on the occurrence of trend line detection crossing of meaningful barriers, those that give rise to some usual technical analysis strategies. The case of the NASDAQ crash of April 2000 serves as an illustration.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-05-20T15:41:12Z</published>
+    <arxiv:comment>26 pages including 12 figures, 2 tables, 63 references, submitted to Physica A</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Physica A 373 (2007) 569-585</arxiv:journal_ref>
+    <author>
+      <name>G. Rotundo</name>
+      <arxiv:affiliation>Viterbo and Roma</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Ausloos</name>
+      <arxiv:affiliation>Liege</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2006.04.062</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2006.04.062" title="doi"/>
+  </entry>
+</feed>

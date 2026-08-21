@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-08",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=stop+loss+order+clustering+support+resistance+foreign+exchange&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 3300846,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1007/springerreference_2595",
+   "title": "Stop-Loss Order",
+   "year": null,
+   "container": "SpringerReference",
+   "type": "reference-entry",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.36985/saj8g536",
+   "title": "UJI EFEKTIVITAS METODE BREAKOUT SUPPORT RESISTANCE UNTUK PROBABILITAS PADA FOREIGN EXCHANGE MARKET (FOREX)",
+   "year": 2024,
+   "container": "Manajemen: Jurnal Ekonomi",
+   "type": "journal-article",
+   "abstract": "<jats:p>Penelitian ini menyelidiki efektivitas strategi perdagangan Breakout Sideways dalam pasar Forex, dengan fokus khusus pada pair XAUUSD dalam timeframe H1 sepanjang tahun 2022. Tujuan utamanya adalah untuk menentukan profitabilitas strategi dan mengevaluasi kejadian Kerugian dan Profit Berturut - turut. Dengan menggunakan backtesting sebagai metode penelitian utama, kinerja strategi dianalisis melalui data historis. Hasil penelitian menunjukkan tingkat probabilitas sebesar 72,73% untuk mencapai hasil yang konsisten sesuai dengan strategi, dengan terjadinya 9 kali keuntungan berturut - tu"
+  },
+  {
+   "DOI": "10.1007/0-387-26336-5_1957",
+   "title": "Stop-Loss Order",
+   "year": null,
+   "container": "Encyclopedia of Finance",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-1-349-00192-7_20",
+   "title": "Stop-Go",
+   "year": 1970,
+   "container": "Foreign Exchange Crises",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.70675/e7d8a6eeze862z42cazb509z6b7f5821592b",
+   "title": "Clustering in foreign exchange markets : price, trades and traders",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": "<jats:title>Clustering sur les march\u00e9s FX : prix, trades et traders</jats:title>\n                <jats:p xml:lang=\"fr\">En utilisant des donn\u00e9es haute-fr\u00e9quence in\u00e9dites, cette th\u00e8se \u00e9tudie trois types de regroupements (\u201cclusters\u201d) pr\u00e9sents dans le march\u00e9 des changes: la concentration d'ordres sur certains prix, la concentration des transactions dans le temps et l'existence de groupes d'investisseurs prenant les m\u00eames d\u00e9cisions. Nous commen\u00e7ons par \u00e9tudier les propri\u00e9t\u00e9s statistiques du carnet d'ordres EBS pour les paires de devises EUR/USD et USD/JPY et l'impact d'une r\u00e9duction de la taille du"
+  },
+  {
+   "DOI": "10.2139/ssrn.5859402",
+   "title": "A Simple Trading Strategy with a Stop-Loss and Take-Profit Order",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.7266458",
+   "title": "Pricing a Financial Instrument: The Economic Value of the Stop-Loss Order",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper addresses a counter-intuitive proposition. Instruments such as the stop-loss are normally discussed purely in terms of risk management, where a well-documented trade-off holds between reducing risk and raising return-higher expected return demands higher risk. The hypothesis advanced here is that the stop-loss order has a special property that lets it do both at once: it can lower risk while simultaneously raising return. In other words, the stop-loss carries a positive economic value.\n&lt;div&gt;\n To establish this, the paper first situates the stop-loss \u2014 alongside the tak"
+  },
+  {
+   "DOI": "10.1002/9781119198574.ch16",
+   "title": "Support and Resistance",
+   "year": 2012,
+   "container": "Stop and Make Money",
+   "type": "other",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-01",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Kavajecz+Odders-White+Technical+analysis+and+liquidity+provision&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 7771132,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.315660",
+   "title": "Technical Analysis and Liquidity Provision",
+   "year": 2002,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>The apparent conflict between the level of resources dedicated to technical analysis by practitioners and academic theories of market efficiency is a long-standing puzzle. We offer an alternative explanation for the value of technical analysis that is consistent with market efficiency - specifically, that it reveals information about liquidity provision. We find evidence consistent with the hypotheses that support and resistance levels coincide with peaks in depth on the limit order book and that moving average forecasts reveal information about the relative position of depth on the bo"
+  },
+  {
+   "DOI": "10.1093/rfs/hhg057",
+   "title": "Technical Analysis and Liquidity Provision",
+   "year": 2004,
+   "container": "Review of Financial Studies",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.208292",
+   "title": "Liquidity Provision During Circuit Breakers and Extreme Market Movements",
+   "year": 2000,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>On October 27, 1997, circuit breakers caused the New York Stock Exchange (NYSE) to halt trading for the first time in history as the Dow Jones Industrial Average (DJIA) lost 554 points. The next day, the NYSE traded a record 1.2 billion shares as the DJIA increased by 337 points, the largest single-day point gain to date. Using data on the limit order books and specialists? quotes, we examine liquidity provision by limit order traders and floor members during thse extreme market movements. We find evidence that specialists fulfilled their obligations to ?lean against the wind? even tho"
+  }
+ ]
+}

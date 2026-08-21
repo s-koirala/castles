@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-01",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=support+and+resistance+levels+technical+analysis&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 9030829,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1201/9781420013146-27",
+   "title": "Support and Resistance",
+   "year": 2007,
+   "container": "Technical Analysis of Stock Trends",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1201/b14301-23",
+   "title": "Support and Resistance",
+   "year": 2012,
+   "container": "Technical Analysis of Stock Trends",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119204213.ch6",
+   "title": "The Soul of Technical Analysis",
+   "year": 2012,
+   "container": "Essentials of Technical Analysis for Financial Markets",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1201/9781420013146-52",
+   "title": "Use of Support and Resistance",
+   "year": 2007,
+   "container": "Technical Analysis of Stock Trends",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1201/b14301-40",
+   "title": "Use of Support and Resistance",
+   "year": 2012,
+   "container": "Technical Analysis of Stock Trends",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1201/9781420013146.ch13",
+   "title": "Support and Resistance",
+   "year": 2007,
+   "container": "Technical Analysis of Stock Trends, Ninth Edition",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1201/9781420013146.ch30",
+   "title": "Use of Support and Resistance",
+   "year": 2007,
+   "container": "Technical Analysis of Stock Trends, Ninth Edition",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.5220/0014988200004091",
+   "title": "DeepSupp: Attention-Driven Correlation Pattern Analysis for Dynamic Time Series Support and Resistance Levels Identification",
+   "year": 2026,
+   "container": "Proceedings of the 15th International Conference on Data Science, Technology and Applications",
+   "type": "proceedings-article",
+   "abstract": ""
+  }
+ ]
+}

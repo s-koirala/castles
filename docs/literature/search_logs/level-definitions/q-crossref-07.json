@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-07",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=pivot+point+intraday+trading+levels+futures&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1105468,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1002/9781119202233.ch6",
+   "title": "Pivot Point Moving Average System",
+   "year": 2012,
+   "container": "Candlestick and Pivot Point Trading Triggers",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119295594.ch6",
+   "title": "Pivot Point Moving Average System",
+   "year": 2020,
+   "container": "Candlestick and Pivot Point Trading Triggers",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119202233.ch1",
+   "title": "Trading Vehicles, Stock, ETFs, Futures, and Forex",
+   "year": 2012,
+   "container": "Candlestick and Pivot Point Trading Triggers",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119295594.ch1",
+   "title": "Trading Vehicles, Stock,\n            <scp>ETFs</scp>\n            , Futures, and Forex",
+   "year": 2020,
+   "container": "Candlestick and Pivot Point Trading Triggers",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119202233.fmatter",
+   "title": "Front Matter",
+   "year": 2012,
+   "container": "Candlestick and Pivot Point Trading Triggers",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119295594.fmatter",
+   "title": "Front Matter",
+   "year": 2020,
+   "container": "Candlestick and Pivot Point Trading Triggers",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119295594.ch0",
+   "title": "Introduction",
+   "year": 2020,
+   "container": "Candlestick and Pivot Point Trading Triggers",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119295594",
+   "title": "Candlestick and Pivot Point Trading Triggers",
+   "year": 2020,
+   "container": "",
+   "type": "monograph",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3Fr4KAPcMuVYjyB7qZjiW/9QZ8I</id>
+  <title>arXiv Query: search_query=all:"price barrier" AND cat:q-fin*&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-08-21T18:13:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22price+barrier%22+AND+cat:q-fin*&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1211.5726v1</id>
+    <title>Application of simplest random walk algorithms for pricing barrier options</title>
+    <updated>2012-11-25T04:50:55Z</updated>
+    <link href="https://arxiv.org/abs/1211.5726v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.5726v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate effectiveness of the first-order algorithm from [Milstein, Tretyakov. Theory Prob. Appl. 47 (2002), 53-68] in application to barrier option pricing. The algorithm uses the weak Euler approximation far from barriers and a special construction motivated by linear interpolation of the price near barriers. It is easy to implement and is universal: it can be applied to various structures of the contracts including derivatives on multi-asset correlated underlyings and can deal with various type of barriers. In contrast to the Brownian bridge techniques currently commonly used for pricing barrier options, the algorithm tested here does not require knowledge of trigger probabilities nor their estimates. We illustrate this algorithm via pricing a barrier caplet, barrier trigger swap and barrier swaption.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-25T04:50:55Z</published>
+    <arxiv:comment>It's a pre-publication which final version will appear as a chapter in Recent Developments in Computational Finance (Eds. T. Gerstner and P.E. Kloeden), 2013. [it has one picture and 22 pages]</arxiv:comment>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>M. Krivko</name>
+    </author>
+    <author>
+      <name>M. V. Tretyakov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.07849v1</id>
+    <title>Toward an efficient hybrid method for pricing barrier options on assets with stochastic volatility</title>
+    <updated>2022-02-16T04:04:43Z</updated>
+    <link href="https://arxiv.org/abs/2202.07849v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.07849v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We combine the one-dimensional Monte Carlo simulation and the semi-analytical one-dimensional heat potential method to design an efficient technique for pricing barrier options on assets with correlated stochastic volatility. Our approach to barrier options valuation utilizes two loops. First we run the outer loop by generating volatility paths via the Monte Carlo method. Second, we condition the price dynamics on a given volatility path and apply the method of heat potentials to solve the conditional problem in closed-form in the inner loop. We illustrate the accuracy and efficacy of our semi-analytical approach by comparing it with the two-dimensional Monte Carlo simulation and a hybrid method, which combines the finite-difference technique for the inner loop and the Monte Carlo simulation for the outer loop. We apply our method for computation of state probabilities (Green function), survival probabilities, and values of call options with barriers. Our approach provides better accuracy and is orders of magnitude faster than the existing methods. s a by-product of our analysis, we generalize Willard's (1997) conditioning formula for valuation of path-independent options to path-dependent options and derive a novel expression for the joint probability density for the value of drifted Brownian motion and its running minimum.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-16T04:04:43Z</published>
+    <arxiv:comment>33 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Alexander Lipton</name>
+    </author>
+    <author>
+      <name>Artur Sepp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.00077v1</id>
+    <title>Fluctuation identities with continuous monitoring and their application to price barrier options</title>
+    <updated>2017-11-30T21:01:01Z</updated>
+    <link href="https://arxiv.org/abs/1712.00077v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.00077v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a numerical scheme to calculate fluctuation identities for exponential Lévy processes in the continuous monitoring case. This includes the Spitzer identities for touching a single upper or lower barrier, and the more difficult case of the two-barriers exit problem. These identities are given in the Fourier-Laplace domain and require numerical inverse transforms. Thus we cover a gap in the literature that has mainly studied the discrete monitoring case; indeed, there are no existing numerical methods that deal with the continuous case. As a motivating application we price continuously monitored barrier options with the underlying asset modelled by an exponential Lévy process. We perform a detailed error analysis of the method and develop error bounds to show how the performance is limited by the truncation error of the sinc-based fast Hilbert transform used for the Wiener-Hopf factorisation. By comparing the results for our new technique with those for the discretely monitored case (which is in the Fourier-$z$ domain) as the monitoring time step approaches zero, we show that the error convergence with continuous monitoring represents a limit for the discretely monitored scheme.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-30T21:01:01Z</published>
+    <arxiv:comment>30 pages, 13 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Carolyn E. Phelan</name>
+    </author>
+    <author>
+      <name>Daniele Marazzina</name>
+    </author>
+    <author>
+      <name>Gianluca Fusai</name>
+    </author>
+    <author>
+      <name>Guido Germano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.10966v2</id>
+    <title>Pricing Barrier Options with DeepBSDEs</title>
+    <updated>2024-09-11T19:33:30Z</updated>
+    <link href="https://arxiv.org/abs/2005.10966v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.10966v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a novel and direct approach to price boundary and final-value problems, corresponding to barrier options, using forward deep learning to solve forward-backward stochastic differential equations (FBSDEs). Barrier instruments are instruments that expire or transform into another instrument if a barrier condition is satisfied before maturity; otherwise they perform like the instrument without the barrier condition. In the PDE formulation, this corresponds to adding boundary conditions to the final value problem. The deep BSDE methods developed so far have not addressed barrier/boundary conditions directly. We extend the forward deep BSDE to the barrier condition case by adding nodes to the computational graph to explicitly monitor the barrier conditions for each realization of the dynamics as well as nodes that preserve the time, state variables, and trading strategy value at barrier breach or at maturity otherwise. Given these additional nodes in the computational graph, the forward loss function quantifies the replication of the barrier or final payoff according to a chosen risk measure such as squared sum of differences. The proposed method can handle any barrier condition in the FBSDE set-up and any Dirichlet boundary conditions in the PDE set-up, both in low and high dimensions.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-22T02:00:00Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <arxiv:journal_ref>Journal of Computational Finance, 25(4):1-25 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Narayan Ganesan</name>
+    </author>
+    <author>
+      <name>Yajie Yu</name>
+    </author>
+    <author>
+      <name>Bernhard Hientzsch</name>
+    </author>
+    <arxiv:doi>10.21314/JCF.2021.016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21314/JCF.2021.016" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.00940v1</id>
+    <title>Pricing barrier options with discrete dividends</title>
+    <updated>2016-01-05T19:16:09Z</updated>
+    <link href="https://arxiv.org/abs/1601.00940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.00940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The presence of discrete dividends complicates the derivation and form of pricing formulas even for vanilla options. Existing analytic, numerical, and theoretical approximations provide results of varying quality and performance. Here, we compare the analytic approach, developed and effective for European puts and calls, of Buryak and Guo with the formulas, designed in the context of barrier option pricing, of Dai and Chiu.</summary>
+    <category term="q-fin.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-05T19:16:09Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="q-fin.PR"/>
+    <author>
+      <name>D. Jason Gibson</name>
+    </author>
+    <author>
+      <name>Aaron Wingo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.3002v5</id>
+    <title>A Semi-group Expansion for Pricing Barrier Options</title>
+    <updated>2013-06-04T03:12:15Z</updated>
+    <link href="https://arxiv.org/abs/1202.3002v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.3002v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a new asymptotic expansion method for pricing continuously monitoring barrier options. In particular, we develops a semi-group expansion scheme for the Cauchy-Dirichlet problem in the second-order parabolic partial differential equations (PDEs) arising in barrier option pricing. As an application, we propose a concrete approximation formula under a stochastic volatility model and demonstrate its validity by some numerical experiments.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-14T11:25:38Z</published>
+    <arxiv:comment>29 pages</arxiv:comment>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Takashi Kato</name>
+    </author>
+    <author>
+      <name>Akihiko Takahashi</name>
+    </author>
+    <author>
+      <name>Toshihiro Yamada</name>
+    </author>
+    <arxiv:doi>10.1155/2014/268086</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1155/2014/268086" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.02858v2</id>
+    <title>Efficient inverse $Z$-transform and pricing barrier and lookback options with discrete monitoring</title>
+    <updated>2022-07-28T23:42:38Z</updated>
+    <link href="https://arxiv.org/abs/2207.02858v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.02858v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove simple general formulas for expectations of functions of a random walk and its running extremum. Under additional conditions, we derive analytical formulas using the inverse $Z$-transform, the Fourier/Laplace inversion and Wiener-Hopf factorization, and discuss efficient numerical methods for realization of these formulas. As applications, the cumulative probability distribution function of the process and its running maximum and the price of the option to exchange the power of a stock for its maximum are calculated. The most efficient numerical methods use a new efficient numerical realization of the inverse $Z$-transform, the sinh-acceleration technique and simplified trapezoid rule. The program in Matlab running on a Mac with moderate characteristics achieves the precision E-10 and better in several dozen of milliseconds, and E-14 - in a fraction of a isecond.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-06T16:38:15Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2207.02793</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Svetlana Boyarchenko</name>
+    </author>
+    <author>
+      <name>Sergei Levendorskiĭ</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0908.4028v2</id>
+    <title>Continuously monitored barrier options under Markov processes</title>
+    <updated>2010-12-03T17:25:29Z</updated>
+    <link href="https://arxiv.org/abs/0908.4028v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0908.4028v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we present an algorithm for pricing barrier options in one-dimensional Markov models. The approach rests on the construction of an approximating continuous-time Markov chain that closely follows the dynamics of the given Markov model. We illustrate the method by implementing it for a range of models, including a local Levy process and a local volatility jump-diffusion. We also provide a convergence proof and error estimates for this algorithm.</summary>
+    <category term="q-fin.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-08-27T15:04:49Z</published>
+    <arxiv:comment>35 pages, 5 figures, to appear in Mathematical Finance</arxiv:comment>
+    <arxiv:primary_category term="q-fin.PR"/>
+    <author>
+      <name>Aleksandar Mijatovic</name>
+    </author>
+    <author>
+      <name>Martijn Pistorius</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.03364v2</id>
+    <title>Efficient Pricing of Barrier Options on High Volatility Assets using Subset Simulation</title>
+    <updated>2018-03-28T00:44:53Z</updated>
+    <link href="https://arxiv.org/abs/1803.03364v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.03364v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Barrier options are one of the most widely traded exotic options on stock exchanges. In this paper, we develop a new stochastic simulation method for pricing barrier options and estimating the corresponding execution probabilities. We show that the proposed method always outperforms the standard Monte Carlo approach and becomes substantially more efficient when the underlying asset has high volatility, while it performs better than multilevel Monte Carlo for special cases of barrier options and underlying assets. These theoretical findings are confirmed by numerous simulation results.</summary>
+    <category term="q-fin.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-09T02:49:08Z</published>
+    <arxiv:comment>41 pages, 9 figures, 3 tables, available at SSRN: https://ssrn.com/abstract=3132336</arxiv:comment>
+    <arxiv:primary_category term="q-fin.PR"/>
+    <author>
+      <name>Keegan Mendonca</name>
+    </author>
+    <author>
+      <name>Vasileios E. Kontosakos</name>
+    </author>
+    <author>
+      <name>Athanasios A. Pantelous</name>
+    </author>
+    <author>
+      <name>Konstantin M. Zuev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1405.5294v2</id>
+    <title>Valuation of Barrier Options using Sequential Monte Carlo</title>
+    <updated>2015-07-24T03:20:57Z</updated>
+    <link href="https://arxiv.org/abs/1405.5294v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1405.5294v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sequential Monte Carlo (SMC) methods have successfully been used in many applications in engineering, statistics and physics. However, these are seldom used in financial option pricing literature and practice. This paper presents SMC method for pricing barrier options with continuous and discrete monitoring of the barrier condition. Under the SMC method, simulated asset values rejected due to barrier condition are re-sampled from asset samples that do not breach the barrier condition improving the efficiency of the option price estimator; while under the standard Monte Carlo many simulated asset paths can be rejected by the barrier condition making it harder to estimate option price accurately. We compare SMC with the standard Monte Carlo method and demonstrate that the extra effort to implement SMC when compared with the standard Monte Carlo is very little while improvement in price estimate can be significant. Both methods result in unbiased estimators for the price converging to the true value as $1/\sqrt{M}$, where $M$ is the number of simulations (asset paths). However, the variance of SMC estimator is smaller and does not grow with the number of time steps when compared to the standard Monte Carlo. In this paper we demonstrate that SMC can successfully be used for pricing barrier options. SMC can also be used for pricing other exotic options and also for cases with many underlying assets and additional stochastic factors such as stochastic volatility; we provide general formulas and references.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-05-21T04:27:17Z</published>
+    <arxiv:comment>Journal of Computational Finance (2015)</arxiv:comment>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <arxiv:journal_ref>Journal of Computational Finance 20(4), pp. 107-135, 2017</arxiv:journal_ref>
+    <author>
+      <name>Pavel V. Shevchenko</name>
+    </author>
+    <author>
+      <name>Pierre Del Moral</name>
+    </author>
+    <arxiv:doi>10.21314/JCF.2016.324</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21314/JCF.2016.324" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4548v1</id>
+    <title>A method of moments approach to pricing double barrier contracts driven by a general class of jump diffusions</title>
+    <updated>2008-12-24T16:57:32Z</updated>
+    <link href="https://arxiv.org/abs/0812.4548v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4548v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present the method of moments approach to pricing barrier-type options when the underlying is modelled by a general class of jump diffusions. By general principles the option prices are linked to certain infinite dimensional linear programming problems. Subsequently approximating those systems by finite dimensional linear programming problems, upper and lower bounds for the prices of such options are found. As numerical illustration we apply the method to the valuation of several barrier-type options (double barrier knockout option, American corridor and double no touch) under a number of different models, including a case with deterministic interest rates, and compare with Monte Carlo simulation results. In all cases we find tight bounds with short execution times. Theoretical convergence results are also provided.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-24T16:57:32Z</published>
+    <arxiv:comment>22 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Bjorn Eriksson</name>
+    </author>
+    <author>
+      <name>Martijn Pistorius</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.5440v3</id>
+    <title>Tick Size Reduction and Price Clustering in a FX Order Book</title>
+    <updated>2014-09-29T08:34:20Z</updated>
+    <link href="https://arxiv.org/abs/1307.5440v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.5440v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the statistical properties of the EBS order book for the EUR/USD and USD/JPY currency pairs and the impact of a ten-fold tick size reduction on its dynamics. A large fraction of limit orders are still placed right at or halfway between the old allowed prices. This generates price barriers where the best quotes lie for much of the time, which causes the emergence of distinct peaks in the average shape of the book at round distances. Furthermore, we argue that this clustering is mainly due to manual traders who remained set to the old price resolution. Automatic traders easily take price priority by submitting limit orders one tick ahead of clusters, as shown by the prominence of buy (sell) limit orders posted with rightmost digit one (nine).</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-20T17:09:06Z</published>
+    <arxiv:comment>17 pages, Minor revisions</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <arxiv:journal_ref>Physica A, Volume 416, 15 December 2014, Pages 488-498</arxiv:journal_ref>
+    <author>
+      <name>Mehdi Lallouache</name>
+    </author>
+    <author>
+      <name>Frédéric Abergel</name>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2014.09.016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2014.09.016" title="doi"/>
+  </entry>
+</feed>

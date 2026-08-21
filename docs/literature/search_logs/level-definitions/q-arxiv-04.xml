@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Gi6i5bMnE4rkRG8HEoMOE6GZyv0</id>
+  <title>arXiv Query: search_query=all:"tick size" AND all:"price discreteness"&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-08-21T18:12:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22tick+size%22+AND+all:%22price+discreteness%22&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2207.11152v1</id>
+    <title>Learn Continuously, Act Discretely: Hybrid Action-Space Reinforcement Learning For Optimal Execution</title>
+    <updated>2022-07-22T15:50:44Z</updated>
+    <link href="https://arxiv.org/abs/2207.11152v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.11152v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optimal execution is a sequential decision-making problem for cost-saving in algorithmic trading. Studies have found that reinforcement learning (RL) can help decide the order-splitting sizes. However, a problem remains unsolved: how to place limit orders at appropriate limit prices? The key challenge lies in the "continuous-discrete duality" of the action space. On the one hand, the continuous action space using percentage changes in prices is preferred for generalization. On the other hand, the trader eventually needs to choose limit prices discretely due to the existence of the tick size, which requires specialization for every single stock with different characteristics (e.g., the liquidity and the price range). So we need continuous control for generalization and discrete control for specialization. To this end, we propose a hybrid RL method to combine the advantages of both of them. We first use a continuous control agent to scope an action subset, then deploy a fine-grained agent to choose a specific limit price. Extensive experiments show that our method has higher sample efficiency and better training stability than existing RL algorithms and significantly outperforms previous learning-based methods for order execution.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-22T15:50:44Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Feiyang Pan</name>
+    </author>
+    <author>
+      <name>Tongzhe Zhang</name>
+    </author>
+    <author>
+      <name>Ling Luo</name>
+    </author>
+    <author>
+      <name>Jia He</name>
+    </author>
+    <author>
+      <name>Shuoling Liu</name>
+    </author>
+  </entry>
+</feed>

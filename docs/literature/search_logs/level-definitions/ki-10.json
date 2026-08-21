@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-10",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Osler+support+for+resistance+technical+analysis+and+intraday+exchange+rates&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 9105562,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.2080743",
+   "title": "Intraday Technical Analysis of Individual Stocks on the Tokyo Stock Exchange",
+   "year": 2012,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper conducts an intraday technical analysis of individual stocks listed on the Nikkei 225. In addition to the price-based technical rules popularly examined in the literature, we propose and statistically investigate technical rules that utilize information regarding 1) the order-flow imbalance and 2) the order-book imbalance. Such rules have not been developed and investigated by previous studies on technical analysis. Technical analysis using the imbalance-based trading rules is motivated by the evidence presented first in this paper that short-term returns can be predicted fr"
+  },
+  {
+   "DOI": "10.2139/ssrn.923370",
+   "title": "Currency Orders and Exchange-Rate Dynamics: Explaining the Success of Technical Analysis",
+   "year": 2006,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper provides a microstructural explanation for the success of two familiar predictions from technical analysis: 1) trends tend to be reversed at predictable support and resistance levels, and 2) trends gain momentum once predictable support and resistance levels are crossed. \r\n\r\nThe explanation is based on a close examination of stop-loss and take-profit orders at a large foreign exchange dealing bank. Take-profit orders tend to reflect price trends, and stop-loss orders tend to intensify trends. The requested execution rates of these orders are strongly clustered at round numbe"
+  },
+  {
+   "DOI": "10.17298/kky.2012.18.4.005",
+   "title": "Monetary Policy Shocks and the Exchange Rates: Intraday High-Frequency Data Analysis",
+   "year": 2012,
+   "container": "KUKJE KYUNGJE YONGU",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

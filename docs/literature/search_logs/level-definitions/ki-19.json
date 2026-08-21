@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-19",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=De+Ceuster+Dhaene+Schatteman+on+the+hypothesis+of+psychological+barriers+in+stock+markets+and+Benford+law&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 105500,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1016/s0927-5398(97)00024-8",
+   "title": "On the hypothesis of psychological barriers in stock markets and Benford's Law",
+   "year": 1998,
+   "container": "Journal of Empirical Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.672097",
+   "title": "Psychological Barriers in Stocks and Stock Indices - Evidence from European Markets",
+   "year": 2005,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We examine four European stock indices and the prices of eight major German stocks for indications of psychological barriers. Frequency, (expected) returns, intraday volatility and trading volume of these assets are studied when the prices lie within a certain band around round numbers. We find evidence for the existence of psychological barriers, but the assets behave differently at the barriers. Additionally, the indications for psychological barriers are stronger for indices than for stocks.</jats:p>"
+  },
+  {
+   "DOI": "10.1002/fut.20343",
+   "title": "Testing the martingale hypothesis for futures prices: Implications for hedgers",
+   "year": 2008,
+   "container": "Journal of Futures Markets",
+   "type": "journal-article",
+   "abstract": "<jats:title>Abstract</jats:title><jats:p>The martingale hypothesis for futures prices is investigated using a nonparametric approach where it is assumed that the expected futures returns depend (nonparametrically) on a linear combination of predictors. We first collapse the predictors into a single\u2010index variable where the weights are identified up to scale, using the average derivative estimator proposed by T. Stoker (1986). We then use the Nadaraya\u2013Watson kernel estimator to calculate (and visually depict) the relationship between the estimated index and the expected futures returns. We disc"
+  }
+ ]
+}

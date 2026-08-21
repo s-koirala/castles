@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-08",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Ikenberry+Weston+clustering+in+US+stock+prices+after+decimalisation&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2592278,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1111/j.1468-036x.2007.00410.x",
+   "title": "Clustering in US Stock Prices after Decimalisation",
+   "year": 2007,
+   "container": "European Financial Management",
+   "type": "journal-article",
+   "abstract": "<jats:title>Abstract</jats:title><jats:p> <jats:italic>Early in 2001, US equity markets transitioned from trading in discrete price fractions to a smoother decimal format with a tick size of one penny. Theory suggests in an unconstrained world, stock prices should be distributed uniformly, particularly if the cost of defeating time priority is low. This regime change provides a natural experiment to test whether investors prefer to trade at particular price points even when their choices are essentially unconstrained by regulation. Instead of uniformity, we find widespread evidence of price cl"
+  },
+  {
+   "DOI": "10.2139/ssrn.261308",
+   "title": "Us Stock Prices and Macroeconomic Fundamentals",
+   "year": 2001,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Using 54 years of quarterly data and a VAR model underpinned by a theoretical framework describing the relationship between US stock prices and the macroeconomy, this paper analyses the extent to which US stock prices deviate from economy-wide fundamentals. Focusing on real output and using a present value approach, we derive the fundamental price-output ratio and the fundamental stock price under different assumptions regarding the time-variability of returns, and proceed to compare these to actual data. Despite differences between model results, all imply that since 1996, the stock m"
+  },
+  {
+   "DOI": "10.5430/rwe.v6n1p159",
+   "title": "The Relation of the US Dollar with Oil Prices, Gold Prices, and the US Stock Market",
+   "year": 2015,
+   "container": "Research in World Economy",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

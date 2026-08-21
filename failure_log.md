@@ -100,7 +100,31 @@ provisional by the charter's own standard.
   (d) "volatility is forecastable" is settled, not live.
 - **Verified:** CONFIRMED verbatim by literature-check — model list, asset list,
   8-of-10 task-level wins, and the DM sentence all match the source.
-- **Autopsy:** not yet written. Highest priority of the four.
+- **Status — ELEVATED 2026-08-21.** The author has designated this source a
+  **foundational paper** for the project. That raises rather than lowers the bar
+  on the three discriminating observations above, and the direction of the risk
+  is the one that matters:
+  - The paper's finding is **negative** (TSFMs fail to beat a random walk).
+  - The suspected nested-DM defect biases a test **toward finding nothing**.
+  - So a defect here means the paper **understates** TSFM performance, and a
+    foundation built on it would rest on a result weaker than it appears, in the
+    direction that undermines it.
+  - **The conclusion it is being used to support is over-determined and survives
+    regardless**: F002 (ablations, the strongest row here), F003, and F004 reach a
+    compatible position by independent routes and do not share this defect. What
+    is at stake is whether *this paper specifically* can carry foundational
+    weight — a narrower question than whether the position is sound.
+  - Resolving the three observations is therefore a **prerequisite for citing it
+    as foundational**, not an optional tidy-up.
+- **Scope note.** Per [ADR-0003](docs/decisions/ADR-0003-specification-not-execution.md),
+  the paper's conditions (daily US equities, five names) are not the conditions
+  this project is interested in (5-minute ES/NQ/GC/SI). Transporting a null across
+  that gap is itself a claim requiring justification, and the transport direction
+  is unfavourable: intraday futures have higher sampling frequency, different
+  microstructure, and a different signal-to-noise profile than daily equities.
+  Record the transport assumption explicitly wherever this row is cited.
+- **Autopsy:** not yet written. Highest priority of the four, now with a stated
+  prerequisite role.
 
 ## F002 — Removing the LLM component from LLM-based time-series forecasters
 

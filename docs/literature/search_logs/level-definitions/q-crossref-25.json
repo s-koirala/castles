@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-25",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Brownian+local+time+occupation+measure+price+process+sojourn&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 4287660,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.1080/17442508608833409",
+   "title": "Ergodic theory and a local occupation time for measure-valued critical branching brownian motion",
+   "year": 1986,
+   "container": "Stochastics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.15388/na.2009.14.3.14502",
+   "title": "On the Sojourn Time of the Brownian Process in a Multidimensional Sphere",
+   "year": 2009,
+   "container": "Nonlinear Analysis: Modelling and Control",
+   "type": "journal-article",
+   "abstract": "<jats:p>We consider the Brownian motion process Bm(s) in the m-space and the distribution\r\nFm(t, x, a) = P{sup0 \u2264 s \u2264 t|Bm(s) + \u221e| &lt; a}, where a &gt; 0, x \u2208 Rm, |x| &lt; a.\r\nThere is a probability that a particle starting from the point x on the sphere Srm\u00a0with the radius r = |x| &lt; a will not be absorbed by the sphere Sam\u00a0with a radius a before the epoch t.</jats:p>"
+  },
+  {
+   "DOI": "10.15559/24-vmsta243",
+   "title": "Optimal estimation of the local time and the occupation time measure for an \u03b1-stable L\u00e9vy process",
+   "year": 2024,
+   "container": "Modern Stochastics: Theory and Applications",
+   "type": "journal-article",
+   "abstract": "<jats:p>A novel theoretical result on estimation of the local time and the occupation time measure of an \u03b1-stable L\u00e9vy process with $\\alpha \\in (1,2)$ is presented. The approach is based upon computing the conditional expectation of the desired quantities given high frequency data, which is an ${L^{2}}$-optimal statistic by construction. The corresponding stable central limit theorems are proved and a statistical application is discussed. In particular, this work extends the results of [20], which investigated the case of the Brownian motion.</jats:p>"
+  },
+  {
+   "DOI": "10.1017/cbo9780511750489.009",
+   "title": "Brownian local time",
+   "year": 2001,
+   "container": "Brownian Motion",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/s0252-9602(18)30001-8",
+   "title": "ABSOLUTE CONTINUITY OF THE OCCUPATION TIME PROCESSES WITH RESPECT TO LEBESGUE MEASURE FOR SUPER-BROWNIAN MOTION",
+   "year": 1994,
+   "container": "Acta Mathematica Scientia",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3150/19-bej1105",
+   "title": "Sojourn time dimensions of fractional Brownian motion",
+   "year": 2020,
+   "container": "Bernoulli",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-23",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Zovko+Farmer+the+power+of+patience+a+behavioural+regularity+in+limit+order+placement&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2736168,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.316160",
+   "title": "The Power of Patience: A Behavioral Regularity in Limit Order Placement",
+   "year": 2002,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>In this paper we demonstrate a striking regularity in the way people place limit orders in financial markets, using a data set consisting of roughly seven million orders from the London Stock Exchange. We define the relative limit price as the difference between the limit price and the best price available. Merging the data from 50 stocks, we demonstrate that for both buy and sell orders, the unconditional cumulative distribution of relative limit prices decays roughly as a power law with exponent approximately 1.5. This behavior spans more than two decades, ranging from a few ticks to"
+  },
+  {
+   "DOI": "10.1088/1469-7688/2/5/308",
+   "title": "The power of patience: a behavioural regularity in limit-order placement",
+   "year": 2002,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.483603",
+   "title": "The Predictive Power of Zero Intelligence in Financial Markets",
+   "year": 2004,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Standard models in economics stress the role of intelligent agents who maximize utility. However, there may be situations where, for some purposes, constraints imposed by market institutions dominate intelligent agent behavior. We use data from the London Stock Exchange to test a simple model in which zero intelligence agents place orders to trade at random. The model treats the statistical mechanics of order placement, price formation, and the accumulation of revealed supply and demand within the context of the continuous double auction, and yields simple laws relating order arrival r"
+  }
+ ]
+}

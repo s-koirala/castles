@@ -1,0 +1,50 @@
+{
+ "query_id": "q-github-03",
+ "platform": "GitHub REST API code search (api.github.com/search/code)",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "\"value_area\" \"point of control\" language:python",
+ "total_count": 760,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "repo": "edfoo/tai2",
+   "path": "app/lib/volume_profile.py",
+   "html_url": "https://github.com/edfoo/tai2/blob/aaa7114d2eca9d28d0510e3d1661052ef1840431/app/lib/volume_profile.py"
+  },
+  {
+   "repo": "Travis-Clement-Dev/claude-ninjatrader-mcp",
+   "path": "mcp-server/footprint.py",
+   "html_url": "https://github.com/Travis-Clement-Dev/claude-ninjatrader-mcp/blob/31094778ed808cf8c83127cced88d0889186b00f/mcp-server/footprint.py"
+  },
+  {
+   "repo": "marujainil/ai-trading-platform",
+   "path": "backend/app/engines/chartlab.py",
+   "html_url": "https://github.com/marujainil/ai-trading-platform/blob/2ffb99bfba6f2d3e5dd52c08f18c462b5dbbf3fb/backend/app/engines/chartlab.py"
+  },
+  {
+   "repo": "MeridianAlgo/Python-Packages",
+   "path": "meridianalgo/liquidity/volume.py",
+   "html_url": "https://github.com/MeridianAlgo/Python-Packages/blob/9a3870e5cae9adb3e5e96db6b2c82e6c0ef94b2c/meridianalgo/liquidity/volume.py"
+  },
+  {
+   "repo": "EdCharlesDiesel/Dashboard-Pro",
+   "path": "src/core/volume_profile.py",
+   "html_url": "https://github.com/EdCharlesDiesel/Dashboard-Pro/blob/17149868ee502926449c21d20dab353227ebece5/src/core/volume_profile.py"
+  },
+  {
+   "repo": "WiseOakTree/Claude",
+   "path": "research/vp.py",
+   "html_url": "https://github.com/WiseOakTree/Claude/blob/c6a8cc70f94cbf2526c1a83aa326dc366582ca45/research/vp.py"
+  },
+  {
+   "repo": "CharithL/HIMARI-OPUS-2-LAYER-1-SIGNAL-LAYER",
+   "path": "primitives/tdigest_quantiles.py",
+   "html_url": "https://github.com/CharithL/HIMARI-OPUS-2-LAYER-1-SIGNAL-LAYER/blob/a72e3d8c100994b0d248371a15102c331afb87fd/primitives/tdigest_quantiles.py"
+  },
+  {
+   "repo": "Adrian7769/RPI-TradingAlgo",
+   "path": "SlackBot/Source/studies.py",
+   "html_url": "https://github.com/Adrian7769/RPI-TradingAlgo/blob/1d9ee2cce45789b5ef597e3391b49728d3e173af/SlackBot/Source/studies.py"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-21",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Avellaneda+Lipkin+a+market-induced+mechanism+for+stock+pinning&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2936107,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.458020",
+   "title": "A Market-Induced Mechanism for Stock Pinning",
+   "year": 2003,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We propose a model to describe stock pinning on option expiration dates. We argue that if the open interest in a particular contract is unusually large, Delta-hedging in aggregate by floor market-makers can impact the stock price and drive it to the strike price of the option. We derive a stochastic differential equation for the stock price which has a singular drift that accounts for the price-impact of Delta-hedging. According to this model, the stock price has a finite probability of pinning at a strike. We calculate analytically and numerically this probability in terms of the vola"
+  },
+  {
+   "DOI": "10.1088/1469-7688/3/6/301",
+   "title": "A market-induced mechanism for stock pinning",
+   "year": 2003,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/cpa.21404",
+   "title": "Mathematical Models for Stock Pinning near Option Expiration Dates",
+   "year": 2012,
+   "container": "Communications on Pure and Applied Mathematics",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

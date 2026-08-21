@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-02",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=price+clustering+round+numbers+stock+prices&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 896705,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1016/j.jbusres.2016.06.008",
+   "title": "Price clustering and the stability of stock prices",
+   "year": 2016,
+   "container": "Journal of Business Research",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/jfir.70020",
+   "title": "Price clustering and the informational efficiency of stock prices",
+   "year": 2025,
+   "container": "Journal of Financial Research",
+   "type": "journal-article",
+   "abstract": "<jats:title>Abstract</jats:title><jats:p>We examine whether stock price clustering on round pricing increments leads to less efficient stock prices. In panel data tests, we find a positive association between price clustering and market inefficiency. To draw stronger causal inferences, we use the 2016 US Securities and Exchange Tick Size Pilot Program, which exogenously imposed price clustering on a group of treatment stocks. A difference\u2010in\u2010differences analysis shows that relative to control stocks, treatment stocks became less efficient during the Pilot period. We also find a reversal effect"
+  },
+  {
+   "DOI": "10.2139/ssrn.3187548",
+   "title": "Round Number Price Barriers in U.S. Stock Market",
+   "year": 2018,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper examines the existence of round number price barriers in the U.S. stock market. I show that stock prices clusters around multiples of $10 as a result of the price barriers. The price barriers results in abnormal future return pattern; a long-short portfolio formed around the barrier held for a week produces 17 basis point weekly return (8% annually). Such abnormal return does not change in magnitude after controlling for varies factors. I present supportive evidence for the left-digit-bias barrier channel.</jats:p>"
+  },
+  {
+   "DOI": "10.1080/15427560.2020.1867143",
+   "title": "Price Clustering, Preferences for Round Prices, and Expected Returns",
+   "year": 2021,
+   "container": "Journal of Behavioral Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.5511518",
+   "title": "Inferring Stock Price Processes from Option Prices",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Skewness and excess kurtosis observed in risk neutral distributions embedded in option prices suggest the use of locally discontinuous processes driving returns. Leverage considerations motivate making volatility a functions of the spot price level and possibly calendar time. Discontinuous approximations of continuity lead to the use of locally selfdecomposable laws of motion that theoretically allow for an infinite number of small movements. The signature of a selfdecomposable law is the jump compensator scaled by the absolute jump size. The signature function must decrease in the pos"
+  },
+  {
+   "DOI": "10.2139/ssrn.2348159",
+   "title": "Price Clustering and Round Number Effects - Evidence from the German Market",
+   "year": 2013,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Price clustering was found to be a major artifact of securities trading over many decades. In the literature several conjectures about the origin of these effects have been put forward. However, most explanations are not applicable anymore since today a great share of the trading activity is due to automated trading systems which are assumed to be unaffected by any number bias. I analyze round number effects in the German market and thereby contribute to existing literature by showing that round number effects are also present in the Germany, but exhibit local stylized facts. Further, "
+  },
+  {
+   "DOI": "10.2139/ssrn.2245695",
+   "title": "Short-Term Influence of the Oil Price on Stock Prices from the Bucharest Stock Exchange",
+   "year": 2013,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>In the last decades, several studies revealed the significant impact of oil price variation not only on the real economic activity but also on the financial markets evolutions. Such relations are affected by some particularities of the national economies. In this paper we examine the impact of the oil price on the Romanian capital market evolution from January 2000 to February 2013. In our analysis we employ daily values of the Brent oil price and of BET C, one of the main indexes of Bucharest Stock Exchange. A GARCH model allows us to investigate the effects of the oil price fluctuati"
+  },
+  {
+   "DOI": "10.1007/0-387-26599-6_6",
+   "title": "Stock Prices and Accounting Numbers as Performance Measures",
+   "year": null,
+   "container": "Springer Series in Accounting Scholarship",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

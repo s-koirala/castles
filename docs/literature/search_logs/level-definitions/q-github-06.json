@@ -1,0 +1,52 @@
+{
+ "query_id": "q-github-06",
+ "platform": "GitHub REST API repository search (api.github.com/search/repositories, sort=stars)",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "market-profile in:name language:python",
+ "total_count": 48,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "repo": "bfolkens/py-market-profile",
+   "stars": 403,
+   "lang": "Python",
+   "desc": "A library to calculate Market Profile (aka Volume Profile) for financial data from a Pandas DataFrame.",
+   "html_url": "https://github.com/bfolkens/py-market-profile"
+  },
+  {
+   "repo": "Onuragdaci/Market_Profile",
+   "stars": 16,
+   "lang": "Python",
+   "desc": "",
+   "html_url": "https://github.com/Onuragdaci/Market_Profile"
+  },
+  {
+   "repo": "pranshu0210/market-profile",
+   "stars": 15,
+   "lang": "Python",
+   "desc": "Generates Market Profile from OHLC data",
+   "html_url": "https://github.com/pranshu0210/market-profile"
+  },
+  {
+   "repo": "teobeeguan/market_profile",
+   "stars": 15,
+   "lang": "Python",
+   "desc": "",
+   "html_url": "https://github.com/teobeeguan/market_profile"
+  },
+  {
+   "repo": "sivamgr/tpo_market_profile",
+   "stars": 13,
+   "lang": "Python",
+   "desc": " piece of code helps to build tpo market profile chart from 1 min candles",
+   "html_url": "https://github.com/sivamgr/tpo_market_profile"
+  },
+  {
+   "repo": "QuantextCapital/MarketProfile",
+   "stars": 8,
+   "lang": "Python",
+   "desc": "For my YT content",
+   "html_url": "https://github.com/QuantextCapital/MarketProfile"
+  }
+ ]
+}

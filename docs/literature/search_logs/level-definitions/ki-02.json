@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-02",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Lo+Mamaysky+Wang+Foundations+of+technical+analysis+computational+algorithms+statistical+inference&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 772491,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.3386/w7613",
+   "title": "Foundations of Technical Analysis: Computational Algorithms, Statistical Inference, and Empirical Implementation",
+   "year": 2000,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/b978-075065516-3.50004-2",
+   "title": "Foundations of technical analysis: computational algorithms, statistical inference and empirical implementation",
+   "year": 2002,
+   "container": "Advanced Trading Rules",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/0022-1082.00265",
+   "title": "Foundations of Technical Analysis: Computational Algorithms, Statistical Inference, and Empirical Implementation",
+   "year": 2000,
+   "container": "The Journal of Finance",
+   "type": "journal-article",
+   "abstract": "<jats:p>Technical analysis, also known as \u201ccharting,\u201d has been a part of financial practice for many decades, but this discipline has not received the same level of academic scrutiny and acceptance as more traditional approaches such as fundamental analysis. One of the main obstacles is the highly subjective nature of technical analysis\u2014the presence of geometric shapes in historical price charts is often in the eyes of the beholder. In this paper, we propose a systematic and automatic approach to technical pattern recognition using nonparametric kernel regression, and we apply this method to a"
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-16",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=swing+high+swing+low+turning+point+detection+financial+time+series&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 8137139,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2307/272503",
+   "title": "Swing Low",
+   "year": 1945,
+   "container": "Phylon (1940-1956)",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-3-030-52994-9_16",
+   "title": "Swing Point Stenosis",
+   "year": 2021,
+   "container": "Dialysis Access Management",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/j.ctt16vj2mb.12",
+   "title": "Swing Low",
+   "year": null,
+   "container": "Boy with Thorn",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/j.ctt1ffjmmr.19",
+   "title": "Swing Low",
+   "year": null,
+   "container": "Praise Nothing",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4324/9780429199271-11",
+   "title": "Swing Time",
+   "year": 2020,
+   "container": "Reading Contemporary Black British and African American Women Writers",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4324/9781003266044-36",
+   "title": "Swing Time",
+   "year": 2025,
+   "container": "Routledge Critical Companion to Race and Architecture",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-1-84457-568-8_91",
+   "title": "Swing Time",
+   "year": 2011,
+   "container": "100 Film Musicals",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/jj.30297466.7",
+   "title": "Swing Low:",
+   "year": 2016,
+   "container": "The Remembered Gate",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-24",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Cont+Stoikov+Talreja+a+stochastic+model+for+order+book+dynamics&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 5952909,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.1273160",
+   "title": "A Stochastic Model for Order Book Dynamics",
+   "year": 2008,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We propose a stochastic model for the continuous-time dynamics of a limit order book. The model strikes a balance between three desirable features: it can be estimated easily from data, it captures key empirical properties of order book dynamics and its  analytical tractability allows for fast computation of various quantities of interest without resorting to simulation. We describe a simple parameter estimation procedure based on high-frequency observations of the order book and illustrate the results on data  from the Tokyo stock exchange. Using Laplace transform methods, we are able"
+  },
+  {
+   "DOI": "10.1287/opre.1090.0780",
+   "title": "A Stochastic Model for Order Book Dynamics",
+   "year": 2010,
+   "container": "Operations Research",
+   "type": "journal-article",
+   "abstract": "<jats:p> We propose a continuous-time stochastic model for the dynamics of a limit order book. The model strikes a balance between three desirable features: it can be estimated easily from data, it captures key empirical properties of order book dynamics, and its analytical tractability allows for fast computation of various quantities of interest without resorting to simulation. We describe a simple parameter estimation procedure based on high-frequency observations of the order book and illustrate the results on data from the Tokyo Stock Exchange. Using simple matrix computations and Laplace"
+  },
+  {
+   "DOI": "10.2139/ssrn.3366536",
+   "title": "A Stochastic Partial Differential Equation Model for Limit Order Book Dynamics",
+   "year": 2019,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We propose an analytically tractable class of models for the dynamics of a limit order book, described as the solution of a stochastic partial differential equation (SPDE) with multiplicative noise. We provide conditions under which the model admits a finite dimensional realization driven by a (low-dimensional) Markov process, leading to efficient methods for estimation and computation. &lt;br&gt;&lt;br&gt;We study two examples of parsimonious models in this class: a two-factor model and a model in which the order book depth is mean-reverting. For each model we perform a detailed analy"
+  }
+ ]
+}

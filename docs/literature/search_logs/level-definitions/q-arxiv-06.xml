@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NoITvboY50es9MIU7n6JbHKonrQ</id>
+  <title>arXiv Query: search_query=all:"volume profile" AND cat:q-fin*&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-08-21T18:13:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22volume+profile%22+AND+cat:q-fin*&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1210.7215v2</id>
+    <title>Heavy-Tailed Features and Empirical Analysis of the Limit Order Book Volume Profiles in Futures Markets</title>
+    <updated>2015-04-22T08:46:08Z</updated>
+    <link href="https://arxiv.org/abs/1210.7215v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.7215v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper poses a few fundamental questions regarding the attributes of the volume profile of a Limit Order Books stochastic structure by taking into consideration aspects of intraday and interday statistical features, the impact of different exchange features and the impact of market participants in different asset sectors. This paper aims to address the following questions:
+  1. Is there statistical evidence that heavy-tailed sub-exponential volume profiles occur at different levels of the Limit Order Book on the bid and ask and if so does this happen on intra or interday time scales ?
+  2.In futures exchanges, are heavy tail features exchange (CBOT, CME, EUREX, SGX and COMEX) or asset class (government bonds, equities and precious metals) dependent and do they happen on ultra-high (&lt;1sec) or mid-range (1sec -10min) high frequency data?
+  3.Does the presence of stochastic heavy-tailed volume profile features evolve in a manner that would inform or be indicative of market participant behaviors, such as high frequency algorithmic trading, quote stuffing and price discovery intra-daily?
+  4. Is there statistical evidence for a need to consider dynamic behavior of the parameters of models for Limit Order Book volume profiles on an intra-daily time scale ?
+  Progress on aspects of each question is obtained via statistically rigorous results to verify the empirical findings for an unprecedentedly large set of futures market LOB data. The data comprises several exchanges, several futures asset classes and all trading days of 2010, using market depth (Type II) order book data to 5 levels on the bid and ask.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-26T19:05:49Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Kylie-Anne Richards</name>
+    </author>
+    <author>
+      <name>Gareth W. Peters</name>
+    </author>
+    <author>
+      <name>William Dunsmuir</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.01412v1</id>
+    <title>Quintet Volume Projection</title>
+    <updated>2019-04-02T13:49:22Z</updated>
+    <link href="https://arxiv.org/abs/1904.01412v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.01412v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a set of models relevant for predicting various aspects of intra-day trading volume for equities and showcase them as an ensemble that projects volume in unison. We introduce econometric methods for predicting total and remaining daily volume, intra-day volume profile (u-curve), close auction volume and special day seasonalities and emphasize a need for a unified approach where all sub-models work consistently with one another. Historical and current inputs are combined using Bayesian methods, which have the advantage of providing adaptive and parameterless estimations of volume for a broad range of equities while automatically taking into account uncertainty of the model input components. The shortcomings of traditional statistical error metrics for calibrating volume prediction are also discussed and we introduce Asymmetrical Logarithmic Error (ALE) to overweight an overestimation risk.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-02T13:49:22Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <arxiv:journal_ref>Automated Trader Magazine, Issue 44, Q1, 2018</arxiv:journal_ref>
+    <author>
+      <name>Vladimir Markov</name>
+    </author>
+    <author>
+      <name>Olga Vilenskaia</name>
+    </author>
+    <author>
+      <name>Vlad Rashkovich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.10956v2</id>
+    <title>IVE: Enhanced Probabilistic Forecasting of Intraday Volume Ratio with Transformers</title>
+    <updated>2025-03-09T12:24:06Z</updated>
+    <link href="https://arxiv.org/abs/2411.10956v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.10956v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a new approach to volume ratio prediction in financial markets, specifically targeting the execution of Volume-Weighted Average Price (VWAP) strategies. Recognizing the importance of accurate volume profile forecasting, our research leverages the Transformer architecture to predict intraday volume ratio at a one-minute scale. We diverge from prior models that use log-transformed volume or turnover rates, instead opting for a prediction model that accounts for the intraday volume ratio's high variability, stabilized via log-normal transformation. Our input data incorporates not only the statistical properties of volume but also external volume-related features, absolute time information, and stock-specific characteristics to enhance prediction accuracy. The model structure includes an encoder-decoder Transformer architecture with a distribution head for greedy sampling, optimizing performance on high-liquidity stocks across both Korean and American markets. We extend the capabilities of our model beyond point prediction by introducing probabilistic forecasting that captures the mean and standard deviation of volume ratios, enabling the anticipation of significant intraday volume spikes. Furthermore, an agent with a simple trading logic demonstrates the practical application of our model through live trading tests in the Korean market, outperforming VWAP benchmarks over a period of two and a half months. Our findings underscore the potential of Transformer-based probabilistic models for volume ratio prediction and pave the way for future research advancements in this domain.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-17T04:07:26Z</published>
+    <arxiv:comment>Accepted at FinancialAI@ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Hanwool Lee</name>
+    </author>
+    <author>
+      <name>Heehwan Park</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.03858v1</id>
+    <title>Looking into informal currency markets as Limit Order Books: impact of market makers</title>
+    <updated>2025-03-05T19:41:22Z</updated>
+    <link href="https://arxiv.org/abs/2503.03858v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.03858v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study pioneers the application of the market microstructure framework to an informal financial market. By scraping data from websites and social media about the Cuban informal currency market, we model the dynamics of bid/ask intentions using a Limit Order Book (LOB). This approach enables us to study key characteristics such as liquidity, stability and volume profiles. We continue exploiting the Avellaneda-Stoikov model to explore the impact of introducing a Market Maker (MM) into this informal setting, assessing its influence on the market structure and the bid/ask dynamics. We show that the Market Maker improves the quality of the market. Beyond their academic significance, we believe that our findings are relevant for policymakers seeking to intervene informal markets with limited resources.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-05T19:41:22Z</published>
+    <arxiv:comment>27 pages, 10 figures, 1 table. Submitted to arXiv</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Alejandro García Figal</name>
+    </author>
+    <author>
+      <name>Alejandro Lage Castellanos</name>
+    </author>
+    <author>
+      <name>Roberto Mulet</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.19402v1</id>
+    <title>Modelling financial volume curves with hierarchical Poisson processes</title>
+    <updated>2024-06-01T12:03:57Z</updated>
+    <link href="https://arxiv.org/abs/2406.19402v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.19402v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modeling the trading volume curves of financial instruments throughout the day is of key interest in financial trading applications. Predictions of these so-called volume profiles guide trade execution strategies, for example, a common strategy is to trade a desired quantity across many orders in line with the expected volume curve throughout the day so as not to impact the price of the instrument. The volume curves (for each day) are naturally grouped by stock and can be further gathered into higher-level groupings, such as by industry. In order to model such admixtures of volume curves, we introduce a hierarchical Poisson process model for the intensity functions of admixtures of inhomogenous Poisson processes, which represent the trading times of the stock throughout the day. The model is based on the hierarchical Dirichlet process, and an efficient Markov Chain Monte Carlo (MCMC) algorithm is derived following the slice sampling framework for Bayesian nonparametric mixture models. We demonstrate the method on datasets of different stocks from the Trade and Quote repository maintained by Wharton Research Data Services, including the most liquid stock on the NASDAQ stock exchange, Apple, demonstrating the scalability of the approach.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-01T12:03:57Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Creighton Heaukulani</name>
+    </author>
+    <author>
+      <name>Abhinav Pandey</name>
+    </author>
+    <author>
+      <name>Lancelot F. James</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.5046v2</id>
+    <title>A Pre-Trade Algorithmic Trading Model under Given Volume Measures and Generic Price Dynamics (GVM-GPD)</title>
+    <updated>2013-09-26T17:38:10Z</updated>
+    <link href="https://arxiv.org/abs/1309.5046v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.5046v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We make several improvements to the mean-variance framework for optimal pre-trade algorithmic execution, by working with volume measures and generic price dynamics. Volume measures are the continuum analogies for discrete volume profiles commonly implemented in the execution industry. Execution then becomes an absolutely continuous measure over such a measure space, and its Radon-Nikodym derivative is commonly known as the Participation of Volume (PoV) function. The four impact cost components are all consistently built upon the PoV function. Some novel efforts are made for these linear impact models by having market signals more properly expressed. For the opportunistic cost, we are able to go beyond the conventional Brownian-type motions. By working directly with the auto-covariances of the price dynamics, we remove the Markovian restriction associated with Brownians and thus allow potential memory effects in the price dynamics. In combination, the final execution model becomes a constrained quadratic programming problem in infinite-dimensional Hilbert spaces. Important linear constraints such as participation capping are all permissible. Uniqueness and existence of optimal solutions are established via the theory of positive compact operators in Hilbert spaces. Several typical numerical examples explain both the behavior and versatility of the model.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-19T16:44:53Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Jackie Jianhong Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.14670v1</id>
+    <title>Hierarchical Deep Reinforcement Learning for VWAP Strategy Optimization</title>
+    <updated>2022-12-11T07:35:26Z</updated>
+    <link href="https://arxiv.org/abs/2212.14670v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.14670v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Designing an intelligent volume-weighted average price (VWAP) strategy is a critical concern for brokers, since traditional rule-based strategies are relatively static that cannot achieve a lower transaction cost in a dynamic market. Many studies have tried to minimize the cost via reinforcement learning, but there are bottlenecks in improvement, especially for long-duration strategies such as the VWAP strategy. To address this issue, we propose a deep learning and hierarchical reinforcement learning jointed architecture termed Macro-Meta-Micro Trader (M3T) to capture market patterns and execute orders from different temporal scales. The Macro Trader first allocates a parent order into tranches based on volume profiles as the traditional VWAP strategy does, but a long short-term memory neural network is used to improve the forecasting accuracy. Then the Meta Trader selects a short-term subgoal appropriate to instant liquidity within each tranche to form a mini-tranche. The Micro Trader consequently extracts the instant market state and fulfils the subgoal with the lowest transaction cost. Our experiments over stocks listed on the Shanghai stock exchange demonstrate that our approach outperforms baselines in terms of VWAP slippage, with an average cost saving of 1.16 base points compared to the optimal baseline.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-11T07:35:26Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Xiaodong Li</name>
+    </author>
+    <author>
+      <name>Pangjing Wu</name>
+    </author>
+    <author>
+      <name>Chenxin Zou</name>
+    </author>
+    <author>
+      <name>Qing Li</name>
+    </author>
+  </entry>
+</feed>

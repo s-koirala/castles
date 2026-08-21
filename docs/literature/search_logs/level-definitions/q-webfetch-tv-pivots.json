@@ -1,0 +1,16 @@
+{
+ "query_id": "q-webfetch-tv-pivots",
+ "platform": "TradingView Help Center (tradingview.com/support) via WebFetch",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "https://www.tradingview.com/support/solutions/43000521824-pivot-points-standard/",
+ "n_records_retrieved": 1,
+ "extracted_verbatim": {
+  "prior_period_rule": "The 'current' and 'previous' values refer to the current and previous bar of the timeframe selected in the 'Pivots Timeframe' option.",
+  "Traditional": ["P = (prevHigh + prevLow + prevClose) / 3", "R1 = P * 2 - prevLow", "S1 = P * 2 - prevHigh", "R2 = P + (prevHigh - prevLow)", "S2 = P - (prevHigh - prevLow)", "R3 = P * 2 + (prevHigh - 2 * prevLow)", "S3 = P * 2 - (2 * prevHigh - prevLow)", "R4 = P * 3 + (prevHigh - 3 * prevLow)", "S4 = P * 3 - (3 * prevHigh - prevLow)", "R5 = P * 4 + (prevHigh - 4 * prevLow)", "S5 = P * 4 - (4 * prevHigh - prevLow)"],
+  "Fibonacci": ["P = (prevHigh + prevLow + prevClose) / 3", "R1 = P + 0.382 * (prevHigh - prevLow)", "S1 = P - 0.382 * (prevHigh - prevLow)", "R2 = P + 0.618 * (prevHigh - prevLow)", "S2 = P - 0.618 * (prevHigh - prevLow)", "R3 = P + (prevHigh - prevLow)", "S3 = P - (prevHigh - prevLow)"],
+  "Woodie": ["P = (prevHigh + prevLow + 2 * currOpen) / 4", "R1 = 2 * P - prevLow", "S1 = 2 * P - prevHigh", "R2 = P + (prevHigh - prevLow)", "S2 = P - (prevHigh - prevLow)", "R3 = prevHigh + 2 * (P - prevLow)", "S3 = prevLow - 2 * (prevHigh - P)", "R4 = R3 + (prevHigh - prevLow)", "S4 = S3 - (prevHigh - prevLow)"],
+  "Classic": ["P = (prevHigh + prevLow + prevClose) / 3", "R1 = 2 * P - prevLow", "S1 = 2 * P - prevHigh", "R2 = P + (prevHigh - prevLow)", "S2 = P - (prevHigh - prevLow)", "R3 = P + 2 * (prevHigh - prevLow)", "S3 = P - 2 * (prevHigh - prevLow)", "R4 = P + 3 * (prevHigh - prevLow)", "S4 = P - 3 * (prevHigh - prevLow)"],
+  "DeMark": ["if prevOpen == prevClose: X = prevHigh + prevLow + 2 * prevClose", "else if prevClose > prevOpen: X = 2 * prevHigh + prevLow + prevClose", "else: X = 2 * prevLow + prevHigh + prevClose", "P = X / 4", "R1 = X / 2 - prevLow", "S1 = X / 2 - prevHigh"],
+  "Camarilla": ["P = (prevHigh + prevLow + prevClose) / 3", "R1 = prevClose + 1.1 * (prevHigh - prevLow) / 12", "S1 = prevClose - 1.1 * (prevHigh - prevLow) / 12", "R2 = prevClose + 1.1 * (prevHigh - prevLow) / 6", "S2 = prevClose - 1.1 * (prevHigh - prevLow) / 6", "R3 = prevClose + 1.1 * (prevHigh - prevLow) / 4", "S3 = prevClose - 1.1 * (prevHigh - prevLow) / 4", "R4 = prevClose + 1.1 * (prevHigh - prevLow) / 2", "S4 = prevClose - 1.1 * (prevHigh - prevLow) / 2", "R5 = (prevHigh / prevLow) * prevClose", "S5 = prevClose - (R5 - prevClose)"]
+ }
+}

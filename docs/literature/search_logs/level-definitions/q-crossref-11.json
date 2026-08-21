@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-11",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=technical+analysis+chart+patterns+kernel+regression+automation&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 6445177,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1002/9781119204626.ch3",
+   "title": "Chart Patterns: Building Blocks Of Technical Analysis",
+   "year": 2012,
+   "container": "Trend Forecasting With Intermarket Analysis",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.15388/lmr.2008.34",
+   "title": "Kernel regression on matrix patterns",
+   "year": 2008,
+   "container": "Lietuvos matematikos rinkinys",
+   "type": "journal-article",
+   "abstract": "<jats:p>In this paper we propose a kernel-based regression model for matrix patterns (KRMP). The training algorithm is derived. The proposed model was empirically compared with traditional models. </jats:p>"
+  },
+  {
+   "DOI": "10.4324/9781315115719-33",
+   "title": "Measuring implications in technical chart patterns",
+   "year": 2018,
+   "container": "Technical Analysis of Stock Trends",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1201/b14301-42",
+   "title": "Measuring implications in technical chart patterns",
+   "year": 2012,
+   "container": "Technical Analysis of Stock Trends",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1201/9781420013146-54",
+   "title": "Measuring Implications in Technical Chart Patterns",
+   "year": 2007,
+   "container": "Technical Analysis of Stock Trends",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1201/9781420013146.ch32",
+   "title": "Measuring Implications in Technical Chart Patterns",
+   "year": 2007,
+   "container": "Technical Analysis of Stock Trends, Ninth Edition",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119204800",
+   "title": "Technical Analysis and Chart Interpretations",
+   "year": 2016,
+   "container": "",
+   "type": "edited-book",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1109/bife.2010.76",
+   "title": "A Nonparametric Kernel Regression Method for the Recognition of Visual Technical Patterns in China's Stock Market",
+   "year": 2010,
+   "container": "2010 Third International Conference on Business Intelligence and Financial Engineering",
+   "type": "proceedings-article",
+   "abstract": ""
+  }
+ ]
+}

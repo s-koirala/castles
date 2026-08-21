@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T1iuS/6Dhq03dd/zLb8IVUj7y1s</id>
+  <title>arXiv Query: search_query=all:"large tick" AND all:"price formation"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-21T18:14:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22large+tick%22+AND+all:%22price+formation%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.08744v3</id>
+    <title>No Tick-Size Too Small: A General Method for Modelling Small Tick Limit Order Books</title>
+    <updated>2025-08-04T15:46:59Z</updated>
+    <link href="https://arxiv.org/abs/2410.08744v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.08744v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tick-sizes not only influence the granularity of the price formation process but also affect market agents' behavior. We investigate the disparity in the microstructural properties of the Limit Order Book (LOB) across a basket of assets with different relative tick-sizes. A key contribution of this study is the identification of several stylized facts, which are used to differentiate between large, medium, and small-tick assets, along with clear metrics for their measurement. We provide cross-asset visualizations to illustrate how these attributes vary with relative tick-size. Further, we propose a Hawkes Process model that {\color{black}not only fits well for large-tick assets, but also accounts for }sparsity, multi-tick level price moves, and the shape of the LOB in small-tick assets. Through simulation studies, we demonstrate the {\color{black} versatility} of the model and identify key variables that determine whether a simulated LOB resembles a large-tick or small-tick asset. Our tests show that stylized facts like sparsity, shape, and relative returns distribution can be smoothly transitioned from a large-tick to a small-tick asset using our model. We test this model's assumptions, showcase its challenges and propose questions for further directions in this area of research.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-11T12:02:21Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Konark Jain</name>
+    </author>
+    <author>
+      <name>Jean-François Muzy</name>
+    </author>
+    <author>
+      <name>Jonathan Kochems</name>
+    </author>
+    <author>
+      <name>Emmanuel Bacry</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.02715v1</id>
+    <title>Order Flows and Limit Order Book Resiliency on the Meso-Scale</title>
+    <updated>2017-08-09T04:40:29Z</updated>
+    <link href="https://arxiv.org/abs/1708.02715v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.02715v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the behavior of limit order books on the meso-scale motivated by order execution scheduling algorithms. To do so we carry out empirical analysis of the order flows from market and limit order submissions, aggregated from tick-by-tick data via volume-based bucketing, as well as various LOB depth and shape metrics. We document a nonlinear relationship between trade imbalance and price change, which however can be converted into a linear link by considering a weighted average of market and limit order flows. We also document a hockey-stick dependence between trade imbalance and one-sided limit order flows, highlighting numerous asymmetric effects between the active and passive sides of the LOB. To address the phenomenological features of price formation, book resilience, and scarce liquidity we apply a variety of statistical models to test for predictive power of different predictors. We show that on the meso-scale the limit order flows (as well as the relative addition/cancellation rates) carry the most predictive power. Another finding is that the deeper LOB shape, rather than just the book imbalance, is more relevant on this timescale. The empirical results are based on analysis of six large-tick assets from Nasdaq.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-09T04:40:29Z</published>
+    <arxiv:comment>8 figures; One figure is missing due to arxiv size constraints (was 6MB originally)</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Kyle Bechler</name>
+    </author>
+    <author>
+      <name>Michael Ludkovski</name>
+    </author>
+  </entry>
+</feed>

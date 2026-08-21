@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-18",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Park+Irwin+what+do+we+know+about+the+profitability+of+technical+analysis&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 483558,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1111/j.1467-6419.2007.00519.x",
+   "title": "WHAT DO WE KNOW ABOUT THE PROFITABILITY OF TECHNICAL ANALYSIS?",
+   "year": 2007,
+   "container": "Journal of Economic Surveys",
+   "type": "journal-article",
+   "abstract": "<jats:p><jats:bold>Abstract</jats:bold> The purpose of this paper is to review the evidence on the profitability of technical analysis. The empirical literature is categorized into two groups, \u2018early\u2019 and \u2018modern\u2019 studies, according to the characteristics of testing procedures. Early studies indicate that technical trading strategies are profitable in foreign exchange markets and futures markets, but not in stock markets. Modern studies indicate that technical trading strategies consistently generate economic profits in a variety of speculative markets at least until the early 1990s. Among a t"
+  },
+  {
+   "DOI": "10.4135/9781526481344.n3",
+   "title": "what do we know about inequality?",
+   "year": 2019,
+   "container": "What Do We Know and What Should We Do About Inequality?",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4135/9781526479358.n3",
+   "title": "what do we know about immigration? economics",
+   "year": 2019,
+   "container": "What Do We Know and What Should We Do About Immigration?",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

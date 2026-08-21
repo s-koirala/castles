@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-05",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=tick+size+price+discreteness+market+microstructure&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1435468,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1142/s2382626615500033",
+   "title": "Large Tick Assets: Implicit Spread and Optimal Tick Size",
+   "year": 2015,
+   "container": "Market Microstructure and Liquidity",
+   "type": "journal-article",
+   "abstract": "<jats:p> In this work, we provide a framework linking microstructural properties of an asset to the tick value of the exchange. In particular, we bring to light a quantity, referred to as implicit spread, playing the role of spread for large tick assets, for which the effective spread is almost always equal to one tick. The relevance of this new parameter is shown both empirically and theoretically. This implicit spread allows us to quantify the tick sizes of large tick assets and to define a notion of optimal tick size. Moreover, our results open the possibility of forecasting the behavior of"
+  },
+  {
+   "DOI": "10.1016/j.iref.2023.07.109",
+   "title": "Realized volatility, price informativeness, and tick size: A market microstructure approach",
+   "year": 2024,
+   "container": "International Review of Economics &amp; Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118681145.ch11",
+   "title": "Decimalization and Discreteness",
+   "year": 2013,
+   "container": "Market Microstructure in Emerging and Developed Markets",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.3122558",
+   "title": "Tick Size, Price Grids and Market Performance: Stable Matches as a Model of Market Dynamics and Equilibrium",
+   "year": 2018,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper reports experiments motivated by ongoing controversies regarding tick size in markets. The minimum tick size in a market dictates discrete values at which bids and asks can be tendered by market participants.  All transaction prices must occur at these discrete values, which are established by the rules of each exchange. The simplicity of experiments helps to distinguish among competing models of complex real-world securities markets. We observe patterns predicted by a matching (cooperative game) model.  Because a price grid damages the equilibrium of the competitive model, "
+  },
+  {
+   "DOI": "10.2139/ssrn.4084899",
+   "title": "Tick Size and Price Efficiency: Further Evidence from the Tick Size Pilot Program",
+   "year": 2022,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper examines whether larger tick sizes improve or hinder price efficiency for small-capitalization stocks using data from implementing and terminating the Tick Size Pilot Program (TSPP). We show that the TSPP led to increases in various liquidity measures, and its termination restored them to their pre-TSPP levels. We also find evidence that the TSPP led to trader migration from the pilot to control stocks. The TSPP implementation (termination) is associated with decreases (increases) in price efficiency, indicating that price efficiency decreases with tick sizes. Liquidity and "
+  },
+  {
+   "DOI": "10.1142/s2382626620500069",
+   "title": "Rethinking Decimalization: The Impact of Increased Tick Sizes on Trading Activity, Volatility, and Price Clustering",
+   "year": 2019,
+   "container": "Market Microstructure and Liquidity",
+   "type": "journal-article",
+   "abstract": "<jats:p>In this study, we examine the trading activity and volatility of stocks influenced by the U.S. Securities and Exchange Commission\u2019s pilot program that increases tick sizes for various samples of stocks. The objective of the program is to improve the market quality of small-cap stocks, which have historically been relatively less liquid than other stocks. Using a difference-in-differences approach, we find that, relative to control stocks, the trading activity of pilot stocks does not appear to be meaningfully affected by the increase in tick sizes. Volatility, however, increases marked"
+  },
+  {
+   "DOI": "10.1142/s2382626616500064",
+   "title": "Queue Imbalance as a One-Tick-Ahead Price Predictor in a Limit Order Book",
+   "year": 2016,
+   "container": "Market Microstructure and Liquidity",
+   "type": "journal-article",
+   "abstract": "<jats:p>We investigate whether the bid/ask queue imbalance in a limit order book (LOB) provides significant predictive power for the direction of the next mid-price movement. For each of 10 liquid stocks on Nasdaq, we fit logistic regressions between the queue imbalance and the direction of the subsequent mid-price movement, and we find a strongly statistically significant relationship in each case. Compared to a simple null model, we find that our logistic regression fits provide a considerable improvement in both binary and probabilistic classification of mid-price movements for large-tick s"
+  },
+  {
+   "DOI": "10.2139/ssrn.1914114",
+   "title": "Tick Size, Microstructure Noise and Volatility Inversion Effects on Price Discovery in Option Markets: Theory and Empirical Evidence",
+   "year": 2011,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We document both theoretically and empirically a major dependence in both the Information Shares (IS) and Component Shares (CS) approaches to the estimation of the price discovery metrics on the errors arising out of the inversion method of the option value to find the implied stock price. We then introduce accurate inversion methods that result in a major increase in the information shares of option markets for both IS and CS metrics compared to the dominant Lagged Implied Volatility (LIV) inversion method. We apply these insights by examining the impact of the tick size reduction int"
+  }
+ ]
+}

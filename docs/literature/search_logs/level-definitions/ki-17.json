@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-17",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Sullivan+Timmermann+White+data-snooping+technical+trading+rule+performance+and+the+bootstrap&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 129757,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1111/0022-1082.00163",
+   "title": "Data\u2010Snooping, Technical Trading Rule Performance, and the Bootstrap",
+   "year": 1999,
+   "container": "The Journal of Finance",
+   "type": "journal-article",
+   "abstract": "<jats:p>In this paper we utilize White's Reality Check bootstrap methodology (White (1999)) to evaluate simple technical trading rules while quantifying the data\u2010snooping bias and fully adjusting for its effect in the context of the full universe from which the trading rules were drawn. Hence, for the first time, the paper presents a comprehensive test of performance across all technical trading rules examined. We consider the study of Brock, Lakonishok, and LeBaron (1992), expand their universe of 26 trading rules, apply the rules to 100 years of daily data on the Dow Jones Industrial Average"
+  },
+  {
+   "DOI": "10.2139/ssrn.3128788",
+   "title": "Technical Analysis, Spread Trading and Data Snooping Control",
+   "year": 2018,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper utilizes a large universe of 18,410 technical trading rules (TTRs) and adopts a technique that controls for false discoveries to evaluate the performance of frequently traded spreads using daily data over 1990\u20132016. For the first time, the paper applies an excessive out-of-sample analysis in different subperiods across all TTRs examined. For commodity spreads, the evidence of significant predictability appears much stronger compared to equity and currency spreads. Out-of-sample performance of portfolios of significant rules typically exceeds transaction cost estimates and ge"
+  },
+  {
+   "DOI": "10.3386/w3818",
+   "title": "The Significance of Technical Trading-Rule Profits in the Foreign Exchange Market:  A Bootstrap Approach",
+   "year": 1991,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RFy2bMf9Z3cjjE5zX0AK7xeFGnU</id>
+  <title>arXiv Query: search_query=all:"resistance level" AND cat:q-fin*&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-08-21T18:12:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22resistance+level%22+AND+cat:q-fin*&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2101.07410v1</id>
+    <title>Evidence and Behaviour of Support and Resistance Levels in Financial Time Series</title>
+    <updated>2021-01-19T01:54:19Z</updated>
+    <link href="https://arxiv.org/abs/2101.07410v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.07410v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the phenomenon of support and resistance levels (SR levels) in financial time series, which act as temporary price barriers that reverses price trends. We develop a heuristic discovery algorithm for this purpose, to discover and evaluate SR levels for intraday price series. Our simple approach discovers SR levels which are able to reverse price trends statistically significantly. Asset price entering SR levels with higher number of price bounces before are more likely to bounce on such SR levels again. We also show that the decay aspect of the discovered SR levels as decreasing probability of price bounce over time. We conclude SR levels are features in financial time series are not explained simply by AR(1) processes, stationary or otherwise; and that they contribute to the temporary predictability and stationarity of the investigated price series.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-19T01:54:19Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Ken Chung</name>
+    </author>
+    <author>
+      <name>Anthony Bellotti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.6846v2</id>
+    <title>Time-independent pricing of options in range bound markets</title>
+    <updated>2013-07-23T08:25:19Z</updated>
+    <link href="https://arxiv.org/abs/1304.6846v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.6846v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Assuming that price of the underlying stock is moving in range bound, the Black-Scholes formula for options pricing supports a separation of variables. The resulting time-independent equation is solved employing different behavior of the option price function and three significant results are deduced. The first is the probability of stock price penetration through support or resistance level, called transmission coefficient. The second is the distance that price will go through once stock price penetrates out of the range bound. The last one is a predicted short time dramatic fall in the stock volatility right ahead of price tunneling. All three results are useful tools that give market practitioners valuable insights in choosing the right time to get involved in an option contract, about how far the price will go in case of a breakout, and how to correctly interpret volatility downfalls.</summary>
+    <category term="q-fin.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-25T09:43:54Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="q-fin.PR"/>
+    <author>
+      <name>Ovidiu Racorean</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.01971v1</id>
+    <title>DeepSupp: Attention-Driven Correlation Pattern Analysis for Dynamic Time Series Support and Resistance Levels Identification</title>
+    <updated>2025-06-22T11:09:55Z</updated>
+    <link href="https://arxiv.org/abs/2507.01971v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.01971v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Support and resistance (SR) levels are central to technical analysis, guiding traders in entry, exit, and risk management. Despite widespread use, traditional SR identification methods often fail to adapt to the complexities of modern, volatile markets. Recent research has introduced machine learning techniques to address the following challenges, yet most focus on price prediction rather than structural level identification. This paper presents DeepSupp, a new deep learning approach for detecting financial support levels using multi-head attention mechanisms to analyze spatial correlations and market microstructure relationships. DeepSupp integrates advanced feature engineering, constructing dynamic correlation matrices that capture evolving market relationships, and employs an attention-based autoencoder for robust representation learning. The final support levels are extracted through unsupervised clustering, leveraging DBSCAN to identify significant price thresholds. Comprehensive evaluations on S&amp;P 500 tickers demonstrate that DeepSupp outperforms six baseline methods, achieving state-of-the-art performance across six financial metrics, including essential support accuracy and market regime sensitivity. With consistent results across diverse market conditions, DeepSupp addresses critical gaps in SR level detection, offering a scalable and reliable solution for modern financial analysis. Our approach highlights the potential of attention-based architectures to uncover nuanced market patterns and improve technical trading strategies.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-22T11:09:55Z</published>
+    <arxiv:comment>7 pages, 4 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Boris Kriuk</name>
+    </author>
+    <author>
+      <name>Logic Ng</name>
+    </author>
+    <author>
+      <name>Zarif Al Hossain</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.14121v1</id>
+    <title>Option Pricing: Channels, Target Zones and Sideways Markets</title>
+    <updated>2020-06-25T00:52:57Z</updated>
+    <link href="https://arxiv.org/abs/2006.14121v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.14121v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>After a market downturn, especially in an uncertain economic environment such as the current state, there can be a relatively long period with a sideways market, where indexes, stocks, etc., move in channels with support and resistance levels. We discuss option pricing in such scenarios, in both cases of unattainable as well as attainable boundaries, and obtain closed-form option pricing formulas. Our results also apply to FX rates in target zones without interest rate pegging (USD/HKD, digital currencies, etc.).</summary>
+    <category term="q-fin.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-25T00:52:57Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="q-fin.PR"/>
+    <arxiv:journal_ref>Bulletin of Applied Economics 7(2) (2020) 25-33</arxiv:journal_ref>
+    <author>
+      <name>Zura Kakushadze</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.10502v1</id>
+    <title>Quantum model for price forecasting in financial markets</title>
+    <updated>2019-01-30T16:23:35Z</updated>
+    <link href="https://arxiv.org/abs/1902.10502v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.10502v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The present paper describes a practical example in which the probability distribution of the prices of a stock market blue chip is calculated as the wave function of a quantum particle confined in a potential well. This model may naturally explain the operation of several empirical rules used by technical analysts. Models based on the movement of a Brownian particle do not account for fundamental aspects of financial markets. This is due to the fact that the Brownian particle is a classical particle, while stock market prices behave more like quantum particles. When a classical particle meets an obstacle or a potential barrier, it may either bounce or overcome the obstacle, yet not both at a time. Only a quantum particle can simultaneously reflect and transmit itself on a potential barrier. This is precisely what prices in a stock market imitate when they find a resistance level: they partially bounce against and partially overcome it. This can only be explained by admitting that prices behave as quantum rather than as classic particles. The proposed quantum model finds natural justification not only for the aforementioned facts but also for other empirically well-known facts such as sudden changes in volatility, non-Gaussian distribution in prices, among others.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-30T16:23:35Z</published>
+    <arxiv:comment>21 pages, 4 figures, bilingual English-Spanish version</arxiv:comment>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <author>
+      <name>J. L. Subias</name>
+    </author>
+    <arxiv:doi>10.13140/RG.2.2.32897.92006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.13140/RG.2.2.32897.92006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.07987v2</id>
+    <title>Automated Trading System for Straddle-Option Based on Deep Q-Learning</title>
+    <updated>2026-07-16T08:01:59Z</updated>
+    <link href="https://arxiv.org/abs/2509.07987v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.07987v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Straddle Option is a financial trading tool that explores volatility premiums in high-volatility markets without predicting price direction. Although deep reinforcement learning has emerged as a powerful approach to trading automation in financial markets, existing work mostly focused on predicting price trends and making trading decisions by combining multi-dimensional datasets like blogs and videos, which led to high computational costs and unstable performance in high-volatility markets. To tackle this challenge, we develop automated straddle option trading based on reinforcement learning and attention mechanisms to handle unpredictability in high-volatility markets. Firstly, we leverage the attention mechanisms in Transformer-DDQN through both self-attention with time series data and channel attention with multi-cycle information. Secondly, a novel reward function considering excess earnings is designed to focus on long-term profits and neglect short-term losses over a stop line. Thirdly, we identify the resistance levels to provide reference information when great uncertainty in price movements occurs with intensified battle between the buyers and sellers. Through extensive experiments on the Chinese stock, Brent crude oil, and Bitcoin markets, our attention-based Transformer-DDQN model exhibits the lowest maximum drawdown across all markets, and outperforms other models by 92.5\% in terms of the average return excluding the crude oil market due to relatively low fluctuation.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-01T16:20:19Z</published>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <author>
+      <name>Yiran Wan</name>
+    </author>
+    <author>
+      <name>Xinyu Ying</name>
+    </author>
+    <author>
+      <name>Shengze Xu</name>
+    </author>
+  </entry>
+</feed>

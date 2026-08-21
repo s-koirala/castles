@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-26",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Golez+Jackwerth+pinning+in+the+S%26P+500+futures&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 242971,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.1664261",
+   "title": "Pinning in the S&amp;P 500 Futures",
+   "year": 2010,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We show that S&amp;P 500 futures are pulled towards the at-the-money strike price on days when serial options on the S&amp;P 500 futures expire (pinning), and are pushed away from the cost-of-carry adjusted at-the-money strike price right before the expiration of options on the S&amp;P 500 index (anti-cross-pinning).  These effects are driven by the interplay of market makers\u2019 rebalancing of delta hedges due to the time-decay of those hedges as well as in response to reselling (and early exercise) of in-the-money options by individual investors.  The associated shift in notional future"
+  },
+  {
+   "DOI": "10.1016/j.jfineco.2012.06.010",
+   "title": "Pinning in the S&amp;P 500 futures",
+   "year": 2012,
+   "container": "Journal of Financial Economics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2640697",
+   "title": "Funding Liquidity Implied by S&amp;P 500 Derivatives",
+   "year": 2015,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

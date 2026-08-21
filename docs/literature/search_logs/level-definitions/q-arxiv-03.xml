@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yUI3t/3fqfTE7D3pPX4QVCILPG4</id>
+  <title>arXiv Query: search_query=all:"order book" AND all:"price levels"&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-08-21T18:12:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22order+book%22+AND+all:%22price+levels%22&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>24</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.02572v2</id>
+    <title>Fill Probabilities in a Limit Order Book with State-Dependent Stochastic Order Flows</title>
+    <updated>2026-02-06T15:11:44Z</updated>
+    <link href="https://arxiv.org/abs/2403.02572v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.02572v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies the fill probabilities of limit orders placed at different price levels in a limit order book. These probabilities play a central role in execution optimization, as limit orders are not guaranteed to be executed and inherently involve a trade-off between execution cost and execution risk. We model the limit order book within a general state-dependent stochastic framework, representing its dynamics as a collection of interacting queuing systems while incorporating key stylized market features. Within this framework, we derive semi-analytical expressions for several quantities of interest under state-dependent order flows, including the probability of a mid-price change, the fill probabilities of orders placed at the best quotes, and those of orders placed deeper in the book before the opposite best quote moves. While the framework can be extended to even deeper price levels, the corresponding fill probabilities are typically negligible. We validate the proposed model through extensive numerical experiments using real foreign exchange spot market data. The results demonstrate that the model remains tractable while capturing essential order book dynamics, and that the derived expressions achieve good accuracy in estimating fill probabilities.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-05T01:04:45Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Felix Lokin</name>
+    </author>
+    <author>
+      <name>Fenghui Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.07922v1</id>
+    <title>How informative is the Order Book Beyond the Best Levels? Machine Learning Perspective</title>
+    <updated>2022-03-15T14:04:01Z</updated>
+    <link href="https://arxiv.org/abs/2203.07922v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.07922v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Research on limit order book markets has been rapidly growing and nowadays high-frequency full order book data is widely available for researchers and practitioners. However, it is common that research papers use the best level data only, which motivates us to ask whether the exclusion of the quotes deeper in the book over multiple price levels causes performance degradation. In this paper, we address this question by using modern Machine Learning (ML) techniques to predict mid-price movements without assuming that limit order book markets represent a linear system. We provide a number of results that are robust across ML prediction models, feature selection algorithms, data sets, and prediction horizons. We find that the best bid and ask levels are systematically identified not only as the most informative levels in the order books, but also to carry most of the information needed for good prediction performance. On the other hand, even if the top-of-the-book levels contain most of the relevant information, to maximize models' performance one should use all data across all the levels. Additionally, the informativeness of the order book levels clearly decreases from the first to the fourth level while the rest of the levels are approximately equally important.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-15T14:04:01Z</published>
+    <arxiv:comment>NeurIPS 2021 Workshop on Machine Learning meets Econometrics (MLECON2021)</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Dat Thanh Tran</name>
+    </author>
+    <author>
+      <name>Juho Kanniainen</name>
+    </author>
+    <author>
+      <name>Alexandros Iosifidis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.18117v1</id>
+    <title>Diffusive Limit of Hawkes Driven Order Book Dynamics With Liquidity Migration</title>
+    <updated>2025-11-22T16:44:29Z</updated>
+    <link href="https://arxiv.org/abs/2511.18117v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.18117v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper develops a theoretical mesoscopic model of the limit order book driven by multivariate Hawkes processes, designed to capture temporal self-excitation and the spatial propagation of order flow across price levels. In contrast to classical zero-intelligence or Poisson based queueing models, the proposed framework introduces mathematically defined migration events between neighbouring price levels, whose intensities are themselves governed by the underlying Hawkes structure. This provides a principled stochastic mechanism for modeling interactions between order arrivals, cancellations, and liquidity movement across adjacent queues.
+  Starting from a microscopic specification of Hawkes driven order flow, we derive a diffusion approximation which yields a reflected mesoscopic stochastic differential equation (SDE) system for queue volumes. The limiting generator is obtained through a Taylor expansion of the microscopic generator, demonstrating how temporal excitation together with spatial migration determine the drift and diffusion structure of the limit order book in the mesoscopic regime. The resulting model extends existing diffusion limits by incorporating correlated excitations and price level to price level liquidity movement within a unified Hawkes based formulation.
+  By establishing this diffusive limit, the paper provides a mathematically consistent bridge between high frequency event based models and macroscopic stochastic descriptions of market microstructure. The work is entirely theoretical and lays a foundation for future analytical and numerical developments without relying on empirical calibration.</summary>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-22T16:44:29Z</published>
+    <arxiv:primary_category term="q-fin.MF"/>
+    <author>
+      <name>Levon Mahseredjian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.06230v2</id>
+    <title>Multi-Level Order-Flow Imbalance in a Limit Order Book</title>
+    <updated>2019-10-26T13:46:38Z</updated>
+    <link href="https://arxiv.org/abs/1907.06230v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.06230v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the multi-level order-flow imbalance (MLOFI), which is a vector quantity that measures the net flow of buy and sell orders at different price levels in a limit order book (LOB). Using a recent, high-quality data set for 6 liquid stocks on Nasdaq, we fit a simple, linear relationship between MLOFI and the contemporaneous change in mid-price. For all 6 stocks that we study, we find that the out-of-sample goodness-of-fit of the relationship improves with each additional price level that we include in the MLOFI vector. Our results underline how order-flow activity deep into the LOB can influence the price-formation process.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-14T15:00:54Z</published>
+    <arxiv:comment>32 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Ke Xu</name>
+    </author>
+    <author>
+      <name>Martin D. Gould</name>
+    </author>
+    <author>
+      <name>Sam D. Howison</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.19396v4</id>
+    <title>SimLOB: Learning Representations of Limited Order Book for Financial Market Simulation</title>
+    <updated>2025-06-16T17:16:13Z</updated>
+    <link href="https://arxiv.org/abs/2406.19396v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.19396v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Financial market simulation (FMS) serves as a promising tool for understanding market anomalies and the underlying trading behaviors. To ensure high-fidelity simulations, it is crucial to calibrate the FMS model for generating data closely resembling the observed market data. Previous efforts primarily focused on calibrating the mid-price data, leading to essential information loss of the market activities and thus biasing the calibrated model. The Limit Order Book (LOB) data is the fundamental data fully capturing the market micro-structure and is adopted by worldwide exchanges. However, LOB is not applicable to existing calibration objective functions due to its tabular structure not suitable for the vectorized input requirement. This paper proposes to explicitly learn the vectorized representations of LOB with a Transformer-based autoencoder. Then the latent vector, which captures the major information of LOB, can be applied for calibration. Extensive experiments show that the learned latent representation not only preserves the non-linear auto-correlation in the temporal axis, but the precedence between successive price levels of LOB. Besides, it is verified that the performance of the representation learning stage is consistent with the downstream calibration tasks. Thus, this work also progresses the FMS on LOB data, for the first time.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-27T17:59:58Z</published>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Yuanzhe Li</name>
+    </author>
+    <author>
+      <name>Yue Wu</name>
+    </author>
+    <author>
+      <name>Muyao Zhong</name>
+    </author>
+    <author>
+      <name>Shengcai Liu</name>
+    </author>
+    <author>
+      <name>Peng Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.08822v1</id>
+    <title>Deep Learning Meets Queue-Reactive: A Framework for Realistic Limit Order Book Simulation</title>
+    <updated>2025-01-15T14:19:20Z</updated>
+    <link href="https://arxiv.org/abs/2501.08822v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.08822v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Queue-Reactive model introduced by Huang et al. (2015) has become a standard tool for limit order book modeling, widely adopted by both researchers and practitioners for its simplicity and effectiveness. We present the Multidimensional Deep Queue-Reactive (MDQR) model, which extends this framework in three ways: it relaxes the assumption of queue independence, enriches the state space with market features, and models the distribution of order sizes. Through a neural network architecture, the model learns complex dependencies between different price levels and adapts to varying market conditions, while preserving the interpretable point-process foundation of the original framework. Using data from the Bund futures market, we show that MDQR captures key market properties including the square-root law of market impact, cross-queue correlations, and realistic order size patterns. The model demonstrates particular strength in reproducing both conditional and stationary distributions of order sizes, as well as various stylized facts of market microstructure. The model achieves this while maintaining the computational efficiency needed for practical applications such as strategy development through reinforcement learning or realistic backtesting.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-15T14:19:20Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Hamza Bodor</name>
+    </author>
+    <author>
+      <name>Laurent Carlier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.11513v1</id>
+    <title>DSLOB: A Synthetic Limit Order Book Dataset for Benchmarking Forecasting Algorithms under Distributional Shift</title>
+    <updated>2022-11-17T06:33:27Z</updated>
+    <link href="https://arxiv.org/abs/2211.11513v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.11513v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In electronic trading markets, limit order books (LOBs) provide information about pending buy/sell orders at various price levels for a given security. Recently, there has been a growing interest in using LOB data for resolving downstream machine learning tasks (e.g., forecasting). However, dealing with out-of-distribution (OOD) LOB data is challenging since distributional shifts are unlabeled in current publicly available LOB datasets. Therefore, it is critical to build a synthetic LOB dataset with labeled OOD samples serving as a testbed for developing models that generalize well to unseen scenarios. In this work, we utilize a multi-agent market simulator to build a synthetic LOB dataset, named DSLOB, with and without market stress scenarios, which allows for the design of controlled distributional shift benchmarking. Using the proposed synthetic dataset, we provide a holistic analysis on the forecasting performance of three different state-of-the-art forecasting methods. Our results reflect the need for increased researcher efforts to develop algorithms with robustness to distributional shifts in high-frequency time series data.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-17T06:33:27Z</published>
+    <arxiv:comment>11 pages, 5 figures, already accepted by NeurIPS 2022 Distribution Shifts Workshop</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Defu Cao</name>
+    </author>
+    <author>
+      <name>Yousef El-Laham</name>
+    </author>
+    <author>
+      <name>Loc Trinh</name>
+    </author>
+    <author>
+      <name>Svitlana Vyetrenko</name>
+    </author>
+    <author>
+      <name>Yan Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1405.1247v1</id>
+    <title>Stylized facts of price gaps in limit order books: Evidence from Chinese stocks</title>
+    <updated>2014-05-06T12:38:35Z</updated>
+    <link href="https://arxiv.org/abs/1405.1247v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1405.1247v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Price gap, defined as the logarithmic price difference between the first two occupied price levels on the same side of a limit order book (LOB), is a key determinant of market depth, which is one of the dimensions of liquidity. However, the properties of price gaps have not been thoroughly studied due to the less availability of ultrahigh frequency data. In the paper, we rebuild the LOB dynamics based on the order flow data of 26 A-share stocks traded on the Shenzhen Stock Exchange in 2003. Three key empirical statistical properties of price gaps are investigated. We find that the distribution of price gaps has a power-law tail for all stocks with an average tail exponent close to 3.2. Applying modern statistical methods, we confirm that the gap time series are long-range correlated and possess multifractal nature. These three features vary from stock to stock and are not universal. Furthermore, we also unveil buy-sell asymmetry phenomena in the properties of price gaps on the buy and sell sides of the LOBs for individual stocks. These findings deepen our understanding of the dynamics of liquidity of common stocks and can be used to calibrate agent-based computational financial models.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-05-06T12:38:35Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <arxiv:journal_ref>Chaos, Solitons &amp; Fractals 88, 48-58 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Gao-Feng Gu</name>
+      <arxiv:affiliation>ECUST</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiong Xiong</name>
+      <arxiv:affiliation>TJU</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yong-Jie Zhang</name>
+      <arxiv:affiliation>TJU</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Wei Chen</name>
+      <arxiv:affiliation>SZSE</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+      <arxiv:affiliation>TJU</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Wei-Xing Zhou</name>
+      <arxiv:affiliation>ECUST</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/j.chaos.2015.10.031</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.chaos.2015.10.031" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.24366v2</id>
+    <title>The Anatomy of a Decentralized Prediction Market: Microstructure Evidence from the Polymarket Order Book</title>
+    <updated>2026-05-14T14:44:36Z</updated>
+    <link href="https://arxiv.org/abs/2604.24366v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.24366v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the microstructure of Polymarket, the largest on-chain prediction market, using a continuous tick-level archive of the public order-book feed (30 billion events over 52 days) joined to the authoritative on-chain trade record. On a pre-registered stratified panel of 600 markets we report eight stylized facts: a longshot spread premium; a depth profile closer to uniform than to top-of-book; a null block-clock alignment effect; broad maker-wallet diversity with a concentrated tail; category-conditional effective-spread differences; a sub-50 ms median archive-ingestion delay with a multi-second tail; a self-counterparty wash share with median 1% and a 22% upper tail (well below Cong et al. 2023's 25-70% for unregulated crypto venues -- a sanity bound, not an apples-to-apples reference); and a cross-sectional depth profile explained by market duration, price level, and volume, with no residual time-to-close effect. The paper also contributes a measurement result: trade direction inferred from Polymarket's public order-book feed agrees with on-chain ground truth on only ~59% of buckets (panel mean 0.615, 95% CI [0.58, 0.65]), well below the ~80% Lee-Ready accuracy on Nasdaq. The effective half-spread changes sign between feed- and on-chain trade directions on 67%/50% of markets across two 7-day windows; Kyle's lambda on 60%/43%. Microstructure work on Polymarket therefore needs to source trade direction from on-chain OrderFilled events; we release a replication package that performs the join.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-27T12:01:14Z</published>
+    <arxiv:comment>16 pages, 9 figures, 5 tables. JEL: G14, G12, G19, C58, L86. v2: scope narrowing in Section 3, SF2 redone with full per-level depth profile, SF8 reframed (time-to-close coefficient becomes NS once duration and p(1-p) are controlled). Replication: https://github.com/philippdubach/polymarket-microstructure ; Zenodo DOI 10.5281/zenodo.19811426</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Philipp D. Dubach</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.01683v1</id>
+    <title>The Impact of Sequential versus Parallel Clearing Mechanisms in Agent-Based Simulations of Artificial Limit Order Book Exchanges</title>
+    <updated>2025-09-01T18:03:55Z</updated>
+    <link href="https://arxiv.org/abs/2509.01683v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.01683v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study examines the impact of different computing implementations of clearing mechanisms on multi-asset price dynamics within an artificial stock market framework. We show that sequential processing of order books introduces a systematic and significant bias by affecting the allocation of traders' capital within a single time step. This occurs because applying budget constraints sequentially grants assets processed earlier preferential access to funds, distorting individual asset demand and consequently their price trajectories. The findings highlight that while the overall price level is primarily driven by macro factors like the money-to-stock ratio, the market's microstructural clearing mechanism plays a critical role in the allocation of value among individual assets. This underscores the necessity for careful consideration and validation of clearing mechanisms in artificial markets to accurately model complex financial behaviors.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-01T18:03:55Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Matej Steinbacher</name>
+    </author>
+    <author>
+      <name>Mitja Steinbacher</name>
+    </author>
+    <author>
+      <name>Matjaz Steinbacher</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0801.3712v1</id>
+    <title>Empirical shape function of limit-order books in the Chinese stock market</title>
+    <updated>2008-01-24T07:49:21Z</updated>
+    <link href="https://arxiv.org/abs/0801.3712v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0801.3712v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We have analyzed the statistical probabilities of limit-order book (LOB) shape through building the book using the ultra-high-frequency data from 23 liquid stocks traded on the Shenzhen Stock Exchange in 2003. We find that the averaged LOB shape has a maximum away from the same best price for both buy and sell LOBs. The LOB shape function has nice exponential form in the right tail. The buy LOB is found to be abnormally thicker for the price levels close to the same best although there are much more sell orders on the book. We also find that the LOB shape functions for both buy and sell sides have periodic peaks with a period of five. The 1-min averaged volumes at fixed tick level follow lognormal distributions, except for the left tails which display power-law behaviors, and exhibit long memory. Academic implications of our empirical results are also discussed briefly.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-01-24T07:49:21Z</published>
+    <arxiv:comment>10 Elsart page including 4 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <arxiv:journal_ref>Physica A 387 (21), 5182-5188 (2008)</arxiv:journal_ref>
+    <author>
+      <name>Gao-Feng Gu</name>
+      <arxiv:affiliation>ECUST</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Wei Chen</name>
+      <arxiv:affiliation>SZSE</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Wei-Xing Zhou</name>
+      <arxiv:affiliation>ECUST</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2008.05.008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2008.05.008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.01670v1</id>
+    <title>The LOB Recreation Model: Predicting the Limit Order Book from TAQ History Using an Ordinary Differential Equation Recurrent Neural Network</title>
+    <updated>2021-03-02T12:07:43Z</updated>
+    <link href="https://arxiv.org/abs/2103.01670v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.01670v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In an order-driven financial market, the price of a financial asset is discovered through the interaction of orders - requests to buy or sell at a particular price - that are posted to the public limit order book (LOB). Therefore, LOB data is extremely valuable for modelling market dynamics. However, LOB data is not freely accessible, which poses a challenge to market participants and researchers wishing to exploit this information. Fortunately, trades and quotes (TAQ) data - orders arriving at the top of the LOB, and trades executing in the market - are more readily available. In this paper, we present the LOB recreation model, a first attempt from a deep learning perspective to recreate the top five price levels of the LOB for small-tick stocks using only TAQ data. Volumes of orders sitting deep in the LOB are predicted by combining outputs from: (1) a history compiler that uses a Gated Recurrent Unit (GRU) module to selectively compile prediction relevant quote history; (2) a market events simulator, which uses an Ordinary Differential Equation Recurrent Neural Network (ODE-RNN) to simulate the accumulation of net order arrivals; and (3) a weighting scheme to adaptively combine the predictions generated by (1) and (2). By the paradigm of transfer learning, the source model trained on one stock can be fine-tuned to enable application to other financial assets of the same class with much lower demand on additional data. Comprehensive experiments conducted on two real world intraday LOB datasets demonstrate that the proposed model can efficiently recreate the LOB with high accuracy using only TAQ data as input.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-02T12:07:43Z</published>
+    <arxiv:comment>12 pages, preprint accepted for publication in the 35th AAAI Conference on Artificial Intelligence (AAAI-2021)</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Zijian Shi</name>
+    </author>
+    <author>
+      <name>Yu Chen</name>
+    </author>
+    <author>
+      <name>John Cartlidge</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.08308v1</id>
+    <title>An Empirical Study on Arrival Rates of Limit Orders and Order Cancellation Rates in Borsa Istanbul</title>
+    <updated>2019-09-18T09:24:27Z</updated>
+    <link href="https://arxiv.org/abs/1909.08308v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.08308v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Order book dynamics play an important role in both execution time and price formation of orders in an exchange market. In this study, we aim to model the limit order arrival rates in the vicinity of the best bid and the best ask price levels. We use limit order book data for Garanti Bank, which is one of the most traded stocks in Borsa Istanbul. In order to model the daily, weekly, and monthly arrival of limit order quantities, three different discrete probability distributions are tested: Geometric, Beta-Binomial and Discrete Weibull. Additionally, two theoretical models, namely, Exponential and Power law are also tested. We aim to model the arrival rates in the first fifteen bid and ask price levels. We use L1 norms in order to calculate the goodness-of-fit statistics. Furthermore, we examine the structure of weekly and monthly mean cancellation rates in the first ten bid and ask price levels.</summary>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-18T09:24:27Z</published>
+    <arxiv:comment>29 pages</arxiv:comment>
+    <arxiv:primary_category term="q-fin.MF"/>
+    <author>
+      <name>Can Yilmaz Altinigne</name>
+    </author>
+    <author>
+      <name>Harun Ozkan</name>
+    </author>
+    <author>
+      <name>Veli Can Kupeli</name>
+    </author>
+    <author>
+      <name>Zehra Cataltepe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.18195v1</id>
+    <title>Multi-Level Market Making with Reinforcement Learning</title>
+    <updated>2026-08-18T16:30:58Z</updated>
+    <link href="https://arxiv.org/abs/2608.18195v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.18195v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a reinforcement learning framework for market making in a limit order book. Our algorithm aims to maximize trading revenue by dynamically submitting market and limit orders of varying sizes across multiple price levels while controlling inventory size. We use multivariate logistic-normal distributions to model order allocations and employ a deep-set encoder to aggregate features from variable-length order sets into a fixed-dimensional latent representation. Additionally, we incorporate potential-based reward shaping to accelerate learning without altering the optimal policy. We illustrate the performance of the method in three simulated market environments consisting of noise traders who submit random trades, tactical traders who respond to instantaneous volume imbalance, and strategic traders who trade in the direction of an exponentially weighted volume imbalance signal.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-18T16:30:58Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Patrick Cheridito</name>
+    </author>
+    <author>
+      <name>Moritz Weiss</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0312703v2</id>
+    <title>What really causes large price changes?</title>
+    <updated>2004-04-15T00:16:20Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0312703v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0312703v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the cause of large fluctuations in prices in the London Stock Exchange. This is done at the microscopic level of individual events, where an event is the placement or cancellation of an order to buy or sell. We show that price fluctuations caused by individual market orders are essentially independent of the volume of orders. Instead, large price fluctuations are driven by liquidity fluctuations, variations in the market's ability to absorb new orders. Even for the most liquid stocks there can be substantial gaps in the order book, corresponding to a block of adjacent price levels containing no quotes. When such a gap exists next to the best price, a new order can remove the best quote, triggering a large midpoint price change. Thus, the distribution of large price changes merely reflects the distribution of gaps in the limit order book. This is a finite size effect, caused by the granularity of order flow: In a market where participants placed many small orders uniformly across prices, such large price fluctuations would not happen. We show that this explains price fluctuations on longer timescales. In addition, we present results suggesting that the risk profile varies from stock to stock, and is not universal: lightly traded stocks tend to have more extreme risks.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-12-30T17:40:54Z</published>
+    <arxiv:comment>14 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <author>
+      <name>J. Doyne Farmer</name>
+    </author>
+    <author>
+      <name>Laszlo Gillemot</name>
+    </author>
+    <author>
+      <name>Fabrizio Lillo</name>
+    </author>
+    <author>
+      <name>Szabolcs Mike</name>
+    </author>
+    <author>
+      <name>Anindya Sen</name>
+    </author>
+  </entry>
+</feed>

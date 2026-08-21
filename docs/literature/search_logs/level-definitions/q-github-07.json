@@ -1,0 +1,45 @@
+{
+ "query_id": "q-github-07",
+ "platform": "GitHub REST API repository search (api.github.com/search/repositories, sort=stars)",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "pivot points indicator in:name,description language:python",
+ "total_count": 5,
+ "n_records_retrieved": 5,
+ "items": [
+  {
+   "repo": "pedrohcleal/TradingViewScraper",
+   "stars": 1,
+   "lang": "Python",
+   "desc": "Python-based scraper designed to fetch and analyze technical indicators and pivot points from TradingView",
+   "html_url": "https://github.com/pedrohcleal/TradingViewScraper"
+  },
+  {
+   "repo": "DataScientistCg/Klinger-Volume-Indicator-Bot",
+   "stars": 1,
+   "lang": "Python",
+   "desc": "An automated Forex trading bot using MetaTrader 5 (MT5) and Python to analyze currency pairs. It calculates buy/sell signals using indicators like Klinger Volum",
+   "html_url": "https://github.com/DataScientistCg/Klinger-Volume-Indicator-Bot"
+  },
+  {
+   "repo": "anshuljagtap/Trading-Strategy-Simulator",
+   "stars": 1,
+   "lang": "Python",
+   "desc": " Trading Strategy Simulator is a Python-based desktop application that enables users to analyze stock market trends using various technical indicators. Leveragi",
+   "html_url": "https://github.com/anshuljagtap/Trading-Strategy-Simulator"
+  },
+  {
+   "repo": "Yabaganz/Currency-Exchange-Tracker",
+   "stars": 0,
+   "lang": "Python",
+   "desc": "A robust and modular Streamlit app for tracking live currency exchange rates, analyzing historical trends, and computing financial indicators like volatility an",
+   "html_url": "https://github.com/Yabaganz/Currency-Exchange-Tracker"
+  },
+  {
+   "repo": "phil-7/Futures-Trading-Tool",
+   "stars": 0,
+   "lang": "Python",
+   "desc": "A Python-based trading aid built for my CS50p final project. It fetches futures data (via yfinance), calculates key technical indicators (RSI, Stochastic Oscill",
+   "html_url": "https://github.com/phil-7/Futures-Trading-Tool"
+  }
+ ]
+}

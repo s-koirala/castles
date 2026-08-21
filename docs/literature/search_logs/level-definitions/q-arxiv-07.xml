@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+UpNNYqTeLHHw71I28DPxowoBu8</id>
+  <title>arXiv Query: search_query=all:"technical analysis" AND all:"trading range"&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-08-21T18:13:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22technical+analysis%22+AND+all:%22trading+range%22&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.07536v2</id>
+    <title>FinLLM-B: When Large Language Models Meet Financial Breakout Trading</title>
+    <updated>2025-02-22T16:36:08Z</updated>
+    <link href="https://arxiv.org/abs/2402.07536v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.07536v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Trading range breakout is a key method in the technical analysis of financial trading, widely employed by traders in financial markets such as stocks, futures, and foreign exchange. However, distinguishing between true and false breakout and providing the correct rationale cause significant challenges to investors. Traditional quantitative methods require large amounts of data and cannot directly present the reasoning process, making them less than perfect in this field. Recently, large language models have achieved success in various downstream applications, but their effectiveness in the domain of financial breakout detection has been subpar. The reason is that the unique data and specific knowledge are required in breakout detection. To address these issues, we create the first financial breakout dataset and introduce FinLLM-B, the premier large language model for financial breakout detection, which enhances the effectiveness of breakout trading strategies. Furthermore, we have developed a novel framework for large language models, namely multi-stage structure, effectively reducing mistakes in downstream applications. Experimental results indicate that compared to GPT-3.5, FinLLM-B improves the average accuracy of answers and rational by 49.97%, with the multi-stage structure contributing 9.72% to the improvement. Additionally, it outperforms ChatGPT-4 by 42.38%.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-12T10:04:07Z</published>
+    <arxiv:comment>Accepted by NAACL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kang Zhang</name>
+    </author>
+    <author>
+      <name>Osamu Yoshie</name>
+    </author>
+    <author>
+      <name>Lichao Sun</name>
+    </author>
+    <author>
+      <name>Weiran Huang</name>
+    </author>
+  </entry>
+</feed>

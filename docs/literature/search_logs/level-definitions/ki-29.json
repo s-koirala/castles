@@ -1,0 +1,50 @@
+{
+ "query_id": "ki-29",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Fibonacci+retracement+levels+financial+markets+test&rows=5&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2058319,
+ "n_records_retrieved": 5,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.3701439",
+   "title": "Fibonacci Retracement in Stock Market",
+   "year": 2020,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Stock market prediction is used to assure entry and exit of the investor by predicting the future of current market trend. The hypothesis of market can be either fundamental or technical analysis. This research paper helps in stock market trading by using the Fibonacci retracement. The retracement prediction deals with the psychological sentiment of the market in continuity. A Fibonacci retracement provides the correct time frame of entry and exit in 70% [13] of cases through Golden ratio, which is inclined to provide the good structural design of stock market. Fibonacci retracement hy"
+  },
+  {
+   "DOI": "10.2139/ssrn.3506517",
+   "title": "The Dynamics of Financial Markets: Fibonacci Numbers, Elliott Waves, and Solitons",
+   "year": 2020,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>In this paper information theoretical approach is applied to the description of financial markets A model which is expected to describe the markets dynamics is presented. It is shown the possibility to describe market trend and cycle dynamics from a unified viewpoint. The model predictions comparatively well suit Fibonacci ratios and numbers used for the analysis of market price and time projections. It proves possible to link time and price projections, thus allowing increase the accuracy of predicting well in advance the moment of trend termination. The model is tested against real d"
+  },
+  {
+   "DOI": "10.1109/icetems64039.2024.10964965",
+   "title": "Testing the Accuracy of Fibonacci Retracement Levels Using Artificial Intelligence",
+   "year": 2024,
+   "container": "2024 2nd International Conference on Emerging Trends in Engineering and Medical Sciences (ICETEMS)",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119204213.ch11",
+   "title": "Fibonacci and Elliott Wave",
+   "year": 2012,
+   "container": "Essentials of Technical Analysis for Financial Markets",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1093/oso/9780195175714.003.0008",
+   "title": "Fibonacci and the Financial Revolution",
+   "year": 2005,
+   "container": "The Origins Of Value",
+   "type": "book-chapter",
+   "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Present value analysis is a method for comparing the relative economic value of differing payment streams, taking into account the time-value of money. Mathematically reducing all cash flow streams to a single point in time allows the investor to decide which is unambiguously the best. According to a recent survey of corporate financial officers, the present value criterion is now used by virtually all large companies in the capital budgeting decision. The modern present value formula was developed by economist Irving Fisher in 1930; "
+  }
+ ]
+}

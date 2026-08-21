@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-03",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Harris+stock+price+clustering+and+discreteness+Review+of+Financial+Studies+1991&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 13615046,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1093/rfs/4.3.389",
+   "title": "Stock Price Clustering and Discreteness",
+   "year": 1991,
+   "container": "Review of Financial Studies",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1108/jfrc-07-2012-0025",
+   "title": "Stock price discreteness and clustering: decimals and ordered probit model",
+   "year": 2014,
+   "container": "Journal of Financial Regulation and Compliance",
+   "type": "journal-article",
+   "abstract": "<jats:sec>\n               <jats:title content-type=\"abstract-heading\">Purpose</jats:title>\n               <jats:p> \u2013 The purpose of this paper is to revisit the ordered probit model of Hausman <jats:italic>et al.</jats:italic> after the NYSE decimalization. </jats:p>\n            </jats:sec>\n            <jats:sec>\n               <jats:title content-type=\"abstract-heading\">Design/methodology/approach</jats:title>\n               <jats:p> \u2013 The changed ordered probit model. </jats:p>\n            </jats:sec>\n            <jats:sec>\n               <jats:title content-type=\"abstract-heading\">Findings<"
+  },
+  {
+   "DOI": "10.1111/1540-6288.00015",
+   "title": "Does Price Discreteness Affect the Increase in Return Volatility Following Stock Splits?",
+   "year": 2002,
+   "container": "Financial Review",
+   "type": "journal-article",
+   "abstract": "<jats:p>Stock return volatility tends to increase significantly following stock splits. One potential cause of this is the trading of stocks in discrete price intervals called ticks. This study provides a direct test of price discreteness as a determinant of this phenomenon by examining variance increases before and after the 1997 date when the exchanges reduced the tick size from 1/8 to 1/16. Results generally show that the post\u2010split variance increase was unaffected by the reduction in tick size even after controlling for other factors. AMEX stocks proved the exception, with slightly lower v"
+  }
+ ]
+}

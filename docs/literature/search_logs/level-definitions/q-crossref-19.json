@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-19",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Donchian+channel+breakout+highest+high+lowest+low+trading+rule&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 5108459,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.6272239",
+   "title": "Evaluating the Performance of a Donchian Channel Breakout Strategy with ATR-Based Risk Management",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This study examines the performance of the Donchian Channel breakout strategy enhanced with the ATR-based volatility regime filter and ATR based risk management. Using BTC (Bitcoin) daily data, the strategy enters long and short positions on range breakouts while restricting high volatility trades. Backtesting results indicate that the strategy significantly outperformed a passive based approach over the tested period, however these results were very specific and narrow and were highly sensitive to transactional costs, parameter settings, and market conditions. The findings highlight t"
+  },
+  {
+   "DOI": "10.1002/9781119207801.ch15",
+   "title": "Donchian Channels",
+   "year": 2012,
+   "container": "Trading Regime Analysis",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1142/s242478632250027x",
+   "title": "Can exchange-traded funds be profitably traded with the trading range breakout technical trading rule?",
+   "year": 2022,
+   "container": "International Journal of Financial Engineering",
+   "type": "journal-article",
+   "abstract": "<jats:p> This study investigates whether the trading range breakout technical trading rule can be applied in exchange-traded funds. Using the samples of crude oil exchange-traded funds, namely USO, USL, UCO, and DBO, that track West Texas intermediate (WTI), the results indicate that the trading range breakout technical trading rule outperforms the benchmark buy-and-hold strategy. In addition, a volatility-based trading range breakout technical trading rule is proposed to enhance trading performance. The results suggest that the proposed TGARCH-MA can be used as a technical trading rule to ass"
+  },
+  {
+   "DOI": "10.1787/888932486982",
+   "title": "Households with broadband access, by region, highest to lowest, 2009",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1177/237455680305.n8",
+   "title": "highest-and-lowest-state-gasoline-tax-rates",
+   "year": null,
+   "container": "SAGE Business Researcher",
+   "type": "book-section",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj.1460/fig-3",
+   "title": "Figure 3: Test-retest correlations ranked from highest to lowest.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  }
+ ]
+}

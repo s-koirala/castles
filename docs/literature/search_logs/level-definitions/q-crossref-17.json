@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-17",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=perceptually+important+points+time+series+segmentation&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2403306,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1109/jas.2019.1911777",
+   "title": "Self-learning of multivariate time series using perceptually important points",
+   "year": 2019,
+   "container": "IEEE/CAA Journal of Automatica Sinica",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3844/jcssp.2010.1389.1395",
+   "title": "Index Financial Time Series Based on Zigzag-Perceptually Important Points",
+   "year": 2010,
+   "container": "Journal of Computer Science",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1109/coginf.2009.5250725",
+   "title": "Identifying Zigzag based Perceptually Important Points for indexing financial time series",
+   "year": 2009,
+   "container": "2009 8th IEEE International Conference on Cognitive Informatics",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3390/app10165428",
+   "title": "Interval Feature Transformation for Time Series Classification Using Perceptually Important Points",
+   "year": 2020,
+   "container": "Applied Sciences",
+   "type": "journal-article",
+   "abstract": "<jats:p>A novel feature reconstruction method, referred to as interval feature transformation (IFT), is proposed for time series classification. The IFT uses perceptually important points to segment the series dynamically into subsequences of unequal length, and then extract interval features from each time series subsequence as a feature vector. The IFT distinguishes the best top-k discriminative feature vectors from a data set by information gain. Utilizing these discriminative feature vectors, transformation is applied to generate new k-dimensional data which are lower-dimensional represent"
+  },
+  {
+   "DOI": "10.1109/iccsnt.2012.6526233",
+   "title": "Feature recognition of the futures time series based on perceptually important points",
+   "year": 2012,
+   "container": "Proceedings of 2012 2nd International Conference on Computer Science and Network Technology",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1109/clei.2018.00040",
+   "title": "Agribusiness Time Series Forecasting using Perceptually Important Events",
+   "year": 2018,
+   "container": "2018 XLIV Latin American Computer Conference (CLEI)",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1109/icmlc.2005.1527193",
+   "title": "Pattern distance of time series based on segmentation by important points",
+   "year": 2005,
+   "container": "2005 International Conference on Machine Learning and Cybernetics",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.eswa.2014.04.028",
+   "title": "A prediction scheme using perceptually important points and dynamic time warping",
+   "year": 2014,
+   "container": "Expert Systems with Applications",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "query_id": "q-github-08",
+ "platform": "GitHub REST API repository search (api.github.com/search/repositories, sort=stars)",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "order-block detection in:name,description",
+ "total_count": 29,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "repo": "Prasad1612/smart-money-concept",
+   "stars": 42,
+   "lang": "Python",
+   "desc": "Smart Money Concepts (SMC) technical analysis in Python \u2014 Market structure, order blocks, fair value gaps, BOS/CHoCH detection, visualization, and CLI support u",
+   "html_url": "https://github.com/Prasad1612/smart-money-concept"
+  },
+  {
+   "repo": "Prasad1612/SMC-Screener",
+   "stars": 3,
+   "lang": "Python",
+   "desc": "Smart Money Concepts (SMC) technical analysis in Python \u2014 Market structure, order blocks, fair value gaps, BOS/CHoCH detection, visualization, and CLI support u",
+   "html_url": "https://github.com/Prasad1612/SMC-Screener"
+  },
+  {
+   "repo": "LesleyJJ/SMCIndicator-public",
+   "stars": 3,
+   "lang": null,
+   "desc": "An advanced MetaTrader 5 (MT5) indicator that automates Smart Money Concept (SMC) analysis, including market structure, order blocks, BoS/ChoCh detection, and s",
+   "html_url": "https://github.com/LesleyJJ/SMCIndicator-public"
+  },
+  {
+   "repo": "Z3NGHACK/trading_crypto_bot",
+   "stars": 2,
+   "lang": "Python",
+   "desc": "A professional algorithmic trading system for cryptocurrency markets implementing technical analysis, market structure analysis, and order block detection. Buil",
+   "html_url": "https://github.com/Z3NGHACK/trading_crypto_bot"
+  },
+  {
+   "repo": "alexch03/analyseur-crypto",
+   "stars": 2,
+   "lang": "Python",
+   "desc": "Analyseur de structure de march\u00e9 crypto multi-timeframe pour Bitget \u2014 d\u00e9tection BOS/CHOCH/FVG/order blocks, g\u00e9n\u00e9ration de setups d\u00e9terministe, moteur de paper t",
+   "html_url": "https://github.com/alexch03/analyseur-crypto"
+  },
+  {
+   "repo": "Vantage-Logics-AI/Trading-View-Order-Block-Finder-Indicator",
+   "stars": 1,
+   "lang": null,
+   "desc": "Institutional-grade Order Block detection with strength grading. Non-repainting SMC methodology.",
+   "html_url": "https://github.com/Vantage-Logics-AI/Trading-View-Order-Block-Finder-Indicator"
+  }
+ ]
+}

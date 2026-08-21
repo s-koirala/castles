@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-20",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Wyckoff+method+accumulation+distribution+trading+range+market+structure&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 5841100,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.1002/9781119206651.ch12",
+   "title": "How to Find a Trading System or Method That Really Works",
+   "year": 2012,
+   "container": "Trading Triads",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-981-13-1633-3_5",
+   "title": "Significance of the Distribution of Income and Structure of Credit Market",
+   "year": 2018,
+   "container": "Income Distribution, Market Imperfections and Capital Accumulation in a Developing Economy",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119206651.ch9",
+   "title": "Trading Patterns with Triads",
+   "year": 2012,
+   "container": "Trading Triads",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119206651",
+   "title": "Trading Triads",
+   "year": 2012,
+   "container": "",
+   "type": "edited-book",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119206651.fmatter",
+   "title": "Front Matter",
+   "year": 2012,
+   "container": "Trading Triads",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119206651.biblio",
+   "title": "Bibliography",
+   "year": 2012,
+   "container": "Trading Triads",
+   "type": "other",
+   "abstract": ""
+  }
+ ]
+}

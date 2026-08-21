@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-23",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=iceberg+orders+hidden+liquidity+detection+limit+order+book&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 3332268,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.676564",
+   "title": "Hidden Limit Orders and Liquidity in Limit Order Markets",
+   "year": 2005,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Many limit order markets allow limit order traders to submit \"hidden\" orders (also called \"iceberg\" or \"undisclosed\" orders). Liquidity suppliers thus have the possibility to post a quote and either display none or only a fraction of their order's quantity to the market. Some recent empirical studies show that such orders represent a large proportion of the market liquidity. These orders are indeed supposed to limit the liquidity suppliers' risk of adverse selection and information disclosure. However, these orders could also be used by informed agents to trade a large volume without d"
+  },
+  {
+   "DOI": "10.4324/9781315737676-17",
+   "title": "On the hidden side of liquidity",
+   "year": 2016,
+   "container": "High Frequency Trading and Limit Order Book Dynamics",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.1342228",
+   "title": "Limit Order Book Liquidity and Liquidity Imbalance",
+   "year": 2009,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We analyze the role of liquidity provision of limit order traders in the NYSE. Using an extensive limit order book data for all the ordinary stocks in the NYSE, we compute various measures of liquidity and imbalance in liquidity. We show that the interest rate environment has a strong impact on the willingness of limit order traders to provide liquidity. Higher cost of financing the provision of liquidity reduces the liquidity in the limit order book. Limit order traders are also more willing to provide liquidity earlier in the week than later. Imbalance between buy side and sell side "
+  },
+  {
+   "DOI": "10.70675/5a5737adz7851z4e66z822dz6fd9adb14797",
+   "title": "Limit order book modelling and liquidity risk management",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": "<jats:title>Mod\u00e9lisation de carnet d\u2019ordres et gestion de risque de liquidit\u00e9</jats:title>\n                <jats:p xml:lang=\"fr\">Cette th\u00e8se porte sur l'\u00e9tude de mod\u00e9lisation stochastique de carnet d'ordres, et de deux probl\u00e8mes de contr\u00f4le stochastique dans un contexte de risque de liquidit\u00e9 et d'impact sur le prix des actifs. La th\u00e8se est constitu\u00e9e de deux parties distinctes.Dans la premi\u00e8re partie, nous traitons, sous diff\u00e9rents aspects, un mod\u00e8le markovien de carnet d'ordres.En particulier, dans le chapitre 2, nous introduisons un mod\u00e8le de repr\u00e9sentation par profondeur cumul\u00e9e. Nous cons"
+  },
+  {
+   "DOI": "10.2139/ssrn.1343538",
+   "title": "The Impact of Hidden Liquidity in Limit Order Books",
+   "year": 2009,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We show that the order submission strategies of liquidity demanders and suppliers change when the observed price dynamics signal that the order book is likely to contain hidden liquidity. We combine the signals of hidden liquidity that can be extracted from the price dynamics with the actual data on hidden liquidity to differentiate between situations in which market participants are likely to expect hidden liquidity from situations in which the presence of hidden liquidity is likely to be a surprise. We estimate a price impact function and the moments of the order flow distributions c"
+  },
+  {
+   "DOI": "10.2139/ssrn.1108485",
+   "title": "The Impact of Iceberg Orders in Limit Order Books",
+   "year": 2009,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

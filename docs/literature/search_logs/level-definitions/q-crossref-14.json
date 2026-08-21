@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-14",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=volume+weighted+average+price+VWAP+execution+benchmark&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1111790,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1002/9780470061602.eqf07036",
+   "title": "Volume\u2010Weighted Average Price (VWAP)",
+   "year": 2010,
+   "container": "Encyclopedia of Quantitative Finance",
+   "type": "other",
+   "abstract": "<jats:title>Abstract</jats:title>\n          <jats:p>The volume\u2010 (or time\u2010) weighted average price is a common benchmark used to evaluate performance in trading and execution.</jats:p>"
+  },
+  {
+   "DOI": "10.2139/ssrn.4631351",
+   "title": "Volume Weighted Average Price (VWAP) The Holy Grail for Day Trading Systems",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper explores the application of the Volume Weighted Average Price (VWAP) in detecting market imbalances and enhancing trading decisions across diverse market conditions. We introduce a straightforward VWAP-based day trading strategy, which initiates long positions when price is above the VWAP and short positions when it falls below the VWAP. Our analysis employs QQQ and TQQQ as primary trading instruments, covering the period from January 2, 2018, to September 28, 2023. This timeframe includes two bear markets and multiple high-volatility events, providing a comprehensive test o"
+  },
+  {
+   "DOI": "10.1002/9781118531877.ch1",
+   "title": "MIDAS and its Core Constituents: The Volume Weighted Average Price (VWAP) and Fractal Market Analysis",
+   "year": 2011,
+   "container": "MIDAS Technical Analysis",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1137/16m1058406",
+   "title": "A Closed-Form Execution Strategy to Target Volume Weighted Average Price",
+   "year": 2016,
+   "container": "SIAM Journal on Financial Mathematics",
+   "type": "journal-article",
+   "abstract": "<jats:p>We provide two explicit closed-form optimal execution strategies to target volume weighted average price (VWAP). We do this under very general assumptions about the stochastic process followed by the volume traded in the market, and, unlike earlier studies, we account for permanent price impact stemming from order-flow of the agent and all other traders. One of the strategies consists of time weighted average price adjusted upward by a fraction of instantaneous order-flow and adjusted downward by the average order-flow that is expected over the remaining life of the strategy. The other"
+  },
+  {
+   "DOI": "10.2139/ssrn.3380177",
+   "title": "Optimal VWAP Execution Under Transient Price Impact",
+   "year": 2019,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.14264/158571",
+   "title": "Volume Weighted Average Price Options",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.33119/sip.2025.204.8",
+   "title": "Volume Weighted Average Price (VWAP) jako narz\u0119dzie wspieraj\u0105ce proces podejmowania decyzji inwestycyjnych \u2013 na przyk\u0142adzie indeksu DAX.",
+   "year": 2025,
+   "container": "Studia i Prace Kolegium Zarz\u0105dzania i Finans\u00f3w",
+   "type": "journal-article",
+   "abstract": "<jats:p>Celem niniejszego artyku\u0142u jest analiza wykorzystania narz\u0119dzi wspomagaj\u0105cych proces podejmowania decyzji inwestycyjnych w kontek\u015bcie zarz\u0105dzania pozycjami na rynku kapita\u0142owym. Badanie koncentruje si\u0119 na wska\u017aniku Volume Weighted Average Price (VWAP) oraz jego integracji z dodatkowymi narz\u0119dziami technicznymi, takimi jak Bollinger Bands, On Balance Open Interest i Percentage Change Since Open. Metodyka badawcza opiera si\u0119 na analizie danych \u015br\u00f3ddziennych z rynku kontrakt\u00f3w terminowych na indeks DAX w latach 2014\u20132024, uwzgl\u0119dniaj\u0105c narz\u0119dzia mikrostruktury rynku oraz metody oceny rela"
+  },
+  {
+   "DOI": "10.1137/130924676",
+   "title": "VWAP Execution and Guaranteed VWAP",
+   "year": 2014,
+   "container": "SIAM Journal on Financial Mathematics",
+   "type": "journal-article",
+   "abstract": "<jats:p>Optimal liquidation using volume weighted average price (VWAP) strategies has been considered in the literature, though never in the presence of permanent market impact and only rarely with execution costs. Moreover, only VWAP strategies have been studied, and the pricing of guaranteed VWAP contracts has never been addressed. In this article, we develop a model to price guaranteed VWAP contracts in a general framework for market impact, and we highlight the differences between an agency VWAP and a guaranteed VWAP contract. Numerical methods and applications are also provided.</jats:p>"
+  }
+ ]
+}

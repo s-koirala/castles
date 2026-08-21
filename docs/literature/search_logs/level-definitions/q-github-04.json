@@ -1,0 +1,52 @@
+{
+ "query_id": "q-github-04",
+ "platform": "GitHub REST API repository search (api.github.com/search/repositories, sort=stars)",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "support-resistance in:name",
+ "total_count": 253,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "repo": "day0market/support_resistance",
+   "stars": 469,
+   "lang": "Python",
+   "desc": "Small package that helps to find support and resistance levels and plot them on chart",
+   "html_url": "https://github.com/day0market/support_resistance"
+  },
+  {
+   "repo": "BatuhanUsluel/Algorithmic-Support-and-Resistance",
+   "stars": 328,
+   "lang": "Python",
+   "desc": "Automatically identifies support and resistance lines on a stock chart using reversal points, displays candlestick chart.",
+   "html_url": "https://github.com/BatuhanUsluel/Algorithmic-Support-and-Resistance"
+  },
+  {
+   "repo": "WestXu/support_resistance_line",
+   "stars": 155,
+   "lang": "Python",
+   "desc": "A well-tuned algorithm to generate & draw support/resistance line on time series. \u6839\u636e\u65f6\u95f4\u5e8f\u5217\u81ea\u52a8\u751f\u6210\u652f\u6491\u7ebf\u538b\u529b\u7ebf",
+   "html_url": "https://github.com/WestXu/support_resistance_line"
+  },
+  {
+   "repo": "judopro/Stock_Support_Resistance_ML",
+   "stars": 115,
+   "lang": "Python",
+   "desc": "Using Unsupervised learning, K-means, to determine stock support and resistance levels. Great for trading algorithms/bots using time serial analysis.",
+   "html_url": "https://github.com/judopro/Stock_Support_Resistance_ML"
+  },
+  {
+   "repo": "sohandillikar/SupportResistance",
+   "stars": 77,
+   "lang": "Jupyter Notebook",
+   "desc": "A python script that estimates the support and resistance lines of a stock's prices over a time period",
+   "html_url": "https://github.com/sohandillikar/SupportResistance"
+  },
+  {
+   "repo": "beinghorizontal/Support-Resistance",
+   "stars": 62,
+   "lang": "Python",
+   "desc": "Visual style support and resistance detection using Python code",
+   "html_url": "https://github.com/beinghorizontal/Support-Resistance"
+  }
+ ]
+}

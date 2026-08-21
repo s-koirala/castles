@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-04",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Ley+Varian+are+there+psychological+barriers+in+the+Dow-Jones+index&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2422676,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1080/758526902",
+   "title": "Are there psychological barriers in the Dow-Jones index?",
+   "year": 1994,
+   "container": "Applied Financial Economics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/springerreference_1320",
+   "title": "Dow Jones Industrial Average Index (DJIA)",
+   "year": null,
+   "container": "SpringerReference",
+   "type": "reference-entry",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.3357855",
+   "title": "Corporate Sustainability Indexes: Dow-Jones Index",
+   "year": 2019,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Corporate Sustainability Performance Measurement along with Corporate Environmental Sustainability aims to address the social and economic aspects. Concerns emerging from the three dimensions are being reduced to a single dimension of them. Multi-criteria decision-making methods, suggests a useful framework for assessing the variables together. Corporate sustainability and economic business activities are focused on the social and environmental impacts. In this sense, the economic activity established by the businesses do follow social and environmental impacts, therefore the generatio"
+  }
+ ]
+}

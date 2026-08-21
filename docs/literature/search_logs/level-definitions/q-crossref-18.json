@@ -1,0 +1,58 @@
+{
+ "query_id": "q-crossref-18",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=zigzag+indicator+trend+extrema+financial&rows=6&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 522134,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "DOI": "10.1002/9781119198499.ch5",
+   "title": "Pattern: Trend Indicator Charts",
+   "year": 2015,
+   "container": "Pattern, Price &amp; Time",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119207801.ch20",
+   "title": "Trend\u2010Following Performance Indicator",
+   "year": 2012,
+   "container": "Trading Regime Analysis",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/0031-3203(88)90056-8",
+   "title": "Extraction of trend lines and extrema from multiscale curves",
+   "year": 1988,
+   "container": "Pattern Recognition",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9780470428412.ch10",
+   "title": "Schannep Timing Indicator: The Other Major\u2010Trend Indicator",
+   "year": 2012,
+   "container": "Dow Theory for the 21st Century",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1109/iccic.2013.6724286",
+   "title": "Zigzag pixel indicator based secret data hiding method",
+   "year": 2013,
+   "container": "2013 IEEE International Conference on Computational Intelligence and Computing Research",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1037/t22740-000",
+   "title": "Financial Capability Indicator",
+   "year": 2011,
+   "container": "PsycTESTS Dataset",
+   "type": "dataset",
+   "abstract": ""
+  }
+ ]
+}

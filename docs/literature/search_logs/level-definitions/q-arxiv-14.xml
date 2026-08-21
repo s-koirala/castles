@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ERX7HTOoB+qlskbFBj4L9tbD6sU</id>
+  <title>arXiv Query: search_query=all:"order block" OR all:"smart money concepts"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-21T18:13:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22order+block%22+OR+all:%22smart+money+concepts%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>52</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.09052v1</id>
+    <title>COBS: Cumulant Order Block Sparse Attention</title>
+    <updated>2026-07-10T02:48:43Z</updated>
+    <link href="https://arxiv.org/abs/2607.09052v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.09052v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Block sparse attention is a hardware friendly way to alleviate the key-value (KV) cache read bottleneck in large language models (LLMs). However, it is not prevalent among leading open-weight LLMs, which rely instead on dense attention or fine-grained selection, thereby motivating our analysis. We study DeepSeek's Native Sparse Attention (NSA) as a representative method, whose three-branch design lets us isolate block selection, the most challenging and consequential stage. We formalize selection and reduce it to ranking blocks by a single quantity, the attention mass: the sum of a block's attention scores. We show that if selection retrieves the blocks with the largest attention mass, block sparse attention can match the quality of dense attention. However, computing the exact attention mass requires reading every key, so the problem of block selection ultimately reduces to approximating this mass from a compact summary instead of the full keys. Via a cumulant expansion, we show why existing methods falter: their selection strategies attempt to estimate the attention mass, but are confined to a first-order approximation. Therefore, we propose COBS (Cumulant Order Block Sparse Attention), an attention method that builds on NSA, incorporating a novel selector that stores a compressed second-order statistic per block. On the 32k RULER long-context retrieval benchmark, COBS raises the NSA baseline's mean score from 0.2999 to 0.8195, approaching dense attention at 0.9040 and closing about 86% of the gap, while using only 1.21x the KV cache read traffic of the NSA baseline and 15.15x less read traffic than dense. The same model preserves short-context behavior and attains lower position-wise negative log-likelihood (NLL) than dense attention in our comparison.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-10T02:48:43Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alexander Tian</name>
+    </author>
+    <author>
+      <name>Aditya Ghai</name>
+    </author>
+    <author>
+      <name>Sanjit Neelam</name>
+    </author>
+    <author>
+      <name>Zaal Vasania</name>
+    </author>
+    <author>
+      <name>Akshay Mishra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21350v1</id>
+    <title>Learning Multi-Order Block Structure in Higher-Order Networks</title>
+    <updated>2025-11-26T12:56:37Z</updated>
+    <link href="https://arxiv.org/abs/2511.21350v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21350v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Higher-order networks, naturally described as hypergraphs, are essential for modeling real-world systems involving interactions among three or more entities. Stochastic block models offer a principled framework for characterizing mesoscale organization, yet their extension to hypergraphs involves a trade-off between expressive power and computational complexity. A recent simplification, a single-order model, mitigates this complexity by assuming a single affinity pattern governs interactions of all orders. This universal assumption, however, may overlook order-dependent structural details. Here, we propose a framework that relaxes this assumption by introducing a multi-order block structure, in which different affinity patterns govern distinct subsets of interaction orders. Our framework is based on a multi-order stochastic block model and searches for the optimal partition of the set of interaction orders that maximizes out-of-sample hyperlink prediction performance. Analyzing a diverse range of real-world networks, we find that multi-order block structures are prevalent. Accounting for them not only yields better predictive performance over the single-order model but also uncovers sharper, more interpretable mesoscale organization. Our findings reveal that order-dependent mechanisms are a key feature of the mesoscale organization of real-world higher-order networks.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-26T12:56:37Z</published>
+    <arxiv:comment>38 pages, 10 figures, and 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Kazuki Nakajima</name>
+    </author>
+    <author>
+      <name>Yuya Sasaki</name>
+    </author>
+    <author>
+      <name>Takeaki Uno</name>
+    </author>
+    <author>
+      <name>Masaki Aida</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.14611v1</id>
+    <title>On the convergence rate of the "out-of-order" block Gibbs sampler</title>
+    <updated>2021-10-27T17:32:57Z</updated>
+    <link href="https://arxiv.org/abs/2110.14611v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.14611v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is shown that a seemingly harmless reordering of the steps in a block Gibbs sampler can actually invalidate the algorithm. In particular, the Markov chain that is simulated by the "out-of-order" block Gibbs sampler does not have the correct invariant probability distribution. However, despite having the wrong invariant distribution, the Markov chain converges at the same rate as the original block Gibbs Markov chain. More specifically, it is shown that either both Markov chains are geometrically ergodic (with the same geometric rate of convergence), or neither one is. These results are important from a practical standpoint because the (invalid) out-of-order algorithm may be easier to analyze than the (valid) block Gibbs sampler (see, e.g., Yang and Rosenthal [2019]).</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-27T17:32:57Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Zhumengmeng Jin</name>
+    </author>
+    <author>
+      <name>James P. Hobert</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.05073v1</id>
+    <title>Higher-Order Block Term Decomposition for Spatially Folded fMRI Data</title>
+    <updated>2016-07-15T09:28:48Z</updated>
+    <link href="https://arxiv.org/abs/1607.05073v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.05073v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The growing use of neuroimaging technologies generates a massive amount of biomedical data that exhibit high dimensionality. Tensor-based analysis of brain imaging data has been proved quite effective in exploiting their multiway nature. The advantages of tensorial methods over matrix-based approaches have also been demonstrated in the characterization of functional magnetic resonance imaging (fMRI) data, where the spatial (voxel) dimensions are commonly grouped (unfolded) as a single way/mode of the 3-rd order array, the other two ways corresponding to time and subjects. However, such methods are known to be ineffective in more demanding scenarios, such as the ones with strong noise and/or significant overlapping of activated regions. This paper aims at investigating the possible gains from a better exploitation of the spatial dimension, through a higher- (4 or 5) order tensor modeling of the fMRI signal. In this context, and in order to increase the degrees of freedom of the modeling process, a higher-order Block Term Decomposition (BTD) is applied, for the first time in fMRI analysis. Its effectiveness is demonstrated via extensive simulation results.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-15T09:28:48Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Christos Chatzichristos</name>
+    </author>
+    <author>
+      <name>Eleftherios Kofidis</name>
+    </author>
+    <author>
+      <name>Giannis Kopsinis</name>
+    </author>
+    <author>
+      <name>Sergios Theodoridis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.06294v1</id>
+    <title>The high order block RIP condition for signal recovery</title>
+    <updated>2016-10-20T05:55:23Z</updated>
+    <link href="https://arxiv.org/abs/1610.06294v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.06294v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider the recovery of block sparse signals, whose nonzero entries appear in blocks (or clusters) rather than spread arbitrarily throughout the signal, from incomplete linear measurement. A high order sufficient condition based on block RIP is obtained to guarantee the stable recovery of all block sparse signals in the presence of noise, and robust recovery when signals are not exactly block sparse via mixed $l_{2}/l_{1}$ minimization. Moreover, a concrete example is established to ensure the condition is sharp. The significance of the results presented in this paper lies in the fact that recovery may be possible under more general conditions by exploiting the block structure of the sparsity pattern instead of the conventional sparsity pattern.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-20T05:55:23Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Wengu Chen</name>
+    </author>
+    <author>
+      <name>Yaling Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.11617v1</id>
+    <title>A high order, block finite difference, error inhibiting scheme for the transport equation</title>
+    <updated>2024-02-18T15:19:28Z</updated>
+    <link href="https://arxiv.org/abs/2402.11617v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.11617v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a block finite difference, error inhibiting scheme that is fourth-order accurate for short to moderate times and has a six-order convergence rate for long times. This scheme outperforms the standard fourth-order Finite Difference scheme. We also demonstrate that the proposed scheme is a particular type of nodal-based Discontinuous Galerkin method with $p=1$.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-18T15:19:28Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Adi Ditkowski</name>
+    </author>
+    <author>
+      <name>Anne Le Blanc</name>
+    </author>
+    <author>
+      <name>Chi-Wang Shu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.13778v1</id>
+    <title>A Cartesian FMM-accelerated Galerkin boundary integral Poisson-Boltzmann solver</title>
+    <updated>2021-10-26T15:29:29Z</updated>
+    <link href="https://arxiv.org/abs/2110.13778v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.13778v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Poisson-Boltzmann model is an effective and popular approach for modeling solvated biomolecules in continuum solvent with dissolved electrolytes. In this paper, we report our recent work in developing a Galerkin boundary integral method for solving the Poisson-Boltzmann (PB) equation. The solver has combined advantages in accuracy, efficiency, and memory usage as it applies a well-posed boundary integral formulation to circumvent many numerical difficulties associated with the PB equation and uses an O(N) Cartesian Fast Multipole Method (FMM) to accelerate the GMRES iteration. In addition, special numerical treatments such as adaptive FMM order, block diagonal preconditioners, Galerkin discretization, and Duffy's transformation are combined to improve the performance of the solver, which is validated on benchmark Kirkwood's sphere and a series of testing proteins.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-26T15:29:29Z</published>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Jiahui Chen</name>
+    </author>
+    <author>
+      <name>Johannes Tausch</name>
+    </author>
+    <author>
+      <name>Weihua Geng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.17857v2</id>
+    <title>Structural Relaxation and Anisotropic Elasticity of Ordered Block Copolymer Melts</title>
+    <updated>2026-03-28T04:05:03Z</updated>
+    <link href="https://arxiv.org/abs/2511.17857v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.17857v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Block copolymer (BCP) melts play a critical role in the design of thermoplastics, owing in large part to the creation of alternating nano-scale domains of soft and stiff components. Considerable attention has been given to the short-to-intermediate time response of BCP melts, when the storage modulus is expected to dominate the viscoelastic properties. However, less attention has been paid to the long-time relaxation and rigidity of microphase separated BCP melts or the role that domain morphology plays in modulating near-equilibrium response. We take advantage of the ability of self-consistent field theory (SCFT) to calculate equilibrium properties of BCP melts to explore the anisotropic elastic response of ordered ABA and AB copolymer melts as quasistatic deformation processes. This allows us to determine the anisotropic stiffness of the liquid crystal-like lamellar and columnar phases due to modulations in domain spacing, as well as the full stiffness tensor of the cubic BCC sphere and double gyroid phases. We explore elastic modulus landscapes for both single grain materials and random polycrystals over architectural parameters and segregation strengths, using AB diblock and ABA triblock melts as key examples. Comparing AB and ABA melts, we show slight differences in equilibrium rigidity, which are shown to be due to a difference in effective domain segregation. Finally, we consider the equilibrium bending stiffnesses of lamellae and columnar phases, showing that the columnar phase is significantly stiffer than lamellae, with a characteristic bending length scale that is an order of magnitude larger.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-22T00:53:06Z</published>
+    <arxiv:comment>66 pages, 32 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Krista G. Schoonover</name>
+    </author>
+    <author>
+      <name>Gaurav Rawat</name>
+    </author>
+    <author>
+      <name>Emily B. Pentzer</name>
+    </author>
+    <author>
+      <name>Michael S. Dimitriyev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.06344v1</id>
+    <title>The high-order block RIP for non-convex block-sparse compressed sensing</title>
+    <updated>2020-06-11T11:39:12Z</updated>
+    <link href="https://arxiv.org/abs/2006.06344v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.06344v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper concentrates on the recovery of block-sparse signals, which is not only sparse but also nonzero elements are arrayed into some blocks (clusters) rather than being arbitrary distributed all over the vector, from linear measurements. We establish high-order sufficient conditions based on block RIP to ensure the exact recovery of every block $s$-sparse signal in the noiseless case via mixed $l_2/l_p$ minimization method, and the stable and robust recovery in the case that signals are not accurately block-sparse in the presence of noise. Additionally, a lower bound on necessary number of random Gaussian measurements is gained for the condition to be true with overwhelming probability. Furthermore, the numerical experiments conducted demonstrate the performance of the proposed algorithm.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-11T11:39:12Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Jianwen Huang</name>
+    </author>
+    <author>
+      <name>Xinling Liu</name>
+    </author>
+    <author>
+      <name>Jinyao Hou</name>
+    </author>
+    <author>
+      <name>Jianjun Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.01647v3</id>
+    <title>Multi-pulse solitary waves in a fourth-order nonlinear Schrödinger equation</title>
+    <updated>2021-03-04T20:16:52Z</updated>
+    <link href="https://arxiv.org/abs/2009.01647v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.01647v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present work, we consider the existence and spectral stability of multi-pulse solitary wave solutions to a nonlinear Schrödinger equation with both fourth and second order dispersion terms. We first give a criterion for the existence of a single solitary wave solution in terms of the coefficients of the dispersion terms, and then show that a discrete family of multi-pulse solutions exists which is characterized by the distances between the individual pulses. We then reduce the spectral stability problem for these multi-pulses to computing the determinant of a matrix which is, to leading order, block diagonal. Under an additional assumption, which can be verified numerically, we show that all multi-pulses are spectrally unstable. For double pulses, numerical computations are presented which are in good agreement with our analytical results.</summary>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-03T13:25:57Z</published>
+    <arxiv:comment>22 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="nlin.PS"/>
+    <arxiv:journal_ref>Physica D. 422 (Mar 2021), 132890</arxiv:journal_ref>
+    <author>
+      <name>Ross Parker</name>
+    </author>
+    <author>
+      <name>Alejandro Aceves</name>
+    </author>
+    <arxiv:doi>10.1016/j.physd.2021.132890</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physd.2021.132890" title="doi"/>
+  </entry>
+</feed>

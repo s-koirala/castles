@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-06",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=market+profile+volume+at+price+value+area+auction+market+theory&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 5904883,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1017/9781108649919.020",
+   "title": "Auction Theory",
+   "year": 2021,
+   "container": "Economics of Visual Art",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.23860/diss-3794",
+   "title": "A hedonic price model of the Portland fish auction market",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-1-349-26121-5_7",
+   "title": "The Distinction between Social Value, Individual Value, Market Value and Market Price in Volume III of Capital",
+   "year": 1998,
+   "container": "Marxian Economics: A Reappraisal",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.21203/rs.3.rs-9190333/v1",
+   "title": "The Investor Financial Profile between Professionalism and Amateurism and Its Effect on Bitcoin Market Price, Volume, Trade Dynamics, and Market Quality",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<title>Abstract</title>\n                <p>\n                  We investigate how investor sophistication profiles, captured along a\n                  <bold>professionalism vs amateurism</bold>\n                  continuum, shapes Bitcoin market outcomes: market dynamics, focusing on price, volume, volatility, and market quality Building on the Theory of Planned Behavior (TPB), risk perception, sentiment, and trading experience, we provide empirical evidence combining survey-based constructs with high-frequency market and sentiment data. Using a novel methodology that classifies investors along "
+  },
+  {
+   "DOI": "10.2139/ssrn.5206373",
+   "title": "Transaction Costs as an Inflationary Price Driver in the Auction Market",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2924636",
+   "title": "The Price Is Rightt. Using Auction Theory to Enhance Competition in the NPL Market",
+   "year": 2017,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119196709.app1",
+   "title": "Market Update",
+   "year": 2012,
+   "container": "Markets in Profile",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-1-349-20572-1_38",
+   "title": "Market Value and Market Price",
+   "year": 1990,
+   "container": "Marxian Economics",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

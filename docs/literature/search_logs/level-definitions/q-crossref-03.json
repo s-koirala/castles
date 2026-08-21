@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-03",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=psychological+barriers+round+numbers+stock+index&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2173128,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.31838/rna/2023.06.01.011",
+   "title": "Behavioral finance research of the Tehran Stock Exchange by mathematical round numbers in the Tehran Stock Exchange\u2019s overall index",
+   "year": 2023,
+   "container": "Results in Nonlinear Analysis",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.3187548",
+   "title": "Round Number Price Barriers in U.S. Stock Market",
+   "year": 2018,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper examines the existence of round number price barriers in the U.S. stock market. I show that stock prices clusters around multiples of $10 as a result of the price barriers. The price barriers results in abnormal future return pattern; a long-short portfolio formed around the barrier held for a week produces 17 basis point weekly return (8% annually). Such abnormal return does not change in magnitude after controlling for varies factors. I present supportive evidence for the left-digit-bias barrier channel.</jats:p>"
+  },
+  {
+   "DOI": "10.2139/ssrn.3683099",
+   "title": "Proximity Bias Leading to Psychological Barriers in Pakistani Stock Market at Index Level",
+   "year": 2020,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>People seem to carry a behavioral bias in investing in the stock market. This is usually depicted in people's investment behavior that coincides with market behavior in different up and down. These can be called psychological barriers\u2019 that are certain index levels (usually in multiples of 100) at which the market tends to stick before breaking out either up or down. This behavior is devoid of any rational explanation and has nothing to do with the market fundamentals. This paper explored whether proximity bias exists in the Pakistani stock market that could create \u2018psychological barri"
+  },
+  {
+   "DOI": "10.2139/ssrn.672097",
+   "title": "Psychological Barriers in Stocks and Stock Indices - Evidence from European Markets",
+   "year": 2005,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We examine four European stock indices and the prices of eight major German stocks for indications of psychological barriers. Frequency, (expected) returns, intraday volatility and trading volume of these assets are studied when the prices lie within a certain band around round numbers. We find evidence for the existence of psychological barriers, but the assets behave differently at the barriers. Additionally, the indications for psychological barriers are stronger for indices than for stocks.</jats:p>"
+  },
+  {
+   "DOI": "10.2139/ssrn.5395992",
+   "title": "Mental Barriers to Investing: Psychological Costs and Stock Market Participation",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1142/9789812816214_0019",
+   "title": "Index Numbers and Stock Market Indexes",
+   "year": 1999,
+   "container": "Statistics for Business and Financial Economics",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.ribaf.2026.103494",
+   "title": "Strong clustering and weak barriers at round numbers in Bitcoin markets",
+   "year": 2026,
+   "container": "Research in International Business and Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1142/9789812815385_0019",
+   "title": "INDEX NUMBERS AND STOCK MARKET INDEXES",
+   "year": 1999,
+   "container": "Study Guide for Statistics for Business and Financial Economics",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

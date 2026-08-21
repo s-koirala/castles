@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-13",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=order+block+liquidity+sweep+smart+money+concepts&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1229540,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.2525989",
+   "title": "Are Hedge Funds Smart Money? Liquidity Provision to Noninformational Traders",
+   "year": 2014,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper provides empirical evidence on the liquidity provision of hedge funds to noninformational traders. I propose a method to estimate the daily market-making of funds with equity-based strategies through monthly hedge fund return data. I find that around 25% of my sample of 4,299 hedge funds provided liquidity to noninformational traders over the period from 1994 to 2013. I show that the importance of market-making hedge funds has increased substantially over the last decade. Also, their liquidity provision correlates negatively with market volatility. When market volatility pea"
+  },
+  {
+   "DOI": "10.1007/978-3-8349-8554-5_2",
+   "title": "Liquidity Concepts",
+   "year": 2009,
+   "container": "A Quantitative Liquidity Model for Banks",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/bf02299587",
+   "title": "Money multipliers and sweep accounts",
+   "year": 1999,
+   "container": "Atlantic Economic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.20955/wp.2014.003",
+   "title": "Money, Liquidity and Welfare",
+   "year": 2014,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4324/9780203076514-13",
+   "title": "Uncertainty, money and liquidity",
+   "year": 2012,
+   "container": "Money in Economic Theory",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-1-349-06800-5_24",
+   "title": "Money, Debt and Liquidity",
+   "year": 1983,
+   "container": "Output, Inflation and Growth",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7551/mitpress/10518.001.0001",
+   "title": "Money, Payments, and Liquidity",
+   "year": 2017,
+   "container": "",
+   "type": "edited-book",
+   "abstract": "<jats:p>A new edition of a book presenting a unified framework for studying the role of money and liquid assets in the economy, revised and updated.</jats:p>\n               <jats:p>In\u00a0Money, Payments, and Liquidity,\u00a0Guillaume Rocheteau and Ed Nosal provide a comprehensive investigation into the economics of money, liquidity, and payments by explicitly modeling the mechanics of trade and its various frictions (including search, private information, and limited commitment). Adopting the last generation of the New Monetarist framework developed by Ricardo Lagos and Randall Wright, among others, N"
+  },
+  {
+   "DOI": "10.1093/cje/bey018",
+   "title": "The Liquidity of Money",
+   "year": 2018,
+   "container": "Cambridge Journal of Economics",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

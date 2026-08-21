@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-12",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=volume+at+price+point+of+control+value+area&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 4237475,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1007/0-387-26336-5_1585",
+   "title": "Price Value of a Basis Point",
+   "year": null,
+   "container": "Encyclopedia of Finance",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/springerreference_2223",
+   "title": "Price Value of a Basis Point",
+   "year": null,
+   "container": "SpringerReference",
+   "type": "reference-entry",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.18356/fbaf1f45-en-fr",
+   "title": "Trade indices of volume and unit value/price",
+   "year": 2016,
+   "container": "United Nations Statistical Yearbook (Ser. S)",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1787/data-00281-en",
+   "title": "Volume, unit value and price indices: OECD base year",
+   "year": 2012,
+   "container": "Monthly Statistics of International Trade",
+   "type": "dataset",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.5040/9781501365287.2116",
+   "title": "price point/price zone",
+   "year": 2022,
+   "container": "The Fairchild Books Dictionary of Fashion",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2710272",
+   "title": "Assessment of the Value of Option: Rational Price vs Reference Point",
+   "year": 2016,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2172/1872216",
+   "title": "Area 6 Control Point: An Architectural Survey of the Area 6 Control Point, Nevada National Security Site, Nye County, Nevada",
+   "year": 2021,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1163/1877-5888_rpp_sim_124462",
+   "title": "Price/Value",
+   "year": null,
+   "container": "Religion Past and Present",
+   "type": "dataset",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "query_id": "q-github-05",
+ "platform": "GitHub REST API repository search (api.github.com/search/repositories, sort=stars)",
+ "date_searched": "2026-08-21",
+ "query_verbatim": "smart-money-concepts in:name",
+ "total_count": 36,
+ "n_records_retrieved": 6,
+ "items": [
+  {
+   "repo": "joshyattridge/smart-money-concepts",
+   "stars": 1948,
+   "lang": "Python",
+   "desc": "Discover our Python package designed for algorithmic trading. It brings ICT's smart money concepts to Python, offering a range of indicators for your algorithmi",
+   "html_url": "https://github.com/joshyattridge/smart-money-concepts"
+  },
+  {
+   "repo": "GeneralTradingSarl/Smart-Money-Concepts",
+   "stars": 15,
+   "lang": null,
+   "desc": "Smart Money Concepts indicator for MetaTrader 5: order blocks, liquidity zones, market structure, FVG. Open-source, for forex & crypto.",
+   "html_url": "https://github.com/GeneralTradingSarl/Smart-Money-Concepts"
+  },
+  {
+   "repo": "Velmolk/Smart-Money-Concepts-indicator-MT5",
+   "stars": 11,
+   "lang": "C#",
+   "desc": "Smart Money Concepts indicator for MetaTrader 5. Detects liquidity, order blocks, break of structure, and market structure for advanced trading strategies.",
+   "html_url": "https://github.com/Velmolk/Smart-Money-Concepts-indicator-MT5"
+  },
+  {
+   "repo": "yusin99/Tradingview-Pinescript-Indicator---Smart-money-concepts",
+   "stars": 8,
+   "lang": null,
+   "desc": "",
+   "html_url": "https://github.com/yusin99/Tradingview-Pinescript-Indicator---Smart-money-concepts"
+  },
+  {
+   "repo": "CedInvest/awesome-smart-money-concepts",
+   "stars": 3,
+   "lang": null,
+   "desc": "\ud83e\udde0 A curated list of Smart Money Concepts (SMC) trading resources, tools, and educational content for crypto traders.",
+   "html_url": "https://github.com/CedInvest/awesome-smart-money-concepts"
+  },
+  {
+   "repo": "VelmoPk/Smart-Money-Concepts-indicator-MT5",
+   "stars": 2,
+   "lang": "C#",
+   "desc": "MQL5-native Smart Money Concepts indicator for MT5 \u2014 detects Order Blocks, BOS/CHOCH, liquidity sweeps, and Fair Value Gaps in real-time. Built for institutiona",
+   "html_url": "https://github.com/VelmoPk/Smart-Money-Concepts-indicator-MT5"
+  }
+ ]
+}

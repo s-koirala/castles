@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-30",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Dorfleitner+Klein+psychological+barriers+in+European+stock+markets&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 3831940,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.672097",
+   "title": "Psychological Barriers in Stocks and Stock Indices - Evidence from European Markets",
+   "year": 2005,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We examine four European stock indices and the prices of eight major German stocks for indications of psychological barriers. Frequency, (expected) returns, intraday volatility and trading volume of these assets are studied when the prices lie within a certain band around round numbers. We find evidence for the existence of psychological barriers, but the assets behave differently at the barriers. Additionally, the indications for psychological barriers are stronger for indices than for stocks.</jats:p>"
+  },
+  {
+   "DOI": "10.1016/j.gfj.2008.09.001",
+   "title": "Psychological barriers in European stock markets: Where are they?",
+   "year": 2009,
+   "container": "Global Finance Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/0165-1765(94)90116-3",
+   "title": "Should we care? psychological barriers in stock markets",
+   "year": 1994,
+   "container": "Economics Letters",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

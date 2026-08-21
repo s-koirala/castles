@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-11",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Bouchaud+Mezard+Potters+statistical+properties+of+stock+order+books+empirical+results+and+models&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 118456,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.507362",
+   "title": "Statistical Properties of Stock Order Books: Empirical Results and Models",
+   "year": 2004,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We investigate several statistical properties of the order book of three liquid stocks of the Paris Bourse. The results are to a large degree independent of the stock studied. The most interesting features concern (i) the statistics of incoming limit order prices, which follows a power-law around the current price with a diverging mean; and (ii) the humped shape of the average order book, which can be quantitatively reproduced using a 'zero intelligence' numerical model, and qualitatively predicted using a simple approximation.</jats:p>"
+  },
+  {
+   "DOI": "10.1088/1469-7688/2/4/301",
+   "title": "Statistical properties of stock order books: empirical results and models",
+   "year": 2002,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.507343",
+   "title": "More Statistical Properties of Order Books and Price Impact",
+   "year": 2004,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>We investigate present some new statistical properties of order books. We analyse data from the Nasdaq and investigate (a) the statistics of incoming limit order prices, (b) the shape of the average order book, and (c) the typical life time of a limit order as a function of the distance from the best price. We also determine the 'price impact' function using French and British stocks, and find a logarithmic, rather than a power-law, dependence of the price response on the volume. The weak time dependence of the response function shows that the impact is, surprisingly, quasi-permanent, "
+  }
+ ]
+}

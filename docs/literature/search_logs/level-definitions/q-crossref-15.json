@@ -1,0 +1,74 @@
+{
+ "query_id": "q-crossref-15",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=opening+range+breakout&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 348349,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1002/9781119203933.ch11",
+   "title": "Opening Range Breakout",
+   "year": 2012,
+   "container": "Swing and Day Trading",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.5121/ijci.2016.5107",
+   "title": "Opening Range Breakout Stock Trading Algorithmic Model",
+   "year": 2016,
+   "container": "International Journal on Cybernetics &amp; Informatics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-981-92-0074-0_23",
+   "title": "Enhancing Opening Range Breakout Strategies with LSTM-Based True Range Prediction",
+   "year": 2026,
+   "container": "Lecture Notes in Computer Science",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.frl.2012.09.001",
+   "title": "Assessing the profitability of intraday opening range breakout strategies",
+   "year": 2013,
+   "container": "Finance Research Letters",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.6745958",
+   "title": "ANATOMY OF THE RETEST IN THE QQQ OPENING RANGE BREAKOUT",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper is an exploratory and descriptive study. The author makes no claims of causality or exploitability regarding the documented patterns. We present an exploratory study of the post-breakout sequence in the Invesco QQQ Trust ETF, using intraday data at one-minute resolution from January 2017 through December 2024. The existing literature on the Opening Range Breakout focuses on entry at the moment of the breakout; the internal dynamics of the minutes that follow have not been measured to date. We decompose the sequence into four levels-the opening range, the breakout, the retest"
+  },
+  {
+   "DOI": "10.1109/access.2019.2899177",
+   "title": "Assessing the Profitability of Timely Opening Range Breakout on Index Futures Markets",
+   "year": 2019,
+   "container": "IEEE Access",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.6355218",
+   "title": "Regime-Conditional Alpha in SPY 0DTE Opening Range Breakout Strategies: A Filtering and Strike Selection Framework",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper presents a simulation-based quantitative examination of the Opening Range Breakout (ORB) strategy applied to zero-days-to-expiration (0DTE) debit vertical spreads on the SPDR S&amp;amp;P 500 ETF Trust (SPY). Using a transparent Monte Carlo simulation framework calibrated to empirically documented parameters across 756 potential trading days (2022-2025), we model 214 filtered trades and derive the conditions under which the strategy generates positive expected value. The simulation generates an unfiltered win rate of 46.8%, consistent with the practitioner literature, and a f"
+  },
+  {
+   "DOI": "10.1002/9781118531563.ch9",
+   "title": "TD Range Projection, TD Range Expansion Breakout, and TD Channels",
+   "year": 2010,
+   "container": "DeMark Indicators",
+   "type": "other",
+   "abstract": ""
+  }
+ ]
+}

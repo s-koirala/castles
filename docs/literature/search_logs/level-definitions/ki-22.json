@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-22",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Gould+Porter+Williams+McDonald+Fenn+Howison+limit+order+books&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1738073,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.1970185",
+   "title": "Limit Order Books",
+   "year": 2011,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Limit order books (LOBs) match buyers and sellers in more than half of the world's financial markets.  This survey highlights the insights that have emerged from the wealth of empirical and theoretical studies of LOBs.  We examine the findings reported by statistical analyses of historical LOB data and discuss how several LOB models provide insight into certain aspects of the mechanism.  We also illustrate that many such models poorly resemble real LOBs and that several well-established empirical facts have yet to be reproduced satisfactorily.  Finally, we identify several key unresolv"
+  },
+  {
+   "DOI": "10.1080/14697688.2013.803148",
+   "title": "Limit order books",
+   "year": 2013,
+   "container": "Quantitative Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2558789",
+   "title": "Quasi-Centralized Limit Order Books",
+   "year": 2015,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>A quasi-centralized limit order book (QCLOB) is a limit order book (LOB) in which financial institutions can only access the trading opportunities offered by counterparties with whom they possess sufficient bilateral credit. We perform an empirical analysis of a recent, high-quality data set from a large electronic trading platform that utilizes QCLOBs to facilitate trade. We find many significant differences between our results and those widely reported for other LOBs. We also uncover a remarkable empirical universality: although the distributions describing order flow and market stat"
+  }
+ ]
+}

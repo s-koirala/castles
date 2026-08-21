@@ -1,0 +1,34 @@
+{
+ "query_id": "ki-07",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Christie+Schultz+why+do+NASDAQ+market+makers+avoid+odd-eighth+quotes&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 44916,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2307/2329272",
+   "title": "Why do NASDAQ Market Makers Avoid Odd-Eighth Quotes?",
+   "year": 1994,
+   "container": "The Journal of Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/j.1540-6261.1994.tb04782.x",
+   "title": "Why do NASDAQ Market Makers Avoid Odd\u2010Eighth Quotes?",
+   "year": 1994,
+   "container": "The Journal of Finance",
+   "type": "journal-article",
+   "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>The NASDAQ multiple dealer market is designed to produce narrow bid\u2010ask spreads through the competition for order flow among individual dealers. However, we find that odd\u2010eighth quotes are virtually nonexistent for 70 of 100 actively traded NASDAQ securities, including Apple Computer and Lotus Development. The lack of odd\u2010eighth quotes cannot be explained by the negotiation hypothesis of <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#jofi4782-bib-0013\">Harris (1991)</jats:ext-link>, trading activity, or other variables thought to"
+  },
+  {
+   "DOI": "10.2469/dig.v27.n1.26",
+   "title": "Why Nasdaq Market Makers Avoid Odd-Eighth Quotes",
+   "year": 1997,
+   "container": "CFA Digest",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

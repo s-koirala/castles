@@ -1,0 +1,50 @@
+{
+ "query_id": "ki-28",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Bollinger+bands+volatility+bands+standard+deviation+moving+average+trading&rows=5&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 751171,
+ "n_records_retrieved": 5,
+ "items": [
+  {
+   "DOI": "10.1002/9781119204800.ch17",
+   "title": "Moving Average Envelopes and Bollinger Bands",
+   "year": 2016,
+   "container": "Technical Analysis and Chart Interpretations",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.22452/ijie.vol16no2.2",
+   "title": "Quantifying the Volatility of Stock Price Changes in the Indian Market Using the Moving Average Envelope and Bollinger Bands",
+   "year": 2024,
+   "container": "Jurnal Institutions and Economies",
+   "type": "journal-article",
+   "abstract": "<jats:p>A trading system in any stock market is built on long-term, intermediate-term, and short-term indicators. Some \u2018lagging\u2019 indicators, such as the simple and exponential moving averages, can be used to determine the direction of a medium- to long-term trend. Some \u2018leading\u2019 oscillators, on the other hand, can tell a trader whether or not a trend is losing momentum. This paper examines how well moving average envelopes and Bollinger Bands measure stock price volatility, and how useful these technical analysis tools are for short-term horizons. The paper then attempts to evaluate the speed "
+  },
+  {
+   "DOI": "10.3390/en13153992",
+   "title": "Bollinger Bands Based on Exponential Moving Average for Statistical Monitoring of Multi-Array Photovoltaic Systems",
+   "year": 2020,
+   "container": "Energies",
+   "type": "journal-article",
+   "abstract": "<jats:p>Monitoring the performance of a photovoltaic (PV) system when environmental parameters are not available is very difficult. Comparing the energy datasets of the arrays belonging to the same PV plant is one strategy. If the extension of a PV plant is limited, all the arrays are subjected to the same environmental conditions. Therefore, identical arrays produce the same energy amount, whatever the solar radiation and cell temperature. This is valid for small- to medium-rated power PV plants (3\u201350 kWp) and, moreover, this typology of PV plants sometimes is not equipped with a meteorologic"
+  },
+  {
+   "DOI": "10.2139/ssrn.4509904",
+   "title": "An Analysis of the Volatility of Indian Defence Stocks Using Bollinger Bands",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>The existence of a relationship between Stock market fluctuations and the economy of the state, country or region may be interrelated to each other in one way or another. This research paper is an effort to understand the fluctuations or volatility in Indian Defence stocks and how it has propelled the growth of the Indian Defence sector in recent times. Five major companies include/ includes Hindustan Aeronautics Limited (HAL),BHARAT ELECTRONICS LTD, Mazagon Dock Shipbuilders Limited, Cochin Shipyard Ltd, Bharat Dynamics Ltd for the period of one year approx. i.e., between 30-12-2021 t"
+  },
+  {
+   "DOI": "10.17148/iarjset.2025.12472",
+   "title": "ANALYZING THE EFFECTIVENESS OF MOVING AVERAGE AND BOLLINGER BANDS IN TRADINGSTRATEGIES",
+   "year": 2025,
+   "container": "IARJSET",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "query_id": "q-crossref-10",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-21",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=price+barriers+round+numbers&rows=10&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 504934,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.3187548",
+   "title": "Round Number Price Barriers in U.S. Stock Market",
+   "year": 2018,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>This paper examines the existence of round number price barriers in the U.S. stock market. I show that stock prices clusters around multiples of $10 as a result of the price barriers. The price barriers results in abnormal future return pattern; a long-short portfolio formed around the barrier held for a week produces 17 basis point weekly return (8% annually). Such abnormal return does not change in magnitude after controlling for varies factors. I present supportive evidence for the left-digit-bias barrier channel.</jats:p>"
+  },
+  {
+   "DOI": "10.2307/1496200",
+   "title": "Round Numbers",
+   "year": 1958,
+   "container": "Western Folklore",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1557/s0883769400035016",
+   "title": "Round Numbers",
+   "year": 1995,
+   "container": "MRS Bulletin",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/01621459.1900.10503397",
+   "title": "Round Numbers",
+   "year": 1900,
+   "container": "Publications of the American Statistical Association",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1017/s0047404500012781",
+   "title": "Round numbers",
+   "year": 1988,
+   "container": "Language in Society",
+   "type": "journal-article",
+   "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>Numbers are used for exact and approximative estimations. The numbers used in approximative expressions are typically so-called round numbers, such as 10, 20, 25, 30, 40, 50, 100, 1,000, and such numbers are also very frequent in texts. This article presents evidence that some numbers are rounder than others and discusses how the roundness of a number can be derived from its contents of the base number of the numeral System of the culture. A formula for deriving the roundness of a number is suggested, and some evidence that intuitions about roundness va"
+  },
+  {
+   "DOI": "10.1016/j.ribaf.2026.103494",
+   "title": "Strong clustering and weak barriers at round numbers in Bitcoin markets",
+   "year": 2026,
+   "container": "Research in International Business and Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1177/0956797610391098",
+   "title": "Round Numbers as Goals",
+   "year": 2010,
+   "container": "Psychological Science",
+   "type": "journal-article",
+   "abstract": "<jats:p>Where do people\u2019s reference points come from? We conjectured that round numbers in performance scales act as reference points and that individuals exert effort to perform just above rather than just below such numbers. In Study 1, we found that professional baseball players modify their behavior as the season is about to end, seeking to finish with a batting average just above rather than below .300. In Study 2, we found that high school students are more likely to retake the SAT after obtaining a score just below rather than above a round number. In Study 3, we conducted an experiment"
+  },
+  {
+   "DOI": "10.2139/ssrn.5007093",
+   "title": "Trading at Round Numbers",
+   "year": 2024,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.5043925",
+   "title": "Trading at Round Numbers",
+   "year": 2024,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "<jats:p>Prices of real and private-value assets such as artworks and houses have a strong tendency to cluster at round values. Why? We argue that, first, some investors in these markets operate on coarse valuation grids leading them to use round offers and list prices, and, second, any investor\u2019s tendency to round is a function of both their level of informedness and whether they are buying for financial or non-financial reasons. We develop a simple conceptual framework formalizing these hypotheses and find empirical support for the resulting predictions in data from two distinct NFT marketpla"
+  },
+  {
+   "DOI": "10.1007/978-3-540-69200-3_1",
+   "title": "A round-up on numbers",
+   "year": 2009,
+   "container": "Elementary Number Theory, Cryptography and Codes",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}
