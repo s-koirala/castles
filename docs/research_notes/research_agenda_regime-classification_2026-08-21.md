@@ -17,9 +17,28 @@ content about *t+1* onward?
 strong deterministic time-of-day profile
 ([Andersen & Bollerslev 1997](https://doi.org/10.1016/S0927-5398(97)00004-2),
 *Journal of Empirical Finance* 4:115–158). An unnormalized state classifier applied to
-an overnight session is a clock, not a classifier. Every feature in every branch
-below is deseasonalized by its time-of-day mean before use. This is a
-precondition, not a refinement.
+an overnight session is a clock, not a classifier.
+
+Three corrections to the first draft of this hazard (quant-auditor F-3-11):
+
+1. **Leakage.** The time-of-day profile MUST be estimated on a strictly prior,
+   disjoint window and never re-estimated using data at or after *t*. A
+   full-sample profile is a full-sample statistic entering a feature required to
+   be computable at *t*, violating charter commitment 4 directly, and every
+   downstream causal-time claim inherits it. State the profile-estimation window
+   with the split.
+2. **Form.** Andersen & Bollerslev's periodicity is a **multiplicative** scale
+   factor estimated by a flexible Fourier form on log absolute returns. The first
+   draft specified **additive** mean subtraction, which does not remove
+   multiplicative diurnal heteroskedasticity and leaves the U-shape substantially
+   intact. It did not implement the method it cited.
+3. **Scope.** Deseasonalization applies to scale- and intensity-valued features
+   (volatility, volume, duration) — **not to price levels**. Subtracting a
+   time-varying constant from price shifts the price axis within the session and
+   destroys the absolute-price-anchored structure branch 1 exists to detect,
+   round-number clustering above all. Branch 1 operates on raw price and handles
+   diurnality by conditioning, not by transformation. The first draft's universal
+   quantifier was unsatisfiable for branch 1.
 
 **Standing hazard — labeling.** State is latent and only observable after it
 ends. Any hand-labeled training set built by inspecting charts encodes
@@ -67,10 +86,68 @@ jumps, intraday autocorrelation, tick discreteness, and round-number clustering.
 Any of those moves the level statistics, so that surrogate would find a
 difference essentially always and attribute it to levels existing. Instead:
 
-- *Surrogate:* the **strongest** null preserving all known non-level properties —
-  IAAFT / phase-randomized surrogates, or a stationary block bootstrap preserving
-  the marginal distribution and dependence structure. Block length by
-  Politis–White automatic selection, not chosen by hand.
+> ### BLOCKED — branch 1 is not runnable as specified (quant-auditor F-3-1/F-3-3)
+>
+> **The statistic is invalid on this data.** The dip test's null is derived for
+> i.i.d. sampling from a unimodal density. Price levels are integrated: over a
+> fixed window the empirical distribution converges not to a density but to the
+> occupation measure of the realized path (Brownian local time), which is
+> generically multimodal. Demonstrated, not argued — Monte Carlo M=2000,
+> α=0.05, seed 20260821, rejection rate of unimodality:
+>
+> | n | i.i.d. N(0,1) | AR(1) ρ=.9 | AR(1) ρ=.99 | random walk |
+> |---|---|---|---|---|
+> | 250 | 0.000 | 0.002 | 0.225 | **0.352** |
+> | 1000 | 0.000 | 0.001 | 0.178 | **0.622** |
+> | 5000 | 0.000 | 0.000 | 0.032 | **0.903** |
+>
+> The nominal critical value shrinks as n^-1/2 while the true one is flat in n, so
+> the mis-calibration is **unbounded in n**: at n=5000 the ratio is 7.9x. Sampling
+> more finely inside a fixed window buys spurious significance and zero
+> information. The earlier note exempting the dip test from calibration concerns
+> ("the dip test does not depend on it") was **wrong and is withdrawn**.
+>
+> Mirror-image defect: against a Gaussian unimodal alternative actual size is
+> ~0.000 because the uniform is least-favourable. The test is simultaneously
+> anticonservative on levels and near-powerless on interior-mode densities, which
+> makes the positive control load-bearing rather than a formality.
+>
+> **The information unit is the number of independent sessions/excursions, not the
+> number of ticks.** Step 2's MDES is computed on the session count.
+>
+> **Every return-resampling surrogate is also inadmissible**, on a ground beyond
+> the IAAFT objection: the hypothesis is about *levels*, which are anchored in
+> absolute price space, and every return-resampling scheme is invariant in
+> distribution to the path's arbitrary starting location. No such surrogate can
+> preserve round-number clustering — listed below as a property requiring
+> preservation. IAAFT additionally preserves only *linear* dependence (destroying
+> volatility clustering and jumps by construction) and requires stationarity, which
+> an integrated series does not have.
+>
+> **Also unresolved and prior to all of the above:** "level" is never defined
+> disjointly from round-number clustering and tick discreteness, so it cannot be
+> decided whether those are construct or non-construct properties — which means no
+> null-generating process can be specified at all until the construct is. Osler
+> 2003 gives round-number clustering an order-book mechanism, which argues it is
+> *part of* the construct rather than a nuisance.
+
+- *Surrogate — REPLACED.* Use a **random-relocation null**: hold the observed path
+  fixed and randomize the *locations* of the estimated levels within the observed
+  price range. This preserves every property of the data exactly — all six listed
+  below, and every unknown one — and breaks only the level-location
+  correspondence, which is the construct. It is the spatial-statistics
+  random-shift design, and it is the only null in this class that gate condition
+  (i) can actually satisfy. The endpoint becomes out-of-sample: does a level
+  estimated on [0,t] predict behaviour on (t, t+h]?
+  The alternative is a model-based null fitted under an explicit no-level
+  restriction (tick-grid jump-diffusion with an Andersen–Bollerslev intraday
+  volatility factor), per the Brock, Lakonishok & LeBaron 1992 design
+  ([doi:10.1111/j.1540-6261.1992.tb04681.x](https://doi.org/10.1111/j.1540-6261.1992.tb04681.x)),
+  which is already in the corpus. If a block bootstrap is used anywhere else,
+  block length by Politis & White (2004) **as corrected by Patton, Politis & White
+  (2009)** ([doi:10.1080/07474930802459016](https://doi.org/10.1080/07474930802459016))
+  — the corpus carries the annotation "the uncorrected formula is wrong" and the
+  first draft of this agenda stripped it.
 - *Statistic:* **one** pre-specified discriminating statistic. **This does not
   need to be invented — three published tests for the significance of a mode
   already exist**, established by the corpus search:
@@ -96,8 +173,16 @@ difference essentially always and attribute it to levels existing. Instead:
   > test's size distortion is therefore unstated. Obtain this paper before
   > implementing the Silverman route; the dip test does not depend on it.
 
-  If more than one statistic is used, they are registered as a single
-  multiplicity family, as branch 4 does for its parameter grid.
+  **The dip statistic and the excess-mass statistic coincide up to a known
+  constant for the k=1 vs k=2 null.** Registering both as family members misstates
+  the effective dimension and invites the appearance of two-of-three agreement
+  where one statistic is reported twice. Pick one; use excess mass only if k>2 is
+  genuinely being tested, where the count-vs-location separation it offers is
+  real. The dip test's own calibration paper — Cheng & Hall 1998,
+  [doi:10.1111/1467-9868.00141](https://doi.org/10.1111/1467-9868.00141) — is
+  **absent from the corpus**, the identical structural gap already flagged for
+  Silverman. It addresses the i.i.d. case only and does not repair the defect
+  above.
 - *Direction:* an **equivalence test against a pre-registered bound**, not a
   failed difference test. Failure to reject is not evidence of absence, and the
   charter's `construct` gate requires this explicitly.
@@ -272,9 +357,20 @@ too noisy for one oracle feature to dominate. The test cannot distinguish them
 and does not claim to.
 
 **Falsification** (branch-level). The branch presumes parameters are selectable
-against out-of-sample predictive log-likelihood at all. Refuted if the selected
-parameter's bootstrap interval spans the search grid across every candidate
-objective — that is not a parameter selection, and branch 4 closes with the
+against out-of-sample predictive log-likelihood at all.
+
+> **Instrument corrected (F-3-10).** The first draft refuted on "the selected
+> parameter's bootstrap interval spans the search grid". The selected parameter is
+> an **argmax** — a non-smooth functional — and the n-out-of-n bootstrap is
+> *inconsistent* for argmax-type estimators (cube-root asymptotics, Kim & Pollard
+> 1990). The interval whose width was the entire refutation criterion has no
+> established coverage. Replaced by the **Model Confidence Set** (Hansen, Lunde &
+> Nason 2011, [doi:10.3982/ECTA5771](https://doi.org/10.3982/ECTA5771)) — already
+> in this project's corpus, annotated there as "the right object when the goal is
+> state-model selection rather than a single winner", and unused until now.
+
+Refuted if the **Model Confidence Set** spans the search grid across every
+candidate objective — that is not a parameter selection, and branch 4 closes with the
 state model reported as unidentified at this sample size.
 
 ## Cross-branch open questions

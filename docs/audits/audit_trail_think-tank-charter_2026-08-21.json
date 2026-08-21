@@ -115,7 +115,16 @@
       "reporting_standard": "PRISMA 2020 partial, single screener; item-by-item conformance table in the review"
     },
     "quant-auditor": {
-      "status": "dispatched round 3 - never routed in rounds 1-2 (finding REV-3-31)"
+      "status": "RETURNED",
+      "verdict": "block",
+      "counts": {
+        "critical": 4,
+        "major": 11,
+        "minor": 3,
+        "clean_verdicts": 17
+      },
+      "headline": "dip test rejects unimodality on a pure random walk at 0.35-0.90, increasing in n; branch-1 statistic invalid on integrated price levels",
+      "note": "never routed in rounds 1-2; three of four criticals required executing a simulation, which no earlier branch could do"
     },
     "reproducibility-verifier": {
       "status": "RETURNED",

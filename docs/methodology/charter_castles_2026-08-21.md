@@ -213,9 +213,32 @@ layer may be asserted only with **all four** of:
   (iii) a **positive control** — an injected instance of the construct at the
         smallest interesting magnitude must be recovered by the same statistic,
         demonstrating the test could have found it;
-  (iv) an explicit scope: instrument, timescale, feature set, measurement.
+  (iv) an explicit scope: instrument, timescale, feature set, measurement;
+  (v) a **negative control on the surrogate itself** — the surrogate must be shown,
+      by the same statistic, *not* to exhibit the construct.
 
-Absent any of the four, the layer is `undetermined`. Note the standing hazard:
+Absent any of the five, the layer is `undetermined`.
+
+> **Why (v) exists (quant-auditor F-3-2).** Condition (i) pushes the surrogate
+> toward the real data as the preserved-property list grows. Gate (ii)'s
+> equivalence test protects only one end of that gradient. A *low-power* surrogate
+> is caught — TOST fails to reject and correctly withholds `construct`. A surrogate
+> that **absorbs the construct** is not: it shrinks the real-vs-surrogate point
+> estimate toward zero *without* inflating its standard error, so TOST rejects and
+> licenses `construct-negative` precisely when the null was mis-specified. Step 2b
+> already names "an inappropriate active comparator" as a null-biasing defect but
+> applied that scrutiny only to *external* sources, never to this project's own
+> surrogates. Without (v) the gate contains an unmanaged gradient toward the
+> project's own highest-status conclusion — the negative-results analogue of the
+> p-hacking pressure the gate exists to prevent.
+>
+> The standing tradeoff, stated so it is chosen rather than inherited: a
+> straw-man null inflates Type I error toward a false `construct`-positive; an
+> alternative-absorbing null produces a false `construct-negative` by equivalence.
+> The resolution is a **model-based null of stated form**, not a maximally-matched
+> resample of the series whose construct status is the question. Step 2b's list is
+> extended reflexively with: *"a surrogate estimated from the data under test,
+> which inherits the alternative."* Note the standing hazard:
 `construct` is the project's highest-status finding and, without this gate, its
 cheapest to claim. That is the negative-results analogue of p-hacking pressure.
 

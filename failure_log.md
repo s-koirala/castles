@@ -56,6 +56,36 @@ provisional by the charter's own standard.
   - *Discriminating observation:* an irreducible-error or oracle-bound estimate
     for the target at this horizon. **Not available from the source**; obtainable
     only by re-analysis with a stronger conditioning set.
+  - *Step 2b (source validity) - SUSPECTED DEFECT, unconfirmed.* A random walk IS
+    nested in a forecasting model that includes it as a coefficient restriction.
+    Under nesting the population loss differential is identically zero and its
+    long-run variance degenerates, so DM is not asymptotically standard normal - and
+    the direction is signable and adverse to the source's conclusion: the larger
+    model's MSPE is inflated by estimation noise even when the extra parameters have
+    zero population value, so a one-sided DM test against normal critical values is
+    severely **undersized**. "2 of 10 rejections" is exactly the output a
+    correctly-functioning-but-mis-sized nested DM test produces even when the models
+    carry genuine predictive content. If plain DM was used, the source's null is not
+    weak - it is **uninformative, because the statistic was biased toward the null by
+    construction**.
+  - *Three discriminating observations, ALL obtainable from the source without
+    re-analysis* (this is the cheapest available action on the project's
+    highest-priority row):
+    1. Which statistic was used - plain DM, Clark-West-adjusted, or
+       Clark-McCracken bootstrap?
+    2. Zero-shot evaluation, or fine-tuned on the evaluation assets?
+    3. Expanding-recursive or fixed-rolling forecast origin?
+    Item 1 determines whether the defect is present; items 2-3 determine whether the
+    nesting degeneracy binds at all. Strictly zero-shot with no fitting, or a fixed
+    finite rolling window, means the differential need not be degenerate and
+    Giacomini-White conditional predictive-ability inference is valid for nested
+    models.
+  - *Corpus gap, four records, on the most load-bearing row in the project:*
+    Clark & West 2006 ([doi:10.1016/j.jeconom.2005.07.014](https://doi.org/10.1016/j.jeconom.2005.07.014)),
+    Clark & West 2007 ([doi:10.1016/j.jeconom.2006.05.023](https://doi.org/10.1016/j.jeconom.2006.05.023)),
+    Clark & McCracken 2001 ([doi:10.1016/S0304-4076(01)00071-9](https://doi.org/10.1016/S0304-4076(01)00071-9)),
+    Giacomini & White 2006 ([doi:10.1111/j.1468-0262.2006.00718.x](https://doi.org/10.1111/j.1468-0262.2006.00718.x)).
+    None is in the corpus.
   - *Unresolved:* the source's DM count, alpha, and multiplicity family are
     unrecorded, and DM applied to a nested comparison (a random walk is nested
     in a forecasting model) is degenerate — whether a Clark–West-type correction

@@ -663,3 +663,144 @@ that cannot tell it changed. It belongs in that agenda's evidence base.
 
 `quant-auditor` (dispatched to close routing gap REV-3-31) has not returned. Its
 result will require an Addendum 6. Nothing in this addendum depends on it.
+
+
+---
+
+# Addendum 6 - quant-auditor, routing gap REV-3-31 closed, 2026-08-21T13:40:00-05:00
+
+**Verdict: `block`.** 4 critical, 11 major, 3 minor, 17 explicit clean verdicts.
+This is the most consequential branch of the session and it was never routed in
+rounds 1-2, on a routing decision ("no code, no statistical computation") that was
+true when made and false by the time the agendas specified concrete procedures.
+
+## F-3-1 - the branch-1 statistic is invalid on the data it is proposed for
+
+Not argued. Demonstrated. Monte Carlo, M=2000, alpha=0.05, seed 20260821,
+diptest 0.11.0 / numpy 2.3.5 / python 3.11.9. Rejection rate of unimodality:
+
+| n | i.i.d. N(0,1) | AR(1) 0.9 | AR(1) 0.99 | random walk |
+|---|---|---|---|---|
+| 250 | 0.000 | 0.002 | 0.225 | **0.352** |
+| 500 | 0.001 | 0.001 | 0.217 | **0.505** |
+| 1000 | 0.000 | 0.001 | 0.178 | **0.622** |
+| 2000 | 0.000 | 0.000 | 0.084 | **0.765** |
+| 5000 | 0.000 | 0.000 | 0.032 | **0.903** |
+
+Hartigan's null assumes i.i.d. sampling from a unimodal density. A price level
+series is integrated: its empirical distribution converges not to a density but to
+the occupation measure of the realized path, which is generically multimodal. The
+dip statistic therefore does not converge to zero under a no-levels null.
+Critical-value divergence (seed 7, M=3000): 95th percentile under the uniform
+nominal null vs a random-walk null is 0.0234 vs 0.0625 at n=500, and 0.0077 vs
+0.0609 at n=5000 - the nominal value shrinks as n^-1/2 while the true one is flat,
+so **the mis-calibration is unbounded in n**.
+
+The agenda's note exempting the dip test from calibration concerns was written by
+the lead session and is wrong. Withdrawn.
+
+Mirror-image defect: actual size against a Gaussian unimodal alternative is ~0.000
+because the uniform is least-favourable. Anticonservative on levels, near-powerless
+on interior-mode densities.
+
+## F-3-3 - no return-resampling surrogate can work, on a ground not previously raised
+
+The IAAFT objection is upheld in full and extended: the hypothesis concerns price
+*levels*, anchored in absolute price space, and every return-resampling scheme is
+invariant in distribution to the path's arbitrary starting location. No such
+surrogate can preserve round-number clustering. Replaced with a **random-relocation
+null** - hold the observed path fixed, randomize the *locations* of estimated levels
+within the observed range. That preserves every property of the data exactly,
+including unknown ones, and breaks only the level-location correspondence, which is
+the construct. It is the spatial-statistics random-shift design and is the only null
+in this class that gate condition (i) can satisfy.
+
+Prior to all of it: **"level" is never defined disjointly from round-number
+clustering and tick discreteness**, so no null can be specified until the construct
+is. Recorded as the branch's residual risk.
+
+## F-3-2 - the construct gate was biased toward its own headline verdict
+
+A surrogate that *absorbs* the construct shrinks the real-vs-surrogate point
+estimate without inflating its standard error, so TOST rejects and licenses
+`construct-negative` precisely when the null is mis-specified. Gate (ii) catches a
+low-power surrogate but not an alternative-absorbing one. Step 2b already named
+"an inappropriate active comparator" as a null-biasing defect but applied it only to
+*external* sources, never reflexively. **Fifth gate condition added: a negative
+control on the surrogate itself.** The standing tradeoff - straw-man null vs
+alternative-absorbing null - is now stated so it is chosen rather than inherited.
+
+## F-3-4 - the project's most load-bearing null may be uninformative by construction
+
+Under nesting the population loss differential is identically zero and its long-run
+variance degenerates, so DM is not asymptotically standard normal. The direction is
+signable and adverse: the larger model's MSPE is inflated by estimation noise even
+at zero population value, so a one-sided DM against normal criticals is severely
+**undersized**. "2 of 10 rejections" is exactly what a mis-sized nested DM produces
+even when the models carry genuine predictive content.
+
+Qualifier that keeps this open rather than closed: if the models were evaluated
+strictly zero-shot with no fitting, or under a fixed finite rolling window, the
+differential need not be degenerate. Three discriminating observations - statistic
+used, zero-shot vs fine-tuned, expanding vs fixed-rolling origin - are **all
+obtainable from the source by reading it**, and are now recorded in F001 as the
+cheapest available action on the project's highest-priority row. Four corpus records
+(Clark & West 2006/2007, Clark & McCracken 2001, Giacomini & White 2006) are absent.
+
+## Also applied
+
+F-3-10 (bootstrap CI on an argmax is inconsistent under cube-root asymptotics -
+replaced with the Model Confidence Set, which was already in the corpus, annotated
+as the right instrument, and unused), F-3-11 (deseasonalization had a leakage
+defect, implemented an additive form where Andersen-Bollerslev is multiplicative,
+and was incoherent for branch 1's price-level features), F-3-12 (dip and excess mass
+*coincide* for the k=1 vs k=2 null, so registering both misstates the family
+dimension and invites false two-of-three agreement; Cheng & Hall 1998, the dip's own
+calibration paper, is absent from the corpus), F-3-18 (Politis-White block length
+requires the 2009 correction - the corpus carries the annotation "the uncorrected
+formula is wrong" and the agenda stripped it).
+
+F-3-18 is the **second** recorded instance of a corpus annotation being stripped on
+propagation into an agenda, after the Silverman `[not-verified]` flag in Addendum 4.
+Two instances make it a pattern, and it is the same pattern the round-3 convergent
+finding describes.
+
+## Surfaced, not applied - these need a decision
+
+- **F-3-6** adjudicates REV-3-15 and finds the answer is *two* rules, not one:
+  existence claims (union alternative) need FWER control via Reality Check / SPA;
+  absence claims (intersection null) are intersection-union tests, level alpha, and
+  need **no** adjustment. Branch 4 is already correct as an IUT. Branch 2's
+  unadjusted disjunction over 14 comparisons has P(spurious rejection) = 0.512, and
+  the bias runs *opposite* to what round 3 assumed - it keeps a dead branch open,
+  it does not close a live one.
+- **F-3-5** TOST is inapplicable to both comparisons as specified: a Monte Carlo
+  surrogate comparison has n=1 on the observed side and no standard error. Needs
+  reframing as a paired per-session equivalence test, which also fixes the effective
+  sample size and makes MDES computable.
+- **F-3-7** step 2 omits sidedness, design effect, and clustering unit, and is
+  **inapplicable** where the statistic is degenerate under the null.
+- **F-3-8** Chow-Denning distortion is not signable a priori; needs a Monte Carlo
+  size study at the actual window length and horizon set. Bid-ask bounce is an
+  unflagged additive hazard.
+- **F-3-9** the endpoint tautology is a property of the (assigner, endpoint) *pair*:
+  remaining-duration is tautological for HSMMs exactly as dispersion is for MS-GARCH,
+  and the branch swapped one tautological endpoint for another.
+- **F-3-14** step 2 computability across the four source types, with N-of-1 needing
+  a simulated randomization-test power curve rather than a normal-theory formula.
+
+## Residual risk
+
+Verbatim from the branch: even after these fixes, branch 1's central construct
+remains undefined in a way no statistical instrument can repair - until "level" is
+operationally separated from round-number clustering, tick discreteness and
+path-occupation structure, no null-generating process can be specified and no
+equivalence bound has a meaning, so a `construct-negative` verdict from that branch
+would still be a statement about the surrogate rather than about markets.
+
+## Closing note on the loop
+
+Three of the four criticals here could not have been found by any branch routed in
+rounds 1-2, because none had Bash and none could run a simulation. The routing
+decision that excluded quant-auditor was defensible when made and became wrong
+silently. **A routing decision is a claim about the artifact set, and it expires.**
