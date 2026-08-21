@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bZ5VQsWKFOE3ybfQll1ePRLyTZ4</id>
+  <title>arXiv Query: search_query=abs:"regime" AND abs:"efficiency ratio" OR abs:"trend strength" AND abs:"indicator"&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-08-21T14:49:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22regime%22+AND+(abs:%22efficiency+ratio%22+OR+(abs:%22trend+strength%22+AND+abs:%22indicator%22))&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1701.03265v1</id>
+    <title>Inverse Edelstein effect of the surface states of a topological insulator</title>
+    <updated>2017-01-12T08:25:41Z</updated>
+    <link href="https://arxiv.org/abs/1701.03265v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.03265v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The surface states of three-dimensional topological insulators posses the unique property of spin-momentum interlocking. This property gives rise to the interesting inverse Edelstein effect (IEE), in which an applied spin bias $μ$ is converted to a measurable charge voltage difference $V$. We develop a semiclassical theory for the IEE of the surface states of $\text{Bi}_2\text{Se}_3$ thin films, which is applicable from the ballistic regime to diffusive regime. We find that the IEE efficiency ratio $γ=V/μ$ exhibits universal dependence on sample size, and approaches $π/4$ in the ballistic limit and $1$ in the diffusive limit.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-12T08:25:41Z</published>
+    <arxiv:comment>4 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Scientic Reports 7, 3755 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Hao Geng</name>
+    </author>
+    <author>
+      <name>Wei Luo</name>
+    </author>
+    <author>
+      <name>W. Y. Deng</name>
+    </author>
+    <author>
+      <name>L. Sheng</name>
+    </author>
+    <author>
+      <name>R. Shen</name>
+    </author>
+    <author>
+      <name>D. Y. xing</name>
+    </author>
+    <arxiv:doi>10.1038/s41598-017-03346-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41598-017-03346-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0503068v2</id>
+    <title>Molecular Traffic Control in Porous Nanoparticles</title>
+    <updated>2005-06-29T10:52:15Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0503068v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0503068v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the conditions for reactivity enhancement of catalytic processes in porous solids by use of molecular traffic control (MTC) as a function of reaction rate and grain size. With dynamic Monte-Carlo simulations and continuous-time random walk theory applied to the low concentration regime we obtain a quantitative description of the MTC effect for a network of intersecting single-file channels in a wide range of grain parameters and for optimal external operating conditions. The efficiency ratio (compared with a topologically and structurally similar reference system without MTC) is inversely proportional to the grain diameter. However, for small grains MTC leads to a reactivity enhancement of up to approximately 30% of the catalytic conversion $A\to B$ even for short intersecting channels. This suggests that MTC may significantly enhance the efficiency of a catalytic process for small porous nanoparticles with a suitably chosen binary channel topology.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-03-03T09:15:57Z</published>
+    <arxiv:comment>corrected affiliation</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Andreas Brzank</name>
+    </author>
+    <author>
+      <name>Gunter Schuetz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0512722v1</id>
+    <title>Amplification of Molecular Traffic Control in catalytic grains with novel channel topology design</title>
+    <updated>2005-12-30T12:31:10Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0512722v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0512722v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the conditions for reactivity enhancement of catalytic processes in porous solids by use of molecular traffic control (MTC). With dynamic Monte-Carlo simulations and continuous-time master equation theory applied to the high concentration regime we obtain a quantitative description of the MTC effect for a network of intersecting single-file channels in a wide range of grain parameters and for optimal external operating conditions. Implementing the concept of MTC in models with specially designed alternating bimodal channels we find the efficiency ratio (compared with a topologically and structurally similar reference system without MTC) to be enhanced with increasing grain diameter, a property verified for the first time for an MTC system. Even for short intersection channels, MTC leads to a reactivity enhancement of up to approximately 65%. This suggests that MTC may significantly enhance the efficiency of a catalytic process for small as well as large porous particles with a suitably chosen binary channel topology.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-12-30T12:31:10Z</published>
+    <arxiv:comment>15 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Andreas Brzank</name>
+    </author>
+    <author>
+      <name>Gunter M. Schuetz</name>
+    </author>
+    <arxiv:doi>10.1063/1.2200691</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.2200691" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.05924v1</id>
+    <title>Geopolitical and Institutional Constraints on Adaptive Market Efficiency -- A Feasibility Diagnostic for Robust Portfolio Construction</title>
+    <updated>2026-01-09T16:38:06Z</updated>
+    <link href="https://arxiv.org/abs/2601.05924v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.05924v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper develops a structural framework for characterizing the informational feasibility of financial markets under heterogeneous institutional and geopolitical conditions. Departing from the assumption of uniform and time-invariant market efficiency, adaptive efficiency is conceptualized as a localized and state-dependent property emerging from the interaction between economic scale, institutional enforcement, and geopolitical embedding. To operationalize this perspective, the paper introduces the Geopolitical-Adaptive Efficiency Ratio (GAER), a descriptive cross-sectional indicator measuring the concentration of adaptive-efficiency-supporting mass within institutionally and geopolitically central assets. GAER is not a return-predictive signal, factor, or regime classifier. Instead, it functions as a diagnostic boundary condition, delimiting the domain in which ranking-based and robustness-oriented portfolio construction methods are plausibly applicable. The framework integrates insights from adaptive market theory, institutional economics, and political economy, linking disclosure continuity, liquidity provision, and enforcement credibility to the persistence of informational signals in asset prices. GAER is formalized, its theoretical properties are discussed, and its interpretation is illustrated using a global equity snapshot based on publicly observable information. The contribution separates informational feasibility from portfolio construction and execution, providing a conceptual foundation for constraint-aware financial modeling without reliance on forecast-driven assumptions or parametric optimization.</summary>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-09T16:38:06Z</published>
+    <arxiv:comment>14 pages, 1 table, conceptual and methodological preprint proposing a diagnostic measure of informational feasibility in equity markets</arxiv:comment>
+    <arxiv:primary_category term="q-fin.PM"/>
+    <author>
+      <name>Roberto Garrone</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.06821v1</id>
+    <title>Chiseling Out Efficiency: Structured Skeleton Supervision for Efficient Code Generation</title>
+    <updated>2026-06-05T01:49:20Z</updated>
+    <link href="https://arxiv.org/abs/2606.06821v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.06821v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are capable of generating syntactically correct and functionally complete programs, greatly streamlining software development. However, recent studies reveal that these programs typically execute substantially slower than human-optimized counterparts. Existing approaches to bridging this efficiency gap typically involve either iteratively optimizing code after generation or fine-tuning models on corpora of efficient code. Yet, these methods expose the model to efficiency signals only by mimicking complete, optimized solutions, without explicitly encoding the structural code patterns essential for achieving high runtime performance. Addressing this gap presents two core challenges: (1) extracting and representing latent, efficiency-oriented structural patterns embedded within complex syntax and control flows, and (2) effectively learning these patterns without destabilizing the semantic training of LLMs. To tackle these challenges, we propose EffiSkel, an efficiency skeleton-guided framework that explicitly extracts and learns efficiency skeletons-abstract, reusable structural patterns underpinning efficient code-by leveraging three complementary strategies. These skeletons are integrated into a multi-task learning regime that jointly optimizes code generation and skeleton prediction. Experiments across multiple programming languages and benchmarks demonstrate that EffiSkel significantly enhances both functional correctness and efficiency, resulting on Mercury with DeepSeek-Coder (7B) a +11.11% (vs. EffiCoder) and +3.71% (vs. CodeDPO) higher Efficiency Ratio (ER), and a +0.36 (vs. EffiCoder) and +0.22 (vs. CodeDPO) increase in Average Speedup (AS). These results highlight the effectiveness of explicitly modeling efficiency skeletons in improving the runtime performance of code generated by LLMs.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-05T01:49:20Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Yu Yu</name>
+    </author>
+    <author>
+      <name>Zhihong Sun</name>
+    </author>
+    <author>
+      <name>Jia Li</name>
+    </author>
+    <author>
+      <name>Yao Wan</name>
+    </author>
+    <author>
+      <name>Chuanyi Li</name>
+    </author>
+    <author>
+      <name>Hongyu Zhang</name>
+    </author>
+    <author>
+      <name>Ruyun Wang</name>
+    </author>
+    <author>
+      <name>Tao Huang</name>
+    </author>
+    <author>
+      <name>Zhi Jin</name>
+    </author>
+    <author>
+      <name>Ge Li</name>
+    </author>
+    <author>
+      <name>Chen Lyu</name>
+    </author>
+    <arxiv:doi>10.1145/3808194</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3808194" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,2637 @@
+{
+ "10.1007/s13571-024-00322-2": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     5
+    ]
+   ],
+   "date-time": "2026-08-05T09:41:11Z",
+   "timestamp": 1785922871825,
+   "version": "3.56.0"
+  },
+  "reference-count": 29,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "1",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2024,
+       2,
+       21
+      ]
+     ],
+     "date-time": "2024-02-21T00:00:00Z",
+     "timestamp": 1708473600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2024,
+       2,
+       21
+      ]
+     ],
+     "date-time": "2024-02-21T00:00:00Z",
+     "timestamp": 1708473600000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "link.springer.com"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Sankhya B"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2024,
+     5
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>We investigate the statistical evidence for the use of ‘rough’ fractional processes with Hurst exponent <jats:inline-formula><jats:alternatives><jats:tex-math>$$H&lt; 0.5$$</jats:tex-math><mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                  <mml:mrow>\n                    <mml:mi>H</mml:mi>\n                    <mml:mo>&lt;</mml:mo>\n                    <mml:mn>0.5</mml:mn>\n                  </mml:mrow>\n                </mml:math></jats:alternatives></jats:inline-formula> for modeling the volatility of financial assets, using a model-free approach. We introduce a non-parametric method for estimating the roughness of a function based on discrete sample, using the concept of normalized <jats:italic>p</jats:italic>-th variation along a sequence of partitions. Detailed numerical experiments based on sample paths of fractional Brownian motion and other fractional processes reveal good finite sample performance of our estimator for measuring the roughness of sample paths of stochastic processes. We then apply this method to estimate the roughness of realized volatility signals based on high-frequency observations. Detailed numerical experiments based on stochastic volatility models show that, even when the instantaneous volatility has diffusive dynamics with the same roughness as Brownian motion, the realized volatility exhibits rough behaviour corresponding to a Hurst exponent significantly smaller than 0.5. Comparison of roughness estimates for realized and instantaneous volatility in fractional volatility models with different values of Hurst exponent shows that, irrespective of the roughness of the spot volatility process, realized volatility always exhibits ‘rough’ behaviour with an apparent Hurst index <jats:inline-formula><jats:alternatives><jats:tex-math>$$\\widehat{H}&lt;0.5$$</jats:tex-math><mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                  <mml:mrow>\n                    <mml:mover>\n                      <mml:mi>H</mml:mi>\n                      <mml:mo>^</mml:mo>\n                    </mml:mover>\n                    <mml:mo>&lt;</mml:mo>\n                    <mml:mn>0.5</mml:mn>\n                  </mml:mrow>\n                </mml:math></jats:alternatives></jats:inline-formula>. These results suggest that the origin of the roughness observed in realized volatility time series lies in the estimation error rather than the volatility process itself.</jats:p>",
+  "DOI": "10.1007/s13571-024-00322-2",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2024,
+     2,
+     21
+    ]
+   ],
+   "date-time": "2024-02-21T07:02:20Z",
+   "timestamp": 1708498940000
+  },
+  "page": "191-223",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 30,
+  "title": [
+   "Rough Volatility: Fact or Artefact?"
+  ],
+  "prefix": "10.1007",
+  "volume": "86",
+  "author": [
+   {
+    "given": "Rama",
+    "family": "Cont",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Purba",
+    "family": "Das",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2024,
+     2,
+     21
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "issue": "2",
+    "key": "322_CR1",
+    "doi-asserted-by": "publisher",
+    "first-page": "579",
+    "DOI": "10.1111/1468-0262.00418",
+    "volume": "71",
+    "author": "TG Andersen",
+    "year": "2003",
+    "unstructured": "Andersen, T. G., Bollerslev, T., Diebold, F. X., and Labys, P. (2003). Modeling and forecasting realized volatility. Econometrica, 71(2), 579–625.",
+    "journal-title": "Econometrica"
+   },
+   {
+    "issue": "1",
+    "key": "322_CR2",
+    "doi-asserted-by": "publisher",
+    "first-page": "5",
+    "DOI": "10.1016/0304-4076(95)01732-1",
+    "volume": "73",
+    "author": "RT Baillie",
+    "year": "1996",
+    "unstructured": "Baillie, R. T. (1996). Long memory processes and fractional integration in econometrics. Journal of Econometrics, 73(1), 5–59.",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "issue": "2",
+    "key": "322_CR3",
+    "doi-asserted-by": "publisher",
+    "first-page": "253",
+    "DOI": "10.1111/1467-9868.00336",
+    "volume": "64",
+    "author": "OE Barndorff-Nielsen",
+    "year": "2002",
+    "unstructured": "Barndorff-Nielsen, O. E. and Shephard, N. (2002). Econometric analysis of realized volatility and its use in estimating stochastic volatility models. Journal of the Royal Statistical Society: Series B (Statistical Methodology), 64(2), 253–280.",
+    "journal-title": "Journal of the Royal Statistical Society: Series B (Statistical Methodology)"
+   },
+   {
+    "issue": "5",
+    "key": "322_CR4",
+    "doi-asserted-by": "publisher",
+    "first-page": "961",
+    "DOI": "10.1093/jjfinec/nbaa049",
+    "volume": "20",
+    "author": "M Bennedsen",
+    "year": "2022",
+    "unstructured": "Bennedsen, M., Lunde, A., and Pakkanen, M. S. (2022). Decoupling the short-and long-term behavior of stochastic volatility. Journal of Financial Econometrics, 20(5), 961–1006.",
+    "journal-title": "Journal of Financial Econometrics"
+   },
+   {
+    "key": "322_CR5",
+    "unstructured": "Beran, J. (1994). Statistics for long-memory processes, vol 61 of Monographs on Statistics and Applied Probability. Chapman and Hall, New York."
+   },
+   {
+    "key": "322_CR6",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Bolko, A. E., Christensen, K., Pakkanen, M. S., and Veliyev, B. (2022). A GMM approach to estimate the roughness of stochastic volatility. Journal of Econometrics, in press.",
+    "DOI": "10.1016/j.jeconom.2022.06.009"
+   },
+   {
+    "issue": "1",
+    "key": "322_CR7",
+    "doi-asserted-by": "publisher",
+    "first-page": "151",
+    "DOI": "10.1016/0304-4076(95)01736-4",
+    "volume": "73",
+    "author": "T Bollerslev",
+    "year": "1996",
+    "unstructured": "Bollerslev, T. and Ole Mikkelsen, H. (1996). Modeling and pricing long memory in stock market volatility. Journal of Econometrics, 73(1),151–184.",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "issue": "1",
+    "key": "322_CR8",
+    "doi-asserted-by": "publisher",
+    "first-page": "325",
+    "DOI": "10.1016/S0304-4076(97)00072-9",
+    "volume": "83",
+    "author": "F Breidt",
+    "year": "1998",
+    "unstructured": "Breidt, F., Crato, N., and de Lima, P. (1998). The detection and estimation of long memory in stochastic volatility. Journal of Econometrics, 83(1),325–348.",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "key": "322_CR9",
+    "doi-asserted-by": "publisher",
+    "first-page": "291",
+    "DOI": "10.1111/1467-9965.00057",
+    "volume": "8",
+    "author": "F Comte",
+    "year": "1998",
+    "unstructured": "Comte, F. and Renault, É. (1998). Long memory in continuous-time stochastic volatility models. Mathematical Finance, 8, 291–323.",
+    "journal-title": "Mathematical Finance"
+   },
+   {
+    "key": "322_CR10",
+    "doi-asserted-by": "publisher",
+    "first-page": "159",
+    "DOI": "10.1007/1-84628-048-6_11",
+    "volume-title": "Fractals in Engineering",
+    "author": "R Cont",
+    "year": "2005",
+    "unstructured": "Cont, R. (2005). Long range dependence in financial markets. In Fractals in Engineering, (J. Lévy-Véhel and E. Lutton, eds.) pages 159–179, London. Springer London."
+   },
+   {
+    "key": "322_CR11",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Cont, R. (2007). Volatility clustering in financial markets: Empirical facts and agent-based models. In Long Memory in Economics, (G. Teyssière and A.P. Kirman, eds.) pages 289–309. Springer, Berlin, Heidelberg.",
+    "DOI": "10.1007/3-540-34625-2_10"
+   },
+   {
+    "key": "322_CR12",
+    "unstructured": "Cont, R. and Das, P. (2024). Measuring the roughness of a signal. Working Paper."
+   },
+   {
+    "issue": "2",
+    "key": "322_CR13",
+    "doi-asserted-by": "publisher",
+    "first-page": "781",
+    "DOI": "10.3150/10-BEJ293",
+    "volume": "17",
+    "author": "R Cont",
+    "year": "2011",
+    "unstructured": "Cont, R. and Mancini, C. (2011). Nonparametric tests for pathwise properties of semimartingales. Bernoulli, 17(2), 781 – 813.",
+    "journal-title": "Bernoulli"
+   },
+   {
+    "key": "322_CR14",
+    "first-page": "134",
+    "volume": "6",
+    "author": "R Cont",
+    "year": "2019",
+    "unstructured": "Cont, R. and Perkowski, N. (2019). Pathwise integration and change of variable formulas for continuous paths with arbitrary regularity. Transactions of the American Mathematical Society, 6, 134–138.",
+    "journal-title": "Transactions of the American Mathematical Society"
+   },
+   {
+    "issue": "1",
+    "key": "322_CR15",
+    "doi-asserted-by": "publisher",
+    "first-page": "66",
+    "DOI": "10.1214/aop/1176997026",
+    "volume": "1",
+    "author": "RM Dudley",
+    "year": "1973",
+    "unstructured": "Dudley, R. M. (1973). Sample functions of the gaussian process. Ann. Probab., 1(1), 66–103.",
+    "journal-title": "Ann. Probab."
+   },
+   {
+    "issue": "7",
+    "key": "322_CR16",
+    "doi-asserted-by": "publisher",
+    "first-page": "1714",
+    "DOI": "10.1016/j.jbankfin.2010.11.007",
+    "volume": "35",
+    "author": "J Fleming",
+    "year": "2011",
+    "unstructured": "Fleming, J. and Kirby, C. (2011). Long memory in volatility and trading volume. Journal of Banking and Finance, 35(7), 1714–1726.",
+    "journal-title": "Journal of Banking and Finance"
+   },
+   {
+    "issue": "4",
+    "key": "322_CR17",
+    "doi-asserted-by": "publisher",
+    "first-page": "1086",
+    "DOI": "10.1111/mafi.12354",
+    "volume": "32",
+    "author": "M Fukasawa",
+    "year": "2022",
+    "unstructured": "Fukasawa, M., Takabatake, T., and Westphal, R. (2022). Consistent estimation for fractional stochastic volatility model under high-frequency asymptotics. Mathematical Finance, 32(4), 1086–1132.",
+    "journal-title": "Mathematical Finance"
+   },
+   {
+    "key": "322_CR18",
+    "doi-asserted-by": "publisher",
+    "first-page": "933",
+    "DOI": "10.1080/14697688.2017.1393551",
+    "volume": "18",
+    "author": "J Gatheral",
+    "year": "2018",
+    "unstructured": "Gatheral, J., Jaisson, T., and Rosenbaum, M. (2018). Volatility is rough. Quantitative Finance, 18, 933–949.",
+    "journal-title": "Quantitative Finance"
+   },
+   {
+    "key": "322_CR19",
+    "unstructured": "Han, X. and Schied, A. (2022). The hurst roughness exponent and its model-free estimation."
+   },
+   {
+    "key": "322_CR20",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Jacod, J. and Protter, P. (2012). Discretization of processes, volume 67 of Stochastic Modelling and Applied Probability. Springer, Heidelberg.",
+    "DOI": "10.1007/978-3-642-24127-7"
+   },
+   {
+    "key": "322_CR21",
+    "doi-asserted-by": "publisher",
+    "first-page": "91",
+    "DOI": "10.1016/j.ecosta.2018.10.004",
+    "volume": "16",
+    "author": "A Lahiri",
+    "year": "2020",
+    "unstructured": "Lahiri, A. and Sen, R. (2020). Fractional brownian markets with time-varying volatility and high-frequency data. Econometrics and Statistics, 16, 91–107.",
+    "journal-title": "Econometrics and Statistics"
+   },
+   {
+    "key": "322_CR22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/b137729",
+    "volume-title": "Fractals in Engineering",
+    "author": "J Lévy-Véhel",
+    "year": "2005",
+    "unstructured": "Lévy-Véhel, J., Lutton, E., and Tricot, C. (2005). Fractals in Engineering. Springer, Berlin."
+   },
+   {
+    "key": "322_CR23",
+    "unstructured": "Lewis, A. L. (2000). Option valuation under stochastic volatility. Finance Press."
+   },
+   {
+    "issue": "4",
+    "key": "322_CR24",
+    "doi-asserted-by": "publisher",
+    "first-page": "422",
+    "DOI": "10.1137/1010093",
+    "volume": "10",
+    "author": "BB Mandelbrot",
+    "year": "1968",
+    "unstructured": "Mandelbrot, B. B. and Van Ness, J. W. (1968). Fractional Brownian motions, fractional noises and applications. SIAM Review, 10(4), 422–437.",
+    "journal-title": "SIAM Review"
+   },
+   {
+    "issue": "3",
+    "key": "322_CR25",
+    "doi-asserted-by": "publisher",
+    "first-page": "634",
+    "DOI": "10.3150/08-BEJ167",
+    "volume": "15",
+    "author": "M Podolskij",
+    "year": "2009",
+    "unstructured": "Podolskij, M. and Vetter, M. (2009). Estimation of volatility functionals in the simultaneous presence of microstructure noise and jumps. Bernoulli, 15(3), 634 – 658.",
+    "journal-title": "Bernoulli"
+   },
+   {
+    "key": "322_CR26",
+    "doi-asserted-by": "publisher",
+    "first-page": "95",
+    "DOI": "10.1111/1467-9965.00025",
+    "volume": "7",
+    "author": "LCG Rogers",
+    "year": "1997",
+    "unstructured": "Rogers, L. C. G. (1997). Arbitrage with fractional Brownian motion. Mathematical Finance, 7, 95–105.",
+    "journal-title": "Mathematical Finance"
+   },
+   {
+    "key": "322_CR27",
+    "unstructured": "Rogers, L. C. G. (2019). Things we think we know. .https://www.skokholm.co.uk/wp-content/uploads/2019/11/TWTWKpaper.pdf."
+   },
+   {
+    "key": "322_CR28",
+    "doi-asserted-by": "publisher",
+    "first-page": "62",
+    "DOI": "10.1214/15-PS267",
+    "volume": "16",
+    "author": "L Viitasaari",
+    "year": "2019",
+    "unstructured": "Viitasaari, L. (2019). Necessary and sufficient conditions for limit theorems for quadratic variations of gaussian sequences. Probab. Surveys, 16, 62–98.",
+    "journal-title": "Probab. Surveys"
+   },
+   {
+    "issue": "1",
+    "key": "322_CR29",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.1007/s007800050049",
+    "volume": "3",
+    "author": "W Willinger",
+    "year": "1999",
+    "unstructured": "Willinger, W., Taqqu, M. S., and Teverovsky, V. (1999). Stock market prices and long-range dependence. Finance and stochastics, 3(1), 1–13.",
+    "journal-title": "Finance and stochastics"
+   }
+  ],
+  "container-title": [
+   "Sankhya B"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1007/s13571-024-00322-2.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://link.springer.com/article/10.1007/s13571-024-00322-2/fulltext.html",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1007/s13571-024-00322-2.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     4,
+     16
+    ]
+   ],
+   "date-time": "2024-04-16T02:09:40Z",
+   "timestamp": 1713233380000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://link.springer.com/10.1007/s13571-024-00322-2"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2024,
+     2,
+     21
+    ]
+   ]
+  },
+  "references-count": 29,
+  "journal-issue": {
+   "issue": "1",
+   "published-print": {
+    "date-parts": [
+     [
+      2024,
+      5
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "322"
+  ],
+  "URL": "https://doi.org/10.1007/s13571-024-00322-2",
+  "relation": {},
+  "ISSN": [
+   "0976-8386",
+   "0976-8394"
+  ],
+  "issn-type": [
+   {
+    "value": "0976-8386",
+    "type": "print"
+   },
+   {
+    "value": "0976-8394",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2024,
+     2,
+     21
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "13 September 2023",
+    "order": 1,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "12 January 2024",
+    "order": 2,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "21 February 2024",
+    "order": 3,
+    "name": "first_online",
+    "label": "First Online",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "order": 1,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Statements and Declarations"
+    }
+   },
+   {
+    "value": "There is no conflict of interest.",
+    "order": 2,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Conflicts of interest"
+    }
+   }
+  ]
+ },
+ "10.1016/j.jempfin.2010.01.001": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     5,
+     29
+    ]
+   ],
+   "date-time": "2026-05-29T16:39:24Z",
+   "timestamp": 1780072764693,
+   "version": "3.54.0"
+  },
+  "reference-count": 35,
+  "publisher": "Elsevier BV",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2010,
+       6,
+       1
+      ]
+     ],
+     "date-time": "2010-06-01T00:00:00Z",
+     "timestamp": 1275350400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Journal of Empirical Finance"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2010,
+     6
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.jempfin.2010.01.001",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2010,
+     1,
+     19
+    ]
+   ],
+   "date-time": "2010-01-19T10:48:27Z",
+   "timestamp": 1263898107000
+  },
+  "page": "471-484",
+  "source": "Crossref",
+  "is-referenced-by-count": 140,
+  "title": [
+   "Testing the predictive ability of technical analysis using a new stepwise test without data snooping bias"
+  ],
+  "prefix": "10.1016",
+  "volume": "17",
+  "author": [
+   {
+    "given": "Po-Hsuan",
+    "family": "Hsu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yu-Chin",
+    "family": "Hsu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chung-Ming",
+    "family": "Kuan",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib1",
+    "doi-asserted-by": "crossref",
+    "first-page": "245",
+    "DOI": "10.1016/S0304-405X(98)00052-X",
+    "article-title": "Using genetic algorithms to find technical trading rules",
+    "volume": "51",
+    "author": "Allen",
+    "year": "1999",
+    "journal-title": "Journal of Financial Economics"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "257",
+    "DOI": "10.1016/0927-538X(95)00002-3",
+    "article-title": "The profitability of technical trading rules in the Asian stock markets",
+    "volume": "3",
+    "author": "Bessembinder",
+    "year": "1995",
+    "journal-title": "Pacific-Basin Finance Journal"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "153",
+    "DOI": "10.2307/2329139",
+    "article-title": "Market statistics and technical analysis: the role of volume",
+    "volume": "49",
+    "author": "Blume",
+    "year": "1994",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "1731",
+    "DOI": "10.2307/2328994",
+    "article-title": "Simple technical trading rules and the stochastic properties of stock returns",
+    "volume": "47",
+    "author": "Brock",
+    "year": "1992",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "527",
+    "DOI": "10.1093/rfs/2.4.527",
+    "article-title": "On technical analysis",
+    "volume": "2",
+    "author": "Brown",
+    "year": "1989",
+    "journal-title": "Review of Financial Studies"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "1311",
+    "DOI": "10.1111/0022-1082.00054",
+    "article-title": "The Dow Theory: William Peter Hamilton's track record reconsidered",
+    "volume": "53",
+    "author": "Brown",
+    "year": "1998",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib7",
+    "series-title": "Analysts debate if bull market has peaked — for some, charts warn hurricane is forming; rallying after a cold?",
+    "author": "Browning",
+    "year": "2007"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib8",
+    "doi-asserted-by": "crossref",
+    "first-page": "295",
+    "DOI": "10.1016/j.ememar.2004.03.005",
+    "article-title": "Testing for predictability in emerging equity markets",
+    "volume": "5",
+    "author": "Chang",
+    "year": "2004",
+    "journal-title": "Emerging Markets Review"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib9",
+    "doi-asserted-by": "crossref",
+    "first-page": "226",
+    "DOI": "10.1086/294849",
+    "article-title": "Filter rules and stock-market trading",
+    "volume": "39",
+    "author": "Fama",
+    "year": "1966",
+    "journal-title": "Journal of Business"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib10",
+    "doi-asserted-by": "crossref",
+    "first-page": "347",
+    "DOI": "10.1016/S0927-5398(97)00022-4",
+    "article-title": "The predictability of security returns with simple technical trading rules",
+    "volume": "5",
+    "author": "Gencay",
+    "year": "1998",
+    "journal-title": "Journal of Empirical Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "365",
+    "DOI": "10.1198/073500105000000063",
+    "article-title": "A test for superior predictive ability",
+    "volume": "23",
+    "author": "Hansen",
+    "year": "2005",
+    "journal-title": "Journal of Business and Economic Statistics"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "873",
+    "DOI": "10.1002/jae.800",
+    "article-title": "A forecast comparison of volatility models: does anything beat a GARCH(1, 1)?",
+    "volume": "20",
+    "author": "Hansen",
+    "year": "2005",
+    "journal-title": "Journal of Applied Econometrics"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "1043",
+    "DOI": "10.1016/S0378-4266(03)00043-8",
+    "article-title": "The market liquidity of DIAMONDS, Q's, and their underlying stocks",
+    "volume": "28",
+    "author": "Hegde",
+    "year": "2004",
+    "journal-title": "Journal of Banking and Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "367",
+    "DOI": "10.1016/j.jfineco.2005.09.010",
+    "article-title": "Do industries lead stock markets?",
+    "volume": "83",
+    "author": "Hong",
+    "year": "2007",
+    "journal-title": "Journal of Financial Economics"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib15",
+    "doi-asserted-by": "crossref",
+    "first-page": "606",
+    "DOI": "10.1093/jjfinec/nbi026",
+    "article-title": "Reexamining the profitability of technical analysis with data snooping checks",
+    "volume": "3",
+    "author": "Hsu",
+    "year": "2005",
+    "journal-title": "Journal of Financial Econometrics"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib16",
+    "doi-asserted-by": "crossref",
+    "first-page": "1043",
+    "DOI": "10.1093/rfs/hhg057",
+    "article-title": "Technical analysis and liquidity provision",
+    "volume": "17",
+    "author": "Kavajecz",
+    "year": "2004",
+    "journal-title": "Review of Financial Studies"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "15",
+    "DOI": "10.3905/jpm.2004.442611",
+    "article-title": "The adaptive markets hypothesis: market efficiency from an evolutionary perspective",
+    "volume": "30",
+    "author": "Lo",
+    "year": "2004",
+    "journal-title": "Journal of Portfolio Management"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib18",
+    "doi-asserted-by": "crossref",
+    "first-page": "431",
+    "DOI": "10.1093/rfs/3.3.431",
+    "article-title": "Data snooping biases in tests of financial asset pricing models",
+    "volume": "3",
+    "author": "Lo",
+    "year": "1990",
+    "journal-title": "Review of Financial Studies"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib19",
+    "doi-asserted-by": "crossref",
+    "first-page": "1705",
+    "DOI": "10.1111/0022-1082.00265",
+    "article-title": "Foundations of technical analysis: computational algorithms, statistical inference, and empirical implementation",
+    "volume": "55",
+    "author": "Lo",
+    "year": "2000",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib20",
+    "doi-asserted-by": "crossref",
+    "first-page": "467",
+    "DOI": "10.1017/S0022109009090103",
+    "article-title": "The adaptive markets hypothesis: Evidence from the foreign exchange market",
+    "volume": "44",
+    "author": "Neely",
+    "year": "2009",
+    "journal-title": "Journal of Financial and Quantitative Analysis"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib21",
+    "doi-asserted-by": "crossref",
+    "first-page": "703",
+    "DOI": "10.2307/1913610",
+    "article-title": "A simple, positive semi-definite, heteroskedasticity and autocorrelation consistent covariance matrix",
+    "volume": "55",
+    "author": "Newey",
+    "year": "1987",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib22",
+    "doi-asserted-by": "crossref",
+    "first-page": "1303",
+    "DOI": "10.2307/2290993",
+    "article-title": "The stationary bootstrap",
+    "volume": "89",
+    "author": "Politis",
+    "year": "1994",
+    "journal-title": "Journal of the American Statistical Association"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib23",
+    "doi-asserted-by": "crossref",
+    "first-page": "2135",
+    "DOI": "10.1353/mcb.2007.0006",
+    "article-title": "Technical trading-rule profitability, data snooping, and reality check: evidence from the foreign exchange market",
+    "volume": "30",
+    "author": "Qi",
+    "year": "2006",
+    "journal-title": "Journal of Money, Credit and Banking"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib24",
+    "doi-asserted-by": "crossref",
+    "first-page": "1887",
+    "DOI": "10.1016/S0378-4266(99)00042-4",
+    "article-title": "Tests of technical trading strategies in the emerging equity markets of Latin America and Asia",
+    "volume": "23",
+    "author": "Ratner",
+    "year": "1999",
+    "journal-title": "Journal of Banking and Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib25",
+    "doi-asserted-by": "crossref",
+    "first-page": "43",
+    "DOI": "10.2307/3666314",
+    "article-title": "Profits from technical trading rules",
+    "volume": "31",
+    "author": "Ready",
+    "year": "2002",
+    "journal-title": "Financial Management"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "1237",
+    "DOI": "10.1111/j.1468-0262.2005.00615.x",
+    "article-title": "Stepwise multiple testing as formalized data snooping",
+    "volume": "73",
+    "author": "Romano",
+    "year": "2005",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "243",
+    "DOI": "10.1093/jjfinec/nbl012",
+    "article-title": "The predictive power of “head-and-shoulders” price patterns in the U.S. stock market",
+    "volume": "5",
+    "author": "Savin",
+    "year": "2007",
+    "journal-title": "Journal of Financial Econometrics"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib28",
+    "doi-asserted-by": "crossref",
+    "first-page": "119",
+    "DOI": "10.1086/294846",
+    "article-title": "Mutual fund performance",
+    "volume": "39",
+    "author": "Sharpe",
+    "year": "1966",
+    "journal-title": "Journal of Business"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib29",
+    "doi-asserted-by": "crossref",
+    "first-page": "49",
+    "DOI": "10.3905/jpm.1994.409501",
+    "article-title": "The Sharpe ratio",
+    "volume": "21",
+    "author": "Sharpe",
+    "year": "1994",
+    "journal-title": "Journal of Portfolio Management"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib30",
+    "doi-asserted-by": "crossref",
+    "first-page": "1647",
+    "DOI": "10.1111/0022-1082.00163",
+    "article-title": "Data-snooping, technical trading rule performance, and the bootstrap",
+    "volume": "54",
+    "author": "Sullivan",
+    "year": "1999",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib31",
+    "doi-asserted-by": "crossref",
+    "first-page": "163",
+    "DOI": "10.2307/2328350",
+    "article-title": "Beating the foreign exchange market",
+    "volume": "41",
+    "author": "Sweeney",
+    "year": "1986",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib32",
+    "doi-asserted-by": "crossref",
+    "first-page": "285",
+    "DOI": "10.2307/2331068",
+    "article-title": "Some new filter rule tests: methods and results",
+    "volume": "23",
+    "author": "Sweeney",
+    "year": "1988",
+    "journal-title": "Journal of Financial and Quantitative Analysis"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib33",
+    "doi-asserted-by": "crossref",
+    "first-page": "15",
+    "DOI": "10.1016/S0169-2070(03)00012-8",
+    "article-title": "Efficient market theory and forecasting",
+    "volume": "20",
+    "author": "Timmermann",
+    "year": "2004",
+    "journal-title": "International Journal of Forecasting"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib34",
+    "doi-asserted-by": "crossref",
+    "first-page": "757",
+    "DOI": "10.2307/2327800",
+    "article-title": "In defense of technical analysis",
+    "volume": "40",
+    "author": "Treynor",
+    "year": "1985",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.01.001_bib35",
+    "doi-asserted-by": "crossref",
+    "first-page": "1097",
+    "DOI": "10.1111/1468-0262.00152",
+    "article-title": "A reality check for data snooping",
+    "volume": "68",
+    "author": "White",
+    "year": "2000",
+    "journal-title": "Econometrica"
+   }
+  ],
+  "container-title": [
+   "Journal of Empirical Finance"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0927539810000022?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0927539810000022?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2018,
+     12,
+     13
+    ]
+   ],
+   "date-time": "2018-12-13T22:53:12Z",
+   "timestamp": 1544741592000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0927539810000022"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2010,
+     6
+    ]
+   ]
+  },
+  "references-count": 35,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      6
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0927539810000022"
+  ],
+  "URL": "https://doi.org/10.1016/j.jempfin.2010.01.001",
+  "relation": {},
+  "ISSN": [
+   "0927-5398"
+  ],
+  "issn-type": [
+   {
+    "value": "0927-5398",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2010,
+     6
+    ]
+   ]
+  }
+ },
+ "10.1002/(sici)1099-1255(199805/06)13:3<217::aid-jae476>3.0.co;2-v": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     6,
+     4
+    ]
+   ],
+   "date-time": "2026-06-04T02:37:10Z",
+   "timestamp": 1780540630139,
+   "version": "3.54.1"
+  },
+  "reference-count": 0,
+  "publisher": "Wiley",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2015,
+       9,
+       1
+      ]
+     ],
+     "date-time": "2015-09-01T00:00:00Z",
+     "timestamp": 1441065600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 6332,
+    "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "J. Appl. Econ."
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1998,
+     5
+    ]
+   ]
+  },
+  "DOI": "10.1002/(sici)1099-1255(199805/06)13:3<217::aid-jae476>3.0.co;2-v",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2002,
+     8,
+     25
+    ]
+   ],
+   "date-time": "2002-08-25T19:32:29Z",
+   "timestamp": 1030303949000
+  },
+  "page": "217-244",
+  "source": "Crossref",
+  "is-referenced-by-count": 189,
+  "title": [
+   "Stylized facts of daily return series and the hidden Markov model"
+  ],
+  "prefix": "10.1002",
+  "volume": "13",
+  "author": [
+   {
+    "given": "Tobias",
+    "family": "Rydén",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Timo",
+    "family": "Teräsvirta",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Stefan",
+    "family": "Åsbrink",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "311",
+  "container-title": [
+   "Journal of Applied Econometrics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F(SICI)1099-1255(199805%2F06)13:3%3C217::AID-JAE476%3E3.0.CO;2-V",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/full/10.1002/(SICI)1099-1255(199805/06)13:3%3C217::AID-JAE476%3E3.0.CO;2-V",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     7,
+     1
+    ]
+   ],
+   "date-time": "2021-07-01T06:45:17Z",
+   "timestamp": 1625121917000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-1255(199805/06)13:3<217::AID-JAE476>3.0.CO;2-V"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1998,
+     5
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      1998,
+      5
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1002/(sici)1099-1255(199805/06)13:3<217::aid-jae476>3.0.co;2-v",
+  "relation": {},
+  "ISSN": [
+   "0883-7252",
+   "1099-1255"
+  ],
+  "issn-type": [
+   {
+    "value": "0883-7252",
+    "type": "print"
+   },
+   {
+    "value": "1099-1255",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1998,
+     5
+    ]
+   ]
+  }
+ },
+ "10.1016/0304-405x(96)00875-6": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     19
+    ]
+   ],
+   "date-time": "2026-08-19T19:35:34Z",
+   "timestamp": 1787168134850,
+   "version": "3.56.0"
+  },
+  "reference-count": 34,
+  "publisher": "Elsevier BV",
+  "issue": "1",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1996,
+       9,
+       1
+      ]
+     ],
+     "date-time": "1996-09-01T00:00:00Z",
+     "timestamp": 841536000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Journal of Financial Economics"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1996,
+     9
+    ]
+   ]
+  },
+  "DOI": "10.1016/0304-405x(96)00875-6",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2002,
+     7,
+     25
+    ]
+   ],
+   "date-time": "2002-07-25T14:58:35Z",
+   "timestamp": 1027609115000
+  },
+  "page": "27-62",
+  "source": "Crossref",
+  "is-referenced-by-count": 1079,
+  "title": [
+   "Modeling the conditional distribution of interest rates as a regime-switching process"
+  ],
+  "prefix": "10.1016",
+  "volume": "42",
+  "author": [
+   {
+    "given": "Stephen F.",
+    "family": "Gray",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib1",
+    "article-title": "A stochastic volatility model for short term interest rates and the detection of structural shifts",
+    "author": "Ball",
+    "year": "1994"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib2",
+    "article-title": "Target zones and exchange rates: An empirical investigation",
+    "author": "Bekaert",
+    "year": "1995"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib3",
+    "first-page": "653",
+    "article-title": "Estimation and inference in non-linear structural models",
+    "volume": "4",
+    "author": "Berndt",
+    "year": "1974",
+    "journal-title": "Annals of Economic and Social Measurement"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "307",
+    "DOI": "10.1016/0304-4076(86)90063-1",
+    "article-title": "Generalized autoregressive conditional heteroskedasticity",
+    "volume": "31",
+    "author": "Bollerslev",
+    "year": "1986",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "5",
+    "DOI": "10.1016/0304-4076(92)90064-X",
+    "article-title": "ARCH modeling in finance",
+    "volume": "52",
+    "author": "Bollerslev",
+    "year": "1992",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "309",
+    "DOI": "10.2307/1392087",
+    "article-title": "A Markov model of unconditional variance in ARCH",
+    "volume": "12",
+    "author": "Cai",
+    "year": "1994",
+    "journal-title": "Journal of Business and Economic Statistics"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib7",
+    "first-page": "487",
+    "article-title": "Intertemporal asset pricing without consumption data",
+    "volume": "83",
+    "author": "Campbell",
+    "year": "1993",
+    "journal-title": "American Economic Review"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib8",
+    "doi-asserted-by": "crossref",
+    "first-page": "1209",
+    "DOI": "10.2307/2328983",
+    "article-title": "An empirical comparison of alternative models of the short-term interest rate",
+    "volume": "XLVII",
+    "author": "Chan",
+    "year": "1992",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib9",
+    "doi-asserted-by": "crossref",
+    "first-page": "385",
+    "DOI": "10.2307/1911242",
+    "article-title": "A theory of the term structure of interest rates",
+    "volume": "53",
+    "author": "Cox",
+    "year": "1985",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib10",
+    "series-title": "Nonstationary time series analysis and cointegration",
+    "first-page": "283",
+    "article-title": "Regime switching with time-varying transition probabilities",
+    "author": "Diebold",
+    "year": "1994"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "987",
+    "DOI": "10.2307/1912773",
+    "article-title": "Autoregressive conditional heteroscedasticity with estimates of U.K. inflation",
+    "volume": "50",
+    "author": "Engle",
+    "year": "1982",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "391",
+    "DOI": "10.2307/1913242",
+    "article-title": "Estimating time varying risk premia in the term structure: The ARCH-M model",
+    "volume": "55",
+    "author": "Engle",
+    "year": "1987",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "213",
+    "DOI": "10.1016/0304-4076(90)90099-F",
+    "article-title": "Asset pricing with a factor ARCH covariance structure: Empirical estimates for Treasury bills",
+    "volume": "45",
+    "author": "Engle",
+    "year": "1990",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "385",
+    "DOI": "10.1086/261755",
+    "article-title": "The variation of economic risk premiums",
+    "volume": "99",
+    "author": "Ferson",
+    "year": "1991",
+    "journal-title": "Journal of Political Economy"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib15",
+    "article-title": "The evolution of U.S. business cycle phases",
+    "author": "Filardo",
+    "year": "1993"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib16",
+    "doi-asserted-by": "crossref",
+    "first-page": "299",
+    "DOI": "10.2307/1392086",
+    "article-title": "Business cycle phases and their transitional dynamics",
+    "volume": "12",
+    "author": "Filardo",
+    "year": "1994",
+    "journal-title": "Journal of Business and Economic Statistics"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "137",
+    "DOI": "10.2307/2534463",
+    "article-title": "Economic implications of extraordinary movements in stock prices",
+    "volume": "2",
+    "author": "Friedman",
+    "year": "1989",
+    "journal-title": "Brookings Papers on Economic Activity"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib18",
+    "doi-asserted-by": "crossref",
+    "first-page": "289",
+    "DOI": "10.2307/1392085",
+    "article-title": "On periodic stochastic regime switching in time series models",
+    "volume": "12",
+    "author": "Ghysels",
+    "year": "1993",
+    "journal-title": "Journal of Business and Economic Statistics"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib19",
+    "series-title": "Practical optimization",
+    "author": "Gill",
+    "year": "1981"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib20",
+    "article-title": "An analysis of conditional regime-switching models",
+    "author": "Gray",
+    "year": "1995"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib21",
+    "doi-asserted-by": "crossref",
+    "first-page": "385",
+    "DOI": "10.1016/0165-1889(88)90047-4",
+    "article-title": "Rational expectations econometric analysis of changes in regime: An investigation of the term structure of interest rates",
+    "volume": "12",
+    "author": "Hamilton",
+    "year": "1988",
+    "journal-title": "Journal of Economic Dynamics and Control"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib22",
+    "doi-asserted-by": "crossref",
+    "first-page": "357",
+    "DOI": "10.2307/1912559",
+    "article-title": "A new approach to the economic analysis of nonstationary time series and the business cycle",
+    "volume": "57",
+    "author": "Hamilton",
+    "year": "1989",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib23",
+    "doi-asserted-by": "crossref",
+    "first-page": "39",
+    "DOI": "10.1016/0304-4076(90)90093-9",
+    "article-title": "Analysis of time series subject to changes in regime",
+    "volume": "45",
+    "author": "Hamilton",
+    "year": "1990",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib24",
+    "series-title": "Time series analysis",
+    "author": "Hamilton",
+    "year": "1994"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib25",
+    "doi-asserted-by": "crossref",
+    "first-page": "307",
+    "DOI": "10.1016/0304-4076(94)90067-1",
+    "article-title": "Autoregressive conditional heteroscedasticity and changes in regime",
+    "volume": "64",
+    "author": "Hamilton",
+    "year": "1994",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "S61",
+    "DOI": "10.1002/jae.3950070506",
+    "article-title": "The likelihood ratio test under nonstandard conditions: Testing the Markov switching model of GNP",
+    "volume": "7",
+    "author": "Hansen",
+    "year": "1992",
+    "journal-title": "Journal of Applied Econometrics"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "71",
+    "DOI": "10.1016/0304-405X(94)00821-H",
+    "article-title": "All in the family: Nesting symmetric and asymmetric GARCH models",
+    "volume": "39",
+    "author": "Hentschel",
+    "year": "1995",
+    "journal-title": "Journal of Financial Economics"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib28",
+    "article-title": "The integrated generalized autoregressive conditional heteroscedastic model: The process, estimation and Monte Carlo experiments",
+    "author": "Hong",
+    "year": "1988"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib29",
+    "article-title": "The dynamics of short-term interest rate volatility reconsidered",
+    "author": "Kees",
+    "year": "1994"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib30",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1016/0304-4076(94)90036-1",
+    "article-title": "Dynamic linear models with Markov-switching",
+    "volume": "60",
+    "author": "Kim",
+    "year": "1994",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib31",
+    "doi-asserted-by": "crossref",
+    "first-page": "225",
+    "DOI": "10.2307/1391985",
+    "article-title": "Persistence in variance, structural change, and the GARCH model",
+    "volume": "8",
+    "author": "Lamoureux",
+    "year": "1990",
+    "journal-title": "Journal of Business and Economic Statistics"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib32",
+    "doi-asserted-by": "crossref",
+    "first-page": "318",
+    "DOI": "10.1017/S0266466600005296",
+    "article-title": "Stationarity and persistence in the GARCH (1,1) model",
+    "volume": "6",
+    "author": "Nelson",
+    "year": "1990",
+    "journal-title": "Econometric Theory"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib33",
+    "doi-asserted-by": "crossref",
+    "first-page": "347",
+    "DOI": "10.2307/2938260",
+    "article-title": "Conditional heteroskasticity in asset returns: A new approach",
+    "volume": "59",
+    "author": "Nelson",
+    "year": "1991",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/0304-405X(96)00875-6_bib34",
+    "doi-asserted-by": "crossref",
+    "first-page": "817",
+    "DOI": "10.2307/1912934",
+    "article-title": "A heteroskedasticity-consistent covariance matrix estimator and a direct test for heteroskedasticity",
+    "volume": "48",
+    "author": "White",
+    "year": "1980",
+    "journal-title": "Econometrica"
+   }
+  ],
+  "container-title": [
+   "Journal of Financial Economics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:0304405X96008756?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:0304405X96008756?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     4,
+     23
+    ]
+   ],
+   "date-time": "2019-04-23T01:51:03Z",
+   "timestamp": 1555984263000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/0304405X96008756"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1996,
+     9
+    ]
+   ]
+  },
+  "references-count": 34,
+  "journal-issue": {
+   "issue": "1",
+   "published-print": {
+    "date-parts": [
+     [
+      1996,
+      9
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "0304405X96008756"
+  ],
+  "URL": "https://doi.org/10.1016/0304-405x(96)00875-6",
+  "relation": {},
+  "ISSN": [
+   "0304-405X"
+  ],
+  "issn-type": [
+   {
+    "value": "0304-405X",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1996,
+     9
+    ]
+   ]
+  }
+ },
+ "10.21314/jcf.2024.005": {
+  "indexed": {
+   "date-parts": [
+    [
+     2025,
+     8,
+     30
+    ]
+   ],
+   "date-time": "2025-08-30T16:46:02Z",
+   "timestamp": 1756572362514
+  },
+  "reference-count": 0,
+  "publisher": "Infopro Digital Services Limited",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "JCF"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "DOI": "10.21314/jcf.2024.005",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2024,
+     9,
+     9
+    ]
+   ],
+   "date-time": "2024-09-09T13:22:18Z",
+   "timestamp": 1725888138000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 2,
+  "title": [
+   "Clustering market regimes using the Wasserstein distance"
+  ],
+  "prefix": "10.21314",
+  "author": [
+   {
+    "given": "Blanka",
+    "family": "Horvath",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Zacharia",
+    "family": "Issa",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Aitor",
+    "family": "Muguruza",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "8934",
+  "published-online": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": [
+   "The Journal of Computational Finance"
+  ],
+  "original-title": [],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     9,
+     9
+    ]
+   ],
+   "date-time": "2024-09-09T13:22:18Z",
+   "timestamp": 1725888138000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.risk.net/journal-of-computational-finance/7959937/clustering-market-regimes-using-the-wasserstein-distance"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "references-count": 0,
+  "URL": "https://doi.org/10.21314/jcf.2024.005",
+  "relation": {},
+  "ISSN": [
+   "1460-1559",
+   "1755-2850"
+  ],
+  "issn-type": [
+   {
+    "value": "1460-1559",
+    "type": "print"
+   },
+   {
+    "value": "1755-2850",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  }
+ },
+ "10.2307/2998540": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     20
+    ]
+   ],
+   "date-time": "2026-08-20T15:17:59Z",
+   "timestamp": 1787239079134,
+   "version": "3.56.0"
+  },
+  "reference-count": 0,
+  "publisher": "JSTOR",
+  "issue": "1",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Econometrica"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1998,
+     1
+    ]
+   ]
+  },
+  "DOI": "10.2307/2998540",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2006,
+     7,
+     5
+    ]
+   ],
+   "date-time": "2006-07-05T12:08:14Z",
+   "timestamp": 1152101294000
+  },
+  "page": "47",
+  "source": "Crossref",
+  "is-referenced-by-count": 4405,
+  "title": [
+   "Estimating and Testing Linear Models with Multiple Structural Changes"
+  ],
+  "prefix": "10.2307",
+  "volume": "66",
+  "author": [
+   {
+    "given": "Jushan",
+    "family": "Bai",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Pierre",
+    "family": "Perron",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "1121",
+  "container-title": [
+   "Econometrica"
+  ],
+  "original-title": [],
+  "deposited": {
+   "date-parts": [
+    [
+     2018,
+     5,
+     9
+    ]
+   ],
+   "date-time": "2018-05-09T10:32:52Z",
+   "timestamp": 1525861972000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.jstor.org/stable/2998540?origin=crossref"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1998,
+     1
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "1",
+   "published-print": {
+    "date-parts": [
+     [
+      1998,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.2307/2998540",
+  "relation": {},
+  "ISSN": [
+   "0012-9682"
+  ],
+  "issn-type": [
+   {
+    "value": "0012-9682",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1998,
+     1
+    ]
+   ]
+  }
+ },
+ "10.2202/1558-3708.1145": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     1
+    ]
+   ],
+   "date-time": "2026-08-01T09:19:03Z",
+   "timestamp": 1785575943075,
+   "version": "3.56.0"
+  },
+  "reference-count": 0,
+  "publisher": "Walter de Gruyter GmbH",
+  "issue": "4",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2005,
+     1,
+     8
+    ]
+   ]
+  },
+  "DOI": "10.2202/1558-3708.1145",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2005,
+     12,
+     23
+    ]
+   ],
+   "date-time": "2005-12-23T00:11:04Z",
+   "timestamp": 1135296664000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 113,
+  "title": [
+   "Forecasting Stock Market Volatility with Regime-Switching GARCH Models"
+  ],
+  "prefix": "10.1515",
+  "volume": "9",
+  "author": [
+   {
+    "given": "Juri",
+    "family": "Marcucci",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "374",
+  "container-title": [
+   "Studies in Nonlinear Dynamics &amp; Econometrics"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "https://www.degruyter.com/view/j/snde.2005.9.4/snde.2005.9.4.1145/snde.2005.9.4.1145.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     2,
+     27
+    ]
+   ],
+   "date-time": "2021-02-27T22:42:21Z",
+   "timestamp": 1614465741000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.degruyter.com/document/doi/10.2202/1558-3708.1145/html"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2005,
+     1,
+     8
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "4"
+  },
+  "URL": "https://doi.org/10.2202/1558-3708.1145",
+  "relation": {},
+  "ISSN": [
+   "1558-3708"
+  ],
+  "issn-type": [
+   {
+    "value": "1558-3708",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2005,
+     1,
+     8
+    ]
+   ]
+  }
+ },
+ "10.21511/bbs.13(3).2018.06": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     6,
+     12
+    ]
+   ],
+   "date-time": "2026-06-12T15:45:20Z",
+   "timestamp": 1781279120391,
+   "version": "3.54.1"
+  },
+  "reference-count": 42,
+  "publisher": "LLC CPC Business Perspectives",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2018,
+       8,
+       10
+      ]
+     ],
+     "date-time": "2018-08-10T00:00:00Z",
+     "timestamp": 1533859200000
+    },
+    "content-version": "unspecified",
+    "delay-in-days": 0,
+    "URL": "http://creativecommons.org/licenses/by/3.0/deed.en_US"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Banks and Bank Systems"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2018,
+     8,
+     10
+    ]
+   ]
+  },
+  "abstract": "<jats:p>The aim of this study is to test a trading system based on the average directional index, which is complemented with the parabolic stop and reverse indicator. The trend-based system is tested onto the most actively traded USD based foreign currency pairs, using both monthly and weekly data set over 2000–2018. Sharpe and Sortino measures are used to track the performance of the currency pairs, based on total risk and downside risk assumptions. Results are robust tested by decomposing the data into pre and post 2008 financial crisis. Using an investment horizon over 18 years, the reliance upon the monthly model produced lower maximum drawdowns and lesser trades than the weekly model. While Swiss Franc had the best (worse) performance in the monthly (weekly) based model, the Chinese Renminbi witnessed the worse (best) performance in the monthly (weekly) based model. Pre and post financial crisis decompositions suggest the weekly-based system is more reliable than the monthly one with relatively more trades and positive performance, where the Chinese Renminbi and Japanese Yen posted the highest Sharpe and Sortino values of 0.996 and 4.452 respectively in the post crisis period. Proportionately high level of negative returns coupled with relatively low positive Sharpe and Sortino values, however, suggest that a trading system relying on the average directional index and parabolic stop and reverse indicator to be further tested and analyzed at higher frequencies.</jats:p>",
+  "DOI": "10.21511/bbs.13(3).2018.06",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     8,
+     10
+    ]
+   ],
+   "date-time": "2018-08-10T08:21:29Z",
+   "timestamp": 1533889289000
+  },
+  "page": "58-70",
+  "source": "Crossref",
+  "is-referenced-by-count": 21,
+  "title": [
+   "Performance of the Average Directional Index as a market timing tool for the most actively traded USD based currency pairs"
+  ],
+  "prefix": "10.21511",
+  "volume": "13",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0001-8393-9790",
+    "authenticated-orcid": false,
+    "given": "Ikhlaas",
+    "family": "Gurrib",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Ph.D. (Finance), Chair of Accounting and Finance, Canadian University of Dubai"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "8959",
+  "published-online": {
+   "date-parts": [
+    [
+     2018,
+     8,
+     10
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "ref=1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1561/0500000015"
+   },
+   {
+    "key": "ref=2",
+    "unstructured": "Ball, R. (1978). Filter Rules: Interpretation of Market Efficiency, Experimental Problem and Australian Experience. Accounting Education, 18(2), 1-7."
+   },
+   {
+    "key": "ref=3",
+    "unstructured": "BIS (2016). Triennial Central Bank Survey Foreign exchange turnover in April 2016. Monetary and Economic Department. Accessed on 28th September 2017.  - http://www.bis.org/publ/rpfx16fx.pdf"
+   },
+   {
+    "key": "ref=4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1177/031289620803200306"
+   },
+   {
+    "key": "ref=5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1287/mnsc.27.6.607"
+   },
+   {
+    "key": "ref=6",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0165-1765(94)00571-I"
+   },
+   {
+    "key": "ref=7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2330527"
+   },
+   {
+    "key": "ref=8",
+    "unstructured": "Dooley, M. P., &amp; Shafer J. R. (1976). Analysis of Short run exchange rate behavior: March, 1973 to September 1975 (International Finance Discussion Papers No. 7). Washington: Federal Reserve System."
+   },
+   {
+    "key": "ref=9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3905/jwm.2007.674809"
+   },
+   {
+    "key": "ref=10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2325486"
+   },
+   {
+    "key": "ref=11",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2978261"
+   },
+   {
+    "key": "ref=12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2469/faj.v50.n1.51"
+   },
+   {
+    "key": "ref=13",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.21102/graf.2016.03.71.07"
+   },
+   {
+    "key": "ref=14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.21511/imfi.15(2).2018.16"
+   },
+   {
+    "key": "ref=15",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2139/ssrn.3124785"
+   },
+   {
+    "key": "ref=16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1968.tb00815.x"
+   },
+   {
+    "key": "ref=17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2469/faj.v55.n1.2239"
+   },
+   {
+    "key": "ref=18",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1287/mnsc.38.11.1529"
+   },
+   {
+    "key": "ref=19",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1977.tb01986.x"
+   },
+   {
+    "key": "ref=20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0148-2963(78)90006-1"
+   },
+   {
+    "key": "ref=21",
+    "unstructured": "Markowitz, H. (1959). Portfolio Selection. New Haven, Connecticut: Yale University Press."
+   },
+   {
+    "key": "ref=22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jbankfin.2010.04.014"
+   },
+   {
+    "key": "ref=23",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1257/jel.45.4.936"
+   },
+   {
+    "key": "ref=24",
+    "unstructured": "MSCI (2017a). MSCI Emerging and Frontier Markets Indexes. Accessed on 5th October 2017.  - https://www.msci.com/msci-emerging-and-frontier-markets-indexes"
+   },
+   {
+    "key": "ref=25",
+    "unstructured": "MSCI (2017b). MSCI Emerging Markets Index (USD). Accessed on 5th October 2017. - https://www.msci.com/documents/10199/c0db0a48-01f2-4ba9-ad01-226fd5678111"
+   },
+   {
+    "key": "ref=26",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1017/S0022109009090103"
+   },
+   {
+    "key": "ref=27",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/fut.20435"
+   },
+   {
+    "key": "ref=28",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Pruitt, S. W., &amp; White, R. E. (1988). The CRISMA trading system: Who says technical analysis cannot beat the market? The Journal of Portfolio Management, 14(3), 55-58.",
+    "DOI": "10.3905/jpm.1988.409149"
+   },
+   {
+    "key": "ref=29",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2139/ssrn.1714333"
+   },
+   {
+    "key": "ref=30",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2977928"
+   },
+   {
+    "key": "ref=31",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1086/294846"
+   },
+   {
+    "key": "ref=32",
+    "unstructured": "Siegel, J. (2013). Stocks for the Long Run: The Definitive Guide to Financial Market Returns &amp; Long-Term Investment Strategies (pp. 151-448). New York: McGraw-Hill."
+   },
+   {
+    "key": "ref=33",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3905/joi.3.3.59"
+   },
+   {
+    "key": "ref=34",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3905/jpm.1991.409343"
+   },
+   {
+    "key": "ref=35",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1986.tb04497.x"
+   },
+   {
+    "key": "ref=36",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jbankfin.2009.08.004"
+   },
+   {
+    "key": "ref=37",
+    "unstructured": "Treynor, J. (1965). How to rate management of investment funds? Harvard Business Review, 43(1), 63-75."
+   },
+   {
+    "key": "ref=38",
+    "unstructured": "Treynor, J., &amp; Mazuy, K. (1966). Can mutual funds outguess the market? Harvard Business Review, 44(4), 131-136."
+   },
+   {
+    "key": "ref=39",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0167-9236(98)00028-1"
+   },
+   {
+    "key": "ref=40",
+    "unstructured": "Wilder, J. W. (1978). New Concepts in Technical Trading Systems. Greensboro: Trend Research."
+   },
+   {
+    "key": "ref=41",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/0960310022000020906"
+   },
+   {
+    "key": "ref=42",
+    "unstructured": "Ziemba, W. T. (2003). The Stochastic Programming Approach to Asset, Liability, and Wealth Management. Research Foundation of CFA Institute."
+   }
+  ],
+  "container-title": [
+   "Banks and Bank Systems"
+  ],
+  "original-title": [
+   "Performance of the Average Directional Index as a market timing tool for the most actively traded USD based currency pairs"
+  ],
+  "link": [
+   {
+    "URL": "https://businessperspectives.org/images/pdf/applications/publishing/templates/article/assets/10757/BBS_2018_03_Gurrib.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://businessperspectives.org/images/pdf/applications/publishing/templates/article/assets/10757/BBS_2018_03_Gurrib.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2020,
+     10,
+     14
+    ]
+   ],
+   "date-time": "2020-10-14T17:03:09Z",
+   "timestamp": 1602694989000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://businessperspectives.org/journals/banks-and-bank-systems/issue-291/performance-of-the-average-directional-index-as-a-market-timing-tool-for-the-most-actively-traded-usd-based-currency-pairs"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2018,
+     8,
+     10
+    ]
+   ]
+  },
+  "references-count": 42,
+  "journal-issue": {
+   "issue": "3",
+   "published-online": {
+    "date-parts": [
+     [
+      2018,
+      10,
+      8
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2018,
+      10,
+      8
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.21511/bbs.13(3).2018.06",
+  "relation": {},
+  "ISSN": [
+   "1816-7403",
+   "1991-7074"
+  ],
+  "issn-type": [
+   {
+    "value": "1816-7403",
+    "type": "print"
+   },
+   {
+    "value": "1991-7074",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2018,
+     8,
+     10
+    ]
+   ]
+  }
+ }
+}

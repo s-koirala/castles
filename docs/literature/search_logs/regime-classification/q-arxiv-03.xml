@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gKZBGQ57siHCysQaKk9JOYUhpVc</id>
+  <title>arXiv Query: search_query=abs:"market regime" AND (abs:"clustering" OR abs:"Wasserstein" OR abs:"detection")&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-08-21T14:43:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22market+regime%22+AND+(abs:%22clustering%22+OR+(abs:%22Wasserstein%22+OR+abs:%22detection%22))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>37</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2110.11848v1</id>
+    <title>Clustering Market Regimes using the Wasserstein Distance</title>
+    <updated>2021-10-22T15:27:52Z</updated>
+    <link href="https://arxiv.org/abs/2110.11848v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.11848v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The problem of rapid and automated detection of distinct market regimes is a topic of great interest to financial mathematicians and practitioners alike. In this paper, we outline an unsupervised learning algorithm for clustering financial time-series into a suitable number of temporal segments (market regimes). As a special case of the above, we develop a robust algorithm that automates the process of classifying market regimes. The method is robust in the sense that it does not depend on modelling assumptions of the underlying time series as our experiments with real datasets show. This method -- dubbed the Wasserstein $k$-means algorithm -- frames such a problem as one on the space of probability measures with finite $p^\text{th}$ moment, in terms of the $p$-Wasserstein distance between (empirical) distributions. We compare our WK-means approach with a more traditional clustering algorithms by studying the so-called maximum mean discrepancy scores between, and within clusters. In both cases it is shown that the WK-means algorithm vastly outperforms all considered competitor approaches. We demonstrate the performance of all approaches both in a controlled environment on synthetic data, and on real data.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-22T15:27:52Z</published>
+    <arxiv:comment>37 pages, 40 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Blanka Horvath</name>
+    </author>
+    <author>
+      <name>Zacharia Issa</name>
+    </author>
+    <author>
+      <name>Aitor Muguruza</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.01285v2</id>
+    <title>Automated regime classification in multidimensional time series data using sliced Wasserstein k-means clustering</title>
+    <updated>2026-05-24T17:21:29Z</updated>
+    <link href="https://arxiv.org/abs/2310.01285v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.01285v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work has proposed Wasserstein k-means (Wk-means) clustering as a powerful method to classify regimes in time series data, and one-dimensional asset returns in particular. In this paper, we begin by studying in detail the behaviour of the Wasserstein k-means clustering algorithm applied to synthetic one-dimensional time series data. We extend the previous work by studying, in detail, the dynamics of the clustering algorithm and how varying the hyperparameters impacts the performance over different random initialisations. We compute simple metrics that we find to be useful in identifying high-quality clusterings. We then extend the technique of Wasserstein k-means clustering to multidimensional time series data by approximating the multidimensional Wasserstein distance as a sliced Wasserstein distance, resulting in a method we call 'sliced Wasserstein k-means (sWk-means) clustering'. We apply the sWk-means clustering method to the problem of automated regime classification in multidimensional time series data, using synthetic data to demonstrate the validity and effectiveness of the approach. Finally, we show that the sWk-means method is able to identify distinct market regimes in real multidimensional financial time series, using publicly available foreign exchange spot rate data as a case study. We conclude with remarks about some limitations of our approach and potential complementary or alternative approaches.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-02T15:37:56Z</published>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <arxiv:journal_ref>Data Science in Finance and Economics 2025, Volume 5, Issue 3: 387-418</arxiv:journal_ref>
+    <author>
+      <name>Qinmeng Luan</name>
+    </author>
+    <author>
+      <name>James Hamp</name>
+    </author>
+    <arxiv:doi>10.3934/DSFE.2025016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3934/DSFE.2025016" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.03667v1</id>
+    <title>Market Regime Detection via Realized Covariances: A Comparison between Unsupervised Learning and Nonlinear Models</title>
+    <updated>2021-04-08T10:32:28Z</updated>
+    <link href="https://arxiv.org/abs/2104.03667v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.03667v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is broad empirical evidence of regime switching in financial markets. The transition between different market regimes is mirrored in correlation matrices, whose time-varying coefficients usually jump higher in highly volatile regimes, leading to the failure of common diversification methods. In this article, we aim to identify market regimes from covariance matrices and detect transitions towards highly volatile regimes, hence improving tail-risk hedging. Starting from the time series of fractionally differentiated sentiment-like future values, two models are applied on monthly realized covariance matrices to detect market regimes. Specifically, the regime detection is implemented via vector logistic smooth transition autoregressive model (VLSTAR) and through an unsupervised learning methodology, the agglomerative hierarchical clustering. Since market regime switches are unobservable processes that describe the latent change of market behaviour, the ability of correctly detecting market regimes is validated in two ways: firstly, randomly generated data are used to assess a correct classification when regimes are known; secondly, a naïve trading strategy filtered with the detected regime switches is used to understand whether an improvement is showed when accounting for regime switches. The results point to the VLSTAR as the best performing model for labelling market regimes.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-08T10:32:28Z</published>
+    <arxiv:comment>21 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Andrea Bucci</name>
+    </author>
+    <author>
+      <name>Vito Ciciretti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.00066v1</id>
+    <title>Market regime classification with signatures</title>
+    <updated>2021-06-30T19:22:22Z</updated>
+    <link href="https://arxiv.org/abs/2107.00066v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.00066v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide a data-driven algorithm to classify market regimes for time series. We utilise the path signature, encoding time series into easy-to-describe objects, and provide a metric structure which establishes a connection between separation of regimes and clustering of points.</summary>
+    <category term="q-fin.RM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-30T19:22:22Z</published>
+    <arxiv:comment>14 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.RM"/>
+    <author>
+      <name>Paul Bilokon</name>
+    </author>
+    <author>
+      <name>Antoine Jacquier</name>
+    </author>
+    <author>
+      <name>Conor McIndoe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.15835v1</id>
+    <title>Non-parametric online market regime detection and regime clustering for multidimensional and path-dependent data structures</title>
+    <updated>2023-06-27T23:43:19Z</updated>
+    <link href="https://arxiv.org/abs/2306.15835v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.15835v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we present a non-parametric online market regime detection method for multidimensional data structures using a path-wise two-sample test derived from a maximum mean discrepancy-based similarity metric on path space that uses rough path signatures as a feature map. The latter similarity metric has been developed and applied as a discriminator in recent generative models for small data environments, and has been optimised here to the setting where the size of new incoming data is particularly small, for faster reactivity.
+  On the same principles, we also present a path-wise method for regime clustering which extends our previous work. The presented regime clustering techniques were designed as ex-ante market analysis tools that can identify periods of approximatively similar market activity, but the new results also apply to path-wise, high dimensional-, and to non-Markovian settings as well as to data structures that exhibit autocorrelation.
+  We demonstrate our clustering tools on easily verifiable synthetic datasets of increasing complexity, and also show how the outlined regime detection techniques can be used as fast on-line automatic regime change detectors or as outlier detection tools, including a fully automated pipeline. Finally, we apply the fine-tuned algorithms to real-world historical data including high-dimensional baskets of equities and the recent price evolution of crypto assets, and we show that our methodology swiftly and accurately indicated historical periods of market turmoil.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-27T23:43:19Z</published>
+    <arxiv:comment>65 pages, 52 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Zacharia Issa</name>
+    </author>
+    <author>
+      <name>Blanka Horvath</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.05801v1</id>
+    <title>A Hybrid Learning Approach to Detecting Regime Switches in Financial Markets</title>
+    <updated>2021-08-05T01:15:19Z</updated>
+    <link href="https://arxiv.org/abs/2108.05801v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.05801v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Financial markets are of much interest to researchers due to their dynamic and stochastic nature. With their relations to world populations, global economies and asset valuations, understanding, identifying and forecasting trends and regimes are highly important. Attempts have been made to forecast market trends by employing machine learning methodologies, while statistical techniques have been the primary methods used in developing market regime switching models used for trading and hedging. In this paper we present a novel framework for the detection of regime switches within the US financial markets. Principal component analysis is applied for dimensionality reduction and the k-means algorithm is used as a clustering technique. Using a combination of cluster analysis and classification, we identify regimes in financial markets based on publicly available economic data. We display the efficacy of the framework by constructing and assessing the performance of two trading strategies based on detected regimes.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.RM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-05T01:15:19Z</published>
+    <arxiv:comment>7 pages, 5 figures, 5 tables, ICAIF 2020: ACM International Conference on AI in Finance</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <arxiv:journal_ref>ICAIF 2020: ACM International Conference on AI in Finance</arxiv:journal_ref>
+    <author>
+      <name>Peter Akioyamen</name>
+      <arxiv:affiliation>Western University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yi Zhou Tang</name>
+      <arxiv:affiliation>Western University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hussien Hussien</name>
+      <arxiv:affiliation>Western University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1145/3383455.3422521</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3383455.3422521" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.03273v1</id>
+    <title>Dependencies and systemic risk in the European insurance sector: Some new evidence based on copula-DCC-GARCH model and selected clustering methods</title>
+    <updated>2019-05-08T18:01:40Z</updated>
+    <link href="https://arxiv.org/abs/1905.03273v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.03273v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The subject of the present article is the study of correlations between large insurance companies and their contribution to systemic risk in the insurance sector. Our main goal is to analyze the conditional structure of the correlation on the European insurance market and to compare systemic risk in different regimes of this market. These regimes are identified by monitoring the weekly rates of returns of eight of the largest insurers (five from Europe and the biggest insurers from the USA, Canada and China) during the period January 2005 to December 2018. To this aim we use statistical clustering methods for time units (weeks) to which we assigned the conditional variances obtained from the estimated copula-DCC-GARCH model. The advantage of such an approach is that there is no need to assume a priori a number of market regimes, since this number has been identified by means of clustering quality validation. In each of the identified market regimes we determined the commonly now used CoVaR systemic risk measure. From the performed analysis we conclude that all the considered insurance companies are positively correlated and this correlation is stronger in times of turbulences on global markets which shows an increased exposure of the European insurance sector to systemic risk during crisis. Moreover, in times of turbulences on global markets the value level of the CoVaR systemic risk index is much higher than in "normal conditions".</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-08T18:01:40Z</published>
+    <arxiv:comment>JEL: G22</arxiv:comment>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Anna Denkowska</name>
+    </author>
+    <author>
+      <name>Stanisław Wanat</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.09664v2</id>
+    <title>Adapting to the Unknown: Robust Meta-Learning for Zero-Shot Financial Time Series Forecasting</title>
+    <updated>2025-08-01T03:38:38Z</updated>
+    <link href="https://arxiv.org/abs/2504.09664v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.09664v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Financial time series forecasting in zero-shot settings is critical for investment decisions, especially during abrupt market regime shifts or in emerging markets with limited historical data. While Model-Agnostic Meta-Learning (MAML) approaches show promise, existing meta-task construction strategies often yield suboptimal performance for highly turbulent financial series. To address this, we propose a novel task-construction method that leverages learned embeddings for both meta task and also downstream predictions, enabling effective zero-shot meta-learning. Specifically, we use Gaussian Mixture Models (GMMs) to softly cluster embeddings, constructing two complementary meta-task types: intra-cluster tasks and inter-cluster tasks. By assigning embeddings to multiple latent regimes probabilistically, GMMs enable richer, more diverse meta-learning. This dual approach ensures the model can quickly adapt to local patterns while simultaneously capturing invariant cross-series features. Furthermore, we enhance inter-cluster generalization through hard task mining, which identifies robust patterns across divergent market regimes. Our method was validated using real-world financial data from high-volatility periods and multiple international markets (including emerging markets). The results demonstrate significant out-performance over existing approaches and stronger generalization in zero-shot scenarios.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-13T17:27:07Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anxian Liu</name>
+    </author>
+    <author>
+      <name>Junying Ma</name>
+    </author>
+    <author>
+      <name>Guang Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.21819v1</id>
+    <title>Q-A3C2: Quantum Reinforcement Learning with Time-Series Dynamic Clustering for Adaptive ETF Stock Selection</title>
+    <updated>2025-12-26T01:15:55Z</updated>
+    <link href="https://arxiv.org/abs/2512.21819v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.21819v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional ETF stock selection methods and reinforcement learning models such as the Asynchronous Advantage Actor-Critic (A3C) often suffer from high-dimensional feature spaces and overfitting when applied to complex financial markets. Moreover, static clustering algorithms fail to capture evolving market regimes, as the cluster with higher returns in one period may not remain optimal in the next. To address these limitations, this paper proposes Q-A3C2, a quantum-enhanced A3C framework that integrates time-series dynamic clustering. By embedding Variational Quantum Circuits (VQCs) into the policy network, Q-A3C2 enhances nonlinear feature representation and enables adaptive decision-making at the cluster level. Experimental results on the S and P 500 constituents show that Q-A3C2 achieves a cumulative return of 17.09%, outperforming the benchmark's 7.09%, demonstrating superior adaptability and exploration in dynamic financial environments.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-26T01:15:55Z</published>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Yen-Ku Liu</name>
+    </author>
+    <author>
+      <name>Yun-Cheng Tsai</name>
+    </author>
+    <author>
+      <name>Samuel Yen-Chi Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.05535v1</id>
+    <title>Predicting Risk-adjusted Returns using an Asset Independent Regime-switching Model</title>
+    <updated>2021-07-07T10:23:59Z</updated>
+    <link href="https://arxiv.org/abs/2107.05535v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.05535v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Financial markets tend to switch between various market regimes over time, making stationarity-based models unsustainable. We construct a regime-switching model independent of asset classes for risk-adjusted return predictions based on hidden Markov models. This framework can distinguish between market regimes in a wide range of financial markets such as the commodity, currency, stock, and fixed income market. The proposed method employs sticky features that directly affect the regime stickiness and thereby changing turnover levels. An investigation of our metric for risk-adjusted return predictions is conducted by analyzing daily financial market changes for almost twenty years. Empirical demonstrations of out-of-sample observations obtain an accurate detection of bull, bear, and high volatility periods, improving risk-adjusted returns while keeping a preferable turnover level.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-07T10:23:59Z</published>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Nicklas Werge</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.21823v2</id>
+    <title>Investigating Conditional Restricted Boltzmann Machines in Regime Detection</title>
+    <updated>2025-12-30T19:46:51Z</updated>
+    <link href="https://arxiv.org/abs/2512.21823v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.21823v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study investigates the efficacy of Conditional Restricted Boltzmann Machines (CRBMs) for modeling high-dimensional financial time series and detecting systemic risk regimes. We extend the classical application of static Restricted Boltzmann Machines (RBMs) by incorporating autoregressive conditioning and utilizing Persistent Contrastive Divergence (PCD) to incorporate complex temporal dependency structures. Comparing a discrete Bernoulli-Bernoulli architecture against a continuous Gaussian-Bernoulli variant across a multi-asset dataset spanning 2013-2025, we observe a dichotomy between generative fidelity and regime detection. While the Gaussian CRBM successfully preserves static asset correlations, it exhibits limitations in generating long-range volatility clustering. Thus, we analyze the free energy as a relative negative log-likelihood (surprisal) under a fixed, trained model. We demonstrate that the model's free energy serves as a robust, regime stability metric. By decomposing the free energy into quadratic (magnitude) and structural (correlation) components, we show that the model can distinguish between pure magnitude shocks and market regimes. Our findings suggest that the CRBM offers a valuable, interpretable diagnostic tool for monitoring systemic risk, providing a supplemental metric to implied volatility metrics like the VIX.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-26T01:23:45Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Siddhartha Srinivas Rentala</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.01971v1</id>
+    <title>DeepSupp: Attention-Driven Correlation Pattern Analysis for Dynamic Time Series Support and Resistance Levels Identification</title>
+    <updated>2025-06-22T11:09:55Z</updated>
+    <link href="https://arxiv.org/abs/2507.01971v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.01971v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Support and resistance (SR) levels are central to technical analysis, guiding traders in entry, exit, and risk management. Despite widespread use, traditional SR identification methods often fail to adapt to the complexities of modern, volatile markets. Recent research has introduced machine learning techniques to address the following challenges, yet most focus on price prediction rather than structural level identification. This paper presents DeepSupp, a new deep learning approach for detecting financial support levels using multi-head attention mechanisms to analyze spatial correlations and market microstructure relationships. DeepSupp integrates advanced feature engineering, constructing dynamic correlation matrices that capture evolving market relationships, and employs an attention-based autoencoder for robust representation learning. The final support levels are extracted through unsupervised clustering, leveraging DBSCAN to identify significant price thresholds. Comprehensive evaluations on S&amp;P 500 tickers demonstrate that DeepSupp outperforms six baseline methods, achieving state-of-the-art performance across six financial metrics, including essential support accuracy and market regime sensitivity. With consistent results across diverse market conditions, DeepSupp addresses critical gaps in SR level detection, offering a scalable and reliable solution for modern financial analysis. Our approach highlights the potential of attention-based architectures to uncover nuanced market patterns and improve technical trading strategies.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-22T11:09:55Z</published>
+    <arxiv:comment>7 pages, 4 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Boris Kriuk</name>
+    </author>
+    <author>
+      <name>Logic Ng</name>
+    </author>
+    <author>
+      <name>Zarif Al Hossain</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.12614v2</id>
+    <title>Regime-based Implied Stochastic Volatility Model for Crypto Option Pricing</title>
+    <updated>2022-09-27T09:31:34Z</updated>
+    <link href="https://arxiv.org/abs/2208.12614v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.12614v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The increasing adoption of Digital Assets (DAs), such as Bitcoin (BTC), rises the need for accurate option pricing models. Yet, existing methodologies fail to cope with the volatile nature of the emerging DAs. Many models have been proposed to address the unorthodox market dynamics and frequent disruptions in the microstructure caused by the non-stationarity, and peculiar statistics, in DA markets. However, they are either prone to the curse of dimensionality, as additional complexity is required to employ traditional theories, or they overfit historical patterns that may never repeat. Instead, we leverage recent advances in market regime (MR) clustering with the Implied Stochastic Volatility Model (ISVM). Time-regime clustering is a temporal clustering method, that clusters the historic evolution of a market into different volatility periods accounting for non-stationarity. ISVM can incorporate investor expectations in each of the sentiment-driven periods by using implied volatility (IV) data. In this paper, we applied this integrated time-regime clustering and ISVM method (termed MR-ISVM) to high-frequency data on BTC options at the popular trading platform Deribit. We demonstrate that MR-ISVM contributes to overcome the burden of complex adaption to jumps in higher order characteristics of option pricing models. This allows us to price the market based on the expectations of its participants in an adaptive fashion.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-15T15:31:42Z</published>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Danial Saef</name>
+    </author>
+    <author>
+      <name>Yuanrong Wang</name>
+    </author>
+    <author>
+      <name>Tomaso Aste</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.22346v1</id>
+    <title>Representation Learning for Regime detection in Block Hierarchical Financial Markets</title>
+    <updated>2024-10-14T20:23:00Z</updated>
+    <link href="https://arxiv.org/abs/2410.22346v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.22346v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider financial market regime detection from the perspective of deep representation learning of the causal information geometry underpinning traded asset systems using a hierarchical correlation structure to characterise market evolution. We assess the robustness of three toy models: SPDNet, SPD-NetBN and U-SPDNet whose architectures respect the underlying Riemannian manifold of input block hierarchical SPD correlation matrices. Market phase detection for each model is carried out using three data configurations: randomised JSE Top 60 data, synthetically-generated block hierarchical SPD matrices and block-resampled chronology-preserving JSE Top 60 data. We show that using a singular performance metric is misleading in our financial market investment use cases where deep learning models overfit in learning spatio-temporal correlation dynamics.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-14T20:23:00Z</published>
+    <arxiv:comment>6 pages. Presented at the 2024 IEEE CIFEr conference. Analysis of block-resampled chronology-preserving lead-lag learning dynamics presented at: https://osf.io/msrgc/</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Alexa Orton</name>
+    </author>
+    <author>
+      <name>Tim Gebbie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.06261v4</id>
+    <title>Dissection of Bitcoin's Multiscale Bubble History from January 2012 to February 2018</title>
+    <updated>2019-05-30T13:27:43Z</updated>
+    <link href="https://arxiv.org/abs/1804.06261v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.06261v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a detailed bubble analysis of the Bitcoin to US Dollar price dynamics from January 2012 to February 2018. We introduce a robust automatic peak detection method that classifies price time series into periods of uninterrupted market growth (drawups) and regimes of uninterrupted market decrease (drawdowns). In combination with the Lagrange Regularisation Method for detecting the beginning of a new market regime, we identify 3 major peaks and 10 additional smaller peaks, that have punctuated the dynamics of Bitcoin price during the analyzed time period. We explain this classification of long and short bubbles by a number of quantitative metrics and graphs to understand the main socio-economic drivers behind the ascent of Bitcoin over this period. Then, a detailed analysis of the growing risks associated with the three long bubbles using the Log-Periodic Power Law Singularity (LPPLS) model is based on the LPPLS Confidence Indicators, defined as the fraction of qualified fits of the LPPLS model over multiple time windows. Furthermore, for various fictitious 'present' times $t_2$ before the crashes, we employ a clustering method to group the predicted critical times $t_c$ of the LPPLS fits over different time scales, where $t_c$ is the most probable time for the ending of the bubble. Each cluster is proposed as a plausible scenario for the subsequent Bitcoin price evolution. We present these predictions for the three long bubbles and the four short bubbles that our time scale of analysis was able to resolve. Overall, our predictive scheme provides useful information to warn of an imminent crash risk.</summary>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-17T13:56:02Z</published>
+    <arxiv:primary_category term="econ.EM"/>
+    <author>
+      <name>Jan-Christian Gerlach</name>
+    </author>
+    <author>
+      <name>Guilherme Demos</name>
+    </author>
+    <author>
+      <name>Didier Sornette</name>
+    </author>
+  </entry>
+</feed>

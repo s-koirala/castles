@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/X0pQ9pITv3zksQ3PTO3gVhz3SCE</id>
+  <title>arXiv Query: search_query=all:"Bayesian online changepoint detection"&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-08-21T14:43:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22Bayesian+online+changepoint+detection%22&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>13</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.12899v2</id>
+    <title>Monitoring Deforestation Using Multivariate Bayesian Online Changepoint Detection with Outliers</title>
+    <updated>2021-12-28T02:31:02Z</updated>
+    <link href="https://arxiv.org/abs/2112.12899v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.12899v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Near real time change detection is important for a variety of Earth monitoring applications and remains a high priority for remote sensing science. Data sparsity, subtle changes, seasonal trends, and the presence of outliers make detecting actual landscape changes challenging. Adams and MacKay (2007) introduced Bayesian Online Changepoint Detection (BOCPD), a computationally efficient, exact Bayesian method for change detection. Incorporation of prior information allows for relaxed dependence on dense data and an extensive stable period, making this method applicable to relatively short time series and multiple changepoint detection. In this paper we conduct BOCPD with a multivariate linear regression framework that supports seasonal trends. We introduce a mechanism to make BOCPD robust against occasional outliers without compromising the computational efficiency of an exact posterior change distribution nor the detection latency. We show via simulations that the method effectively detects change in the presence of outliers. The method is then applied to monitor deforestation in Myanmar where we show superior performance compared to current online changepoint detection methods.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-24T01:21:03Z</published>
+    <arxiv:comment>21 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Laura J. Wendelberger</name>
+    </author>
+    <author>
+      <name>Josh M. Gray</name>
+    </author>
+    <author>
+      <name>Brian J. Reich</name>
+    </author>
+    <author>
+      <name>Alyson G. Wilson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.3742v1</id>
+    <title>Bayesian Online Changepoint Detection</title>
+    <updated>2007-10-19T17:18:30Z</updated>
+    <link href="https://arxiv.org/abs/0710.3742v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.3742v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Changepoints are abrupt variations in the generative parameters of a data sequence. Online detection of changepoints is useful in modelling and prediction of time series in application areas such as finance, biometrics, and robotics. While frequentist methods have yielded online filtering and prediction techniques, most Bayesian papers have focused on the retrospective segmentation problem. Here we examine the case where the model parameters before and after the changepoint are independent and we derive an online algorithm for exact inference of the most recent changepoint. We compute the probability distribution of the length of the current ``run,'' or time since the last changepoint, using a simple message-passing algorithm. Our implementation is highly modular so that the algorithm may be applied to a variety of types of data. We illustrate this modularity by demonstrating the algorithm on three different real-world data sets.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-19T17:18:30Z</published>
+    <arxiv:comment>7 pages, 4 figures, latex</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ryan Prescott Adams</name>
+    </author>
+    <author>
+      <name>David J. C. MacKay</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.04759v2</id>
+    <title>Robust and Scalable Bayesian Online Changepoint Detection</title>
+    <updated>2023-05-12T14:26:35Z</updated>
+    <link href="https://arxiv.org/abs/2302.04759v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.04759v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes an online, provably robust, and scalable Bayesian approach for changepoint detection. The resulting algorithm has key advantages over previous work: it provides provable robustness by leveraging the generalised Bayesian perspective, and also addresses the scalability issues of previous attempts. Specifically, the proposed generalised Bayesian formalism leads to conjugate posteriors whose parameters are available in closed form by leveraging diffusion score matching. The resulting algorithm is exact, can be updated through simple algebra, and is more than 10 times faster than its closest competitor.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-09T16:49:20Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Matias Altamirano</name>
+    </author>
+    <author>
+      <name>François-Xavier Briol</name>
+    </author>
+    <author>
+      <name>Jeremias Knoblauch</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14224v2</id>
+    <title>Active multi-fidelity Bayesian online changepoint detection</title>
+    <updated>2021-07-25T15:29:42Z</updated>
+    <link href="https://arxiv.org/abs/2103.14224v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14224v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Online algorithms for detecting changepoints, or abrupt shifts in the behavior of a time series, are often deployed with limited resources, e.g., to edge computing settings such as mobile phones or industrial sensors. In these scenarios it may be beneficial to trade the cost of collecting an environmental measurement against the quality or "fidelity" of this measurement and how the measurement affects changepoint estimation. For instance, one might decide between inertial measurements or GPS to determine changepoints for motion. A Bayesian approach to changepoint detection is particularly appealing because we can represent our posterior uncertainty about changepoints and make active, cost-sensitive decisions about data fidelity to reduce this posterior uncertainty. Moreover, the total cost could be dramatically lowered through active fidelity switching, while remaining robust to changes in data distribution. We propose a multi-fidelity approach that makes cost-sensitive decisions about which data fidelity to collect based on maximizing information gain with respect to changepoints. We evaluate this framework on synthetic, video, and audio data and show that this information-based approach results in accurate predictions while reducing total cost.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T02:23:54Z</published>
+    <arxiv:comment>37th Conference on Uncertainty in Artificial Intelligence</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Gregory W. Gundersen</name>
+    </author>
+    <author>
+      <name>Diana Cai</name>
+    </author>
+    <author>
+      <name>Chuteng Zhou</name>
+    </author>
+    <author>
+      <name>Barbara E. Engelhardt</name>
+    </author>
+    <author>
+      <name>Ryan P. Adams</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.03276v3</id>
+    <title>Lagged Exact Bayesian Online Changepoint Detection with Parameter Estimation</title>
+    <updated>2018-10-13T06:49:57Z</updated>
+    <link href="https://arxiv.org/abs/1710.03276v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.03276v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Identifying changes in the generative process of sequential data, known as changepoint detection, has become an increasingly important topic for a wide variety of fields. A recently developed approach, which we call EXact Online Bayesian Changepoint Detection (EXO), has shown reasonable results with efficient computation for real time updates. The method is based on a \textit{forward} recursive message-passing algorithm. However, the detected changepoints from these methods are unstable. We propose a new algorithm called Lagged EXact Online Bayesian Changepoint Detection (LEXO) that improves the accuracy and stability of the detection by incorporating $\ell$-time lags to the inference. The new algorithm adds a recursive \textit{backward} step to the forward EXO and has computational complexity linear in the number of added lags. Estimation of parameters associated with regimes is also developed. Simulation studies with three common changepoint models show that the detected changepoints from LEXO are much more stable and parameter estimates from LEXO have considerably lower MSE than EXO. We illustrate applicability of the methods with two real world data examples comparing the EXO and LEXO.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-09T19:34:25Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Michael Byrd</name>
+    </author>
+    <author>
+      <name>Linh Nghiem</name>
+    </author>
+    <author>
+      <name>Jing Cao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.07987v2</id>
+    <title>Stein Variational Online Changepoint Detection with Applications to Hawkes Processes and Neural Networks</title>
+    <updated>2019-05-25T10:15:02Z</updated>
+    <link href="https://arxiv.org/abs/1901.07987v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.07987v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bayesian online changepoint detection (BOCPD) (Adams &amp; MacKay, 2007) offers a rigorous and viable way to identify changepoints in complex systems. In this work, we introduce a Stein variational online changepoint detection (SVOCD) method to provide a computationally tractable generalization of BOCPD beyond the exponential family of probability distributions. We integrate the recently developed Stein variational Newton (SVN) method (Detommaso et al., 2018) and BOCPD to offer a full online Bayesian treatment for a large number of situations with significant importance in practice. We apply the resulting method to two challenging and novel applications: Hawkes processes and long short-term memory (LSTM) neural networks. In both cases, we successfully demonstrate the efficacy of our method on real data.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-23T16:35:00Z</published>
+    <arxiv:comment>14 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Gianluca Detommaso</name>
+    </author>
+    <author>
+      <name>Hanne Hoitzing</name>
+    </author>
+    <author>
+      <name>Tiangang Cui</name>
+    </author>
+    <author>
+      <name>Ardavan Alamir</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.02261v2</id>
+    <title>Doubly Robust Bayesian Inference for Non-Stationary Streaming Data with $β$-Divergences</title>
+    <updated>2018-11-27T15:39:30Z</updated>
+    <link href="https://arxiv.org/abs/1806.02261v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.02261v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the very first robust Bayesian Online Changepoint Detection algorithm through General Bayesian Inference (GBI) with $β$-divergences. The resulting inference procedure is doubly robust for both the parameter and the changepoint (CP) posterior, with linear time and constant space complexity. We provide a construction for exponential models and demonstrate it on the Bayesian Linear Regression model. In so doing, we make two additional contributions: Firstly, we make GBI scalable using Structural Variational approximations that are exact as $β\to 0$. Secondly, we give a principled way of choosing the divergence parameter $β$ by minimizing expected predictive loss on-line. Reducing False Discovery Rates of CPs from more than 90% to 0% on real world data, this offers the state of the art.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-06T15:55:42Z</published>
+    <arxiv:comment>39 pages, 11 figures, published at Neural Information Processing Systems (NeurIPS) 2018</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>Neural Information Processing Systems (NeurIPS) 2018</arxiv:journal_ref>
+    <author>
+      <name>Jeremias Knoblauch</name>
+    </author>
+    <author>
+      <name>Jack Jewson</name>
+    </author>
+    <author>
+      <name>Theodoros Damoulas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.13293v1</id>
+    <title>Inferring Soil Drydown Behaviour with Adaptive Bayesian Online Changepoint Analysis</title>
+    <updated>2025-09-16T17:44:58Z</updated>
+    <link href="https://arxiv.org/abs/2509.13293v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.13293v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continuous soil-moisture measurements provide a direct lens on subsurface hydrological processes, notably the post-rainfall "drydown" phase. Because these records consist of distinct, segment-specific behaviours whose forms and scales vary over time, realistic inference demands a model that captures piecewise dynamics while accommodating parameters that are unknown a priori. Building on Bayesian Online Changepoint Detection (BOCPD), we introduce two complementary extensions: a particle-filter variant that substitutes exact marginalisation with sequential Monte Carlo to enable real-time inference when critical parameters cannot be integrated out analytically, and an online-gradient variant that embeds stochastic gradient updates within BOCPD to learn application-relevant parameters on the fly without prohibitive computational cost. After validating both algorithms on synthetic data that replicate the temporal structure of field observations-detailing hyperparameter choices, priors, and cost-saving strategies-we apply them to soil-moisture series from experimental sites in Austria and the United States, quantifying site-specific drydown rates and demonstrating the advantages of our adaptive framework over static models.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-16T17:44:58Z</published>
+    <arxiv:comment>21 pages of main manuscript and 3 pages if supplemental document</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Mengyi Gong</name>
+    </author>
+    <author>
+      <name>Christopher Nemeth</name>
+    </author>
+    <author>
+      <name>Rebecca Killick</name>
+    </author>
+    <author>
+      <name>Peter Strauss</name>
+    </author>
+    <author>
+      <name>John Quinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.18611v3</id>
+    <title>Sequential Kalman filter for fast online changepoint detection in longitudinal health records</title>
+    <updated>2024-01-01T05:13:58Z</updated>
+    <link href="https://arxiv.org/abs/2310.18611v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.18611v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article introduces the sequential Kalman filter, a computationally scalable approach for online changepoint detection with temporally correlated data. The temporal correlation was not considered in the Bayesian online changepoint detection approach due to the large computational cost. Motivated by detecting COVID-19 infections for dialysis patients from massive longitudinal health records with a large number of covariates, we develop a scalable approach to detect multiple changepoints from correlated data by sequentially stitching Kalman filters of subsequences to compute the joint distribution of the observations, which has linear computational complexity with respect to the number of observations between the last detected changepoint and the current observation at each time point, without approximating the likelihood function. Compared to other online changepoint detection methods, simulated experiments show that our approach is more precise in detecting single or multiple changes in mean, variance, or correlation for temporally correlated data. Furthermore, we propose a new way to integrate classification and changepoint detection approaches that improve the detection delay and accuracy for detecting COVID-19 infection compared to other alternatives.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-28T06:37:51Z</published>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Hanmo Li</name>
+    </author>
+    <author>
+      <name>Yuedong Wang</name>
+    </author>
+    <author>
+      <name>Mengyang Gu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.10612v1</id>
+    <title>Detecting Depegs: Towards Safer Passive Liquidity Provision on Curve Finance</title>
+    <updated>2023-06-18T18:17:37Z</updated>
+    <link href="https://arxiv.org/abs/2306.10612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.10612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a liquidity provider's (LP's) exposure to stablecoin and liquid staking derivative (LSD) depegs on Curve's StableSwap pools. We construct a suite of metrics designed to detect potential asset depegs based on price and trading data. Using our metrics, we fine-tune a Bayesian Online Changepoint Detection (BOCD) algorithm to alert LPs of potential depegs before or as they occur. We train and test our changepoint detection algorithm against Curve LP token prices for 13 StableSwap pools throughout 2022 and 2023, focusing on relevant stablecoin and LSD depegs. We show that our model, trained on 2022 UST data, is able to detect the USDC depeg in March of 2023 at 9pm UTC on March 10th, approximately 5 hours before USDC dips below 99 cents, with few false alarms in the 17 months on which it is tested. Finally, we describe how this research may be used by Curve's liquidity providers, and how it may be extended to dynamically de-risk Curve pools by modifying parameters in anticipation of potential depegs. This research underpins an API developed to alert Curve LPs, in real-time, when their positions might be at risk.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-18T18:17:37Z</published>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Thomas N. Cintra</name>
+    </author>
+    <author>
+      <name>Maxwell P. Holloway</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.09619v1</id>
+    <title>Risk-Calibrated Bayesian Streaming Intrusion Detection with SRE-Aligned Decisions</title>
+    <updated>2025-09-17T17:36:08Z</updated>
+    <link href="https://arxiv.org/abs/2510.09619v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.09619v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a risk-calibrated approach to streaming intrusion detection that couples Bayesian Online Changepoint Detection (BOCPD) with decision thresholds aligned to Site Reliability Engineering (SRE) error budgets. BOCPD provides run-length posteriors that adapt to distribution shift and concept drift; we map these posteriors to alert decisions by optimizing expected operational cost under false-positive and false-negative budgets. We detail the hazard model, conjugate updates, and an O(1)-per-event implementation. A concrete SRE example shows how a 99.9% availability SLO (43.2 minutes per month error budget) yields a probability threshold near 0.91 when missed incidents are 10x more costly than false alarms. We evaluate on the full UNSW-NB15 and CIC-IDS2017 benchmarks with chronological splits, comparing against strong unsupervised baselines (ECOD, COPOD, and LOF). Metrics include PR-AUC, ROC-AUC, Brier score, calibration reliability diagrams, and detection latency measured in events. Results indicate improved precision-recall at mid to high recall and better probability calibration relative to baselines. We release implementation details, hyperparameters, and ablations for hazard sensitivity and computational footprint. Code and reproducibility materials will be made available upon publication; datasets and implementation are available from the corresponding author upon reasonable request.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-17T17:36:08Z</published>
+    <arxiv:comment>11 pages, 7 figures. Primary category: cs.CR; cross-list: cs.LG, stat.ML. Implementation code and datasets are available from the corresponding author upon reasonable request. Code and reproducibility materials will be made available upon publication</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Michel Youssef</name>
+      <arxiv:affiliation>Independent Researcher</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.06409v1</id>
+    <title>Changepoint Detection for Real-Time Spectrum Sharing Radar</title>
+    <updated>2022-06-30T18:55:48Z</updated>
+    <link href="https://arxiv.org/abs/2207.06409v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.06409v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radar must adapt to changing environments, and we propose changepoint detection as a method to do so. In the world of increasingly congested radio frequencies, radars must adapt to avoid interference. Many radar systems employ the prediction action cycle to proactively determine transmission mode while spectrum sharing. This method constructs and implements a model of the environment to predict unused frequencies, and then transmits in this predicted availability. For these selection strategies, performance is directly reliant on the quality of the underlying environmental models. In order to keep up with a changing environment, these models can employ changepoint detection. Changepoint detection is the identification of sudden changes, or changepoints, in the distribution from which data is drawn. This information allows the models to discard "garbage" data from a previous distribution, which has no relation to the current state of the environment. In this work, bayesian online changepoint detection (BOCD) is applied to the sense and predict algorithm to increase the accuracy of its models and improve its performance. In the context of spectrum sharing, these changepoints represent interferers leaving and entering the spectral environment. The addition of changepoint detection allows for dynamic and robust spectrum sharing even as interference patterns change dramatically. BOCD is especially advantageous because it enables online changepoint detection, allowing models to be updated continuously as data are collected. This strategy can also be applied to many other predictive algorithms that create models in a changing environment.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-30T18:55:48Z</published>
+    <arxiv:comment>8 pages, 7 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Samuel Haug</name>
+    </author>
+    <author>
+      <name>Austin Egbert</name>
+    </author>
+    <author>
+      <name>Robert J. Marks</name>
+    </author>
+    <author>
+      <name>Charles Baylis</name>
+    </author>
+    <author>
+      <name>Anthony Martone</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.19574v3</id>
+    <title>Situationally-Aware Dynamics Learning</title>
+    <updated>2026-04-01T03:04:39Z</updated>
+    <link href="https://arxiv.org/abs/2505.19574v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.19574v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous robots operating in complex, unstructured environments face significant challenges due to latent, unobserved factors that obscure their understanding of both their internal state and the external world. Addressing this challenge would enable robots to develop a more profound grasp of their operational context. To tackle this, we propose a novel framework for online learning of hidden state representations, with which the robots can adapt in real-time to uncertain and dynamic conditions that would otherwise be ambiguous and result in suboptimal or erroneous behaviors. Our approach is formalized as a Generalized Hidden Parameter Markov Decision Process, which explicitly models the influence of unobserved parameters on both transition dynamics and reward structures. Our core innovation lies in learning online the joint distribution of state transitions, which serves as an expressive representation of latent ego- and environmental-factors. This probabilistic approach supports the identification and adaptation to different operational situations, improving robustness and safety. Through a multivariate extension of Bayesian Online Changepoint Detection, our method segments changes in the underlying data generating process governing the robot's dynamics. The robot's transition model is then informed with a symbolic representation of the current situation derived from the joint distribution of latest state transitions, enabling adaptive and context-aware decision-making. To showcase the real-world effectiveness, we validate our approach in the challenging task of unstructured terrain navigation, where unmodeled and unmeasured terrain characteristics can significantly impact the robot's motion. Extensive experiments in both simulation and real world reveal significant improvements in data efficiency, policy performance, and the emergence of safer, adaptive navigation strategies.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-26T06:40:11Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <arxiv:journal_ref>The International Journal of Robotics Research (IJRR) 2026</arxiv:journal_ref>
+    <author>
+      <name>Alejandro Murillo-Gonzalez</name>
+    </author>
+    <author>
+      <name>Lantao Liu</name>
+    </author>
+    <arxiv:doi>10.1177/02783649261431863</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1177/02783649261431863" title="doi"/>
+  </entry>
+</feed>

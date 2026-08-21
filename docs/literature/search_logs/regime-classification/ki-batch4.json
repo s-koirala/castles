@@ -1,0 +1,6152 @@
+{
+ "10.1016/j.ijforecast.2018.05.004": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     17
+    ]
+   ],
+   "date-time": "2026-08-17T18:16:40Z",
+   "timestamp": 1786990600822,
+   "version": "3.56.0"
+  },
+  "reference-count": 70,
+  "publisher": "Elsevier BV",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2018,
+       10,
+       1
+      ]
+     ],
+     "date-time": "2018-10-01T00:00:00Z",
+     "timestamp": 1538352000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2018,
+       6,
+       29
+      ]
+     ],
+     "date-time": "2018-06-29T00:00:00Z",
+     "timestamp": 1530230400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+   }
+  ],
+  "funder": [
+   {
+    "name": "International Institute of Forecasters",
+    "award": [
+     "2015-NP-179931"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2015-NP-179931"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Fonds de Donations at the University of Neuchâtel"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "International Journal of Forecasting"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2018,
+     10
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.ijforecast.2018.05.004",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     8,
+     10
+    ]
+   ],
+   "date-time": "2018-08-10T05:27:32Z",
+   "timestamp": 1533878852000
+  },
+  "page": "733-747",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 145,
+  "title": [
+   "Forecasting risk with Markov-switching GARCH models:A large-scale performance study"
+  ],
+  "prefix": "10.1016",
+  "volume": "34",
+  "author": [
+   {
+    "given": "David",
+    "family": "Ardia",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Keven",
+    "family": "Bluteau",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kris",
+    "family": "Boudt",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Leopoldo",
+    "family": "Catania",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijforecast.2018.05.004_b1",
+    "doi-asserted-by": "crossref",
+    "first-page": "701",
+    "DOI": "10.1162/rest.89.4.701",
+    "article-title": "Roughing it up: Including jump components in the measurement, modeling, and forecasting of return volatility",
+    "volume": "89",
+    "author": "Andersen",
+    "year": "2007",
+    "journal-title": "Review of Economics and Statistics"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijforecast.2018.05.004_b2",
+    "doi-asserted-by": "crossref",
+    "first-page": "817",
+    "DOI": "10.2307/2938229",
+    "article-title": "Heteroskedasticity and autocorrelation consistent covariance matrix estimation",
+    "volume": "59",
+    "author": "Andrews",
+    "year": "1991",
+    "journal-title": "Econometrica"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijforecast.2018.05.004_b3",
+    "doi-asserted-by": "crossref",
+    "first-page": "953",
+    "DOI": "10.2307/2951574",
+    "article-title": "An improved heteroskedasticity and autocorrelation consistent covariance matrix estimation",
+    "volume": "60",
+    "author": "Andrews",
+    "year": "1992",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b4",
+    "series-title": "Financial risk management with Bayesian estimation of GARCH models: Theory and applications",
+    "author": "Ardia",
+    "year": "2008"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b5",
+    "unstructured": "Ardia, D., Bluteau, K., Boudt, K., Catania, L., Peterson, B., & Trottier, D.-A. (2017). MSGARCH: Markov-switching GARCH models in R. URL https://cran.r-project.org/package=MSGARCH."
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b6",
+    "unstructured": "Ardia, D., Bluteau, K., Boudt, K., Catania, L., & Trottier, D.-A. (2017). Markov-switching GARCH models in R: The MSGARCH package. Journal of Statistical Software (forthcoming)."
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b7",
+    "unstructured": "Ardia, D., Boudt, K., & Catania, L. (2018). Downside risk evaluation with the R package GAS. Working paper."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.ijforecast.2018.05.004_b8",
+    "doi-asserted-by": "crossref",
+    "first-page": "187",
+    "DOI": "10.1016/j.econlet.2014.02.008",
+    "article-title": "GARCH models for daily stock returns: impact of estimation frequency on Value-at-Risk and expected shortfall forecasts",
+    "volume": "123",
+    "author": "Ardia",
+    "year": "2014",
+    "journal-title": "Economics Letters"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijforecast.2018.05.004_b9",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.18637/jss.v029.i03",
+    "article-title": "Adaptive mixture of Student-t distributions as a flexible candidate distribution for efficient simulation: The R package AdMit",
+    "volume": "29",
+    "author": "Ardia",
+    "year": "2009",
+    "journal-title": "Journal of Statistical Software"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.ijforecast.2018.05.004_b10",
+    "doi-asserted-by": "crossref",
+    "first-page": "808",
+    "DOI": "10.1002/for.2472",
+    "article-title": "The impact of parameter and model uncertainty on market risk predictions from GARCH-type models",
+    "volume": "36",
+    "author": "Ardia",
+    "year": "2017",
+    "journal-title": "Journal of Forecasting"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b11",
+    "doi-asserted-by": "crossref",
+    "first-page": "61",
+    "DOI": "10.1016/j.csda.2013.01.026",
+    "article-title": "Maximum likelihood estimation of the Markov-switching GARCH model",
+    "volume": "76",
+    "author": "Augustyniak",
+    "year": "2014",
+    "journal-title": "Computational Statistics & Data Analysis"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijforecast.2018.05.004_b12",
+    "doi-asserted-by": "crossref",
+    "first-page": "848",
+    "DOI": "10.1016/j.ijforecast.2017.04.004",
+    "article-title": "Volatility measures and Value-at-Risk",
+    "volume": "33",
+    "author": "Bams",
+    "year": "2017",
+    "journal-title": "International Journal of Forecasting"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b13",
+    "unstructured": "Basel Committee on Banking Supervision (2013). Fundamental review of the trading book: A revised market risk framework. Technical Report 265. Bank of International Settlements."
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b14",
+    "unstructured": "Basel Committee on Banking Supervision (2016). Minimum capital requirements for market risk. techreport 352. Bank of International Settlements."
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b15",
+    "doi-asserted-by": "crossref",
+    "first-page": "207",
+    "DOI": "10.1016/j.jempfin.2014.06.008",
+    "article-title": "A Bayesian method of change-point estimation with recurrent regimes: Application to GARCH models",
+    "volume": "29",
+    "author": "Bauwens",
+    "year": "2014",
+    "journal-title": "Journal of Empirical Finance"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b16",
+    "doi-asserted-by": "crossref",
+    "first-page": "508",
+    "DOI": "10.1016/j.jeconom.2013.08.017",
+    "article-title": "Marginal likelihood for Markov-switching and change-point GARCH models",
+    "volume": "178",
+    "author": "Bauwens",
+    "year": "2014",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijforecast.2018.05.004_b17",
+    "doi-asserted-by": "crossref",
+    "first-page": "346",
+    "DOI": "10.1198/073500104000000523",
+    "article-title": "A new class of multivariate skew densities, with application to generalized autoregressive conditional heteroscedasticity models",
+    "volume": "23",
+    "author": "Bauwens",
+    "year": "2005",
+    "journal-title": "Journal of Business & Economic Statistics"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.ijforecast.2018.05.004_b18",
+    "doi-asserted-by": "crossref",
+    "first-page": "218",
+    "DOI": "10.1111/j.1368-423X.2009.00307.x",
+    "article-title": "Theory and inference for a Markov switching GARCH model",
+    "volume": "13",
+    "author": "Bauwens",
+    "year": "2010",
+    "journal-title": "The Econometrics Journal"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.ijforecast.2018.05.004_b19",
+    "doi-asserted-by": "crossref",
+    "first-page": "725",
+    "DOI": "10.1080/14697688.2014.946955",
+    "article-title": "On elicitable risk measures",
+    "volume": "15",
+    "author": "Bellini",
+    "year": "2015",
+    "journal-title": "Quantitative Finance"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.ijforecast.2018.05.004_b20",
+    "doi-asserted-by": "crossref",
+    "first-page": "289",
+    "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+    "article-title": "Controlling the false discovery rate: A practical and powerful approach to multiple testing",
+    "volume": "57",
+    "author": "Benjamini",
+    "year": "1995",
+    "journal-title": "Journal of the Royal Statistical Society. Series B."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.ijforecast.2018.05.004_b21",
+    "doi-asserted-by": "crossref",
+    "first-page": "579",
+    "DOI": "10.1007/s00180-016-0646-6",
+    "article-title": "Comparison of value-at-risk models using the MCS approach",
+    "volume": "31",
+    "author": "Bernardi",
+    "year": "2016",
+    "journal-title": "Computational Statistics"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b22",
+    "unstructured": "Black, F. (1976). Studies of Stock price volatility changes. In Proceedings of the 1976 meetings of the american statistical association (pp. 177–181)."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijforecast.2018.05.004_b23",
+    "doi-asserted-by": "crossref",
+    "first-page": "875",
+    "DOI": "10.1016/j.ijforecast.2015.11.018",
+    "article-title": "In-sample confidence bands and out-of-sample forecast bands for time-varying parameters in observation-driven models",
+    "volume": "32",
+    "author": "Blasques",
+    "year": "2016",
+    "journal-title": "International Journal of Forecasting"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b24",
+    "unstructured": "Board of Governors of the Federal Reserve Systems (2012). 99th Annual Report. Technical Report. Board of Governors of the Federal Reserve Systems."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijforecast.2018.05.004_b25",
+    "doi-asserted-by": "crossref",
+    "first-page": "307",
+    "DOI": "10.1016/0304-4076(86)90063-1",
+    "article-title": "Generalized autoregressive conditional heteroskedasticity",
+    "volume": "31",
+    "author": "Bollerslev",
+    "year": "1986",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.ijforecast.2018.05.004_b26",
+    "doi-asserted-by": "crossref",
+    "first-page": "244",
+    "DOI": "10.1016/j.ijforecast.2012.06.003",
+    "article-title": "Robust forecasting of dynamic conditional correlation GARCH models",
+    "volume": "29",
+    "author": "Boudt",
+    "year": "2013",
+    "journal-title": "International Journal of Forecasting"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijforecast.2018.05.004_b27",
+    "doi-asserted-by": "crossref",
+    "first-page": "309",
+    "DOI": "10.1080/07350015.1994.10524546",
+    "article-title": "A Markov model of switching-regime ARCH",
+    "volume": "12",
+    "author": "Cai",
+    "year": "1994",
+    "journal-title": "Journal of Business & Economic Statistics"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.ijforecast.2018.05.004_b28",
+    "doi-asserted-by": "crossref",
+    "first-page": "85",
+    "DOI": "10.1016/S0304-4076(01)00071-9",
+    "article-title": "Tests of equal forecast accuracy and encompassing for nested models",
+    "volume": "105",
+    "author": "Clark",
+    "year": "2001",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.ijforecast.2018.05.004_b29",
+    "doi-asserted-by": "crossref",
+    "first-page": "777",
+    "DOI": "10.1002/jae.1279",
+    "article-title": "Generalized autoregressive score models with applications",
+    "volume": "28",
+    "author": "Creal",
+    "year": "2013",
+    "journal-title": "Journal of Applied Econometrics"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b30",
+    "unstructured": "Danielsson, J. (2011). Risk and crises. VoxEU.org URL: http://voxeu.org/article/risk-and-crises-how-models-failed-and-are-failing."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijforecast.2018.05.004_b31",
+    "doi-asserted-by": "crossref",
+    "first-page": "253",
+    "DOI": "10.1080/07350015.1995.10524599",
+    "article-title": "Comparing predictive accuracy",
+    "volume": "13",
+    "author": "Diebold",
+    "year": "1995",
+    "journal-title": "Journal of Business & Economic Statistics"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.ijforecast.2018.05.004_b32",
+    "doi-asserted-by": "crossref",
+    "first-page": "26",
+    "DOI": "10.1080/07350015.1997.10524683",
+    "article-title": "Markov switching in GARCH processes and mean-reverting stock-market volatility",
+    "volume": "15",
+    "author": "Dueker",
+    "year": "1997",
+    "journal-title": "Journal of Business & Economic Statistics"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijforecast.2018.05.004_b33",
+    "doi-asserted-by": "crossref",
+    "first-page": "987",
+    "DOI": "10.2307/1912773",
+    "article-title": "Autoregressive conditional heteroscedasticity with estimates of the variance of United Kingdom inflation",
+    "volume": "50",
+    "author": "Engle",
+    "year": "1982",
+    "journal-title": "Econometrica"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijforecast.2018.05.004_b34",
+    "doi-asserted-by": "crossref",
+    "first-page": "405",
+    "DOI": "10.1257/0002828041464597",
+    "article-title": "Risk and volatility: Econometric models and financial practice",
+    "volume": "94",
+    "author": "Engle",
+    "year": "2004",
+    "journal-title": "American Economic Review"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijforecast.2018.05.004_b35",
+    "doi-asserted-by": "crossref",
+    "first-page": "367",
+    "DOI": "10.1198/073500104000000370",
+    "article-title": "CAViaR: Conditional autoregressive Value at Risk by regression quantiles",
+    "volume": "22",
+    "author": "Engle",
+    "year": "2004",
+    "journal-title": "Journal of Business & Economic Statistics"
+   },
+   {
+    "issue": "441",
+    "key": "10.1016/j.ijforecast.2018.05.004_b36",
+    "first-page": "359",
+    "article-title": "On Bayesian modeling of fat tails and skewness",
+    "volume": "93",
+    "author": "Fernández",
+    "year": "1998",
+    "journal-title": "Journal of the American Statistical Association"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijforecast.2018.05.004_b37",
+    "doi-asserted-by": "crossref",
+    "first-page": "1680",
+    "DOI": "10.1214/16-AOS1439",
+    "article-title": "Higher order elicitability and Osband’s principle",
+    "volume": "44",
+    "author": "Fissler",
+    "year": "2016",
+    "journal-title": "The Annals of Statistics"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.ijforecast.2018.05.004_b38",
+    "doi-asserted-by": "crossref",
+    "first-page": "63",
+    "DOI": "10.1016/0304-4076(89)90030-4",
+    "article-title": "Exact predictive densities for linear models with ARCH disturbances",
+    "volume": "40",
+    "author": "Geweke",
+    "year": "1989",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.ijforecast.2018.05.004_b39",
+    "doi-asserted-by": "crossref",
+    "first-page": "216",
+    "DOI": "10.1016/j.ijforecast.2009.10.007",
+    "article-title": "Comparing and evaluating Bayesian predictive distributions of asset returns",
+    "volume": "26",
+    "author": "Geweke",
+    "year": "2010",
+    "journal-title": "International Journal of Forecasting"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.ijforecast.2018.05.004_b40",
+    "doi-asserted-by": "crossref",
+    "first-page": "1779",
+    "DOI": "10.1111/j.1540-6261.1993.tb05128.x",
+    "article-title": "On the relation between the expected value and the volatility of the nominal excess return on stocks",
+    "volume": "48",
+    "author": "Glosten",
+    "year": "1993",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijforecast.2018.05.004_b41",
+    "doi-asserted-by": "crossref",
+    "first-page": "411",
+    "DOI": "10.1198/jbes.2010.08110",
+    "article-title": "Comparing density forecasts using threshold — and quantile — weighted scoring rules",
+    "volume": "29",
+    "author": "Gneiting",
+    "year": "2011",
+    "journal-title": "Journal of Business & Economic Statistics"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijforecast.2018.05.004_b42",
+    "doi-asserted-by": "crossref",
+    "first-page": "629",
+    "DOI": "10.1016/j.ijforecast.2003.10.003",
+    "article-title": "Forecasting volatility: A reality check based on option pricing, utility function, Value-At-Risk, and predictive likelihood",
+    "volume": "20",
+    "author": "González-Rivera",
+    "year": "2004",
+    "journal-title": "International Journal of Forecasting"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.ijforecast.2018.05.004_b43",
+    "doi-asserted-by": "crossref",
+    "first-page": "27",
+    "DOI": "10.1016/0304-405X(96)00875-6",
+    "article-title": "Modeling the conditional distribution of interest rates as a regime-switching process",
+    "volume": "42",
+    "author": "Gray",
+    "year": "1996",
+    "journal-title": "Journal of Financial Economics"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijforecast.2018.05.004_b44",
+    "doi-asserted-by": "crossref",
+    "first-page": "493",
+    "DOI": "10.1093/jjfinec/nbh020",
+    "article-title": "A new approach to Markov-switching GARCH models",
+    "volume": "2",
+    "author": "Haas",
+    "year": "2004",
+    "journal-title": "Journal of Financial Econometrics"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.ijforecast.2018.05.004_b45",
+    "doi-asserted-by": "crossref",
+    "first-page": "357",
+    "DOI": "10.2307/1912559",
+    "article-title": "A new approach to the economic analysis of nonstationary time series and the business cycle",
+    "volume": "57",
+    "author": "Hamilton",
+    "year": "1989",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b46",
+    "series-title": "Time series analysis",
+    "author": "Hamilton",
+    "year": "1994"
+   },
+   {
+    "issue": "1–2",
+    "key": "10.1016/j.ijforecast.2018.05.004_b47",
+    "doi-asserted-by": "crossref",
+    "first-page": "307",
+    "DOI": "10.1016/0304-4076(94)90067-1",
+    "article-title": "Autoregressive conditional heteroskedasticity and changes in regime",
+    "volume": "64",
+    "author": "Hamilton",
+    "year": "1994",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.ijforecast.2018.05.004_b48",
+    "doi-asserted-by": "crossref",
+    "first-page": "877",
+    "DOI": "10.1002/jae.1234",
+    "article-title": "Realized GARCH: A joint model for returns and realized measures of volatility",
+    "volume": "27",
+    "author": "Hansen",
+    "year": "2011",
+    "journal-title": "Journal of Applied Econometrics"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.ijforecast.2018.05.004_b49",
+    "doi-asserted-by": "crossref",
+    "first-page": "873",
+    "DOI": "10.1002/jae.800",
+    "article-title": "A forecast comparison of volatility models: Does anything beat a GARCH(1,1)?",
+    "volume": "20",
+    "author": "Hansen",
+    "year": "2005",
+    "journal-title": "Journal of Applied Econometrics"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b50",
+    "series-title": "Dynamic models for volatility and heavy tails: with applications to financial and economic time series, Vol. 52",
+    "author": "Harvey",
+    "year": "2013"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b51",
+    "doi-asserted-by": "crossref",
+    "first-page": "320",
+    "DOI": "10.1016/j.csda.2013.09.022",
+    "article-title": "EGARCH models with fat tails, skewness and leverage",
+    "volume": "76",
+    "author": "Harvey",
+    "year": "2014",
+    "journal-title": "Computational Statistics & Data Analysis"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijforecast.2018.05.004_b52",
+    "doi-asserted-by": "crossref",
+    "first-page": "569",
+    "DOI": "10.1016/j.ijforecast.2017.01.002",
+    "article-title": "Stock return prediction under GARCH – An empirical assessment",
+    "volume": "33",
+    "author": "Herwartz",
+    "year": "2017",
+    "journal-title": "International Journal of Forecasting"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijforecast.2018.05.004_b53",
+    "doi-asserted-by": "crossref",
+    "first-page": "371",
+    "DOI": "10.1080/07350015.1994.10524553",
+    "article-title": "Bayesian analysis of stochastic volatility models",
+    "volume": "12",
+    "author": "Jacquier",
+    "year": "1994",
+    "journal-title": "Journal of Business & Economic Statistics"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b54",
+    "series-title": "Value-at-risk — the new benchmark for managing financial risk",
+    "author": "Jorion",
+    "year": "2006"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b55",
+    "series-title": "Advances in Markov-switching models",
+    "first-page": "223",
+    "article-title": "Improving GARCH volatility forecasts with regime-swi;tching GARCH",
+    "author": "Klaassen",
+    "year": "2002"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b56",
+    "doi-asserted-by": "crossref",
+    "first-page": "73",
+    "DOI": "10.3905/jod.1995.407942",
+    "article-title": "Techniques for verifying the accuracy of risk measurement models",
+    "volume": "3",
+    "author": "Kupiec",
+    "year": "1995",
+    "journal-title": "Journal of Derivatives"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.ijforecast.2018.05.004_b57",
+    "doi-asserted-by": "crossref",
+    "first-page": "225",
+    "DOI": "10.1080/07350015.1990.10509794",
+    "article-title": "Persistence in variance, structural change, and the GARCH model",
+    "volume": "8",
+    "author": "Lamoureux",
+    "year": "1990",
+    "journal-title": "Journal of Business & Economic Statistics"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b58",
+    "doi-asserted-by": "crossref",
+    "first-page": "383",
+    "DOI": "10.1016/j.csda.2014.05.015",
+    "article-title": "Testing for jumps in conditionally Gaussian ARMA-GARCH models, a robust approach",
+    "volume": "100",
+    "author": "Laurent",
+    "year": "2016",
+    "journal-title": "Computational Statistics & Data Analysis"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijforecast.2018.05.004_b59",
+    "doi-asserted-by": "crossref",
+    "first-page": "1558",
+    "DOI": "10.2202/1558-3708.1145",
+    "article-title": "Forecasting stock market volatility with regime-switching GARCH models",
+    "volume": "9",
+    "author": "Marcucci",
+    "year": "2005",
+    "journal-title": "Studies in Nonlinear Dynamics & Econometrics"
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.ijforecast.2018.05.004_b60",
+    "doi-asserted-by": "crossref",
+    "first-page": "1087",
+    "DOI": "10.1287/mnsc.22.10.1087",
+    "article-title": "Scoring rules for continuous probability distributions",
+    "volume": "22",
+    "author": "Matheson",
+    "year": "1976",
+    "journal-title": "Management Science"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijforecast.2018.05.004_b61",
+    "doi-asserted-by": "crossref",
+    "first-page": "217",
+    "DOI": "10.1002/for.1054",
+    "article-title": "Single-index and portfolio models for forecasting Value-at-Risk thresholds",
+    "volume": "27",
+    "author": "McAleer",
+    "year": "2008",
+    "journal-title": "Journal of Forecasting"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b62",
+    "series-title": "Quantitative risk management: concepts, techniques and tools",
+    "author": "McNeil",
+    "year": "2015"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.ijforecast.2018.05.004_b63",
+    "doi-asserted-by": "crossref",
+    "first-page": "347",
+    "DOI": "10.2307/2938260",
+    "article-title": "Conditional heteroskedasticity in asset returns: A new approach",
+    "volume": "59",
+    "author": "Nelson",
+    "year": "1991",
+    "journal-title": "Econometrica"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.ijforecast.2018.05.004_b64",
+    "doi-asserted-by": "crossref",
+    "first-page": "1298",
+    "DOI": "10.1002/jae.2575",
+    "article-title": "Combining density forecasts using focused scoring rules",
+    "volume": "32",
+    "author": "Opschoor",
+    "year": "2017",
+    "journal-title": "Journal of Applied Econometrics"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b65",
+    "unstructured": "Patton, A. J., Ziegel, J. F., & Chen, R. (2017). Dynamic semiparametric models for expected shortfall. Working paper."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.ijforecast.2018.05.004_b66",
+    "doi-asserted-by": "crossref",
+    "first-page": "197",
+    "DOI": "10.1002/jae.1158",
+    "article-title": "Realising the future: Forecasting with high-frequency-based volatility (HEAVY) models",
+    "volume": "25",
+    "author": "Shephard",
+    "year": "2010",
+    "journal-title": "Journal of Applied Econometrics"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.ijforecast.2018.05.004_b67",
+    "doi-asserted-by": "crossref",
+    "first-page": "183",
+    "DOI": "10.1111/j.1467-9965.1994.tb00057.x",
+    "article-title": "Modeling stochastic volatility: A review and comparative study",
+    "volume": "4",
+    "author": "Taylor",
+    "year": "1994",
+    "journal-title": "Mathematical Finance"
+   },
+   {
+    "key": "10.1016/j.ijforecast.2018.05.004_b68",
+    "doi-asserted-by": "crossref",
+    "first-page": "311",
+    "DOI": "10.1016/j.frl.2016.05.006",
+    "article-title": "Moments of standardized Fernández-Steel skewed distributions: Applications to the estimation of GARCH-type models",
+    "volume": "18",
+    "author": "Trottier",
+    "year": "2016",
+    "journal-title": "Finance Research Letters"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.ijforecast.2018.05.004_b69",
+    "doi-asserted-by": "crossref",
+    "first-page": "997",
+    "DOI": "10.1007/s11222-011-9269-5",
+    "article-title": "Robust adaptive Metropolis algorithm with coerced acceptance rate",
+    "volume": "22",
+    "author": "Vihola",
+    "year": "2012",
+    "journal-title": "Statistics and Computing"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijforecast.2018.05.004_b70",
+    "doi-asserted-by": "crossref",
+    "first-page": "901",
+    "DOI": "10.1111/mafi.12080",
+    "article-title": "Coherence and elicitability",
+    "volume": "26",
+    "author": "Ziegel",
+    "year": "2016",
+    "journal-title": "Mathematical Finance"
+   }
+  ],
+  "updated-by": [
+   {
+    "DOI": "10.1016/j.ijforecast.2021.01.009",
+    "type": "erratum",
+    "label": "Erratum",
+    "source": "publisher",
+    "updated": {
+     "date-parts": [
+      [
+       2021,
+       7,
+       1
+      ]
+     ],
+     "date-time": "2021-07-01T00:00:00Z",
+     "timestamp": 1625097600000
+    }
+   }
+  ],
+  "container-title": [
+   "International Journal of Forecasting"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0169207018300840?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0169207018300840?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     7,
+     8
+    ]
+   ],
+   "date-time": "2024-07-08T23:18:23Z",
+   "timestamp": 1720480703000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169207018300840"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2018,
+     10
+    ]
+   ]
+  },
+  "references-count": 70,
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      2018,
+      10
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0169207018300840"
+  ],
+  "URL": "https://doi.org/10.1016/j.ijforecast.2018.05.004",
+  "relation": {},
+  "ISSN": [
+   "0169-2070"
+  ],
+  "issn-type": [
+   {
+    "value": "0169-2070",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2018,
+     10
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "Forecasting risk with Markov-switching GARCH models:A large-scale performance study",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "International Journal of Forecasting",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.ijforecast.2018.05.004",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "© 2018 The Author(s). Published by Elsevier B.V. on behalf of International Institute of Forecasters.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ },
+ "10.1109/18.720549": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     2,
+     25
+    ]
+   ],
+   "date-time": "2026-02-25T10:56:27Z",
+   "timestamp": 1772016987407,
+   "version": "3.50.1"
+  },
+  "reference-count": 232,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "6",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1998,
+       1,
+       1
+      ]
+     ],
+     "date-time": "1998-01-01T00:00:00Z",
+     "timestamp": 883612800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "IEEE Trans. Inform. Theory"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  },
+  "DOI": "10.1109/18.720549",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2002,
+     8,
+     24
+    ]
+   ],
+   "date-time": "2002-08-24T20:54:49Z",
+   "timestamp": 1030222489000
+  },
+  "page": "2561-2595",
+  "source": "Crossref",
+  "is-referenced-by-count": 43,
+  "title": [
+   "The art of signaling: fifty years of coding theory"
+  ],
+  "prefix": "10.1109",
+  "volume": "44",
+  "author": [
+   {
+    "given": "A.R.",
+    "family": "Calderbank",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "263",
+  "reference": [
+   {
+    "key": "ref170",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1960.1057586"
+   },
+   {
+    "key": "ref172",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.165441"
+   },
+   {
+    "key": "ref171",
+    "author": "porter",
+    "year": "1988",
+    "journal-title": "Decoding codes arising from Goppa s construction on algebraic curves"
+   },
+   {
+    "key": "ref174",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0019-9958(68)90874-7"
+   },
+   {
+    "key": "ref173",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.42180"
+   },
+   {
+    "key": "ref176",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2983576"
+   },
+   {
+    "key": "ref175",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/49.210540"
+   },
+   {
+    "key": "ref178",
+    "first-page": "737",
+    "article-title": "on <formula><tex>$t$</tex></formula>-designs",
+    "volume": "12",
+    "author": "ray-chaudhuri",
+    "year": "1975",
+    "journal-title": "Osaka J Math"
+   },
+   {
+    "key": "ref177",
+    "doi-asserted-by": "crossref",
+    "first-page": "98",
+    "DOI": "10.1137/0401011",
+    "article-title": "on existence of <formula><tex>$t$</tex></formula>-designs with large <formula><tex>$v$</tex></formula> and <formula><tex>$\\lambda$</tex></formula>",
+    "volume": "1",
+    "author": "ray-chaudhuri",
+    "year": "1988",
+    "journal-title": "SIAM J Discr Math"
+   },
+   {
+    "key": "ref168",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/MCOM.1985.1092514"
+   },
+   {
+    "key": "ref169",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0012-365X(92)90567-Y"
+   },
+   {
+    "key": "ref39",
+    "article-title": "on minimum lee weights of hensel lifts of some binary bch codes",
+    "author": "chen",
+    "year": "0",
+    "journal-title": "IEEE Transactions on Information Theory"
+   },
+   {
+    "key": "ref38",
+    "article-title": "codes and association schemes",
+    "author": "camion",
+    "year": "0",
+    "journal-title": "Handbook of Coding Theory"
+   },
+   {
+    "key": "ref33",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.681315"
+   },
+   {
+    "key": "ref32",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.78.405"
+   },
+   {
+    "key": "ref31",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.53734"
+   },
+   {
+    "key": "ref30",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/49.29614"
+   },
+   {
+    "key": "ref37",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1016/1385-7258(73)90014-0",
+    "article-title": "quadratic forms over <formula><tex>${\\rm gf}(2)$</tex></formula>",
+    "volume": "35",
+    "author": "cameron",
+    "year": "1973",
+    "journal-title": "Indag Math"
+   },
+   {
+    "key": "ref36",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1987.1057291"
+   },
+   {
+    "key": "ref35",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevA.54.1098"
+   },
+   {
+    "key": "ref34",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.243441"
+   },
+   {
+    "key": "ref181",
+    "doi-asserted-by": "crossref",
+    "first-page": "207",
+    "DOI": "10.1016/0890-5401(90)90039-K",
+    "article-title": "extension of the berlekamp-massey algorithm to <formula><tex>$n$</tex></formula> dimensions",
+    "volume": "84",
+    "author": "sakata",
+    "year": "1990",
+    "journal-title": "Inform Comput"
+   },
+   {
+    "key": "ref180",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0747-7171(88)80033-6"
+   },
+   {
+    "key": "ref185",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF02117292"
+   },
+   {
+    "key": "ref184",
+    "first-page": "1534",
+    "article-title": "generalized viterbi detection with convolutional codes",
+    "author": "seshadri",
+    "year": "1989",
+    "journal-title": "IEEE GLOBECOM 89"
+   },
+   {
+    "key": "ref183",
+    "first-page": "38",
+    "article-title": "uniformly packed codes",
+    "volume": "7",
+    "author": "semakov",
+    "year": "1971",
+    "journal-title": "Probl Pered Inform"
+   },
+   {
+    "key": "ref182",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.476240"
+   },
+   {
+    "key": "ref189",
+    "author": "shokorollahi",
+    "year": "1997",
+    "journal-title": "Decoding algebraic-geometric codes beyond the error-correction bound"
+   },
+   {
+    "key": "ref188",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1956.1056798"
+   },
+   {
+    "key": "ref187",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/j.1538-7305.1948.tb00917.x"
+   },
+   {
+    "key": "ref186",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0001-8708(84)90022-7"
+   },
+   {
+    "key": "ref28",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.568706"
+   },
+   {
+    "key": "ref27",
+    "doi-asserted-by": "crossref",
+    "first-page": "1011",
+    "DOI": "10.1109/26.705399",
+    "article-title": "partial response codes for electron trapping optical memories",
+    "volume": "46",
+    "author": "calderbank",
+    "year": "1998",
+    "journal-title": "IEEE Transactions on Communications"
+   },
+   {
+    "key": "ref179",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1137/0108018"
+   },
+   {
+    "key": "ref29",
+    "doi-asserted-by": "crossref",
+    "first-page": "217",
+    "DOI": "10.1109/18.481791",
+    "article-title": "cyclic codes over <formula><tex>$\\bbz_4$</tex></formula>, locator polynomials and newton's identities",
+    "volume": "43",
+    "author": "calderbank",
+    "year": "1996",
+    "journal-title": "IEEE Trans Information Theory"
+   },
+   {
+    "key": "ref20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aoms/1177706356"
+   },
+   {
+    "key": "ref22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/26.20095"
+   },
+   {
+    "key": "ref21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-642-74341-2"
+   },
+   {
+    "key": "ref24",
+    "first-page": "941",
+    "article-title": "extending the <formula><tex>$t$</tex></formula>-design concept",
+    "volume": "338",
+    "author": "calderbank",
+    "year": "1993",
+    "journal-title": "Trans Amer Math Soc"
+   },
+   {
+    "key": "ref23",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1112/S0024611597000403"
+   },
+   {
+    "key": "ref26",
+    "article-title": "minimal tail-biting representations of the golay code and others",
+    "author": "calderbank",
+    "year": "0",
+    "journal-title": "IEEE Trans Information Theory"
+   },
+   {
+    "key": "ref25",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.133244"
+   },
+   {
+    "key": "ref50",
+    "doi-asserted-by": "crossref",
+    "first-page": "157",
+    "DOI": "10.1137/0134012",
+    "article-title": "hahn polynomials, discrete harmonics and <formula><tex>$t$</tex></formula>-designs",
+    "volume": "34",
+    "author": "delsarte",
+    "year": "1978",
+    "journal-title": "SIAM J Appl Math"
+   },
+   {
+    "key": "ref51",
+    "first-page": "9",
+    "article-title": "application and generalization of the macwilliams transform in coding theory",
+    "author": "delsarte",
+    "year": "1989",
+    "journal-title": "Proc 15th Symp Information Theory in the Benelux"
+   },
+   {
+    "key": "ref154",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1137/0109055"
+   },
+   {
+    "key": "ref153",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1969.1054260"
+   },
+   {
+    "key": "ref156",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1977.1055688"
+   },
+   {
+    "key": "ref155",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/978-1-4613-1983-2",
+    "author": "mceliece",
+    "year": "1987",
+    "journal-title": "Finite Fields for Computer Scientists and Engineers"
+   },
+   {
+    "key": "ref150",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/26.46532"
+   },
+   {
+    "key": "ref152",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/49.124467"
+   },
+   {
+    "key": "ref151",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1090/psapm/050/1368637"
+   },
+   {
+    "key": "ref146",
+    "author": "macwilliams",
+    "year": "1962",
+    "journal-title": "Combinatorial properties of elementary Abelian groups"
+   },
+   {
+    "key": "ref147",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/j.1538-7305.1963.tb04003.x"
+   },
+   {
+    "key": "ref148",
+    "author": "macwilliams",
+    "year": "1977",
+    "journal-title": "The Theory of Error-Correcting Codes"
+   },
+   {
+    "key": "ref149",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0012-365X(72)90030-1"
+   },
+   {
+    "key": "ref59",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.256518"
+   },
+   {
+    "key": "ref58",
+    "first-page": "24",
+    "article-title": "essai expe&acute;rimentalle et analytique",
+    "volume": "1",
+    "author": "de prony",
+    "year": "1795",
+    "journal-title": "J E&#x00B4 cole Polytech Paris"
+   },
+   {
+    "key": "ref57",
+    "doi-asserted-by": "crossref",
+    "first-page": "213",
+    "DOI": "10.1016/0024-3795(89)90462-X",
+    "article-title": "fisher type inequalities for euclidean <formula><tex>$t$</tex></formula>-designs",
+    "volume": "114 115",
+    "author": "delsarte",
+    "year": "1989",
+    "journal-title": "Lin Alg Appl"
+   },
+   {
+    "key": "ref56",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2373622"
+   },
+   {
+    "key": "ref55",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.720545"
+   },
+   {
+    "key": "ref54",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF03187604"
+   },
+   {
+    "key": "ref53",
+    "first-page": "91",
+    "article-title": "bounds for systems of lines and jacobi polynomials",
+    "volume": "30",
+    "author": "delsarte",
+    "year": "1975",
+    "journal-title": "Philips Res Rep"
+   },
+   {
+    "key": "ref52",
+    "doi-asserted-by": "crossref",
+    "first-page": "26",
+    "DOI": "10.1016/0097-3165(75)90090-4",
+    "article-title": "alternating bilinear forms over <formula><tex>${\\rm gf}(q)$</tex></formula>",
+    "volume": "19",
+    "author": "delsarte",
+    "year": "1975",
+    "journal-title": "J Comb Theory (A)"
+   },
+   {
+    "key": "ref40",
+    "doi-asserted-by": "crossref",
+    "first-page": "357",
+    "DOI": "10.1109/TIT.1964.1053699",
+    "article-title": "cyclic decoding procedure for the bose&ndash;chaudhuri&ndash;hocquengham codes",
+    "volume": "it 10",
+    "author": "chien",
+    "year": "1964",
+    "journal-title": "IEEE Trans Information Theory"
+   },
+   {
+    "key": "ref167",
+    "author": "pearl",
+    "year": "1988",
+    "journal-title": "Probabilistic Reasoning in Intelligent Systems Networks of Plausible Inference"
+   },
+   {
+    "key": "ref166",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/j.1538-7305.1980.tb03344.x"
+   },
+   {
+    "key": "ref165",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0097-3165(79)90074-8"
+   },
+   {
+    "key": "ref164",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0019-9958(67)90835-2"
+   },
+   {
+    "key": "ref163",
+    "first-page": "2403",
+    "article-title": "toward higher data rates for is-36",
+    "author": "van nobelen",
+    "year": "1998",
+    "journal-title": "Proc IEEE Vehicular Technology Conf"
+   },
+   {
+    "key": "ref162",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/JSAC.1987.1146555"
+   },
+   {
+    "key": "ref161",
+    "first-page": "45.4.1",
+    "article-title": "a class of error correcting codes for dpsk channels",
+    "author": "nakamura",
+    "year": "1979",
+    "journal-title": "Proc Int Conf Communication"
+   },
+   {
+    "key": "ref160",
+    "author": "naguib",
+    "year": "1998",
+    "journal-title": "Combined interference cancellation and maximum likelihood decoding of space-time block codes"
+   },
+   {
+    "key": "ref4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/25.289415"
+   },
+   {
+    "key": "ref3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1974.1055186"
+   },
+   {
+    "key": "ref6",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aoms/1177699147"
+   },
+   {
+    "key": "ref5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF03025254"
+   },
+   {
+    "key": "ref159",
+    "author": "naguib",
+    "year": "1996",
+    "journal-title": "Adaptive antennas for CDMA wireless networks"
+   },
+   {
+    "key": "ref8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.76.722"
+   },
+   {
+    "key": "ref7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.485713"
+   },
+   {
+    "key": "ref49",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0019-9958(73)80007-5"
+   },
+   {
+    "key": "ref157",
+    "first-page": "1268",
+    "article-title": "capacity of channels with matched transmission technique for peak transmitting power limitation",
+    "author": "miyakawa",
+    "year": "1969",
+    "journal-title": "Nat Conv Rec IECE Japan"
+   },
+   {
+    "key": "ref158",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.21228"
+   },
+   {
+    "key": "ref9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevA.54.3824"
+   },
+   {
+    "key": "ref46",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1972.1054727"
+   },
+   {
+    "key": "ref45",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.720548"
+   },
+   {
+    "key": "ref48",
+    "article-title": "an algebraic approach to the association schemes of coding theory",
+    "author": "delsarte",
+    "year": "1973",
+    "journal-title": "Philips Res Rep Suppl"
+   },
+   {
+    "key": "ref47",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/78.91143"
+   },
+   {
+    "key": "ref42",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1983.1056761"
+   },
+   {
+    "key": "ref41",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/26.192404"
+   },
+   {
+    "key": "ref44",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/978-1-4757-2016-7",
+    "author": "conway",
+    "year": "1988",
+    "journal-title": "Sphere Packings Lattices and Groups"
+   },
+   {
+    "key": "ref43",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1986.1057135"
+   },
+   {
+    "key": "ref73",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1965.1053825"
+   },
+   {
+    "key": "ref72",
+    "first-page": "2283",
+    "article-title": "a system of confounding for factors with more than two alternatives, giving completely orthogonal cubes and higher powers",
+    "volume": "12",
+    "author": "fisher",
+    "year": "1945",
+    "journal-title": "Annals of Eugenics"
+   },
+   {
+    "key": "ref71",
+    "doi-asserted-by": "crossref",
+    "first-page": "341",
+    "DOI": "10.1111/j.1469-1809.1941.tb02298.x",
+    "article-title": "the theory of confounding in factorial experiments in relation to the theory of groups",
+    "volume": "11",
+    "author": "fisher",
+    "year": "1942",
+    "journal-title": "Annals of Eugenics"
+   },
+   {
+    "key": "ref70",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.333854"
+   },
+   {
+    "key": "ref76",
+    "doi-asserted-by": "crossref",
+    "first-page": "363",
+    "DOI": "10.1109/TIT.1972.1054829",
+    "article-title": "maximum likelihood sequence estimation in the presence of intersymbol interference",
+    "volume": "it 18",
+    "author": "forney jr",
+    "year": "1972",
+    "journal-title": "IEEE Trans Information Theory"
+   },
+   {
+    "key": "ref77",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/PROC.1973.9030"
+   },
+   {
+    "key": "ref74",
+    "author": "forney jr",
+    "year": "1966",
+    "journal-title": "Concatenated Codes"
+   },
+   {
+    "key": "ref75",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1970.1054541"
+   },
+   {
+    "key": "ref78",
+    "first-page": "439",
+    "article-title": "minimal bases of rational vector spaces wtih applications to multivariable linear systems",
+    "volume": "13",
+    "author": "forney jr",
+    "year": "1975",
+    "journal-title": "SIAM J Contr"
+   },
+   {
+    "key": "ref79",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.21245"
+   },
+   {
+    "key": "ref60",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.335964"
+   },
+   {
+    "key": "ref62",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.77.2585"
+   },
+   {
+    "key": "ref61",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.256485"
+   },
+   {
+    "key": "ref63",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.133248"
+   },
+   {
+    "key": "ref64",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1982.1056588"
+   },
+   {
+    "key": "ref65",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.75242"
+   },
+   {
+    "key": "ref66",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/qmath/12.1.313"
+   },
+   {
+    "key": "ref67",
+    "doi-asserted-by": "crossref",
+    "first-page": "207",
+    "DOI": "10.1090/psapm/050/1368642",
+    "article-title": "the use of coding theory in computational complexity",
+    "volume": "50",
+    "author": "feigenbaum",
+    "year": "1995",
+    "journal-title": "Different Aspects of Coding Theory Proc Symp in Appl Math"
+   },
+   {
+    "key": "ref68",
+    "article-title": "data networks as cascades: investigating the multifractal nature of internet wan traffic",
+    "author": "feldmann",
+    "year": "0",
+    "journal-title": "Proc ACM/SIGCOMM 98"
+   },
+   {
+    "key": "ref69",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.179340"
+   },
+   {
+    "key": "ref197",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1956.1056790"
+   },
+   {
+    "key": "ref198",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/j.1538-7305.1960.tb03958.x"
+   },
+   {
+    "key": "ref199",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1968.1054110"
+   },
+   {
+    "key": "ref193",
+    "first-page": "17",
+    "article-title": "extremal polynomials used in bounds of code volume",
+    "volume": "16",
+    "author": "sidel nikov",
+    "year": "1980",
+    "journal-title": "Probl Pered Inform"
+   },
+   {
+    "key": "ref194",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.556667"
+   },
+   {
+    "key": "ref195",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.57204"
+   },
+   {
+    "key": "ref196",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1956.1056790"
+   },
+   {
+    "key": "ref95",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/j.1538-7305.1952.tb01393.x"
+   },
+   {
+    "key": "ref94",
+    "volume": "43",
+    "author": "geramita",
+    "year": "1979",
+    "journal-title": "Orthogonal designs quadratic forms and Hadamard matrices"
+   },
+   {
+    "key": "ref190",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/SFCS.1994.365700"
+   },
+   {
+    "key": "ref93",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF01884295"
+   },
+   {
+    "key": "ref191",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevA.52.R2493"
+   },
+   {
+    "key": "ref192",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.78.1600"
+   },
+   {
+    "key": "ref92",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.7551/mitpress/4347.001.0001",
+    "author": "gallager",
+    "year": "1963",
+    "journal-title": "Low Density Parity-Check Codes"
+   },
+   {
+    "key": "ref91",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1962.1057683"
+   },
+   {
+    "key": "ref90",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/49.661110"
+   },
+   {
+    "key": "ref98",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1049/el:19740375"
+   },
+   {
+    "key": "ref99",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0019-9958(76)90384-3"
+   },
+   {
+    "key": "ref96",
+    "article-title": "the capacity of wireless communications systems can be substantially increased by the use of antenna diversity",
+    "author": "gitlin",
+    "year": "0",
+    "journal-title": "IEEE J Selected Areas in Communication"
+   },
+   {
+    "key": "ref97",
+    "first-page": "211",
+    "article-title": "weight polynomials of self-dual codes and the macwilliams identities",
+    "volume": "3",
+    "author": "gleason",
+    "year": "1970",
+    "journal-title": "Actes Congre&#x00B4 s Int de Math"
+   },
+   {
+    "key": "ref82",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.119687"
+   },
+   {
+    "key": "ref81",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.133243"
+   },
+   {
+    "key": "ref84",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.42211"
+   },
+   {
+    "key": "ref83",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/35.556483"
+   },
+   {
+    "key": "ref80",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.21246"
+   },
+   {
+    "key": "ref89",
+    "first-page": "365",
+    "article-title": "the erdo&dblac;s-ko-rado theorem is true for <formula><tex>$n= ckt$</tex></formula>",
+    "author": "frankl",
+    "year": "1976",
+    "journal-title": "Combinatorics Proc 5th Hungarian Colloq Combinatorics Keszthely"
+   },
+   {
+    "key": "ref85",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.259635"
+   },
+   {
+    "key": "ref86",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.720542"
+   },
+   {
+    "key": "ref87",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.556693"
+   },
+   {
+    "key": "ref88",
+    "article-title": "on limits of wireless communication in a fading environment when using multiple antennas",
+    "author": "foschini jr",
+    "year": "0",
+    "journal-title": "Wireless Personal Commun"
+   },
+   {
+    "key": "ref200",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1973.1055037"
+   },
+   {
+    "key": "ref101",
+    "first-page": "9",
+    "article-title": "uniformly packed codes",
+    "volume": "30",
+    "author": "goethals",
+    "year": "1975",
+    "journal-title": "Philips Res Rep"
+   },
+   {
+    "key": "ref100",
+    "first-page": "50",
+    "article-title": "the football",
+    "volume": "29",
+    "author": "goethals",
+    "year": "1981",
+    "journal-title": "Nieuw Arch Wiskunde"
+   },
+   {
+    "key": "ref209",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.661517"
+   },
+   {
+    "key": "ref203",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.77.793"
+   },
+   {
+    "key": "ref204",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1090/psapm/050/1368639"
+   },
+   {
+    "key": "ref201",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2319929"
+   },
+   {
+    "key": "ref202",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1137/0137027"
+   },
+   {
+    "key": "ref207",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1981.1056404"
+   },
+   {
+    "key": "ref208",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.556676"
+   },
+   {
+    "key": "ref205",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1006/jcom.1997.0439"
+   },
+   {
+    "key": "ref206",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/GLOCOM.1990.116568"
+   },
+   {
+    "key": "ref211",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/mana.19821090103"
+   },
+   {
+    "key": "ref210",
+    "author": "telatar",
+    "year": "1995",
+    "journal-title": "Capacity of multi-antenna Gaussian channels"
+   },
+   {
+    "key": "ref212",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1137/0124010"
+   },
+   {
+    "key": "ref213",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1049/el:19710089"
+   },
+   {
+    "key": "ref214",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.256491"
+   },
+   {
+    "key": "ref215",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1982.1056454"
+   },
+   {
+    "key": "ref216",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.79928"
+   },
+   {
+    "key": "ref217",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.243466"
+   },
+   {
+    "key": "ref218",
+    "first-page": "739",
+    "article-title": "estimate of the number of signals in error correcting codes",
+    "volume": "117",
+    "author": "varshamov",
+    "year": "1957",
+    "journal-title": "Dokl Akad Nauk SSSR"
+   },
+   {
+    "key": "ref219",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1967.1054010"
+   },
+   {
+    "key": "ref220",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/ett.4460060511"
+   },
+   {
+    "key": "ref222",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/ett.4460060507"
+   },
+   {
+    "key": "ref221",
+    "author": "wiberg",
+    "year": "1996",
+    "journal-title": "Codes and decoding on general graphs"
+   },
+   {
+    "key": "ref229",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BFb0087995"
+   },
+   {
+    "key": "ref228",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/3-540-63163-1_26"
+   },
+   {
+    "key": "ref227",
+    "doi-asserted-by": "crossref",
+    "first-page": "608",
+    "DOI": "10.1109/TIT.1967.1054056",
+    "article-title": "decoding of bose&ndash;chaudhuri&ndash;hocquenghem codes and prony's method for curve fitting",
+    "volume": "it 3",
+    "author": "wolf",
+    "year": "1967",
+    "journal-title": "IEEE Trans Information Theory"
+   },
+   {
+    "key": "ref226",
+    "first-page": "505",
+    "article-title": "base station modulation diversity for digital simulcast",
+    "author": "wittneben",
+    "year": "1993",
+    "journal-title": "Proc IEEE Vehicular Technology Conf"
+   },
+   {
+    "key": "ref225",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF02579226"
+   },
+   {
+    "key": "ref224",
+    "doi-asserted-by": "crossref",
+    "first-page": "339",
+    "DOI": "10.1093/oso/9780198523994.003.0020",
+    "article-title": "a bibliographical guide to self-similar traffic and performance modeling for modern high-speed networks",
+    "volume": "4",
+    "author": "willinger",
+    "year": "1996",
+    "journal-title": "Stochastic Networks Theory and Applications Royal Statistical Lecture Note Series"
+   },
+   {
+    "key": "ref223",
+    "article-title": "where mathematics meets the internet",
+    "author": "willinger",
+    "year": "0",
+    "journal-title": "Notices Amer Math Soc"
+   },
+   {
+    "key": "ref127",
+    "first-page": "20",
+    "article-title": "estimation of mean error for a discrete successive approximation scheme",
+    "volume": "17",
+    "author": "koshe´lev",
+    "year": "1981",
+    "journal-title": "Probl Inform Transm"
+   },
+   {
+    "key": "ref126",
+    "first-page": "79",
+    "volume": "34",
+    "author": "ko¨nig",
+    "year": "1995",
+    "journal-title": "Isometric Embeddings of Euclidean Spaces into Finite-Dimensional lp-Spaces"
+   },
+   {
+    "key": "ref125",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1147/rd.144.0368"
+   },
+   {
+    "key": "ref124",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1971.1054689"
+   },
+   {
+    "key": "ref129",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.508832"
+   },
+   {
+    "key": "ref128",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1017/CBO9780511662164"
+   },
+   {
+    "key": "ref130",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.335969"
+   },
+   {
+    "key": "ref133",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/90.282603"
+   },
+   {
+    "key": "ref134",
+    "first-page": "417",
+    "article-title": "on bounds for packings in <formula><tex>$n$</tex></formula>-dimensional euclidean space",
+    "volume": "20",
+    "author": "levenshtein",
+    "year": "1979",
+    "journal-title": "Sov Math &#x2013 Dokl"
+   },
+   {
+    "key": "ref131",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.4153/CJM-1967-017-0"
+   },
+   {
+    "key": "ref132",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.4153/CJM-1971-081-3"
+   },
+   {
+    "key": "ref232",
+    "first-page": "18",
+    "article-title": "estimates of the error-correction complexity of gallager's low density codes",
+    "volume": "11",
+    "author": "zyablov",
+    "year": "1976",
+    "journal-title": "Probl Inform Transm"
+   },
+   {
+    "key": "ref230",
+    "first-page": "2",
+    "article-title": "generalized cascade codes",
+    "volume": "12",
+    "author": "zinoviev",
+    "year": "1976",
+    "journal-title": "Probl Pered Inform"
+   },
+   {
+    "key": "ref231",
+    "first-page": "123",
+    "article-title": "the nonexistence of perfect codes over galois fields",
+    "volume": "2",
+    "author": "zinoviev",
+    "year": "1973",
+    "journal-title": "Probl Contr Inform Theory"
+   },
+   {
+    "key": "ref136",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00053379"
+   },
+   {
+    "key": "ref135",
+    "first-page": "526",
+    "article-title": "bounds on the maximum cardinality of a code with bounded modulus of the inner product",
+    "volume": "25",
+    "author": "levenshtein",
+    "year": "1982",
+    "journal-title": "Sov Math &#x2013 Dokl"
+   },
+   {
+    "key": "ref138",
+    "article-title": "nonexistence theorems for perfect error correcting codes",
+    "volume": "iv",
+    "author": "van lint",
+    "year": "1971",
+    "journal-title": "Computers in Algebraic Number Theory SIAM-AMS Proc"
+   },
+   {
+    "key": "ref137",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0019-9958(67)90660-2"
+   },
+   {
+    "key": "ref139",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-662-20712-3"
+   },
+   {
+    "key": "ref140",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1986.1057134"
+   },
+   {
+    "key": "ref141",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/j.1538-7305.1957.tb02410.x"
+   },
+   {
+    "key": "ref142",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.641543"
+   },
+   {
+    "key": "ref143",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.42217"
+   },
+   {
+    "key": "ref144",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1979.1055985"
+   },
+   {
+    "key": "ref2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0021-9800(69)80115-8"
+   },
+   {
+    "key": "ref1",
+    "article-title": "space block coding: a simple transmitter diversity scheme for wireless communications",
+    "author": "alamouti",
+    "year": "1997",
+    "journal-title": "IEEE J Select Areas in Commun"
+   },
+   {
+    "key": "ref145",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1049/el:19961141"
+   },
+   {
+    "key": "ref109",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1090/psapm/050/1368641"
+   },
+   {
+    "key": "ref108",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.312154"
+   },
+   {
+    "key": "ref107",
+    "first-page": "242",
+    "article-title": "matching viterbi decoders and reed&ndash;solomon decoders in concatenated systems",
+    "author": "hagenauer",
+    "year": "1994",
+    "journal-title": "Reed&#x2013 Solomon Codes and Their Applications"
+   },
+   {
+    "key": "ref106",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/GLOCOM.1989.64230"
+   },
+   {
+    "key": "ref105",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevA.54.1862"
+   },
+   {
+    "key": "ref104",
+    "first-page": "207",
+    "article-title": "a class of error correcting codes in <formula><tex>$p^m$</tex></formula> symbols",
+    "volume": "9",
+    "author": "gorenstein",
+    "year": "1971",
+    "journal-title": "SIAM J"
+   },
+   {
+    "key": "ref103",
+    "first-page": "170",
+    "article-title": "codes on algebraic curves",
+    "volume": "24",
+    "author": "goppa",
+    "year": "1981",
+    "journal-title": "Sov Math &#x2013 Dokl"
+   },
+   {
+    "key": "ref102",
+    "first-page": "657",
+    "article-title": "notes on digital coding",
+    "volume": "37",
+    "author": "golay",
+    "year": "1949",
+    "journal-title": "IEEE Proceedings"
+   },
+   {
+    "key": "ref111",
+    "author": "householder",
+    "year": "1953",
+    "journal-title": "Principles of Numerical Analysis"
+   },
+   {
+    "key": "ref112",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1977.1055718"
+   },
+   {
+    "key": "ref110",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.476214"
+   },
+   {
+    "key": "ref10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.720553"
+   },
+   {
+    "key": "ref11",
+    "author": "berlekamp",
+    "year": "1968",
+    "journal-title": "Algebraic Coding Theory"
+   },
+   {
+    "key": "ref12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ICC.1993.397441"
+   },
+   {
+    "key": "ref13",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.333880"
+   },
+   {
+    "key": "ref14",
+    "author": "blahut",
+    "year": "1991",
+    "journal-title": "Algebraic Methods for Signal Processing and Communications Codes"
+   },
+   {
+    "key": "ref15",
+    "author": "blake",
+    "year": "1973",
+    "journal-title": "Algebraic Coding Theory History and Development"
+   },
+   {
+    "key": "ref16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.720550"
+   },
+   {
+    "key": "ref118",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1982.1056516"
+   },
+   {
+    "key": "ref117",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1972.1054893"
+   },
+   {
+    "key": "ref17",
+    "first-page": "4633",
+    "article-title": "circuitry for performing error correction calculations on baseband encoded data to eliminate error propagation",
+    "volume": "23",
+    "author": "bliss",
+    "year": "1981",
+    "journal-title": "IBM Tech Disclosure Bulletin"
+   },
+   {
+    "key": "ref18",
+    "doi-asserted-by": "crossref",
+    "first-page": "189",
+    "DOI": "10.1007/BF00124897",
+    "article-title": "quasisymmetric designs and the smith normal form",
+    "volume": "2",
+    "author": "blokhuis",
+    "year": "1992",
+    "journal-title": "Des Codes Cryptogr"
+   },
+   {
+    "key": "ref119",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.32157"
+   },
+   {
+    "key": "ref19",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.370138"
+   },
+   {
+    "key": "ref114",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.623139"
+   },
+   {
+    "key": "ref113",
+    "first-page": "41",
+    "article-title": "rs codes and the compact disk",
+    "author": "immink",
+    "year": "1994",
+    "journal-title": "Reed&#x2013 Solomon Codes and Their Applications"
+   },
+   {
+    "key": "ref116",
+    "author": "international telecommunication union",
+    "year": "1994",
+    "journal-title": "A Modem Operating at Data Signaling Rates of up to 28 800 bits/s for Use on the General Switched Telephone Network and on Leased Point-to-Point 2-Wire Telephone-Type Circuits ITU-T Recommendation V 34"
+   },
+   {
+    "key": "ref115",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1987.1057296"
+   },
+   {
+    "key": "ref120",
+    "author": "kahn",
+    "year": "1967",
+    "journal-title": "The Codebreakers the story of secret writing"
+   },
+   {
+    "key": "ref121",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.79951"
+   },
+   {
+    "key": "ref122",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0019-9958(72)90376-2"
+   },
+   {
+    "key": "ref123",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.476245"
+   }
+  ],
+  "container-title": [
+   "IEEE Transactions on Information Theory"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://xplorestaging.ieee.org/ielx4/18/15554/00720549.pdf?arnumber=720549",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     1,
+     5
+    ]
+   ],
+   "date-time": "2024-01-05T15:45:53Z",
+   "timestamp": 1704469553000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://ieeexplore.ieee.org/document/720549/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  },
+  "references-count": 232,
+  "journal-issue": {
+   "issue": "6"
+  },
+  "URL": "https://doi.org/10.1109/18.720549",
+  "relation": {},
+  "ISSN": [
+   "0018-9448"
+  ],
+  "issn-type": [
+   {
+    "value": "0018-9448",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  }
+ },
+ "10.1111/j.1540-6261.1992.tb04681.x": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     20
+    ]
+   ],
+   "date-time": "2026-08-20T16:41:32Z",
+   "timestamp": 1787244092170,
+   "version": "3.56.0"
+  },
+  "reference-count": 54,
+  "publisher": "Wiley",
+  "issue": "5",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2012,
+       4,
+       30
+      ]
+     ],
+     "date-time": "2012-04-30T00:00:00Z",
+     "timestamp": 1335744000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 7090,
+    "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "onlinelibrary.wiley.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "The Journal of Finance"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1992,
+     12
+    ]
+   ]
+  },
+  "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>This paper tests two of the simplest and most popular trading rules—moving average and trading range break—by utilizing the Dow Jones Index from 1897 to 1986. Standard statistical analysis is extended through the use of bootstrap techniques. Overall, our results provide strong support for the technical strategies. The returns obtained from these strategies are not consistent with four popular null models: the random walk, the AR(1), the GARCH‐M, and the Exponential GARCH. Buy signals consistently generate higher returns than sell signals, and further, the returns following buy signals are less volatile than returns following sell signals, and further, the returns following buy signals are less volatile than returns following sell signals. Moreover, returns following sell signals are negative, which is not easily explained by any of the currently existing equilibrium models.</jats:p>",
+  "DOI": "10.1111/j.1540-6261.1992.tb04681.x",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2012,
+     4,
+     30
+    ]
+   ],
+   "date-time": "2012-04-30T09:45:54Z",
+   "timestamp": 1335779154000
+  },
+  "page": "1731-1764",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 1591,
+  "title": [
+   "Simple Technical Trading Rules and the Stochastic Properties of Stock Returns"
+  ],
+  "prefix": "10.1111",
+  "volume": "47",
+  "author": [
+   {
+    "given": "WILLIAM",
+    "family": "BROCK",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "JOSEF",
+    "family": "LAKONISHOK",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "BLAKE",
+    "family": "LeBARON",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "311",
+  "published-online": {
+   "date-parts": [
+    [
+     2012,
+     4,
+     30
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_2_9_2_1",
+    "first-page": "7",
+    "article-title": "Price movements in speculative markets: Trends or random walks",
+    "volume": "2",
+    "author": "Alexander S. S.",
+    "year": "1961",
+    "journal-title": "Industrial Management Review"
+   },
+   {
+    "key": "e_1_2_9_3_1",
+    "volume-title": "The Random Character of Stock Market Prices",
+    "author": "Alexander S. S.",
+    "year": "1964"
+   },
+   {
+    "key": "e_1_2_9_4_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176350143"
+   },
+   {
+    "key": "e_1_2_9_5_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176345637"
+   },
+   {
+    "key": "e_1_2_9_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/1925546"
+   },
+   {
+    "key": "e_1_2_9_7_1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Bollerslev T.andJeffrey M.Wooldridge 1992 Quasi maximum likelihood estimation and inference in dynamic models with time varying covariances Econometric Reviews Forthcoming.",
+    "DOI": "10.1080/07474939208800229"
+   },
+   {
+    "key": "e_1_2_9_8_1",
+    "unstructured": "Black Fischer 1967 Studies of stock price volatility changes Proceedings of the American Statistical Association business and Economics Statistics Section177–181."
+   },
+   {
+    "key": "e_1_2_9_9_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0304-405X(92)90005-I"
+   },
+   {
+    "key": "e_1_2_9_10_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/rfs/2.2.225"
+   },
+   {
+    "key": "e_1_2_9_11_1",
+    "volume-title": "A Treasury of Wall Street Wisdom",
+    "author": "Coslow Samson",
+    "year": "1966"
+   },
+   {
+    "key": "e_1_2_9_12_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2298010"
+   },
+   {
+    "key": "e_1_2_9_13_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1985.tb05004.x"
+   },
+   {
+    "key": "e_1_2_9_14_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176344552"
+   },
+   {
+    "key": "e_1_2_9_15_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1137/1.9781611970319"
+   },
+   {
+    "key": "e_1_2_9_16_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/ss/1177013815"
+   },
+   {
+    "key": "e_1_2_9_17_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/1913242"
+   },
+   {
+    "key": "e_1_2_9_18_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1086/294743"
+   },
+   {
+    "key": "e_1_2_9_19_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1086/294849"
+   },
+   {
+    "key": "e_1_2_9_20_1",
+    "first-page": "246",
+    "article-title": "Permanent and temporary components of stock prices",
+    "volume": "98",
+    "author": "Fama E. F.",
+    "year": "1986",
+    "journal-title": "Journal of Political Economy"
+   },
+   {
+    "key": "e_1_2_9_21_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176346705"
+   },
+   {
+    "key": "e_1_2_9_22_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "97",
+    "DOI": "10.1080/01621459.1984.10477069",
+    "article-title": "Bootstrapping a regression equation: Some empirical results",
+    "volume": "79",
+    "author": "Freedman D.",
+    "year": "1984",
+    "journal-title": "Journal of the American Statistical Society"
+   },
+   {
+    "key": "e_1_2_9_23_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/1391259"
+   },
+   {
+    "key": "e_1_2_9_24_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0304-405X(86)90004-8"
+   },
+   {
+    "key": "e_1_2_9_25_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0304-405X(87)90026-2"
+   },
+   {
+    "key": "e_1_2_9_26_1",
+    "volume-title": "A Unified Theory of Estimation and Inference for Nonlinear Dynamic Models",
+    "author": "Gallant A. R.",
+    "year": "1988"
+   },
+   {
+    "key": "e_1_2_9_27_1",
+    "volume-title": "Profits in the Stock Market",
+    "author": "Gartley H. M.",
+    "year": "1930"
+   },
+   {
+    "key": "e_1_2_9_28_1",
+    "volume-title": "Technical analysis and stock market efficiency",
+    "author": "Goldberg Michael D.",
+    "year": "1988"
+   },
+   {
+    "key": "e_1_2_9_29_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1017/CCOL0521382483"
+   },
+   {
+    "key": "e_1_2_9_30_1",
+    "unstructured": "Jegadeesh N. 1987 Predictable behavior of security returns and tests of asset pricing models Ph.D. Dissertation Columbia University."
+   },
+   {
+    "key": "e_1_2_9_31_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1990.tb05110.x"
+   },
+   {
+    "key": "e_1_2_9_32_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1970.tb00671.x"
+   },
+   {
+    "key": "e_1_2_9_33_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2469/faj.v23.n6.77"
+   },
+   {
+    "key": "e_1_2_9_34_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/rfs/1.4.403"
+   },
+   {
+    "key": "e_1_2_9_35_1",
+    "volume-title": "Specification Searches",
+    "author": "Learner E.",
+    "year": "1978"
+   },
+   {
+    "key": "e_1_2_9_36_1",
+    "volume-title": "Technical trading rules and regime shifts in foreign exchange",
+    "author": "LeBaron Blake",
+    "year": "1990"
+   },
+   {
+    "key": "e_1_2_9_37_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2937816"
+   },
+   {
+    "key": "e_1_2_9_38_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2469/faj.v23.n6.69"
+   },
+   {
+    "key": "e_1_2_9_39_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1967.tb00295.x"
+   },
+   {
+    "key": "e_1_2_9_40_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/rfs/3.2.175"
+   },
+   {
+    "key": "e_1_2_9_41_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/rfs/3.3.431"
+   },
+   {
+    "key": "e_1_2_9_42_1",
+    "volume-title": "A Random Walk Down Wall Street",
+    "author": "Malkiel B.",
+    "year": "1981"
+   },
+   {
+    "key": "e_1_2_9_43_1",
+    "first-page": "93",
+    "volume-title": "Macroeconomics and Finance: Essays in Honor of Franco Modigliani",
+    "author": "Merton R.",
+    "year": "1987"
+   },
+   {
+    "key": "e_1_2_9_44_1",
+    "volume-title": "Tape Reading and Market Tactics",
+    "author": "Neill Humphrey B.",
+    "year": "1931"
+   },
+   {
+    "key": "e_1_2_9_45_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2938260"
+   },
+   {
+    "key": "e_1_2_9_46_1",
+    "volume-title": "The Dow Jones Averages: 1885–1990",
+    "author": "Pierce Phyllis S.",
+    "year": "1991"
+   },
+   {
+    "key": "e_1_2_9_47_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0304-405X(88)90021-9"
+   },
+   {
+    "key": "e_1_2_9_48_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3905/jpm.1985.409007"
+   },
+   {
+    "key": "e_1_2_9_49_1",
+    "volume-title": "Stock Market Theory and Practice",
+    "author": "Schabacker Richard",
+    "year": "1930"
+   },
+   {
+    "key": "e_1_2_9_50_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176344136"
+   },
+   {
+    "key": "e_1_2_9_51_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2331068"
+   },
+   {
+    "key": "e_1_2_9_52_1",
+    "volume-title": "Practical Formulas for Successful Investing",
+    "author": "Tomlinson Lucile",
+    "year": "1953"
+   },
+   {
+    "key": "e_1_2_9_53_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2469/faj.v23.n6.87"
+   },
+   {
+    "key": "e_1_2_9_54_1",
+    "volume-title": "Asymptotic Theory for Econometricians",
+    "author": "White H.",
+    "year": "1984"
+   },
+   {
+    "key": "e_1_2_9_55_1",
+    "volume-title": "Studies in Tape Reading",
+    "author": "Wyckoff Richard",
+    "year": "1910"
+   }
+  ],
+  "container-title": [
+   "The Journal of Finance"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1540-6261.1992.tb04681.x",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-6261.1992.tb04681.x",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     10,
+     1
+    ]
+   ],
+   "date-time": "2023-10-01T12:32:02Z",
+   "timestamp": 1696163522000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1992.tb04681.x"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1992,
+     12
+    ]
+   ]
+  },
+  "references-count": 54,
+  "aliases": [
+   "10.2307/2328994"
+  ],
+  "journal-issue": {
+   "issue": "5",
+   "published-print": {
+    "date-parts": [
+     [
+      1992,
+      12
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1111/j.1540-6261.1992.tb04681.x"
+  ],
+  "URL": "https://doi.org/10.1111/j.1540-6261.1992.tb04681.x",
+  "archive": [
+   "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+   "0022-1082",
+   "1540-6261"
+  ],
+  "issn-type": [
+   {
+    "value": "0022-1082",
+    "type": "print"
+   },
+   {
+    "value": "1540-6261",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1992,
+     12
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "2012-04-30",
+    "order": 2,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ },
+ "10.1111/1540-6261.00583": {
+  "indexed": {
+   "date-parts": [
+    [
+     2023,
+     10,
+     3
+    ]
+   ],
+   "date-time": "2023-10-03T04:23:21Z",
+   "timestamp": 1696307001564
+  },
+  "reference-count": 0,
+  "publisher": "Wiley",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2003,
+       7,
+       15
+      ]
+     ],
+     "date-time": "2003-07-15T00:00:00Z",
+     "timestamp": 1058227200000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "onlinelibrary.wiley.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "The Journal of Finance"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2003,
+     8
+    ]
+   ]
+  },
+  "DOI": "10.1111/1540-6261.00583",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2007,
+     4,
+     18
+    ]
+   ],
+   "date-time": "2007-04-18T16:58:40Z",
+   "timestamp": 1176915520000
+  },
+  "page": "1723-1724",
+  "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+   "Minutes of the Annual Membership Meeting"
+  ],
+  "prefix": "10.1111",
+  "volume": "58",
+  "member": "311",
+  "published-online": {
+   "date-parts": [
+    [
+     2003,
+     7,
+     15
+    ]
+   ]
+  },
+  "container-title": [
+   "The Journal of Finance"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1540-6261.00583",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1540-6261.00583",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     10,
+     2
+    ]
+   ],
+   "date-time": "2023-10-02T20:13:39Z",
+   "timestamp": 1696277619000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00583"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2003,
+     7,
+     15
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      2003,
+      8
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1111/1540-6261.00583"
+  ],
+  "URL": "https://doi.org/10.1111/1540-6261.00583",
+  "archive": [
+   "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+   "0022-1082",
+   "1540-6261"
+  ],
+  "issn-type": [
+   {
+    "value": "0022-1082",
+    "type": "print"
+   },
+   {
+    "value": "1540-6261",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2003,
+     7,
+     15
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "2003-07-15",
+    "order": 2,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ },
+ "10.1111/j.2517-6161.1981.tb01155.x": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     18
+    ]
+   ],
+   "date-time": "2026-08-18T01:04:48Z",
+   "timestamp": 1787015088106,
+   "version": "3.56.0"
+  },
+  "reference-count": 10,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "1",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1981,
+       9,
+       1
+      ]
+     ],
+     "date-time": "1981-09-01T00:00:00Z",
+     "timestamp": 368150400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     1981,
+     9,
+     1
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Summary</jats:title>\n                  <jats:p>A technique for using kernel density estimates to investigate the number of modes in a population is described and discussed. The amount of smoothing is chosen automatically in a natural way.</jats:p>",
+  "DOI": "10.1111/j.2517-6161.1981.tb01155.x",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     12,
+     7
+    ]
+   ],
+   "date-time": "2018-12-07T00:14:32Z",
+   "timestamp": 1544141672000
+  },
+  "page": "97-99",
+  "source": "Crossref",
+  "is-referenced-by-count": 765,
+  "title": [
+   "Using Kernel Density Estimates to Investigate Multimodality"
+  ],
+  "prefix": "10.1093",
+  "volume": "43",
+  "author": [
+   {
+    "given": "B. W.",
+    "family": "Silverman",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "University of Bath   U.K."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2018,
+     12,
+     5
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2024090921084394700_rssb01155-cit-0001",
+    "doi-asserted-by": "crossref",
+    "first-page": "39",
+    "DOI": "10.1111/j.2044-8317.1966.tb00353.x",
+    "article-title": "Notes on the analysis of mixed frequency distributions",
+    "volume": "19",
+    "author": "Cox",
+    "year": "1966",
+    "journal-title": "Brit. J. Math. Statist. Psychol."
+   },
+   {
+    "key": "2024090921084394700_rssb01155-cit-0002",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1214/aos/1176344552",
+    "article-title": "Bootstrap methods—another look at the jack-knife",
+    "volume": "7",
+    "author": "Efron",
+    "year": "1979",
+    "journal-title": "Ann. Statist."
+   },
+   {
+    "key": "2024090921084394700_rssb01155-cit-0003",
+    "volume-title": "An Introduction to Probability Theory and its Applications",
+    "author": "Feller",
+    "year": "1966"
+   },
+   {
+    "key": "2024090921084394700_rssb01155-cit-0004",
+    "doi-asserted-by": "crossref",
+    "first-page": "42",
+    "DOI": "10.1080/01621459.1980.10477419",
+    "article-title": "Density estimation and bump-hunting by the penalized likelihood method exemplified by scattering and meteorite data",
+    "volume": "75",
+    "author": "Good",
+    "year": "1980",
+    "journal-title": "J. Amer. Statist. Ass."
+   },
+   {
+    "key": "2024090921084394700_rssb01155-cit-0005",
+    "volume-title": "Total Positivity.",
+    "author": "Karlin",
+    "year": "1968"
+   },
+   {
+    "key": "2024090921084394700_rssb01155-cit-0006",
+    "doi-asserted-by": "crossref",
+    "first-page": "832",
+    "DOI": "10.1214/aoms/1177728190",
+    "article-title": "Remarks on some non-parametric estimates of a density function",
+    "volume": "27",
+    "author": "Rosenblatt",
+    "year": "1956",
+    "journal-title": "Ann. Math. Statist."
+   },
+   {
+    "key": "2024090921084394700_rssb01155-cit-0007",
+    "first-page": "97",
+    "article-title": "On Pólya frequency functions. II: Variation diminishing integral operators of the convolution type",
+    "volume": "12",
+    "author": "Schoenberg",
+    "year": "1950",
+    "journal-title": "Acta Scientarum Mathematicarum Szeged"
+   },
+   {
+    "key": "2024090921084394700_rssb01155-cit-0008",
+    "doi-asserted-by": "crossref",
+    "first-page": "26",
+    "DOI": "10.2307/2346222",
+    "article-title": "Density ratios, empirical likelihood and cot death",
+    "volume": "27",
+    "author": "Silverman",
+    "year": "1978",
+    "journal-title": "Appl. Statist."
+   },
+   {
+    "key": "2024090921084394700_rssb01155-cit-0009",
+    "first-page": "67",
+    "article-title": "Comment on Good and Gaskins (1980)",
+    "volume": "75",
+    "author": "Silverman",
+    "year": "1980",
+    "journal-title": "J. Amer. Statist. Ass."
+   },
+   {
+    "key": "2024090921084394700_rssb01155-cit-0010",
+    "article-title": "Density estimation for univariate and bivariate data",
+    "volume-title": "Interpreting Multivariate Data",
+    "author": "Silverman",
+    "year": "1981"
+   }
+  ],
+  "container-title": [
+   "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.2517-6161.1981.tb01155.x",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://academic.oup.com/jrsssb/article-pdf/43/1/97/49099574/jrsssb_43_1_97.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/jrsssb/article-pdf/43/1/97/49099574/jrsssb_43_1_97.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     9,
+     9
+    ]
+   ],
+   "date-time": "2024-09-09T18:05:36Z",
+   "timestamp": 1725905136000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/jrsssb/article/43/1/97/7028128"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1981,
+     9,
+     1
+    ]
+   ]
+  },
+  "references-count": 10,
+  "journal-issue": {
+   "issue": "1",
+   "published-online": {
+    "date-parts": [
+     [
+      2018,
+      12,
+      5
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      1981,
+      9,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1111/j.2517-6161.1981.tb01155.x",
+  "relation": {},
+  "ISSN": [
+   "1369-7412",
+   "1467-9868"
+  ],
+  "issn-type": [
+   {
+    "value": "1369-7412",
+    "type": "print"
+   },
+   {
+    "value": "1467-9868",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     1981,
+     9
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     1981,
+     9,
+     1
+    ]
+   ]
+  }
+ },
+ "10.1111/j.2517-6161.1991.tb01857.x": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     21
+    ]
+   ],
+   "date-time": "2026-08-21T12:20:54Z",
+   "timestamp": 1787314854574,
+   "version": "3.56.0"
+  },
+  "reference-count": 8,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1991,
+       7,
+       1
+      ]
+     ],
+     "date-time": "1991-07-01T00:00:00Z",
+     "timestamp": 678326400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     1991,
+     7,
+     1
+    ]
+   ]
+  },
+  "abstract": "<jats:title>SUMMARY</jats:title>\n                  <jats:p>We present a new method for data-based selection of the bandwidth in kernel density estimation which has excellent properties. It improves on a recent procedure of Park and Marron (which itself is a good method) in various ways. First, the new method has superior theoretical performance; second, it also has a computational advantage; third, the new method has reliably good performance for smooth densities in simulations, performance that is second to none in the existing literature. These methods are based on choosing the bandwidth to (approximately) minimize good quality estimates of the mean integrated squared error. The key to the success of the current procedure is the reintroduction of a non-stochastic term which was previously omitted together with use of the bandwidth to reduce bias in estimation without inflating variance.</jats:p>",
+  "DOI": "10.1111/j.2517-6161.1991.tb01857.x",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     12,
+     7
+    ]
+   ],
+   "date-time": "2018-12-07T02:11:43Z",
+   "timestamp": 1544148703000
+  },
+  "page": "683-690",
+  "source": "Crossref",
+  "is-referenced-by-count": 1992,
+  "title": [
+   "A Reliable Data-Based Bandwidth Selection Method for Kernel Density Estimation"
+  ],
+  "prefix": "10.1093",
+  "volume": "53",
+  "author": [
+   {
+    "given": "S. J.",
+    "family": "Sheather",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "University of New South Wales , Sydney , Australia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "M. C.",
+    "family": "Jones",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "IBM Research Division     USA"
+     },
+     {
+      "name": "Yorktown Heights     USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2018,
+     12,
+     5
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2024090921111917500_rssb01857-cit-0001",
+    "volume-title": "Objective methods for the estimation of window size in the nonparametric estimation of a density",
+    "author": "Hall",
+    "year": "1980"
+   },
+   {
+    "key": "2024090921111917500_rssb01857-cit-0002",
+    "doi-asserted-by": "crossref",
+    "first-page": "109",
+    "DOI": "10.1016/0167-7152(87)90083-6",
+    "article-title": "Estimation of integrated squared density derivatives",
+    "volume": "6",
+    "author": "Hall",
+    "year": "1987",
+    "journal-title": "Statist. Probab. Lett."
+   },
+   {
+    "key": "2024090921111917500_rssb01857-cit-0003",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/0167-7152(91)90163-L",
+    "article-title": "The roles of ISE and MISE in density estimation",
+    "volume-title": "Statist. Probab. Lett.",
+    "author": "Jones",
+    "year": "1991"
+   },
+   {
+    "key": "2024090921111917500_rssb01857-cit-0004",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/0167-7152(91)90116-9",
+    "article-title": "Using non-stochastic terms to advantage in kernel-based estimation of integrated squared density derivatives",
+    "volume-title": "Statist. Probab. Lett.",
+    "author": "Jones",
+    "year": "1991"
+   },
+   {
+    "key": "2024090921111917500_rssb01857-cit-0005",
+    "doi-asserted-by": "crossref",
+    "first-page": "66",
+    "DOI": "10.1080/01621459.1990.10475307",
+    "article-title": "Comparison of data-driven bandwidth selectors",
+    "volume": "85",
+    "author": "Park",
+    "year": "1990",
+    "journal-title": "J. Am. Statist. Ass."
+   },
+   {
+    "key": "2024090921111917500_rssb01857-cit-0006",
+    "doi-asserted-by": "crossref",
+    "first-page": "229",
+    "DOI": "10.1016/0167-9473(83)90097-X",
+    "article-title": "A data-based algorithm for choosing the window width when estimating the density at a point",
+    "volume": "1",
+    "author": "Sheather",
+    "year": "1983",
+    "journal-title": "Comput. Statist. Data Anal."
+   },
+   {
+    "key": "2024090921111917500_rssb01857-cit-0007",
+    "doi-asserted-by": "crossref",
+    "first-page": "61",
+    "DOI": "10.1016/0167-9473(86)90026-5",
+    "article-title": "An improved data-based algorithm for choosing the window width when estimating the density at a point",
+    "volume": "4",
+    "author": "Sheather",
+    "year": "1986",
+    "journal-title": "Comput. Statist. Data Anal."
+   },
+   {
+    "key": "2024090921111917500_rssb01857-cit-0008",
+    "volume-title": "Density Estimation for Statistics and Data Analysis.",
+    "author": "Silverman",
+    "year": "1986"
+   }
+  ],
+  "container-title": [
+   "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.2517-6161.1991.tb01857.x",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://academic.oup.com/jrsssb/article-pdf/53/3/683/49099779/jrsssb_53_3_683.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/jrsssb/article-pdf/53/3/683/49099779/jrsssb_53_3_683.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     9,
+     9
+    ]
+   ],
+   "date-time": "2024-09-09T18:08:50Z",
+   "timestamp": 1725905330000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/jrsssb/article/53/3/683/7028194"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1991,
+     7,
+     1
+    ]
+   ]
+  },
+  "references-count": 8,
+  "journal-issue": {
+   "issue": "3",
+   "published-online": {
+    "date-parts": [
+     [
+      2018,
+      12,
+      5
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      1991,
+      7,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1111/j.2517-6161.1991.tb01857.x",
+  "relation": {},
+  "ISSN": [
+   "1369-7412",
+   "1467-9868"
+  ],
+  "issn-type": [
+   {
+    "value": "1369-7412",
+    "type": "print"
+   },
+   {
+    "value": "1467-9868",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     1991,
+     7
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     1991,
+     7,
+     1
+    ]
+   ]
+  }
+ },
+ "10.1080/01621459.1999.10474186": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     21
+    ]
+   ],
+   "date-time": "2026-08-21T13:05:21Z",
+   "timestamp": 1787317521722,
+   "version": "3.56.0"
+  },
+  "reference-count": 53,
+  "publisher": "Informa UK Limited",
+  "issue": "447",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Journal of the American Statistical Association"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1999,
+     9
+    ]
+   ]
+  },
+  "DOI": "10.1080/01621459.1999.10474186",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2012,
+     4,
+     24
+    ]
+   ],
+   "date-time": "2012-04-24T13:16:25Z",
+   "timestamp": 1335273385000
+  },
+  "page": "807-823",
+  "source": "Crossref",
+  "is-referenced-by-count": 498,
+  "title": [
+   "SiZer for Exploration of Structures in Curves"
+  ],
+  "prefix": "10.1080",
+  "volume": "94",
+  "author": [
+   {
+    "given": "Probal",
+    "family": "Chaudhuri",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "J. S.",
+    "family": "Marron",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "301",
+  "reference": [
+   {
+    "key": "CIT0001",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1093/oso/9780198523963.001.0001",
+    "volume-title": "Applied Smoothing Techniques: The Kernel Approach With S-Plus",
+    "author": "Bowman A. W.",
+    "year": "1997"
+   },
+   {
+    "key": "CIT0002",
+    "doi-asserted-by": "crossref",
+    "first-page": "1421",
+    "DOI": "10.1130/0016-7606(1997)109<1421:MCSISO>2.3.CO;2",
+    "volume": "109",
+    "author": "Bralower T. J.",
+    "year": "1997",
+    "journal-title": "Geological Society of America Bulletin"
+   },
+   {
+    "key": "CIT0003",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/01621459.1981.10477730"
+   },
+   {
+    "key": "CIT0004",
+    "doi-asserted-by": "crossref",
+    "first-page": "7",
+    "DOI": "10.1016/0167-7152(94)00040-F",
+    "volume": "22",
+    "author": "Chaudhuri P.",
+    "year": "1995",
+    "journal-title": "Statistics and Probability Letters"
+   },
+   {
+    "key": "CIT0005",
+    "volume-title": "“Scale-Space View of Curve Estimation,”",
+    "author": "Chaudhuri P.",
+    "year": "1997"
+   },
+   {
+    "key": "CIT0006",
+    "doi-asserted-by": "crossref",
+    "first-page": "579",
+    "DOI": "10.1111/1467-9868.00141",
+    "volume": "60",
+    "author": "Cheng M. Y.",
+    "year": "1997",
+    "journal-title": "Journal of the Royal Statistical Society"
+   },
+   {
+    "key": "CIT0007",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176351045"
+   },
+   {
+    "key": "CIT0008",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/978-1-4899-4541-9",
+    "volume-title": "An Introduction to the Bootstrap",
+    "author": "Efron B.",
+    "year": "1993"
+   },
+   {
+    "key": "CIT0009",
+    "volume-title": "Spline Smoothing and Nonparametric Regression",
+    "author": "Eubank R. L.",
+    "year": "1988"
+   },
+   {
+    "key": "CIT0010",
+    "volume-title": "Local Polynomial Modeling and Its Applications",
+    "author": "Fan J.",
+    "year": "1996"
+   },
+   {
+    "key": "CIT0011",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/01621459.1995.10476496"
+   },
+   {
+    "key": "CIT0012",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/10618600.1994.10474629"
+   },
+   {
+    "key": "CIT0013",
+    "series-title": "PhD dissertation",
+    "volume-title": "“The Smoothed Bootstrap for Variable Bandwidth Selection and Some Results in Nonparametric Logistic Regression,”",
+    "author": "Farmen M.",
+    "year": "1996"
+   },
+   {
+    "key": "CIT0014",
+    "volume-title": "“An Assessment of Finite Sample Performance of Adaptive Methods in Density Estimation,”",
+    "author": "Farmen M.",
+    "year": "1997"
+   },
+   {
+    "key": "CIT0015",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0167-9473(94)90080-9"
+   },
+   {
+    "key": "CIT0016",
+    "volume-title": "“Mode Testing via the Excess Mass Estimate,”",
+    "author": "Fisher N. I.",
+    "year": "1998"
+   },
+   {
+    "key": "CIT0017",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/01621459.1980.10477419"
+   },
+   {
+    "key": "CIT0018",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/978-1-4899-4473-3",
+    "volume-title": "Nonparametric Regression and Generalized Linear Models",
+    "author": "Green P. J.",
+    "year": "1994"
+   },
+   {
+    "key": "CIT0019",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1017/CCOL0521382483",
+    "volume-title": "Applied Nonparametric Regression",
+    "author": "Härdle W.",
+    "year": "1990"
+   },
+   {
+    "key": "CIT0020",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176348120"
+   },
+   {
+    "key": "CIT0021",
+    "doi-asserted-by": "crossref",
+    "first-page": "215",
+    "DOI": "10.1080/02331889108802305",
+    "volume": "2",
+    "author": "Hall P.",
+    "year": "1991",
+    "journal-title": "Statistics"
+   },
+   {
+    "key": "CIT0022",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/978-1-4612-4384-7",
+    "volume-title": "The Bootstrap and Edgeworth Expansion",
+    "author": "Hall P.",
+    "year": "1992"
+   },
+   {
+    "key": "CIT0023",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s004400050118"
+   },
+   {
+    "key": "CIT0024",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176346577"
+   },
+   {
+    "key": "CIT0025",
+    "doi-asserted-by": "crossref",
+    "first-page": "63",
+    "DOI": "10.1007/BF02618468",
+    "volume": "9",
+    "author": "Hartigan J. A.",
+    "year": "1992",
+    "journal-title": "Journal of Classification"
+   },
+   {
+    "key": "CIT0026",
+    "volume-title": "Generalized Additive Models",
+    "author": "Hastie T. J.",
+    "year": "1990"
+   },
+   {
+    "key": "CIT0027",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/01621459.1988.10478683"
+   },
+   {
+    "key": "CIT0028",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/01621459.1996.10476701"
+   },
+   {
+    "key": "CIT0029",
+    "first-page": "337",
+    "volume": "11",
+    "author": "Jones M. C.",
+    "year": "1996",
+    "journal-title": "Computational Statistics"
+   },
+   {
+    "key": "CIT0030",
+    "volume-title": "Total Positivity",
+    "author": "Karlin S.",
+    "year": "1968"
+   },
+   {
+    "key": "CIT0031",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/978-1-4757-6465-9",
+    "volume-title": "Scale-Space Theory in Computer Vision",
+    "author": "Lindeberg T.",
+    "year": "1994"
+   },
+   {
+    "key": "CIT0032",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF01194493"
+   },
+   {
+    "key": "CIT0033",
+    "volume-title": "“Interactive Mode Testing,”",
+    "author": "Mammen E.",
+    "year": "1997"
+   },
+   {
+    "key": "CIT0034",
+    "unstructured": "Marron, J. S. and Chaudhuri, P. “Significance of Features via SiZer, Statistical Modeling,”. Proceedings of the 13th International Workshop on Statistical Modeling. New Orleans. Edited by: Marx, B. and Friedl, H."
+   },
+   {
+    "key": "CIT0035",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Marron, J. S. and Chaudhuri, P. “When is a Feature Really There? The SiZer Approach,”. Automatic Target Recognition VII. Edited by: Sadjadi, A. Firooz. Vol. 3371, pp.306–312. Proceedings of the Society of Photooptic and Industrial Engineering",
+    "DOI": "10.1117/12.323850"
+   },
+   {
+    "key": "CIT0036",
+    "volume-title": "“Presentation of Smoothers: The Family Approach,”",
+    "author": "Marron J. S.",
+    "year": "1997"
+   },
+   {
+    "key": "CIT0037",
+    "volume-title": "“Interactive Local Bandwidth Choice,”",
+    "author": "Marron J. S.",
+    "year": "1997"
+   },
+   {
+    "key": "CIT0038",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176348653"
+   },
+   {
+    "key": "CIT0039",
+    "doi-asserted-by": "crossref",
+    "first-page": "1646",
+    "DOI": "10.1214/aos/1031594735",
+    "volume": "25",
+    "author": "Minnotte M. C.",
+    "year": "1997",
+    "journal-title": "The Annals of Statistics"
+   },
+   {
+    "key": "CIT0040",
+    "doi-asserted-by": "crossref",
+    "first-page": "51",
+    "DOI": "10.2307/1390955",
+    "volume": "2",
+    "author": "Minnotte M. C.",
+    "year": "1993",
+    "journal-title": "Journal of Computational and Graphical Statistics"
+   },
+   {
+    "key": "CIT0041",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2290406"
+   },
+   {
+    "key": "CIT0042",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-1-4612-3926-0"
+   },
+   {
+    "key": "CIT0043",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/01621459.1995.10476630"
+   },
+   {
+    "key": "CIT0044",
+    "doi-asserted-by": "crossref",
+    "first-page": "476",
+    "DOI": "10.1017/S0266466600013177",
+    "volume": "8",
+    "author": "Schmitz H. P.",
+    "year": "1992",
+    "journal-title": "Econometric Theory"
+   },
+   {
+    "key": "CIT0045",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1002/9780470316849",
+    "volume-title": "Multivariate Density Estimation, Theory, Practice and Visualization",
+    "author": "Scott D. W.",
+    "year": "1992"
+   },
+   {
+    "key": "CIT0046",
+    "doi-asserted-by": "crossref",
+    "first-page": "97",
+    "DOI": "10.1111/j.2517-6161.1981.tb01155.x",
+    "volume": "43",
+    "author": "Silverman B. W.",
+    "year": "1981",
+    "journal-title": "Journal of the Royal Statistical Society"
+   },
+   {
+    "key": "CIT0047",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/978-1-4899-3324-9",
+    "volume-title": "Density Estimation for Statistics and Data Analysis",
+    "author": "Silverman B. W.",
+    "year": "1986"
+   },
+   {
+    "key": "CIT0048",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-1-4612-4026-6"
+   },
+   {
+    "key": "CIT0049",
+    "doi-asserted-by": "crossref",
+    "first-page": "137",
+    "DOI": "10.1111/j.1751-5823.1998.tb00411.x",
+    "volume": "66",
+    "author": "Simonoff J. S.",
+    "year": "1997",
+    "journal-title": "International Statistical Review"
+   },
+   {
+    "key": "CIT0050",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/01621459.1989.10478766"
+   },
+   {
+    "key": "CIT0051",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/01621459.1987.10478466"
+   },
+   {
+    "key": "CIT0052",
+    "volume-title": "Spline Models for Observational Data",
+    "author": "Wahba G.",
+    "year": "1991"
+   },
+   {
+    "key": "CIT0053",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/978-1-4899-4493-1",
+    "volume-title": "Kernel Smoothing",
+    "author": "Wand M. P.",
+    "year": "1995"
+   }
+  ],
+  "container-title": [
+   "Journal of the American Statistical Association"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://www.tandfonline.com/doi/pdf/10.1080/01621459.1999.10474186",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     3,
+     26
+    ]
+   ],
+   "date-time": "2025-03-26T09:37:00Z",
+   "timestamp": 1742981820000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://www.tandfonline.com/doi/abs/10.1080/01621459.1999.10474186"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1999,
+     9
+    ]
+   ]
+  },
+  "references-count": 53,
+  "aliases": [
+   "10.2307/2669996"
+  ],
+  "journal-issue": {
+   "issue": "447",
+   "published-print": {
+    "date-parts": [
+     [
+      1999,
+      9
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1080/01621459.1999.10474186"
+  ],
+  "URL": "https://doi.org/10.1080/01621459.1999.10474186",
+  "relation": {},
+  "ISSN": [
+   "0162-1459",
+   "1537-274X"
+  ],
+  "issn-type": [
+   {
+    "value": "0162-1459",
+    "type": "print"
+   },
+   {
+    "value": "1537-274X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1999,
+     9
+    ]
+   ]
+  }
+ },
+ "10.1214/aos/1176346577": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     19
+    ]
+   ],
+   "date-time": "2026-08-19T08:41:17Z",
+   "timestamp": 1787128877087,
+   "version": "3.56.0"
+  },
+  "reference-count": 0,
+  "publisher": "Institute of Mathematical Statistics",
+  "issue": "1",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Ann. Statist."
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1985,
+     3,
+     1
+    ]
+   ]
+  },
+  "DOI": "10.1214/aos/1176346577",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2007,
+     12,
+     17
+    ]
+   ],
+   "date-time": "2007-12-17T20:36:11Z",
+   "timestamp": 1197923771000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 1685,
+  "title": [
+   "The Dip Test of Unimodality"
+  ],
+  "prefix": "10.1214",
+  "volume": "13",
+  "author": [
+   {
+    "given": "J. A.",
+    "family": "Hartigan",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "P. M.",
+    "family": "Hartigan",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "108",
+  "container-title": [
+   "The Annals of Statistics"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://projecteuclid.org/download/pdf_1/euclid.aos/1176346577",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     5,
+     9
+    ]
+   ],
+   "date-time": "2021-05-09T01:28:36Z",
+   "timestamp": 1620523716000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://projecteuclid.org/journals/annals-of-statistics/volume-13/issue-1/The-Dip-Test-of-Unimodality/10.1214/aos/1176346577.full"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1985,
+     3,
+     1
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "1",
+   "published-online": {
+    "date-parts": [
+     [
+      1985,
+      3,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1214/aos/1176346577",
+  "relation": {},
+  "ISSN": [
+   "0090-5364"
+  ],
+  "issn-type": [
+   {
+    "value": "0090-5364",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1985,
+     3,
+     1
+    ]
+   ]
+  }
+ },
+ "10.2307/2331058": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     1,
+     10
+    ]
+   ],
+   "date-time": "2026-01-10T01:24:33Z",
+   "timestamp": 1768008273398,
+   "version": "3.49.0"
+  },
+  "reference-count": 0,
+  "publisher": "JSTOR",
+  "issue": "5",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "The Journal of Financial and Quantitative Analysis"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1981,
+     12
+    ]
+   ]
+  },
+  "DOI": "10.2307/2331058",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2006,
+     5,
+     5
+    ]
+   ],
+   "date-time": "2006-05-05T19:37:30Z",
+   "timestamp": 1146857850000
+  },
+  "page": "747",
+  "source": "Crossref",
+  "is-referenced-by-count": 22,
+  "title": [
+   "Beta Stationarity and Estimation Period: Some Analytical Results"
+  ],
+  "prefix": "10.2307",
+  "volume": "16",
+  "author": [
+   {
+    "given": "Michael",
+    "family": "Theobald",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "1121",
+  "container-title": [
+   "The Journal of Financial and Quantitative Analysis"
+  ],
+  "original-title": [],
+  "deposited": {
+   "date-parts": [
+    [
+     2018,
+     4,
+     17
+    ]
+   ],
+   "date-time": "2018-04-17T22:13:07Z",
+   "timestamp": 1524003187000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.jstor.org/stable/2331058?origin=crossref"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1981,
+     12
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "5",
+   "published-print": {
+    "date-parts": [
+     [
+      1981,
+      12
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.2307/2331058",
+  "relation": {},
+  "ISSN": [
+   "0022-1090"
+  ],
+  "issn-type": [
+   {
+    "value": "0022-1090",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1981,
+     12
+    ]
+   ]
+  }
+ },
+ "10.1016/S0927-5398(97)00022-4": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     3,
+     25
+    ]
+   ],
+   "date-time": "2026-03-25T11:14:51Z",
+   "timestamp": 1774437291433,
+   "version": "3.50.1"
+  },
+  "reference-count": 20,
+  "publisher": "Elsevier BV",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1998,
+       10,
+       1
+      ]
+     ],
+     "date-time": "1998-10-01T00:00:00Z",
+     "timestamp": 907200000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Journal of Empirical Finance"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1998,
+     10
+    ]
+   ]
+  },
+  "DOI": "10.1016/s0927-5398(97)00022-4",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2002,
+     7,
+     25
+    ]
+   ],
+   "date-time": "2002-07-25T18:57:00Z",
+   "timestamp": 1027623420000
+  },
+  "page": "347-359",
+  "source": "Crossref",
+  "is-referenced-by-count": 182,
+  "title": [
+   "The predictability of security returns with simple technical trading rules"
+  ],
+  "prefix": "10.1016",
+  "volume": "5",
+  "author": [
+   {
+    "given": "Ramazan",
+    "family": "Gençay",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1731",
+    "DOI": "10.2307/2328994",
+    "article-title": "Simple technical trading rules and the stochastic properties of stock returns",
+    "volume": "47",
+    "author": "Brock",
+    "year": "1992",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB2",
+    "doi-asserted-by": "crossref",
+    "first-page": "235",
+    "DOI": "10.1016/0304-405X(92)90005-I",
+    "article-title": "Performance measurement methodology and the question of whether stocks overreact",
+    "volume": "31",
+    "author": "Chopra",
+    "year": "1992",
+    "journal-title": "Journal of Financial Economics"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB3",
+    "doi-asserted-by": "crossref",
+    "first-page": "409",
+    "DOI": "10.1086/296441",
+    "article-title": "Time-variation in expected returns",
+    "volume": "61",
+    "author": "Conrad",
+    "year": "1988",
+    "journal-title": "Journal of Business"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB4",
+    "doi-asserted-by": "crossref",
+    "first-page": "529",
+    "DOI": "10.2307/2298010",
+    "article-title": "Speculative dynamics",
+    "volume": "58",
+    "author": "Cutler",
+    "year": "1991",
+    "journal-title": "Review of Economic Studies"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB5",
+    "doi-asserted-by": "crossref",
+    "first-page": "303",
+    "DOI": "10.1007/BF02551274",
+    "article-title": "Approximation by superposition of a sigmoidal function",
+    "volume": "2",
+    "author": "Cybenko",
+    "year": "1989",
+    "journal-title": "Mathematics of Control, Signals and Systems"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB6",
+    "doi-asserted-by": "crossref",
+    "first-page": "793",
+    "DOI": "10.2307/2327804",
+    "article-title": "Does the stock market overreact",
+    "volume": "40",
+    "author": "De Bondt",
+    "year": "1985",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB7",
+    "first-page": "246",
+    "article-title": "Permanent and temporary components of stock prices",
+    "volume": "98",
+    "author": "Fama",
+    "year": "1986",
+    "journal-title": "Journal of Political Economy"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB8",
+    "doi-asserted-by": "crossref",
+    "first-page": "5",
+    "DOI": "10.1016/0304-405X(86)90004-8",
+    "article-title": "Stock return variances: The arrival of information and the reaction of traders",
+    "volume": "17",
+    "author": "French",
+    "year": "1986",
+    "journal-title": "Journal of Financial Economics"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB9",
+    "doi-asserted-by": "crossref",
+    "first-page": "183",
+    "DOI": "10.1016/0893-6080(89)90003-8",
+    "article-title": "On the approximate realization of continuous mappings by neural networks",
+    "volume": "2",
+    "author": "Funahashi",
+    "year": "1989",
+    "journal-title": "Neural Networks"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB10",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Gallant, A.R., White, H., 1988. There exists a neural network that does not make avoidable mistakes. Proceedings of the Second Annual IEEE Conference on Neural Networks, San Diego, CA. IEEE Press, New York, pp. I.657–I.664.",
+    "DOI": "10.1109/ICNN.1988.23903"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB11",
+    "doi-asserted-by": "crossref",
+    "first-page": "129",
+    "DOI": "10.1016/S0893-6080(05)80011-5",
+    "article-title": "On learning the derivatives of an unknown mapping with multilayer feedforward networks",
+    "volume": "5",
+    "author": "Gallant",
+    "year": "1992",
+    "journal-title": "Neural Networks"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB12",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Hecht-Nielsen, R., 1989. Theory of the backpropagation neural networks. Proceedings of the International Joint Conference on Neural Networks, Washington, DC. IEEE Press, New York, pp. I.593–I.605.",
+    "DOI": "10.1109/IJCNN.1989.118638"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB13",
+    "doi-asserted-by": "crossref",
+    "first-page": "359",
+    "DOI": "10.1016/0893-6080(89)90020-8",
+    "article-title": "Multilayer feedforward networks are universal approximators",
+    "volume": "2",
+    "author": "Hornik",
+    "year": "1989",
+    "journal-title": "Neural Networks"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB14",
+    "doi-asserted-by": "crossref",
+    "first-page": "551",
+    "DOI": "10.1016/0893-6080(90)90005-6",
+    "article-title": "Universal approximation of an unknown mapping and its derivatives using multilayer feedforward networks",
+    "volume": "3",
+    "author": "Hornik",
+    "year": "1990",
+    "journal-title": "Neural Networks"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB15",
+    "doi-asserted-by": "crossref",
+    "first-page": "881",
+    "DOI": "10.2307/2328797",
+    "article-title": "Evidence of predictable behavior of security returns",
+    "volume": "45",
+    "author": "Jegadeesh",
+    "year": "1990",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB16",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1080/07474939408800273",
+    "article-title": "Artificial neural networks: An econometric perspective",
+    "volume": "13",
+    "author": "Kuan",
+    "year": "1994",
+    "journal-title": "Econometric Reviews"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB17",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.2307/2937816",
+    "article-title": "Fads, martingales and market efficiency",
+    "volume": "105",
+    "author": "Lehmann",
+    "year": "1990",
+    "journal-title": "Quarterly Journal of Economics"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB18",
+    "doi-asserted-by": "crossref",
+    "first-page": "41",
+    "DOI": "10.1093/rfs/1.1.41",
+    "article-title": "Stock market prices do not follow random walks: Evidence from a simple specification test",
+    "volume": "1",
+    "author": "Lo",
+    "year": "1988",
+    "journal-title": "Review of Financial Studies"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB19",
+    "doi-asserted-by": "crossref",
+    "first-page": "175",
+    "DOI": "10.1093/rfs/3.2.175",
+    "article-title": "When are contrarian profits due to stock market overreaction?",
+    "volume": "3",
+    "author": "Lo",
+    "year": "1990",
+    "journal-title": "Review of Financial Studies"
+   },
+   {
+    "key": "10.1016/S0927-5398(97)00022-4_BIB20",
+    "doi-asserted-by": "crossref",
+    "first-page": "27",
+    "DOI": "10.1016/0304-405X(88)90021-9",
+    "article-title": "Mean reversion in stock prices: Evidence and implications",
+    "volume": "22",
+    "author": "Poterba",
+    "year": "1988",
+    "journal-title": "Journal of Financial Economics"
+   }
+  ],
+  "container-title": [
+   "Journal of Empirical Finance"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0927539897000224?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0927539897000224?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     4,
+     23
+    ]
+   ],
+   "date-time": "2019-04-23T05:54:40Z",
+   "timestamp": 1555998880000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0927539897000224"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1998,
+     10
+    ]
+   ]
+  },
+  "references-count": 20,
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      1998,
+      10
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0927539897000224"
+  ],
+  "URL": "https://doi.org/10.1016/s0927-5398(97)00022-4",
+  "relation": {},
+  "ISSN": [
+   "0927-5398"
+  ],
+  "issn-type": [
+   {
+    "value": "0927-5398",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1998,
+     10
+    ]
+   ]
+  }
+ },
+ "10.2469/faj.v58.n4.2453": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     13
+    ]
+   ],
+   "date-time": "2026-08-13T20:45:55Z",
+   "timestamp": 1786653955574,
+   "version": "3.56.0"
+  },
+  "reference-count": 24,
+  "publisher": "Informa UK Limited",
+  "issue": "4",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Financial Analysts Journal"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2002,
+     7
+    ]
+   ]
+  },
+  "DOI": "10.2469/faj.v58.n4.2453",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2006,
+     2,
+     27
+    ]
+   ],
+   "date-time": "2006-02-27T13:01:24Z",
+   "timestamp": 1141045284000
+  },
+  "page": "36-52",
+  "source": "Crossref",
+  "is-referenced-by-count": 603,
+  "title": [
+   "The Statistics of Sharpe Ratios"
+  ],
+  "prefix": "10.1080",
+  "volume": "58",
+  "author": [
+   {
+    "given": "Andrew W.",
+    "family": "Lo",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Andrew W. Lo is Harris &amp; Harris Group Professor at the Sloan School of Management, Massachusetts Institute of Technology, Cambridge, and chief scientific officer for AlphaSimplex Group, LLC, Cambridge."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "301",
+  "published-online": {
+   "date-parts": [
+    [
+     2019,
+     1,
+     2
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "issue": "3",
+    "key": "atypb1",
+    "doi-asserted-by": "crossref",
+    "first-page": "833",
+    "DOI": "10.1111/0022-1082.00129",
+    "volume": "54",
+    "author": "Ackermann C.",
+    "year": "1999",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "atypb2",
+    "volume-title": "Mathematical Statistics: Basic Ideas and Selected Topics",
+    "author": "Bickel P.",
+    "year": "1977"
+   },
+   {
+    "issue": "3",
+    "key": "atypb3",
+    "doi-asserted-by": "crossref",
+    "first-page": "18",
+    "DOI": "10.2469/faj.v51.n3.1901",
+    "volume": "51",
+    "author": "Bodie Z.",
+    "year": "1995",
+    "journal-title": "Financial Analysts Journal"
+   },
+   {
+    "issue": "1",
+    "key": "atypb4",
+    "doi-asserted-by": "crossref",
+    "first-page": "91",
+    "DOI": "10.1086/209603",
+    "volume": "72",
+    "author": "Brown S.",
+    "year": "1999",
+    "journal-title": "Journal of Business"
+   },
+   {
+    "issue": "5",
+    "key": "atypb5",
+    "doi-asserted-by": "crossref",
+    "first-page": "1869",
+    "DOI": "10.1111/0022-1082.00392",
+    "volume": "56",
+    "author": "Brown S.",
+    "year": "1997",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "atypb6",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1515/9781400830213",
+    "volume-title": "The Econometrics of Financial Markets",
+    "author": "Campbell J.",
+    "year": "1997"
+   },
+   {
+    "issue": "2",
+    "key": "atypb7",
+    "doi-asserted-by": "crossref",
+    "first-page": "75",
+    "DOI": "10.1093/rfs/10.2.275",
+    "volume": "10",
+    "author": "Fung W.",
+    "year": "1997",
+    "journal-title": "Review of Financial Studies"
+   },
+   {
+    "issue": "1",
+    "key": "atypb8",
+    "doi-asserted-by": "crossref",
+    "first-page": "30",
+    "DOI": "10.3905/jpm.1997.409630",
+    "volume": "24",
+    "author": "Fung W.",
+    "year": "1997",
+    "journal-title": "Journal of Portfolio Management"
+   },
+   {
+    "issue": "3",
+    "key": "atypb9",
+    "doi-asserted-by": "crossref",
+    "first-page": "291",
+    "DOI": "10.2307/2676205",
+    "volume": "35",
+    "author": "Fung W.",
+    "year": "2000",
+    "journal-title": "Journal of Financial and Quantitative Analysis"
+   },
+   {
+    "issue": "4",
+    "key": "atypb11",
+    "doi-asserted-by": "crossref",
+    "first-page": "1029",
+    "DOI": "10.2307/1912775",
+    "volume": "50",
+    "author": "Hansen L.",
+    "year": "1982",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "atypb12",
+    "volume-title": "Time Series Models",
+    "author": "Harvey A.",
+    "year": "1981"
+   },
+   {
+    "issue": "4",
+    "key": "atypb13",
+    "doi-asserted-by": "crossref",
+    "first-page": "72",
+    "DOI": "10.2469/faj.v55.n4.2287",
+    "volume": "55",
+    "author": "Liang B.",
+    "year": "1999",
+    "journal-title": "Financial Analysts Journal"
+   },
+   {
+    "issue": "3",
+    "key": "atypb14",
+    "doi-asserted-by": "crossref",
+    "first-page": "309",
+    "DOI": "10.2307/2676206",
+    "volume": "35",
+    "author": "Liang B.",
+    "year": "2000",
+    "journal-title": "Journal of Financial and Quantitative Analysis"
+   },
+   {
+    "issue": "1",
+    "key": "atypb15",
+    "doi-asserted-by": "crossref",
+    "first-page": "11",
+    "DOI": "10.2469/faj.v57.n1.2415",
+    "volume": "57",
+    "author": "Liang B.",
+    "year": "2001",
+    "journal-title": "Financial Analysts Journal"
+   },
+   {
+    "issue": "1",
+    "key": "atypb16",
+    "doi-asserted-by": "crossref",
+    "first-page": "297",
+    "DOI": "10.1093/biomet/65.2.297",
+    "volume": "65",
+    "author": "Ljung G.",
+    "year": "1978",
+    "journal-title": "Biometrika"
+   },
+   {
+    "issue": "6",
+    "key": "atypb17",
+    "doi-asserted-by": "crossref",
+    "first-page": "16",
+    "DOI": "10.2469/faj.v57.n6.2490",
+    "volume": "57",
+    "author": "Lo A.",
+    "year": "2001",
+    "journal-title": "Financial Analysts Journal"
+   },
+   {
+    "key": "atypb18",
+    "volume-title": "A Non-Random Walk Down Wall Street",
+    "author": "Lo A.",
+    "year": "1999"
+   },
+   {
+    "key": "atypb19",
+    "volume-title": "Matrix Differential Calculus: With Applications in Statistics and Economics",
+    "author": "Magnus J.",
+    "year": "1988"
+   },
+   {
+    "issue": "4",
+    "key": "atypb20",
+    "doi-asserted-by": "crossref",
+    "first-page": "323",
+    "DOI": "10.1016/0304-405X(80)90007-0",
+    "volume": "8",
+    "author": "Merton R.",
+    "year": "1980",
+    "journal-title": "Journal of Financial Economics"
+   },
+   {
+    "issue": "3",
+    "key": "atypb21",
+    "doi-asserted-by": "crossref",
+    "first-page": "703",
+    "DOI": "10.2307/1913610",
+    "volume": "55",
+    "author": "Newey W.",
+    "year": "1987",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "atypb22",
+    "volume-title": "Introduction to the Theory of Nonparametric Statistics",
+    "author": "Randles R.",
+    "year": "1979"
+   },
+   {
+    "issue": "1",
+    "key": "atypb23",
+    "doi-asserted-by": "crossref",
+    "first-page": "49",
+    "DOI": "10.3905/jpm.1994.409501",
+    "volume": "21",
+    "author": "Sharpe W.",
+    "year": "1994",
+    "journal-title": "Journal of Portfolio Management"
+   },
+   {
+    "issue": "4",
+    "key": "atypb24",
+    "doi-asserted-by": "crossref",
+    "first-page": "381",
+    "DOI": "10.1016/0165-1765(85)90058-8",
+    "volume": "18",
+    "author": "Shiller R.",
+    "year": "1985",
+    "journal-title": "Economics Letters"
+   },
+   {
+    "key": "atypb25",
+    "volume-title": "Asymptotic Theory for Econometricians",
+    "author": "White H.",
+    "year": "1984"
+   }
+  ],
+  "container-title": [
+   "Financial Analysts Journal"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.tandfonline.com/doi/pdf/10.2469/faj.v58.n4.2453",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2020,
+     4,
+     12
+    ]
+   ],
+   "date-time": "2020-04-12T23:01:14Z",
+   "timestamp": 1586732474000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.tandfonline.com/doi/full/10.2469/faj.v58.n4.2453"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2002,
+     7
+    ]
+   ]
+  },
+  "references-count": 24,
+  "journal-issue": {
+   "issue": "4",
+   "published-online": {
+    "date-parts": [
+     [
+      2019,
+      1,
+      2
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2002,
+      7
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.2469/faj.v58.n4.2453"
+  ],
+  "URL": "https://doi.org/10.2469/faj.v58.n4.2453",
+  "relation": {},
+  "ISSN": [
+   "0015-198X",
+   "1938-3312"
+  ],
+  "issn-type": [
+   {
+    "value": "0015-198X",
+    "type": "print"
+   },
+   {
+    "value": "1938-3312",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2002,
+     7
+    ]
+   ]
+  }
+ },
+ "10.1016/j.jempfin.2008.03.002": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     11
+    ]
+   ],
+   "date-time": "2026-08-11T07:11:28Z",
+   "timestamp": 1786432288807,
+   "version": "3.56.0"
+  },
+  "reference-count": 34,
+  "publisher": "Elsevier BV",
+  "issue": "5",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2008,
+       12,
+       1
+      ]
+     ],
+     "date-time": "2008-12-01T00:00:00Z",
+     "timestamp": 1228089600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Journal of Empirical Finance"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2008,
+     12
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.jempfin.2008.03.002",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2008,
+     4,
+     15
+    ]
+   ],
+   "date-time": "2008-04-15T16:00:59Z",
+   "timestamp": 1208275259000
+  },
+  "page": "850-859",
+  "source": "Crossref",
+  "is-referenced-by-count": 852,
+  "title": [
+   "Robust performance hypothesis testing with the Sharpe ratio"
+  ],
+  "prefix": "10.1016",
+  "volume": "15",
+  "author": [
+   {
+    "given": "Oliver",
+    "family": "Ledoit",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael",
+    "family": "Wolf",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib1",
+    "series-title": "Market Models: A Guide To Financial Data Analysis",
+    "author": "Alexander",
+    "year": "2001"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "817",
+    "DOI": "10.2307/2938229",
+    "article-title": "Heteroskedasticity and autocorrelation consistent covariance matrix estimation",
+    "volume": "59",
+    "author": "Andrews",
+    "year": "1991",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "953",
+    "DOI": "10.2307/2951574",
+    "article-title": "An improved heteroskedasticity and autocorrelation consistent covariance matrix estimator",
+    "volume": "60",
+    "author": "Andrews",
+    "year": "1992",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "498",
+    "DOI": "10.2307/2109358",
+    "article-title": "Modelling the coherence in short-run nominal exchange rates: a multivariate generalized ARCH model",
+    "volume": "72",
+    "author": "Bollerslev",
+    "year": "1988",
+    "journal-title": "Review of Economics and Statistics"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "26",
+    "DOI": "10.3905/jai.2002.319053",
+    "article-title": "The statistical properties of hedge fund index returns and their inplications for investors",
+    "volume": "5",
+    "author": "Brooks",
+    "year": "2002",
+    "journal-title": "Journal of Alternative Investments"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib6",
+    "series-title": "The Econometrics of Financial Markets",
+    "author": "Campbell",
+    "year": "1997"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib7",
+    "series-title": "Working paper",
+    "article-title": "Portfolio selection with robust estimation",
+    "author": "DeMiguel",
+    "year": "2007"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib8",
+    "unstructured": "DeMiguel, V., Garlappi, L., Uppal, R., in press. Optimal versus naive diversification: How inefficient is the 1/N portfolio strategy? Review of Financial Studies."
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib9",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1214/aos/1176344552",
+    "article-title": "Bootstrap methods: another look at the jackknife",
+    "volume": "7",
+    "author": "Efron",
+    "year": "1979",
+    "journal-title": "Annals of Statistics"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib10",
+    "doi-asserted-by": "crossref",
+    "first-page": "2632",
+    "DOI": "10.1016/j.jbankfin.2006.09.015",
+    "article-title": "Does the choice of performance measure influence the evaluation of hedge funds?",
+    "volume": "31",
+    "author": "Eling",
+    "year": "2007",
+    "journal-title": "Journal of Banking & Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "397",
+    "DOI": "10.1057/palgrave.jam.2240156",
+    "article-title": "Style portfolio performance: evidence from the Spanish equity funds",
+    "volume": "5",
+    "author": "Ferruz",
+    "year": "2005",
+    "journal-title": "Journal of Asset Management"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jempfin.2008.03.002_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "89",
+    "DOI": "10.1080/13518470601025243",
+    "article-title": "Stochastic dominance of iShares",
+    "volume": "13",
+    "author": "Gasbarro",
+    "year": "2007",
+    "journal-title": "European Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "1914",
+    "DOI": "10.1214/aos/1069362303",
+    "article-title": "Second order correctness of the blockwise bootstrap for stationary observations",
+    "volume": "24",
+    "author": "Götze",
+    "year": "1996",
+    "journal-title": "Annals of Statistics"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib14",
+    "series-title": "The Bootstrap and Edgeworth Expansion",
+    "author": "Hall",
+    "year": "1992"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jempfin.2008.03.002_bib15",
+    "first-page": "49",
+    "article-title": "Sharpening the Sharpe ratio",
+    "volume": "33",
+    "author": "Israelsen",
+    "year": "2003",
+    "journal-title": "Financial Planning"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib16",
+    "doi-asserted-by": "crossref",
+    "first-page": "423",
+    "DOI": "10.1057/palgrave.jam.2240158",
+    "article-title": "A refinement to the Sharpe ratio and Information ratio",
+    "volume": "5",
+    "author": "Israelsen",
+    "year": "2005",
+    "journal-title": "Journal of Asset Management"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "889",
+    "DOI": "10.2307/2327554",
+    "article-title": "Performance hypothesis testing with the Sharpe and Treynor measures",
+    "volume": "36",
+    "author": "Jobson",
+    "year": "1981",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib18",
+    "doi-asserted-by": "crossref",
+    "first-page": "53",
+    "DOI": "10.1093/jjfinec/nbj002",
+    "article-title": "Value-at-risk prediction: a comparison of alternative strategies",
+    "volume": "4",
+    "author": "Kuester",
+    "year": "2006",
+    "journal-title": "Journal of Financial Econometrics"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib19",
+    "doi-asserted-by": "crossref",
+    "first-page": "1217",
+    "DOI": "10.1214/aos/1176347265",
+    "article-title": "The jackknife and the bootstrap for general stationary observations",
+    "volume": "17",
+    "author": "Künsch",
+    "year": "1989",
+    "journal-title": "Annals of Statistics"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib20",
+    "series-title": "Resampling Methods for Dependent Data",
+    "author": "Lahiri",
+    "year": "2003"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jempfin.2008.03.002_bib21",
+    "doi-asserted-by": "crossref",
+    "first-page": "735",
+    "DOI": "10.1162/003465303322369858",
+    "article-title": "Flexible multivariate GARCH modeling with an application to international stock markets",
+    "volume": "85",
+    "author": "Ledoit",
+    "year": "2003",
+    "journal-title": "Review of Economics and Statistics"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jempfin.2008.03.002_bib22",
+    "doi-asserted-by": "crossref",
+    "first-page": "36",
+    "DOI": "10.2469/faj.v58.n4.2453",
+    "article-title": "The statistics of Sharpe ratios",
+    "volume": "58",
+    "author": "Lo",
+    "year": "2002",
+    "journal-title": "Financial Analysts Journal"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib23",
+    "doi-asserted-by": "crossref",
+    "first-page": "155",
+    "DOI": "10.2307/2289142",
+    "article-title": "Calibrating confidence coefficients",
+    "volume": "82",
+    "author": "Loh",
+    "year": "1987",
+    "journal-title": "Journal of the American Statistical Association"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jempfin.2008.03.002_bib24",
+    "doi-asserted-by": "crossref",
+    "first-page": "80",
+    "DOI": "10.2469/faj.v61.n6.2775",
+    "article-title": "Hedge funds: risk and return",
+    "volume": "61",
+    "author": "Malkiel",
+    "year": "2005",
+    "journal-title": "Financial Analysts Journal"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib25",
+    "first-page": "21",
+    "article-title": "Performance hypothesis testing with the Sharpe ratio",
+    "volume": "1",
+    "author": "Memmel",
+    "year": "2003",
+    "journal-title": "Finance Letters"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "631",
+    "DOI": "10.2307/2297912",
+    "article-title": "Automatic lag selection in covariance matrix estimation",
+    "volume": "61",
+    "author": "Newey",
+    "year": "1994",
+    "journal-title": "Review of Economic Studies"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jempfin.2008.03.002_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "308",
+    "DOI": "10.1057/palgrave.jam.2250084",
+    "article-title": "Comparing Sharpe ratios: so where are the p-values?",
+    "volume": "8",
+    "author": "Opdyke",
+    "year": "2007",
+    "journal-title": "Journal of Asset Management"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib28",
+    "series-title": "Exploring the Limits of Bootstrap",
+    "first-page": "263",
+    "article-title": "A circular block-resampling procedure for stationary data",
+    "author": "Politis",
+    "year": "1992"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib29",
+    "doi-asserted-by": "crossref",
+    "first-page": "1303",
+    "DOI": "10.2307/2290993",
+    "article-title": "The stationary bootstrap",
+    "volume": "89",
+    "author": "Politis",
+    "year": "1994",
+    "journal-title": "Journal of the American Statistical Association"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib30",
+    "series-title": "Subsampling",
+    "author": "Politis",
+    "year": "1999"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jempfin.2008.03.002_bib31",
+    "doi-asserted-by": "crossref",
+    "first-page": "199",
+    "DOI": "10.1080/10485250600687812",
+    "article-title": "Improved nonparametric confidence intervals in time series regressions",
+    "volume": "18",
+    "author": "Romano",
+    "year": "2006",
+    "journal-title": "Journal of Nonparametric Statistics"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jempfin.2008.03.002_bib32",
+    "doi-asserted-by": "crossref",
+    "first-page": "404",
+    "DOI": "10.1017/S0266466608080171",
+    "article-title": "Formalized data snooping based on generalized error rates",
+    "volume": "24",
+    "author": "Romano",
+    "year": "2008",
+    "journal-title": "Econometric Theory"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jempfin.2008.03.002_bib33",
+    "doi-asserted-by": "crossref",
+    "first-page": "5",
+    "DOI": "10.1057/palgrave.jam.2240123",
+    "article-title": "An alternative route to hypothesis testing",
+    "volume": "5",
+    "author": "Scherer",
+    "year": "2004",
+    "journal-title": "Journal of Asset Management"
+   },
+   {
+    "key": "10.1016/j.jempfin.2008.03.002_bib34",
+    "series-title": "Computational Finance 1999",
+    "first-page": "25",
+    "article-title": "Confidence intervals and hypothesis testing for the Sharpe and Treynor performance measures: a bootstrap approach",
+    "author": "Vinod",
+    "year": "1999"
+   }
+  ],
+  "container-title": [
+   "Journal of Empirical Finance"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0927539808000182?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0927539808000182?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2018,
+     12,
+     29
+    ]
+   ],
+   "date-time": "2018-12-29T21:52:17Z",
+   "timestamp": 1546120337000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0927539808000182"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2008,
+     12
+    ]
+   ]
+  },
+  "references-count": 34,
+  "journal-issue": {
+   "issue": "5",
+   "published-print": {
+    "date-parts": [
+     [
+      2008,
+      12
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0927539808000182"
+  ],
+  "URL": "https://doi.org/10.1016/j.jempfin.2008.03.002",
+  "relation": {},
+  "ISSN": [
+   "0927-5398"
+  ],
+  "issn-type": [
+   {
+    "value": "0927-5398",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2008,
+     12
+    ]
+   ]
+  }
+ },
+ "10.1214/aos/1176350951": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     18
+    ]
+   ],
+   "date-time": "2026-08-18T14:21:51Z",
+   "timestamp": 1787062911731,
+   "version": "3.56.0"
+  },
+  "reference-count": 0,
+  "publisher": "Institute of Mathematical Statistics",
+  "issue": "3",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Ann. Statist."
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1988,
+     9,
+     1
+    ]
+   ]
+  },
+  "DOI": "10.1214/aos/1176350951",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2007,
+     12,
+     17
+    ]
+   ],
+   "date-time": "2007-12-17T15:43:48Z",
+   "timestamp": 1197906228000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 4213,
+  "title": [
+   "A Class of $K$-Sample Tests for Comparing the Cumulative Incidence of a Competing Risk"
+  ],
+  "prefix": "10.1214",
+  "volume": "16",
+  "author": [
+   {
+    "given": "Robert J.",
+    "family": "Gray",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "108",
+  "container-title": [
+   "The Annals of Statistics"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://projecteuclid.org/download/pdf_1/euclid.aos/1176350951",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     5,
+     8
+    ]
+   ],
+   "date-time": "2021-05-08T22:05:56Z",
+   "timestamp": 1620511556000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://projecteuclid.org/journals/annals-of-statistics/volume-16/issue-3/A-Class-of-K-Sample-Tests-for-Comparing-the-Cumulative/10.1214/aos/1176350951.full"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1988,
+     9,
+     1
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "3",
+   "published-online": {
+    "date-parts": [
+     [
+      1988,
+      9,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1214/aos/1176350951",
+  "relation": {},
+  "ISSN": [
+   "0090-5364"
+  ],
+  "issn-type": [
+   {
+    "value": "0090-5364",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1988,
+     9,
+     1
+    ]
+   ]
+  }
+ }
+}

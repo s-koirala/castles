@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0SHJbC6md40ExPvg109wcM0s+UM</id>
+  <title>arXiv Query: search_query=abs:"Hurst exponent" AND (abs:"finite sample" OR abs:"bias" OR abs:"estimator")&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-08-21T14:43:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22Hurst+exponent%22+AND+(abs:%22finite+sample%22+OR+(abs:%22bias%22+OR+abs:%22estimator%22))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>137</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2003.08787v1</id>
+    <title>A comparison of Hurst exponent estimators in long-range dependent curve time series</title>
+    <updated>2020-03-17T21:51:45Z</updated>
+    <link href="https://arxiv.org/abs/2003.08787v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.08787v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Hurst exponent is the simplest numerical summary of self-similar long-range dependent stochastic processes. We consider the estimation of Hurst exponent in long-range dependent curve time series. Our estimation method begins by constructing an estimate of the long-run covariance function, which we use, via dynamic functional principal component analysis, in estimating the orthonormal functions spanning the dominant sub-space of functional time series. Within the context of functional autoregressive fractionally integrated moving average models, we compare finite-sample bias, variance and mean square error among some time- and frequency-domain Hurst exponent estimators and make our recommendations.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-17T21:51:45Z</published>
+    <arxiv:comment>36 pages, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <arxiv:journal_ref>Journal of Time Series Econometrics, 2020, 12(1)</arxiv:journal_ref>
+    <author>
+      <name>Han Lin Shang</name>
+    </author>
+    <arxiv:doi>10.1515/jtse-2019-0009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1515/jtse-2019-0009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.03984v1</id>
+    <title>Traffic Flows Analysis in High-Speed Computer Networks Using Time Series</title>
+    <updated>2021-03-05T23:51:36Z</updated>
+    <link href="https://arxiv.org/abs/2103.03984v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.03984v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article explores the required amount of time series points from a high-speed traffic network to accurately estimate the Hurst exponent. The methodology consists in designing an experiment using estimators that are applied to time series, followed by addressing the minimum amount of points required to obtain accurate estimates of the Hurst exponent in real-time. The methodology addresses the exhaustive analysis of the Hurst exponent considering bias behavior, standard deviation, mean square error, and convergence using fractional gaussian noise signals with stationary increases. Our results show that the Whittle estimator successfully estimates the Hurst exponent in series with few points. Based on the results obtained, a minimum length for the time series is empirically proposed. Finally, to validate the results, the methodology is applied to real traffic captures in a high-speed network based on the IEEE 802.3ab standard.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-05T23:51:36Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:2103.02091</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>G. Millán</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.02091v2</id>
+    <title>Preliminaries on the Accurate Estimation of the Hurst Exponent Using Time Series</title>
+    <updated>2021-04-29T23:25:56Z</updated>
+    <link href="https://arxiv.org/abs/2103.02091v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.02091v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article explores the required amount of time series points from a high-speed computer network to accurately estimate the Hurst exponent. The methodology consists in designing an experiment using estimators that are applied to time series addresses resulting from the capture of high-speed network traffic, followed by addressing the minimum amount of point required to obtain in accurate estimates of the Hurst exponent. The methodology addresses the exhaustive analysis of the Hurst exponent considering bias behaviour, standard deviation, and Mean Squared Error using fractional Gaussian noise signals with stationary increases. Our results show that the Whittle estimator successfully estimates the Hurst exponent in series with few points. Based on the results obtained, a minimum length for the time series is empirically proposed. Finally, to validate the results, the methodology is applied to real traffic captures in a high-speed computer network.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-02T23:39:55Z</published>
+    <arxiv:comment>This work has been submitted to the IEEE for possible publication. arXiv admin note: substantial text overlap with arXiv:2103.03984</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <arxiv:journal_ref>2021 IEEE International Conference on Automation/XXIV Congress of the Chilean Association of Automatic Control (ICA-ACCA)</arxiv:journal_ref>
+    <author>
+      <name>Ginno Millán</name>
+    </author>
+    <author>
+      <name>Román Osorio-Comparán</name>
+    </author>
+    <author>
+      <name>Gastón Lefranc</name>
+    </author>
+    <arxiv:doi>10.1109/ICAACCA51523.2021.9465274</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICAACCA51523.2021.9465274" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0708.1628v1</id>
+    <title>Blocks adjustment -- reduction of bias and variance of detrended fluctuation analysis using Monte Carlo simulation</title>
+    <updated>2007-08-12T20:53:18Z</updated>
+    <link href="https://arxiv.org/abs/0708.1628v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0708.1628v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The length of minimal and maximal blocks equally distant on log-log scale versus fluctuation function considerably influences bias and variance of DFA. Through a number of extensive Monte Carlo simulations and different fractional Brownian motion/fractional Gaussian noise generators, we found the pair of minimal and maximal blocks that minimizes the sum of mean-squared error of estimated Hurst exponents for the series of length N=2^p, p=7,...,15. Sensitivity of DFA to sort-range correlations was examined using ARFIMA(p,d,q) generator. Due to the bias of the estimator for anti-persistent processes, we narrowed down the range of Hurst exponent to 1/2&lt;=H&lt; 1.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-08-12T20:53:18Z</published>
+    <arxiv:comment>20 pages, 14 figures, accepted for publication in Physica A: August 9, 2007</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Sebastian Michalski</name>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2007.08.018</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2007.08.018" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.4786v1</id>
+    <title>On Hurst exponent estimation under heavy-tailed distributions</title>
+    <updated>2012-01-23T17:49:40Z</updated>
+    <link href="https://arxiv.org/abs/1201.4786v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.4786v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we show how the sampling properties of the Hurst exponent methods of estimation change with the presence of heavy tails. We run extensive Monte Carlo simulations to find out how rescaled range analysis (R/S), multifractal detrended fluctuation analysis (MF-DFA), detrending moving average (DMA) and generalized Hurst exponent approach (GHE) estimate Hurst exponent on independent series with different heavy tails. For this purpose, we generate independent random series from stable distribution with stability exponent α changing from 1.1 (heaviest tails) to 2 (Gaussian normal distribution) and we estimate the Hurst exponent using the different methods. R/S and GHE prove to be robust to heavy tails in the underlying process. GHE provides the lowest variance and bias in comparison to the other methods regardless the presence of heavy tails in data and sample size. Utilizing this result, we apply a novel approach of the intraday time-dependent Hurst exponent and we estimate the Hurst exponent on high frequency data for each trading day separately. We obtain Hurst exponents for S&amp;P500 index for the period beginning with year 1983 and ending by November 2009 and we discuss the surprising result which uncovers how the market's behavior changed over this long period.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-23T17:49:40Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <arxiv:journal_ref>Physica A: Statistical Mechanics and its Applications (2010), 389 (18), pp. 3844-3855</arxiv:journal_ref>
+    <author>
+      <name>Jozef Barunik</name>
+    </author>
+    <author>
+      <name>Ladislav Kristoufek</name>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2010.05.025</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2010.05.025" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1107.4476v3</id>
+    <title>The effect of round-off error on long memory processes</title>
+    <updated>2013-03-14T21:11:48Z</updated>
+    <link href="https://arxiv.org/abs/1107.4476v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.4476v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study how the round-off (or discretization) error changes the statistical properties of a Gaussian long memory process. We show that the autocovariance and the spectral density of the discretized process are asymptotically rescaled by a factor smaller than one, and we compute exactly this scaling factor. Consequently, we find that the discretized process is also long memory with the same Hurst exponent as the original process. We consider the properties of two estimators of the Hurst exponent, namely the local Whittle (LW) estimator and the Detrended Fluctuation Analysis (DFA). By using analytical considerations and numerical simulations we show that, in presence of round-off error, both estimators are severely negatively biased in finite samples. Under regularity conditions we prove that the LW estimator applied to discretized processes is consistent and asymptotically normal. Moreover, we compute the asymptotic properties of the DFA for a generic (i.e. non Gaussian) long memory process and we apply the result to discretized processes.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-22T10:52:47Z</published>
+    <arxiv:comment>44 pages, 4 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Gabriele La Spada</name>
+    </author>
+    <author>
+      <name>Fabrizio Lillo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.13820v3</id>
+    <title>Rough volatility: fact or artefact?</title>
+    <updated>2023-07-10T11:53:38Z</updated>
+    <link href="https://arxiv.org/abs/2203.13820v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.13820v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the statistical evidence for the use of `rough' fractional processes with Hurst exponent $H&lt; 0.5$ for the modeling of volatility of financial assets, using a model-free approach. We introduce a non-parametric method for estimating the roughness of a function based on discrete sample, using the concept of normalized $p$-th variation along a sequence of partitions. We investigate the finite sample performance of our estimator for measuring the roughness of sample paths of stochastic processes using detailed numerical experiments based on sample paths of fractional Brownian motion and other fractional processes. We then apply this method to estimate the roughness of realized volatility signals based on high-frequency observations. Detailed numerical experiments based on stochastic volatility models show that, even when the instantaneous volatility has diffusive dynamics with the same roughness as Brownian motion, the realized volatility exhibits rough behaviour corresponding to a Hurst exponent significantly smaller than $0.5$. Comparison of roughness estimates for realized and instantaneous volatility in fractional volatility models with different values of Hurst exponent shows that, irrespective of the roughness of the spot volatility process, realized volatility always exhibits `rough' behaviour with an apparent Hurst index $\hat{H}&lt;0.5$. These results suggest that the origin of the roughness observed in realized volatility time-series lies in the microstructure noise rather than the volatility process itself.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-24T18:59:12Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Rama Cont</name>
+    </author>
+    <author>
+      <name>Purba Das</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.04180v1</id>
+    <title>MEDL and MEDLA: Methods for Assessment of Scaling by Medians of Log-Squared Nondecimated Wavelet Coefficients</title>
+    <updated>2017-03-12T21:19:29Z</updated>
+    <link href="https://arxiv.org/abs/1703.04180v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.04180v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-frequency measurements and images acquired from various sources in the real world often possess a degree of self-similarity and inherent regular scaling. When data look like a noise, the scaling exponent may be the only informative feature that summarizes such data. Methods for the assessment of self-similarity by estimating Hurst exponent often involve analysis of rate of decay in a spectrum defined in various multiresolution domains. When this spectrum is calculated using discrete non-decimated wavelet transforms, due to increased autocorrelation in wavelet coefficients, the estimators of $H$ show increased bias compared to the estimators that use traditional orthogonal transforms. At the same time, non-decimated transforms have a number of advantages when employed for calculation of wavelet spectra and estimation of Hurst exponents: the variance of the estimator is smaller, input signals and images could be of arbitrary size, and due to the shift-invariance, the local scaling can be assessed as well. We propose two methods based on robust estimation and resampling that alleviate the effect of increased autocorrelation while maintaining all advantages of non-decimated wavelet transforms. The proposed methods extend the approaches in existing literature where the logarithmic transformation and pairing of wavelet coefficients are used for lowering the bias. In a simulation study we use fractional Brownian motions with a range of theoretical Hurst exponents. For such signals for which "true" $H$ is known, we demonstrate bias reduction and overall reduction of the mean-squared error by the two proposed estimators. For fractional Brownian motions, both proposed methods yield estimators of $H$ that are asymptotically normal and unbiased.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-12T21:19:29Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Minkyoung Kang</name>
+    </author>
+    <author>
+      <name>Brani Vidakovic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.19051v4</id>
+    <title>Typical Algorithms for Estimating Hurst Exponent of Time Sequence: A Data Analyst's Perspective</title>
+    <updated>2024-12-20T01:30:02Z</updated>
+    <link href="https://arxiv.org/abs/2310.19051v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.19051v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Hurst exponent is a significant metric for characterizing time sequences with long-term memory property and it arises in many fields. The available methods for estimating the Hurst exponent can be categorized into time-domain and spectrum-domain methods. Although there are various estimation methods for the Hurst exponent, there are still some disadvantages that should be overcome: firstly, the estimation methods are mathematics-oriented instead of engineering-oriented; secondly, the accuracy and effectiveness of the estimation algorithms are inadequately assessed; thirdly, the framework of classification for the estimation methods are insufficient; and lastly there is a lack of clear guidance for selecting proper estimation in practical problems involved in data analysis. The contributions of this paper lie in four aspects: 1) the optimal sequence partition method is proposed for designing the estimation algorithms for Hurst exponent; 2) the algorithmic pseudo-codes are adopted to describe the estimation algorithms, which improves the understandability and usability of the estimation methods and also reduces the difficulty of implementation with computer programming languages; 3) the performance assessment is carried for the typical estimation algorithms via the ideal time sequence with given Hurst exponent and the practical time sequence captured in applications; 4) the guidance for selecting proper algorithms for estimating the Hurst exponent is presented and discussed. It is expected that the systematic survey of available estimation algorithms could help the users to understand the principles and the assessment of the various estimation methods could help the users to select, implement and apply the estimation algorithms of interest in practical situations in an easy way.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-29T15:56:53Z</published>
+    <arxiv:comment>46 pages, 8 figures, 4 tables, 24 algorithms with pseudo-codes</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <arxiv:journal_ref>IEEE Access, 12(12): 185528--185556, 2024</arxiv:journal_ref>
+    <author>
+      <name>Hong-Yan Zhang</name>
+    </author>
+    <author>
+      <name>Zhi-Qiang Feng</name>
+    </author>
+    <author>
+      <name>Si-Yu Feng</name>
+    </author>
+    <author>
+      <name>Yu Zhou</name>
+    </author>
+    <arxiv:doi>10.1109/ACCESS.2024.3512542</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ACCESS.2024.3512542" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.02947v1</id>
+    <title>Can the bivariate Hurst exponent be higher than an average of the separate Hurst exponents?</title>
+    <updated>2015-01-13T10:36:46Z</updated>
+    <link href="https://arxiv.org/abs/1501.02947v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.02947v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note, we investigate possible relationships between the bivariate Hurst exponent $H_{xy}$ and an average of the separate Hurst exponents $\frac{1}{2}(H_x+H_y)$. We show that two cases are well theoretically founded. These are the cases when $H_{xy}=\frac{1}{2}(H_x+H_y)$ and $H_{xy}&lt;\frac{1}{2}(H_x+H_y)$. However, we show that the case of $H_{xy}&gt;\frac{1}{2}(H_x+H_y)$ is not possible regardless of stationarity issues. Further discussion of the implications is provided as well together with a note on the finite sample effect.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-13T10:36:46Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.data-an"/>
+    <arxiv:journal_ref>Physica A: Statistical Mechanics and its Applications, Volume 431, 1 August 2015, Pages 124-127</arxiv:journal_ref>
+    <author>
+      <name>Ladislav Kristoufek</name>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2015.02.086</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2015.02.086" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0909.4162v2</id>
+    <title>Nonlinear Time Series Analysis of Sunspot Data</title>
+    <updated>2009-09-29T06:41:43Z</updated>
+    <link href="https://arxiv.org/abs/0909.4162v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0909.4162v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper deals with the analysis of sunspot number time series using the Hurst exponent. We use the rescaled range (R/S) analysis to estimate the Hurst exponent for 259-year and 11360-year sunspot data. The results show a varying degree of persistence over shorter and longer time scales corresponding to distinct values of the Hurst exponent. We explain the presence of these multiple Hurst exponents by their resemblance to the deterministic chaotic attractors having multiple centers of rotation.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-09-23T09:55:20Z</published>
+    <arxiv:comment>10 pages, 6 figures, accepted for publication in Solar Physics, journal style corrections done in this version</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>Vinita Suyal</name>
+    </author>
+    <author>
+      <name>Awadhesh Prasad</name>
+    </author>
+    <author>
+      <name>Harinder P. Singh</name>
+    </author>
+    <arxiv:doi>10.1007/s11207-009-9467-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11207-009-9467-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08775v1</id>
+    <title>Estimation of the Hurst Exponent Using Trimean Estimators on Nondecimated Wavelet Coefficients</title>
+    <updated>2017-09-26T01:18:01Z</updated>
+    <link href="https://arxiv.org/abs/1709.08775v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.08775v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hurst exponent is an important feature summarizing the noisy high-frequency data when the inherent scaling pattern cannot be described by standard statistical models. In this paper, we study the robust estimation of Hurst exponent based on non-decimated wavelet transforms (NDWT). The robustness is achieved by applying a general trimean estimator on non-decimated wavelet coefficients of the transformed data. The general trimean estimator is derived as a weighted average of the distribution's median and quantiles, combining the median's emphasis on central values with the quantiles' attention to the extremes. The properties of the proposed Hurst exponent estimators are studied both theoretically and numerically. Compared with other standard wavelet-based methods (Veitch $\&amp;$ Abry (VA) method, Soltani, Simard, $\&amp;$ Boichu (SSB) method, median based estimators MEDL and MEDLA), our methods reduce the variance of the estimators and increase the prediction precision in most cases. The proposed methods are applied to a data set in high frequency pupillary response behavior (PRB) with the goal to classify individuals according to a degree of their visual impairment.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-26T01:18:01Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Chen Feng</name>
+    </author>
+    <author>
+      <name>Brani Vidakovic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.08592v2</id>
+    <title>Estimation of Hurst Exponent in Self-similar Traffic Flows</title>
+    <updated>2021-03-31T15:58:04Z</updated>
+    <link href="https://arxiv.org/abs/2103.08592v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.08592v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper it presents, develops and discusses the existence of a process with long scope memory structure, representing of the independence between the degree of randomness of the traffic generated by the sources and flow pattern exhibited by the network. The process existence is presented in term of a new algorithmic that is a variant of the maximum likelihood estimator (MLE) of Whittle, for the calculation of the Hurst exponent (H) of self-similar stationary second order time series of the flows of the individual sources and their aggregation. Also, it is discussed the additional problems introduced by the phenomenon of the locality of the Hurst exponent, that appears when the traffic flows consist of diverse elements with different Hurst exponents. The instance is exposed with the intention of being considered as a new and alternative approach for modeling and simulating traffic in existing computer networks.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-11T21:42:43Z</published>
+    <arxiv:comment>9 pages, in Spanish, 0 figures, 0 tables, 2021 RIAI Revista Iberoamericana de Automática e Informática industrial</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>G. Millán</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0007011v1</id>
+    <title>Distinguishing fractional and white noise in one and two dimensions</title>
+    <updated>2000-07-02T11:55:16Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0007011v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0007011v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss the link between uncorrelated noise and Hurst exponent for one and two-dimensional interfaces. We show that long range correlations cannot be observed using one-dimensional cuts through two-dimensional self-affine surfaces whose height distributions are characterized by a Hurst exponent lower than -1/2. In this domain, fractional and white noise are not distinguishable. A method analysing the correlations in two dimensions is necessary. For Hurst exponents larger than -1/2, a crossover regime leads to a systematic over estimate of the Hurst exponent.</summary>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-07-02T11:55:16Z</published>
+    <arxiv:comment>3 pages RevTeX, 4 Postscript figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat"/>
+    <author>
+      <name>Alex Hansen</name>
+    </author>
+    <author>
+      <name>Jean Schmittbuhl</name>
+    </author>
+    <author>
+      <name>George Batrouni</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.63.062102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.63.062102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.01751v2</id>
+    <title>Testing for jumps in processes with integral fractional part and jump-robust inference on the Hurst exponent</title>
+    <updated>2024-05-13T16:18:52Z</updated>
+    <link href="https://arxiv.org/abs/2305.01751v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.01751v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop and investigate a test for jumps based on high-frequency observations of a fractional process with an additive jump component. The Hurst exponent of the fractional process is unknown. The asymptotic theory under infill asymptotics builds upon extreme value theory for weakly dependent, stationary time series and extends techniques for the semimartingale case from the literature. It is shown that the statistic on which the test is based on weakly converges to a Gumbel distribution under the null hypothesis of no jumps. We prove consistency under the alternative hypothesis when there are jumps. Moreover, we establish convergence rates for local alternatives and consistent estimation of jump times. In the process, we show that inference on the Hurst exponent of a rough fractional process is robust with respect to jumps. This provides an important insight for the growing literature on rough volatility. We demonstrate sound finite-sample properties in a simulation study and showcase the applicability of our methods in an empirical example with a time series of volatilities.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-02T19:33:53Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Markus Bibinger</name>
+    </author>
+    <author>
+      <name>Michael Sonntag</name>
+    </author>
+    <arxiv:doi>10.1016/j.ecosta.2025.03.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ecosta.2025.03.004" title="doi"/>
+  </entry>
+</feed>

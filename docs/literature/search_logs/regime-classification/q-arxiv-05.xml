@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nxmiPvDnDaIU65BSX3UnmLcxHKA</id>
+  <title>arXiv Query: search_query=abs:"number of states" AND abs:"hidden Markov" AND (abs:"BIC" OR abs:"model selection" OR abs:"order")&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-08-21T14:44:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22number+of+states%22+AND+(abs:%22hidden+Markov%22+AND+(abs:%22BIC%22+OR+(abs:%22model+selection%22+OR+abs:%22order%22)))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>11</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.18826v2</id>
+    <title>Improved order selection method for hidden Markov models: a case study with movement data</title>
+    <updated>2024-12-23T18:53:11Z</updated>
+    <link href="https://arxiv.org/abs/2411.18826v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.18826v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hidden Markov models (HMMs) are a versatile statistical framework commonly used in ecology to characterize behavioural patterns from animal movement data. In HMMs, the observed data depend on a finite number of underlying hidden states, generally interpreted as the animal's unobserved behaviour. The number of states is a crucial parameter, controlling the trade-off between ecological interpretability of behaviours (fewer states) and the goodness of fit of the model (more states). Selecting the number of states, commonly referred to as order selection, is notoriously challenging. Common model selection metrics, such as AIC and BIC, often perform poorly in determining the number of states, particularly when models are misspecified. Building on existing methods for HMMs and mixture models, we propose a double penalized likelihood maximum estimate (DPMLE) for the simultaneous estimation of the number of states and parameters of non-stationary HMMs. The DPMLE differs from traditional information criteria by using two penalty functions on the stationary probabilities and state-dependent parameters. For non-stationary HMMs, forward and backward probabilities are used to approximate stationary probabilities. Using a simulation study that includes scenarios with additional complexity in the data, we compare the performance of our method with that of AIC and BIC. We also illustrate how the DPMLE differs from AIC and BIC using narwhal (Monodon monoceros) movement data. The proposed method outperformed AIC and BIC in identifying the correct number of states under model misspecification. Furthermore, its capacity to handle non-stationary dynamics allowed for more realistic modeling of complex movement data, offering deeper insights into narwhal behaviour. Our method is a powerful tool for order selection in non-stationary HMMs, with potential applications extending beyond the field of ecology.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-28T00:06:51Z</published>
+    <arxiv:comment>Double-spaced, 35 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Fanny Dupont</name>
+    </author>
+    <author>
+      <name>Marianne Marcoux</name>
+    </author>
+    <author>
+      <name>Nigel Hussey</name>
+    </author>
+    <author>
+      <name>Marie Auger-Méthé</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.19207v2</id>
+    <title>Constrained hidden Markov models reveal further Hsp90 protein states</title>
+    <updated>2024-07-10T09:17:42Z</updated>
+    <link href="https://arxiv.org/abs/2402.19207v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.19207v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Time series of conformational dynamics in proteins are usually evaluated with hidden Markov models (HMMs). This approach works well if the number of states and their connectivity is known. However, for the multi-domain protein Hsp90, a standard HMM analysis with optimization of the BIC (Bayesian information criterion) cannot explain long-lived states well. Therefore, here we employ constrained hidden Markov models, which neglect transitions between states by including assumptions. Gradually tuning a model with justified and focused changes allows us to improve its effectiveness and the score of the BIC. This became possible by analyzing time traces with several thousand observable transitions and, therefore, superb statistics. In this scheme, we also monitor the residences in the states reconstructed by the model, aiming to find exponentially distributed dwell times. We show how introducing new states can achieve these statistics but also point out limitations, e.g., for substantial similarity of two states connected to a common neighbor. One of the states displays the lowest free energy and could be the idle open "waiting state", in which Hsp90 waits for the binding of nucleotides, cochaperones, or clients.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-29T14:37:21Z</published>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>New J. Phys., 26, 073023 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Riccardo Tancredi</name>
+    </author>
+    <author>
+      <name>Antonio Feltrin</name>
+    </author>
+    <author>
+      <name>Giosuè Sardo Infirri</name>
+    </author>
+    <author>
+      <name>Simone Toso</name>
+    </author>
+    <author>
+      <name>Leonie Vollmar</name>
+    </author>
+    <author>
+      <name>Thorsten Hugel</name>
+    </author>
+    <author>
+      <name>Marco Baiesi</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/ad5def</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/ad5def" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.08673v2</id>
+    <title>Selecting the Number of States in Hidden Markov Models - Pitfalls, Practical Challenges and Pragmatic Solutions</title>
+    <updated>2017-04-14T19:51:55Z</updated>
+    <link href="https://arxiv.org/abs/1701.08673v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.08673v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss the notorious problem of order selection in hidden Markov models, i.e. of selecting an adequate number of states, highlighting typical pitfalls and practical challenges arising when analyzing real data. Extensive simulations are used to demonstrate the reasons that render order selection particularly challenging in practice despite the conceptual simplicity of the task. In particular, we demonstrate why well-established formal procedures for model selection, such as those based on standard information criteria, tend to favor models with numbers of states that are undesirably large in situations where states shall be meaningful entities. We also offer a pragmatic step-by-step approach together with comprehensive advice for how practitioners can implement order selection. Our proposed strategy is illustrated with a real-data case study on muskox movement.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-30T16:11:52Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Jennifer Pohle</name>
+    </author>
+    <author>
+      <name>Roland Langrock</name>
+    </author>
+    <author>
+      <name>Floris van Beest</name>
+    </author>
+    <author>
+      <name>Niels Martin Schmidt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.06911v2</id>
+    <title>Beyond similarity assessment: Selecting the optimal model for sequence alignment via the Factorized Asymptotic Bayesian algorithm</title>
+    <updated>2017-10-15T06:52:17Z</updated>
+    <link href="https://arxiv.org/abs/1705.06911v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.06911v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pair Hidden Markov Models (PHMMs) are probabilistic models used for pairwise sequence alignment, a quintessential problem in bioinformatics. PHMMs include three types of hidden states: match, insertion and deletion. Most previous studies have used one or two hidden states for each PHMM state type. However, few studies have examined the number of states suitable for representing sequence data or improving alignment accuracy.We developed a novel method to select superior models (including the number of hidden states) for PHMM. Our method selects models with the highest posterior probability using Factorized Information Criteria (FIC), which is widely utilised in model selection for probabilistic models with hidden variables. Our simulations indicated this method has excellent model selection capabilities with slightly improved alignment accuracy. We applied our method to DNA datasets from 5 and 28 species, ultimately selecting more complex models than those used in previous studies.</summary>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-19T09:49:59Z</published>
+    <arxiv:comment>This article has been accepted for publication in Bioinformatics Published by Oxford University Press</arxiv:comment>
+    <arxiv:primary_category term="q-bio.QM"/>
+    <arxiv:journal_ref>Bioinformatics, 2017, btx643</arxiv:journal_ref>
+    <author>
+      <name>Taikai Takeda</name>
+    </author>
+    <author>
+      <name>Michiaki Hamada</name>
+    </author>
+    <arxiv:doi>10.1093/bioinformatics/btx643</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/bioinformatics/btx643" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.08719v2</id>
+    <title>When memory pays: Discord in hidden Markov models</title>
+    <updated>2017-06-26T16:51:03Z</updated>
+    <link href="https://arxiv.org/abs/1704.08719v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.08719v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When is keeping a memory of observations worthwhile? We use hidden Markov models to look at phase transitions that emerge when comparing state estimates in systems with discrete states and noisy observations. We infer the underlying state of the hidden Markov models from the observations in two ways: through naive observations, which take into account only the current observation, and through Bayesian filtering, which takes the history of observations into account. Defining a discord order parameter to distinguish between the different state estimates, we explore hidden Markov models with various numbers of states and symbols and varying transition-matrix symmetry. All behave similarly. We calculate analytically the critical point where keeping a memory of observations starts to pay off. A mapping between hidden Markov models and Ising models gives added insight into the associated phase transitions.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-27T19:02:39Z</published>
+    <arxiv:comment>11 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. E 95, 062144 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Emma Lathouwers</name>
+    </author>
+    <author>
+      <name>John Bechhoefer</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.95.062144</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.95.062144" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.01567v2</id>
+    <title>Bayesian spline-based hidden Markov models with applications to actimetry data and sleep analysis</title>
+    <updated>2023-10-02T10:53:31Z</updated>
+    <link href="https://arxiv.org/abs/2011.01567v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.01567v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>B-spline-based hidden Markov models employ B-splines to specify the emission distributions, offering a more flexible modelling approach to data than conventional parametric HMMs. We introduce a Bayesian framework for inference, enabling the simultaneous estimation of all unknown model parameters including the number of states. A parsimonious knot configuration of the B-splines is identified by the use of a trans-dimensional Markov chain sampling algorithm, while model selection regarding the number of states can be performed based on the marginal likelihood within a parallel sampling framework. Using extensive simulation studies, we demonstrate the superiority of our methodology over alternative approaches as well as its robustness and scalability. We illustrate the explorative use of our methods for data on activity in animals, i.e. whitetip-sharks. The flexibility of our Bayesian approach also facilitates the incorporation of more realistic assumptions and we demonstrate this by developing a novel hierarchical conditional HMM to analyse human activity for circadian and sleep modelling.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-03T08:47:27Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Sida Chen</name>
+    </author>
+    <author>
+      <name>Bärbel Finkenstädt Rand</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.11487v1</id>
+    <title>On the Realization of Hidden Markov Models and Tensor Decomposition</title>
+    <updated>2020-08-26T10:54:29Z</updated>
+    <link href="https://arxiv.org/abs/2008.11487v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.11487v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The minimum realization problem of hidden Markov models (HMM's) is a fundamental question of stationary discrete-time processes with a finite alphabet. It was shown in the literature that tensor decomposition methods give the hidden Markov model with the minimum number of states generically. However, the tensor decomposition approach does not solve the minimum HMM realization problem when the observation is a deterministic function of the state, which is an important class of HMM's not captured by a generic argument. In this paper, we show that the reduction of the number of rank-one tensors necessary to decompose the third-order tensor constructed from the probabilities of the process is possible when the reachable subspace is not the whole space or the null space is not the zero space. In fact, the rank of the tensor is not greater than the dimension of the effective subspace or the rank of the generalized Hankel matrix.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-26T10:54:29Z</published>
+    <arxiv:comment>This paper is accepted for the presentation at the 24th International Symposium on Mathematical Theory of Networks and Systems (MTNS 2020): Cambridge, UK</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Yoshito Ohta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.06433v3</id>
+    <title>ICON: an adaptation of infinite HMMs for time traces with drift</title>
+    <updated>2017-04-07T15:02:41Z</updated>
+    <link href="https://arxiv.org/abs/1612.06433v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.06433v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bayesian nonparametric methods have recently transformed emerging areas within data science. One such promising method, the infinite hidden Markov model (iHMM), generalizes the HMM which itself has become a workhorse in single molecule data analysis. The iHMM goes beyond the HMM by self-consistently learning all parameters learned by the HMM in addition to learning the number of states without recourse to any model selection steps. Despite its generality, simple features (such as drift), common to single molecule time traces, result in an over-interpretation of drift and the introduction of artifact states. Here we present an adaptation of the iHMM that can treat data with drift originating from one or many traces (e.g. FRET). Our fully Bayesian method couples the iHMM to a continuous control process (drift) self-consistently learned while learning all other quantities determined by the iHMM (including state numbers). A key advantage of this method is that all traces -regardless of drift or states visited across traces- may now be treated on an equal footing thereby eliminating user-dependent trace selection (based on drift levels), pre-processing to remove drift and post-processing model selection on state number.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-19T21:55:19Z</published>
+    <arxiv:primary_category term="physics.data-an"/>
+    <author>
+      <name>Ioannis Sgouralis</name>
+    </author>
+    <author>
+      <name>Steve Presse</name>
+    </author>
+    <arxiv:doi>10.1016/j.bpj.2017.04.009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.bpj.2017.04.009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.0423v2</id>
+    <title>Nonparametric inference in hidden Markov models using P-splines</title>
+    <updated>2014-06-17T22:21:09Z</updated>
+    <link href="https://arxiv.org/abs/1309.0423v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.0423v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hidden Markov models (HMMs) are flexible time series models in which the distributions of the observations depend on unobserved serially correlated states. The state-dependent distributions in HMMs are usually taken from some class of parametrically specified distributions. The choice of this class can be difficult, and an unfortunate choice can have serious consequences for example on state estimates, on forecasts and generally on the resulting model complexity and interpretation, in particular with respect to the number of states. We develop a novel approach for estimating the state-dependent distributions of an HMM in a nonparametric way, which is based on the idea of representing the corresponding densities as linear combinations of a large number of standardized B-spline basis functions, imposing a penalty term on non-smoothness in order to maintain a good balance between goodness-of-fit and smoothness. We illustrate the nonparametric modeling approach in a real data application concerned with vertical speeds of a diving beaked whale, demonstrating that compared to parametric counterparts it can lead to models that are more parsimonious in terms of the number of states yet fit the data equally well.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-02T14:32:31Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Roland Langrock</name>
+    </author>
+    <author>
+      <name>Thomas Kneib</name>
+    </author>
+    <author>
+      <name>Alexander Sohn</name>
+    </author>
+    <author>
+      <name>Stacy DeRuiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1003.2804v1</id>
+    <title>An overview of latent Markov models for longitudinal categorical data</title>
+    <updated>2010-03-14T18:16:15Z</updated>
+    <link href="https://arxiv.org/abs/1003.2804v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1003.2804v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide a comprehensive overview of latent Markov (LM) models for the analysis of longitudinal categorical data. The main assumption behind these models is that the response variables are conditionally independent given a latent process which follows a first-order Markov chain. We first illustrate the basic LM model in which the conditional distribution of each response variable given the corresponding latent variable and the initial and transition probabilities of the latent process are unconstrained. For this model we also illustrate in detail maximum likelihood estimation through the Expectation-Maximization algorithm, which may be efficiently implemented by recursions known in the hidden Markov literature. We then illustrate several constrained versions of the basic LM model, which make the model more parsimonious and allow us to include and test hypotheses of interest. These constraints may be put on the conditional distribution of the response variables given the latent process (measurement model) or on the distribution of the latent process (latent model). We also deal with extensions of LM model for the inclusion of individual covariates and to multilevel data. Covariates may affect the measurement or the latent model; we discuss the implications of these two different approaches according to the context of application. Finally, we outline methods for obtaining standard errors for the parameter estimates, for selecting the number of states and for path prediction. Models and related inference are illustrated by the description of relevant socio-economic applications available in the literature.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-03-14T18:16:15Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>F. Bartolucci</name>
+    </author>
+    <author>
+      <name>A. Farcomeni</name>
+    </author>
+    <author>
+      <name>F. Pennoni</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.00139v3</id>
+    <title>Functional Thermodynamics of Maxwellian Ratchets: Constructing and Deconstructing Patterns, Randomizing and Derandomizing Behaviors</title>
+    <updated>2020-05-29T16:22:49Z</updated>
+    <link href="https://arxiv.org/abs/2003.00139v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.00139v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Maxwellian ratchets are autonomous, finite-state thermodynamic engines that implement input-output informational transformations. Previous studies of these "demons" focused on how they exploit environmental resources to generate work: They randomize ordered inputs, leveraging increased Shannon entropy to transfer energy from a thermal reservoir to a work reservoir while respecting both Liouvillian state-space dynamics and the Second Law. However, to date, correctly determining such functional thermodynamic operating regimes was restricted to a very few engines for which correlations among their information-bearing degrees of freedom could be calculated exactly and in closed form---a highly restricted set. Additionally, a key second dimension of ratchet behavior was largely ignored---ratchets do not merely change the randomness of environmental inputs, their operation constructs and deconstructs patterns. To address both dimensions, we adapt recent results from dynamical-systems and ergodic theories that efficiently and accurately calculate the entropy rates and the rate of statistical complexity divergence of general hidden Markov processes. In concert with the Information Processing Second Law, these methods accurately determine thermodynamic operating regimes for finite-state Maxwellian demons with arbitrary numbers of states and transitions. In addition, they facilitate analyzing structure versus randomness trade-offs that a given engine makes. The result is a greatly enhanced perspective on the information processing capabilities of information engines. As an application, we give a thorough-going analysis of the Mandal-Jarzynski ratchet, demonstrating that it has an uncountably-infinite effective state space.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-29T00:47:21Z</published>
+    <arxiv:comment>16 pages, 7 figures; supplemental materials, 8 pages, 3 figures; http://csc.ucdavis.edu/~cmg/compmech/pubs/ftamr.htm</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. Research 2, 033334 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Alexandra M. Jurgens</name>
+    </author>
+    <author>
+      <name>James P. Crutchfield</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.2.033334</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.2.033334" title="doi"/>
+  </entry>
+</feed>

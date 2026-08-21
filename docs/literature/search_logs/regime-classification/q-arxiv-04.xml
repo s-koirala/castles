@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Rf/YCGSwT96pflBIde7v4LRN/6c</id>
+  <title>arXiv Query: search_query=all:"hidden semi-Markov" AND (all:"financial" OR all:"stock" OR all:"regime")&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-08-21T14:43:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22hidden+semi-Markov%22+AND+(all:%22financial%22+OR+(all:%22stock%22+OR+all:%22regime%22))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1804.10308v4</id>
+    <title>A Regularized Vector Autoregressive Hidden Semi-Markov Model, with Application to Multivariate Financial Data</title>
+    <updated>2021-05-12T18:46:02Z</updated>
+    <link href="https://arxiv.org/abs/1804.10308v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.10308v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A regularized vector autoregressive hidden semi-Markov model is developed to analyze multivariate financial time series with switching data generating regimes. Furthermore, an augmented EM algorithm is proposed for parameter estimation by embedding regularized estimators for the state-dependent covariance matrices and autoregression matrices in the M-step. The performance of the proposed regularized estimators is evaluated both in the simulation experiments and on the New York Stock Exchange financial portfolio data.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-26T23:42:24Z</published>
+    <arxiv:comment>6 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <arxiv:journal_ref>The International FLAIRS Conference Proceedings, Vol 34 No 1, (2021)</arxiv:journal_ref>
+    <author>
+      <name>Zekun Xu</name>
+    </author>
+    <author>
+      <name>Ye Liu</name>
+    </author>
+    <arxiv:doi>10.32473/flairs.v34i1.128424</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.32473/flairs.v34i1.128424" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.10494v1</id>
+    <title>Sequential Bayesian Learning for Hidden Semi-Markov Models</title>
+    <updated>2023-01-25T10:05:17Z</updated>
+    <link href="https://arxiv.org/abs/2301.10494v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.10494v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we explore the class of the Hidden Semi-Markov Model (HSMM), a flexible extension of the popular Hidden Markov Model (HMM) that allows the underlying stochastic process to be a semi-Markov chain. HSMMs are typically used less frequently than their basic HMM counterpart due to the increased computational challenges when evaluating the likelihood function. Moreover, while both models are sequential in nature, parameter estimation is mainly conducted via batch estimation methods. Thus, a major motivation of this paper is to provide methods to estimate HSMMs (1) in a computationally feasible time, (2) in an exact manner, i.e. only subject to Monte Carlo error, and (3) in a sequential setting. We provide and verify an efficient computational scheme for Bayesian parameter estimation on HSMMs. Additionally, we explore the performance of HSMMs on the VIX time series using Autoregressive (AR) models with hidden semi-Markov states and demonstrate how this algorithm can be used for regime switching, model selection and clustering purposes.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-25T10:05:17Z</published>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Patrick Aschermayr</name>
+    </author>
+    <author>
+      <name>Konstantinos Kalogeropoulos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.14719v1</id>
+    <title>Nonhomogeneous hidden semi-Markov models for toroidal data</title>
+    <updated>2023-12-22T14:24:11Z</updated>
+    <link href="https://arxiv.org/abs/2312.14719v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.14719v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A nonhomogeneous hidden semi-Markov model is proposed to segment toroidal time series according to a finite number of latent regimes and, simultaneously, estimate the influence of time-varying covariates on the process' survival under each regime. The model is a mixture of toroidal densities, whose parameters depend on the evolution of a semi-Markov chain, which is in turn modulated by time-varying covariates through a proportional hazards assumption. Parameter estimates are obtained using an EM algorithm that relies on an efficient augmentation of the latent process. The proposal is illustrated on a time series of wind and wave directions recorded during winter.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-22T14:24:11Z</published>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Francesco Lagona</name>
+    </author>
+    <author>
+      <name>Marco Mingione</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.17939v1</id>
+    <title>Understanding Long-Term Dynamics of Individual Metro Usage: A Hidden Semi-Markov State Framework with Survival Analysis</title>
+    <updated>2026-06-16T13:49:53Z</updated>
+    <link href="https://arxiv.org/abs/2606.17939v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.17939v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding how individual metro usage evolves over multi-year horizons is essential for transit planning and passenger retention. However, existing approaches typically characterize mobility patterns as static clusters or short-term variability, leaving the lifecycle dynamics of transit participation underexplored. This study proposes a state-based lifecycle modeling framework that integrates Hidden Semi-Markov Models (HSMM) with discrete-time survival analysis to characterize the evolution of individual metro mobility. The HSMM infers latent mobility states with explicit duration distributions and a transition matrix governing regime changes, while the survival component models exit and re-entry events via state-dependent hazard functions conditioned on mobility-state trajectories and behavioral history. Applied to four years of smart card data from the Shanghai metro system (2021-2024), the framework enables the identification of interpretable mobility states, the characterization of transition dynamics, and the quantification of state-dependent exit and re-entry processes. The analysis reveals five robust mobility states with a directional transition hierarchy centered on an occasional-usage gateway state, and fundamentally different temporal mechanisms governing disengagement and return: exit hazard is state-dependent but duration-independent, whereas re-entry hazard decays sharply with inactivity length. These findings provide a methodological foundation for lifecycle-oriented mobility analysis and practical guidance for transit operators to identify at-risk users and time retention interventions.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-16T13:49:53Z</published>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Bingxun Wang</name>
+    </author>
+    <author>
+      <name>Valeria Maria Urbano</name>
+    </author>
+    <author>
+      <name>Shan He</name>
+    </author>
+    <author>
+      <name>Yang Chen</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Zhibin Jiang</name>
+    </author>
+    <author>
+      <name>Piercesare Secchi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.23492v1</id>
+    <title>Continuous Hidden Markov Models for Equity Returns: Heavy-Tail Emission Families and Regime-Conditional Value-at-Risk</title>
+    <updated>2026-06-22T15:39:33Z</updated>
+    <link href="https://arxiv.org/abs/2606.23492v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.23492v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Synthetic generators of daily equity returns let practitioners stress test, backtest, and design scenarios that a single realized market history cannot supply, but only if the generator reproduces the stylized facts of real returns: heavy tails, negligible linear autocorrelation, and slow decay of the absolute-return autocorrelation. Hidden Markov models with few Gaussian states were long thought unable to reproduce that slow decay, and the standard fix was to abandon them for more complex hidden semi-Markov models. We revisit this issue with a continuous hidden Markov model whose regime chain governs the autocorrelation while per-regime densities govern the marginal, separating the temporal and distributional sides of the original failure. A unified expectation-maximization framework fits Gaussian, Student-t, Laplace, and generalized-error emissions under shared forward-backward recursions and quantile-based initialization, and a spectral identity bounds the number of decay modes by the rank of the centred transition matrix. Across SPY walk-forward folds, a sector-balanced 30-ticker panel, a CRSP cross-decade transfer, and a six-asset basket, that bound was not binding once a few states were used: heavy-tailed marginals, not additional decay modes, closed most of the fit gap, recovering volatility clustering above the i.i.d. baseline and narrowing the kurtosis gap without a tuning hyperparameter. The original failure is therefore distributional, not temporal. On daily US equities, a simple, interpretable Markov model suffices, and unlike a bootstrap or semi-Markov fit that wins only on a single-window fit, the fitted model also yields a regime-conditional Value-at-Risk that passes a joint conditional-coverage test and a copula that reproduces cross-asset correlations: one interpretable generator serving both path simulation and downstream risk and portfolio tasks.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.RM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-22T15:39:33Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Abdulrahman Alswaidan</name>
+    </author>
+    <author>
+      <name>Cade Jin</name>
+    </author>
+    <author>
+      <name>Jeffrey D. Varner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.05800v1</id>
+    <title>Explicit-Duration Markov Switching Models</title>
+    <updated>2019-09-12T16:54:16Z</updated>
+    <link href="https://arxiv.org/abs/1909.05800v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.05800v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Markov switching models (MSMs) are probabilistic models that employ multiple sets of parameters to describe different dynamic regimes that a time series may exhibit at different periods of time. The switching mechanism between regimes is controlled by unobserved random variables that form a first-order Markov chain. Explicit-duration MSMs contain additional variables that explicitly model the distribution of time spent in each regime. This allows to define duration distributions of any form, but also to impose complex dependence between the observations and to reset the dynamics to initial conditions. Models that focus on the first two properties are most commonly known as hidden semi-Markov models or segment models, whilst models that focus on the third property are most commonly known as changepoint models or reset models. In this monograph, we provide a description of explicit-duration modelling by categorizing the different approaches into three groups, which differ in encoding in the explicit-duration variables different information about regime change/reset boundaries. The approaches are described using the formalism of graphical models, which allows to graphically represent and assess statistical dependence and therefore to easily describe the structure of complex models and derive inference routines. The presentation is intended to be pedagogical, focusing on providing a characterization of the three groups in terms of model structure constraints and inference properties. The monograph is supplemented with a software package that contains most of the models and examples described. The material presented should be useful to both researchers wishing to learn about these models and researchers wishing to develop them further.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-12T16:54:16Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>Foundations and Trends in Machine Learning, Volume 7, Issue 6, pages 803-886, 2014</arxiv:journal_ref>
+    <author>
+      <name>Silvia Chiappa</name>
+    </author>
+    <arxiv:doi>10.1561/2200000054</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1561/2200000054" title="doi"/>
+  </entry>
+</feed>

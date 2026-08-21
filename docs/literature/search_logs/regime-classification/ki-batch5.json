@@ -1,0 +1,5537 @@
+{
+ "10.1111/1540-6261.00588": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     27
+    ]
+   ],
+   "date-time": "2026-07-27T11:23:10Z",
+   "timestamp": 1785151390028,
+   "version": "3.55.0"
+  },
+  "reference-count": 82,
+  "publisher": "Wiley",
+  "issue": "5",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2003,
+       9,
+       11
+      ]
+     ],
+     "date-time": "2003-09-11T00:00:00Z",
+     "timestamp": 1063238400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "onlinelibrary.wiley.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "The Journal of Finance"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2003,
+     10
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>This paper documents clustering in currency stop‐loss and take‐profit orders, and uses that clustering to provide an explanation for two familiar predictions from technical analysis: (1) trends tend to reverse course at predictable support and resistance levels, and (2) trends tend to be unusually rapid after rates cross such levels. The data are the first available on individual currency stop‐loss and take‐profit orders. Take‐profit orders cluster particularly strongly at round numbers, which could explain the first prediction. Stop‐loss orders cluster strongly just beyond round numbers, which could explain the second prediction.</jats:p>",
+  "DOI": "10.1111/1540-6261.00588",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2003,
+     9,
+     11
+    ]
+   ],
+   "date-time": "2003-09-11T16:19:48Z",
+   "timestamp": 1063297188000
+  },
+  "page": "1791-1819",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 167,
+  "title": [
+   "Currency Orders and Exchange Rate Dynamics: An Explanation for the Predictive Success of Technical Analysis"
+  ],
+  "prefix": "10.1111",
+  "volume": "58",
+  "author": [
+   {
+    "given": "Carol L.",
+    "family": "Osler",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "311",
+  "published-online": {
+   "date-parts": [
+    [
+     2003,
+     9,
+     11
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_2_7_2_1",
+    "volume-title": "Technical Analysis from A to Z",
+    "author": "Achelis Stephen B.",
+    "year": "2001"
+   },
+   {
+    "key": "e_1_2_7_3_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/rfs/1.1.3"
+   },
+   {
+    "key": "e_1_2_7_4_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0261-5606(92)90048-3"
+   },
+   {
+    "key": "e_1_2_7_5_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0304-405X(80)90020-3"
+   },
+   {
+    "key": "e_1_2_7_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/fut.3990050105"
+   },
+   {
+    "key": "e_1_2_7_7_1",
+    "volume-title": "Central bank survey of foreign exchange and derivatives market activity: 1998",
+    "author": "Bank for International Settlements",
+    "year": "1999"
+   },
+   {
+    "key": "e_1_2_7_8_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "21",
+    "DOI": "10.2307/20076227",
+    "article-title": "Les strategies ‘stop‐loss’: Theorie et application au contrat notionnel du matif",
+    "volume": "0",
+    "author": "Bensaid Bernard",
+    "year": "2000",
+    "journal-title": "Annales d'Economie et de Statistique"
+   },
+   {
+    "key": "e_1_2_7_9_1",
+    "volume-title": "FX trading … LIVE! Dealer behavior and trading systems in foreign exchange markets",
+    "author": "Bjonnes Geir Hoidal",
+    "year": "2000"
+   },
+   {
+    "key": "e_1_2_7_10_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1731",
+    "DOI": "10.1111/j.1540-6261.1992.tb04681.x",
+    "article-title": "Simple technical trading rules and the stochastic properties of stock returns",
+    "volume": "48",
+    "author": "Brock William",
+    "year": "1992",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "e_1_2_7_11_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/1468-0297.00466"
+   },
+   {
+    "key": "e_1_2_7_12_1",
+    "volume-title": "Do investors avoid odd‐eighths prices? Evidence from NYSE limit orders",
+    "author": "Cooney John W.",
+    "year": "2000"
+   },
+   {
+    "key": "e_1_2_7_13_1",
+    "volume-title": "Goodness‐of‐fit techniques",
+    "author": "D'Agostino Ralph B.",
+    "year": "1986"
+   },
+   {
+    "key": "e_1_2_7_14_1",
+    "volume-title": "Real trading patterns and prices in spot foreign exchange markets",
+    "author": "Danielsson Jon",
+    "year": "1999"
+   },
+   {
+    "key": "e_1_2_7_15_1",
+    "first-page": "87",
+    "article-title": "Psychological barriers in the foreign exchange market",
+    "volume": "1",
+    "author": "De Grauwe Paul",
+    "year": "1992",
+    "journal-title": "Journal of International and Comparative Economics"
+   },
+   {
+    "key": "e_1_2_7_16_1",
+    "first-page": "379",
+    "article-title": "Positive feedback investment strategies and destabilizing rational speculation",
+    "volume": "54",
+    "author": "DeLong J. Bradford",
+    "year": "1990",
+    "journal-title": "The Journal of Finance"
+   },
+   {
+    "key": "e_1_2_7_17_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0304-405X(87)90042-0"
+   },
+   {
+    "key": "e_1_2_7_18_1",
+    "volume-title": "Floating Exchange Rates and the State of World Trade and Payments",
+    "author": "Dooley Michael P.",
+    "year": "1984"
+   },
+   {
+    "key": "e_1_2_7_19_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/rfs/1.1.67"
+   },
+   {
+    "key": "e_1_2_7_20_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1992.tb04402.x"
+   },
+   {
+    "key": "e_1_2_7_21_1",
+    "volume-title": "Technical analysis of stock trends",
+    "author": "Edwards Robert D.",
+    "year": "1997"
+   },
+   {
+    "key": "e_1_2_7_22_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176344552"
+   },
+   {
+    "key": "e_1_2_7_23_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1137/1.9781611970319"
+   },
+   {
+    "key": "e_1_2_7_24_1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Evans Martin 2001 Foreign exchange trading and exchange rate dynamics NBER Working Paper 8116.",
+    "DOI": "10.3386/w8116"
+   },
+   {
+    "key": "e_1_2_7_25_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1086/324391"
+   },
+   {
+    "key": "e_1_2_7_26_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1086/294849"
+   },
+   {
+    "key": "e_1_2_7_27_1",
+    "volume-title": "Exchange rate forecasting: The errors we've really made",
+    "author": "Faust John",
+    "year": "2001"
+   },
+   {
+    "key": "e_1_2_7_28_1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Foucault Thierry 1999 Order flow composition and trading costs in dynamic limit order markets CEPR Discussion Paper No. 1817.",
+    "DOI": "10.1016/S1386-4181(98)00012-3"
+   },
+   {
+    "key": "e_1_2_7_29_1",
+    "first-page": "181",
+    "article-title": "Chartists, fundamentalists, and trading in the foreign exchange market",
+    "volume": "80",
+    "author": "Frankel Jeffrey A.",
+    "year": "1990",
+    "journal-title": "American Economic Review"
+   },
+   {
+    "key": "e_1_2_7_30_1",
+    "volume-title": "Handbook of International Economics",
+    "author": "Frankel Jeffrey",
+    "year": "1995"
+   },
+   {
+    "key": "e_1_2_7_31_1",
+    "volume-title": "Essays in Positive Economics",
+    "author": "Friedman Milton",
+    "year": "1953"
+   },
+   {
+    "key": "e_1_2_7_32_1",
+    "first-page": "999",
+    "article-title": "Market liquidity, hedging, and crashes",
+    "volume": "80",
+    "author": "Genotte Gerard",
+    "year": "1990",
+    "journal-title": "American Economic Review"
+   },
+   {
+    "key": "e_1_2_7_33_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0304-405X(85)90044-3"
+   },
+   {
+    "key": "e_1_2_7_34_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0261-5606(97)00013-2"
+   },
+   {
+    "key": "e_1_2_7_35_1",
+    "unstructured": "Goodhart Charles andRichardCurcio 1991 The clustering of bid/ask prices and the spread in the foreign exchange market LSE Financial Markets Group Discussion Paper No. 110."
+   },
+   {
+    "key": "e_1_2_7_36_1",
+    "volume-title": "The Microstructure of Foreign Exchange Markets",
+    "author": "Goodhart Charles",
+    "year": "1996"
+   },
+   {
+    "key": "e_1_2_7_37_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0261-5606(96)00044-7"
+   },
+   {
+    "key": "e_1_2_7_38_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1979.tb02104.x"
+   },
+   {
+    "key": "e_1_2_7_39_1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Grinblatt Mark andMattiKeloharju 2000 What makes investors trade? Yale International Center for FinanceWorking Paper No. 00–02.",
+    "DOI": "10.2139/ssrn.228801"
+   },
+   {
+    "key": "e_1_2_7_40_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1086/296433"
+   },
+   {
+    "key": "e_1_2_7_41_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1086/467365"
+   },
+   {
+    "key": "e_1_2_7_42_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1379",
+    "DOI": "10.1111/j.1540-6261.1996.tb04073.x",
+    "article-title": "Equilibrium analysis of portfolio insurance",
+    "volume": "551",
+    "author": "Grossman Sanford",
+    "year": "1996",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "e_1_2_7_43_1",
+    "volume-title": "The Investor's Guide to Technical Analysis",
+    "author": "Hardy C. Colburn",
+    "year": "1978"
+   },
+   {
+    "key": "e_1_2_7_44_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/rfs/4.3.389"
+   },
+   {
+    "key": "e_1_2_7_45_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/1468-0416.00019"
+   },
+   {
+    "key": "e_1_2_7_46_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1986.tb04550.x"
+   },
+   {
+    "key": "e_1_2_7_47_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0304-405X(81)90020-9"
+   },
+   {
+    "key": "e_1_2_7_48_1",
+    "volume-title": "Empirical analysis of limit order markets",
+    "author": "Hollifield Burton",
+    "year": "2001"
+   },
+   {
+    "key": "e_1_2_7_49_1",
+    "first-page": "434",
+    "article-title": "Foreign exchange rate expectations: Micro survey data",
+    "volume": "80",
+    "author": "Ito Takatoshi",
+    "year": "1990",
+    "journal-title": "American Economic Review"
+   },
+   {
+    "key": "e_1_2_7_50_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0378-4266(00)00131-X"
+   },
+   {
+    "key": "e_1_2_7_51_1",
+    "volume-title": "Technical analysis and liquidity provision",
+    "author": "Kavajecz Kenneth A.",
+    "year": "2002"
+   },
+   {
+    "key": "e_1_2_7_52_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0167-2231(93)90026-S"
+   },
+   {
+    "key": "e_1_2_7_53_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/1913210"
+   },
+   {
+    "key": "e_1_2_7_54_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0261-5606(93)90034-9"
+   },
+   {
+    "key": "e_1_2_7_55_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/0022-1082.00265"
+   },
+   {
+    "key": "e_1_2_7_56_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0261-5606(98)00011-4"
+   },
+   {
+    "key": "e_1_2_7_57_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0304-405X(95)00832-Y"
+   },
+   {
+    "key": "e_1_2_7_58_1",
+    "volume-title": "The Microstructure of Foreign Exchange Markets",
+    "author": "Lyons Richard K.",
+    "year": "1996"
+   },
+   {
+    "key": "e_1_2_7_59_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.7551/mitpress/4602.001.0001"
+   },
+   {
+    "key": "e_1_2_7_60_1",
+    "unstructured": "Malz Allan M. 1995 Currency option markets and exchange rates: A case study of the U.S. dollar in March 1995 Current Issues in Economics and Finance 1."
+   },
+   {
+    "key": "e_1_2_7_61_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0022-1996(83)90017-X"
+   },
+   {
+    "key": "e_1_2_7_62_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/fut.2"
+   },
+   {
+    "key": "e_1_2_7_63_1",
+    "volume-title": "Technical Analysis of the Futures Markets: A Comprehensive Guide to Trading Methods and Applications",
+    "author": "Murphy John J.",
+    "year": "1986"
+   },
+   {
+    "key": "e_1_2_7_64_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0022-1996(01)00163-5"
+   },
+   {
+    "key": "e_1_2_7_65_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2676257"
+   },
+   {
+    "key": "e_1_2_7_66_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2331231"
+   },
+   {
+    "key": "e_1_2_7_67_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1287/opre.13.2.258"
+   },
+   {
+    "key": "e_1_2_7_68_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1086/294854"
+   },
+   {
+    "key": "e_1_2_7_69_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/01621459.1966.10482183"
+   },
+   {
+    "key": "e_1_2_7_70_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/0022-1082.00072"
+   },
+   {
+    "key": "e_1_2_7_71_1",
+    "volume-title": "Market Microstructure Theory",
+    "author": "O'Hara Maureen",
+    "year": "1995"
+   },
+   {
+    "key": "e_1_2_7_72_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1287/opre.10.3.345"
+   },
+   {
+    "key": "e_1_2_7_73_1",
+    "first-page": "53",
+    "article-title": "Support for resistance: Technical analysis and intraday exchange rates",
+    "volume": "6",
+    "author": "Osler Carol L.",
+    "year": "2000",
+    "journal-title": "Federal Reserve Bank of New York, Economic Policy Review"
+   },
+   {
+    "key": "e_1_2_7_74_1",
+    "volume-title": "Stop‐loss orders and price cascades in currency markets",
+    "author": "Osler Carol L.",
+    "year": "2002"
+   },
+   {
+    "key": "e_1_2_7_75_1",
+    "volume-title": "Informed trade in spot foreign exchange markets: An empirical investigation",
+    "author": "Payne Richard",
+    "year": "2000"
+   },
+   {
+    "key": "e_1_2_7_76_1",
+    "volume-title": "Technical Analysis Explained: The Successful Investor's Guide to Spotting Investment Trends and Turning Points",
+    "author": "Pring Martin J.",
+    "year": "1985"
+   },
+   {
+    "key": "e_1_2_7_77_1",
+    "volume-title": "Private or public information in foreign exchange markets? An empirical analysis",
+    "author": "Rime Dagfinn",
+    "year": "2000"
+   },
+   {
+    "key": "e_1_2_7_78_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1985.tb05002.x"
+   },
+   {
+    "key": "e_1_2_7_79_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1997.tb03807.x"
+   },
+   {
+    "key": "e_1_2_7_80_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1540-6261.1970.tb00414.x"
+   },
+   {
+    "key": "e_1_2_7_81_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/mde.4090090111"
+   },
+   {
+    "key": "e_1_2_7_82_1",
+    "volume-title": "Market making in the interbank foreign exchange market",
+    "author": "Yao Jian",
+    "year": "1997"
+   },
+   {
+    "key": "e_1_2_7_83_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.2397-2335.1927.tb01992.x"
+   }
+  ],
+  "container-title": [
+   "The Journal of Finance"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1540-6261.00588",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1540-6261.00588",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     10,
+     1
+    ]
+   ],
+   "date-time": "2023-10-01T13:15:19Z",
+   "timestamp": 1696166119000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00588"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2003,
+     9,
+     11
+    ]
+   ]
+  },
+  "references-count": 82,
+  "journal-issue": {
+   "issue": "5",
+   "published-print": {
+    "date-parts": [
+     [
+      2003,
+      10
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1111/1540-6261.00588"
+  ],
+  "URL": "https://doi.org/10.1111/1540-6261.00588",
+  "archive": [
+   "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+   "0022-1082",
+   "1540-6261"
+  ],
+  "issn-type": [
+   {
+    "value": "0022-1082",
+    "type": "print"
+   },
+   {
+    "value": "1540-6261",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2003,
+     9,
+     11
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "2003-09-11",
+    "order": 2,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ },
+ "10.2307/2331416": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     3,
+     5
+    ]
+   ],
+   "date-time": "2026-03-05T23:34:11Z",
+   "timestamp": 1772753651195,
+   "version": "3.50.1"
+  },
+  "reference-count": 0,
+  "publisher": "JSTOR",
+  "issue": "3",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "The Journal of Financial and Quantitative Analysis"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1993,
+     9
+    ]
+   ]
+  },
+  "DOI": "10.2307/2331416",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2006,
+     5,
+     5
+    ]
+   ],
+   "date-time": "2006-05-05T15:58:25Z",
+   "timestamp": 1146844705000
+  },
+  "page": "313",
+  "source": "Crossref",
+  "is-referenced-by-count": 89,
+  "title": [
+   "Price Barriers in the Dow Jones Industrial Average"
+  ],
+  "prefix": "10.2307",
+  "volume": "28",
+  "author": [
+   {
+    "given": "R. Glen",
+    "family": "Donaldson",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Harold Y.",
+    "family": "Kim",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "1121",
+  "container-title": [
+   "The Journal of Financial and Quantitative Analysis"
+  ],
+  "original-title": [],
+  "deposited": {
+   "date-parts": [
+    [
+     2018,
+     4,
+     18
+    ]
+   ],
+   "date-time": "2018-04-18T12:45:01Z",
+   "timestamp": 1524055501000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.jstor.org/stable/2331416?origin=crossref"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1993,
+     9
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      1993,
+      9
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.2307/2331416",
+  "relation": {},
+  "ISSN": [
+   "0022-1090"
+  ],
+  "issn-type": [
+   {
+    "value": "0022-1090",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1993,
+     9
+    ]
+   ]
+  }
+ },
+ "10.1109/18.737522": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     21
+    ]
+   ],
+   "date-time": "2026-08-21T14:19:07Z",
+   "timestamp": 1787321947565,
+   "version": "3.56.0"
+  },
+  "reference-count": 20,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "7",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1998,
+       1,
+       1
+      ]
+     ],
+     "date-time": "1998-01-01T00:00:00Z",
+     "timestamp": 883612800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "IEEE Trans. Inform. Theory"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  },
+  "DOI": "10.1109/18.737522",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2002,
+     8,
+     24
+    ]
+   ],
+   "date-time": "2002-08-24T16:54:49Z",
+   "timestamp": 1030208089000
+  },
+  "page": "2917-2929",
+  "source": "Crossref",
+  "is-referenced-by-count": 350,
+  "title": [
+   "Information bounds and quick detection of parameter changes in stochastic systems"
+  ],
+  "prefix": "10.1109",
+  "volume": "44",
+  "author": [
+   {
+    "family": "Tze Leung Lai",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "263",
+  "reference": [
+   {
+    "key": "ref10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.556138"
+   },
+   {
+    "key": "ref11",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2333009"
+   },
+   {
+    "key": "ref12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TAES.1987.313381"
+   },
+   {
+    "key": "ref13",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176346587"
+   },
+   {
+    "key": "ref14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176347761"
+   },
+   {
+    "key": "ref15",
+    "author": "shiryayev",
+    "year": "1978",
+    "journal-title": "Optimal Stopping Rules"
+   },
+   {
+    "key": "ref16",
+    "author": "siegmund",
+    "year": "1985",
+    "journal-title": "Sequential Analysis Tests and Confidence Intervals"
+   },
+   {
+    "key": "ref17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1017/CBO9780511813658"
+   },
+   {
+    "key": "ref18",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0005-1098(76)90041-8"
+   },
+   {
+    "key": "ref19",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TAC.1976.1101146"
+   },
+   {
+    "key": "ref4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176345398"
+   },
+   {
+    "key": "ref3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/17442507908833137"
+   },
+   {
+    "key": "ref6",
+    "article-title": "efficient recursive algorithms for detection of abrupt changes in signals and control systems",
+    "volume": "44",
+    "author": "lai",
+    "year": "1999",
+    "journal-title": "IEEE Transactions on Automatic Control"
+   },
+   {
+    "key": "ref5",
+    "first-page": "613",
+    "volume": "57",
+    "author": "lai",
+    "year": "1995",
+    "journal-title": "Sequential changepoint detection in quality control and dynamical systems"
+   },
+   {
+    "key": "ref8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aoms/1177693055"
+   },
+   {
+    "key": "ref7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/18.340471"
+   },
+   {
+    "key": "ref2",
+    "author": "basseville",
+    "year": "1993",
+    "journal-title": "Detection of Abrupt Changes Theory and Applications"
+   },
+   {
+    "key": "ref1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1986.1057160"
+   },
+   {
+    "key": "ref9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/aos/1176350164"
+   },
+   {
+    "key": "ref20",
+    "doi-asserted-by": "crossref",
+    "first-page": "346",
+    "DOI": "10.1214/lnms/1215463135",
+    "article-title": "optimal detection of a change in distribution when the observations form a markov chain with a finite state space",
+    "author": "yakir",
+    "year": "1994",
+    "journal-title": "Change-Point Problems"
+   }
+  ],
+  "container-title": [
+   "IEEE Transactions on Information Theory"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://xplorestaging.ieee.org/ielx4/18/15908/00737522.pdf?arnumber=737522",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     11,
+     29
+    ]
+   ],
+   "date-time": "2021-11-29T14:08:26Z",
+   "timestamp": 1638194906000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://ieeexplore.ieee.org/document/737522/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  },
+  "references-count": 20,
+  "journal-issue": {
+   "issue": "7"
+  },
+  "URL": "https://doi.org/10.1109/18.737522",
+  "relation": {},
+  "ISSN": [
+   "0018-9448"
+  ],
+  "issn-type": [
+   {
+    "value": "0018-9448",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  }
+ },
+ "10.3905/jpm.2018.44.6.120": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     6,
+     21
+    ]
+   ],
+   "date-time": "2026-06-21T16:02:02Z",
+   "timestamp": 1782057722335,
+   "version": "3.54.5"
+  },
+  "reference-count": 0,
+  "publisher": "With Intelligence LLC",
+  "issue": "6",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "JPM"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2018,
+     6,
+     30
+    ]
+   ]
+  },
+  "DOI": "10.3905/jpm.2018.44.6.120",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     7,
+     2
+    ]
+   ],
+   "date-time": "2018-07-02T11:27:50Z",
+   "timestamp": 1530530870000
+  },
+  "page": "120-133",
+  "source": "Crossref",
+  "is-referenced-by-count": 29,
+  "title": [
+   "The 10 Reasons Most Machine Learning Funds Fail"
+  ],
+  "prefix": "10.3905",
+  "volume": "44",
+  "author": [
+   {
+    "given": "Marcos",
+    "family": "López de Prado",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "2271",
+  "published-online": {
+   "date-parts": [
+    [
+     2018,
+     7,
+     2
+    ]
+   ]
+  },
+  "container-title": [
+   "The Journal of Portfolio Management"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://syndication.highwire.org/content/doi/10.3905/jpm.2018.44.6.120",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     1,
+     31
+    ]
+   ],
+   "date-time": "2024-01-31T18:39:42Z",
+   "timestamp": 1706726382000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://pm-research.com/lookup/doi/10.3905/jpm.2018.44.6.120"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2018,
+     6,
+     30
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "6",
+   "published-online": {
+    "date-parts": [
+     [
+      2018,
+      7,
+      2
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2018,
+      6,
+      30
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.3905/jpm.2018.44.6.120"
+  ],
+  "URL": "https://doi.org/10.3905/jpm.2018.44.6.120",
+  "relation": {},
+  "ISSN": [
+   "0095-4918",
+   "2168-8656"
+  ],
+  "issn-type": [
+   {
+    "value": "0095-4918",
+    "type": "print"
+   },
+   {
+    "value": "2168-8656",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2018,
+     6,
+     30
+    ]
+   ]
+  }
+ },
+ "10.21314/JCF.2016.322": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     20
+    ]
+   ],
+   "date-time": "2026-08-20T15:06:39Z",
+   "timestamp": 1787238399301,
+   "version": "3.56.0"
+  },
+  "reference-count": 0,
+  "publisher": "Infopro Digital Services Limited",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "JCF"
+  ],
+  "DOI": "10.21314/jcf.2016.322",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2016,
+     9,
+     19
+    ]
+   ],
+   "date-time": "2016-09-19T10:21:42Z",
+   "timestamp": 1474280502000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 51,
+  "title": [
+   "The probability of backtest overfitting"
+  ],
+  "prefix": "10.21314",
+  "author": [
+   {
+    "given": "David",
+    "family": "Bailey",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jonathan",
+    "family": "Borwein",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Marcos",
+    "family": "López de Prado",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Qiji Jim",
+    "family": "Zhu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "8934",
+  "published-online": {
+   "date-parts": [
+    [
+     2016,
+     9
+    ]
+   ]
+  },
+  "container-title": [
+   "The Journal of Computational Finance"
+  ],
+  "original-title": [],
+  "deposited": {
+   "date-parts": [
+    [
+     2016,
+     9,
+     19
+    ]
+   ],
+   "date-time": "2016-09-19T10:21:42Z",
+   "timestamp": 1474280502000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://www.risk.net/journal-of-computational-finance/technical-paper/2471206/the-probability-of-backtest-overfitting"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2016,
+     9
+    ]
+   ]
+  },
+  "references-count": 0,
+  "URL": "https://doi.org/10.21314/jcf.2016.322",
+  "relation": {},
+  "ISSN": [
+   "1460-1559"
+  ],
+  "issn-type": [
+   {
+    "value": "1460-1559",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2016,
+     9
+    ]
+   ]
+  }
+ },
+ "10.1007/BF00053066": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     2,
+     13
+    ]
+   ],
+   "date-time": "2026-02-13T18:20:55Z",
+   "timestamp": 1771006855315,
+   "version": "3.50.1"
+  },
+  "reference-count": 15,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1988,
+       9,
+       1
+      ]
+     ],
+     "date-time": "1988-09-01T00:00:00Z",
+     "timestamp": 589075200000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "http://www.springer.com/tdm"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Ann Inst Stat Math"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1988,
+     9
+    ]
+   ]
+  },
+  "DOI": "10.1007/bf00053066",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2004,
+     10,
+     31
+    ]
+   ],
+   "date-time": "2004-10-31T11:17:23Z",
+   "timestamp": 1099221443000
+  },
+  "page": "565-586",
+  "source": "Crossref",
+  "is-referenced-by-count": 34,
+  "title": [
+   "Bootstrapping the mode"
+  ],
+  "prefix": "10.1007",
+  "volume": "40",
+  "author": [
+   {
+    "given": "Joseph P.",
+    "family": "Romano",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     1988,
+     9,
+     1
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "BF00053066_CR1",
+    "first-page": "14",
+    "volume": "86",
+    "author": "R. Beran",
+    "year": "1984",
+    "unstructured": "Beran R. (1984). Bootstrap methods in statistics, Jber. d. Dt. Math.-Verein., 86, 14–30.",
+    "journal-title": "Jber. d. Dt. Math.-Verein."
+   },
+   {
+    "issue": "3",
+    "key": "BF00053066_CR2",
+    "doi-asserted-by": "publisher",
+    "first-page": "457",
+    "DOI": "10.1093/biomet/74.3.457",
+    "volume": "74",
+    "author": "Rudolf Beran",
+    "year": "1987",
+    "unstructured": "Beran, R. (1987). Prepivoting to reduce level error of confidence sets, Biometrika (to appear).",
+    "journal-title": "Biometrika"
+   },
+   {
+    "key": "BF00053066_CR3",
+    "doi-asserted-by": "publisher",
+    "first-page": "1196",
+    "DOI": "10.1214/aos/1176345637",
+    "volume": "9",
+    "author": "P. Bickel",
+    "year": "1981",
+    "unstructured": "Bickel P. and Freedman D. (1981). Some asymptotic theory of the bootstrap, Ann. Statist., 9, 1196–1217.",
+    "journal-title": "Ann. Statist."
+   },
+   {
+    "key": "BF00053066_CR4",
+    "doi-asserted-by": "publisher",
+    "first-page": "1071",
+    "DOI": "10.1214/aos/1176342558",
+    "volume": "1",
+    "author": "P. J. Bickel",
+    "year": "1973",
+    "unstructured": "Bickel P. J. and Rosenblatt M. (1973). On some global measures of the deviations of density function estimates, Ann. Statist., 1, 1071–1095.",
+    "journal-title": "Ann. Statist."
+   },
+   {
+    "key": "BF00053066_CR5",
+    "volume-title": "Convergence of Probability Measures",
+    "author": "P. Billingsley",
+    "year": "1968",
+    "unstructured": "Billingsley P. (1968). Convergence of Probability Measures, Wiley, New York."
+   },
+   {
+    "key": "BF00053066_CR6",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.1214/aos/1176344552",
+    "volume": "7",
+    "author": "B. Efron",
+    "year": "1979",
+    "unstructured": "Efron B. (1979). Bootstrap methods: another look at the jackknife, Ann. Statist., 7, 1–26.",
+    "journal-title": "Ann. Statist."
+   },
+   {
+    "key": "BF00053066_CR7",
+    "volume-title": "An Introduction to Probability Theory and Its Applications",
+    "author": "W. Feller",
+    "year": "1971",
+    "unstructured": "Feller W. (1971). An Introduction to Probability Theory and Its Applications, 2nd ed., Vol. II, Wiley, New York.",
+    "edition": "2nd ed."
+   },
+   {
+    "key": "BF00053066_CR8",
+    "doi-asserted-by": "publisher",
+    "first-page": "1431",
+    "DOI": "10.1214/aos/1176350168",
+    "volume": "14",
+    "author": "P. Hall",
+    "year": "1986",
+    "unstructured": "Hall P. (1986). On the number of bootstrap simulations required to construct a confidence interval, Ann. Statist., 14, 1431–1452.",
+    "journal-title": "Ann. Statist."
+   },
+   {
+    "key": "BF00053066_CR9",
+    "unstructured": "Jhun, J. (1985). Bootstrap methods for density estimates and k-means clustering, Ph.D. dissertation, Department of Statistics, University of California, Berkeley."
+   },
+   {
+    "key": "BF00053066_CR10",
+    "doi-asserted-by": "publisher",
+    "first-page": "1065",
+    "DOI": "10.1214/aoms/1177704472",
+    "volume": "33",
+    "author": "E. Parzen",
+    "year": "1962",
+    "unstructured": "Parzen E. (1962). On estimation of a probability density function and mode, Ann. Math. Statist., 33, 1065–1076.",
+    "journal-title": "Ann. Math. Statist."
+   },
+   {
+    "key": "BF00053066_CR11",
+    "unstructured": "Romano, J. (1986). Bootstrapping the joint distribution of the location and size of the mode, Ph.D. dissertation, Department of Statistics, University of California, Berkeley."
+   },
+   {
+    "key": "BF00053066_CR12",
+    "doi-asserted-by": "publisher",
+    "first-page": "629",
+    "DOI": "10.1214/aos/1176350824",
+    "volume": "16",
+    "author": "J. Romano",
+    "year": "1988",
+    "unstructured": "Romano J. (1988). On weak convergence and optimality of kernel density estimates of the mode, Ann. Statist., 16, 629–647.",
+    "journal-title": "Ann. Statist."
+   },
+   {
+    "key": "BF00053066_CR13",
+    "doi-asserted-by": "publisher",
+    "first-page": "177",
+    "DOI": "10.1214/aos/1176344076",
+    "volume": "6",
+    "author": "B. Silverman",
+    "year": "1978",
+    "unstructured": "Silverman B. (1978). Weak and strong uniform consistency of the kernel estimate of a density and its derivatives, Ann. Statist., 6, 177–184.",
+    "journal-title": "Ann. Statist."
+   },
+   {
+    "key": "BF00053066_CR14",
+    "doi-asserted-by": "crossref",
+    "first-page": "97",
+    "DOI": "10.1111/j.2517-6161.1981.tb01155.x",
+    "volume": "43",
+    "author": "B. Silverman",
+    "year": "1981",
+    "unstructured": "Silverman B. (1981). Using kernel density estimates to investigate multimodality, J. Roy. Statist. Soc. Ser. B, 43, 97–99.",
+    "journal-title": "J. Roy. Statist. Soc. Ser. B"
+   },
+   {
+    "key": "BF00053066_CR15",
+    "doi-asserted-by": "publisher",
+    "first-page": "939",
+    "DOI": "10.1214/aoms/1177696970",
+    "volume": "41",
+    "author": "W. Whitt",
+    "year": "1970",
+    "unstructured": "Whitt W. (1970). Weak convergence of probability measures on the function space C[0, ∞), Ann. Math. Statist., 41, 939–944.",
+    "journal-title": "Ann. Math. Statist."
+   }
+  ],
+  "container-title": [
+   "Annals of the Institute of Statistical Mathematics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/BF00053066.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/article/10.1007/BF00053066/fulltext.html",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/BF00053066",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   },
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/BF00053066.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     12,
+     19
+    ]
+   ],
+   "date-time": "2024-12-19T11:19:36Z",
+   "timestamp": 1734607176000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://link.springer.com/10.1007/BF00053066"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1988,
+     9
+    ]
+   ]
+  },
+  "references-count": 15,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      1988,
+      9
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "BF00053066"
+  ],
+  "URL": "https://doi.org/10.1007/bf00053066",
+  "relation": {},
+  "ISSN": [
+   "0020-3157",
+   "1572-9052"
+  ],
+  "issn-type": [
+   {
+    "value": "0020-3157",
+    "type": "print"
+   },
+   {
+    "value": "1572-9052",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1988,
+     9
+    ]
+   ]
+  }
+ },
+ "10.1214/aoms/1177730197": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     21
+    ]
+   ],
+   "date-time": "2026-08-21T14:24:43Z",
+   "timestamp": 1787322283577,
+   "version": "3.56.0"
+  },
+  "reference-count": 0,
+  "publisher": "Institute of Mathematical Statistics",
+  "issue": "3",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Ann. Math. Statist."
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1948,
+     9
+    ]
+   ]
+  },
+  "DOI": "10.1214/aoms/1177730197",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2007,
+     12,
+     17
+    ]
+   ],
+   "date-time": "2007-12-17T17:20:38Z",
+   "timestamp": 1197912038000
+  },
+  "page": "326-339",
+  "source": "Crossref",
+  "is-referenced-by-count": 893,
+  "title": [
+   "Optimum Character of the Sequential Probability Ratio Test"
+  ],
+  "prefix": "10.1214",
+  "volume": "19",
+  "author": [
+   {
+    "given": "A.",
+    "family": "Wald",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "J.",
+    "family": "Wolfowitz",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "108",
+  "container-title": [
+   "The Annals of Mathematical Statistics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://projecteuclid.org/download/pdf_1/euclid.aoms/1177730197",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2017,
+     5,
+     10
+    ]
+   ],
+   "date-time": "2017-05-10T10:11:15Z",
+   "timestamp": 1494411075000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://projecteuclid.org/euclid.aoms/1177730197"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1948,
+     9
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      1948,
+      9
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1214/aoms/1177730197",
+  "relation": {},
+  "ISSN": [
+   "0003-4851"
+  ],
+  "issn-type": [
+   {
+    "value": "0003-4851",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1948,
+     9
+    ]
+   ]
+  }
+ },
+ "10.1016/j.sigpro.2019.107299": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     20
+    ]
+   ],
+   "date-time": "2026-08-20T15:50:31Z",
+   "timestamp": 1787241031934,
+   "version": "3.56.0"
+  },
+  "reference-count": 157,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2020,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2020-02-01T00:00:00Z",
+     "timestamp": 1580515200000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2020,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2020-02-01T00:00:00Z",
+     "timestamp": 1580515200000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/legal/tdmrep-license"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100001665",
+    "name": "Agence Nationale de la Recherche",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/501100001665",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Signal Processing"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2020,
+     2
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.sigpro.2019.107299",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2019,
+     9,
+     19
+    ]
+   ],
+   "date-time": "2019-09-19T11:11:36Z",
+   "timestamp": 1568891496000
+  },
+  "page": "107299",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 1139,
+  "special_numbering": "C",
+  "title": [
+   "Selective review of offline change point detection methods"
+  ],
+  "prefix": "10.1016",
+  "volume": "167",
+  "author": [
+   {
+    "given": "Charles",
+    "family": "Truong",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Laurent",
+    "family": "Oudre",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nicolas",
+    "family": "Vayatis",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0001",
+    "doi-asserted-by": "crossref",
+    "first-page": "100",
+    "DOI": "10.1093/biomet/41.1-2.100",
+    "article-title": "Continuous inspection schemes",
+    "volume": "41",
+    "author": "Page",
+    "year": "1954",
+    "journal-title": "Biometrika"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0002",
+    "doi-asserted-by": "crossref",
+    "first-page": "523",
+    "DOI": "10.1093/biomet/42.3-4.523",
+    "article-title": "A test for a change in a parameter occurring at an unknown point",
+    "volume": "42",
+    "author": "Page",
+    "year": "1955",
+    "journal-title": "Biometrika"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0003",
+    "series-title": "Detection of abrupt changes: theory and application",
+    "volume": "104",
+    "author": "Basseville",
+    "year": "1993"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0004",
+    "series-title": "Nonparametric methods in change point problems",
+    "author": "Brodsky",
+    "year": "1993"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0005",
+    "series-title": "Limit theorems in change-point analysis",
+    "author": "Csörgö",
+    "year": "1997"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0006",
+    "series-title": "Parametric Statistical Change Point Analysis: With Applications to Genetics, Medicine, and Finance",
+    "author": "Chen",
+    "year": "2011"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0007",
+    "series-title": "Long-Memory in Economics",
+    "first-page": "129",
+    "article-title": "Adaptive detection of multiple change-points in asset price volatility",
+    "author": "Lavielle",
+    "year": "2007"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0008",
+    "doi-asserted-by": "crossref",
+    "first-page": "423",
+    "DOI": "10.1111/jtsa.12035",
+    "article-title": "Inference for single and multiple change-points in time series",
+    "volume": "34",
+    "author": "Jandhyala",
+    "year": "2013",
+    "journal-title": "J. Time Ser. Anal."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0009",
+    "doi-asserted-by": "crossref",
+    "first-page": "134",
+    "DOI": "10.1080/10618600.2015.1116445",
+    "article-title": "Computationally efficient changepoint detection for a range of penalties",
+    "volume": "26",
+    "author": "Haynes",
+    "year": "2017",
+    "journal-title": "J. Comput. Graph. Stat."
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.sigpro.2019.107299_bib0010",
+    "doi-asserted-by": "crossref",
+    "first-page": "2961",
+    "DOI": "10.1109/TSP.2005.851098",
+    "article-title": "An online kernel change detection algorithm",
+    "volume": "53",
+    "author": "Desobry",
+    "year": "2005",
+    "journal-title": "IEEE Tran. Signal Process."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0011",
+    "series-title": "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "first-page": "1665",
+    "article-title": "A regularized kernel-based approach to unsupervised audio segmentation",
+    "author": "Harchaoui",
+    "year": "2009"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0012",
+    "article-title": "Group lassoing change-points piece-constant AR processes",
+    "volume": "70",
+    "author": "Angelosante",
+    "year": "2012",
+    "journal-title": "EURASIP J. Adv. Signal Process."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0013",
+    "series-title": "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "first-page": "6721",
+    "article-title": "Piecewise constant nonnegative matrix factorization",
+    "author": "Seichepine",
+    "year": "2014"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0014",
+    "doi-asserted-by": "crossref",
+    "first-page": "47",
+    "DOI": "10.2307/2998540",
+    "article-title": "Estimating and testing linear models with multiple structural changes",
+    "volume": "66",
+    "author": "Bai",
+    "year": "1998",
+    "journal-title": "Econometrica"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0015",
+    "doi-asserted-by": "crossref",
+    "first-page": "495",
+    "DOI": "10.1111/rssb.12047",
+    "article-title": "Multiscale change point inference",
+    "volume": "76",
+    "author": "Frick",
+    "year": "2014",
+    "journal-title": "J. R. Stat. Soc. Ser. B"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0016",
+    "doi-asserted-by": "crossref",
+    "first-page": "164",
+    "DOI": "10.1186/1471-2105-14-164",
+    "article-title": "Learning smoothing models of copy number profiles using breakpoint annotations",
+    "volume": "14",
+    "author": "Hocking",
+    "year": "2013",
+    "journal-title": "BMC Bioinformat."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0017",
+    "doi-asserted-by": "crossref",
+    "first-page": "519",
+    "DOI": "10.1007/s11222-016-9636-3",
+    "article-title": "On optimal multiple changepoint algorithms for large data",
+    "volume": "27",
+    "author": "Maidstone",
+    "year": "2017",
+    "journal-title": "Stat. Comput."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0018",
+    "series-title": "Advances in Neural Information Processing Systems (NIPS)",
+    "first-page": "2343",
+    "article-title": "Fast detection of multiple change-points shared by many signals using group LARS",
+    "volume": "1",
+    "author": "Vert",
+    "year": "2010"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0019",
+    "doi-asserted-by": "crossref",
+    "first-page": "27",
+    "DOI": "10.1186/1471-2105-6-27",
+    "article-title": "A statistical approach for array CGH data analysis",
+    "volume": "6",
+    "author": "Picard",
+    "year": "2005",
+    "journal-title": "BMC Bioinformat."
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.sigpro.2019.107299_bib0020",
+    "doi-asserted-by": "crossref",
+    "first-page": "2641",
+    "DOI": "10.1007/s00180-013-0422-9",
+    "article-title": "Exploring the latent segmentation space for the assessment of multiple change-point models",
+    "volume": "28",
+    "author": "Guédon",
+    "year": "2013",
+    "journal-title": "Comput. Stat."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0021",
+    "first-page": "1408",
+    "article-title": "A robust approach for estimating change-points in the mean of an AR(1) process",
+    "volume": "23",
+    "author": "Chakar",
+    "year": "2017",
+    "journal-title": "Bernouilli Soc. Math. Stat.Probab."
+   },
+   {
+    "issue": "4–5",
+    "key": "10.1016/j.sigpro.2019.107299_bib0022",
+    "doi-asserted-by": "crossref",
+    "first-page": "394",
+    "DOI": "10.1016/j.neucli.2015.10.015",
+    "article-title": "Détection automatique des pas à partir de capteurs inertiels pour la quantification de la marche en consultation",
+    "volume": "45",
+    "author": "Oudre",
+    "year": "2015",
+    "journal-title": "Neurophysiologie Clinique/Clin. Neurophysiol."
+   },
+   {
+    "issue": "4–5",
+    "key": "10.1016/j.sigpro.2019.107299_bib0023",
+    "doi-asserted-by": "crossref",
+    "first-page": "403",
+    "DOI": "10.1016/j.neucli.2015.10.038",
+    "article-title": "Évaluation de l’équilibre et prédiction des risques de chutes en utilisant une wii board balance",
+    "volume": "45",
+    "author": "Audiffren",
+    "year": "2015",
+    "journal-title": "Neurophysiologie Clinique/Clin. Neurophysiol."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0024",
+    "doi-asserted-by": "crossref",
+    "first-page": "49",
+    "DOI": "10.1016/j.artmed.2018.06.003",
+    "article-title": "Change-point detection method for clinical decision support system rule monitoring",
+    "volume": "91",
+    "author": "Liu",
+    "year": "2018",
+    "journal-title": "Artif. Intell. Med."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0025",
+    "series-title": "Efficient analysis of complex changepoint problems",
+    "author": "Maidstone",
+    "year": "2016"
+   },
+   {
+    "issue": "114",
+    "key": "10.1016/j.sigpro.2019.107299_bib0026",
+    "doi-asserted-by": "crossref",
+    "first-page": "106",
+    "DOI": "10.1016/j.rse.2009.08.014",
+    "article-title": "Detecting trend and seasonal changes in satellite images time series",
+    "author": "Verbesselt",
+    "year": "2010",
+    "journal-title": "Remote Sens. Environ."
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.sigpro.2019.107299_bib0027",
+    "doi-asserted-by": "crossref",
+    "first-page": "900",
+    "DOI": "10.1175/JAM2493.1",
+    "article-title": "A review and comparison of changepoint detection techniques for climate data",
+    "volume": "46",
+    "author": "Reeves",
+    "year": "2007",
+    "journal-title": "J. Appl. Meteorol. Climatol."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0028",
+    "doi-asserted-by": "crossref",
+    "first-page": "637",
+    "DOI": "10.1214/08-AOAS232",
+    "article-title": "Detection and localization of change-points in high-dimensional network traffic data",
+    "volume": "3",
+    "author": "Lévy-Leduc",
+    "year": "2009",
+    "journal-title": "Ann. Appl. Stat."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0029",
+    "doi-asserted-by": "crossref",
+    "first-page": "485",
+    "DOI": "10.1007/s11222-011-9240-5",
+    "article-title": "Distributed detection/localization of change-points in high-dimensional network traffic data",
+    "volume": "22",
+    "author": "Lung-Yut-Fong",
+    "year": "2012",
+    "journal-title": "Stat. Comput."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0030",
+    "series-title": "Proceedings of the 31st International Conference on Machine Learning (ICML)",
+    "first-page": "297",
+    "article-title": "Large-margin metric learning for constrained partitioning problems",
+    "author": "Lajugie",
+    "year": "2014"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0031",
+    "series-title": "Proceedings of the International Conference on Machine Learning (ICML)",
+    "first-page": "324",
+    "article-title": "PeakSeg: constrained optimal segmentation and supervised penalty learning for peak detection in count data",
+    "author": "Hocking",
+    "year": "2015"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0032",
+    "doi-asserted-by": "crossref",
+    "first-page": "244",
+    "DOI": "10.1016/j.neucli.2016.09.019",
+    "article-title": "Étude observationnelle du demi-tour à l’aide de capteurs inertiels chez les sujets victimes d’AVC et relation avec le risque de chute",
+    "volume": "46",
+    "author": "Barrois-Müller",
+    "year": "2016",
+    "journal-title": "Neurophysiologie Clinique/Clin. Neurophysiol."
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.sigpro.2019.107299_bib0033",
+    "doi-asserted-by": "crossref",
+    "first-page": "e0164975",
+    "DOI": "10.1371/journal.pone.0164975",
+    "article-title": "An automated recording method in clinical consultation to rate the limp in lower limb osteoarthritis",
+    "volume": "11",
+    "author": "Barrois-Müller",
+    "year": "2016",
+    "journal-title": "PLoS One"
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.sigpro.2019.107299_bib0034",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.3390/s18114033",
+    "article-title": "Template-based step detection with inertial measurement units",
+    "volume": "18",
+    "author": "Oudre",
+    "year": "2018",
+    "journal-title": "Sensors"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0035",
+    "series-title": "Proceedings of the Groupe de Recherche et d’Etudes en Traitement du Signal et des Images (GRETSI)",
+    "article-title": "Segmentation de signaux physiologiques par optimisation globale",
+    "author": "Truong",
+    "year": "2015"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0036",
+    "doi-asserted-by": "crossref",
+    "first-page": "1880",
+    "DOI": "10.1080/10255842.2015.1072414",
+    "article-title": "Quantify osteoarthritis gait at the doctor’s office: a simple pelvis accelerometer based method independent from footwear and aging",
+    "volume": "18 Suppl 1",
+    "author": "Barrois-Müller",
+    "year": "2015",
+    "journal-title": "Comput. Method. Biomech. Biomed. Eng."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0037",
+    "unstructured": "C. Truong, ruptures: change point detection in python, 2018, [Online]. http://ctruong.perso.math.cnrs.fr/ruptures."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0038",
+    "doi-asserted-by": "crossref",
+    "first-page": "257",
+    "DOI": "10.1109/5.18626",
+    "article-title": "A tutorial on hidden Markov models and selected applications in speech recognition",
+    "volume": "77",
+    "author": "Rabiner",
+    "year": "1989",
+    "journal-title": "Proc. IEEE"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0039",
+    "doi-asserted-by": "crossref",
+    "first-page": "275",
+    "DOI": "10.1214/14-BA910",
+    "article-title": "Dirichlet process hidden markov multiple change-point model",
+    "volume": "10",
+    "author": "Ko",
+    "year": "2015",
+    "journal-title": "Bayesian Anal."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0040",
+    "doi-asserted-by": "crossref",
+    "first-page": "823",
+    "DOI": "10.1214/14-BA878",
+    "article-title": "On a nonparametric change point detection model in markovian regimes",
+    "volume": "9",
+    "author": "Martínez",
+    "year": "2014",
+    "journal-title": "Bayesian Anal."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0041",
+    "doi-asserted-by": "crossref",
+    "first-page": "260",
+    "DOI": "10.1214/aos/1176348521",
+    "article-title": "Product partition models for change point problems",
+    "volume": "20",
+    "author": "Barry",
+    "year": "1992",
+    "journal-title": "Ann. Stat."
+   },
+   {
+    "issue": "421",
+    "key": "10.1016/j.sigpro.2019.107299_bib0042",
+    "doi-asserted-by": "crossref",
+    "first-page": "309",
+    "DOI": "10.1080/01621459.1993.10594323",
+    "article-title": "A bayesian analysis for change point problems",
+    "volume": "88",
+    "author": "Barry",
+    "year": "1993",
+    "journal-title": "J. Am. Stat. Assoc."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0043",
+    "doi-asserted-by": "crossref",
+    "first-page": "339",
+    "DOI": "10.1007/s10115-016-0987-z",
+    "article-title": "A survey of methods for time series change point detection",
+    "volume": "51",
+    "author": "Aminikhanghahi",
+    "year": "2017",
+    "journal-title": "Know. Inf. Syst."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0044",
+    "first-page": "611",
+    "article-title": "Multiple change-point detection: a selective overview",
+    "volume": "31",
+    "author": "Niu",
+    "year": "2016",
+    "journal-title": "Statistica Sci."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0045",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1002/jae.659",
+    "article-title": "Multiple structural change models: a simulation analysis",
+    "volume": "18",
+    "author": "Bai",
+    "year": "2003",
+    "journal-title": "J. Appl. Econom."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0046",
+    "unstructured": "S. Chakar, É. Lebarbier, C. Levy-Leduc, S. Robin, AR1seg: segmentation of an autoregressive Gaussian process of order 1, 2014. URL https://cran.r-project.org/package=AR1seg."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0047",
+    "doi-asserted-by": "crossref",
+    "first-page": "157",
+    "DOI": "10.1214/07-AOS558",
+    "article-title": "Consistencies and rates of convergence of jump-penalized least squares estimators",
+    "volume": "37",
+    "author": "Boysen",
+    "year": "2009",
+    "journal-title": "Ann. Stat."
+   },
+   {
+    "issue": "492",
+    "key": "10.1016/j.sigpro.2019.107299_bib0048",
+    "doi-asserted-by": "crossref",
+    "first-page": "1480",
+    "DOI": "10.1198/jasa.2010.tm09181",
+    "article-title": "Multiple change-point estimation with a total variation penalty",
+    "volume": "105",
+    "author": "Harchaoui",
+    "year": "2010",
+    "journal-title": "J. Am. Stat. Assoc."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0049",
+    "doi-asserted-by": "crossref",
+    "first-page": "79",
+    "DOI": "10.1016/S0304-4149(99)00023-X",
+    "article-title": "Detection of multiples changes in a sequence of dependant variables",
+    "volume": "83",
+    "author": "Lavielle",
+    "year": "1999",
+    "journal-title": "Stochast. ProcessesAppl."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0050",
+    "doi-asserted-by": "crossref",
+    "first-page": "1207",
+    "DOI": "10.1111/rssb.12202",
+    "article-title": "Heterogeneous change point inference",
+    "volume": "79",
+    "author": "Pein",
+    "year": "2017",
+    "journal-title": "J. R. Stat. Soc. Ser B (Stat. Methodol.)"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0051",
+    "doi-asserted-by": "crossref",
+    "first-page": "151",
+    "DOI": "10.1016/j.jspi.2017.09.003",
+    "article-title": "Optimal change point detection in gaussian processes",
+    "volume": "193",
+    "author": "Keshavarz",
+    "year": "2018",
+    "journal-title": "J. Stat. Plann. Inference"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0052",
+    "doi-asserted-by": "crossref",
+    "first-page": "33",
+    "DOI": "10.1111/1467-9892.00172",
+    "article-title": "Least-squares estimation of an unknown number of shifts in a time series",
+    "volume": "21",
+    "author": "Lavielle",
+    "year": "2000",
+    "journal-title": "J. Time Ser. Anal."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0053",
+    "doi-asserted-by": "crossref",
+    "first-page": "98",
+    "DOI": "10.1214/aos/1176343001",
+    "article-title": "On tests for detecting change in mean",
+    "volume": "3",
+    "author": "Sen",
+    "year": "1975",
+    "journal-title": "Ann. Stat."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0054",
+    "doi-asserted-by": "crossref",
+    "first-page": "375",
+    "DOI": "10.1016/S0169-7161(88)07021-X",
+    "article-title": "Review about estimation of change points",
+    "volume": "7",
+    "author": "Krishnaiah",
+    "year": "1988",
+    "journal-title": "Handbook Stat."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0055",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1111/j.1467-9892.2012.00819.x",
+    "article-title": "Structural breaks in time series",
+    "volume": "34",
+    "author": "Aue",
+    "year": "2012",
+    "journal-title": "J. Time Ser. Anal."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0056",
+    "doi-asserted-by": "crossref",
+    "first-page": "203",
+    "DOI": "10.1007/s11222-006-8450-8",
+    "article-title": "Exact and efficient bayesian inference for multiple changepoint problems",
+    "volume": "16",
+    "author": "Fearnhead",
+    "year": "2006",
+    "journal-title": "Stat. Comput."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0057",
+    "first-page": "63",
+    "article-title": "Change point detection in heteroscedastic time series",
+    "volume": "7",
+    "author": "Górecki",
+    "year": "2018",
+    "journal-title": "Econ. Stat."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0058",
+    "doi-asserted-by": "crossref",
+    "first-page": "563",
+    "DOI": "10.1093/biomet/77.3.563",
+    "article-title": "Maximum likelihood estimation of multiple change points",
+    "volume": "77",
+    "author": "Fu",
+    "year": "1990",
+    "journal-title": "Biometrika"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0059",
+    "doi-asserted-by": "crossref",
+    "first-page": "759",
+    "DOI": "10.3150/09-BEJ232",
+    "article-title": "Asymptotic properties of maximum likelihood estimators in models with multiple change points",
+    "volume": "16",
+    "author": "He",
+    "year": "2010",
+    "journal-title": "Bernoulli"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0060",
+    "doi-asserted-by": "crossref",
+    "first-page": "999",
+    "DOI": "10.1214/aoms/1177700517",
+    "article-title": "Estimating the current mean of a normal distribution which is subjected to changes in time",
+    "volume": "35",
+    "author": "Chernoff",
+    "year": "1964",
+    "journal-title": "Ann. Math. Stat."
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.sigpro.2019.107299_bib0061",
+    "doi-asserted-by": "crossref",
+    "first-page": "1897",
+    "DOI": "10.1214/aoms/1177693055",
+    "article-title": "Procedures for reacting to a change in distribution",
+    "volume": "42",
+    "author": "Lorden",
+    "year": "1971",
+    "journal-title": "Ann. Math. Stat."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0062",
+    "first-page": "661",
+    "article-title": "Some comments on Cp",
+    "volume": "15",
+    "author": "Mallows",
+    "year": "1973",
+    "journal-title": "Technometrics"
+   },
+   {
+    "issue": "7–9",
+    "key": "10.1016/j.sigpro.2019.107299_bib0063",
+    "doi-asserted-by": "crossref",
+    "first-page": "1125",
+    "DOI": "10.1016/j.neucom.2009.11.022",
+    "article-title": "Exploratory analysis of functional data via clustering and optimal segmentation",
+    "volume": "73",
+    "author": "Hébrail",
+    "year": "2010",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0064",
+    "doi-asserted-by": "crossref",
+    "first-page": "221",
+    "DOI": "10.1016/S0304-4076(97)00115-2",
+    "article-title": "Estimation and comparison of multiple change-point models",
+    "volume": "86",
+    "author": "Chib",
+    "year": "1998",
+    "journal-title": "J. Econ."
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.sigpro.2019.107299_bib0065",
+    "doi-asserted-by": "crossref",
+    "first-page": "1501",
+    "DOI": "10.1016/j.sigpro.2005.01.012",
+    "article-title": "Using penalized contrasts for the change-point problem",
+    "volume": "85",
+    "author": "Lavielle",
+    "year": "2005",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2019.107299_bib0066",
+    "doi-asserted-by": "crossref",
+    "first-page": "453",
+    "DOI": "10.1111/j.1467-9892.1994.tb00204.x",
+    "article-title": "Least squares estimation of a shift in linear processes",
+    "volume": "15",
+    "author": "Bai",
+    "year": "1994",
+    "journal-title": "J. Time Ser. Anal."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0067",
+    "doi-asserted-by": "crossref",
+    "first-page": "403",
+    "DOI": "10.1017/S026646660000935X",
+    "article-title": "Least absolute deviation of a shift",
+    "volume": "11",
+    "author": "Bai",
+    "year": "1995",
+    "journal-title": "Econom. Theory"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0068",
+    "doi-asserted-by": "crossref",
+    "first-page": "597",
+    "DOI": "10.2307/2171863",
+    "article-title": "Testing for parameter constancy in linear regressions: an empirical distribution function approach",
+    "volume": "64",
+    "author": "Bai",
+    "year": "1996",
+    "journal-title": "Econometrica"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0069",
+    "first-page": "301",
+    "article-title": "Vector autoregressive models with structural changes in regression coefficients and in variancecovariance matrices",
+    "volume": "1",
+    "author": "Bai",
+    "year": "2000",
+    "journal-title": "Ann. Econ. Finance"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0070",
+    "doi-asserted-by": "crossref",
+    "first-page": "551",
+    "DOI": "10.1162/003465397557132",
+    "article-title": "Estimation of a change-point in multiple regression models",
+    "volume": "79",
+    "author": "Bai",
+    "year": "1997",
+    "journal-title": "Rev. Econ. Stat."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0071",
+    "doi-asserted-by": "crossref",
+    "first-page": "459",
+    "DOI": "10.1111/j.1468-0262.2006.00754.x",
+    "article-title": "Estimating and testing structural changes in multivariate regressions",
+    "volume": "75",
+    "author": "Qu",
+    "year": "2007",
+    "journal-title": "Econometrica"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0072",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1002/jae.659",
+    "article-title": "Computation and analysis of multiple structural change models",
+    "volume": "18",
+    "author": "Bai",
+    "year": "2003",
+    "journal-title": "J. Appl. Econom."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0073",
+    "doi-asserted-by": "crossref",
+    "first-page": "103",
+    "DOI": "10.1016/S0378-3758(98)00082-2",
+    "article-title": "Estimation of multiple-regime regressions with least absolutes deviation",
+    "volume": "74",
+    "author": "Bai",
+    "year": "1998",
+    "journal-title": "J. Stat. Plan. Inference"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0074",
+    "doi-asserted-by": "crossref",
+    "first-page": "299",
+    "DOI": "10.1016/S0304-4076(98)00079-7",
+    "article-title": "Likelihood ratio tests for multiple structural changes",
+    "volume": "91",
+    "author": "Bai",
+    "year": "1999",
+    "journal-title": "J. Econom."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0075",
+    "doi-asserted-by": "crossref",
+    "first-page": "72",
+    "DOI": "10.1111/1368-423X.00102",
+    "article-title": "Critical values for multiple structural change tests",
+    "volume": "6",
+    "author": "Bai",
+    "year": "2003",
+    "journal-title": "Econom. J."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0076",
+    "first-page": "278",
+    "article-title": "Dealing with structural breaks",
+    "volume": "1",
+    "author": "Perron",
+    "year": "2006",
+    "journal-title": "Palgrave HandbookEconom."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0077",
+    "doi-asserted-by": "crossref",
+    "first-page": "78",
+    "DOI": "10.1016/j.jeconom.2009.10.020",
+    "article-title": "Common breaks in means and variances for panel data",
+    "volume": "157",
+    "author": "Bai",
+    "year": "2010",
+    "journal-title": "J. Econom."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0078",
+    "doi-asserted-by": "crossref",
+    "first-page": "395",
+    "DOI": "10.1111/1467-937X.00051",
+    "article-title": "Testing for and dating common breaks in multivariate time series",
+    "volume": "65",
+    "author": "Bai",
+    "year": "1998",
+    "journal-title": "Rev. Econ. Stud."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0079",
+    "doi-asserted-by": "crossref",
+    "first-page": "373",
+    "DOI": "10.1016/j.jeconom.2005.06.030",
+    "article-title": "Estimating restricted structural change models",
+    "volume": "134",
+    "author": "Perron",
+    "year": "2006",
+    "journal-title": "J. Econom."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0080",
+    "doi-asserted-by": "crossref",
+    "first-page": "145",
+    "DOI": "10.1111/obes.12153",
+    "article-title": "Partial structural break identification",
+    "volume": "79",
+    "author": "Han",
+    "year": "2017",
+    "journal-title": "Oxford Bull. Econ. Stat."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0081",
+    "doi-asserted-by": "crossref",
+    "first-page": "721",
+    "DOI": "10.1162/003465305775098134",
+    "article-title": "Breaks in the variability and comovement of G-7 economic growth",
+    "volume": "87",
+    "author": "Doyle",
+    "year": "2005",
+    "journal-title": "Rev. Econ. Stat."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0082",
+    "doi-asserted-by": "crossref",
+    "first-page": "807",
+    "DOI": "10.1111/j.1467-9892.2011.00777.x",
+    "article-title": "Quantifying the uncertainty in change points",
+    "volume": "33",
+    "author": "Nam",
+    "year": "2012",
+    "journal-title": "J. Time Ser. Anal."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0083",
+    "first-page": "49",
+    "article-title": "On the generalised distance in statistics",
+    "volume": "2",
+    "author": "Mahalanobis",
+    "year": "1936",
+    "journal-title": "Proc. Natl. Inst. Sci. India"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0084",
+    "series-title": "The Elements of Statistical Learning",
+    "author": "Hastie",
+    "year": "2009"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0085",
+    "series-title": "Advances in Neural Information Processing Systems (NIPS)",
+    "first-page": "521",
+    "article-title": "Distance metric learning, with application to clustering with side-Information",
+    "author": "Xing",
+    "year": "2003"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0084",
+    "series-title": "Proceedings of the 24th International Conference on Machine Learning (ICML)",
+    "first-page": "209",
+    "article-title": "Information-theoretic metric learning",
+    "author": "Davis",
+    "year": "2007"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0087",
+    "doi-asserted-by": "crossref",
+    "first-page": "267",
+    "DOI": "10.3150/bj/1068128978",
+    "article-title": "Empirical likelihood based hypothesis testing",
+    "volume": "9",
+    "author": "Einmahl",
+    "year": "2003",
+    "journal-title": "Bernoulli"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0088",
+    "doi-asserted-by": "crossref",
+    "first-page": "970",
+    "DOI": "10.1214/14-AOS1210",
+    "article-title": "Nonparametric maximum likelihood approach to multiple change-point problems",
+    "volume": "42",
+    "author": "Zou",
+    "year": "2014",
+    "journal-title": "Ann. Stat."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0089",
+    "doi-asserted-by": "crossref",
+    "first-page": "1293",
+    "DOI": "10.1007/s11222-016-9687-5",
+    "article-title": "A computationally efficient nonparametric approach for changepoint detection",
+    "volume": "27",
+    "author": "Haynes",
+    "year": "2017",
+    "journal-title": "Stat. Comput."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0090",
+    "doi-asserted-by": "crossref",
+    "first-page": "95",
+    "DOI": "10.1198/004017005000000328",
+    "article-title": "Powerful two-sample tests based on the likelihood ratio",
+    "volume": "48",
+    "author": "Zhang",
+    "year": "2006",
+    "journal-title": "Technometrics"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0089",
+    "series-title": "Advances in Neural Information Processing Systems (NIPS)",
+    "first-page": "360",
+    "article-title": "AUC optimization and the two-sample problem",
+    "author": "Clemencon",
+    "year": "2009"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0092",
+    "doi-asserted-by": "crossref",
+    "first-page": "697",
+    "DOI": "10.1214/aos/1176344722",
+    "article-title": "Multivariate generalizations of Wald-Wolfowitz and Smirnov two-sample tests",
+    "volume": "7",
+    "author": "Friedman",
+    "year": "1979",
+    "journal-title": "The Annals of Statistics"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0093",
+    "first-page": "133",
+    "article-title": "Homogeneity and change-point detection tests for multivariate data using rank statistics",
+    "volume": "156",
+    "author": "Lung-Yut-Fong",
+    "year": "2015",
+    "journal-title": "J. de la Société Française de Statistique"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.sigpro.2019.107299_bib0094",
+    "doi-asserted-by": "crossref",
+    "first-page": "80",
+    "DOI": "10.2307/3001968",
+    "article-title": "Individual comparisons by ranking methods",
+    "volume": "1",
+    "author": "Wilcoxon",
+    "year": "1945",
+    "journal-title": "Biometr. Bull."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0095",
+    "series-title": "Testing Statistical Hypotheses",
+    "volume": "101",
+    "author": "Lehman",
+    "year": "2006"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0096",
+    "series-title": "Rank Correlation Methods",
+    "author": "Kendall",
+    "year": "1970"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0095",
+    "series-title": "Proceedings of the IEEE/SP Workshop on Statistical Signal Processing",
+    "first-page": "768",
+    "article-title": "Retrospective multiple change-point estimation with kernels",
+    "author": "Harchaoui",
+    "year": "2007"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0098",
+    "series-title": "Learning with kernels",
+    "author": "Schölkopf",
+    "year": "2002"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0099",
+    "first-page": "723",
+    "article-title": "A kernel two-sample test",
+    "volume": "13",
+    "author": "Gretton",
+    "year": "2012",
+    "journal-title": "J. Mach. Learn. Res. (JMLR)"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0100",
+    "doi-asserted-by": "crossref",
+    "first-page": "200",
+    "DOI": "10.1016/j.csda.2018.07.002",
+    "article-title": "New efficient algorithms for multiple change-point detection with reproducing kernels",
+    "volume": "128",
+    "author": "Celisse",
+    "year": "2018",
+    "journal-title": "Comput. Stat. Data Analysis"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0099",
+    "series-title": "Proceedings of the 21st Conference on Learning Theory (COLT)",
+    "first-page": "9",
+    "article-title": "Injective Hilbert space embeddings of probability measures",
+    "author": "Sriperumbudur",
+    "year": "2008"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0102",
+    "series-title": "Kernel Methods for Pattern Analysis",
+    "author": "Shawe-Taylor",
+    "year": "2004"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0103",
+    "doi-asserted-by": "crossref",
+    "first-page": "4440",
+    "DOI": "10.1214/18-EJS1513",
+    "article-title": "Consistent change-point detection with kernels",
+    "volume": "12",
+    "author": "Garreau",
+    "year": "2018",
+    "journal-title": "Electron. J. Stat."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0104",
+    "first-page": "1",
+    "article-title": "Kernel change-point detection",
+    "author": "Arlot",
+    "year": "2012",
+    "journal-title": "arXiv preprint arXiv:1202.3878"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0105",
+    "doi-asserted-by": "crossref",
+    "first-page": "117",
+    "DOI": "10.1016/j.ins.2018.03.010",
+    "article-title": "Capturing correlation changes by applying kernel change point detection on the running correlations",
+    "volume": "447",
+    "author": "Cabrieto",
+    "year": "2018",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0106",
+    "first-page": "519",
+    "article-title": "Metric and kernel learning using a linear transformation",
+    "volume": "13",
+    "author": "Jain",
+    "year": "2012",
+    "journal-title": "J. Mach. Learn. Res. (JMLR)"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0105",
+    "series-title": "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "first-page": "1",
+    "article-title": "Supervised kernel change point detection with partial annotations",
+    "author": "Truong",
+    "year": "2019"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0108",
+    "series-title": "Fundamentals of Statistical Signal Processing, Volume II: Detection Theory",
+    "author": "Kay",
+    "year": "1993"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0109",
+    "doi-asserted-by": "crossref",
+    "first-page": "87",
+    "DOI": "10.1090/qam/102435",
+    "article-title": "On a routing problem",
+    "volume": "16",
+    "author": "Bellman",
+    "year": "1955",
+    "journal-title": "Q. Appl. Math."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2019.107299_bib0110",
+    "doi-asserted-by": "crossref",
+    "first-page": "1365",
+    "DOI": "10.1109/78.668798",
+    "article-title": "Optimal segmentation of random processes",
+    "volume": "46",
+    "author": "Lavielle",
+    "year": "1998",
+    "journal-title": "IEEE Trans. Signal Process."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0111",
+    "first-page": "180",
+    "article-title": "A pruned dynamic programming algorithm to recover the best segmentations with 1 to k_max change-points.",
+    "volume": "156",
+    "author": "Rigaill",
+    "year": "2015",
+    "journal-title": "J. de la Société Française de Statistique"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0110",
+    "series-title": "Proceedings of 16th European Symposium on Artificial Neural Networks (ESANN)",
+    "first-page": "281",
+    "article-title": "Simultaneous clustering and segmentation for functional data",
+    "author": "Hugueney",
+    "year": "2009"
+   },
+   {
+    "issue": "500",
+    "key": "10.1016/j.sigpro.2019.107299_bib0113",
+    "doi-asserted-by": "crossref",
+    "first-page": "1590",
+    "DOI": "10.1080/01621459.2012.737745",
+    "article-title": "Optimal detection of changepoints with a linear computational cost",
+    "volume": "107",
+    "author": "Killick",
+    "year": "2012",
+    "journal-title": "J. Amer. Stat. Assoc."
+   },
+   {
+    "issue": "438",
+    "key": "10.1016/j.sigpro.2019.107299_bib0114",
+    "doi-asserted-by": "crossref",
+    "first-page": "739",
+    "DOI": "10.1080/01621459.1997.10474026",
+    "article-title": "Testing and locating variance changepoints with application to stock prices",
+    "volume": "92",
+    "author": "Chen",
+    "year": "1997",
+    "journal-title": "J. Amer. Stat. Assoc."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0115",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "275",
+    "DOI": "10.1007/BFb0052847",
+    "article-title": "ECG segmentation using time-warping",
+    "author": "Vullings",
+    "year": "1997"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0116",
+    "doi-asserted-by": "crossref",
+    "first-page": "93",
+    "DOI": "10.1016/S0169-2607(98)00079-0",
+    "article-title": "A nonparametric method for the segmentation of the EEG",
+    "volume": "60",
+    "author": "Brodsky",
+    "year": "1999",
+    "journal-title": "Comput. Method. Program. Biomed."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0117",
+    "doi-asserted-by": "crossref",
+    "first-page": "177",
+    "DOI": "10.1109/81.904882",
+    "article-title": "A comparison of waveform fractal dimension algorithms",
+    "volume": "48",
+    "author": "Esteller",
+    "year": "2001",
+    "journal-title": "IEEE Trans. Circuit. Syst. I: Fundamental Theory and Applications"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0116",
+    "series-title": "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "first-page": "2522",
+    "article-title": "An online feature selection architecture for Human Activity Recognition",
+    "author": "Karagiannaki",
+    "year": "2017"
+   },
+   {
+    "issue": "444",
+    "key": "10.1016/j.sigpro.2019.107299_bib0119",
+    "doi-asserted-by": "crossref",
+    "first-page": "1488",
+    "DOI": "10.1080/01621459.1998.10473808",
+    "article-title": "Time-dependent spectral analysis of nonstationary time series",
+    "volume": "93",
+    "author": "Adak",
+    "year": "1998",
+    "journal-title": "J. Am. Stat. Assoc."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0118",
+    "series-title": "Proceedings of the DARPA Broadcast News Transcription and Understanding Workshop",
+    "first-page": "8",
+    "article-title": "Speaker, environment and channel change detection and clustering via the Bayesian information criterion",
+    "author": "Chen",
+    "year": "1998"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0121",
+    "first-page": "1",
+    "article-title": "Segmenting time series: a survey and novel approach",
+    "volume": "57",
+    "author": "Keogh",
+    "year": "2004",
+    "journal-title": "Data Min. Time Ser. Databases"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0120",
+    "series-title": "Advances in Neural Information Processing Systems (NIPS)",
+    "first-page": "609",
+    "article-title": "Kernel change-point analysis",
+    "author": "Harchaoui",
+    "year": "2008"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0123",
+    "doi-asserted-by": "crossref",
+    "first-page": "72",
+    "DOI": "10.1016/j.neunet.2013.01.012",
+    "article-title": "Change-point detection in time-series data by relative density-ratio estimation",
+    "volume": "43",
+    "author": "Liu",
+    "year": "2013",
+    "journal-title": "Neural Networks"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0122",
+    "series-title": "Proceedings of the Thirtieth International Conference on Very Large Data Bases (VLDB) - Volume 30",
+    "first-page": "180",
+    "article-title": "Detecting change in data streams",
+    "author": "Kifer",
+    "year": "2004"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0125",
+    "series-title": "Technical Report",
+    "article-title": "Bayesian Online Changepoint Detection",
+    "author": "Prescott Adams",
+    "year": "2007"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0126",
+    "doi-asserted-by": "crossref",
+    "first-page": "557",
+    "DOI": "10.1093/biostatistics/kxh008",
+    "article-title": "Circular binary segmentation for the analysis of array-based DNA copy number data",
+    "volume": "5",
+    "author": "Olshen",
+    "year": "2004",
+    "journal-title": "Biostatistics"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0127",
+    "doi-asserted-by": "crossref",
+    "first-page": "315",
+    "DOI": "10.1017/S0266466600005831",
+    "article-title": "Estimating multiple breaks one at a time",
+    "volume": "13",
+    "author": "Bai",
+    "year": "1997",
+    "journal-title": "Econom. Theory"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.sigpro.2019.107299_bib0128",
+    "doi-asserted-by": "crossref",
+    "first-page": "2243",
+    "DOI": "10.1214/14-AOS1245",
+    "article-title": "Wild binary segmentation for multiple change-point detection",
+    "volume": "42",
+    "author": "Fryzlewicz",
+    "year": "2014",
+    "journal-title": "Ann. Statistics"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0129",
+    "series-title": "Proceedings of the IEEE International Conference on Data Mining (ICDM)",
+    "first-page": "203",
+    "article-title": "Time series segmentation for context recognition in mobile devices",
+    "author": "Himberg",
+    "year": "2001"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0130",
+    "doi-asserted-by": "crossref",
+    "first-page": "1306",
+    "DOI": "10.1214/12-AOAS539",
+    "article-title": "The screening and ranking algorithm to detect DNA copy number variations",
+    "volume": "6",
+    "author": "Niu",
+    "year": "2012",
+    "journal-title": "Ann. Appl. Stat."
+   },
+   {
+    "issue": "19",
+    "key": "10.1016/j.sigpro.2019.107299_bib0131",
+    "doi-asserted-by": "crossref",
+    "first-page": "3763",
+    "DOI": "10.1093/bioinformatics/bti611",
+    "article-title": "Comparative analysis of algorithms for identifying amplifications and deletions in array CGh data",
+    "volume": "21",
+    "author": "Lai",
+    "year": "2005",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "issue": "22",
+    "key": "10.1016/j.sigpro.2019.107299_bib0132",
+    "doi-asserted-by": "crossref",
+    "first-page": "4084",
+    "DOI": "10.1093/bioinformatics/bti677",
+    "article-title": "A comparison study: applying segmentation to array CGH data for downstream analyses",
+    "volume": "21",
+    "author": "Willenbrock",
+    "year": "2005",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.sigpro.2019.107299_bib0133",
+    "doi-asserted-by": "crossref",
+    "first-page": "657",
+    "DOI": "10.1093/bioinformatics/btl646",
+    "article-title": "A faster circular binary segmentation algorithm for the analysis of array CGH data",
+    "volume": "23",
+    "author": "Venkatraman",
+    "year": "2007",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0132",
+    "series-title": "Proceedings of the IEEE International Conference on Data Mining (ICDM)",
+    "first-page": "289",
+    "article-title": "An online algorithm for segmenting time series",
+    "author": "Keogh",
+    "year": "2001"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0135",
+    "doi-asserted-by": "crossref",
+    "first-page": "181",
+    "DOI": "10.1016/0167-7152(88)90118-6",
+    "article-title": "Estimating the number of change-points via Schwarz’ criterion",
+    "volume": "6",
+    "author": "Yao",
+    "year": "1988",
+    "journal-title": "Stat. Probab. Lett."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0136",
+    "first-page": "370",
+    "article-title": "Least-squares estimation of a step function",
+    "volume": "51",
+    "author": "Yao",
+    "year": "1989",
+    "journal-title": "Sankhy"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0137",
+    "doi-asserted-by": "crossref",
+    "first-page": "40",
+    "DOI": "10.1214/09-SS054",
+    "article-title": "A survey of cross-validation procedures for model selection",
+    "volume": "4",
+    "author": "Arlot",
+    "year": "2010",
+    "journal-title": "Stat. Surv."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0138",
+    "doi-asserted-by": "crossref",
+    "first-page": "33",
+    "DOI": "10.1007/s00440-006-0011-8",
+    "article-title": "Minimal penalties for gaussian model selection",
+    "volume": "138",
+    "author": "Birgé",
+    "year": "2007",
+    "journal-title": "Probability Theory and Related Fields"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0137",
+    "series-title": "Proceedings of the International Conference on Machine Learning (ICML)",
+    "first-page": "172",
+    "article-title": "Learning sparse penalties for change-point detection using max margin interval regression",
+    "author": "Hocking",
+    "year": "2013"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_sbref0138",
+    "series-title": "Proceedings of the European Signal Processing Conference (EUSIPCO)",
+    "first-page": "1569",
+    "article-title": "Penalty learning for changepoint detection",
+    "author": "Truong",
+    "year": "2017"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0141",
+    "doi-asserted-by": "crossref",
+    "first-page": "461",
+    "DOI": "10.1214/aos/1176344136",
+    "article-title": "Estimating the dimension of a model",
+    "volume": "6",
+    "author": "Schwarz",
+    "year": "1978",
+    "journal-title": "Ann Stat"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0142",
+    "doi-asserted-by": "crossref",
+    "first-page": "267",
+    "DOI": "10.1111/j.2517-6161.1996.tb02080.x",
+    "article-title": "Regression shrinkage and selection via the lasso",
+    "volume": "58",
+    "author": "Tibshirani",
+    "year": "1996",
+    "journal-title": "J R Stat. Soc. Ser B (Methodological)"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0143",
+    "doi-asserted-by": "crossref",
+    "first-page": "831",
+    "DOI": "10.1016/j.jhydrol.2016.04.043",
+    "article-title": "Abrupt change point detection of annual maximum precipitation using fused lasso",
+    "volume": "538",
+    "author": "Jeon",
+    "year": "2016",
+    "journal-title": "J. Hydrol."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0144",
+    "doi-asserted-by": "crossref",
+    "first-page": "22",
+    "DOI": "10.1111/j.1541-0420.2006.00662.x",
+    "article-title": "A modified Bayes information criterion with applications to the analysis of comparative genomic hybridization data.",
+    "volume": "63",
+    "author": "Zhang",
+    "year": "2007",
+    "journal-title": "Biometrics"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2019.107299_bib0145",
+    "doi-asserted-by": "crossref",
+    "first-page": "717",
+    "DOI": "10.1016/j.sigpro.2004.11.012",
+    "article-title": "Detecting multiple change-points in the mean of gaussian process by model selection",
+    "volume": "85",
+    "author": "Lebarbier",
+    "year": "2005",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0146",
+    "first-page": "199",
+    "article-title": "Estimating high dimensional covariance matrices and its applications",
+    "volume": "12",
+    "author": "Bai",
+    "year": "2011",
+    "journal-title": "Ann. Econom. Finance"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0147",
+    "first-page": "311",
+    "article-title": "Effect of high dimension: by an example of a two sample problem",
+    "volume": "6",
+    "author": "Bai",
+    "year": "1996",
+    "journal-title": "Stat. Sinica"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0148",
+    "doi-asserted-by": "crossref",
+    "first-page": "808",
+    "DOI": "10.1214/09-AOS716",
+    "article-title": "A two-sample test for high-dimensional data with applications to gene-set testing",
+    "volume": "38",
+    "author": "Chen",
+    "year": "2010",
+    "journal-title": "Ann. Stat."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0149",
+    "first-page": "1",
+    "article-title": "High-dimensional change-point detection with sparse alternatives",
+    "author": "Enikeeva",
+    "year": "2014",
+    "journal-title": "arXiv preprint arXiv:1312.1900"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.sigpro.2019.107299_bib0150",
+    "doi-asserted-by": "crossref",
+    "first-page": "2451",
+    "DOI": "10.1214/15-AOS1347",
+    "article-title": "Uniform change point tests in high dimension",
+    "volume": "43",
+    "author": "Jirak",
+    "year": "2015",
+    "journal-title": "Ann. Stat."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0151",
+    "doi-asserted-by": "crossref",
+    "first-page": "57",
+    "DOI": "10.1111/rssb.12243",
+    "article-title": "High dimensional change point estimation via sparse projection",
+    "volume": "80",
+    "author": "Wang",
+    "year": "2018",
+    "journal-title": "J. R. Stat. Soc. Ser. B (Stat. Methodol.)"
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0152",
+    "doi-asserted-by": "crossref",
+    "first-page": "136",
+    "DOI": "10.1016/j.jmva.2012.05.007",
+    "article-title": "Change-point analysis in increasing dimension",
+    "volume": "111",
+    "author": "Jirak",
+    "year": "2012",
+    "journal-title": "J. Multivar. Anal."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2019.107299_bib0153",
+    "doi-asserted-by": "crossref",
+    "first-page": "475",
+    "DOI": "10.1111/rssb.12079",
+    "article-title": "Multiple change-point detection for high dimensional time series via Szparsified binary segmentation",
+    "volume": "77",
+    "author": "Cho",
+    "year": "2014",
+    "journal-title": "J. R. Stat. Soc"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0154",
+    "doi-asserted-by": "crossref",
+    "first-page": "187",
+    "DOI": "10.1016/j.jeconom.2018.05.003",
+    "article-title": "Simultaneous multiple change-point and factor analysis for high-dimensional time series",
+    "volume": "206",
+    "author": "Barigozzi",
+    "year": "2018",
+    "journal-title": "J. Econ."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2019.107299_bib0155",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1016/j.jeconom.2018.06.019",
+    "article-title": "Estimation of large dimensional factor models with an unknown number of breaks",
+    "volume": "207",
+    "author": "Ma",
+    "year": "2018",
+    "journal-title": "J. Econ."
+   },
+   {
+    "key": "10.1016/j.sigpro.2019.107299_bib0156",
+    "first-page": "55",
+    "article-title": "Detecting disorder in multidimensional random processes",
+    "volume": "24",
+    "author": "Vostrikova",
+    "year": "1981",
+    "journal-title": "Soviet Math. Dokl."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2019.107299_bib0157",
+    "doi-asserted-by": "crossref",
+    "first-page": "203",
+    "DOI": "10.1007/s100970100031",
+    "article-title": "Gaussian model selection",
+    "volume": "3",
+    "author": "Birgé",
+    "year": "2001",
+    "journal-title": "J. Eur. Math. Soc."
+   }
+  ],
+  "container-title": [
+   "Signal Processing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0165168419303494?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0165168419303494?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     9,
+     28
+    ]
+   ],
+   "date-time": "2025-09-28T04:48:48Z",
+   "timestamp": 1759034928000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0165168419303494"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2020,
+     2
+    ]
+   ]
+  },
+  "references-count": 157,
+  "alternative-id": [
+   "S0165168419303494"
+  ],
+  "URL": "https://doi.org/10.1016/j.sigpro.2019.107299",
+  "relation": {},
+  "ISSN": [
+   "0165-1684"
+  ],
+  "issn-type": [
+   {
+    "value": "0165-1684",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2020,
+     2
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "Selective review of offline change point detection methods",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Signal Processing",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.sigpro.2019.107299",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "© 2019 Elsevier B.V. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ],
+  "article-number": "107299"
+ },
+ "10.1016/j.jempfin.2010.11.009": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     22
+    ]
+   ],
+   "date-time": "2026-07-22T11:10:56Z",
+   "timestamp": 1784718656447,
+   "version": "3.55.0"
+  },
+  "reference-count": 29,
+  "publisher": "Elsevier BV",
+  "issue": "2",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2011,
+       3,
+       1
+      ]
+     ],
+     "date-time": "2011-03-01T00:00:00Z",
+     "timestamp": 1298937600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Journal of Empirical Finance"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2011,
+     3
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.jempfin.2010.11.009",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2010,
+     12,
+     8
+    ]
+   ],
+   "date-time": "2010-12-08T09:27:41Z",
+   "timestamp": 1291800461000
+  },
+  "page": "321-340",
+  "source": "Crossref",
+  "is-referenced-by-count": 227,
+  "title": [
+   "When machines read the news: Using automated text analytics to quantify high frequency news-implied market reactions"
+  ],
+  "prefix": "10.1016",
+  "volume": "18",
+  "author": [
+   {
+    "given": "Axel",
+    "family": "Groß-Klußmann",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nikolaus",
+    "family": "Hautsch",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0005",
+    "doi-asserted-by": "crossref",
+    "first-page": "1259",
+    "DOI": "10.1111/j.1540-6261.2004.00662.x",
+    "article-title": "Is all that talk just noise? The information content of internet message boards",
+    "volume": "59",
+    "author": "Antweiler",
+    "year": "2004",
+    "journal-title": "J. Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0010",
+    "doi-asserted-by": "crossref",
+    "first-page": "785",
+    "DOI": "10.1093/rfs/hhm079",
+    "article-title": "All that glitters: the effect of attention and news on the buying behavior of individual and institutional investors",
+    "volume": "21",
+    "author": "Barber",
+    "year": "2008",
+    "journal-title": "Rev. Financ. Stud."
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0015",
+    "doi-asserted-by": "crossref",
+    "first-page": "1331",
+    "DOI": "10.2307/2329188",
+    "article-title": "Public information arrival",
+    "volume": "49",
+    "author": "Berry",
+    "year": "1994",
+    "journal-title": "J. Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0020",
+    "doi-asserted-by": "crossref",
+    "first-page": "153",
+    "DOI": "10.2307/2329139",
+    "article-title": "Market statistics and technical analysis",
+    "volume": "49",
+    "author": "Blume",
+    "year": "1994",
+    "journal-title": "J. Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0025",
+    "doi-asserted-by": "crossref",
+    "first-page": "415",
+    "DOI": "10.1016/S0304-405X(02)00148-4",
+    "article-title": "Market efficiency in real time",
+    "volume": "65",
+    "author": "Busse",
+    "year": "2002",
+    "journal-title": "J. Financ. Econ."
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0030",
+    "series-title": "The Econometrics of Financial Markets",
+    "author": "Campbell",
+    "year": "1997"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0035",
+    "doi-asserted-by": "crossref",
+    "first-page": "135",
+    "DOI": "10.2307/1913889",
+    "article-title": "A subordinate stochastic process model with finite variance for speculative prices",
+    "volume": "41",
+    "author": "Clark",
+    "year": "1973",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0040",
+    "doi-asserted-by": "crossref",
+    "first-page": "829",
+    "DOI": "10.2307/1909582",
+    "article-title": "Some statistical models for limited dependent variables with application to the demand for durable goods",
+    "volume": "39",
+    "author": "Cragg",
+    "year": "1971",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0045",
+    "doi-asserted-by": "crossref",
+    "first-page": "69",
+    "DOI": "10.1016/0304-405X(87)90029-8",
+    "article-title": "Price, trade size and information in securities markets",
+    "volume": "19",
+    "author": "Easley",
+    "year": "1987",
+    "journal-title": "J. Financ. Econ."
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0050",
+    "doi-asserted-by": "crossref",
+    "first-page": "577",
+    "DOI": "10.2307/2329116",
+    "article-title": "Time and the process of security price adjustment",
+    "volume": "47",
+    "author": "Easley",
+    "year": "1992",
+    "journal-title": "J. Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0055",
+    "first-page": "1441",
+    "article-title": "Price formation and liquidity in the U.S. Treasury market: the response to public information",
+    "volume": "28",
+    "author": "Fleming",
+    "year": "1999",
+    "journal-title": "J. Bank. Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0060",
+    "doi-asserted-by": "crossref",
+    "first-page": "221",
+    "DOI": "10.1111/j.1467-9892.1983.tb00371.x",
+    "article-title": "The estimation and application of long memory time series models",
+    "volume": "4",
+    "author": "Geweke",
+    "year": "1983",
+    "journal-title": "J. Time Ser."
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0065",
+    "series-title": "Time Series Analysis",
+    "author": "Hamilton",
+    "year": "1994"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0070",
+    "doi-asserted-by": "crossref",
+    "first-page": "473",
+    "DOI": "10.1093/rfs/6.3.473",
+    "article-title": "Differences of opinion make a horse race",
+    "volume": "6",
+    "author": "Harris",
+    "year": "1993",
+    "journal-title": "Rev. Financ. Stud."
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0075",
+    "doi-asserted-by": "crossref",
+    "first-page": "3978",
+    "DOI": "10.1016/j.jedc.2008.01.009",
+    "article-title": "Capturing common components in high frequency time series: a multivariate stochastic multiplicative error model",
+    "volume": "32",
+    "author": "Hautsch",
+    "year": "2008",
+    "journal-title": "J. Econ. Dyn. Control"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0080",
+    "doi-asserted-by": "crossref",
+    "first-page": "1441",
+    "DOI": "10.1016/S0378-4266(03)00126-2",
+    "article-title": "Public information arrival and volatility of intraday stock returns",
+    "volume": "28",
+    "author": "Kalev",
+    "year": "2004",
+    "journal-title": "J. Bank. Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0085",
+    "doi-asserted-by": "crossref",
+    "first-page": "831",
+    "DOI": "10.1086/262005",
+    "article-title": "Differential interpretation of public signals and trade in speculative markets",
+    "volume": "103",
+    "author": "Kandel",
+    "year": "1995",
+    "journal-title": "J. Polit. Econ."
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0090",
+    "doi-asserted-by": "crossref",
+    "first-page": "1069",
+    "DOI": "10.2307/2328164",
+    "article-title": "A theory of trading volume",
+    "volume": "41",
+    "author": "Karpoff",
+    "year": "1986",
+    "journal-title": "J. Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0095",
+    "doi-asserted-by": "crossref",
+    "first-page": "273",
+    "DOI": "10.1016/0304-405X(91)90033-G",
+    "article-title": "Market reactions to anticipated announcements",
+    "volume": "30",
+    "author": "Kim",
+    "year": "1991",
+    "journal-title": "J. Financ. Econ."
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0100",
+    "doi-asserted-by": "crossref",
+    "first-page": "41",
+    "DOI": "10.1016/0165-4101(94)90004-3",
+    "article-title": "Market liquidity and volume around earnings announcements",
+    "volume": "17",
+    "author": "Kim",
+    "year": "1994",
+    "journal-title": "J. Acc. Econ."
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0105",
+    "doi-asserted-by": "crossref",
+    "first-page": "1523",
+    "DOI": "10.2307/2329403",
+    "article-title": "Earnings announcements and the components of the bid-ask spread",
+    "volume": "51",
+    "author": "Krinsky",
+    "year": "1996",
+    "journal-title": "J. Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0110",
+    "doi-asserted-by": "crossref",
+    "first-page": "733",
+    "DOI": "10.2307/2328845",
+    "article-title": "Inferring trade direction from intraday data",
+    "volume": "46",
+    "author": "Lee",
+    "year": "1991",
+    "journal-title": "J. Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0115",
+    "doi-asserted-by": "crossref",
+    "first-page": "345",
+    "DOI": "10.1093/rfs/6.2.345",
+    "article-title": "Spread, depths and the impact of earnings information: an intraday analysis",
+    "volume": "6",
+    "author": "Lee",
+    "year": "1993",
+    "journal-title": "Rev. Financ. Stud."
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0120",
+    "doi-asserted-by": "crossref",
+    "first-page": "923",
+    "DOI": "10.2307/2329211",
+    "article-title": "The impact of public information on the stock market",
+    "volume": "49",
+    "author": "Mitchell",
+    "year": "1994",
+    "journal-title": "J. Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0125",
+    "series-title": "Stock Market Liquidity",
+    "first-page": "199",
+    "article-title": "Intraday market dynamics around public information disclosures",
+    "author": "Ranaldo",
+    "year": "2008"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0130",
+    "doi-asserted-by": "crossref",
+    "first-page": "485",
+    "DOI": "10.2307/1912002",
+    "article-title": "The price variability-volume relationship on speculative markets",
+    "volume": "51",
+    "author": "Tauchen",
+    "year": "1983",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0135",
+    "doi-asserted-by": "crossref",
+    "first-page": "1139",
+    "DOI": "10.1111/j.1540-6261.2007.01232.x",
+    "article-title": "Giving content to investor sentiment: the role of media in the stock market",
+    "volume": "62",
+    "author": "Tetlock",
+    "year": "2007",
+    "journal-title": "J. Finance"
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0140",
+    "doi-asserted-by": "crossref",
+    "first-page": "3520",
+    "DOI": "10.1093/rfs/hhq052",
+    "article-title": "Does public financial news resolve asymmetric information?",
+    "volume": "23",
+    "author": "Tetlock",
+    "year": "2010",
+    "journal-title": "Rev. Financ. Stud."
+   },
+   {
+    "key": "10.1016/j.jempfin.2010.11.009_bb0145",
+    "doi-asserted-by": "crossref",
+    "first-page": "1427",
+    "DOI": "10.1111/j.1540-6261.2008.01362.x",
+    "article-title": "More than words: quantifying language to measure firms’ fundamentals",
+    "volume": "63",
+    "author": "Tetlock",
+    "year": "2008",
+    "journal-title": "J. Finance"
+   }
+  ],
+  "container-title": [
+   "Journal of Empirical Finance"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0927539810000873?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0927539810000873?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2018,
+     12,
+     6
+    ]
+   ],
+   "date-time": "2018-12-06T10:26:16Z",
+   "timestamp": 1544091976000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0927539810000873"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2011,
+     3
+    ]
+   ]
+  },
+  "references-count": 29,
+  "journal-issue": {
+   "issue": "2",
+   "published-print": {
+    "date-parts": [
+     [
+      2011,
+      3
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0927539810000873"
+  ],
+  "URL": "https://doi.org/10.1016/j.jempfin.2010.11.009",
+  "relation": {},
+  "ISSN": [
+   "0927-5398"
+  ],
+  "issn-type": [
+   {
+    "value": "0927-5398",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2011,
+     3
+    ]
+   ]
+  }
+ },
+ "10.1016/j.euroecorev.2005.01.002": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     17
+    ]
+   ],
+   "date-time": "2026-08-17T17:50:10Z",
+   "timestamp": 1786989010926,
+   "version": "3.56.0"
+  },
+  "reference-count": 36,
+  "publisher": "Elsevier BV",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2006,
+       4,
+       1
+      ]
+     ],
+     "date-time": "2006-04-01T00:00:00Z",
+     "timestamp": 1143849600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "European Economic Review"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2006,
+     4
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.euroecorev.2005.01.002",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2005,
+     2,
+     21
+    ]
+   ],
+   "date-time": "2005-02-21T07:18:55Z",
+   "timestamp": 1108970335000
+  },
+  "page": "603-629",
+  "source": "Crossref",
+  "is-referenced-by-count": 157,
+  "title": [
+   "Trade credit, bank lending and monetary policy transmission"
+  ],
+  "prefix": "10.1016",
+  "volume": "50",
+  "author": [
+   {
+    "given": "Simona",
+    "family": "Mateut",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Spiros",
+    "family": "Bougheas",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Paul",
+    "family": "Mizen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib1",
+    "series-title": "Borrowing constraints and the demand for trade credit",
+    "author": "Atanasova",
+    "year": "2002"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "595",
+    "DOI": "10.1016/S0378-4266(03)00037-2",
+    "article-title": "Disequilibrium in the UK corporate loan market",
+    "volume": "28",
+    "author": "Atanasova",
+    "year": "2004",
+    "journal-title": "Journal of Banking and Finance"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib3",
+    "first-page": "435",
+    "article-title": "Credit, money and aggregate demand",
+    "volume": "78",
+    "author": "Bernanke",
+    "year": "1988",
+    "journal-title": "American Economic Review"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib4",
+    "first-page": "901",
+    "article-title": "The Federal funds rate and the channels of monetary policy",
+    "volume": "82",
+    "author": "Bernanke",
+    "year": "1992",
+    "journal-title": "American Economic Review"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "213",
+    "DOI": "10.1093/rfs/6.1.213",
+    "article-title": "Credit market equilibrium with bank monitoring and moral hazard",
+    "volume": "6",
+    "author": "Besanko",
+    "year": "1993",
+    "journal-title": "Review of Financial Studies"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "903",
+    "DOI": "10.1093/rfs/10.4.903",
+    "article-title": "Trade credit and credit rationing",
+    "volume": "10",
+    "author": "Biais",
+    "year": "1997",
+    "journal-title": "Review of Financial Studies"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "324",
+    "DOI": "10.1086/262121",
+    "article-title": "Equity, bonds, and bank debt",
+    "volume": "108",
+    "author": "Bolton",
+    "year": "2000",
+    "journal-title": "Journal of Political Economy"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib8",
+    "doi-asserted-by": "crossref",
+    "first-page": "211",
+    "DOI": "10.1016/0022-0531(86)90115-8",
+    "article-title": "Financial intermediary coalitions",
+    "volume": "38",
+    "author": "Boyd",
+    "year": "1986",
+    "journal-title": "Journal of Economic Theory"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib9",
+    "unstructured": "Cunat, V., 2003. Trade credit: Suppliers as debt collectors and insurance providers. Mimeo., Financial Markets Group, London School of Economics."
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib10",
+    "doi-asserted-by": "crossref",
+    "first-page": "393",
+    "DOI": "10.2307/2297430",
+    "article-title": "Financial intermediation and delegated monitoring",
+    "volume": "51",
+    "author": "Diamond",
+    "year": "1984",
+    "journal-title": "Review of Economic Studies"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "689",
+    "DOI": "10.1086/261775",
+    "article-title": "Monitoring and reputation",
+    "volume": "99",
+    "author": "Diamond",
+    "year": "1991",
+    "journal-title": "Journal of Political Economy"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib12",
+    "unstructured": "Elliehausen, G. and J. Wolken, 1993, An empirical investigation into motives for demand for trade credit, Federal Reserve Board Staff Study no. 165."
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "271",
+    "DOI": "10.2307/2331090",
+    "article-title": "A pure financial explanation for trade credit",
+    "volume": "19",
+    "author": "Emery",
+    "year": "1984",
+    "journal-title": "Journal of Financial and Quantitative Analysis"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "243",
+    "DOI": "10.2307/1882390",
+    "article-title": "A transactions theory of credit use",
+    "volume": "96",
+    "author": "Ferris",
+    "year": "1981",
+    "journal-title": "Quarterly Journal of Economics"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib15",
+    "doi-asserted-by": "crossref",
+    "first-page": "559",
+    "DOI": "10.2307/1992535",
+    "article-title": "Financial structure and aggregate economic activity",
+    "volume": "20",
+    "author": "Gertler",
+    "year": "1988",
+    "journal-title": "Journal of Money, Credit, and Banking"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib16",
+    "doi-asserted-by": "crossref",
+    "first-page": "309",
+    "DOI": "10.2307/2118465",
+    "article-title": "Monetary policy, business cycles, and the behaviour of small manufacturing firms",
+    "volume": "109",
+    "author": "Gertler",
+    "year": "1994",
+    "journal-title": "Quarterly Journal of Economics"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "663",
+    "DOI": "10.1162/003355397555316",
+    "article-title": "Financial intermediation, loanable funds and the real sector",
+    "volume": "112",
+    "author": "Holmstrom",
+    "year": "1997",
+    "journal-title": "Quarterly Journal of Economics"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib18",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Hoshi, T., Kashyap, A., Scharfstein, D., 1993. The choice between public and private debt: An analysis of post-regulation corporate financing in Japan. NBER Working Paper no. 4421.",
+    "DOI": "10.3386/w4421"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib19",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Hubbard, R., 1995. Is there a ‘credit channel’ for monetary policy? Federal Reserve Bank of St. Louis Review 63–77.",
+    "DOI": "10.20955/r.77.63-77"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib20",
+    "doi-asserted-by": "crossref",
+    "first-page": "89",
+    "DOI": "10.1016/S1062-9769(00)00063-6",
+    "article-title": "Monitoring costs and trade credit",
+    "volume": "41",
+    "author": "Jain",
+    "year": "2001",
+    "journal-title": "The Quarterly Review of Economics and Finance"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib21",
+    "series-title": "Monetary Policy",
+    "article-title": "Monetary policy and bank lending",
+    "author": "Kashyap",
+    "year": "1994"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib22",
+    "first-page": "78",
+    "article-title": "Monetary policy and credit conditions",
+    "volume": "83",
+    "author": "Kashyap",
+    "year": "1993",
+    "journal-title": "American Economic Review"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib23",
+    "doi-asserted-by": "crossref",
+    "first-page": "565",
+    "DOI": "10.2307/2118414",
+    "article-title": "Credit conditions and the cyclical behavior of inventories",
+    "volume": "109",
+    "author": "Kashyap",
+    "year": "1994",
+    "journal-title": "Quarterly Journal of Economics"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib24",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Kohler, M., Britton, E., Yates, T., 2000. Trade credit and the monetary transmission mechanism. Bank of England Discussion Paper.",
+    "DOI": "10.2139/ssrn.234693"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib25",
+    "doi-asserted-by": "crossref",
+    "first-page": "429",
+    "DOI": "10.2307/1925692",
+    "article-title": "Mercantile credit, monetary policy, and the size of firms",
+    "volume": "42",
+    "author": "Meltzer",
+    "year": "1960",
+    "journal-title": "Review of Economics and Statistics"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "1109",
+    "DOI": "10.1111/0022-1082.00138",
+    "article-title": "Evidence on the determinants of credit terms used in interfirm trade",
+    "volume": "54",
+    "author": "Ng",
+    "year": "1999",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "226",
+    "DOI": "10.1353/mcb.2002.0032",
+    "article-title": "Trade credit and the bank lending channel",
+    "volume": "34",
+    "author": "Nilsen",
+    "year": "2002",
+    "journal-title": "Journal of Money, Credit and Banking"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib28",
+    "unstructured": "Oliner, S., Rudebush, G., 1996. Is there a broad credit channel for monetary policy? Federal Reserve Bank of San Francisco."
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib29",
+    "doi-asserted-by": "crossref",
+    "first-page": "1421",
+    "DOI": "10.2307/2329322",
+    "article-title": "What do we know about capital structure? Some evidence from international data",
+    "volume": "50",
+    "author": "Rajan",
+    "year": "1995",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib30",
+    "doi-asserted-by": "crossref",
+    "first-page": "1931",
+    "DOI": "10.1016/S0014-2921(99)00069-0",
+    "article-title": "Entrepreneurial moral hazard and bank monitoring",
+    "volume": "44",
+    "author": "Repullo",
+    "year": "2000",
+    "journal-title": "European Economic Review"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib31",
+    "doi-asserted-by": "crossref",
+    "first-page": "643",
+    "DOI": "10.2307/2329765",
+    "article-title": "An economic model of trade credit",
+    "volume": "9",
+    "author": "Schwartz",
+    "year": "1974",
+    "journal-title": "Journal of Economic and Quantitative Analysis"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib32",
+    "series-title": "Towards a New Paradigm in Monetary Economics",
+    "author": "Stiglitz",
+    "year": "2003"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib33",
+    "doi-asserted-by": "crossref",
+    "first-page": "265",
+    "DOI": "10.1016/0022-0531(79)90031-0",
+    "article-title": "Optimal contracts and competitive markets with costly state verification",
+    "volume": "21",
+    "author": "Townsend",
+    "year": "1979",
+    "journal-title": "Journal of Economic Theory"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib34",
+    "doi-asserted-by": "crossref",
+    "first-page": "1425",
+    "DOI": "10.2307/2328946",
+    "article-title": "Debt, liquidity constraints and corporate investment",
+    "volume": "4",
+    "author": "Whited",
+    "year": "1992",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib35",
+    "doi-asserted-by": "crossref",
+    "first-page": "159",
+    "DOI": "10.1016/0304-3932(86)90074-7",
+    "article-title": "Costly monitoring, financial intermediation, and equilibrium credit rationing",
+    "volume": "18",
+    "author": "Williamson",
+    "year": "1986",
+    "journal-title": "Journal of Monetary Economics"
+   },
+   {
+    "key": "10.1016/j.euroecorev.2005.01.002_bib36",
+    "doi-asserted-by": "crossref",
+    "first-page": "153",
+    "DOI": "10.1111/0022-1082.00203",
+    "article-title": "The exploitation of relationships in distress",
+    "volume": "55",
+    "author": "Wilner",
+    "year": "2000",
+    "journal-title": "Journal of Finance"
+   }
+  ],
+  "container-title": [
+   "European Economic Review"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0014292105000073?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0014292105000073?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2020,
+     4,
+     5
+    ]
+   ],
+   "date-time": "2020-04-05T17:32:30Z",
+   "timestamp": 1586107950000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0014292105000073"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2006,
+     4
+    ]
+   ]
+  },
+  "references-count": 36,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      2006,
+      4
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0014292105000073"
+  ],
+  "URL": "https://doi.org/10.1016/j.euroecorev.2005.01.002",
+  "relation": {},
+  "ISSN": [
+   "0014-2921"
+  ],
+  "issn-type": [
+   {
+    "value": "0014-2921",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2006,
+     4
+    ]
+   ]
+  }
+ },
+ "10.1061/TACEAT.0006518": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     21
+    ]
+   ],
+   "date-time": "2026-08-21T13:28:53Z",
+   "timestamp": 1787318933759,
+   "version": "3.56.0"
+  },
+  "reference-count": 0,
+  "publisher": "American Society of Civil Engineers (ASCE)",
+  "issue": "1",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "T. Am. Soc. Civ. Eng."
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1951,
+     1
+    ]
+   ]
+  },
+  "DOI": "10.1061/taceat.0006518",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2021,
+     2,
+     11
+    ]
+   ],
+   "date-time": "2021-02-11T19:57:01Z",
+   "timestamp": 1613073421000
+  },
+  "page": "770-799",
+  "source": "Crossref",
+  "is-referenced-by-count": 4680,
+  "title": [
+   "Long-Term Storage Capacity of Reservoirs"
+  ],
+  "prefix": "10.1061",
+  "volume": "116",
+  "author": [
+   {
+    "given": "H. E.",
+    "family": "Hurst",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Scientific Consultant to the Ministry of Public Works, Egypt; formerly Director-Gen., Physical Dept.; Cairo, Egypt."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "30",
+  "container-title": [
+   "Transactions of the American Society of Civil Engineers"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://ascelibrary.org/doi/pdf/10.1061/TACEAT.0006518",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     6,
+     11
+    ]
+   ],
+   "date-time": "2022-06-11T04:57:37Z",
+   "timestamp": 1654923457000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://ascelibrary.org/doi/10.1061/TACEAT.0006518"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1951,
+     1
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "1",
+   "published-print": {
+    "date-parts": [
+     [
+      1951,
+      1
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1061/TACEAT.0006518"
+  ],
+  "URL": "https://doi.org/10.1061/taceat.0006518",
+  "relation": {},
+  "ISSN": [
+   "0066-0604",
+   "2690-4071"
+  ],
+  "issn-type": [
+   {
+    "value": "0066-0604",
+    "type": "print"
+   },
+   {
+    "value": "2690-4071",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1951,
+     1
+    ]
+   ]
+  }
+ },
+ "10.1016/j.frl.2006.01.001": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     3,
+     31
+    ]
+   ],
+   "date-time": "2026-03-31T09:21:58Z",
+   "timestamp": 1774948918295,
+   "version": "3.50.1"
+  },
+  "reference-count": 6,
+  "publisher": "Elsevier BV",
+  "issue": "2",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2006,
+       6,
+       1
+      ]
+     ],
+     "date-time": "2006-06-01T00:00:00Z",
+     "timestamp": 1149120000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Finance Research Letters"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2006,
+     6
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.frl.2006.01.001",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2006,
+     2,
+     10
+    ]
+   ],
+   "date-time": "2006-02-10T12:29:58Z",
+   "timestamp": 1139574598000
+  },
+  "page": "96-101",
+  "source": "Crossref",
+  "is-referenced-by-count": 13,
+  "title": [
+   "Asset trading volume in infinite-horizon economies with dynamically complete markets and heterogeneous agents: Comment"
+  ],
+  "prefix": "10.1016",
+  "volume": "3",
+  "author": [
+   {
+    "given": "Peter",
+    "family": "Bossaerts",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "William R.",
+    "family": "Zame",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.frl.2006.01.001_bib001",
+    "series-title": "Security Markets: Stochastic Models",
+    "author": "Duffie",
+    "year": "1988"
+   },
+   {
+    "key": "10.1016/j.frl.2006.01.001_bib002",
+    "doi-asserted-by": "crossref",
+    "first-page": "1337",
+    "DOI": "10.2307/1913211",
+    "article-title": "Implementing Arrow–Debreu equilibria by continuous trading of few long-lived securities",
+    "volume": "53",
+    "author": "Duffie",
+    "year": "1985",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.frl.2006.01.001_bib003",
+    "doi-asserted-by": "crossref",
+    "first-page": "1279",
+    "DOI": "10.2307/1913708",
+    "article-title": "The consumption-based capital asset pricing model",
+    "volume": "57",
+    "author": "Duffie",
+    "year": "1989",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.frl.2006.01.001_bib004",
+    "doi-asserted-by": "crossref",
+    "first-page": "2203",
+    "DOI": "10.1111/1540-6261.00602",
+    "article-title": "Asset trading volume in infinite-horizon economies with dynamically complete markets and heterogeneous agents",
+    "volume": "58",
+    "author": "Judd",
+    "year": "2003",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.frl.2006.01.001_bib005",
+    "doi-asserted-by": "crossref",
+    "first-page": "1429",
+    "DOI": "10.2307/1913837",
+    "article-title": "Asset prices in an exchange economy",
+    "volume": "46",
+    "author": "Lucas",
+    "year": "1978",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.frl.2006.01.001_bib006",
+    "doi-asserted-by": "crossref",
+    "first-page": "92",
+    "DOI": "10.1016/0022-0531(71)90038-X",
+    "article-title": "Optimum consumption and portfolio rules in a continuous-time model",
+    "volume": "3",
+    "author": "Merton",
+    "year": "1971",
+    "journal-title": "Journal of Economic Theory"
+   }
+  ],
+  "container-title": [
+   "Finance Research Letters"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S1544612306000031?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S1544612306000031?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     1,
+     18
+    ]
+   ],
+   "date-time": "2019-01-18T14:22:31Z",
+   "timestamp": 1547821351000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1544612306000031"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2006,
+     6
+    ]
+   ]
+  },
+  "references-count": 6,
+  "journal-issue": {
+   "issue": "2",
+   "published-print": {
+    "date-parts": [
+     [
+      2006,
+      6
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S1544612306000031"
+  ],
+  "URL": "https://doi.org/10.1016/j.frl.2006.01.001",
+  "relation": {},
+  "ISSN": [
+   "1544-6123"
+  ],
+  "issn-type": [
+   {
+    "value": "1544-6123",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2006,
+     6
+    ]
+   ]
+  }
+ },
+ "10.1002/for.3980090104": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     2,
+     13
+    ]
+   ],
+   "date-time": "2026-02-13T10:22:22Z",
+   "timestamp": 1770978142985,
+   "version": "3.50.1"
+  },
+  "reference-count": 28,
+  "publisher": "Wiley",
+  "issue": "1",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2006,
+       9,
+       23
+      ]
+     ],
+     "date-time": "2006-09-23T00:00:00Z",
+     "timestamp": 1158969600000
+    },
+    "content-version": "vor",
+    "delay-in-days": 6109,
+    "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Journal of Forecasting"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1990,
+     1
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>Tests for SETAR‐type non‐linearity in time series have recently been proposed by Petruccelli and Davies (1986), W. S. Chan and Tong (1986), Tsay (1987), Luukkonen<jats:italic>et al.</jats:italic>(1988), Petruccelli (1987) and Moeanaddin and Tong (1988). In this paper we consider the relative performance of thes: tests.</jats:p>",
+  "DOI": "10.1002/for.3980090104",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2007,
+     7,
+     8
+    ]
+   ],
+   "date-time": "2007-07-08T11:19:47Z",
+   "timestamp": 1183893587000
+  },
+  "page": "25-36",
+  "source": "Crossref",
+  "is-referenced-by-count": 36,
+  "title": [
+   "A comparison of tests for setar‐type non‐linearity in time series"
+  ],
+  "prefix": "10.1002",
+  "volume": "9",
+  "author": [
+   {
+    "given": "Joseph D.",
+    "family": "Petruccelli",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "311",
+  "published-online": {
+   "date-parts": [
+    [
+     2006,
+     9,
+     23
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_2_1_2_1",
+    "volume-title": "Probability",
+    "author": "Breiman L.",
+    "year": "1968"
+   },
+   {
+    "key": "e_1_2_1_3_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "149",
+    "DOI": "10.1111/j.2517-6161.1975.tb01532.x",
+    "article-title": "Techniques for testing the constancy of regression relationships over time",
+    "volume": "37",
+    "author": "Brown R. L.",
+    "year": "1975",
+    "journal-title": "J. Royal Stat. Soc, Series B"
+   },
+   {
+    "key": "e_1_2_1_4_1",
+    "unstructured": "Chan K. S.andTong H. ‘On a likelihood‐ratio test for thresholds in time series’ Technical Report Mathematical Institute University of Kent at Canterbury UK 1988."
+   },
+   {
+    "key": "e_1_2_1_5_1",
+    "volume-title": "Advances in Statistical Computing: Theory and Applications",
+    "author": "Chan K. S.",
+    "year": "1986"
+   },
+   {
+    "key": "e_1_2_1_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1467-9892.1986.tb00501.x"
+   },
+   {
+    "key": "e_1_2_1_7_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/for.3980050403"
+   },
+   {
+    "key": "e_1_2_1_8_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2348693"
+   },
+   {
+    "key": "e_1_2_1_9_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1467-9892.1982.tb00339.x"
+   },
+   {
+    "key": "e_1_2_1_10_1",
+    "unstructured": "Jones D. A. PhD Thesis (unpublished) University of London 1976."
+   },
+   {
+    "key": "e_1_2_1_11_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1098/rspa.1978.0058"
+   },
+   {
+    "key": "e_1_2_1_12_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/biomet/72.1.39"
+   },
+   {
+    "key": "e_1_2_1_13_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/biomet/75.3.491"
+   },
+   {
+    "key": "e_1_2_1_14_1",
+    "unstructured": "Luukkonen R. Saikkonen P.andTerasvirta T. ‘Testing linearity in univariate time series models’ unpublished manuscript1987."
+   },
+   {
+    "key": "e_1_2_1_15_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/1391774"
+   },
+   {
+    "key": "e_1_2_1_16_1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "McLeod A. I.andLi W. K. ‘Diagnostic checking ARMA time series models using squared‐residual autocorrelations’ J. Time Series Anal. (1983) 269–73.",
+    "DOI": "10.1111/j.1467-9892.1983.tb00373.x"
+   },
+   {
+    "key": "e_1_2_1_17_1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Moeanaddin R.andTong H. ‘A comparison of likelihood ratio test and CUSUM test for threshold autoregression’ Technical Report Mathematical Institute University of Kent at Canterbury UK 1988.",
+    "DOI": "10.2307/2348695"
+   },
+   {
+    "key": "e_1_2_1_18_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1467-9892.1987.tb00007.x"
+   },
+   {
+    "key": "e_1_2_1_19_1",
+    "unstructured": "Petruccelli J. ‘On tests for SETAR‐type nonlinearity in time series’ Technical Report WPI Worcester MA 1987."
+   },
+   {
+    "key": "e_1_2_1_20_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/biomet/73.3.687"
+   },
+   {
+    "key": "e_1_2_1_21_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "270",
+    "DOI": "10.2307/3213639",
+    "article-title": "A threshold AR(1) model",
+    "volume": "21",
+    "author": "Petruccelli J. D.",
+    "year": "1984",
+    "journal-title": "J. Appl. Prob."
+   },
+   {
+    "key": "e_1_2_1_22_1",
+    "unstructured": "Saikkonen P. ‘Properties of the Lagrange multiplier test under misspecification’ Research Report No. 59 Department of Statistics University of Helsinki 1986."
+   },
+   {
+    "key": "e_1_2_1_23_1",
+    "unstructured": "Saikkonen P.andLuukkonen R. ‘Lagrange multiplier tests for testing non‐linearities in time series models’ Research Report No. 57 Department of Statistics University of Helsinki 1986."
+   },
+   {
+    "key": "e_1_2_1_24_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1467-9892.1980.tb00308.x"
+   },
+   {
+    "key": "e_1_2_1_25_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-1-4684-7888-4"
+   },
+   {
+    "key": "e_1_2_1_26_1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Tong H.andMoeanaddin R. On multi‐step non‐linear least squares prediction Paper presented at the IoS conference Cambridge July1987.",
+    "DOI": "10.2307/2348685"
+   },
+   {
+    "key": "e_1_2_1_27_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/biomet/73.2.461"
+   },
+   {
+    "key": "e_1_2_1_28_1",
+    "unstructured": "Tsay R. S. ‘Testing and modeling threshold autoregressive processes Technical Report 406’ Department of Statistics Carnegie‐Mellon University to appear inJ. Amer. Statist. Assoc.(1987)."
+   },
+   {
+    "key": "e_1_2_1_29_1",
+    "unstructured": "Wecker W. E. ‘Asymmetric time serie’ Amer. Statist. Assoc. Proc. Bus. Eco. Sec. (1977) 417–22."
+   }
+  ],
+  "container-title": [
+   "Journal of Forecasting"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Ffor.3980090104",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/for.3980090104",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     1,
+     18
+    ]
+   ],
+   "date-time": "2025-01-18T20:54:56Z",
+   "timestamp": 1737233696000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://onlinelibrary.wiley.com/doi/10.1002/for.3980090104"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1990,
+     1
+    ]
+   ]
+  },
+  "references-count": 28,
+  "journal-issue": {
+   "issue": "1",
+   "published-print": {
+    "date-parts": [
+     [
+      1990,
+      1
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1002/for.3980090104"
+  ],
+  "URL": "https://doi.org/10.1002/for.3980090104",
+  "archive": [
+   "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+   "0277-6693",
+   "1099-131X"
+  ],
+  "issn-type": [
+   {
+    "value": "0277-6693",
+    "type": "print"
+   },
+   {
+    "value": "1099-131X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1990,
+     1
+    ]
+   ]
+  }
+ }
+}

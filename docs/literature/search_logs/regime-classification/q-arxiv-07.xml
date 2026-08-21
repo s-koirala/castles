@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/r/y6g+4cK0V1Xi9WhkRY/iOxKRE</id>
+  <title>arXiv Query: search_query=abs:"support and resistance" AND (abs:"price" OR abs:"market")&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-08-21T14:44:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22support+and+resistance%22+AND+(abs:%22price%22+OR+abs:%22market%22)&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2006.14121v1</id>
+    <title>Option Pricing: Channels, Target Zones and Sideways Markets</title>
+    <updated>2020-06-25T00:52:57Z</updated>
+    <link href="https://arxiv.org/abs/2006.14121v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.14121v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>After a market downturn, especially in an uncertain economic environment such as the current state, there can be a relatively long period with a sideways market, where indexes, stocks, etc., move in channels with support and resistance levels. We discuss option pricing in such scenarios, in both cases of unattainable as well as attainable boundaries, and obtain closed-form option pricing formulas. Our results also apply to FX rates in target zones without interest rate pegging (USD/HKD, digital currencies, etc.).</summary>
+    <category term="q-fin.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-25T00:52:57Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="q-fin.PR"/>
+    <arxiv:journal_ref>Bulletin of Applied Economics 7(2) (2020) 25-33</arxiv:journal_ref>
+    <author>
+      <name>Zura Kakushadze</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.5197v1</id>
+    <title>Memory effects in stock price dynamics: evidences of technical trading</title>
+    <updated>2011-10-24T11:02:17Z</updated>
+    <link href="https://arxiv.org/abs/1110.5197v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.5197v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Technical trading represents a class of investment strategies for Financial Markets based on the analysis of trends and recurrent patterns of price time series. According standard economical theories these strategies should not be used because they cannot be profitable. On the contrary it is well-known that technical traders exist and operate on different time scales. In this paper we investigate if technical trading produces detectable signals in price time series and if some kind of memory effect is introduced in the price dynamics. In particular we focus on a specific figure called supports and resistances. We first develop a criterion to detect the potential values of supports and resistances. As a second step, we show that memory effects in the price dynamics are associated to these selected values. In fact we show that prices more likely re-bounce than cross these values. Such an effect is a quantitative evidence of the so-called self-fulfilling prophecy that is the self-reinforcement of agents' belief and sentiment about future stock prices' behavior.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-24T11:02:17Z</published>
+    <arxiv:comment>21 pages, 8 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Federico Garzarelli</name>
+    </author>
+    <author>
+      <name>Matthieu Cristelli</name>
+    </author>
+    <author>
+      <name>Andrea Zaccaria</name>
+    </author>
+    <author>
+      <name>Luciano Pietronero</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.6846v2</id>
+    <title>Time-independent pricing of options in range bound markets</title>
+    <updated>2013-07-23T08:25:19Z</updated>
+    <link href="https://arxiv.org/abs/1304.6846v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.6846v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Assuming that price of the underlying stock is moving in range bound, the Black-Scholes formula for options pricing supports a separation of variables. The resulting time-independent equation is solved employing different behavior of the option price function and three significant results are deduced. The first is the probability of stock price penetration through support or resistance level, called transmission coefficient. The second is the distance that price will go through once stock price penetrates out of the range bound. The last one is a predicted short time dramatic fall in the stock volatility right ahead of price tunneling. All three results are useful tools that give market practitioners valuable insights in choosing the right time to get involved in an option contract, about how far the price will go in case of a breakout, and how to correctly interpret volatility downfalls.</summary>
+    <category term="q-fin.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-25T09:43:54Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="q-fin.PR"/>
+    <author>
+      <name>Ovidiu Racorean</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.01971v1</id>
+    <title>DeepSupp: Attention-Driven Correlation Pattern Analysis for Dynamic Time Series Support and Resistance Levels Identification</title>
+    <updated>2025-06-22T11:09:55Z</updated>
+    <link href="https://arxiv.org/abs/2507.01971v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.01971v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Support and resistance (SR) levels are central to technical analysis, guiding traders in entry, exit, and risk management. Despite widespread use, traditional SR identification methods often fail to adapt to the complexities of modern, volatile markets. Recent research has introduced machine learning techniques to address the following challenges, yet most focus on price prediction rather than structural level identification. This paper presents DeepSupp, a new deep learning approach for detecting financial support levels using multi-head attention mechanisms to analyze spatial correlations and market microstructure relationships. DeepSupp integrates advanced feature engineering, constructing dynamic correlation matrices that capture evolving market relationships, and employs an attention-based autoencoder for robust representation learning. The final support levels are extracted through unsupervised clustering, leveraging DBSCAN to identify significant price thresholds. Comprehensive evaluations on S&amp;P 500 tickers demonstrate that DeepSupp outperforms six baseline methods, achieving state-of-the-art performance across six financial metrics, including essential support accuracy and market regime sensitivity. With consistent results across diverse market conditions, DeepSupp addresses critical gaps in SR level detection, offering a scalable and reliable solution for modern financial analysis. Our approach highlights the potential of attention-based architectures to uncover nuanced market patterns and improve technical trading strategies.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-22T11:09:55Z</published>
+    <arxiv:comment>7 pages, 4 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Boris Kriuk</name>
+    </author>
+    <author>
+      <name>Logic Ng</name>
+    </author>
+    <author>
+      <name>Zarif Al Hossain</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.07410v1</id>
+    <title>Evidence and Behaviour of Support and Resistance Levels in Financial Time Series</title>
+    <updated>2021-01-19T01:54:19Z</updated>
+    <link href="https://arxiv.org/abs/2101.07410v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.07410v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the phenomenon of support and resistance levels (SR levels) in financial time series, which act as temporary price barriers that reverses price trends. We develop a heuristic discovery algorithm for this purpose, to discover and evaluate SR levels for intraday price series. Our simple approach discovers SR levels which are able to reverse price trends statistically significantly. Asset price entering SR levels with higher number of price bounces before are more likely to bounce on such SR levels again. We also show that the decay aspect of the discovered SR levels as decreasing probability of price bounce over time. We conclude SR levels are features in financial time series are not explained simply by AR(1) processes, stationary or otherwise; and that they contribute to the temporary predictability and stationarity of the investigated price series.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-19T01:54:19Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Ken Chung</name>
+    </author>
+    <author>
+      <name>Anthony Bellotti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.02107v1</id>
+    <title>Implementation of a Type-2 Fuzzy Logic Based Prediction System for the Nigerian Stock Exchange</title>
+    <updated>2022-02-04T12:41:04Z</updated>
+    <link href="https://arxiv.org/abs/2202.02107v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.02107v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stock Market can be easily seen as one of the most attractive places for investors, but it is also very complex in terms of making trading decisions. Predicting the market is a risky venture because of the uncertainties and nonlinear nature of the market. Deciding on the right time to trade is key to every successful trader as it can lead to either a huge gain of money or totally a loss in investment that will be recorded as a careless trade. The aim of this research is to develop a prediction system for stock market using Fuzzy Logic Type2 which will handle these uncertainties and complexities of human behaviour in general when it comes to buy, hold or sell decision making in stock trading. The proposed system was developed using VB.NET programming language as frontend and Microsoft SQL Server as backend. A total of four different technical indicators were selected for this research. The selected indicators are the Relative Strength Index, William Average, Moving Average Convergence and Divergence, and Stochastic Oscillator. These indicators serve as input variable to the Fuzzy System. The MACD and SO are deployed as primary indicators, while the RSI and WA are used as secondary indicators. Fibonacci retracement ratio was adopted for the secondary indicators to determine their support and resistance level in terms of making trading decisions. The input variables to the Fuzzy System is fuzzified to Low, Medium, and High using the Triangular and Gaussian Membership Function. The Mamdani Type Fuzzy Inference rules were used for combining the trading rules for each input variable to the fuzzy system. The developed system was tested using sample data collected from ten different companies listed on the Nigerian Stock Exchange for a total of fifty two periods. The dataset collected are Opening, High, Low, and Closing prices of each security.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-04T12:41:04Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>International Journal of Research and Innovation in Applied Science (IJRIAS) volume-7-issue-1, pp.16-23 January 2022</arxiv:journal_ref>
+    <author>
+      <name>Isobo Nelson Davies</name>
+    </author>
+    <author>
+      <name>Donald Ene</name>
+    </author>
+    <author>
+      <name>Ibiere Boma Cookey</name>
+    </author>
+    <author>
+      <name>Godwin Fred Lenu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.1888v2</id>
+    <title>Dynamical Models of Stock Prices Based on Technical Trading Rules Part I: The Models</title>
+    <updated>2016-02-21T07:40:30Z</updated>
+    <link href="https://arxiv.org/abs/1401.1888v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.1888v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we use fuzzy systems theory to convert the technical trading rules commonly used by stock practitioners into excess demand functions which are then used to drive the price dynamics. The technical trading rules are recorded in natural languages where fuzzy words and vague expressions abound. In Part I of this paper, we will show the details of how to transform the technical trading heuristics into nonlinear dynamic equations. First, we define fuzzy sets to represent the fuzzy terms in the technical trading rules; second, we translate each technical trading heuristic into a group of fuzzy IF-THEN rules; third, we combine the fuzzy IF-THEN rules in a group into a fuzzy system; and finally, the linear combination of these fuzzy systems is used as the excess demand function in the price dynamic equation. We transform a wide variety of technical trading rules into fuzzy systems, including moving average rules, support and resistance rules, trend line rules, big buyer, big seller and manipulator rules, band and stop rules, and volume and relative strength rules. Simulation results show that the price dynamics driven by these technical trading rules are complex and chaotic, and some common phenomena in real stock prices such as jumps, trending and self-fulfilling appear naturally.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-09T04:41:39Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <arxiv:journal_ref>IEEE Trans. on Fuzzy Systems, Vol. 23, No. 4, pp. 787-801, 2015</arxiv:journal_ref>
+    <author>
+      <name>Li-Xin Wang</name>
+    </author>
+    <arxiv:doi>10.1109/TFUZZ.2014.2327994</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TFUZZ.2014.2327994" title="doi"/>
+  </entry>
+</feed>

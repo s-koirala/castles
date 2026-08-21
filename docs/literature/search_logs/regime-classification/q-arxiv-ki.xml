@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ih77wip4fvWblYAWrVdFyD/cnno</id>
+  <title>arXiv Query: search_query=&amp;id_list=0710.3742,2302.04759,2306.15835,2101.07410,1201.4786,1909.05800,1804.10308,2310.01285,2104.03667,2107.00066&amp;start=0&amp;max_results=20</title>
+  <updated>2026-08-21T14:54:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=20&amp;id_list=0710.3742,2302.04759,2306.15835,2101.07410,1201.4786,1909.05800,1804.10308,2310.01285,2104.03667,2107.00066" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0710.3742v1</id>
+    <title>Bayesian Online Changepoint Detection</title>
+    <updated>2007-10-19T17:18:30Z</updated>
+    <link href="https://arxiv.org/abs/0710.3742v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.3742v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Changepoints are abrupt variations in the generative parameters of a data sequence. Online detection of changepoints is useful in modelling and prediction of time series in application areas such as finance, biometrics, and robotics. While frequentist methods have yielded online filtering and prediction techniques, most Bayesian papers have focused on the retrospective segmentation problem. Here we examine the case where the model parameters before and after the changepoint are independent and we derive an online algorithm for exact inference of the most recent changepoint. We compute the probability distribution of the length of the current ``run,'' or time since the last changepoint, using a simple message-passing algorithm. Our implementation is highly modular so that the algorithm may be applied to a variety of types of data. We illustrate this modularity by demonstrating the algorithm on three different real-world data sets.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-19T17:18:30Z</published>
+    <arxiv:comment>7 pages, 4 figures, latex</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ryan Prescott Adams</name>
+    </author>
+    <author>
+      <name>David J. C. MacKay</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.05800v1</id>
+    <title>Explicit-Duration Markov Switching Models</title>
+    <updated>2019-09-12T16:54:16Z</updated>
+    <link href="https://arxiv.org/abs/1909.05800v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.05800v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Markov switching models (MSMs) are probabilistic models that employ multiple sets of parameters to describe different dynamic regimes that a time series may exhibit at different periods of time. The switching mechanism between regimes is controlled by unobserved random variables that form a first-order Markov chain. Explicit-duration MSMs contain additional variables that explicitly model the distribution of time spent in each regime. This allows to define duration distributions of any form, but also to impose complex dependence between the observations and to reset the dynamics to initial conditions. Models that focus on the first two properties are most commonly known as hidden semi-Markov models or segment models, whilst models that focus on the third property are most commonly known as changepoint models or reset models. In this monograph, we provide a description of explicit-duration modelling by categorizing the different approaches into three groups, which differ in encoding in the explicit-duration variables different information about regime change/reset boundaries. The approaches are described using the formalism of graphical models, which allows to graphically represent and assess statistical dependence and therefore to easily describe the structure of complex models and derive inference routines. The presentation is intended to be pedagogical, focusing on providing a characterization of the three groups in terms of model structure constraints and inference properties. The monograph is supplemented with a software package that contains most of the models and examples described. The material presented should be useful to both researchers wishing to learn about these models and researchers wishing to develop them further.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-12T16:54:16Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>Foundations and Trends in Machine Learning, Volume 7, Issue 6, pages 803-886, 2014</arxiv:journal_ref>
+    <author>
+      <name>Silvia Chiappa</name>
+    </author>
+    <arxiv:doi>10.1561/2200000054</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1561/2200000054" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.00066v1</id>
+    <title>Market regime classification with signatures</title>
+    <updated>2021-06-30T19:22:22Z</updated>
+    <link href="https://arxiv.org/abs/2107.00066v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.00066v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide a data-driven algorithm to classify market regimes for time series. We utilise the path signature, encoding time series into easy-to-describe objects, and provide a metric structure which establishes a connection between separation of regimes and clustering of points.</summary>
+    <category term="q-fin.RM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-30T19:22:22Z</published>
+    <arxiv:comment>14 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.RM"/>
+    <author>
+      <name>Paul Bilokon</name>
+    </author>
+    <author>
+      <name>Antoine Jacquier</name>
+    </author>
+    <author>
+      <name>Conor McIndoe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.07410v1</id>
+    <title>Evidence and Behaviour of Support and Resistance Levels in Financial Time Series</title>
+    <updated>2021-01-19T01:54:19Z</updated>
+    <link href="https://arxiv.org/abs/2101.07410v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.07410v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the phenomenon of support and resistance levels (SR levels) in financial time series, which act as temporary price barriers that reverses price trends. We develop a heuristic discovery algorithm for this purpose, to discover and evaluate SR levels for intraday price series. Our simple approach discovers SR levels which are able to reverse price trends statistically significantly. Asset price entering SR levels with higher number of price bounces before are more likely to bounce on such SR levels again. We also show that the decay aspect of the discovered SR levels as decreasing probability of price bounce over time. We conclude SR levels are features in financial time series are not explained simply by AR(1) processes, stationary or otherwise; and that they contribute to the temporary predictability and stationarity of the investigated price series.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-19T01:54:19Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Ken Chung</name>
+    </author>
+    <author>
+      <name>Anthony Bellotti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.10308v4</id>
+    <title>A Regularized Vector Autoregressive Hidden Semi-Markov Model, with Application to Multivariate Financial Data</title>
+    <updated>2021-05-12T18:46:02Z</updated>
+    <link href="https://arxiv.org/abs/1804.10308v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.10308v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A regularized vector autoregressive hidden semi-Markov model is developed to analyze multivariate financial time series with switching data generating regimes. Furthermore, an augmented EM algorithm is proposed for parameter estimation by embedding regularized estimators for the state-dependent covariance matrices and autoregression matrices in the M-step. The performance of the proposed regularized estimators is evaluated both in the simulation experiments and on the New York Stock Exchange financial portfolio data.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-26T23:42:24Z</published>
+    <arxiv:comment>6 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <arxiv:journal_ref>The International FLAIRS Conference Proceedings, Vol 34 No 1, (2021)</arxiv:journal_ref>
+    <author>
+      <name>Zekun Xu</name>
+    </author>
+    <author>
+      <name>Ye Liu</name>
+    </author>
+    <arxiv:doi>10.32473/flairs.v34i1.128424</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.32473/flairs.v34i1.128424" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.4786v1</id>
+    <title>On Hurst exponent estimation under heavy-tailed distributions</title>
+    <updated>2012-01-23T17:49:40Z</updated>
+    <link href="https://arxiv.org/abs/1201.4786v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.4786v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we show how the sampling properties of the Hurst exponent methods of estimation change with the presence of heavy tails. We run extensive Monte Carlo simulations to find out how rescaled range analysis (R/S), multifractal detrended fluctuation analysis (MF-DFA), detrending moving average (DMA) and generalized Hurst exponent approach (GHE) estimate Hurst exponent on independent series with different heavy tails. For this purpose, we generate independent random series from stable distribution with stability exponent α changing from 1.1 (heaviest tails) to 2 (Gaussian normal distribution) and we estimate the Hurst exponent using the different methods. R/S and GHE prove to be robust to heavy tails in the underlying process. GHE provides the lowest variance and bias in comparison to the other methods regardless the presence of heavy tails in data and sample size. Utilizing this result, we apply a novel approach of the intraday time-dependent Hurst exponent and we estimate the Hurst exponent on high frequency data for each trading day separately. We obtain Hurst exponents for S&amp;P500 index for the period beginning with year 1983 and ending by November 2009 and we discuss the surprising result which uncovers how the market's behavior changed over this long period.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-23T17:49:40Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <arxiv:journal_ref>Physica A: Statistical Mechanics and its Applications (2010), 389 (18), pp. 3844-3855</arxiv:journal_ref>
+    <author>
+      <name>Jozef Barunik</name>
+    </author>
+    <author>
+      <name>Ladislav Kristoufek</name>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2010.05.025</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2010.05.025" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.04759v2</id>
+    <title>Robust and Scalable Bayesian Online Changepoint Detection</title>
+    <updated>2023-05-12T14:26:35Z</updated>
+    <link href="https://arxiv.org/abs/2302.04759v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.04759v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes an online, provably robust, and scalable Bayesian approach for changepoint detection. The resulting algorithm has key advantages over previous work: it provides provable robustness by leveraging the generalised Bayesian perspective, and also addresses the scalability issues of previous attempts. Specifically, the proposed generalised Bayesian formalism leads to conjugate posteriors whose parameters are available in closed form by leveraging diffusion score matching. The resulting algorithm is exact, can be updated through simple algebra, and is more than 10 times faster than its closest competitor.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-09T16:49:20Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Matias Altamirano</name>
+    </author>
+    <author>
+      <name>François-Xavier Briol</name>
+    </author>
+    <author>
+      <name>Jeremias Knoblauch</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.15835v1</id>
+    <title>Non-parametric online market regime detection and regime clustering for multidimensional and path-dependent data structures</title>
+    <updated>2023-06-27T23:43:19Z</updated>
+    <link href="https://arxiv.org/abs/2306.15835v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.15835v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we present a non-parametric online market regime detection method for multidimensional data structures using a path-wise two-sample test derived from a maximum mean discrepancy-based similarity metric on path space that uses rough path signatures as a feature map. The latter similarity metric has been developed and applied as a discriminator in recent generative models for small data environments, and has been optimised here to the setting where the size of new incoming data is particularly small, for faster reactivity.
+  On the same principles, we also present a path-wise method for regime clustering which extends our previous work. The presented regime clustering techniques were designed as ex-ante market analysis tools that can identify periods of approximatively similar market activity, but the new results also apply to path-wise, high dimensional-, and to non-Markovian settings as well as to data structures that exhibit autocorrelation.
+  We demonstrate our clustering tools on easily verifiable synthetic datasets of increasing complexity, and also show how the outlined regime detection techniques can be used as fast on-line automatic regime change detectors or as outlier detection tools, including a fully automated pipeline. Finally, we apply the fine-tuned algorithms to real-world historical data including high-dimensional baskets of equities and the recent price evolution of crypto assets, and we show that our methodology swiftly and accurately indicated historical periods of market turmoil.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-27T23:43:19Z</published>
+    <arxiv:comment>65 pages, 52 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Zacharia Issa</name>
+    </author>
+    <author>
+      <name>Blanka Horvath</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.03667v1</id>
+    <title>Market Regime Detection via Realized Covariances: A Comparison between Unsupervised Learning and Nonlinear Models</title>
+    <updated>2021-04-08T10:32:28Z</updated>
+    <link href="https://arxiv.org/abs/2104.03667v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.03667v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is broad empirical evidence of regime switching in financial markets. The transition between different market regimes is mirrored in correlation matrices, whose time-varying coefficients usually jump higher in highly volatile regimes, leading to the failure of common diversification methods. In this article, we aim to identify market regimes from covariance matrices and detect transitions towards highly volatile regimes, hence improving tail-risk hedging. Starting from the time series of fractionally differentiated sentiment-like future values, two models are applied on monthly realized covariance matrices to detect market regimes. Specifically, the regime detection is implemented via vector logistic smooth transition autoregressive model (VLSTAR) and through an unsupervised learning methodology, the agglomerative hierarchical clustering. Since market regime switches are unobservable processes that describe the latent change of market behaviour, the ability of correctly detecting market regimes is validated in two ways: firstly, randomly generated data are used to assess a correct classification when regimes are known; secondly, a naïve trading strategy filtered with the detected regime switches is used to understand whether an improvement is showed when accounting for regime switches. The results point to the VLSTAR as the best performing model for labelling market regimes.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-08T10:32:28Z</published>
+    <arxiv:comment>21 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Andrea Bucci</name>
+    </author>
+    <author>
+      <name>Vito Ciciretti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.01285v2</id>
+    <title>Automated regime classification in multidimensional time series data using sliced Wasserstein k-means clustering</title>
+    <updated>2026-05-24T17:21:29Z</updated>
+    <link href="https://arxiv.org/abs/2310.01285v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.01285v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work has proposed Wasserstein k-means (Wk-means) clustering as a powerful method to classify regimes in time series data, and one-dimensional asset returns in particular. In this paper, we begin by studying in detail the behaviour of the Wasserstein k-means clustering algorithm applied to synthetic one-dimensional time series data. We extend the previous work by studying, in detail, the dynamics of the clustering algorithm and how varying the hyperparameters impacts the performance over different random initialisations. We compute simple metrics that we find to be useful in identifying high-quality clusterings. We then extend the technique of Wasserstein k-means clustering to multidimensional time series data by approximating the multidimensional Wasserstein distance as a sliced Wasserstein distance, resulting in a method we call 'sliced Wasserstein k-means (sWk-means) clustering'. We apply the sWk-means clustering method to the problem of automated regime classification in multidimensional time series data, using synthetic data to demonstrate the validity and effectiveness of the approach. Finally, we show that the sWk-means method is able to identify distinct market regimes in real multidimensional financial time series, using publicly available foreign exchange spot rate data as a case study. We conclude with remarks about some limitations of our approach and potential complementary or alternative approaches.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-02T15:37:56Z</published>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <arxiv:journal_ref>Data Science in Finance and Economics 2025, Volume 5, Issue 3: 387-418</arxiv:journal_ref>
+    <author>
+      <name>Qinmeng Luan</name>
+    </author>
+    <author>
+      <name>James Hamp</name>
+    </author>
+    <arxiv:doi>10.3934/DSFE.2025016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3934/DSFE.2025016" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,2463 @@
+{
+ "10.1016/j.physa.2010.05.025": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     16
+    ]
+   ],
+   "date-time": "2026-07-16T22:47:31Z",
+   "timestamp": 1784242051102,
+   "version": "3.55.0"
+  },
+  "reference-count": 36,
+  "publisher": "Elsevier BV",
+  "issue": "18",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2010,
+       9,
+       1
+      ]
+     ],
+     "date-time": "2010-09-01T00:00:00Z",
+     "timestamp": 1283299200000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Physica A: Statistical Mechanics and its Applications"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2010,
+     9
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.physa.2010.05.025",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2010,
+     6,
+     5
+    ]
+   ],
+   "date-time": "2010-06-05T08:30:58Z",
+   "timestamp": 1275726658000
+  },
+  "page": "3844-3855",
+  "source": "Crossref",
+  "is-referenced-by-count": 246,
+  "title": [
+   "On Hurst exponent estimation under heavy-tailed distributions"
+  ],
+  "prefix": "10.1016",
+  "volume": "389",
+  "author": [
+   {
+    "given": "Jozef",
+    "family": "Barunik",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ladislav",
+    "family": "Kristoufek",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.physa.2010.05.025_b1",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.physa.2008.06.056",
+    "article-title": "Time-varying hurst exponent for us stock markets",
+    "volume": "387",
+    "author": "Alvarez-Ramirez",
+    "year": "2008",
+    "journal-title": "Physica A"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b2",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.physa.2004.06.130",
+    "article-title": "Time-dependent hurst exponent in financial time series",
+    "volume": "344",
+    "author": "Carbone",
+    "year": "2004",
+    "journal-title": "Physica A"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b3",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.physa.2008.08.019",
+    "article-title": "Comparison study of global and local approaches describing critical phenomena on the polish stock exchange market",
+    "volume": "387",
+    "author": "Czarnecki",
+    "year": "2008",
+    "journal-title": "Physica A"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.physa.2010.05.025_b4",
+    "doi-asserted-by": "crossref",
+    "first-page": "21",
+    "DOI": "10.1080/14697680600969727",
+    "article-title": "Multi-scaling in finance",
+    "volume": "7",
+    "author": "Di Matteo",
+    "year": "2007",
+    "journal-title": "Quantitative Finance"
+   },
+   {
+    "issue": "29",
+    "key": "10.1016/j.physa.2010.05.025_b5",
+    "doi-asserted-by": "crossref",
+    "first-page": "827",
+    "DOI": "10.1016/j.jbankfin.2004.08.004",
+    "article-title": "Long-term memories of developed and emerging markets: using the scaling analysis to characterize their stage of development",
+    "author": "Di Matteo",
+    "year": "2005",
+    "journal-title": "Journal of Banking and Finance"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b6",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.physa.2004.01.018",
+    "article-title": "Can one make any crash prediction in finance using the local hurst exponent idea?",
+    "volume": "336",
+    "author": "Grech",
+    "year": "2004",
+    "journal-title": "Physica A"
+   },
+   {
+    "issue": "15",
+    "key": "10.1016/j.physa.2010.05.025_b7",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.physa.2008.01.060",
+    "article-title": "Time and scale hurst exponent analysis for financial markets",
+    "volume": "387",
+    "author": "Matos",
+    "year": "2008",
+    "journal-title": "Physica A"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b8",
+    "series-title": "Fractal Market Analysis — Applying Chaos Theory to Investment and Analysis",
+    "author": "Peters",
+    "year": "1994"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b9",
+    "unstructured": "N. Vandewalle, M. Ausloos, P. Boveroux, Detrended fluctuation analysis of the foreign exchange market, Econophysic Workshop, Budapest, Hungary, 1997."
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b10",
+    "doi-asserted-by": "crossref",
+    "first-page": "404",
+    "DOI": "10.1016/j.physa.2004.09.035",
+    "article-title": "A comment on measuring the hurst exponent of financial time series",
+    "volume": "348",
+    "author": "Couillard",
+    "year": "2005",
+    "journal-title": "Physica A"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b11",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.physa.2006.08.046",
+    "article-title": "The sampling properties of hurst exponent estimates",
+    "volume": "375",
+    "author": "Ellis",
+    "year": "2007",
+    "journal-title": "Physica A"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.physa.2010.05.025_b12",
+    "article-title": "Statistical properties of old and new techniques in detrended analysis of time series",
+    "volume": "36",
+    "author": "Grech",
+    "year": "2005",
+    "journal-title": "Acta Physica Polonica B"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b13",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/S0378-4371(02)00961-5",
+    "article-title": "Estimating long-range dependence: finite sample properties and confidence intervals",
+    "volume": "312",
+    "author": "Weron",
+    "year": "2002",
+    "journal-title": "Physica A"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b14",
+    "series-title": "Statistics for Long-Memory Processes",
+    "volume": "vol. 61",
+    "author": "Beran",
+    "year": "1994"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.physa.2010.05.025_b15",
+    "article-title": "The long memory of the efficient market",
+    "volume": "8",
+    "author": "Lillo",
+    "year": "2004",
+    "journal-title": "Studies in Nonlinear Dynamics and Econometrics"
+   },
+   {
+    "issue": "422",
+    "key": "10.1016/j.physa.2010.05.025_b16",
+    "article-title": "Fractional brownian motions, fractional noises and applications",
+    "volume": "10",
+    "author": "Mandelbrot",
+    "year": "1968",
+    "journal-title": "SIAM Review"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b17",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1080/096031000331815",
+    "article-title": "Long memory in the greek stock market",
+    "volume": "10",
+    "author": "Barkoulas",
+    "year": "2000",
+    "journal-title": "Applied Financial Economics"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.physa.2010.05.025_b18",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1080/713665670",
+    "article-title": "Empirical properties of asset returns: stylized facts and statistical issues",
+    "volume": "1",
+    "author": "Cont",
+    "year": "2001",
+    "journal-title": "Quantitative Finance"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b19",
+    "article-title": "Long term storage capacity of reservoirs",
+    "volume": "116",
+    "author": "Hurst",
+    "year": "1951",
+    "journal-title": "Transactions of the American Society of Engineers"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.physa.2010.05.025_b20",
+    "article-title": "Mosaic organization of dna nucleotides",
+    "volume": "49",
+    "author": "C",
+    "year": "1994",
+    "journal-title": "Physical Review E"
+   },
+   {
+    "issue": "1–4",
+    "key": "10.1016/j.physa.2010.05.025_b21",
+    "article-title": "Multifractal detrended fluctuation analysis of nonstationary time series",
+    "volume": "316",
+    "author": "Kantelhardt",
+    "year": "2002",
+    "journal-title": "Physica A"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b22",
+    "doi-asserted-by": "crossref",
+    "first-page": "197",
+    "DOI": "10.1140/epjb/e20020150",
+    "article-title": "Second-order moving average and scaling of stochastic time series",
+    "volume": "27",
+    "author": "Alessio",
+    "year": "2002",
+    "journal-title": "European Physical Journal B"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b23",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/S0378-4371(02)01996-9",
+    "article-title": "Scaling behaviors in differently developed markets",
+    "volume": "324",
+    "author": "Di Matteo",
+    "year": "2003",
+    "journal-title": "Physica A"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b24",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1029/WR004i005p00909",
+    "article-title": "Joah, Joseph and operational hydrology",
+    "volume": "4",
+    "author": "Mandelbrot",
+    "year": "1968",
+    "journal-title": "Water Resources Research"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.physa.2010.05.025_b25",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1142/S0218348X95000692",
+    "article-title": "Estimators for long-range dependence: an empirical study",
+    "volume": "3",
+    "author": "Taqqu",
+    "year": "1995",
+    "journal-title": "Fractals"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b26",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.2307/2335090",
+    "article-title": "The expected value of the adjusted rescaled hurst range of independent normal summands",
+    "volume": "63",
+    "author": "Anis",
+    "year": "1976",
+    "journal-title": "Biometrika"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b27",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.csda.2006.07.033",
+    "article-title": "Estimation of hurst exponent revisited",
+    "volume": "51",
+    "author": "Mielniczuk",
+    "year": "2007",
+    "journal-title": "Computational Statistics & Data Analysis"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b28",
+    "first-page": "177",
+    "article-title": "On estimating the intensity of long-range dependence in finite and infinite variance time series",
+    "author": "Taqqu",
+    "year": "1998"
+   },
+   {
+    "issue": "354",
+    "key": "10.1016/j.physa.2010.05.025_b29",
+    "doi-asserted-by": "crossref",
+    "first-page": "340",
+    "DOI": "10.2307/2285309",
+    "article-title": "A method for simulating stable random variables",
+    "volume": "71",
+    "author": "Chambers",
+    "year": "1976",
+    "journal-title": "Journal of American Statistical Association"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.physa.2010.05.025_b30",
+    "doi-asserted-by": "crossref",
+    "first-page": "1891",
+    "DOI": "10.1016/j.csda.2005.03.004",
+    "article-title": "Calibrated fft-based density approximations for α-stable distributions",
+    "volume": "50",
+    "author": "Menn",
+    "year": "2006",
+    "journal-title": "Computational Statistics & Data Analysis"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b31",
+    "doi-asserted-by": "crossref",
+    "first-page": "165",
+    "DOI": "10.1016/0167-7152(95)00113-1",
+    "article-title": "On the chambers-mallows-stuck method for simulating skewed stable random variables",
+    "volume": "28",
+    "author": "Weron",
+    "year": "1996",
+    "journal-title": "Statistics & Probability Letters"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b32",
+    "series-title": "One-Dimensional Stable Distributions",
+    "volume": "vol. 65",
+    "author": "Zolotarev",
+    "year": "1986"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b33",
+    "series-title": "Stable Non-Gaussian Random Processes",
+    "author": "Samorodnitsky",
+    "year": "1994"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b34",
+    "doi-asserted-by": "crossref",
+    "unstructured": "S. Borak, W. Hardle, R. Weron, Stable distributions, SFB 649 Discussion Paper 008, 2005, 1–28.",
+    "DOI": "10.2139/ssrn.2894444"
+   },
+   {
+    "key": "10.1016/j.physa.2010.05.025_b35",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.physa.2005.02.020",
+    "article-title": "Detrending fluctuation analysis based on moving average filtering",
+    "volume": "354",
+    "author": "Alvarez-Ramirez",
+    "year": "2005",
+    "journal-title": "Physica A"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.physa.2010.05.025_b36",
+    "article-title": "Detrended fluctuation analysis of chromatin texture for diagnosis in breast cytology",
+    "volume": "9",
+    "author": "Einstein",
+    "year": "2001",
+    "journal-title": "Fractals"
+   }
+  ],
+  "container-title": [
+   "Physica A: Statistical Mechanics and its Applications"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0378437110004553?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0378437110004553?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     5,
+     29
+    ]
+   ],
+   "date-time": "2019-05-29T21:23:47Z",
+   "timestamp": 1559165027000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378437110004553"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2010,
+     9
+    ]
+   ]
+  },
+  "references-count": 36,
+  "journal-issue": {
+   "issue": "18",
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      9
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0378437110004553"
+  ],
+  "URL": "https://doi.org/10.1016/j.physa.2010.05.025",
+  "relation": {},
+  "ISSN": [
+   "0378-4371"
+  ],
+  "issn-type": [
+   {
+    "value": "0378-4371",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2010,
+     9
+    ]
+   ]
+  }
+ },
+ "10.1561/2200000054": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     5,
+     7
+    ]
+   ],
+   "date-time": "2026-05-07T17:41:41Z",
+   "timestamp": 1778175701053,
+   "version": "3.51.4"
+  },
+  "reference-count": 66,
+  "publisher": "Emerald",
+  "issue": "6",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2014,
+     12,
+     23
+    ]
+   ]
+  },
+  "abstract": "<jats:p>Markov switching models (MSMs) are probabilistic models that employ multiple sets of parameters to describe different dynamic regimes that a time series may exhibit at different periods of time. The switching mechanism between regimes is controlled by unobserved random variables that form a first-order Markov chain. Explicit-duration MSMs contain additional variables that explicitly model the distribution of time spent in each regime. This allows to define duration distributions of any form, but also to impose complex dependence between the observations and to reset the dynamics to initial conditions. Models that focus on the first two properties are most commonly known as hidden semi-Markov models or segment models, whilst models that focus on the third property are most commonly known as changepoint models or reset models. In this monograph, we provide a description of explicitduration modelling by categorizing the different approaches into three groups, which differ in encoding in the explicit-duration variables different information about regime change/reset boundaries. The approaches are described using the formalism of graphical models, which allows to graphically represent and assess statistical dependence and therefore to easily describe the structure of complex models and derive inference routines. The presentation is intended to be pedagogical, focusing on providing a characterization of the three groups in terms of model structure constraints and inference properties. The monograph is supplemented with a software package that contains most of the models and examples described1. The material presented should be useful to both researchers wishing to learn about these models and researchers wishing to develop them further.</jats:p>",
+  "DOI": "10.1561/2200000054",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2014,
+     12,
+     23
+    ]
+   ],
+   "date-time": "2014-12-23T09:11:37Z",
+   "timestamp": 1419325897000
+  },
+  "page": "803-886",
+  "source": "Crossref",
+  "is-referenced-by-count": 12,
+  "title": [
+   "Explicit-Duration Markov Switching Models"
+  ],
+  "prefix": "10.1108",
+  "volume": "7",
+  "author": [
+   {
+    "given": "Silvia",
+    "family": "Chiappa",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Statistical Laboratory, University of Cambridge, Microsoft Research Cambridge ,",
+      "place": [
+       "UK"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "140",
+  "published-online": {
+   "date-parts": [
+    [
+     2014,
+     12,
+     23
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2026033014112687400_ref001",
+    "volume-title": "Bayesian online changepoint detection",
+    "author": "Adams",
+    "year": "2007"
+   },
+   {
+    "key": "2026033014112687400_ref002",
+    "first-page": "17:439",
+    "article-title": "Nonlinear Bayesian estimation using Gaussian sum approximations",
+    "volume-title": "IEEE Transactions on Automatic Control",
+    "author": "Alspach",
+    "year": "1972"
+   },
+   {
+    "key": "2026033014112687400_ref003",
+    "first-page": "7:2515",
+    "article-title": "Expectation correction for smoothing in switching linear Gaussian state space models",
+    "volume-title": "Journal of Machine Learning Research",
+    "author": "Barber",
+    "year": "2006"
+   },
+   {
+    "key": "2026033014112687400_ref004",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1017/CBO9780511804779",
+    "volume-title": "Bayesian Reasoning and Machine Learning",
+    "author": "Barber",
+    "year": "2012"
+   },
+   {
+    "issue": "6",
+    "key": "2026033014112687400_ref005",
+    "first-page": "18",
+    "article-title": "Graphical models for time-series",
+    "volume": "27",
+    "author": "Barber",
+    "year": "2010",
+    "journal-title": "IEEE Signal Processing Magazine"
+   },
+   {
+    "key": "2026033014112687400_ref006",
+    "volume-title": "Semi-Markov Chains and Hidden Semi-Markov Models toward Applications: Their Use in Reliability and DNA Analysis",
+    "author": "Barbu",
+    "year": "2008"
+   },
+   {
+    "key": "2026033014112687400_ref007",
+    "volume-title": "Pattern Recognition and Machine Learning",
+    "author": "Bishop",
+    "year": "2006"
+   },
+   {
+    "key": "2026033014112687400_ref008",
+    "volume-title": "Inference in Bayesian time-series models",
+    "author": "Bracegirdle",
+    "year": "2013"
+   },
+   {
+    "key": "2026033014112687400_ref009",
+    "first-page": "190",
+    "article-title": "Switch-reset models: Exact and approximate inference",
+    "volume": "15",
+    "author": "Bracegirdle",
+    "year": "2011",
+    "journal-title": "Proceedings of The Fourteenth International Conference on Artificial Intelligence and Statistics"
+   },
+   {
+    "issue": "4",
+    "key": "2026033014112687400_ref010",
+    "doi-asserted-by": "crossref",
+    "first-page": "2191",
+    "DOI": "10.1016/j.csda.2006.07.021",
+    "article-title": "Stylized facts of financial time series and hidden semi-Markov models",
+    "volume": "51",
+    "author": "Bulla",
+    "year": "2006",
+    "journal-title": "Computational Statistics and Data Analysis"
+   },
+   {
+    "issue": "2",
+    "key": "2026033014112687400_ref011",
+    "doi-asserted-by": "crossref",
+    "first-page": "679",
+    "DOI": "10.1109/TSA.2005.852985",
+    "article-title": "A generative model for music transcription",
+    "volume": "14",
+    "author": "Cemgil",
+    "year": "2006",
+    "journal-title": "IEEE Transactions on Audio, Speech Lang. Processing"
+   },
+   {
+    "issue": "12",
+    "key": "2026033014112687400_ref012",
+    "doi-asserted-by": "crossref",
+    "first-page": "1675",
+    "DOI": "10.1109/TIP.1995.8875996",
+    "article-title": "Variable duration hidden Markov model and morphological segmentation for handwritten word recognition",
+    "volume": "4",
+    "author": "Chen",
+    "year": "1995",
+    "journal-title": "IEEE Transactions on Image Processing"
+   },
+   {
+    "key": "2026033014112687400_ref013",
+    "volume-title": "Analysis and Classification of EEG Signals using Probabilistic Models for Brain Computer Interfaces",
+    "author": "Chiappa",
+    "year": "2006"
+   },
+   {
+    "key": "2026033014112687400_ref014",
+    "first-page": "3",
+    "article-title": "A Bayesian approach to switching linear Gaussian state-space models for unsupervised time-series segmentation",
+    "volume-title": "Proceedings of Seventh International Conference on Machine Learning and Applications",
+    "author": "Chiappa",
+    "year": "2008"
+   },
+   {
+    "key": "2026033014112687400_ref015",
+    "first-page": "388",
+    "article-title": "Movement extraction by detecting dynamics switches and repetitions",
+    "volume-title": "Advances in Neural Information Processing Systems 23",
+    "author": "Chiappa",
+    "year": "2010"
+   },
+   {
+    "issue": "1",
+    "key": "2026033014112687400_ref016",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1111/j.2517-6161.1977.tb01600.x",
+    "article-title": "Maximum likelihood from incomplete data via the EM algorithm",
+    "volume": "39",
+    "author": "Dempster",
+    "year": "1977",
+    "journal-title": "Journal of the Royal Statistical Society. Series B"
+   },
+   {
+    "issue": "4",
+    "key": "2026033014112687400_ref017",
+    "doi-asserted-by": "crossref",
+    "first-page": "235",
+    "DOI": "10.1109/LSP.2012.2184795",
+    "article-title": "Inference in hidden Markov models with explicit state duration distributions",
+    "volume": "19",
+    "author": "Dewar",
+    "year": "2012",
+    "journal-title": "IEEE Signal Processing Letters"
+   },
+   {
+    "issue": "5",
+    "key": "2026033014112687400_ref018",
+    "doi-asserted-by": "crossref",
+    "first-page": "1113",
+    "DOI": "10.1109/78.995067",
+    "article-title": "An MCMC sampling approach to estimation of nonstationary hidden Markov models",
+    "volume": "50",
+    "author": "Djurić",
+    "year": "2002",
+    "journal-title": "IEEE Transactions on Signal Processing"
+   },
+   {
+    "key": "2026033014112687400_ref019",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1017/CBO9780511790492",
+    "volume-title": "Biological Sequence Analysis: Probabilistic Models of Proteins and Nucleic Acids",
+    "author": "Durbin",
+    "year": "1998"
+   },
+   {
+    "key": "2026033014112687400_ref020",
+    "doi-asserted-by": "crossref",
+    "first-page": "205",
+    "DOI": "10.1017/CBO9780511984679.011",
+    "volume-title": "Bayesian Time Series Models",
+    "author": "Eckley",
+    "year": "2011"
+   },
+   {
+    "key": "2026033014112687400_ref021",
+    "doi-asserted-by": "crossref",
+    "first-page": "I–880",
+    "DOI": "10.1109/ICIP.2002.1038166",
+    "article-title": "Hidden semi-Markov event sequence models: Application to brain functional MRI sequence analysis",
+    "volume": "1",
+    "author": "Faisan",
+    "year": "2002",
+    "journal-title": "International Conference on Image Processing"
+   },
+   {
+    "issue": "2",
+    "key": "2026033014112687400_ref022",
+    "doi-asserted-by": "crossref",
+    "first-page": "203",
+    "DOI": "10.1007/s11222-006-8450-8",
+    "article-title": "Exact and efficient Bayesian inference for multiple changepoint problems",
+    "volume": "16",
+    "author": "Fearnhead",
+    "year": "2006",
+    "journal-title": "Statistics and Computing"
+   },
+   {
+    "issue": "4",
+    "key": "2026033014112687400_ref023",
+    "doi-asserted-by": "crossref",
+    "first-page": "589",
+    "DOI": "10.1111/j.1467-9868.2007.00601.x",
+    "article-title": "Online inference for multiple changepoint problems",
+    "volume": "69",
+    "author": "Fearnhead",
+    "year": "2007",
+    "journal-title": "Journal of the Royal Statistical Society Series B"
+   },
+   {
+    "issue": "485",
+    "key": "2026033014112687400_ref024",
+    "doi-asserted-by": "crossref",
+    "first-page": "132",
+    "DOI": "10.1198/jasa.2009.0009",
+    "article-title": "Bayesian analysis of isochores",
+    "volume": "104",
+    "author": "Fearnhead",
+    "year": "2009",
+    "journal-title": "Journal of the American Statistical Association"
+   },
+   {
+    "key": "2026033014112687400_ref025",
+    "first-page": "143",
+    "article-title": "Variable duration models for speech",
+    "volume-title": "Symposium on the Application of Hidden Markov Models to Text and Speech",
+    "author": "Ferguson",
+    "year": "1980"
+   },
+   {
+    "key": "2026033014112687400_ref026",
+    "volume-title": "The theory of segmental hidden Markov models",
+    "author": "Gales",
+    "year": "1993"
+   },
+   {
+    "key": "2026033014112687400_ref027",
+    "volume-title": "Kalman Filtering: Theory and Practice",
+    "author": "Grewal",
+    "year": "1993"
+   },
+   {
+    "issue": "8",
+    "key": "2026033014112687400_ref028",
+    "doi-asserted-by": "crossref",
+    "first-page": "1743",
+    "DOI": "10.1109/78.91145",
+    "article-title": "Isolated-utterance speech recognition using hidden Markov models with bounded state durations",
+    "volume": "39",
+    "author": "Gu",
+    "year": "1991",
+    "journal-title": "IEEE Transactions on Signal Processing"
+   },
+   {
+    "issue": "4",
+    "key": "2026033014112687400_ref029",
+    "doi-asserted-by": "crossref",
+    "first-page": "481",
+    "DOI": "10.1006/jtbi.2001.2392",
+    "article-title": "Pattern analysis in branching and axillary flowering sequences",
+    "volume": "212",
+    "author": "Guédon",
+    "year": "2001",
+    "journal-title": "Journal of Theoretical Biology"
+   },
+   {
+    "issue": "2",
+    "key": "2026033014112687400_ref030",
+    "doi-asserted-by": "crossref",
+    "first-page": "357",
+    "DOI": "10.2307/1912559",
+    "article-title": "A new approach to the economic analysis of nonstationary time series and the business cycle",
+    "volume": "57",
+    "author": "Hamilton",
+    "year": "1989",
+    "journal-title": "Econometrica"
+   },
+   {
+    "issue": "1-2",
+    "key": "2026033014112687400_ref031",
+    "doi-asserted-by": "crossref",
+    "first-page": "39",
+    "DOI": "10.1016/0304-4076(90)90093-9",
+    "article-title": "Analysis of time series subject to changes in regime",
+    "volume": "45",
+    "author": "Hamilton",
+    "year": "1990",
+    "journal-title": "Journal of Econometrics"
+   },
+   {
+    "key": "2026033014112687400_ref032",
+    "first-page": "11:231",
+    "article-title": "Estimation, inference, and forecasting of time series subject to changes in regime",
+    "volume-title": "Handbook of Statistics",
+    "author": "Hamilton",
+    "year": "1993"
+   },
+   {
+    "key": "2026033014112687400_ref033",
+    "first-page": "603",
+    "article-title": "Variable duration motion texture for human motion modeling",
+    "volume-title": "Proceedings of the 9th Pacific Rim International Conference on Artificial Intelligence",
+    "author": "Huang",
+    "year": "2006"
+   },
+   {
+    "key": "2026033014112687400_ref034",
+    "first-page": "434",
+    "article-title": "Semi-supervised learning of probabilistic models for ECG segmentation",
+    "volume": "1",
+    "author": "Hughes",
+    "year": "2004",
+    "journal-title": "Conference Proceedings of the IEEE Engineering in Medicine and Biology Society"
+   },
+   {
+    "key": "2026033014112687400_ref035",
+    "volume-title": "Hidden Markov Model with Binned Duration and Its Application",
+    "author": "Jiang",
+    "year": "2010"
+   },
+   {
+    "key": "2026033014112687400_ref036",
+    "first-page": "7:945",
+    "article-title": "Segmental hidden Markov models with random effects for waveform modeling",
+    "volume-title": "Journal of Machine Learning Research",
+    "author": "Kim",
+    "year": "2006"
+   },
+   {
+    "key": "2026033014112687400_ref037",
+    "volume-title": "Probabilistic Graphical Models: Principles and Techniques",
+    "author": "Koller",
+    "year": "2009"
+   },
+   {
+    "key": "2026033014112687400_ref038",
+    "first-page": "1241",
+    "article-title": "Continuously variable duration hidden Markov models for speech analysis",
+    "volume": "11",
+    "author": "Levinson",
+    "year": "1986",
+    "journal-title": "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+   },
+   {
+    "issue": "7",
+    "key": "2026033014112687400_ref039",
+    "doi-asserted-by": "crossref",
+    "first-page": "1044",
+    "DOI": "10.1016/j.patrec.2011.02.015",
+    "article-title": "An improved noise-robust voice activity detector based on hidden semi-Markov models",
+    "volume": "32",
+    "author": "Liang",
+    "year": "2011",
+    "journal-title": "Pattern Recognition Letters"
+   },
+   {
+    "issue": "443",
+    "key": "2026033014112687400_ref040",
+    "doi-asserted-by": "crossref",
+    "first-page": "1022",
+    "DOI": "10.1080/01621459.1998.10473764",
+    "article-title": "Rejection control and sequential importance sampling",
+    "volume": "93",
+    "author": "Liu",
+    "year": "1998",
+    "journal-title": "Journal of the American Statistical Association"
+   },
+   {
+    "key": "2026033014112687400_ref041",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1002/9780470191613",
+    "volume-title": "The EM Algorithm and Extensions",
+    "author": "McLachlan",
+    "year": "2008"
+   },
+   {
+    "issue": "6",
+    "key": "2026033014112687400_ref042",
+    "doi-asserted-by": "crossref",
+    "first-page": "1850",
+    "DOI": "10.1109/TASL.2007.901312",
+    "article-title": "Switching linear dynamical systems for noise robust speech recognition",
+    "volume": "15",
+    "author": "Barber",
+    "year": "2007",
+    "journal-title": "IEEE Transactions of Audio, Speech and Language Processing"
+   },
+   {
+    "issue": "3",
+    "key": "2026033014112687400_ref043",
+    "doi-asserted-by": "crossref",
+    "first-page": "213",
+    "DOI": "10.1109/89.388149",
+    "article-title": "On the complexity of explicit duration HMMs",
+    "volume": "3",
+    "author": "Mitchell",
+    "year": "1995",
+    "journal-title": "IEEE Transactions on Speech and Audio Processing"
+   },
+   {
+    "issue": "1",
+    "key": "2026033014112687400_ref044",
+    "doi-asserted-by": "crossref",
+    "first-page": "37",
+    "DOI": "10.1016/j.dsp.2003.07.003",
+    "article-title": "Speech reconstruction using a generalized HSMM (GHSMM)",
+    "volume": "14",
+    "author": "Moore",
+    "year": "2004",
+    "journal-title": "Digital Signal Processing"
+   },
+   {
+    "key": "2026033014112687400_ref045",
+    "volume-title": "Hidden semi-Markov models (HSMMs)",
+    "author": "Murphy",
+    "year": "2002"
+   },
+   {
+    "key": "2026033014112687400_ref046",
+    "volume-title": "Machine Learning: a Probabilistic Perspective",
+    "author": "Murphy",
+    "year": "2012"
+   },
+   {
+    "key": "2026033014112687400_ref047",
+    "first-page": "77:103",
+    "article-title": "Learning and inferring motion patterns using parametric segmental switching linear dynamic systems",
+    "volume-title": "International Journal of Computer Vision",
+    "author": "Oh",
+    "year": "2008"
+   },
+   {
+    "issue": "5",
+    "key": "2026033014112687400_ref048",
+    "doi-asserted-by": "crossref",
+    "first-page": "360",
+    "DOI": "10.1109/89.536930",
+    "article-title": "From HMM’s to segment models: a unified view of stochastic modeling for speech recognition",
+    "volume": "4",
+    "author": "Ostendorf",
+    "year": "1996",
+    "journal-title": "IEEE Transactions on Speech and Audio Processing"
+   },
+   {
+    "key": "2026033014112687400_ref049",
+    "first-page": "981",
+    "article-title": "Learning switching linear models of human motion",
+    "volume-title": "Advances in Neural Information Processing Systems 13",
+    "author": "Pavlovic",
+    "year": "2001"
+   },
+   {
+    "key": "2026033014112687400_ref050",
+    "volume-title": "Probabilistic Reasoning in Intel ligent Systems: Networks of Plausible Inference",
+    "author": "Pearl",
+    "year": "1988"
+   },
+   {
+    "issue": "5",
+    "key": "2026033014112687400_ref051",
+    "doi-asserted-by": "crossref",
+    "first-page": "1795",
+    "DOI": "10.1109/TSA.2005.858542",
+    "article-title": "Classification of musical patterns using variable duration hidden Markov models",
+    "volume": "14",
+    "author": "Pikrakis",
+    "year": "2006",
+    "journal-title": "IEEE Transactions on Audio, Speech, and Language Processing"
+   },
+   {
+    "issue": "9",
+    "key": "2026033014112687400_ref052",
+    "doi-asserted-by": "crossref",
+    "first-page": "1537",
+    "DOI": "10.1109/TPAMI.2008.191",
+    "article-title": "Factorial switching linear dynamical systems applied to physiological condition monitoring",
+    "volume": "31",
+    "author": "Quinn",
+    "year": "2009",
+    "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+   },
+   {
+    "key": "2026033014112687400_ref053",
+    "doi-asserted-by": "crossref",
+    "first-page": "257",
+    "DOI": "10.1109/5.18626",
+    "article-title": "A tutorial on hidden Markov models and selected applications in speech recognition",
+    "volume": "77",
+    "author": "Rabiner",
+    "year": "1989",
+    "journal-title": "Proceedings of the IEEE"
+   },
+   {
+    "issue": "8",
+    "key": "2026033014112687400_ref054",
+    "doi-asserted-by": "crossref",
+    "first-page": "1445",
+    "DOI": "10.2514/3.3166",
+    "article-title": "Maximum likelihood estimates of linear dynamic systems",
+    "volume": "3",
+    "author": "Rauch",
+    "year": "1965",
+    "journal-title": "AIAA Journal"
+   },
+   {
+    "key": "2026033014112687400_ref055",
+    "first-page": "499",
+    "article-title": "A segmental HMM for speech pattern matching",
+    "volume-title": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+    "author": "Russell",
+    "year": "1993"
+   },
+   {
+    "key": "2026033014112687400_ref056",
+    "doi-asserted-by": "crossref",
+    "first-page": "5",
+    "DOI": "10.1109/ICASSP.1985.1168477",
+    "article-title": "Explicit modelling of state occupancy in hidden Markov models for automatic speech recognition",
+    "volume": "10",
+    "author": "Russell",
+    "year": "1985",
+    "journal-title": "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+   },
+   {
+    "key": "2026033014112687400_ref057",
+    "first-page": "38A:142",
+    "article-title": "Fitting hidden semi-Markov models to breakpoint rainfall data",
+    "volume-title": "Journal of Applied Probability",
+    "author": "Sansom",
+    "year": "2001"
+   },
+   {
+    "issue": "3",
+    "key": "2026033014112687400_ref058",
+    "doi-asserted-by": "crossref",
+    "first-page": "845",
+    "DOI": "10.1109/TAC.2008.919531",
+    "article-title": "Unscented Rauch-Tung-Striebel smoother",
+    "volume": "53",
+    "author": "Särkkä",
+    "year": "2008",
+    "journal-title": "IEEE Transactions on Automatic Control"
+   },
+   {
+    "issue": "1/2",
+    "key": "2026033014112687400_ref059",
+    "doi-asserted-by": "crossref",
+    "first-page": "233",
+    "DOI": "10.1089/10665270050081496",
+    "article-title": "Bayesian segmentation of protein secondary structure",
+    "volume": "7",
+    "author": "Schmidler",
+    "year": "2000",
+    "journal-title": "Journal of Computational Biology"
+   },
+   {
+    "issue": "2",
+    "key": "2026033014112687400_ref060",
+    "doi-asserted-by": "crossref",
+    "first-page": "ii215",
+    "DOI": "10.1093/bioinformatics/btg1080",
+    "article-title": "Gene prediction with a hidden Markov model and a new intron submodel",
+    "volume": "19",
+    "author": "Stanke",
+    "year": "2003",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2026033014112687400_ref061",
+    "doi-asserted-by": "crossref",
+    "first-page": "90",
+    "DOI": "10.1007/978-1-4613-8997-2_8",
+    "volume-title": "Autonomous Robot Vehicles",
+    "author": "Wang",
+    "year": "1990"
+   },
+   {
+    "key": "2026033014112687400_ref062",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1155/2010/761360",
+    "article-title": "Hidden Markov model with duration side information for novel HMMD derivation, with application to eukaryotic gene finding",
+    "volume-title": "EURASIP Journal on Advances in Signal Processing",
+    "author": "Winters-Hilt",
+    "year": "2010"
+   },
+   {
+    "issue": "2",
+    "key": "2026033014112687400_ref063",
+    "doi-asserted-by": "crossref",
+    "first-page": "215",
+    "DOI": "10.1016/j.artint.2009.11.011",
+    "article-title": "Hidden semi-Markov models",
+    "volume": "174",
+    "author": "Yu",
+    "year": "2010",
+    "journal-title": "Artificial Intelligence"
+   },
+   {
+    "issue": "1",
+    "key": "2026033014112687400_ref064",
+    "doi-asserted-by": "crossref",
+    "first-page": "11",
+    "DOI": "10.1109/LSP.2002.806705",
+    "article-title": "An efficient forward-backward algorithm for an explicit-duration hidden Markov model",
+    "volume": "10",
+    "author": "Yu",
+    "year": "2003",
+    "journal-title": "IEEE Signal Processing Letters"
+   },
+   {
+    "issue": "2",
+    "key": "2026033014112687400_ref065",
+    "doi-asserted-by": "crossref",
+    "first-page": "235",
+    "DOI": "10.1016/S0165-1684(02)00378-X",
+    "article-title": "A hidden semi-Markov model with missing data and multiple observation sequences for mobility tracking",
+    "volume": "83",
+    "author": "Yu",
+    "year": "2003",
+    "journal-title": "Signal Processing"
+   },
+   {
+    "key": "2026033014112687400_ref066",
+    "author": "Zoeter",
+    "year": "2005",
+    "journal-title": "Monitoring Non-Linear and Switching Dynamical Systems"
+   }
+  ],
+  "container-title": [
+   "Foundations and Trends® in Machine Learning"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.emerald.com/ftmal/article-pdf/7/6/803/11154007/2200000054en.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://www.emerald.com/ftmal/article-pdf/7/6/803/11154007/2200000054en.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     4,
+     29
+    ]
+   ],
+   "date-time": "2026-04-29T18:10:57Z",
+   "timestamp": 1777486257000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.emerald.com/ftmal/article/7/6/803/1332386/Explicit-Duration-Markov-Switching-Models"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2014,
+     12,
+     23
+    ]
+   ]
+  },
+  "references-count": 66,
+  "journal-issue": {
+   "issue": "6",
+   "published-print": {
+    "date-parts": [
+     [
+      2014,
+      12,
+      23
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1561/2200000054",
+  "relation": {},
+  "ISSN": [
+   "1935-8237",
+   "1935-8245"
+  ],
+  "issn-type": [
+   {
+    "value": "1935-8237",
+    "type": "print"
+   },
+   {
+    "value": "1935-8245",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2014,
+     12,
+     23
+    ]
+   ]
+  }
+ },
+ "10.32473/flairs.v34i1.128424": {
+  "indexed": {
+   "date-parts": [
+    [
+     2022,
+     5,
+     4
+    ]
+   ],
+   "date-time": "2022-05-04T13:48:39Z",
+   "timestamp": 1651672119320
+  },
+  "reference-count": 0,
+  "publisher": "University of Florida George A Smathers Libraries",
+  "issue": "1",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2021,
+       4,
+       18
+      ]
+     ],
+     "date-time": "2021-04-18T00:00:00Z",
+     "timestamp": 1618704000000
+    },
+    "content-version": "unspecified",
+    "delay-in-days": 0,
+    "URL": "http://creativecommons.org/licenses/by-nc/4.0"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "FLAIRS"
+  ],
+  "abstract": "<jats:p>Hidden Markov model (HMM) has been a popular choice for financial time series modeling due to its advantage in capturing dynamic regimes. However, HMM's implicit assumption that the state duration follows a geometric distribution is too strong to hold in practice. In this work, we propose a regularized vector autoregressive hidden semi-Markov model to analyze multivariate financial time series. One challenge in such a model setting is that the number of parameters is too large to be reliably estimated unless the time series is extremely long. To address this issue, an augmented EM algorithm is developed for parameter estimation by using regularized estimators for the state-dependent covariance matrices and autoregression matrices in the M-step. The performance of the proposed model is evaluated in a simulation experiment, and demonstrated with the New York Stock Exchange financial portfolio data.</jats:p>",
+  "DOI": "10.32473/flairs.v34i1.128424",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2021,
+     5,
+     13
+    ]
+   ],
+   "date-time": "2021-05-13T13:23:48Z",
+   "timestamp": 1620912228000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 1,
+  "title": [
+   "A Regularized Vector Autoregressive Hidden Semi-Markov model, with Application to Multivariate Financial Data"
+  ],
+  "prefix": "10.32473",
+  "volume": "34",
+  "author": [
+   {
+    "given": "Zekun",
+    "family": "Xu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Ye",
+    "family": "Liu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "17357",
+  "published-online": {
+   "date-parts": [
+    [
+     2021,
+     4,
+     18
+    ]
+   ]
+  },
+  "container-title": [
+   "The International FLAIRS Conference Proceedings"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "https://journals.flvc.org/FLAIRS/article/download/128424/130108",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://journals.flvc.org/FLAIRS/article/download/128424/130108",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     5,
+     13
+    ]
+   ],
+   "date-time": "2021-05-13T13:24:15Z",
+   "timestamp": 1620912255000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://journals.flvc.org/FLAIRS/article/view/128424"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     4,
+     18
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "1",
+   "published-online": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      11
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.32473/flairs.v34i1.128424",
+  "relation": {},
+  "ISSN": [
+   "2334-0762"
+  ],
+  "issn-type": [
+   {
+    "value": "2334-0762",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2021,
+     4,
+     18
+    ]
+   ]
+  }
+ },
+ "10.3934/DSFE.2025016": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     11
+    ]
+   ],
+   "date-time": "2026-08-11T17:01:52Z",
+   "timestamp": 1786467712525,
+   "version": "3.56.0"
+  },
+  "reference-count": 20,
+  "publisher": "American Institute of Mathematical Sciences (AIMS)",
+  "issue": "3",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "DSFE"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "DOI": "10.3934/dsfe.2025016",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2025,
+     8,
+     29
+    ]
+   ],
+   "date-time": "2025-08-29T12:01:22Z",
+   "timestamp": 1756468882000
+  },
+  "page": "387-418",
+  "source": "Crossref",
+  "is-referenced-by-count": 2,
+  "title": [
+   "Automated regime classification in multidimensional time series data using sliced Wasserstein k-means clustering"
+  ],
+  "prefix": "10.3934",
+  "volume": "5",
+  "author": [
+   {
+    "given": "Qinmeng",
+    "family": "Luan",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "name": "Citigroup, London, UK",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "James",
+    "family": "Hamp",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "name": "Data Science Institute, London School of Economics, London, UK",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "2321",
+  "reference": [
+   {
+    "key": "key-10.3934/DSFE.2025016-1",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Bai J, Perron P (2003) Computation and analysis of multiple structural change models. <i>J Appl Econometrics</i> 18: 1–22. https://doi.org/10.1002/jae.659",
+    "DOI": "10.1002/jae.659"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-2",
+    "unstructured": "Bilokon P, Jacquier A, McIndoe C (2021) Market regime classification with signatures. <i>arXiv preprint</i>. <ext-link ext-link-type=\"uri\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://doi.org/10.48550/arXiv.2107.00066\">https://doi.org/10.48550/arXiv.2107.00066</ext-link>"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-3",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Blazsek S, Escribano A, Kristof E (2024) Global, Arctic, and Antarctic sea ice volume predictions using score-driven threshold climate models. <i>Energ Econ</i> 134: 107591. https://doi.org/10.1016/j.eneco.2024.107591",
+    "DOI": "10.1016/j.eneco.2024.107591"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-4",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Bobkov SG, Ledoux M (2019) <i>One-dimensional empirical measures, order statistics, and Kantorovich transport distances</i> 261: 1259. American Mathematical Society. <ext-link ext-link-type=\"uri\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://doi.org/10.1090/memo/1259\">https://doi.org/10.1090/memo/1259</ext-link>",
+    "DOI": "10.1090/memo/1259"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-5",
+    "unstructured": "Bonneel N, Pfister H (2013) <i>Sliced Wasserstein barycenter of multiple densities</i> (Tech. Rep. No. TR-05-13). Harvard University. Available from: <ext-link ext-link-type=\"uri\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://dash.harvard.edu/entities/publication/73120378-ebd3-6bd4-e053-0100007fdf3b\">https://dash.harvard.edu/entities/publication/73120378-ebd3-6bd4-e053-0100007fdf3b</ext-link>."
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-6",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Bonneel N, Rabin J, Peyré G, et al. (2015) Sliced and Radon Wasserstein barycenters of measures. <i>J Math Imaging Vis</i> 51: 22–45. https://doi.org/10.1007/s10851-014-0506-3",
+    "DOI": "10.1007/s10851-014-0506-3"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-7",
+    "unstructured": "Dasgupta S (1999) Learning mixtures of Gaussians. In: <i>Proceedings of the 40th annual symposium on foundations of computer science (FOCS '99)</i>, 634–644. IEEE Computer Society. <ext-link ext-link-type=\"uri\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://doi.org/10.1109/SFCS.1999.814639\">https://doi.org/10.1109/SFCS.1999.814639</ext-link>"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-8",
+    "unstructured": "Hartigan JA (1975) <i>Clustering algorithms</i>. John Wiley &amp; Sons."
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-9",
+    "unstructured": "Hendry DF, Doornik JA (2014) <i>Empirical model discovery and theory evaluation: automatic selection methods in econometrics</i>. The MIT Press. <ext-link ext-link-type=\"uri\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://doi.org/10.7551/mitpress/9780262028356.001.0001\">https://doi.org/10.7551/mitpress/9780262028356.001.0001</ext-link>"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-10",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Horvath B, Issa Z, Muguruza A (2024) Clustering Market Regimes using the Wasserstein Distance. <i>J Computat Financ</i> 28: 1–39. https://doi.org/10.21314/JCF.2024.005",
+    "DOI": "10.21314/JCF.2024.005"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-11",
+    "unstructured": "Issa Z, Horvath B (2023) Non-parametric online market regime detection and regime clustering for multidimensional and path-dependent data structures. <i>arXiv preprint</i>. <ext-link ext-link-type=\"uri\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://doi.org/10.48550/arXiv.2306.15835\">https://doi.org/10.48550/arXiv.2306.15835</ext-link>"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-12",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Kanungo T, Mount DM, Netanyahu, et al. (2002) An efficient k-means clustering algorithm: Analysis and implementation. <i>Ieee T Pattern Anal Mach Intell</i> 24: 881–892. https://doi.org/10.1109/TPAMI.2002.1017616",
+    "DOI": "10.1109/TPAMI.2002.1017616"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-13",
+    "unstructured": "Kidger P, Bonnier P, Perez Arribas I, et al. (2019) Deep signature transforms. In: H. Wallach, H. Larochelle, A. Beygelzimer, F. d'Alché Buc, E. Fox, R. Garnett (Eds.), <i>Advances in Neural Information Processing Systems 32 (NeurIPS 2019)</i>, Curran Associates, Inc, 3082–3092. Available from: <ext-link ext-link-type=\"uri\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://papers.nips.cc/paper_files/paper/2019/hash/d2cdf047a6674cef251d56544a3cf029-Abstract.html\">https://papers.nips.cc/paper_files/paper/2019/hash/d2cdf047a6674cef251d56544a3cf029-Abstract.html</ext-link>."
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-14",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Panaretos VM, Zemel Y (2019) Statistical aspects of Wasserstein distances. <i>Annu Rev Stat Appl</i> 6: 405–431. https://doi.org/10.1146/annurev-statistics-030718-104938",
+    "DOI": "10.1146/annurev-statistics-030718-104938"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-15",
+    "unstructured": "Pedregosa F, Varoquaux G, Gramfort A, et al. (2011) Scikit-learn: Machine Learning in Python. <i>J Mach Learn Research</i> 12: 2825–2830. Available from: http://www.jmlr.org/papers/v12/pedregosa11a.html."
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-16",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Peyré G, Cuturi M (2019) Computational optimal transport. <i>Found Trends Mach Learn</i>11: 355–607. https://doi.org/10.1561/2200000073",
+    "DOI": "10.1561/2200000073"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-17",
+    "unstructured": "Rabin J, Peyré G, Delon J, et al. (2012) Wasserstein barycenter and its application to texture mixing. In: <i>Scale Space and Variational Methods in Computer Vision</i>, 6667: 435–446. <ext-link ext-link-type=\"uri\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://doi.org/10.1007/978-3-642-24785-9_37\">https://doi.org/10.1007/978-3-642-24785-9_37</ext-link>"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-18",
+    "unstructured": "Stromme AJ (2020) <i>Wasserstein barycenters: statistics and optimization, </i>  Massachusetts Institute of Technology. Available from: <ext-link ext-link-type=\"uri\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://dspace.mit.edu/handle/1721.1/127364\">https://dspace.mit.edu/handle/1721.1/127364</ext-link>."
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-19",
+    "unstructured": "Villani C (2009) <i>Optimal transport: old and new, </i>  338. Springer. <ext-link ext-link-type=\"uri\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://doi.org/10.1007/978-3-540-71050-9\">https://doi.org/10.1007/978-3-540-71050-9</ext-link>"
+   },
+   {
+    "key": "key-10.3934/DSFE.2025016-20",
+    "doi-asserted-by": "publisher",
+    "unstructured": "You K, Shung DL, Giuffrè M (2024) On the Wasserstein median of probability measures. <i>J Comput Graph Stat</i> 33: 253–266. https://doi.org/10.1080/10618600.2024.2374580",
+    "DOI": "10.1080/10618600.2024.2374580"
+   }
+  ],
+  "container-title": [
+   "Data Science in Finance and Economics"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://www.aimspress.com/article/doi/10.3934/DSFE.2025016?viewType=html",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     8,
+     29
+    ]
+   ],
+   "date-time": "2025-08-29T12:01:24Z",
+   "timestamp": 1756468884000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://www.aimspress.com/article/doi/10.3934/DSFE.2025016"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "references-count": 20,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      2025
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.3934/dsfe.2025016",
+  "relation": {},
+  "ISSN": [
+   "2769-2140"
+  ],
+  "issn-type": [
+   {
+    "value": "2769-2140",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  }
+ },
+ "10.1016/j.econmod.2022.105832": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     19
+    ]
+   ],
+   "date-time": "2026-07-19T09:47:47Z",
+   "timestamp": 1784454467733,
+   "version": "3.55.0"
+  },
+  "reference-count": 39,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       6,
+       1
+      ]
+     ],
+     "date-time": "2022-06-01T00:00:00Z",
+     "timestamp": 1654041600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       6,
+       1
+      ]
+     ],
+     "date-time": "2022-06-01T00:00:00Z",
+     "timestamp": 1654041600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/legal/tdmrep-license"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       6,
+       1
+      ]
+     ],
+     "date-time": "2022-06-01T00:00:00Z",
+     "timestamp": 1654041600000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-017"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       6,
+       1
+      ]
+     ],
+     "date-time": "2022-06-01T00:00:00Z",
+     "timestamp": 1654041600000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-037"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       6,
+       1
+      ]
+     ],
+     "date-time": "2022-06-01T00:00:00Z",
+     "timestamp": 1654041600000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-012"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       6,
+       1
+      ]
+     ],
+     "date-time": "2022-06-01T00:00:00Z",
+     "timestamp": 1654041600000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-029"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       6,
+       1
+      ]
+     ],
+     "date-time": "2022-06-01T00:00:00Z",
+     "timestamp": 1654041600000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-004"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Economic Modelling"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2022,
+     6
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.econmod.2022.105832",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2022,
+     3,
+     25
+    ]
+   ],
+   "date-time": "2022-03-25T03:24:51Z",
+   "timestamp": 1648178691000
+  },
+  "page": "105832",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 8,
+  "special_numbering": "C",
+  "title": [
+   "Market regime detection via realized covariances"
+  ],
+  "prefix": "10.1016",
+  "volume": "111",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0001-9872-9761",
+    "authenticated-orcid": false,
+    "given": "Andrea",
+    "family": "Bucci",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Vito",
+    "family": "Ciciretti",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib1",
+    "series-title": "A Hybrid Learning Approach to Detecting Regime Switches in Financial Markets",
+    "first-page": "1",
+    "author": "Akioyamen",
+    "year": "2020"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "579",
+    "DOI": "10.1111/1468-0262.00418",
+    "article-title": "Modeling and forecasting realized volatility",
+    "volume": "71",
+    "author": "Andersen",
+    "year": "2003",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "397",
+    "DOI": "10.1016/j.econmod.2020.04.009",
+    "article-title": "Correlation regimes in international equity and bond returns",
+    "volume": "97",
+    "author": "Aslanidis",
+    "year": "2021",
+    "journal-title": "Econ. Modell."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.econmod.2022.105832_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "253",
+    "DOI": "10.1111/1467-9868.00336",
+    "article-title": "Econometric analysis of realised volatility and its use in estimating stochastic volatility models",
+    "volume": "64",
+    "author": "Barndorff-Nielsen",
+    "year": "2002",
+    "journal-title": "J. Roy. Stat. Soc."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.econmod.2022.105832_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "218",
+    "DOI": "10.1111/j.1368-423X.2009.00307.x",
+    "article-title": "Theory and inference for a Markov switching GARCH model",
+    "volume": "13",
+    "author": "Bauwens",
+    "year": "2010",
+    "journal-title": "Econom. J."
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "63",
+    "DOI": "10.1016/j.jempfin.2015.03.005",
+    "article-title": "The frequency of regime switching in financial market volatility",
+    "volume": "32",
+    "author": "BenSaïda",
+    "year": "2015",
+    "journal-title": "J. Empir. Finance"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.econmod.2022.105832_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "71",
+    "DOI": "10.1016/j.jeconom.2018.05.004",
+    "article-title": "Modeling and forecasting (un)reliable realized covariances for more reliable financial decisions",
+    "volume": "207",
+    "author": "Bollerslev",
+    "year": "2018",
+    "journal-title": "J. Econom."
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib8",
+    "series-title": "Risk-based and Factor Investing",
+    "first-page": "195",
+    "article-title": "Smart beta equity investing through calm and storm",
+    "author": "Boudt",
+    "year": "2015"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.econmod.2022.105832_bib9",
+    "doi-asserted-by": "crossref",
+    "first-page": "309",
+    "DOI": "10.1080/07350015.1994.10524546",
+    "article-title": "A markov model of switching-regime ARCH",
+    "volume": "12",
+    "author": "Cai",
+    "year": "1994",
+    "journal-title": "J. Bus. Econ. Stat."
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib10",
+    "series-title": "Detecting Regime Change in Computational Finance: Data Science, Machine Learning and Algorithmic Trading",
+    "author": "Chen",
+    "year": "2020"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.econmod.2022.105832_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "1671",
+    "DOI": "10.1111/j.1468-0262.2007.00809.x",
+    "article-title": "Testing for regime switching",
+    "volume": "75",
+    "author": "Cho",
+    "year": "2007",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib12",
+    "article-title": "Detecting regime shifts in credit spreads",
+    "volume": "49",
+    "author": "Chun",
+    "year": "2013",
+    "journal-title": "J. Financ. Quant. Anal."
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "293",
+    "DOI": "10.1016/j.jinteco.2019.01.012",
+    "article-title": "Non-monetary news in central bank communication",
+    "volume": "118",
+    "author": "Cieslak",
+    "year": "2019",
+    "journal-title": "J. Int. Econ."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.econmod.2022.105832_bib14",
+    "first-page": "33",
+    "article-title": "Hypothesis testing when a nuisance parameter is present only under the alternatives",
+    "volume": "74",
+    "author": "Davies",
+    "year": "1987",
+    "journal-title": "Biometrika"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.econmod.2022.105832_bib15",
+    "doi-asserted-by": "crossref",
+    "first-page": "1714",
+    "DOI": "10.1016/j.jbankfin.2010.11.007",
+    "article-title": "Long memory in volatility and trading volume",
+    "volume": "35",
+    "author": "Fleming",
+    "year": "2011",
+    "journal-title": "J. Bank. Finance"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib16",
+    "series-title": "Modelling Non-linear Economic Relationships",
+    "author": "Granger",
+    "year": "1993"
+   },
+   {
+    "issue": "2–3",
+    "key": "10.1016/j.econmod.2022.105832_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "385",
+    "DOI": "10.1016/0165-1889(88)90047-4",
+    "article-title": "Rational-expectations econometric analysis of changes in regime",
+    "volume": "12",
+    "author": "Hamilton",
+    "year": "1988",
+    "journal-title": "J. Econ. Dynam. Control"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.econmod.2022.105832_bib18",
+    "doi-asserted-by": "crossref",
+    "first-page": "357",
+    "DOI": "10.2307/1912559",
+    "article-title": "A new approach to the economic analysis of nonstationary time series and the business cycle",
+    "volume": "57",
+    "author": "Hamilton",
+    "year": "1989",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib19",
+    "doi-asserted-by": "crossref",
+    "first-page": "S61",
+    "DOI": "10.1002/jae.3950070506",
+    "article-title": "The likelihood ratio test under nonstandard conditions: testing the markov switching model of gnp",
+    "volume": "7",
+    "author": "Hansen",
+    "year": "1992",
+    "journal-title": "J. Appl. Econom."
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib20",
+    "doi-asserted-by": "crossref",
+    "first-page": "231",
+    "DOI": "10.1016/j.econmod.2018.08.003",
+    "article-title": "Testing the white noise hypothesis of stock returns",
+    "volume": "76",
+    "author": "Hill",
+    "year": "2019",
+    "journal-title": "Econ. Modell."
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib21",
+    "first-page": "273",
+    "volume": "vol. 32",
+    "author": "Hubrich",
+    "year": "2013"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib22",
+    "series-title": "Finding Groups in Data: an Introduction to Cluster Analysis",
+    "author": "Kaufman",
+    "year": "1990"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib23",
+    "series-title": "The Markov-Switching Vector Autoregressive Model",
+    "first-page": "6",
+    "author": "Krolzig",
+    "year": "1997"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib24",
+    "doi-asserted-by": "crossref",
+    "first-page": "1467",
+    "DOI": "10.1103/PhysRevLett.83.1467",
+    "article-title": "Noise dressing of financial correlation matrices",
+    "volume": "83",
+    "author": "Laloux",
+    "year": "1999",
+    "journal-title": "Phys. Rev. Lett."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.econmod.2022.105832_bib25",
+    "first-page": "81",
+    "article-title": "Markov regime models for mixed distributions and switching regressions",
+    "volume": "5",
+    "author": "Lindgren",
+    "year": "1978",
+    "journal-title": "Scand. J. Stat."
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "101669",
+    "DOI": "10.1016/j.resourpol.2020.101669",
+    "article-title": "Detection of volatility regime-switching for crude oil price modeling and forecasting",
+    "volume": "69",
+    "author": "Liu",
+    "year": "2020",
+    "journal-title": "Resour. Pol."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.econmod.2022.105832_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "491",
+    "DOI": "10.1093/biomet/75.3.491",
+    "article-title": "Testing linearity against smooth transition autoregressive models",
+    "volume": "75",
+    "author": "Luukkonen",
+    "year": "1988",
+    "journal-title": "Biometrika"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib28",
+    "series-title": "‘Detection of Structural Regimes and Analyzing the Impact of Crude Oil Market on Canadian Stock Market: Markov Regime-Switching Approach’, Studies in Economics and Finance Ahead-Of-Print",
+    "author": "Mahmoudi",
+    "year": "2022"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib29",
+    "doi-asserted-by": "crossref",
+    "first-page": "105699",
+    "DOI": "10.1016/j.econmod.2021.105699",
+    "article-title": "Asymmetric multivariate har models for realized covariance matrix: a study based on volatility timing strategies",
+    "volume": "106",
+    "author": "Qu",
+    "year": "2022",
+    "journal-title": "Econ. Modell."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.econmod.2022.105832_bib30",
+    "doi-asserted-by": "crossref",
+    "first-page": "1115",
+    "DOI": "10.1111/j.1540-6261.1989.tb02647.x",
+    "article-title": "Why does stock market volatility change over time?",
+    "volume": "44",
+    "author": "Schwert",
+    "year": "1989",
+    "journal-title": "J. Finance"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib31",
+    "doi-asserted-by": "crossref",
+    "first-page": "885",
+    "DOI": "10.1111/j.1468-0262.2004.00515.x",
+    "article-title": "Econometric analysis of realized covariation: high frequency based covariance, regression, and correlation in financial economics",
+    "volume": "72",
+    "author": "Shephard",
+    "year": "2004",
+    "journal-title": "Econometrica"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib32",
+    "doi-asserted-by": "crossref",
+    "first-page": "105492",
+    "DOI": "10.1016/j.econmod.2021.03.011",
+    "article-title": "Robust portfolio selection with regime switching and asymmetric dependence",
+    "volume": "99",
+    "author": "Su",
+    "year": "2021",
+    "journal-title": "Econ. Modell."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.econmod.2022.105832_bib33",
+    "doi-asserted-by": "crossref",
+    "first-page": "1053",
+    "DOI": "10.1016/j.econmod.2009.04.003",
+    "article-title": "Modelling monetary transmission in UK manufacturing industry",
+    "volume": "26",
+    "author": "Tena",
+    "year": "2009",
+    "journal-title": "Econ. Modell."
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib34",
+    "series-title": "Specification, Estimation and Evaluation of Vector Smooth Transition Autoregressive Models with Applications, Technical Report, CORE Discussion Papers",
+    "first-page": "2014062",
+    "author": "Teräsvirta",
+    "year": "2014"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib35",
+    "series-title": "Modelling Nonlinear Economic Time Series",
+    "author": "Teräsvirta",
+    "year": "2010"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib36",
+    "doi-asserted-by": "crossref",
+    "first-page": "185",
+    "DOI": "10.1109/TETCI.2017.2775235",
+    "article-title": "Regime change detection using directional change indicators in the foreign Exchange market to chart Brexit",
+    "volume": "2",
+    "author": "Tsang",
+    "year": "2018",
+    "journal-title": "IEEE Trans. Emerg. Topic. Comput. Intel."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.econmod.2022.105832_bib37",
+    "first-page": "353",
+    "article-title": "An autoregressive model with suddenly changing parameters and an application to stock market prices",
+    "volume": "37",
+    "author": "Tyssedal",
+    "year": "1988",
+    "journal-title": "J. Roy. Stat. Soc. Ser. C (Appl. Stat.)"
+   },
+   {
+    "key": "10.1016/j.econmod.2022.105832_bib38",
+    "series-title": "Speculative Behavior, Regime-Switching, and Stock Market Crashes",
+    "first-page": "321",
+    "author": "van Norden",
+    "year": "1999"
+   },
+   {
+    "issue": "301",
+    "key": "10.1016/j.econmod.2022.105832_bib39",
+    "doi-asserted-by": "crossref",
+    "first-page": "236",
+    "DOI": "10.1080/01621459.1963.10500845",
+    "article-title": "Hierarchical grouping to optimize an objective function",
+    "volume": "58",
+    "author": "Ward",
+    "year": "1963",
+    "journal-title": "J. Am. Stat. Assoc."
+   }
+  ],
+  "container-title": [
+   "Economic Modelling"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0264999322000785?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0264999322000785?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     10,
+     2
+    ]
+   ],
+   "date-time": "2025-10-02T13:44:43Z",
+   "timestamp": 1759412683000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0264999322000785"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     6
+    ]
+   ]
+  },
+  "references-count": 39,
+  "alternative-id": [
+   "S0264999322000785"
+  ],
+  "URL": "https://doi.org/10.1016/j.econmod.2022.105832",
+  "relation": {},
+  "ISSN": [
+   "0264-9993"
+  ],
+  "issn-type": [
+   {
+    "value": "0264-9993",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2022,
+     6
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "Market regime detection via realized covariances",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Economic Modelling",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.econmod.2022.105832",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "© 2022 Elsevier B.V. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ],
+  "article-number": "105832"
+ }
+}

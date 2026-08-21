@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aaQ2L5ewJdEG91tePEFqmGqRDmg</id>
+  <title>arXiv Query: search_query=all:"average directional" OR all:"choppiness index"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-21T14:49:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22average+directional%22+OR+all:%22choppiness+index%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>92</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2104.03802v4</id>
+    <title>Average Direct and Indirect Causal Effects under Interference</title>
+    <updated>2022-01-12T01:26:00Z</updated>
+    <link href="https://arxiv.org/abs/2104.03802v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.03802v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a definition for the average indirect effect of a binary treatment in the potential outcomes model for causal inference under cross-unit interference. Our definition is analogous to the standard definition of the average direct effect, and can be expressed without needing to compare outcomes across multiple randomized experiments. We show that the proposed indirect effect satisfies a decomposition theorem whereby, in a Bernoulli trial, the sum of the average direct and indirect effects always corresponds to the effect of a policy intervention that infinitesimally increases treatment probabilities. We also consider a number of parametric models for interference, and find that our non-parametric indirect effect remains a natural estimand when re-expressed in the context of these models.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-08T14:28:16Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Yuchen Hu</name>
+    </author>
+    <author>
+      <name>Shuangning Li</name>
+    </author>
+    <author>
+      <name>Stefan Wager</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.02913v5</id>
+    <title>Decentralized SGD and Average-direction SAM are Asymptotically Equivalent</title>
+    <updated>2023-11-09T13:15:02Z</updated>
+    <link href="https://arxiv.org/abs/2306.02913v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.02913v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Decentralized stochastic gradient descent (D-SGD) allows collaborative learning on massive devices simultaneously without the control of a central server. However, existing theories claim that decentralization invariably undermines generalization. In this paper, we challenge the conventional belief and present a completely new perspective for understanding decentralized learning. We prove that D-SGD implicitly minimizes the loss function of an average-direction Sharpness-aware minimization (SAM) algorithm under general non-convex non-$β$-smooth settings. This surprising asymptotic equivalence reveals an intrinsic regularization-optimization trade-off and three advantages of decentralization: (1) there exists a free uncertainty evaluation mechanism in D-SGD to improve posterior estimation; (2) D-SGD exhibits a gradient smoothing effect; and (3) the sharpness regularization effect of D-SGD does not decrease as total batch size increases, which justifies the potential generalization benefit of D-SGD over centralized SGD (C-SGD) in large-batch scenarios. The code is available at https://github.com/Raiden-Zhu/ICML-2023-DSGD-and-SAM.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-05T14:19:52Z</published>
+    <arxiv:comment>40th International Conference on Machine Learning (ICML 2023)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tongtian Zhu</name>
+    </author>
+    <author>
+      <name>Fengxiang He</name>
+    </author>
+    <author>
+      <name>Kaixuan Chen</name>
+    </author>
+    <author>
+      <name>Mingli Song</name>
+    </author>
+    <author>
+      <name>Dacheng Tao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1403.3004v1</id>
+    <title>Approximation of length minimization problems among compact connected sets</title>
+    <updated>2014-03-09T19:30:58Z</updated>
+    <link href="https://arxiv.org/abs/1403.3004v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1403.3004v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we provide an approximation à la Ambrosio-Tortorelli of some classical minimization problems involving the length of an unknown one-dimensional set, with an additional connectedness constraint, in dimension two. We introduce a term of new type relying on a weighted geodesic distance that forces the minimizers to be connected at the limit. We apply this approach to approximate the so-called Steiner Problem, but also the average distance problem, and finally a problem relying on the p-compliance energy. The proof of convergence of the approximating functional, which is stated in terms of Gamma-convergence relies on technical tools from geometric measure theory, as for instance a uniform lower bound for a sort of average directional Minkowski content of a family of compact connected sets.</summary>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-09T19:30:58Z</published>
+    <arxiv:primary_category term="math.MG"/>
+    <author>
+      <name>Matthieu Bonnivard</name>
+      <arxiv:affiliation>LJLL</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Antoine Lemenant</name>
+      <arxiv:affiliation>LJLL</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Filippo Santambrogio</name>
+      <arxiv:affiliation>LM-Orsay</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.00665v1</id>
+    <title>Technical Analysis Meets Machine Learning: Bitcoin Evidence</title>
+    <updated>2025-11-01T19:13:07Z</updated>
+    <link href="https://arxiv.org/abs/2511.00665v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.00665v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note, we compare Bitcoin trading performance using two machine learning models-Light Gradient Boosting Machine (LightGBM) and Long Short-Term Memory (LSTM)-and two technical analysis-based strategies: Exponential Moving Average (EMA) crossover and a combination of Moving Average Convergence/Divergence with the Average Directional Index (MACD+ADX). The objective is to evaluate how trading signals can be used to maximize profits in the Bitcoin market. This comparison was motivated by the U.S. Securities and Exchange Commission's (SEC) approval of the first spot Bitcoin exchange-traded funds (ETFs) on 2024-01-10. Our results show that the LSTM model achieved a cumulative return of approximately 65.23% in under a year, significantly outperforming LightGBM, the EMA and MACD+ADX strategies, as well as the baseline buy-and-hold. This study highlights the potential for deeper integration of machine learning and technical analysis in the rapidly evolving cryptocurrency landscape.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-01T19:13:07Z</published>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>José Ángel Islas Anguiano</name>
+    </author>
+    <author>
+      <name>Andrés García-Medina</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.00093v2</id>
+    <title>Divergent on average directions of Teichmuller geodesic flow</title>
+    <updated>2018-10-09T17:39:29Z</updated>
+    <link href="https://arxiv.org/abs/1803.00093v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.00093v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The set of directions from a quadratic differential that diverge on average under Teichmuller geodesic flow has Hausdorff dimension exactly equal to one-half.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-28T21:24:46Z</published>
+    <arxiv:comment>31 pages. Comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <author>
+      <name>Paul Apisa</name>
+    </author>
+    <author>
+      <name>Howard Masur</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.09552v2</id>
+    <title>Optimized 3D Point Labeling with Leaders Using the Beams Displacement Method</title>
+    <updated>2024-12-12T11:03:20Z</updated>
+    <link href="https://arxiv.org/abs/2407.09552v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.09552v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In three-dimensional geographical scenes, adding labels with leader lines to point features can significantly improve their visibility. Leadered labels have a large degree of freedom in position con-figuration, but existing methods are mostly based on limited position candidate models, which not only fail to effectively utilize the map space but also make it difficult to consider the relative relationships between labels. Therefore, we conceptualize the dynamic configuration process of computing label positions as akin to solving a map displacement problem. We use a triangulated graph to delineate spatial relationships among labels and calculate the forces exerted on labels considering the constraints associated with point feature labels. Then we use the Beams Displacement Method to iteratively calculate new positions for the labels. Our experimental outcomes demonstrate that this method effectively mitigates label overlay issues while maintaining minimal average directional deviation between adjacent labels. Furthermore, this method is adaptable to various types of leader line labels. Meanwhile, we also discuss the block processing strategy to improve the efficiency of label configuration and analyze the impact of different proximity graphs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-28T01:31:37Z</published>
+    <arxiv:comment>12 pages, in Chinese language, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zhiwei Wei</name>
+    </author>
+    <author>
+      <name>Nai Yang</name>
+    </author>
+    <author>
+      <name>Wenjia Xu</name>
+    </author>
+    <author>
+      <name>Su Ding</name>
+    </author>
+    <author>
+      <name>Li Minmin</name>
+    </author>
+    <author>
+      <name>Li You</name>
+    </author>
+    <author>
+      <name>Guo Renzhong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.06443v2</id>
+    <title>Revising Context, Shifting Simulated Stance: Auditing LLM-Based Stance Simulation in Online Discussions</title>
+    <updated>2026-06-08T14:12:52Z</updated>
+    <link href="https://arxiv.org/abs/2606.06443v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.06443v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are increasingly used to simulate social media users and infer how individuals may respond to online discussions. However, it remains unclear whether these simulations reflect precise user-specific beliefs or whether they are highly sensitive to semantically independent changes in conversational contexts. In this work, we study counterfactual context revision as a framework for auditing LLM-based stance simulation. Given an original online conversation, we first infer a target user's stance toward a specific topic. We then apply controlled revision strategies to the conversational context and simulate the user's stance again under the revised context. We compare text-only revision strategies with a multimodal one that incorporates meme-based context and evaluate two main effectiveness metrics, i.e., average directional stance shift and stance transition rate. The results reveal effective and robust stance transitions in both text-only and multimodal strategies across different polarization-preference mechanisms. Our study contributes an evaluation framework for understanding the context sensitivity of LLM-based stance simulation. More broadly, it highlights both the promise and risk of using LLMs to simulate online opinion dynamics.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-04T17:41:54Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xinnong Zhang</name>
+    </author>
+    <author>
+      <name>Wanting Shan</name>
+    </author>
+    <author>
+      <name>Hanjia Lyu</name>
+    </author>
+    <author>
+      <name>Zhongyu Wei</name>
+    </author>
+    <author>
+      <name>Jiebo Luo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.07513v1</id>
+    <title>Democratizing Ski Safety: Real-Time Turn Segmentation with Smartphone IMU and Causal LSTM Networks</title>
+    <updated>2026-06-30T21:31:22Z</updated>
+    <link href="https://arxiv.org/abs/2608.07513v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.07513v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Anterior cruciate ligament (ACL) injury is one of the most common and serious injuries in sports, particularly among recreational skiers. Research shows that structured technique awareness and continuous feedback can significantly reduce the risk of such injuries, yet access to professional instructors is limited to wealthy athletes who can afford continuous private coaching, creating a harmful inequity in injury prevention. This gap can be mitigated by automating the real-time analysis of skiing techniques available to the wider recreational skiing community. The approach relies exclusively on inertial sensors embedded in standard smartphones, eliminating the need for specialized equipment and enabling broad social scalability. To support immediate feedback, the system operates causally, producing predictions based solely on past observations. The work is conducted in cooperation with professional ski instructors, ensuring that problem formulation, data annotation, and result evaluation reflect real-world coaching practices and injury prevention needs. The model is evaluated using Leave-One-Subject-Out validation on a public, in-the-wild dataset, demonstrating robust generalization across skiers, achieving an average directional accuracy of 89.8%, while maintaining extremely low inference latency suitable for on-device mobile deployment. This work outlines a practical pathway to democratizing injury prevention in recreational sports.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-30T21:31:22Z</published>
+    <arxiv:comment>Preprint. 9 pages, 1 figure, 5 tables. Code, pretrained weights, and a curated dataset are available in the project repository</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Michał Szymocha</name>
+    </author>
+    <author>
+      <name>Piotr Kacprzak</name>
+    </author>
+    <author>
+      <name>Jakub Robak</name>
+    </author>
+    <author>
+      <name>Wojciech Turek</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.4107v1</id>
+    <title>Free motion around black holes with discs or rings: between integrability and chaos - II</title>
+    <updated>2012-11-17T10:05:06Z</updated>
+    <link href="https://arxiv.org/abs/1211.4107v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.4107v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We continue the study of time-like geodesic dynamics in exact static, axially and reflection symmetric space-times describing the fields of a Schwarzschild black hole surrounded by thin discs or rings. In the previous paper, the rise (and decline) of geodesic chaos with ring/disc mass and position and with test particle energy was revealed on Poincaré sections, on time series of position or velocity and their power spectra, and on time evolution of the orbital `latitudinal action'. In agreement with the KAM theory of nearly integrable dynamical systems and with the results observed in similar gravitational systems in the literature, we found orbits of very different degrees of chaoticity in the phase space of perturbed fields. Here we compare selected orbits in more detail and try to classify them according to the characteristics of the corresponding phase-variable time series, mainly according to the shape of the time-series power spectra, and also applying two recurrence methods: the method of `average directional vectors', which traces the directions in which the trajectory (recurrently) passes through a chosen phase-space cell, and the `recurrence-matrix' method, which consists of statistics over the recurrences themselves. All the methods proved simple and powerful, while it is interesting to observe how they differ in sensitivity to certain types of behaviour.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-17T10:05:06Z</published>
+    <arxiv:comment>22 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>MNRAS 425 (2012) 2455-2476</arxiv:journal_ref>
+    <author>
+      <name>O. Semerák</name>
+    </author>
+    <author>
+      <name>P. Suková</name>
+    </author>
+    <arxiv:doi>10.1111/j.1365-2966.2012.21630.x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1111/j.1365-2966.2012.21630.x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.23366v1</id>
+    <title>Density, asymmetry and citation dynamics in scientific literature</title>
+    <updated>2025-06-29T18:55:04Z</updated>
+    <link href="https://arxiv.org/abs/2506.23366v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.23366v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scientific behavior is often characterized by a tension between building upon established knowledge and introducing novel ideas. Here, we investigate whether this tension is reflected in the relationship between the similarity of a scientific paper to previous research and its eventual citation rate. To operationalize similarity to previous research, we introduce two complementary metrics to characterize the local geometry of a publication's semantic neighborhood: (1) \emph{density} ($ρ$), defined as the ratio between a fixed number of previously-published papers and the minimum distance enclosing those papers in a semantic embedding space, and (2) asymmetry ($α$), defined as the average directional difference between a paper and its nearest neighbors. We tested the predictive relationship between these two metrics and its subsequent citation rate using a Bayesian hierarchical regression approach, surveying $\sim 53,000$ publications across nine academic disciplines and five different document embeddings. While the individual effects of $ρ$ on citation count are small and variable, incorporating density-based predictors consistently improves out-of-sample prediction when added to baseline models. These results suggest that the density of a paper's surrounding scientific literature may carry modest but informative signals about its eventual impact. Meanwhile, we find no evidence that publication asymmetry improves model predictions of citation rates. Our work provides a scalable framework for linking document embeddings to scientometric outcomes and highlights new questions regarding the role that semantic similarity plays in shaping the dynamics of scientific reward.</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-29T18:55:04Z</published>
+    <arxiv:primary_category term="cs.DL"/>
+    <author>
+      <name>Nathaniel Imel</name>
+    </author>
+    <author>
+      <name>Zachary Hafen</name>
+    </author>
+  </entry>
+</feed>
