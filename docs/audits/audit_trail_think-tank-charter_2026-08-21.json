@@ -1,0 +1,128 @@
+{
+  "schema_version": "WI-3/2",
+  "slug": "think-tank-charter",
+  "date": "2026-08-21",
+  "rounds_completed": 3,
+  "rounds_cap": 3,
+  "cap_reached": true,
+  "verdict": "proceed-with-remediation",
+  "counts": {
+    "note": "superseded - see counts_r1 / counts_r3 in the markdown front matter"
+  },
+  "artifacts": [
+    {
+      "path": "docs/methodology/charter_castles_2026-08-21.md",
+      "git_head": "UNBORN - no commit existed when this digest was taken",
+      "sha256": "589671ef2c0bf2284be93884fd36e0e46321d0d872308f9ab3fb000746868f0b"
+    },
+    {
+      "path": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md",
+      "git_head": "UNBORN - no commit existed when this digest was taken",
+      "sha256": "85fb2e4b8dde5626b86134ac9725ceedec15bf4f5586a567956ebab061617213"
+    },
+    {
+      "path": "docs/research_notes/research_agenda_architecture_2026-08-21.md",
+      "git_head": "UNBORN - no commit existed when this digest was taken",
+      "sha256": "2fcace049ec555642c26c40ac516d45ebe3939d704d434f2f23baa22bd4e5721"
+    },
+    {
+      "path": "docs/research_notes/research_agenda_context-portability_2026-08-21.md",
+      "git_head": "UNBORN - no commit existed when this digest was taken",
+      "sha256": "7a2719115ed894a5ce9d7a152a851ac4bc4739af5f478cf6811e86d8226928f4"
+    },
+    {
+      "path": "docs/decisions/ADR-0001-project-kind-and-scope.md",
+      "git_head": "UNBORN - no commit existed when this digest was taken",
+      "sha256": "5bb26f1b2beabfe6ecb4bc61bf3514f8774d1feac736a7a499aede180e7dcc97"
+    },
+    {
+      "path": "failure_log.md",
+      "git_head": "UNBORN - no commit existed when this digest was taken",
+      "sha256": "31283670fbc3f2826a265e968c0c679b999e6ad14e390ad4734411f4b3cb75ec"
+    },
+    {
+      "path": "CLAUDE.md",
+      "git_head": "UNBORN - no commit existed when this digest was taken",
+      "sha256": "1f401d4d6d08840c93f434bda71e69ac0e087f727c682c6689fdb7a0f919748f"
+    },
+    {
+      "path": "CITATION.cff",
+      "git_head": "UNBORN - no commit existed when this digest was taken",
+      "sha256": "c0774e0d99537f47534fed06b6a3fe331a2c6eb06530b62dcc53b34c0654d8fb"
+    },
+    {
+      "path": "hypothesis_backlog.md",
+      "git_head": "UNBORN - no commit existed when this digest was taken",
+      "sha256": "2b6d88ffaf2526ec82ec6666b8957189baa435074fb9bacc0b466a6bcc088751"
+    },
+    {
+      "path": "docs/deliverables/deliverable_spec_think-tank-charter_2026-08-21.md",
+      "git_head": "UNBORN - no commit existed when this digest was taken",
+      "sha256": "6e814945705668af06e1f40cc648d26805c4f28d7130d6bca3ccbfbe52e25cf7"
+    }
+  ],
+  "audit_criteria_files": [
+    {
+      "path": "~/.claude/CLAUDE.md",
+      "sha256": "9cedf7468cd844c8a43707f5a37c9218c81130e07264e7bba5d83619f4850d5f"
+    },
+    {
+      "path": "~/.claude/rules/quant-project.md",
+      "sha256": "433d08b43becdce817d6baa00faf5f70b671352110748ca3405a9487759bb39f"
+    },
+    {
+      "path": "~/.claude/rules/publishing.md",
+      "sha256": "a0c0980c28dfbf1fb7424f880d72e2f7f5875886b71db2b1e4039970af033479"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "1f401d4d6d08840c93f434bda71e69ac0e087f727c682c6689fdb7a0f919748f"
+    }
+  ],
+  "branches": {
+    "format-auditor": {
+      "status": "returned",
+      "critical": 1,
+      "major": 6,
+      "minor": 5
+    },
+    "scope-auditor": {
+      "status": "returned",
+      "critical": 2,
+      "major": 5,
+      "minor": 6
+    },
+    "critical-reviewer": {
+      "status": "returned",
+      "critical": 5,
+      "major": 14,
+      "minor": 7
+    },
+    "literature-check": {
+      "status": "returned",
+      "critical": 1,
+      "major": 5,
+      "minor": 8
+    },
+    "research-librarian": {
+      "status": "FAILED round 1, DELIVERED round 2 on re-dispatch",
+      "round_1_error": "API error, connection lost mid-response",
+      "delivered": [
+        "docs/literature/lit_review_regime-classification_2026-08-21.md",
+        "docs/literature/references_regime-classification.json (96 entries)",
+        "docs/literature/search_logs/regime-classification/ (67 files)"
+      ],
+      "reporting_standard": "PRISMA 2020 partial, single screener; item-by-item conformance table in the review"
+    },
+    "quant-auditor": {
+      "status": "dispatched round 3 - never routed in rounds 1-2 (finding REV-3-31)"
+    }
+  },
+  "corrections_round_3": {
+    "C-3": "counts block contradicted the per-branch block by 19 findings; per-round figures now separated",
+    "C-4": "dropped was 0, actual is 40 (G16); rounds_completed was 1, actual 3; cap_reached was false, actual true",
+    "C-7": "research-librarian recorded FAILED with missing_output; the retry delivered and the field was never updated",
+    "C-8": "artifact paths carried the OS username in absolute form; now repo-relative"
+  },
+  "dropped": 40
+}
