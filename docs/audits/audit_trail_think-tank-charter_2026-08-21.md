@@ -577,3 +577,89 @@ Coverage is per-round and non-cumulative. Round 1 audited text that rounds 2-3
 rewrote; round 3 audited text that this addendum has since amended. **No round has
 audited the current state of every artifact simultaneously, and none will under a
 3-round cap.** Absence of a finding is not evidence of soundness.
+
+
+---
+
+# Addendum 5 - independent G16 re-adjudication, 2026-08-21T13:05:00-05:00
+
+Closes the disposition recorded in Addendum 2 and the procedural objection raised
+against it by scope-auditor in Addendum 4.
+
+## Outcome
+
+An independent `reproducibility-verifier` branch - no stake in the deliverable,
+briefed to form its judgment from the raw check before reading the existing
+adjudication - checked **all 40** G16 DOIs on both axes.
+
+| Verdict | Count |
+|---|---|
+| RESOLVES (handle `responseCode: 1`) | **40** |
+| DOES-NOT-RESOLVE | **0** |
+| INDETERMINATE | **0** |
+
+Terminal status after following the doi.org redirect: 38 x HTTP 403, 2 x HTTP 429.
+Every one is publisher-side, not resolution failure.
+
+**Negative controls, which make the check discriminating rather than vacuous:**
+three fabricated identifiers (`10.1002/for.99999999999`,
+`10.1111/j.1468-0262.2005.99999.x`, `10.9999/nonexistent.prefix.xyz`) each return
+`responseCode: 100` - handle not found. A check that returned 1 for everything
+would have proved nothing; it does not.
+
+**Provenance probe** on `10.1287/opre.13.2.258`: doi.org returns `302 Found` with a
+well-formed `location` at the publisher, and the terminal 403 carries
+`Server: cloudflare` / `Cf-Mitigated: challenge` - an anti-bot interstitial served
+to a non-browser client. The two 429s are rate limiting at one publisher.
+
+Raw curl stdout for both checks per DOI, the exact commands, encoded paths,
+resolved targets, negative controls, and the header probe are in
+`docs/literature/search_logs/regime-classification/g16-independent-doicheck.json`,
+so a third party can reproduce this without trusting any agent in this session.
+
+**Verdict: the gate's `block` is REFUTED on all 40.** No invalid identifier exists
+in the corpus, so there is no merits-level finding against the bibliography.
+
+## What this does and does not settle
+
+It settles the **fact**. The gate asserted "DOI did not resolve" from evidence that
+only showed a publisher refusing an automated client. Those are different facts and
+the gate was wrong on every one of the 40.
+
+It does **not** retroactively legitimise the override as executed, and Addendum 4's
+finding stands unamended. At the time of Addendum 2 the independent coverage was
+1 of 40; the 91/91 figure recorded as corroboration was the blocked agent vouching
+for its own output; and the lead session raised the counter-evidence, weighed it,
+decided it, and wrote the record of its own decision. **A correct conclusion reached
+by an inadequate procedure is still an inadequate procedure** - the outcome is
+evidence about this instance, not about the method. The procedure has now been run
+properly and produced the same answer, which is the only reason the disposition can
+be recorded as closed rather than merely lucky.
+
+`dropped: 40` in the front matter stands, now on independent evidence.
+
+## Operational finding, unrelated to the corpus
+
+The verifier's first run was **silently corrupted**: a concurrent agent overwrote
+`dois.txt` in the shared session scratchpad mid-execution, and the script checked 18
+unrelated DOIs without erroring. The verifier detected it only because the output
+DOIs did not match its input, re-ran in an isolated directory, and added an
+`assert len(dois) == 40` guard.
+
+Consequence recorded for this project's own practice: **concurrent agents sharing a
+scratchpad with generic filenames can silently corrupt each other's inputs**, and a
+run that reads its work-list from a shared file has no guarantee it processed the
+list it was given. Any DOI-checking run in that scratchpad using generic filenames
+is untrustworthy without re-verification. The lead session's earlier 6-DOI sample is
+not affected - its identifiers were literals in a shell loop, not read from a file -
+but that is luck, not design.
+
+This is a live instance of the theme in
+[context-portability](../research_notes/research_agenda_context-portability_2026-08-21.md)
+branch 3: a shared mutable artifact with an ambiguous name, consumed by a process
+that cannot tell it changed. It belongs in that agenda's evidence base.
+
+## Still pending at this addendum
+
+`quant-auditor` (dispatched to close routing gap REV-3-31) has not returned. Its
+result will require an Addendum 6. Nothing in this addendum depends on it.

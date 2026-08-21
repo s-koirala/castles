@@ -116,6 +116,18 @@
     },
     "quant-auditor": {
       "status": "dispatched round 3 - never routed in rounds 1-2 (finding REV-3-31)"
+    },
+    "reproducibility-verifier": {
+      "status": "RETURNED",
+      "role": "independent re-adjudication of the G16 gate block",
+      "checked": 40,
+      "resolves": 40,
+      "does_not_resolve": 0,
+      "indeterminate": 0,
+      "negative_controls": "3 fabricated DOIs returned responseCode 100 - check is discriminating",
+      "verdict": "gate block REFUTED on all 40; no invalid identifier in the corpus",
+      "log": "docs/literature/search_logs/regime-classification/g16-independent-doicheck.json",
+      "caveat": "outcome vindicates the conclusion, not the procedure; Addendum 4's finding on the original override stands"
     }
   },
   "corrections_round_3": {
