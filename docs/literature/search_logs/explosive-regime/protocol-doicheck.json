@@ -1,0 +1,187 @@
+{
+ "log_id": "protocol-doicheck",
+ "purpose": "DOI Handle System verification of every DOI cited in protocol_explosive-regime-review_2026-08-24.md, executed at protocol-drafting time. This is citation verification, not an evidence search: no records were screened or carried into any corpus.",
+ "method": "GET https://doi.org/api/handles/{doi}; responseCode 1 = resolves. Publisher-page 403s to automated probes are the known G16 false-positive class and are not tested here.",
+ "date_executed": "2026-08-24",
+ "executed_by": "Claude Fable 5 (model id claude-fable-5), research-librarian agent, Claude Code / Claude Agent SDK",
+ "known_item_crossref_resolution": "Known-item DOIs were resolved via api.crossref.org query.bibliographic / query.title lookups on 2026-08-24 before handle verification; raw responses not retained (metadata lookups, not discovery queries). Evans (1991), 'Pitfalls in Testing for Explosive Bubbles in Asset Prices', American Economic Review 81(4), returned NO Crossref DOI under two queries (query.title variants); the pre-1997 AER back-catalog is not DOI-registered. Carried in the protocol known-item list as a FAIR F1 gap with identifier resolution deferred to search execution.",
+ "n_checked": 25,
+ "n_resolving": 25,
+ "results": [
+  {
+   "doi": "10.1111/j.1468-2354.2010.00625.x",
+   "role": "Phillips, Wu & Yu 2011, Int Econ Rev 52:201-226 (SADF; seed 1)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1111/j.1468-2354.2010.00625.x"
+  },
+  {
+   "doi": "10.1111/iere.12132",
+   "role": "Phillips, Shi & Yu 2015a, Int Econ Rev 56:1043-1078 (GSADF/date-stamping; seed 2)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1111/iere.12132"
+  },
+  {
+   "doi": "10.1111/iere.12131",
+   "role": "Phillips, Shi & Yu 2015b, Int Econ Rev (limit theory of real-time detectors)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1111/iere.12131"
+  },
+  {
+   "doi": "10.1093/jjfinec/nbr009",
+   "role": "Homm & Breitung 2012, J Financial Econometrics (Chow/CUSUM comparison line)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1093/jjfinec/nbr009"
+  },
+  {
+   "doi": "10.1016/j.jeconom.2005.08.002",
+   "role": "Phillips & Magdalinos 2007, J Econometrics (mildly explosive limit theory)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1016/j.jeconom.2005.08.002"
+  },
+  {
+   "doi": "10.1016/j.jempfin.2015.09.002",
+   "role": "Harvey, Leybourne, Sollis & Taylor 2016, J Empirical Finance (nonstationary volatility)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1016/j.jempfin.2015.09.002"
+  },
+  {
+   "doi": "10.1111/jtsa.12409",
+   "role": "Astill, Harvey, Leybourne, Sollis & Taylor 2018, J Time Series Analysis (real-time monitoring)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1111/jtsa.12409"
+  },
+  {
+   "doi": "10.1093/jjfinec/nbab009",
+   "role": "Astill, Harvey, Leybourne, Taylor & Zu 2021, JFEC (CUSUM monitoring, time-varying volatility)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1093/jjfinec/nbab009"
+  },
+  {
+   "doi": "10.1017/s0266466619000057",
+   "role": "Harvey, Leybourne & Zu 2019, Econometric Theory (sign-based tests)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1017/s0266466619000057"
+  },
+  {
+   "doi": "10.1111/jtsa.12784",
+   "role": "Harvey, Leybourne, Taylor & Zu 2024, JTSA (heteroskedasticity-robust explosive test)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1111/jtsa.12784"
+  },
+  {
+   "doi": "10.1017/s0266466617000202",
+   "role": "Phillips & Shi, Econometric Theory (Crossref issued 2017; Financial Bubble Implosion and Reverse Regression)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1017/s0266466617000202"
+  },
+  {
+   "doi": "10.1016/bs.host.2018.12.002",
+   "role": "Phillips & Shi 2020, Handbook of Statistics 42 (Real time monitoring of asset markets)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1016/bs.host.2018.12.002"
+  },
+  {
+   "doi": "10.1016/j.jeconom.2003.10.028",
+   "role": "Busetti & Taylor 2004, J Econometrics (persistence-change tests)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1016/j.jeconom.2003.10.028"
+  },
+  {
+   "doi": "10.1142/s0219024900000115",
+   "role": "Johansen, Ledoit & Sornette 2000, IJTAF (LPPL; exclusion rationale)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1142/s0219024900000115"
+  },
+  {
+   "doi": "10.21314/jor.2002.058",
+   "role": "Johansen & Sornette 2001, J Risk (NB-02 adjudication target)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.21314/jor.2002.058"
+  },
+  {
+   "doi": "10.1017/jpr.2017.20",
+   "role": "Landriault, Li & Zhang 2017, J Appl Probab (NB-08 adjudication target)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1017/jpr.2017.20"
+  },
+  {
+   "doi": "10.1016/j.jfs.2008.08.001",
+   "role": "Baur & Lucey 2009, J Financial Stability (NB-13 adjudication target)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1016/j.jfs.2008.08.001"
+  },
+  {
+   "doi": "10.1186/2046-4053-4-1",
+   "role": "Moher et al. 2015, PRISMA-P",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1186/2046-4053-4-1"
+  },
+  {
+   "doi": "10.1136/bmj.n71",
+   "role": "Page et al. 2021, PRISMA 2020",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1136/bmj.n71"
+  },
+  {
+   "doi": "10.1186/s13643-020-01542-z",
+   "role": "Rethlefsen et al. 2021, PRISMA-S",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1186/s13643-020-01542-z"
+  },
+  {
+   "doi": "10.7326/0003-4819-155-8-201110180-00009",
+   "role": "Whiting et al. 2011, QUADAS-2, Ann Intern Med",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.7326/0003-4819-155-8-201110180-00009"
+  },
+  {
+   "doi": "10.7326/M18-1376",
+   "role": "Wolff et al. 2019, PROBAST, Ann Intern Med",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.7326/M18-1376"
+  },
+  {
+   "doi": "10.1177/001316446002000104",
+   "role": "Cohen 1960, kappa, Educ Psychol Meas",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1177/001316446002000104"
+  },
+  {
+   "doi": "10.1136/bmj.315.7109.629",
+   "role": "Egger et al. 1997, BMJ (funnel asymmetry; inapplicability argued in protocol section 9)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1136/bmj.315.7109.629"
+  },
+  {
+   "doi": "10.1111/j.1751-5823.2003.tb00205.x",
+   "role": "Frisen 2003, Int Stat Rev (surveillance evaluation criteria; outcome taxonomy)",
+   "responseCode": 1,
+   "resolves": true,
+   "handle": "10.1111/j.1751-5823.2003.tb00205.x"
+  }
+ ]
+}
