@@ -579,3 +579,38 @@ dated addendum that identifies what it corrects. Retention follows the
 repository's git history; the tracked file is the durable record, and the
 round-2 artifact digests above bind this record to the exact artifact states
 verified.
+
+---
+
+# Addendum — provenance commit landed (2026-08-24)
+
+Appended per 21 CFR 11.10(e); no prior entry edited. Completes the terminal
+bookkeeping phase sequenced after the round-2 accept.
+
+- Commit: `5671a86538f6516b11fae0c494cefc3bc077515f` on `main`
+  ("docs(naming): vocabulary-first naming re-sweep; agenda rev 3; time-t-null
+  universal superseded") — 154 files: term registry with post-sweep addendum,
+  umbrella + two part records, three stores (53 merged entries), 141 search
+  logs, the definitions-survey supplement addendum, agenda rev 3, the
+  deliverable spec, and this trail with both sidecars.
+- Trailers, verbatim from `git log -1`:
+  - `Repro-Log-Path: logs/reproducibility/repro_log_8584befb1b0646f18e68fbce3b25eb9e.json`
+  - `Repro-Log-SHA256: bdb5a8bc07636af5ac4bab4de58ff6077dea975fc407dc2ebb332fa695973c14`
+  - `AI-Assistance: claude-fable-5 (role=multi)`
+- Deterministic pre-commit checks recorded: store counts 22/31/53 with zero
+  id/DOI collisions; every merged id resolves in a part record; the
+  definitions-survey addendum verified append-only at BYTE level (prefix
+  hashes to the recorded pre-addendum SHA-256 `b5613407…`) — closing the
+  structural-only limitation both round-2 read-only branches declared.
+- Open items handed forward: 19 round-1 + 5 round-2 logged minors (deferred
+  per invitesPolish=false), including the registry addendum's missing
+  pre-addendum digest (unrecoverable — the registry was never committed
+  pre-addendum; its first committed state includes the addendum, so git
+  history is the integrity carrier from here), the technical-range rationale
+  mismatch in umbrella §4, and the swA-doicheck-02 log's residual "Ige"
+  annotation (immutable log; corrected in part A prose). The full-text pass
+  on the Phillips records remains the load-bearing precondition before
+  branch 3 uses their critical values quantitatively. Six registry families
+  remain open/unswept.
+- This addendum and the spec's commit-box tick are committed separately as
+  closure bookkeeping.

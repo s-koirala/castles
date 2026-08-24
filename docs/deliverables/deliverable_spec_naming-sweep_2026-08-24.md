@@ -74,7 +74,10 @@ predecessor_corpora: lit_review_regime-definitions_2026-08-21.md (54 records, 59
   - state: WI-3 §2 trail for this session's audit round(s), attested.
   - check: file exists, written this session, attested.
 
-- [ ] Commit via /commit-with-provenance
+- [x] Commit via /commit-with-provenance — `5671a86538f6` on `main` (154
+  files); `git log -1` verified showing all three trailers (Repro-Log-SHA256
+  `bdb5a8bc…`, AI-Assistance `claude-fable-5 (role=multi)`); hash recorded as
+  a dated trail addendum
   - state: All deliverables committed with Repro-Log trailers, role=multi.
   - check: `git log -1` shows Repro-Log-Path / Repro-Log-SHA256 / AI-Assistance
     trailers.
