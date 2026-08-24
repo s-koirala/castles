@@ -1,0 +1,58 @@
+<!-- query_id: swB-arxiv-01 | platform: arXiv API (export.arxiv.org) | date_searched: 2026-08-24 | query_url_verbatim: http://export.arxiv.org/api/query?search_query=abs:%22runs+test%22+AND+cat:q-fin*&max_results=10 -->
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xZZ+/Y+ynb0TaI5UFMBijA/ZvxY</id>
+  <title>arXiv Query: search_query=abs:"runs test" AND cat:q-fin*&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-24T13:44:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22runs+test%22+AND+cat:q-fin*&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2012.01160v1</id>
+    <title>A Study on the Efficiency of the Indian Stock Market</title>
+    <updated>2020-12-02T12:58:57Z</updated>
+    <link href="https://arxiv.org/abs/2012.01160v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.01160v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The efficiency of the stock market has a significant impact on the potential return on investment. An efficient market eliminates the possibility of arbitrage and unexploited profit opportunities. This study analyzes the weak form efficiency of the Indian Stock market based on the two major Indian stock exchanges, viz., BSE and NSE. The daily closing values of Sensex and Nifty indices for the period from April 2010 to March 2019 are used to perform the Runs test, the Autocorrelation test, and the Autoregression test. The study confirms that the Indian Stock market is weak form inefficient and can thus be outperformed.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-02T12:58:57Z</published>
+    <arxiv:comment>9 pages, 4 tables, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <author>
+      <name>Devansh Jain</name>
+    </author>
+    <author>
+      <name>Manthan Patel</name>
+    </author>
+    <author>
+      <name>Aman Narsaria</name>
+    </author>
+    <author>
+      <name>Siddharth Malik</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.04059v1</id>
+    <title>Random walks and market efficiency in Chinese and Indian equity markets</title>
+    <updated>2017-09-12T21:05:17Z</updated>
+    <link href="https://arxiv.org/abs/1709.04059v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.04059v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hypothesis of Market Efficiency is an important concept for the investors across the globe holding diversified portfolios. With the world economy getting more integrated day by day, more people are investing in global emerging markets. This means that it is pertinent to understand the efficiency of these markets. This paper tests for market efficiency by studying the impact of global financial crisis of 2008 and the recent Chinese crisis of 2015 on stock market efficiency in emerging stock markets of China and India. The data for last 20 years was collected from both Bombay Stock Exchange (BSE200) and the Shanghai Stock Exchange Composite Index and divided into four sub-periods, i.e. before financial crisis period (period-I), during recession (period-II), after recession and before Chinese Crisis (periodIII) and from the start of Chinese crisis till date (period- IV). Daily returns for the SSE and BSE were examined and tested for randomness using a combination of auto correlation tests, runs tests and unit root tests (Augmented Dickey-Fuller) for the entire sample period and the four sub-periods. The evidence from all these tests supports that both the Indian and Chinese stock markets do not exhibit weak form of market efficiency. They do not follow random walk overall and in the first three periods (1996 till the 2015) implying that recession did not impact the markets to a great extent, although the efficiency in percentage terms seems to be increasing after the global financial crisis of 2008.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-12T21:05:17Z</published>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Oleg Malafeyev</name>
+    </author>
+    <author>
+      <name>Achal Awasthi</name>
+    </author>
+    <author>
+      <name>Kaustubh S. Kambekar</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,407 @@
+{
+  "round": 1,
+  "date": "2026-08-24",
+  "cwd": "C:/Users/skoir/castles",
+  "artifacts": [
+    "docs/literature/vocabulary_regime-synonyms_2026-08-24.md",
+    "docs/literature/lit_review_regime-naming_2026-08-24.md",
+    "docs/literature/lit_review_regime-naming-a_2026-08-24.md",
+    "docs/literature/lit_review_regime-naming-b_2026-08-24.md",
+    "docs/literature/lit_review_regime-definitions_2026-08-21.md",
+    "docs/research_notes/research_agenda_regime-classification_2026-08-21.md"
+  ],
+  "taskSpec": "Round 1 audit of the naming-sweep session (deliverable_spec_naming-sweep_2026-08-24.md). Three research-librarian stages produced: (1) the term registry vocabulary_regime-synonyms_2026-08-24.md (137 head terms, 8 traditions, ~540 morphological variants, homonym-collision ledger; harvest provenance only, never evidence; methodology citations PRESS/McGowan 2016, pearl growing/Schlosser 2006, Hausner 2012 — all handle-verified); (2) two tradition-clustered sweep part-records — lit_review_regime-naming-a (practitioner clusters, 22 records, NA-01..NA-20, 67 synonym-graph rows) and lit_review_regime-naming-b (academic clusters, 31 records, NB-01..NB-31, 45 rows) — each with logged queries, first-class zero-record negatives, and declared coverage gaps. The lead session then (3) merged the part stores into references_regime-naming.json (53 entries, zero id/DOI collisions, deterministic check PASS), wrote the umbrella record lit_review_regime-naming_2026-08-24.md (combined flow 1059/990/53, synonym-graph summary, saturation adjudication: NOT reached — 6 flagged families swept in-line, 6 tier-5 ICT/Wyckoff-adjacent residuals logged open with expected-yield rationale), (4) appended an append-only supplement addendum to lit_review_regime-definitions_2026-08-21.md (pre-addendum SHA-256 b561340781d8bc3de3ce0b7aa18b7d1f75414428fe111c4abaff574e8e2e4464 recorded in the addendum; single addendum marker verified) superseding its time-t-null universal, and (5) revised the agenda to revision 3: Definitional-basis item (d) struck and restated as refuted-by-vocabulary-expansion (Phillips-Wu-Yu 2011 doi:10.1111/j.1468-2354.2010.00625.x; Phillips-Shi-Yu 2015 doi:10.1111/iere.12132 — real-time date-stamping of an explosive state with stated limit theory), with the bounded survivor stated; item (b) range claim bounded (spatial operationalizations prior-covered; temporal-state definition unlocated); compression negative upgraded to two-sweep-stable; branch 3 gains the SADF/GSADF date-stamping comparator note and DC additions (NB-25..29); Verification status records Rev 3 with the abstract-depth caveat on the Phillips records. AUDIT FOCUS: (a) claim fidelity — does each integration accurately carry what its part-record establishes; ESPECIALLY the Phillips date-stamping characterization (real-time, stated critical values — verify against the actual records at abstract level; the agenda itself flags full-text as pending, so audit the claim AS BOUNDED); (b) the supersession chain: definitions-survey addendum, umbrella §3, and agenda (d) must tell the same story with the same bounded survivor; (c) registry honesty — harvest-provenance-only discipline (nothing in the registry cited as evidence anywhere); (d) saturation adjudication honesty — residuals logged open, not claimed saturated; (e) synonym-graph spot fidelity — sample rows against their cited sources; (f) no regression of prior-spec remediations in the re-edited files (agenda Rev 2 fixes intact; F005 addendum untouched). The G16 publisher-403 class is closed (handle-API responseCode 1 is the test; both sweeps carry per-DOI logs and dispositions; the part records' gate 'block' verdicts are G16-only and dispositioned — do not re-raise). The lowercase filename deviation (regime-naming-a/-b vs the spec's part-file naming) is declared in the part records — assess whether it needs more than the declaration.",
+  "routing": [
+    "critical-reviewer",
+    "scope-auditor",
+    "literature-check"
+  ],
+  "tiers": [
+    {
+      "branch": "critical-reviewer",
+      "effort": "high"
+    },
+    {
+      "branch": "scope-auditor",
+      "effort": "medium"
+    },
+    {
+      "branch": "literature-check",
+      "effort": "high"
+    }
+  ],
+  "branch_verdicts": {
+    "critical-reviewer": "proceed-with-remediation",
+    "scope-auditor": "proceed-with-remediation",
+    "literature-check": "proceed-with-remediation"
+  },
+  "residual_risks": {
+    "critical-reviewer": "Residual risks after remediation of the above. (1) The entire Phillips date-stamping characterization — and hence the supersession event — rests on abstract-depth verification; the agenda's full-text-pending flag is the correct control, but until that pass runs, the refutation's 'critical values' component is inference (REV-1-5) and branch 3 must not consume the family quantitatively. (2) The registry has not been revised with the 12 flagged families, so the next sweep's instrument still lacks the refuting vocabulary and the six open residuals; the open state is honest in the part records but currently mislocated by the umbrella (REV-1-2). (3) Single-screener, single-harvester throughout — all NONE/zero verdicts are one model's screening judgments over capped retrieval sets, correctly declared as query-conditional but unfalsified by any second reader; Semantic Scholar recall is untested both sweeps. (4) The lowercase filename deviation (regime-naming-a/-b) needs nothing beyond the existing declarations: it is documented at both part-record sites with a concrete gate-grammar rationale, the stores retain the dispatch spelling, and the umbrella frontmatter links resolve — no further action recommended. (5) Checks that passed and are not re-raised: registry tallies (137 head terms, tradition sums), combined flow arithmetic, 112-row graph count, saturation ledger 7+5=12 with 6/6 disposition, harvest-provenance-only discipline (nothing in the registry cited as evidence downstream), predecessor-diff discipline, and the G16 publisher-403 class (closed, dispositioned with per-DOI handle-API logs in both part records). RQI coverage: importance covered (recall correction motivated by two documented in-project failures); originality covered (diff-against-288-identifiers discipline; the refutation and the runs-lineage false-positive correction are genuinely new to the corpus); method, presentation, interpretation covered by findings above.",
+    "scope-auditor": "Bounds on this round's assurance: (1) the append-only claim on the definitions survey rests on the recorded pre-addendum SHA-256 (b5613407...) — this branch has no hashing tool, so byte-identity above the addendum rule was not independently recomputed; a deterministic re-hash before commit closes it. (2) Synonym-graph fidelity was spot-sampled (Wyckoff NA-10a provenance vs registry harvest source, Phillips NB-04/NB-05 abstract quotes, range/sideways rows), not exhaustively verified against all 112 rows' cited sources. (3) The Phillips date-stamping characterization was audited as bounded to abstract depth, per the agenda's own declared caveat — full-text confirmation of the critical-value machinery remains an open verification item the artifacts themselves flag. (4) Coverage is declared-incomplete by design: ~540 registry surface forms vs 104 executed queries, Semantic Scholar unavailable both sweeps, six tier-5 residual families open — all honestly logged, so the omission risk is documented rather than silent, but recall against the unexecuted variants is untested. (5) Registry-honesty verification was grep/spot-based; a systematic cross-check that no vh-harvest-only source id appears in either bibliography store would make finding-category (c) deterministic.",
+    "literature-check": "Verified against primary sources (Crossref works route, arXiv export API/abs pages, OpenAlex abstract reconstruction): ~35 of the 53 included records plus all methodology citations, both Phillips records (venue/volume/pages exact; PSY 2015 abstract confirms 'real-time date-stamping'; PWY 2011 abstract confirms recursive date-stamping but the words 'real time' and 'critical values' are not verbatim in its abstract — the artifacts' abstract-depth caveat and full-text-pending flag cover this, so it is not raised as a finding, but the flagged full-text pass is load-bearing before branch 3 cites critical values quantitatively). Not independently verified: the remaining Wiley chapter DOIs and dedup-ledger twin identifiers (all spot-checks clean; per-DOI handle logs exist), the SHA-256 digests (bibliography stores, pre-addendum survey hash — no hashing tool in this branch; quant-auditor scope), the search-log JSONs' query-by-query contents, and the 2026 SSRN/IEEE Access records' venue quality (declared as unrefereed/weak-venue in the artifacts themselves). G16 publisher-403 class not re-raised per standing disposition. Registry harvest-provenance discipline checked and clean: no registry entry is cited as evidence in any downstream artifact. Saturation adjudication verified honest (12 flags reconcile to 6 swept in-line + 6 logged open with rationale). Filename-case deviation is declared in both part records and needs nothing beyond the declaration. Rev 2 remediations (Benhamou/Codling, Hall & York, Cheng & Hall, Garzarelli bounded claims) are intact in the agenda; the definitions-survey addendum is append-only with a single addendum marker and the pre-addendum hash recorded."
+  },
+  "remediate": [
+    {
+      "id": "REV-1-1",
+      "severity": "major",
+      "category": "consistency",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:94-96",
+      "issue": "Supersession-chain divergence: the agenda's restated item (d) appends an exclusivity clause absent from both the definitions-survey addendum and the umbrella §3, and the clause is not adjudicated by the part records. Part B's synonym graph marks other families with F-causality AND a stated null — NB-13 flight-to-quality ('a definition and a test', causality F, null 'stated (definition and test together)') and NB-02 drawdown episodes (causality F, null 'stated (stretched-exponential + surrogate)'). Whether those constitute time-t assignment nulls under the survey's §8.8 standard was never assessed at abstract depth; the agenda asserts the negative anyway. This is the session's own named hazard (bounded-universal overreach, REV-1-1 of the prior spec) recurring in the sentence that memorializes the previous instance of it.",
+      "evidence": "within the 59 surveyed definitions, none attaches a time-t assignment null, and outside the explosive family no other located state vocabulary carries one",
+      "fix": "Either strike the clause after 'assignment null,' or bound it to what the part records adjudicated, e.g.: 'no other located vocabulary was classified as carrying a time-t assignment null in the sweeps' synonym graphs; NB-02 (drawdown episodes) and NB-13 (flight-to-quality) attach stated nulls at F causality and are unadjudicated against the assignment-null standard pending full text.'",
+      "reference": "CHAMP item 30 (conclusions limited to what the analysis supports); prior-round disposition REV-1-1 (bounded-universal phrasing discipline)",
+      "branch": "critical-reviewer",
+      "refutation": {
+        "finding_id": "REV-1-1",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Attempted refutation failed; every element of the finding reproduces. (1) The exclusivity clause exists verbatim at agenda lines 94-96: \"...none attaches a time-t assignment null, and outside the explosive family no other located state vocabulary carries one.\" (2) It is absent from both supersession sources: umbrella §3 ends at \"within the 59 originally surveyed definitions, none attaches a time-t assignment null\" (lines 84-86), and the definitions-survey addendum ends at the same bounded claim plus \"All other findings stand\" (lines 1258-1260). (3) Part B §8.0 marks NB-13 (Baur & Lucey flight-to-quality) causality F (day-level observables) with null \"stated (test accompanies the definition)\" and NB-02 (Johansen & Sornette drawdowns) causality F with null \"stated (stretched-exponential + surrogate)\", repeated in the §8.9 synonym graph. (4) No part record adjudicates either against the time-t assignment-null standard: §8.3 calls NB-13's definition-plus-null pairing \"rare in this corpus\" (implying non-uniqueness), §8.1 calls NB-02 unique only within the bull/bear family, and §10.1 confirms extraction never exceeded abstract depth. The only counter-argument found (NB-02's boundary \"confirmed one move later\" arguably fails strict time-t) is itself an adjudication absent from the records and does not cover NB-13. The bounded-universal overreach claim is confirmed."
+      }
+    },
+    {
+      "id": "REV-1-2",
+      "severity": "major",
+      "category": "consistency",
+      "location": "docs/literature/lit_review_regime-naming_2026-08-24.md:128",
+      "issue": "The saturation adjudication states the six unswept residual families 'remain in the registry as open rows.' They do not: the registry (vocabulary_regime-synonyms_2026-08-24.md) contains no row for absorption, liquidity void, Judas swing, inversion FVG, midnight opening gap, or technical range — grep confirms only 'absorption ratio' as a tradition annotation on the fragile row and 'drawdown' as a retracement variant. Part A §8.4 itself says these terms are 'in NEITHER the registry NOR the seed list (flagged for the registry's next revision)', and the registry file carries no revision or addendum. A future round steered by the umbrella to 'open rows' in the registry finds nothing; the open-residual state — otherwise honestly declared — is mislocated.",
+      "evidence": "They remain in the registry as open rows.",
+      "fix": "Correct the sentence to the true carrier: 'They are flagged for the registry's next revision in part A §8.4 and part B §8.7; the registry itself has not yet been revised to carry them.' Alternatively, append an addendum to the registry adding the 12 flagged families as open rows (per the register/living-doc convention) and leave the umbrella sentence true.",
+      "reference": "CHAMP item 21 (no selective/inaccurate reporting of what exists where); project register convention (append-only addenda)",
+      "branch": "critical-reviewer",
+      "refutation": {
+        "finding_id": "REV-1-2",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Attempted refutation failed; the finding reproduces fully. (1) Line 128 of docs/literature/lit_review_regime-naming_2026-08-24.md contains the exact sentence \"They remain in the registry as open rows.\" applied to the six residual families. (2) Grep of docs/literature/vocabulary_regime-synonyms_2026-08-24.md for absorption|liquidity void|Judas|inversion FVG|midnight opening gap|technical range returns only line 205, where \"absorption ratio\" is a parenthetical tradition annotation on the fragile row — no open rows for any of the six. (3) Part A §8.4 (lit_review_regime-naming-a_2026-08-24.md lines 656-657) confirms the terms are \"in NEITHER the registry NOR the seed list (flagged for the registry's next revision, per dispatch)\". (4) The registry file contains no revision or addendum section (grep for addendum/revision hits only an unrelated 2012 citation). The umbrella sentence is therefore factually wrong about where the open-residual state is carried."
+      }
+    },
+    {
+      "id": "SCOPE-1-1",
+      "severity": "major",
+      "category": "changed",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:93-96 and :440-442",
+      "issue": "Supersession-chain asymmetry: the agenda carries a stronger survivor than the other two chain sites. The addendum (lit_review_regime-definitions_2026-08-21.md:1258-1260) and umbrella §3 both bound the survivor to 'within the 59 originally surveyed definitions, none attaches a time-t assignment null.' The agenda (d) appends an additional universal — 'and outside the explosive family no other located state vocabulary carries one' — and branch 3 restates it as 'the one located detector whose time-t assignment carries its own null.' That extension is asserted at one of the three sites only and is not marked as going beyond what the addendum/umbrella claim; part B's synonym graph carries other 'stated' null statuses (NB-02/NB-08 drawdown, NB-13 flight-to-quality, NB-23 runs, NB-29 DC overshoot) whose non-time-t character the agenda nowhere establishes. The task spec requires all three sites to tell the same story with the same bounded survivor.",
+      "evidence": "Agenda: 'within the 59 surveyed definitions, none attaches a time-t assignment null, and outside the explosive family no other located state vocabulary carries one.' Addendum: 'The bounded form survives: within the 59 definitions surveyed here, none attaches a time-t assignment null. All other findings stand.' Umbrella §3: 'The narrower claim survives: within the 59 originally surveyed definitions, none attaches a time-t assignment null.' Part B §8.9 rows with null-status 'stated' outside the explosive family: drawdown/drawup (NB-02, NB-08), flight to quality (NB-13, 'definition and test together'), runs (NB-23), overshoot (NB-29).",
+      "fix": "Either strike the extension clause from agenda (d) and branch 3 so all three sites carry the identical bounded survivor, or (if the extension is intended) add it identically to the addendum and umbrella §3 with its warrant — an explicit statement of why the other 'stated' null rows in part B §8.9 are not time-t assignment nulls (episode-level vs time-t distinction).",
+      "reference": "S-3/S-4; task audit focus (b)",
+      "branch": "scope-auditor",
+      "refutation": {
+        "finding_id": "SCOPE-1-1",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Attempted refutation failed; all evidence reproduces. Agenda lines 93-96 carry the extension clause \"and outside the explosive family no other located state vocabulary carries one\" and branch 3 (line 442) restates it as \"the one located detector whose time-t assignment carries its own null\", while the addendum (lit_review_regime-definitions_2026-08-21.md:1258-1260) and umbrella §3 (lit_review_regime-naming_2026-08-24.md:84-86) carry only the bounded survivor with no extension. Part B §8.9 (lines 830-861) confirms \"stated\" null statuses outside the explosive family (NB-02/NB-08 drawdown, NB-13 flight-to-quality with day-level observables, NB-23 runs, NB-29 DC overshoot). Grep of the agenda for episode/drawdown/flight/runs/overshoot terms returns only explosive-family lines — the agenda nowhere establishes the non-time-t character of those rows. \"time-t\" appears in neither part-file, so the extension also has no stated warrant in the sweep corpus. The extension's possible substantive defensibility (episode-level vs time-t) does not counter the claimed defect, which is unmarked cross-site asymmetry."
+      }
+    },
+    {
+      "id": "LITERATURE-1-1",
+      "severity": "major",
+      "category": "misattributed-citation",
+      "location": "docs/literature/lit_review_regime-naming-a_2026-08-24.md:481 (included-corpus row NA-09; id ige2024arxiv240318839)",
+      "issue": "Author misattribution in the review prose: the included record arXiv:2403.18839, 'Long Short-Term Memory Pattern Recognition in Currency Trading' (2024, q-fin.TR), is cited as 'Ige (2024)'. The sole author on arXiv (single version, v1, 2024-02-23, confirmed via both the export API and the abs page) is Jai Pal. The merged store references_regime-naming.json:373-377 carries the correct 'Pal, Jai' (fetched from export.arxiv.org), so the prose citation and the store contradict each other, and the store id 'ige2024arxiv240318839' perpetuates the wrong name. This also contradicts the review's own prisma-s-7 claim that every candidate's authors were verified against the arXiv export API before inclusion. Content characterization of the record (algorithmic Wyckoff accumulation/secondary-test labeling via CNN/LSTM) is accurate — only the attribution is wrong.",
+      "evidence": "Part A line 481: 'Ige (2024). Long Short-Term Memory Pattern Recognition in Currency Trading. arXiv:2403.18839 [q-fin.TR].' vs arxiv.org/abs/2403.18839: author Jai Pal, one version only. Store (references_regime-naming.json lines 373-379) has family 'Pal', given 'Jai' under id 'ige2024arxiv240318839'.",
+      "fix": "Correct the prose citation in part A section 7 (and anywhere NA-09 is expanded) to Pal (2024). Either regenerate the entry id to pal2024arxiv240318839 in both part-A and merged stores (updating the recorded SHA-256s and the umbrella's bibliography_sha256) or, if id stability is preferred, add an explicit note in part A that the id string predates the correction. Record the correction event rather than silently editing, per the project's strike-don't-delete convention.",
+      "reference": "https://arxiv.org/abs/2403.18839",
+      "branch": "literature-check",
+      "refutation": {
+        "finding_id": "LITERATURE-1-1",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Refutation attempt failed; the finding is independently confirmed. (1) Part A line 481 reproduced verbatim: 'ige2024arxiv240318839 | Ige (2024). Long Short-Term Memory Pattern Recognition in Currency Trading. arXiv:2403.18839 [q-fin.TR]'. (2) references_regime-naming.json lines 373-379 (and references_regime-naming-A.json lines 371-379) carry author family 'Pal', given 'Jai' under the id 'ige2024arxiv240318839'. (3) Fresh fetch of https://export.arxiv.org/api/query?id_list=2403.18839 returns sole author Jai Pal, single version v1, submitted 2024-02-23 — no author 'Ige'. Additional corroboration: the misattribution originates in search log swA-doicheck-02.json line 21, which records the verification result as 'Ige (arXiv q-fin.TR 2024)', contradicting the review's prisma-s-7 author-verification claim exactly as the finding states."
+      }
+    },
+    {
+      "id": "LITERATURE-1-2",
+      "severity": "major",
+      "category": "claim-fidelity / supersession-chain divergence",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:93-96 (Definitional basis item d, Rev 3)",
+      "issue": "The agenda's restated bounded survivor adds a clause absent from both other links of the supersession chain: '...and outside the explosive family no other located state vocabulary carries one [a time-t assignment null].' The definitions-survey addendum (lines 1253-1260) and the umbrella section 3 both bound the survivor strictly to 'within the 59 surveyed definitions'. Neither part record states the agenda's wider universal, and part B's own synonym graph contains located vocabulary that are at minimum unadjudicated counter-candidates at abstract depth: NB-13 flight-to-quality ('a definition and a test' arriving together, day-level observables, causality F, null 'stated') and NB-02/NB-08 drawdown/drawup episodes (causality F, null 'stated'). This is a fresh universal-from-bounded-coverage of exactly the class the session's own hazard note (agenda lines 96-98) and the Rev 2 REV-1-1 disposition name as the required phrasing discipline.",
+      "evidence": "Agenda: 'within the 59 surveyed definitions, none attaches a time-t assignment null, and outside the explosive family no other located state vocabulary carries one.' Addendum: 'The bounded form survives: within the 59 definitions surveyed here, none attaches a time-t assignment null.' Umbrella section 3: 'The narrower claim survives: within the 59 originally surveyed definitions...'. Part B 8.9 rows 'flight to quality': null-distribution status 'stated (definition and test together)'; 'drawdown / drawup': 'stated (NB-02, NB-08)' with causality F in 8.0.",
+      "fix": "Either strike the added clause so all three links carry the identical bounded survivor, or bound it explicitly: e.g. 'no other located vocabulary was classified by the sweep as attaching its null to the assignment procedure itself; nearest candidates (flight-to-quality NB-13, drawdown episodes NB-02/NB-08) are unadjudicated at abstract depth and flagged for the full-text pass.'",
+      "reference": "docs/literature/lit_review_regime-naming-b_2026-08-24.md:610-611,832,844; docs/literature/lit_review_regime-definitions_2026-08-21.md:1253-1260",
+      "branch": "literature-check",
+      "refutation": {
+        "finding_id": "LITERATURE-1-2",
+        "refuted": false,
+        "evidence_type": "none",
+        "refutation_evidence": "Attempted refutation failed; every evidence element reproduces. (1) Agenda lines 93-96 contain the added clause \"and outside the explosive family no other located state vocabulary carries one\" verbatim. (2) The definitions-survey addendum (lit_review_regime-definitions_2026-08-21.md:1258-1259) and umbrella section (lit_review_regime-naming_2026-08-24.md:84-86) both bound the survivor strictly to the 59 surveyed definitions with no wider clause. (3) Grep across docs/literature for \"outside the explosive\"/\"no other located\"/\"explosive family\" and \"assignment null|time-t assignment\" confirms no part record states the agenda's wider universal or adjudicates non-explosive vocabulary against the criterion. (4) The cited counter-candidates exist as described: NB-13 (naming-b:610) null \"stated (test accompanies the definition)\", causality F; 8.9 row (line 844) \"stated (definition and test together)\"; NB-02 (line 599) causality F, null \"stated\"; NB-08 (line 605) \"stated\"; 8.9 row (line 832) \"stated (NB-02, NB-08)\". The corpus contains no adjudication that these fail the time-t assignment-null criterion, so the agenda clause is an unsupported universal unique to that link of the supersession chain. Finding stands."
+      }
+    }
+  ],
+  "refuted": [],
+  "minors_logged": [
+    {
+      "id": "REV-1-3",
+      "severity": "minor",
+      "category": "consistency",
+      "location": "docs/literature/lit_review_regime-naming-a_2026-08-24.md:428-429; lit_review_regime-naming_2026-08-24.md:44,130",
+      "issue": "Query-count inconsistency. Part A claims 756 records across '45 bibliographic query executions', but its own prisma-s-1 table lists 47 bibliographic query rows (22 Crossref + 21 OpenAlex + 3 arXiv + 1 Semantic Scholar), and only the 47-row sum reproduces 756 (440+272+24+20). The umbrella propagates the 45 ('45 queries' in §1; '104 queries executed across both sweeps' in §4 = 45+59). A number appearing twice must match; here the derived totals depend on which count is right.",
+      "evidence": "756 records retrieved across 45 bibliographic query executions (see the prisma-s-1 table; verification and locator rows contribute 0 by definition).",
+      "fix": "Recount against the table: correct to 47 in part A, and to 47/106 (or state the exclusion rule that yields 45) in the umbrella §1 and §4.",
+      "reference": "SAMPL (numerical consistency across text and tables); PRISMA-S item 15",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-4",
+      "severity": "minor",
+      "category": "consistency",
+      "location": "docs/literature/lit_review_regime-naming-b_2026-08-24.md:137-139,204-205",
+      "issue": "Part B twice claims 'four informative arXiv zeros' / 'arXiv 7 across 8 queries (four zeros)', but the source table shows three zero-record arXiv rows (swB-arxiv-03, -04, -06; rows 01/02/05/07/08 return 2/1/1/1/2). The record sum (7) is correct; the zero count is not.",
+      "evidence": "arXiv 7 across 8 queries (four zeros); OpenAlex 60 across 6 queries",
+      "fix": "Change both occurrences to 'three zeros', or if a fourth zero is intended (e.g. counting swB-arxiv-08's screened-to-zero physics collisions), say 'three retrieval zeros plus one screened-to-zero query' explicitly.",
+      "reference": "SAMPL (report counts consistently); CHAMP item 20",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-5",
+      "severity": "minor",
+      "category": "reporting",
+      "location": "docs/literature/lit_review_regime-definitions_2026-08-21.md:1256-1258; lit_review_regime-naming_2026-08-24.md:79-86; lit_review_regime-naming-b_2026-08-24.md:601-602 vs 834",
+      "issue": "The phrase 'derived critical values' in the addendum, umbrella §3, and agenda (d) exceeds the abstract-level evidence the part record quotes. NB-04's quoted abstract supports 'valid confidence intervals for explosive growth rates' and 'new limit theory'; NB-05's supports 'consistent real-time date-stamping strategy'. 'Critical values' appears only in the part B §8.9 cell ('limit theory and critical values') with no supporting quote — it is an inference from the sup-ADF test family. The agenda carries the abstract-depth caveat ('flagged for a full-text pass before any branch-3 specification cites their critical values quantitatively'); the addendum carries none, and the umbrella's caveat is only the blanket §5 abstract-depth limit. As bounded, the refutation itself stands (real-time date-stamping with stated limit theory is quote-supported), but the critical-values wording should not appear caveat-free in the permanent addendum.",
+      "evidence": "Phillips, Wu & Yu 2011; Phillips, Shi & Yu 2015 — real-time date-stamping with derived critical values",
+      "fix": "In the addendum (and umbrella §3), either replace 'derived critical values' with the quote-supported 'stated limit theory and valid confidence intervals', or append '(critical values inferred from the sup-test construction; full-text pass pending, per the agenda's Rev 3 verification note)'.",
+      "reference": "CHAMP item 24 / SAMPL general principle (state what the source states; distinguish inference from attestation); user evidence hierarchy item 5",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-6",
+      "severity": "minor",
+      "category": "consistency",
+      "location": "docs/literature/lit_review_regime-definitions_2026-08-21.md:1253-1260 vs 1213-1215",
+      "issue": "The append-only addendum names only one site of the superseded universal (§8.8, 'Null-distribution axis'), but §10.5 restates the same finding in near-unbounded form: 'the missing object the corpus-wide search confirms absent: a null distribution for a state assignment at time t'. Under 'All other findings stand', a reader of §10.5 alone concludes the object is confirmed absent — the opposite of the addendum. Append-only convention forbids striking §10.5 in place, but the addendum can and should enumerate it.",
+      "evidence": "And it does not supply the missing object the corpus-wide search confirms absent: a null distribution for a state assignment at time t.",
+      "fix": "Extend the addendum's supersession sentence: 'The same universal is restated in §10.5 (\"the missing object the corpus-wide search confirms absent\") and is superseded in identical bounded form.'",
+      "reference": "Register/living-doc convention (strike-don't-delete, addenda enumerate superseded sites); CHAMP item 30",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-7",
+      "severity": "minor",
+      "category": "interpretation",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:96-98; lit_review_regime-naming_2026-08-24.md:73-86",
+      "issue": "The methodological moral drawn from the refutation ('...is why the term registry now precedes any evidence query') overstates the registry's role in producing it. The refuting bubble/explosive/exuberance family was itself absent from the registry — part B §8.7 flags it as 'the largest omission by literature size' among families 'in NEITHER the registry NOR the seed list' — and the Phillips records were reached via dispatch-named known-item queries (swB-ki-16/17) and one probe (swB-crossref-15), not via registry-harvested vocabulary. The refutation therefore demonstrates that registry-first mitigates but does not close the F005 vocabulary-miss class; the current phrasing invites a reader to credit the instrument that missed the family.",
+      "evidence": "an unbounded universal from bounded search coverage falling to vocabulary the query set missed — and is why the term registry now precedes any evidence query",
+      "fix": "Add one clause at either site: 'the refuting family was itself a registry gap (part B §8.7), reached via dispatch known items — registry-first narrows the F005 class but its own coverage remains an open bound.'",
+      "reference": "CHAMP items 27/29 (interpretation of a finding consistent with its provenance; limitations discussed appropriately)",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-1-8",
+      "severity": "minor",
+      "category": "interpretation",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:76-78",
+      "issue": "The Rev 3 bounding of item (b) is ambiguous where it needs to be exact: 'a bounded operational definition of range as a temporal state remains unlocated at any tier'. If 'bounded' modifies the definition (explicit price bounds [L,U]), the claim is supported (LS-D64's source declines to bound it; NA-13 non-numeric). If read as a hedged 'remains unlocated', the sentence conflicts with part A's own synonym graph, which records prior tier-1 temporal operationalizations of the directionless state (sideways: 'prior: arXiv:2006.14121 and the FRL \"Sidewalk\" HSMM state', tier '1 (prior)'). The intended narrower claim should be unambiguous, since this is the sentence that bounds a previously overreaching claim.",
+      "evidence": "but a bounded operational definition of range as a *temporal state* remains unlocated at any tier",
+      "fix": "Rephrase: 'an operational definition of range as a temporal state *with stated price bounds* remains unlocated at any tier (model-based temporal sideways states exist in prior coverage — HSMM \"Sidewalk\" — but define no bounds).'",
+      "reference": "CHAMP item 30; SAMPL (define terms whose meaning changes the claim)",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "SCOPE-1-2",
+      "severity": "minor",
+      "category": "partial",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:75-78",
+      "issue": "Agenda item (b) states 'a bounded operational definition of range as a temporal state remains unlocated at any tier,' but part A's synonym graph and cluster-1 verdict record prior tier-1 temporal-state coverage in the same synonym family: sideways market resolves to arXiv:2006.14121 and the FRL 'Sidewalk' HSMM state (tier 1, prior), and range-bound resolves to 'prior arXiv:1304.6846 models it.' The agenda's phrasing does not carry these near-miss boundaries; the claim survives only under an unstated reading of 'bounded' (explicit price-bound assignment rule vs latent-state model).",
+      "evidence": "Part A line 586: 'range-bound (market) | ... | NONE new; prior arXiv:1304.6846 models it (level survey)'; line 593: 'sideways market | directionless temporal state | ... prior: arXiv:2006.14121 and the FRL Sidewalk HSMM state | PARTIAL | 1 (prior)'. Agenda: 'a bounded operational definition of range as a temporal state remains unlocated at any tier.'",
+      "fix": "Add the boundary to agenda (b): note the sideways/HSMM latent-state prior coverage and the range-bound potential-well model as located temporal-state treatments, and state explicitly that 'bounded operational definition' means a computable price-bound assignment rule, which none of them supplies.",
+      "reference": "S-4; task audit focus (a)",
+      "branch": "scope-auditor"
+    },
+    {
+      "id": "SCOPE-1-3",
+      "severity": "minor",
+      "category": "documented-drift",
+      "location": "docs/literature/lit_review_regime-naming-a_2026-08-24.md:61 (and part B NB-namespace)",
+      "issue": "The spec's deliverable-2 state says new operational definitions are 'numbered continuing the D-series'; the delivery instead opens fresh NA-/NB-namespaces and part A §1.2 states 'The NA namespace does not reuse or extend the predecessor D-series.' The choice is documented in the part records as a design rule but is not flagged anywhere (part records or umbrella) as a deviation from the spec's stated numbering.",
+      "evidence": "Spec line 30-31: 'new operational definitions numbered continuing the D-series'; part A §1.2: 'The NA namespace does not reuse or extend the predecessor D-series.'",
+      "fix": "One-line note in the umbrella (or a spec tick annotation) recording the namespace decision as a deliberate deviation from the spec's D-series-continuation wording, with the collision-avoidance rationale. No re-numbering needed.",
+      "reference": "S-2",
+      "branch": "scope-auditor"
+    },
+    {
+      "id": "SCOPE-1-4",
+      "severity": "minor",
+      "category": "documented-drift",
+      "location": "docs/literature/lit_review_regime-naming-a_2026-08-24.md:727-732; lit_review_regime-naming-b_2026-08-24.md:893-895",
+      "issue": "Filename-case deviation (regime-naming-a/-b review files vs the dispatch's capital-letter part naming, with bibliography stores retaining references_regime-naming-A/-B.json). Assessed per the task's explicit question: the deviation is declared in both part records with a concrete rationale (G1 gate slug grammar is lowercase-only), and all cross-references (frontmatter bibliography fields, umbrella part_records list) resolve consistently to the actual filenames. The declaration is sufficient; no rename or further remediation is warranted.",
+      "evidence": "Part A limitation 7: 'The dispatch named the deliverables with a capital A ... the G1 gate's slug grammar is lowercase-only ... Declared here so neither name appears unexplained.' Part B §9: 'The store name retains the dispatch's capital-B spelling; the review slug is lowercased for the G1 gate.'",
+      "fix": "None required. Recorded here so the disposition is on the trail.",
+      "reference": "S-2; task audit focus (filename deviation)",
+      "branch": "scope-auditor"
+    },
+    {
+      "id": "SCOPE-1-5",
+      "severity": "minor",
+      "category": "omitted",
+      "location": "docs/audits/ (expected audit_trail_naming-sweep_2026-08-24.md); git HEAD",
+      "issue": "Two spec deliverables are not yet present: the WI-3 §2 attested audit trail (docs/audits/audit_trail_naming-sweep_2026-08-24.md — the only naming-sweep-adjacent file present, docs/audits/session_trail_2026-08-24.md, is a one-line hook stub) and the /commit-with-provenance commit with Repro-Log trailers. Both are sequenced after this audit round by design, so this is a pending item, not a delivery failure — but the spec ticks cannot close until both exist and the round-1 trail is attested.",
+      "evidence": "Spec lines 56-63: 'docs/audits/audit_trail_naming-sweep_2026-08-24.md ... check: file exists, written this session, attested' and 'Commit via /commit-with-provenance ... git log -1 shows Repro-Log-Path / Repro-Log-SHA256 / AI-Assistance trailers.' Glob for docs/audits/*naming-sweep* returns no files; git status shows all six artifacts uncommitted/untracked at audit time.",
+      "fix": "Write and attest the trail for this round, then commit all deliverables via /commit-with-provenance with role=multi before ticking the spec.",
+      "reference": "S-5, S-6",
+      "branch": "scope-auditor"
+    },
+    {
+      "id": "LITERATURE-1-3",
+      "severity": "minor",
+      "category": "count-integrity",
+      "location": "docs/literature/lit_review_regime-naming-a_2026-08-24.md:652; propagates to lit_review_regime-naming_2026-08-24.md (sections 1-2: '67 synonym-graph rows', '112 rows total'), lit_review_regime-definitions_2026-08-21.md:1251 ('112-row synonym graph'), and agenda frontmatter/definitional-basis ('112-row synonym graph')",
+      "issue": "Part A section 8.3 states 'Row count: 67' but the table contains 66 body rows (lines 585-650, hand-counted twice). Part B's 45 rows verify. The combined total is therefore 111, not the 112 carried by the umbrella, the definitions-survey addendum, and the agenda.",
+      "evidence": "Table body spans lines 585 (trading range) through 650 (contrary opinion) = 66 rows; line 652 asserts 67.",
+      "fix": "Recount programmatically; either correct 67 to 66 and 112 to 111 in all four documents, or restore the genuinely missing row if one was dropped in drafting (compare against the dispatch's term list) and document which.",
+      "reference": "docs/literature/lit_review_regime-naming-a_2026-08-24.md:585-652",
+      "branch": "literature-check"
+    },
+    {
+      "id": "LITERATURE-1-4",
+      "severity": "minor",
+      "category": "count-integrity",
+      "location": "docs/literature/lit_review_regime-naming-a_2026-08-24.md:428 (prisma-s-15) and lit_review_regime-naming_2026-08-24.md sections 1 and 4",
+      "issue": "Part A claims '756 records retrieved across 45 bibliographic query executions', but the prisma-s-1 table lists 47 bibliographic query rows (22 Crossref + 21 OpenAlex + 3 arXiv + 1 Semantic Scholar; the 756 record sum itself verifies exactly). The umbrella repeats '45 queries' for sweep A and separately states '104 queries executed across both sweeps plus known-item batches', which reconciles with no combination of the part tables (A 47 bibliographic + 1 locator; B 39 discovery + 20 known-item: plausible sums are 86, 87, 106, or 107 — not 104).",
+      "evidence": "Part A table lines 87-133: swA-crossref-01..22, swA-openalex-01..21, swA-arxiv-01..03, swA-s2-01 = 47. Part B subtotal lines 202-205 verifies 303 across 23+20+8+6+2 = 59 executions.",
+      "fix": "Recompute both counts from the query tables, state the counting rule (whether malformed-and-rerun, 429-zero, known-item, and locator executions are in or out), and correct '45' and '104' consistently in part A and the umbrella.",
+      "reference": "docs/literature/lit_review_regime-naming-a_2026-08-24.md:85-136; docs/literature/lit_review_regime-naming-b_2026-08-24.md:140-205",
+      "branch": "literature-check"
+    },
+    {
+      "id": "LITERATURE-1-5",
+      "severity": "minor",
+      "category": "claim-fidelity (bounding phrasing)",
+      "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:76-79 (Definitional basis item b, Rev 3)",
+      "issue": "The Rev 3 bound states 'a bounded operational definition of range as a temporal state remains unlocated at any tier', but part A's synonym graph lists a tier-1 prior operationalization of the directionless temporal state: 'sideways market ... prior: arXiv:2006.14121 and the FRL Sidewalk HSMM state (method-gaps store) ... 1 (prior)'. The claim is defensible only under the reading that 'bounded' means an explicit price-interval [L,U] state definition (which the HSMM state is not); as phrased it invites the same overreach reading the clause was rewritten to avoid, since sideways/range-bound are treated as one family throughout the sweep (registry section 2.5).",
+      "evidence": "Part A line 593: sideways market row, operational definition at tier '1 (prior)'. Agenda lines 76-78: 'a bounded operational definition of range as a temporal state remains unlocated at any tier'.",
+      "fix": "Restrict the claim explicitly: e.g. 'no located definition assigns a range state with explicit price bounds as a temporal state; the prior HSMM sideways-state (method-gaps store) assigns a directionless temporal state without bounds.'",
+      "reference": "docs/literature/lit_review_regime-naming-a_2026-08-24.md:593",
+      "branch": "literature-check"
+    },
+    {
+      "id": "LITERATURE-1-6",
+      "severity": "minor",
+      "category": "unpinned-citation",
+      "location": "docs/literature/vocabulary_regime-synonyms_2026-08-24.md:96 (section 1.5)",
+      "issue": "'cf. Cochrane Handbook ch. 4 on combining controlled vocabulary with free text' is cited without version, chapter authors, or locator — the only citation in the registry's methods that is not resolved and verified, in a document whose other three methodology citations are handle-verified. A tier-2/3 pinnable source exists.",
+      "evidence": "Registry lines 93-99 cite 'Cochrane Handbook ch. 4' bare; contrast lines 49-74 where PRESS, pearl growing, and Hausner are DOI-pinned and marked VERIFIED.",
+      "fix": "Pin to Lefebvre C, et al. Chapter 4: Searching for and selecting studies (and its Technical Supplement), Cochrane Handbook for Systematic Reviews of Interventions, with version number and URL (training.cochrane.org/handbook), or drop the aside.",
+      "reference": "https://training.cochrane.org/handbook",
+      "branch": "literature-check"
+    }
+  ],
+  "refute_gate_dispositions": [
+    {
+      "finding_id": "REV-1-1",
+      "raised_by": "critical-reviewer",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "consistency",
+        "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:94-96",
+        "issue": "Supersession-chain divergence: the agenda's restated item (d) appends an exclusivity clause absent from both the definitions-survey addendum and the umbrella §3, and the clause is not adjudicated by the part records. Part B's synonym graph marks other families with F-causality AND a stated null — NB-13 flight-to-quality ('a definition and a test', causality F, null 'stated (definition and test together)') and NB-02 drawdown episodes (causality F, null 'stated (stretched-exponential + surrogate)'). Whether those constitute time-t assignment nulls under the survey's §8.8 standard was never assessed at abstract depth; the agenda asserts the negative anyway. This is the session's own named hazard (bounded-universal overreach, REV-1-1 of the prior spec) recurring in the sentence that memorializes the previous instance of it.",
+        "evidence": "within the 59 surveyed definitions, none attaches a time-t assignment null, and outside the explosive family no other located state vocabulary carries one",
+        "fix": "Either strike the clause after 'assignment null,' or bound it to what the part records adjudicated, e.g.: 'no other located vocabulary was classified as carrying a time-t assignment null in the sweeps' synonym graphs; NB-02 (drawdown episodes) and NB-13 (flight-to-quality) attach stated nulls at F causality and are unadjudicated against the assignment-null standard pending full text.'",
+        "reference": "CHAMP item 30 (conclusions limited to what the analysis supports); prior-round disposition REV-1-1 (bounded-universal phrasing discipline)"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Attempted refutation failed; every element of the finding reproduces. (1) The exclusivity clause exists verbatim at agenda lines 94-96: \"...none attaches a time-t assignment null, and outside the explosive family no other located state vocabulary carries one.\" (2) It is absent from both supersession sources: umbrella §3 ends at \"within the 59 originally surveyed definitions, none attaches a time-t assignment null\" (lines 84-86), and the definitions-survey addendum ends at the same bounded claim plus \"All other findings stand\" (lines 1258-1260). (3) Part B §8.0 marks NB-13 (Baur & Lucey flight-to-quality) causality F (day-level observables) with null \"stated (test accompanies the definition)\" and NB-02 (Johansen & Sornette drawdowns) causality F with null \"stated (stretched-exponential + surrogate)\", repeated in the §8.9 synonym graph. (4) No part record adjudicates either against the time-t assignment-null standard: §8.3 calls NB-13's definition-plus-null pairing \"rare in this corpus\" (implying non-uniqueness), §8.1 calls NB-02 unique only within the bull/bear family, and §10.1 confirms extraction never exceeded abstract depth. The only counter-argument found (NB-02's boundary \"confirmed one move later\" arguably fails strict time-t) is itself an adjudication absent from the records and does not cover NB-13. The bounded-universal overreach claim is confirmed.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    },
+    {
+      "finding_id": "REV-1-2",
+      "raised_by": "critical-reviewer",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "consistency",
+        "location": "docs/literature/lit_review_regime-naming_2026-08-24.md:128",
+        "issue": "The saturation adjudication states the six unswept residual families 'remain in the registry as open rows.' They do not: the registry (vocabulary_regime-synonyms_2026-08-24.md) contains no row for absorption, liquidity void, Judas swing, inversion FVG, midnight opening gap, or technical range — grep confirms only 'absorption ratio' as a tradition annotation on the fragile row and 'drawdown' as a retracement variant. Part A §8.4 itself says these terms are 'in NEITHER the registry NOR the seed list (flagged for the registry's next revision)', and the registry file carries no revision or addendum. A future round steered by the umbrella to 'open rows' in the registry finds nothing; the open-residual state — otherwise honestly declared — is mislocated.",
+        "evidence": "They remain in the registry as open rows.",
+        "fix": "Correct the sentence to the true carrier: 'They are flagged for the registry's next revision in part A §8.4 and part B §8.7; the registry itself has not yet been revised to carry them.' Alternatively, append an addendum to the registry adding the 12 flagged families as open rows (per the register/living-doc convention) and leave the umbrella sentence true.",
+        "reference": "CHAMP item 21 (no selective/inaccurate reporting of what exists where); project register convention (append-only addenda)"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Attempted refutation failed; the finding reproduces fully. (1) Line 128 of docs/literature/lit_review_regime-naming_2026-08-24.md contains the exact sentence \"They remain in the registry as open rows.\" applied to the six residual families. (2) Grep of docs/literature/vocabulary_regime-synonyms_2026-08-24.md for absorption|liquidity void|Judas|inversion FVG|midnight opening gap|technical range returns only line 205, where \"absorption ratio\" is a parenthetical tradition annotation on the fragile row — no open rows for any of the six. (3) Part A §8.4 (lit_review_regime-naming-a_2026-08-24.md lines 656-657) confirms the terms are \"in NEITHER the registry NOR the seed list (flagged for the registry's next revision, per dispatch)\". (4) The registry file contains no revision or addendum section (grep for addendum/revision hits only an unrelated 2012 citation). The umbrella sentence is therefore factually wrong about where the open-residual state is carried.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    },
+    {
+      "finding_id": "SCOPE-1-1",
+      "raised_by": "scope-auditor",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "changed",
+        "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:93-96 and :440-442",
+        "issue": "Supersession-chain asymmetry: the agenda carries a stronger survivor than the other two chain sites. The addendum (lit_review_regime-definitions_2026-08-21.md:1258-1260) and umbrella §3 both bound the survivor to 'within the 59 originally surveyed definitions, none attaches a time-t assignment null.' The agenda (d) appends an additional universal — 'and outside the explosive family no other located state vocabulary carries one' — and branch 3 restates it as 'the one located detector whose time-t assignment carries its own null.' That extension is asserted at one of the three sites only and is not marked as going beyond what the addendum/umbrella claim; part B's synonym graph carries other 'stated' null statuses (NB-02/NB-08 drawdown, NB-13 flight-to-quality, NB-23 runs, NB-29 DC overshoot) whose non-time-t character the agenda nowhere establishes. The task spec requires all three sites to tell the same story with the same bounded survivor.",
+        "evidence": "Agenda: 'within the 59 surveyed definitions, none attaches a time-t assignment null, and outside the explosive family no other located state vocabulary carries one.' Addendum: 'The bounded form survives: within the 59 definitions surveyed here, none attaches a time-t assignment null. All other findings stand.' Umbrella §3: 'The narrower claim survives: within the 59 originally surveyed definitions, none attaches a time-t assignment null.' Part B §8.9 rows with null-status 'stated' outside the explosive family: drawdown/drawup (NB-02, NB-08), flight to quality (NB-13, 'definition and test together'), runs (NB-23), overshoot (NB-29).",
+        "fix": "Either strike the extension clause from agenda (d) and branch 3 so all three sites carry the identical bounded survivor, or (if the extension is intended) add it identically to the addendum and umbrella §3 with its warrant — an explicit statement of why the other 'stated' null rows in part B §8.9 are not time-t assignment nulls (episode-level vs time-t distinction).",
+        "reference": "S-3/S-4; task audit focus (b)"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Attempted refutation failed; all evidence reproduces. Agenda lines 93-96 carry the extension clause \"and outside the explosive family no other located state vocabulary carries one\" and branch 3 (line 442) restates it as \"the one located detector whose time-t assignment carries its own null\", while the addendum (lit_review_regime-definitions_2026-08-21.md:1258-1260) and umbrella §3 (lit_review_regime-naming_2026-08-24.md:84-86) carry only the bounded survivor with no extension. Part B §8.9 (lines 830-861) confirms \"stated\" null statuses outside the explosive family (NB-02/NB-08 drawdown, NB-13 flight-to-quality with day-level observables, NB-23 runs, NB-29 DC overshoot). Grep of the agenda for episode/drawdown/flight/runs/overshoot terms returns only explosive-family lines — the agenda nowhere establishes the non-time-t character of those rows. \"time-t\" appears in neither part-file, so the extension also has no stated warrant in the sweep corpus. The extension's possible substantive defensibility (episode-level vs time-t) does not counter the claimed defect, which is unmarked cross-site asymmetry.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    },
+    {
+      "finding_id": "LITERATURE-1-1",
+      "raised_by": "literature-check",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "misattributed-citation",
+        "location": "docs/literature/lit_review_regime-naming-a_2026-08-24.md:481 (included-corpus row NA-09; id ige2024arxiv240318839)",
+        "issue": "Author misattribution in the review prose: the included record arXiv:2403.18839, 'Long Short-Term Memory Pattern Recognition in Currency Trading' (2024, q-fin.TR), is cited as 'Ige (2024)'. The sole author on arXiv (single version, v1, 2024-02-23, confirmed via both the export API and the abs page) is Jai Pal. The merged store references_regime-naming.json:373-377 carries the correct 'Pal, Jai' (fetched from export.arxiv.org), so the prose citation and the store contradict each other, and the store id 'ige2024arxiv240318839' perpetuates the wrong name. This also contradicts the review's own prisma-s-7 claim that every candidate's authors were verified against the arXiv export API before inclusion. Content characterization of the record (algorithmic Wyckoff accumulation/secondary-test labeling via CNN/LSTM) is accurate — only the attribution is wrong.",
+        "evidence": "Part A line 481: 'Ige (2024). Long Short-Term Memory Pattern Recognition in Currency Trading. arXiv:2403.18839 [q-fin.TR].' vs arxiv.org/abs/2403.18839: author Jai Pal, one version only. Store (references_regime-naming.json lines 373-379) has family 'Pal', given 'Jai' under id 'ige2024arxiv240318839'.",
+        "fix": "Correct the prose citation in part A section 7 (and anywhere NA-09 is expanded) to Pal (2024). Either regenerate the entry id to pal2024arxiv240318839 in both part-A and merged stores (updating the recorded SHA-256s and the umbrella's bibliography_sha256) or, if id stability is preferred, add an explicit note in part A that the id string predates the correction. Record the correction event rather than silently editing, per the project's strike-don't-delete convention.",
+        "reference": "https://arxiv.org/abs/2403.18839"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Refutation attempt failed; the finding is independently confirmed. (1) Part A line 481 reproduced verbatim: 'ige2024arxiv240318839 | Ige (2024). Long Short-Term Memory Pattern Recognition in Currency Trading. arXiv:2403.18839 [q-fin.TR]'. (2) references_regime-naming.json lines 373-379 (and references_regime-naming-A.json lines 371-379) carry author family 'Pal', given 'Jai' under the id 'ige2024arxiv240318839'. (3) Fresh fetch of https://export.arxiv.org/api/query?id_list=2403.18839 returns sole author Jai Pal, single version v1, submitted 2024-02-23 — no author 'Ige'. Additional corroboration: the misattribution originates in search log swA-doicheck-02.json line 21, which records the verification result as 'Ige (arXiv q-fin.TR 2024)', contradicting the review's prisma-s-7 author-verification claim exactly as the finding states.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    },
+    {
+      "finding_id": "LITERATURE-1-2",
+      "raised_by": "literature-check",
+      "severity_claimed": "major",
+      "finding_verbatim": {
+        "category": "claim-fidelity / supersession-chain divergence",
+        "location": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md:93-96 (Definitional basis item d, Rev 3)",
+        "issue": "The agenda's restated bounded survivor adds a clause absent from both other links of the supersession chain: '...and outside the explosive family no other located state vocabulary carries one [a time-t assignment null].' The definitions-survey addendum (lines 1253-1260) and the umbrella section 3 both bound the survivor strictly to 'within the 59 surveyed definitions'. Neither part record states the agenda's wider universal, and part B's own synonym graph contains located vocabulary that are at minimum unadjudicated counter-candidates at abstract depth: NB-13 flight-to-quality ('a definition and a test' arriving together, day-level observables, causality F, null 'stated') and NB-02/NB-08 drawdown/drawup episodes (causality F, null 'stated'). This is a fresh universal-from-bounded-coverage of exactly the class the session's own hazard note (agenda lines 96-98) and the Rev 2 REV-1-1 disposition name as the required phrasing discipline.",
+        "evidence": "Agenda: 'within the 59 surveyed definitions, none attaches a time-t assignment null, and outside the explosive family no other located state vocabulary carries one.' Addendum: 'The bounded form survives: within the 59 definitions surveyed here, none attaches a time-t assignment null.' Umbrella section 3: 'The narrower claim survives: within the 59 originally surveyed definitions...'. Part B 8.9 rows 'flight to quality': null-distribution status 'stated (definition and test together)'; 'drawdown / drawup': 'stated (NB-02, NB-08)' with causality F in 8.0.",
+        "fix": "Either strike the added clause so all three links carry the identical bounded survivor, or bound it explicitly: e.g. 'no other located vocabulary was classified by the sweep as attaching its null to the assignment procedure itself; nearest candidates (flight-to-quality NB-13, drawdown episodes NB-02/NB-08) are unadjudicated at abstract depth and flagged for the full-text pass.'",
+        "reference": "docs/literature/lit_review_regime-naming-b_2026-08-24.md:610-611,832,844; docs/literature/lit_review_regime-definitions_2026-08-21.md:1253-1260"
+      },
+      "refuted_by": {
+        "role": "refuter",
+        "effort": "high"
+      },
+      "evidence_type": "none",
+      "refutation_evidence": "Attempted refutation failed; every evidence element reproduces. (1) Agenda lines 93-96 contain the added clause \"and outside the explosive family no other located state vocabulary carries one\" verbatim. (2) The definitions-survey addendum (lit_review_regime-definitions_2026-08-21.md:1258-1259) and umbrella section (lit_review_regime-naming_2026-08-24.md:84-86) both bound the survivor strictly to the 59 surveyed definitions with no wider clause. (3) Grep across docs/literature for \"outside the explosive\"/\"no other located\"/\"explosive family\" and \"assignment null|time-t assignment\" confirms no part record states the agenda's wider universal or adjudicates non-explosive vocabulary against the criterion. (4) The cited counter-candidates exist as described: NB-13 (naming-b:610) null \"stated (test accompanies the definition)\", causality F; 8.9 row (line 844) \"stated (definition and test together)\"; NB-02 (line 599) causality F, null \"stated\"; NB-08 (line 605) \"stated\"; 8.9 row (line 832) \"stated (NB-02, NB-08)\". The corpus contains no adjudication that these fail the time-t assignment-null criterion, so the agenda clause is an unsupported universal unique to that link of the supersession chain. Finding stands.",
+      "reproduction_required": false,
+      "outcome": "retained"
+    }
+  ],
+  "counts": {
+    "raw_critical": 0,
+    "raw_major": 5,
+    "raw_minor": 14,
+    "refuted": 0,
+    "retained_conservative": 0,
+    "to_remediate": 5,
+    "minors_logged": 14
+  },
+  "verdict": "proceed-with-remediation",
+  "rounds_cap": 3,
+  "cap_reached": false,
+  "prior_dispositions": "Fresh cap for naming-sweep spec. Standing project dispositions: G16 DOI publisher-403 false-positive class closed — handle-API responseCode 1 is the resolution test (five predecessor reviews carry identical dispositions with logs). F-5: aggregate-only verification inadmissible — per-site/per-cluster checks required. Register/living-doc convention: strike-don't-delete, append-only addenda, revision notes. Prior naming-relevant history: the regime-definitions survey (predecessor) failed on recall for vocabulary reasons — the F005 headline fell the same way — so unbounded universals from bounded coverage are the session's named hazard; the agenda Rev 2 REV-1-1 finding (bounded-universal overreach) documents the required phrasing discipline. 19+4 logged minors from the phase1-sweep spec remain open by policy, not re-raised."
+}

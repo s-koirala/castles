@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-13",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Candelon+Piplack+Straetmans+On+measuring+synchronization+of+bulls+and+bears+the+case+of+East+Asia&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 93977,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1016/j.jbankfin.2007.08.003",
+   "title": "On measuring synchronization of bulls and bears: The case of East Asia",
+   "year": 2008,
+   "container": "Journal of Banking &amp; Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118267646.ch16",
+   "title": "Measuring Bulls and Bears Synchronization in East Asian Stock Markets",
+   "year": 2011,
+   "container": "Financial Contagion",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/j.1468-0084.2009.00556.x",
+   "title": "Multivariate Business Cycle Synchronization in Small Samples*",
+   "year": 2009,
+   "container": "Oxford Bulletin of Economics and Statistics",
+   "type": "journal-article",
+   "abstract": "AbstractIn this paper, we study the degree of business cycle synchronization by means of a small sample version of the Harding and Pagan's [Journal of Econometrics (2006) Vol. 132, pp. 59–79] Generalized Method of Moment test. We show that the asymptotic version of the test gets increasingly distorted in small samples when the number of countries grows large. However, a block bootstrapped version of the test can remedy the size distortion when the time series length divided by the number of countries T/n is sufficiently large. Applying the technique to a number of business cycle proxies of developed economies, we are unable to reject the null hypothesis of a non‐zero common multivariate synchronization index for certain economically meaningful subsets of these countries."
+  }
+ ]
+}

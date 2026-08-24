@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-11",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=volatility+squeeze+Bollinger+band+width+low+volatility+state&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 4217060,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1002/9781119207801.ch10",
+   "title": "Bollinger Band Width",
+   "year": 2012,
+   "container": "Trading Regime Analysis",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.4509904",
+   "title": "An Analysis of the Volatility of Indian Defence Stocks Using Bollinger Bands",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "The existence of a relationship between Stock market fluctuations and the economy of the state, country or region may be interrelated to each other in one way or another. This research paper is an effort to understand the fluctuations or volatility in Indian Defence stocks and how it has propelled the growth of the Indian Defence sector in recent times. Five major companies include/ includes Hindustan Aeronautics Limited (HAL),BHARAT ELECTRONICS LTD, Mazagon Dock Shipbuilders Limited, Cochin Shipyard Ltd, Bharat Dynamics Ltd for the period of one year approx. i.e., between 30-12-2021 to 30-01-2023 (272 days of stock trading)."
+  },
+  {
+   "DOI": "10.1920/wp/ifs.2024.1424",
+   "title": "Interpreting cohort profiles of lifecycle earnings volatility",
+   "year": 2024,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1920/wp.ifs.2024.1424",
+   "title": "Interpreting cohort profiles of lifecycle earnings volatility",
+   "year": 2024,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.14711/thesis-991013106346203412",
+   "title": "Financial volatility modelling using stochastic volatility(SV) model from state space perspective",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.4158925",
+   "title": "Volatility Forecasting for Low-Volatility Investing",
+   "year": 2022,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.eneco.2021.105756",
+   "title": "The dynamic interrelations of oil-equity implied volatility indexes under low and high volatility-of-volatility risk",
+   "year": 2022,
+   "container": "Energy Economics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/jj.10782296.5",
+   "title": "Introduction",
+   "year": 2023,
+   "container": "Volatility in State Spending for Higher Education",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

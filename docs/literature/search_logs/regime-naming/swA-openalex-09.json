@@ -1,0 +1,154 @@
+{
+ "log_id": "swA-openalex-09",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"fair value gap\"",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22fair%20value%20gap%22&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 46,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.1109/access.2026.3663386",
+   "title": "A Meta-Adaptive Framework Combining Gated Attention Mechanisms and Feature-Wise Modulation for Multi-Horizon Stock Price Movement Prediction",
+   "year": 2026,
+   "venue": "IEEE Access",
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.3126/sudurpaschim.v2i2.80419",
+   "title": "Efficacy of Technical Analysis to Assess Fair Value Gap: Evidence from Nepalese Commercial Bank",
+   "year": 2024,
+   "venue": "Sudurpaschim Spectrum",
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.5281/zenodo.21942862",
+   "title": "LAB #1050 HARMFUL: VIDEO SCOUT: ICT Gems - What to do when a Fair Value Gap fails? | Deep Dive into Inversion FVG — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.22039794",
+   "title": "LAB #1274 HARMFUL: VIDEO SCOUT: Best FREE ICT Fair Value Gap Indicator (FVG Indicator) | 1min Tutorial — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21617729",
+   "title": "LAB #272 NEUTRAL: VIDEO SCOUT: ICT Inversion Fair Value Gap For Entry Explained — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21637311",
+   "title": "LAB #296 NEUTRAL: VIDEO SCOUT: Order Blocks vs. Fair Value Gaps: The Ultimate Guide to Smarter Entries! — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.19086869",
+   "title": "Whose Fairness? Value Gaps in AI Ethics and the Institutional Conditions for Embedding Fairness in AI Systems",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.19086868",
+   "title": "Whose Fairness? Value Gaps in AI Ethics and the Institutional Conditions for Embedding Fairness in AI Systems",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21637103",
+   "title": "LAB #279 NEUTRAL: VIDEO SCOUT: Fair Value Gaps Are Lying to You — Until You Learn These 5 Keys — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21637052",
+   "title": "LAB #275 HARMFUL: VIDEO SCOUT: I Found A Secret To Fair Value Gaps — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21637179",
+   "title": "LAB #285 HARMFUL: VIDEO SCOUT: Master Fair Value Gaps In JUST 5 Minutes — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.2139/ssrn.7148099",
+   "title": "Fair Value Gaps Work — Until You Try to Trade Them",
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.2139/ssrn.6032676",
+   "title": "Quantifying Fair Value Gaps: A Novel Metric for Price Reaction Prediction in Financial Markets",
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21637312",
+   "title": "LAB #296 NEUTRAL: VIDEO SCOUT: Order Blocks vs. Fair Value Gaps: The Ultimate Guide to Smarter Entries! — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21637102",
+   "title": "LAB #279 NEUTRAL: VIDEO SCOUT: Fair Value Gaps Are Lying to You — Until You Learn These 5 Keys — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.22065184",
+   "title": "LAB #1620 NEUTRAL: VIDEO SCOUT: How to Trade Fair Value Gaps (Best Tutorial) — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.19102724",
+   "title": "(Japanese)Whose Fairness? Value Gaps in AI Ethics and the Institutional Conditions for Embedding Fairness in AI Systems",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21714498",
+   "title": "LAB #392 HARMFUL: VIDEO SCOUT: Understanding Fair Value Gaps (FVG) - ICT Concepts — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21942877",
+   "title": "E8 Sexagesimal‑Phi Resonance Links Celestial, Biological, and Market Cycles — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21637178",
+   "title": "LAB #285 HARMFUL: VIDEO SCOUT: Master Fair Value Gaps In JUST 5 Minutes — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  }
+ ]
+}

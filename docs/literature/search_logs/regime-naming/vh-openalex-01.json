@@ -1,0 +1,122 @@
+{
+ "query_id": "vh-openalex-01",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "purpose": "vocabulary harvest (Stage 1-2 term registry); NOT an evidence query",
+ "seed_record_role": "Hamilton 1989 MS founding definition (P01, regime-classification corpus)",
+ "query_url_verbatim": "https://api.openalex.org/works/doi:10.2307/1912559",
+ "title": "A New Approach to the Economic Analysis of Nonstationary Time Series and the Business Cycle",
+ "concepts": [
+  {
+   "display_name": "Business cycle",
+   "level": 2,
+   "score": 0.7746316194534302
+  },
+  {
+   "display_name": "Series (stratigraphy)",
+   "level": 2,
+   "score": 0.71551913022995
+  },
+  {
+   "display_name": "Economics",
+   "level": 0,
+   "score": 0.5594120621681213
+  },
+  {
+   "display_name": "Time series",
+   "level": 2,
+   "score": 0.49849510192871094
+  },
+  {
+   "display_name": "Econometrics",
+   "level": 1,
+   "score": 0.4776938259601593
+  },
+  {
+   "display_name": "Macroeconomics",
+   "level": 1,
+   "score": 0.3619686961174011
+  },
+  {
+   "display_name": "Mathematical economics",
+   "level": 1,
+   "score": 0.3303830027580261
+  },
+  {
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.26912862062454224
+  },
+  {
+   "display_name": "Statistics",
+   "level": 1,
+   "score": 0.18571516871452332
+  },
+  {
+   "display_name": "Geology",
+   "level": 0,
+   "score": 0.04855996370315552
+  },
+  {
+   "display_name": "Paleontology",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "keywords": [
+  {
+   "display_name": "Business cycle",
+   "score": 0.7746316194534302
+  },
+  {
+   "display_name": "Series (stratigraphy)",
+   "score": 0.71551913022995
+  },
+  {
+   "display_name": "Economics",
+   "score": 0.5594120621681213
+  },
+  {
+   "display_name": "Time series",
+   "score": 0.49849510192871094
+  },
+  {
+   "display_name": "Econometrics",
+   "score": 0.4776938259601593
+  },
+  {
+   "display_name": "Macroeconomics",
+   "score": 0.3619686961174011
+  },
+  {
+   "display_name": "Mathematical economics",
+   "score": 0.3303830027580261
+  },
+  {
+   "display_name": "Mathematics",
+   "score": 0.26912862062454224
+  },
+  {
+   "display_name": "Statistics",
+   "score": 0.18571516871452332
+  },
+  {
+   "display_name": "Geology",
+   "score": 0.04855996370315552
+  }
+ ],
+ "topics": [
+  {
+   "display_name": "Monetary Policy and Economic Impact",
+   "score": 0.9970999956130981
+  },
+  {
+   "display_name": "Complex Systems and Time Series Analysis",
+   "score": 0.9961000084877014
+  },
+  {
+   "display_name": "Economic theories and models",
+   "score": 0.992900013923645
+  }
+ ]
+}

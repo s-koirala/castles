@@ -1,0 +1,72 @@
+{
+ "query_id": "vh-openalex-04",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "purpose": "vocabulary harvest (Stage 1-2 term registry); NOT an evidence query",
+ "seed_record_role": "Muennix et al. 2012 market states (D40, regime-definitions corpus)",
+ "query_url_verbatim": "https://api.openalex.org/works/doi:10.1038/srep00644",
+ "title": "Identifying States of a Financial Market",
+ "concepts": [
+  {
+   "display_name": "Financial market",
+   "level": 2,
+   "score": 0.4750288128852844
+  },
+  {
+   "display_name": "Finance",
+   "level": 1,
+   "score": 0.37827855348587036
+  },
+  {
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.3756677806377411
+  },
+  {
+   "display_name": "Financial system",
+   "level": 1,
+   "score": 0.33804428577423096
+  },
+  {
+   "display_name": "Business",
+   "level": 0,
+   "score": 0.3338346481323242
+  }
+ ],
+ "keywords": [
+  {
+   "display_name": "Financial market",
+   "score": 0.4750288128852844
+  },
+  {
+   "display_name": "Finance",
+   "score": 0.37827855348587036
+  },
+  {
+   "display_name": "Computer science",
+   "score": 0.3756677806377411
+  },
+  {
+   "display_name": "Financial system",
+   "score": 0.33804428577423096
+  },
+  {
+   "display_name": "Business",
+   "score": 0.3338346481323242
+  }
+ ],
+ "topics": [
+  {
+   "display_name": "Complex Systems and Time Series Analysis",
+   "score": 0.9991000294685364
+  },
+  {
+   "display_name": "Market Dynamics and Volatility",
+   "score": 0.9832000136375427
+  },
+  {
+   "display_name": "Financial Risk and Volatility Modeling",
+   "score": 0.980400025844574
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "query_id": "swB-crossref-08",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=risk-on+risk-off+episodes+identification+currencies&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "error": "<HTTPError 429: 'Too Many Requests'>",
+ "n_records_retrieved": 0,
+ "items": []
+}

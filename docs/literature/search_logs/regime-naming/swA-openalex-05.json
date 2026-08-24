@@ -1,0 +1,77 @@
+{
+ "log_id": "swA-openalex-05",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"auction market theory\"",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22auction%20market%20theory%22&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 9,
+ "n_records_retrieved": 9,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.1016/0165-1765(82)90038-6",
+   "title": "Auction market theory of heterogeneous bidders",
+   "year": 1982,
+   "venue": "Economics Letters",
+   "cited_by": 69
+  },
+  {
+   "DOI": "10.1016/b978-008047172-3.50009-x",
+   "title": "The Design of US Wholesale Energy and Ancillary Service Auction Markets: Theory and Practice",
+   "year": 2008,
+   "venue": "Elsevier eBooks",
+   "cited_by": 34
+  },
+  {
+   "DOI": "",
+   "title": "Отбор методик анализа акций второго и третьего эшелона при формировании портфеля инвестора",
+   "year": 2016,
+   "venue": "Vestnik Universiteta",
+   "cited_by": 0
+  },
+  {
+   "DOI": "",
+   "title": "THE SELECTION OF SMALL AND MEDIUM CAPITALIZATION ANALYSIS METHODS APPLIED IN INVESTOR PORTFOLIO FORMATION",
+   "year": 2016,
+   "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "",
+   "title": "Comparison of mechanical and discretionary trading principles in intraday trading",
+   "year": 2012,
+   "venue": "Digital Repository (National Repository of Grey Literature)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.2139/ssrn.6854685",
+   "title": "ViperQ: Order Flow Pattern Recognition via Auction Market Theory for Reinforcement Learning Trading",
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0
+  },
+  {
+   "DOI": "",
+   "title": "A Dynamic Model of Online Auction Market: Theory, Identification and Estimation",
+   "year": 2017,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.2139/ssrn.7135258",
+   "title": "Initiative and Responsive: Auction Market Theory at the Signed Tape",
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.2139/ssrn.6616280",
+   "title": "Auction Market Theory as an Emergent Property of Inventory Dynamics: The First Formal Mathematical Treatment",
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0
+  }
+ ]
+}

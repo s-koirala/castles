@@ -1,0 +1,174 @@
+{
+ "log_id": "swA-crossref-06",
+ "agent": "sweep-A-practitioner",
+ "platform": "Crossref",
+ "database": "api.crossref.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "rectangle chart pattern stock",
+ "request_url": "https://api.crossref.org/works?query.bibliographic=rectangle%20chart%20pattern%20stock&rows=20",
+ "n_records_total": 648563,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.4995/thesis/10251/78837",
+   "title": "PATTERN RECOGNITION APPLIED TO CHART ANALYSIS. EVIDENCE FROM INTRADAY INTERNATIONAL STOCK MARKETS",
+   "container": "",
+   "year": null,
+   "type": "dissertation",
+   "author": "MICHNIUK"
+  },
+  {
+   "DOI": "10.1515/9781501507397-005",
+   "title": "Chapter 5. Reversal and Continuation Pattern Analysis",
+   "container": "Candlestick Charting",
+   "year": 2017,
+   "type": "book-chapter",
+   "author": ""
+  },
+  {
+   "DOI": "10.7763/ijet.2010.v2.190",
+   "title": "Associating Statistical Relationship among Stock-sheet and Pieces in Rectangle Packing",
+   "container": "International Journal of Engineering and Technology",
+   "year": 2010,
+   "type": "journal-article",
+   "author": "Singh; Jain"
+  },
+  {
+   "DOI": "10.1109/jcsse67377.2025.11297931",
+   "title": "Thai Stock Chart Pattern via Deep Learning-Based Multi-Indicator Object Detection",
+   "container": "2025 22nd International Joint Conference on Computer Science and Software Engineering (JCSSE)",
+   "year": 2025,
+   "type": "proceedings-article",
+   "author": "Wattanacheep"
+  },
+  {
+   "DOI": "10.1109/icetems64039.2024.10965039",
+   "title": "Stock Prediction Using Dual Analysis of Candlestick Chart Pattern",
+   "container": "2024 2nd International Conference on Emerging Trends in Engineering and Medical Sciences (ICETEMS)",
+   "year": 2024,
+   "type": "proceedings-article",
+   "author": "Alagdeve; Karule; Palsodkar"
+  },
+  {
+   "DOI": "10.1109/icnte56631.2023.10146731",
+   "title": "Linear Regression Approach For Stock Chart Pattern Recognition",
+   "container": "2023 5th Biennial International Conference on Nascent Technologies in Engineering (ICNTE)",
+   "year": 2023,
+   "type": "proceedings-article",
+   "author": "Tripathi; Mathure; Deotarse; Rai"
+  },
+  {
+   "DOI": "10.1002/9781119203537.ch24",
+   "title": "Chart Pattern Sell Signals",
+   "container": "Visual Guide to Chart Patterns",
+   "year": 2012,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.1016/0031-3203(80)90045-x",
+   "title": "Propagation algorithms for framing rectangle construction",
+   "container": "Pattern Recognition",
+   "year": 1980,
+   "type": "journal-article",
+   "author": "Dyer; Rosenfeld"
+  },
+  {
+   "DOI": "10.32614/cran.package.rmpsh",
+   "title": "RMPSH: Recursive Modified Pattern Search on Hyper-Rectangle",
+   "container": "CRAN: Contributed Packages",
+   "year": 2020,
+   "type": "dataset",
+   "author": "Das; De"
+  },
+  {
+   "DOI": "10.1109/taai.2012.42",
+   "title": "Stock Trend Prediction by Sequential Chart Pattern via K-Means and AprioriAll Algorithm",
+   "container": "2012 Conference on Technologies and Applications of Artificial Intelligence",
+   "year": 2012,
+   "type": "proceedings-article",
+   "author": "Wu; Wu; Lee"
+  },
+  {
+   "DOI": "10.1145/2908812.2908828",
+   "title": "A Genetic Algorithm for Rule-based Chart Pattern Search in Stock Market Prices",
+   "container": "Proceedings of the Genetic and Evolutionary Computation Conference 2016",
+   "year": 2016,
+   "type": "proceedings-article",
+   "author": "Ha; Lee; Moon"
+  },
+  {
+   "DOI": "10.1016/0031-3203(89)90071-x",
+   "title": "Determining camera parameters from the perspective projection of a rectangle",
+   "container": "Pattern Recognition",
+   "year": 1989,
+   "type": "journal-article",
+   "author": "Haralick"
+  },
+  {
+   "DOI": "10.1016/j.patrec.2024.08.012",
+   "title": "Swin-chart: An efficient approach for chart classification",
+   "container": "Pattern Recognition Letters",
+   "year": 2024,
+   "type": "journal-article",
+   "author": "Dhote; Javed; Doermann"
+  },
+  {
+   "DOI": "10.2139/ssrn.5418194",
+   "title": "A Better Way to Chart Historical Stock Performance",
+   "container": "",
+   "year": 2025,
+   "type": "posted-content",
+   "author": "Becker"
+  },
+  {
+   "DOI": "10.1515/9781501507397-201",
+   "title": "Introduction",
+   "container": "Candlestick Charting",
+   "year": 2017,
+   "type": "book-chapter",
+   "author": ""
+  },
+  {
+   "DOI": "10.1515/9781501507397-fm",
+   "title": "Frontmatter",
+   "container": "Candlestick Charting",
+   "year": 2017,
+   "type": "book-chapter",
+   "author": ""
+  },
+  {
+   "DOI": "10.1016/j.patcog.2006.08.003",
+   "title": "A simple method for fitting of bounding rectangle to closed regions",
+   "container": "Pattern Recognition",
+   "year": 2007,
+   "type": "journal-article",
+   "author": "Chaudhuri; Samal"
+  },
+  {
+   "DOI": "10.1515/9781501507397-toc",
+   "title": "Contents",
+   "container": "Candlestick Charting",
+   "year": 2017,
+   "type": "book-chapter",
+   "author": ""
+  },
+  {
+   "DOI": "10.1515/9781501507397-012",
+   "title": "Index",
+   "container": "Candlestick Charting",
+   "year": 2017,
+   "type": "book-chapter",
+   "author": ""
+  },
+  {
+   "DOI": "10.7717/peerjcs.408/fig-8",
+   "title": "Figure 8: The experimental flow chart of our proposed stock price forecast model.",
+   "container": "",
+   "year": null,
+   "type": "component",
+   "author": ""
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "log_id": "swA-arxiv-03",
+ "agent": "sweep-A-practitioner",
+ "platform": "arXiv",
+ "database": "export.arxiv.org/api",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "all:\"trading range\" AND cat:q-fin*",
+ "request_url": "http://export.arxiv.org/api/query?search_query=all%3A%22trading%20range%22%20AND%20cat%3Aq-fin%2A&max_results=20",
+ "n_records_total": 4,
+ "n_records_retrieved": 4,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "arxiv_id": "1504.04254v1",
+   "title": "Profitability of simple technical trading rules of Chinese stock exchange indexes"
+  },
+  {
+   "arxiv_id": "2111.09192v1",
+   "title": "Impermanent Loss in Uniswap v3"
+  },
+  {
+   "arxiv_id": "2403.18839v1",
+   "title": "Long Short-Term Memory Pattern Recognition in Currency Trading"
+  },
+  {
+   "arxiv_id": "1708.08857v2",
+   "title": "Stock Trading via Feedback Control: Stochastic Model Predictive or Genetic?"
+  }
+ ]
+}

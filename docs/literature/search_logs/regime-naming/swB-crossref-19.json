@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-19",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=momentum+burst+price+acceleration+stock+returns&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 681943,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.1910384",
+   "title": "Risky Cycles in Stock Price Momentum Strategy Returns",
+   "year": 2011,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "Price momentum strategies are widely used by Quant money managers.  They generate high positive returns on average with little systematic risk measured using standard asset pricing models.\n\nDuring the 1002 month period covering July 1927 - December 2010 the returns on one such widely studied strategy using U.S. stocks generated an average return in excess of 1.18%/month with a Sharpe Ratio of 0.15.  In contrast the average excess return on the US stock index portfolio was 0.62%/month with a Sharpe Ratio of 0.11.  \n\nHowever, momentum strategies incur periodic but infrequent large losses: There were 13 months with losses exceeding 20%/month.  We provide an explanation for this pattern in the data, and show that we can characterize such periodic risky cycles in momentum returns with a two state hidden Markov model, where one state is turbulent and the other is calm. All the 13 months with losses exceeding 20%/month occur during turbulent months, i.e., months when the predicted probability of the hidden state being turbulent exceeds 0.5.   \n\nWhen months with predicted probability of being in the turbulent states are avoided, the Sharpe Ratio of momentum strategy returns increases to 0.30 and momentum becomes more of a puzzle.\n\nThe study will provide new insights into the nature of the risk in widely used momentum strategies.  We will use return data from CRSP and financial statements data from Compustat.  Our  findings will be of interest to money managers, plan sponsors, regulators, and academics.\n\nDescription of the research and potential findings\n    \nRelative strength strategies have been and continue to be popular among traders. One such strategy, commonly referred to as momentum that involves ranking stocks based on their past performance and buying the winners and selling the losers, has received wide attention in the academic literature as well. Long-Short momentum portfolios have generated large historical average returns with high Sharpe Ratios.  For example, ranking stocks based on their past 11 month returns, and holding them for one month into the future (after skipping a month to allow for market microstructure effects) generates a historical average r"
+  },
+  {
+   "DOI": "10.2139/ssrn.3220053",
+   "title": "Wikipedia Search Momentum and Stock Returns",
+   "year": 2018,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "We present empirical evidence that collective investor behavior can be inferred from large-scale Wikipedia search data for individual-level stocks. Using Shannon transfer entropy, a model-free measure that considers any kind of statistical dependence between time series, we investigate the statistical information transfer between daily Wikipedia searches and stock returns for a sample of 447 stocks and all trading days from 2008 to 2017. We entertain a hypothetical trading strategy based on Wikipedia search momentum that maps our findings to average portfolio returns. Results are in line with the notion of investor sentiment and the trading patterns of retail investors."
+  },
+  {
+   "DOI": "10.2139/ssrn.1343445",
+   "title": "A Momentum Model for Stock Returns",
+   "year": 2009,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "This paper introduces a new feature to classic continuous-time models of stock return dynamics: We include the well-known phenomenon of short-term return continuation by using a stochastic system of second order. Calibrating the model to data enables us to directly analyze the determinants of short-term return continuation. We find that liquidity and informed trading are determinants of short-term return continuation. This result is in agreement with previous empirical studies, and also with recent findings of market-microstructure modeling."
+  },
+  {
+   "DOI": "10.2139/ssrn.4850305",
+   "title": "Stock price synchronicity under fat-tailed stock returns",
+   "year": 2024,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/j.1467-629x.2010.00395.x",
+   "title": "Price and earnings momentum in Australian stock returns",
+   "year": 2011,
+   "container": "Accounting &amp; Finance",
+   "type": "journal-article",
+   "abstract": "AbstractThere is no prior published Australian research on earnings momentum and only one prior unpublished work of limited depth and scope. We provide some of the first Australian evidence on earnings momentum and revisit price momentum with the first Australian evidence of the behaviour of returns beyond 12 months. Price momentum is found to be a feature of this market, but there is some reversal of returns during the second year after portfolio formation, suggesting trend chasing behaviour. Earnings momentum is also present, but with weak continuation into the second year. Price momentum and earnings momentum are shown to provide independent explanatory power over future returns."
+  },
+  {
+   "DOI": "10.48047/nq.2021.19.10.nq2174",
+   "title": "Momentum/Contrarian Returns In Indian Stock Market",
+   "year": 2023,
+   "container": "NeuroQuantology",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2638004",
+   "title": "Absolute Strength: Exploring Momentum in Stock Returns",
+   "year": 2015,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "We document a new pattern in stock returns that we call absolute strength momentum. Stocks that have signifi cantly increased in value in the recent past (absolute strength winners) continue to gain, and stocks that have signifi cantly decreased in value (absolute strength losers) continue to lose in the near future. Absolute strength winner and loser portfolio breakpoints are recursively determined by the historical distribution of realized cumulative returns across time and across stocks. The historical distribution yields stable breakpoints that are always positive (negative) for the winner (loser) portfolios. As a result, winners are those that have experienced a signifi cant upward trend, while losers are those that have experienced a signifi cant downward trend, and stocks with no momentum have cumulative returns that are not signi ficantly different from zero. Absolute strength momentum generates large and signi ficant risk-adjusted returns, outperforms the relative strength momentum strategy of Jegadeesh and Titman (1993) and other prominent momentum strategies, and its profi tability is consistent across sample periods, international markets, asset classes, and holding periods."
+  },
+  {
+   "DOI": "10.1109/icsssm.2013.6602542",
+   "title": "Momentum or reversal after price shocks: The impact of information on stock returns",
+   "year": 2013,
+   "container": "2013 10th International Conference on Service Systems and Service Management",
+   "type": "proceedings-article",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-01",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=secular+bull+and+bear+markets+stock+prices&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1008517,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.4418018",
+   "title": "Stock Price Overreaction: Evidence From Bull and Bear Markets",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "In this paper, we provide new evidence to strengthen the stock market overreaction hypothesis by examining a new context that has not been explored before. Our research is inspired by the widely held belief that investor sentiment experiences abrupt changes from optimism to pessimism as the market switches between bull and bear states. If the stock market overreaction hypothesis is correct, it implies that investors are inclined to become excessively optimistic during bull markets and overly pessimistic during bear markets, resulting in overreaction and subsequent market correction. The study's findings support the hypothesis while also revealing a significant asymmetry in investor overreaction between bull and bear markets. Specifically, our results indicate that investors tend to overreact towards the end of a bear market, and the subsequent bull market starts with a prompt and robust correction. Conversely, investors appear to overreact only towards the end of a prolonged bull market. The correction during a bear market is not confined to its initial phase but extends across its entire duration."
+  },
+  {
+   "DOI": "10.1002/9781119197362.ch2",
+   "title": "Emotions of Secular Bull, Bear, and Range‐Bound Markets",
+   "year": 2012,
+   "container": "Active Value Investing",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.146531",
+   "title": "Identifying Bull and Bear Markets in Stock Returns",
+   "year": 1999,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "This paper uses a Markov switching model which incorporates duration dependence to capture nonlinear structure in both the conditional mean and variance of stock returns. The model sorts returns into a high return stable state and a low return volatile state. We label these as bull and bear markets respectively. The filter identifies all major stock market downturns in over 160 years of monthly data. We find that both bear and bull markets have declining hazard functions. Despite the declining hazards, the best market gains come at the start of a bull market. Moreover, allowing the conditional mean and volatility to vary with duration captures volatility clustering."
+  },
+  {
+   "DOI": "10.17918/00008738",
+   "title": "Stock return, dividend size and dividend stability in bull and bear markets",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.1100147",
+   "title": "The Time-Varying Equity Premium and Secular Bull and Bear Markets of the Twentieth Century",
+   "year": 2008,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "Low frequency S&P 500 index returns over the twentieth century are explained using an asset pricing model in which a time-varying equity premium is driven by regime changes in aggregate consumption volatility.\r\n\r\nBy allowing the equity premium to vary between 3.5% and 8%, depending on perceived consumption risk at the time, the asset pricing model in this paper is better able to match the magnitude of all seven secular bull and bear markets of the last century than a fixed equity premium model. The paper also rejects the notion of significant excess volatility in market returns at annual frequency.\r\n\r\nThe model is especially successful for the period from 1897-1965. There is particularly clear evidence that perceived consumption risk fell dramatically in the 1920s, rose during the Great Depression and fell again following World War II. Both the direction and scale of the secular bull and bear markets that occurred at these times are consistent with the model in this paper.\r\n\r\nBecause of the difficulty of accurately measuring aggregate consumption data in the early twentieth century, there is a possibility that estimated changes in consumption volatility during the 1897-1965 period do not reflect real shifts in macroeconomic risk. To address this concern, the main calibrations in this paper are based on average household income data for the highest income families; a series that is consistently estimated throughout the period. This also allows for the observation that stockholders have historically been those with greatest wealth and income. The results of the paper are broadly consistent whether income or consumption data is used.\r\n\r\nThe main remaining anomaly is the secular bear market of 1966-1981, which is not related to any obviously observed increase in aggregate risk. The end of century bull market appears to represent a return to more natural market levels. This conclusion is strengthened if the well-documented decline in macroeconomic risk in the 1990s is associated with a further fall in the equity premium to 2.5%.\r\n\r\nThe main implication of this paper is that, at the end of the twentieth century, the equity premium lay at very low levels compared to it"
+  },
+  {
+   "DOI": "10.2139/ssrn.2396904",
+   "title": "Bull and Bear Markets in Commodity Prices and Commodity Stocks: Is There a Relation?",
+   "year": 2014,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "The extent to which prices of commodities such as oil and gold affect stock prices of firms engaged in their production, and in the stock market in general, has received attention in both the theoretical and empirical literature with mixed results. Instead of focusing on the direct relation between prices, this paper investigates the relation between different market phases. Specifically, it identifies bull and bear markets in commodity prices and in stock prices of firms whose primary business involves mining and marketing the relevant commodities, and investigates whether a relationship between them exists. The aggregate indices of the sectors related to commodities and the market overall are also considered. The empirical analysis is conducted for the Canadian stock market due to the importance that mining and energy stocks have in its composition. The results suggest that there is little evidence that the market phases identified for the individual stocks are related to those for the commodity prices."
+  },
+  {
+   "DOI": "10.1198/073500104000000136",
+   "title": "Duration Dependence in Stock Prices",
+   "year": 2004,
+   "container": "Journal of Business &amp; Economic Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.3370828",
+   "title": "Stock Volatility Predictability in Bull and Bear Markets",
+   "year": 2019,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "query_id": "swB-openalex-01",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.openalex.org/works?filter=title.search:%22market%20phase%22&sort=cited_by_count:desc&per-page=10",
+ "total_results_reported": 80,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "openalex_id": "https://openalex.org/W1597025525",
+   "DOI": "",
+   "title": "Discrimination in Metropolitan Housing Markets Phase II: Asians and Pacific Islanders",
+   "year": 2003,
+   "container": "RePEc: Research Papers in Economics",
+   "type": "preprint",
+   "cited_by_count": 54
+  },
+  {
+   "openalex_id": "https://openalex.org/W2123002261",
+   "DOI": "10.2307/2330259",
+   "title": "Market Phase and the Stationarity of Beta",
+   "year": 1977,
+   "container": "Journal of Financial and Quantitative Analysis",
+   "type": "article",
+   "cited_by_count": 46
+  },
+  {
+   "openalex_id": "https://openalex.org/W1993789396",
+   "DOI": "10.1061/(asce)co.1943-7862.0000316",
+   "title": "Strategies for Developing Countries to Expand Their Shares in the Global Construction Market: Phase-Based SWOT and AAA Analyses of Korea",
+   "year": 2010,
+   "container": "Journal of Construction Engineering and Management",
+   "type": "article",
+   "cited_by_count": 43
+  },
+  {
+   "openalex_id": "https://openalex.org/W1524370932",
+   "DOI": "10.1037/e727472011-001",
+   "title": "Discrimination in Metropolitan Housing Markets: Phase 3: Native Americans",
+   "year": 2003,
+   "container": "PsycEXTRA Dataset",
+   "type": "dataset",
+   "cited_by_count": 37
+  },
+  {
+   "openalex_id": "https://openalex.org/W2025554802",
+   "DOI": "10.1177/088636878101300303",
+   "title": "Compensation Elements: Market Phase Determines the Mix",
+   "year": 1981,
+   "container": "Compensation Review",
+   "type": "article",
+   "cited_by_count": 24
+  },
+  {
+   "openalex_id": "https://openalex.org/W1978085089",
+   "DOI": "10.1016/j.physa.2008.11.028",
+   "title": "Peculiar statistical properties of Chinese stock indices in bull and bear market phases",
+   "year": 2008,
+   "container": "Physica A Statistical Mechanics and its Applications",
+   "type": "article",
+   "cited_by_count": 19
+  },
+  {
+   "openalex_id": "https://openalex.org/W2745822063",
+   "DOI": "10.21511/imfi.14(2-2).2017.07",
+   "title": "Market efficiency and technical analysis during different market phases: further evidence from Malaysia",
+   "year": 2017,
+   "container": "Investment Management and Financial Innovations",
+   "type": "article",
+   "cited_by_count": 14
+  },
+  {
+   "openalex_id": "https://openalex.org/W2395742135",
+   "DOI": "10.12691/jfe-4-3-1",
+   "title": "Analysis of Asymmetric and Persistence in Stock Return Volatility in the Nairobi Securities Exchange Market Phases",
+   "year": 2016,
+   "container": "Cai-jing yanjiu",
+   "type": "article",
+   "cited_by_count": 13
+  },
+  {
+   "openalex_id": "https://openalex.org/W2294693270",
+   "DOI": "10.3929/ethz-a-005320674",
+   "title": "Variant management of modular product families in the market phase",
+   "year": 2006,
+   "container": "",
+   "type": "dissertation",
+   "cited_by_count": 11
+  },
+  {
+   "openalex_id": "https://openalex.org/W2052377983",
+   "DOI": "10.1137/090754029",
+   "title": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection",
+   "year": 2010,
+   "container": "SIAM Journal on Financial Mathematics",
+   "type": "article",
+   "cited_by_count": 11
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-02",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=stock+market+correction+definition+decline+threshold&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1265194,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.4512310",
+   "title": "Conditional Threshold Effects of Stock Market Volatility on Crude Oil Market Volatility",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "In this paper, we analyze conditional threshold effects of stock market volatility on crude oil market volatility. We use Conditional Threshold Autoregression (CoTAR), a novel extension of TAR from a constant threshold to a time-varying threshold. The conditional threshold is specified as an empirical quantile of recent realizations of a threshold variable. This specification is expected to match investors' relative perception of financial risk. The target variable is monthly realized volatility (RV) measures of the West Texas Intermediate, and the threshold variable is monthly RV measures of the S&amp;P 500 Index. Our rolling window out-of-sample analysis indicates that the predictive ability of CoTAR is at least on par with TAR for all cases considered, and significantly better than TAR for some cases. The superiority of CoTAR is pronounced when the target variable is a downside RV measure. This is a useful finding which helps market participants and policymakers better control downward risks."
+  },
+  {
+   "DOI": "10.1126/science.1142-b",
+   "title": "Stock Market Decline Cuts Endowments 13.1%",
+   "year": 1988,
+   "container": "Science",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.eneco.2025.108189",
+   "title": "Conditional threshold effects of stock market volatility on crude oil market volatility",
+   "year": 2025,
+   "container": "Energy Economics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1126/science.240.4856.1142-b",
+   "title": "Stock Market Decline Cuts Endowments 13.1%",
+   "year": 1988,
+   "container": "Science",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1126/science.240.4856.1142.c",
+   "title": "Stock Market Decline Cuts Endowments 13.1%",
+   "year": 1988,
+   "container": "Science",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.429740",
+   "title": "The Riskiness of Reits Surrounding the October 1997 Stock Market Decline",
+   "year": 2003,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "REITs are viewed as low risk/low return stocks that exhibit defensive stock characteristics. The stock market decline of October 1997 provides an excellent opportunity to examine the riskiness of REITs during high levels of market uncertainty. We find that the decline in REIT stock values was about one-half as large as the decline of non-REIT stocks. Additionally, market uncertainty on the event day was shown with an increased bid-ask spread for all stocks. On the following day when the market declins was partially reversed, the bid-ask spreads continued to increase for non-REIT stocks, but declined for REIT stocks. This suggests that REITs, like defensive stocks in general, are less prone to significant declines during market-wide disturbances. Also, we order stocks based on the standard deviation measures of risk and show that this risk measure explains the cross-section of returns for non-REITs but is not valid for REITs."
+  },
+  {
+   "DOI": "10.2139/ssrn.4877812",
+   "title": "Tax Reforms and the Decline of the London Stock Market: The Untold Story",
+   "year": 2024,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.52821/2789-4401-2025-6-186-195",
+   "title": "Advance decline ratio and stock returns in Kazakhstan stock market",
+   "year": 2026,
+   "container": "Central Asian Economic Review",
+   "type": "journal-article",
+   "abstract": "Purpose of the research\n                    is to identify whether there is a significant relationship between the advance decline ratio (ADR) and returns on KASE index.\n                  \n                  \n                    Research methodology\n                    – least squares regression analysis was performed using weekly data for 2019-2023 period.\n                  \n                  \n                    Originality/value of the research\n                    – although market breadth is widely implemented in developed financial markets, to the best of our knowledge, there are no studies on analysis of the relationships in Kazakhstan stock market particularly, this study adds to the existing knowledge base by examining the relationships in Kazakhstan equity market.\n                  \n                  \n                    Findings\n                    – our findings suggest that there is a weak, but significant relationship between returns on KASE index and ADR, provided the low beta and R\n                    2\n                    of 0.22, in line with other studies and practical observations, suggesting that ADR is not a driving factor for the stock price moves but rather an accompanying signal which can be used to strengthen the conclusions about potential stock market trends, specifically, investors should pay attention that any uptrend in the stock market is associated with improving ADR leading to more robust and longer trends rather than short term weak price spikes."
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "query_id": "vh-openalex-06",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "purpose": "vocabulary harvest (Stage 1-2 term registry); NOT an evidence query",
+ "seed_record_role": "Driessen, Lin & Van Hemert 2013 52-week high/low (f005)",
+ "query_url_verbatim": "https://api.openalex.org/works/doi:10.1093/rof/rfr026",
+ "title": "How the 52-Week High and Low Affect Option-Implied Volatilities and Stock Return Moments",
+ "concepts": [
+  {
+   "display_name": "Anchoring",
+   "level": 2,
+   "score": 0.6857753992080688
+  },
+  {
+   "display_name": "Stock (firearms)",
+   "level": 2,
+   "score": 0.6647547483444214
+  },
+  {
+   "display_name": "Economics",
+   "level": 0,
+   "score": 0.5438693761825562
+  },
+  {
+   "display_name": "Stock price",
+   "level": 3,
+   "score": 0.5168316960334778
+  },
+  {
+   "display_name": "Volatility (finance)",
+   "level": 2,
+   "score": 0.5048449635505676
+  },
+  {
+   "display_name": "Implied volatility",
+   "level": 3,
+   "score": 0.49475520849227905
+  },
+  {
+   "display_name": "Financial economics",
+   "level": 1,
+   "score": 0.4938507676124573
+  },
+  {
+   "display_name": "Econometrics",
+   "level": 1,
+   "score": 0.4845110774040222
+  },
+  {
+   "display_name": "Monetary economics",
+   "level": 1,
+   "score": 0.32590553164482117
+  },
+  {
+   "display_name": "Psychology",
+   "level": 0,
+   "score": 0.1335393190383911
+  },
+  {
+   "display_name": "Geography",
+   "level": 0,
+   "score": 0.0711916983127594
+  },
+  {
+   "display_name": "Geology",
+   "level": 0,
+   "score": 0.06374365091323853
+  },
+  {
+   "display_name": "Social psychology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "display_name": "Paleontology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "display_name": "Archaeology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "display_name": "Series (stratigraphy)",
+   "level": 2,
+   "score": 0.0
+  }
+ ],
+ "keywords": [
+  {
+   "display_name": "Anchoring",
+   "score": 0.6857753992080688
+  },
+  {
+   "display_name": "Stock (firearms)",
+   "score": 0.6647547483444214
+  },
+  {
+   "display_name": "Economics",
+   "score": 0.5438693761825562
+  },
+  {
+   "display_name": "Stock price",
+   "score": 0.5168316960334778
+  },
+  {
+   "display_name": "Volatility (finance)",
+   "score": 0.5048449635505676
+  },
+  {
+   "display_name": "Implied volatility",
+   "score": 0.49475520849227905
+  },
+  {
+   "display_name": "Financial economics",
+   "score": 0.4938507676124573
+  },
+  {
+   "display_name": "Econometrics",
+   "score": 0.4845110774040222
+  },
+  {
+   "display_name": "Monetary economics",
+   "score": 0.32590553164482117
+  },
+  {
+   "display_name": "Psychology",
+   "score": 0.1335393190383911
+  },
+  {
+   "display_name": "Geography",
+   "score": 0.0711916983127594
+  },
+  {
+   "display_name": "Geology",
+   "score": 0.06374365091323853
+  }
+ ],
+ "topics": [
+  {
+   "display_name": "Financial Markets and Investment Strategies",
+   "score": 0.9998000264167786
+  },
+  {
+   "display_name": "Stochastic processes and financial applications",
+   "score": 0.9947999715805054
+  },
+  {
+   "display_name": "Corporate Finance and Governance",
+   "score": 0.991599977016449
+  }
+ ]
+}

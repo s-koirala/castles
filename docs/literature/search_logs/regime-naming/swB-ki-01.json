@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-01",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Fama+The+Behavior+of+Stock-Market+Prices+Journal+of+Business+1965&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 3513806,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1086/294743",
+   "title": "The Behavior of Stock-Market Prices",
+   "year": 1965,
+   "container": "The Journal of Business",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2469/faj.v21.n5.55",
+   "title": "Random Walks in Stock Market Prices",
+   "year": 1965,
+   "container": "Financial Analysts Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2469/faj.v51.n1.1861",
+   "title": "Random Walks in Stock Market Prices",
+   "year": 1995,
+   "container": "Financial Analysts Journal",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "log_id": "swA-openalex-16",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"value area migration\" OR \"value migration\" futures",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22value%20area%20migration%22%20OR%20%22value%20migration%22%20futures&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 171760,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.1007/978-3",
+   "title": "Chapter 12: What does the Anthropocene hold for citizenship?",
+   "year": 2022,
+   "venue": "edoc (University of Basel)",
+   "cited_by": 11538
+  },
+  {
+   "DOI": "10.1137/1010093",
+   "title": "Fractional Brownian Motions, Fractional Noises and Applications",
+   "year": 1968,
+   "venue": "SIAM Review",
+   "cited_by": 7753
+  },
+  {
+   "DOI": "10.1016/j.gloenvcha.2016.05.009",
+   "title": "The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: An overview",
+   "year": 2016,
+   "venue": "Global Environmental Change",
+   "cited_by": 6683
+  },
+  {
+   "DOI": "10.17763/haer.66.1.17370n67v22j160u",
+   "title": "A Pedagogy of Multiliteracies: Designing Social Futures",
+   "year": 1996,
+   "venue": "Harvard Educational Review",
+   "cited_by": 5495
+  },
+  {
+   "DOI": "10.23874/amber/2016/v7/i1/121351",
+   "title": "“Options, Futures, and Other Derivatives”",
+   "year": 2016,
+   "venue": "AMBER – ABBS Management Business and Entrepreneurship Review",
+   "cited_by": 5153
+  },
+  {
+   "DOI": "",
+   "title": "Images of Organization",
+   "year": 1986,
+   "venue": null,
+   "cited_by": 5068
+  },
+  {
+   "DOI": "10.5860/choice.41-4975",
+   "title": "Unequal childhoods: class, race, and family life",
+   "year": 2004,
+   "venue": "Choice Reviews Online",
+   "cited_by": 4644
+  },
+  {
+   "DOI": "10.2307/2654361",
+   "title": "Flexible Citizenship: The Cultural Logics of Transnationality",
+   "year": 2001,
+   "venue": "Contemporary Sociology A Journal of Reviews",
+   "cited_by": 4350
+  },
+  {
+   "DOI": "10.1093/019824908x.001.0001",
+   "title": "11. Reasons and Persons",
+   "year": 1986,
+   "venue": "Princeton University Press eBooks",
+   "cited_by": 4293
+  },
+  {
+   "DOI": "10.1007/978-1-4419-9230-7_2",
+   "title": "Options, Futures and Other Derivatives",
+   "year": 2003,
+   "venue": null,
+   "cited_by": 3987
+  },
+  {
+   "DOI": "10.2307/3034525",
+   "title": "Routes: Travel and Translation in the Late Twentieth Century.",
+   "year": 1998,
+   "venue": "Journal of the Royal Anthropological Institute",
+   "cited_by": 3476
+  },
+  {
+   "DOI": "10.1016/j.gloenvcha.2015.01.004",
+   "title": "The roads ahead: Narratives for shared socioeconomic pathways describing world futures in the 21st century",
+   "year": 2015,
+   "venue": "Global Environmental Change",
+   "cited_by": 3410
+  },
+  {
+   "DOI": "10.4324/9780203979402-6",
+   "title": "A pedagogy of Multiliteracies Designing Social Futures",
+   "year": 1996,
+   "venue": null,
+   "cited_by": 3334
+  },
+  {
+   "DOI": "",
+   "title": "At the Threshold: The Developing Adolescent",
+   "year": 1990,
+   "venue": null,
+   "cited_by": 3140
+  },
+  {
+   "DOI": "10.1016/j.gloenvcha.2004.12.005",
+   "title": "Successful adaptation to climate change across scales",
+   "year": 2005,
+   "venue": "Global Environmental Change",
+   "cited_by": 3123
+  },
+  {
+   "DOI": "10.1016/0304-405x(76)90024-6",
+   "title": "The pricing of commodity contracts",
+   "year": 1976,
+   "venue": "Journal of Financial Economics",
+   "cited_by": 2956
+  },
+  {
+   "DOI": "10.1038/nature08017",
+   "title": "Greenhouse-gas emission targets for limiting global warming to 2 °C",
+   "year": 2009,
+   "venue": "Nature",
+   "cited_by": 2811
+  },
+  {
+   "DOI": "10.1175/bams-d-13-00255.1",
+   "title": "The Community Earth System Model (CESM) Large Ensemble Project: A Community Resource for Studying Climate Change in the Presence of Internal Climate Variability",
+   "year": 2014,
+   "venue": "Bulletin of the American Meteorological Society",
+   "cited_by": 2614
+  },
+  {
+   "DOI": "10.2307/358703",
+   "title": "Multiliteracies: Literacy Learning and the Design of Social Futures",
+   "year": 2001,
+   "venue": "College Composition and Communication",
+   "cited_by": 2458
+  },
+  {
+   "DOI": "10.1093/rfs/9.1.69",
+   "title": "Jumps and Stochastic Volatility: Exchange Rate Processes Implicit in Deutsche Mark Options",
+   "year": 1996,
+   "venue": "Review of Financial Studies",
+   "cited_by": 2394
+  }
+ ]
+}

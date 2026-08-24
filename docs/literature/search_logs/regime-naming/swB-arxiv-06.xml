@@ -1,0 +1,11 @@
+<!-- query_id: swB-arxiv-06 | platform: arXiv API (export.arxiv.org) | date_searched: 2026-08-24 | query_url_verbatim: http://export.arxiv.org/api/query?search_query=abs:%22secular+bear%22+OR+abs:%22secular+bull%22&max_results=10 -->
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/md7NgZY9EDYTwNpO7lmh63kcm8Y</id>
+  <title>arXiv Query: search_query=abs:"secular bear" OR abs:"secular bull"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-24T13:45:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22secular+bear%22+OR+abs:%22secular+bull%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>0</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+</feed>

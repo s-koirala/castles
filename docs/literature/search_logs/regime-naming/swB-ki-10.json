@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-10",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Illing+Liu+Measuring+financial+stress+in+a+developed+country+an+application+to+Canada&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 7582662,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1016/j.jfs.2006.06.002",
+   "title": "Measuring financial stress in a developed country: An application to Canada",
+   "year": 2006,
+   "container": "Journal of Financial Stability",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2584378",
+   "title": "Measuring Financial Stress – A Country Specific Stress Index for Finland",
+   "year": 2015,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "​I propose a financial stress index (FSI) for the Finnish financial system that aims to reflect the functionality of the financial system and provide an aggregate measure of financial stress in the money, bond, equity and foreign exchange markets and the banking sector. The FSI is a composite index that combines information from these markets and provides a measure of stress in the financial system as a whole. The FSI has obvious benefits for all participants in the financial markets who need a tool for monitoring the functioning of the financial markets, as it provides information on systemic stress events which are not as easily captured with the stress measures of individual markets or sectors. The ESRB recommendation (ESRB, 2014a) also states that national or international FSIs could be used when making a decision about the release of the counter-cyclical capital buffer. Hence, the index can also be used to support the macro-prudential policy decision making in Finland."
+  },
+  {
+   "DOI": "10.5089/9781513527116.002",
+   "title": "Canada",
+   "year": 2020,
+   "container": "IMF Staff Country Reports",
+   "type": "journal-article",
+   "abstract": "This paper on Financial Safety Net and Crisis Management for the Canada reviews the stress testing and financial stability analysis. The paper highlights that the financial system’s performance has been strong. The insurance sector has remained financially sound even in the low interest rate environment. Major banks, life insurers, and pension funds have expanded their footprints abroad. Canada has strong financial linkages with the United States. Macrofinancial vulnerabilities—notably, elevated household indebtedness and housing market imbalances—remain substantial, posing financial stability concerns. Major deposit-taking institutions would be able to manage severe macrofinancial shocks; however, mortgage insurers would probably need additional capital. Major deposit-taking institutions also hold enough liquidity buffers to withstand sizeable funding outflows. However, increased balance sheet complexity and reliance on wholesale and foreign exchange funding, and the extensive use of derivatives are some areas of concern that would warrant closer monitoring by the competent authorities and a more comprehensive quality assurance in the context of supervisory or macroprudential stress testing exercise."
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-08",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Baur+Lucey+Flights+and+contagion+an+empirical+analysis+of+stock+bond+correlations&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 7187229,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.886119",
+   "title": "Flights and Contagion - an Empirical Analysis of Stock-Bond Correlations",
+   "year": 2006,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "This paper analyzes the existence of flights from stocks to bonds and vice versa. We propose a definition and a test for flight-to-quality, flight-from-quality and cross-asset contagion and examine their characteristics and effects for the financial system. The empirical analysis for eight developed countries including the US, the UK, Germany and Japan shows that flights exist and are a common feature in many crises episodes. Our findings also reveal that flights are not merely country-specific events but occur simultaneously across countries. This indicates that there is a link between the occurrence of flights and cross-country contagion. Moreover, we show that flights enhance the resiliency of the financial markets by providing diversification benefits in times when they are needed most."
+  },
+  {
+   "DOI": "10.1016/j.jfs.2008.08.001",
+   "title": "Flights and contagion—An empirical analysis of stock–bond correlations",
+   "year": 2009,
+   "container": "Journal of Financial Stability",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2461964",
+   "title": "The Stock Market, the Real Economy and Contagion",
+   "year": 2014,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "In this paper we analyze the link between stock market performance and macroeconomic performance for a large number of countries. We study the short-run and long-run relationships and find that stock market returns do not coherently predict future macroeconomic changes for the majority of countries, i.e. the estimates vary considerably both across prediction horizons and across countries. Moreover, we test whether the financial and real economy dynamic linkages increased in the financial crisis in 2008 implying \"macro-financial\" contagion.  The crisis-specific analysis of macro-financial linkages broadens the perspective of existing studies of financial contagion. Our findings indicate that the stock market does not merely reflect future economic conditions but also influences them justifying policy responses as witnessed during the 2008 financial and economic crisis."
+  }
+ ]
+}

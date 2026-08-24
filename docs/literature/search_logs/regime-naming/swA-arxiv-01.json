@@ -1,0 +1,94 @@
+{
+ "log_id": "swA-arxiv-01",
+ "agent": "sweep-A-practitioner",
+ "platform": "arXiv",
+ "database": "export.arxiv.org/api",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "all:\"Wyckoff\"",
+ "request_url": "http://export.arxiv.org/api/query?search_query=all%3A%22Wyckoff%22&max_results=20",
+ "n_records_total": 154,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "arxiv_id": "2605.19383v2",
+   "title": "Charge Symmetry Beyond Wyckoff Equivalence"
+  },
+  {
+   "arxiv_id": "2311.17916v2",
+   "title": "WyCryst: Wyckoff Inorganic Crystal Generator Framework"
+  },
+  {
+   "arxiv_id": "2503.02407v4",
+   "title": "Wyckoff Transformer: Generation of Symmetric Crystals"
+  },
+  {
+   "arxiv_id": "1210.0825v1",
+   "title": "Effect of the Wyckoff position of K atom on the crystal structure and electronic properties of KFe$_2$Se$_2$ compound"
+  },
+  {
+   "arxiv_id": "2604.17994v1",
+   "title": "SWORD: Symmetry and Wyckoff-sequence of Ordered and Disordered crystals"
+  },
+  {
+   "arxiv_id": "2503.16784v1",
+   "title": "Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning"
+  },
+  {
+   "arxiv_id": "2111.02555v1",
+   "title": "Implementing augmented reality technology to measure structural changes across time"
+  },
+  {
+   "arxiv_id": "math/0410410v1",
+   "title": "Conditions for Weighted Cover Pebbling of Graphs"
+  },
+  {
+   "arxiv_id": "2403.18839v1",
+   "title": "Long Short-Term Memory Pattern Recognition in Currency Trading"
+  },
+  {
+   "arxiv_id": "2506.23713v2",
+   "title": "Photonic obstructed atomic insulator"
+  },
+  {
+   "arxiv_id": "2205.06996v1",
+   "title": "Parity-breaking in single-element phases: Ferroelectric-like elemental polar metals"
+  },
+  {
+   "arxiv_id": "2502.16417v1",
+   "title": "Inversion-asymmetric itinerant antiferromagnets by the space group symmetry"
+  },
+  {
+   "arxiv_id": "2509.23822v1",
+   "title": "Space Group Conditional Flow Matching"
+  },
+  {
+   "arxiv_id": "1911.11123v2",
+   "title": "PyXtal: a Python Library for Crystal Structure Generation and Symmetry Analysis"
+  },
+  {
+   "arxiv_id": "1706.05970v2",
+   "title": "Crystalline structures of particles interacting through the harmonic-repulsive pair potential"
+  },
+  {
+   "arxiv_id": "2509.11492v1",
+   "title": "ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims"
+  },
+  {
+   "arxiv_id": "2109.15219v3",
+   "title": "Band representation, band connectivity and irreducibility"
+  },
+  {
+   "arxiv_id": "cs/0310059v1",
+   "title": "Design and Implementation of MPICH2 over InfiniBand with RDMA Support"
+  },
+  {
+   "arxiv_id": "2110.02192v2",
+   "title": "Reducing Gaze Distraction for Real-time Vibration Monitoring Using Augmented Reality"
+  },
+  {
+   "arxiv_id": "2602.11465v1",
+   "title": "Assessing Low Back Movement with Motion Tape Sensor Data Through Deep Learning"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "log_id": "swA-openalex-18",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"value area migration\"",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22value%20area%20migration%22&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 0,
+ "n_records_retrieved": 0,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": []
+}

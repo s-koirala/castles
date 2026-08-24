@@ -1,0 +1,145 @@
+{
+ "query_id": "vh-openalex-03",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "purpose": "vocabulary harvest (Stage 1-2 term registry); NOT an evidence query",
+ "seed_record_role": "Lunde & Timmermann 2004 bull/bear filter (P04)",
+ "query_url_verbatim": "https://api.openalex.org/works/doi:10.1198/073500104000000136",
+ "title": "Duration Dependence in Stock Prices",
+ "concepts": [
+  {
+   "display_name": "Heteroscedasticity",
+   "level": 2,
+   "score": 0.8078110814094543
+  },
+  {
+   "display_name": "Econometrics",
+   "level": 1,
+   "score": 0.7450157403945923
+  },
+  {
+   "display_name": "Stock (firearms)",
+   "level": 2,
+   "score": 0.6470778584480286
+  },
+  {
+   "display_name": "Economics",
+   "level": 0,
+   "score": 0.6431951522827148
+  },
+  {
+   "display_name": "Autoregressive model",
+   "level": 2,
+   "score": 0.5966863036155701
+  },
+  {
+   "display_name": "Interest rate",
+   "level": 2,
+   "score": 0.5602604150772095
+  },
+  {
+   "display_name": "Stock market",
+   "level": 3,
+   "score": 0.5536396503448486
+  },
+  {
+   "display_name": "Random walk",
+   "level": 2,
+   "score": 0.4376183748245239
+  },
+  {
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.3425833582878113
+  },
+  {
+   "display_name": "Statistics",
+   "level": 1,
+   "score": 0.3257880210876465
+  },
+  {
+   "display_name": "Monetary economics",
+   "level": 1,
+   "score": 0.0788697600364685
+  },
+  {
+   "display_name": "Geography",
+   "level": 0,
+   "score": 0.07365494966506958
+  },
+  {
+   "display_name": "Archaeology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "display_name": "Context (archaeology)",
+   "level": 2,
+   "score": 0.0
+  }
+ ],
+ "keywords": [
+  {
+   "display_name": "Heteroscedasticity",
+   "score": 0.8078110814094543
+  },
+  {
+   "display_name": "Econometrics",
+   "score": 0.7450157403945923
+  },
+  {
+   "display_name": "Stock (firearms)",
+   "score": 0.6470778584480286
+  },
+  {
+   "display_name": "Economics",
+   "score": 0.6431951522827148
+  },
+  {
+   "display_name": "Autoregressive model",
+   "score": 0.5966863036155701
+  },
+  {
+   "display_name": "Interest rate",
+   "score": 0.5602604150772095
+  },
+  {
+   "display_name": "Stock market",
+   "score": 0.5536396503448486
+  },
+  {
+   "display_name": "Random walk",
+   "score": 0.4376183748245239
+  },
+  {
+   "display_name": "Mathematics",
+   "score": 0.3425833582878113
+  },
+  {
+   "display_name": "Statistics",
+   "score": 0.3257880210876465
+  },
+  {
+   "display_name": "Monetary economics",
+   "score": 0.0788697600364685
+  },
+  {
+   "display_name": "Geography",
+   "score": 0.07365494966506958
+  }
+ ],
+ "topics": [
+  {
+   "display_name": "Financial Markets and Investment Strategies",
+   "score": 0.9976999759674072
+  },
+  {
+   "display_name": "Complex Systems and Time Series Analysis",
+   "score": 0.9969000220298767
+  },
+  {
+   "display_name": "Monetary Policy and Economic Impact",
+   "score": 0.9958000183105469
+  }
+ ]
+}

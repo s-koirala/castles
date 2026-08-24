@@ -1,0 +1,28 @@
+{
+ "query_id": "vh-practitioner-06",
+ "platform": "WebFetch tool (CQG Integrated Client help)",
+ "date_searched": "2026-08-24",
+ "purpose": "Market Profile vendor-documentation vocabulary harvest (the same CQG help pages the regime-classification review identified as the nearest-to-tier-2 Market Profile source).",
+ "url_verbatim": "https://help.cqg.com/cqgic/23/Documents/marketprofilemp.htm",
+ "terms_harvested": [
+  "Market Profile (MP)",
+  "TPO (time price opportunity)",
+  "volume profile",
+  "value area (70% of actual volume)",
+  "initial balance range (IBR)",
+  "opening price marker",
+  "mid-point marker",
+  "tick volume",
+  "actual volume"
+ ],
+ "terms_absent": [
+  "point of control",
+  "day types",
+  "balance",
+  "rotation",
+  "initiative",
+  "responsive",
+  "auction",
+  "single prints - not defined on this page"
+ ]
+}

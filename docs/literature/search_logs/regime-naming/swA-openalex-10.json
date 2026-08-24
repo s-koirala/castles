@@ -1,0 +1,154 @@
+{
+ "log_id": "swA-openalex-10",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"order block\" trading",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22order%20block%22%20trading&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 64,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "",
+   "title": "Learning with Blocks: Composite Likelihood and Contrastive Divergence",
+   "year": 2010,
+   "venue": null,
+   "cited_by": 35
+  },
+  {
+   "DOI": "10.1007/s13369-018-3103-8",
+   "title": "Efficient Signal Detection Methods for High Mobility OFDM System with Transmit Diversity",
+   "year": 2018,
+   "venue": "Arabian Journal for Science and Engineering",
+   "cited_by": 3
+  },
+  {
+   "DOI": "10.1017/s0020818325100970",
+   "title": "Making Bribery Profitable Again? The Market Effects of Suspending Accountability for Overseas Bribery",
+   "year": 2025,
+   "venue": "International Organization",
+   "cited_by": 2
+  },
+  {
+   "DOI": "10.1109/access.2026.3663386",
+   "title": "A Meta-Adaptive Framework Combining Gated Attention Mechanisms and Feature-Wise Modulation for Multi-Horizon Stock Price Movement Prediction",
+   "year": 2026,
+   "venue": "IEEE Access",
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.1109/ispec48194.2019.8975313",
+   "title": "Application of Block Orders in European Electricity Market and Its Implications for Guangdong",
+   "year": 2019,
+   "venue": "2019 IEEE Sustainable Power and Energy Conference (iSPEC)",
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.5281/zenodo.21734781",
+   "title": "LAB #442 NEUTRAL: VIDEO SCOUT: Order Block Simplified - Smart Money Course — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "",
+   "title": "Making bribery profitable again? The market effects of suspending accountability for overseas bribery",
+   "year": 2025,
+   "venue": "Strathprints: The University of Strathclyde institutional repository (University of Strathclyde)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21637311",
+   "title": "LAB #296 NEUTRAL: VIDEO SCOUT: Order Blocks vs. Fair Value Gaps: The Ultimate Guide to Smarter Entries! — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.55041/ijcope.v2i4.862",
+   "title": "Develop Comprehensive Market Analysis for Strategic Decision Making",
+   "year": 2026,
+   "venue": "International Journal of Creative and Open Research in Engineering and Management",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.31234/osf.io/r5qcn_v1",
+   "title": "AI-Assisted Visual Search: Effects of Cueing Method and Display Type on Detection, Compliance, and Skill Retention",
+   "year": 2026,
+   "venue": null,
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21962127",
+   "title": "LAB #1067 NEUTRAL: VIDEO SCOUT: How I Am Going To Win The Robbins Cup 2024 — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.22065141",
+   "title": "LAB #1615 NEUTRAL: VIDEO SCOUT: A High-Quality Order Block Trading Strategy for Forex, Stocks & Crypto | ICT Smart Mone — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.26153/tsw/62438",
+   "title": "Scheduling and resource allocation in modern distributed systems : applications to federated learning, blockchains, and large language models",
+   "year": 2025,
+   "venue": "Open MIND",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21714264",
+   "title": "LAB #371 HARMFUL: VIDEO SCOUT: Learn Every ICT Concept in 17 Minutes (Liquidity, FVG, Order Blocks & More) — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21734780",
+   "title": "LAB #442 NEUTRAL: VIDEO SCOUT: Order Block Simplified - Smart Money Course — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21714342",
+   "title": "LAB #376 HARMFUL: VIDEO SCOUT: I Backtested This Easy ICT/SMC Forex Strategy For 6 Months! | Judas Swing — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21714343",
+   "title": "LAB #376 HARMFUL: VIDEO SCOUT: I Backtested This Easy ICT/SMC Forex Strategy For 6 Months! | Judas Swing — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21734547",
+   "title": "MODEL ADOPTION #423: REJECT — VIDEO SCOUT: Best Order Block Trading Strategy You Can Find! — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21912468",
+   "title": "LAB #960 HARMFUL: VIDEO SCOUT: Best Order Block Trading Strategy (Smart Money Concepts SMC) — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21832340",
+   "title": "LAB #794 PROMISING: VIDEO SCOUT: The GAME CHANGER SMC Order Block & Volume Profile Strategy | 4,000% ROI Trade — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  }
+ ]
+}

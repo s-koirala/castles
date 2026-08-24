@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-09",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=flight+to+quality+flight+to+safety+stock+bond+correlation+episodes&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 3212424,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.58837/chula.is.2021.85",
+   "title": "Does bond market development impact the flight-to-quality  from stock to bond during COVID-19?",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": "This paper analyzed flight to quality effect from stocks to government bonds in 46 countries including developed and emerging countries during COVID pandemic. The empirical result from panel data framework shows that the flights exist and government bonds remain offered diversification benefit to investors when they are most needed. The negative stock-bond correlation was also amplified when pandemic is more severe in developed countries. Moreover, this study reveals that countries with a higher degree of bond market development can support bonds act as a safe haven better and have more negative in stock-bond correlation."
+  },
+  {
+   "DOI": "10.2139/ssrn.1971651",
+   "title": "Contagion or Flight-to-Quality Phenomena in Stock and Bond Returns",
+   "year": 2011,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.15294/ipsr.v7i2.37838",
+   "title": "Time-Varying Correlation Between Stock and Government Bond in Asia: Flight-to-Quality",
+   "year": 2022,
+   "container": "Politik Indonesia: Indonesian Political Science Review",
+   "type": "journal-article",
+   "abstract": "This study aims to provide an overview of how the relationship between stock and bond market in Asia when a crisis occurs (in this case the 2008 global crisis and the COVID-19 pandemic) using the DCC-GARCH method to prove the flight-to-quality phenomenon in Asia (China, Japan, Indonesia, Singapore, Malaysia, Thailand, and India). The results showed that during the 2008 global crisis, the flight-to-quality phenomenon happened in Thailand where the correlation between stock returns and government bonds in that country became increasingly negative during the crisis period, indicating that there was a shift in investment from stocks to government bonds. In addition, this research also proved that during the COVID-19 pandemic, the flight-to-quality phenomenon was also proven to occur in Malaysia."
+  },
+  {
+   "DOI": "10.14264/2dac3d3",
+   "title": "The Performance of Global Public Real Estate Securities during Flight to Safety Episodes",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3386/w12376",
+   "title": "Flight-to-Quality or Flight-to-Liquidity? Evidence From the Euro-Area Bond Market",
+   "year": 2006,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1109/icqr.2011.6031671",
+   "title": "Improving flight safety in combat training: A step forward",
+   "year": 2011,
+   "container": "2011 IEEE International Conference on Quality and Reliability",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.4634852",
+   "title": "Flight to Quality between Stock and Bond in Indonesia-Usa: Before and after Global Financial Crisis (Dcc-Garch Model)",
+   "year": 2023,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.irfa.2022.102467",
+   "title": "Stock–bond dependence and flight to/from quality",
+   "year": 2023,
+   "container": "International Review of Financial Analysis",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

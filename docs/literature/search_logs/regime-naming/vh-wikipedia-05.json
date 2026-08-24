@@ -1,0 +1,22 @@
+{
+ "query_id": "vh-wikipedia-05",
+ "platform": "English Wikipedia MediaWiki API (en.wikipedia.org/w/api.php)",
+ "date_searched": "2026-08-24",
+ "purpose": "vocabulary harvest (redirect synonym graph); tier-5 admissible for term provenance only, never as evidence",
+ "query_url_verbatim": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=redirects&rdlimit=500&titles=Volatility%20%28finance%29",
+ "target_title": "Volatility (finance)",
+ "page_exists": true,
+ "n_redirects": 10,
+ "redirects": [
+  "Historical volatility",
+  "Volatile (Economics)",
+  "Volatility (economics)",
+  "Volatile (economics)",
+  "Rule of 16",
+  "Economic volatility",
+  "Financial volatility",
+  "Price fluctuation",
+  "Market volatility",
+  "Stock market volatility"
+ ]
+}

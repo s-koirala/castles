@@ -1,0 +1,13 @@
+{
+ "log_id": "swA-arxiv-02",
+ "agent": "sweep-A-practitioner",
+ "platform": "arXiv",
+ "database": "export.arxiv.org/api",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "all:\"smart money concepts\"",
+ "request_url": "http://export.arxiv.org/api/query?search_query=all%3A%22smart%20money%20concepts%22&max_results=20",
+ "n_records_total": 0,
+ "n_records_retrieved": 0,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": []
+}

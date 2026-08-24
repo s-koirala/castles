@@ -1,0 +1,161 @@
+{
+ "query_id": "vh-openalex-07",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "purpose": "vocabulary harvest (Stage 1-2 term registry); NOT an evidence query",
+ "seed_record_role": "Huddart, Lang & Yetman 2009 past trading range (f005)",
+ "query_url_verbatim": "https://api.openalex.org/works/doi:10.1287/mnsc.1080.0920",
+ "title": "Volume and Price Patterns Around a Stock's 52-Week Highs and Lows: Theory and Evidence",
+ "concepts": [
+  {
+   "display_name": "Economics",
+   "level": 0,
+   "score": 0.7203188538551331
+  },
+  {
+   "display_name": "Stock price",
+   "level": 3,
+   "score": 0.6663517951965332
+  },
+  {
+   "display_name": "Stock (firearms)",
+   "level": 2,
+   "score": 0.6412240266799927
+  },
+  {
+   "display_name": "Financial economics",
+   "level": 1,
+   "score": 0.6013267636299133
+  },
+  {
+   "display_name": "Econometrics",
+   "level": 1,
+   "score": 0.5138118863105774
+  },
+  {
+   "display_name": "Valuation (finance)",
+   "level": 2,
+   "score": 0.5003306865692139
+  },
+  {
+   "display_name": "Volume-weighted average price",
+   "level": 5,
+   "score": 0.4582672715187073
+  },
+  {
+   "display_name": "Ambiguity",
+   "level": 2,
+   "score": 0.43953096866607666
+  },
+  {
+   "display_name": "Monetary economics",
+   "level": 1,
+   "score": 0.3680041432380676
+  },
+  {
+   "display_name": "Cost price",
+   "level": 4,
+   "score": 0.2862055003643036
+  },
+  {
+   "display_name": "Finance",
+   "level": 1,
+   "score": 0.09594976902008057
+  },
+  {
+   "display_name": "Philosophy",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "display_name": "Paleontology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "display_name": "Linguistics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "display_name": "Series (stratigraphy)",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "display_name": "Biology",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "keywords": [
+  {
+   "display_name": "Economics",
+   "score": 0.7203188538551331
+  },
+  {
+   "display_name": "Stock price",
+   "score": 0.6663517951965332
+  },
+  {
+   "display_name": "Stock (firearms)",
+   "score": 0.6412240266799927
+  },
+  {
+   "display_name": "Financial economics",
+   "score": 0.6013267636299133
+  },
+  {
+   "display_name": "Econometrics",
+   "score": 0.5138118863105774
+  },
+  {
+   "display_name": "Valuation (finance)",
+   "score": 0.5003306865692139
+  },
+  {
+   "display_name": "Volume-weighted average price",
+   "score": 0.4582672715187073
+  },
+  {
+   "display_name": "Ambiguity",
+   "score": 0.43953096866607666
+  },
+  {
+   "display_name": "Monetary economics",
+   "score": 0.3680041432380676
+  },
+  {
+   "display_name": "Cost price",
+   "score": 0.2862055003643036
+  },
+  {
+   "display_name": "Finance",
+   "score": 0.09594976902008057
+  }
+ ],
+ "topics": [
+  {
+   "display_name": "Financial Markets and Investment Strategies",
+   "score": 0.9998000264167786
+  },
+  {
+   "display_name": "Market Dynamics and Volatility",
+   "score": 0.9965000152587891
+  },
+  {
+   "display_name": "Corporate Finance and Governance",
+   "score": 0.9950000047683716
+  }
+ ]
+}

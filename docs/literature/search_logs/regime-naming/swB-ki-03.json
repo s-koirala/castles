@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-03",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Mood+The+Distribution+Theory+of+Runs+Annals+of+Mathematical+Statistics&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 5362694,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1214/aoms/1177731825",
+   "title": "The Distribution Theory of Runs",
+   "year": 1940,
+   "container": "The Annals of Mathematical Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1214/aoms/1177731281",
+   "title": "Asymptotic Distribution of Runs Up and Down",
+   "year": 1944,
+   "container": "The Annals of Mathematical Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1214/aoms/1177731121",
+   "title": "The Asymptotic Distribution of Runs of Consecutive Elements",
+   "year": 1945,
+   "container": "The Annals of Mathematical Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

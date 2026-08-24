@@ -1,0 +1,88 @@
+{
+ "query_id": "vh-websearch-01",
+ "platform": "WebSearch tool (Claude Code harness; US-region web index)",
+ "date_searched": "2026-08-24",
+ "purpose": "Locator queries for practitioner-taxonomy sources; results are URL lists used to select fetch targets, not bibliographic records.",
+ "queries": [
+  {
+   "sub_id": "ws-vh-01",
+   "query_verbatim": "Wyckoff method schematics accumulation distribution phases spring upthrust \"sign of strength\" \"last point of support\" trading range",
+   "selected_target": "chartschool.stockcharts.com Wyckoff tutorial (vh-practitioner-01)",
+   "vocabulary_in_snippets": [
+    "UTAD (upthrust after distribution)",
+    "spring",
+    "terminal shakeout",
+    "phases A-E",
+    "preliminary support/supply",
+    "selling/buying climax",
+    "automatic rally/reaction",
+    "one-timeframing",
+    "cause phase",
+    "lower high",
+    "false breakout/breakdown"
+   ]
+  },
+  {
+   "sub_id": "ws-vh-02",
+   "query_verbatim": "\"Trading Systems and Methods\" Kaufman table of contents chapters \"trend systems\" \"momentum\" \"charting\" \"price distribution\" \"pattern\"",
+   "selected_target": "onlinelibrary.wiley.com/doi/book/10.1002/9781119202561 (vh-practitioner-04)"
+  },
+  {
+   "sub_id": "ws-vh-03",
+   "query_verbatim": "Edwards Magee \"Technical Analysis of Stock Trends\" table of contents \"The Dow Theory\" \"Important Reversal Patterns\" \"Consolidation Formations\" chapters",
+   "selected_target": "www.gbv.de/dms/zbw/1018045325.pdf (vh-practitioner-02)"
+  },
+  {
+   "sub_id": "ws-vh-04",
+   "query_verbatim": "Murphy \"Technical Analysis of the Financial Markets\" table of contents chapters \"Dow Theory\" \"trend\" \"continuation patterns\" \"reversal patterns\" \"moving averages\" \"oscillators\"",
+   "selected_target": "archive.org full-text djvu.txt (vh-practitioner-03)"
+  },
+  {
+   "sub_id": "ws-vh-05",
+   "query_verbatim": "Dalton \"Mind Over Markets\" Market Profile glossary \"initiative\" \"responsive\" \"range extension\" \"balance\" \"rotation\" \"value area\" day types \"trend day\" \"neutral day\"",
+   "selected_target": "www.windotrader.com glossary index (vh-practitioner-05)",
+   "vocabulary_in_snippets": [
+    "initiative buying/selling",
+    "responsive activity",
+    "range extension",
+    "rotational market",
+    "balanced market",
+    "value migration",
+    "one-timeframing",
+    "excess at extreme",
+    "horizontal development"
+   ]
+  }
+ ],
+ "failed_fetches": [
+  {
+   "url": "https://www.investopedia.com/terms/s/support.asp",
+   "error": "WebFetch blocked for www.investopedia.com",
+   "consequence": "Investopedia related-terms arm not executable this session; recorded as a declared limit in section 4 of the registry"
+  },
+  {
+   "url": "https://www.routledge.com/Technical-Analysis-of-Stock-Trends/Edwards-Magee-Bassetti/p/book/9781032241821",
+   "error": "HTTP 403"
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/technical-analysis-of/9781498785549/",
+   "error": "HTTP 403"
+  },
+  {
+   "url": "https://www.wiley.com/en-us/Trading+Systems+and+Methods%2C+6th+Edition-p-9781119605393",
+   "error": "HTTP 403"
+  },
+  {
+   "url": "https://www.penguinrandomhouse.com/books/351162/technical-analysis-of-the-financial-markets-by-john-j-murphy/",
+   "error": "HTTP 404"
+  },
+  {
+   "url": "https://chartschool.stockcharts.com/table-of-contents/market-analysis/the-wyckoff-method/wyckoff-market-cycles",
+   "error": "HTTP 404 (page moved); tutorial page used instead"
+  },
+  {
+   "url": "https://docs.preterhuman.net/John_J._Murphy_-_Technical_Analysis_Of_The_Financial_Markets_(1999)",
+   "error": "HTTP 403"
+  }
+ ]
+}

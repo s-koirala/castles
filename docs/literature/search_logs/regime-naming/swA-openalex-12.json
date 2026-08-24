@@ -1,0 +1,105 @@
+{
+ "log_id": "swA-openalex-12",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"selling climax\" OR \"buying climax\"",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22selling%20climax%22%20OR%20%22buying%20climax%22&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 13,
+ "n_records_retrieved": 13,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "",
+   "title": "Dow Theory for the 21st Century: Technical Indicators for Improving Your Investment Results",
+   "year": 2008,
+   "venue": null,
+   "cited_by": 12
+  },
+  {
+   "DOI": "10.5281/zenodo.22022738",
+   "title": "New edge proposed: waiting_for_drop_base_reversal — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.25313/2520-2294-2021-7-7402",
+   "title": "VENTURE CAPITAL AND IPO UNDERPRICING IN CHINA",
+   "year": 2018,
+   "venue": "International scientific journal Internauka Series Economical Sciences",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21912647",
+   "title": "New edge proposed: bullish_volume_climax_exhaustion_reversal — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.1002/9781119196822.index",
+   "title": "Index",
+   "year": 2012,
+   "venue": null,
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21867797",
+   "title": "New edge proposed: volume_climax_reversal — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21912649",
+   "title": "LAB #974 NEUTRAL: TG AUTO: New edge proposed: bullish_volume_climax_exhaustion_reversal — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21912648",
+   "title": "New edge proposed: bullish_volume_climax_exhaustion_reversal — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.1002/9780470428412.ch8",
+   "title": "Capitulation: The Selling Climax",
+   "year": 2012,
+   "venue": null,
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.1002/9781119202622.ch21",
+   "title": "Detailed Day Trading Examples",
+   "year": 2012,
+   "venue": null,
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21912650",
+   "title": "LAB #974 NEUTRAL: TG AUTO: New edge proposed: bullish_volume_climax_exhaustion_reversal — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21867798",
+   "title": "New edge proposed: volume_climax_reversal — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.22022739",
+   "title": "New edge proposed: waiting_for_drop_base_reversal — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  }
+ ]
+}

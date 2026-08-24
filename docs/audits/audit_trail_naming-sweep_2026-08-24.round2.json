@@ -1,0 +1,116 @@
+{
+  "round": 2,
+  "date": "2026-08-24",
+  "cwd": "C:/Users/skoir/castles",
+  "artifacts": [
+    "docs/literature/vocabulary_regime-synonyms_2026-08-24.md",
+    "docs/literature/lit_review_regime-naming_2026-08-24.md",
+    "docs/literature/lit_review_regime-naming-a_2026-08-24.md",
+    "docs/literature/lit_review_regime-naming-b_2026-08-24.md",
+    "docs/literature/lit_review_regime-definitions_2026-08-21.md",
+    "docs/research_notes/research_agenda_regime-classification_2026-08-21.md"
+  ],
+  "taskSpec": "Round 2 (verify-only) of the naming-sweep loop (deliverable_spec_naming-sweep_2026-08-24.md). Round 1 retained five majors, all now remediated: REV-1-1 / SCOPE-1-1 / LITERATURE-1-2 (one defect, three findings — the agenda's unbounded exclusivity clause) — agenda item (d) now reads: bounded survivor for the 59 surveyed definitions, then 'Outside the explosive family, no other located vocabulary was classified by the sweeps as carrying a time-t assignment null — but the nearest candidates are unadjudicated, not absent: drawdown/drawup episodes (NB-02/NB-08) and flight-to-quality (NB-13) attach stated nulls at filtered causality and were screened only at abstract depth; whether their nulls attach to the assignment procedure itself awaits the full-text pass'; branch 3's restatement now reads 'the only detector the sweeps classified as carrying its own time-t assignment null (nearest unadjudicated candidates at abstract depth: NB-02/NB-08 drawdown episodes, NB-13 flight-to-quality)'. REV-1-2 — the term registry now carries a 2026-08-24 post-sweep append-only addendum registering all 12 flagged families as rows (6 swept-in-line with record pointers, 6 open with the tier-5 zero-yield rationale; variant generation explicitly deferred to the sweeping round), and the umbrella's saturation sentence was corrected to point at that addendum and the part-record flags. LITERATURE-1-1 — part A line 481 prose corrected from 'Ige (2024)' to 'Pal (2024)' with a bracketed dated correction note citing the audit finding, the arXiv export API, and the id-stability decision (store id ige2024arxiv240318839 retained, store entry was already correct). VERIFY ONLY: (a) each remediation present and adequate against its fix specification; (b) the supersession chain is now consistent — addendum, umbrella §3, and agenda (d) carry compatible bounded survivors (the agenda's additional sentence is bounded to what the sweeps classified and names its unadjudicated candidates, which the fix specifications permitted as option two); (c) no new defect in the edit vicinities; (d) the registry addendum is append-only (nothing above its rule edited) and its 12 rows reconcile with part A §8.4 + part B §8.7. DO NOT re-raise: the 14 round-1 logged minors (deferred per invitesPolish=false); the G16 class; the abstract-depth caveat on the Phillips records (already the artifacts' own declared control); terminal bookkeeping (spec ticks, ReproLog, commit — sequenced after accept).",
+  "routing": [
+    "critical-reviewer",
+    "scope-auditor",
+    "literature-check"
+  ],
+  "tiers": [
+    {
+      "branch": "critical-reviewer",
+      "effort": "high"
+    },
+    {
+      "branch": "scope-auditor",
+      "effort": "medium"
+    },
+    {
+      "branch": "literature-check",
+      "effort": "high"
+    }
+  ],
+  "branch_verdicts": {
+    "critical-reviewer": "accept",
+    "scope-auditor": "accept",
+    "literature-check": "accept"
+  },
+  "residual_risks": {
+    "critical-reviewer": "All five round-1 majors are verified remediated to their fix specifications: the agenda's exclusivity clause is now a bounded survivor whose unadjudicated-candidate sentence is accurate against part B's own extraction table (NB-02/NB-08 and NB-13 carry stated nulls at F-class causality, screened at abstract depth, assignment-attachment genuinely open); the branch-3 restatement carries the matching parenthetical; the registry addendum registers all 12 flagged families (7 from part A §8.4, 5 from part B §8.7 — exact reconciliation) with correct record pointers and a preserved variant-provenance discipline; the umbrella saturation paragraph points at the addendum; and the Ige-to-Pal correction is present with all three required citations, residual 'Ige' strings surviving only in the immutable audit trail and harvest log where they belong. The supersession chain (survey addendum, umbrella §3, agenda (d)) is consistent. Residual risks, none blocking: (1) the two minors above; (2) part A §8.4 item 8's collision-ledger additions (Climax granite homonym; OpenAlex hyphen failure on 'one-time framing') are flagged in the part record but not yet appended to the registry's §3 homonym ledger — the fix specification did not require this and the next sweeping round will consult the part records, but the registry-as-instrument is one step behind its flags on collisions as it no longer is on families; (3) the whole classification distinction the bounded survivor now rests on ('null attaches to the assignment procedure' vs 'null attaches at filtered causality') is adjudicable only at the full-text pass the artifacts themselves schedule — until that pass runs, the explosive family's uniqueness claim is a classification of abstract-depth evidence, which the artifacts state plainly; (4) append-only status of the registry addendum was corroborated internally, not digest-verified (REV-2-2). Terminal bookkeeping (spec ticks, ReproLog, provenance commit) remains sequenced after accept per the task spec.",
+    "scope-auditor": "Two limits on this verify-only pass. (1) Append-only verification of the registry addendum was structural, not byte-level: this branch has no shell access, so \"no entry above the rule edited\" was checked by placement and content consistency (family counts, tradition tallies at lines 440-442 still summing as before) rather than a git diff against the pre-remediation blob; the terminal bookkeeping stage should let the deterministic append-only check (already listed under Self-executed in the spec) confirm byte-identity. (2) The agenda's plural phrasing \"attach stated nulls at filtered causality\" is exactly precise for NB-02 and NB-13 but NB-08 is a pure null-apparatus record with causality n/a per part B's own table; the delivered sentence matches the round-1 fix specification verbatim, so this is not drift, and the imprecision is self-correcting because the same sentence defers adjudication to the full-text pass. The open items the artifacts themselves declare (6 unswept families, S2 outage recall gap, abstract-depth screening) are documented drift within the spec's own saturation-adjudication clause, not findings.",
+    "literature-check": "All five round-1 majors are verified remediated, with the two load-bearing external citations re-verified against primary sources this round: arXiv export API confirms sole author Jai Pal for 2403.18839 (LITERATURE-1-1 correction factually right; both CSL stores already correct), and Crossref confirms Phillips, Wu & Yu 2011 (Int Econ Rev 52(1):201-226, doi:10.1111/j.1468-2354.2010.00625.x) and Phillips, Shi & Yu 2015 (Int Econ Rev 56(4):1043-1078, doi:10.1111/iere.12132) exactly as cited in the agenda (d) and umbrella section 3 edits. The supersession chain (regime-definitions addendum, umbrella section 3, agenda (d)) carries compatible bounded survivors, and the agenda's exclusivity sentence is now bounded to what the sweeps classified, matching part B's own inventory (only NB-04/NB-05 described as a null attached to the assignment procedure; NB-02/NB-08 and NB-13 correctly held as unadjudicated at abstract depth). The addendum's 12 rows reconcile exactly with part A section 8.4 items 1-7 plus part B section 8.7 items 1-5. Remaining risks, all declared in the artifacts or deferred by design: Phillips content claims rest on abstract-level verification pending the flagged full-text pass before branch-3 quantitative use; whether NB-02/NB-08/NB-13 nulls attach to the assignment procedure awaits that same pass; append-only status of the registry addendum is verified content-level and by git history only (no pinned pre-addendum digest, LITERATURE-2-3); the misattribution persists in one tracked search-log annotation (LITERATURE-2-2). None of the three new minors blocks acceptance; per invitesPolish=false they can be logged alongside the 14 deferred round-1 minors."
+  },
+  "remediate": [],
+  "refuted": [],
+  "minors_logged": [
+    {
+      "id": "REV-2-1",
+      "severity": "minor",
+      "category": "consistency",
+      "location": "docs/literature/lit_review_regime-naming_2026-08-24.md:122-127 vs docs/literature/vocabulary_regime-synonyms_2026-08-24.md:467",
+      "issue": "Umbrella §4's 'Logged open, not swept' bullet characterizes all six open families — including 'technical range' — as 'all tier-5 ICT/Wyckoff-adjacent micro-vocabulary in clusters where this round's academic-platform yield was zero across every executed variant'. The new registry addendum (correctly) classifies 'technical range' differently: tradition 'academic near-miss', rationale 'single-source flag, part A' — it derives from excluded record E1 (an OMICS-venue paper), not from the ICT/Wyckoff tier-5 zero-yield stratum. The remediation created a mild characterization mismatch between the umbrella sentence's pre-existing rationale clause and the addendum row it now points at.",
+      "evidence": "Umbrella: 'absorption, liquidity void, Judas swing, inversion FVG, midnight opening gap, \"technical range\" — all tier-5 ICT/Wyckoff-adjacent micro-vocabulary in clusters where this round's academic-platform yield was zero'. Addendum row: '| \"technical range\" (theorized construct) | academic near-miss | range family | both | open — not swept (single-source flag, part A) |'. Part A §8.4 item 7: 'technical range (as a theorized construct; E1's title term - excluded record...)'.",
+      "fix": "In umbrella §4, qualify the rationale clause, e.g. 'five are tier-5 ICT/Wyckoff-adjacent micro-vocabulary with evidenced zero academic yield; \"technical range\" is an academic near-miss carried on a single excluded-record flag (E1)'. One-line edit; the addendum itself needs no change.",
+      "reference": "CHAMP item 19 (internal consistency of reported findings); SAMPL general reporting principle that a quantity appearing twice must agree",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "REV-2-2",
+      "severity": "minor",
+      "category": "verification-gap",
+      "location": "docs/literature/vocabulary_regime-synonyms_2026-08-24.md:446-452",
+      "issue": "The registry addendum asserts the append-only convention ('no entry above this rule edited') but, unlike the project's own precedent in the regime-definitions survey addendum, records no pre-addendum SHA-256, so the append-only claim is not mechanically verifiable from the artifact alone. This round's verification of criterion (d) rests on internal corroboration (unchanged §5 tallies of 137 head terms; none of the 12 families present in the §2 body; drawdown still spatial-only in §2.4) rather than on a digest check.",
+      "evidence": "Registry addendum: 'Appended per the register/living-doc convention (append-only; no entry above this rule edited).' Contrast survey addendum (lit_review_regime-definitions_2026-08-21.md:1241-1242): 'no entry above this rule is edited (pre-addendum SHA-256 b561340781d8bc3de3ce0b7aa18b7d1f75414428fe111c4abaff574e8e2e4464).'",
+      "fix": "Add the pre-addendum SHA-256 to the addendum header, recoverable deterministically from the registry blob at the last pre-addendum commit; matches the digest-citation discipline the project CLAUDE.md already mandates for gitignored artifacts.",
+      "reference": "Project reproducibility contract (digest-cited artifacts); CHAMP item 22 (sufficient detail for verification)",
+      "branch": "critical-reviewer"
+    },
+    {
+      "id": "LITERATURE-2-1",
+      "severity": "minor",
+      "category": "misattributed-rationale",
+      "location": "docs/literature/lit_review_regime-naming_2026-08-24.md:121-128 (§4, open-families bullet)",
+      "issue": "The sentence immediately preceding the REV-1-2 remediation lumps \"technical range\" into \"all tier-5 ICT/Wyckoff-adjacent micro-vocabulary in clusters where this round's academic-platform yield was zero\", but the remediated registry addendum row and part A both give a different, accurate rationale: academic near-miss, single-source flag (E1, OMICS-venue exclusion in the range cluster, where academic yield was not zero).",
+      "evidence": "Umbrella §4: \"absorption, liquidity void, Judas swing, inversion FVG, midnight opening gap, 'technical range' — all tier-5 ICT/Wyckoff-adjacent micro-vocabulary...\"; registry addendum row: \"'technical range' (theorized construct) | academic near-miss | ... open — not swept (single-source flag, part A)\"; part A E1 and §8.4 item 7. Possible overlap with the 14 round-1 logged minors — flagged only because it sits in the direct edit vicinity of the corrected saturation sentence and now conflicts with the remediated addendum row.",
+      "fix": "In umbrella §4, carve technical range out of the tier-5 ICT/Wyckoff rationale, e.g. \"...midnight opening gap — all tier-5 ICT/Wyckoff-adjacent micro-vocabulary...; plus 'technical range', an academic near-miss held open on a single-source flag (part A, E1)\".",
+      "reference": "docs/literature/vocabulary_regime-synonyms_2026-08-24.md addendum table; docs/literature/lit_review_regime-naming-a_2026-08-24.md §6 E1, §8.4",
+      "branch": "literature-check"
+    },
+    {
+      "id": "LITERATURE-2-2",
+      "severity": "minor",
+      "category": "residual-misattribution-in-audit-trail",
+      "location": "docs/literature/search_logs/regime-naming/swA-doicheck-02.json:21",
+      "issue": "The doicheck log entry for 10.48550/arXiv.2403.18839 still annotates the record as \"Ige (arXiv q-fin.TR 2024) via export.arxiv.org\" — the same misattribution corrected by LITERATURE-1-1 — in the very log cited as the DOI-verification trail. The export API in fact returns sole author Jai Pal (verified this round).",
+      "evidence": "swA-doicheck-02.json line 21: '\"10.48550/arXiv.2403.18839\": \"Ige (arXiv q-fin.TR 2024) via export.arxiv.org\"'; arXiv export API query id_list=2403.18839 returns author Jai Pal, title \"Long Short-Term Memory Pattern Recognition in Currency Trading\", q-fin.TR.",
+      "fix": "Do not edit the log line (immutable-record convention); add an append-only annotation entry or sibling note in the log directory pointing at the part A line 481 correction, so the audit trail does not re-propagate the misattribution.",
+      "reference": "https://export.arxiv.org/api/query?id_list=2403.18839",
+      "branch": "literature-check"
+    },
+    {
+      "id": "LITERATURE-2-3",
+      "severity": "minor",
+      "category": "verification-gap",
+      "location": "docs/literature/vocabulary_regime-synonyms_2026-08-24.md:446-452 (addendum preamble)",
+      "issue": "The registry addendum asserts append-only (\"no entry above this rule edited\") but, unlike the sibling addendum in lit_review_regime-definitions_2026-08-21.md, records no pre-addendum SHA-256, so the assertion is not independently checkable from the artifact alone; it rests on git history.",
+      "evidence": "Registry addendum preamble carries no digest; regime-definitions addendum pins pre-addendum SHA-256 b561340781d8bc3de3ce0b7aa18b7d1f75414428fe111c4abaff574e8e2e4464. Content-level spot checks found no sign of edits above the rule: §5 tallies still match the table row counts (e.g. §2.1 = 11 rows, §2.2 = 12 rows) and the addendum rows are correctly excluded from the §5 tallies.",
+      "fix": "Record the pre-addendum SHA-256 of the registry file in the addendum preamble (or cite the pre-addendum git blob hash) to make the append-only claim self-verifying, matching the convention already used in the regime-definitions addendum.",
+      "reference": "docs/literature/lit_review_regime-definitions_2026-08-21.md:1241-1242",
+      "branch": "literature-check"
+    }
+  ],
+  "refute_gate_dispositions": [],
+  "counts": {
+    "raw_critical": 0,
+    "raw_major": 0,
+    "raw_minor": 5,
+    "refuted": 0,
+    "retained_conservative": 0,
+    "to_remediate": 0,
+    "minors_logged": 5
+  },
+  "verdict": "accept",
+  "rounds_cap": 3,
+  "cap_reached": false,
+  "prior_dispositions": "Round 1 (this spec): 3 branches, all proceed-with-remediation; 5 majors retained through the refute gate — REV-1-1/SCOPE-1-1/LITERATURE-1-2 (agenda exclusivity clause, one defect thrice-found), REV-1-2 (umbrella misdescribed registry state), LITERATURE-1-1 (Ige→Pal author misattribution) — all remediated per taskSpec; 14 minors logged not remediated per invitesPolish=false. Standing: G16 closed on handle-API evidence; F-5 aggregate-only verification inadmissible; append-only/strike-don't-delete conventions; bounded-universal phrasing discipline is the session's named hazard, now enforced twice."
+}

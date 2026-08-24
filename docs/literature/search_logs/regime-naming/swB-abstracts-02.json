@@ -1,0 +1,190 @@
+{
+ "backfill_id": "swB-abstracts-02",
+ "platform": "OpenAlex REST API (api.openalex.org), GET works/doi:{doi}",
+ "date": "2026-08-24",
+ "items": [
+  {
+   "DOI": "10.3386/w8992",
+   "openalex_id": "https://openalex.org/W1833087515",
+   "title": "U.S. Stock Market Crashes and Their Aftermath: Implications for Monetary Policy",
+   "authors": [
+    "Frederic S. Mishkin",
+    "Eugene N. White"
+   ],
+   "abstract": "This paper examines fifteen historical episodes of stock market crashes and their aftermath in the United States over the last one hundred years. Our basic conclusion from studying these episodes is that financial instability is the key problem facing monetary policy makers and not stock market crashes, even if they reflect the possible bursting of a bubble. With a focus on financial stability rather than the stock market, the response of central banks to stock market fluctuations is more likely to be optimal and maintain support for the independence of the central bank."
+  },
+  {
+   "DOI": "10.21314/jor.2002.058",
+   "openalex_id": "https://openalex.org/W2950713166",
+   "title": "Large stock market price drawdowns are outliers",
+   "authors": [
+    "Anders Johansen",
+    "Didier Sornette"
+   ],
+   "abstract": "Drawdowns are essential aspects of risk assessment in investment management. They offer a more natural measure of real market risks than the variance or other cumulants of daily (or some other fixed time scale) distributions of returns. Here, we extend considerably our previous analysis by analyzing the major financial indices, the major currencies, gold, the twenty largest U.S. companies in terms of capitalisation as well as nine others chosen randomly. We find for the major financial markets that approximately 98% of the distributions of drawdowns is well-represented by a stretched exponential while the largest drawdowns are occurring with a significantly larger rate than predicted by the stretched exponential: the largest drops thus constitute genuine outliers. This is confirmed by extensive testing on surrogate data, which unambiguously show that large stock market drops (and crashes) cannot be accounted for by the distribution of returns characterising the smaller market moves. They thus belong to a different class of their own and call for a specific amplification mechanism. A similar scenario is found for the majority of the company stocks analysed. Drawups exhibit a similar behavior in only about half the markets that we examined. In the spirit of Bacon in Novum Organum about 400 years ago, ``Errors of Nature, Sports and Monsters correct the understanding in regard to ordinary things, and reveal general forms. For whoever knows the ways of Nature will more easily notice her deviations; and, on the other hand, whoever knows her deviations will more accurately describe her ways,'' we propose that outliers reveal fundamental properties of the stock market."
+  },
+  {
+   "DOI": "10.1111/j.1468-2354.2010.00625.x",
+   "openalex_id": "https://openalex.org/W2139238934",
+   "title": "EXPLOSIVE BEHAVIOR IN THE 1990s NASDAQ: WHEN DID EXUBERANCE ESCALATE ASSET VALUES?*",
+   "authors": [
+    "Peter C.B. Phillips",
+    "Yangru Wu",
+    "Jun Yu"
+   ],
+   "abstract": "A recursive test procedure is suggested that provides a mechanism for testing explosive behavior, date stamping the origination and collapse of economic exuberance, and providing valid confidence intervals for explosive growth rates. The method involves the recursive implementation of a right-side unit root test and a sup test, both of which are easy to use in practical applications, and some new limit theory for mildly explosive processes. The test procedure is shown to have discriminatory power in detecting periodically collapsing bubbles, thereby overcoming a weakness in earlier applications of unit root tests for economic bubbles. An empirical application to the Nasdaq stock price index in the 1990s provides confirmation of explosiveness and date stamps the origination of financial exuberance to mid-1995, prior to the famous remark in December 1996 by Alan Greenspan about irrational exuberance in the financial market, thereby giving the remark empirical content. How do we know when irrational exuberance has unduly escalated asset values? (Alan Greenspan, 1996) Experience can be a powerful teacher. The rise and fall of internet stocks, which created and then destroyed $8 trillion of shareholder wealth, has led a new generation of economists to acknowledge that bubbles can occur. (Alan Krueger, 2005)"
+  },
+  {
+   "DOI": "10.1016/j.jimonfin.2003.09.011",
+   "openalex_id": "https://openalex.org/W2115743302",
+   "title": "Stock market cycles, financial liberalization and volatility",
+   "authors": [
+    "Sebastián Edwards",
+    "Javier Gómez Biscarri",
+    "Fernando Pérez de Gracia"
+   ],
+   "abstract": ""
+  },
+  {
+   "DOI": "10.20955/wp.2006.051",
+   "openalex_id": "https://openalex.org/W3125885060",
+   "title": "When Do Stock Market Booms Occur? The Macroeconomic and Policy Environments of 20th Century Booms",
+   "authors": [
+    "Michael D. Bordo",
+    "David C. Wheelock"
+   ],
+   "abstract": "This paper studies the macroeconomic conditions and policy environments under which stock market booms occurred among ten developed countries during the 20 th Century. We find that booms tended to occur during periods of above-average growth of real output, and below-average and falling inflation. We also find that booms often ended within a few months of an increase in inflation and monetary policy tightening. The evidence suggests that booms reflect both real macroeconomic phenomena and monetary policy, as well as the extant regulatory environment."
+  },
+  {
+   "DOI": "10.1016/j.jbankfin.2007.08.003",
+   "openalex_id": "https://openalex.org/W2135873404",
+   "title": "On measuring synchronization of bulls and bears: The case of East Asia",
+   "authors": [
+    "Bertrand Candelon",
+    "J. Piplack",
+    "Stefan Straetmans"
+   ],
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.jimonfin.2014.12.009",
+   "openalex_id": "https://openalex.org/W3121384180",
+   "title": "The behavior of currencies during risk-off episodes",
+   "authors": [
+    "Reinout De Bock",
+    "Irineu de Carvalho Filho"
+   ],
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.jfs.2008.08.001",
+   "openalex_id": "https://openalex.org/W3123954141",
+   "title": "Flights and contagion—An empirical analysis of stock–bond correlations",
+   "authors": [
+    "Dirk G. Baur",
+    "Brian M. Lucey"
+   ],
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.jfs.2006.06.002",
+   "openalex_id": "https://openalex.org/W2022943116",
+   "title": "Measuring financial stress in a developed country: An application to Canada",
+   "authors": [
+    "Mark Illing",
+    "Ying Liu"
+   ],
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.jfs.2017.07.004",
+   "openalex_id": "https://openalex.org/W2297920637",
+   "title": "Dating systemic financial stress episodes in the EU countries",
+   "authors": [
+    "Thibaut Duprey",
+    "Benjamin Klaus",
+    "Tuomas Peltonen"
+   ],
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1086/294743",
+   "openalex_id": "https://openalex.org/W2090637028",
+   "title": "The Behavior of Stock-Market Prices",
+   "authors": [
+    "Eugene F. Fama"
+   ],
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/01621459.1966.10482183",
+   "openalex_id": "https://openalex.org/W2035416181",
+   "title": "Market Making and Reversal on the Stock Exchange",
+   "authors": [
+    "Victor Niederhoffer",
+    "M. F. M. Osborne"
+   ],
+   "abstract": "The accurate record of stock market ticker prices displays striking properties of dependence. We find for example that after a decline of 1/8 of a point between transactions, an advance on the next transaction is three times as likely as a decline. Further examinations disclose that after two price changes in the same direction, the odds in favor of a continuation in that direction are almost twice as great as after two changes in opposite directions. The dealer (specialist) in a stock typically quotes the market by announcing the highest buy order and lowest sell order carried on his book. But these orders tend to be concentrated at integers (26, 43), halves , quarters and odd eighths in descending preference. This non-uniform distribution of orders produces some non-random effects in stock price motion. These properties of the stock market are typical of markets in many second-hand goods."
+  },
+  {
+   "DOI": "10.1109/tetci.2017.2775235",
+   "openalex_id": "https://openalex.org/W2804875651",
+   "title": "Regime Change Detection Using Directional Change Indicators in the Foreign Exchange Market to Chart Brexit",
+   "authors": [
+    "Edward Tsang",
+    "Jun Chen"
+   ],
+   "abstract": "A regime change is a significant change in the collective trading behaviour in a financial market. Being able to detect the occurrence of regime change could lead to a better understanding and monitoring of financial markets. In this paper, a novel method is proposed to detect regime change, which makes use of a data-driven approach, that of directional change (DC). Compared to the conventional approach of using time series analysis, DC is an alternative approach to sample price movement. As variables observed under time series do not apply to DC, our first contributions is the identification of a new relevant indicator for regime change detection. Our second contribution is the comparison of both the DC approach and time series analysis, their ability to achieve regime change detection. The ability of both approaches in regime change detection is examined over a period of market uncertainty, that of Brexit. The results demonstrate that the DC approach is as effective as the time-series approach in detecting regime changes. Moreover, the DC approach is encouraging because some market regime changes are detected under DC, but are not found under time series. That means they support each other in the detection of regime change, and can also provide extra information to complement each other. Together, regime changes detected under both DC and time series provide a better insight into the market, which market participants and regulators could benefit from."
+  },
+  {
+   "DOI": "10.1016/j.physa.2023.128810",
+   "openalex_id": "https://openalex.org/W4367840441",
+   "title": "Incorporating improved directional change and regime change detection to formulate trading strategies in foreign exchange markets",
+   "authors": [
+    "Shicheng Hu",
+    "Weijie Zhang",
+    "Danping Li",
+    "Bing Wu"
+   ],
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/2330259",
+   "openalex_id": "https://openalex.org/W2123002261",
+   "title": "Market Phase and the Stationarity of Beta",
+   "authors": [
+    "Arthur E. Gooding",
+    "Terence P. O'Malley"
+   ],
+   "abstract": "This paper examines the stationarity of beta coefficients, especially in regard to recent, major stock market trends. In addition to the usual correlation tests for stationarity, this paper describes a more direct method for testing the stationarity of portfolio betas. The method involves the use of paired t-tests which show separately the degree of stationarity for each portfolio beta. In the process of testing for stationarity, the portfolio betas also are adjusted for measurement error using a formulation suggested by Blume [3]."
+  },
+  {
+   "DOI": "10.2307/1905515",
+   "openalex_id": "https://openalex.org/W2319031802",
+   "title": "Some A Posteriori Probabilities in Stock Market Action",
+   "authors": [
+    "Alfred Cowles",
+    "Herbert E. Jones"
+   ],
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/1907573",
+   "openalex_id": "https://openalex.org/W1982228074",
+   "title": "A Revision of Previous Conclusions Regarding Stock Price Behavior",
+   "authors": [
+    "Alfred Cowles"
+   ],
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.1100147",
+   "openalex_id": "https://openalex.org/W1595236852",
+   "title": "The Time-Varying Equity Premium and Secular Bull and Bear Markets of the Twentieth Century",
+   "authors": [
+    "Mark Freeman"
+   ],
+   "abstract": ""
+  }
+ ]
+}

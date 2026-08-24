@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-17",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Phillips+Wu+Yu+Explosive+behavior+in+the+1990s+Nasdaq+when+did+exuberance+escalate+asset+values&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 195805,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.972730",
+   "title": "Explosive Behavior and the Nasdaq Bubble in the 1990s: When Did Irrational Exuberance Escalate Asset Values?",
+   "year": 2007,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "A recursive test procedure is suggested that provides a mechanism for testing explosive behavior, date-stamping the origination and collapse of economic bubbles, and providing valid confidence intervals for the bubble growth rate. The method involves the recursive implementation of a right-side unit root test and a sup test, both of which are easy to use in practical applications, and some new limit theory for mildly explosive processes. The test procedure is shown to have discriminatory power in detecting periodically collapsing bubbles, overcoming a weakness in earlier applications of unit root tests for economic bubbles. Some asymptotic properties of the Evans (1991) model of periodically collapsing bubbles are analyzed andthe paper develops a new model in which bubble duration depends on the strength of the cognitive bias underlying herd behavior in the market. An empirical application to Nasdaq stock price index in the 1990s provides confirmation of the existence of a financial bubble and date-stamps the origination of the bubble to June 1995, prior to the famous remark in December 1996 by Alan Greenspan about irrational exuberance in financial market, thereby giving the remark firm empirical content."
+  },
+  {
+   "DOI": "10.1111/j.1468-2354.2010.00625.x",
+   "title": "EXPLOSIVE BEHAVIOR IN THE 1990s NASDAQ: WHEN DID EXUBERANCE ESCALATE ASSET VALUES?*",
+   "year": 2011,
+   "container": "International Economic Review",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.1413830",
+   "title": "Explosive Behavior in the 1990s Nasdaq: When did Exuberance Escalate Asset Values?",
+   "year": 2009,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

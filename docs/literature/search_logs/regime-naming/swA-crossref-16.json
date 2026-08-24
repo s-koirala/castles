@@ -1,0 +1,174 @@
+{
+ "log_id": "swA-crossref-16",
+ "agent": "sweep-A-practitioner",
+ "platform": "Crossref",
+ "database": "api.crossref.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "Bulkowski Encyclopedia of Chart Patterns throwback pullback",
+ "request_url": "https://api.crossref.org/works?query.bibliographic=Bulkowski%20Encyclopedia%20of%20Chart%20Patterns%20throwback%20pullback&rows=20",
+ "n_records_total": 1529442,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.1002/9781119203537",
+   "title": "Visual Guide to Chart Patterns",
+   "container": "",
+   "year": 2012,
+   "type": "edited-book",
+   "author": ""
+  },
+  {
+   "DOI": "10.1002/9781119274933",
+   "title": "Chart Patterns",
+   "container": "",
+   "year": 2016,
+   "type": "monograph",
+   "author": "Bulkowski"
+  },
+  {
+   "DOI": "10.1002/9781119203537.ch20",
+   "title": "The Throwback Buy Setup",
+   "container": "Visual Guide to Chart Patterns",
+   "year": 2012,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.1002/0471667196.ess2723",
+   "title": "Throwback",
+   "container": "Encyclopedia of Statistical Sciences",
+   "year": 2004,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.1002/0471667196.ess2723.pub2",
+   "title": "Throwback",
+   "container": "Encyclopedia of Statistical Sciences",
+   "year": 2005,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.1002/9781119202288",
+   "title": "Encyclopedia of Candlestick Charts",
+   "container": "",
+   "year": 2012,
+   "type": "edited-book",
+   "author": ""
+  },
+  {
+   "DOI": "10.1002/9781119203537.app2",
+   "title": "Visual Appendix of Chart Patterns",
+   "container": "Visual Guide to Chart Patterns",
+   "year": 2012,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.1093/oed/1931831267",
+   "title": "throwback, n. &amp; adj.",
+   "container": "Oxford English Dictionary",
+   "year": 2023,
+   "type": "book-chapter",
+   "author": ""
+  },
+  {
+   "DOI": "10.1002/9781119203537.ch24",
+   "title": "Chart Pattern Sell Signals",
+   "container": "Visual Guide to Chart Patterns",
+   "year": 2012,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.22501/rc.1511512",
+   "title": "Subliminal Throwback complete documentation",
+   "container": "",
+   "year": 2024,
+   "type": "posted-content",
+   "author": "Natasha Barrett"
+  },
+  {
+   "DOI": "10.3998/mpub.12986336.cmp37",
+   "title": "Chart of faunal patterns found on the Kuril Islands",
+   "container": "",
+   "year": null,
+   "type": "component",
+   "author": ""
+  },
+  {
+   "DOI": "10.1002/9781119206552.ch2",
+   "title": "Chart Patterns = Opportunity",
+   "container": "Trading and Investing in the Forex Market Using Chart Techniques",
+   "year": 2012,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.1163/2352-0272_emho_dum_027337",
+   "title": "Chart (nautical)",
+   "container": "Encyclopedia of Early Modern History Online",
+   "year": null,
+   "type": "dataset",
+   "author": ""
+  },
+  {
+   "DOI": "10.1163/2352-0272_emho_dum_031511",
+   "title": "Nautical chart",
+   "container": "Encyclopedia of Early Modern History Online",
+   "year": null,
+   "type": "dataset",
+   "author": ""
+  },
+  {
+   "DOI": "10.4135/9781412953948.n351",
+   "title": "Pie Chart",
+   "container": "Encyclopedia of Epidemiology",
+   "year": 2008,
+   "type": "reference-entry",
+   "author": ""
+  },
+  {
+   "DOI": "10.4135/9781412953948.n32",
+   "title": "Bar Chart",
+   "container": "Encyclopedia of Epidemiology",
+   "year": 2008,
+   "type": "reference-entry",
+   "author": ""
+  },
+  {
+   "DOI": "10.1002/9781119203537.fmatter",
+   "title": "Front Matter",
+   "container": "Visual Guide to Chart Patterns",
+   "year": 2012,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.1002/9781119274933.fmatter",
+   "title": "Front Matter",
+   "container": "Chart Patterns",
+   "year": 2016,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.4135/9781412963855.n1103",
+   "title": "Snellen's Chart",
+   "container": "Encyclopedia of Global Health",
+   "year": 2008,
+   "type": "reference-entry",
+   "author": ""
+  },
+  {
+   "DOI": "10.1002/0471667196.ess2004",
+   "title": "Polar Chart",
+   "container": "Encyclopedia of Statistical Sciences",
+   "year": 2004,
+   "type": "other",
+   "author": ""
+  }
+ ]
+}

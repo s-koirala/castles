@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-18",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Niederhoffer+Osborne+Market+Making+and+Reversal+on+the+Stock+Exchange&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1654750,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1080/01621459.1966.10482183",
+   "title": "Market Making and Reversal on the Stock Exchange",
+   "year": 1966,
+   "container": "Journal of the American Statistical Association",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.5296/ber.v6i2.9326",
+   "title": "The Reversal of Stock Market Trends as a Behavioral Bias: Evidence from Tunisian Stock Exchange",
+   "year": 2016,
+   "container": "Business and Economic Research",
+   "type": "journal-article",
+   "abstract": "This paper examines the behavioral bias in Tunisia, a country with a small stock market in terms of capital, but surprisingly dynamic in comparison to other emerging markets. Our study is consistent with Jegadeesh & Titman (1993)’ approach as presented to highlight an analysis of  such reversal phenomena of portfolio returns, and provides explanatory factors  to the so-called market trends reversal. The empirical investigation is based on a weekly database for a period from January 2002 to January 2013 related to stock prices and index values of market capitalization (TUNINDEX). The empirical test demonstrates the existence of winner-loser phenomenon in accordance with over-reaction hypothesis stating that portfolios with the worst past performance outperform, during the subsequent periods, those having produced best past performance and vice versa."
+  },
+  {
+   "DOI": "10.1007/978-81-322-3748-8_3",
+   "title": "Stock Market Operations and Long-Run Reversal Effect",
+   "year": 2019,
+   "container": "Capital Markets and Investment Decision Making",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

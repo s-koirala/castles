@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-04",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=identifying+market+tops+bottoms+stock+prices+turning+points&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1013831,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1002/9781119198574.ch22",
+   "title": "Market Tops and Bottoms",
+   "year": 2012,
+   "container": "Stop and Make Money",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119198574.ch14",
+   "title": "Tops and Bottoms",
+   "year": 2012,
+   "container": "Stop and Make Money",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.15396/eres2026_065",
+   "title": "The housing market in Poland: turning points, trends, prices",
+   "year": 2026,
+   "container": "32nd Annual European Real Estate Society Conference",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119199502.ch5",
+   "title": "Market Turning Points and Duration of Pauses",
+   "year": 2012,
+   "container": "Full View Integrated Technical Analysis",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/978-3-319-65009-8_4",
+   "title": "Stock Prices Follow a Brownian Motion",
+   "year": 2017,
+   "container": "Contributions to Management Science",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119603672.ch4",
+   "title": "Market Tops and Bottoms",
+   "year": 2019,
+   "container": "Japanese Equities",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.20944/preprints202510.2089.v1",
+   "title": "Explainable Hybrid Modeling of Stock Market Turning Points: An Integrated ARIMA–LSTM–SHAP Approach",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "In recent years, global shocks such as the COVID-19 pandemic, geopolitical conflicts, and trade tensions have amplified volatility in financial markets, increasing the frequency of price turning points. This study addresses the need for artificial intelligence models that are not only predictive but also interpretable. Traditional econometric approaches, such as ARIMA and GARCH, effectively capture linear dependencies yet fail to model nonlinear market dynamics. Machine learning methods, while powerful, often lack transparency. To bridge this gap, this paper proposes an explainable hybrid framework integrating ARIMA, LSTM, and SHAP algorithms. Using daily data from ten major global stock indices (2010–2025), the model employs a hybrid labeling approach that combines price extrema, RSI, and MACD indicators, and enhances forecasting by incorporating ARIMA residual–based feature fusion. Performance is assessed through both statistical (F1-score, PR-AUC, RMSE) and economic (Sharpe ratio) metrics under walk-forward validation. Results demonstrate that the ARIMA–LSTM–SHAP model provides the most balanced trade-off between accuracy and economic efficiency, achieving F1 = 0.60 and Sharpe &amp;gt; 1.5. The findings highlight the framework’s practical value for investors and policymakers, offering early detection of turning cycles and improved risk-informed decision-making."
+  },
+  {
+   "DOI": "10.4324/9781315492292-8",
+   "title": "Forecasting Turning Points in the Stock Market Cycle and Asset Allocation Implications",
+   "year": 2019,
+   "container": "Analyzing Modern Business Cycles",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

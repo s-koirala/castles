@@ -1,0 +1,62 @@
+{
+ "query_id": "vh-practitioner-01",
+ "platform": "WebFetch tool (Claude Code harness)",
+ "date_searched": "2026-08-24",
+ "purpose": "Wyckoff vocabulary harvest. Tier-5 admissible for term provenance only, never as evidence.",
+ "url_verbatim": "https://chartschool.stockcharts.com/table-of-contents/market-analysis/wyckoff-analysis-articles/the-wyckoff-method-a-tutorial",
+ "note": "First attempt at .../the-wyckoff-method/wyckoff-market-cycles returned 404; tutorial page located via ws-vh-01 and fetched successfully.",
+ "terms_harvested": {
+  "price_cycle_phases": [
+   "accumulation",
+   "markup",
+   "distribution",
+   "markdown"
+  ],
+  "trading_range_phases": [
+   "Phase A",
+   "Phase B",
+   "Phase C",
+   "Phase D",
+   "Phase E"
+  ],
+  "accumulation_events": [
+   "preliminary support (PS)",
+   "selling climax (SC)",
+   "automatic rally (AR)",
+   "secondary test (ST)",
+   "spring",
+   "shakeout",
+   "terminal shakeout",
+   "test",
+   "sign of strength (SOS)",
+   "last point of support (LPS)",
+   "back-up (BU)"
+  ],
+  "distribution_events": [
+   "preliminary supply (PSY)",
+   "buying climax (BC)",
+   "automatic reaction (AR)",
+   "secondary test (ST)",
+   "upthrust (UT)",
+   "sign of weakness (SOW)",
+   "last point of supply (LPSY)",
+   "upthrust after distribution (UTAD)"
+  ],
+  "structural_terms": [
+   "trading range (TR)",
+   "cause and effect",
+   "supply and demand",
+   "effort versus result",
+   "composite man",
+   "re-accumulation",
+   "redistribution",
+   "markup campaign",
+   "bear trap",
+   "bull trap",
+   "stepping stones",
+   "horizontal counting",
+   "comparative strength",
+   "line of least resistance"
+  ]
+ }
+}

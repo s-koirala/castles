@@ -1,0 +1,13 @@
+{
+ "log_id": "swA-openalex-08",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"one-time framing\" OR \"initial balance\" AND \"market profile\"",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22one-time%20framing%22%20OR%20%22initial%20balance%22%20AND%20%22market%20profile%22&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 0,
+ "n_records_retrieved": 0,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": []
+}

@@ -1,0 +1,86 @@
+{
+ "query_id": "vh-openalex-08",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "purpose": "vocabulary harvest (Stage 1-2 term registry); NOT an evidence query",
+ "seed_record_role": "Mizrach & Weerts 2009 n-day highs and lows (f005)",
+ "query_url_verbatim": "https://api.openalex.org/works/doi:10.1080/09603100802199679",
+ "title": "Highs and lows: a behavioural and technical analysis",
+ "concepts": [
+  {
+   "display_name": "Portfolio",
+   "level": 2,
+   "score": 0.6095845103263855
+  },
+  {
+   "display_name": "Economics",
+   "level": 0,
+   "score": 0.5764611959457397
+  },
+  {
+   "display_name": "Technical analysis",
+   "level": 2,
+   "score": 0.5155932307243347
+  },
+  {
+   "display_name": "Financial economics",
+   "level": 1,
+   "score": 0.5036103129386902
+  },
+  {
+   "display_name": "Function (biology)",
+   "level": 2,
+   "score": 0.47773119807243347
+  },
+  {
+   "display_name": "Biology",
+   "level": 0,
+   "score": 0.0745047926902771
+  },
+  {
+   "display_name": "Evolutionary biology",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "keywords": [
+  {
+   "display_name": "Portfolio",
+   "score": 0.6095845103263855
+  },
+  {
+   "display_name": "Economics",
+   "score": 0.5764611959457397
+  },
+  {
+   "display_name": "Technical analysis",
+   "score": 0.5155932307243347
+  },
+  {
+   "display_name": "Financial economics",
+   "score": 0.5036103129386902
+  },
+  {
+   "display_name": "Function (biology)",
+   "score": 0.47773119807243347
+  },
+  {
+   "display_name": "Biology",
+   "score": 0.0745047926902771
+  }
+ ],
+ "topics": [
+  {
+   "display_name": "Financial Markets and Investment Strategies",
+   "score": 0.9998999834060669
+  },
+  {
+   "display_name": "Housing Market and Economics",
+   "score": 0.9980999827384949
+  },
+  {
+   "display_name": "Complex Systems and Time Series Analysis",
+   "score": 0.9929999709129333
+  }
+ ]
+}

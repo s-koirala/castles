@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-20",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Katsenelson+Active+Value+Investing+Making+Money+in+Range-Bound+Markets&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2656001,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1002/9781119197362",
+   "title": "Active Value Investing",
+   "year": 2012,
+   "container": "",
+   "type": "edited-book",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2469/faj.v64.n3.13",
+   "title": "Active Value Investing: Making Money in Range-Bound Markets (a review): Active Value Investing: Making Money in Range-Bound Markets 2007 Katsenelson Vitaliy N. CFA John Wiley &amp; Sons, Inc. (800) 225-5945, www.wiley.com . 282 pages, $49.95.",
+   "year": 2008,
+   "container": "Financial Analysts Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119197362.ch1",
+   "title": "Introduction: Range‐Bound Markets Happen",
+   "year": 2012,
+   "container": "Active Value Investing",
+   "type": "other",
+   "abstract": ""
+  }
+ ]
+}

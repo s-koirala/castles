@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-18",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=directional+change+intrinsic+time+regime+foreign+exchange&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 3810724,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.4048864",
+   "title": "Incorporating Improved Directional Change and Regime Change Detection to Formulate Trading Strategies in Foreign Exchange Markets",
+   "year": 2022,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "Trading strategies for securing excess return and controlling investment risks in the FX (foreign exchange) market have attracted the attention of numerous researchers and investors. As a data-driven financial data sampling method, DC (Directional Change) can better capture price changes and perform well in the trading strategies of FX market. However, traditional trading strategies based on DC adopt the method of subjective selection of fixed DC threshold [[EQUATION]] , which depend on the trader&apos;s professional experience and have poor robustness. Moreover, the previous trading rules based on DC are limited to DC event itself, ignoring the grasp of the overall market dynamics. In order to overcome these defects, this paper proposes an intelligent trading algorithm (ITA) for FX market trading. The trading algorithm improves DC by adding attenuation coefficient [[EQUATION]] to the threshold of downward DC trend to make DC more sensitive to downward trend, and then optimizes super parameter combination [[EQUATION]] by Bayesian optimization. Furthermore, it introduces DC-related indicators as the input of HMM (hidden Markov model) to detect the regime change. In order to validate the effectiveness of ITA, we conduct a case study of three currency pairs: EUR/GBP, EUR/USD and EUR/JPY, which compares the proposed ITA with multiple fixed thresholds, dynamic threshold based on improved DC, regime change detection and no regime change detection. The results show that the trading strategy based on improved DC and regime change detection can obtain positive returns and a relatively low level of risk, which shows the effectiveness of the improved DC and regime change detection based on double threshold optimization in foreign exchange market transactions."
+  },
+  {
+   "DOI": "10.1109/tetci.2017.2775235",
+   "title": "Regime Change Detection Using Directional Change Indicators in the Foreign Exchange Market to Chart Brexit",
+   "year": 2018,
+   "container": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7591/cornell/9781501761140.003.0002",
+   "title": "Defining Foreign-Imposed Regime Change",
+   "year": 2021,
+   "container": "Catastrophic Success",
+   "type": "book-chapter",
+   "abstract": "This chapter lays out in detail the definition of foreign-imposed regime change. It distinguishes regime change from related concepts such as the imposition of regimes in new states emerging from colonialism (often referred to as imposed polities); military occupation; annexation; and state death. The chapter then details the three principal ways in which regime change is carried out: compellent threats demanding leader change; invasion; and overt or covert interventions in which external forces work with domestic factions located inside the target or in a nearby state. The chapter presents a list of cases of regime change that took place between 1816 and 2011, then determines the most frequent interveners and targets of regime change. It also investigates trends in regime change over time and across regions of the world and distinguishes among three types of regime change—leadership, institutional, restoration."
+  },
+  {
+   "DOI": "10.1016/j.physa.2023.128810",
+   "title": "Incorporating improved directional change and regime change detection to formulate trading strategies in foreign exchange markets",
+   "year": 2023,
+   "container": "Physica A: Statistical Mechanics and its Applications",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7591/cornell/9781501761140.003.0006",
+   "title": "Foreign-Imposed Regime Change and Interstate Relations",
+   "year": 2021,
+   "container": "Catastrophic Success",
+   "type": "book-chapter",
+   "abstract": "This chapter reviews how foreign-imposed regime change affects relations between interveners and targets. It examines whether interveners get what they want out of regime change. States turn to this tool to replace leaders with divergent preferences and bring to power more agreeable leaders who will act in accordance with the interveners' interests. The chapter first tracks how the dynamics of regime change can generate further conflict between interveners and targets. It then demonstrates, in brief vignettes of several cases, that even when relations between interveners and targets do not devolve into open hostilities, they are often far from harmonious. The chapter investigates Japan's assassination of Manchurian strongman and outgoing Chinese president Chang Tso-lin because this case is followed by several militarized disputes and thus contributes disproportionately to the statistical finding that leadership regime change increases the likelihood of intervener–target armed conflict. It argues that although the details of the case are unusual, there are solid grounds for coding it as a case of regime change."
+  },
+  {
+   "DOI": "10.7591/cornell/9781501761140.003.0004",
+   "title": "Foreign-Imposed Regime Change and Civil War",
+   "year": 2021,
+   "container": "Catastrophic Success",
+   "type": "book-chapter",
+   "abstract": "This chapter considers the relationship between regime change and civil war in target states. It first situates regime change in the literature on the causes of civil war, then briefly recapitulates the arguments for how regime change can cause civil war and outlines specific hypotheses. The chapter also presents quantitative evidence from an analysis of a country–year dataset covering the years 1816 to 2008, which shows that outbreaks of civil conflict are significantly more likely in the years following regime change—particularly leadership regime change. Regime changes that simultaneously promote political institutions in addition to leaders have no overall effect on civil war onset but increase the risk in poor and ethnically diverse countries—that is, where institutional regime changes are likely to fail. The chapter offers evidence from six historical cases that illustrate the two causal mechanisms connecting regime change and civil war."
+  },
+  {
+   "DOI": "10.7591/cornell/9781501761140.003.0003",
+   "title": "Theorizing the Effects of Foreign-Imposed Regime Change",
+   "year": 2021,
+   "container": "Catastrophic Success",
+   "type": "book-chapter",
+   "abstract": "This chapter shifts to the core logic of the theory for why regime change produces counterproductive effects for interveners and in targets. It builds directly on the argument touched on in the book's introduction that states undertake regime change to align a target's preferences with their own on an important issue. The chapter starts by outlining how interstate disputes escalate to regime change, before reviewing the case for regime change—how regime change is supposed to work to generate amicable relations between interveners and targets—in the second section. The chapter then explains in detail the mechanisms of military disintegration and competing principals. It elaborates why regime change often fails to deliver the hoped-for beneficial outcomes. Finally, it reviews the conditions under which regime change is more likely to result in better or worse outcomes."
+  },
+  {
+   "DOI": "10.7591/cornell/9781501761140.003.0005",
+   "title": "Foreign-Imposed Regime Change and the Survival of Leaders",
+   "year": 2021,
+   "container": "Catastrophic Success",
+   "type": "book-chapter",
+   "abstract": "This chapter shows that regime change heightens the risk that leaders are violently removed from office. It investigates whether and how being brought to power by foreign hands affects the tenure of imposed leaders. The chapter then argues that regime change—particularly regime change that simply substitutes one leader for another while paying little attention to supporting institutions—increases the likelihood that the leader so installed will be removed from power by force or the threat of force. It emphasizes that leaders who come to power after foreign-imposed regime change face a significantly higher risk of irregular removal and a lower risk of regular removal. The chapter then identifies the six distinct ways that imposed leaders have been pushed out of power irregularly, discusses the first three types, and provides examples of each. Ultimately, the chapter displays the case studies for two kinds of irregular removal: coups tolerated or encouraged by dissatisfied patrons against wayward protégés (the United States and Duong Van Minh in South Vietnam) and uprisings by dissatisfied domestic audiences against leaders strongly identified with foreign patrons (Emperor Maximilian of Mexico). It then investigates a number of negative cases—cases in which imposed leaders managed to remain in power for lengthy periods—to identify factors that help protégés survive."
+  }
+ ]
+}

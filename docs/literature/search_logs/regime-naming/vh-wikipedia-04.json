@@ -1,0 +1,17 @@
+{
+ "query_id": "vh-wikipedia-04",
+ "platform": "English Wikipedia MediaWiki API (en.wikipedia.org/w/api.php)",
+ "date_searched": "2026-08-24",
+ "purpose": "vocabulary harvest (redirect synonym graph); tier-5 admissible for term provenance only, never as evidence",
+ "query_url_verbatim": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=redirects&rdlimit=500&titles=Market%20sentiment",
+ "target_title": "Market sentiment",
+ "page_exists": true,
+ "n_redirects": 5,
+ "redirects": [
+  "Bearish",
+  "Permabear",
+  "Permabull",
+  "Investor sentiment",
+  "Investor attention"
+ ]
+}

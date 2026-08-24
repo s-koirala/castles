@@ -1,0 +1,100 @@
+{
+ "query_id": "swB-openalex-05",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.openalex.org/works?search=%22runs%20test%22%20%22stock%20prices%22%20random%20walk&per-page=10",
+ "total_results_reported": 486,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "openalex_id": "https://openalex.org/W1527591676",
+   "DOI": "",
+   "title": "Random walks and market efficiency in European equity markets",
+   "year": 2004,
+   "container": "QUT ePrints (Queensland University of Technology)",
+   "type": "article",
+   "cited_by_count": 145
+  },
+  {
+   "openalex_id": "https://openalex.org/W2887753971",
+   "DOI": "10.15408/etk.v17i2.7102",
+   "title": "Are Stock Prices a Random Walk? An Empirical Evidence of Asian Stock Markets",
+   "year": 2018,
+   "container": "ETIKONOMI",
+   "type": "article",
+   "cited_by_count": 33
+  },
+  {
+   "openalex_id": "https://openalex.org/W1984702484",
+   "DOI": "10.1007/s10644-005-4522-6",
+   "title": "Financial Liberalization and Stock Price Behaviour in Asian Emerging Markets",
+   "year": 2005,
+   "container": "Economic Change and Restructuring",
+   "type": "article",
+   "cited_by_count": 33
+  },
+  {
+   "openalex_id": "https://openalex.org/W2754046202",
+   "DOI": "10.19139/soic.v7i1.499",
+   "title": "Random Walks and Market Efficiency in Chinese and Indian Equity Markets",
+   "year": 2019,
+   "container": "Statistics Optimization & Information Computing",
+   "type": "article",
+   "cited_by_count": 60
+  },
+  {
+   "openalex_id": "https://openalex.org/W1522420219",
+   "DOI": "",
+   "title": "Weak-Form Market Efficiency in Asian Emerging and Developed Equity Markets: Comparative Tests of Random Walk Behaviour",
+   "year": 2006,
+   "container": "Research Online (University of Wollongong)",
+   "type": "report",
+   "cited_by_count": 63
+  },
+  {
+   "openalex_id": "https://openalex.org/W2763171946",
+   "DOI": "10.6007/ijarbss/v7-i7/3121",
+   "title": "Testing the Random Walk Hypothesis: A Case of Pakistan",
+   "year": 2017,
+   "container": "International Journal of Academic Research in Business and Social Sciences",
+   "type": "article",
+   "cited_by_count": 12
+  },
+  {
+   "openalex_id": "https://openalex.org/W3123135166",
+   "DOI": "10.1080/10835547.2010.12089867",
+   "title": "Testing the Predictability and Efficiency of Securitized Real Estate Markets",
+   "year": 2010,
+   "container": "Journal of Real Estate Portfolio Management",
+   "type": "article",
+   "cited_by_count": 25
+  },
+  {
+   "openalex_id": "https://openalex.org/W2315373521",
+   "DOI": "10.9790/487x-16446173",
+   "title": "Market efficiency in emerging stock markets: A case study of the Vietnamese stock market",
+   "year": 2014,
+   "container": "IOSR Journal of Business and Management",
+   "type": "article",
+   "cited_by_count": 39
+  },
+  {
+   "openalex_id": "https://openalex.org/W3095130759",
+   "DOI": "10.1007/s11156-020-00939-0",
+   "title": "Testing for efficiency in the Saudi stock market: does corporate governance change matter?",
+   "year": 2020,
+   "container": "Review of Quantitative Finance and Accounting",
+   "type": "article",
+   "cited_by_count": 29
+  },
+  {
+   "openalex_id": "https://openalex.org/W973436915",
+   "DOI": "",
+   "title": "Random walks in frontier stock markets",
+   "year": 2013,
+   "container": "",
+   "type": "article",
+   "cited_by_count": 6
+  }
+ ]
+}

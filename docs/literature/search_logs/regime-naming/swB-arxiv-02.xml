@@ -1,0 +1,25 @@
+<!-- query_id: swB-arxiv-02 | platform: arXiv API (export.arxiv.org) | date_searched: 2026-08-24 | query_url_verbatim: http://export.arxiv.org/api/query?search_query=abs:%22directional+change%22+AND+abs:%22intrinsic+time%22&max_results=10 -->
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bIJopOJUj8h9Hg+jZkv+8pHYCXs</id>
+  <title>arXiv Query: search_query=abs:"directional change" AND abs:"intrinsic time"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-24T13:44:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22directional+change%22+AND+abs:%22intrinsic+time%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.14408v1</id>
+    <title>The Hidden Constant of Market Rhythms: How $1-1/e$ Defines Scaling in Intrinsic Time</title>
+    <updated>2025-11-18T12:14:22Z</updated>
+    <link href="https://arxiv.org/abs/2511.14408v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.14408v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Directional-change Intrinsic Time analysis has long revealed scaling laws in market microstructure, but the origin of their stability remains elusive. This article presents evidence that Intrinsic Time can be modeled as a memoryless exponential hazard process. Empirically, the proportion of directional changes to total events stabilizes near $1 - 1/e = 0.632$, matching the probability that a Poisson process completes one mean interval. This constant provides a natural heuristic to identify scaling regimes across thresholds and supports an interpretation of market activity as a renewal process in intrinsic time.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-18T12:14:22Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Thomas Houweling</name>
+    </author>
+  </entry>
+</feed>

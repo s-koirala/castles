@@ -1,0 +1,168 @@
+{
+ "query_id": "vh-openalex-02",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "purpose": "vocabulary harvest (Stage 1-2 term registry); NOT an evidence query",
+ "seed_record_role": "Pagan & Sossounov 2002 bull/bear dating (P03)",
+ "query_url_verbatim": "https://api.openalex.org/works/doi:10.1002/jae.664",
+ "title": "A simple framework for analysing bull and bear markets",
+ "concepts": [
+  {
+   "display_name": "Random walk",
+   "level": 2,
+   "score": 0.667683482170105
+  },
+  {
+   "display_name": "Equity (law)",
+   "level": 2,
+   "score": 0.6323096752166748
+  },
+  {
+   "display_name": "Econometrics",
+   "level": 1,
+   "score": 0.5777280330657959
+  },
+  {
+   "display_name": "Economics",
+   "level": 0,
+   "score": 0.5737189650535583
+  },
+  {
+   "display_name": "Financial economics",
+   "level": 1,
+   "score": 0.5534107685089111
+  },
+  {
+   "display_name": "sort",
+   "level": 2,
+   "score": 0.5058740973472595
+  },
+  {
+   "display_name": "Capital market",
+   "level": 2,
+   "score": 0.4650842547416687
+  },
+  {
+   "display_name": "Incomplete markets",
+   "level": 2,
+   "score": 0.41147664189338684
+  },
+  {
+   "display_name": "Financial market",
+   "level": 2,
+   "score": 0.4101039171218872
+  },
+  {
+   "display_name": "Mathematical economics",
+   "level": 1,
+   "score": 0.3564344048500061
+  },
+  {
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.2572445273399353
+  },
+  {
+   "display_name": "Microeconomics",
+   "level": 1,
+   "score": 0.23516464233398438
+  },
+  {
+   "display_name": "Statistics",
+   "level": 1,
+   "score": 0.17791348695755005
+  },
+  {
+   "display_name": "Finance",
+   "level": 1,
+   "score": 0.1668207347393036
+  },
+  {
+   "display_name": "Law",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "display_name": "Political science",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "display_name": "Arithmetic",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "keywords": [
+  {
+   "display_name": "Random walk",
+   "score": 0.667683482170105
+  },
+  {
+   "display_name": "Equity (law)",
+   "score": 0.6323096752166748
+  },
+  {
+   "display_name": "Econometrics",
+   "score": 0.5777280330657959
+  },
+  {
+   "display_name": "Economics",
+   "score": 0.5737189650535583
+  },
+  {
+   "display_name": "Financial economics",
+   "score": 0.5534107685089111
+  },
+  {
+   "display_name": "sort",
+   "score": 0.5058740973472595
+  },
+  {
+   "display_name": "Capital market",
+   "score": 0.4650842547416687
+  },
+  {
+   "display_name": "Incomplete markets",
+   "score": 0.41147664189338684
+  },
+  {
+   "display_name": "Financial market",
+   "score": 0.4101039171218872
+  },
+  {
+   "display_name": "Mathematical economics",
+   "score": 0.3564344048500061
+  },
+  {
+   "display_name": "Mathematics",
+   "score": 0.2572445273399353
+  },
+  {
+   "display_name": "Microeconomics",
+   "score": 0.23516464233398438
+  },
+  {
+   "display_name": "Statistics",
+   "score": 0.17791348695755005
+  },
+  {
+   "display_name": "Finance",
+   "score": 0.1668207347393036
+  }
+ ],
+ "topics": [
+  {
+   "display_name": "Financial Risk and Volatility Modeling",
+   "score": 0.9778000116348267
+  },
+  {
+   "display_name": "Stock Market Forecasting Methods",
+   "score": 0.9623000025749207
+  },
+  {
+   "display_name": "Financial Markets and Investment Strategies",
+   "score": 0.9470000267028809
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "query_id": "swB-openalex-06",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.openalex.org/works?search=%22directional%20change%22%20regime%20detection%20finance&per-page=10",
+ "total_results_reported": 222,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "openalex_id": "https://openalex.org/W4292064363",
+   "DOI": "10.1007/s00521-022-07687-3",
+   "title": "Event prediction within directional change framework using a CNN-LSTM model",
+   "year": 2022,
+   "container": "Neural Computing and Applications",
+   "type": "article",
+   "cited_by_count": 66
+  },
+  {
+   "openalex_id": "https://openalex.org/W3195402399",
+   "DOI": "10.1109/access.2021.3105259",
+   "title": "Intelligent Algorithmic Trading Strategy Using Reinforcement Learning and Directional Change",
+   "year": 2021,
+   "container": "IEEE Access",
+   "type": "article",
+   "cited_by_count": 44
+  },
+  {
+   "openalex_id": "https://openalex.org/W2898473854",
+   "DOI": "10.3390/a11110171",
+   "title": "Intelligent Dynamic Backlash Agent: A Trading Strategy Based on the Directional Change Framework",
+   "year": 2018,
+   "container": "Algorithms",
+   "type": "article",
+   "cited_by_count": 20
+  },
+  {
+   "openalex_id": "https://openalex.org/W4230385759",
+   "DOI": "10.1201/9781003087595",
+   "title": "Detecting Regime Change in Computational Finance",
+   "year": 2020,
+   "container": "",
+   "type": "reference-entry",
+   "cited_by_count": 8
+  },
+  {
+   "openalex_id": "https://openalex.org/W3189502201",
+   "DOI": "10.1002/int.22601",
+   "title": "Improving trend reversal estimation in forex markets under a directional changes paradigm with classification algorithms",
+   "year": 2021,
+   "container": "International Journal of Intelligent Systems",
+   "type": "article",
+   "cited_by_count": 12
+  },
+  {
+   "openalex_id": "https://openalex.org/W3197282891",
+   "DOI": "10.14569/ijacsa.2021.0120805",
+   "title": "DCRL: Approach for Pattern Recognition in Price Time Series using Directional Change and Reinforcement Learning",
+   "year": 2021,
+   "container": "International Journal of Advanced Computer Science and Applications",
+   "type": "article",
+   "cited_by_count": 9
+  },
+  {
+   "openalex_id": "https://openalex.org/W3008862953",
+   "DOI": "",
+   "title": "Studying regime change using directional change",
+   "year": 2019,
+   "container": "Open Access at Essex (University of Essex)",
+   "type": "dissertation",
+   "cited_by_count": 3
+  },
+  {
+   "openalex_id": "https://openalex.org/W4390481369",
+   "DOI": "10.1109/ssci52147.2023.10371966",
+   "title": "High Frequency Trading with Deep Reinforcement Learning Agents Under a Directional Changes Sampling Framework",
+   "year": 2023,
+   "container": "",
+   "type": "conference-paper",
+   "cited_by_count": 4
+  },
+  {
+   "openalex_id": "https://openalex.org/W3012499112",
+   "DOI": "10.1371/journal.pone.0230124",
+   "title": "Stock price prediction using principal components",
+   "year": 2020,
+   "container": "PLoS ONE",
+   "type": "article",
+   "cited_by_count": 50
+  },
+  {
+   "openalex_id": "https://openalex.org/W4281892885",
+   "DOI": "10.1002/isaf.1510",
+   "title": "Measuring relative volatility in high‐frequency data under the directional change approach",
+   "year": 2022,
+   "container": "Intelligent systems in accounting, finance and management/Intelligent systems in accounting, finance & management",
+   "type": "article",
+   "cited_by_count": 3
+  }
+ ]
+}

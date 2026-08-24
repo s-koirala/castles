@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-15",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=super-exponential+price+growth+bubble+log-periodic&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2195375,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.3983539",
+   "title": "Cryptocurrency price bubble detection using log-periodic power law model and wavelet analysis",
+   "year": 2021,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.54691/bcpbm.v25i.1836",
+   "title": "Asset Price Bubble under Behaviroral Finance Theory: Based on Log-Periodic Power Law Model",
+   "year": 2022,
+   "container": "BCP Business &amp; Management",
+   "type": "journal-article",
+   "abstract": "The asset price bubble problem is not only the most concerned topic in the financial circle, but also one of the most important research topics in the financial circle. In history, every time asset prices skyrocketed, bubbles were accumulated, and every asset price crash resulted in a massive shrinking of wealth, bankruptcy of enterprises, and economic recession. This paper is based on the theory of investor behavioral bias in behavioral finance theory, and is based on the log-periodic power law (LPPL) theory of iron ore futures, apple futures, coke futures and stock market indices that is widely used in Chinese financial markets. The market index and bitcoin price are empirically analyzed through the process of bubble accumulation, and the stock market index of China's stock market and the index of China's capital market are predicted and analyzed based on LPPL theory."
+  },
+  {
+   "DOI": "10.7554/elife.09376.005",
+   "title": "Figure 1—figure supplement 2. Starvation confines macromolecular mobility.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1109/tem.2024.3427647",
+   "title": "Cryptocurrency Price Bubble Detection Using Log-Periodic Power Law Model and Wavelet Analysis",
+   "year": 2024,
+   "container": "IEEE Transactions on Engineering Management",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.3064668",
+   "title": "Super-Exponential RE Bubble Model with Efficient Crashes",
+   "year": 2017,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3934/dcds.2008.20.589",
+   "title": "Super-exponential growth of the number of periodic orbits inside homoclinic classes",
+   "year": 2008,
+   "container": "Discrete and Continuous Dynamical Systems",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1101/2022.05.21.492931",
+   "title": "Super-exponential growth and stochastic size dynamics in rod-like bacteria",
+   "year": 2022,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "Proliferating bacterial cells exhibit stochastic growth and size dynamics but the regulation of noise in bacterial growth and morphogenesis remains poorly understood. A quantitative understanding of morphogenetic noise control, and how it changes under different growth conditions, would provide better insights into cell-to-cell variability and intergenerational fluctuations in cell physiology. Using multigenerational growth and width data of single\n                  Escherichia coli\n                  and\n                  Caulobacter crescentus\n                  cells, we deduce the equations governing growth and size dynamics of rod-like bacterial cells. Interestingly, we find that both\n                  E. coli\n                  and\n                  C. crescentus\n                  cells deviate from exponential growth within the cell cycle. In particular, the exponential growth rate increases during the cell cycle, irrespective of nutrient or temperature conditions. We propose a mechanistic model that explains the emergence of super-exponential growth from autocatalytic production of ribosomes, coupled to the rate of cell elongation and surface area synthesis. Using this new model and statistical inference on large datasets, we construct the Langevin equations governing cell size and size dynamics of\n                  E. coli\n                  cells in different growth conditions. The single-cell level model predicts how noise in intragenerational and intergenerational processes regulate variability in cell morphology and generation times, revealing quantitative strategies for cellular resource allocation and morphogenetic noise control in different growth conditions."
+  },
+  {
+   "DOI": "10.22541/au.164183647.79957962/v1",
+   "title": "One-dimensional periodic fractional Schrödinger equations with exponential critical growth",
+   "year": 2022,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "In the present paper, we study the existence of nontrivial solutions of\nthe following one-dimensional fractional\nSchr\\“{o}dinger equation $$\n(-\\Delta)^{1/2}u+V(x)u=f(x,u), \\\n\\ x\\in \\R, $$ where\n$(-\\Delta)^{1/2}$ stands for the\n$1/2$-Laplacian, $V(x)\\in\n\\mathcal{C}(\\R,\n(0,+\\infty))$, and\n$f(x,u):\\R\\times\\R\\to\n\\R$ is a continuous function with an exponential\ncritical growth. Comparing with the existing works in the field of\nexponential-critical-growth fractional Schr\\”{o}dinger\nequations, we encounter some new challenges due to the weaker\nassumptions on the reaction term $f$. By using some sharp energy\nestimates, we present a detailed analysis of the energy level, which\nallows us to establish the existence of nontrivial solutions for a wider\nclass of nonlinear terms. Furthermore, we use the non-Nehari manifold\nmethod to establish the existence of Nehari-type ground state solutions\nof the one-dimensional fractional Schr\\”{o}dinger\nequations."
+  }
+ ]
+}

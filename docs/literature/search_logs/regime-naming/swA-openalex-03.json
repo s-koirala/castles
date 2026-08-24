@@ -1,0 +1,154 @@
+{
+ "log_id": "swA-openalex-03",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"trading range\" AND \"breakout\"",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22trading%20range%22%20AND%20%22breakout%22&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 80,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.1016/j.frl.2019.08.011",
+   "title": "The profitability of technical trading rules in the Bitcoin market",
+   "year": 2019,
+   "venue": "Finance research letters",
+   "cited_by": 105
+  },
+  {
+   "DOI": "10.1016/j.iref.2012.07.016",
+   "title": "Predictive ability and profitability of simple technical trading rules: Recent evidence from Southeast Asian stock markets",
+   "year": 2012,
+   "venue": "International Review of Economics & Finance",
+   "cited_by": 104
+  },
+  {
+   "DOI": "10.1016/j.asieco.2005.12.001",
+   "title": "The profitability of the simple moving averages and trading range breakout in the Asian stock markets",
+   "year": 2006,
+   "venue": "Journal of Asian Economics",
+   "cited_by": 57
+  },
+  {
+   "DOI": "10.1016/j.jbef.2014.09.001",
+   "title": "Technical market indicators: An overview",
+   "year": 2014,
+   "venue": "Journal of Behavioral and Experimental Finance",
+   "cited_by": 42
+  },
+  {
+   "DOI": "10.1109/cec.1999.782584",
+   "title": "Investment decision making using FGP: a case study",
+   "year": 2003,
+   "venue": null,
+   "cited_by": 38
+  },
+  {
+   "DOI": "10.1080/09603100802446591",
+   "title": "Is technical analysis profitable on US stocks with certain size, liquidity or industry characteristics?",
+   "year": 2009,
+   "venue": "Applied Financial Economics",
+   "cited_by": 31
+  },
+  {
+   "DOI": "10.1002/9781119204213",
+   "title": "Essentials of Technical Analysis for Financial Markets",
+   "year": 2012,
+   "venue": null,
+   "cited_by": 17
+  },
+  {
+   "DOI": "10.1142/s0219091520500010",
+   "title": "The Predictability and Profitability of Simple Moving Averages and Trading Range Breakout Rules in the Pakistan Stock Market",
+   "year": 2020,
+   "venue": "Review of Pacific Basin Financial Markets and Policies",
+   "cited_by": 9
+  },
+  {
+   "DOI": "10.1016/j.mulfin.2023.100808",
+   "title": "Further evidence on the returns to technical trading rules: Insights from fourteen currencies",
+   "year": 2023,
+   "venue": "Journal of Multinational Financial Management",
+   "cited_by": 5
+  },
+  {
+   "DOI": "10.1080/14697688.2015.1091941",
+   "title": "Trading profitability from learning and adaptation on the Tokyo Stock Exchange",
+   "year": 2015,
+   "venue": "Quantitative Finance",
+   "cited_by": 5
+  },
+  {
+   "DOI": "10.1016/j.irfa.2023.102856",
+   "title": "Be greedy when others are fearful: Evidence from a two-decade assessment of the NDX 100 and S&P 500 indexes",
+   "year": 2023,
+   "venue": "International Review of Financial Analysis",
+   "cited_by": 4
+  },
+  {
+   "DOI": "10.1007/978-3-642-32726-1_12",
+   "title": "A Comparative Study of Heuristic Conversion Algorithms, Genetic Programming and Return Predictability on the German Market",
+   "year": 2012,
+   "venue": "Studies in computational intelligence",
+   "cited_by": 4
+  },
+  {
+   "DOI": "10.1142/s0217590807002543",
+   "title": "THE IMPACT OF THE 1997 HANDOVER ON THE EFFICIENCY OF THE HONG KONG STOCK MARKET",
+   "year": 2007,
+   "venue": "The Singapore Economic Review",
+   "cited_by": 3
+  },
+  {
+   "DOI": "10.2139/ssrn.3207078",
+   "title": "Predictability of Technical Analysis on Singapore Stock Market, Before and After the Asian Financial Crisis",
+   "year": 2018,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 2
+  },
+  {
+   "DOI": "10.5860/choice.38-5677",
+   "title": "Trading with crowd psychology",
+   "year": 2001,
+   "venue": "Choice Reviews Online",
+   "cited_by": 2
+  },
+  {
+   "DOI": "10.22004/ag.econ.143216",
+   "title": "Predictability of Technical Trading Rules: Evidence from the Taiwan Stock Market",
+   "year": 2009,
+   "venue": "RePEc: Research Papers in Economics",
+   "cited_by": 2
+  },
+  {
+   "DOI": "10.1002/9781119209713.ch8",
+   "title": "Support and Resistance",
+   "year": 2016,
+   "venue": null,
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.1142/s242478632250027x",
+   "title": "Can exchange-traded funds be profitably traded with the trading range breakout technical trading rule?",
+   "year": 2022,
+   "venue": "International Journal of Financial Engineering",
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.1002/cpe.7746",
+   "title": "A hybrid multicategory framework for generating automated trading systems",
+   "year": 2023,
+   "venue": "Concurrency and Computation Practice and Experience",
+   "cited_by": 1
+  },
+  {
+   "DOI": "",
+   "title": "Profitability of technical analysis - the case of Malaysian stock market.",
+   "year": 2011,
+   "venue": "DR-NTU (Nanyang Technological University)",
+   "cited_by": 0
+  }
+ ]
+}

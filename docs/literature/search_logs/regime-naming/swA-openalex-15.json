@@ -1,0 +1,154 @@
+{
+ "log_id": "swA-openalex-15",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"break of structure\" OR \"change of character\" market",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22break%20of%20structure%22%20OR%20%22change%20of%20character%22%20market&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 4110339,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.1016/0304-405x(76)90026-x",
+   "title": "Theory of the firm: Managerial behavior, agency costs and ownership structure",
+   "year": 1976,
+   "venue": "Journal of Financial Economics",
+   "cited_by": 71524
+  },
+  {
+   "DOI": "10.1016/s0140-6736(20)30183-5",
+   "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+   "year": 2020,
+   "venue": "The Lancet",
+   "cited_by": 51992
+  },
+  {
+   "DOI": "10.1002/0471200611",
+   "title": "Elements of Information Theory",
+   "year": 2001,
+   "venue": null,
+   "cited_by": 38042
+  },
+  {
+   "DOI": "10.1002/(sici)1097-0266(199708)18:7<509::aid-smj882>3.0.co;2-z",
+   "title": "Dynamic capabilities and strategic management",
+   "year": 1997,
+   "venue": "Strategic Management Journal",
+   "cited_by": 32215
+  },
+  {
+   "DOI": "10.1056/nejmoa2001017",
+   "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+   "year": 2020,
+   "venue": "New England Journal of Medicine",
+   "cited_by": 30490
+  },
+  {
+   "DOI": "10.1086/260062",
+   "title": "The Pricing of Options and Corporate Liabilities",
+   "year": 1973,
+   "venue": "Journal of Political Economy",
+   "cited_by": 29601
+  },
+  {
+   "DOI": "10.1086/228311",
+   "title": "Economic Action and Social Structure: The Problem of Embeddedness",
+   "year": 1985,
+   "venue": "American Journal of Sociology",
+   "cited_by": 28465
+  },
+  {
+   "DOI": "10.1016/0304-405x(93)90023-5",
+   "title": "Common risk factors in the returns on stocks and bonds",
+   "year": 1993,
+   "venue": "Journal of Financial Economics",
+   "cited_by": 27948
+  },
+  {
+   "DOI": "10.1111/j.1468-0335.1937.tb00002.x",
+   "title": "The Nature of the Firm",
+   "year": 1937,
+   "venue": "Economica",
+   "cited_by": 23640
+  },
+  {
+   "DOI": "10.2307/1879431",
+   "title": "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+   "year": 1970,
+   "venue": "The Quarterly Journal of Economics",
+   "cited_by": 22904
+  },
+  {
+   "DOI": "10.1016/s0140-6736(20)30211-7",
+   "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+   "year": 2020,
+   "venue": "The Lancet",
+   "cited_by": 22753
+  },
+  {
+   "DOI": "10.2307/2531595",
+   "title": "Comparing the Areas under Two or More Correlated Receiver Operating Characteristic Curves: A Nonparametric Approach",
+   "year": 1988,
+   "venue": "Biometrics",
+   "cited_by": 22744
+  },
+  {
+   "DOI": "10.1038/387253a0",
+   "title": "The value of the world's ecosystem services and natural capital",
+   "year": 1997,
+   "venue": "Nature",
+   "cited_by": 22245
+  },
+  {
+   "DOI": "10.1017/cbo9780511807763",
+   "title": "Governing the Commons",
+   "year": 1990,
+   "venue": "Cambridge University Press eBooks",
+   "cited_by": 19518
+  },
+  {
+   "DOI": "10.1056/nejmoa2001316",
+   "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia",
+   "year": 2020,
+   "venue": "New England Journal of Medicine",
+   "cited_by": 17996
+  },
+  {
+   "DOI": "10.1111/j.1540-6261.1964.tb02865.x",
+   "title": "CAPITAL ASSET PRICES: A THEORY OF MARKET EQUILIBRIUM UNDER CONDITIONS OF RISK*",
+   "year": 1964,
+   "venue": "The Journal of Finance",
+   "cited_by": 17424
+  },
+  {
+   "DOI": "",
+   "title": "Competitive Strategy: Techniques for Analyzing Industries and Competitors",
+   "year": 1980,
+   "venue": null,
+   "cited_by": 16839
+  },
+  {
+   "DOI": "10.1287/mnsc.30.9.1078",
+   "title": "Some Models for Estimating Technical and Scale Inefficiencies in Data Envelopment Analysis",
+   "year": 1984,
+   "venue": "Management Science",
+   "cited_by": 16730
+  },
+  {
+   "DOI": "10.5860/choice.28-1046",
+   "title": "The three worlds of welfare capitalism",
+   "year": 1990,
+   "venue": "Choice Reviews Online",
+   "cited_by": 16678
+  },
+  {
+   "DOI": "10.1086/261725",
+   "title": "Endogenous Technological Change",
+   "year": 1990,
+   "venue": "Journal of Political Economy",
+   "cited_by": 16401
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "log_id": "swA-openalex-11",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"one-time framing\"",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22one-time%20framing%22&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 93,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.1002/bult.118",
+   "title": "Information Encountering: It's More Than Just Bumping into Information",
+   "year": 1999,
+   "venue": "Bulletin of the American Society for Information Science and Technology",
+   "cited_by": 299
+  },
+  {
+   "DOI": "10.1080/01431160600617236",
+   "title": "Long‐range persistence in global Aerosol Index dynamics",
+   "year": 2006,
+   "venue": "International Journal of Remote Sensing",
+   "cited_by": 133
+  },
+  {
+   "DOI": "10.1109/tmi.2003.809090",
+   "title": "Three-dimensional motion tracking of coronary arteries in biplane cineangiograms",
+   "year": 2003,
+   "venue": "IEEE Transactions on Medical Imaging",
+   "cited_by": 99
+  },
+  {
+   "DOI": "10.1109/42.511749",
+   "title": "Tracking myocardial deformation using phase contrast MR velocity fields: a stochastic approach",
+   "year": 1996,
+   "venue": "IEEE Transactions on Medical Imaging",
+   "cited_by": 75
+  },
+  {
+   "DOI": "10.1145/1409060.1409063",
+   "title": "Space-time surface reconstruction using incompressible flow",
+   "year": 2008,
+   "venue": "ACM Transactions on Graphics",
+   "cited_by": 74
+  },
+  {
+   "DOI": "10.1145/3304181.3304206",
+   "title": "Quick collision detection of polytopes in virtual environments",
+   "year": 1996,
+   "venue": null,
+   "cited_by": 70
+  },
+  {
+   "DOI": "10.1109/jiot.2020.3027158",
+   "title": "Modeling, Analysis, and Optimization of Grant-Free NOMA in Massive MTC via Stochastic Geometry",
+   "year": 2020,
+   "venue": "IEEE Internet of Things Journal",
+   "cited_by": 52
+  },
+  {
+   "DOI": "10.1007/11553595_41",
+   "title": "Seeded Watersheds for Combined Segmentation and Tracking of Cells",
+   "year": 2005,
+   "venue": "Lecture notes in computer science",
+   "cited_by": 46
+  },
+  {
+   "DOI": "10.1118/1.4926430",
+   "title": "Synchronized multiartifact reduction with tomographic reconstruction (SMART‐RECON): A statistical model based iterative image reconstruction method to eliminate limited‐view artifacts and to mitigate the temporal‐average artifacts in time‐resolved CT",
+   "year": 2015,
+   "venue": "Medical Physics",
+   "cited_by": 45
+  },
+  {
+   "DOI": "10.5194/hess-4-545-2000",
+   "title": "Static and dynamic calibration of radar data for hydrological use",
+   "year": 2000,
+   "venue": "Hydrology and earth system sciences",
+   "cited_by": 42
+  },
+  {
+   "DOI": "10.1002/mrm.23012",
+   "title": "Compensation of slice profile mismatch in combined spin‐ and gradient‐echo echo‐planar imaging pulse sequences",
+   "year": 2011,
+   "venue": "Magnetic Resonance in Medicine",
+   "cited_by": 41
+  },
+  {
+   "DOI": "10.21037/apm.2016.09.05",
+   "title": "Could time of whole brain radiotherapy delivery impact overall survival in patients with multiple brain metastases?",
+   "year": 2016,
+   "venue": "Annals of Palliative Medicine",
+   "cited_by": 41
+  },
+  {
+   "DOI": "",
+   "title": "Applying Elliott Wave Theory Profitably",
+   "year": 2003,
+   "venue": "Medical Entomology and Zoology",
+   "cited_by": 32
+  },
+  {
+   "DOI": "10.1016/j.compmedimag.2014.07.004",
+   "title": "Semi-automatic segmentation for 3D motion analysis of the tongue with dynamic MRI",
+   "year": 2014,
+   "venue": "Computerized Medical Imaging and Graphics",
+   "cited_by": 29
+  },
+  {
+   "DOI": "10.1111/j.1365-246x.1977.tb04191.x",
+   "title": "Development of a polar magnetic substorm: A two-dimensional magnetometer array study",
+   "year": 1977,
+   "venue": "Geophysical Journal International",
+   "cited_by": 27
+  },
+  {
+   "DOI": "10.1088/0957-0233/26/11/115202",
+   "title": "Measurement of in-plane strain with dual beam spatial phase-shift digital shearography",
+   "year": 2015,
+   "venue": "Measurement Science and Technology",
+   "cited_by": 26
+  },
+  {
+   "DOI": "10.1145/1457515.1409063",
+   "title": "Space-time surface reconstruction using incompressible flow",
+   "year": 2008,
+   "venue": null,
+   "cited_by": 23
+  },
+  {
+   "DOI": "10.1007/s11134-019-09631-0",
+   "title": "On a queueing-inventory system with advanced reservation and cancellation for the next K time frames ahead: the case of overbooking",
+   "year": 2019,
+   "venue": "Queueing Systems",
+   "cited_by": 19
+  },
+  {
+   "DOI": "10.2753/mis0742-1222280210",
+   "title": "System Design Features and Repeated Use of Electronic Data Exchanges",
+   "year": 2011,
+   "venue": "Journal of Management Information Systems",
+   "cited_by": 18
+  },
+  {
+   "DOI": "10.1118/1.4722983",
+   "title": "Noise spatial nonuniformity and the impact of statistical image reconstruction in CT myocardial perfusion imaging",
+   "year": 2012,
+   "venue": "Medical Physics",
+   "cited_by": 17
+  }
+ ]
+}

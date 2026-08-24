@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-09",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Baele+Bekaert+Inghelbrecht+Wei+Flights+to+Safety+Review+of+Financial+Studies&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 12941176,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.3386/w19095",
+   "title": "Flights to Safety",
+   "year": 2013,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2160858",
+   "title": "Flights to Safety",
+   "year": 2012,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "We identify flight-to-safety (FTS) days for 23 countries using only stock and bond returns and a model averaging approach. FTS days comprise less than 2% of the sample, and are associated with a 2.7% average bond-equity return differential and significant flows out of equity funds and into government bond and money market funds. FTS represents flights to both quality and liquidity in international equity markets, but mainly a flight-to-quality in the US corporate bond market. Emerging markets, endowment funds, and hedge funds all perform poorly during FTS, while hedge funds appear to vary their systematic exposures prior to a FTS."
+  },
+  {
+   "DOI": "10.2139/ssrn.2342138",
+   "title": "Flights to Safety",
+   "year": 2013,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "We identify flight-to-safety (FTS) days for 23 countries using only stock and bond returns and a model averaging approach. FTS days comprise less than 2% of the sample, and are associated with a 2.7% average bond-equity return differential and significant flows out of equity funds and into government bond and money market funds. FTS represents flights to both quality and liquidity in international equity markets, but mainly a flight-to-quality in the US corporate bond market. Emerging markets, endowment funds, and hedge funds all perform poorly during FTS, while hedge funds appear to vary their systematic exposures prior to a FTS."
+  }
+ ]
+}

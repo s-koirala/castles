@@ -1,0 +1,100 @@
+{
+ "query_id": "swB-openalex-02",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.openalex.org/works?filter=title.search:%22market%20mode%22&sort=cited_by_count:desc&per-page=10",
+ "total_results_reported": 44,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "openalex_id": "https://openalex.org/W2070673616",
+   "DOI": "10.1103/physreve.76.026104",
+   "title": "Emergence of time-horizon invariant correlation structure in financial returns by subtraction of the market mode",
+   "year": 2007,
+   "container": "Physical Review E",
+   "type": "article",
+   "cited_by_count": 82
+  },
+  {
+   "openalex_id": "https://openalex.org/W2048001310",
+   "DOI": "10.1016/j.ijintrel.2010.02.008",
+   "title": "Barriers to immigrants’ integration into the labor market: Modes and coping",
+   "year": 2010,
+   "container": "International Journal of Intercultural Relations",
+   "type": "article",
+   "cited_by_count": 54
+  },
+  {
+   "openalex_id": "https://openalex.org/W2113818256",
+   "DOI": "10.1186/1472-6963-13-s1-s8",
+   "title": "How managed a market? Modes of commissioning in England and Germany",
+   "year": 2013,
+   "container": "BMC Health Services Research",
+   "type": "article",
+   "cited_by_count": 52
+  },
+  {
+   "openalex_id": "https://openalex.org/W2566953743",
+   "DOI": "10.3846/16111699.2016.1171253",
+   "title": "IMMIGRANT INVESTORS IN FINANCIAL MARKETS: MODES OF FINANCIAL BEHAVIOR",
+   "year": 2016,
+   "container": "Journal of Business Economics and Management",
+   "type": "article",
+   "cited_by_count": 15
+  },
+  {
+   "openalex_id": "https://openalex.org/W2149346131",
+   "DOI": "10.1109/icetect.2011.5760096",
+   "title": "Market modes for deregulated environment — A review",
+   "year": 2011,
+   "container": "",
+   "type": "conference-paper",
+   "cited_by_count": 9
+  },
+  {
+   "openalex_id": "https://openalex.org/W643759654",
+   "DOI": "",
+   "title": "The transport system: Markets, modes and policies",
+   "year": 2001,
+   "container": "",
+   "type": "book",
+   "cited_by_count": 7
+  },
+  {
+   "openalex_id": "https://openalex.org/W2356684678",
+   "DOI": "",
+   "title": "The Bilateral Electricity Market Modes of Typical Countries and Our Reference from America and Nordic",
+   "year": 2013,
+   "container": "East China Electric Power",
+   "type": "article",
+   "cited_by_count": 4
+  },
+  {
+   "openalex_id": "https://openalex.org/W2393627169",
+   "DOI": "",
+   "title": "Day-ahead Market Mode with Power Consumers Participation in Wind Power Accommodation",
+   "year": 2015,
+   "container": "Dianli xitong zidonghua",
+   "type": "article",
+   "cited_by_count": 4
+  },
+  {
+   "openalex_id": "https://openalex.org/W4399426661",
+   "DOI": "10.1109/access.2024.3410991",
+   "title": "Optimization of Electricity Retail Packages Under the Spot Market Mode Accounting for Customer Response",
+   "year": 2024,
+   "container": "IEEE Access",
+   "type": "article",
+   "cited_by_count": 4
+  },
+  {
+   "openalex_id": "https://openalex.org/W4398774850",
+   "DOI": "10.1109/acpee60788.2024.10532518",
+   "title": "Market Power Monitoring Model of Electricity Retailer in Retail Market Under Spot Market Mode",
+   "year": 2024,
+   "container": "",
+   "type": "conference-paper",
+   "cited_by_count": 3
+  }
+ ]
+}

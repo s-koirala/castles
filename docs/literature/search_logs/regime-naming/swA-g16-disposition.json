@@ -1,0 +1,73 @@
+{
+ "log_id": "swA-g16-disposition",
+ "agent": "sweep-A-practitioner",
+ "platform": "DOI Handle System + doi.org redirect probe",
+ "database": "doi.org/api/handles; doi.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "independent re-verification of the 12 DOIs the G16 gate reported as unresolved",
+ "n_records_total": 12,
+ "n_records_retrieved": 0,
+ "hits": [
+  {
+   "doi": "10.1002/9780470428412.ch8",
+   "handle_api_responseCode": 1,
+   "browser_ua_get": "HTTP 403 at onlinelibrary.wiley.com (post-redirect)"
+  },
+  {
+   "doi": "10.1002/9781118656389",
+   "handle_api_responseCode": 1,
+   "browser_ua_get": "HTTP 403 at onlinelibrary.wiley.com (post-redirect)"
+  },
+  {
+   "doi": "10.1002/9781119196822.ch6",
+   "handle_api_responseCode": 1,
+   "browser_ua_get": "HTTP 403 at onlinelibrary.wiley.com (post-redirect)"
+  },
+  {
+   "doi": "10.1002/9781119203537",
+   "handle_api_responseCode": 1,
+   "browser_ua_get": "HTTP 403 at onlinelibrary.wiley.com (post-redirect)"
+  },
+  {
+   "doi": "10.1002/fut.2003",
+   "handle_api_responseCode": 1,
+   "browser_ua_get": "HTTP 403 at onlinelibrary.wiley.com (post-redirect)"
+  },
+  {
+   "doi": "10.1002/fut.4",
+   "handle_api_responseCode": 1,
+   "browser_ua_get": "HTTP 403 at onlinelibrary.wiley.com (post-redirect)"
+  },
+  {
+   "doi": "10.1080/0960310022000020906",
+   "handle_api_responseCode": 1,
+   "browser_ua_get": "HTTP 403 at www.tandfonline.com (post-redirect)"
+  },
+  {
+   "doi": "10.1080/135048698334637",
+   "handle_api_responseCode": 1,
+   "browser_ua_get": "HTTP 403 at www.tandfonline.com (post-redirect)"
+  },
+  {
+   "doi": "10.1093/jjfinec/nbl012",
+   "handle_api_responseCode": 1,
+   "browser_ua_get": "HTTP 403 at academic.oup.com (post-redirect)"
+  },
+  {
+   "doi": "10.1111/1468-5957.00492",
+   "handle_api_responseCode": 1,
+   "browser_ua_get": "HTTP 403 at onlinelibrary.wiley.com (post-redirect)"
+  },
+  {
+   "doi": "10.1145/2908812.2908828",
+   "handle_api_responseCode": 1,
+   "browser_ua_get": "HTTP 403 at dl.acm.org (post-redirect)"
+  },
+  {
+   "doi": "10.1201/9781420013146.ch11",
+   "handle_api_responseCode": 1,
+   "browser_ua_get": "ERR URLError"
+  }
+ ],
+ "note": "Handle API responseCode 1 = the DOI resolves (dispatch DOI rule). Publisher 4xx AFTER the doi.org redirect proves resolution succeeded; the block is the publisher's bot policy at the landing page. Matches the closed G16 publisher-403 class of deliverable_spec_naming-sweep_2026-08-24.md line 105 and the identical dispositions in the five predecessor reviews' section 10."
+}

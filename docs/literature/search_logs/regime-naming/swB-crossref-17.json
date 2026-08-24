@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-17",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=drawdown+drawup+stock+market+outliers&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 622412,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.244563",
+   "title": "Large Stock Market Price Drawdowns are Outliers",
+   "year": 2000,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "Drawdowns (loss from the last local maximum to the next local minimum) are essential aspects of risk assessment in investment management. They offer a more natural measure of real market risks than the variance or other cumulants of daily (or some other fixed time scale) distributions of returns. Here, we extend considerably our previous analysis by analyzing the major financial indices, the major currencies, gold, the twenty largest U.S. companies in terms of capitalisation as well as nine others chosen randomly. We find for the major financial markets that approximately 98% of the distributions of drawdowns is well-represented by an exponential (or a minor modification of it with a slightly fatter tail), while the largest to the few ten largest drawdowns are occurring with a significantly larger rate than predicted by the exponential: the largest drops thus constitute genuine outliers. This is confirmed by extensive testing on surrogate data, which unambiguously show that large stock market drops (and crashes) cannot be accounted for by the distribution of returns characterising the smaller market moves. They thus belong to a different class of their own and call for a specific amplification mechanism. A similar scenario is found for the majority of the company stocks analysed. Drawups (gain from the last local minimum to the next local maximum) exhibit a similar behavior in only about half the markets that we examined. In the spirit of Bacon in Novum Organum about 400 years ago, \"Errors of Nature, Sports and Monsters correct the understanding in regard to ordinary things, and reveal general forms. For whoever knows the ways of Nature will more easily notice her deviations; and, on the other hand, whoever knows her deviations will more accurately describe her ways,\" we propose that outliers reveal fundamental properties of the stock market."
+  },
+  {
+   "DOI": "10.1007/s10959-018-0836-y",
+   "title": "Drawdown and Drawup for Fractional Brownian Motion with Trend",
+   "year": 2018,
+   "container": "Journal of Theoretical Probability",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3844/jmssp.2020.182.197",
+   "title": "Drawdown and Drawup of Bi-Directional Grid Constrained Stochastic Processes",
+   "year": 2020,
+   "container": "Journal of Mathematics and Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.21314/jor.2002.058",
+   "title": "Large stock market price drawdowns are outliers",
+   "year": 2001,
+   "container": "The Journal of Risk",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1017/jpr.2017.20",
+   "title": "A unified approach for drawdown (drawup) of time-homogeneous Markov processes",
+   "year": 2017,
+   "container": "Journal of Applied Probability",
+   "type": "journal-article",
+   "abstract": "AbstractDrawdown (respectively, drawup) of a stochastic process, also referred as the reflected process at its supremum (respectively, infimum), has wide applications in many areas including financial risk management, actuarial mathematics, and statistics. In this paper, for general time-homogeneous Markov processes, we study the joint law of the first passage time of the drawdown (respectively, drawup) process, its overshoot, and the maximum of the underlying process at this first passage time. By using short-time pathwise analysis, under some mild regularity conditions, the joint law of the three drawdown quantities is shown to be the unique solution to an integral equation which is expressed in terms of fundamental two-sided exit quantities of the underlying process. Explicit forms for this joint law are found when the Markov process has only one-sided jumps or is a Lévy process (possibly with two-sided jumps). The proposed methodology provides a unified approach to study various drawdown quantities for the general class of time-homogeneous Markov processes."
+  },
+  {
+   "DOI": "10.37727/jkdas.2020.22.3.951",
+   "title": "Residual Maximum Drawdown in the Korean Stock Market",
+   "year": 2020,
+   "container": "The Korean Data Analysis Society",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/s00245-018-9492-y",
+   "title": "Fair Valuation of Lévy-Type Drawdown-Drawup Contracts with General Insured and Penalty Functions",
+   "year": 2018,
+   "container": "Applied Mathematics &amp; Optimization",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/09603100210161983",
+   "title": "Long memory and outliers in stock market returns",
+   "year": 2003,
+   "container": "Applied Financial Economics",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

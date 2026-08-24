@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-10",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=financial+stress+index+identifying+stress+episodes&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2836747,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.21314/jfmi.2016.053",
+   "title": "Identifying historical episodes for central counterparty stress testing",
+   "year": 2016,
+   "container": "The Journal of Financial Market Infrastructures",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2584378",
+   "title": "Measuring Financial Stress – A Country Specific Stress Index for Finland",
+   "year": 2015,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "​I propose a financial stress index (FSI) for the Finnish financial system that aims to reflect the functionality of the financial system and provide an aggregate measure of financial stress in the money, bond, equity and foreign exchange markets and the banking sector. The FSI is a composite index that combines information from these markets and provides a measure of stress in the financial system as a whole. The FSI has obvious benefits for all participants in the financial markets who need a tool for monitoring the functioning of the financial markets, as it provides information on systemic stress events which are not as easily captured with the stress measures of individual markets or sectors. The ESRB recommendation (ESRB, 2014a) also states that national or international FSIs could be used when making a decision about the release of the counter-cyclical capital buffer. Hence, the index can also be used to support the macro-prudential policy decision making in Finland."
+  },
+  {
+   "DOI": "10.2139/ssrn.5069503",
+   "title": "Corporate Bond Issuance Over Financial Stress Episodes: A Global Perspective",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "A new era of abundant global liquidity and the maturation of domestic capital markets has transformed corporate bond financing in emerging economies. We show that these forces enabled firms in several EMEs, especially in East Asia, to access bond markets with levels of market access comparable to advanced economies during global financial stress brought on by the COVID-19 pandemic. This sustained funding capacity, fueled by accommodative liquidity spillovers, was however accompanied by rising financial vulnerabilities, highlighting the double-edged nature of market deepening."
+  },
+  {
+   "DOI": "10.2139/ssrn.5340143",
+   "title": "Corporate Bond Issuance Over Financial Stress Episodes: A Global Perspective",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.35537/10915/3348",
+   "title": "A financial stress index to identify banking crises",
+   "year": null,
+   "container": "",
+   "type": "dissertation",
+   "abstract": "Motivado por las discrepancias presentes en las actuales cronologías de crisis bancarias, este trabajo desarrolla un índice de stress financiero y propone su utilización como herramienta alternativa para identificar la presencia de problemas bancarios. Este índice se diferencia de otras propuestas similares por la utilización de series disponibles para un amplio número de países y durante extensos períodos de tiempo. Se encuentra que mediante su utilización es posible derivar una cronología de crisis bancarias que compara favorablemente con estudios previos y que, además, permite la identificación de episodios usualmente no reconocidos. Adicionalmente, para países considerados con historial de crisis gemelas, se encuentra que el FSI muestra una clara asociación con la evolución del tipo de cambio real y otros indicadores de presión cambiaria, lo cual es considerado como un respaldo adicional a la validez del FSI como herramienta para la identificación de problemas bancarios."
+  },
+  {
+   "DOI": "10.1016/j.jfs.2017.07.004",
+   "title": "Dating systemic financial stress episodes in the EU countries",
+   "year": 2017,
+   "container": "Journal of Financial Stability",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781118374719.index",
+   "title": "Index",
+   "year": 2012,
+   "container": "Coherent Stress Testing",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1017/9781108903011.038",
+   "title": "Index",
+   "year": 2022,
+   "container": "Handbook of Financial Stress Testing",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

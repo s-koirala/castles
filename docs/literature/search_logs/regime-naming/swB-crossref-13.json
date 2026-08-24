@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-13",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=trading+range+breakout+rule+test+stock+returns&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 1465449,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.3068852",
+   "title": "Trading Range Breakout Test on Daily Stocks of Indian Markets",
+   "year": 2017,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.5121/ijci.2016.5107",
+   "title": "Opening Range Breakout Stock Trading Algorithmic Model",
+   "year": 2016,
+   "container": "International Journal on Cybernetics &amp; Informatics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1142/s242478632250027x",
+   "title": "Can exchange-traded funds be profitably traded with the trading range breakout technical trading rule?",
+   "year": 2022,
+   "container": "International Journal of Financial Engineering",
+   "type": "journal-article",
+   "abstract": "This study investigates whether the trading range breakout technical trading rule can be applied in exchange-traded funds. Using the samples of crude oil exchange-traded funds, namely USO, USL, UCO, and DBO, that track West Texas intermediate (WTI), the results indicate that the trading range breakout technical trading rule outperforms the benchmark buy-and-hold strategy. In addition, a volatility-based trading range breakout technical trading rule is proposed to enhance trading performance. The results suggest that the proposed TGARCH-MA can be used as a technical trading rule to assist investors and fund managers interested in using the trading range breakout in exchange-traded funds."
+  },
+  {
+   "DOI": "10.2139/ssrn.1026396",
+   "title": "The Tick Test Rule, Investors' Opinions Dispersion, and Stock Returns: The Daily Evidence on the NYSE",
+   "year": 2007,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "This paper investigates the impact of short sale constraints on stock returns associated with the tick-test rule in the NYSE using REG SHO daily short selling data. The results suggest removing the tick-test rule for so called 'pilot' stocks mitigates short-term stock overvaluation by approximately 2% annually. It is surprising that for large pilot stocks, lifting the tick-test rule goes beyond correcting stock overvaluation and is associated with stock undervaluation, suggesting that the SEC's recent decision of removing tick-test restrictions for all U.S. exchange-traded securities may not be considered as an optimal policy if such undervaluation is driven by predatory short sellers' price manipulation. It also shows here that a high level of daily short sale activity signals a short-term stock return reversal during the sample period. On average, a daily rebalanced portfolio consisting of a long position in stocks with the highest shorting activities and a short position of stocks with the lowest shorting activities generates an annual rate of return of more than 150%, before adjusting for trading costs. The returns of these hedge portfolios are short lived; they diminish quickly as the number of days in the holding period increases."
+  },
+  {
+   "DOI": "10.7551/mitpress/3951.003.0005",
+   "title": "Does insider trading predict future stock returns?",
+   "year": 1998,
+   "container": "Investment Intelligence from Insider Trading",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119203933.ch11",
+   "title": "Opening Range Breakout",
+   "year": 2012,
+   "container": "Swing and Day Trading",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.5089/9781451854879.001.a001",
+   "title": "Noise Trading, Transaction Costs, and the Relationship of Stock Returns and Trading Volume",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.6128266",
+   "title": "Stock Trading Variability and Option Returns",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "I document a strong negative relationship between the variability of underlying share turnover and the cross-section of future delta-hedged equity option returns. Sorting options on the coefficient of variation of turnover yields significant return spreads for both call and put portfolios. This novel long-short option factor is not spanned by prominent multi-factor models and persists across time and alternative portfolio constructions. Turnover variability is largely uncorrelated with the variability of conventional liquidity measures and instead consolidates several documented risk proxies relevant for option market makers, including jump risk and volatility risk. The effect is most pronounced following upside trading spikes and survives controls for earnings announcements, news dissemination, and investor disagreement."
+  }
+ ]
+}

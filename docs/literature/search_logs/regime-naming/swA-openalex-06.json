@@ -1,0 +1,154 @@
+{
+ "log_id": "swA-openalex-06",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"smart money concepts\" OR \"inner circle trader\"",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22smart%20money%20concepts%22%20OR%20%22inner%20circle%20trader%22&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 88,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.1109/access.2026.3663386",
+   "title": "A Meta-Adaptive Framework Combining Gated Attention Mechanisms and Feature-Wise Modulation for Multi-Horizon Stock Price Movement Prediction",
+   "year": 2026,
+   "venue": "IEEE Access",
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.5281/zenodo.21734781",
+   "title": "LAB #442 NEUTRAL: VIDEO SCOUT: Order Block Simplified - Smart Money Course — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21637047",
+   "title": "LAB #273 HARMFUL: VIDEO SCOUT: Every ICT Trading Strategy Explained in 13 Minutes! — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21882742",
+   "title": "LAB #1092 HARMFUL: VIDEO SCOUT: EP 5: GOLD Live Trading & Teaching London Session | ICT SMC - 28th July 2026 — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21857444",
+   "title": "LAB #836 NEUTRAL: TG AUTO: New edge proposed: accumulation_sweep_liquidity_grab — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.2139/ssrn.6813744",
+   "title": "TwinAlgo: Expectancy-Optimised Algorithmic Trading via Dynamic Regime-Conditioned LLM Prompting and Smart Money Concept Integration on Gold Spot Markets",
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.22006828",
+   "title": "LAB #1185 NEUTRAL: VIDEO SCOUT: ICT Judas Swing Strategy – Master the Smart Money Trap with the Judas Swing Indicator f — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21942935",
+   "title": "New edge proposed: choch_volume_sweep — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21857438",
+   "title": "New edge proposed: accumulation_sweep_liquidity_grab — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.22065141",
+   "title": "LAB #1615 NEUTRAL: VIDEO SCOUT: A High-Quality Order Block Trading Strategy for Forex, Stocks & Crypto | ICT Smart Mone — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.19186446",
+   "title": "Midnight Opening Gap (MNOG): A Feasibility Study on a Daily Balancing Factor within ICT/SMC Trading Frameworks",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21714264",
+   "title": "LAB #371 HARMFUL: VIDEO SCOUT: Learn Every ICT Concept in 17 Minutes (Liquidity, FVG, Order Blocks & More) — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21734780",
+   "title": "LAB #442 NEUTRAL: VIDEO SCOUT: Order Block Simplified - Smart Money Course — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21714342",
+   "title": "LAB #376 HARMFUL: VIDEO SCOUT: I Backtested This Easy ICT/SMC Forex Strategy For 6 Months! | Judas Swing — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21714343",
+   "title": "LAB #376 HARMFUL: VIDEO SCOUT: I Backtested This Easy ICT/SMC Forex Strategy For 6 Months! | Judas Swing — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21637176",
+   "title": "LAB #284 HARMFUL: VIDEO SCOUT: Learn ICT Concepts in 9 Minutes (Beginner Friendly) — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21989017",
+   "title": "LAB #1103 NEUTRAL: VIDEO SCOUT: Liquidity: Buyside & Sellside - ICT Concepts — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21912468",
+   "title": "LAB #960 HARMFUL: VIDEO SCOUT: Best Order Block Trading Strategy (Smart Money Concepts SMC) — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21832340",
+   "title": "LAB #794 PROMISING: VIDEO SCOUT: The GAME CHANGER SMC Order Block & Volume Profile Strategy | 4,000% ROI Trade — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21846728",
+   "title": "New edge proposed: accumulation_manipulation_distribution — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  }
+ ]
+}

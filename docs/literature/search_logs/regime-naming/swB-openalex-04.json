@@ -1,0 +1,100 @@
+{
+ "query_id": "swB-openalex-04",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.openalex.org/works?filter=title.search:%22market%20conditions%22&sort=cited_by_count:desc&per-page=10",
+ "total_results_reported": 2904,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "openalex_id": "https://openalex.org/W2117323684",
+   "DOI": "10.1093/qje/qjt015",
+   "title": "Duration Dependence and Labor Market Conditions: Evidence from a Field Experiment*",
+   "year": 2013,
+   "container": "The Quarterly Journal of Economics",
+   "type": "article",
+   "cited_by_count": 698
+  },
+  {
+   "openalex_id": "https://openalex.org/W2141433594",
+   "DOI": "10.1111/j.1540-6261.2005.00736.x",
+   "title": "IPO Pricing in “Hot” Market Conditions: Who Leaves Money on the Table?",
+   "year": 2005,
+   "container": "The Journal of Finance",
+   "type": "article",
+   "cited_by_count": 551
+  },
+  {
+   "openalex_id": "https://openalex.org/W3122762010",
+   "DOI": "10.1016/j.jbankfin.2009.05.018",
+   "title": "Market conditions, default risk and credit spreads",
+   "year": 2009,
+   "container": "Journal of Banking & Finance",
+   "type": "article",
+   "cited_by_count": 348
+  },
+  {
+   "openalex_id": "https://openalex.org/W1993356647",
+   "DOI": "10.1257/jep.20.3.143",
+   "title": "Initial Labor Market Conditions and Long-Term Outcomes for Economists",
+   "year": 2006,
+   "container": "The Journal of Economic Perspectives",
+   "type": "article",
+   "cited_by_count": 348
+  },
+  {
+   "openalex_id": "https://openalex.org/W1502081151",
+   "DOI": "10.2307/146230",
+   "title": "Safe Port in a Storm: The Impact of Labor Market Conditions on Community College Enrollments",
+   "year": 1995,
+   "container": "The Journal of Human Resources",
+   "type": "article",
+   "cited_by_count": 334
+  },
+  {
+   "openalex_id": "https://openalex.org/W2086150820",
+   "DOI": "10.1111/j.1540-6261.1977.tb03312.x",
+   "title": "STABILITY TESTS FOR ALPHAS AND BETAS OVER BULL AND BEAR MARKET CONDITIONS",
+   "year": 1977,
+   "container": "The Journal of Finance",
+   "type": "article",
+   "cited_by_count": 307
+  },
+  {
+   "openalex_id": "https://openalex.org/W1587328237",
+   "DOI": "10.1086/682938",
+   "title": "Cashier or Consultant? Entry Labor Market Conditions, Field of Study, and Career Success",
+   "year": 2015,
+   "container": "Journal of Labor Economics",
+   "type": "article",
+   "cited_by_count": 305
+  },
+  {
+   "openalex_id": "https://openalex.org/W1647816935",
+   "DOI": "10.1007/s10680-010-9222-x",
+   "title": "Where Are the Babies? Labor Market Conditions and Fertility in Europe",
+   "year": 2010,
+   "container": "European Journal of Population / Revue européenne de Démographie",
+   "type": "article",
+   "cited_by_count": 294
+  },
+  {
+   "openalex_id": "https://openalex.org/W3040837728",
+   "DOI": "10.1016/j.eneco.2020.104851",
+   "title": "Asymmetric effects of geopolitical risks on energy returns and volatility under different market conditions",
+   "year": 2020,
+   "container": "Energy Economics",
+   "type": "article",
+   "cited_by_count": 280
+  },
+  {
+   "openalex_id": "https://openalex.org/W2883414680",
+   "DOI": "10.1016/j.eneco.2018.07.026",
+   "title": "Asymmetric impacts of oil price uncertainty on Chinese stock returns under different market conditions: Evidence from oil volatility index",
+   "year": 2018,
+   "container": "Energy Economics",
+   "type": "article",
+   "cited_by_count": 267
+  }
+ ]
+}

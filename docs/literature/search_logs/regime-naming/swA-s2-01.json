@@ -1,0 +1,174 @@
+{
+ "log_id": "swA-s2-01",
+ "agent": "sweep-A-practitioner",
+ "platform": "Semantic Scholar",
+ "database": "api.semanticscholar.org/graph/v1",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "Wyckoff method trading phases detection deep learning",
+ "request_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Wyckoff%20method%20trading%20phases%20detection%20deep%20learning&limit=20&fields=title,year,venue,externalIds,citationCount",
+ "n_records_total": 6200,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.1109/ISCAIT64916.2025.11010680",
+   "arXiv": "2504.00287",
+   "title": "A Deep Learning Approach to Anomaly Detection in High-Frequency Trading Data",
+   "year": 2025,
+   "venue": "2025 4th International Symposium on Computer Applications and Information Technology (ISCAIT)",
+   "cites": 13
+  },
+  {
+   "DOI": "10.3390/s25030594",
+   "arXiv": null,
+   "title": "Advanced Deep Learning Models for Melanoma Diagnosis in Computer-Aided Skin Cancer Detection",
+   "year": 2025,
+   "venue": "Italian National Conference on Sensors",
+   "cites": 25
+  },
+  {
+   "DOI": "10.1007/s00371-024-03567-0",
+   "arXiv": null,
+   "title": "Deep fake detection using an optimal deep learning model with multi head attention-based feature extraction scheme",
+   "year": 2024,
+   "venue": "The Visual Computer",
+   "cites": 28
+  },
+  {
+   "DOI": "10.1109/TASE.2024.3382731",
+   "arXiv": null,
+   "title": "Advances and Challenges in Computer Vision for Image-Based Plant Disease Detection: A Comprehensive Survey of Machine and Deep Learning Approaches",
+   "year": 2025,
+   "venue": "IEEE Transactions on Automation Science and Engineering",
+   "cites": 73
+  },
+  {
+   "DOI": "10.30574/wjaets.2024.12.2.0265",
+   "arXiv": null,
+   "title": "Deep learning in high-frequency trading: Conceptual challenges and solutions for real-time fraud detection",
+   "year": 2024,
+   "venue": "World Journal of Advanced Engineering Technology and Sciences",
+   "cites": 78
+  },
+  {
+   "DOI": "10.3390/rs16050756",
+   "arXiv": null,
+   "title": "Vision-Based Mid-Air Object Detection and Avoidance Approach for Small Unmanned Aerial Vehicles with Deep Learning and Risk Assessment",
+   "year": 2024,
+   "venue": "Remote Sensing",
+   "cites": 13
+  },
+  {
+   "DOI": "10.3389/fmed.2024.1506686",
+   "arXiv": null,
+   "title": "Diagnosis and detection of bone fracture in radiographic images using deep learning approaches",
+   "year": 2025,
+   "venue": "Frontiers in Medicine",
+   "cites": 49
+  },
+  {
+   "DOI": "10.1007/s10462-025-11284-w",
+   "arXiv": null,
+   "title": "Comprehensive review of recent developments in visual object detection based on deep learning",
+   "year": 2025,
+   "venue": "Artificial Intelligence Review",
+   "cites": 62
+  },
+  {
+   "DOI": "10.48550/arXiv.2308.00077",
+   "arXiv": "2308.00077",
+   "title": "A Novel Deep Learning based Model to Defend Network Intrusion Detection System against Adversarial Attacks",
+   "year": 2023,
+   "venue": "International Conference on Computing for Sustainable Global Development",
+   "cites": 26
+  },
+  {
+   "DOI": "10.1007/s11416-023-00501-1",
+   "arXiv": null,
+   "title": "Explainable Ransomware Detection with Deep Learning Techniques",
+   "year": 2023,
+   "venue": "Journal of Computer Virology and Hacking Techniques",
+   "cites": 21
+  },
+  {
+   "DOI": "10.3390/info16010053",
+   "arXiv": null,
+   "title": "Interpretable Deep Learning for Pneumonia Detection Using Chest X-Ray Images",
+   "year": 2025,
+   "venue": "Inf.",
+   "cites": 45
+  },
+  {
+   "DOI": "10.1038/s41598-025-99167-6",
+   "arXiv": "2503.01082",
+   "title": "Trade-offs between machine learning and deep learning for mental illness detection on social media",
+   "year": 2025,
+   "venue": "Scientific Reports",
+   "cites": 57
+  },
+  {
+   "DOI": "10.1142/s0129065724500461",
+   "arXiv": null,
+   "title": "Wavelet Transform, Reconstructed Phase Space, and Deep Learning Neural Networks for EEG-Based Schizophrenia Detection",
+   "year": 2024,
+   "venue": "International Journal of Neural Systems",
+   "cites": 30
+  },
+  {
+   "DOI": "10.3390/engproc2025084082",
+   "arXiv": null,
+   "title": "A Hybrid Deep Learning Model for Waste Detection and Classification Utilizing YOLOv8 and CNN",
+   "year": 2025,
+   "venue": "The 8th Mechanical Engineering, Science and Technology International Conference",
+   "cites": 18
+  },
+  {
+   "DOI": "10.1038/s41467-024-45778-y",
+   "arXiv": null,
+   "title": "A signal processing and deep learning framework for methylation detection using Oxford Nanopore sequencing",
+   "year": 2024,
+   "venue": "Nature Communications",
+   "cites": 93
+  },
+  {
+   "DOI": "10.3389/fnins.2025.1630664",
+   "arXiv": null,
+   "title": "Automatic detection and prediction of epileptic EEG signals based on nonlinear dynamics and deep learning: a review",
+   "year": 2025,
+   "venue": "Frontiers in Neuroscience",
+   "cites": 28
+  },
+  {
+   "DOI": "10.3390/computers11050058",
+   "arXiv": null,
+   "title": "Foot-to-Ground Phases Detection: A Comparison of Data Representation Formatting Methods with Respect to Adaption of Deep Learning Architectures",
+   "year": 2022,
+   "venue": "De Computis",
+   "cites": 3
+  },
+  {
+   "DOI": "10.1007/s11042-024-19677-9",
+   "arXiv": null,
+   "title": "A deep learning-based early alzheimer’s disease detection using magnetic resonance images",
+   "year": 2024,
+   "venue": "Multimedia tools and applications",
+   "cites": 32
+  },
+  {
+   "DOI": "10.1109/ACCESS.2024.3453039",
+   "arXiv": null,
+   "title": "Two-Stage Approach With Combination of Outlier Detection Method and Deep Learning Enhances Automatic Epileptic Seizure Detection",
+   "year": 2024,
+   "venue": "IEEE Access",
+   "cites": 26
+  },
+  {
+   "DOI": "10.1016/j.cmpb.2024.108492",
+   "arXiv": null,
+   "title": "Multimodal autism detection: Deep hybrid model with improved feature level fusion",
+   "year": 2024,
+   "venue": "Comput. Methods Programs Biomed.",
+   "cites": 16
+  }
+ ]
+}

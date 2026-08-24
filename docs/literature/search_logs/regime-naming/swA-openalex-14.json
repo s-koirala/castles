@@ -1,0 +1,154 @@
+{
+ "log_id": "swA-openalex-14",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"measured move\"",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22measured%20move%22&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 42,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.1017/cbo9780511806414.003",
+   "title": "A Theory of Gradual Institutional Change",
+   "year": 2009,
+   "venue": "Cambridge University Press eBooks",
+   "cited_by": 1466
+  },
+  {
+   "DOI": "",
+   "title": "Japanese candlestick charting techniques : a contemporary guide to the ancient investment techniques of the Far East",
+   "year": 1991,
+   "venue": null,
+   "cited_by": 111
+  },
+  {
+   "DOI": "10.1016/j.measurement.2019.05.023",
+   "title": "Measuring shape and motion of a high-speed object with designed features from motion blurred images",
+   "year": 2019,
+   "venue": "Measurement",
+   "cited_by": 26
+  },
+  {
+   "DOI": "10.1049/ip-smt:20030002",
+   "title": "Digital capacitive angular-position sensor",
+   "year": 2002,
+   "venue": "IEE Proceedings - Science Measurement and Technology",
+   "cited_by": 14
+  },
+  {
+   "DOI": "10.1002/mp.16791",
+   "title": "Beam delivery characteristics of the Hitachi carbon ion scanning system at Osaka Heavy Ion Medical Accelerator in Kansai (HIMAK)",
+   "year": 2023,
+   "venue": "Medical Physics",
+   "cited_by": 14
+  },
+  {
+   "DOI": "10.1109/psce.2006.296178",
+   "title": "Short-Term System Marginal Price Forecasting Using System-Type Neural Network Architecture",
+   "year": 2006,
+   "venue": null,
+   "cited_by": 9
+  },
+  {
+   "DOI": "10.1002/jbmr.3015",
+   "title": "Challenges in the Acquisition and Analysis of Bone Microstructure During Growth",
+   "year": 2016,
+   "venue": "Journal of Bone and Mineral Research",
+   "cited_by": 8
+  },
+  {
+   "DOI": "10.1016/j.jevs.2016.04.061",
+   "title": "In vitro evaluation by DAPI staining of fresh, cooled and vitrified donkey embryos",
+   "year": 2016,
+   "venue": "Journal of Equine Veterinary Science",
+   "cited_by": 5
+  },
+  {
+   "DOI": "10.1109/ijcnn.2006.1716450",
+   "title": "Short-Term Load Forecasting Using System-Type Neural Network Architecture",
+   "year": 2006,
+   "venue": "The 2006 IEEE International Joint Conference on Neural Network Proceedings",
+   "cited_by": 4
+  },
+  {
+   "DOI": "10.1109/ijcnn.2006.247140",
+   "title": "Short-Term Load Forecasting Using System-Type Neural Network Architecture",
+   "year": 2006,
+   "venue": "The 2006 IEEE International Joint Conference on Neural Network Proceedings",
+   "cited_by": 4
+  },
+  {
+   "DOI": "10.70619/vol1iss2pp1-13",
+   "title": "Entrepreneurial Competence and Growth of Micro-Small Enterprises in Kiambu County, Kenya",
+   "year": 2021,
+   "venue": "Journal of entrepreneurship & project management.",
+   "cited_by": 4
+  },
+  {
+   "DOI": "10.3390/electronics13051000",
+   "title": "Optical Bubble Microflow Meter for Continuous Measurements in a Closed System",
+   "year": 2024,
+   "venue": "Electronics",
+   "cited_by": 3
+  },
+  {
+   "DOI": "10.1111/dmcn.14244",
+   "title": "Oral Presentations",
+   "year": 2019,
+   "venue": "Developmental Medicine & Child Neurology",
+   "cited_by": 3
+  },
+  {
+   "DOI": "10.4028/www.scientific.net/kem.523-524.895",
+   "title": "Pivot Turning Measurement of Relative Position and Posture for Moving Robots System Using Stereo-Camera",
+   "year": 2012,
+   "venue": "Key engineering materials",
+   "cited_by": 2
+  },
+  {
+   "DOI": "10.1515/9781685858391-006",
+   "title": "3 Nicaragua’s Measured Move to Democracy",
+   "year": 1998,
+   "venue": "Lynne Rienner Publishers eBooks",
+   "cited_by": 2
+  },
+  {
+   "DOI": "10.1136/bmj.310.6977.419a",
+   "title": "Review body calls for “measured” move to local pay",
+   "year": 1995,
+   "venue": "BMJ",
+   "cited_by": 1
+  },
+  {
+   "DOI": "",
+   "title": "Standard & Poor's How charts can help you in the stock market",
+   "year": 2004,
+   "venue": "McGraw-Hill eBooks",
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.37396/jsc.v7i2.426",
+   "title": "A Reliability Analysis of Steam Condenser Instrumentation Using Failure Mode and Effect Analysis (FMEA)",
+   "year": 2024,
+   "venue": "Jurnal Sistem Cerdas",
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.1167/2.7.80",
+   "title": "Surface based mechanisms of attentional facilitation and inhibition in motion perception",
+   "year": 2010,
+   "venue": "Journal of Vision",
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.1002/9781119202608.ch9",
+   "title": "Reversals often End at Signal Bars from Prior Failed Reversals",
+   "year": 2012,
+   "venue": null,
+   "cited_by": 0
+  }
+ ]
+}

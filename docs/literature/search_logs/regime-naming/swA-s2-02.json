@@ -1,0 +1,12 @@
+{
+ "log_id": "swA-s2-02",
+ "agent": "sweep-A-practitioner",
+ "platform": "Semantic Scholar",
+ "database": "api.semanticscholar.org/graph/v1",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"Wyckoff\" trading market accumulation",
+ "n_records_total": null,
+ "n_records_retrieved": 0,
+ "note": "ACCESS FAILURE: HTTP 429 persisted through six retries with 8 s backoff (unauthenticated rate limit). Recorded as an executed-but-failed query per the regime-definitions protocol-amendments convention; NOT a zero-record result. Verification gap in section 10 of the review.",
+ "hits": []
+}

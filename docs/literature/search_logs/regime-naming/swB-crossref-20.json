@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-20",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=bear+market+rally&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 406282,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1177/036063252105100210",
+   "title": "Market Rally",
+   "year": 2021,
+   "container": "Lighting Design + Application",
+   "type": "journal-article",
+   "abstract": "Nearly two centuries later, this heritage site in Toronto has a lighting design worthy of its stature"
+  },
+  {
+   "DOI": "10.1021/cen-v061n042.p006",
+   "title": "STOCK MARKET RALLY:",
+   "year": 1983,
+   "container": "Chemical &amp; Engineering News Archive",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/j.1467-6346.2009.02349.x",
+   "title": "MARKET REVIEW: Prices Rally",
+   "year": 2009,
+   "container": "Africa Research Bulletin: Economic, Financial and Technical Series",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4135/9781412952613.n27",
+   "title": "Bear Market",
+   "year": 2007,
+   "container": "Encyclopedia of Governance",
+   "type": "reference-entry",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3905/jpm.1997.26",
+   "title": "Bull Market? Bear Market?",
+   "year": 1997,
+   "container": "The Journal of Portfolio Management",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/j.ctt183q66z.14",
+   "title": "JAPAN’S BEAR MARKET",
+   "year": 2008,
+   "container": "The Credit Crunch",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1093/0195130863.003.0011",
+   "title": "Bear Market (1970–81)",
+   "year": 1999,
+   "container": "Wall Street",
+   "type": "book-chapter",
+   "abstract": "Abstract\n               Stock market falls in 1970 after Wall Street crisis. War related inflation and high interest rates prevail. Paul Volcker assumes control at Fed. Historically high interest rates. High value of the dollar. Market retreats below 1,000 on DJIA. Record yields on Treasury bonds, economic stimulus package from Washington."
+  },
+  {
+   "DOI": "10.3905/jai.2010.13.2.035",
+   "title": "On Understanding Bear Market Funds",
+   "year": 2010,
+   "container": "The Journal of Alternative Investments",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

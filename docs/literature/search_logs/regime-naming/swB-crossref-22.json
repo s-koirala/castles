@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-22",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.title=market+episodes&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 410579,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.1007/s11079-016-9419-7",
+   "title": "Fiscal Episodes and Market Power",
+   "year": 2016,
+   "container": "Open Economies Review",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.2631061",
+   "title": "Fiscal Episodes, Technological Progress and Market Power",
+   "year": 2015,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "We assess the impact of fiscal adjustments (and technology) on the evolution of markups in a panel of 14 OECD countries. We allow for smooth changes in the technological parameters by generating measures of TFP compatible with markups and assess the interaction between the two variables. Our results with narrative action-based data show counter-cyclicality since negative fiscal shocks increase markups. Moreover, in times of economic contraction the degree of counter-cyclicality of negative (positive) government spending (tax) shocks is larger than during economic expansions. In addition, markups have a pro-cyclical behaviour after a productivity shock. However, when identifying fiscal consolidations using changes of the cyclically adjusted primary balance, one obtains expansionary effects and a pro-cyclical behaviour in terms of markups and aggregate demand shocks."
+  },
+  {
+   "DOI": "10.1016/j.jadohealth.2024.02.001",
+   "title": "Adolescent Psychiatric Inpatient Episodes and Subsequent Labor Market Trajectories",
+   "year": 2024,
+   "container": "Journal of Adolescent Health",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.irfa.2024.103348",
+   "title": "Gold market volatility and REITs' returns during tranquil and turbulent episodes",
+   "year": 2024,
+   "container": "International Review of Financial Analysis",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1787/888933295978",
+   "title": "Financial market conditions during past episodes of US monetary policy tightening",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.15396/eres2024-222",
+   "title": "Gold market volatility and REITs' returns during tranquil and turbulent episodes",
+   "year": 2024,
+   "container": "30th Annual European Real Estate Society Conference",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.econlet.2007.12.003",
+   "title": "The exchange rate and fiscal consolidation episodes in emerging market economies",
+   "year": 2008,
+   "container": "Economics Letters",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.7717/peerj-cs.2690/fig-9",
+   "title": "Figure 9: Reward evolution in the gold market in 5,000 episodes.",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  }
+ ]
+}

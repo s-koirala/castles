@@ -1,0 +1,105 @@
+{
+ "log_id": "swA-openalex-04",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"market profile\" AND \"value area\"",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22market%20profile%22%20AND%20%22value%20area%22&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 13,
+ "n_records_retrieved": 13,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.1109/icce-tw46550.2019.8991731",
+   "title": "Forecasting Financial Market Trading Behavior by Physical and Market Profiles",
+   "year": 2019,
+   "venue": null,
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.1109/icce-taiwan49838.2020.9258307",
+   "title": "Research the Financial Networking Market Trading Behavior and Physics",
+   "year": 2020,
+   "venue": null,
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.2139/ssrn.6974102",
+   "title": "Reframing TPO as an Estimator of Moments and Entropy of Equity Markets",
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.1002/9781118659724.ch4",
+   "title": "Competent",
+   "year": 2012,
+   "venue": null,
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.22006690",
+   "title": "LAB #1179 NEUTRAL: TG AUTO: New edge proposed: volume_profile_point_of_control_rejection — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.2139/ssrn.6854685",
+   "title": "ViperQ: Order Flow Pattern Recognition via Auction Market Theory for Reinforcement Learning Trading",
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.22006688",
+   "title": "New edge proposed: volume_profile_point_of_control_rejection — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.18664/338.47:338.45.v0i68.189019",
+   "title": "АНАЛІЗ ЗАСТОСУВАННЯ ІНСТРУМЕНТІВ РИНКОВОГО ПРОФІЛЮ ТА МЕТОДИКИ СКАЛЬПІНГА У ВНУТРІШНЬОДЕННІЙ ТОРГІВЛІ Ф’ЮЧЕРСНИМИ КОНТРАКТАМИ.",
+   "year": 2019,
+   "venue": "Вісник економіки транспорту і промисловості",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21989140",
+   "title": "New edge proposed: volume_weighted_ma_cross — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.22006691",
+   "title": "LAB #1179 NEUTRAL: TG AUTO: New edge proposed: volume_profile_point_of_control_rejection — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.2139/ssrn.6350238",
+   "title": "Stop Distance, Exit Methodology, and Signal Preservation in Intraday Value Area Breakouts: Evidence from E-mini S&P 500 Futures",
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21989139",
+   "title": "New edge proposed: volume_weighted_ma_cross — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.22006689",
+   "title": "New edge proposed: volume_profile_point_of_control_rejection — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  }
+ ]
+}

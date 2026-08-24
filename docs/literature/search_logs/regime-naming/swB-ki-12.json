@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-12",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Kaminsky+Schmukler+Short-Run+Pain+Long-Run+Gain+Financial+Liberalization+and+Stock+Market+Cycles&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 210923,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1093/rof/rfn002",
+   "title": "Short-Run Pain, Long-Run Gain: Financial Liberalization and Stock Market Cycles",
+   "year": 2008,
+   "container": "Review of Finance",
+   "type": "journal-article",
+   "abstract": "Abstract\n                  The views on financial liberalization are quite conflictive. Many argue that it triggers financial bubbles and crises. Others claim that financial liberalization allows markets to function properly and capital to move to its most profitable destination. The empirical evidence on these effects is not robust. This paper constructs a new comprehensive chronology of financial liberalization and shows that a key reason for the inconclusive evidence is that the effects of liberalization are time-varying. Financial liberalization is followed by large booms and busts only in the short run. In the long run institutions improve and financial markets tend to stabilize."
+  },
+  {
+   "DOI": "10.3386/w9787",
+   "title": "Short-Run Pain, Long-Run Gain: The Effects of Financial Liberalization",
+   "year": 2003,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1596/1813-9450-2912",
+   "title": "Short-Run Pain, Long-Run Gain: The Effects of Financial Liberalization",
+   "year": 2002,
+   "container": "",
+   "type": "book",
+   "abstract": ""
+  }
+ ]
+}

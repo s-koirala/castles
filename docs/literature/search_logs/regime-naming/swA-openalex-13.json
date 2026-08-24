@@ -1,0 +1,49 @@
+{
+ "log_id": "swA-openalex-13",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"key reversal\" trading",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22key%20reversal%22%20trading&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 5,
+ "n_records_retrieved": 5,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "",
+   "title": "A complete guide to technical trading tactics : how to profit using pivot points, candlesticks & other indicators",
+   "year": 2004,
+   "venue": "Medical Entomology and Zoology",
+   "cited_by": 14
+  },
+  {
+   "DOI": "10.31580/jmi.v9i3.2638",
+   "title": "Predicting key reversal points through Fibonacci retracements",
+   "year": 2022,
+   "venue": "Journal of Management Info",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.1002/9781119197317.ch18",
+   "title": "Pyramid Trading Points (P and MP)",
+   "year": 2012,
+   "venue": null,
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.1097/01.ccm.0001187828.36682.a2",
+   "title": "1458: ANDEXANET ALFA VERSUS PROTHROMBIN COMPLEX CONCENTRATE IN THE PERIOPERATIVE SETTING",
+   "year": 2026,
+   "venue": "Critical Care Medicine",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.2139/ssrn.2315920",
+   "title": "Do the Fibonacci Time Horizons have Predictive Capacity in Determining Key Reversal Points in Dow Jones Industrial Average (DJIA)",
+   "year": 2013,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0
+  }
+ ]
+}

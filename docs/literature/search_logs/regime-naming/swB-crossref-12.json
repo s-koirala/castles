@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-12",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=narrow+range+day+volatility+contraction+expansion+intraday+prices&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 950572,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.5311395",
+   "title": "Intraday Volatility Spillovers between Oil Prices and Stock Sectors",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.5190275",
+   "title": "Analyzing Intraday Volatility Spillovers between Oil Prices and Stock Sectors",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.6771168",
+   "title": "Intraday Volatility Spillovers from Crude Oil Prices to Sectoral Stock Indices: Evidence from Oil-Importing and Oil-Exporting Economies",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "This study examines intraday volatility spillovers from crude oil prices to sectoral stock indices in oil-importing and oil-exporting economies. Using high-frequency data from July 31, 2020, to April 30, 2021, during the global health crisis, the analysis includes five oil-exporting and nine oil-importing countries. Ten sectoral indices are constructed from 1,689 individual stocks to capture market dynamics. The findings show that volatility spillovers remain persistently high in the post-pandemic phase, indicating ongoing cross-market risk transmission. However, the magnitude and direction of spillovers vary across countries and sectors. In markets such as the United Kingdom and Norway, oil prices are net volatility transmitters, while in the United States and Canada, oil absorbs volatility from sectoral indices. Weaker and less consistent linkages are observed in countries like South Korea, China, Mexico, and Australia. This study contributes by emphasizing the role of country-specific economic structures and sectoral characteristics in shaping volatility transmission. The results offer valuable insights for investors and policymakers on risk management and portfolio diversification during periods of market uncertainty."
+  },
+  {
+   "DOI": "10.2139/ssrn.1565122",
+   "title": "Dividend Volatility and Asset Prices: A Loss Aversion/Narrow Framing Approach",
+   "year": 2010,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "This paper documents that the aggregate dividend growth rate exhibits strong volatility clustering. We incorporate this feature into a theoretical model and study the role of dividend volatility in asset prices when investors are loss-averse over fluctuations in the value of their financial wealth. We find that our model explains many salient features of the stock market, including the high mean, excess volatility, and predictability of stock returns; the low correlation between consumption growth and stock returns; time-varying Sharpe ratios; the GARCH effect and the volatility feedback effect in stock returns; and the decline of equity premiums in the postwar period."
+  },
+  {
+   "DOI": "10.2139/ssrn.5795584",
+   "title": "Volume-Driven Time-of-Day Effects in Intraday Volatility Models",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.5081715",
+   "title": "Profitability of Batteries in Day-Ahead and Intraday Electricity Markets: Assessment of Operation Strategies with Endogenous Prices",
+   "year": 2025,
+   "container": "",
+   "type": "posted-content",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.3390/en13143530",
+   "title": "PCA Forecast Averaging—Predicting Day-Ahead and Intraday Electricity Prices",
+   "year": 2020,
+   "container": "Energies",
+   "type": "journal-article",
+   "abstract": "Recently, the development in combining point forecasts of electricity prices obtained with different length of calibration windows have provided an extremely efficient and simple tool for improving predictive accuracy. However, the proposed methods are strongly dependent on expert knowledge and may not be directly transferred from one to another model or market. Hence, we consider a novel extension and propose to use principal component analysis (PCA) to automate the procedure of averaging over a rich pool of predictions. We apply PCA to a panel of over 650 point forecasts obtained for different calibration windows length. The robustness of the approach is evaluated with three different forecasting tasks, i.e., forecasting day-ahead prices, forecasting intraday ID3 prices one day in advance, and finally very short term forecasting of ID3 prices (i.e., six hours before delivery). The empirical results are compared using the Mean Absolute Error measure and Giacomini and White test for conditional predictive ability (CPA). The results indicate that PCA averaging not only yields significantly more accurate forecasts than individual predictions but also outperforms other forecast averaging schemes."
+  },
+  {
+   "DOI": "10.2139/ssrn.2374004",
+   "title": "A Volatility-of-Volatility Expansion of the Option Prices in the SABR Stochastic Volatility Model",
+   "year": 2014,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-19",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Bordo+Wheelock+When+do+stock+market+booms+occur+the+macroeconomic+and+policy+environment+of+twentieth+century+booms&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 266432,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.20955/wp.2006.051",
+   "title": "When Do Stock Market Booms Occur?  The Macroeconomic and Policy Environments of 20th Century Booms",
+   "year": 2006,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.929573",
+   "title": "When Do Stock Market Booms Occur? The Macroeconomic and Policy Environments of 20th Century Booms",
+   "year": 2006,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "This paper studies the macroeconomic conditions and policy environments under which stock market booms occurred among ten developed countries during the 20th Century. We find that booms tended to occur during periods of above-average growth of real output, and below-average and falling inflation. We also find that booms often ended within a few months of an increase in inflation and monetary policy tightening. The evidence suggests that booms reflect both real macroeconomic phenomena and monetary policy, as well as the extant regulatory environment."
+  },
+  {
+   "DOI": "10.1017/cbo9780511757419.015",
+   "title": "When do stock market booms occur? The macroeconomic and policy environments of twentieth century booms",
+   "year": 2009,
+   "container": "The Origins and Development of Financial Markets and Institutions",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

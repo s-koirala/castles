@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-02",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Wald+Wolfowitz+On+a+test+whether+two+samples+are+from+the+same+population&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 12052779,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.1214/aoms/1177731909",
+   "title": "On a Test Whether Two Samples are from the Same Population",
+   "year": 1940,
+   "container": "The Annals of Mathematical Statistics",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.4135/9781412983907.n2076",
+   "title": "Wald-Wolfowitz Test",
+   "year": 2005,
+   "container": "Dictionary of Statistics &amp; Methodology",
+   "type": "reference-entry",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/2331706",
+   "title": "On the Difference and the Doublet Tests for Ascertaining Whether Two Samples have been Drawn from the same Population",
+   "year": 1924,
+   "container": "Biometrika",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "log_id": "swA-doicheck-01",
+ "agent": "sweep-A-practitioner",
+ "platform": "DOI Handle System",
+ "database": "doi.org/api/handles",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "handle check x22",
+ "request_url": "batch",
+ "n_records_total": 22,
+ "n_records_retrieved": 22,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "doi": "10.1093/jjfinec/nbl012",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1111/1468-5957.00492",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1080/135048698334637",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1016/j.jbankfin.2005.08.001",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1016/j.najef.2020.101177",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1002/fut.4",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1002/fut.2003",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1080/0960310022000020906",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1145/2908812.2908828",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.48550/arXiv.2403.18839",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1109/access.2026.3663386",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.2139/ssrn.7148099",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.3126/sudurpaschim.v2i2.80419",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.2139/ssrn.7135258",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.2139/ssrn.7106618",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.2139/ssrn.6974102",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.2139/ssrn.6854685",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1002/9781119196822.ch6",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1002/9781118656389",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1002/9780470428412.ch8",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1002/9781119203537",
+   "responseCode": 1
+  },
+  {
+   "doi": "10.1201/9781420013146.ch11",
+   "responseCode": 1
+  }
+ ]
+}

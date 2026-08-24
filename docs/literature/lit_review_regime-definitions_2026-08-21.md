@@ -1231,3 +1231,30 @@ Every G16 finding is therefore a false positive of the probe method, not an
 identifier defect - the identical disposition, for the identical reason,
 recorded in section 10.6 of both prior corpora. No finding was suppressed;
 the gate output is reported verbatim in the session record.
+
+---
+
+# Addendum 2026-08-24 — vocabulary-expansion supplement (append-only)
+
+Appended under
+[deliverable_spec_naming-sweep_2026-08-24.md](../deliverables/deliverable_spec_naming-sweep_2026-08-24.md);
+no entry above this rule is edited (pre-addendum SHA-256
+`b561340781d8bc3de3ce0b7aa18b7d1f75414428fe111c4abaff574e8e2e4464`).
+
+This survey's query vocabulary was its recall bottleneck: queries were seeded
+from academic state terms, and the project has twice documented that
+vocabulary mismatch defeats phrase queries. The supplement —
+[lit_review_regime-naming_2026-08-24.md](lit_review_regime-naming_2026-08-24.md),
+built on the empirical term registry
+[vocabulary_regime-synonyms_2026-08-24.md](vocabulary_regime-synonyms_2026-08-24.md)
+(137 head terms, ~540 surface forms, 8 traditions) — adds 53 records
+(NA-01…NA-20, NB-01…NB-31) and a 112-row synonym graph.
+
+**One finding of this survey is superseded:** §"Null-distribution axis" states
+that no source at any tier attaches a null distribution to the assignment of
+a state at time t. That universal is refuted by the supplement's
+explosive/exuberant-regime records (Phillips, Wu & Yu 2011; Phillips, Shi &
+Yu 2015 — real-time date-stamping with derived critical values), which this
+survey's vocabulary could not reach. The bounded form survives: within the 59
+definitions surveyed here, none attaches a time-t assignment null. All other
+findings stand.

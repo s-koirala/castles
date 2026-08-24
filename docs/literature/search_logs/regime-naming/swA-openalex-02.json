@@ -1,0 +1,126 @@
+{
+ "log_id": "swA-openalex-02",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"Wyckoff method\"",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22Wyckoff%20method%22&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 16,
+ "n_records_retrieved": 16,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "",
+   "title": "The Three Skills of Top Trading: Behavioral Systems Building, Pattern Recognition, and Mental State Management",
+   "year": 2007,
+   "venue": null,
+   "cited_by": 4
+  },
+  {
+   "DOI": "10.1002/9781119205043.ch4",
+   "title": "The Secret Science of Price and Volume",
+   "year": 2012,
+   "venue": null,
+   "cited_by": 1
+  },
+  {
+   "DOI": "",
+   "title": "Trades about to Happen : A Modern Adaptation of the Wyckoff Method",
+   "year": 2013,
+   "venue": null,
+   "cited_by": 1
+  },
+  {
+   "DOI": "10.5281/zenodo.21912647",
+   "title": "New edge proposed: bullish_volume_climax_exhaustion_reversal — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.1002/9781119196822.index",
+   "title": "Index",
+   "year": 2012,
+   "venue": null,
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.22022225",
+   "title": "LAB #1188 HARMFUL: VIDEO SCOUT: How to Get Ahead of 99% of Traders (Wyckoff method) — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21912649",
+   "title": "LAB #974 NEUTRAL: TG AUTO: New edge proposed: bullish_volume_climax_exhaustion_reversal — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21912648",
+   "title": "New edge proposed: bullish_volume_climax_exhaustion_reversal — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21912650",
+   "title": "LAB #974 NEUTRAL: TG AUTO: New edge proposed: bullish_volume_climax_exhaustion_reversal — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21674571",
+   "title": "LAB #330 NEUTRAL: VIDEO SCOUT: How to Trade Like The Banks - Wyckoff Method Explained in 8 minutes — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21674570",
+   "title": "LAB #330 NEUTRAL: VIDEO SCOUT: How to Trade Like The Banks - Wyckoff Method Explained in 8 minutes — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.22022226",
+   "title": "LAB #1188 HARMFUL: VIDEO SCOUT: How to Get Ahead of 99% of Traders (Wyckoff method) — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21898303",
+   "title": "LAB #958 NEUTRAL: VIDEO SCOUT: The Composite Man Secret: How Institutions Accumulate Stocks (Wyckoff Analysis) — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.5281/zenodo.21898304",
+   "title": "LAB #958 NEUTRAL: VIDEO SCOUT: The Composite Man Secret: How Institutions Accumulate Stocks (Wyckoff Analysis) — E8 Intelligence Research",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.1002/9781119196822.ch6",
+   "title": "The Wyckoff Method of Technical Analysis and Speculation",
+   "year": 2012,
+   "venue": null,
+   "cited_by": 0
+  },
+  {
+   "DOI": "10.1002/9781119196822.ch5",
+   "title": "The Basic Elements of Charting for the Wyckoff Method",
+   "year": 2012,
+   "venue": null,
+   "cited_by": 0
+  }
+ ]
+}

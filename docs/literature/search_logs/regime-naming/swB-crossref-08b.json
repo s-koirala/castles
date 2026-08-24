@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-08b",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=risk-on+risk-off+episodes+identification+currencies&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2683536,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.5089/9781557755308.001",
+   "title": "The Behavior of Currencies during Risk-off Episodes",
+   "year": 2013,
+   "container": "IMF Working Papers",
+   "type": "journal-article",
+   "abstract": "Episodes of increased global risk aversion, also known as risk-off episodes, have become more frequent and severe since 2007. During these episodes, currency markets exhibit recurrent patterns, as the Japanese yen, Swiss franc, and U.S. dollar appreciate against other G-10 and emerging market currencies. The pattern of these moves can be explained by a combination of fundamental factors, such as the nominal interest rate, the international investment position and measures of exchange rate misalignment, and market-liquidity factors, such as bid-offer spreads and restrictions on international capital flows. We also find that currency performance in a risk-off episode has become more related to a currency?s yield and relationship to broader risks in recent years."
+  },
+  {
+   "DOI": "10.1016/j.jimonfin.2014.12.009",
+   "title": "The behavior of currencies during risk-off episodes",
+   "year": 2015,
+   "container": "Journal of International Money and Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.5089/9781557755308.001.a001",
+   "title": "The Behavior of Currencies during Risk-off Episodes1",
+   "year": null,
+   "container": "",
+   "type": "component",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/9781119155133.ch30",
+   "title": "“Risk‐Off” Episodes",
+   "year": 2015,
+   "container": "The Global Economy in Turbulent Times",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/acps.13622/v1/review2",
+   "title": "Review for \"Identification of women at high risk of postpartum psychiatric episodes: A population‐based study quantifying relative and absolute risks following exposure to selected risk factors and genetic liability\"",
+   "year": 2023,
+   "container": "",
+   "type": "peer-review",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/acps.13622/v2/review2",
+   "title": "Review for \"Identification of women at high risk of postpartum psychiatric episodes: A population‐based study quantifying relative and absolute risks following exposure to selected risk factors and genetic liability\"",
+   "year": 2023,
+   "container": "",
+   "type": "peer-review",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/acps.13622/v2/review1",
+   "title": "Review for \"Identification of women at high risk of postpartum psychiatric episodes: A population‐based study quantifying relative and absolute risks following exposure to selected risk factors and genetic liability\"",
+   "year": 2023,
+   "container": "",
+   "type": "peer-review",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1111/acps.13622/v1/review1",
+   "title": "Review for \"Identification of women at high risk of postpartum psychiatric episodes: A population‐based study quantifying relative and absolute risks following exposure to selected risk factors and genetic liability\"",
+   "year": 2023,
+   "container": "",
+   "type": "peer-review",
+   "abstract": ""
+  }
+ ]
+}

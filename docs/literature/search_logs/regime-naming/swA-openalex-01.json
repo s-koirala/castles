@@ -1,0 +1,154 @@
+{
+ "log_id": "swA-openalex-01",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "Wyckoff accumulation distribution stock market",
+ "request_url": "https://api.openalex.org/works?search=Wyckoff%20accumulation%20distribution%20stock%20market&per-page=20",
+ "n_records_total": 196,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.1596/1813-9450-4122",
+   "title": "The Role Of Education Quality For Economic Growth",
+   "year": 2007,
+   "venue": "World Bank, Washington, DC eBooks",
+   "cited_by": 964
+  },
+  {
+   "DOI": "10.3390/s23031664",
+   "title": "Effectiveness of the Relative Strength Index Signals in Timing the Cryptocurrency Market",
+   "year": 2023,
+   "venue": "Sensors",
+   "cited_by": 22
+  },
+  {
+   "DOI": "",
+   "title": "Integrating conservation and development experience : a review and bibliography of the ICDP literature",
+   "year": 2001,
+   "venue": "AquaDocs  (United Nations Educational, Scientific and Cultural Organization)",
+   "cited_by": 161
+  },
+  {
+   "DOI": "10.3386/w12832",
+   "title": "The Role of School Improvement in Economic Development",
+   "year": 2007,
+   "venue": "National Bureau of Economic Research",
+   "cited_by": 173
+  },
+  {
+   "DOI": "10.22004/ag.econ.52017",
+   "title": "Farmer Cooperative Theory: Recent Developments",
+   "year": 1989,
+   "venue": "AgEcon Search (University of Minnesota, USA)",
+   "cited_by": 98
+  },
+  {
+   "DOI": "10.1787/5k46bj546kzs-en",
+   "title": "Knowledge-Based Capital, Innovation and Resource Allocation",
+   "year": 2013,
+   "venue": "OECD Economics Department working papers",
+   "cited_by": 118
+  },
+  {
+   "DOI": "10.3389/fmars.2020.00327",
+   "title": "Mangrove Rehabilitation and Restoration as Experimental Adaptive Management",
+   "year": 2020,
+   "venue": "Frontiers in Marine Science",
+   "cited_by": 258
+  },
+  {
+   "DOI": "10.3386/w15816",
+   "title": "Constrained Job Matching: Does Teacher Job Search Harm Disadvantaged Urban Schools?",
+   "year": 2010,
+   "venue": "National Bureau of Economic Research",
+   "cited_by": 66
+  },
+  {
+   "DOI": "10.1787/613570623323",
+   "title": "The Evolution of Skills in OECD Countries and the Role of Technology",
+   "year": 1996,
+   "venue": "OECD science, technology and industry working papers",
+   "cited_by": 56
+  },
+  {
+   "DOI": "10.18130/v3dj76",
+   "title": "Three Essays on Teacher Labor Markets",
+   "year": 2014,
+   "venue": null,
+   "cited_by": 2
+  },
+  {
+   "DOI": "10.1787/5k46h2rfb4f3-en",
+   "title": "R&D, Patenting and Growth",
+   "year": 2013,
+   "venue": "OECD Economics Department working papers",
+   "cited_by": 52
+  },
+  {
+   "DOI": "",
+   "title": "Outsourcing, Supplier Relations and Internationalisation: Global Sourcing Strategy as a Chinese Puzzle",
+   "year": 2001,
+   "venue": "Data Archiving and Networked Services (DANS)",
+   "cited_by": 92
+  },
+  {
+   "DOI": "10.2307/2534738",
+   "title": "Competition, Regulation, and Efficiency in Service Industries",
+   "year": 1993,
+   "venue": "Brookings Papers on Economic Activity Microeconomics",
+   "cited_by": 142
+  },
+  {
+   "DOI": "10.2307/2534631",
+   "title": "Do Saving Incentives Work?",
+   "year": 1994,
+   "venue": "Brookings Papers on Economic Activity",
+   "cited_by": 170
+  },
+  {
+   "DOI": "10.1787/5k46bh92lr35-en",
+   "title": "Knowledge-Based Capital, Innovation and Resource Allocation",
+   "year": 2013,
+   "venue": "OECD economic policy papers",
+   "cited_by": 39
+  },
+  {
+   "DOI": "10.1111/1540-6229.12129",
+   "title": "The Economic Implications of House Price Capitalization: A Synthesis",
+   "year": 2015,
+   "venue": "Real Estate Economics",
+   "cited_by": 92
+  },
+  {
+   "DOI": "10.1177/03098168221084110",
+   "title": "The US rate of profit 1964–2017 and the turnover of fixed and circulating capital",
+   "year": 2022,
+   "venue": "Capital & Class",
+   "cited_by": 10
+  },
+  {
+   "DOI": "10.3846/16111699.2012.701225",
+   "title": "DETERMINANTS OF INNOVATION IN A SMALL OPEN ECONOMY: A MULTIDIMENSIONAL PERSPECTIVE",
+   "year": 2013,
+   "venue": "Journal of Business Economics and Management",
+   "cited_by": 30
+  },
+  {
+   "DOI": "10.1021/acsnano.6b05935",
+   "title": "Exploiting the Metal-Chelating Properties of the Drug Cargo for In Vivo Positron Emission Tomography Imaging of Liposomal Nanomedicines",
+   "year": 2016,
+   "venue": "ACS Nano",
+   "cited_by": 95
+  },
+  {
+   "DOI": "",
+   "title": "A macroeconomic plan for a green recovery",
+   "year": 2011,
+   "venue": "London School of Economics and Political Science Research Online (London School of Economics and Political Science)",
+   "cited_by": 16
+  }
+ ]
+}

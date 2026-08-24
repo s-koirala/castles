@@ -3,8 +3,15 @@ type: research_agenda
 slug: regime-classification
 date: 2026-08-21
 status: open
-revision: 2
+revision: 3
 revision_note: >
+  Rev 3 (2026-08-24) integrates the vocabulary-expansion naming sweep
+  (deliverable_spec_naming-sweep_2026-08-24.md): the Definitional-basis
+  time-t-null universal (d) is refuted by the explosive/exuberant-regime
+  records and restated in bounded form; item (b)'s range claim is bounded
+  (spatial operationalizations existed in prior coverage); the compression
+  negative is upgraded to two-sweep-stable; branch 3 gains the real-time
+  date-stamping family and directional-change additions.
   Rev 2 (2026-08-21) integrates the Phase 1 gap-targeted sweep
   (deliverable_spec_phase1-sweep_2026-08-21.md): regime-definitions survey,
   method-gaps sweep, and the F005/calibration retrieval. Five gap sites updated
@@ -13,9 +20,10 @@ revision_note: >
   branch-1 prior-art note added accordingly.
 corpus: docs/literature/lit_review_regime-classification_2026-08-21.md  # delivered 2026-08-21; 96 records, PRISMA 2020 partial (single screener)
 supplementary_corpora:
-  - docs/literature/lit_review_regime-definitions_2026-08-21.md   # 54 records, 59 definitions, PRISMA-ScR partial
+  - docs/literature/lit_review_regime-definitions_2026-08-21.md   # 54 records, 59 definitions, PRISMA-ScR partial; superseded in part — see its 2026-08-24 addendum
   - docs/literature/lit_review_regime-method-gaps_2026-08-21.md   # 50 records, targeted 3-front sweep
   - docs/literature/lit_review_f005-class-n-tests_2026-08-21.md   # 7 records, calibration papers + F005 forward citations
+  - docs/literature/lit_review_regime-naming_2026-08-24.md        # umbrella: 53 records (parts A/B), 112-row synonym graph, term registry vocabulary_regime-synonyms_2026-08-24.md
 ---
 
 # Research agenda — regime classification
@@ -58,20 +66,42 @@ lookahead. No branch below may use eye-labeled segments as ground truth.
 
 **Definitional basis (added Rev 2).** The definitional survey
 ([lit_review_regime-definitions_2026-08-21.md](../literature/lit_review_regime-definitions_2026-08-21.md),
-59 operational definitions from 54 records) establishes: (a) *bull/bear* is
+59 operational definitions from 54 records; extended 2026-08-24 by the
+vocabulary-expansion supplement
+[lit_review_regime-naming_2026-08-24.md](../literature/lit_review_regime-naming_2026-08-24.md),
+53 records, 112-row synonym graph) establishes: (a) *bull/bear* is
 defined at least five structurally different ways under one name pair, so a
 state name without its operational definition is not a claim; (b) against this
-agenda's four states, **range has no operational state definition at any tier,
-compression none above tier 5, and transition is named as an object only
-twice** — three of the four states this agenda studies are, as of the survey
-date, definitional gaps rather than established constructs; (c) 19 of 59
+agenda's four states — **Rev 3 bounds:** *range* has spatial
+operationalizations in prior coverage (rectangle patterns, trading-range
+breakout rules), but a bounded operational definition of range as a *temporal
+state* remains unlocated at any tier; *compression* has none above tier 5, a
+negative now **two-sweep-stable** ("volatility squeeze" = 0 records in all of
+arXiv under every variant tried); *transition* is named as an object only
+twice; (c) 19 of 59
 definitions are lookahead by construction (all peak/trough dating algorithms
 and most clustering/segmentation schemes), instances of the labeling hazard
-above; (d) **no source at any tier attaches a null distribution to the
-assignment of a state at time t** — 36 of 59 definitions carry no null at all —
-which is this agenda's central question restated as a located literature gap
-(the survey's zero-record query "market regime" + "null distribution" across
-all of arXiv is logged); (e) the 20% bull/bear threshold has no locatable
+above; (d) ~~no source at any tier attaches a null distribution to the
+assignment of a state at time t~~ — **Rev 3: refuted by vocabulary
+expansion.** The explosive/exuberant-regime literature
+([Phillips, Wu & Yu 2011](https://doi.org/10.1111/j.1468-2354.2010.00625.x),
+*International Economic Review* 52:201–226;
+[Phillips, Shi & Yu 2015](https://doi.org/10.1111/iere.12132),
+*International Economic Review* 56:1043–1078) date-stamps an explosive state
+in real time against derived critical values — a time-t assignment with a
+stated null, reachable only under vocabulary ("explosive", "exuberance",
+"date-stamping") outside the original query set. The bounded form survives:
+within the 59 surveyed definitions, none attaches a time-t assignment null.
+Outside the explosive family, no other located vocabulary was *classified by
+the sweeps* as carrying a time-t assignment null — but the nearest candidates
+are unadjudicated, not absent: drawdown/drawup episodes (NB-02/NB-08) and
+flight-to-quality (NB-13) attach stated nulls at filtered causality and were
+screened only at abstract depth; whether their nulls attach to the assignment
+procedure itself awaits the full-text pass. The refutation is the same
+structural event as F005's — an unbounded
+universal from bounded search coverage falling to vocabulary the query set
+missed — and is why the term registry now precedes any evidence query;
+(e) the 20% bull/bear threshold has no locatable
 primary source and joins the Market Profile 70% value area as an unattributed
 industry convention; (f) the correlation-state school's correlated-Wishart
 surrogate is a stated, implemented feature-structure null — the nearest
@@ -408,7 +438,18 @@ Open questions:
   a continuous breakout signal rather than a binary trigger.
 - Frequentist counterparts — CUSUM, Page–Hinkley, SPRT — and Bai–Perron as the
   retrospective comparator establishing an upper bound on what an online
-  detector could achieve.
+  detector could achieve. **Rev 3 (naming sweep):** the recursive
+  right-tailed unit-root family — SADF/GSADF real-time date-stamping of
+  explosive episodes ([Phillips, Wu & Yu 2011](https://doi.org/10.1111/j.1468-2354.2010.00625.x);
+  [Phillips, Shi & Yu 2015](https://doi.org/10.1111/iere.12132)) — is a
+  published online state-onset detector **with stated limit theory and
+  critical values**, and belongs in this branch's comparator set: it is the
+  only detector the sweeps *classified* as carrying its own time-t assignment
+  null (nearest unadjudicated candidates at abstract depth: NB-02/NB-08
+  drawdown episodes, NB-13 flight-to-quality). The
+  directional-change/intrinsic-time framework also gains operational records
+  (Tsang-school DC-indicator regime detection and a renewal-process reference
+  value; naming sweep NB-25…NB-29).
 - Detector operating characteristics: detection delay against average run length
   to false alarm. This is the honest way to compare detectors and is largely
   absent from the trading literature. **Rev 2: assertion tested and sustained
@@ -565,3 +606,12 @@ docs/literature/search_logs/), and Hall & York 2001, Cheng & Hall 1998, and
 Garzarelli et al. 2014 were read in full text. Publisher-page 403s to automated
 probes are recorded as the known G16 false-positive class, not resolution
 failures.
+
+Rev 3 citations were added 2026-08-24 under
+[deliverable_spec_naming-sweep_2026-08-24.md](../deliverables/deliverable_spec_naming-sweep_2026-08-24.md)
+from the vocabulary-expansion sweep (umbrella record and two part records in
+the frontmatter); every Rev 3 DOI was handle-API-verified by the sweep agents
+(swA-/swB-doicheck logs). Screening was abstract-depth — the Phillips
+date-stamping records' content claims rest on abstract-level verification and
+the family's standing in the literature, flagged for a full-text pass before
+any branch-3 specification cites their critical values quantitatively.

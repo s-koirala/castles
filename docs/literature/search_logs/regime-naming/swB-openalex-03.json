@@ -1,0 +1,100 @@
+{
+ "query_id": "swB-openalex-03",
+ "platform": "OpenAlex REST API (api.openalex.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.openalex.org/works?filter=title.search:%22market%20environment%22&sort=cited_by_count:desc&per-page=10",
+ "total_results_reported": 1666,
+ "n_records_retrieved": 10,
+ "items": [
+  {
+   "openalex_id": "https://openalex.org/W2102910133",
+   "DOI": "10.1109/infcom.2010.5461933",
+   "title": "Minimizing Electricity Cost: Optimization of Distributed Internet Data Centers in a Multi-Electricity-Market Environment",
+   "year": 2010,
+   "container": "",
+   "type": "conference-paper",
+   "cited_by_count": 528
+  },
+  {
+   "openalex_id": "https://openalex.org/W2141659147",
+   "DOI": "10.1016/j.apenergy.2010.12.015",
+   "title": "Optimal charging of electric drive vehicles in a market environment",
+   "year": 2010,
+   "container": "Applied Energy",
+   "type": "article",
+   "cited_by_count": 327
+  },
+  {
+   "openalex_id": "https://openalex.org/W1989697801",
+   "DOI": "10.1016/j.eneco.2012.12.010",
+   "title": "A bilevel model for electricity retailers' participation in a demand response market environment",
+   "year": 2012,
+   "container": "Energy Economics",
+   "type": "article",
+   "cited_by_count": 319
+  },
+  {
+   "openalex_id": "https://openalex.org/W2161367085",
+   "DOI": "10.1109/tpwrs.2009.2021230",
+   "title": "A Bilevel Approach to Transmission Expansion Planning Within a Market Environment",
+   "year": 2009,
+   "container": "IEEE Transactions on Power Systems",
+   "type": "article",
+   "cited_by_count": 276
+  },
+  {
+   "openalex_id": "https://openalex.org/W2163547695",
+   "DOI": "10.1016/j.jretai.2011.04.009",
+   "title": "Retailing Innovations in a Globalizing Retail Market Environment",
+   "year": 2011,
+   "container": "Journal of Retailing",
+   "type": "article",
+   "cited_by_count": 213
+  },
+  {
+   "openalex_id": "https://openalex.org/W1979464927",
+   "DOI": "10.1109/tpwrs.2012.2236110",
+   "title": "Bi-Level Game Approaches for Coordination of Generation and Transmission Expansion Planning Within a Market Environment",
+   "year": 2013,
+   "container": "IEEE Transactions on Power Systems",
+   "type": "article",
+   "cited_by_count": 187
+  },
+  {
+   "openalex_id": "https://openalex.org/W2167678901",
+   "DOI": "10.1086/431180",
+   "title": "Public Schools in Marketized Environments: Shifting Incentives and Unintended Consequences of Competition‐Based Educational Reforms",
+   "year": 2005,
+   "container": "American Journal of Education",
+   "type": "article",
+   "cited_by_count": 182
+  },
+  {
+   "openalex_id": "https://openalex.org/W2014571996",
+   "DOI": "10.1016/j.foodpol.2006.02.002",
+   "title": "Managing food price risks and instability in a liberalizing market environment: Overview and policy options",
+   "year": 2006,
+   "container": "Food Policy",
+   "type": "article",
+   "cited_by_count": 170
+  },
+  {
+   "openalex_id": "https://openalex.org/W1977515501",
+   "DOI": "10.1007/s10490-015-9409-0",
+   "title": "Corporate social responsibility and firm performance: The mediating role of marketing competence and the moderating role of market environment",
+   "year": 2015,
+   "container": "Asia Pacific Journal of Management",
+   "type": "article",
+   "cited_by_count": 169
+  },
+  {
+   "openalex_id": "https://openalex.org/W2052397158",
+   "DOI": "10.1109/fps.2005.204225",
+   "title": "Management of microgrids in market environment",
+   "year": 2005,
+   "container": "2005 International Conference on Future Power Systems",
+   "type": "conference-paper",
+   "cited_by_count": 164
+  }
+ ]
+}

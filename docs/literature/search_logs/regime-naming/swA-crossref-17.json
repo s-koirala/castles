@@ -1,0 +1,174 @@
+{
+ "log_id": "swA-crossref-17",
+ "agent": "sweep-A-practitioner",
+ "platform": "Crossref",
+ "database": "api.crossref.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "overbought oversold relative strength index stock returns test",
+ "request_url": "https://api.crossref.org/works?query.bibliographic=overbought%20oversold%20relative%20strength%20index%20stock%20returns%20test&rows=20",
+ "n_records_total": 2673156,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "10.36887/2415-8453-2019-3-28",
+   "title": "ECONOMIC INDEX OF STOCK MARKET OVERBOUGHT AND OVERSOLD",
+   "container": "Ukrainian Journal of Applied Economics",
+   "year": 2019,
+   "type": "journal-article",
+   "author": "REZNIK; TRYHUBCHENKO"
+  },
+  {
+   "DOI": "10.1002/9781119295594.ch3",
+   "title": "How to Read Oscillators to Spot Overbought or Oversold Conditions",
+   "container": "Candlestick and Pivot Point Trading Triggers",
+   "year": 2020,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.1002/9781119202233.ch3",
+   "title": "How to Read Oscillators to Spot Overbought or Oversold Conditions",
+   "container": "Candlestick and Pivot Point Trading Triggers",
+   "year": 2012,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.1093/oso/9780192847096.003.0009",
+   "title": "Equity, Bond, and Cash Relative Returns",
+   "container": "The Economics of the Stock Market",
+   "year": 2022,
+   "type": "book-chapter",
+   "author": "Smithers"
+  },
+  {
+   "DOI": "10.1002/9781119603849.ch8",
+   "title": "Overbought/Oversold (\n            <scp>OBOS</scp>\n            ) Analysis – The Intersection of Extremes",
+   "container": "Advanced Positioning, Flow, and Sentiment Analysis in Commodity Markets",
+   "year": 2019,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.1002/9781118726020.ch1",
+   "title": "Using Moving Averages and Relative Strength Performance to Beat the Index: Relative Strength Index, Money Flow Index, Keltner Channels, and Standard Deviation, with Apple Exhibits",
+   "container": "Successful Stock Signals for Traders and Portfolio Managers",
+   "year": 2013,
+   "type": "other",
+   "author": ""
+  },
+  {
+   "DOI": "10.7717/peerj-cs.1931/fig-6",
+   "title": "Figure 6: (A) OW-XGBoost returns curves with CSI 100 index as stock pool; and (B) OW-XGBoost monthly returns with CSI 800 index as stock pool.",
+   "container": "",
+   "year": null,
+   "type": "component",
+   "author": ""
+  },
+  {
+   "DOI": "10.3905/jpm.2019.1.111",
+   "title": "Relative Strength over Investment Horizons and Stock Returns",
+   "container": "The Journal of Portfolio Management",
+   "year": 2019,
+   "type": "journal-article",
+   "author": "Zhu; Duan; Tu"
+  },
+  {
+   "DOI": "10.5267/j.ac.2020.11.006",
+   "title": "Investor sentiment by relative strength index and stock return: Empirical evidence on Vietnam's stock market",
+   "container": "Accounting",
+   "year": 2021,
+   "type": "journal-article",
+   "author": "Phuong"
+  },
+  {
+   "DOI": "10.2139/ssrn.2638004",
+   "title": "Absolute Strength: Exploring Momentum in Stock Returns",
+   "container": "",
+   "year": 2015,
+   "type": "posted-content",
+   "author": "Gulen; Petkova"
+  },
+  {
+   "DOI": "10.2139/ssrn.3497805",
+   "title": "Stocks Trading Using Relative Strength Index, Moving Average and Reinforcement Learning Techniques: A Case Study of Apple Stock Index",
+   "container": "SSRN Electronic Journal",
+   "year": 2019,
+   "type": "journal-article",
+   "author": "Tanoe"
+  },
+  {
+   "DOI": "10.33203/mfy.1038564",
+   "title": "The Relationship Between Stock Market Index Returns and Gold Returns during the First Year of the Coronavirus Pandemic: An Asymmetric Causality Test",
+   "container": "Maliye Finans Yazıları",
+   "year": 2022,
+   "type": "journal-article",
+   "author": "OĞUZ; KORKMAZ"
+  },
+  {
+   "DOI": "10.22441/indikator.v6i2.14806",
+   "title": "THE ACCURACY TEST OF TECHNICAL ANALYSIS OF MOVING AVERAGE, BOLLINGER BANDS, AND RELATIVE STRENGTH INDEX ON STOCK PRICES OF COMPANIES LISTED IN INDEX LQ45",
+   "container": "Indikator: Jurnal Ilmiah Manajemen dan Bisnis",
+   "year": 2022,
+   "type": "journal-article",
+   "author": "Daniswara; Widjanarko; Hikmah"
+  },
+  {
+   "DOI": "10.2139/ssrn.1931726",
+   "title": "Tail Dependence between Stock Index Returns and Foreign Exchange Rate Returns − A Copula Approach",
+   "container": "",
+   "year": 2011,
+   "type": "posted-content",
+   "author": "Lin"
+  },
+  {
+   "DOI": "10.2139/ssrn.954590",
+   "title": "Relative Timeliness of Good vs. Bad News Inferred from Stock Returns",
+   "container": "",
+   "year": 2007,
+   "type": "posted-content",
+   "author": "Tucker; Zarowin"
+  },
+  {
+   "DOI": "10.35723/ieme.v1i1.74",
+   "title": "Analisis Moving Average Convergence Divergence dan Relative Strength Index  pada Perdagangan Saham di IDX-MES BUMN 17",
+   "container": "Islamic Economic Management and Entrepreneurship",
+   "year": 2026,
+   "type": "journal-article",
+   "author": "Hapsari"
+  },
+  {
+   "DOI": "10.3386/w0649",
+   "title": "Dividend Yields and Stock Returns: A Test for Tax Effects",
+   "container": "",
+   "year": 1981,
+   "type": "report",
+   "author": "Hess"
+  },
+  {
+   "DOI": "10.9734/ajeba/2019/v12i430157",
+   "title": "Analysis Relative Strength Index and Earning Per Share on Stock Price",
+   "container": "Asian Journal of Economics, Business and Accounting",
+   "year": 2019,
+   "type": "journal-article",
+   "author": "Badruzaman"
+  },
+  {
+   "DOI": "10.2139/ssrn.5563581",
+   "title": "World Uncertainty Index for China and Stock Returns",
+   "container": "",
+   "year": 2025,
+   "type": "posted-content",
+   "author": "Li"
+  },
+  {
+   "DOI": "10.53461/jujbr.v25i01.91",
+   "title": "Predictability of Stock Returns: A Weak Form Efficiency Test of the Dhaka Stock Exchange",
+   "container": "Jahangirnagar University Journal of Business Research",
+   "year": 2025,
+   "type": "journal-article",
+   "author": "Benozir"
+  }
+ ]
+}

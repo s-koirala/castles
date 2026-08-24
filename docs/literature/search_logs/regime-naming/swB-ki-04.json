@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-04",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Cowles+Jones+Some+A+Posteriori+Probabilities+in+Stock+Market+Action+Econometrica&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2549423,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.2307/1905515",
+   "title": "Some A Posteriori Probabilities in Stock Market Action",
+   "year": 1937,
+   "container": "Econometrica",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/1905433",
+   "title": "Stock Market Forecasting",
+   "year": 1944,
+   "container": "Econometrica",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2307/1907042",
+   "title": "Can Stock Market Forecasters Forecast?",
+   "year": 1933,
+   "container": "Econometrica",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

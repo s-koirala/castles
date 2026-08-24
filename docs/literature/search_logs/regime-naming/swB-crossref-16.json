@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-16",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=runs+test+stock+price+changes+random+walk&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2360240,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.3845927",
+   "title": "Stock Price Behavior: A Survey of Literature (With Special Emphasis on the Random Walk Theory)",
+   "year": 2021,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "This study is a review of literature on the topic of stock price behavior in the pre-1980 period. The focus of the review of literature is on the \"Random Walk Hypothesis\"."
+  },
+  {
+   "DOI": "10.1515/9781400829095.17",
+   "title": "2. Stock Market Prices Do Not Follow Random Walks: Evidence from a Simple Specification Test",
+   "year": 2011,
+   "container": "A Non-Random Walk Down Wall Street",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1515/9781400829095.369",
+   "title": "12. Order Imbalances and Stock Price Movements on October 19 and 20. 1987",
+   "year": 2011,
+   "container": "A Non-Random Walk Down Wall Street",
+   "type": "book-chapter",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.5220/0011753200003607",
+   "title": "Simulation of Korea Composite Stock Price Index (KOSPI) for the First 20 Years in the 21st Century Using Random Walk",
+   "year": 2022,
+   "container": "Proceedings of the 1st International Conference on Public Management, Digital Economy and Internet Technology",
+   "type": "proceedings-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1093/oso/9780195158670.003.0004",
+   "title": "Short-Term Price Drift",
+   "year": 2003,
+   "container": "Beyond The Random Walk",
+   "type": "book-chapter",
+   "abstract": "Abstract\n               Events associated with high-quality information signals tend to exhibit price continuations. The quality of information is characterized by the magnitude of price change, volume, and public dissemination of information. There is evidence to suggest that a large price change accompanied by high volume and a public announcement is followed by a drift in prices. A trading strategy designed to capture this short-term price continuation will earn annual abnormal returns of 15–36 percent after transactions costs.\n               Predictably, there is much research on price continuations (also called price drift or price momentum) and price reversals.1 It seems that there is momentum in stock returns over periods of six to twelve months—that is, if prices are rising, they will continue to rise, or if they are falling, they will continue to fall (see Chapter 5). Over longer periods extending up to five years, there is a tendency for mean reversion, that is, prices revert to normal levels. The medium- and long-term evidence suggests that there are cycles in price patterns. However, mispricings that rely on long periods are not interesting. First, it is not clear that those mispricings actually occur, given the noise in estimates. Second, trading strategies are not easily amenable to long holding periods."
+  },
+  {
+   "DOI": "10.1093/oso/9780192847096.003.0010",
+   "title": "Stock Market Returns Do Not Follow a Random Walk",
+   "year": 2022,
+   "container": "The Economics of the Stock Market",
+   "type": "book-chapter",
+   "abstract": "It used to be assumed that the pattern of stock-market returns followed a random walk with drift, i.e. that they gave positive long-term returns but periods of above-average return were no more likely to be followed by below-average than above average returns. As is now generally accepted, returns are mean reverting. After a short period of less than two years, they show negative serial correlation which becomes increasingly strong as the time horizon lengthens. This is demonstrated by using all available data covering the years 1801 to 2018, by the three non-overlapping periods of 1801 to 1971, 1871 to 1941, and 1941 to 2018, and by comparing non-overlapping and overlapping time periods for five and ten years."
+  },
+  {
+   "DOI": "10.2307/1909580",
+   "title": "Random Walk of Stock Prices: A Test of the Variance-Time Function",
+   "year": 1971,
+   "container": "Econometrica",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2478/9788395815072-086",
+   "title": "On Random Walk Hypothesis. A Short Test for the Bucharest Stock Exchange",
+   "year": 2020,
+   "container": "Proceedings of the International Conference on Economics and Social Sciences",
+   "type": "book-chapter",
+   "abstract": ""
+  }
+ ]
+}

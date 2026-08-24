@@ -1,0 +1,34 @@
+{
+ "query_id": "swB-ki-11",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=Edwards+Biscarri+Perez+de+Gracia+Stock+market+cycles+financial+liberalization+and+volatility&rows=3&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 159060,
+ "n_records_retrieved": 3,
+ "items": [
+  {
+   "DOI": "10.3386/w9817",
+   "title": "Stock Market Cycles, Financial Liberalization and Volatility",
+   "year": 2003,
+   "container": "",
+   "type": "report",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1016/j.jimonfin.2003.09.011",
+   "title": "Stock market cycles, financial liberalization and volatility",
+   "year": 2003,
+   "container": "Journal of International Money and Finance",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1080/09603100802243758",
+   "title": "Financial liberalization, stock market volatility and outliers in emerging economies",
+   "year": 2009,
+   "container": "Applied Financial Economics",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}

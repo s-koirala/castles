@@ -1,0 +1,154 @@
+{
+ "log_id": "swA-openalex-07",
+ "agent": "sweep-A-practitioner",
+ "platform": "OpenAlex",
+ "database": "api.openalex.org",
+ "date_searched": "2026-08-24",
+ "query_verbatim": "\"fair value gap\" OR \"order block\"",
+ "request_url": "https://api.openalex.org/works?filter=title_and_abstract.search:%22fair%20value%20gap%22%20OR%20%22order%20block%22&per-page=20&sort=cited_by_count:desc",
+ "n_records_total": 625,
+ "n_records_retrieved": 20,
+ "screening": "see lit_review_regime-naming-A_2026-08-24.md sec 3-4",
+ "hits": [
+  {
+   "DOI": "",
+   "title": "Writing academic English",
+   "year": 1982,
+   "venue": null,
+   "cited_by": 542
+  },
+  {
+   "DOI": "10.1039/c0cs00034e",
+   "title": "Block copolymer based composition and morphology control in nanostructured hybrid materials for energy conversion and storage: solar cells, batteries, and fuel cells",
+   "year": 2010,
+   "venue": "Chemical Society Reviews",
+   "cited_by": 512
+  },
+  {
+   "DOI": "10.1360/03dz0017",
+   "title": "Pattern of latest tectonic motion and its dynamics for active blocks in Sichuan-Yunnan region, China",
+   "year": 2003,
+   "venue": "Science China Earth Sciences",
+   "cited_by": 296
+  },
+  {
+   "DOI": "10.1029/2000jb900454",
+   "title": "Strain transfer between disconnected, propagating rifts in Afar",
+   "year": 2001,
+   "venue": "Journal of Geophysical Research Atmospheres",
+   "cited_by": 162
+  },
+  {
+   "DOI": "10.1016/0960-0779(92)90058-u",
+   "title": "Word frequency and entropy of symbolic sequences: a dynamical perspective",
+   "year": 1992,
+   "venue": "Chaos Solitons & Fractals",
+   "cited_by": 138
+  },
+  {
+   "DOI": "10.1103/physrevmaterials.3.104416",
+   "title": "Tunable magnetic ordering through cation selection in entropic spinel oxides",
+   "year": 2019,
+   "venue": "Physical Review Materials",
+   "cited_by": 137
+  },
+  {
+   "DOI": "10.1097/aud.0000000000000335",
+   "title": "Psychometric Functions of Dual-Task Paradigms for Measuring Listening Effort",
+   "year": 2016,
+   "venue": "Ear and Hearing",
+   "cited_by": 125
+  },
+  {
+   "DOI": "10.1016/s2666-7568(22)00005-8",
+   "title": "Hybrid closed-loop glucose control compared with sensor augmented pump therapy in older adults with type 1 diabetes: an open-label multicentre, multinational, randomised, crossover study",
+   "year": 2022,
+   "venue": "The Lancet Healthy Longevity",
+   "cited_by": 118
+  },
+  {
+   "DOI": "10.1117/12.2540362",
+   "title": "Second-order convolutional network for crowd counting",
+   "year": 2019,
+   "venue": null,
+   "cited_by": 83
+  },
+  {
+   "DOI": "10.1109/18.817514",
+   "title": "Pointwise redundancy in lossy data compression and universal lossy data compression",
+   "year": 2000,
+   "venue": "IEEE Transactions on Information Theory",
+   "cited_by": 82
+  },
+  {
+   "DOI": "10.1016/0360-3016(94)00369-v",
+   "title": "Dosimetry and clinical implementation of dynamic wedge",
+   "year": 1995,
+   "venue": "International Journal of Radiation Oncology*Biology*Physics",
+   "cited_by": 80
+  },
+  {
+   "DOI": "10.1109/hora52670.2021.9461294",
+   "title": "Hyperledger, Ethereum and Blockchain Technology: A Short Overview",
+   "year": 2021,
+   "venue": "2021 3rd International Congress on Human-Computer Interaction, Optimization and Robotic Applications (HORA)",
+   "cited_by": 79
+  },
+  {
+   "DOI": "10.1016/j.jneumeth.2018.12.007",
+   "title": "Blind fMRI source unmixing via higher-order tensor decompositions",
+   "year": 2018,
+   "venue": "Journal of Neuroscience Methods",
+   "cited_by": 75
+  },
+  {
+   "DOI": "10.1016/j.cam.2022.114812",
+   "title": "Application of Riemann–Hilbert method to an extended coupled nonlinear Schrödinger equations",
+   "year": 2022,
+   "venue": "Journal of Computational and Applied Mathematics",
+   "cited_by": 72
+  },
+  {
+   "DOI": "10.1677/joe.0.0730263",
+   "title": "PARTURITION IN GOATS: STUDIES ON THE INTERACTIONS BETWEEN THE FOETUS, PLACENTA, PROSTAGLANDIN F AND PROGESTERONE BEFORE PARTURITION, AT TERM OR AT PARTURITION INDUCED PREMATURELY BY CORTICOTROPHIN INFUSION OF THE FOETUS",
+   "year": 1977,
+   "venue": "Journal of Endocrinology",
+   "cited_by": 64
+  },
+  {
+   "DOI": "10.3200/jmbr.40.6.578-586",
+   "title": "Contextual Interference Effect: Elaborative Processing or Forgetting—Reconstruction? A Post Hoc Analysis of Transcranial Magnetic Stimulation—Induced Effects on Motor Learning",
+   "year": 2008,
+   "venue": "Journal of Motor Behavior",
+   "cited_by": 62
+  },
+  {
+   "DOI": "10.1016/s0006-3495(81)84734-0",
+   "title": "The effect of tetramethylammonium on single sodium channel currents",
+   "year": 1981,
+   "venue": "Biophysical Journal",
+   "cited_by": 62
+  },
+  {
+   "DOI": "10.1016/j.enggeo.2023.107008",
+   "title": "A novel criterion for yield shear displacement of rock discontinuities based on renormalization group theory",
+   "year": 2023,
+   "venue": "Engineering Geology",
+   "cited_by": 59
+  },
+  {
+   "DOI": "10.1109/tie.2010.2045319",
+   "title": "High-Order Block Sliding-Mode Controller for a Synchronous Generator With an Exciter System",
+   "year": 2010,
+   "venue": "IEEE Transactions on Industrial Electronics",
+   "cited_by": 57
+  },
+  {
+   "DOI": "10.1002/cta.2066",
+   "title": "Ultra‐low voltage fractional‐order circuits using current mirrors",
+   "year": 2015,
+   "venue": "International Journal of Circuit Theory and Applications",
+   "cited_by": 55
+  }
+ ]
+}

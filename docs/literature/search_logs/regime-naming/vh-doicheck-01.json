@@ -1,0 +1,64 @@
+{
+ "query_id": "vh-doicheck-01",
+ "platform": "DOI Handle System REST API (doi.org/api/handles) + Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "purpose": "Verification of the three methodology citations for the vocabulary registry (search-strategy peer review, pearl growing, objectively derived search strategies). Not an evidence query.",
+ "checks": [
+  {
+   "doi": "10.1016/j.jclinepi.2016.01.021",
+   "handle_responseCode": 1,
+   "crossref_title": "PRESS Peer Review of Electronic Search Strategies: 2015 Guideline Statement",
+   "crossref_container": "Journal of Clinical Epidemiology",
+   "crossref_authors": [
+    "McGowan",
+    "Sampson",
+    "Salzwedel",
+    "Cogo",
+    "Foerster",
+    "Lefebvre"
+   ],
+   "crossref_year": 2016,
+   "volume": "75",
+   "page": "40-46",
+   "verdict": "VERIFIED"
+  },
+  {
+   "doi": "10.1080/13682820600742190",
+   "handle_responseCode": 1,
+   "crossref_title": "Use of information-seeking strategies for developing systematic reviews and engaging in evidence-based practice: the application of traditional and comprehensive Pearl Growing. A review",
+   "crossref_container": "International Journal of Language & Communication Disorders",
+   "crossref_authors": [
+    "Schlosser",
+    "Wendt",
+    "Bhavnani",
+    "Nail-Chiwetalu"
+   ],
+   "crossref_year": 2006,
+   "volume": "41",
+   "page": "567-582",
+   "verdict": "VERIFIED - this is the citable pearl-growing primary"
+  },
+  {
+   "doi": "10.1186/2046-4053-1-19",
+   "handle_responseCode": 1,
+   "crossref_title": "Routine development of objectively derived search strategies",
+   "crossref_container": "Systematic Reviews",
+   "crossref_authors": [
+    "Hausner",
+    "Waffenschmidt",
+    "Kaiser",
+    "Simon"
+   ],
+   "crossref_year": 2012,
+   "volume": "1",
+   "article": "19",
+   "verdict": "VERIFIED - text-analysis/term-harvest source for search development"
+  },
+  {
+   "candidate": "Hartley et al. 1990, Online Searching: Principles and Practice",
+   "crossref_query_verbatim": "https://api.crossref.org/works?query.bibliographic=Hartley+Keen+Large+Tedd+Online+Searching+Principles+and+Practice+1990&rows=3&select=DOI,title,type,issued",
+   "found": "only a book review (doi:10.3233/efi-1990-8308); the book itself carries no DOI",
+   "verdict": "NOT CITABLE as a DOI-bearing primary; superseded by Schlosser et al. 2006 for pearl growing"
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "query_id": "swB-crossref-14",
+ "platform": "Crossref REST API (api.crossref.org)",
+ "date_searched": "2026-08-24",
+ "query_url_verbatim": "https://api.crossref.org/works?query.bibliographic=trend+day+intraday+day+type+classification+futures&rows=8&select=DOI,title,issued,container-title,type,abstract",
+ "total_results_reported": 2258347,
+ "n_records_retrieved": 8,
+ "items": [
+  {
+   "DOI": "10.2139/ssrn.3482450",
+   "title": "Intraday Stock Returns Patterns Revisited. A Day of the Week and Market Trend Approach",
+   "year": 2019,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "In this paper, we investigate the intraday behavior of the General index of the Athens Stock Exchange. We find evidence for a U shape pattern for both returns and volatility. Returns are positive at the opening and closing phases of a trading session, with the pattern being more pronounced in specific days of the week. Subsequent analysis for bull and bear markets shows evidence of an upward and a downward return pattern, respectively."
+  },
+  {
+   "DOI": "10.2139/ssrn.6074846",
+   "title": "Intraday Price Asymmetry and Next-Day Intraday Returns in the S&amp;amp;P 500",
+   "year": 2026,
+   "container": "",
+   "type": "posted-content",
+   "abstract": "This paper examines the relationship between intraday price asymmetry and next-day intraday returns in U.S. equity markets. It introduces a simple, range-based measure of intraday asymmetry constructed from daily open, high, and low prices to capture directional imbalances in intraday price movements relative to the opening level. Using more than two decades of data for the SPDR S&P 500 ETF (SPY), the analysis documents a contrarian relationship between intraday asymmetry and subsequent intraday performance. Trading sessions characterized by negative intraday asymmetry are followed, on average, by stronger next-day intraday returns, while positive asymmetry is associated with weaker subsequent intraday performance, despite the long-run upward bias of equity markets. Conditional long and short exposures derived from the measure exhibit economically meaningful return patterns, with evidence of conditional return variation on the short side\n                  \n                  concentrated during periods of elevated volatility and market stress. The analysis is intentionally descriptive and does not rely on assumptions about order flow, trading volume, or specific microstructure mechanisms. The results are consistent with temporary price pressure and inventory-related dynamics rather than persistent intraday trends, highlighting information contained in the intraday price path that is not captured by standard return-based measures."
+  },
+  {
+   "DOI": "10.1002/9781119196594.ch31",
+   "title": "Intraday Day Trading Part One: The Most Significant Price in Your Arsenal",
+   "year": 2012,
+   "container": "Beating the Financial Futures Market",
+   "type": "other",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/fut.21632",
+   "title": "Expiration‐Day Effects and the Impact of Short Trading Breaks on Intraday Volatility: Evidence from the Indian Market",
+   "year": 2013,
+   "container": "Journal of Futures Markets",
+   "type": "journal-article",
+   "abstract": "AbstractOne distinct feature of the Indian stock market is the large trading volume of single stock futures, which are cash settled on the basis of the volume‐weighted average spot prices of the underlying stocks during the last half‐an‐hour of trading on the expiration day. We investigate the expiration day effect on intraday volatility and find that the volatility of the stocks increases in the last half‐an‐hour trade on the expiry day but not during the other time intervals. We also investigate the volatility surrounding the intraday trading breaks induced by satellite communication outages, a peculiar feature of the Indian stock market till 2008, and find that the volatility rises when the market reopens after the breaks but not before the breaks. © 2013 Wiley Periodicals, Inc. Jrl Fut Mark"
+  },
+  {
+   "DOI": "10.1002/(sici)1096-9934(199909)19:6<665::aid-fut3>3.3.co;2-e",
+   "title": "Foreign exchange futures volatility: Day‐of‐the‐week, intraday, and maturity patterns in the presence of macroeconomic announcements",
+   "year": 1999,
+   "container": "Journal of Futures Markets",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.2139/ssrn.3458409",
+   "title": "Reporting on the Research Track on ‘Pricing and Optimization of Intraday/Day-Ahead Electricity and Futures Contracts’ Mathematics for Energy Systems Program Isaac Newton Institute",
+   "year": 2019,
+   "container": "SSRN Electronic Journal",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1002/(sici)1096-9934(199909)19:6<665::aid-fut3>3.0.co;2-n",
+   "title": "Foreign exchange futures volatility: Day-of-the-week, intraday, and maturity patterns in the presence of macroeconomic announcements",
+   "year": 1999,
+   "container": "Journal of Futures Markets",
+   "type": "journal-article",
+   "abstract": ""
+  },
+  {
+   "DOI": "10.1007/s12398-018-0228-0",
+   "title": "Price Sensitivity of Hourly Day-ahead and Quarter-hourly Intraday Auctions in Germany",
+   "year": 2018,
+   "container": "Zeitschrift für Energiewirtschaft",
+   "type": "journal-article",
+   "abstract": ""
+  }
+ ]
+}
