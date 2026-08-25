@@ -1,0 +1,737 @@
+{
+ "query_id": "se-ki-12",
+ "arm": "known-item",
+ "ki": "KI-12",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1016/bs.host.2018.12.002",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      23
+     ]
+    ],
+    "date-time": "2026-08-23T17:30:39Z",
+    "timestamp": 1787506239424,
+    "version": "build-2736575974"
+   },
+   "reference-count": 56,
+   "publisher": "Elsevier",
+   "isbn-type": [
+    {
+     "value": "9780128202500",
+     "type": "print"
+    }
+   ],
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2020,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2020-01-01T00:00:00Z",
+      "timestamp": 1577836800000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2020,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2020-01-01T00:00:00Z",
+      "timestamp": 1577836800000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [],
+   "published-print": {
+    "date-parts": [
+     [
+      2020
+     ]
+    ]
+   },
+   "DOI": "10.1016/bs.host.2018.12.002",
+   "type": "book-chapter",
+   "created": {
+    "date-parts": [
+     [
+      2019,
+      2,
+      10
+     ]
+    ],
+    "date-time": "2019-02-10T14:50:19Z",
+    "timestamp": 1549810219000
+   },
+   "page": "61-80",
+   "source": "Crossref",
+   "is-referenced-by-count": 84,
+   "title": [
+    "Real time monitoring of asset markets: Bubbles and crises"
+   ],
+   "prefix": "10.1016",
+   "member": "78",
+   "reference": [
+    {
+     "issue": "8",
+     "key": "10.1016/bs.host.2018.12.002_bb0010",
+     "doi-asserted-by": "crossref",
+     "first-page": "2855",
+     "DOI": "10.1093/rfs/hhy045",
+     "article-title": "Real effects of the sovereign debt crisis in Europe: evidence from syndicated loans",
+     "volume": "31",
+     "author": "Acharya",
+     "year": "2018",
+     "journal-title": "Rev. Finance Stud."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0015",
+     "doi-asserted-by": "crossref",
+     "first-page": "67",
+     "DOI": "10.1016/j.qref.2014.06.003",
+     "article-title": "Speculative bubbles in agricultural prices",
+     "volume": "55",
+     "author": "Adämmer",
+     "year": "2015",
+     "journal-title": "Q. Rev. Econ. Finance"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0020",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1111/infi.12128",
+     "article-title": "Determinants of housing bubbles’ duration in OECD countries",
+     "author": "Amador-Torres",
+     "year": "2018",
+     "journal-title": "Int. Finance"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0025",
+     "series-title": "Test and Detection of Explosive Behaviors for Time Series",
+     "author": "Araujo",
+     "year": "2018"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/bs.host.2018.12.002_bb0030",
+     "doi-asserted-by": "crossref",
+     "first-page": "234",
+     "DOI": "10.1016/S0022-0531(03)00039-5",
+     "article-title": "Rational panics and stock market crashes",
+     "volume": "110",
+     "author": "Barlevy",
+     "year": "2003",
+     "journal-title": "J. Econ. Theory"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/bs.host.2018.12.002_bb0035",
+     "doi-asserted-by": "crossref",
+     "first-page": "385",
+     "DOI": "10.1016/S1059-0560(02)00128-4",
+     "article-title": "Periodically collapsing bubbles in the US stock market?",
+     "volume": "12",
+     "author": "Bohl",
+     "year": "2003",
+     "journal-title": "Int. Rev. Econ. Finance"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/bs.host.2018.12.002_bb0040",
+     "doi-asserted-by": "crossref",
+     "first-page": "483",
+     "DOI": "10.1007/s00181-015-1007-y",
+     "article-title": "Testing for a housing bubble at the national and regional level: the case of Israel",
+     "volume": "51",
+     "author": "Caspi",
+     "year": "2016",
+     "journal-title": "Empir. Econ."
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/bs.host.2018.12.002_bb0045",
+     "first-page": "1",
+     "article-title": "Rtadf: testing for bubbles with EViews",
+     "volume": "81",
+     "author": "Caspi",
+     "year": "2017",
+     "journal-title": "J. Stat. Softw."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0050",
+     "first-page": "1876",
+     "article-title": "Date stamping historical periods of oil price explosivity",
+     "volume": "70",
+     "author": "Caspi",
+     "year": "2015",
+     "journal-title": "Energy Econ."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0055",
+     "series-title": "Testing for Speculative Bubbles: Revisiting the Rolling Window",
+     "author": "Chong",
+     "year": "2017"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/bs.host.2018.12.002_bb0060",
+     "doi-asserted-by": "crossref",
+     "first-page": "276",
+     "DOI": "10.1111/1468-0106.12230",
+     "article-title": "Did bubbles migrate from the stock to the housing market in China between 2005 and 2010?",
+     "volume": "22",
+     "author": "Deng",
+     "year": "2017",
+     "journal-title": "Pac. Econ. Rev."
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/bs.host.2018.12.002_bb0065",
+     "first-page": "520",
+     "article-title": "Explosive rational bubbles in stock prices?",
+     "volume": "78",
+     "author": "Diba",
+     "year": "1988",
+     "journal-title": "Am. Econ. Rev."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0070",
+     "doi-asserted-by": "crossref",
+     "first-page": "129",
+     "DOI": "10.1016/j.jimonfin.2013.08.008",
+     "article-title": "Bubbles in food commodity markets: four decades of evidence",
+     "volume": "42",
+     "author": "Etienne",
+     "year": "2014",
+     "journal-title": "J. Int. Money Finance"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/bs.host.2018.12.002_bb0075",
+     "doi-asserted-by": "crossref",
+     "first-page": "65",
+     "DOI": "10.1093/ajae/aau069",
+     "article-title": "Price explosiveness, speculation, and grain futures prices",
+     "volume": "97",
+     "author": "Etienne",
+     "year": "2014",
+     "journal-title": "Am. J. Agric. Econ."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0080",
+     "doi-asserted-by": "crossref",
+     "first-page": "383",
+     "DOI": "10.1016/j.enpol.2016.06.020",
+     "article-title": "The oil price crash in 2014/15: was there a (negative) financial bubble?",
+     "volume": "96",
+     "author": "Fantazzini",
+     "year": "2016",
+     "journal-title": "Energy Policy"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/bs.host.2018.12.002_bb0085",
+     "doi-asserted-by": "crossref",
+     "first-page": "763",
+     "DOI": "10.1111/jtsa.12121",
+     "article-title": "Testing for mild explosivity and bubbles in LME non-ferrous metals prices",
+     "volume": "36",
+     "author": "Figuerola-Ferretti",
+     "year": "2015",
+     "journal-title": "J. Time Ser. Anal."
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/bs.host.2018.12.002_bb0095",
+     "first-page": "999",
+     "article-title": "Market liquidity, hedging, and crashes",
+     "volume": "80",
+     "author": "Gennotte",
+     "year": "1990",
+     "journal-title": "Am. Econ. Rev."
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/bs.host.2018.12.002_bb0100",
+     "doi-asserted-by": "crossref",
+     "first-page": "546",
+     "DOI": "10.1007/s11146-017-9605-4",
+     "article-title": "When bubble meets bubble: contagion in OECD countries",
+     "volume": "56",
+     "author": "Gomez-Gonzalez",
+     "year": "2018",
+     "journal-title": "J. Real Estate Finance Econ."
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/bs.host.2018.12.002_bb0105",
+     "first-page": "88",
+     "article-title": "Hot property in New Zealand: empirical evidence of housing bubbles in the metropolitan centres",
+     "volume": "50",
+     "author": "Greenaway-McGrevy",
+     "year": "2016",
+     "journal-title": "N. Z. Econ. Pap."
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/bs.host.2018.12.002_bb0110",
+     "doi-asserted-by": "crossref",
+     "first-page": "166",
+     "DOI": "10.1111/j.1467-6419.2007.00530.x",
+     "article-title": "Econometric tests of asset price bubbles: taking stock",
+     "volume": "22",
+     "author": "Gürkaynak",
+     "year": "2008",
+     "journal-title": "J. Econ. Surv."
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/bs.host.2018.12.002_bb0115",
+     "doi-asserted-by": "crossref",
+     "first-page": "217",
+     "DOI": "10.1093/erae/jbs017",
+     "article-title": "Speculative bubbles in agricultural commodity markets",
+     "volume": "40",
+     "author": "Gutierrez",
+     "year": "2012",
+     "journal-title": "Eur. Rev. Agric. Econ."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0120",
+     "doi-asserted-by": "crossref",
+     "first-page": "143",
+     "DOI": "10.1002/(SICI)1099-1255(199903/04)14:2<143::AID-JAE500>3.0.CO;2-X",
+     "article-title": "Detecting periodically collapsing bubbles: a Markov-switching unit root test",
+     "volume": "14",
+     "author": "Hall",
+     "year": "1999",
+     "journal-title": "J. Appl. Economet."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0125",
+     "series-title": "Time Series Analysis",
+     "author": "Hamilton",
+     "year": "1994"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0130",
+     "doi-asserted-by": "crossref",
+     "first-page": "548",
+     "DOI": "10.1016/j.jempfin.2015.09.002",
+     "article-title": "Tests for explosive financial bubbles in the presence of non-stationary volatility",
+     "volume": "38",
+     "author": "Harvey",
+     "year": "2016",
+     "journal-title": "J. Empir. Finance"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0135",
+     "article-title": "Testing explosive bubbles with time-varying volatility",
+     "author": "Harvey",
+     "year": "2018",
+     "journal-title": "Econ. Rev."
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/bs.host.2018.12.002_bb0140",
+     "doi-asserted-by": "crossref",
+     "first-page": "198",
+     "DOI": "10.1093/jjfinec/nbr009",
+     "article-title": "Testing for speculative bubbles in stock markets: a comparison of alternative methods",
+     "volume": "10",
+     "author": "Homm",
+     "year": "2012",
+     "journal-title": "J. Finance Economet."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0145",
+     "doi-asserted-by": "crossref",
+     "first-page": "419",
+     "DOI": "10.1016/j.econmod.2017.02.022",
+     "article-title": "Are there bubbles in exchange rates? some new evidence from G10 and emerging market economies",
+     "volume": "64",
+     "author": "Hu",
+     "year": "2017",
+     "journal-title": "Econ. Model."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0150",
+     "series-title": "Bubble Contagion: Evidence From Japan's Asset Price Bubble of the 1980–90s",
+     "author": "Hu",
+     "year": "2017"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0155",
+     "series-title": "Exuberance, Bubbles or Froth? Some Historical Results Using Long Run House Price Data for Amsterdam",
+     "author": "Hu",
+     "year": "2017"
+    },
+    {
+     "issue": "29",
+     "key": "10.1016/bs.host.2018.12.002_bb0160",
+     "doi-asserted-by": "crossref",
+     "first-page": "3196",
+     "DOI": "10.1080/00036846.2017.1418080",
+     "article-title": "Bubbles in US regional house prices: evidence from house price–income ratios at the state level",
+     "volume": "50",
+     "author": "Hu",
+     "year": "2018",
+     "journal-title": "Appl. Econ."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0165",
+     "doi-asserted-by": "crossref",
+     "first-page": "131",
+     "DOI": "10.1016/j.econlet.2017.09.004",
+     "article-title": "Do 18th century ‘bubbles’ survive the scrutiny of 21st century time series econometrics?",
+     "volume": "162",
+     "author": "Hu",
+     "year": "2018",
+     "journal-title": "Econ. Lett."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0170",
+     "doi-asserted-by": "crossref",
+     "first-page": "82",
+     "DOI": "10.1016/S2212-5671(15)00010-6",
+     "article-title": "Unemployment effects of the Greek crisis: a regional examination",
+     "volume": "19",
+     "author": "Karafolas",
+     "year": "2015",
+     "journal-title": "Proc. Econ. Finance"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/bs.host.2018.12.002_bb0175",
+     "doi-asserted-by": "crossref",
+     "first-page": "419",
+     "DOI": "10.1007/s11146-015-9531-2",
+     "article-title": "Episodes of exuberance in housing markets: in search of the smoking gun",
+     "volume": "53",
+     "author": "Pavlidis",
+     "year": "2016",
+     "journal-title": "J. Real Estate Finance Econ."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0180",
+     "doi-asserted-by": "crossref",
+     "first-page": "277",
+     "DOI": "10.2307/1913237",
+     "article-title": "Time series regression with a unit root",
+     "volume": "55",
+     "author": "Phillips",
+     "year": "1987",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0185",
+     "doi-asserted-by": "crossref",
+     "first-page": "763",
+     "DOI": "10.2307/2171845",
+     "article-title": "Econometric model determination",
+     "volume": "64",
+     "author": "Phillips",
+     "year": "1996",
+     "journal-title": "Econometrica"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/bs.host.2018.12.002_bb0190",
+     "doi-asserted-by": "crossref",
+     "first-page": "115",
+     "DOI": "10.1016/j.jeconom.2005.08.002",
+     "article-title": "Limit theory for moderate deviations from a unit root",
+     "volume": "136",
+     "author": "Phillips",
+     "year": "2007",
+     "journal-title": "J. Econ."
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/bs.host.2018.12.002_bb0195",
+     "doi-asserted-by": "crossref",
+     "first-page": "335",
+     "DOI": "10.1093/biomet/75.2.335",
+     "article-title": "Testing for a unit root in time series regression",
+     "volume": "75",
+     "author": "Phillips",
+     "year": "1988",
+     "journal-title": "Biometrika"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0200",
+     "series-title": "Cowles Foundation Discussion Paper No. 2110",
+     "article-title": "Detecting financial collapse and ballooning sovereign risk",
+     "author": "Phillips",
+     "year": "2017"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/bs.host.2018.12.002_bb0205",
+     "doi-asserted-by": "crossref",
+     "first-page": "705",
+     "DOI": "10.1017/S0266466617000202",
+     "article-title": "Financial bubble implosion and reverse regression",
+     "volume": "34",
+     "author": "Phillips",
+     "year": "2018",
+     "journal-title": "Econ. Theory"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0210",
+     "doi-asserted-by": "crossref",
+     "first-page": "971",
+     "DOI": "10.1214/aos/1176348666",
+     "article-title": "Asymptotics for linear processes",
+     "volume": "20",
+     "author": "Phillips",
+     "year": "1992",
+     "journal-title": "Ann. Stat."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0215",
+     "series-title": "Limit Theory for Dating the Origination and Collapse of Mildly Explosive Periods in Time Series Data",
+     "author": "Phillips",
+     "year": "2009"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0220",
+     "series-title": "Warning Signs of Future Asset Bubbles. The Straits Times, Singapore",
+     "author": "Phillips",
+     "year": "2011"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0225",
+     "series-title": "Bubble or roller coaster in world stock markets",
+     "author": "Phillips",
+     "year": "2013"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/bs.host.2018.12.002_bb0230",
+     "doi-asserted-by": "crossref",
+     "first-page": "201",
+     "DOI": "10.1111/j.1468-2354.2010.00625.x",
+     "article-title": "Explosive behavior in the 1990s Nasdaq: when did exuberance escalate asset values?",
+     "volume": "52",
+     "author": "Phillips",
+     "year": "2011",
+     "journal-title": "Int. Econ. Rev."
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/bs.host.2018.12.002_bb0235",
+     "doi-asserted-by": "crossref",
+     "first-page": "315",
+     "DOI": "10.1111/obes.12026",
+     "article-title": "Specification sensitivity in right-tailed unit root testing for explosive behaviour",
+     "volume": "76",
+     "author": "Phillips",
+     "year": "2014",
+     "journal-title": "Oxf. Bull. Econ. Stat."
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/bs.host.2018.12.002_bb0240",
+     "doi-asserted-by": "crossref",
+     "first-page": "1043",
+     "DOI": "10.1111/iere.12132",
+     "article-title": "Testing for multiple bubbles: historical episodes of exuberance and collapse in the S&P 500",
+     "volume": "56",
+     "author": "Phillips",
+     "year": "2015",
+     "journal-title": "Int. Econ. Rev."
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/bs.host.2018.12.002_bb0245",
+     "doi-asserted-by": "crossref",
+     "first-page": "1079",
+     "DOI": "10.1111/iere.12131",
+     "article-title": "Testing for multiple bubbles: limit theory of real-time detectors",
+     "volume": "56",
+     "author": "Phillips",
+     "year": "2015",
+     "journal-title": "Int. Econ. Rev."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0250",
+     "series-title": "Real-Time Monitoring of Asset Markets with R",
+     "author": "Phillips",
+     "year": "2018"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0255",
+     "series-title": "Moving Window Unit Root Test: Locating Real Estate Price Bubbles in Seoul Apartment Market",
+     "author": "Shi",
+     "year": "2007"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0260",
+     "doi-asserted-by": "crossref",
+     "first-page": "101",
+     "DOI": "10.1016/j.econmod.2017.06.002",
+     "article-title": "Speculative bubbles or market fundamentals? an investigation of US regional housing markets",
+     "volume": "66",
+     "author": "Shi",
+     "year": "2017",
+     "journal-title": "Econ. Model."
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/bs.host.2018.12.002_bb0265",
+     "first-page": "159",
+     "article-title": "Identifying speculative bubbles with an infinite hidden markov model",
+     "volume": "14",
+     "author": "Shi",
+     "year": "2016",
+     "journal-title": "J. Financ. Economet"
+    },
+    {
+     "issue": "299",
+     "key": "10.1016/bs.host.2018.12.002_bb9000",
+     "doi-asserted-by": "crossref",
+     "first-page": "590",
+     "DOI": "10.1111/1475-4932.12284",
+     "article-title": "Dating the timeline of house price bubbles in Australian capital cities",
+     "volume": "92",
+     "author": "Shi",
+     "year": "2016",
+     "journal-title": "Econ. Rec."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0270",
+     "series-title": "Causal Change Detection in Possibly Integrated Systems: Revisiting the Money-Income Relationship",
+     "author": "Shi",
+     "year": "2018"
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0275",
+     "series-title": "Econometric Analysis of Explosive Time Series",
+     "author": "Vasilopoulos",
+     "year": "2018"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/bs.host.2018.12.002_bb0280",
+     "doi-asserted-by": "crossref",
+     "first-page": "115",
+     "DOI": "10.1016/j.asieco.2013.04.005",
+     "article-title": "Detecting bubbles in the Hong Kong residential property market: an explosive-pattern approach",
+     "volume": "28",
+     "author": "Yiu",
+     "year": "2013",
+     "journal-title": "J. Asian Econ."
+    },
+    {
+     "key": "10.1016/bs.host.2018.12.002_bb0285",
+     "series-title": "Sign-Based Unit Root Tests for Explosive Financial Bubbles in the Presence of Nonstationary Volatility",
+     "author": "Harvey",
+     "year": "2018"
+    }
+   ],
+   "container-title": [
+    "Handbook of Statistics",
+    "Financial, Macro and Micro Econometrics Using R"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0169716118301068?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0169716118301068?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      9,
+      30
+     ]
+    ],
+    "date-time": "2025-09-30T14:34:41Z",
+    "timestamp": 1759242881000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169716118301068"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2020
+     ]
+    ]
+   },
+   "ISBN": [
+    "9780128202500"
+   ],
+   "references-count": 56,
+   "URL": "https://doi.org/10.1016/bs.host.2018.12.002",
+   "relation": {},
+   "ISSN": [
+    "0169-7161"
+   ],
+   "issn-type": [
+    {
+     "value": "0169-7161",
+     "type": "print"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2020
+     ]
+    ]
+   }
+  }
+ }
+}

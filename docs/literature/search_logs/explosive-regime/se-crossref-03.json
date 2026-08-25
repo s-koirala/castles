@@ -1,0 +1,382 @@
+{
+ "query_id": "se-crossref-03",
+ "protocol_query_id": "er-crossref-03",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=recursive+right-tailed+unit+root+test+explosive+episodes&rows=20&select=DOI,title,issued,container-title,type,abstract",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "total_hits": 1639190,
+ "retrieved_count": 20,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 1639190,
+   "items": [
+    {
+     "DOI": "10.2139/ssrn.1981951",
+     "title": [
+      "Specification Sensitivity in Right-Tailed Unit Root Testing for Explosive Behavior"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>Right-tailed unit root tests have proved promising for detecting exuberance in economic and financial activities. Like left-tailed tests, the limit theory and test performance are sensitive to the null hypothesis and the model specification used in parameter estimation. This paper aims to provide some empirical guidelines for the practical implementation of right-tailed unit root tests, focusing on the sup ADF test of Phillips, Wu and Yu (2011), which implements a right-tailed ADF test repeatedly on a sequence of forward sample recursions. We analyze and compare the limit theory of the sup ADF test under different hypotheses and model specifications. The size and power properties of the test under various scenarios are examined in simulations and some recommendations for empirical practice are given. Empirical applications to the NASDAQ and to Australian and New Zealand housing data illustrate these specification issues and reveal their practical importance in testing.</jats:p>"
+    },
+    {
+     "DOI": "10.1093/jjfinec/nbt025",
+     "title": [
+      "Recursive Right-Tailed Unit Root Tests for an Explosive Asset Price Bubble"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013,
+        12,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Financial Econometrics"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.7047178",
+     "title": [
+      "Testing for Bubbles: What Variable to Use in Recursive Right-Tailed Unit Root Tests?"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>Right-tailed unit root tests assume the testing variable follows a martingale in the absence of a bubble under the null. However, neither the stock price nor the price-dividend ratio satisfies this condition. We address this implementation challenge by showing how to scale the stock price to induce martingale behavior. Simulations show that the adjusted price gives correctly sized right-tailed unit root tests, whereas tests are oversized when using the stock price and under-or oversized when using the price-dividend ratio. The adjusted price and the price-dividend ratio display similar power, while log-transforming the testing variable reduces the power substantially.</jats:p>"
+    },
+    {
+     "DOI": "10.36543/kauiibfd.2021.002",
+     "title": [
+      "DETECTING FINANCIAL CONTAGION BUBBLES IN FUTURE MARKETS: AN EMPIRICAL EVIDENCE FROM RIGHT-TAILED UNIT ROOT TEST APPROACH",
+      "DETECTING FINANCIAL CONTAGION BUBBLES IN FUTURES MARKETS: AN EMPIRICAL EVIDENCE FROM RIGHT-TAILED UNIT ROOT TEST APPROACH"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        6,
+        28
+       ]
+      ]
+     },
+     "container-title": [
+      "Kafkas Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p xml:lang=\"en\">This study is to detect the presence of bubbles and to examine the possible contributions of the Covid-19 outbreak to bubble formation in futures markets. To assess the impacts of financial contagion, the daily data will be used for the period between December 1, 2019 and December 11, 2020. The empirical estimation strategy will be based on the generalized supremum augmented Dickey–Fuller (GSADF) test to examine whether there are bubbles in future markets.  According to the estimation results obtained, the GSADF test statistics were found to be statistically significant for 8 future market indices selected for the study. This result reveals empirical evidence that the COVID-19 epidemic has contagion effects on future markets, causing bubble formation for 8 futures market indices. Therefore, the findings obtained in this study have obtained important findings regarding the development and spread of the contagion of the COVID-19 epidemic to financial markets.</jats:p>"
+    },
+    {
+     "DOI": "10.37727/jkdas.2023.25.6.2065",
+     "title": [
+      "Are There Housing Bubbles in Seoul Metropolitan Areas?: Evidence from Right-Tailed Unit Root Test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023,
+        12,
+        31
+       ]
+      ]
+     },
+     "container-title": [
+      "The Korean Data Analysis Society"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p>This study examines the explosive behaviors of house prices in Seoul and its metropolitan areas during 2008Q1~2023Q1. In order for the relationship between house prices and cash flows to reflect better the Korean housing market, this study adopts price-to-income ratio, real transaction-based house prices and personal income. Based on the generalized supremum ADF (GSADF) test, our empirical findings show that housing bubbles are identified in all three markets. According to the starting period, duration periods, and magnitude and prominent peaks among GSADF statistics, the bubbles in Seoul housing market appear to be most serious and further be transmitted to the housing markets of its metropolitan area, Incheon and Gyeonggi-do. Since the methodology used in this study provides policy-makers and investors with real-time information on bubbles, they could formulate a better early warning system to tackle the bubble problem. Specially, our empirical finding helps policy makers to prioritize Seoul over the other housing markets to cope with ongoing bubbles.</jats:p>"
+    },
+    {
+     "DOI": "10.18637/jss.v103.i10",
+     "title": [
+      "<b>exuber</b>: Recursive Right-Tailed Unit Root Testing with <i>R</i>"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Statistical Software"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1080/17538963.2015.1125591",
+     "title": [
+      "Explosive bubbles in the US–China exchange rate? Evidence from right-tailed unit root tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2016,
+        1,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "China Economic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.32614/cran.package.xtrec",
+     "title": [
+      "xtrec: Panel Unit Root Test Based on Recursive Detrending"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        3,
+        29
+       ]
+      ]
+     },
+     "container-title": [
+      "CRAN: Contributed Packages"
+     ],
+     "type": "dataset"
+    },
+    {
+     "DOI": "10.24149/gwp383",
+     "title": [
+      "exuber: Recursive Right-Tailed Unit Root Testing with R"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5
+       ]
+      ]
+     },
+     "container-title": [
+      "Federal Reserve Bank of Dallas, Globalization Institute Working Papers"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.24149/gwp383r1",
+     "title": [
+      "exuber: Recursive Right-Tailed Unit Root Testing with R"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        10
+       ]
+      ]
+     },
+     "container-title": [
+      "Federal Reserve Bank of Dallas, Globalization Institute Working Papers"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1111/obes.12026",
+     "title": [
+      "Specification Sensitivity in Right‐Tailed Unit Root Testing for Explosive Behaviour"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013,
+        2,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "Oxford Bulletin of Economics and Statistics"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:title>Abstract</jats:title><jats:p>This article aims to provide some empirical guidelines for the practical implementation of right‐tailed unit root tests, focusing on the recursive right‐tailed ADF test of Phillips <jats:italic>et al</jats:italic>. (2011b). We analyze and compare the limit theory of the recursive test under different hypotheses and model specifications. The size and power properties of the test under various scenarios are examined and some recommendations for empirical practice are given. Some new results on the consistent estimation of localizing drift exponents are obtained, which are useful in assessing model specification. Empirical applications to stock markets illustrate these specification issues and reveal their practical importance in testing.</jats:p>"
+    },
+    {
+     "DOI": "10.36543/kauiibf.2021.002",
+     "title": [
+      "DETECTING FINANCIAL CONTAGION BUBBLES IN FUTURE MARKETS: AN EMPIRICAL EVIDENCE FROM RIGHT-TAILED UNIT ROOT TEST APPROACH"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        6,
+        28
+       ]
+      ]
+     },
+     "container-title": [
+      "Kafkas Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1016/j.spl.2009.09.001",
+     "title": [
+      "Asymptotic theory for explosive random coefficient autoregressive models and inconsistency of a unit root test against a stochastic unit root process"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009,
+        12
+       ]
+      ]
+     },
+     "container-title": [
+      "Statistics &amp; Probability Letters"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.1873871",
+     "title": [
+      "Specification Sensitivities in Right-Tailed Unit Root Testing for Financial Bubbles"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1111/joes.12524",
+     "title": [
+      "A review of Phillips‐type right‐tailed unit root bubble detection tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022,
+        7,
+        20
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Economic Surveys"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:title>Abstract</jats:title><jats:p>Recent developments on the right‐tailed unit root tests of Phillips et al., which are used to date stamp the origination and collapse dates of asset price bubbles, have generated considerable interest. This paper provides a review for both empirical researchers that adopt these new econometric tools to detect the presence of asset price bubbles, and theoretical papers that extend these testing procedures. This paper also uses the <jats:styled-content>psymonitor</jats:styled-content> package in R to demonstrate the practical use of such tests using an example based on data for British Railway Mania of the 1840s.</jats:p>"
+    },
+    {
+     "DOI": "10.17261/pressacademia.2018.836",
+     "title": [
+      "Analyzing asset of bubbles in the housing market with right-tailed unit root tests: the case of Turkey"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        6,
+        30
+       ]
+      ]
+     },
+     "container-title": [
+      "Pressacademia"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.7717/peerj-cs.2552/table-2",
+     "title": [
+      "Table 2: Unit root test."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.7717/peerj-cs.2865/table-1",
+     "title": [
+      "Table 1: Unit root test."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.2139/ssrn.1300074",
+     "title": [
+      "Inconsistency of a Unit Root Test Against a Stochastic Unit Root Process"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2008
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>In this article, we develop the asymptotic theory of Hwang and Basawa (2005) for explosive random coefficient autoregressive (ERCA) models. Applying the theory, we prove that a locally best invariant (LBI) test in McCabe and Tremayne (1995), which is for the null of a unit root (UR) process against the alternative of a stochastic unit root (STUR) process, is inconsistent against a class of ERCA models. This class includes a class of STUR processes as special cases. We show, however, that the well-known Dickey-Fuller(DF) UR tests and a LBI test of Lee (1998) are consistent against a particular case of this class of ERCA models.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/s0167-7152(03)00007-5",
+     "title": [
+      "A bootstrap approximation to a unit root test statistic for heavy-tailed observations"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2003,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "Statistics &amp; Probability Letters"
+     ],
+     "type": "journal-article"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

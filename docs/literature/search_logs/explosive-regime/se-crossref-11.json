@@ -1,0 +1,367 @@
+{
+ "query_id": "se-crossref-11",
+ "protocol_query_id": "er-crossref-11",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=explosive+bubble+date+stamping+unit+root&query.container-title=SSRN&rows=20&select=DOI,title,issued,container-title,type,abstract",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "total_hits": 714,
+ "retrieved_count": 20,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 714,
+   "items": [
+    {
+     "DOI": "10.2139/ssrn.4045855",
+     "title": [
+      "Bubbles All the Way Down? Detecting and Date-Stamping Bubble Behaviour in Defi and Nft Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2722343",
+     "title": [
+      "Date Stamping Bubbles in Real Estate Investment Trusts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3645002",
+     "title": [
+      "First in Time, First in Right. WIPO Takes the Lead on Digital Date Stamping of IP"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2042794",
+     "title": [
+      "Regulated Variance Ratio Unit Root Tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2135317",
+     "title": [
+      "An Improved Nonparametric Unit-Root Test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3421332",
+     "title": [
+      "Unit Root Test with High-Frequency Data"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3447035",
+     "title": [
+      "Unit Root Test with High-Frequency Data"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.1149960",
+     "title": [
+      "Semiparametric Power Envelopes for Tests of the Unit Root Hypothesis"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2447628",
+     "title": [
+      "On Trend, Breaks and Initial Condition in Unit Root Testing"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2014
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3358301",
+     "title": [
+      "Testing for Random Coefficient Autoregressive and Stochastic Unit Root Models"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2538449",
+     "title": [
+      "A More Informative Unit Root Test for Driftless Time Series"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2014
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.706562",
+     "title": [
+      "A Panel Unit Root Test with Good Power in Small Samples"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.1066746",
+     "title": [
+      "A Residual-Based Cointegration Test for Near Unit Root Variables"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3585865",
+     "title": [
+      "A Note on the Irrelevance of Unit Root Tests and Cointegration Tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.1738383",
+     "title": [
+      "Folklore Theorems, Implicit Maps and New Unit Root Limit Theory"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2010
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2310002",
+     "title": [
+      "Nonstationary-Volatility Robust Panel Unit Root Tests and the Great Moderation"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2992513",
+     "title": [
+      "Heteroskedasticity-Robust Unit Root Testing for Trending Panels"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3594366",
+     "title": [
+      "Структурные сдвиги и тестирование на единичный корень (Structural Breaks and Unit Root Testing"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.1147562",
+     "title": [
+      "Seasonal Unit Root Testing Based on the Temporal Aggregation of Seasonal Cycles"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3854968",
+     "title": [
+      "A note on nonlinear least squares estimation of multivariate stochastic unit root models"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

@@ -1,0 +1,248 @@
+{
+ "query_id": "se-s2-01-c",
+ "protocol_query_id": "er-s2-01",
+ "arm": "topical",
+ "platform": "s2",
+ "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=SADF%20GSADF%20bubble%20date%20stamping%20critical%20values&fields=title,year,venue,externalIds,citationCount&limit=50",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 429
+  },
+  {
+   "attempt": 2,
+   "http_status": 200
+  }
+ ],
+ "total_hits": 19,
+ "retrieved_count": 19,
+ "note": "second verbatim re-run (-c) beyond the single -b re-run specified by protocol 3.1; deviation recorded as amendment A2 in the protocol addendum",
+ "raw": {
+  "total": 19,
+  "offset": 0,
+  "data": [
+   {
+    "paperId": "dce27f5b6e7de682c3a0aa23ce536e0f673f396d",
+    "externalIds": {
+     "MAG": "1929115124",
+     "DOI": "10.18637/JSS.V081.C01",
+     "CorpusId": 55174273
+    },
+    "title": "Rtadf: Testing for Bubbles with EViews",
+    "venue": "",
+    "year": 2013,
+    "citationCount": 113
+   },
+   {
+    "paperId": "072ccf0f305cb8a54c841664c587c764dcb61c43",
+    "externalIds": {
+     "ArXiv": "2604.12062",
+     "DOI": "10.3934/fmf.2026005",
+     "CorpusId": 287436097
+    },
+    "title": "Is there an AI bubble? Robust date-stamping for periods of exuberance",
+    "venue": "Frontiers of Mathematical Finance",
+    "year": 2026,
+    "citationCount": 0
+   },
+   {
+    "paperId": "4ae2beff598064d612ed41b99e749201cf4260f7",
+    "externalIds": {
+     "DOI": "10.1080/14765284.2022.2138161",
+     "CorpusId": 253322377
+    },
+    "title": "Bubbles all the way down? Detecting and date-stamping bubble behaviours in NFT and DeFi markets",
+    "venue": "Journal of Chinese Economic and Business Studies",
+    "year": 2022,
+    "citationCount": 67
+   },
+   {
+    "paperId": "787c654609dacd12c16dbb2bd58efc2d8d9834bb",
+    "externalIds": {
+     "MAG": "3035355384",
+     "CorpusId": 225866831
+    },
+    "title": "Date-stamping the Tadawul bubble through the SADF and GSADF econometric approaches",
+    "venue": "",
+    "year": 2020,
+    "citationCount": 1
+   },
+   {
+    "paperId": "d7d93e626d2538df552f3410278485d0863d4b91",
+    "externalIds": {
+     "DOI": "10.13052/spee1048-5236.4321",
+     "CorpusId": 267119271
+    },
+    "title": "Crude Oil Price Bubble Identification and Risk Assessment From Different Spot Markets: Establishing a Sustainable Energy Policy",
+    "venue": "Strategic Planning for Energy and the Environment",
+    "year": 2024,
+    "citationCount": 0
+   },
+   {
+    "paperId": "7cf462c55628bbe305ed5a7cae732391510a3c61",
+    "externalIds": {
+     "MAG": "3011349052",
+     "DOI": "10.1007/s00181-020-01859-7",
+     "CorpusId": 88487891
+    },
+    "title": "Sup-ADF-style bubble-detection methods under test",
+    "venue": "",
+    "year": 2020,
+    "citationCount": 22
+   },
+   {
+    "paperId": "7c4e0af12a98436a2b371f3755f0b103f390140c",
+    "externalIds": {
+     "MAG": "3193455683",
+     "DOI": "10.53277/2519-2442-2021.2-01",
+     "CorpusId": 239622048
+    },
+    "title": "ANALYZING MULTIPLE BUBBLES IN THE USDKZT EXCHANGE RATE USING THE GSADF TEST",
+    "venue": "Eurasian Research Journal",
+    "year": 2021,
+    "citationCount": 6
+   },
+   {
+    "paperId": "9e336057f4e62e5d13c3b1d6f0e58b1c92a423e1",
+    "externalIds": {
+     "DOI": "10.46568/gjmas.v2i2.40",
+     "CorpusId": 258573426
+    },
+    "title": "SPECULATIVE BUBBLE AND ITS EXISTENCE IN STOCK MARKET OF PAKISTAN",
+    "venue": "Global Journal for Management and Administrative Sciences",
+    "year": 2021,
+    "citationCount": 1
+   },
+   {
+    "paperId": "67551a1ab659054a74536679c4dcba576dafe0a9",
+    "externalIds": {
+     "DOI": "10.1080/23322039.2025.2509620",
+     "CorpusId": 278942277
+    },
+    "title": "Sentiment-driven price explosiveness in blue-chip stocks: a Clog-log approach",
+    "venue": "Cogent Economics &amp; Finance",
+    "year": 2025,
+    "citationCount": 3
+   },
+   {
+    "paperId": "dd240fc771897ab76c6d69c87e2c6ee8b22d44ee",
+    "externalIds": {
+     "MAG": "3161759960",
+     "DOI": "10.1016/J.ENERGY.2021.120873",
+     "CorpusId": 236288428
+    },
+    "title": "Driven by fundamentals or exploded by emotions: Detecting bubbles in oil prices",
+    "venue": "",
+    "year": 2021,
+    "citationCount": 108
+   },
+   {
+    "paperId": "e736fe00b1b7694d3cafa562c81d561b625397cb",
+    "externalIds": {
+     "DOI": "10.1007/s00181-020-01859-7",
+     "CorpusId": 253721461
+    },
+    "title": "Sup-ADF-style bubble-detection methods under test",
+    "venue": "Empirical Economics",
+    "year": 2020,
+    "citationCount": 0
+   },
+   {
+    "paperId": "7aabd73ac122207f40f3b55e400db64364cb3159",
+    "externalIds": {
+     "DBLP": "journals/jstatsoft/VasilopoulosPM22",
+     "MAG": "3024476225",
+     "DOI": "10.24149/gwp383",
+     "CorpusId": 219411709
+    },
+    "title": "exuber: Recursive Right-Tailed Unit Root Testing with R",
+    "venue": "Journal of Statistical Software",
+    "year": 2020,
+    "citationCount": 33
+   },
+   {
+    "paperId": "5bab3498ea0079847c6d17a906103c1cedd7e53b",
+    "externalIds": {
+     "MAG": "3002937306",
+     "PubMedCentral": "7147841",
+     "DOI": "10.1016/j.resourpol.2020.101587",
+     "CorpusId": 214500315,
+     "PubMed": "34170991"
+    },
+    "title": "Testing for multiple bubbles in the copper price: Periodically collapsing behavior",
+    "venue": "Resources policy",
+    "year": 2020,
+    "citationCount": 47
+   },
+   {
+    "paperId": "2d6516d3b232ae99828bafdce917c7dc5d049558",
+    "externalIds": {
+     "DOI": "10.15295/bmij.v9i4.1889",
+     "CorpusId": 245498075
+    },
+    "title": "An empirical comparison of stock market bubbles",
+    "venue": "Business & Management Studies: An International Journal",
+    "year": 2021,
+    "citationCount": 4
+   },
+   {
+    "paperId": "3440f8987abde9889cb4103bf5e81046b8a42fc1",
+    "externalIds": {
+     "MAG": "1575574405",
+     "DOI": "10.1108/AFR-12-2014-0042",
+     "CorpusId": 153427320
+    },
+    "title": "$25 spring wheat was a bubble, right?",
+    "venue": "",
+    "year": 2015,
+    "citationCount": 6
+   },
+   {
+    "paperId": "23ba4cb118dfa81684fbeaa549e4285049c0f903",
+    "externalIds": {
+     "DOI": "10.1080/23322039.2022.2145750",
+     "CorpusId": 253704004
+    },
+    "title": "Are there bubbles in sectoral indices? Evidence from national stock exchange",
+    "venue": "Cogent Economics &amp; Finance",
+    "year": 2022,
+    "citationCount": 3
+   },
+   {
+    "paperId": "368ebd53e8cf3086ea624023bf229ad63c576b8a",
+    "externalIds": {
+     "DOI": "10.29228/ideas.63952",
+     "CorpusId": 251850488
+    },
+    "title": "Emtia Piyasalarında Fiyat Balonları: Covid-19 Dönemi İçin Bir İnceleme",
+    "venue": "International Journal of Disciplines In Economics and Administrative Sciences Studies (IDEAstudies)",
+    "year": 2022,
+    "citationCount": 2
+   },
+   {
+    "paperId": "31823014a23904b87aa9882f7a001b1cfbfcc47b",
+    "externalIds": {
+     "MAG": "2296504688",
+     "CorpusId": 55868343
+    },
+    "title": "Testing for Multiple Bubbles in the 35 Large and Medium Cities of Real Estate Price in China",
+    "venue": "",
+    "year": 2015,
+    "citationCount": 6
+   },
+   {
+    "paperId": "7e6b59af535ab397b2704b0fcfd734f2773ee0e9",
+    "externalIds": {
+     "DOI": "10.1108/sef-08-2024-0521",
+     "CorpusId": 274197053
+    },
+    "title": "The reaction of top cryptocurrencies to lawsuit against Binance: an intraday event study",
+    "venue": "Studies in Economics and Finance",
+    "year": 2024,
+    "citationCount": 5
+   }
+  ]
+ }
+}

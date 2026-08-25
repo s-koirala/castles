@@ -1,0 +1,132 @@
+Screening prompts, archived verbatim per protocol section 4.2.
+Archival note (honest timing): stage-1 prompt archived 2026-08-24 after
+dispatch, copied verbatim from the dispatch record (the two screener agents
+received byte-identical text differing only in the R1/R2 label); the frozen
+criteria the prompts point to were registered in commit 9deee0c before any
+screening. Stage-2 prompt archived at stage-2 dispatch time, same
+byte-identical-except-label property.
+
+================ STAGE 1 PROMPT (R1/R2, label substituted) ================
+You are independent screener {R} for the registered systematic review at
+C:/Users/skoir/castles (working directory). A sibling screener {other}
+works the identical record universe in a separate context; you have no
+access to their reasoning or verdicts, and you must not attempt to infer or
+coordinate. Your verdicts are one of two independent reads whose agreement
+will be measured (Cohen's kappa).
+
+TASK: Title/abstract screening of ALL 1,996 records in
+docs/literature/references_explosive-regime-dating.json against the FROZEN
+eligibility criteria in
+docs/methodology/protocol_explosive-regime-review_2026-08-24.md section 2.
+Read section 2 in full first (the in-scope detector rule S-a/S-b/S-c,
+study-type criteria I2a/I2b/I2c, exclusions X1..X3+, and the LPPL rule
+section 2.5 with its escape hatches). Apply the criteria AS WRITTEN - no
+modification, no improvisation. If the protocol states an uncertainty rule
+(e.g. promote when undecidable at title/abstract), follow it; if it does
+not, use PROMOTE for any record you cannot decide from title/abstract alone
+(uncertainty resolves toward the next stage, never toward exclusion).
+
+VERDICT VOCABULARY per record: INCLUDE (clearly eligible), EXCLUDE with
+criterion code (cite the specific section-2 criterion, e.g. X1, S-a-fail),
+or PROMOTE (undecidable at this stage - goes to full text).
+
+METHOD (work token-lean; this is a long file):
+1. Read the protocol section 2 and section 4 once, carefully.
+2. Process the store in sequential batches (Read with offset/limit).
+Records have title, year, venue, identifiers, source-arm tags, and abstract
+where the API supplied one (998 of 1,996 have abstracts; screen the rest on
+title+venue, using PROMOTE when that is not enough).
+3. Write verdicts INCREMENTALLY as JSON Lines to
+docs/literature/search_logs/explosive-regime/screen-verdicts-{R}.jsonl -
+one line per record: {"id": "<store id>", "verdict":
+"INCLUDE|EXCLUDE|PROMOTE", "criterion": "<code or null>", "note": "<ONLY
+when the call is non-obvious, max 15 words>"}. Append after each batch so
+partial progress survives.
+4. Every one of the 1,996 ids must have exactly one verdict line. After the
+last batch, run a self-check (count lines, count distinct ids, compare to
+store) and fix any gaps/duplicates before returning.
+
+DISCIPLINE:
+- The forward-citation arms retrieved everything citing the two seed papers
+- MOST of the universe will be plain applications (X1: applications without
+operating characteristics) or off-topic citing works; a high exclusion rate
+is expected and correct. Do not relax criteria to admit more.
+- Venue/tier is NOT an exclusion ground (all tiers admitted, tier recorded
+later).
+- KI-tagged records still get screened on the criteria like any other
+record.
+- Do not read other files in the repo beyond the protocol and the store; do
+not write anything except your verdict file.
+
+RETURN (final text): verdict counts (INCLUDE / EXCLUDE by criterion /
+PROMOTE), self-check result (line count = 1,996, distinct ids = 1,996), and
+any store anomalies encountered (missing fields, unreadable entries) -
+anomalies are reported, never silently skipped.
+
+================ ADJUDICATOR PROMPT (blind) ================
+You are the provenance-blind screening adjudicator... [verbatim as
+dispatched: reads only se-adjudication-input.json (ids only) and the store;
+prohibited from reading screen-verdicts-R1/R2.jsonl and
+se-disagreement-set.json; screens each disputed record fresh against
+section 2 with the same INCLUDE/EXCLUDE/PROMOTE vocabulary and the
+uncertainty-promotes rule; writes screen-verdicts-ADJ.jsonl; self-check
+386.]
+
+================ STAGE 2 PROMPT (R1/R2, label substituted) ================
+You are independent stage-2 (full-text) screener {R} for the registered
+systematic review at C:/Users/skoir/castles (working directory). A sibling
+stage-2 screener {other} assesses the identical survivor set in a separate
+context; no coordination, no access to their verdicts. Do not read any
+screen-verdicts-*.jsonl file other than the one you write.
+
+TASK: Full-text-depth eligibility assessment of all 586 stage-1 survivors
+listed in
+docs/literature/search_logs/explosive-regime/se-stage1-advance-set.json,
+against the FROZEN criteria in
+docs/methodology/protocol_explosive-regime-review_2026-08-24.md section 2
+(read section 2 and section 4 first; apply as written).
+
+PER RECORD:
+1. Locate it in docs/literature/references_explosive-regime-dating.json (by
+id; batch your reads).
+2. Obtain full-text-depth evidence, trying in order: arXiv (abs page + full
+text when the record has an arXiv id), OpenAlex open-access location
+(https://api.openalex.org/works/{id} best_oa_location), publisher page,
+institutional/SSRN page located via WebSearch. Publisher 403s to automated
+requests are access failures to route around, not endpoints. Record the
+route that succeeded (or that all failed) in your verdict note.
+3. Verdict per protocol section 4.2 stage 2:
+- INCLUDE with study-type code (I2a theory / I2b simulation / I2c
+application-with-operating-characteristics), when the full-text evidence
+satisfies S-a, S-b, S-c and an I2 type;
+- EXCLUDE with the section-2 criterion code the full text settles (X1, I1,
+S-a-fail, X2, X3 per the section-2.5 LPPL rule, X4, X5, ...);
+- X6 when full text is UNOBTAINABLE after the logged attempts - protocol
+rule is literal: unobtainable -> X6 regardless of how the abstract reads
+(the X6 count is a visible, honest flow category).
+4. Write incrementally as JSON Lines to
+docs/literature/search_logs/explosive-regime/screen2-verdicts-{R}.jsonl:
+{"id": "...", "verdict": "INCLUDE|EXCLUDE|X6", "criterion": "<I2a|I2b|I2c
+or exclusion code; X6 has criterion X6>", "route":
+"<arxiv|openalex-oa|publisher|repository|none>", "note": "<max 15 words>"}.
+5. Self-check before returning: 586 lines, 586 distinct ids, exact match to
+the advance set.
+
+EFFICIENCY DISCIPLINE: most survivors are title-only records promoted on
+uncertainty - many will resolve quickly (an abstract obtained en route that
+reveals a plain application still requires the full-text attempt chain
+before an X1 call at this stage; where full text IS obtained, skim for the
+S/I/X-relevant facts only: detector used, null stated, operating
+characteristics reported - you are screening, not extracting). Work in
+batches; keep per-record token use minimal. KI-05 (Phillips & Magdalinos
+2007) and KI-13 (Busetti & Taylor 2004) are in the survivor set - their
+full texts are obtainable (Cambridge/Oxford self-archives, journal pages)
+and their section-2.1 satisfaction must be decided from text, not
+reputation.
+
+EXCLUDED: reading other verdict files; modifying criteria; touching any
+artifact other than your verdict file.
+
+RETURN (final text): verdict counts (INCLUDE by I2 type / EXCLUDE by
+criterion / X6), obtainability summary (how many resolved by which route),
+self-check result, and the KI-05/KI-13 verdicts with one-line grounds.

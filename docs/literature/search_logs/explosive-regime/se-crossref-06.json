@@ -1,0 +1,347 @@
+{
+ "query_id": "se-crossref-06",
+ "protocol_query_id": "er-crossref-06",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=CUSUM+monitoring+explosive+episodes+speculative+bubble&rows=20&select=DOI,title,issued,container-title,type,abstract",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "total_hits": 890588,
+ "retrieved_count": 20,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 890588,
+   "items": [
+    {
+     "DOI": "10.1093/jjfinec/nbab009",
+     "title": [
+      "CUSUM-Based Monitoring for Explosive Episodes in Financial Data in the Presence of Time-Varying Volatility"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        5,
+        5
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Financial Econometrics"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>We generalize the Homm and Breitung (2012) CUSUM-based procedure for the real-time detection of explosive autoregressive episodes in financial price data to allow for time-varying volatility. Such behavior can heavily inflate the false positive rate (FPR) of the CUSUM-based procedure to spuriously signal the presence of an explosive episode. Our modified procedure involves replacing the standard variance estimate in the CUSUM statistics with a nonparametric kernel-based spot variance estimate. We show that the sequence of modified CUSUM statistics has a joint limiting null distribution which is invariant to any time-varying volatility present in the innovations and that this delivers a real-time monitoring procedure whose theoretical FPR is controlled. Simulations show that the modification is effective in controlling the empirical FPR of the procedure, yet sacrifices only a small amount of power to detect explosive episodes, relative to the standard procedure, when the shocks are homoskedastic. An empirical illustration using Bitcoin price data is provided.</jats:p>"
+    },
+    {
+     "DOI": "10.1017/s0266466626100383",
+     "title": [
+      "COVARIATE-AUGMENTED CUSUM BUBBLE MONITORING PROCEDURES"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        6,
+        11
+       ]
+      ]
+     },
+     "container-title": [
+      "Econometric Theory"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p>\n                    We explore how information from covariates can be incorporated into the CUSUM-based real-time monitoring procedure for explosive asset price bubbles developed in Homm and Breitung (2012,\n                    <jats:italic>Journal of Financial Econometrics</jats:italic>\n                    10, 198–231). Where dynamic covariates are present in the data generating process (DGP), the false positive rate (FPR) of the basic CUSUM procedure, which is based on the assumption that prices follow a univariate DGP, under the null of no explosivity will not, in general, be properly controlled, even asymptotically. In contrast, accounting for these relevant covariates in the construction of the CUSUM statistics leads to a procedure whose FPR can be controlled using the same asymptotic crossing function as employed by Homm and Breitung (2012). Doing so is also shown to have the potential to significantly increase the chance of detecting an emerging bubble episode in finite samples. We additionally allow for time-varying volatility in the innovations driving the model through the use of a kernel-based variance estimator.\n                  </jats:p>"
+    },
+    {
+     "DOI": "10.1007/springerreference_886",
+     "title": [
+      "Bubble Theory (of Speculative Markets)"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "SpringerReference"
+     ],
+     "type": "reference-entry"
+    },
+    {
+     "DOI": "10.32614/cran.package.cusum",
+     "title": [
+      "cusum: Cumulative Sum (CUSUM) Charts for Monitoring of Hospital Performance"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        11,
+        18
+       ]
+      ]
+     },
+     "container-title": [
+      "CRAN: Contributed Packages"
+     ],
+     "type": "dataset"
+    },
+    {
+     "DOI": "10.3386/w34722",
+     "title": [
+      "Speculative Growth and the AI \"Bubble\""
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        1
+       ]
+      ]
+     },
+     "type": "report"
+    },
+    {
+     "DOI": "10.2139/ssrn.3103706",
+     "title": [
+      "Bitcoin: Speculative Bubble or Future Value?"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>Created in 2009, bitcoin reaches record heights every week, having hit $17,000 on 11 December 2017 - the first day a bitcoin futures contract traded at the CBOE - versus $1,000 in early 2017 and $1 in 2001. Yet there is still no consensus among economists whether bitcoin comprises a new decentralised currency free of central bank influence, or is a purely speculative instrument.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.5943057",
+     "title": [
+      "Speculative Growth and the AI \"Bubble\""
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content"
+    },
+    {
+     "DOI": "10.3990/1.9789036527439",
+     "title": [
+      "Explosive micro-bubble actuator"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "dissertation"
+    },
+    {
+     "DOI": "10.2139/ssrn.6134092",
+     "title": [
+      "Speculative Growth and the AI \"Bubble\""
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>High valuations of AI-related firms are usually read in binary terms: either they reflect fundamentals or they are a bubble. This paper develops a third possibility: an optimistic valuation can have a permanent real legacy even when the valuation later corrects. AI capital expands productive capacity and shifts income toward high-saving capital owners. Over time, this wealth-saving feedback lowers the interest rate and can generate multiple steady states, including a self-sustaining high-capital economy. But rational pricing from the low-capital state does not take the economy there. The transition requires a temporary belief-supported valuation: investors perceive high returns, valuation rises, investment accelerates, and the interest rate rises during the transition. If enough capital has been installed before learning removes the wedge, the economy lands in the high-capital state, where the long-run interest rate is lower. If learning arrives too soon, the transition fails. The technology can be real, peak valuations can be unsustained, and the capital installed during the boom can remain. Workers receive higher wages at the high-capital destination despite a lower worker share, while capitalists finance the investment surge and are exposed to the correction in belief-supported prices.&lt;br&gt;&lt;br&gt;Institutional subscribers to the NBER working paper series, and residents of developing countries may download this paper without additional charge at &lt;a href=\"http://www.nber.org/papers/&amp;#119;34722\" TARGET=\"_blank\"&gt;www.nber.org&lt;/a&gt;.&lt;br&gt;</jats:p>"
+    },
+    {
+     "DOI": "10.1007/0-387-26336-5_248",
+     "title": [
+      "Bubble Theory (of Speculative Markets)"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "Encyclopedia of Finance"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.23860/thesis-2571",
+     "title": [
+      "UNDERWATER EXPLOSIVE BUBBLE INTERACTION WITH CURVED WATER-BACKED STRUCTURES"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "dissertation"
+    },
+    {
+     "DOI": "10.2139/ssrn.4437992",
+     "title": [
+      "Scr-Cusum: An Illness-Death Semi-Markov Model-Based Risk-Adjusted CUSUM for Semi-Competing Risk Data Monitoring"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023
+       ]
+      ]
+     },
+     "type": "posted-content"
+    },
+    {
+     "DOI": "10.23860/thesis-galuska-michael-2023",
+     "title": [
+      "UNDERWATER EXPLOSIVE BUBBLE INTERACTION WITH A FLAT ADJACENT WATER-BACKED STRUCTURE"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "dissertation"
+    },
+    {
+     "DOI": "10.1515/ordo-2013-0119",
+     "title": [
+      "Explosive Preisentwicklung und spekulative Blasen auf Rohstoffmärkten / Explosive behavior and speculative bubbles on commodity markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013,
+        1,
+        1
+       ]
+      ]
+     },
+     "container-title": [
+      "ORDO"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:title>Zusammenfassung</jats:title>\n               <jats:p> In dieser Studie wird untersucht, ob die Preisentwicklung auf Rohstoffmärkten statistische Anhaltspunkte für spekulative Preisblasen liefert. Diese Frage ist von zentraler Bedeutung in der wirtschaftspolitischen Debatte um die Regulierung des Handels von Rohstoffen. Es kann statistisch gezeigt werden, dass sich Rohstoffpreise gelegentlich explosiv verhalten. Die stärkste Evidenz für explosives Verhalten gibt es bei den Industrierohstoffen. Auch bei Nahrungsmittelpreisen können Phasen explosiven Verhaltens statistisch nachgewiesen werden. Eine wichtige Schlussfolgerung ist, dass die Ursachen explosiven Verhaltens auf Rohstoffmärkten und die Effekte von Preisblasen auf die Entscheidungen von Konsumenten und Investoren sowie Verteilungseffekte systematisch untersucht werden müssen.</jats:p>"
+    },
+    {
+     "DOI": "10.3386/w22065",
+     "title": [
+      "Speculative Fever: Investor Contagion in the Housing Bubble"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2016,
+        3
+       ]
+      ]
+     },
+     "type": "report"
+    },
+    {
+     "DOI": "10.3386/w1854",
+     "title": [
+      "The Dollar as Speculative Bubble:  A Tale of Fundamentalists and Chartists"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1986,
+        3
+       ]
+      ]
+     },
+     "type": "report"
+    },
+    {
+     "DOI": "10.2139/ssrn.1992587",
+     "title": [
+      "Speculative Bubble Spillovers Across Regional Housing Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>In this paper we determine whether speculative bubbles in one region in the US can lead bubbles to form in others. We first apply a regime-switching model to determine whether speculative bubbles existed in the US regional residential real estate markets. Our findings suggest that the housing markets in five of the nine census divisions investigated were characterized by speculative bubbles. We then examine the extent to which bubbles spill over between neighbouring and more distant regions, finding that the transmission of speculative bubbles and non-fundamentals between regions is multi-directional and does not depend on contiguity or distance.</jats:p>"
+    },
+    {
+     "DOI": "10.3917/espri.1111.0054",
+     "title": [
+      "Biological Psychiatry: A Speculative Bubble?"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011,
+        11,
+        1
+       ]
+      ]
+     },
+     "container-title": [
+      "Esprit"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.24818/ida-cl/2025.70",
+     "title": [
+      "A Fragility Index for Assessing Financial Stability Amid Asset Bubble Episodes"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025
+       ]
+      ]
+     },
+     "type": "posted-content"
+    },
+    {
+     "DOI": "10.2139/ssrn.4727353",
+     "title": [
+      "A Simulated Electronic Market with Speculative Behaviour and Bubble Formation"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2024
+       ]
+      ]
+     },
+     "type": "posted-content"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

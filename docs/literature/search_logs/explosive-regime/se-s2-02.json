@@ -1,0 +1,13 @@
+{
+ "query_id": "se-s2-02",
+ "protocol_query_id": "er-s2-02",
+ "arm": "topical",
+ "platform": "s2",
+ "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=recursive%20unit%20root%20explosive%20bubble%20monitoring%20size%20power&fields=title,year,venue,externalIds,citationCount&limit=50",
+ "date_executed": "2026-08-24",
+ "http_status": 429,
+ "total_hits": null,
+ "retrieved_count": 0,
+ "raw": "{\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}",
+ "note": "non-200 first attempt; verbatim re-run logged under -b suffix per protocol 3.1"
+}

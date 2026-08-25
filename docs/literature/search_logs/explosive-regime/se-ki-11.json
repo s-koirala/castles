@@ -1,0 +1,438 @@
+{
+ "query_id": "se-ki-11",
+ "arm": "known-item",
+ "ki": "KI-11",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1017/s0266466617000202",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      17
+     ]
+    ],
+    "date-time": "2026-08-17T20:45:37Z",
+    "timestamp": 1786999537728,
+    "version": "build-2736575974"
+   },
+   "reference-count": 37,
+   "publisher": "Cambridge University Press (CUP)",
+   "issue": "4",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2017,
+        6,
+        7
+       ]
+      ],
+      "date-time": "2017-06-07T00:00:00Z",
+      "timestamp": 1496793600000
+     },
+     "content-version": "unspecified",
+     "delay-in-days": 0,
+     "URL": "https://www.cambridge.org/core/terms"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "www.cambridge.org"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Econom. Theory"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2018,
+      8
+     ]
+    ]
+   },
+   "abstract": "<jats:p>Expansion and collapse are two key features of a financial asset bubble. Bubble expansion may be modeled using a mildly explosive process. Bubble implosion may take several different forms depending on the nature of the collapse and therefore requires some flexibility in modeling. This paper first strengthens the theoretical foundation of the real time bubble monitoring strategy proposed in Phillips, Shi and Yu (2015a,b, PSY) by developing analytics and studying the performance characteristics of the testing algorithm under alternative forms of bubble implosion which capture various return paths to market normalcy. Second, we propose a new reverse sample use of the PSY procedure for detecting crises and estimating the date of market recovery. Consistency of the dating estimators is established and the limit theory addresses new complications arising from the alternative forms of bubble implosion and the endogeneity effects present in the reverse regression. A real-time version of the strategy is provided that is suited for practical implementation. Simulations explore the finite sample performance of the strategy for dating market recovery. The use of the PSY strategy for bubble monitoring and the new procedure for crisis detection are illustrated with an application to the Nasdaq stock market.</jats:p>",
+   "DOI": "10.1017/s0266466617000202",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2017,
+      6,
+      7
+     ]
+    ],
+    "date-time": "2017-06-07T04:16:53Z",
+    "timestamp": 1496809013000
+   },
+   "page": "705-753",
+   "update-policy": "https://doi.org/10.1017/policypage",
+   "source": "Crossref",
+   "is-referenced-by-count": 147,
+   "title": [
+    "FINANCIAL BUBBLE IMPLOSION AND REVERSE REGRESSION"
+   ],
+   "prefix": "10.1017",
+   "volume": "34",
+   "author": [
+    {
+     "given": "Peter C.B.",
+     "family": "Phillips",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Shu-Ping",
+     "family": "Shi",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "56",
+   "published-online": {
+    "date-parts": [
+     [
+      2017,
+      6,
+      7
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "S0266466617000202_ref9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.enpol.2016.06.020"
+    },
+    {
+     "key": "S0266466617000202_ref37",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.asieco.2013.04.005"
+    },
+    {
+     "key": "S0266466617000202_ref26",
+     "unstructured": "Phillips P.C.B. & Shi S. (2017) Supplementary material to ‘Financial Bubble Implosion and Reverse Regression’. Econometric Theory Supplemental Material, https://doi.org./10.1017/S0266466617000202."
+    },
+    {
+     "key": "S0266466617000202_ref24",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0266466609990296"
+    },
+    {
+     "key": "S0266466617000202_ref28",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/obes.12026"
+    },
+    {
+     "key": "S0266466617000202_ref21",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.rie.2016.01.002"
+    },
+    {
+     "key": "S0266466617000202_ref20",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1913237"
+    },
+    {
+     "key": "S0266466617000202_ref14",
+     "unstructured": "Hu Y. & Oxley L. (2017a) Exuberance, Bubbles or Froth: Some Historical Results Using Long Run House Data for Amsterdam, Norway, and Paris. Working paper, University of Waikato."
+    },
+    {
+     "key": "S0266466617000202_ref11",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jjfinec/nbt025"
+    },
+    {
+     "key": "S0266466617000202_ref10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/erae/jbs017"
+    },
+    {
+     "key": "S0266466617000202_ref6",
+     "doi-asserted-by": "crossref",
+     "first-page": "69",
+     "DOI": "10.1080/10835547.2011.12090282",
+     "article-title": "International articles: Bubbles in south African house prices and their impact on consumption",
+     "volume": "19",
+     "author": "Das",
+     "year": "2011",
+     "journal-title": "Journal of Real Estate Literature"
+    },
+    {
+     "key": "S0266466617000202_ref3",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.eneco.2013.01.006"
+    },
+    {
+     "key": "S0266466617000202_ref31",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1468-2354.2010.00625.x"
+    },
+    {
+     "key": "S0266466617000202_ref1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/1468-0262.00393"
+    },
+    {
+     "key": "S0266466617000202_ref18",
+     "first-page": "1",
+     "article-title": "Detecting multiple changes in persistence",
+     "volume": "11",
+     "author": "Leybourne",
+     "year": "2007",
+     "journal-title": "Studies in Nonlinear Dynamics and Econometrics"
+    },
+    {
+     "key": "S0266466617000202_ref7",
+     "first-page": "520",
+     "article-title": "Explosive rational bubbles in stock prices?",
+     "volume": "78",
+     "author": "Diba",
+     "year": "1988",
+     "journal-title": "The American Economic Review"
+    },
+    {
+     "key": "S0266466617000202_ref22",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jeconom.2005.08.002"
+    },
+    {
+     "key": "S0266466617000202_ref16",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jedc.2010.01.013"
+    },
+    {
+     "key": "S0266466617000202_ref15",
+     "unstructured": "Hu Y. & Oxley L. (2017b) Exuberance in Historical Stock Prices During the Mississippi Bubble and South Sea Bubble Episodes. Working paper, University of Waikato."
+    },
+    {
+     "key": "S0266466617000202_ref17",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1540-6261.2009.01514.x"
+    },
+    {
+     "key": "S0266466617000202_ref12",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jempfin.2015.09.002"
+    },
+    {
+     "key": "S0266466617000202_ref36",
+     "first-page": "159",
+     "article-title": "Identifying speculative bubbles with an in finite hidden Markov model",
+     "volume": "14",
+     "author": "Shi",
+     "year": "2012",
+     "journal-title": "Journal of Financial Econometrics"
+    },
+    {
+     "key": "S0266466617000202_ref5",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1177/002795011322300105"
+    },
+    {
+     "key": "S0266466617000202_ref8",
+     "first-page": "65",
+     "article-title": "Bubbles in food commodity markets: Four decades of evidence",
+     "volume": "97",
+     "author": "Etienne",
+     "year": "2013",
+     "journal-title": "Journal of International Money and Finance"
+    },
+    {
+     "key": "S0266466617000202_ref34",
+     "article-title": "Bubble or Roller Coaster in World Stock Markets",
+     "author": "Phillips",
+     "year": "2013",
+     "journal-title": "The Business Times"
+    },
+    {
+     "key": "S0266466617000202_ref32",
+     "article-title": "Warning Signs of Future Asset Bubbles",
+     "author": "Phillips",
+     "year": "2011a",
+     "journal-title": "The Straits Times"
+    },
+    {
+     "key": "S0266466617000202_ref2",
+     "volume-title": "Animal Spirits: How Human Psychology Drives the Economy and Why it Matters for Global Capitalism",
+     "author": "Akerlof",
+     "year": "2009"
+    },
+    {
+     "key": "S0266466617000202_ref29",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/iere.12132"
+    },
+    {
+     "key": "S0266466617000202_ref33",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3982/QE82"
+    },
+    {
+     "key": "S0266466617000202_ref35",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Rosser J.B . (2000) From Catastrophe to Chaos: A General Theory of Economic Discontinuities: Mathematics. Microeconomics and Finance, vol. 1. Springer.",
+     "DOI": "10.1007/978-94-017-1613-0"
+    },
+    {
+     "key": "S0266466617000202_ref27",
+     "unstructured": "Phillips P.C. , Shi S. , & Yu J. (2011) Specification Sensitivity in Right-Tailed Unit Root Testing for Explosive Behavior. Singapore Management University Economics and Statistics Working Paper Series, No. 22–2011."
+    },
+    {
+     "key": "S0266466617000202_ref4",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0165-1765(79)90017-X"
+    },
+    {
+     "key": "S0266466617000202_ref30",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/iere.12131"
+    },
+    {
+     "key": "S0266466617000202_ref13",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jjfinec/nbr009"
+    },
+    {
+     "key": "S0266466617000202_ref19",
+     "article-title": "Commodity Booms, Busts and Bubbles",
+     "author": "Meyer",
+     "year": "2013",
+     "journal-title": "Financial Times"
+    },
+    {
+     "key": "S0266466617000202_ref23",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/CBO9780511493157.008"
+    },
+    {
+     "key": "S0266466617000202_ref25",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/biomet/75.2.335"
+    }
+   ],
+   "container-title": [
+    "Econometric Theory"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0266466617000202",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2022,
+      7,
+      29
+     ]
+    ],
+    "date-time": "2022-07-29T02:02:01Z",
+    "timestamp": 1659060121000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://www.cambridge.org/core/product/identifier/S0266466617000202/type/journal_article"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2017,
+      6,
+      7
+     ]
+    ]
+   },
+   "references-count": 37,
+   "journal-issue": {
+    "issue": "4",
+    "published-print": {
+     "date-parts": [
+      [
+       2018,
+       8
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "S0266466617000202"
+   ],
+   "URL": "https://doi.org/10.1017/s0266466617000202",
+   "relation": {},
+   "ISSN": [
+    "0266-4666",
+    "1469-4360"
+   ],
+   "issn-type": [
+    {
+     "value": "0266-4666",
+     "type": "print"
+    },
+    {
+     "value": "1469-4360",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2017,
+      6,
+      7
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "Copyright © Cambridge University Press 2017 ",
+     "name": "license",
+     "label": "License",
+     "group": {
+      "name": "copyright_and_licensing",
+      "label": "Copyright and Licensing"
+     }
+    }
+   ]
+  }
+ }
+}

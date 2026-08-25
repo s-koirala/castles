@@ -1,0 +1,359 @@
+{
+ "query_id": "se-crossref-08",
+ "protocol_query_id": "er-crossref-08",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=testing+speculative+bubbles+comparison+alternative+methods+power&rows=20&select=DOI,title,issued,container-title,type,abstract",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "total_hits": 5588350,
+ "retrieved_count": 20,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 5588350,
+   "items": [
+    {
+     "DOI": "10.1093/jjfinec/nbr009",
+     "title": [
+      "Testing for Speculative Bubbles in Stock Markets: A Comparison of Alternative Methods"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011,
+        12,
+        28
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Financial Econometrics"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.15396/eres2015_58",
+     "title": [
+      "Testing for Bubbles in Turkish Housing Markets: A Comparison of Alternative Methods"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015
+       ]
+      ]
+     },
+     "container-title": [
+      "22nd Annual European Real Estate Society Conference"
+     ],
+     "type": "proceedings-article"
+    },
+    {
+     "DOI": "10.4337/9780857936097.00009",
+     "title": [
+      "Testing for speculative bubbles in asset prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "Handbook of Research Methods and Applications in Empirical Finance"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.4337/9780857936080.00009",
+     "title": [
+      "Testing for speculative bubbles in asset prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013,
+        4,
+        30
+       ]
+      ]
+     },
+     "container-title": [
+      "Handbook of Research Methods and Applications in Empirical Finance"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.2139/ssrn.312009",
+     "title": [
+      "Financial Disclosure and Speculative Bubbles: An International Comparison"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2002
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>The paper examines if a country's financial disclosure system affects the likelihood of speculative bubbles.  We compare stock returns of eight countries that differ in the quality of their disclosure systems as ranked by Saudagaran and Biddle (1992).  We examine the hypothesis that stock prices of firms in countries with a low level of financial disclosure are more prone to speculative bubbles.  We employ the duration dependence model developed by McQueen and Thorley (1994) to test for the presence of bubbles.  We found that returns in Japan, a country with a relatively low level of disclosure, shows evidence of a bubble.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.1480350",
+     "title": [
+      "Testing for Periodically Collapsing Rational Speculative Bubbles in US REITs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2010
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>This paper is the first to utilize a direct test for periodic, partially collapsing speculative bubbles in US REIT prices. A long history of data is employed for the All, Mortgage and Equity REIT categories. This approach is more powerful than existing tests and is based on the formulation of a switching model that has a surviving regime where the bubble continues to grow and a collapsing regime where the bubble implodes. There is some evidence for the presence of speculative bubbles, most notably in the Mortgage REITs series. There is also visual evidence of a negative bubble in all three series in the early 1970s and of a positive bubble after 2000 which subsequently burst. We are able to compute the time-varying probabilities of being in the surviving and collapsing regimes, and through this to estimate a probability that the bubble will burst during the following period. We show how this information may be used in developing a signal to inform investors’ decisions on timing an exit from the market, thereby shielding their portfolios from the effects of periodically bursting bubbles or indeed taking advantage of such bubbles.</jats:p>"
+    },
+    {
+     "DOI": "10.1007/978-3-319-69676-8_9",
+     "title": [
+      "Financial Instability and Speculative Bubbles: Behavioural Insights and Policy Implications"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018
+       ]
+      ]
+     },
+     "container-title": [
+      "Alternative Approaches in Macroeconomics"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.5089/9781498332071.001.a001",
+     "title": [
+      "Identifying Speculative Bubbles"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.26509/frbc-wp-198807",
+     "title": [
+      "Testing for Speculative Bubbles in Stock Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1988,
+        8
+       ]
+      ]
+     },
+     "container-title": [
+      "Working paper (Federal Reserve Bank of Cleveland)"
+     ],
+     "type": "report"
+    },
+    {
+     "DOI": "10.5040/9781978731165.ch-3",
+     "title": [
+      "Origin of Speculative Bubbles and Their Aftermath"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018
+       ]
+      ]
+     },
+     "container-title": [
+      "Speculative Bubbles and Monetary Policy"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.2307/2526680",
+     "title": [
+      "On Testing for Self-Fulfilling Speculative Price Bubbles"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1986,
+        10
+       ]
+      ]
+     },
+     "container-title": [
+      "International Economic Review"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.5089/9781451841756.001.a001",
+     "title": [
+      "Property Prices and Speculative Bubbles"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.3403/00049717u",
+     "title": [
+      "Methods for testing pigments for paints"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "standard"
+    },
+    {
+     "DOI": "10.3403/00049717",
+     "title": [
+      "Methods for testing pigments for paints"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "standard"
+    },
+    {
+     "DOI": "10.3386/w2067",
+     "title": [
+      "A Specification Test for Speculative Bubbles"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1986,
+        11
+       ]
+      ]
+     },
+     "type": "report"
+    },
+    {
+     "DOI": "10.1257/jep.4.2.85",
+     "title": [
+      "On Testing for Speculative Bubbles"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1990,
+        5,
+        1
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Economic Perspectives"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p> The possibility that movements in prices could be due to the self-fulfilling prophecies of market participants has long intrigued observers of free markets. This paper surveys the current state of the empirically-oriented literature concerning rational dynamic indeterminacies, by which we mean a situation of self-fulfilling prophecy within a rational expectations model. Empirical work in this area concentrates primarily on indeterminacies in price levels, exchange rates, and equity prices. We first examine a particular type of explosive indeterminacy, usually called a rational bubble, in an example of the market for equities. Then, we consider empirical work relating to price-level and exchange-rate indeterminacies and empirical studies of indeterminacies in stock prices. Finally, we take up some interpretive issues. </jats:p>"
+    },
+    {
+     "DOI": "10.1201/9780203008799-26",
+     "title": [
+      "Alternative Methods for Dermal Toxicity Testing"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2003,
+        3,
+        26
+       ]
+      ]
+     },
+     "container-title": [
+      "Alternative Toxicological Methods"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.1080/03610926.2021.1914097",
+     "title": [
+      "Testing normality in the time series of EMP indices: an application and power-comparison of alternative tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        5,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "Communications in Statistics - Theory and Methods"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.4310/sii.2008.v1.n2.a8",
+     "title": [
+      "Are there speculative bubbles in stock markets? Evidence from an alternative approach."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2008
+       ]
+      ]
+     },
+     "container-title": [
+      "Statistics and Its Interface"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.20955/wp.2009.029",
+     "title": [
+      "Speculative Bubbles and Financial Crisis"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009
+       ]
+      ]
+     },
+     "type": "report"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

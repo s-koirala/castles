@@ -1,0 +1,367 @@
+{
+ "query_id": "se-crossref-12",
+ "protocol_query_id": "er-crossref-12",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=SADF+GSADF+bubble+test+power+comparison&query.container-title=SSRN&rows=20&select=DOI,title,issued,container-title,type,abstract",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "total_hits": 4649,
+ "retrieved_count": 20,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 4649,
+   "items": [
+    {
+     "DOI": "10.2139/ssrn.4202271",
+     "title": [
+      "Combining Machine Learning Models with Gsadf Test for Bitcoin Market Crash Prediction"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3993401",
+     "title": [
+      "Investigation of Dogecoin Price Movements: A GSADF Analysis"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2378505",
+     "title": [
+      "Monitoring Housing Markets for Episodes of Exuberance: An Application of the Phillips Et Al. (2012, 2013) GSADF Test on the Dallas Fed International House Price Database"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.4229588",
+     "title": [
+      "Drag Coefficient of a Rising Bubble in a Shear-Thinning Fluid Using the Power-Law Scheme Coupled with a Cahn-Hilliard Equation with a Variable Mobility: A Lattice Boltzmann Study and Comparison with Experiment"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3983539",
+     "title": [
+      "Cryptocurrency price bubble detection using log-periodic power law model and wavelet analysis"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3413768",
+     "title": [
+      "A Comparison of Five and Four Options in Multiple Choice Test Format for Senior High Schools English Test in Indonesian National Examinations"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.947051",
+     "title": [
+      "The Power of the Test in Three-Level Designs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.4288553",
+     "title": [
+      "‘Is There a Bubble in College Degrees?’ A Note on the ‘Bubble’ in Higher Education"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3317204",
+     "title": [
+      "Are Efficient Bargaining Power Disparities Unfair?: An Experimental Test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.706562",
+     "title": [
+      "A Panel Unit Root Test with Good Power in Small Samples"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.4279484",
+     "title": [
+      "Soccer Bubble: Is There a Speculative Bubble in the Price of International Soccer Players?"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2519503",
+     "title": [
+      "The Panzar-Rosse Revenue Test and Market Power in Banking"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2014
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.4092934",
+     "title": [
+      "Dynamic Behaviour of Suspended Bubble and its Influence on Distribution of Electric Fields in Insulating Oil of On-Load Tap-Changer within Power Transformers"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3716652",
+     "title": [
+      "Sanctuary Cities and the Power of the Purse: An Executive Dole Test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2544392",
+     "title": [
+      "The Comparison of Power and Authority of Women in China and Minangkabau Societies"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2014
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3659891",
+     "title": [
+      "Bubble Sentiment"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2292527",
+     "title": [
+      "Bubble Cycle"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2168983",
+     "title": [
+      "Test Test Test Test Test Test Test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3886134",
+     "title": [
+      "Testing the Validity of Purchasing Power Parity: A Comparison of Sri Lanka and Pakistan"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3015043",
+     "title": [
+      "How Test Power Impacts Research Relevance: The Case of Earnings Management Research"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

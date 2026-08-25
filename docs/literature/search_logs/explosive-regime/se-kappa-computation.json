@@ -1,0 +1,16 @@
+{
+  "n": 1996,
+  "table_2x2": {
+    "both_advance": 233,
+    "R1adv_R2excl": 296,
+    "R1excl_R2adv": 90,
+    "both_exclude": 1377
+  },
+  "raw_agreement_po": 0.806613,
+  "expected_pe": 0.658923,
+  "cohens_kappa": 0.433012,
+  "binarization": "include-or-promote vs exclude (protocol section 4)",
+  "binarized_disagreements": 386,
+  "raw_verdict_differences": 408,
+  "date": "2026-08-24"
+}

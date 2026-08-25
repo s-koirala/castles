@@ -1,0 +1,349 @@
+{
+ "query_id": "se-crossref-10",
+ "protocol_query_id": "er-crossref-10",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=real+time+bubble+monitoring+false+detection+delay+critical+values&rows=20&select=DOI,title,issued,container-title,type,abstract",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "total_hits": 5855009,
+ "retrieved_count": 20,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 5855009,
+   "items": [
+    {
+     "DOI": "10.7717/peerj-cs.3359/fig-7",
+     "title": [
+      "Figure 7: Delay in real-time monitoring of action status."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.2139/ssrn.2827051",
+     "title": [
+      "Bubble Detection and Sector Trading in Real Time"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2016
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>We conduct a pseudo real-time analysis of the existence and severity of speculative bubbles in eleven US sectors over the period 1973-2015. Based on the real-time bubble signals, a trading strategy is constructed which switches funds between the market index and those industry sectors that exhibit bubble dynamics. Our strategy generates highest after-transaction-cost return and Sharpe ratio, and first-order stochastically dominates three other investments (including two alternative active strategies as well as the buy-and-hold investment in the market index). Subsample analysis and specification checks confirm the robustness of the reported findings.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.5000831",
+     "title": [
+      "Riding Price Bubbles in the Chinese Stock Market: A Real-Time Bubble Monitoring Perspective"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2024
+       ]
+      ]
+     },
+     "type": "posted-content"
+    },
+    {
+     "DOI": "10.1021/acs.analchem.5b03634.s001",
+     "title": [
+      "Micro Electrochemical pH Sensor Applicable for Real-Time Ratiometric Monitoring of pH Values in Rat Brains"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.1111/jtsa.12569",
+     "title": [
+      "Asymptotic Behavior of Delay Times of Bubble Monitoring Tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        12
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Time Series Analysis"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p>We investigate the asymptotic properties of the stopping times based on the monitoring tests for a bubble, that is, ADF‐type and CUSUM‐type tests. We derive the stochastic orders of these stopping times and find that they depend on the relative position of the emerging date of a bubble. We show that when a bubble emerges early in the monitoring period, the diverging rate of the stopping time based on the CUSUM‐type detector is slower than that based on the ADF‐type detector, which implies that the former tends to find a bubble earlier than the latter, whereas this advantage disappears for the late emerging bubble. We also derive the limiting distribution of the stopping time based on the CUSUM detector. The finite sample simulations support the theoretical result.</jats:p>"
+    },
+    {
+     "DOI": "10.32014/2026.2518-170x.596",
+     "title": [
+      "REAL-TIME MONITORING AND STATISTICAL ANALYSIS: OPTIMIZING SAND DETECTION IN OIL WELLS"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "database"
+    },
+    {
+     "DOI": "10.1021/acsbiomaterials.2c00494.s001",
+     "title": [
+      "Organ-on-a-Chip Platform with an Integrated Screen-Printed Electrode Array for Real-Time Monitoring Trans-Epithelial Barrier and Bubble Formation"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.1201/9780429351341-7",
+     "title": [
+      "Multi-sensor Real Time Damage Detection Techniques (B): Real Time Structural Damage Detection Using Recursive Canonical Correlation Analysis"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022,
+        6,
+        16
+       ]
+      ]
+     },
+     "container-title": [
+      "Real-Time Structural Health Monitoring of Vibrating Systems"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.1016/j.rti.2003.10.001",
+     "title": [
+      "Time-scale change detection applied to real-time abnormal stationarity monitoring"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "Real-Time Imaging"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1021/acs.analchem.5c03900.s001",
+     "title": [
+      "Dual-Wavelength Surface Plasmon Resonance Microscopy Combined with Laser-Induced Bubble-Cell Perforation: A Novel Single-Cell Manipulation and Real-Time Monitoring Platform"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.1007/springerreference_23001",
+     "title": [
+      "real-time delay"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "SpringerReference"
+     ],
+     "type": "reference-entry"
+    },
+    {
+     "DOI": "10.1109/iwcip.2005.2",
+     "title": [
+      "A Framework for Real-Time Worm Attack Detection and Backbone Monitoring"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "First IEEE International Workshop on Critical Infrastructure Protection (IWCIP'05)"
+     ],
+     "type": "proceedings-article"
+    },
+    {
+     "DOI": "10.1109/elecsym.2015.7380842",
+     "title": [
+      "River water-quality analysis: “critical contaminate detection”, “classification of multiple-water-quality-parameters values” and “real-time notification” by rspa processes"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "2015 International Electronics Symposium (IES)"
+     ],
+     "type": "proceedings-article"
+    },
+    {
+     "DOI": "10.14232/phd.12615",
+     "title": [
+      "Real-time detection of methane emission for monitoring intestinal microcirculatory changes"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "dissertation"
+    },
+    {
+     "DOI": "10.1021/acsomega.0c04636.s002",
+     "title": [
+      "Visual Simultaneous Detection and Real-Time Monitoring of Cadmium Ions Based on Conjugated Polydiacetylenes"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.1021/acsomega.0c04636.s001",
+     "title": [
+      "Visual Simultaneous Detection and Real-Time Monitoring of Cadmium Ions Based on Conjugated Polydiacetylenes"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.64388/irev9i3-1710850-9241",
+     "title": [
+      "An Automated Real Time Oil Leakage Detection without False Alarm"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025,
+        9,
+        25
+       ]
+      ]
+     },
+     "container-title": [
+      "Iconic Research and Engineering Journals"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1007/springerreference_19535",
+     "title": [
+      "near-real-time delay"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "SpringerReference"
+     ],
+     "type": "reference-entry"
+    },
+    {
+     "DOI": "10.4043/32879-ms",
+     "title": [
+      "Real-Time Monitoring and Diagnostics Applied to False Kick Detection"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023,
+        10,
+        17
+       ]
+      ]
+     },
+     "container-title": [
+      "Offshore Technology Conference Brasil"
+     ],
+     "type": "proceedings-article",
+     "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Kicks are one of the main safety concerns in drilling operations, especially offshore, since they could lead to a blowout if not detected as soon it starts. Sometimes kick indicators can be smoothed and it might be difficult to determine if there is a real kick or another physical event taking place within the well. The fluid temperature effect might be misinterpreted as a kick migration, generates a false alarm, and stop operations until there is enough evidence that it is not a kick, due to the severe consequences that it can lead in a real occurrence. These thermal effects can be considered inherent to the operation, given that it is natural to deep wells reach higher temperatures in the subsurface and thus the fluid could experiment an expansion associated with an increase in pressure. The proposed calculation presented in this work acts in a way to reduce the time used to evaluate these specific situations in real-time and allows a safety operation resume. After development tests, the new false-kick module was included in a drilling digital twin software, currently in use by a drilling engineers’ team, on a 24×7 service inside the client Real-Time Operation Center (RTOC). While performing tests at the homologation server/database, the results were in agreement with the expectations, proving that around 40 minutes of rig time could be saved for each false kick detection. These results add value to the operations as it provides more sensitive information to be taken into account while evaluating a kick scenario and shortens the time frame reaction to deal with an inconclusive pressure/flow check. The novelty is the usage of a drilling digital twin to include a false kick analysis, enabling it to detect whether just a thermal effect occurred instead of a real kick. The numerical simulation already runs robust data monitoring, evaluating a big amount of data in real-time, and the new feature helps reducing operation risks to resume operations faster.</jats:p>"
+    },
+    {
+     "DOI": "10.5220/0013320500003899",
+     "title": [
+      "Telosian: Reducing False Positives in Real-Time Cyber Anomaly Detection by Fast Adaptation to Concept Drift"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025
+       ]
+      ]
+     },
+     "container-title": [
+      "Proceedings of the 11th International Conference on Information Systems Security and Privacy"
+     ],
+     "type": "proceedings-article"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

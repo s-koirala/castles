@@ -1,0 +1,186 @@
+{
+ "date": "2026-08-24",
+ "definition": "PRESS known-item recall check (protocol 3.5): a KI not retrieved by at least one topical or forward-citation arm is a per-item recall failure; it still enters the universe via its known-item arm.",
+ "results": [
+  {
+   "ki": "KI-01",
+   "doi": "10.1111/j.1468-2354.2010.00625.x",
+   "identifier_used": "10.1111/j.1468-2354.2010.00625.x",
+   "retrieved_by_topical_or_citation_arms": [
+    "se-openalex-03",
+    "se-s2-02-c"
+   ],
+   "recall_pass": true,
+   "in_universe_via": "topical/citation + known-item arms"
+  },
+  {
+   "ki": "KI-02",
+   "doi": "10.1111/iere.12132",
+   "identifier_used": "10.1111/iere.12132",
+   "retrieved_by_topical_or_citation_arms": [
+    "se-crossref-07",
+    "se-fc-oa-psy",
+    "se-fc-oa-pwy",
+    "se-fc-s2-pwy",
+    "se-openalex-01"
+   ],
+   "recall_pass": true,
+   "in_universe_via": "topical/citation + known-item arms"
+  },
+  {
+   "ki": "KI-03",
+   "doi": "10.1111/iere.12131",
+   "identifier_used": "10.1111/iere.12131",
+   "retrieved_by_topical_or_citation_arms": [
+    "se-crossref-02",
+    "se-fc-oa-psy",
+    "se-fc-oa-pwy",
+    "se-fc-s2-psy",
+    "se-fc-s2-pwy",
+    "se-openalex-03"
+   ],
+   "recall_pass": true,
+   "in_universe_via": "topical/citation + known-item arms"
+  },
+  {
+   "ki": "KI-04",
+   "doi": "10.1093/jjfinec/nbr009",
+   "identifier_used": "10.1093/jjfinec/nbr009",
+   "retrieved_by_topical_or_citation_arms": [
+    "se-crossref-08",
+    "se-fc-oa-pwy",
+    "se-fc-s2-pwy"
+   ],
+   "recall_pass": true,
+   "in_universe_via": "topical/citation + known-item arms"
+  },
+  {
+   "ki": "KI-05",
+   "doi": "10.1016/j.jeconom.2005.08.002",
+   "identifier_used": "10.1016/j.jeconom.2005.08.002",
+   "retrieved_by_topical_or_citation_arms": [],
+   "recall_pass": false,
+   "in_universe_via": "known-item arm only"
+  },
+  {
+   "ki": "KI-06",
+   "doi": "10.1016/j.jempfin.2015.09.002",
+   "identifier_used": "10.1016/j.jempfin.2015.09.002",
+   "retrieved_by_topical_or_citation_arms": [
+    "se-crossref-09",
+    "se-fc-oa-psy",
+    "se-fc-oa-pwy",
+    "se-fc-s2-psy",
+    "se-fc-s2-pwy",
+    "se-s2-02-c"
+   ],
+   "recall_pass": true,
+   "in_universe_via": "topical/citation + known-item arms"
+  },
+  {
+   "ki": "KI-07",
+   "doi": "10.1017/s0266466619000057",
+   "identifier_used": "10.1017/s0266466619000057",
+   "retrieved_by_topical_or_citation_arms": [
+    "se-crossref-09",
+    "se-fc-oa-psy",
+    "se-fc-oa-pwy",
+    "se-fc-s2-psy",
+    "se-fc-s2-pwy",
+    "se-s2-02-c"
+   ],
+   "recall_pass": true,
+   "in_universe_via": "topical/citation + known-item arms"
+  },
+  {
+   "ki": "KI-08",
+   "doi": "10.1111/jtsa.12784",
+   "identifier_used": "10.1111/jtsa.12784",
+   "retrieved_by_topical_or_citation_arms": [
+    "se-fc-oa-psy",
+    "se-fc-oa-pwy",
+    "se-fc-s2-psy",
+    "se-fc-s2-pwy"
+   ],
+   "recall_pass": true,
+   "in_universe_via": "topical/citation + known-item arms"
+  },
+  {
+   "ki": "KI-09",
+   "doi": "10.1111/jtsa.12409",
+   "identifier_used": "10.1111/jtsa.12409",
+   "retrieved_by_topical_or_citation_arms": [
+    "se-fc-oa-psy",
+    "se-fc-oa-pwy",
+    "se-fc-s2-psy",
+    "se-fc-s2-pwy"
+   ],
+   "recall_pass": true,
+   "in_universe_via": "topical/citation + known-item arms"
+  },
+  {
+   "ki": "KI-10",
+   "doi": "10.1093/jjfinec/nbab009",
+   "identifier_used": "10.1093/jjfinec/nbab009",
+   "retrieved_by_topical_or_citation_arms": [
+    "se-crossref-06",
+    "se-fc-oa-psy",
+    "se-fc-oa-pwy",
+    "se-fc-s2-psy",
+    "se-fc-s2-pwy"
+   ],
+   "recall_pass": true,
+   "in_universe_via": "topical/citation + known-item arms"
+  },
+  {
+   "ki": "KI-11",
+   "doi": "10.1017/s0266466617000202",
+   "identifier_used": "10.1017/s0266466617000202",
+   "retrieved_by_topical_or_citation_arms": [
+    "se-fc-oa-psy",
+    "se-fc-oa-pwy",
+    "se-fc-s2-psy",
+    "se-fc-s2-pwy",
+    "se-openalex-03"
+   ],
+   "recall_pass": true,
+   "in_universe_via": "topical/citation + known-item arms"
+  },
+  {
+   "ki": "KI-12",
+   "doi": "10.1016/bs.host.2018.12.002",
+   "identifier_used": "10.1016/bs.host.2018.12.002",
+   "retrieved_by_topical_or_citation_arms": [
+    "se-fc-oa-psy",
+    "se-fc-oa-pwy",
+    "se-fc-s2-psy",
+    "se-fc-s2-pwy"
+   ],
+   "recall_pass": true,
+   "in_universe_via": "topical/citation + known-item arms"
+  },
+  {
+   "ki": "KI-13",
+   "doi": "10.1016/j.jeconom.2003.10.028",
+   "identifier_used": "10.1016/j.jeconom.2003.10.028",
+   "retrieved_by_topical_or_citation_arms": [],
+   "recall_pass": false,
+   "in_universe_via": "known-item arm only"
+  },
+  {
+   "ki": "KI-14",
+   "doi": null,
+   "identifier_used": "openalex:W1562652581",
+   "retrieved_by_topical_or_citation_arms": [],
+   "recall_pass": false,
+   "in_universe_via": "known-item arm only",
+   "note": "Evans 1991 AER 81(4): no DOI (pre-1997 AER back-catalog not DOI-registered, per protocol 3.4). Execution-time resolution via OpenAlex title search (se-ki-14.json) returned W1562652581 (ids: openalex, mag only). No JSTOR stable ID is supplied by any queried API and publisher scraping is out of scope; the JSTOR-identifier gap is carried as the protocol-anticipated section-10 verification-gap row for the review."
+  }
+ ],
+ "failures": [
+  "KI-05",
+  "KI-13",
+  "KI-14"
+ ],
+ "note": "KI-05 (Phillips & Magdalinos 2007), KI-13 (Busetti & Taylor 2004), and KI-14 (Evans 1991) predate both seeds and therefore cannot appear in the forward-citation arms; the topical queries also did not retrieve them within their declared retrieval caps. This is the PRESS known-item recall check firing on the antecedent layer of the corpus (protocol 3.5): a first-class result about topical query quality, to be reported in the review. All three enter the universe via the known-item arm. KI-01 through KI-04 and KI-06 through KI-12 were independently retrieved."
+}

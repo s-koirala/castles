@@ -1,0 +1,1289 @@
+{
+ "query_id": "se-ki-14",
+ "arm": "known-item",
+ "ki": "KI-14",
+ "platform": "openalex",
+ "url": "https://api.openalex.org/works?filter=title.search:%22pitfalls%20in%20testing%20for%20explosive%20bubbles%20in%20asset%20prices%22&per-page=5",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "meta": {
+   "count": 1,
+   "db_response_time_ms": 375,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where title has (stemmed \"pitfalls in testing for explosive bubbles in asset prices\")",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "display_name.search",
+       "value": "\"pitfalls in testing for explosive bubbles in asset prices\"",
+       "operator": "has"
+      }
+     ]
+    },
+    "url": "/works?filter=display_name.search:%22pitfalls in testing for explosive bubbles in asset prices%22&per_page=5"
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W1562652581",
+    "doi": null,
+    "title": "Pitfalls in Testing for Explosive Bubbles in Asset Prices",
+    "display_name": "Pitfalls in Testing for Explosive Bubbles in Asset Prices",
+    "relevance_score": 1426.2324,
+    "publication_year": 1991,
+    "publication_date": "1991-01-01",
+    "ids": {
+     "openalex": "https://openalex.org/W1562652581",
+     "mag": "1562652581"
+    },
+    "language": "en",
+    "primary_location": {
+     "id": "mag:1562652581",
+     "is_oa": false,
+     "landing_page_url": "https://EconPapers.repec.org/RePEc:aea:aecrev:v:81:y:1991:i:4:p:922-30",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S23254222",
+      "display_name": "American Economic Review",
+      "issn_l": "0002-8282",
+      "issn": [
+       "0002-8282",
+       "1944-7981"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315912",
+      "host_organization_name": "American Economic Association",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310315912"
+      ],
+      "host_organization_lineage_names": [
+       "American Economic Association"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "American Economic Review",
+     "raw_type": null
+    },
+    "type": "article",
+    "indexed_in": [],
+    "open_access": {
+     "is_oa": false,
+     "oa_status": "closed",
+     "oa_url": null,
+     "any_repository_has_fulltext": false
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5103122582",
+       "display_name": "George W. Evans",
+       "orcid": "https://orcid.org/0000-0003-4104-167X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "George W. Evans",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+     "https://openalex.org/A5103122582"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 8.2811,
+    "has_fulltext": false,
+    "cited_by_count": 670,
+    "citation_normalized_percentile": {
+     "value": 0.97254397,
+     "is_in_top_1_percent": false,
+     "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+     "min": 94,
+     "max": 100
+    },
+    "biblio": {
+     "volume": "81",
+     "issue": "4",
+     "first_page": "922",
+     "last_page": "930"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+     "id": "https://openalex.org/T10047",
+     "display_name": "Financial Markets and Investment Strategies",
+     "score": 0.9940000176429749,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2003",
+      "display_name": "Finance"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/20",
+      "display_name": "Economics, Econometrics and Finance"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+     }
+    },
+    "topics": [
+     {
+      "id": "https://openalex.org/T10047",
+      "display_name": "Financial Markets and Investment Strategies",
+      "score": 0.9940000176429749,
+      "subfield": {
+       "id": "https://openalex.org/subfields/2003",
+       "display_name": "Finance"
+      },
+      "field": {
+       "id": "https://openalex.org/fields/20",
+       "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+       "id": "https://openalex.org/domains/2",
+       "display_name": "Social Sciences"
+      }
+     },
+     {
+      "id": "https://openalex.org/T10007",
+      "display_name": "Monetary Policy and Economic Impact",
+      "score": 0.9923999905586243,
+      "subfield": {
+       "id": "https://openalex.org/subfields/2000",
+       "display_name": "General Economics, Econometrics and Finance"
+      },
+      "field": {
+       "id": "https://openalex.org/fields/20",
+       "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+       "id": "https://openalex.org/domains/2",
+       "display_name": "Social Sciences"
+      }
+     },
+     {
+      "id": "https://openalex.org/T11059",
+      "display_name": "Market Dynamics and Volatility",
+      "score": 0.9889000058174133,
+      "subfield": {
+       "id": "https://openalex.org/subfields/2002",
+       "display_name": "Economics and Econometrics"
+      },
+      "field": {
+       "id": "https://openalex.org/fields/20",
+       "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+       "id": "https://openalex.org/domains/2",
+       "display_name": "Social Sciences"
+      }
+     }
+    ],
+    "keywords": [
+     {
+      "id": "https://openalex.org/keywords/economics",
+      "display_name": "Economics",
+      "score": 0.8004457950592041
+     },
+     {
+      "id": "https://openalex.org/keywords/dividend",
+      "display_name": "Dividend",
+      "score": 0.6053701043128967
+     },
+     {
+      "id": "https://openalex.org/keywords/grossman",
+      "display_name": "Grossman",
+      "score": 0.5994585752487183
+     },
+     {
+      "id": "https://openalex.org/keywords/rational-expectations",
+      "display_name": "Rational expectations",
+      "score": 0.5913757085800171
+     },
+     {
+      "id": "https://openalex.org/keywords/cointegration",
+      "display_name": "Cointegration",
+      "score": 0.5683180093765259
+     },
+     {
+      "id": "https://openalex.org/keywords/econometrics",
+      "display_name": "Econometrics",
+      "score": 0.5672381520271301
+     },
+     {
+      "id": "https://openalex.org/keywords/unit-root",
+      "display_name": "Unit root",
+      "score": 0.5480929613113403
+     },
+     {
+      "id": "https://openalex.org/keywords/explosive-material",
+      "display_name": "Explosive material",
+      "score": 0.5438599586486816
+     },
+     {
+      "id": "https://openalex.org/keywords/financial-economics",
+      "display_name": "Financial economics",
+      "score": 0.483692467212677
+     },
+     {
+      "id": "https://openalex.org/keywords/stock",
+      "display_name": "Stock (firearms)",
+      "score": 0.48338571190834045
+     },
+     {
+      "id": "https://openalex.org/keywords/mathematical-economics",
+      "display_name": "Mathematical economics",
+      "score": 0.36242297291755676
+     },
+     {
+      "id": "https://openalex.org/keywords/keynesian-economics",
+      "display_name": "Keynesian economics",
+      "score": 0.2949581742286682
+     },
+     {
+      "id": "https://openalex.org/keywords/finance",
+      "display_name": "Finance",
+      "score": 0.09480509161949158
+     }
+    ],
+    "concepts": [
+     {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.8004457950592041
+     },
+     {
+      "id": "https://openalex.org/C116168712",
+      "wikidata": "https://www.wikidata.org/wiki/Q181201",
+      "display_name": "Dividend",
+      "level": 2,
+      "score": 0.6053701043128967
+     },
+     {
+      "id": "https://openalex.org/C2780596892",
+      "wikidata": "https://www.wikidata.org/wiki/Q21493218",
+      "display_name": "Grossman",
+      "level": 2,
+      "score": 0.5994585752487183
+     },
+     {
+      "id": "https://openalex.org/C96016098",
+      "wikidata": "https://www.wikidata.org/wiki/Q853949",
+      "display_name": "Rational expectations",
+      "level": 2,
+      "score": 0.5913757085800171
+     },
+     {
+      "id": "https://openalex.org/C145162277",
+      "wikidata": "https://www.wikidata.org/wiki/Q1751675",
+      "display_name": "Cointegration",
+      "level": 2,
+      "score": 0.5683180093765259
+     },
+     {
+      "id": "https://openalex.org/C149782125",
+      "wikidata": "https://www.wikidata.org/wiki/Q160039",
+      "display_name": "Econometrics",
+      "level": 1,
+      "score": 0.5672381520271301
+     },
+     {
+      "id": "https://openalex.org/C195561663",
+      "wikidata": "https://www.wikidata.org/wiki/Q1307899",
+      "display_name": "Unit root",
+      "level": 2,
+      "score": 0.5480929613113403
+     },
+     {
+      "id": "https://openalex.org/C154238967",
+      "wikidata": "https://www.wikidata.org/wiki/Q12870",
+      "display_name": "Explosive material",
+      "level": 2,
+      "score": 0.5438599586486816
+     },
+     {
+      "id": "https://openalex.org/C106159729",
+      "wikidata": "https://www.wikidata.org/wiki/Q2294553",
+      "display_name": "Financial economics",
+      "level": 1,
+      "score": 0.483692467212677
+     },
+     {
+      "id": "https://openalex.org/C204036174",
+      "wikidata": "https://www.wikidata.org/wiki/Q909380",
+      "display_name": "Stock (firearms)",
+      "level": 2,
+      "score": 0.48338571190834045
+     },
+     {
+      "id": "https://openalex.org/C144237770",
+      "wikidata": "https://www.wikidata.org/wiki/Q747534",
+      "display_name": "Mathematical economics",
+      "level": 1,
+      "score": 0.36242297291755676
+     },
+     {
+      "id": "https://openalex.org/C165556158",
+      "wikidata": "https://www.wikidata.org/wiki/Q83937",
+      "display_name": "Keynesian economics",
+      "level": 1,
+      "score": 0.2949581742286682
+     },
+     {
+      "id": "https://openalex.org/C10138342",
+      "wikidata": "https://www.wikidata.org/wiki/Q43015",
+      "display_name": "Finance",
+      "level": 1,
+      "score": 0.09480509161949158
+     },
+     {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.0
+     },
+     {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.0
+     },
+     {
+      "id": "https://openalex.org/C178790620",
+      "wikidata": "https://www.wikidata.org/wiki/Q11351",
+      "display_name": "Organic chemistry",
+      "level": 1,
+      "score": 0.0
+     },
+     {
+      "id": "https://openalex.org/C78519656",
+      "wikidata": "https://www.wikidata.org/wiki/Q101333",
+      "display_name": "Mechanical engineering",
+      "level": 1,
+      "score": 0.0
+     }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+     {
+      "id": "mag:1562652581",
+      "is_oa": false,
+      "landing_page_url": "https://EconPapers.repec.org/RePEc:aea:aecrev:v:81:y:1991:i:4:p:922-30",
+      "pdf_url": null,
+      "source": {
+       "id": "https://openalex.org/S23254222",
+       "display_name": "American Economic Review",
+       "issn_l": "0002-8282",
+       "issn": [
+        "0002-8282",
+        "1944-7981"
+       ],
+       "is_oa": false,
+       "is_in_doaj": false,
+       "is_core": true,
+       "host_organization": "https://openalex.org/P4310315912",
+       "host_organization_name": "American Economic Association",
+       "host_organization_lineage": [
+        "https://openalex.org/P4310315912"
+       ],
+       "host_organization_lineage_names": [
+        "American Economic Association"
+       ],
+       "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "American Economic Review",
+      "raw_type": null
+     },
+     {
+      "id": "pmh:hdl:10068/502679",
+      "is_oa": false,
+      "landing_page_url": "http://hdl.handle.net/10068/502679",
+      "pdf_url": null,
+      "source": {
+       "id": "https://openalex.org/S4377196900",
+       "display_name": "OpenGrey (Institut de l'Information Scientifique et Technique)",
+       "issn_l": null,
+       "issn": null,
+       "is_oa": false,
+       "is_in_doaj": false,
+       "is_core": false,
+       "host_organization": "https://openalex.org/I1295345811",
+       "host_organization_name": "Institut de l'Information Scientifique et Technique",
+       "host_organization_lineage": [
+        "https://openalex.org/I1295345811"
+       ],
+       "host_organization_lineage_names": [],
+       "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "R - Report"
+     },
+     {
+      "id": "pmh:oai:RePEc:aea:aecrev:v:81:y:1991:i:4:p:922-30",
+      "is_oa": false,
+      "landing_page_url": "http://links.jstor.org/sici?sici=0002-8282%28199109%2981%3A4%3C922%3APITFEB%3E2.0.CO%3B2-S&origin=repec",
+      "pdf_url": null,
+      "source": {
+       "id": "https://openalex.org/S4306401271",
+       "display_name": "RePEc: Research Papers in Economics",
+       "issn_l": null,
+       "issn": null,
+       "is_oa": false,
+       "is_in_doaj": false,
+       "is_core": false,
+       "host_organization": "https://openalex.org/I77793887",
+       "host_organization_name": "Federal Reserve Bank of St. Louis",
+       "host_organization_lineage": [
+        "https://openalex.org/I77793887"
+       ],
+       "host_organization_lineage_names": [],
+       "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "article"
+     }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+     {
+      "display_name": "Partnerships for the goals",
+      "score": 0.4399999976158142,
+      "id": "https://metadata.un.org/sdg/17"
+     }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+     "grobid_xml": false,
+     "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 22,
+    "referenced_works": [
+     "https://openalex.org/W1523205359",
+     "https://openalex.org/W1563732290",
+     "https://openalex.org/W1969758165",
+     "https://openalex.org/W2007636382",
+     "https://openalex.org/W2014077903",
+     "https://openalex.org/W2016363046",
+     "https://openalex.org/W2032269423",
+     "https://openalex.org/W2042202814",
+     "https://openalex.org/W2065273716",
+     "https://openalex.org/W2065443832",
+     "https://openalex.org/W2079200364",
+     "https://openalex.org/W2081310645",
+     "https://openalex.org/W2094926655",
+     "https://openalex.org/W2095364399",
+     "https://openalex.org/W2110603299",
+     "https://openalex.org/W2125322333",
+     "https://openalex.org/W2138609348",
+     "https://openalex.org/W2280331487",
+     "https://openalex.org/W3097267636",
+     "https://openalex.org/W3122264531",
+     "https://openalex.org/W3122475708",
+     "https://openalex.org/W3125017137"
+    ],
+    "related_works": [
+     "https://openalex.org/W3125551856",
+     "https://openalex.org/W3125260748",
+     "https://openalex.org/W3125017137",
+     "https://openalex.org/W3124269969",
+     "https://openalex.org/W3122475708",
+     "https://openalex.org/W3122264531",
+     "https://openalex.org/W2146392543",
+     "https://openalex.org/W2139238934",
+     "https://openalex.org/W2094926655",
+     "https://openalex.org/W2081310645",
+     "https://openalex.org/W2070628756",
+     "https://openalex.org/W2066313498",
+     "https://openalex.org/W2065443832",
+     "https://openalex.org/W2065273716",
+     "https://openalex.org/W2042969518",
+     "https://openalex.org/W2011696830",
+     "https://openalex.org/W2010997253",
+     "https://openalex.org/W2007636382",
+     "https://openalex.org/W1969758165",
+     "https://openalex.org/W1556316478"
+    ],
+    "abstract_inverted_index": {
+     "A": [
+      0,
+      77
+     ],
+     "number": [
+      1
+     ],
+     "of": [
+      2,
+      46,
+      60,
+      101,
+      129,
+      139,
+      224,
+      235,
+      287,
+      302
+     ],
+     "studies": [
+      3
+     ],
+     "(e.g.,": [
+      4,
+      83
+     ],
+     "Robert": [
+      5
+     ],
+     "J.": [
+      6,
+      10
+     ],
+     "Shiller,": [
+      7
+     ],
+     "1981;": [
+      8
+     ],
+     "Olivier": [
+      9
+     ],
+     "Blanchard": [
+      11
+     ],
+     "and": [
+      12,
+      24,
+      74,
+      86,
+      113,
+      119,
+      121,
+      142,
+      188,
+      196,
+      298
+     ],
+     "Mark": [
+      13
+     ],
+     "Watson,": [
+      14
+     ],
+     "1982;": [
+      15
+     ],
+     "Kenneth": [
+      16
+     ],
+     "D.": [
+      17
+     ],
+     "West,": [
+      18
+     ],
+     "1988)": [
+      19
+     ],
+     "have": [
+      20,
+      51,
+      66,
+      124
+     ],
+     "argued": [
+      21
+     ],
+     "that": [
+      22,
+      91,
+      104,
+      152,
+      167,
+      202,
+      208,
+      220,
+      246
+     ],
+     "dividend": [
+      23
+     ],
+     "stock": [
+      25,
+      154,
+      181,
+      209,
+      273,
+      307
+     ],
+     "price": [
+      26
+     ],
+     "data": [
+      27
+     ],
+     "are": [
+      28,
+      39,
+      105,
+      156,
+      170,
+      254,
+      259,
+      271,
+      294
+     ],
+     "not": [
+      29,
+      157,
+      171,
+      212,
+      276
+     ],
+     "consistent": [
+      30
+     ],
+     "with": [
+      31,
+      69,
+      80
+     ],
+     "the": [
+      203
+     ],
+     "market": [
+      102
+     ],
+     "fundamentals": [
+      103
+     ],
+     "hypothesis,": [
+      35
+     ],
+     "in": [
+      36,
+      99,
+      227,
+      261,
+      296,
+      305
+     ],
+     "which": [
+      37
+     ],
+     "prices": [
+      38,
+      141,
+      155,
+      210,
+      274,
+      308
+     ],
+     "given": [
+      40
+     ],
+     "by": [
+      41,
+      107,
+      134,
+      242
+     ],
+     "present": [
+      43
+     ],
+     "discounted": [
+      44
+     ],
+     "values": [
+      45
+     ],
+     "expected": [
+      47
+     ],
+     "dividends.": [
+      48
+     ],
+     "These": [
+      49
+     ],
+     "results": [
+      50
+     ],
+     "often": [
+      52
+     ],
+     "been": [
+      53,
+      67
+     ],
+     "construed": [
+      54
+     ],
+     "as": [
+      55
+     ],
+     "evidence": [
+      56,
+      93
+     ],
+     "for": [
+      57,
+      94,
+      131,
+      149
+     ],
+     "existence": [
+      59
+     ],
+     "bubbles": [
+      61,
+      95,
+      133,
+      169,
+      245,
+      270,
+      293,
+      304
+     ],
+     "or": [
+      62
+     ],
+     "fads.": [
+      63
+     ],
+     "(Related": [
+      64
+     ],
+     "arguments": [
+      65,
+      82
+     ],
+     "made": [
+      68
+     ],
+     "respect": [
+      70
+     ],
+     "to": [
+      71,
+      180,
+      191,
+      230,
+      248,
+      278
+     ],
+     "gold,": [
+      72
+     ],
+     "bonds,": [
+      73
+     ],
+     "foreign": [
+      75
+     ],
+     "exchange).": [
+      76
+     ],
+     "major": [
+      78
+     ],
+     "problem": [
+      79
+     ],
+     "such": [
+      81,
+      269
+     ],
+     "James": [
+      84
+     ],
+     "Hamilton": [
+      85,
+      120
+     ],
+     "Charles": [
+      87
+     ],
+     "Whiteman,": [
+      88
+     ],
+     "1985)": [
+      89
+     ],
+     "is": [
+      90,
+      151,
+      226,
+      240
+     ],
+     "apparent": [
+      92
+     ],
+     "can": [
+      96,
+      164
+     ],
+     "be": [
+      97,
+      165,
+      249,
+      279
+     ],
+     "reinterpreted": [
+      98
+     ],
+     "terms": [
+      100
+     ],
+     "unobserved": [
+      106
+     ],
+     "researcher.": [
+      109
+     ],
+     "Behzad": [
+      110
+     ],
+     "T.": [
+      111
+     ],
+     "Diba": [
+      112,
+      195
+     ],
+     "Herschel": [
+      114
+     ],
+     "I.": [
+      115
+     ],
+     "Grossman": [
+      116,
+      197
+     ],
+     "(1984,": [
+      117
+     ],
+     "1988b)": [
+      118
+     ],
+     "Whiteman": [
+      122
+     ],
+     "(1985)": [
+      123
+     ],
+     "recommended": [
+      125
+     ],
+     "alternative": [
+      127
+     ],
+     "strategy": [
+      128
+     ],
+     "testing": [
+      130
+     ],
+     "rational": [
+      132,
+      168,
+      215,
+      236,
+      244,
+      303
+     ],
+     "investigating": [
+      135
+     ],
+     "stationarity": [
+      137
+     ],
+     "properties": [
+      138
+     ],
+     "asset": [
+      140
+     ],
+     "observable": [
+      143
+     ],
+     "fundamentals.1": [
+      144
+     ],
+     "In": [
+      145
+     ],
+     "essence,": [
+      146
+     ],
+     "argument": [
+      148
+     ],
+     "equities": [
+      150
+     ],
+     "if": [
+      153
+     ],
+     "more": [
+      158,
+      280
+     ],
+     "explosive": [
+      159,
+      178,
+      214,
+      260,
+      281
+     ],
+     "than": [
+      160,
+      282
+     ],
+     "dividends": [
+      161,
+      283
+     ],
+     "then": [
+      162
+     ],
+     "it": [
+      163
+     ],
+     "concluded": [
+      166
+     ],
+     "present,": [
+      172,
+      272
+     ],
+     "since": [
+      173
+     ],
+     "they": [
+      174,
+      258
+     ],
+     "would": [
+      175
+     ],
+     "generate": [
+      176
+     ],
+     "an": [
+      177,
+      232,
+      311
+     ],
+     "component": [
+      179
+     ],
+     "prices.2": [
+      182
+     ],
+     "Using": [
+      183
+     ],
+     "unit-root": [
+      184
+     ],
+     "tests,": [
+      185,
+      289
+     ],
+     "autocorrelation": [
+      186
+     ],
+     "patterns,": [
+      187
+     ],
+     "cointegration": [
+      189
+     ],
+     "tests": [
+      190,
+      225,
+      253
+     ],
+     "implement": [
+      192
+     ],
+     "this": [
+      193
+     ],
+     "procedure,": [
+      194
+     ],
+     "(1988b": [
+      198
+     ],
+     "p.": [
+      199
+     ],
+     "529)": [
+      200
+     ],
+     "state": [
+      201
+     ],
+     "analysis": [
+      204
+     ],
+     "supports": [
+      205
+     ],
+     "conclusion": [
+      207
+     ],
+     "do": [
+      211
+     ],
+     "contain": [
+      213
+     ],
+     "bubbles.": [
+      237
+     ],
+     "This": [
+      217
+     ],
+     "paper": [
+      218
+     ],
+     "shows": [
+      219
+     ],
+     "above": [
+      222
+     ],
+     "battery": [
+      223
+     ],
+     "fact": [
+      228
+     ],
+     "unable": [
+      229
+     ],
+     "detect": [
+      231
+     ],
+     "important": [
+      233
+     ],
+     "class": [
+      234
+     ],
+     "The": [
+      238,
+      300
+     ],
+     "point": [
+      239
+     ],
+     "demonstrated": [
+      241
+     ],
+     "constructing": [
+      243
+     ],
+     "appear": [
+      247,
+      277
+     ],
+     "stationary": [
+      250
+     ],
+     "when": [
+      251,
+      268
+     ],
+     "unitroot": [
+      252
+     ],
+     "applied,": [
+      255
+     ],
+     "even": [
+      256,
+      290
+     ],
+     "though": [
+      257,
+      291
+     ],
+     "relevant": [
+      263
+     ],
+     "sense.": [
+      264
+     ],
+     "Simulations": [
+      265
+     ],
+     "show": [
+      266
+     ],
+     "that,": [
+      267
+     ],
+     "will": [
+      275
+     ],
+     "on": [
+      284
+     ],
+     "basis": [
+      286
+     ],
+     "these": [
+      288
+     ],
+     "substantial": [
+      295
+     ],
+     "magnitude": [
+      297
+     ],
+     "volatility.": [
+      299
+     ],
+     "presence": [
+      301
+     ],
+     "actual": [
+      306
+     ],
+     "thus": [
+      309
+     ],
+     "remains": [
+      310
+     ],
+     "open": [
+      312
+     ],
+     "question.": [
+      313
+     ]
+    },
+    "counts_by_year": [
+     {
+      "year": 2026,
+      "cited_by_count": 1
+     },
+     {
+      "year": 2025,
+      "cited_by_count": 15
+     },
+     {
+      "year": 2024,
+      "cited_by_count": 32
+     },
+     {
+      "year": 2023,
+      "cited_by_count": 22
+     },
+     {
+      "year": 2022,
+      "cited_by_count": 17
+     },
+     {
+      "year": 2021,
+      "cited_by_count": 35
+     },
+     {
+      "year": 2020,
+      "cited_by_count": 25
+     },
+     {
+      "year": 2019,
+      "cited_by_count": 33
+     },
+     {
+      "year": 2018,
+      "cited_by_count": 42
+     },
+     {
+      "year": 2017,
+      "cited_by_count": 38
+     },
+     {
+      "year": 2016,
+      "cited_by_count": 38
+     },
+     {
+      "year": 2015,
+      "cited_by_count": 41
+     },
+     {
+      "year": 2014,
+      "cited_by_count": 46
+     },
+     {
+      "year": 2013,
+      "cited_by_count": 33
+     },
+     {
+      "year": 2012,
+      "cited_by_count": 38
+     }
+    ],
+    "updated_date": "2026-08-12T07:12:00.856984",
+    "created_date": "2025-10-10T00:00:00"
+   }
+  ],
+  "group_by": []
+ }
+}

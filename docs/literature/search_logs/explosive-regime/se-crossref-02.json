@@ -1,0 +1,379 @@
+{
+ "query_id": "se-crossref-02",
+ "protocol_query_id": "er-crossref-02",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=generalized+sup+ADF+GSADF+multiple+bubbles+real+time+detection&rows=20&select=DOI,title,issued,container-title,type,abstract",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "total_hits": 5355774,
+ "retrieved_count": 20,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 5355774,
+   "items": [
+    {
+     "DOI": "10.1016/j.japwor.2018.03.004",
+     "title": [
+      "RETRACTED: Testing for multiple bubbles in bitcoin markets: A generalized sup ADF test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "Japan and the World Economy"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.14780/muiibd.1051781",
+     "title": [
+      "IDENTIFICATION OF MULTIPLE BUBBLES IN TURKISH  FINANCIAL MARKETS: EVIDENCE FROM GSADF APPROACH",
+      "FİNANSAL PİYASALARDA VARLIK BALONU İNCELENMESİ: GSADF  YAKLAŞIMI"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        12,
+        31
+       ]
+      ]
+     },
+     "container-title": [
+      "Marmara Üniversitesi İktisadi ve İdari Bilimler Dergisi"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p xml:lang=\"en\">This study examines the explosive behavior in the five local market prices of stock indices (in USD and TRY), \r\nbond, CDS, gold, and currency exchange rate of USDTRY at weekly observations over the sample period \r\nbetween 2005 and 2021. We find strong evidence of bubble formations in bond, gold, and currency markets \r\nduring the crisis (financial and pandemic, such as ongoing COVID-19 outbreak) and non-crisis periods. \r\nThe findings show both unidirectional and bidirectional causal linkages under the homoscedasticity and \r\nheteroscedasticity assumptions. Additionally, the causation is most pronounced under the homoscedastic \r\nmodel between the currency market with the CDS, gold, and stock markets.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.japwor.2019.100983",
+     "title": [
+      "Retraction notice to “Testing for multiple bubbles in bitcoin markets: A generalized sup ADF test” [Japan World Econ. 46 (2018) 56–63]"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        3
+       ]
+      ]
+     },
+     "container-title": [
+      "Japan and the World Economy"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1080/00036846.2015.1064080",
+     "title": [
+      "Are there bubbles in Chinese RMB–dollar exchange rate? Evidence from generalized sup ADF tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015,
+        7,
+        7
+       ]
+      ]
+     },
+     "container-title": [
+      "Applied Economics"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.18506/anemon.506466",
+     "title": [
+      "Bitcoin Piyasasında Balonlar: Genelleştirilmiş Eküs ADF Testi",
+      "Bubbles in Bitcoin Markets: Gezeralized Sup ADF Test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019,
+        12,
+        13
+       ]
+      ]
+     },
+     "container-title": [
+      "Anemon Muş Alparslan Üniversitesi Sosyal Bilimler Dergisi"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p xml:lang=\"tr\">İnternet\nkullanımındaki hızlı gelişmeler ile birlikte, insan hayatına fiziksel olarak\ndahil olan para da dijitalleşmeye başlamıştır. Bu tür dijitalleşmiş para\nbirimlerine genel olarak kripto para denilmektedir. Hali hazırda, Bitcoin,\nkripto para birimleri arasında en yüksek işlem hacmine sahiptir. İlk Bitcoin\n2009 yılında piyasaya sürüldü. Fakat son birkaç yılda ciddi derecede ilgi\nçekmeye başladı. Bu ilginin temel nedenlerinden birisi, Bitcoin'in değerinde\nönemli artışların olmasıdır. Söz konusu değer artışları bağlamında, Bitcoin\npiyasasında spekülatif balonların varlığının araştırılması önem arz etmektedir.\nBu bağlamda, çalışmanın amacı 2015-2018 dönemi boyunca Bitcoin piyasasında\nspekülatif balonların varlığını araştırmaktır. Amaç doğrultusunda, spekülatif\nbalonların tespiti için Phillips vd. (2015) tarafından geliştirilen\nGenelleştirilmiş Eküs ADF testi kullanılmıştır. Elde edilen bulgular, Bitcoin\npiyasasında çok sayıda baloncuk olduğunu göstermektedir. </jats:p>"
+    },
+    {
+     "DOI": "10.37642/jkremr.2022.26.16",
+     "title": [
+      "A Study on the Housing Price Bubbles in Cities Based on GSADF Test and Probit Model"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022,
+        12,
+        31
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of the Korea Real Estate Management Review"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.4613849",
+     "title": [
+      "Detecting Speculative Bubbles in the Chinese Energy Market：Evidence from a Gsadf Test Approach"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023
+       ]
+      ]
+     },
+     "type": "posted-content"
+    },
+    {
+     "DOI": "10.2139/ssrn.4584044",
+     "title": [
+      "Detecting Speculative Bubbles in the Chinese Energy Market：Evidence from a Gsadf Test Approach"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023
+       ]
+      ]
+     },
+     "type": "posted-content"
+    },
+    {
+     "DOI": "10.1007/s11554-025-01809-5",
+     "title": [
+      "ADF-YOLO: lightweight adaptive network for high-speed pharmaceutical blister pack detection"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025,
+        12,
+        5
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Real-Time Image Processing"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1057/s41260-026-00466-y",
+     "title": [
+      "Forecasting bubbles in the rare whiskies market from the Generalized Supremum ADF test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        6,
+        29
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Asset Management"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.22313/reik.2021.19.1.39",
+     "title": [
+      "Detecting multiple bubbles in the Seoul housing market based on GSADF test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        3,
+        31
+       ]
+      ]
+     },
+     "container-title": [
+      "Residential Environment Institute Of Korea"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.5371629",
+     "title": [
+      "Detecting Price Bubbles in China's Photovoltaic Industry: Evidence from the Gsadf Approach"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025
+       ]
+      ]
+     },
+     "type": "posted-content"
+    },
+    {
+     "DOI": "10.2139/ssrn.4429762",
+     "title": [
+      "Detecting Speculative Bubbles in the Chinese Energy Market: Evidence from a GSADF Test Approach"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>China is a major energy-consuming country, and changes in energy prices are of great importance to its economic performance and the lives of its residents. This study uses GSADF and SADF to verify the asset bubbles of crude oil (SC), power coal (ZC), and LPG and uses BSADF statistics to identify the exact generation and bursting times of these energy futures. The results show that between June 22, 2020, and September 26, 2022, three bubbles occurred in the SC and LPG markets, while four occurred in power coal. As an international commodity open to the outside world, SC bubbles are mainly driven by global crude oil supply and demand changes and geopolitics. The power coal bubble momentum mainly comes from domestic industry regulation, power coal import and export policies and market supply and demand changes, etc. The LPG bubble, on the other hand, is driven by factors that include the influence of the above two futures.</jats:p>"
+    },
+    {
+     "DOI": "10.53277/2519-2442-2021.2-01",
+     "title": [
+      "ANALYZING MULTIPLE BUBBLES IN THE USDKZT EXCHANGE RATE USING THE GSADF TEST"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        7,
+        15
+       ]
+      ]
+     },
+     "container-title": [
+      "Eurasian Research Journal"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p>Since most of the financial crisis caused by the bursting bubble of financial assets, the investigation of bubble behaviors and the early detection for the prevention of adverse economic consequences is important. This paper investigates whether multiple price bubbles exist in USDKZT exchange rate on the basis of a recursive right tailed Generalized Supremum Augmented Dickey Fuller Test (GSADF) developed by Phillips, Shi and Yu (2015), as well as to determine date stamps of the price bubbles. In this regard, we performed GSADF test by using weekly closing prices of the nominal exchange rate for the period between 23.08.2015 to 04.04.2021. In line with the empirical findings obtained, two explosive bubbles are detected in 2018 and 2020 when USDKZT exchange rate deviates from fundamental value. Our ﬁndings suggest that due to the possibility of bubble repetition, GSADF has been verified to be a better test for detecting bubbles.</jats:p>"
+    },
+    {
+     "DOI": "10.1007/s10644-018-9230-0",
+     "title": [
+      "Identification of multiple stock bubbles in an emerging market: application of GSADF approach"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        5,
+        28
+       ]
+      ]
+     },
+     "container-title": [
+      "Economic Change and Restructuring"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1016/j.bir.2026.100873",
+     "title": [
+      "Detection and forecasting of financial bubbles in BRICS-T countries: An analysis based on GSADF, panel logit, and TVP-VAR"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        7
+       ]
+      ]
+     },
+     "container-title": [
+      "Borsa Istanbul Review"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.5388797",
+     "title": [
+      "Did Bubbles Exist in China's Rapidly Developing Photovoltaic Industry? Evidence from the Gsadf Approach"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025
+       ]
+      ]
+     },
+     "type": "posted-content"
+    },
+    {
+     "DOI": "10.2139/ssrn.2327633",
+     "title": [
+      "Testing for Multiple Bubbles: Limit Theory of Real Time Detectors"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1504/ajfa.2015.072592",
+     "title": [
+      "Speculative bubbles and the real estate market application of the sequential ADF test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015
+       ]
+      ]
+     },
+     "container-title": [
+      "American J. of Finance and Accounting"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.29228/ijbemp.90553",
+     "title": [
+      "TÜRKİYE'DE SEÇİLMİŞ İL VE İLÇELERDE KONUT FİYAT BALONU ANALİZİ: GSADF VE ADF TESTLERİNDEN KANITLAR"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "container-title": [
+      "International Journal of Business Economics and Management Perspectives"
+     ],
+     "type": "journal-article"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

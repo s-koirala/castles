@@ -1,0 +1,446 @@
+{
+ "query_id": "se-ki-13",
+ "arm": "known-item",
+ "ki": "KI-13",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1016/j.jeconom.2003.10.028",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      7,
+      6
+     ]
+    ],
+    "date-time": "2026-07-06T16:54:30Z",
+    "timestamp": 1783356870341,
+    "version": "3.54.6"
+   },
+   "reference-count": 25,
+   "publisher": "Elsevier BV",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2004,
+        11,
+        1
+       ]
+      ],
+      "date-time": "2004-11-01T00:00:00Z",
+      "timestamp": 1099267200000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Journal of Econometrics"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2004,
+      11
+     ]
+    ]
+   },
+   "DOI": "10.1016/j.jeconom.2003.10.028",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2004,
+      1,
+      13
+     ]
+    ],
+    "date-time": "2004-01-13T10:24:13Z",
+    "timestamp": 1073989453000
+   },
+   "page": "33-66",
+   "source": "Crossref",
+   "is-referenced-by-count": 140,
+   "title": [
+    "Tests of stationarity against a change in persistence"
+   ],
+   "prefix": "10.1016",
+   "volume": "123",
+   "author": [
+    {
+     "given": "Fabio",
+     "family": "Busetti",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "A.M.Robert",
+     "family": "Taylor",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB1",
+     "doi-asserted-by": "crossref",
+     "first-page": "821",
+     "DOI": "10.2307/2951764",
+     "article-title": "Tests for parameter instability and structural change with unknown change point",
+     "volume": "61",
+     "author": "Andrews",
+     "year": "1993",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB2",
+     "doi-asserted-by": "crossref",
+     "first-page": "1383",
+     "DOI": "10.2307/2951753",
+     "article-title": "Optimal tests when a nuisance parameter is present only under the alternative",
+     "volume": "62",
+     "author": "Andrews",
+     "year": "1994",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB3",
+     "doi-asserted-by": "crossref",
+     "first-page": "271",
+     "DOI": "10.2307/1391542",
+     "article-title": "Recursive and sequential tests of the unit root and trend break hypotheses",
+     "volume": "10",
+     "author": "Banerjee",
+     "year": "1992",
+     "journal-title": "Journal of Business and Economics Statistics"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB4",
+     "doi-asserted-by": "crossref",
+     "first-page": "551",
+     "DOI": "10.1162/003465397557132",
+     "article-title": "Estimation of a change point in multiple regression models",
+     "volume": "79",
+     "author": "Bai",
+     "year": "1997",
+     "journal-title": "Review of Economics and Statistics"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB5",
+     "doi-asserted-by": "crossref",
+     "first-page": "127",
+     "DOI": "10.1111/1467-9892.00216",
+     "article-title": "Testing for the presence of a random walk in series with structural breaks",
+     "volume": "22",
+     "author": "Busetti",
+     "year": "2001",
+     "journal-title": "Journal of Time Series Analysis"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB6",
+     "doi-asserted-by": "crossref",
+     "first-page": "137",
+     "DOI": "10.1111/1467-9892.00297",
+     "article-title": "Further comments on stationarity tests in series with structural breaks at unknown points",
+     "volume": "29",
+     "author": "Busetti",
+     "year": "2003",
+     "journal-title": "Journal of Time Series Analysis"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB7",
+     "unstructured": "Busetti, F., Taylor, A.M.R., 2001. Tests of stationarity against a change in persistence, University of Birmingham, Department of Economics, Discussion Paper 01-13."
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB8",
+     "doi-asserted-by": "crossref",
+     "first-page": "367",
+     "DOI": "10.1214/aos/1176350711",
+     "article-title": "Limiting distributions of least squares estimates of unstable autoregressive processes",
+     "volume": "16",
+     "author": "Chan",
+     "year": "1988",
+     "journal-title": "Annals of Statistics"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB9",
+     "series-title": "Object-oriented matrix programming using Ox 2.0",
+     "author": "Doornik",
+     "year": "1998"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB10",
+     "doi-asserted-by": "crossref",
+     "first-page": "672",
+     "DOI": "10.1017/S0266466600008720",
+     "article-title": "Inference in time series regression when the order of integration of a regressor is unknown",
+     "volume": "10",
+     "author": "Elliott",
+     "year": "1994",
+     "journal-title": "Econometric Theory"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB11",
+     "unstructured": "Hansen, B.E., 1991. Testing for structural change of unknown form in models with nonstationary regressors, Department of Economics, University of Rochester, Mimeo."
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB12",
+     "doi-asserted-by": "crossref",
+     "first-page": "60",
+     "DOI": "10.2307/1392074",
+     "article-title": "Approximate asymptotic p-values for structural-change tests",
+     "volume": "15",
+     "author": "Hansen",
+     "year": "1997",
+     "journal-title": "Journal of Business and Economic Statistics"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB13",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1002/1099-131X(200101)20:1<1::AID-FOR764>3.0.CO;2-3",
+     "article-title": "Testing in unobserved components models",
+     "volume": "20",
+     "author": "Harvey",
+     "year": "2001",
+     "journal-title": "Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB14",
+     "doi-asserted-by": "crossref",
+     "first-page": "97",
+     "DOI": "10.1016/S0304-4076(99)00031-7",
+     "article-title": "Detection of change in persistence of a linear times series",
+     "volume": "95",
+     "author": "Kim",
+     "year": "2000",
+     "journal-title": "Journal of Econometrics"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB15",
+     "doi-asserted-by": "crossref",
+     "first-page": "389",
+     "DOI": "10.1016/S0304-4076(02)00087-8",
+     "article-title": "Corrigendum to “Detection of change in persistence of a linear times series”",
+     "volume": "109",
+     "author": "Kim",
+     "year": "2002",
+     "journal-title": "Journal of Econometrics"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB16",
+     "doi-asserted-by": "crossref",
+     "first-page": "98",
+     "DOI": "10.1111/j.2517-6161.1985.tb01335.x",
+     "article-title": "Locally best invariant tests of the error covariance matrix of the linear regression model",
+     "volume": "47",
+     "author": "King",
+     "year": "1985",
+     "journal-title": "Journal of the Royal Statistical Society, (Series B)"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB17",
+     "doi-asserted-by": "crossref",
+     "first-page": "63",
+     "DOI": "10.1016/S0304-4076(01)00106-3",
+     "article-title": "Testing for stationarity with a break",
+     "volume": "108",
+     "author": "Kurozumi",
+     "year": "2002",
+     "journal-title": "Journal of Econometrics"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB18",
+     "doi-asserted-by": "crossref",
+     "first-page": "159",
+     "DOI": "10.1016/0304-4076(92)90104-Y",
+     "article-title": "Testing the null hypothesis of stationarity against the alternative of a unit root",
+     "volume": "54",
+     "author": "Kwiatkowski",
+     "year": "1992",
+     "journal-title": "Journal of Econometrics"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB19",
+     "unstructured": "Leybourne, S.J., Kim, T.-H., Smith, V., Newbold, P., 2000. Tests for a change in persistence against the null of difference-stationarity, Department of Economics, University of Nottingham, UK, Mimeo."
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB20",
+     "doi-asserted-by": "crossref",
+     "first-page": "422",
+     "DOI": "10.1214/aos/1176344133",
+     "article-title": "Properties of sequences of partial sums of polynomial regression residuals with applications to tests for change of regression at unknown times",
+     "volume": "6",
+     "author": "MacNeill",
+     "year": "1978",
+     "journal-title": "Annals of Statistics"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB21",
+     "doi-asserted-by": "crossref",
+     "first-page": "223",
+     "DOI": "10.2307/2289867",
+     "article-title": "Testing for the constancy of parameters over time",
+     "volume": "84",
+     "author": "Nyblom",
+     "year": "1989",
+     "journal-title": "Journal of the American Statistical Association"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB22",
+     "doi-asserted-by": "crossref",
+     "first-page": "856",
+     "DOI": "10.2307/2288196",
+     "article-title": "Comparisons of tests for the presence of random walk coefficients in a simple linear model",
+     "volume": "78",
+     "author": "Nyblom",
+     "year": "1983",
+     "journal-title": "Journal of the American Statistical Association"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB23",
+     "doi-asserted-by": "crossref",
+     "first-page": "335",
+     "DOI": "10.1093/biomet/75.2.335",
+     "article-title": "Testing for a unit root in time series regression",
+     "volume": "75",
+     "author": "Phillips",
+     "year": "1988",
+     "journal-title": "Biometrika"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB24",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Stock, J.H., 1994. Unit roots, structural breaks and trends. In: Engle, R.F., McFadden, D.L. (Eds.), Handbook of Econometrics, Vol. 4, Elsevier, Amsterdam, pp. 2739–2840.",
+     "DOI": "10.1016/S1573-4412(05)80015-7"
+    },
+    {
+     "key": "10.1016/j.jeconom.2003.10.028_BIB25",
+     "doi-asserted-by": "crossref",
+     "first-page": "251",
+     "DOI": "10.2307/1391541",
+     "article-title": "Further evidence on the great crash, the oil-price shock, and the unit-root hypothesis",
+     "volume": "10",
+     "author": "Zivot",
+     "year": "1992",
+     "journal-title": "Journal of Business and Economic Statistics"
+    }
+   ],
+   "container-title": [
+    "Journal of Econometrics"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0304407603002823?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0304407603002823?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      12,
+      14
+     ]
+    ],
+    "date-time": "2024-12-14T22:03:32Z",
+    "timestamp": 1734213812000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0304407603002823"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2004,
+      11
+     ]
+    ]
+   },
+   "references-count": 25,
+   "journal-issue": {
+    "issue": "1",
+    "published-print": {
+     "date-parts": [
+      [
+       2004,
+       11
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "S0304407603002823"
+   ],
+   "URL": "https://doi.org/10.1016/j.jeconom.2003.10.028",
+   "relation": {},
+   "ISSN": [
+    "0304-4076"
+   ],
+   "issn-type": [
+    {
+     "value": "0304-4076",
+     "type": "print"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2004,
+      11
+     ]
+    ]
+   }
+  }
+ }
+}

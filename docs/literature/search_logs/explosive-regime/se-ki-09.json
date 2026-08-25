@@ -1,0 +1,387 @@
+{
+ "query_id": "se-ki-09",
+ "arm": "known-item",
+ "ki": "KI-09",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1111/jtsa.12409",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      7,
+      13
+     ]
+    ],
+    "date-time": "2026-07-13T21:25:51Z",
+    "timestamp": 1783977951373,
+    "version": "3.55.0"
+   },
+   "reference-count": 14,
+   "publisher": "Wiley",
+   "issue": "6",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2018,
+        7,
+        19
+       ]
+      ],
+      "date-time": "2018-07-19T00:00:00Z",
+      "timestamp": 1531958400000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Journal Time Series Analysis"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2018,
+      11
+     ]
+    ]
+   },
+   "abstract": "<jats:p>We propose new methods for the real‐time detection of explosive bubbles in financial time series. Most extant methods are constructed for a fixed sample of data and, as such, are appropriate only when applied as one‐shot tests. Sequential application of these tests, declaring the presence of a bubble as soon as one of these statistics exceeds the one‐shot critical value, would yield a detection procedure with an unknown false‐positive rate likely to be far in excess of the nominal level. Our approach sequentially applies the one‐shot tests of Astill <jats:italic>et al.</jats:italic> (<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#jtsa12409-bib-0003\"/>), comparing sub‐sample statistics calculated in real time during the monitoring period with the corresponding sub‐sample statistics obtained from a prior training period. We propose two procedures: one based on comparing the real‐time monitoring period statistics with the maximum statistic over the training period, and another that compares the number of consecutive exceedances of a threshold value in the monitoring and training periods, the threshold value obtained from the training period. Both allow the practitioner to determine the false‐positive rate for any given monitoring horizon, or to ensure that this rate does not exceed a specified level by setting a maximum monitoring horizon. Monte Carlo simulations suggest that the finite‐sample false‐positive rates lie close to their theoretical counterparts, even in the presence of time‐varying volatility and serial correlation in the shocks. The procedures are shown to perform well in the presence of a bubble in the monitoring period, offering the possibility of rapid detection of an emerging bubble in a real‐time setting. An empirical application to monthly stock market index data is considered.</jats:p>",
+   "DOI": "10.1111/jtsa.12409",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2018,
+      7,
+      20
+     ]
+    ],
+    "date-time": "2018-07-20T02:56:59Z",
+    "timestamp": 1532055419000
+   },
+   "page": "863-891",
+   "update-policy": "https://doi.org/10.1002/crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 27,
+   "title": [
+    "Real‐Time Monitoring for Explosive Financial Bubbles"
+   ],
+   "prefix": "10.1111",
+   "volume": "39",
+   "author": [
+    {
+     "given": "Sam",
+     "family": "Astill",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Essex Business School University of Essex  Colchester UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "David I.",
+     "family": "Harvey",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Granger Centre for Time Series Econometrics, School of Economics University of Nottingham  Nottingham UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Stephen J.",
+     "family": "Leybourne",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Granger Centre for Time Series Econometrics, School of Economics University of Nottingham  Nottingham UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Robert",
+     "family": "Sollis",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Newcastle University Business School  Newcastle upon Tyne UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "A. M.",
+     "family": "Robert Taylor",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Essex Business School University of Essex  Colchester UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2018,
+      7,
+      19
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_8_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/1468-0262.00466"
+    },
+    {
+     "key": "e_1_2_8_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1198/073500106000000297"
+    },
+    {
+     "key": "e_1_2_8_4_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/07474938.2017.1307490"
+    },
+    {
+     "key": "e_1_2_8_5_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1467-9892.2007.00557.x"
+    },
+    {
+     "key": "e_1_2_8_6_1",
+     "first-page": "520",
+     "article-title": "Explosive rational bubbles in stock prices?",
+     "volume": "78",
+     "author": "Diba BT",
+     "year": "1988",
+     "journal-title": "American Economic Review"
+    },
+    {
+     "key": "e_1_2_8_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1912773"
+    },
+    {
+     "key": "e_1_2_8_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jempfin.2016.11.001"
+    },
+    {
+     "key": "e_1_2_8_9_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jempfin.2015.09.002"
+    },
+    {
+     "key": "e_1_2_8_10_1",
+     "unstructured": "HarveyDI LeybourneSJ SollisR TaylorAMR.2018.Detecting regimes of predictability in the U.S. equity premium.Nottingham UK: University of Nottingham.:University of Nottingham. Discussion Paper."
+    },
+    {
+     "key": "e_1_2_8_11_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jjfinec/nbr009"
+    },
+    {
+     "key": "e_1_2_8_12_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0165-1765(80)90024-5"
+    },
+    {
+     "key": "e_1_2_8_13_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1468-2354.2010.00625.x"
+    },
+    {
+     "key": "e_1_2_8_14_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/iere.12132"
+    },
+    {
+     "key": "e_1_2_8_15_1",
+     "volume-title": "Empirical Processes with Applications to Statistics",
+     "author": "Shorack GR",
+     "year": "2014"
+    }
+   ],
+   "container-title": [
+    "Journal of Time Series Analysis"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fjtsa.12409",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jtsa.12409",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      9,
+      11
+     ]
+    ],
+    "date-time": "2023-09-11T20:43:44Z",
+    "timestamp": 1694465024000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1111/jtsa.12409"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2018,
+      7,
+      19
+     ]
+    ]
+   },
+   "references-count": 14,
+   "journal-issue": {
+    "issue": "6",
+    "published-print": {
+     "date-parts": [
+      [
+       2018,
+       11
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1111/jtsa.12409"
+   ],
+   "URL": "https://doi.org/10.1111/jtsa.12409",
+   "archive": [
+    "Portico"
+   ],
+   "relation": {},
+   "ISSN": [
+    "0143-9782",
+    "1467-9892"
+   ],
+   "issn-type": [
+    {
+     "value": "0143-9782",
+     "type": "print"
+    },
+    {
+     "value": "1467-9892",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2018,
+      7,
+      19
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "2018-04-03",
+     "order": 0,
+     "name": "received",
+     "label": "Received",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "2018-05-30",
+     "order": 1,
+     "name": "accepted",
+     "label": "Accepted",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "2018-07-19",
+     "order": 2,
+     "name": "published",
+     "label": "Published",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,819 @@
+{
+ "query_id": "se-ki-01",
+ "arm": "known-item",
+ "ki": "KI-01",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1111/j.1468-2354.2010.00625.x",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      23
+     ]
+    ],
+    "date-time": "2026-08-23T18:27:27Z",
+    "timestamp": 1787509647803,
+    "version": "build-2736575974"
+   },
+   "reference-count": 61,
+   "publisher": "Wiley",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2015,
+        9,
+        1
+       ]
+      ],
+      "date-time": "2015-09-01T00:00:00Z",
+      "timestamp": 1441065600000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 1673,
+     "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [],
+   "published-print": {
+    "date-parts": [
+     [
+      2011,
+      2
+     ]
+    ]
+   },
+   "DOI": "10.1111/j.1468-2354.2010.00625.x",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2011,
+      2,
+      26
+     ]
+    ],
+    "date-time": "2011-02-26T09:02:13Z",
+    "timestamp": 1298710933000
+   },
+   "page": "201-226",
+   "source": "Crossref",
+   "is-referenced-by-count": 895,
+   "title": [
+    "EXPLOSIVE BEHAVIOR IN THE 1990s NASDAQ: WHEN DID EXUBERANCE ESCALATE ASSET VALUES?*"
+   ],
+   "prefix": "10.1111",
+   "volume": "52",
+   "author": [
+    {
+     "given": "Peter C. B.",
+     "family": "Phillips",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Yangru",
+     "family": "Wu",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jun",
+     "family": "Yu",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2011,
+      2,
+      24
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB1|cit1",
+     "doi-asserted-by": "crossref",
+     "first-page": "139",
+     "DOI": "10.2307/2951781",
+     "article-title": "Exactly Median-Unbiased Estimation of First Order Autoregressive/Unit Root Models",
+     "volume": "61",
+     "author": "Andrews",
+     "year": "1993",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB63|cit2",
+     "doi-asserted-by": "crossref",
+     "first-page": "271",
+     "DOI": "10.2307/1391542",
+     "article-title": "Recursive and Sequential Tests of the Unit-Root and Trend-Break Hypotheses: Theory and International Evidence",
+     "volume": "10",
+     "author": "Banerjee",
+     "year": "1992",
+     "journal-title": "Journal of Business and Economic Statistics"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB3|cit3",
+     "doi-asserted-by": "crossref",
+     "first-page": "387",
+     "DOI": "10.1016/0165-1765(79)90017-X",
+     "article-title": "Speculative Bubbles, Crashes and Rational Expectations",
+     "volume": "3",
+     "author": "Blanchard",
+     "year": "1979",
+     "journal-title": "Economics Letters"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB4|cit4",
+     "first-page": "295",
+     "volume-title": "Crisis in the Economic and Financial Structure",
+     "author": "Blanchard",
+     "year": "1982"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB5|cit5",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/978-3-0348-7652-0",
+     "volume-title": "Handbook of Brownian Motion-Facts and Formulae",
+     "author": "Borodin",
+     "year": "1996"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB6|cit6",
+     "doi-asserted-by": "crossref",
+     "first-page": "2013",
+     "DOI": "10.1111/j.1540-6261.2004.00690.x",
+     "article-title": "Hedge Funds and the Technology Bubble",
+     "volume": "59",
+     "author": "Brunnermeier",
+     "year": "2004",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB8|cit7",
+     "first-page": "141",
+     "volume-title": "National Bureau of Economic Research Macroeconomics Annual",
+     "author": "Campbell",
+     "year": "1991"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB9|cit8",
+     "doi-asserted-by": "crossref",
+     "first-page": "1062",
+     "DOI": "10.1086/261502",
+     "article-title": "Cointegration and Tests of Present Value Models",
+     "volume": "95",
+     "author": "Campbell",
+     "year": "1987",
+     "journal-title": "Journal of Political Economy"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB10|cit9",
+     "doi-asserted-by": "crossref",
+     "first-page": "195",
+     "DOI": "10.1093/rfs/1.3.195",
+     "article-title": "The Dividend-Price Ratio and Expectations of Future Dividends and Discount Factors",
+     "volume": "1",
+     "author": "Campbell",
+     "year": "1989",
+     "journal-title": "Review of Financial Studies"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB7|cit10",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1515/9781400830213",
+     "volume-title": "The Econometrics of Financial Markets",
+     "author": "Campbell",
+     "year": "1997"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB11|cit11",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Caner , M. and K. Knight No Country for Old Unit Root Tests: Bridge Estimators Differentiate between Nonstationary versus Stationary Models and Select Optiomal Lag 2008",
+     "DOI": "10.2139/ssrn.1314945"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB12|cit12",
+     "doi-asserted-by": "crossref",
+     "first-page": "2371",
+     "DOI": "10.1111/0022-1082.00408",
+     "article-title": "A rose.com by any Other Name",
+     "volume": "56",
+     "author": "Cooper",
+     "year": "2001",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB13|cit13",
+     "doi-asserted-by": "crossref",
+     "first-page": "2633",
+     "DOI": "10.1016/j.jbankfin.2004.10.003",
+     "article-title": "A Test for Rational Bubbles in the NASDAQ Stock Index: A Fractionally Integrated Approach",
+     "volume": "29",
+     "author": "Cunado",
+     "year": "2005",
+     "journal-title": "Journal of Banking and Finance"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB14|cit14",
+     "doi-asserted-by": "crossref",
+     "first-page": "697",
+     "DOI": "10.2307/1884225",
+     "article-title": "On the Inception of Rational Bubbles",
+     "volume": "87",
+     "author": "Diba",
+     "year": "1987",
+     "journal-title": "Quarterly Journal of Economics"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB15|cit15",
+     "first-page": "520",
+     "article-title": "Explosive Rational Bubbles in Stock Prices",
+     "volume": "78",
+     "author": "Diba",
+     "year": "1988",
+     "journal-title": "American Economic Review"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB16|cit16",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1137/1.9781611970319",
+     "volume-title": "The Jackknife, the Bootstrap and Other Resampling Method",
+     "author": "Efron",
+     "year": "1982"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB17|cit17",
+     "doi-asserted-by": "crossref",
+     "first-page": "297",
+     "DOI": "10.1016/0304-3932(89)90053-6",
+     "article-title": "The Fragility of Sunspots and Bubbles",
+     "volume": "23",
+     "author": "Evans",
+     "year": "1989",
+     "journal-title": "Journal of Monetary Economics"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB18|cit18",
+     "first-page": "922",
+     "article-title": "Pitfalls in Testing for Explosive Bubbles in Asset Prices",
+     "volume": "81",
+     "author": "Evans",
+     "year": "1991",
+     "journal-title": "American Economic Review"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB19|cit19",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.2307/2526979",
+     "article-title": "On the Robustness of Bubbles in Linear RE Models",
+     "volume": "33",
+     "author": "Evans",
+     "year": "1992",
+     "journal-title": "International Economic Review"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB20|cit20",
+     "doi-asserted-by": "crossref",
+     "first-page": "745",
+     "DOI": "10.1086/260900",
+     "article-title": "Market Fundamentals versus Price-Level Bubbles: The First Tests",
+     "volume": "88",
+     "author": "Flood",
+     "year": "1980",
+     "journal-title": "Journal of Political Economy"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB21|cit21",
+     "doi-asserted-by": "crossref",
+     "first-page": "831",
+     "DOI": "10.2307/2328231",
+     "article-title": "Asset Price Volatility, Bubbles, and Process Switching",
+     "volume": "41",
+     "author": "Flood",
+     "year": "1986",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB22|cit22",
+     "doi-asserted-by": "crossref",
+     "first-page": "85",
+     "DOI": "10.1257/jep.4.2.85",
+     "article-title": "On Testing for Speculative Bubbles",
+     "volume": "4",
+     "author": "Flood",
+     "year": "1990",
+     "journal-title": "Journal of Economic Perspective"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB23|cit23",
+     "first-page": "1189",
+     "article-title": "Intrinsic Bubbles: The Case of Stock Prices",
+     "volume": "81",
+     "author": "Froot",
+     "year": "1991",
+     "journal-title": "American Economic Review"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB24|cit24",
+     "volume-title": "Introduction to Statistical Time Series",
+     "author": "Fuller",
+     "year": "1996"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB25|cit25",
+     "doi-asserted-by": "crossref",
+     "first-page": "S85",
+     "DOI": "10.1002/jae.3950080507",
+     "article-title": "Indirect Inference",
+     "volume": "8",
+     "author": "Gouriéroux",
+     "year": "1993",
+     "journal-title": "Journal of Applied Econometrics"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB27|cit26",
+     "doi-asserted-by": "crossref",
+     "first-page": "68",
+     "DOI": "10.1016/j.jeconom.2009.10.024",
+     "article-title": "Indirect Inference for Dynamic Panel Models",
+     "volume": "157",
+     "author": "Gouriéroux",
+     "year": "2010",
+     "journal-title": "Journal of Econometrics"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB26|cit27",
+     "doi-asserted-by": "crossref",
+     "first-page": "328",
+     "DOI": "10.1017/CBO9780511751981.018",
+     "volume-title": "Simulation-Based Inference in Econometrics: Methods and Applications",
+     "author": "Gouriéroux",
+     "year": "2000"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB28|cit28",
+     "unstructured": "Greenspan , A. Minutes of the Federal Open Market Committee http://www.federal.reserve.gov/transcript/1996/19960924meeting.pdf 1996"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB29|cit29",
+     "volume-title": "Finance and Economics Discussion Series",
+     "author": "Gurkaynak",
+     "year": "2005"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB30|cit30",
+     "doi-asserted-by": "crossref",
+     "first-page": "143",
+     "DOI": "10.1002/(SICI)1099-1255(199903/04)14:2<143::AID-JAE500>3.0.CO;2-X",
+     "article-title": "Detecting Periodically Collapsing Bubbles: A Markov-Switching Unit Root Test",
+     "volume": "14",
+     "author": "Hall",
+     "year": "1999",
+     "journal-title": "Journal of Applied Econometrics"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB31|cit31",
+     "doi-asserted-by": "crossref",
+     "first-page": "403",
+     "DOI": "10.1093/biomet/41.3-4.403",
+     "article-title": "Notes on Bias in the Estimation of Autocorrelation",
+     "volume": "41",
+     "author": "Kendall",
+     "year": "1954",
+     "journal-title": "Biometrika"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB32|cit32",
+     "doi-asserted-by": "crossref",
+     "first-page": "1356",
+     "DOI": "10.1214/aos/1015957397",
+     "article-title": "Asymptotics for Lasso-type Estimators",
+     "volume": "28",
+     "author": "Knight",
+     "year": "2000",
+     "journal-title": "Annals of Statistics"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB33|cit33",
+     "article-title": "Bubbles Old and New: Economists Wrestle with a Theoretical Impossibility",
+     "author": "Krueger",
+     "year": "2005",
+     "journal-title": "New York Times"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB34|cit34",
+     "doi-asserted-by": "crossref",
+     "first-page": "227",
+     "DOI": "10.1086/367683",
+     "article-title": "Can the Market Add and Subtract? Mispricing in Tech Stock Carve-Outs",
+     "volume": "111",
+     "author": "Lamont",
+     "year": "2003",
+     "journal-title": "Journal of Political Economy"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB35|cit35",
+     "doi-asserted-by": "crossref",
+     "first-page": "1653",
+     "DOI": "10.1093/rfs/hhm020",
+     "article-title": "The Declining Equity Premium: What Role Does Macroeconomic Risk Play",
+     "volume": "21",
+     "author": "Lettau",
+     "year": "2008",
+     "journal-title": "Review of Financial Studies"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB36|cit36",
+     "doi-asserted-by": "crossref",
+     "first-page": "205",
+     "DOI": "10.1016/S0304-4076(97)00099-7",
+     "article-title": "Approximate Bias Correction in Econometrics",
+     "volume": "85",
+     "author": "MacKinnon",
+     "year": "1998",
+     "journal-title": "Journal of Econometrics"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB37|cit37",
+     "doi-asserted-by": "crossref",
+     "first-page": "268",
+     "DOI": "10.2307/2291151",
+     "article-title": "Unit Root Tests in ARMA Models with Data-Dependent Methods for the Selection of the Truncation Lag",
+     "volume": "90",
+     "author": "Ng",
+     "year": "1995",
+     "journal-title": "Journal of the American Statistical Association"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB38|cit38",
+     "doi-asserted-by": "crossref",
+     "first-page": "1113",
+     "DOI": "10.1111/1540-6261.00560",
+     "article-title": "DotCom Mania: The Rise and Fall of Internet Stock Prices",
+     "volume": "58",
+     "author": "Ofek",
+     "year": "2003",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB39|cit39",
+     "doi-asserted-by": "crossref",
+     "first-page": "133",
+     "DOI": "10.1111/1468-2354.00058",
+     "article-title": "Growth Enhancing Bubbles",
+     "volume": "41",
+     "author": "Olivier",
+     "year": "2000",
+     "journal-title": "International Economic Review"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB40|cit40",
+     "doi-asserted-by": "crossref",
+     "first-page": "61",
+     "DOI": "10.1016/j.jfineco.2005.05.009",
+     "article-title": "Was There a Nasdaq Bubble in the Late 1990s",
+     "volume": "81",
+     "author": "Pástor",
+     "year": "2006",
+     "journal-title": "Journal of Financial Economics"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB41|cit41",
+     "doi-asserted-by": "crossref",
+     "first-page": "1451",
+     "DOI": "10.1257/aer.99.4.1451",
+     "article-title": "Technological Revolutions and Stock Prices",
+     "volume": "99",
+     "author": "Pástor",
+     "year": "2009",
+     "journal-title": "American Economic Review"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB42|cit42",
+     "doi-asserted-by": "crossref",
+     "first-page": "277",
+     "DOI": "10.2307/1913237",
+     "article-title": "Time Series Regression with a Unit Root",
+     "volume": "55",
+     "author": "Phillips",
+     "year": "1987",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB44|cit43",
+     "doi-asserted-by": "crossref",
+     "first-page": "115",
+     "DOI": "10.1016/j.jeconom.2005.08.002",
+     "article-title": "Limit Theory for Moderate Deviations from Unity",
+     "volume": "136",
+     "author": "Phillips",
+     "year": "2007a",
+     "journal-title": "Journal of Econometrics"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB45|cit44",
+     "doi-asserted-by": "crossref",
+     "first-page": "123",
+     "DOI": "10.1017/CBO9780511493157.008",
+     "volume-title": "The Refinement of Econometric Estimation and Test Procedures: Finite Sample and Asymptotic Analysis",
+     "author": "Phillips",
+     "year": "2007b"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB43|cit45",
+     "doi-asserted-by": "crossref",
+     "first-page": "335",
+     "DOI": "10.1093/biomet/75.2.335",
+     "article-title": "Limit Theory for Moderate Deviations from Unity Under Weak Dependence",
+     "volume": "75",
+     "author": "Phillips",
+     "year": "1988",
+     "journal-title": "Biometrika"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB46|cit46",
+     "unstructured": "Phillips , P. C. B. and T. Magdalinos Limit Theory for Moderate Deviations from Unity Under Weak Dependence D. A. P. Garry and J. Yu 2009"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB47|cit47",
+     "doi-asserted-by": "crossref",
+     "first-page": "353",
+     "DOI": "10.1093/biomet/43.3-4.353",
+     "article-title": "Notes on Bias in Estimation",
+     "volume": "43",
+     "author": "Quenouille",
+     "year": "1956",
+     "journal-title": "Biometrika"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB48|cit48",
+     "doi-asserted-by": "crossref",
+     "first-page": "1795",
+     "DOI": "10.1111/1540-6261.00478",
+     "article-title": "A Review of IPO Activity, Pricing, and Allocations",
+     "volume": "57",
+     "author": "Ritter",
+     "year": "2002",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB50|cit49",
+     "doi-asserted-by": "crossref",
+     "first-page": "196",
+     "DOI": "10.2307/2686886",
+     "article-title": "The Longest Run of Heads",
+     "volume": "21",
+     "author": "Schilling",
+     "year": "1990",
+     "journal-title": "College Mathematics Journal"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB49|cit50",
+     "doi-asserted-by": "crossref",
+     "first-page": "62",
+     "DOI": "10.2469/faj.v56.n3.2361",
+     "article-title": "Rational Pricing of Internet Companies",
+     "volume": "56",
+     "author": "Schwartz",
+     "year": "2000",
+     "journal-title": "Financial Analyst Journal"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB52|cit51",
+     "first-page": "421",
+     "article-title": "Do Stock Prices Move Too Much to Be Justified by Subsequent Changes in Dividends",
+     "volume": "71",
+     "author": "Shiller",
+     "year": "1981",
+     "journal-title": "American Economic Review"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB53|cit52",
+     "doi-asserted-by": "crossref",
+     "first-page": "457",
+     "DOI": "10.2307/2534436",
+     "article-title": "Stock Prices and Social Dynamics",
+     "volume": "2",
+     "author": "Shiller",
+     "year": "1984",
+     "journal-title": "Brookings Papers on Economic Activity"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB54|cit53",
+     "volume-title": "Irrational Exuberance",
+     "author": "Shiller",
+     "year": "2000"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB51|cit54",
+     "doi-asserted-by": "crossref",
+     "first-page": "S63",
+     "DOI": "10.1002/jae.3950080506",
+     "article-title": "Estimating Nonlinear Time-Series Models Using Simulated Vector Autoregressions",
+     "volume": "8",
+     "author": "Smith",
+     "year": "1993",
+     "journal-title": "Journal of Applied Econometrics"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB55|cit55",
+     "doi-asserted-by": "crossref",
+     "first-page": "12",
+     "DOI": "10.2469/faj.v55.n6.2310",
+     "article-title": "The End of Behavioral Finance",
+     "volume": "55",
+     "author": "Thaler",
+     "year": "1999",
+     "journal-title": "Financial Analysts Journal"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB56|cit56",
+     "volume-title": "Bubble.com",
+     "author": "The Economist",
+     "year": "2000"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB57|cit57",
+     "doi-asserted-by": "crossref",
+     "first-page": "1163",
+     "DOI": "10.2307/1911868",
+     "article-title": "On the Possibility of Speculation under Rational Expectations",
+     "volume": "50",
+     "author": "Tirole",
+     "year": "1982",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB58|cit58",
+     "doi-asserted-by": "crossref",
+     "first-page": "1499",
+     "DOI": "10.2307/1913232",
+     "article-title": "Asset Bubbles and Overlapping Generations",
+     "volume": "53",
+     "author": "Tirole",
+     "year": "1985",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB59|cit59",
+     "doi-asserted-by": "crossref",
+     "first-page": "553",
+     "DOI": "10.2307/1884217",
+     "article-title": "A Specification Test for Speculative Bubbles",
+     "volume": "102",
+     "author": "West",
+     "year": "1987",
+     "journal-title": "Quarterly Journal of Economics"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB60|cit60",
+     "doi-asserted-by": "crossref",
+     "first-page": "639",
+     "DOI": "10.2307/2328188",
+     "article-title": "Bubbles, Fads, and Stock Price Volatility Tests: A Partial Evaluation",
+     "volume": "43",
+     "author": "West",
+     "year": "1988",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1111/j.1468-2354.2010.00625.x-BIB61|cit61",
+     "doi-asserted-by": "crossref",
+     "first-page": "309",
+     "DOI": "10.1111/j.1465-7295.1997.tb01912.x",
+     "article-title": "Rational Bubbles in the Stock Market: Accounting for the U.S. Stock-Price Volatility",
+     "volume": "35",
+     "author": "Wu",
+     "year": "1997",
+     "journal-title": "Economic Inquiry"
+    }
+   ],
+   "container-title": [
+    "International Economic Review"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1468-2354.2010.00625.x",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1468-2354.2010.00625.x/fullpdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2021,
+      7,
+      5
+     ]
+    ],
+    "date-time": "2021-07-05T22:33:12Z",
+    "timestamp": 1625524392000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1468-2354.2010.00625.x"
+    }
+   },
+   "subtitle": [
+    "explosive behavior in the 1990s nasdaq"
+   ],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2011,
+      2
+     ]
+    ]
+   },
+   "references-count": 61,
+   "journal-issue": {
+    "issue": "1",
+    "published-print": {
+     "date-parts": [
+      [
+       2011,
+       2
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1111/j.1468-2354.2010.00625.x",
+   "relation": {},
+   "ISSN": [
+    "0020-6598"
+   ],
+   "issn-type": [
+    {
+     "value": "0020-6598",
+     "type": "print"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2011,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

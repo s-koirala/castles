@@ -1,0 +1,371 @@
+{
+ "query_id": "se-crossref-07",
+ "protocol_query_id": "er-crossref-07",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=date+stamping+origination+termination+bubble+episodes+exuberance&rows=20&select=DOI,title,issued,container-title,type,abstract",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "total_hits": 194084,
+ "retrieved_count": 20,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 194084,
+   "items": [
+    {
+     "DOI": "10.3934/fmf.2026005",
+     "title": [
+      "Is there an AI bubble? Robust date-stamping for periods of exuberance"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "container-title": [
+      "Frontiers of Mathematical Finance"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1108/ijoem-12-2025-2934",
+     "title": [
+      "Tracing exuberance: multi-model evidence of bubble episodes in the Bucharest stock market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        5,
+        18
+       ]
+      ]
+     },
+     "container-title": [
+      "International Journal of Emerging Markets"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:sec>\n                    <jats:title>Purpose</jats:title>\n                    <jats:p>This study develops a unified empirical framework to identify, characterize, and validate speculative (exuberant) episodes in the Romanian equity market, contributing to the growing literature on bubble dynamics in emerging markets. It aims to provide a comprehensive assessment of whether speculative behavior is persistent or episodic and to evaluate its implications for financial stability.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Design/methodology/approach</jats:title>\n                    <jats:p>Using ten years of daily data for the six major Bucharest Stock Exchange indices, the study combines recursive right-tailed ADF tests, the nonlinear log-periodic power law singularity (LPPLS) model and a Markov-switching autoregressive specification. This multi-model approach enables the detection, timing and validation of exuberant episodes from complementary econometric perspectives.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Findings</jats:title>\n                    <jats:p>The results reveal recurrent but non-persistent bubbles, with three major waves (2017–2018, 2019–2020 and 2023–2024) associated with global liquidity conditions, pandemic-related uncertainty and post-crisis recovery. Broad and total-return indices exhibit stronger and more persistent signals, while sectoral indices show shorter episodes. Speculative phases are episodic, synchronized in 2023–2024 and rapidly self-correcting, indicating systemic but contained dynamics without prolonged instability.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Originality/value</jats:title>\n                    <jats:p>First, we depart from prior research by redirecting analytical attention from individual firms to the broader market, providing a genuinely aggregate perspective on speculative dynamics. Second, we offer the first systematic examination of bubble behavior across all major Romanian equity indices, allowing for a macro-level assessment of the structure, timing and persistence of exuberant episodes. Third, our contribution is reinforced by an exclusive and rigorous focus on bubble identification and verification, employing a comprehensive set of econometric procedures designed to enhance methodological reliability and cross-study comparability. Finally, our manuscript contributes to the literature by extending the scope of comparative bubble diagnostics beyond the standard pairing of an ADF-type measure and the LPPLS framework.</jats:p>\n                  </jats:sec>"
+    },
+    {
+     "DOI": "10.1016/j.jempfin.2020.06.004",
+     "title": [
+      "Date-stamping multiple bubble regimes"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Empirical Finance"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1093/oed/4564517919",
+     "title": [
+      "date-stamping, n."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023,
+        3,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "Oxford English Dictionary"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.2139/ssrn.4038320",
+     "title": [
+      "Bubbles All the Way Down? Detecting and Date-Stamping Bubble Behaviour in DeFi and NFT Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>Amid surging market values and widespread regulatory discussion, NFT and DeFi markets are widely perceived as being simply speculative, bubble, assets. This paper detects the existence and dates of price bubbles in the NFT and DeFi market by applying SADF and GSADF tests. We document that NFT and DeFi markets both exhibit speculative bubbles, and NFT bubbles are more recurrent and have higher magnitudes than DeFi bubbles. The price bubbles in the NFT and DeFi markets are highly correlated with market hype and with more general cryptocurrency market uncertainty. We do find periods where bubbles are not detected, suggesting that these markets do have some intrinsic value and should not be dismissed as simply bubbles.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.4045855",
+     "title": [
+      "Bubbles All the Way Down? Detecting and Date-Stamping Bubble Behaviour in Defi and Nft Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1515/9780773581791-015",
+     "title": [
+      "Irrational Exuberance and the Bubble Economy"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009,
+        11,
+        30
+       ]
+      ]
+     },
+     "container-title": [
+      "Staying Connected"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.20944/preprints202608.0396.v1",
+     "title": [
+      "Ball Lightning as a Thin-Walled Bubble of Molten Soil Components: Origination"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        8,
+        6
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>The work proposes a model of ball lightning (BL). Ball lightning is considered as a thin-walled bubble of foamed molten glass filled with hot gas. The BL shell material is formed from molten soil components because of an electrical discharge in the soil caused by cloud-to-ground lightning strike. The bubble is inflated by gases released from the discharge channel. The shell thickness can range from tens to hundreds of micrometers, and the BL mass reaches several tens of grams for medium-sized BL (20–40 cm). The pressure of the hot gas filling the BL differs only slightly from the atmospheric pressure, which ensures the integrity of the BL shell. Ball lightning may not have internal energy sources, acquiring energy at birth. The initial temperature of long-lived ball lightning is about 2500 K, this value decreases due to the cooling of the BL. Ball lightning may or may not have an electric charge, this is not a decisive factor for its existence.</jats:p>"
+    },
+    {
+     "DOI": "10.1097/mlr.0000000000000416",
+     "title": [
+      "Irrational Exuberance in Testosterone Prescribing"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "Medical Care"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1016/j.jfs.2024.101300",
+     "title": [
+      "Price exuberance episodes in private real estate"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2024,
+        10
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Financial Stability"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2327609",
+     "title": [
+      "Testing for Multiple Bubbles: Historical Episodes of Exuberance and Collapse in the S&amp;P 500"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>Recent work on econometric detection mechanisms has shown the effectiveness of recursive procedures in identifying and dating financial bubbles. These procedures are useful as warning alerts in surveillance strategies conducted by central banks and fiscal regulators with real time data. Use of these methods over long historical periods presents a more serious econometric challenge due to the complexity of the nonlinear structure and break mechanisms that are inherent in multiple bubble phenomena within the same sample period. To meet this challenge the present paper develops a new recursive flexible window method that is better suited for practical implementation with long historical time series. The method is a generalized version of the sup ADF test of Phillips, Wu and Yu (2011, PWY) and delivers a consistent date-stamping strategy for the origination and termination of multiple bubbles. Simulations show that the test significantly improves discriminatory power and leads to distinct power gains when multiple bubbles occur. An empirical application of the methodology is conducted on S&amp;P 500 stock market data over a long historical period from January 1871 to December 2010. The new approach successfully identifies the well-known historical episodes of exuberance and collapse over this period, whereas the strategy of PWY and a related CUSUM dating procedure locate far fewer episodes in the same sample range.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.3943370",
+     "title": [
+      "Date stamping on the explosiveness of public debt: Evidence from the USA"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>This paper examines the existence of explosive behaviors of public debt in the USA. Using the Supremum Augmented Dickey-Fuller (SADF) and the Generalized SADF tests on data ranging from 1966 to 2018, we show that there is evidence of the beginning and end of several public debt explosiveness in the US. We observe that each explosiveness originates when the Backward Supremum Augmented Dickey-Fuller (BSADF) statistic exceeds its corresponding 95% critical value and ends when its BSADF falls below that critical value. Further analysis shows that the explosive behaviors are dynamically positively correlated with trade openness and unemployment. The detected explosive debt suggests that fiscal sustainability is challenged and sound fiscal policies are absent. In order to keep on financing the costs of new debt issuance, government revenue sides are discussed.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.4408621",
+     "title": [
+      "Detecting and Date-Stamping Bubbles in Fan Tokens"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023
+       ]
+      ]
+     },
+     "type": "posted-content"
+    },
+    {
+     "DOI": "10.3390/jrfm14090412",
+     "title": [
+      "Testing Housing Markets for Episodes of Exuberance: Evidence from Different Polish Cities"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        9,
+        1
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Risk and Financial Management"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p>In the study we use the right-tail unit root test to analyse the presence of mild explosive dynamics (exuberance) in housing prices of the 17 largest Polish cities in the period 2006–2021 (for quarterly data). In terms of real prices from the secondary market, we were able to demonstrate the existence of episodes of mild explosive dynamics for 13 of the 17 cities studied. When we changed the context of the study and performed the same tests for the price-to-income ratio, we found that episodes of price exuberance could be indicated only in the case of two cities. The overall conclusion is that rising average incomes tend to mitigate the explosive dynamics and change the context in which the whole issue of housing bubbles is viewed. The answer to the question of whether there is indeed already a situation of price bubbles in local housing markets in Poland is of course crucial for those interested in buying or selling a housing unit (i.e., the participants of this market), but it must also remain important for the monetary authorities implementing monetary and macroprudential policies in Poland.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.972730",
+     "title": [
+      "Explosive Behavior and the Nasdaq Bubble in the 1990s: When Did Irrational Exuberance Escalate Asset Values?"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>A recursive test procedure is suggested that provides a mechanism for testing explosive behavior, date-stamping the origination and collapse of economic bubbles, and providing valid confidence intervals for the bubble growth rate. The method involves the recursive implementation of a right-side unit root test and a sup test, both of which are easy to use in practical applications, and some new limit theory for mildly explosive processes. The test procedure is shown to have discriminatory power in detecting periodically collapsing bubbles, overcoming a weakness in earlier applications of unit root tests for economic bubbles. Some asymptotic properties of the Evans (1991) model of periodically collapsing bubbles are analyzed andthe paper develops a new model in which bubble duration depends on the strength of the cognitive bias underlying herd behavior in the market. An empirical application to Nasdaq stock price index in the 1990s provides confirmation of the existence of a financial bubble and date-stamps the origination of the bubble to June 1995, prior to the famous remark in December 1996 by Alan Greenspan about irrational exuberance in financial market, thereby giving the remark firm empirical content.</jats:p>"
+    },
+    {
+     "DOI": "10.1658/1100-9233(2006)17[549:veatto]2.0.co;2",
+     "title": [
+      "Vegetation, environment, and time: The origination and termination of ecosystems"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Vegetation Science"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.1535678",
+     "title": [
+      "Optimal Termination, Credit Restriction, and the Dot-Com Bubble"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2010
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>Financial intermediation plays an important role in generating fluctuations. In this paper, we study the role of firms' credit histories in a business cycle model. The model can be used to explain the boom-and-bust of the dot-com bubble in the late 1990s. In our model, loans are dynamic contracts between intermediaries and firms, and credit restrictions are used as an incentive device. Financial intermediaries terminate a firm's credit in some states in order to affect the firm's choice of projects ex ante. This will generate fluctuations not only from shocks to mean output, but also from shocks to the variance of output from different types of projects as, we argue, occurred at the beginning of the dot-com bubble.</jats:p>"
+    },
+    {
+     "DOI": "10.5018/economics-ejournal.ja.2018-18",
+     "title": [
+      "Date-stamping US housing market explosivity"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        3,
+        29
+       ]
+      ]
+     },
+     "container-title": [
+      "Economics"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>In this paper the authors set out to date-stamp periods of US housing price explosivity for the period 1830–2013. They make use of several robust techniques that allow them to identify such periods by determining when prices start to exhibit explosivity with respect to its past behaviour and when it recedes to long term stable prices. The first technique used is the Generalized supADF (GSADF) test procedure developed by Phillips et al. (<jats:italic>Testing for multiple bubbles: Historical episodes of exuberance and collapse in the S&amp;P 500</jats:italic>, 2011a), which allows the recursive identification of multiple periods of price explosivity. The second approach makes use of Robinson’s test statistic (<jats:italic>Efficient tests of nonstationary hypotheses</jats:italic>, 1994), comparing the null of a unit root process against the alternative of specified orders of fractional integration. The analysis date-stamps several periods of US house price explosivity, allowing the authors to contextualize its historic relevance.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.frl.2022.103366",
+     "title": [
+      "Can the global financial cycle explain the episodes of exuberance in international housing markets?"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023,
+        3
+       ]
+      ]
+     },
+     "container-title": [
+      "Finance Research Letters"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1037/scp0000040.supp",
+     "title": [
+      "Supplemental Material for A Self-Study of Mood Disorder: Fifteen Episodes of Exuberance, None of Depression"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2014
+       ]
+      ]
+     },
+     "container-title": [
+      "Spirituality in Clinical Practice"
+     ],
+     "type": "journal-article"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

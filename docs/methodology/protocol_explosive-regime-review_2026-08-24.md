@@ -765,3 +765,56 @@ in place.
 ## Addendum (append-only; empty at freeze)
 
 <!-- amendment entries: ### A{n} — {ISO date} — {stage} — {PRISMA-P item(s)} -->
+
+### A1 — 2026-08-24 — pre-execution — PRISMA-P items 4, 11a
+
+Log-file naming deviation, directed by the dispatching session before any
+query executed: raw query logs are written under the frozen directory
+`docs/literature/search_logs/explosive-regime/` with filename prefix `se-`
+instead of the `er-*` prefix stated in the frontmatter `planned_outputs`.
+Every log records the protocol's query identifier verbatim in a
+`protocol_query_id` field (`se-crossref-01.json` ↔ `er-crossref-01`, etc.),
+so the §3.2–3.4 query-id ↔ log mapping is 1:1 and auditable. Query URLs,
+arms, caps, and directory are unchanged. Additionally noted (not a
+supersession): the deduplicated pre-screening candidate universe is
+delivered as `docs/literature/references_explosive-regime-dating.json`, an
+execution-stage artifact the protocol does not name;
+`docs/literature/references_explosive-regime.json` remains reserved for the
+post-screening included corpus per §4.1. No retrieved record had been seen
+when this deviation was decided.
+
+### A2 — 2026-08-24 — search execution, before any screening — PRISMA-P items 9, 10
+
+`er-s2-01` and `er-s2-02` (Semantic Scholar Graph API `/paper/search`)
+returned HTTP 429 on first attempt and again on the single verbatim `-b`
+re-run that §3.1 specifies (logs `se-s2-01.json`, `se-s2-01-b.json`,
+`se-s2-02.json`, `se-s2-02-b.json`, all with zero records). The §3.1
+remedy was therefore exhausted while the platform's shared unauthenticated
+pool was still rate-limiting; the `/paper/citations` endpoint recovered
+minutes later (er-fc-s2 arms executed successfully at 200), showing the
+outage was pool-specific and transient. Deviation: a second verbatim
+re-run per query under a `-c` suffix, with retry-until-200 backoff, was
+executed the same day and succeeded (`se-s2-01-c.json`: 200, total 19,
+retrieved 19; `se-s2-02-c.json`: 200, total 21, retrieved 21). Query URLs
+byte-identical to §3.2; only the retry count deviates. No screening
+decision predated this amendment; the affected records were first seen at
+the successful `-c` execution.
+
+### A3 — 2026-08-24 — stage-2 access-asymmetry resolution rule (pre-adjudication)
+
+§4.2's stage-2 rule ("full text unobtainable → X6") did not anticipate
+DIFFERENTIAL obtainability: one screener securing full text while the other
+exhausts the retrieval chain. An X6 is an access outcome, not an eligibility
+judgment, so treating X6-vs-substantive pairs as criteria disagreements would
+send access noise to adjudication and discard completed full-text
+assessments. Rule, fixed before any such pair was resolved: **where exactly
+one screener reached full-text depth, that screener's substantive verdict
+stands** (the record is flagged `single-screener-fulltext` in the flow and
+the review's limitations); X6-vs-X6 remains X6; substantive-vs-substantive
+conflicts (INCLUDE vs EXCLUDE) go to blind adjudication per §4.2;
+EXCLUDE-vs-EXCLUDE code mismatches are terminal-agreement with the code
+conflict logged (adjudicator not invoked; both readings exclude). Counts at
+amendment time, from se-stage2-crosstable.json: 21 INCLUDE-vs-X6, 132
+EXCLUDE-vs-X6, 16 INCLUDE-vs-EXCLUDE, 20 code-mismatch pairs. This
+amendment weakens dual assessment for exactly the 153 asymmetric records and
+is declared in the review's PRISMA conformance map.

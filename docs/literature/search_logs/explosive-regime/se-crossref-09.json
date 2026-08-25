@@ -1,0 +1,384 @@
+{
+ "query_id": "se-crossref-09",
+ "protocol_query_id": "er-crossref-09",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=explosive+bubbles+non-stationary+volatility+wild+bootstrap+unit+root&rows=20&select=DOI,title,issued,container-title,type,abstract",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "total_hits": 2536552,
+ "retrieved_count": 20,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 2536552,
+   "items": [
+    {
+     "DOI": "10.1111/ectj.12100",
+     "title": [
+      "Adaptive Wild Bootstrap Tests for a Unit Root With Non‐Stationary Volatility"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        1,
+        16
+       ]
+      ]
+     },
+     "container-title": [
+      "The Econometrics Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3755872",
+     "title": [
+      "Time-Transformed Test for the Explosive Bubbles under Non-stationary Volatility"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>This paper is devoted to testing for the explosive bubble under time-varying non-stationary volatility. Because the limiting distribution of  the seminal Phillips et al. (2011) test depends on the variance function and usually requires a bootstrap implementation under heteroskedasticity, we construct the test based on a deformation of the time domain. The proposed test is asymptotically pivotal under the null hypothesis and its limiting distribution coincides with that of the standard test under homoskedasticity, so that the test does not require computationally extensive methods for inference. Appealing finite sample properties are demonstrated through Monte-Carlo simulations. An empirical application demonstrates that the upsurge behavior of cryptocurrency time series in the middle of the sample is partially explained by the volatility change.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.econlet.2021.109941",
+     "title": [
+      "Recursive adjusted unit root tests under non-stationary volatility"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        8
+       ]
+      ]
+     },
+     "container-title": [
+      "Economics Letters"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.1927627",
+     "title": [
+      "Bubbles or Volatility: A Markov-Switching Unit Root Test with Regime-Varying Error Variance"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>We demonstrate that the constant variance assumption in the Markov-switching Augmented Dickey-Fuller (ADF) test proposed by Hall, Psaradakis and Sola (1999) may result in the misjudgement of bubbles. Upon relaxing this assumption to allow for regime-varying error variances in the Markov-switching ADF test (referred to as the MSADF-RV test), we revisit the integration properties of the money base, consumer price and exchange rate in Argentina from January 1983 to November 1989. Based on the MSADF-RV test, we observe the occurrence of volatility switches in the exchange rate and the consumer price instead of observing bubbles in these two series as in Hall, Psaradakis and Sola (1999).</jats:p>"
+    },
+    {
+     "DOI": "10.1080/07474938.2017.1348684",
+     "title": [
+      "Wild bootstrap seasonal unit root tests for time series with periodic nonstationary volatility"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017,
+        9,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "Econometric Reviews"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1007/s00180-022-01211-w",
+     "title": [
+      "Non-parametric seasonal unit root tests under periodic non-stationary volatility"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022,
+        3,
+        7
+       ]
+      ]
+     },
+     "container-title": [
+      "Computational Statistics"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1017/s0266466619000057",
+     "title": [
+      "SIGN-BASED UNIT ROOT TESTS FOR EXPLOSIVE FINANCIAL BUBBLES IN THE PRESENCE OF DETERMINISTICALLY TIME-VARYING VOLATILITY"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019,
+        3,
+        29
+       ]
+      ]
+     },
+     "container-title": [
+      "Econometric Theory"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p>\n                    This article considers the problem of testing for an explosive bubble in financial data in the presence of time-varying volatility. We propose a sign-based variant of the Phillips, Shi, and Yu (2015,\n                    <jats:italic>International Economic Review</jats:italic>\n                    56, 1043–1077) test. Unlike the original test, the sign-based test does not require bootstrap-type methods to control size in the presence of time-varying volatility. Under a locally explosive alternative, the sign-based test delivers higher power than the original test for many time-varying volatility and bubble specifications. However, since the original test can still outperform the sign-based one for some specifications, we also propose a union of rejections procedure that combines the original and sign-based tests, employing a wild bootstrap to control size. This is shown to capture most of the power available from the better performing of the two tests. We also show how a sign-based statistic can be used to date the bubble start and end points. An empirical illustration using Bitcoin price data is provided.\n                  </jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.jempfin.2015.09.002",
+     "title": [
+      "Tests for explosive financial bubbles in the presence of non-stationary volatility"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2016,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Empirical Finance"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.26481/umagsb.2014008",
+     "title": [
+      "A multivariate invariance principle for modified wild bootstrap methods with an application to unit root testing"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2014
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.1017/s0266466608080043",
+     "title": [
+      "BOOTSTRAP UNIT ROOT TESTS FOR TIME SERIES WITH NONSTATIONARY VOLATILITY"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007,
+        9,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "Econometric Theory"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.26481/umamet.2009056",
+     "title": [
+      "Detrending bootstrap unit root tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.1111/j.1467-9892.2007.00557.x",
+     "title": [
+      "Time‐Transformed Unit Root Tests for Models with Non‐Stationary Volatility"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007,
+        12,
+        7
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Time Series Analysis"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p><jats:bold>Abstract. </jats:bold> Conventional unit root tests are known to be unreliable in the presence of permanent volatility shifts. In this paper, we propose a new approach to unit root testing which is valid in the presence of a quite general class of permanent variance changes which includes single and multiple (abrupt and smooth transition) volatility change processes as special cases. The new tests are based on a time transformation of the series of interest which automatically corrects their form for the presence of non‐stationary volatility without the need to specify any parametric model for the volatility process. Despite their generality, the new tests perform well even in small samples. We also propose a class of tests for the null hypothesis of stationary volatility in (near‐) integrated time‐series processes.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.jeconom.2005.06.008",
+     "title": [
+      "Unit root testing via the stationary bootstrap"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006,
+        8
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Econometrics"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1080/03610918.2021.1879139",
+     "title": [
+      "Bounded unit root processes with non-stationary volatility"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        2,
+        8
+       ]
+      ]
+     },
+     "container-title": [
+      "Communications in Statistics - Simulation and Computation"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1017/s0266466618000038",
+     "title": [
+      "BOOTSTRAP-ASSISTED UNIT ROOT TESTING WITH PIECEWISE LOCALLY STATIONARY ERRORS"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        4,
+        12
+       ]
+      ]
+     },
+     "container-title": [
+      "Econometric Theory"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p>In unit root testing, a piecewise locally stationary process is adopted to accommodate nonstationary errors that can have both smooth and abrupt changes in second- or higher-order properties. Under this framework, the limiting null distributions of the conventional unit root test statistics are derived and shown to contain a number of unknown parameters. To circumvent the difficulty of direct consistent estimation, we propose to use the dependent wild bootstrap to approximate the nonpivotal limiting null distributions and provide a rigorous theoretical justification for bootstrap consistency. The proposed method is compared through finite sample simulations with the recolored wild bootstrap procedure, which was developed for errors that follow a heteroscedastic linear process. Furthermore, a combination of autoregressive sieve recoloring with the dependent wild bootstrap is shown to perform well. The validity of the dependent wild bootstrap in a nonstationary setting is demonstrated for the first time, showing the possibility of extensions to other inference problems associated with locally stationary processes.</jats:p>"
+    },
+    {
+     "DOI": "10.1007/s10260-014-0289-0",
+     "title": [
+      "Wild bootstrap tests for unit root in ESTAR models"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2014,
+        10,
+        28
+       ]
+      ]
+     },
+     "container-title": [
+      "Statistical Methods &amp; Applications"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.2664447",
+     "title": [
+      "The Power Envelope of Panel Unit Root Tests in Case Stationary Alternatives Offset Explosive Ones"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>We derive the power envelope for panel unit root tests where heterogeneous alternatives are modeled via zero-expectation random perturbations. We obtain an asymptotically UMP test and discuss how to proceed when one is agnostic about the expectation of the perturbations.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.jeconom.2020.03.008",
+     "title": [
+      "Level shift estimation in the presence of non-stationary volatility with an application to the unit root testing problem"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        12
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Econometrics"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1093/jjfinec/nbac004",
+     "title": [
+      "Time-Transformed Test for Bubbles under Non-stationary Volatility"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022,
+        4,
+        23
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Financial Econometrics"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>This paper is devoted to testing for bubbles under time-varying non-stationary volatility. Because the limiting distribution of the seminal Phillips, Wu, and Yu (2011) test depends on the variance function and usually requires a bootstrap implementation under heteroskedasticity, we construct the test based on a deformation of the time domain. The proposed test is asymptotically pivotal under the null hypothesis and its limiting distribution coincides with that of the standard test under homoskedasticity, so that the test does not require computationally extensive methods for inference. Appealing finite sample properties are demonstrated through Monte-Carlo simulations. An empirical application demonstrates that the upsurge behavior of cryptocurrency time series in the middle of the sample is partially explained by the volatility change.</jats:p>"
+    },
+    {
+     "DOI": "10.1057/jam.2013.13",
+     "title": [
+      "Rational speculative bubbles in the Asian stock markets: Tests on deterministic explosive bubbles and stochastic explosive root bubbles"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Asset Management"
+     ],
+     "type": "journal-article"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

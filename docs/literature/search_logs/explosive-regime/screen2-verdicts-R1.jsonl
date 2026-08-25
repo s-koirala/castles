@@ -1,0 +1,586 @@
+{"id": "eru-0002", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "ORCA copy; same-work duplicate of eru-0498 (ANU Press chapter with DOI)"}
+{"id": "eru-0009", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0011", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "earlier draft of eru-0228 (Monitoring Housing Markets; documented in WP 165 footnote)"}
+{"id": "eru-0012", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF application to Colombian housing; no operating characteristics reported"}
+{"id": "eru-0014", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0015", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "SADF application to D-8 markets; no operating characteristics"}
+{"id": "eru-0016", "verdict": "EXCLUDE", "criterion": "I1", "route": "publisher", "note": "IMF surveillance framework discussion; no explosive-AR detector with stated null"}
+{"id": "eru-0017", "verdict": "X6", "criterion": "X6", "route": "none", "note": "journal-level record; underlying work unidentifiable; retrieved PDF is unrelated article"}
+{"id": "eru-0018", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "defective metadata record duplicating eru-1526 (Lui-Phillips-Yu JoE HAR test)"}
+{"id": "eru-0023", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0024", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "forward-searching ARIMA application to Brazilian housing; no OC"}
+{"id": "eru-0027", "verdict": "EXCLUDE", "criterion": "I1", "route": "repository", "note": "observation-driven bubble filter; estimation not null-referenced time-indexed test (S-c fail)"}
+{"id": "eru-0029", "verdict": "EXCLUDE", "criterion": "X2", "route": "publisher", "note": "full-sample bubble existence testing on HK property; no time-indexed output"}
+{"id": "eru-0035", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0043", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF application to Colombian housing; no OC reported"}
+{"id": "eru-0069", "verdict": "EXCLUDE", "criterion": "S-a-fail", "route": "repository", "note": "KI-13 full text: alternatives are I(0)/I(1) persistence changes, never explosive root"}
+{"id": "eru-0079", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0087", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "publisher", "note": "mildly explosive AR with stable errors; estimation limit theory, no detector"}
+{"id": "eru-0091", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN twin of eru-0131 (PWY Nasdaq, KI-01)"}
+{"id": "eru-0092", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "KI-05 full text: estimation limit theory only; no time-indexed detector output"}
+{"id": "eru-0095", "verdict": "EXCLUDE", "criterion": "X2", "route": "openalex-oa", "note": "residual-based full-sample existence test; no date-stamping output (S-b fail)"}
+{"id": "eru-0100", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "PY2009: limit theory for dating origination/collapse of mildly explosive periods"}
+{"id": "eru-0103", "verdict": "EXCLUDE", "criterion": "X5", "route": "openalex-oa", "note": "general-equilibrium bubble theory; no test procedure"}
+{"id": "eru-0106", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "CFDP 1770 working-paper twin of eru-0154 (Phillips-Yu 2011 QE)"}
+{"id": "eru-0109", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0112", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "Shi WP proposing generalized sup ADF; asymptotic distribution, power simulations"}
+{"id": "eru-0113", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0117", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0121", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0123", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0125", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0126", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "QE-DOI duplicate of eru-0154 (Phillips-Yu 2011 dating paper)"}
+{"id": "eru-0127", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "same-work duplicate of eru-0154 (Phillips-Yu 2011 QE)"}
+{"id": "eru-0128", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "publisher", "note": "double asymptotics for explosive continuous-time estimation; no time-indexed detector"}
+{"id": "eru-0129", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0131", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-01 full text (CFP 1349): recursive test, date-stamping, mildly explosive limit theory"}
+{"id": "eru-0139", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0145", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0146", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "working-paper twin of eru-0238 (specification sensitivity, PSY)"}
+{"id": "eru-0147", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN twin of eru-0238 (specification sensitivities, financial bubbles variant)"}
+{"id": "eru-0150", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "KI-04 full text: MC size/power comparison of bubble tests incl. Chow, CUSUM, PWY; monitoring"}
+{"id": "eru-0154", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "PY2011 dating method; consistency theory, critical-value expansion rules"}
+{"id": "eru-0155", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0158", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0161", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0163", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: IAEE proceedings member-only, no OA copy located"}
+{"id": "eru-0164", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "near-explosive RCA parameter inference; no time-indexed date-stamping output"}
+{"id": "eru-0165", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0166", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0167", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0168", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0173", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0175", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0176", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0179", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0180", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0181", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN/CFDP 1842 twin of eru-0238"}
+{"id": "eru-0182", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0184", "verdict": "EXCLUDE", "criterion": "I1", "route": "repository", "note": "TAR steady-state distribution theory; no null-referenced time-indexed detector"}
+{"id": "eru-0185", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF application to relative PCE inflation measures; no OC"}
+{"id": "eru-0186", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN long working paper Testing for Multiple Bubbles; documented predecessor of eru-0393/0395"}
+{"id": "eru-0187", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0193", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0195", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0197", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0198", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "new monitoring diagnostic; MC empirical size and power under explosive DGP"}
+{"id": "eru-0200", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0201", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0204", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "MC comparison of bias-corrected estimators incl. mildly explosive; estimation not detection"}
+{"id": "eru-0205", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0206", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0207", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "bubble date-stamping in grain futures plus logit determinants; wild bootstrap CVs only"}
+{"id": "eru-0209", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "working-paper twin of eru-1027 (near-explosive random coefficient forecasting)"}
+{"id": "eru-0210", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0215", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "thesis: MS models plus sequential unit-root application to exchange rates; no OC"}
+{"id": "eru-0220", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN duplicate of eru-0279 (Explosive Target Balances, CESifo/EM twins)"}
+{"id": "eru-0221", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "sup ADF and MS-ADF applied to German renewable stocks; no OC"}
+{"id": "eru-0228", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "Dallas Fed WP 165 (twin of eru-0340): SADF/GSADF housing application; simulated CVs, no OC"}
+{"id": "eru-0233", "verdict": "EXCLUDE", "criterion": "X2", "route": "openalex-oa", "note": "cointegration existence tests, Asian markets; no time-indexed output"}
+{"id": "eru-0235", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0236", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0237", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN twin of eru-0486 (Chen-Funke German housing monitoring)"}
+{"id": "eru-0238", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "PSY specification-sensitivity paper: limit theory across specifications, size/power analysis"}
+{"id": "eru-0242", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "CFDP 1914 working-paper twin of eru-0393 (PSY 2015a, KI-02)"}
+{"id": "eru-0243", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0245", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0249", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0250", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Springer paywalled, no WP twin located via searches"}
+{"id": "eru-0257", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0258", "verdict": "EXCLUDE", "criterion": "I2", "route": "publisher", "note": "Bayesian MS-BMA critique of explosive-root signature; no OC for in-scope detectors"}
+{"id": "eru-0259", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "published twin of eru-0198 (Franses growth-acceleration bubble test); MC size/power"}
+{"id": "eru-0261", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "arxiv", "note": "mildly explosive AR(2) estimator limit theory; no time-indexed detector"}
+{"id": "eru-0264", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0265", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF+FLUC application to oil futures; no own operating characteristics"}
+{"id": "eru-0268", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "evaluates Franses bubble test, GARCH extension; MC power reported; thesis tier"}
+{"id": "eru-0269", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "BSADF applied to Bundesbank Target2 claims; no OC"}
+{"id": "eru-0274", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0275", "verdict": "EXCLUDE", "criterion": "I2", "route": "repository", "note": "pedagogical survey of bubble tests; no original theory, simulation, or OC"}
+{"id": "eru-0277", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0279", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "SADF/GSADF applied to Target balances (via CESifo 4297 twin); no OC"}
+{"id": "eru-0281", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN twin of eru-0559 (Financial Bubble Implosion, CFDP 1967)"}
+{"id": "eru-0296", "verdict": "EXCLUDE", "criterion": "X2", "route": "repository", "note": "linear/nonlinear cointegration existence tests, NSE; no time-indexed output"}
+{"id": "eru-0297", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0300", "verdict": "EXCLUDE", "criterion": "X4", "route": "repository", "note": "monitors stationarity-to-I(1) change; no explosivity alternative"}
+{"id": "eru-0301", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0302", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0303", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN twin of eru-0597 (DIW dp1417 German urban housing bubbles)"}
+{"id": "eru-0305", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0306", "verdict": "EXCLUDE", "criterion": "I1", "route": "repository", "note": "published twin of eru-0184: TAR steady-state theory, no null-referenced detector"}
+{"id": "eru-0321", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0326", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0327", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0330", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "twin of eru-0204 (Kaufmann-Kruse bias-corrected mildly explosive estimation)"}
+{"id": "eru-0332", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF/BSADF application to oil futures; simulated CVs only, no OC"}
+{"id": "eru-0334", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0340", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF/GSADF applied to 22 housing markets; simulated CVs, no OC"}
+{"id": "eru-0344", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0345", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0347", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Springer chapter paywalled, no OA copy located"}
+{"id": "eru-0348", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "Sollis: analytic and simulated size distortion of right-tailed DF tests under drift break"}
+{"id": "eru-0349", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0361", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0363", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0364", "verdict": "EXCLUDE", "criterion": "X1", "route": "publisher", "note": "GSADF plus switching regression on US healthcare prices; MC for CVs only"}
+{"id": "eru-0365", "verdict": "EXCLUDE", "criterion": "I1", "route": "publisher", "note": "journal-level metadata record, not a study"}
+{"id": "eru-0367", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "explosive AR limit theory (via SMU twin text); no time-indexed detector"}
+{"id": "eru-0368", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "publisher", "note": "continuous-time mildly explosive limit theory; no time-indexed detector"}
+{"id": "eru-0369", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN twin of eru-0300 (Wagner-Wied monitoring stationarity/cointegration)"}
+{"id": "eru-0370", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0375", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "MBA project applying GSADF to Lebanon real estate; no OC"}
+{"id": "eru-0380", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0387", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0391", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0393", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-02 full text (CFP 1498): GSADF date-stamping, limit theory, size/power simulations"}
+{"id": "eru-0394", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "backward GSADF application to Chinese city housing; simulated CVs only, no own OC"}
+{"id": "eru-0395", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-03 full text (CFP 1499): limit theory and consistency of real-time dating algorithms"}
+{"id": "eru-0396", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0403", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF/BSADF application to Tehran stock market; no OC"}
+{"id": "eru-0406", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0408", "verdict": "EXCLUDE", "criterion": "I1", "route": "repository", "note": "ANN-Bayesian nonlinear bubble dating; no explosive-AR null with reference distribution"}
+{"id": "eru-0411", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "Spanish application of explosive-root tests worldwide; no OC"}
+{"id": "eru-0413", "verdict": "EXCLUDE", "criterion": "I1", "route": "repository", "note": "thesis applying regime-switching bubble models to Thai market; no in-scope detector test"}
+{"id": "eru-0414", "verdict": "EXCLUDE", "criterion": "X2", "route": "repository", "note": "MTAR cointegration bubble existence tests on Japanese REITs; no time-indexed output"}
+{"id": "eru-0420", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0422", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "arxiv", "note": "panel AR(1) estimation limit theory incl. explosive; no time-indexed detector"}
+{"id": "eru-0425", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0427", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "fundamental-adjusted BSADF method with stated null asymptotics; US housing application"}
+{"id": "eru-0428", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Wiley paywalled, wayback abstract only, no OA copy located"}
+{"id": "eru-0438", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "published twin of eru-0128: double asymptotics for explosive continuous-time estimation"}
+{"id": "eru-0440", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0445", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0449", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0451", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF/GSADF application to Asia-Pacific housing; no OC"}
+{"id": "eru-0453", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "panel explosiveness test on earnings; full-sample, no time-indexed output"}
+{"id": "eru-0454", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0462", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF plus MS models applied to Latin American currencies; no OC"}
+{"id": "eru-0463", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "MC dating-accuracy comparison: SSR/BIC estimators vs PWY/PSY recursive dating"}
+{"id": "eru-0464", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "RADF/SADF/GSADF application to Japanese condominiums; no OC"}
+{"id": "eru-0465", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Elsevier paywalled, wayback abstract only, no OA copy"}
+{"id": "eru-0469", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0475", "verdict": "EXCLUDE", "criterion": "X1", "route": "publisher", "note": "panel GSADF with Hommel multiple-test wrapper on commodities; no OC reported"}
+{"id": "eru-0476", "verdict": "EXCLUDE", "criterion": "I1", "route": "openalex-oa", "note": "ANN-Bayesian nonlinear bubble dating; no explosive-AR null with reference distribution"}
+{"id": "eru-0477", "verdict": "EXCLUDE", "criterion": "I1", "route": "repository", "note": "working-paper twin of ANN-Bayesian dating paper; same S-c failure"}
+{"id": "eru-0479", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0480", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0484", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "SADF/GSADF application to debt-to-GDP ratios; no OC"}
+{"id": "eru-0485", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0486", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "recursive unit-root tests on German housing with fundamentals; no OC"}
+{"id": "eru-0487", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0490", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0491", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0492", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN twin of eru-0427 (Shi fundamental-adjusted BSADF housing)"}
+{"id": "eru-0498", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF/GSADF application to Shanghai A-shares; no OC"}
+{"id": "eru-0501", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0502", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0503", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-06 full text: PWY under non-stationary volatility, size distortion theory, wild bootstrap"}
+{"id": "eru-0509", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0513", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0515", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0516", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0519", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0520", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0525", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0526", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "Bayesian two-regime bubble model; simulation study incl. comparison with PSY detection"}
+{"id": "eru-0527", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "PSY application to Malaysian housing; no OC"}
+{"id": "eru-0528", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0529", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0535", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN twin of eru-0593 (retracted FRL Bitcoin/Ethereum datestamping)"}
+{"id": "eru-0537", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Springer paywalled, no WP twin located"}
+{"id": "eru-0538", "verdict": "EXCLUDE", "criterion": "I1", "route": "repository", "note": "common-preferred stock gap index; no null-referenced explosive-AR test"}
+{"id": "eru-0539", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0540", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0542", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0543", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0544", "verdict": "EXCLUDE", "criterion": "I2", "route": "openalex-oa", "note": "Bayesian MS-BMA explosive-signature study; no OC for in-scope detectors"}
+{"id": "eru-0545", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0547", "verdict": "EXCLUDE", "criterion": "X1", "route": "publisher", "note": "GSADF application to iron ore prices; no OC"}
+{"id": "eru-0548", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "RBNZ DP record duplicating eru-0555 (Steenkamp, Explosiveness in G11 currencies)"}
+{"id": "eru-0551", "verdict": "EXCLUDE", "criterion": "X1", "route": "publisher", "note": "thesis using BSADF dating to define VaR backtest periods; no OC"}
+{"id": "eru-0553", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0555", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "robust explosiveness tests applied to G11 currencies (via RBNZ DP twin); no own OC"}
+{"id": "eru-0556", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0557", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "PSY application to 1840s railway mania share prices; no OC"}
+{"id": "eru-0558", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF/panel application to UK regional housing; simulated CVs only"}
+{"id": "eru-0559", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-11 full text (CFDP 1967 twin): implosion analytics, dating consistency, simulations"}
+{"id": "eru-0562", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "mangled citation record duplicating eru-0503 (KI-06 HLST 2016)"}
+{"id": "eru-0567", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0568", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0569", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0571", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "openalex-oa", "note": "continuous-system mildly explosive inference; estimation theory, no detector"}
+{"id": "eru-0572", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0575", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0576", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0577", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0578", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0580", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0589", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0590", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN twin of eru-0883 (random coefficient continuous systems)"}
+{"id": "eru-0592", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "SADF/GSADF application to seven housing markets; no OC"}
+{"id": "eru-0593", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "retracted FRL article; PWY/PSY application to Bitcoin/Ethereum; no OC"}
+{"id": "eru-0594", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "Rtadf software; simulates finite-sample critical values and p-values for SADF/GSADF"}
+{"id": "eru-0597", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "DIW twin: size/power simulations of bubble tests in short samples; panel/PC extensions"}
+{"id": "eru-0598", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "repository", "note": "break-point and t-ratio estimation asymptotics in explosive AR; no null-referenced time-indexed rule"}
+{"id": "eru-0600", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0601", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0604", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "MC power comparison of sup Bhargava, sup DFC, SADF, GSADF on five bubble DGPs"}
+{"id": "eru-0605", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "same-work duplicate of eru-0604 (MaRBLe DOI version)"}
+{"id": "eru-0606", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "RTADF application to Iranian FX market; no OC"}
+{"id": "eru-0607", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "spot-forward bubble tests; MC power, detection rates, dating accuracy reported"}
+{"id": "eru-0608", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0609", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "end-of-sample bubble tests; subsampling critical values, size/power analysis"}
+{"id": "eru-0618", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "PSY application to Japan stock/real-estate, contagion; no OC"}
+{"id": "eru-0622", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "simulation study: aggregation effect on SADF/GSADF power; panel GSADF comparison"}
+{"id": "eru-0625", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0628", "verdict": "EXCLUDE", "criterion": "I2", "route": "openalex-oa", "note": "survey of bubble definitions and detection methods; no theory, simulation, or OC"}
+{"id": "eru-0629", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF application to US indexes; simulated CVs only, no OC"}
+{"id": "eru-0634", "verdict": "EXCLUDE", "criterion": "X4", "route": "arxiv", "note": "GARCH parameter-change test; null and alternative strictly stationary, no explosive-root alternative"}
+{"id": "eru-0637", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0639", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0646", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0647", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0650", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0655", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0657", "verdict": "EXCLUDE", "criterion": "X1", "route": "publisher", "note": "GSADF co-explosivity application to cryptocurrencies; no OC"}
+{"id": "eru-0662", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0667", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0675", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0678", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF plus probit application to housing; no OC"}
+{"id": "eru-0679", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "masters thesis applying PSY to cryptocurrencies; no OC"}
+{"id": "eru-0680", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Springer paywalled, no OA copy located"}
+{"id": "eru-0688", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0689", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "GLS-based PWY variants, limit distributions under locally explosive alternative, power analysis"}
+{"id": "eru-0691", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "MC size distortion of PWY test under long memory; adjusted critical values proposed"}
+{"id": "eru-0692", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "exuber R package; stored MC critical values for SADF/GSADF/panel, DGP simulators"}
+{"id": "eru-0699", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0700", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Springer paywalled, wayback abstract only, no OA per OpenAlex/S2"}
+{"id": "eru-0701", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "SADF application to SAARC markets; no OC"}
+{"id": "eru-0710", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0714", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0720", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0728", "verdict": "EXCLUDE", "criterion": "I1", "route": "openalex-oa", "note": "thesis: state-space SMC bubble filtering; no null-referenced time-indexed test"}
+{"id": "eru-0731", "verdict": "INCLUDE", "criterion": "I2c", "route": "openalex-oa", "note": "evaluates five bubble indicators incl. PSY-type out-of-sample against crisis chronology"}
+{"id": "eru-0735", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-09 full text: real-time monitoring, FPR control theory, training-period design, simulations"}
+{"id": "eru-0736", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0738", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0739", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0743", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Springer chapter paywalled, HAL metadata-only deposit"}
+{"id": "eru-0748", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "WLS-based PSY variant under time-varying volatility; asymptotic power, union, wild bootstrap"}
+{"id": "eru-0749", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "IRTG DP twin: wild-bootstrap bubble test under time-varying volatility; size/power"}
+{"id": "eru-0751", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0752", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "openalex-oa", "note": "t-test with moderate-explosiveness null; full-sample degree inference, no time-indexed output"}
+{"id": "eru-0753", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0755", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0761", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0765", "verdict": "EXCLUDE", "criterion": "I2", "route": "repository", "note": "continuous-discrete time correspondence theory; no null distribution, CVs, or OC"}
+{"id": "eru-0766", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF application to Japanese money supply; no OC"}
+{"id": "eru-0768", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0773", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0786", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0788", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0792", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0796", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0797", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Kurozumi Econometric Reviews monitoring tests, paywalled"}
+{"id": "eru-0806", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0809", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0812", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0813", "verdict": "INCLUDE", "criterion": "I2b", "route": "publisher", "note": "MC comparison of LPPL vs GSADF/BSADF detection and time-stamping; sieve-bootstrap variant"}
+{"id": "eru-0814", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0819", "verdict": "EXCLUDE", "criterion": "X4", "route": "repository", "note": "SPC control charts for mean shifts in price growth; no explosive-AR alternative"}
+{"id": "eru-0821", "verdict": "EXCLUDE", "criterion": "I1", "route": "publisher", "note": "continuous-time attention model, Protter mathematical bubble; no explosive-AR null test"}
+{"id": "eru-0822", "verdict": "EXCLUDE", "criterion": "X1", "route": "publisher", "note": "shrinkage regressions plus SADF/GSADF dating on real estate; no OC"}
+{"id": "eru-0823", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "CFDP 2110 twin: PSY limit behavior under crash DGPs, finite-sample performance"}
+{"id": "eru-0825", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0829", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0841", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0844", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "repository", "note": "multiple-break LSE estimation theory for explosive AR; no null-referenced decision rule"}
+{"id": "eru-0845", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0846", "verdict": "EXCLUDE", "criterion": "I1", "route": "repository", "note": "frequency-domain econophysics bubble identification; no explosive-AR detector applied"}
+{"id": "eru-0849", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "rolling ADF/GSADF application to Pakistan remittances; no OC"}
+{"id": "eru-0850", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0852", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF application to South Africa stock market; no OC"}
+{"id": "eru-0854", "verdict": "EXCLUDE", "criterion": "I1", "route": "publisher", "note": "affine-model bubble measure via nonstationary discrepancies; no explosive-AR detector"}
+{"id": "eru-0855", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "WSADF hybrid detector, explosive alternative, MC thresholds, dating consistency"}
+{"id": "eru-0859", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "SMU IR duplicate of eru-0367 (Wang-Yu explosive AR limit theory)"}
+{"id": "eru-0860", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "SMU IR duplicate of eru-0100 (PY2009 dating limit theory)"}
+{"id": "eru-0861", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "mild-explosive AR with serially correlated errors; estimation theory only"}
+{"id": "eru-0862", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF application to Indian indices; simulated CVs only"}
+{"id": "eru-0864", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0868", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0869", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF application to Bitcoin (Turkish); no OC"}
+{"id": "eru-0873", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "PSY application to crude oil with robustness checks; no OC with stated null"}
+{"id": "eru-0875", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0883", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "random-coefficient continuous system; sequential explosiveness t-tests, size/power sims"}
+{"id": "eru-0884", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0885", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0888", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "openalex-oa", "note": "sentiment smooth-transition AR bubble model; no null-referenced time-indexed decision"}
+{"id": "eru-0889", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "sequential monitoring with explosive AR/ARMA/GARCH alternatives; false-alarm control, consistency"}
+{"id": "eru-0891", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-07 full text: sign-based tests, limit theory, size/power, union of rejections, dating"}
+{"id": "eru-0893", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0899", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0900", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF application to Pakistani agricultural commodities; no OC"}
+{"id": "eru-0901", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF application to Pakistani inflation series; no OC"}
+{"id": "eru-0902", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0903", "verdict": "EXCLUDE", "criterion": "S-a-fail", "route": "repository", "note": "Granger DP 18/03: randomness test for RCA coefficient; alternative not explosive root"}
+{"id": "eru-0904", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "HAR bubble test under strong dependence; limit theory, size/power MC, dating consistency"}
+{"id": "eru-0907", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0909", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0924", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "intraday unit-root monitoring with jumps; limit theory under explosive alternative, size sims"}
+{"id": "eru-0926", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "thesis: PSY applied to cryptocurrencies plus logit predictors; no OC"}
+{"id": "eru-0928", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "SADF/GSADF application to developed-country bond markets; no OC"}
+{"id": "eru-0940", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0941", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Kurozumi JTSA delay-times paper, paywalled"}
+{"id": "eru-0942", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Springer paywalled, no OA copy located"}
+{"id": "eru-0943", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0944", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0949", "verdict": "EXCLUDE", "criterion": "I1", "route": "openalex-oa", "note": "Brazilian sectoral AR(1) bubble assessment; no null-referenced explosive-AR test"}
+{"id": "eru-0953", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-0959", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "two-step BIC dating of multiple bubble regimes; MC dating accuracy vs recursive methods"}
+{"id": "eru-0960", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "SADF/GSADF date-stamping of Tadawul bubble; no OC"}
+{"id": "eru-0966", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0967", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0970", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0975", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "agent-based thesis using GSADF only to mark bubble periods; no OC"}
+{"id": "eru-0976", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF application to Chinese stock indices; no OC"}
+{"id": "eru-0978", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0980", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-0981", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "exuber R package paper; MC/bootstrap critical values, date-stamping implementations"}
+{"id": "eru-0994", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0995", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0996", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0998", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-0999", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "SMU IR duplicate of eru-0367 (same article 2512)"}
+{"id": "eru-1000", "verdict": "EXCLUDE", "criterion": "I1", "route": "repository", "note": "agent-based price-limit simulation; no in-scope detector"}
+{"id": "eru-1002", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1003", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1011", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "duplicate of eru-0861 (same SMU working paper, title match)"}
+{"id": "eru-1012", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "mildly explosive AR with anti-persistent errors (via SMU twin); estimation theory"}
+{"id": "eru-1013", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF application to US fixed-income spreads; no OC"}
+{"id": "eru-1016", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "arxiv", "note": "information-criteria selection between UR and explosive models; no time-indexed output"}
+{"id": "eru-1020", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "BSADF plus cointegration application to Nordic housing; no OC"}
+{"id": "eru-1021", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Wiley paywalled, Lund WP file not retrievable"}
+{"id": "eru-1023", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "point-optimal FLUR tests incl. explosive subperiods; full-sample presence test, no dating"}
+{"id": "eru-1025", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1027", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "repository", "note": "NERC predictive-probability model (ESSEC WP twin); no null-referenced time-t decision"}
+{"id": "eru-1031", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-12 full text (CFDP 2152): real-time monitoring practice, bootstrap CV procedure, simulations"}
+{"id": "eru-1038", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "sequential monitoring with explosive alternative; stopping-time theory, size/power MC"}
+{"id": "eru-1040", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF application to A-H price differentials; no OC"}
+{"id": "eru-1043", "verdict": "EXCLUDE", "criterion": "I1", "route": "repository", "note": "XRP intrinsic-value bubble measurement; no explosive-AR detector applied"}
+{"id": "eru-1044", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "MC evaluation of sup-ADF-style tests: size under leverage, power, dating comparison"}
+{"id": "eru-1049", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "size distortion analysis and sieve-bootstrap SADF/GSADF; size/power and dating sims"}
+{"id": "eru-1050", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF application to copper price; no OC"}
+{"id": "eru-1053", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "PSY real-time procedure applied to oil/gold COVID contagion; no OC"}
+{"id": "eru-1067", "verdict": "EXCLUDE", "criterion": "I3", "route": "repository", "note": "conference slides on Stata radf command; no DOI/arXiv/handle; best locator RePEc/BC"}
+{"id": "eru-1071", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1087", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1089", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1090", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1096", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1100", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "continuous-time random-persistence detection applied to oil; no own OC"}
+{"id": "eru-1104", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1105", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF application to Dow Jones COVID period; no OC"}
+{"id": "eru-1106", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1107", "verdict": "EXCLUDE", "criterion": "I1", "route": "repository", "note": "quasi-control-asset bubble test via Cantelli bounds; no explosive-AR alternative"}
+{"id": "eru-1108", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "rolling right-tailed unit-root application to gasoline prices; no OC"}
+{"id": "eru-1112", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "CFDP 2251: common-factor bubble detection and date-stamping in large systems; asymptotics"}
+{"id": "eru-1117", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "KI-10 full text: volatility-robust CUSUM monitoring, FPR-invariant limit theory, MC FPR/TPR"}
+{"id": "eru-1120", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1121", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1123", "verdict": "EXCLUDE", "criterion": "I2", "route": "repository", "note": "selective review and practice guide with application; no original theory or OC"}
+{"id": "eru-1124", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1126", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF/GSADF application to medical mask stocks; no OC"}
+{"id": "eru-1128", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1129", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1132", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1136", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1137", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1150", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1153", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1155", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "Max-SADF combined test; MC power comparison vs existing tests under collapsible bubbles"}
+{"id": "eru-1158", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "SMU IR duplicate of eru-1012"}
+{"id": "eru-1159", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1162", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF application to Borsa Istanbul sector indices; no OC"}
+{"id": "eru-1172", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "arxiv", "note": "four-regime bubble date estimation asymptotics; no null-referenced decision rule"}
+{"id": "eru-1177", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1179", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1180", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1182", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1188", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1195", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: De Gruyter paywalled, no WP twin located"}
+{"id": "eru-1208", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "Markov-switching plus SADF application to energy/agriculture; no OC"}
+{"id": "eru-1213", "verdict": "EXCLUDE", "criterion": "X7", "route": "arxiv", "note": "SSRN/arXiv twin of eru-1384 (time-transformed test); carrier moved to published DOI"}
+{"id": "eru-1218", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Sage paywalled, wayback absent; Stata Journal radf article"}
+{"id": "eru-1224", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: citation-arm record with no accessible file on any queried platform"}
+{"id": "eru-1225", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Cambridge abstract only; DP 2016-04 has no online file"}
+{"id": "eru-1239", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1242", "verdict": "EXCLUDE", "criterion": "I2", "route": "openalex-oa", "note": "review of Phillips-type tests with psymonitor demo; no original theory, sim, or OC"}
+{"id": "eru-1246", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1247", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1251", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "exuber JSS paper; MC/bootstrap critical values and date-stamping implementations"}
+{"id": "eru-1254", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1257", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1260", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "SMU twin: asymptotics under polynomial trends; robust AR(2) right-tailed procedure"}
+{"id": "eru-1278", "verdict": "EXCLUDE", "criterion": "X1", "route": "arxiv", "note": "PSY variants applied to individual Nasdaq stocks; no OC"}
+{"id": "eru-1279", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1289", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "CFDP 2688: multiple-testing critical-value algorithm for PSY; FWER and dating simulations"}
+{"id": "eru-1291", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF/GSADF application to commodities COVID period; no OC"}
+{"id": "eru-1293", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "openalex-oa", "note": "near-unit-root estimation and inference framework; no time-indexed detector"}
+{"id": "eru-1294", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1298", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1307", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1310", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "new fundamental-value test; simulations report SADF detection performance on benchmark DGPs"}
+{"id": "eru-1316", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1322", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1333", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "openalex-oa", "note": "mildly explosive AR with mixing errors; estimation limit theory only"}
+{"id": "eru-1341", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1344", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1345", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1346", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1347", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1349", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1351", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF plus Markov-switching application to energy futures; no OC"}
+{"id": "eru-1354", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1364", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "co-explosivity stationarity test over episodes; no time-indexed explosive-state assignment"}
+{"id": "eru-1366", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1381", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1384", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "time-transformed explosive-bubble test (published-DOI carrier); pivotal limit, size/power MC"}
+{"id": "eru-1394", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "covariate-augmented bubble detection and dating; theory plus power simulations"}
+{"id": "eru-1395", "verdict": "EXCLUDE", "criterion": "X1", "route": "publisher", "note": "BSADF date-stamping used within VaR backtesting application; no detector OC"}
+{"id": "eru-1401", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "PSY application to Indian indices; recaps PSY simulations, no own OC"}
+{"id": "eru-1403", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1404", "verdict": "EXCLUDE", "criterion": "I2", "route": "openalex-oa", "note": "conference survey of housing bubble modeling; no theory, simulation, or OC"}
+{"id": "eru-1405", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "panel k-means clustering with explosive-root panel tests; theory and MC power gains"}
+{"id": "eru-1409", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1411", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1413", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1420", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF surge measurement plus growth regressions; no OC"}
+{"id": "eru-1423", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1424", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1430", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1435", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1439", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1441", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1442", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1448", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1452", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1462", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1464", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1471", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Kurozumi fluctuation-type monitoring, no OA copy located"}
+{"id": "eru-1478", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1481", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1482", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1483", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1486", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "arxiv", "note": "WLS bubble-date estimation under time-varying volatility; no null-referenced decision rule"}
+{"id": "eru-1489", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1505", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1506", "verdict": "EXCLUDE", "criterion": "X1", "route": "arxiv", "note": "RTADF/GSADF application to Bitcoin; no OC"}
+{"id": "eru-1509", "verdict": "INCLUDE", "criterion": "I2b", "route": "publisher", "note": "MS-model right-tailed tests with bootstrap p-values; MC rejection frequencies reported"}
+{"id": "eru-1515", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1516", "verdict": "EXCLUDE", "criterion": "X4", "route": "openalex-oa", "note": "OU mean-reversion-change quickest detection; general changepoint, explosivity not the stated alternative"}
+{"id": "eru-1519", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "real-time crash monitoring after bubble; FPR theory and MC; explosive/stationary regimes"}
+{"id": "eru-1526", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "published JoE text: HAR explosive test, limit theory, time-stamping consistency, MC"}
+{"id": "eru-1533", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1535", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: VU portal landing only, Elsevier blocked, no WP twin found"}
+{"id": "eru-1540", "verdict": "EXCLUDE", "criterion": "I2", "route": "arxiv", "note": "review of explosive-bubble testing methods; no original theory, simulation, or OC"}
+{"id": "eru-1541", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1542", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1544", "verdict": "EXCLUDE", "criterion": "X4", "route": "openalex-oa", "note": "GARCH parameter-change epoch test; volatility changepoint, no explosive-AR alternative"}
+{"id": "eru-1546", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1549", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1573", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1574", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1580", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1581", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1594", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "openalex-oa", "note": "explosive fractional OU estimation asymptotics; no time-indexed detector"}
+{"id": "eru-1602", "verdict": "EXCLUDE", "criterion": "I1", "route": "openalex-oa", "note": "descriptive comparison of Bitcoin with historical bubbles; no in-scope detector"}
+{"id": "eru-1604", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "quantile-AR unit root bubble tests; MC size/power vs recursive LS tests, bootstrap CVs"}
+{"id": "eru-1607", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF exchange-rate bubble spillover application; no OC"}
+{"id": "eru-1608", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1616", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1617", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1618", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF/GSADF comparison on S&P500 stocks; MC only for critical values"}
+{"id": "eru-1624", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1625", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF/BSADF application to G7 housing plus determinants; no OC"}
+{"id": "eru-1631", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1632", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1645", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1650", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1652", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1657", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1669", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1671", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "CI construction for mildly explosive AR under heteroskedasticity; no time-indexed detector"}
+{"id": "eru-1674", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1678", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1679", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "openalex-oa", "note": "panel fractional OU persistence-sign test; no time-indexed output"}
+{"id": "eru-1688", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "publisher", "note": "OLS limit theory for drifting explosive parameters; no time-indexed detector"}
+{"id": "eru-1689", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1695", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1696", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1699", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1701", "verdict": "X6", "criterion": "X6", "route": "none", "note": "full text unobtainable: Wiley 403, SSRN delivery blocked; quantile bubble monitoring"}
+{"id": "eru-1705", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1715", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "recursive STUR vs right-tailed ADF for random explosive coefficient; union strategy, power theory"}
+{"id": "eru-1716", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "RVPWY devolatized test; asymptotic null theory, size/power MC, dating consistency"}
+{"id": "eru-1737", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1750", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1758", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "repository", "note": "OLS-based retrospective dating estimator theory; no null-referenced decision rule"}
+{"id": "eru-1761", "verdict": "EXCLUDE", "criterion": "S-a-fail", "route": "repository", "note": "TI DP twin: noncausal MAR bubble test; strictly stationary framework, no explosive-AR alternative"}
+{"id": "eru-1765", "verdict": "EXCLUDE", "criterion": "I1", "route": "publisher", "note": "functional-distribution structural indicator; PSY only cited, no explosive-AR test applied"}
+{"id": "eru-1770", "verdict": "EXCLUDE", "criterion": "S-a-fail", "route": "arxiv", "note": "noncausal MAR bubble indicator; strictly stationary framework, no explosive-AR alternative"}
+{"id": "eru-1772", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1780", "verdict": "EXCLUDE", "criterion": "X1", "route": "publisher", "note": "GSADF plus TVP-VAR contagion application to commodity futures; no OC"}
+{"id": "eru-1783", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1784", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1786", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1787", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1788", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1789", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1792", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1794", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1808", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1813", "verdict": "INCLUDE", "criterion": "I2b", "route": "arxiv", "note": "SPC vs SADF simulation comparison under Phillips-Shi DGP; size distortion evidence"}
+{"id": "eru-1821", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "PANICCA plus panel GSADF application to Turkish housing; no OC"}
+{"id": "eru-1822", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1823", "verdict": "EXCLUDE", "criterion": "X1", "route": "publisher", "note": "GSADF application to BIST stone-soil index post-earthquake; no OC"}
+{"id": "eru-1826", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1843", "verdict": "EXCLUDE", "criterion": "S-a-fail", "route": "arxiv", "note": "sequential no-arbitrage-violation detectors; drift-burst alternative, not explosive AR root"}
+{"id": "eru-1844", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "real-time bubble monitoring procedures (IJF 2025); theory and simulations"}
+{"id": "eru-1845", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "online RCA changepoint monitor for bubble onset/collapse; limit theory, size/power MC"}
+{"id": "eru-1848", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1852", "verdict": "INCLUDE", "criterion": "I2a", "route": "publisher", "note": "LBI explosive-root detector; normal limit, MC size/power, CUSUM monitoring with FPR control"}
+{"id": "eru-1853", "verdict": "EXCLUDE", "criterion": "X4", "route": "arxiv", "note": "GARCH volatility-regime monitoring; alternative concerns volatility process, not price AR root"}
+{"id": "eru-1864", "verdict": "EXCLUDE", "criterion": "I1", "route": "openalex-oa", "note": "cross-sectional core-extraction bubble identification; no null-referenced explosive-AR test"}
+{"id": "eru-1865", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1872", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1874", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF application to AI stocks; no OC"}
+{"id": "eru-1882", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "openalex-oa", "note": "uniform Cauchy limit theory for mildly explosive AR; no time-indexed detector"}
+{"id": "eru-1888", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1889", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "openalex-oa", "note": "uniform AR inference via IV combination; estimation theory, no time-indexed detector"}
+{"id": "eru-1890", "verdict": "INCLUDE", "criterion": "I2a", "route": "publisher", "note": "sign-based PSY under level shifts: validity theorems, MC size/power, intraday Bitcoin application"}
+{"id": "eru-1901", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1908", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1910", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1912", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1920", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "confidence sets for bubble dates via test inversion; coverage evaluation"}
+{"id": "eru-1921", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "covariate-augmented CUSUM bubble monitoring; FPR theory, detection-rate simulations"}
+{"id": "eru-1923", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1924", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1929", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "SV-robust explosive diagnostic; moderate-deviation limit theory, simulated null cutoffs"}
+{"id": "eru-1932", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1941", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1944", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1948", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1950", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "SV-ADF robust date-stamping; limit theory, consistency, MC power and dating accuracy"}
+{"id": "eru-1955", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1957", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1959", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "arxiv", "note": "near-unit-root estimation theory for affine processes; no time-indexed detector"}
+{"id": "eru-1961", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "arxiv", "note": "realization-centred descriptive diagnostics; explicitly no null reference distribution"}
+{"id": "eru-1969", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1971", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1972", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1973", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "BSADF application to shadow banking equities; no OC"}
+{"id": "eru-1977", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1981", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: SSRN blocks retrieval; no OA twin located via OpenAlex/S2/wayback/search"}
+{"id": "eru-1983", "verdict": "X6", "criterion": "X6", "route": "none", "note": "unobtainable: publisher blocked; no OA location per OpenAlex/S2; wayback and searches failed"}
+{"id": "eru-1991", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF application to Turkish district housing; no OC"}
+{"id": "eru-1994", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "BSADF bubble identification plus systemic risk metrics; no OC"}

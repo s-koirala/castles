@@ -1,0 +1,371 @@
+{
+ "query_id": "se-crossref-05",
+ "protocol_query_id": "er-crossref-05",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=bubble+detection+tests+size+power+Monte+Carlo+comparison&rows=20&select=DOI,title,issued,container-title,type,abstract",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "total_hits": 5264062,
+ "retrieved_count": 20,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 5264062,
+   "items": [
+    {
+     "DOI": "10.2139/ssrn.880988",
+     "title": [
+      "Size and Power of Some Stochastic Dominance Tests: A Monte Carlo Study"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>Testing for stochastic dominance between distributions is an important issue in the study of asset distribution, income distribution and market efficiency. This paper applies Monte Carlo simulations to examine the size and power of some commonly used stochastic dominance tests when the underlying distributions are correlated, and either homoskedastic or heteroskedastic. Our Monte Carlo study shows that the test suggested by Davidson and Duclos (2000) has a better size- and power-performance than two alternative tests developed by Kaur, Rao and Singh (1994) and Anderson (1996). In addition, when the underlying distributions are heteroskedastic, both the size and power of test developed by Davidson and Duclos (2000) are still superior to those of the two alternative tests.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/s0165-1765(03)00066-1",
+     "title": [
+      "On the power of panel cointegration tests: a Monte Carlo comparison"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2003,
+        7
+       ]
+      ]
+     },
+     "container-title": [
+      "Economics Letters"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1007/0-387-29053-2_1",
+     "title": [
+      "Monte Carlo Tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "Lecture Notes in Statistics",
+      "Nonparametric Monte Carlo Tests and Their Applications"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.31390/gradschool_disstheses.4921",
+     "title": [
+      "A Monte Carlo Comparison of Tests for Multivariate Normality Based on Multivariate Skewness and Kurtosis."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "dissertation"
+    },
+    {
+     "DOI": "10.21275/sr251114202521",
+     "title": [
+      "Power Comparison by Using Monte Carlo Simulation Between Traditional Test and Newly Proposed Non-Parametric Tests for the Two Sample Scale Problem considering the Normality Assumptions"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025,
+        11,
+        20
+       ]
+      ]
+     },
+     "container-title": [
+      "International Journal of Science and Research (IJSR)"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2307/2334890",
+     "title": [
+      "A Monte Carlo Investigation of the Size and Power of Tests Employing Satterthwaite's Synthetic Mean Squares"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1968,
+        7
+       ]
+      ]
+     },
+     "container-title": [
+      "Biometrika"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1081/etc-100104082",
+     "title": [
+      "SIZE CHARACTERISTICS OF TESTS FOR SAMPLE SELECTION BIAS: A MONTE CARLO COMPARISON AND EMPIRICAL EXAMPLE"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2001,
+        2,
+        28
+       ]
+      ]
+     },
+     "container-title": [
+      "Econometric Reviews"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1037/e514412014-504",
+     "title": [
+      "A Monte Carlo comparison of tests for the number of dimensions"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007
+       ]
+      ]
+     },
+     "container-title": [
+      "PsycEXTRA Dataset"
+     ],
+     "type": "dataset"
+    },
+    {
+     "DOI": "10.2139/ssrn.1807953",
+     "title": [
+      "A Monte Carlo Comparison of Tests for Cointegration in Panel Data"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>This paper surveys recent developments and provides Monte Carlo comparison on various tests proposed for cointegration in panel data. In particular, tests for two panel models, varying intercepts and varying slopes and varying intercepts and common slopes, are presented from the literature with a total of seven tests being simulated. In all cases, results on empirical size and size-adjusted power are given.</jats:p>"
+    },
+    {
+     "DOI": "10.21236/ada545255",
+     "title": [
+      "Monte Carlo Techniques for Estimating Power in Aircraft T&amp;E Tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011,
+        7,
+        1
+       ]
+      ]
+     },
+     "type": "report"
+    },
+    {
+     "DOI": "10.1007/s00181-013-0711-8",
+     "title": [
+      "On the power of bootstrap tests for stationarity: a Monte Carlo comparison"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013,
+        5,
+        7
+       ]
+      ]
+     },
+     "container-title": [
+      "Empirical Economics"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1115/1.0004374v",
+     "title": [
+      "A Comparison of Probabilistic-Monte Carlo and Fuzzy-Monte Carlo Simulation Approaches for Dynamic Fault Tree: Case of Renewable Power Systems"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        7,
+        16
+       ]
+      ]
+     },
+     "type": "posted-content"
+    },
+    {
+     "DOI": "10.1093/biomet/55.2.431",
+     "title": [
+      "A Monte Carlo investigation of the size and power of tests employing sattertwaite's synthetic mean squares"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1968
+       ]
+      ]
+     },
+     "container-title": [
+      "Biometrika"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.31234/osf.io/ep3vx",
+     "title": [
+      "Unidimensional community detection: A Monte Carlo simulation, grid search, and comparison"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022,
+        7,
+        28
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<p>Unidimensionality is fundamental to psychometrics. Despite the recent focus on dimensionality assessment in network psychometrics, unidimensionality assessment remains a challenge. Community detection algorithms are the most common approach to estimate dimensionality in networks. Many community detection algorithms optimize an objective criterion called modularity. A limitation of modularity is that it penalizes unidimensional structures in networks, favoring two or more communities (dimensions). In this study, this penalization is discussed and a solution is offered. After, a Monte Carlo simulation using one and two factor models is performed. Key to the simulation was the condition of model error or the misfit of the population factor model to the generated data. Based on previous simulation studies, several community detection algorithms that have performed well with unidimensional structures (Leading Eigenvalue, Leiden, Louvain, and Walktrap) were compared. A grid search was performed on the tunable parameters of these algorithms to determine the optimal trade-off between unidimensional and bidimensional recovery. The best performing parameters for each algorithm were then compared against each other as well as maximum likelihood factor analysis and parallel analysis (PA) with mean and 95th percentile eigenvalues. Overall, the Leiden and Louvain algorithms and PA methods were the most accurate methods to recover unidimensional and bidmensional structures and were the most robust to model error. More nuanced method recommendations for specific unidimensional and bidimensional conditions are provided.</p>"
+    },
+    {
+     "DOI": "10.1080/02664769723576",
+     "title": [
+      "Power comparison of non-parametric tests: Small-sample properties from Monte Carlo experiments"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1997,
+        10
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Applied Statistics"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1080/03610927308827047",
+     "title": [
+      "Monte carlo power comparison of the w' and d tests of normality for n=100"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1973,
+        1
+       ]
+      ]
+     },
+     "container-title": [
+      "Communications in Statistics"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1007/978-3-642-04107-5_32",
+     "title": [
+      "Testing the Tests: Using Random Number Generators to Improve Empirical Tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009
+       ]
+      ]
+     },
+     "container-title": [
+      "Monte Carlo and Quasi-Monte Carlo Methods 2008"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.32614/cran.package.bayest",
+     "title": [
+      "bayest: Effect Size Targeted Bayesian Two-Sample t-Tests via Markov Chain Monte Carlo in Gaussian Mixture Models"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019,
+        8,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "CRAN: Contributed Packages"
+     ],
+     "type": "dataset"
+    },
+    {
+     "DOI": "10.1504/ijcee.2009.029152",
+     "title": [
+      "Size and power properties of tests of the martingale difference hypothesis: a Monte Carlo study"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009
+       ]
+      ]
+     },
+     "container-title": [
+      "International Journal of Computational Economics and Econometrics"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.31234/osf.io/6xrtu_v1",
+     "title": [
+      "Sample Size Estimation for Machine Learning via Monte Carlo Simulation: Learning Curves and Power Laws"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        1,
+        24
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<p>Estimating the minimum sample size needed to reach a target performance in machine learning models is a recurring problem in applied research. Unlike many traditional statistical settings, where tools such as GPower can provide closed-form answers, machine learning rarely offers analytic formulas for sample-size planning. In this article, we propose a Monte Carlo simulation approach that uses empirical learning curves and power-law fitting to estimate the required sample size for a given, fixed modeling pipeline. The method uses a Monte Carlo resampling design with a fixed test set, evaluates several training sample sizes through repeated stochastic runs, then: (1) builds learning curves, (2) fits a power-law model to extrapolate, and (3) identifies the sample size that satisfies explicit criteria for mean performance, probability of success, and stability. We implement the procedure in R through the ml_sample_size() function in the easyML package, supporting both classification and regression with common algorithms (e.g.,Random Forest, XGBoost, SVM, GLM) for tabular data typical in the social, health, and behavioral sciences. A key limitation is that the recommended sample size n∗ is conditional on the chosen hyperparameter configuration. When hyperparameter tuning is planned, n∗ should be treated as a lower bound, and additional observations may be needed to reflect the added complexity tuning typically introduces. Finally, we provide applied examples using simulated and real datasets to show how the method can support prospective study planning.</p>"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

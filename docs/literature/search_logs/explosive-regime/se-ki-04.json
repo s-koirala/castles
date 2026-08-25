@@ -1,0 +1,421 @@
+{
+ "query_id": "se-ki-04",
+ "arm": "known-item",
+ "ki": "KI-04",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1093/jjfinec/nbr009",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      23
+     ]
+    ],
+    "date-time": "2026-08-23T14:49:43Z",
+    "timestamp": 1787496583306,
+    "version": "build-2736575974"
+   },
+   "reference-count": 23,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "1",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Journal of Financial Econometrics"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2012,
+      1,
+      1
+     ]
+    ]
+   },
+   "DOI": "10.1093/jjfinec/nbr009",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2011,
+      12,
+      28
+     ]
+    ],
+    "date-time": "2011-12-28T21:05:06Z",
+    "timestamp": 1325106306000
+   },
+   "page": "198-231",
+   "source": "Crossref",
+   "is-referenced-by-count": 291,
+   "title": [
+    "Testing for Speculative Bubbles in Stock Markets: A Comparison of Alternative Methods"
+   ],
+   "prefix": "10.1093",
+   "volume": "10",
+   "author": [
+    {
+     "given": "U.",
+     "family": "Homm",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "J.",
+     "family": "Breitung",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2011,
+      12,
+      28
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "1_25868498",
+     "doi-asserted-by": "crossref",
+     "first-page": "821",
+     "DOI": "10.2307/2951764",
+     "volume": "61",
+     "year": "1993",
+     "ISSN": "https://id.crossref.org/issn/0012-9682",
+     "issn-type": "print"
+    },
+    {
+     "key": "2_25629769",
+     "doi-asserted-by": "crossref",
+     "first-page": "47",
+     "DOI": "10.2307/2998540",
+     "volume": "66",
+     "year": "1998",
+     "ISSN": "https://id.crossref.org/issn/0012-9682",
+     "issn-type": "print"
+    },
+    {
+     "key": "3_41481260",
+     "doi-asserted-by": "crossref",
+     "first-page": "271",
+     "DOI": "10.2307/1391542",
+     "volume": "10",
+     "year": "1992",
+     "journal-title": "JOURNAL OF BUSINESS ECONOMIC STATISTICS"
+    },
+    {
+     "issue": "3",
+     "key": "4_38401547",
+     "doi-asserted-by": "publisher",
+     "first-page": "369",
+     "DOI": "10.2307/2297634",
+     "volume": "53",
+     "year": "1986",
+     "journal-title": "The Review of Economic Studies",
+     "ISSN": "https://id.crossref.org/issn/0034-6527",
+     "issn-type": "print"
+    },
+    {
+     "key": "6_41481261",
+     "doi-asserted-by": "crossref",
+     "first-page": "33",
+     "DOI": "10.1016/j.jeconom.2003.10.028",
+     "volume": "123",
+     "year": "2004",
+     "ISSN": "https://id.crossref.org/issn/0304-4076",
+     "issn-type": "print"
+    },
+    {
+     "key": "8_40635633",
+     "doi-asserted-by": "crossref",
+     "first-page": "1045",
+     "DOI": "10.2307/2171955",
+     "volume": "64",
+     "year": "1996",
+     "ISSN": "https://id.crossref.org/issn/0012-9682",
+     "issn-type": "print"
+    },
+    {
+     "key": "9_31578802",
+     "doi-asserted-by": "crossref",
+     "first-page": "2633",
+     "DOI": "10.1016/j.jbankfin.2004.10.003",
+     "volume": "29",
+     "year": "2005",
+     "journal-title": "JOURNAL OF BANKING AND FINANCE"
+    },
+    {
+     "key": "10_29968732",
+     "first-page": "520",
+     "volume": "78",
+     "year": "1988",
+     "journal-title": "The American economic review",
+     "ISSN": "https://id.crossref.org/issn/0002-8282",
+     "issn-type": "print"
+    },
+    {
+     "key": "11_34205422",
+     "first-page": "922",
+     "volume": "81",
+     "year": "1991",
+     "journal-title": "The American economic review",
+     "ISSN": "https://id.crossref.org/issn/0002-8282",
+     "issn-type": "print"
+    },
+    {
+     "key": "13_29460937",
+     "first-page": "1189",
+     "volume": "81",
+     "year": "1991",
+     "journal-title": "The American economic review",
+     "ISSN": "https://id.crossref.org/issn/0002-8282",
+     "issn-type": "print"
+    },
+    {
+     "key": "15_41481262",
+     "doi-asserted-by": "crossref",
+     "first-page": "166",
+     "DOI": "10.1111/j.1467-6419.2007.00530.x",
+     "volume": "22",
+     "year": "2008",
+     "ISSN": "https://id.crossref.org/issn/0950-0804",
+     "issn-type": "print"
+    },
+    {
+     "key": "16_41481263",
+     "doi-asserted-by": "crossref",
+     "first-page": "97",
+     "DOI": "10.1016/S0304-4076(99)00031-7",
+     "volume": "95",
+     "year": "2000",
+     "ISSN": "https://id.crossref.org/issn/0304-4076",
+     "issn-type": "print"
+    },
+    {
+     "key": "17_41481264",
+     "doi-asserted-by": "crossref",
+     "first-page": "389",
+     "DOI": "10.1016/S0304-4076(02)00087-8",
+     "volume": "109",
+     "year": "2002",
+     "ISSN": "https://id.crossref.org/issn/0304-4076",
+     "issn-type": "print"
+    },
+    {
+     "key": "18_25703586",
+     "doi-asserted-by": "crossref",
+     "first-page": "555",
+     "DOI": "10.2307/1911512",
+     "volume": "49",
+     "year": "1981",
+     "ISSN": "https://id.crossref.org/issn/0012-9682",
+     "issn-type": "print"
+    },
+    {
+     "key": "19_41481265",
+     "doi-asserted-by": "crossref",
+     "first-page": "291",
+     "DOI": "10.1111/1368-423X.t01-1-00110",
+     "volume": "6",
+     "year": "2003",
+     "journal-title": "THE ECONOMETRICS JOURNAL"
+    },
+    {
+     "key": "20_41481266",
+     "first-page": "139",
+     "volume": "15",
+     "year": "1999",
+     "journal-title": "ECONOMETRIC THEORY"
+    },
+    {
+     "key": "21_41481267",
+     "doi-asserted-by": "crossref",
+     "first-page": "201",
+     "DOI": "10.1111/j.1468-2354.2010.00625.x",
+     "volume": "52",
+     "year": "2011",
+     "journal-title": "INTERNATIONAL ECONOMIC REVIEW"
+    },
+    {
+     "key": "22_25963673",
+     "first-page": "421",
+     "volume": "71",
+     "year": "1981",
+     "journal-title": "The American economic review",
+     "ISSN": "https://id.crossref.org/issn/0002-8282",
+     "issn-type": "print"
+    },
+    {
+     "key": "23_31066364",
+     "doi-asserted-by": "crossref",
+     "first-page": "381",
+     "DOI": "10.1016/0165-1765(85)90058-8",
+     "volume": "18",
+     "year": "1985",
+     "ISSN": "https://id.crossref.org/issn/0165-1765",
+     "issn-type": "print"
+    },
+    {
+     "key": "24_41481268",
+     "doi-asserted-by": "crossref",
+     "first-page": "207",
+     "DOI": "10.1111/j.1468-0084.2004.00117.x",
+     "volume": "67",
+     "year": "2005",
+     "ISSN": "https://id.crossref.org/issn/0305-9049",
+     "issn-type": "print"
+    },
+    {
+     "key": "25_31266066",
+     "first-page": "1",
+     "volume": "3",
+     "year": "2004",
+     "journal-title": "ECONOMICS BULLETIN"
+    },
+    {
+     "issue": "3",
+     "key": "26_38611138",
+     "doi-asserted-by": "publisher",
+     "first-page": "553",
+     "DOI": "10.2307/1884217",
+     "volume": "102",
+     "year": "1987",
+     "journal-title": "The Quarterly Journal of Economics",
+     "ISSN": "https://id.crossref.org/issn/0033-5533",
+     "issn-type": "print"
+    },
+    {
+     "key": "27_41481269",
+     "doi-asserted-by": "crossref",
+     "first-page": "99",
+     "DOI": "10.1002/jae.776",
+     "volume": "20",
+     "year": "2005",
+     "journal-title": "JOURNAL OF APPLIED ECONOMETRICS"
+    }
+   ],
+   "container-title": [
+    "Journal of Financial Econometrics"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://academic.oup.com/jfec/article-pdf/10/1/198/2280083/nbr009.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2017,
+      8,
+      23
+     ]
+    ],
+    "date-time": "2017-08-23T13:07:03Z",
+    "timestamp": 1503493623000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/jfec/article-lookup/doi/10.1093/jjfinec/nbr009"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2011,
+      12,
+      28
+     ]
+    ]
+   },
+   "references-count": 23,
+   "journal-issue": {
+    "issue": "1",
+    "published-online": {
+     "date-parts": [
+      [
+       2011,
+       12,
+       28
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2012,
+       1,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/jjfinec/nbr009",
+   "relation": {},
+   "ISSN": [
+    "1479-8409",
+    "1479-8417"
+   ],
+   "issn-type": [
+    {
+     "value": "1479-8409",
+     "type": "print"
+    },
+    {
+     "value": "1479-8417",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2011,
+      12,
+      28
+     ]
+    ]
+   }
+  }
+ }
+}

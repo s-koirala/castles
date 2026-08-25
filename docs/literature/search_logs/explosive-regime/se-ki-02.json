@@ -1,0 +1,481 @@
+{
+ "query_id": "se-ki-02",
+ "arm": "known-item",
+ "ki": "KI-02",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1111/iere.12132",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      23
+     ]
+    ],
+    "date-time": "2026-08-23T14:56:53Z",
+    "timestamp": 1787497013993,
+    "version": "build-2736575974"
+   },
+   "reference-count": 44,
+   "publisher": "Wiley",
+   "issue": "4",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2015,
+        10,
+        28
+       ]
+      ],
+      "date-time": "2015-10-28T00:00:00Z",
+      "timestamp": 1445990400000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Int Economic Review"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2015,
+      11
+     ]
+    ]
+   },
+   "abstract": "<jats:p>\n                    Recent work on econometric detection mechanisms has shown the effectiveness of recursive procedures in identifying and dating financial bubbles in real time. These procedures are useful as warning alerts in surveillance strategies conducted by central banks and fiscal regulators with real‐time data. Use of these methods over long historical periods presents a more serious econometric challenge due to the complexity of the nonlinear structure and break mechanisms that are inherent in multiple‐bubble phenomena within the same sample period. To meet this challenge, this article develops a new recursive flexible window method that is better suited for practical implementation with long historical time series. The method is a generalized version of the sup augmented Dickey–Fuller (ADF) test of Phillips et al. (“Explosive behavior in the 1990s NASDAQ: When did exuberance escalate asset values?”\n                    <jats:italic>International Economic Review</jats:italic>\n                    52 (2011), 201–26; PWY) and delivers a consistent real‐time date‐stamping strategy for the origination and termination of multiple bubbles. Simulations show that the test significantly improves discriminatory power and leads to distinct power gains when multiple bubbles occur. An empirical application of the methodology is conducted on S&amp;P 500 stock market data over a long historical period from January 1871 to December 2010. The new approach successfully identifies the well‐known historical episodes of exuberance and collapses over this period, whereas the strategy of PWY and a related cumulative sum (CUSUM) dating procedure locate far fewer episodes in the same sample range.\n                  </jats:p>",
+   "DOI": "10.1111/iere.12132",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2015,
+      10,
+      28
+     ]
+    ],
+    "date-time": "2015-10-28T06:14:55Z",
+    "timestamp": 1446012895000
+   },
+   "page": "1043-1078",
+   "source": "Crossref",
+   "is-referenced-by-count": 1014,
+   "title": [
+    "TESTING FOR MULTIPLE BUBBLES: HISTORICAL EPISODES OF EXUBERANCE AND COLLAPSE IN THE S&amp;P 500"
+   ],
+   "prefix": "10.1111",
+   "volume": "56",
+   "author": [
+    {
+     "given": "Peter C. B.",
+     "family": "Phillips",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Yale University U.S.A., University of Auckland, New Zealand, University of Southampton, U.K., and Singapore Management University, Singapore; Macquarie University and CAMA, Australia Singapore Management University  Singapore"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Shuping",
+     "family": "Shi",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Yale University U.S.A., University of Auckland, New Zealand, University of Southampton, U.K., and Singapore Management University, Singapore; Macquarie University and CAMA, Australia Singapore Management University  Singapore"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jun",
+     "family": "Yu",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Yale University U.S.A., University of Auckland, New Zealand, University of Southampton, U.K., and Singapore Management University, Singapore; Macquarie University and CAMA, Australia Singapore Management University  Singapore"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2015,
+      10,
+      28
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_10_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/1468-0262.00393"
+    },
+    {
+     "key": "e_1_2_10_3_1",
+     "volume-title": "Lords of Finance: The Bankers Who Broke the World",
+     "author": "Ahamed L.",
+     "year": "2009"
+    },
+    {
+     "key": "e_1_2_10_4_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/rfs/hhl021"
+    },
+    {
+     "key": "e_1_2_10_5_1",
+     "first-page": "724",
+     "article-title": "Multidimensional Uncertainty and Herd Behavior in Financial Markets",
+     "volume": "88",
+     "author": "Avery C.",
+     "year": "1998",
+     "journal-title": "American Economic Review"
+    },
+    {
+     "key": "e_1_2_10_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1214/aos/1176342709"
+    },
+    {
+     "key": "e_1_2_10_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2297634"
+    },
+    {
+     "key": "e_1_2_10_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0165-1765(79)90017-X"
+    },
+    {
+     "key": "e_1_2_10_9_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jeconom.2003.10.028"
+    },
+    {
+     "key": "e_1_2_10_10_1",
+     "unstructured": "Caspi I. “Right‐Tailed ADF Tests: Eviews Add‐In ” Mimeo Bank of Israel 2013."
+    },
+    {
+     "key": "e_1_2_10_11_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2171955"
+    },
+    {
+     "key": "e_1_2_10_12_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/rfs/5.2.243"
+    },
+    {
+     "key": "e_1_2_10_13_1",
+     "volume-title": "Asset Pricing",
+     "author": "Cochrane J. H.",
+     "year": "2005"
+    },
+    {
+     "key": "e_1_2_10_14_1",
+     "volume-title": "The Origin of Financial Crises: Central Banks, Credit Bubbles and the Efficient Market Fallacy",
+     "author": "Cooper G.",
+     "year": "2008"
+    },
+    {
+     "key": "e_1_2_10_15_1",
+     "first-page": "520",
+     "article-title": "Explosive Rational Bubbles in Stock Prices",
+     "volume": "78",
+     "author": "Diba B. T.",
+     "year": "1988",
+     "journal-title": "The American Economic Review"
+    },
+    {
+     "key": "e_1_2_10_16_1",
+     "first-page": "922",
+     "article-title": "Pitfalls in Testing for Explosive Bubbles in Asset Prices",
+     "volume": "81",
+     "author": "Evans G. W.",
+     "year": "1991",
+     "journal-title": "The American Economic Review"
+    },
+    {
+     "key": "e_1_2_10_17_1",
+     "volume-title": "The Ascent of Money",
+     "author": "Ferguson N.",
+     "year": "2008"
+    },
+    {
+     "key": "e_1_2_10_18_1",
+     "first-page": "1189",
+     "article-title": "Intrinsic Bubbles: The Case of Stock Prices",
+     "volume": "81",
+     "author": "Froot K. A.",
+     "year": "1991",
+     "journal-title": "American Economic Review"
+    },
+    {
+     "key": "e_1_2_10_19_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0014-2921(94)90073-6"
+    },
+    {
+     "key": "e_1_2_10_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1467-6419.2007.00530.x"
+    },
+    {
+     "key": "e_1_2_10_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/(SICI)1099-1255(199903/04)14:2<143::AID-JAE500>3.0.CO;2-X"
+    },
+    {
+     "key": "e_1_2_10_22_1",
+     "unstructured": "Harvey D. I. S. J.Leybourne R.Sollis andR.Taylor “Testings for Explosive Financial Bubbles in the Presence of Non‐stationary Volatility ” Working Paper 2014 available fromhttp://www.nottingham.ac.uk/lezdih/bubble_bootstrap.pdf."
+    },
+    {
+     "key": "e_1_2_10_23_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jjfinec/nbr009"
+    },
+    {
+     "key": "e_1_2_10_24_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0304-4076(99)00031-7"
+    },
+    {
+     "key": "e_1_2_10_25_1",
+     "unstructured": "Lee J.andP. C. B.Phillips “Asset Pricing with Financial Bubble Risk ” Working Paper Yale University 2011."
+    },
+    {
+     "key": "e_1_2_10_26_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2202/1558-3708.1370"
+    },
+    {
+     "key": "e_1_2_10_27_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jfineco.2005.05.009"
+    },
+    {
+     "key": "e_1_2_10_28_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2297545"
+    },
+    {
+     "key": "e_1_2_10_29_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jeconom.2005.08.002"
+    },
+    {
+     "key": "e_1_2_10_30_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/biomet/75.2.335"
+    },
+    {
+     "key": "e_1_2_10_31_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Phillips P. C. B andS.Shi “Financial Bubble Implosion ” Working Paper Presented at NZESG Conference February 2014.",
+     "DOI": "10.2139/ssrn.2533015"
+    },
+    {
+     "key": "e_1_2_10_32_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1214/aos/1176348666"
+    },
+    {
+     "key": "e_1_2_10_33_1",
+     "unstructured": "Phillips P. C. B andJ.Yu “Limit Theory for Dating the Origination and Collapse of Mildly Explosive Periods in Time Series Data ” Unpublished manuscript Sim Kee Boon Institute for Financial Economics Singapore Management University 2009."
+    },
+    {
+     "key": "e_1_2_10_34_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3982/QE82"
+    },
+    {
+     "key": "e_1_2_10_35_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/obes.12026"
+    },
+    {
+     "key": "e_1_2_10_36_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/iere.12132"
+    },
+    {
+     "key": "e_1_2_10_37_1",
+     "unstructured": "Phillips P. C. B S.Shi andJ.Yu “Supplement to Two Papers on Multiple Bubbles ” Manuscript 2015b available fromhttps://sites.google.com/site/shupingshi/TN_GSADFtest.pdf?attredirects=0&d=1."
+    },
+    {
+     "key": "e_1_2_10_38_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1468-2354.2010.00625.x"
+    },
+    {
+     "key": "e_1_2_10_39_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/biomet/71.3.599"
+    },
+    {
+     "key": "e_1_2_10_40_1",
+     "unstructured": "Shi S. “Econometric Tests for Nonlinear Exuberance in Economics and Finance ” PhD Thesis The Australian National University 2011."
+    },
+    {
+     "key": "e_1_2_10_41_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00181-012-0635-8"
+    },
+    {
+     "key": "e_1_2_10_42_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jjfinec/nbu025"
+    },
+    {
+     "key": "e_1_2_10_43_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2202/1558-3708.1038"
+    },
+    {
+     "key": "e_1_2_10_44_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/1368-423X.12016"
+    },
+    {
+     "key": "e_1_2_10_45_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1198/073500102753410372"
+    }
+   ],
+   "container-title": [
+    "International Economic Review"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fiere.12132",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/iere.12132",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      10,
+      3
+     ]
+    ],
+    "date-time": "2023-10-03T00:36:39Z",
+    "timestamp": 1696293399000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1111/iere.12132"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2015,
+      10,
+      28
+     ]
+    ]
+   },
+   "references-count": 44,
+   "journal-issue": {
+    "issue": "4",
+    "published-print": {
+     "date-parts": [
+      [
+       2015,
+       11
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1111/iere.12132"
+   ],
+   "URL": "https://doi.org/10.1111/iere.12132",
+   "archive": [
+    "Portico"
+   ],
+   "relation": {},
+   "ISSN": [
+    "0020-6598",
+    "1468-2354"
+   ],
+   "issn-type": [
+    {
+     "value": "0020-6598",
+     "type": "print"
+    },
+    {
+     "value": "1468-2354",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2015,
+      10,
+      28
+     ]
+    ]
+   }
+  }
+ }
+}

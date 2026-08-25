@@ -1,0 +1,359 @@
+{
+ "query_id": "se-crossref-01",
+ "protocol_query_id": "er-crossref-01",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=sup+ADF+test+explosive+behavior+bubble+date+stamping&rows=20&select=DOI,title,issued,container-title,type,abstract",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "total_hits": 2850830,
+ "retrieved_count": 20,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 2850830,
+   "items": [
+    {
+     "DOI": "10.1007/s00181-020-01859-7",
+     "title": [
+      "Sup-ADF-style bubble-detection methods under test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        3,
+        29
+       ]
+      ]
+     },
+     "container-title": [
+      "Empirical Economics"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>In this paper, we analyze the capacity of supremum augmented Dickey–Fuller (SADF), generalized SADF (GSADF), and of several heteroscedasticity-adjusted sup-ADF-style tests for detecting and date-stamping financial bubbles. Our Monte Carlo simulations find that the majority of the sup-ADF-style tests exhibit substantial size distortions, when the data-generating process is subject to leverage effects. Moreover, the sup-ADF-style tests often have low empirical power in identifying a (flexible and empirically relevant) rational stock-price bubble, recently proposed in the literature. In a simulation study, we compare the effectiveness of two real-time bubble date-stamping procedures (Procedures 1 and 2), both based on variants of the backward SADF (BSADF) test. While Procedure 1 (predominantly) provides better estimates of the bubbles’ origination and termination dates than Procedure 2, the first procedure frequently stamps non-existing bubbles. In an empirical application, we use NASDAQ data covering a time-span of 45 years and find that the bubble date-stamping outcomes of both procedures are sensitive to the data frequency chosen by the econometrician.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.jempfin.2020.06.004",
+     "title": [
+      "Date-stamping multiple bubble regimes"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Empirical Finance"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.18506/anemon.506466",
+     "title": [
+      "Bitcoin Piyasasında Balonlar: Genelleştirilmiş Eküs ADF Testi",
+      "Bubbles in Bitcoin Markets: Gezeralized Sup ADF Test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019,
+        12,
+        13
+       ]
+      ]
+     },
+     "container-title": [
+      "Anemon Muş Alparslan Üniversitesi Sosyal Bilimler Dergisi"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p xml:lang=\"tr\">İnternet\nkullanımındaki hızlı gelişmeler ile birlikte, insan hayatına fiziksel olarak\ndahil olan para da dijitalleşmeye başlamıştır. Bu tür dijitalleşmiş para\nbirimlerine genel olarak kripto para denilmektedir. Hali hazırda, Bitcoin,\nkripto para birimleri arasında en yüksek işlem hacmine sahiptir. İlk Bitcoin\n2009 yılında piyasaya sürüldü. Fakat son birkaç yılda ciddi derecede ilgi\nçekmeye başladı. Bu ilginin temel nedenlerinden birisi, Bitcoin'in değerinde\nönemli artışların olmasıdır. Söz konusu değer artışları bağlamında, Bitcoin\npiyasasında spekülatif balonların varlığının araştırılması önem arz etmektedir.\nBu bağlamda, çalışmanın amacı 2015-2018 dönemi boyunca Bitcoin piyasasında\nspekülatif balonların varlığını araştırmaktır. Amaç doğrultusunda, spekülatif\nbalonların tespiti için Phillips vd. (2015) tarafından geliştirilen\nGenelleştirilmiş Eküs ADF testi kullanılmıştır. Elde edilen bulgular, Bitcoin\npiyasasında çok sayıda baloncuk olduğunu göstermektedir. </jats:p>"
+    },
+    {
+     "DOI": "10.3934/fmf.2026005",
+     "title": [
+      "Is there an AI bubble? Robust date-stamping for periods of exuberance"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "container-title": [
+      "Frontiers of Mathematical Finance"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.3939356",
+     "title": [
+      "On the Asymptotic Behavior of Bubble Date Estimators"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>In this study, we extend the three-regime bubble model of Pang et al. (2021) to allow the forth regime followed by the unit root process after recovery. We provide the asymptotic and finite sample justification of the consistency of the collapse date estimator in the two-regime AR(1) model. The consistency allows us to split the sample before and after the date of collapse and to consider the estimation of the date of exuberation and date of recovery separately. We have also found that the limiting behavior of the recovery date varies depending on the extent of explosiveness and recovering.</jats:p>"
+    },
+    {
+     "DOI": "10.38100/jhuf.2017.2.1.57",
+     "title": [
+      "Testing for a Housing Bubble at Seoul using the Sup ADF Test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Housing and Urban Finance"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1093/oed/4564517919",
+     "title": [
+      "date-stamping, n."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023,
+        3,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "Oxford English Dictionary"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.2139/ssrn.4038320",
+     "title": [
+      "Bubbles All the Way Down? Detecting and Date-Stamping Bubble Behaviour in DeFi and NFT Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>Amid surging market values and widespread regulatory discussion, NFT and DeFi markets are widely perceived as being simply speculative, bubble, assets. This paper detects the existence and dates of price bubbles in the NFT and DeFi market by applying SADF and GSADF tests. We document that NFT and DeFi markets both exhibit speculative bubbles, and NFT bubbles are more recurrent and have higher magnitudes than DeFi bubbles. The price bubbles in the NFT and DeFi markets are highly correlated with market hype and with more general cryptocurrency market uncertainty. We do find periods where bubbles are not detected, suggesting that these markets do have some intrinsic value and should not be dismissed as simply bubbles.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.4045855",
+     "title": [
+      "Bubbles All the Way Down? Detecting and Date-Stamping Bubble Behaviour in Defi and Nft Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.7717/peerjcs.2215/table-3",
+     "title": [
+      "Table 3: ADF test of the residual series."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.7717/peerj-cs.3293/table-2",
+     "title": [
+      "Table 2: ADF stationarity test of time series."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.7717/peerjcs.2215/table-4",
+     "title": [
+      "Table 4: ADF test of the fitted spread series."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.7717/peerj-cs.2754/table-3",
+     "title": [
+      "Table 3: ADF test results of the model."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.1111/j.1475-6773.2006.00555.x",
+     "title": [
+      "Date Stamping: Will It Withstand the Test of Time?"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006,
+        5,
+        5
+       ]
+      ]
+     },
+     "container-title": [
+      "Health Services Research"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.21511/bbs.12(1-1).2017.02",
+     "title": [
+      "Testing for explosive bubbles in the South African-US exchange rate using the sequential ADF procedures"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017,
+        4,
+        25
+       ]
+      ]
+     },
+     "container-title": [
+      "Banks and Bank Systems"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p>This paper tests for the existence of speculative bubbles in the South African-US exchange rate using the sequential ADF procedures. In particular, the paper uses the SADF and GSADF right-tailed unit root tests to explore the existence of explosive bubbles in the South African-US exchange rate for the time period running from January1980 through July 2012. The results provide evidence in support of the existence of explosive bubbles in the nominal rand-dollar exchange rate, the real exchange rate of traded and non-traded goods. The explosive behavior exhibited by the South African rand-US dollar exchange rate can be interpreted as evidence of rational bubbles given that this behavior is driven by the fundamentals including relative prices of traded and non-traded goods.</jats:p>"
+    },
+    {
+     "DOI": "10.7873/date2014.122",
+     "title": [
+      "Stochastic analysis of Bubble Razor"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2014
+       ]
+      ]
+     },
+     "container-title": [
+      "Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), 2014"
+     ],
+     "type": "proceedings-article"
+    },
+    {
+     "DOI": "10.2139/ssrn.972730",
+     "title": [
+      "Explosive Behavior and the Nasdaq Bubble in the 1990s: When Did Irrational Exuberance Escalate Asset Values?"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>A recursive test procedure is suggested that provides a mechanism for testing explosive behavior, date-stamping the origination and collapse of economic bubbles, and providing valid confidence intervals for the bubble growth rate. The method involves the recursive implementation of a right-side unit root test and a sup test, both of which are easy to use in practical applications, and some new limit theory for mildly explosive processes. The test procedure is shown to have discriminatory power in detecting periodically collapsing bubbles, overcoming a weakness in earlier applications of unit root tests for economic bubbles. Some asymptotic properties of the Evans (1991) model of periodically collapsing bubbles are analyzed andthe paper develops a new model in which bubble duration depends on the strength of the cognitive bias underlying herd behavior in the market. An empirical application to Nasdaq stock price index in the 1990s provides confirmation of the existence of a financial bubble and date-stamps the origination of the bubble to June 1995, prior to the famous remark in December 1996 by Alan Greenspan about irrational exuberance in financial market, thereby giving the remark firm empirical content.</jats:p>"
+    },
+    {
+     "DOI": "10.7873/date.2014.122",
+     "title": [
+      "Stochastic analysis of Bubble Razor"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2014
+       ]
+      ]
+     },
+     "container-title": [
+      "Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), 2014"
+     ],
+     "type": "proceedings-article"
+    },
+    {
+     "DOI": "10.3990/1.9789036527439",
+     "title": [
+      "Explosive micro-bubble actuator"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "dissertation"
+    },
+    {
+     "DOI": "10.2139/ssrn.4494963",
+     "title": [
+      "Sector Trading and Bubble Riding Behavior: Construction and Evaluation of Trading Strategy Based on Bubble Test"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023
+       ]
+      ]
+     },
+     "type": "posted-content"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

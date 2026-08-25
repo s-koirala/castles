@@ -1,0 +1,91 @@
+{
+  "date": "2026-08-25",
+  "adjudicator": "section-9.1(ii)-(iv) full-text adjudication; verdict vocabulary and criteria applied as fixed in docs/methodology/protocol_explosive-regime-review_2026-08-24.md section 9.1",
+  "NB-02": {
+    "verdict": "episode-statistic-null",
+    "grounds": "The stated null (stretched-exponential / exponential distribution of drawdowns, non-parametrically re-tested by 1000 return-reshuffled surrogate series per market) is fitted to and tested on the population of COMPLETED drawdowns extracted from each full historical sample. The test object is the count of drawdowns exceeding a threshold in the whole sample versus the surrogate ensemble, yielding a per-series confidence level -- an ex-post sample-level comparison. No decision rule executable at any time t during an episode is stated anywhere in the paper: the drawdown is defined from the last local maximum to the NEXT local minimum, so the episode boundary is knowable only after the subsequent reversal (consistent with the naming sweep's causality code F), and no bounded-lag online stopping rule or per-episode time-t reference distribution is given. The 'outlier' verdict attaches to the largest 1-2% of completed drawdowns as a class, not to the assignment of any drawdown-episode state at time t. Criteria of section 9.1(ii): assignment-null condition fails (no time-t-executable rule with a null reference distribution governing the decision); episode-statistic-null condition holds exactly.",
+    "quotes": [
+      {
+        "quote": "We define a drawdown as a persistent decrease in the price (specifically the closing price) over consecutive days. A drawdown is thus the cumulative loss from the last maximum to the next minimum of the price.",
+        "location": "Section 1 (Introduction), p. 1 of arXiv:cond-mat/0010050v2"
+      },
+      {
+        "quote": "we shall take the stretched exponential law as our null hypothesis.",
+        "location": "Section 1, p. 1"
+      },
+      {
+        "quote": "for each financial time series, we have reshuffled the daily returns 1000 times and hence generated 1000 synthetic data sets for each.",
+        "location": "Section 5 (Synthetic tests and statistical significance), p. 8"
+      },
+      {
+        "quote": "The third column gives the number of drawdowns above the threshold in the true data. The fourth column gives the number of surrogate data sets with 0, 1, 2, 3, ... drawdowns larger than the threshold. The last column quantifies the corresponding confidence level.",
+        "location": "Section 5, p. 8"
+      },
+      {
+        "quote": "The remaining 1 - 2% of the largest drawdowns are not at all explained by the exponential null-hypothesis or its extension in terms of the stretched exponential.",
+        "location": "Section 6 (Summary and discussion), item 6, pp. 9-10"
+      }
+    ],
+    "locations": "Null stated: Section 1 p.1 and Appendix A (derivation of exponential/stretched-exponential null under independent increments). Test executed: Section 3 (fits, Eq. (4) stretched exponential), Section 5 + Tables 6-7 (surrogate counts and confidence levels). Definition fixing the ex-post episode boundary: Section 1 p.1.",
+    "version_adjudicated": "arXiv:cond-mat/0010050v2 (25 Jul 2001), preprint twin of the journal version, Journal of Risk 4(2):69-110 (2001/02), doi:10.21314/jor.2002.058. Journal full text not open-access; the v2 revision postdates submission and matches the journal title, authors, and reported content (abstract, section structure, and tables consistent with the journal record confirmed in the CSL store entry johansen2001jor2002058).",
+    "eligibility_note": "S-a FAIL from full text: the alternative hypothesis is 'a specific amplification mechanism' / transient dependence in successive daily drops producing outlier drawdowns -- not explosive or mildly explosive autoregressive behavior (no autoregressive root rho > 1 anywhere in the paper). S-b FAIL: no time-indexed assignment output; output is a sample-level outlier classification of completed episodes. S-c: a null with a reference distribution IS stated (stretched exponential + surrogate ensemble), but it does not govern a time-indexed decision, so S-c as written (reference distribution 'against which the time-indexed decision is taken') also fails. Out-of-corpus adjudication target per protocol section 9.1 final paragraph."
+  },
+  "NB-08": {
+    "verdict": "episode-statistic-null",
+    "grounds": "Pure analytic-apparatus paper: it derives the exact joint law of (tau_a, M_tau_a, Y_tau_a) -- the first passage time of the drawdown process over a threshold a, the running maximum at that time, and the overshoot -- for time-homogeneous Markov processes, as the unique solution to an integral equation in two-sided exit quantities, with explicit forms for one-sided-jump Markov and general Levy processes. These are distributional characterizations of drawdown-path functionals under a single fully specified process; the paper states no null-versus-alternative decision problem, no test statistic, no critical values, and no procedure assigning a state to any time index. Its only contact with sequential decision-making is a citation of quickest-detection methods (Poor & Hadjiliadis 2009, ref [31]) as one application area among several in the introduction. Under section 9.1(iii) the assignment-null condition fails: the first-passage laws are not presented as a stopping-time test with a null distribution for an online decision. DERIVABILITY NOTED per the protocol's explicit rule: tau_a = inf{t > 0 : Y_t > a} IS an online stopping time (Y_t = M_t - X_t is computable at t from data through t), and the derived law of tau_a is exactly the null run-length/false-alarm distribution a drawdown-based monitoring rule would require -- so an assignment procedure with a known null distribution is directly derivable from Theorem 3.1 and its Levy/spectrally-one-sided corollaries. Per section 9.1(iii), that derivability is a TO COMPUTE-adjacent observation, not a published assignment null.",
+    "quotes": [
+      {
+        "quote": "the joint law of the three drawdown quantities is shown to be the unique solution to an integral equation which is expressed in terms of fundamental two-sided exit quantities of the underlying process.",
+        "location": "Abstract, p. 603"
+      },
+      {
+        "quote": "Let tau_a = inf{t > 0 : Y_t > a} be the first time the magnitude of drawdowns exceeds a given threshold a > 0. Note that (sup_{0<=s<=t} Y_s > a) = (tau_a <= t) P-almost surely. Hence, the distributional study of the maximum drawdown of X is equivalent to the study of the stopping time tau_a.",
+        "location": "Section 1, p. 604 (notation transliterated from symbols)"
+      },
+      {
+        "quote": "Drawdowns are also closely related to many problems in mathematical finance, actuarial science, and statistics such as the pricing of Russian options ..., De Finetti's dividend problem ..., loss-carry-forward taxation models ..., and change-point detection methods (see, e.g. [31]).",
+        "location": "Section 1, p. 604 -- the paper's only reference to detection, cited as an application area; no procedure is proposed"
+      },
+      {
+        "quote": "In general, our main result reduces the drawdown problem to fundamental two-sided exit quantities.",
+        "location": "Section 1, p. 605"
+      }
+    ],
+    "locations": "Apparatus: Section 2 (two-sided exit quantities B1, B2, C, p. 605), Section 3 (joint law of (tau_a, Y_tau_a, M_tau_a) for general time-homogeneous Markov processes), Section 4 (numerical examples). No hypothesis-testing or state-assignment content anywhere pp. 603-626; references close the paper with no concluding test proposal.",
+    "version_adjudicated": "Journal version itself: J. Appl. Prob. 54(2):603-626 (2017), doi:10.1017/jpr.2017.20, open-access PDF from Cambridge Core. arXiv:1702.07786 is the preprint twin; not needed.",
+    "eligibility_note": "S-a FAIL from full text: there is no alternative hypothesis at all, let alone an explosive/mildly explosive autoregressive one -- the paper is probability theory under a single specified process, not a test. S-b FAIL: no time-indexed state assignment output. S-c FAIL as written: no stated null hypothesis against which a time-indexed decision is taken (exact laws under null processes are derived, but no decision). Out-of-corpus adjudication target per protocol section 9.1 final paragraph."
+  },
+  "NB-13": {
+    "verdict": "episode-statistic-null",
+    "grounds": "The test is a two-stage full-sample construction and the paper says so itself: stage 1 estimates DCC-GARCH conditional correlations over the whole sample and computes the cumulative abnormal correlation change CACC_t = rho_t - rho_{t-K}, flagging 'extreme' changes against a threshold of one standard deviation of the (full-sample) correlation-change distribution; stage 2 regresses the estimated correlations on contemporaneous/lagged volatilities, signed return shocks, and event dummies, with significance carried by t-statistics on regression coefficients estimated over the entire sample. The authors explicitly characterize the approach as 'an a posteriori analysis' as its advantage over a-priori crisis dating. Flight-to-quality / flight-from-quality / contagion are DEFINED as coefficient-level comovement statements (correlation decrease conditional on falling/rising markets; correlation increase for contagion), and the day-level flight labels (e.g. October 1997, June 1998, post-September-11) are induced retroactively from full-sample estimates -- the DCC parameters, the SD threshold, and every regression coefficient are functions of the complete sample. No test statistic for a given day's label is computable from information through that day, and no reference distribution for a day-t assignment decision is stated anywhere. This is precisely the configuration section 9.1(iv) pre-specifies: 'Full-sample coefficient tests that induce day labels are episode-statistic-null even though day labels exist.'",
+    "quotes": [
+      {
+        "quote": "We propose a definition and a test for flight-to-quality, flight-from-quality and cross-asset contagion and examine their characteristics and effects for the financial system.",
+        "location": "Journal-version abstract, J. Financial Stability 5(4):339-352 (2009), verified via the RePEc/IDEAS record for doi:10.1016/j.jfs.2008.08.001 (journal full text paywalled; see version_adjudicated)"
+      },
+      {
+        "quote": "In accordance with the literature, we define contagion as an increase of the correlation coefficient in a crisis period compared to a benchmark period. Flight-to-quality from stocks to bonds is defined as a decrease in the correlation coefficient and simultaneously falling stock markets.",
+        "location": "IIIS DP 122, Section 1, p. 2"
+      },
+      {
+        "quote": "Our two-stage approach has the main advantage that the test for the presence of flight-to-quality and contagion is not based on a priori defined crisis periods as in Baig and Goldfajn (1998) and Forbes and Rigobon (2002) but on an a posteriori analysis of these phenomena.",
+        "location": "IIIS DP 122, Section 2 (Econometric Framework), pp. 4-5"
+      },
+      {
+        "quote": "The time-series CACCt combined with a threshold can reveal abnormal and extreme correlation changes for every time t.",
+        "location": "IIIS DP 122, Section 2, p. 6, following Eq. (6) CACC_t = rho_t - rho_{t-K}"
+      },
+      {
+        "quote": "The plots show absolute correlation changes in falling stock markets that are larger than one standard deviation of the correlation distribution",
+        "location": "IIIS DP 122, Section 4.1, p. 14 -- the exceedance threshold is a full-sample standard deviation, not an ex-ante reference distribution"
+      },
+      {
+        "quote": "t-statistics larger than 3 (2) are highly significant at the 1% (5%) level.",
+        "location": "IIIS DP 122, notes to regression tables (e.g. Table 2 region, Section 4) -- the stated inferential apparatus is coefficient t-tests on full-sample regressions Eq. (7)"
+      }
+    ],
+    "locations": "Definitions: DP 122 Section 1 p. 2 and Table 1 p. 3. Test machinery: Section 2 pp. 4-6 (DCC Eqs. (1)-(5), CACC Eq. (6), nested regression Eqs. (7)-(8)). Ex-post flagging: Section 4.1 pp. 13-15. Conclusions: Section 5 p. 28. Journal-version claim: abstract as recorded at RePEc eee:finsta:v:5:y:2009:i:4:p:339-352.",
+    "version_adjudicated": "Full text adjudicated: IIIS Discussion Paper No. 122 (March 2006, 'Flight-to-quality or Contagion? An Empirical Analysis of Stock-bond correlations'), the working-paper twin, from tcd.ie. Journal version (J. Financial Stability 5(4):339-352, 2009, doi:10.1016/j.jfs.2008.08.001) full text NOT obtained after 4 attempts: (1) SSRN 886119 Delivery.cfm via curl -- Cloudflare challenge; (2) OpenAlex + Semantic Scholar OA lookup -- status CLOSED, no OA location; (3) web search for mirrored PDF -- none; (4) search for cached SSRN-id886119.pdf -- none. VERSION CAVEAT, recorded per instruction: the sentence 'We propose a definition and a test' appears in the journal/SSRN-2008 abstract but NOT in the DP 122 abstract; the journal version reorganizes the analysis (eight countries incl. Japan vs DP 122's Europe+US) around that definition-and-test framing. The verdict nevertheless attaches to the journal version's claims because (a) the journal abstract's definitions are the same full-sample comovement-coefficient constructs documented in the DP 122 text, and (b) section 9.1(iv) rules that full-sample coefficient tests inducing day labels are episode-statistic-null regardless of the existence of day labels. No accessible trace of the journal version suggests any day-t-computable statistic with a stated reference distribution was added between DP 122 and the journal text; if the journal full text later surfaces and contradicts this, the verdict is re-openable under protocol section 10 amendment rules.",
+    "eligibility_note": "S-a FAIL from full text: the alternative is a change in stock-bond comovement (correlation decrease/increase conditional on market direction), not explosive or mildly explosive autoregressive behavior -- no autoregressive root rho > 1 appears anywhere. S-b FAIL: day labels are induced retroactively from full-sample estimates; no time-indexed assignment decision is produced by the procedure at t. S-c FAIL as written: the stated inference (coefficient t-tests) does not govern a time-indexed decision. Out-of-corpus adjudication target per protocol section 9.1 final paragraph."
+  }
+}

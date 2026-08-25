@@ -1,0 +1,643 @@
+{
+ "query_id": "se-ki-06",
+ "arm": "known-item",
+ "ki": "KI-06",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1016/j.jempfin.2015.09.002",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      21
+     ]
+    ],
+    "date-time": "2026-08-21T12:10:31Z",
+    "timestamp": 1787314231398,
+    "version": "build-2736575974"
+   },
+   "reference-count": 40,
+   "publisher": "Elsevier BV",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2016,
+        9,
+        1
+       ]
+      ],
+      "date-time": "2016-09-01T00:00:00Z",
+      "timestamp": 1472688000000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "elsevier.com",
+     "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Journal of Empirical Finance"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2016,
+      9
+     ]
+    ]
+   },
+   "DOI": "10.1016/j.jempfin.2015.09.002",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2015,
+      9,
+      25
+     ]
+    ],
+    "date-time": "2015-09-25T22:52:02Z",
+    "timestamp": 1443221522000
+   },
+   "page": "548-574",
+   "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 152,
+   "special_numbering": "PB",
+   "title": [
+    "Tests for explosive financial bubbles in the presence of non-stationary volatility"
+   ],
+   "prefix": "10.1016",
+   "volume": "38",
+   "author": [
+    {
+     "given": "David I.",
+     "family": "Harvey",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Stephen J.",
+     "family": "Leybourne",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Robert",
+     "family": "Sollis",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "A.M. Robert",
+     "family": "Taylor",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0005",
+     "series-title": "Federal Reserve Bank of Dallas Economic and Financial Review, 3rd Quarter",
+     "first-page": "22",
+     "article-title": "Explaining stock price movements: is there a case for fundamentals?",
+     "author": "Balke",
+     "year": "2001"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0010",
+     "doi-asserted-by": "crossref",
+     "first-page": "350",
+     "DOI": "10.1016/j.econlet.2013.04.039",
+     "article-title": "Are there bubbles in the sterling-dollar exchange rate? New evidence from sequential ADF tests",
+     "volume": "120",
+     "author": "Bettendorf",
+     "year": "2013",
+     "journal-title": "Econ. Lett."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0015",
+     "series-title": "World Bank Policy Research Working Paper 5460.",
+     "article-title": "Are commodity prices more volatile now?",
+     "author": "Calvo-Gonzalez",
+     "year": "2010"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0020",
+     "doi-asserted-by": "crossref",
+     "first-page": "919",
+     "DOI": "10.1016/j.jeconom.2006.07.019",
+     "article-title": "Testing for unit roots in time series models with non-stationary volatility",
+     "volume": "140",
+     "author": "Cavaliere",
+     "year": "2007",
+     "journal-title": "J. Econ."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0025",
+     "doi-asserted-by": "crossref",
+     "first-page": "43",
+     "DOI": "10.1017/S0266466608080043",
+     "article-title": "Bootstrap unit root tests for time series with non-stationary volatility",
+     "volume": "24",
+     "author": "Cavaliere",
+     "year": "2008",
+     "journal-title": "Econ. Theory"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0030",
+     "doi-asserted-by": "crossref",
+     "first-page": "300",
+     "DOI": "10.1111/j.1467-9892.2007.00557.x",
+     "article-title": "Time-transformed unit root tests for models with non-stationary volatility",
+     "volume": "29",
+     "author": "Cavaliere",
+     "year": "2008",
+     "journal-title": "J. Time Ser. Anal."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0035",
+     "doi-asserted-by": "crossref",
+     "first-page": "393",
+     "DOI": "10.1080/07474930802467167",
+     "article-title": "Bootstrap M unit root tests",
+     "volume": "28",
+     "author": "Cavaliere",
+     "year": "2009",
+     "journal-title": "Econ. Rev."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0040",
+     "doi-asserted-by": "crossref",
+     "first-page": "1228",
+     "DOI": "10.1017/S026646660809049X",
+     "article-title": "Heteroskedastic time series with a unit root",
+     "volume": "25",
+     "author": "Cavaliere",
+     "year": "2009",
+     "journal-title": "Econ. Theory"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0045",
+     "series-title": "Stochastic Limit Theory",
+     "author": "Davidson",
+     "year": "1994"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0050",
+     "doi-asserted-by": "crossref",
+     "first-page": "55",
+     "DOI": "10.1080/07474930008800459",
+     "article-title": "Bootstrap tests: how many bootstraps?",
+     "volume": "19",
+     "author": "Davidson",
+     "year": "2000",
+     "journal-title": "Econ. Rev."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0055",
+     "doi-asserted-by": "crossref",
+     "first-page": "896",
+     "DOI": "10.1086/262046",
+     "article-title": "Competitive storage and commodity price dynamics",
+     "volume": "104",
+     "author": "Deaton",
+     "year": "1996",
+     "journal-title": "J. Polit. Econ."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0060",
+     "first-page": "520",
+     "article-title": "Explosive rational bubbles in stock prices?",
+     "volume": "78",
+     "author": "Diba",
+     "year": "1988",
+     "journal-title": "Am. Econ. Rev."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0065",
+     "doi-asserted-by": "crossref",
+     "first-page": "129",
+     "DOI": "10.1016/j.jimonfin.2013.08.008",
+     "article-title": "Bubbles in food commodity markets: four decades of evidence",
+     "volume": "42",
+     "author": "Etienne",
+     "year": "2014",
+     "journal-title": "J. Int. Money Financ."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0070",
+     "doi-asserted-by": "crossref",
+     "first-page": "65",
+     "DOI": "10.1093/ajae/aau069",
+     "article-title": "Price explosiveness, speculation, and grain futures prices",
+     "volume": "97",
+     "author": "Etienne",
+     "year": "2015",
+     "journal-title": "Am. J. Agric. Econ."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0075",
+     "first-page": "922",
+     "article-title": "Pitfalls in testing for explosive bubbles in asset prices",
+     "volume": "81",
+     "author": "Evans",
+     "year": "1991",
+     "journal-title": "Am. Econ. Rev."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0080",
+     "doi-asserted-by": "crossref",
+     "first-page": "1011",
+     "DOI": "10.1111/j.1540-6288.2010.00283.x",
+     "article-title": "Estimating volatility persistence in oil prices under structural breaks",
+     "volume": "45",
+     "author": "Ewing",
+     "year": "2010",
+     "journal-title": "Financ. Rev."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0085",
+     "doi-asserted-by": "crossref",
+     "first-page": "763",
+     "DOI": "10.1111/jtsa.12121",
+     "article-title": "Testing for mild explosivity and bubbles in LME non-ferrous metals prices",
+     "volume": "36",
+     "author": "Figuerola-Ferretti",
+     "year": "2015",
+     "journal-title": "J. Time Ser. Anal."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0090",
+     "series-title": "Discussion Paper 197, United Nations Conference on Trade and Development (UNCTAD), Geneva",
+     "article-title": "Speculative influences on commodity futures prices 2006–2008",
+     "author": "Gilbert",
+     "year": "2010"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0095",
+     "doi-asserted-by": "crossref",
+     "first-page": "217",
+     "DOI": "10.1093/erae/jbs017",
+     "article-title": "Speculative bubbles in agricultural commodity markets",
+     "volume": "40",
+     "author": "Gutierrez",
+     "year": "2013",
+     "journal-title": "Eur. Rev. Agric. Econ."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0100",
+     "doi-asserted-by": "crossref",
+     "first-page": "413",
+     "DOI": "10.2307/2171789",
+     "article-title": "Inference when a nuisance parameter is not identified under the null hypothesis",
+     "volume": "64",
+     "author": "Hansen",
+     "year": "1996",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0105",
+     "doi-asserted-by": "crossref",
+     "first-page": "575",
+     "DOI": "10.1111/1468-0262.00124",
+     "article-title": "Sample splitting and threshold estimation",
+     "volume": "68",
+     "author": "Hansen",
+     "year": "2000",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0110",
+     "series-title": "Discussion Paper",
+     "article-title": "Improving the accuracy of asset price bubble start and end date estimators",
+     "author": "Harvey",
+     "year": "2015"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0115",
+     "first-page": "198",
+     "article-title": "Testing for speculative bubbles in stock markets: a comparison of alternative methods",
+     "volume": "10",
+     "author": "Homm",
+     "year": "2012",
+     "journal-title": "J. Financ. Econ."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0120",
+     "first-page": "913",
+     "article-title": "Use of cumulative sums of squares for retrospective detection of changes in variance",
+     "volume": "89",
+     "author": "Inclan",
+     "year": "1994",
+     "journal-title": "J. Am. Stat. Assoc."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0125",
+     "doi-asserted-by": "crossref",
+     "first-page": "182",
+     "DOI": "10.1007/BF02469283",
+     "article-title": "Testing for parameter changes in ARCH models",
+     "volume": "39",
+     "author": "Kokoszka",
+     "year": "1999",
+     "journal-title": "Lith. Math. J."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0130",
+     "doi-asserted-by": "crossref",
+     "first-page": "1696",
+     "DOI": "10.1214/aos/1176351062",
+     "article-title": "Bootstrap procedures under some non i.i.d. models",
+     "volume": "16",
+     "author": "Liu",
+     "year": "1988",
+     "journal-title": "Ann. Stat."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0135",
+     "doi-asserted-by": "crossref",
+     "first-page": "255",
+     "DOI": "10.1214/aos/1176349025",
+     "article-title": "Bootstrap and wild bootstrap for high dimensional linear models",
+     "volume": "21",
+     "author": "Mammen",
+     "year": "1993",
+     "journal-title": "Ann. Stat."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0140",
+     "doi-asserted-by": "crossref",
+     "first-page": "578",
+     "DOI": "10.1080/09603107.2011.564131",
+     "article-title": "Structural breaks in volatility: the case of UK sector returns",
+     "volume": "21",
+     "author": "McMillan",
+     "year": "2011",
+     "journal-title": "Appl. Financ. Econ."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0145",
+     "doi-asserted-by": "crossref",
+     "first-page": "535",
+     "DOI": "10.1093/biomet/74.3.535",
+     "article-title": "Towards a unified asymptotic theory for autoregression",
+     "volume": "74",
+     "author": "Phillips",
+     "year": "1987",
+     "journal-title": "Biometrika"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0150",
+     "series-title": "Cowles Foundation Discussion Paper 1967, Yale University",
+     "article-title": "Financial bubble implosion",
+     "author": "Phillips",
+     "year": "2014"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0155",
+     "series-title": "Cowles Foundation Discussion Paper 1770, Yale University",
+     "article-title": "Dating the timeline of financial bubbles during the subprime crisis",
+     "author": "Phillips",
+     "year": "2010"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0160",
+     "doi-asserted-by": "crossref",
+     "first-page": "455",
+     "DOI": "10.3982/QE82",
+     "article-title": "Dating the timeline of financial bubbles during the subprime crisis",
+     "volume": "2",
+     "author": "Phillips",
+     "year": "2011",
+     "journal-title": "Quant. Econ."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0165",
+     "doi-asserted-by": "crossref",
+     "first-page": "201",
+     "DOI": "10.1111/j.1468-2354.2010.00625.x",
+     "article-title": "Explosive behavior in the 1990s Nasdaq: when did exuberance escalate stock values?",
+     "volume": "52",
+     "author": "Phillips",
+     "year": "2011",
+     "journal-title": "Int. Econ. Rev."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0170",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1111/iere.12132",
+     "article-title": "Testing for multiple bubbles: historical episodes of exuberance and collapse in the S&P 500",
+     "author": "Phillips",
+     "year": "2015",
+     "journal-title": "Int. Econ. Rev."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0175",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1111/iere.12131",
+     "article-title": "Testing for multiple bubbles: limit theory of real time detectors",
+     "author": "Phillips",
+     "year": "2015",
+     "journal-title": "Int. Econ. Rev."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0180",
+     "doi-asserted-by": "crossref",
+     "first-page": "511",
+     "DOI": "10.2307/2234529",
+     "article-title": "The present value model of rational commodity pricing",
+     "volume": "103",
+     "author": "Pindyck",
+     "year": "1993",
+     "journal-title": "Econ. J."
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0185",
+     "series-title": "Forecasting in the Presence of Structural Breaks and Model Uncertainty. Vol. 3 of Frontiers",
+     "first-page": "381",
+     "article-title": "Forecasting stock return volatility in the presence of structural breaks",
+     "author": "Rapach",
+     "year": "2008"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb9000",
+     "series-title": "Empirical Processes with Applications to Statistics",
+     "author": "Shorack",
+     "year": "1986"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0190",
+     "doi-asserted-by": "crossref",
+     "first-page": "395",
+     "DOI": "10.1016/j.intfin.2011.12.003",
+     "article-title": "Commodity volatility breaks",
+     "volume": "22",
+     "author": "Vivian",
+     "year": "2012",
+     "journal-title": "J. Int. Financ. Mark. Inst. Money"
+    },
+    {
+     "key": "10.1016/j.jempfin.2015.09.002_bb0195",
+     "doi-asserted-by": "crossref",
+     "first-page": "1261",
+     "DOI": "10.1214/aos/1176350142",
+     "article-title": "Jackknife, bootstrap, and other resampling methods",
+     "volume": "14",
+     "author": "Wu",
+     "year": "1986",
+     "journal-title": "Ann. Stat."
+    }
+   ],
+   "container-title": [
+    "Journal of Empirical Finance"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0927539815000961?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0927539815000961?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2018,
+      9,
+      19
+     ]
+    ],
+    "date-time": "2018-09-19T02:00:49Z",
+    "timestamp": 1537322449000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0927539815000961"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2016,
+      9
+     ]
+    ]
+   },
+   "references-count": 40,
+   "alternative-id": [
+    "S0927539815000961"
+   ],
+   "URL": "https://doi.org/10.1016/j.jempfin.2015.09.002",
+   "relation": {},
+   "ISSN": [
+    "0927-5398"
+   ],
+   "issn-type": [
+    {
+     "value": "0927-5398",
+     "type": "print"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2016,
+      9
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "Elsevier",
+     "name": "publisher",
+     "label": "This article is maintained by"
+    },
+    {
+     "value": "Tests for explosive financial bubbles in the presence of non-stationary volatility",
+     "name": "articletitle",
+     "label": "Article Title"
+    },
+    {
+     "value": "Journal of Empirical Finance",
+     "name": "journaltitle",
+     "label": "Journal Title"
+    },
+    {
+     "value": "https://doi.org/10.1016/j.jempfin.2015.09.002",
+     "name": "articlelink",
+     "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+     "value": "article",
+     "name": "content_type",
+     "label": "Content Type"
+    },
+    {
+     "value": "© 2015 Elsevier B.V. All rights reserved.",
+     "name": "copyright",
+     "label": "Copyright"
+    }
+   ]
+  }
+ }
+}

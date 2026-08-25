@@ -1,0 +1,390 @@
+{
+ "query_id": "se-crossref-04",
+ "protocol_query_id": "er-crossref-04",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=mildly+explosive+process+limit+theory+asset+prices&rows=20&select=DOI,title,issued,container-title,type,abstract",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "total_hits": 3492145,
+ "retrieved_count": 20,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 3492145,
+   "items": [
+    {
+     "DOI": "10.1017/s0266466607070090",
+     "title": [
+      "A LIMIT THEOREM FOR MILDLY EXPLOSIVE AUTOREGRESSION WITH STABLE ERRORS"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007,
+        1,
+        30
+       ]
+      ]
+     },
+     "container-title": [
+      "Econometric Theory"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1016/j.econlet.2017.12.008",
+     "title": [
+      "Limit theory for mildly integrated process with intercept"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "Economics Letters"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.9783/9781512808339-003",
+     "title": [
+      "II. Equilibrium Theory of Financial Asset Prices: Theory, Application, Critique"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1978,
+        12,
+        31
+       ]
+      ]
+     },
+     "container-title": [
+      "Financial Markets in the Capitalist Process"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.1002/9781118673423.ch13",
+     "title": [
+      "The Intuitive Approach to Asset Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006,
+        5,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "The Liquidity Theory of Asset Prices"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1017/s0266466625100224",
+     "title": [
+      "TOWARD A UNIFORM ASYMPTOTIC THEORY FOR MILDLY EXPLOSIVE AUTOREGRESSION"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025,
+        12,
+        15
+       ]
+      ]
+     },
+     "container-title": [
+      "Econometric Theory"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>This article provides a general asymptotic theory for mildly explosive autoregression. We confirm that Cauchy limit theory remains invariant across a broad range of error processes, including general linear processes with martingale difference innovations, stationary causal processes, and nonlinear autoregressive time series, such as threshold autoregressive and bilinear models. Our results unify the Cauchy limit theory for long memory, short memory, and anti-persistent innovations within a single framework. Notably, we demonstrate that in the presence of anti-persistent innovations, the Cauchy limit theory may be violated when the regression coefficient approaches the local-to-unity range. Additionally, we explore extensions to models with varying drift, which is of significant interest in its own right.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.econlet.2014.12.004",
+     "title": [
+      "Limit theory for an explosive autoregressive process"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015,
+        1
+       ]
+      ]
+     },
+     "container-title": [
+      "Economics Letters"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.1017/s0266466624000215",
+     "title": [
+      "INFERENCE IN MILDLY EXPLOSIVE AUTOREGRESSIONS UNDER UNCONDITIONAL HETEROSKEDASTICITY"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2024,
+        9,
+        18
+       ]
+      ]
+     },
+     "container-title": [
+      "Econometric Theory"
+     ],
+     "type": "journal-article",
+     "abstract": "<jats:p>\n                    Mildly explosive autoregressions have been extensively employed in recent theoretical and applied econometric work to model the phenomenon of asset market bubbles. An important issue in this context concerns the construction of confidence intervals for the autoregressive parameter that represents the degree of explosiveness. Existing studies rely on intervals that are justified only under conditional homoskedasticity/heteroskedasticity. This paper studies the problem of constructing asymptotically valid confidence intervals in a mildly explosive autoregression where the innovations are allowed to be unconditionally heteroskedastic. The assumed variance process is general and can accommodate both deterministic and stochastic volatility specifications commonly adopted in the literature. Within this framework, we show that the standard heteroskedasticity- and autocorrelation-consistent estimate of the long-run variance converges in distribution to a nonstandard random variable that depends on nuisance parameters. Notwithstanding this result, the corresponding\n                    <jats:italic>t</jats:italic>\n                    -statistic is shown to still possess a standard normal limit distribution. To improve the quality of inference in small samples, we propose a dependent wild bootstrap-\n                    <jats:italic>t</jats:italic>\n                    procedure and establish its asymptotic validity under relatively weak conditions. Monte Carlo simulations demonstrate that our recommended approach performs favorably in finite samples relative to existing methods across a wide range of volatility specifications. Applications to international stock price indices and U.S. house prices illustrate the relevance of the advocated method in practice.\n                  </jats:p>"
+    },
+    {
+     "DOI": "10.1093/acprof:oso/9780199585496.003.0004",
+     "title": [
+      "State Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013,
+        4,
+        11
+       ]
+      ]
+     },
+     "container-title": [
+      "Financial Asset Pricing Theory"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.2139/ssrn.3016451",
+     "title": [
+      "Limit Theory for Explosive Autoregression Under Conditional Heteroskedasticity"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>This paper studies an explosive autoregression with conditionally heteroskedastic innovations. The asymptotic distributions of LS, GLS, t-statitiscs, heteroskedasticity-consistent t-statistics and GLS t-statistics are derived for nonstationary local-to-unity and mildly explosive roots, in which ρ_{n} satisfies n(1-ρ_{n})→[-∞,0). Combined with the existing results, we can cover the range of ρ_{n} such that n(1-ρ_{n})→[-∞,∞]. Some results on pure explosive cases are also discussed.</jats:p>"
+    },
+    {
+     "DOI": "10.1002/9781118673423.part1",
+     "title": [
+      "The Liquidity Theory"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006,
+        5,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "The Liquidity Theory of Asset Prices"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781118673423.fmatter",
+     "title": [
+      "Front Matter"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006,
+        5,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "The Liquidity Theory of Asset Prices"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1515/9783110654240-002",
+     "title": [
+      "2 Rate of convergence of asset and option prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        10,
+        25
+       ]
+      ]
+     },
+     "container-title": [
+      "Discrete-Time Approximations and Limit Theorems"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.1016/j.spl.2019.04.009",
+     "title": [
+      "A note on limit theory for mildly stationary autoregression with a heavy-tailed GARCH error process"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "Statistics &amp; Probability Letters"
+     ],
+     "type": "journal-article"
+    },
+    {
+     "DOI": "10.3386/w7220",
+     "title": [
+      "Prospect Theory and Asset Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1999,
+        7
+       ]
+      ]
+     },
+     "type": "report"
+    },
+    {
+     "DOI": "10.2139/ssrn.169790",
+     "title": [
+      "Prospect Theory and Asset Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1999
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>We propose a new framework for pricing assets, derived in part from the traditional consumption-based approach, but which also incorporates two long-standing ideas in psychology: the prospect theory of Kahneman and Tversky (1979), and the evidence of Thaler and Johnson (1990) and others on the influence of prior outcomes on risky choice. Consistent with prospect theory, the investor in our model derives utility not only from consumption levels but also from changes in the value of his financial wealth. He is much more sensitive to reductions in wealth than to increases, the \"loss-aversion\" feature of prospect utility. Moreover, consistent with experimental evidence, the utility he receives from gains and losses in wealth depends on his prior investment outcomes; prior gains cushion subsequent losses -- the so-called \"house-money\" effect -- while prior losses intensify the pain of subsequent shortfalls. We study asset prices in the presence of agents with preferences of this type and find that our model reproduces the high mean, volatility, and predictability of stock returns. The key to our restuls is that the agent's risk-aversion changes over time as a function of his investment performance. This makes prices much more volatile than underlying dividends, and together with the investor's loss-aversion, leads to large equity premia. Our results obtain with reasonable values for all parameters.</jats:p>"
+    },
+    {
+     "DOI": "10.1002/9781118673423.index",
+     "title": [
+      "Index"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006,
+        5,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "The Liquidity Theory of Asset Prices"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.2139/ssrn.860704",
+     "title": [
+      "Financial Asset Prices and Monetary Policy: Theory and Evidence"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2005
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "abstract": "<jats:p>The work presented in this paper falls into two parts. First, using a simple model and within the context of the central bank's objective of price stability, it is shown that the optimal monetary response to unexpected changes in asset prices depends on how these changes affect the central bank's inflation forecast, which in turn depends on two factors: the role of the asset price in the transmission mechanism and the typical information content of innovations in the asset price. In this context, the advantages and disadvantages of setting monetary policy in terms of a weighted average of a short-term interest rate and an asset price such as the exchange rate - a Monetary Conditions Index (MCI) - are discussed. The second, more empirical, part of the paper documents, using an estimated policy reaction function, the short-term response to financial asset prices, including the exchange rate, in two countries with inflation targets (Australia and Canada) and suggests that the different response to exchange rate changes in these countries can in part be explained by differences in their underlying sources.</jats:p>"
+    },
+    {
+     "DOI": "10.1002/9781118673423.part3",
+     "title": [
+      "Elaboration"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006,
+        5,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "The Liquidity Theory of Asset Prices"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781118673423.oth",
+     "title": [
+      "Conclusions"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006,
+        5,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "The Liquidity Theory of Asset Prices"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781118673423.gloss",
+     "title": [
+      "Glossary"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006,
+        5,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "The Liquidity Theory of Asset Prices"
+     ],
+     "type": "other"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

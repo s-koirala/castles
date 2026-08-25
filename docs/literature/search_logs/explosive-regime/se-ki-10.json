@@ -1,0 +1,615 @@
+{
+ "query_id": "se-ki-10",
+ "arm": "known-item",
+ "ki": "KI-10",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1093/jjfinec/nbab009",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      17
+     ]
+    ],
+    "date-time": "2026-08-17T23:25:17Z",
+    "timestamp": 1787009117805,
+    "version": "build-2736575974"
+   },
+   "reference-count": 32,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2021,
+        5,
+        6
+       ]
+      ],
+      "date-time": "2021-05-06T00:00:00Z",
+      "timestamp": 1620259200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 1,
+     "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [],
+   "published-print": {
+    "date-parts": [
+     [
+      2023,
+      1,
+      19
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>We generalize the Homm and Breitung (2012) CUSUM-based procedure for the real-time detection of explosive autoregressive episodes in financial price data to allow for time-varying volatility. Such behavior can heavily inflate the false positive rate (FPR) of the CUSUM-based procedure to spuriously signal the presence of an explosive episode. Our modified procedure involves replacing the standard variance estimate in the CUSUM statistics with a nonparametric kernel-based spot variance estimate. We show that the sequence of modified CUSUM statistics has a joint limiting null distribution which is invariant to any time-varying volatility present in the innovations and that this delivers a real-time monitoring procedure whose theoretical FPR is controlled. Simulations show that the modification is effective in controlling the empirical FPR of the procedure, yet sacrifices only a small amount of power to detect explosive episodes, relative to the standard procedure, when the shocks are homoskedastic. An empirical illustration using Bitcoin price data is provided.</jats:p>",
+   "DOI": "10.1093/jjfinec/nbab009",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      12
+     ]
+    ],
+    "date-time": "2021-03-12T15:10:08Z",
+    "timestamp": 1615561808000
+   },
+   "page": "187-227",
+   "source": "Crossref",
+   "is-referenced-by-count": 20,
+   "title": [
+    "CUSUM-Based Monitoring for Explosive Episodes in Financial Data in the Presence of Time-Varying Volatility"
+   ],
+   "prefix": "10.1093",
+   "volume": "21",
+   "author": [
+    {
+     "given": "Sam",
+     "family": "Astill",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Essex Business School, University of Essex"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-7504-6885",
+     "authenticated-orcid": false,
+     "given": "David I",
+     "family": "Harvey",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Granger Centre for Time Series Econometrics and School of Economics, University of Nottingham"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Stephen J",
+     "family": "Leybourne",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Granger Centre for Time Series Econometrics and School of Economics, University of Nottingham"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "A M Robert",
+     "family": "Taylor",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Essex Business School, University of Essex"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Yang",
+     "family": "Zu",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Granger Centre for Time Series Econometrics and School of Economics, University of Nottingham"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      5
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "2023011908313149800_nbab009-B1",
+     "doi-asserted-by": "crossref",
+     "first-page": "651",
+     "DOI": "10.1080/07474938.2017.1307490",
+     "article-title": "Tests for an End-of-Sample Bubble in Financial Time Series",
+     "volume": "36",
+     "author": "Astill",
+     "year": "2017",
+     "journal-title": "Econometric Reviews"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B2",
+     "doi-asserted-by": "crossref",
+     "first-page": "863",
+     "DOI": "10.1111/jtsa.12409",
+     "article-title": "Real-Time Monitoring for Explosive Financial Bubbles",
+     "volume": "39",
+     "author": "Astill",
+     "year": "2018",
+     "journal-title": "Journal of Time Series Analysis"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B3",
+     "doi-asserted-by": "crossref",
+     "first-page": "816",
+     "DOI": "10.1111/jtsa.12279",
+     "article-title": "Unit Root Testing with Unstable Volatility",
+     "volume": "39",
+     "author": "Beare",
+     "year": "2018",
+     "journal-title": "Journal of Time Series Analysis"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B4",
+     "doi-asserted-by": "crossref",
+     "first-page": "87",
+     "DOI": "10.1111/ectj.12100",
+     "article-title": "Adaptive Wild Bootstrap Testing for a Unit Root with Nonstationary Volatility",
+     "volume": "2",
+     "author": "Boswijk",
+     "year": "2018",
+     "journal-title": "The Econometrics Journal"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B5",
+     "article-title": "Adaptive Testing for Cointegration with Nonstationary Volatility",
+     "author": "Boswijk",
+     "year": "2021",
+     "journal-title": "Journal of Business and Economic Statistics"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B6",
+     "author": "Calvo-Gonzalez",
+     "year": "2010"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B7",
+     "doi-asserted-by": "crossref",
+     "first-page": "259",
+     "DOI": "10.1081/ETC-200028215",
+     "article-title": "Unit Root Tests under Time-Varying Variances",
+     "volume": "23",
+     "author": "Cavaliere",
+     "year": "2004",
+     "journal-title": "Econometric Reviews"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B8",
+     "doi-asserted-by": "crossref",
+     "first-page": "1045",
+     "DOI": "10.2307/2171955",
+     "article-title": "Monitoring Structural Change",
+     "volume": "64",
+     "author": "Chu",
+     "year": "1996",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B9",
+     "first-page": "520",
+     "article-title": "Explosive Rational Bubbles in Stock Prices?",
+     "volume": "78",
+     "author": "Diba",
+     "year": "1988",
+     "journal-title": "American Economic Review"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B10",
+     "first-page": "922",
+     "article-title": "Pitfalls in Testing for Explosive Bubbles in Asset Prices",
+     "volume": "81",
+     "author": "Evans",
+     "year": "1991",
+     "journal-title": "American Economic Review"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B11",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/978-0-387-69395-8",
+     "volume-title": "Nonlinear Time Series: Nonparametric and Parametric Methods",
+     "author": "Fan",
+     "year": "2003"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B12",
+     "doi-asserted-by": "crossref",
+     "first-page": "109",
+     "DOI": "10.1016/0167-7152(89)90002-3",
+     "article-title": "A Local Cross-Validation Algorithm",
+     "volume": "8",
+     "author": "Hall",
+     "year": "1989",
+     "journal-title": "Statistics & Probability Letters"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B13",
+     "doi-asserted-by": "crossref",
+     "first-page": "1113",
+     "DOI": "10.2307/2171723",
+     "article-title": "Regression with Nonstationary Volatility",
+     "volume": "63",
+     "author": "Hansen",
+     "year": "1995",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B14",
+     "first-page": "86",
+     "article-title": "How Far Are the Automatically Chosen Regression Smoothing Parameters from Their Optimum?",
+     "volume": "83",
+     "author": "Härdle",
+     "year": "1988",
+     "journal-title": "Journal of the American Statistical Association"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B15",
+     "doi-asserted-by": "crossref",
+     "first-page": "755",
+     "DOI": "10.1017/S0266466615000481",
+     "article-title": "Adaptive Long Memory Testing under Heteroskedasticity",
+     "volume": "33",
+     "author": "Harris",
+     "year": "2017",
+     "journal-title": "Econometric Theory"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B16",
+     "doi-asserted-by": "crossref",
+     "first-page": "354",
+     "DOI": "10.1016/j.jeconom.2020.03.008",
+     "article-title": "Level Shift Estimation in the Presence of Nonstationary Volatility with an Application to the Unit Root Testing Problem",
+     "volume": "219",
+     "author": "Harris",
+     "year": "2020",
+     "journal-title": "Journal of Econometrics"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B17",
+     "doi-asserted-by": "crossref",
+     "first-page": "166",
+     "DOI": "10.1093/jjfinec/nbt025",
+     "article-title": "Recursive Right-Tailed Unit Root Tests for an Explosive Asset Price Bubble",
+     "volume": "13",
+     "author": "Harvey",
+     "year": "2015",
+     "journal-title": "Journal of Financial Econometrics"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B18",
+     "doi-asserted-by": "crossref",
+     "first-page": "548",
+     "DOI": "10.1016/j.jempfin.2015.09.002",
+     "article-title": "Tests for Explosive Financial Bubbles in the Presence of Nonstationary Volatility",
+     "volume": "38",
+     "author": "Harvey",
+     "year": "2016",
+     "journal-title": "Journal of Empirical Finance"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B19",
+     "doi-asserted-by": "crossref",
+     "first-page": "1131",
+     "DOI": "10.1080/07474938.2018.1536099",
+     "article-title": "Testing Explosive Bubbles with Time-Varying Volatility",
+     "volume": "38",
+     "author": "Harvey",
+     "year": "2019",
+     "journal-title": "Econometric Reviews"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B20",
+     "doi-asserted-by": "crossref",
+     "first-page": "122",
+     "DOI": "10.1017/S0266466619000057",
+     "article-title": "Sign-Based Unit Root Tests for Explosive Financial Bubbles in the Presence of Nonstationary Volatility",
+     "volume": "36",
+     "author": "Harvey",
+     "year": "2020",
+     "journal-title": "Econometric Theory"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B21",
+     "doi-asserted-by": "crossref",
+     "first-page": "198",
+     "DOI": "10.1093/jjfinec/nbr009",
+     "article-title": "Testing for Speculative Bubbles in Stock Markets: A Comparison of Alternative Methods",
+     "volume": "10",
+     "author": "Homm",
+     "year": "2012",
+     "journal-title": "Journal of Financial Econometrics"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B22",
+     "doi-asserted-by": "crossref",
+     "first-page": "578",
+     "DOI": "10.1080/09603107.2011.564131",
+     "article-title": "Structural Breaks in Volatility: The Case of UK Sector Returns",
+     "volume": "21",
+     "author": "McMillan",
+     "year": "2011",
+     "journal-title": "Applied Financial Economics"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B23",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1017/CBO9780511612503",
+     "volume-title": "Nonparametric Econometrics",
+     "author": "Pagan",
+     "year": "1999"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B24",
+     "doi-asserted-by": "crossref",
+     "first-page": "705",
+     "DOI": "10.1017/S0266466617000202",
+     "article-title": "Financial Bubble Implosion and Reverse Regression",
+     "volume": "34",
+     "author": "Phillips",
+     "year": "2018",
+     "journal-title": "Econometric Theory"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B25",
+     "doi-asserted-by": "crossref",
+     "first-page": "1043",
+     "DOI": "10.1111/iere.12132",
+     "article-title": "Testing for Multiple Bubbles: Historical Episodes of Exuberance and Collapse in the S&P 500",
+     "volume": "56",
+     "author": "Phillips",
+     "year": "2015",
+     "journal-title": "International Economic Review"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B26",
+     "doi-asserted-by": "crossref",
+     "first-page": "201",
+     "DOI": "10.1111/j.1468-2354.2010.00625.x",
+     "article-title": "Explosive Behavior in the 1990s Nasdaq: When Did Exuberance Escalate Stock Values?",
+     "volume": "52",
+     "author": "Phillips",
+     "year": "2011",
+     "journal-title": "International Economic Review"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B27",
+     "doi-asserted-by": "crossref",
+     "first-page": "289",
+     "DOI": "10.1111/j.1467-9892.2005.00466.x",
+     "article-title": "Inference in Autoregression under Heteroskedasticity",
+     "volume": "27",
+     "author": "Phillips",
+     "year": "2006",
+     "journal-title": "Journal of Time Series Analysis"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B28",
+     "doi-asserted-by": "crossref",
+     "first-page": "381",
+     "DOI": "10.1016/S1574-8715(07)00210-2",
+     "volume-title": "Forecasting in the Presence of Structural Breaks and Model Uncertainty",
+     "author": "Rapach",
+     "year": "2008"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B29",
+     "doi-asserted-by": "crossref",
+     "first-page": "461",
+     "DOI": "10.1214/aos/1176344136",
+     "article-title": "Estimating the Dimension of a Model",
+     "volume": "6",
+     "author": "Schwarz",
+     "year": "1978",
+     "journal-title": "The Annals of Statistics"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B30",
+     "volume-title": "Probability—Graduate Texts in Mathematics.",
+     "author": "Shiryaev",
+     "year": "1996"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B31",
+     "doi-asserted-by": "crossref",
+     "first-page": "395",
+     "DOI": "10.1016/j.intfin.2011.12.003",
+     "article-title": "Commodity Volatility Breaks",
+     "volume": "22",
+     "author": "Vivian",
+     "year": "2012",
+     "journal-title": "Journal of International Financial Markets, Institutions and Money"
+    },
+    {
+     "key": "2023011908313149800_nbab009-B32",
+     "doi-asserted-by": "crossref",
+     "first-page": "265",
+     "DOI": "10.1016/j.jeconom.2007.06.001",
+     "article-title": "Adaptive Estimation of Autoregressive Models with Time-Varying Variances",
+     "volume": "142",
+     "author": "Xu",
+     "year": "2008",
+     "journal-title": "Journal of Econometrics"
+    }
+   ],
+   "container-title": [
+    "Journal of Financial Econometrics"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://academic.oup.com/jfec/article-pdf/21/1/187/48759422/nbab009.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/jfec/article-pdf/21/1/187/48759422/nbab009.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      1,
+      19
+     ]
+    ],
+    "date-time": "2023-01-19T03:34:05Z",
+    "timestamp": 1674099245000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/jfec/article/21/1/187/6268988"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      5
+     ]
+    ]
+   },
+   "references-count": 32,
+   "journal-issue": {
+    "issue": "1",
+    "published-online": {
+     "date-parts": [
+      [
+       2021,
+       5,
+       5
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2023,
+       1,
+       19
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/jjfinec/nbab009",
+   "relation": {},
+   "ISSN": [
+    "1479-8409",
+    "1479-8417"
+   ],
+   "issn-type": [
+    {
+     "value": "1479-8409",
+     "type": "print"
+    },
+    {
+     "value": "1479-8417",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published-other": {
+    "date-parts": [
+     [
+      2023,
+      1,
+      1
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

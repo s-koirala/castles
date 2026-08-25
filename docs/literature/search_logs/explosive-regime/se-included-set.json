@@ -1,0 +1,385 @@
+{
+  "flow": {
+    "universe": 1996,
+    "stage1_excluded": 1410,
+    "stage2_assessed": 586,
+    "stage2_excluded_substantive": 234,
+    "stage2_x6_unobtainable": 280,
+    "included": 72,
+    "i2_type_mix": {
+      "I2a": 43,
+      "I2b": 24,
+      "I2b|I2c": 1,
+      "I2a|I2b": 2,
+      "I2c": 2
+    },
+    "included_paths": {
+      "dual": 41,
+      "A3_single_screener": 21,
+      "adjudicated": 10
+    },
+    "date": "2026-08-24"
+  },
+  "included": [
+    {
+      "id": "eru-0131",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0150",
+      "path": "dual-include",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0238",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0259",
+      "path": "dual-include",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0348",
+      "path": "dual-include",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0393",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0395",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0463",
+      "path": "dual-include",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0503",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0559",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0597",
+      "path": "dual-include",
+      "i2": "I2b|I2c"
+    },
+    {
+      "id": "eru-0604",
+      "path": "dual-include",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0607",
+      "path": "dual-include",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0609",
+      "path": "dual-include",
+      "i2": "I2a|I2b"
+    },
+    {
+      "id": "eru-0689",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0735",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0748",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0883",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0889",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0891",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0924",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1031",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1038",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1044",
+      "path": "dual-include",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-1049",
+      "path": "dual-include",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-1112",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1117",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1384",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1394",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1519",
+      "path": "dual-include",
+      "i2": "I2a|I2b"
+    },
+    {
+      "id": "eru-1526",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1604",
+      "path": "dual-include",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-1716",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1813",
+      "path": "dual-include",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-1844",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1845",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1852",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1920",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1921",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1929",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1950",
+      "path": "dual-include",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0100",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0112",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0154",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0268",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0427",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0513",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2c"
+    },
+    {
+      "id": "eru-0526",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0622",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0675",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0691",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0749",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0823",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0904",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0959",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1155",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-1260",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1310",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-1405",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1580",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1715",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1890",
+      "path": "single-screener-fulltext (A3)",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0126",
+      "path": "adjudicated",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-0198",
+      "path": "adjudicated",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0731",
+      "path": "adjudicated",
+      "i2": "I2c"
+    },
+    {
+      "id": "eru-0813",
+      "path": "adjudicated",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-0855",
+      "path": "adjudicated",
+      "i2": "I2a"
+    },
+    {
+      "id": "eru-1289",
+      "path": "adjudicated",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-1509",
+      "path": "adjudicated",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-1761",
+      "path": "adjudicated",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-1770",
+      "path": "adjudicated",
+      "i2": "I2b"
+    },
+    {
+      "id": "eru-1889",
+      "path": "adjudicated",
+      "i2": "I2a"
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{"id": "eru-0002", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "Same-work duplicate of eru-0498 (ANU chapter, chapter-number title variant)"}
+{"id": "eru-0016", "verdict": "EXCLUDE", "criterion": "I1", "route": "publisher", "note": "IMF surveillance survey; full text has no null-referenced explosive detector"}
+{"id": "eru-0029", "verdict": "EXCLUDE", "criterion": "X2", "route": "publisher", "note": "IMF WP; ADF/cointegration existence checks only; no time-indexed detector"}
+{"id": "eru-0069", "verdict": "EXCLUDE", "criterion": "S-a-fail", "route": "repository", "note": "KI-13 full text: I(0)-I(1) persistence alternatives only; explosive alternative absent"}
+{"id": "eru-0087", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "publisher", "note": "Estimator limit theorem under stable errors; no test or dating procedure"}
+{"id": "eru-0092", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "KI-05 Cowles twin: estimator limit theory; no test or date-stamp procedure"}
+{"id": "eru-0095", "verdict": "EXCLUDE", "criterion": "X2", "route": "openalex-oa", "note": "Full-sample residual-based existence test; MC OC but no time-indexed output"}
+{"id": "eru-0103", "verdict": "EXCLUDE", "criterion": "X5", "route": "openalex-oa", "note": "Equilibrium bubble theory; no test procedure"}
+{"id": "eru-0175", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "Mildly explosive estimator asymptotics under dependence; no time-indexed procedure"}
+{"id": "eru-0176", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SSRN twin of eru-0301; LKT persistence plus PWY application; no OC"}
+{"id": "eru-0198", "verdict": "EXCLUDE", "criterion": "X7", "route": "openalex-oa", "note": "EI-report WP twin of eru-0259 (CSDA 2014, Franses); same work"}
+{"id": "eru-0233", "verdict": "EXCLUDE", "criterion": "X2", "route": "openalex-oa", "note": "Full-sample cointegration and explosive-root existence tests; no dating output"}
+{"id": "eru-0261", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "arxiv", "note": "Mildly explosive AR(2) estimator asymptotics; no detector"}
+{"id": "eru-0301", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "Persistence-change and PWY applied to NASDAQ; no operating characteristics"}
+{"id": "eru-0326", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF ethanol-gasoline application; simulation only for critical values"}
+{"id": "eru-0332", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF/GSADF oil-futures application; bootstrap robustness; no own OC"}
+{"id": "eru-0334", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF/GSADF REIT application; simulated critical values only"}
+{"id": "eru-0340", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "PWY/PSY housing exuberance application; no own simulations"}
+{"id": "eru-0345", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF/GSADF house-price application; no operating characteristics"}
+{"id": "eru-0348", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "Size of fixed/recursive right-tailed DF under drift break; theory plus MC"}
+{"id": "eru-0364", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Springer preview only (subscription); full text unobtainable after chain"}
+{"id": "eru-0365", "verdict": "EXCLUDE", "criterion": "I1", "route": "publisher", "note": "Journal-level record (JTSE), not a study"}
+{"id": "eru-0369", "verdict": "EXCLUDE", "criterion": "S-a-fail", "route": "repository", "note": "Stationarity/cointegration monitoring; alternative is I(1), not explosive"}
+{"id": "eru-0380", "verdict": "EXCLUDE", "criterion": "I1", "route": "openalex-oa", "note": "Econophysics fundamental-value model; no in-scope detector"}
+{"id": "eru-0411", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "Explosive-process application across world markets; no OC"}
+{"id": "eru-0422", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "arxiv", "note": "Panel AR(1) estimator asymptotics; no detector"}
+{"id": "eru-0451", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF/GSADF Asia-Pacific housing application"}
+{"id": "eru-0475", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "Panel BSADF with Hommel correction applied to commodities; no OC; DOI absent"}
+{"id": "eru-0476", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "openalex-oa", "note": "Bayesian recursive date-stamping; no null reference distribution"}
+{"id": "eru-0498", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF/GSADF Shanghai A-share chapter; application only"}
+{"id": "eru-0509", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "PSY and LPPL oil-crash application; no operating characteristics"}
+{"id": "eru-0513", "verdict": "INCLUDE", "criterion": "I2c", "route": "openalex-oa", "note": "SADF/RADF crisis signals; false-positive rates vs declared crisis chronology"}
+{"id": "eru-0527", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "PSY Malaysian housing application"}
+{"id": "eru-0542", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "PSY on 18th-century bubbles; bootstrap critical values only"}
+{"id": "eru-0544", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "repository", "note": "Bayesian Markov-switching classification; no null reference distribution"}
+{"id": "eru-0559", "verdict": "INCLUDE", "criterion": "I2a", "route": "publisher", "note": "KI-11: implosion dating limit theory, consistency, real-time version, simulations"}
+{"id": "eru-0589", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF bond-market application; simulated critical values only"}
+{"id": "eru-0594", "verdict": "EXCLUDE", "criterion": "I2-fail", "route": "repository", "note": "Software implementation paper (EViews add-in); no OC or theory contribution"}
+{"id": "eru-0597", "verdict": "INCLUDE", "criterion": "I2c", "route": "publisher", "note": "Panel Chow-type explosive test; own size/power simulations for short samples"}
+{"id": "eru-0598", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "publisher", "note": "Change-point estimation theory incl. mildly explosive; no null-referenced test"}
+{"id": "eru-0600", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF with wild bootstrap p-values; application only"}
+{"id": "eru-0604", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "MC power comparison of HB and GSADF statistics over five bubble DGPs"}
+{"id": "eru-0606", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "RTADF Iranian FX application"}
+{"id": "eru-0607", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "Own MC: power, dating accuracy, delay for recursive test and rolling IVX"}
+{"id": "eru-0625", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF plus cointegration applied to global real estate (Korean); no OC"}
+{"id": "eru-0628", "verdict": "EXCLUDE", "criterion": "I2-fail", "route": "openalex-oa", "note": "Survey/anatomy of bubble definitions and tests; no OC or theory"}
+{"id": "eru-0634", "verdict": "EXCLUDE", "criterion": "X7", "route": "arxiv", "note": "arXiv twin of eru-1544 (Richter-Wang-Wu, publ. Econometrics J 2023); same work"}
+{"id": "eru-0650", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "PSY applied to US state house-price ratios; no OC"}
+{"id": "eru-0675", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "Simulation study: aggregation effect on SADF/GSADF power; univariate and panel"}
+{"id": "eru-0678", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "BSADF housing application across countries; simulated CVs only"}
+{"id": "eru-0692", "verdict": "EXCLUDE", "criterion": "I2-fail", "route": "openalex-oa", "note": "R package manual (exuber); software, no OC or theory"}
+{"id": "eru-0731", "verdict": "EXCLUDE", "criterion": "I1", "route": "openalex-oa", "note": "Five indicators are LPPLS/forecast-error type; no section-2.1 detector involved"}
+{"id": "eru-0752", "verdict": "EXCLUDE", "criterion": "S-a-fail", "route": "openalex-oa", "note": "Null is moderate explosiveness (degree test); explosive not the alternative; no dating"}
+{"id": "eru-0766", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF Japan money-supply application; simulated CVs only"}
+{"id": "eru-0768", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF/IVX with market expectations applied to oil; no own OC"}
+{"id": "eru-0788", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "PWY-type dating applied to cryptocurrencies; simulated CVs only"}
+{"id": "eru-0813", "verdict": "EXCLUDE", "criterion": "I3", "route": "openalex-oa", "note": "No DOI/arXiv/handle; best locator MAG W2981818548; content I2b-grade LPPL-vs-supADF comparison"}
+{"id": "eru-0821", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Springer preview only (subscription); full text unobtainable after chain"}
+{"id": "eru-0822", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "SADF/GSADF US-UK real estate application; no OC; full text via repository"}
+{"id": "eru-0854", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Springer preview only (subscription); full text unobtainable after chain"}
+{"id": "eru-0855", "verdict": "EXCLUDE", "criterion": "I2-fail", "route": "openalex-oa", "note": "WSADF prediction algorithm; no null-referenced OC, theory, or simulation OC"}
+{"id": "eru-0862", "verdict": "EXCLUDE", "criterion": "X1", "route": "arxiv", "note": "GSADF Indian market application; simulated CVs only"}
+{"id": "eru-0873", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "PSY/mildly-explosive application to crude oil; no own OC"}
+{"id": "eru-0888", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "openalex-oa", "note": "Sentiment-STAR model classification; no null reference distribution"}
+{"id": "eru-0889", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "Sequential monitor, stationary null vs mildly explosive; limit theory, false-alarm control, sims"}
+{"id": "eru-0924", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "Real-time explosiveness monitoring with intraday data and jumps; limit theory plus MC"}
+{"id": "eru-0976", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF China stock application; simulated CVs only"}
+{"id": "eru-0978", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "repository", "note": "Break-date estimation theory for bubble regimes; no null-referenced test"}
+{"id": "eru-0981", "verdict": "EXCLUDE", "criterion": "X7", "route": "openalex-oa", "note": "Working-paper twin of eru-1251 (exuber JSS paper); same work"}
+{"id": "eru-1013", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "PSY applied to US yield spreads; no own OC"}
+{"id": "eru-1016", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "arxiv", "note": "Information-criterion model selection UR vs explosive; no null-referenced time-indexed decision"}
+{"id": "eru-1038", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "Sequential monitoring with false-detection control; limit theorems; size/power sims; housing"}
+{"id": "eru-1040", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF cross-listed stocks application; no own OC"}
+{"id": "eru-1044", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "MC size (TGARCH leverage) and power of sup-ADF variants; date-stamping assessed"}
+{"id": "eru-1049", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "Size distortions under autocorrelated innovations; sieve-bootstrap fix; size/power sims"}
+{"id": "eru-1050", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF copper application; simulated CVs only"}
+{"id": "eru-1105", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF COVID-period application; no OC"}
+{"id": "eru-1108", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "Right-tailed explosivity application to gasoline; no OC"}
+{"id": "eru-1126", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF medical-mask stocks application"}
+{"id": "eru-1132", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "PSY date-stamping applied to EME flows; no OC"}
+{"id": "eru-1172", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "arxiv", "note": "RSS-minimization break-date estimators (Pang-type); no null-referenced decision rule"}
+{"id": "eru-0891", "verdict": "INCLUDE", "criterion": "I2a", "route": "publisher", "note": "KI-07: sign-based PSY variant; limit theory; asymptotic size and local power tables"}
+{"id": "eru-1208", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF application to energy/agri prices; no OC"}
+{"id": "eru-1213", "verdict": "EXCLUDE", "criterion": "X7", "route": "arxiv", "note": "arXiv/SSRN twin of eru-1384 (JFEC 2022); same work"}
+{"id": "eru-1225", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "publisher", "note": "Right-tailed PANIC panel existence tests; no time-indexed dating output"}
+{"id": "eru-1242", "verdict": "EXCLUDE", "criterion": "I2-fail", "route": "openalex-oa", "note": "Survey of Phillips-type tests; no new OC or theory"}
+{"id": "eru-1251", "verdict": "EXCLUDE", "criterion": "I2-fail", "route": "openalex-oa", "note": "Software paper (exuber, JSS); no OC or theory contribution"}
+{"id": "eru-1278", "verdict": "EXCLUDE", "criterion": "X1", "route": "arxiv", "note": "BSADF applied to individual Nasdaq stocks; no OC"}
+{"id": "eru-1291", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "SADF/GSADF commodity application (Turkish); simulated CVs only"}
+{"id": "eru-1293", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "openalex-oa", "note": "Persistence-degree estimation/inference framework; no time-indexed bubble decision"}
+{"id": "eru-1351", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF plus Markov-switching application to energy futures"}
+{"id": "eru-1401", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "PSY application; recounts PSY simulations, no own OC"}
+{"id": "eru-1404", "verdict": "EXCLUDE", "criterion": "I2-fail", "route": "openalex-oa", "note": "Survey-style proceedings paper; no own application or OC"}
+{"id": "eru-1420", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "GSADF capital-flow surge measurement; application only"}
+{"id": "eru-1442", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "SADF/GSADF Polish housing application"}
+{"id": "eru-1486", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "arxiv", "note": "WLS RSS-minimization date estimators; no null-referenced decision rule"}
+{"id": "eru-1506", "verdict": "EXCLUDE", "criterion": "X1", "route": "arxiv", "note": "GSADF bitcoin application; no OC"}
+{"id": "eru-1509", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "repository", "note": "MS full-sample bubble existence test; regime labels not null-referenced"}
+{"id": "eru-1516", "verdict": "EXCLUDE", "criterion": "X4", "route": "openalex-oa", "note": "OU mean-reversion-change quickest detection; no explosive alternative, Bayesian stopping"}
+{"id": "eru-1519", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "Real-time crash monitoring after bubble; MC false-positive rates and detection delay"}
+{"id": "eru-1526", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "Robust explosive test under strong dependence; limit theory; size/power MC"}
+{"id": "eru-1540", "verdict": "EXCLUDE", "criterion": "I2-fail", "route": "arxiv", "note": "Review of explosive-bubble testing; no new OC"}
+{"id": "eru-1544", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "Uniform test dating integrated/mildly explosive GARCH epochs; limit theory; simulated CVs"}
+{"id": "eru-1549", "verdict": "EXCLUDE", "criterion": "I1", "route": "openalex-oa", "note": "Strict-local-martingale model-risk framework; no section-2.1 detector"}
+{"id": "eru-1580", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "KI-08: volatility-purged PSY variant; asymptotic size, local power; MC"}
+{"id": "eru-1594", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "openalex-oa", "note": "Explosive fractional OU estimator asymptotics; no test or dating"}
+{"id": "eru-1602", "verdict": "EXCLUDE", "criterion": "I1", "route": "openalex-oa", "note": "Descriptive historical comparison of bubbles; no null-referenced detector"}
+{"id": "eru-1604", "verdict": "INCLUDE", "criterion": "I2b", "route": "openalex-oa", "note": "Quantile UR tests vs SADF/GSADF; comparative MC size/power incl. in-scope tests"}
+{"id": "eru-1671", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "publisher", "note": "Confidence intervals for explosiveness degree; no time-indexed decision"}
+{"id": "eru-1688", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "publisher", "note": "OLS limit theory, explosive side of unity; no detector"}
+{"id": "eru-1689", "verdict": "EXCLUDE", "criterion": "X5", "route": "repository", "note": "Equilibrium crypto-bubble model; no test procedure"}
+{"id": "eru-1716", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "Devolatized RVPWY test; asymptotic null distribution; size/power MC; date-stamping"}
+{"id": "eru-1761", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "MAR locally-explosive bubble test; derived null distribution; size/power MC; time-indexed"}
+{"id": "eru-1765", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "openalex-oa", "note": "Structural supply-demand indicator; no null reference distribution"}
+{"id": "eru-1770", "verdict": "INCLUDE", "criterion": "I2b", "route": "arxiv", "note": "MAR noncausal bubble indicator; empirical size/power tables; time-indexed detection"}
+{"id": "eru-1813", "verdict": "INCLUDE", "criterion": "I2b", "route": "arxiv", "note": "MC size distortions of SADF-family under leverage; date-stamping frequency sensitivity"}
+{"id": "eru-1821", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "Panel GSADF and PANICCA applied to Turkish housing; no OC"}
+{"id": "eru-1843", "verdict": "EXCLUDE", "criterion": "S-a-fail", "route": "arxiv", "note": "Drift-burst/Ito-violation alternative, not AR-explosive; sequential detectors with ARL"}
+{"id": "eru-1844", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "Variance-standardised real-time bubble monitors; asymptotics; MC detection speed and FPR"}
+{"id": "eru-1845", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "Online RCA changepoint monitor for bubble onset/collapse; limit theory; size/delay sims"}
+{"id": "eru-1852", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "Heteroskedasticity-robust LBI explosive-root test; sequential monitoring; power analysis"}
+{"id": "eru-1864", "verdict": "EXCLUDE", "criterion": "I1", "route": "openalex-oa", "note": "Cross-sectional core-return decomposition; no null-referenced detector"}
+{"id": "eru-1872", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "Covariate-BSADF applied to Covid surges; no null-referenced OC reported"}
+{"id": "eru-1874", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF AI-sector application; no OC"}
+{"id": "eru-1882", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "openalex-oa", "note": "Cauchy limit theory for mildly explosive AR; no detector"}
+{"id": "eru-1889", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "Uniform IV inference; rolling real-time bubble test; size/power MC vs IVX"}
+{"id": "eru-1921", "verdict": "INCLUDE", "criterion": "I2a", "route": "openalex-oa", "note": "Covariate-augmented Homm-Breitung CUSUM monitor; FPR asymptotics; MC power gains"}
+{"id": "eru-1929", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "Double local-to-unity limit theory; volatility-robust PWY-type rule; simulations"}
+{"id": "eru-1950", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "SV-ADF date-stamping; consistency; MC power/accuracy vs PWY under persistent volatility"}
+{"id": "eru-1959", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "arxiv", "note": "Near-unit-root theory for affine processes; persistence inference, no dating detector"}
+{"id": "eru-1961", "verdict": "EXCLUDE", "criterion": "S-c-fail", "route": "arxiv", "note": "Descriptive path-diagnostic framework; thresholds without null reference distribution"}
+{"id": "eru-1973", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "BSADF shadow-banking application; simulated CVs only"}
+{"id": "eru-1994", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "BSADF Romanian BET application; no OC"}
+{"id": "eru-0131", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-01 via Cowles d1699: SADF limit theory, dating rule, power sims"}
+{"id": "eru-0150", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "KI-04 via archived Bonn WP: Chow/CUSUM competitors; MC power comparison"}
+{"id": "eru-0393", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-02 via Cowles d1914: GSADF limit distribution, date-stamping consistency, sims"}
+{"id": "eru-0395", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-03 via Cowles d1915: real-time detector limit theory, dating consistency, delay"}
+{"id": "eru-0503", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-06 via Essex repository: wild bootstrap PWY under non-stationary volatility; theory, size/power"}
+{"id": "eru-0735", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-09 via Essex repository: real-time monitoring with training-period CVs; theory, FPR sims"}
+{"id": "eru-1031", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-12 via Cowles d2152: composite bootstrap for family-wise size control in PSY monitoring"}
+{"id": "eru-1117", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "KI-10 via Essex repository: CUSUM monitoring under time-varying volatility; theory, MC"}
+{"id": "eru-0009", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0011", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0012", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0014", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0015", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0017", "verdict": "EXCLUDE", "criterion": "I1", "route": "none", "note": "Journal-title record (faculty journal), not a study"}
+{"id": "eru-0018", "verdict": "EXCLUDE", "criterion": "I1", "route": "none", "note": "Journal-title record (Journal of Econometrics), not a study"}
+{"id": "eru-0023", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0024", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0027", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0035", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0043", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0079", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0091", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN working-paper twin of eru-0131 (PWY IER 2011); same work"}
+{"id": "eru-0100", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0106", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "Title-match duplicate of eru-0126 (Phillips-Yu QE 2011)"}
+{"id": "eru-0109", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0112", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0113", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0117", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0121", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0123", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0125", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0126", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "Cowles d1770 twin: recursive dating methodology, limit theory, migration test"}
+{"id": "eru-0127", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "Title-match duplicate of eru-0126"}
+{"id": "eru-0128", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0129", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0139", "verdict": "X6", "criterion": "X6", "route": "none", "note": "AgEcon throttled; WP twin of eru-0182; bootstrap MC content unverifiable"}
+{"id": "eru-0145", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0146", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SMU listing duplicate of eru-0238 (OBES 2014), per its own abstract"}
+{"id": "eru-0147", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN twin of eru-0238; same abstract"}
+{"id": "eru-0154", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Probable duplicate of eru-0126; no identifier or text to verify"}
+{"id": "eru-0155", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0158", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0161", "verdict": "X6", "criterion": "X6", "route": "none", "note": "WP twin of eru-0197; abstract page only"}
+{"id": "eru-0163", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0164", "verdict": "EXCLUDE", "criterion": "I3", "route": "repository", "note": "No DOI/arXiv/handle; best locator ESSEC/Albany PDF; NERC theory WP 2012"}
+{"id": "eru-0165", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0166", "verdict": "X6", "criterion": "X6", "route": "none", "note": "SSRN blocked; probable twin of eru-0210"}
+{"id": "eru-0167", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0168", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0173", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0179", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0180", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0181", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN twin of eru-0238; same work"}
+{"id": "eru-0182", "verdict": "X6", "criterion": "X6", "route": "none", "note": "OUP blocked; abstract only; bootstrap MC (I2b-grade) unverifiable"}
+{"id": "eru-0184", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "WP twin of eru-0306 (Econ Modelling 2014); same work"}
+{"id": "eru-0185", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0186", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "Cowles d1843: PSY combined WP; GSADF theory, size/power sims; WP tier"}
+{"id": "eru-0187", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0193", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0195", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0197", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0200", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0201", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0204", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0205", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0206", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF application to food commodity futures; no own OC"}
+{"id": "eru-0207", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0209", "verdict": "X6", "criterion": "X6", "route": "none", "note": "No identifier or text; NERC WP family (see eru-0164)"}
+{"id": "eru-0210", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "HKIMR WP twin: PWY-type test applied to HK property; no OC"}
+{"id": "eru-0215", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0220", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0221", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0228", "verdict": "X6", "criterion": "X6", "route": "none", "note": "SSRN blocked; Dallas Fed GSADF housing application WP"}
+{"id": "eru-0235", "verdict": "X6", "criterion": "X6", "route": "none", "note": "OUP and repositories blocked; power comparison (I2-grade) unverifiable"}
+{"id": "eru-0236", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0237", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0238", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "Cowles d1842: limit theory across specifications; size/power; drift exponents"}
+{"id": "eru-0242", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "Cowles title-page duplicate of eru-0393 (PSY 2015a)"}
+{"id": "eru-0243", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0245", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0249", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0250", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Springer landing only; CUSUM burst monitoring theory (I2a-grade) unverifiable"}
+{"id": "eru-0257", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0258", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0259", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "Assessed on repub WP twin text: monitoring test, MC size/power"}
+{"id": "eru-0264", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0265", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "WP twin of eru-0332 (JEF 2015 oil futures); same work"}
+{"id": "eru-0268", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0269", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0274", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0275", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0277", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0279", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0281", "verdict": "EXCLUDE", "criterion": "X7", "route": "repository", "note": "Cowles d1967 WP twin of eru-0559 (KI-11); same work"}
+{"id": "eru-0296", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0297", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0300", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SFB 823 DP twin of eru-0369; same title"}
+{"id": "eru-0302", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0303", "verdict": "X6", "criterion": "X6", "route": "none", "note": "SSRN blocked; probable WP twin of eru-0597"}
+{"id": "eru-0305", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0306", "verdict": "EXCLUDE", "criterion": "I1", "route": "repository", "note": "Steady-state distribution theory; no detector; assessed via WP twin eru-0184"}
+{"id": "eru-0321", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0327", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0330", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0344", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "SADF/GSADF Australian housing application; no OC"}
+{"id": "eru-0347", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0349", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0361", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0363", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0367", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0368", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0370", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0375", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0387", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0391", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0394", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0396", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0403", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0406", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0408", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0413", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0414", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0420", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0425", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0427", "verdict": "X6", "criterion": "X6", "route": "none", "note": "CAMA WP twin of eru-0492; unobtainable"}
+{"id": "eru-0428", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0438", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0440", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0445", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0449", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0453", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0454", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "PWY/PSY sequences applied to oil; no own OC"}
+{"id": "eru-0462", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0463", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "New dating approach; MC dating-accuracy comparison vs recursive unit root dating"}
+{"id": "eru-0464", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0465", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0469", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Wiley blocked; method comparison vs benchmark chronology (I2c-grade) unverifiable"}
+{"id": "eru-0477", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "WP twin of eru-0476; same work"}
+{"id": "eru-0479", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "GSADF South Africa application; no OC"}
+{"id": "eru-0480", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0484", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0485", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0486", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0487", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0490", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0491", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0492", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0501", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "WP twin of eru-1225 (right-tailed PANIC); same work"}
+{"id": "eru-0502", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0515", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0516", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0519", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0520", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0525", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0526", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0528", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0529", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Abstract only; related to eru-1260; trend-spuriousness theory unverifiable"}
+{"id": "eru-0535", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0537", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0538", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0539", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0540", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0543", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0545", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0547", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0548", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "DP twin of eru-0555 (Explosiveness in G11 currencies)"}
+{"id": "eru-0551", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0553", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0555", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0556", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0557", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0558", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0562", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "Repository-listing duplicate of eru-0503 (KI-06)"}
+{"id": "eru-0567", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0568", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "Phillips-Perron-based recursive application to Latin America; no own OC"}
+{"id": "eru-0569", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0571", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0572", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "WP twin of eru-0998 (Econometric Reviews 2020), per its own abstract"}
+{"id": "eru-0575", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0576", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0577", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0578", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0580", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0590", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SSRN twin of eru-0883; same title"}
+{"id": "eru-0592", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0593", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Elsevier blocked; RETRACTED article (FRL)"}
+{"id": "eru-0601", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0605", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "Duplicate of eru-0604 (title match)"}
+{"id": "eru-0608", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0609", "verdict": "INCLUDE", "criterion": "I2b", "route": "repository", "note": "End-of-sample bubble tests; subsample CVs; size/power MC vs PSY"}
+{"id": "eru-0618", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "Waikato WP twin of eru-0647; same title"}
+{"id": "eru-0622", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0629", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0637", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0639", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0646", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0647", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "PSY plus contagion test applied to Japan; no OC"}
+{"id": "eru-0655", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0657", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0662", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0667", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0679", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0680", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0688", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0689", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "GLS-based PWY variants; limiting distributions; local asymptotic power; union"}
+{"id": "eru-0691", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Abstract only; PWY size distortion under long memory (I2b-grade) unverifiable"}
+{"id": "eru-0699", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0700", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0701", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0710", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0714", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0720", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0728", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0736", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0738", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Elsevier blocked; RETRACTED article"}
+{"id": "eru-0739", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0743", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0748", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "Granger DP 18-05: WLS-based PWY variant; asymptotic power; union procedure"}
+{"id": "eru-0749", "verdict": "X6", "criterion": "X6", "route": "none", "note": "OUP blocked; wild-bootstrap size/power content (I2-grade) unverifiable"}
+{"id": "eru-0751", "verdict": "EXCLUDE", "criterion": "S-a-fail", "route": "repository", "note": "Journal version of eru-0752; assessed on WP text; explosiveness is null, no dating"}
+{"id": "eru-0753", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0755", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0761", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Wiley blocked; dating-reliability simulations (I2b-grade) unverifiable"}
+{"id": "eru-0765", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0773", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0786", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0792", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0796", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0797", "verdict": "X6", "criterion": "X6", "route": "none", "note": "No OA copy; monitoring limit theory (I2a-grade) unverifiable"}
+{"id": "eru-0806", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0809", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0812", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0814", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0819", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0823", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Wiley blocked; randomized-drift collapse model (I2a-grade) unverifiable"}
+{"id": "eru-0825", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0829", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0841", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0844", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "WP twin of eru-0978; same title and date"}
+{"id": "eru-0845", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0846", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0849", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0850", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0852", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0859", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SMU listing duplicate of eru-0367"}
+{"id": "eru-0860", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SMU listing duplicate of eru-0100"}
+{"id": "eru-0861", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SMU listing duplicate of eru-1011"}
+{"id": "eru-0864", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0868", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0869", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0875", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0883", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "Cowles d2114: RCA continuous systems; extreme-path tests; theory, size/power"}
+{"id": "eru-0884", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0885", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0893", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0899", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0900", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0901", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0902", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0903", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0904", "verdict": "X6", "criterion": "X6", "route": "none", "note": "No identifier or text; possible WP antecedent of eru-1526"}
+{"id": "eru-0907", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "SWER application of recursive tests to Nasdaq; no OC"}
+{"id": "eru-0909", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0926", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0928", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0940", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0941", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Wiley blocked; delay-time asymptotics (I2a-grade) unverifiable"}
+{"id": "eru-0942", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0943", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0944", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0949", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0953", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0959", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Elsevier and worktribe blocked; two-step dating (I2-grade) unverifiable"}
+{"id": "eru-0960", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0966", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0967", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0970", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0975", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0980", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0994", "verdict": "EXCLUDE", "criterion": "X1", "route": "repository", "note": "PWY-style explosiveness applied to cryptocurrencies; no OC"}
+{"id": "eru-0995", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0996", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-0998", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-0999", "verdict": "EXCLUDE", "criterion": "X7", "route": "none", "note": "SMU listing duplicate of eru-0367"}
+{"id": "eru-1000", "verdict": "EXCLUDE", "criterion": "I1", "route": "none", "note": "Journal-title record (IJSSER), not a study"}
+{"id": "eru-1002", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1003", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1011", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1012", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1020", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1021", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1023", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1025", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1027", "verdict": "X6", "criterion": "X6", "route": "none", "note": "OUP blocked; NERC theory (I2a-grade); WP antecedents eru-0164/0209"}
+{"id": "eru-1043", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1053", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1067", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1071", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1087", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1089", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1090", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1096", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1100", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1104", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1106", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1107", "verdict": "X6", "criterion": "X6", "route": "none", "note": "No retrievable locator on any queried platform"}
+{"id": "eru-1112", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "Cowles d2251: mildly explosive factor model; PSY-based dating; theory, sims"}
+{"id": "eru-1120", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1121", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1123", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1124", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1128", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1129", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1136", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1137", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1150", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1153", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1155", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Landing only; Max/SADF combination MC power (I2b-grade) unverifiable"}
+{"id": "eru-1158", "verdict": "X6", "criterion": "X6", "route": "none", "note": "No retrievable locator on any queried platform"}
+{"id": "eru-1159", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1162", "verdict": "X6", "criterion": "X6", "route": "none", "note": "No retrievable locator on any queried platform"}
+{"id": "eru-1177", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1179", "verdict": "EXCLUDE", "criterion": "X1", "route": "openalex-oa", "note": "BSADF euro-area QE application; simulated CVs only"}
+{"id": "eru-1180", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1182", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Elsevier blocked; recursive adjusted tests under NSV (I2a-grade) unverifiable"}
+{"id": "eru-1188", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1195", "verdict": "X6", "criterion": "X6", "route": "none", "note": "De Gruyter blocked; GSADF frequency/span MC (I2b-grade) unverifiable"}
+{"id": "eru-1218", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Sage blocked; Stata radf software article"}
+{"id": "eru-1224", "verdict": "EXCLUDE", "criterion": "S-b-fail", "route": "arxiv", "note": "Assessed on arXiv 2204.02073 title variant: quantile AR moderate-deviation estimation"}
+{"id": "eru-1239", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1246", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1247", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1254", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1257", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1260", "verdict": "X6", "criterion": "X6", "route": "none", "note": "OUP blocked; polynomial-trend spuriousness theory (I2a-grade) unverifiable"}
+{"id": "eru-1279", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1289", "verdict": "EXCLUDE", "criterion": "I2-fail", "route": "repository", "note": "Cowles d2331 (Shi-Phillips chapter): survey of PSY methods; no new OC"}
+{"id": "eru-1294", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1298", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1307", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1310", "verdict": "X6", "criterion": "X6", "route": "none", "note": "No retrievable locator on any queried platform"}
+{"id": "eru-1316", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1322", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1333", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1341", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1344", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1345", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1346", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1347", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1349", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1354", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1364", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Wiley and worktribe blocked; co-explosivity theory (I2a-grade) unverifiable"}
+{"id": "eru-1366", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1381", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1384", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "Journal version of time-transformed STADF; assessed on arXiv twin text"}
+{"id": "eru-1394", "verdict": "INCLUDE", "criterion": "I2a", "route": "repository", "note": "Essex copy: covariate-augmented subsample ADF; theory plus MC power gains"}
+{"id": "eru-1395", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1403", "verdict": "X6", "criterion": "X6", "route": "none", "note": "OUP blocked; URQ-vs-explosive discrimination theory unverifiable"}
+{"id": "eru-1405", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Wiley blocked; panel clustering bubble theory (I2a-grade) unverifiable"}
+{"id": "eru-1409", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1411", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1413", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1423", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1424", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1430", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1435", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1439", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Elsevier blocked; LORD online-FDR monitoring comparison unverifiable"}
+{"id": "eru-1441", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1448", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1452", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1462", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1464", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1471", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Elsevier blocked; fluctuation-type monitoring theory (I2a-grade) unverifiable"}
+{"id": "eru-1478", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1481", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1482", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1483", "verdict": "X6", "criterion": "X6", "route": "none", "note": "De Gruyter blocked; factor-model date-stamping unverifiable"}
+{"id": "eru-1489", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1505", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1515", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1533", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Elsevier blocked; sequential monitoring theory unverifiable"}
+{"id": "eru-1535", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1541", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1542", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1546", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1573", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1574", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1581", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1607", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1608", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1616", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1617", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1618", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1624", "verdict": "X6", "criterion": "X6", "route": "none", "note": "T and F blocked; FDR/FNR calibrated p-values (I2-grade) unverifiable"}
+{"id": "eru-1625", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1631", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1632", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1645", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1650", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1652", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1657", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1669", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1674", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1678", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1679", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1695", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1696", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1699", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1701", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Wiley blocked; quantile monitoring theory (I2a-grade) unverifiable"}
+{"id": "eru-1705", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1715", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Wiley blocked; STUR-explosive union tests (I2a-grade) unverifiable"}
+{"id": "eru-1737", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1750", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1758", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Wiley blocked; improved retrospective dating (I2a-grade) unverifiable"}
+{"id": "eru-1772", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1780", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1783", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1784", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1786", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1787", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1788", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1789", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1792", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1794", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1808", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1822", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1823", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1826", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1848", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1853", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Wiley blocked; GARCH sequential monitoring theory unverifiable"}
+{"id": "eru-1865", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1888", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1890", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Wiley blocked; sign-based PSY under level shifts (I2a-grade) unverifiable"}
+{"id": "eru-1901", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1908", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1910", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1912", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1920", "verdict": "INCLUDE", "criterion": "I2a", "route": "arxiv", "note": "Confidence sets for bubble dates via test inversion; limit theory; MC"}
+{"id": "eru-1923", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1924", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1932", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1941", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}
+{"id": "eru-1944", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1948", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1955", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1957", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1969", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1971", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1972", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1977", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1981", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1983", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable after chain (arXiv, OA locations, publisher, OpenAIRE); access blocked"}
+{"id": "eru-1991", "verdict": "X6", "criterion": "X6", "route": "none", "note": "Full text unobtainable; only abstract/landing retrieved; publisher blocked"}

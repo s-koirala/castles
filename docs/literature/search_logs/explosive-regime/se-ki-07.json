@@ -1,0 +1,378 @@
+{
+ "query_id": "se-ki-07",
+ "arm": "known-item",
+ "ki": "KI-07",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1017/s0266466619000057",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      17
+     ]
+    ],
+    "date-time": "2026-08-17T20:46:27Z",
+    "timestamp": 1786999587054,
+    "version": "build-2736575974"
+   },
+   "reference-count": 23,
+   "publisher": "Cambridge University Press (CUP)",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2019,
+        3,
+        29
+       ]
+      ],
+      "date-time": "2019-03-29T00:00:00Z",
+      "timestamp": 1553817600000
+     },
+     "content-version": "unspecified",
+     "delay-in-days": 0,
+     "URL": "https://www.cambridge.org/core/terms"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2019,
+        3,
+        29
+       ]
+      ],
+      "date-time": "2019-03-29T00:00:00Z",
+      "timestamp": 1553817600000
+     },
+     "content-version": "unspecified",
+     "delay-in-days": 0,
+     "URL": "https://www.cambridge.org/core/terms"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "www.cambridge.org"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Econom. Theory"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2020,
+      2
+     ]
+    ]
+   },
+   "abstract": "<jats:p>\n                    This article considers the problem of testing for an explosive bubble in financial data in the presence of time-varying volatility. We propose a sign-based variant of the Phillips, Shi, and Yu (2015,\n                    <jats:italic>International Economic Review</jats:italic>\n                    56, 1043–1077) test. Unlike the original test, the sign-based test does not require bootstrap-type methods to control size in the presence of time-varying volatility. Under a locally explosive alternative, the sign-based test delivers higher power than the original test for many time-varying volatility and bubble specifications. However, since the original test can still outperform the sign-based one for some specifications, we also propose a union of rejections procedure that combines the original and sign-based tests, employing a wild bootstrap to control size. This is shown to capture most of the power available from the better performing of the two tests. We also show how a sign-based statistic can be used to date the bubble start and end points. An empirical illustration using Bitcoin price data is provided.\n                  </jats:p>",
+   "DOI": "10.1017/s0266466619000057",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2019,
+      3,
+      29
+     ]
+    ],
+    "date-time": "2019-03-29T05:10:41Z",
+    "timestamp": 1553836241000
+   },
+   "page": "122-169",
+   "update-policy": "https://doi.org/10.1017/policypage",
+   "source": "Crossref",
+   "is-referenced-by-count": 36,
+   "title": [
+    "SIGN-BASED UNIT ROOT TESTS FOR EXPLOSIVE FINANCIAL BUBBLES IN THE PRESENCE OF DETERMINISTICALLY TIME-VARYING VOLATILITY"
+   ],
+   "prefix": "10.1017",
+   "volume": "36",
+   "author": [
+    {
+     "given": "David I.",
+     "family": "Harvey",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Stephen J.",
+     "family": "Leybourne",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Yang",
+     "family": "Zu",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "56",
+   "published-online": {
+    "date-parts": [
+     [
+      2019,
+      3,
+      29
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "S0266466619000057_ref23",
+     "volume-title": "Asymptotic Statistics",
+     "author": "Van der Vaart",
+     "year": "2000"
+    },
+    {
+     "key": "S0266466619000057_ref22",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/9780470644560"
+    },
+    {
+     "key": "S0266466619000057_ref20",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/jtsa.12427"
+    },
+    {
+     "key": "S0266466619000057_ref18",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S1574-8715(07)00210-2"
+    },
+    {
+     "key": "S0266466619000057_ref17",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1468-2354.2010.00625.x"
+    },
+    {
+     "key": "S0266466619000057_ref16",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/iere.12132"
+    },
+    {
+     "key": "S0266466619000057_ref15",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/obes.12026"
+    },
+    {
+     "key": "S0266466619000057_ref10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jempfin.2015.09.002"
+    },
+    {
+     "key": "S0266466619000057_ref5",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1515/9781400830213"
+    },
+    {
+     "key": "S0266466619000057_ref3",
+     "first-page": "194",
+     "article-title": "On qualitatively robust sign test in random walk model. Proceedings of the 10th International Conference",
+     "volume": "1",
+     "author": "Boldin",
+     "year": "2013",
+     "journal-title": "‘Computer Data Analysis and Modeling: Theoretical and Applied Stochastics’"
+    },
+    {
+     "key": "S0266466619000057_ref13",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0266466617000202"
+    },
+    {
+     "key": "S0266466619000057_ref2",
+     "first-page": "295",
+     "volume-title": "Crises in the Economic and Financial Structure",
+     "author": "Blanchard",
+     "year": "1982"
+    },
+    {
+     "key": "S0266466619000057_ref9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S026646660809018X"
+    },
+    {
+     "key": "S0266466619000057_ref21",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0304-4076(01)00053-7"
+    },
+    {
+     "key": "S0266466619000057_ref4",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2109988"
+    },
+    {
+     "key": "S0266466619000057_ref14",
+     "author": "Phillips",
+     "year": "2018b"
+    },
+    {
+     "key": "S0266466619000057_ref6",
+     "volume-title": "Elements of Financial Risk Management",
+     "author": "Christoffersen",
+     "year": "2012"
+    },
+    {
+     "key": "S0266466619000057_ref12",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jeconom.2005.08.002"
+    },
+    {
+     "key": "S0266466619000057_ref19",
+     "author": "Shi",
+     "year": "2018a"
+    },
+    {
+     "key": "S0266466619000057_ref11",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jjfinec/nbr009"
+    },
+    {
+     "key": "S0266466619000057_ref7",
+     "author": "Gourieroux",
+     "year": "2018"
+    },
+    {
+     "key": "S0266466619000057_ref1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/jtsa.12279"
+    },
+    {
+     "key": "S0266466619000057_ref8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0304-4076(96)00016-4"
+    }
+   ],
+   "container-title": [
+    "Econometric Theory"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0266466619000057",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2020,
+      1,
+      24
+     ]
+    ],
+    "date-time": "2020-01-24T09:38:03Z",
+    "timestamp": 1579858683000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://www.cambridge.org/core/product/identifier/S0266466619000057/type/journal_article"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2019,
+      3,
+      29
+     ]
+    ]
+   },
+   "references-count": 23,
+   "journal-issue": {
+    "issue": "1",
+    "published-print": {
+     "date-parts": [
+      [
+       2020,
+       2
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "S0266466619000057"
+   ],
+   "URL": "https://doi.org/10.1017/s0266466619000057",
+   "relation": {},
+   "ISSN": [
+    "0266-4666",
+    "1469-4360"
+   ],
+   "issn-type": [
+    {
+     "value": "0266-4666",
+     "type": "print"
+    },
+    {
+     "value": "1469-4360",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2019,
+      3,
+      29
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "Copyright © Cambridge University Press 2019 ",
+     "name": "license",
+     "label": "License",
+     "group": {
+      "name": "copyright_and_licensing",
+      "label": "Copyright and Licensing"
+     }
+    }
+   ]
+  }
+ }
+}

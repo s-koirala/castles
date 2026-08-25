@@ -1,0 +1,401 @@
+{
+ "query_id": "se-ki-08",
+ "arm": "known-item",
+ "ki": "KI-08",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1111/jtsa.12784",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      7,
+      24
+     ]
+    ],
+    "date-time": "2026-07-24T06:06:53Z",
+    "timestamp": 1784873213219,
+    "version": "3.55.0"
+   },
+   "reference-count": 20,
+   "publisher": "Wiley",
+   "issue": "5",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2024,
+        10,
+        17
+       ]
+      ],
+      "date-time": "2024-10-17T00:00:00Z",
+      "timestamp": 1729123200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Journal Time Series Analysis"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2025,
+      9
+     ]
+    ]
+   },
+   "abstract": "<jats:p>We propose a new class of modified regression‐based tests for detecting asset price bubbles designed to be robust to the presence of general forms of both conditional and unconditional heteroskedasticity in the price series. This modification, based on the approach developed in Beare (2018) in the context of conventional unit root testing, is achieved by purging the impact of unconditional heteroskedasticity from the data using a kernel estimate of volatility before the application of the bubble detection methods proposed in Phillips, Shi and Yu (2015) (PSY). The modified statistic is shown to achieve the same limiting null distribution as the corresponding (heteroskedasticity‐uncorrected) statistic from PSY would obtain under homoskedasticity, such that the usual critical values provided in PSY may still be used. Versions of the test based on regressions including either no intercept or a (redundant) intercept are considered. Representations for asymptotic local power against a single bubble model are also derived. Monte Carlo simulation results highlight that neither one of these tests dominates the other across different bubble locations and magnitudes, and across different models of time‐varying volatility. Accordingly, we also propose a test based on a union of rejections between the with‐ and without‐intercept variants of the modified PSY test. The union procedure is shown to perform almost as well as the better of the constituent tests for a given DGP, and also performs very well compared to existing heteroskedasticity‐robust tests across a large range of simulation DGPs.</jats:p>",
+   "DOI": "10.1111/jtsa.12784",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      17
+     ]
+    ],
+    "date-time": "2024-10-17T06:11:44Z",
+    "timestamp": 1729145504000
+   },
+   "page": "846-866",
+   "update-policy": "https://doi.org/10.1002/crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 2,
+   "title": [
+    "A new heteroskedasticity‐robust test for explosive bubbles"
+   ],
+   "prefix": "10.1111",
+   "volume": "46",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-7504-6885",
+     "authenticated-orcid": false,
+     "given": "David I.",
+     "family": "Harvey",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "School of Economics University of Nottingham  Nottingham UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Stephen J.",
+     "family": "Leybourne",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "School of Economics University of Nottingham  Nottingham UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-0567-0276",
+     "authenticated-orcid": false,
+     "given": "A. M. Robert",
+     "family": "Taylor",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Essex Business School University of Essex  Colchester UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Yang",
+     "family": "Zu",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Economics University of Macau  Macau China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      17
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_9_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/jtsa.12279"
+    },
+    {
+     "key": "e_1_2_9_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/ectj.12100"
+    },
+    {
+     "key": "e_1_2_9_4_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/07350015.2020.1867558"
+    },
+    {
+     "key": "e_1_2_9_5_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1137/1.9780898719246"
+    },
+    {
+     "key": "e_1_2_9_6_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Calvo‐GonzalezO ShankarR TrezziR.2010.Are commodity prices more volatile now? World Bank Policy Research Working Paper No. 5460.",
+     "DOI": "10.1596/1813-9450-5460"
+    },
+    {
+     "key": "e_1_2_9_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/07350015.2020.1773275"
+    },
+    {
+     "key": "e_1_2_9_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1081/ETC-120015385"
+    },
+    {
+     "key": "e_1_2_9_9_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/07474930701624462"
+    },
+    {
+     "key": "e_1_2_9_10_1",
+     "volume-title": "Martingale Limit Theory and Its Applications",
+     "author": "Hall P",
+     "year": "1980"
+    },
+    {
+     "key": "e_1_2_9_11_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jempfin.2015.09.002"
+    },
+    {
+     "key": "e_1_2_9_12_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/07474938.2018.1536099"
+    },
+    {
+     "key": "e_1_2_9_13_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0266466619000057"
+    },
+    {
+     "key": "e_1_2_9_14_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/09603107.2011.564131"
+    },
+    {
+     "key": "e_1_2_9_15_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "309",
+     "DOI": "10.1017/9781139942287.015",
+     "volume-title": "Random Matrix Theory, Interacting Particle Systems, and Integrable Systems",
+     "author": "Novak J",
+     "year": "2014"
+    },
+    {
+     "key": "e_1_2_9_16_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1468-2354.2010.00625.x"
+    },
+    {
+     "key": "e_1_2_9_17_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/iere.12132"
+    },
+    {
+     "key": "e_1_2_9_18_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S1574-8715(07)00210-2"
+    },
+    {
+     "key": "e_1_2_9_19_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.intfin.2011.12.003"
+    },
+    {
+     "key": "e_1_2_9_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jeconom.2007.06.001"
+    },
+    {
+     "key": "e_1_2_9_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/07350015.1992.10509904"
+    }
+   ],
+   "container-title": [
+    "Journal of Time Series Analysis"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jtsa.12784",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      4
+     ]
+    ],
+    "date-time": "2025-08-04T04:29:08Z",
+    "timestamp": 1754281748000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1111/jtsa.12784"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      17
+     ]
+    ]
+   },
+   "references-count": 20,
+   "journal-issue": {
+    "issue": "5",
+    "published-print": {
+     "date-parts": [
+      [
+       2025,
+       9
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1111/jtsa.12784"
+   ],
+   "URL": "https://doi.org/10.1111/jtsa.12784",
+   "archive": [
+    "Portico"
+   ],
+   "relation": {},
+   "ISSN": [
+    "0143-9782",
+    "1467-9892"
+   ],
+   "issn-type": [
+    {
+     "value": "0143-9782",
+     "type": "print"
+    },
+    {
+     "value": "1467-9892",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      17
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "2023-12-14",
+     "order": 0,
+     "name": "received",
+     "label": "Received",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "2024-09-10",
+     "order": 2,
+     "name": "accepted",
+     "label": "Accepted",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "2024-10-17",
+     "order": 3,
+     "name": "published",
+     "label": "Published",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    }
+   ]
+  }
+ }
+}

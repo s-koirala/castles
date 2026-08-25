@@ -1,0 +1,5313 @@
+{
+ "date": "2026-08-24",
+ "protocol": "docs/methodology/protocol_explosive-regime-review_2026-08-24.md (section 4.1)",
+ "rules": [
+  "R1 identifier-level: records sharing a normalized DOI (lowercase, resolver prefix stripped), arXiv id (version-stripped), OpenAlex work id, or Semantic Scholar paperId are the same work (union-find over shared identifiers)",
+  "R2 title-level: residual clusters whose titles match case/punctuation-insensitively (unicode NFKD, lowercased, non-alphanumerics removed) are same-work twins; each applied merge itemized below and hand-verified; secondary identifiers retained as twin_dois",
+  "no fuzzy-similarity threshold used (protocol 4.1 rule is exact normalized-title match)"
+ ],
+ "counts": {
+  "raw_records_all_arms": 4898,
+  "after_identifier_dedup": 2255,
+  "identifier_merge_events": 2643,
+  "title_merge_groups_candidates": 245,
+  "title_merges_applied": 245,
+  "final_universe": 1996
+ },
+ "arm_counts": {
+  "se-arxiv-01": 4,
+  "se-arxiv-02": 1,
+  "se-arxiv-03": 5,
+  "se-arxiv-04": 3,
+  "se-arxiv-05": 2,
+  "se-arxiv-06": 5,
+  "se-crossref-01": 20,
+  "se-crossref-02": 20,
+  "se-crossref-03": 20,
+  "se-crossref-04": 20,
+  "se-crossref-05": 20,
+  "se-crossref-06": 20,
+  "se-crossref-07": 20,
+  "se-crossref-08": 20,
+  "se-crossref-09": 20,
+  "se-crossref-10": 20,
+  "se-crossref-11": 20,
+  "se-crossref-12": 20,
+  "se-fc-oa-psy": 1081,
+  "se-fc-oa-pwy": 1148,
+  "se-fc-s2-psy": 1150,
+  "se-fc-s2-pwy": 1116,
+  "se-ki-01": 1,
+  "se-ki-02": 1,
+  "se-ki-03": 1,
+  "se-ki-04": 1,
+  "se-ki-05": 1,
+  "se-ki-06": 1,
+  "se-ki-07": 1,
+  "se-ki-08": 1,
+  "se-ki-09": 1,
+  "se-ki-10": 1,
+  "se-ki-11": 1,
+  "se-ki-12": 1,
+  "se-ki-13": 1,
+  "se-ki-14": 1,
+  "se-openalex-01": 25,
+  "se-openalex-02": 25,
+  "se-openalex-03": 25,
+  "se-openalex-04": 14,
+  "se-s2-01-c": 19,
+  "se-s2-02-c": 21
+ },
+ "title_merges": [
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Model Selection for Explosive Models",
+    "doi": "10.1108/s0731-905320200000041003",
+    "arxiv": "1703.02720",
+    "oa": "W2337759687",
+    "twin_dois": [
+     "10.2139/ssrn.2933621"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2933621",
+     "arxiv": null,
+     "oa": "W3122869590",
+     "s2": null,
+     "year": 2017,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Near-Unit-Root Theory for Affine Processes",
+    "doi": "10.2139/ssrn.7210624",
+    "arxiv": null,
+    "oa": "W7172010146"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": "2605.27859",
+     "oa": null,
+     "s2": null,
+     "year": 2026,
+     "venue": "arXiv"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Double Local-to-Unity: Inference under Nearly Nonstationary Volatility",
+    "doi": "10.2139/ssrn.6865190",
+    "arxiv": null,
+    "oa": "W7163035097"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": "2512.06823",
+     "oa": null,
+     "s2": "310f5223ee0090bfc05d11554309ffdaaf65e0a8",
+     "year": 2025,
+     "venue": "arXiv"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "On the Asymptotic Behavior of Bubble Date Estimators",
+    "doi": "10.2139/ssrn.3939356",
+    "arxiv": null,
+    "oa": "W3205670938",
+    "twin_dois": [
+     "10.1111/jtsa.12672"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1111/jtsa.12672",
+     "arxiv": "2110.04500",
+     "oa": "W3206017980",
+     "s2": "162425aa3ca66bba7005f62b1dba731af4c0f8ee",
+     "year": 2022,
+     "venue": "Journal of Time Series Analysis"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubbles All the Way Down? Detecting and Date-Stamping Bubble Behaviour in DeFi and NFT Markets",
+    "doi": "10.2139/ssrn.4038320",
+    "arxiv": null,
+    "oa": null,
+    "twin_dois": [
+     "10.2139/ssrn.4045855"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4045855",
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": 2022,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Stochastic analysis of Bubble Razor",
+    "doi": "10.7873/date2014.122",
+    "arxiv": null,
+    "oa": null,
+    "twin_dois": [
+     "10.7873/date.2014.122"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.7873/date.2014.122",
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": 2014,
+     "venue": "Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), 2014"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Detecting Speculative Bubbles in the Chinese Energy Market：Evidence from a Gsadf Test Approach",
+    "doi": "10.2139/ssrn.4613849",
+    "arxiv": null,
+    "oa": null,
+    "twin_dois": [
+     "10.2139/ssrn.4429762",
+     "10.2139/ssrn.4584044"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4584044",
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": 2023,
+     "venue": null
+    },
+    {
+     "doi": "10.2139/ssrn.4429762",
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": 2023,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "TESTING FOR MULTIPLE BUBBLES: LIMIT THEORY OF REAL‐TIME DETECTORS",
+    "doi": "10.1111/iere.12131",
+    "arxiv": null,
+    "oa": "W3121133327",
+    "twin_dois": [
+     "10.2139/ssrn.2327633"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2327633",
+     "arxiv": null,
+     "oa": "W2192090669",
+     "s2": null,
+     "year": 2013,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Specification Sensitivity in Right-Tailed Unit Root Testing for Explosive Behavior",
+    "doi": "10.2139/ssrn.1981951",
+    "arxiv": null,
+    "oa": "W3125816510"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": "W3125937050",
+     "s2": null,
+     "year": 2012,
+     "venue": "RePEc: Research Papers in Economics"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "DETECTING FINANCIAL CONTAGION BUBBLES IN FUTURE MARKETS: AN EMPIRICAL EVIDENCE FROM RIGHT-TAILED UNIT ROOT TEST APPROACH",
+    "doi": "10.36543/kauiibfd.2021.002",
+    "arxiv": null,
+    "oa": "W3174798649",
+    "twin_dois": [
+     "10.36543/kauiibf.2021.002"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.36543/kauiibf.2021.002",
+     "arxiv": null,
+     "oa": "W4251641713",
+     "s2": null,
+     "year": 2021,
+     "venue": "Kafkas Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "exuber: Recursive Right-Tailed Unit Root Testing with R",
+    "doi": "10.24149/gwp383",
+    "arxiv": null,
+    "oa": "W3024476225",
+    "twin_dois": [
+     "10.24149/gwp383r1"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.24149/gwp383r1",
+     "arxiv": null,
+     "oa": "W4206085732",
+     "s2": null,
+     "year": 2021,
+     "venue": "Federal Reserve Bank of Dallas, Globalization Institute Working Papers"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Specification Sensitivities in Right-Tailed Unit Root Testing for Financial Bubbles",
+    "doi": "10.2139/ssrn.1873871",
+    "arxiv": null,
+    "oa": "W2104412723"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": "W3122285628",
+     "s2": null,
+     "year": 2011,
+     "venue": "RePEc: Research Papers in Economics"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Limit Theory for Explosive Autoregression Under Conditional Heteroskedasticity",
+    "doi": "10.2139/ssrn.3016451",
+    "arxiv": null,
+    "oa": "W2949769584",
+    "twin_dois": [
+     "10.1016/j.jspi.2017.10.008"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1016/j.jspi.2017.10.008",
+     "arxiv": null,
+     "oa": "W2767220982",
+     "s2": "25f315aa6db7299e07d7ee9879b50c9b8457a1ae",
+     "year": 2017,
+     "venue": "Journal of Statistical Planning and Inference"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Prospect Theory and Asset Prices",
+    "doi": "10.3386/w7220",
+    "arxiv": null,
+    "oa": null,
+    "twin_dois": [
+     "10.2139/ssrn.169790"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.169790",
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": 1999,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubble Theory (of Speculative Markets)",
+    "doi": "10.1007/springerreference_886",
+    "arxiv": null,
+    "oa": null,
+    "twin_dois": [
+     "10.1007/0-387-26336-5_248"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1007/0-387-26336-5_248",
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": null,
+     "venue": "Encyclopedia of Finance"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Speculative Growth and the AI \"Bubble\"",
+    "doi": "10.3386/w34722",
+    "arxiv": null,
+    "oa": null,
+    "twin_dois": [
+     "10.2139/ssrn.5943057",
+     "10.2139/ssrn.6134092"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.5943057",
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": 2026,
+     "venue": null
+    },
+    {
+     "doi": "10.2139/ssrn.6134092",
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": 2026,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "TESTING FOR MULTIPLE BUBBLES: HISTORICAL EPISODES OF EXUBERANCE AND COLLAPSE IN THE S&amp;P 500",
+    "doi": "10.1111/iere.12132",
+    "arxiv": null,
+    "oa": "W3125260748",
+    "twin_dois": [
+     "10.2139/ssrn.2327609"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2327609",
+     "arxiv": null,
+     "oa": "W2127064749",
+     "s2": null,
+     "year": 2013,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Detecting and Date-Stamping Bubbles in Fan Tokens",
+    "doi": "10.2139/ssrn.4408621",
+    "arxiv": null,
+    "oa": null,
+    "twin_dois": [
+     "10.1016/j.iref.2024.01.039"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1016/j.iref.2024.01.039",
+     "arxiv": null,
+     "oa": "W4391451785",
+     "s2": "f1149a0d83d7ad585753e1dfb8bfc772fd217bf5",
+     "year": 2024,
+     "venue": "International Review of Economics & Finance"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for speculative bubbles in asset prices",
+    "doi": "10.4337/9780857936097.00009",
+    "arxiv": null,
+    "oa": null,
+    "twin_dois": [
+     "10.4337/9780857936080.00009"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.4337/9780857936080.00009",
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": 2013,
+     "venue": "Handbook of Research Methods and Applications in Empirical Finance"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Methods for testing pigments for paints",
+    "doi": "10.3403/00049717u",
+    "arxiv": null,
+    "oa": null,
+    "twin_dois": [
+     "10.3403/00049717"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.3403/00049717",
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": null,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubble Detection and Sector Trading in Real Time",
+    "doi": "10.2139/ssrn.2827051",
+    "arxiv": null,
+    "oa": "W2514176118",
+    "twin_dois": [
+     "10.1080/14697688.2018.1459811"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1080/14697688.2018.1459811",
+     "arxiv": null,
+     "oa": "W3125914525",
+     "s2": "49080c4418227dba6dce5dc04e7c7723c9482bae",
+     "year": 2018,
+     "venue": "Quantitative Finance"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Visual Simultaneous Detection and Real-Time Monitoring of Cadmium Ions Based on Conjugated Polydiacetylenes",
+    "doi": "10.1021/acsomega.0c04636.s002",
+    "arxiv": null,
+    "oa": null,
+    "twin_dois": [
+     "10.1021/acsomega.0c04636.s001"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1021/acsomega.0c04636.s001",
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": null,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Date Stamping Bubbles in Real Estate Investment Trusts",
+    "doi": "10.2139/ssrn.2722343",
+    "arxiv": null,
+    "oa": "W2743202482",
+    "twin_dois": [
+     "10.1016/j.qref.2015.10.003"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1016/j.qref.2015.10.003",
+     "arxiv": null,
+     "oa": "W2140844394",
+     "s2": "3f555165ab511440abd50d30783c212084c77e57",
+     "year": 2015,
+     "venue": "The Quarterly Review of Economics and Finance"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Unit Root Test with High-Frequency Data",
+    "doi": "10.2139/ssrn.3421332",
+    "arxiv": null,
+    "oa": null,
+    "twin_dois": [
+     "10.1017/s0266466621000098",
+     "10.2139/ssrn.3447035"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3447035",
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": 2019,
+     "venue": "SSRN Electronic Journal"
+    },
+    {
+     "doi": "10.1017/s0266466621000098",
+     "arxiv": null,
+     "oa": "W3152597534",
+     "s2": "20d88fcaee8afefa16fb81342353405d326674e6",
+     "year": 2021,
+     "venue": "Econometric Theory"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Cryptocurrency trading: a comprehensive survey",
+    "doi": "10.1186/s40854-021-00321-6",
+    "arxiv": "2003.11352",
+    "oa": "W4210404112",
+    "twin_dois": [
+     "10.1007/978-981-96-6839-7_4",
+     "10.48550/arxiv.2003.11352"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1007/978-981-96-6839-7_4",
+     "arxiv": null,
+     "oa": "W3123149643",
+     "s2": null,
+     "year": 2025,
+     "venue": null
+    },
+    {
+     "doi": "10.48550/arxiv.2003.11352",
+     "arxiv": null,
+     "oa": "W3013304964",
+     "s2": null,
+     "year": 2020,
+     "venue": "RePEc: Research Papers in Economics"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Causal Change Detection in Possibly Integrated Systems: Revisiting the Money–Income Relationship*",
+    "doi": "10.1093/jjfinec/nbz004",
+    "arxiv": null,
+    "oa": "W2517752132",
+    "twin_dois": [
+     "10.2139/ssrn.2881983"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2881983",
+     "arxiv": null,
+     "oa": "W3122322701",
+     "s2": null,
+     "year": 2016,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Measuring Investor Sentiment",
+    "doi": "10.1146/annurev-financial-110217-022725",
+    "arxiv": null,
+    "oa": "W2761096802",
+    "twin_dois": [
+     "10.2139/ssrn.3051414"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3051414",
+     "arxiv": null,
+     "oa": "W3122034367",
+     "s2": null,
+     "year": 2017,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The economic value of Bitcoin: A portfolio analysis of currencies, gold, oil and stocks",
+    "doi": "10.1016/j.ribaf.2018.12.001",
+    "arxiv": null,
+    "oa": "W2797713121",
+    "twin_dois": [
+     "10.2139/ssrn.3127534"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3127534",
+     "arxiv": null,
+     "oa": "W3125278982",
+     "s2": null,
+     "year": 2018,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Cryptocurrency reaction to FOMC Announcements: Evidence of heterogeneity based on blockchain stack position",
+    "doi": "10.1016/j.jfs.2019.100706",
+    "arxiv": null,
+    "oa": "W2774997015",
+    "twin_dois": [
+     "10.2139/ssrn.3073727"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3073727",
+     "arxiv": null,
+     "oa": "W2990003229",
+     "s2": null,
+     "year": 2017,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Episodes of Exuberance in Housing Markets: In Search of the Smoking Gun",
+    "doi": "10.1007/s11146-015-9531-2",
+    "arxiv": null,
+    "oa": "W1718969698",
+    "twin_dois": [
+     "10.24149/gwp165"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.24149/gwp165",
+     "arxiv": null,
+     "oa": "W2594214539",
+     "s2": null,
+     "year": 2013,
+     "venue": "Federal Reserve Bank of Dallas, Globalization and Monetary Policy Institute Working Papers"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Asset Price Bubbles and Systemic Risk",
+    "doi": "10.1093/rfs/hhaa011",
+    "arxiv": null,
+    "oa": "W2766087607",
+    "twin_dois": [
+     "10.3386/w25775"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.3386/w25775",
+     "arxiv": null,
+     "oa": null,
+     "s2": "70bb9f7ad9d31a2d909e8ac8f0eee6ba18d34ec9",
+     "year": 2019,
+     "venue": "The Review of financial studies"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The illusion of the metaverse and meta-economy",
+    "doi": "10.1016/j.irfa.2023.102560",
+    "arxiv": null,
+    "oa": "W4319166372",
+    "twin_dois": [
+     "10.2139/ssrn.4116773"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4116773",
+     "arxiv": null,
+     "oa": null,
+     "s2": "8c3927d010b67fa95bb088e31c13abb86af2d762",
+     "year": 2023,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The Microeconomics of Cryptocurrencies",
+    "doi": "10.1257/jel.20201593",
+    "arxiv": null,
+    "oa": "W4294287235",
+    "twin_dois": [
+     "10.3386/w27477"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.3386/w27477",
+     "arxiv": null,
+     "oa": null,
+     "s2": "966a1b6a6876969e4d31871d35fadd7fa5283f8b",
+     "year": 2020,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Real time monitoring of asset markets: Bubbles and crises",
+    "doi": "10.1016/bs.host.2018.12.002",
+    "arxiv": null,
+    "oa": "W2910640390",
+    "twin_dois": [
+     "10.2139/ssrn.3299498"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3299498",
+     "arxiv": null,
+     "oa": "W3122854034",
+     "s2": null,
+     "year": 2018,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for Bubbles in Cryptocurrencies with Time-Varying Volatility",
+    "doi": "10.1093/jjfinec/nby023",
+    "arxiv": null,
+    "oa": "W2896025957",
+    "twin_dois": [
+     "10.2139/ssrn.3105251"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3105251",
+     "arxiv": null,
+     "oa": "W3120000984",
+     "s2": "b30a1cc2a61e3435c53a1173f4b9a7f1daec8aa7",
+     "year": 2018,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Identifying price bubble periods in the energy sector",
+    "doi": "10.1016/j.eneco.2017.12.007",
+    "arxiv": null,
+    "oa": "W3021168961",
+    "twin_dois": [
+     "10.2139/ssrn.2894976"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2894976",
+     "arxiv": null,
+     "oa": null,
+     "s2": "109ce9f7adfe609e99782417064e603d1615cae0",
+     "year": 2017,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubbles and crashes in cryptocurrencies: Interdependence, contagion, or asset rotation?",
+    "doi": "10.1016/j.frl.2021.102494",
+    "arxiv": null,
+    "oa": "W3205120242",
+    "twin_dois": [
+     "10.2139/ssrn.3939759"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3939759",
+     "arxiv": null,
+     "oa": "W4236322468",
+     "s2": null,
+     "year": 2021,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Diagnosing housing fever with an econometric thermometer",
+    "doi": "10.1111/joes.12430",
+    "arxiv": null,
+    "oa": "W3181065339",
+    "twin_dois": [
+     "10.2139/ssrn.3586110",
+     "10.2139/ssrn.3593118"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3593118",
+     "arxiv": null,
+     "oa": "W3033052607",
+     "s2": "b553ebfa8c4b9e3167f1902e064106acdf00d782",
+     "year": 2020,
+     "venue": "SSRN Electronic Journal"
+    },
+    {
+     "doi": "10.2139/ssrn.3586110",
+     "arxiv": null,
+     "oa": "W3123658686",
+     "s2": null,
+     "year": 2020,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubble economics",
+    "doi": "10.1016/j.jmateco.2024.102944",
+    "arxiv": "2311.03638",
+    "oa": "W4391146573",
+    "twin_dois": [
+     "10.48550/arxiv.2311.03638"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.48550/arxiv.2311.03638",
+     "arxiv": null,
+     "oa": "W4388514389",
+     "s2": null,
+     "year": 2023,
+     "venue": "London School of Economics and Political Science Research Online (London School of Economics and Political Science)"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The role of geopolitical and climate risk in driving uncertainty in European electricity markets",
+    "doi": "10.1016/j.eneco.2025.108276",
+    "arxiv": null,
+    "oa": "W4407438126",
+    "twin_dois": [
+     "10.2139/ssrn.5123104"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.5123104",
+     "arxiv": null,
+     "oa": null,
+     "s2": "32f8fb2aa5e9e841311db14bdb4a2925c0eaf663",
+     "year": 2025,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubbles and Crises: The Role of House Prices and Credit",
+    "doi": "10.1002/jae.2503",
+    "arxiv": null,
+    "oa": "W1568523260",
+    "twin_dois": [
+     "10.2139/ssrn.2602428"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2602428",
+     "arxiv": null,
+     "oa": "W3123103698",
+     "s2": null,
+     "year": 2014,
+     "venue": "SSRN Electronic Journal"
+    },
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "b19266b4159bee27179318a8372e28cded7ddd1d",
+     "year": 2014,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Hot property in New Zealand: Empirical evidence of housing bubbles in the metropolitan centres",
+    "doi": "10.1080/00779954.2015.1065903",
+    "arxiv": null,
+    "oa": "W1791204545",
+    "twin_dois": [
+     "10.2139/ssrn.2622496"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2622496",
+     "arxiv": null,
+     "oa": "W3125140870",
+     "s2": null,
+     "year": 2015,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "When Bubble Meets Bubble: Contagion in OECD Countries",
+    "doi": "10.1007/s11146-017-9605-4",
+    "arxiv": null,
+    "oa": "W2397123835",
+    "twin_dois": [
+     "10.32468/be.942"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.32468/be.942",
+     "arxiv": null,
+     "oa": "W3123644600",
+     "s2": null,
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for a housing bubble at the national and regional level: the case of Israel",
+    "doi": "10.1007/s00181-015-1007-y",
+    "arxiv": null,
+    "oa": "W2104346866",
+    "twin_dois": [
+     "10.24149/gwp246"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.24149/gwp246",
+     "arxiv": null,
+     "oa": "W2344578696",
+     "s2": null,
+     "year": 2015,
+     "venue": "Federal Reserve Bank of Dallas, Globalization and Monetary Policy Institute Working Papers"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Detecting Financial Collapse and Ballooning Sovereign Risk",
+    "doi": "10.1111/obes.12307",
+    "arxiv": null,
+    "oa": "W2757370191",
+    "twin_dois": [
+     "10.2139/ssrn.3036545"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3036545",
+     "arxiv": null,
+     "oa": "W2950636505",
+     "s2": null,
+     "year": 2017,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "LPPLS bubble indicators over two centuries of the S&P 500 index",
+    "doi": "10.1016/j.physa.2016.03.103",
+    "arxiv": null,
+    "oa": "W3122528088",
+    "twin_dois": [
+     "10.2139/ssrn.2727755"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2727755",
+     "arxiv": null,
+     "oa": "W2337659711",
+     "s2": "4d7950e292ffd1c3b541ba2db4345cd1ecfbc4db",
+     "year": 2016,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Did bubbles migrate from the stock to the housing market in China between 2005 and 2010?",
+    "doi": "10.1111/1468-0106.12230",
+    "arxiv": null,
+    "oa": "W2611265288",
+    "twin_dois": [
+     "10.2139/ssrn.2945257"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2945257",
+     "arxiv": null,
+     "oa": "W2802301086",
+     "s2": null,
+     "year": 2017,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Weak σ -convergence: Theory and applications",
+    "doi": "10.1016/j.jeconom.2018.12.022",
+    "arxiv": null,
+    "oa": "W2580266062",
+    "twin_dois": [
+     "10.2139/ssrn.2901070"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2901070",
+     "arxiv": null,
+     "oa": "W3121752332",
+     "s2": "fc3ce330ba7c0561f2e69068c782246c367cff07",
+     "year": 2017,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "CRYPTO‐CURRENCIES – AN INTRODUCTION TO NOT‐SO‐FUNNY MONEYS",
+    "doi": "10.1111/joes.12289",
+    "arxiv": null,
+    "oa": "W2788141768",
+    "twin_dois": [
+     "10.1002/9781119565178.ch12"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1002/9781119565178.ch12",
+     "arxiv": null,
+     "oa": "W2922316892",
+     "s2": "25c7460a57dc5df2877628353f9bbae4000e723a",
+     "year": 2019,
+     "venue": "Contemporary Topics in Finance"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Explosive dynamics in house prices? An exploration of financial market spillovers in housing markets around the world",
+    "doi": "10.1016/j.jimonfin.2019.102103",
+    "arxiv": null,
+    "oa": "W2985036367",
+    "twin_dois": [
+     "10.24149/gwp342",
+     "10.24149/gwp342r1"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.24149/gwp342",
+     "arxiv": null,
+     "oa": "W3124276520",
+     "s2": null,
+     "year": 2018,
+     "venue": "Federal Reserve Bank of Dallas, Globalization and Monetary Policy Institute Working Papers"
+    },
+    {
+     "doi": "10.24149/gwp342r1",
+     "arxiv": null,
+     "oa": "W3163576012",
+     "s2": "9a14c8a5157c8ba7f2a33990323db084cb77eb5b",
+     "year": 2018,
+     "venue": "Journal of International Money and Finance"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Fundamentals and the volatility of real estate prices in China: A sequential modelling strategy",
+    "doi": "10.1016/j.chieco.2016.10.011",
+    "arxiv": null,
+    "oa": "W3124809266",
+    "twin_dois": [
+     "10.2139/ssrn.2689387"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2689387",
+     "arxiv": null,
+     "oa": "W2175212718",
+     "s2": null,
+     "year": 2015,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Detecting periods of exuberance: A look at the role of aggregation with an application to house prices",
+    "doi": "10.1016/j.econmod.2018.07.021",
+    "arxiv": null,
+    "oa": "W2745341418",
+    "twin_dois": [
+     "10.24149/gwp325r1"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.24149/gwp325r1",
+     "arxiv": null,
+     "oa": "W3125998863",
+     "s2": null,
+     "year": 2018,
+     "venue": "Federal Reserve Bank of Dallas, Globalization and Monetary Policy Institute Working Papers"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Comovement and instability in cryptocurrency markets",
+    "doi": "10.1016/j.iref.2022.08.010",
+    "arxiv": null,
+    "oa": "W3122395184",
+    "twin_dois": [
+     "10.2139/ssrn.3523993"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3523993",
+     "arxiv": null,
+     "oa": "W3003357370",
+     "s2": "abfa8ccdbc4b7d678be7685855687fa4db731791",
+     "year": 2020,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubble detection in Bitcoin and Ethereum and its relationship with volatility regimes",
+    "doi": "10.1108/jes-09-2021-0452",
+    "arxiv": null,
+    "oa": "W4220849353",
+    "twin_dois": [
+     "10.1108/jes-09-2021-0452/full/html?utm_source=repec&utm_medium=feed&utm_campaign=repec"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1108/jes-09-2021-0452/full/html?utm_source=repec&utm_medium=feed&utm_campaign=repec",
+     "arxiv": null,
+     "oa": "W7111342181",
+     "s2": null,
+     "year": null,
+     "venue": "RePEc: Research Papers in Economics"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Why topological data analysis detects financial bubbles?",
+    "doi": "10.1016/j.cnsns.2023.107665",
+    "arxiv": null,
+    "oa": "W4388336451",
+    "twin_dois": [
+     "10.2139/ssrn.4418395"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4418395",
+     "arxiv": "2304.06877",
+     "oa": null,
+     "s2": "1a5dd69775826cf67c01588201b94b6af79575c8",
+     "year": 2023,
+     "venue": "Communications in nonlinear science & numerical simulation"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for explosive bubbles in the presence of autocorrelated innovations",
+    "doi": "10.1016/j.jempfin.2020.06.002",
+    "arxiv": null,
+    "oa": "W3035981231",
+    "twin_dois": [
+     "10.2139/ssrn.2916616"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2916616",
+     "arxiv": null,
+     "oa": "W2591139022",
+     "s2": "bd389ca977b596a037b4d0f981f686cfbdfd0692",
+     "year": 2017,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "On the drivers of technical analysis profits in cryptocurrency markets: A Distributed Lag approach",
+    "doi": "10.1016/j.irfa.2023.102516",
+    "arxiv": null,
+    "oa": "W4315642865",
+    "twin_dois": [
+     "10.2139/ssrn.4201475"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4201475",
+     "arxiv": null,
+     "oa": "W4318603828",
+     "s2": null,
+     "year": 2022,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Gold as a financial instrument",
+    "doi": "10.1016/j.jcomm.2021.100218",
+    "arxiv": null,
+    "oa": "W3123024440",
+    "twin_dois": [
+     "10.2139/ssrn.3693475"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3693475",
+     "arxiv": null,
+     "oa": null,
+     "s2": "6b58d4c778f38f1200f582ba3fb5a168484476a9",
+     "year": 2020,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Common Bubble Detection in Large Dimensional Financial Systems",
+    "doi": "10.1093/jjfinec/nbab027",
+    "arxiv": null,
+    "oa": "W3048674328",
+    "twin_dois": [
+     "10.2139/ssrn.3467372"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3467372",
+     "arxiv": null,
+     "oa": "W3208374466",
+     "s2": "ce49307074e9786504eeec9828450e4482789414",
+     "year": 2019,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Time-Varying Bidirectional Causal Relationships between Transaction Fees and Economic Activity of Subsystems Utilizing the Ethereum Blockchain Network",
+    "doi": "10.3390/jrfm17010019",
+    "arxiv": null,
+    "oa": "W4390589727",
+    "twin_dois": [
+     "10.2139/ssrn.4400040"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4400040",
+     "arxiv": "2501.05299",
+     "oa": "W4362714682",
+     "s2": "a8ca5f0ce56fa28cab192ca7daf5c0b4eccf04fc",
+     "year": 2023,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The mirror of history: How to statistically identify stock market bubble bursts",
+    "doi": "10.1016/j.jebo.2022.09.024",
+    "arxiv": null,
+    "oa": "W4306972728"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": "W7134143347",
+     "s2": null,
+     "year": 2021,
+     "venue": "HAL (Le Centre pour la Communication Scientifique Directe)"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "House price bubbles under the COVID-19 pandemic",
+    "doi": "10.1016/j.jempfin.2023.101462",
+    "arxiv": null,
+    "oa": "W4390546612",
+    "twin_dois": [
+     "10.2139/ssrn.4067276"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4067276",
+     "arxiv": null,
+     "oa": "W4226034689",
+     "s2": null,
+     "year": 2022,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Explosive bubbles in house prices? Evidence from the OECD countries",
+    "doi": "10.1016/j.intfin.2015.07.006",
+    "arxiv": null,
+    "oa": "W3023892147",
+    "twin_dois": [
+     "10.2139/ssrn.2548466"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2548466",
+     "arxiv": null,
+     "oa": "W112031048",
+     "s2": "be1716b2c18d7bab7ef7e10059fb2a8bc21d5331",
+     "year": 2015,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for Asset Price Bubbles Using Options Data",
+    "doi": "10.1080/07350015.2024.2429470",
+    "arxiv": null,
+    "oa": "W4404527491",
+    "twin_dois": [
+     "10.2139/ssrn.3670999"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3670999",
+     "arxiv": null,
+     "oa": "W3113430852",
+     "s2": null,
+     "year": 2020,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Detecting speculation in the market for EU emission allowances",
+    "doi": "10.1016/j.eneco.2025.108652",
+    "arxiv": null,
+    "oa": "W4411627644",
+    "twin_dois": [
+     "10.2139/ssrn.5030260"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.5030260",
+     "arxiv": null,
+     "oa": "W4405358294",
+     "s2": null,
+     "year": 2024,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The metaverse hype: identifying bubbles and comovements of metaverse tokens",
+    "doi": "10.1080/14765284.2023.2286548",
+    "arxiv": null,
+    "oa": "W4389485721",
+    "twin_dois": [
+     "10.2139/ssrn.4602794"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4602794",
+     "arxiv": null,
+     "oa": "W4388156100",
+     "s2": null,
+     "year": 2023,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "When Chinese mania meets global frenzy: Commodity price bubbles",
+    "doi": "10.1016/j.jcomm.2024.100437",
+    "arxiv": null,
+    "oa": "W4403158991",
+    "twin_dois": [
+     "10.2139/ssrn.4744175"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4744175",
+     "arxiv": null,
+     "oa": "W4393325529",
+     "s2": "d5ea00cc5e22527ae2e22a8003011ae05a923ffb",
+     "year": 2024,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Uncertainty, Risk, and Opaque Stock Markets",
+    "doi": "10.3390/ijfs13010035",
+    "arxiv": null,
+    "oa": "W4408113353",
+    "twin_dois": [
+     "10.2139/ssrn.5005602"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.5005602",
+     "arxiv": null,
+     "oa": "W4403957850",
+     "s2": null,
+     "year": 2024,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "When green turns exuberant: Bubble detection in clean-energy markets",
+    "doi": "10.1016/j.frl.2025.109109",
+    "arxiv": null,
+    "oa": "W4416621199",
+    "twin_dois": [
+     "10.2139/ssrn.5387929"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.5387929",
+     "arxiv": null,
+     "oa": "W4413208645",
+     "s2": null,
+     "year": 2025,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Double asymptotics for explosive continuous time models",
+    "doi": "10.1016/j.jeconom.2016.02.014",
+    "arxiv": null,
+    "oa": "W3123340067",
+    "twin_dois": [
+     "10.2139/ssrn.2316345"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2316345",
+     "arxiv": null,
+     "oa": "W1505773753",
+     "s2": null,
+     "year": 2011,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "INEFFICIENT BUBBLES AND EFFICIENT DRAWDOWNS IN FINANCIAL MARKETS",
+    "doi": "10.1142/s0219024920500478",
+    "arxiv": null,
+    "oa": "W2901623928",
+    "twin_dois": [
+     "10.2139/ssrn.3210598"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3210598",
+     "arxiv": null,
+     "oa": "W3092052611",
+     "s2": null,
+     "year": 2018,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Australian Housing Market Booms: Fundamentals or Speculation?*",
+    "doi": "10.1111/1475-4932.12553",
+    "arxiv": null,
+    "oa": "W3036664383",
+    "twin_dois": [
+     "10.2139/ssrn.3447046"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3447046",
+     "arxiv": null,
+     "oa": null,
+     "s2": "4350ab11b1f7c38bbd71e12e1a309b41713a29d9",
+     "year": 2020,
+     "venue": "The Economic Record"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Stationary Threshold Vector Autoregressive Models",
+    "doi": "10.3390/jrfm11030045",
+    "arxiv": null,
+    "oa": "W2885907610",
+    "twin_dois": [
+     "10.2139/ssrn.3226570"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3226570",
+     "arxiv": null,
+     "oa": "W3131648018",
+     "s2": null,
+     "year": 2018,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubbles in Ethereum",
+    "doi": "10.1016/j.frl.2021.102387",
+    "arxiv": null,
+    "oa": "W3142786008",
+    "twin_dois": [
+     "10.2139/ssrn.3812513"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3812513",
+     "arxiv": null,
+     "oa": null,
+     "s2": "1f3dd885135595d2d8d8a46bdaacc32fafe9ebf9",
+     "year": 2021,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Oil price bubbles: The role of network centrality on idiosyncratic sovereign risk",
+    "doi": "10.1016/j.resourpol.2023.103493",
+    "arxiv": null,
+    "oa": "W4327941926",
+    "twin_dois": [
+     "10.2139/ssrn.4309918"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4309918",
+     "arxiv": null,
+     "oa": null,
+     "s2": "ff66e92557e5802aef177ed1ad2d92c2eebc9219",
+     "year": 2023,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "WHERE DO WE STAND IN CRYPTOCURRENCIES ECONOMIC RESEARCH? A SURVEY BASED ON HYBRID ANALYSIS",
+    "doi": "10.1111/joes.12412",
+    "arxiv": null,
+    "oa": "W3012806606",
+    "twin_dois": [
+     "10.2139/ssrn.3553071"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3553071",
+     "arxiv": "2003.09723",
+     "oa": null,
+     "s2": "0964b2fba9567a4d4c42147f16935a2ced33a7ab",
+     "year": 2020,
+     "venue": "Journal of economic surveys (Print)"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for explosive bubbles: a review",
+    "doi": "10.1515/demo-2022-0152",
+    "arxiv": null,
+    "oa": "W4321444991",
+    "twin_dois": [
+     "10.2139/ssrn.3779111"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3779111",
+     "arxiv": "2207.08249",
+     "oa": "W4253834231",
+     "s2": "da4b03bfa52bdc360365b5e759400deb815101c6",
+     "year": 2021,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Price Exuberance and Contagion across Housing Markets: Evidence from US Metropolitan Areas",
+    "doi": "10.1007/s11146-022-09925-w",
+    "arxiv": null,
+    "oa": "W4308895048",
+    "twin_dois": [
+     "10.2139/ssrn.4115933"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4115933",
+     "arxiv": null,
+     "oa": "W4285198222",
+     "s2": null,
+     "year": 2022,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Correlation meets causality: A holistic measure of financial contagion",
+    "doi": "10.1016/j.frl.2024.105503",
+    "arxiv": null,
+    "oa": "W4396701822",
+    "twin_dois": [
+     "10.2139/ssrn.4766214"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4766214",
+     "arxiv": null,
+     "oa": "W4392993899",
+     "s2": null,
+     "year": 2024,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A study on asset price bubble dynamics: explosive trend or quadratic variation?",
+    "doi": "10.1080/14697688.2024.2342897",
+    "arxiv": null,
+    "oa": "W4399140720",
+    "twin_dois": [
+     "10.2139/ssrn.4356169"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4356169",
+     "arxiv": null,
+     "oa": "W4320502852",
+     "s2": null,
+     "year": 2023,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Do cointegrated commodities bubble together? the case of hog, corn, and soybean",
+    "doi": "10.1016/j.frl.2017.02.007",
+    "arxiv": null,
+    "oa": "W4300920299",
+    "twin_dois": [
+     "10.2139/ssrn.2914152"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2914152",
+     "arxiv": null,
+     "oa": "W2587422493",
+     "s2": null,
+     "year": 2017,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Point optimal testing with roots that are functionally local to unity",
+    "doi": "10.1016/j.jeconom.2020.03.003",
+    "arxiv": null,
+    "oa": "W2760598405",
+    "twin_dois": [
+     "10.2139/ssrn.3036507"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3036507",
+     "arxiv": null,
+     "oa": null,
+     "s2": "dd59af3870905c48f534fcf07e574c7fae0c397c",
+     "year": 2017,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Detecting Imbalances in House Prices: What Goes Up Must Come Down?*",
+    "doi": "10.1111/sjoe.12349",
+    "arxiv": null,
+    "oa": "W2536619166",
+    "twin_dois": [
+     "10.2139/ssrn.2842573"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2842573",
+     "arxiv": null,
+     "oa": "W2949230258",
+     "s2": null,
+     "year": 2016,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bayesian Analysis of Bubbles in Asset Prices",
+    "doi": "10.3390/econometrics5040047",
+    "arxiv": null,
+    "oa": "W3122681168",
+    "twin_dois": [
+     "10.2139/ssrn.2400050"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2400050",
+     "arxiv": null,
+     "oa": "W2167297821",
+     "s2": null,
+     "year": 2014,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The maple bubble: A history of migration among Canadian provinces",
+    "doi": "10.1016/j.jhe.2018.03.001",
+    "arxiv": null,
+    "oa": "W2616159473",
+    "twin_dois": [
+     "10.32468/be.992"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.32468/be.992",
+     "arxiv": null,
+     "oa": "W3152395964",
+     "s2": null,
+     "year": 2017,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Shall the winning last? A study of recent bubbles and persistence",
+    "doi": "10.1016/j.frl.2021.102162",
+    "arxiv": null,
+    "oa": "W3165060665",
+    "twin_dois": [
+     "10.2139/ssrn.3800819"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3800819",
+     "arxiv": null,
+     "oa": null,
+     "s2": "7c107097d070c3dc582b65d75d42f237e6dbc1e3",
+     "year": 2021,
+     "venue": "Finance Research Letters"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Mildly explosive dynamics in U.S. fixed income markets",
+    "doi": "10.1016/j.ejor.2020.03.053",
+    "arxiv": null,
+    "oa": "W2746463490",
+    "twin_dois": [
+     "10.2139/ssrn.3015040"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3015040",
+     "arxiv": null,
+     "oa": "W3124821075",
+     "s2": null,
+     "year": 2017,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Stock market bubbles and anti-bubbles",
+    "doi": "10.1016/j.irfa.2018.07.012",
+    "arxiv": null,
+    "oa": "W3121604575",
+    "twin_dois": [
+     "10.2139/ssrn.2859795"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2859795",
+     "arxiv": null,
+     "oa": "W2884136555",
+     "s2": "3cfe09f9e4eadb527593b550a0ca78357e4cf5a2",
+     "year": 2018,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The Dynamics and Contrast of House Prices in Portugal and Spain",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2282864181"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "2ef63b5515b0d7ee670be61774df489c37763f40",
+     "year": 2014,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "DETECTING MULTIPLE BUBBLES IN INTERNATIONAL STOCK MARKETS WITH RECURSIVE FLEXIBLE WINDOWS",
+    "doi": "10.24889/ifede.452513",
+    "arxiv": null,
+    "oa": "W2908106487"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": 2019,
+     "venue": null
+    },
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": null,
+     "year": 2019,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A PANEL CLUSTERING APPROACH TO ANALYZING BUBBLE BEHAVIOR",
+    "doi": "10.1111/iere.12647",
+    "arxiv": null,
+    "oa": "W4378378858",
+    "twin_dois": [
+     "10.2139/ssrn.4043996"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4043996",
+     "arxiv": null,
+     "oa": null,
+     "s2": "957e83a2e99008d8631d28ac5069def5377cb012",
+     "year": 2023,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Are we in a bubble? Financial vulnerabilities in semiconductor, Web3, and genetic engineering markets",
+    "doi": "10.1016/j.iref.2023.11.002",
+    "arxiv": null,
+    "oa": "W4388736065",
+    "twin_dois": [
+     "10.2139/ssrn.4593852"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4593852",
+     "arxiv": null,
+     "oa": "W4387483695",
+     "s2": null,
+     "year": 2023,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "How Consumers' Inflation Expectations Respond to Explosive Periods of Food and Energy Prices: Evidence for European Union Countries",
+    "doi": "10.18267/j.pep.717",
+    "arxiv": null,
+    "oa": "W2988987164"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "45f0f0a7ae8c81a9f76c7f2d52eb74e55817f3ec",
+     "year": 2020,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Unified Inference for Panel Autoregressive Models With Unobserved Grouped Heterogeneity",
+    "doi": "10.1080/07350015.2025.2507375",
+    "arxiv": null,
+    "oa": "W4410493159"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "e08c423677c929632d02fa19c693577926d4930e",
+     "year": null,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Digital assets, bubbles, and derivative prices",
+    "doi": "10.1007/s11147-025-09220-9",
+    "arxiv": null,
+    "oa": "W4414783249",
+    "twin_dois": [
+     "10.2139/ssrn.5251250"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.5251250",
+     "arxiv": null,
+     "oa": "W4410299519",
+     "s2": null,
+     "year": 2025,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Macro-Financial Spillovers between Stock Markets & Cryptocurrencies",
+    "doi": "10.3917/fina.pr.053",
+    "arxiv": null,
+    "oa": "W7129666807",
+    "twin_dois": [
+     "10.3917/e.fina.pr.053"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.3917/e.fina.pr.053",
+     "arxiv": null,
+     "oa": "W7141010467",
+     "s2": null,
+     "year": 2026,
+     "venue": "Finance"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Mildly Explosive Autoregression with Anti‐persistent Errors*",
+    "doi": "10.1111/obes.12395",
+    "arxiv": null,
+    "oa": "W3082244980"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "c574ba2eec692f8e48a8e8b6a626176d9111d9cd",
+     "year": 2020,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Quantitative easing and exuberance in stock markets: Evidence from the euro area",
+    "doi": "10.1016/j.jimonfin.2021.102471",
+    "arxiv": null,
+    "oa": "W3124546406",
+    "twin_dois": [
+     "10.2139/ssrn.3498327"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3498327",
+     "arxiv": null,
+     "oa": null,
+     "s2": "4b5a6b0d2b39ae20a057e1f8eb7b0b9dde89eb4b",
+     "year": 2019,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The time-series linkages between US fiscal policy and asset prices",
+    "doi": "10.1177/1091142120916032",
+    "arxiv": null,
+    "oa": "W3124589767",
+    "twin_dois": [
+     "10.2139/ssrn.2587847"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2587847",
+     "arxiv": null,
+     "oa": "W2266978497",
+     "s2": null,
+     "year": 2015,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Oil price explosivity and stock return: Do sector and firm size matter?",
+    "doi": "10.1016/j.resourpol.2022.102892",
+    "arxiv": null,
+    "oa": "W4285676332",
+    "twin_dois": [
+     "10.2139/ssrn.4060882",
+     "10.2139/ssrn.4101678"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4101678",
+     "arxiv": null,
+     "oa": "W4285293203",
+     "s2": null,
+     "year": 2022,
+     "venue": "SSRN Electronic Journal"
+    },
+    {
+     "doi": "10.2139/ssrn.4060882",
+     "arxiv": null,
+     "oa": null,
+     "s2": "ca173b64a5d3439418043bc0bff5ded6f8eb8089",
+     "year": 2022,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Double-Question Survey Measures for the Analysis of Financial Bubbles and Crashes",
+    "doi": "10.1080/07350015.2018.1513845",
+    "arxiv": null,
+    "oa": "W2580727907",
+    "twin_dois": [
+     "10.2139/ssrn.2880856"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2880856",
+     "arxiv": null,
+     "oa": "W3125787193",
+     "s2": null,
+     "year": 2016,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Environmental preferences and sector valuations",
+    "doi": "10.1007/s10290-024-00537-5",
+    "arxiv": null,
+    "oa": "W4400850948",
+    "twin_dois": [
+     "10.2139/ssrn.4481313"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4481313",
+     "arxiv": null,
+     "oa": "W4381058866",
+     "s2": null,
+     "year": 2023,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Super-Exponential RE bubble model with efficient crashes",
+    "doi": "10.1080/1351847x.2018.1521342",
+    "arxiv": null,
+    "oa": "W2768928688",
+    "twin_dois": [
+     "10.2139/ssrn.3064668"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3064668",
+     "arxiv": null,
+     "oa": "W2950495343",
+     "s2": null,
+     "year": 2017,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Sequential Detector Statistics for Speculative Bubbles",
+    "doi": "10.1111/jtsa.12845",
+    "arxiv": null,
+    "oa": "W4411077434",
+    "twin_dois": [
+     "10.2139/ssrn.5065510"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.5065510",
+     "arxiv": null,
+     "oa": "W4407127531",
+     "s2": null,
+     "year": 2025,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A Historical Analysis of the US Stock Price Index Using Empirical Mode Decomposition over 1791–2015",
+    "doi": "10.5018/economics-ejournal.ja.2016-9",
+    "arxiv": null,
+    "oa": "W3125493251",
+    "twin_dois": [
+     "10.7910/dvn/fzuqdm"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.7910/dvn/fzuqdm",
+     "arxiv": null,
+     "oa": "W2284857756",
+     "s2": "5a2e0c7e521f7374265145b0d8a7a81ef387904e",
+     "year": 2016,
+     "venue": "Harvard Dataverse"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A Markov Regime-Switching Model with Time-Varying Transition Probabilities for Identifying Asset Price Bubbles",
+    "doi": "10.5539/ijef.v10n4p1",
+    "arxiv": null,
+    "oa": "W2791436749"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "987aa691e380cf9307c1fa195706f28e2c73533c",
+     "year": 2017,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubbles in Grain Futures Markets: When are They Most Likely to Occur?",
+    "doi": "10.22004/ag.econ.285803",
+    "arxiv": null,
+    "oa": "W2185402836"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "991d6eed2383145fca5f1385edadf78e2836c691",
+     "year": 2013,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A Time-Varying Parameter Model for Local Explosions",
+    "doi": "10.1016/j.jeconom.2021.05.008",
+    "arxiv": null,
+    "oa": "W2902713511",
+    "twin_dois": [
+     "10.2139/ssrn.3285850"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3285850",
+     "arxiv": null,
+     "oa": null,
+     "s2": "77e84d3b7c0764baaf8939d8c9d94029895235c9",
+     "year": 2018,
+     "venue": "Journal of Econometrics"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Speculative Bubbles or Market Fundamentals? An Investigation of US Regional Housing Markets",
+    "doi": "10.2139/ssrn.2814791",
+    "arxiv": null,
+    "oa": "W2489249369",
+    "twin_dois": [
+     "10.1016/j.econmod.2017.06.002"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1016/j.econmod.2017.06.002",
+     "arxiv": null,
+     "oa": "W3123855436",
+     "s2": "959ebe593866932020ca58e772efa63dfb1f51b1",
+     "year": 2017,
+     "venue": "Economic Modelling"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Modeling the Covid-19 Epidemic Using Time Series Econometrics",
+    "doi": "10.1101/2020.06.01.20118612",
+    "arxiv": null,
+    "oa": "W3030293920",
+    "twin_dois": [
+     "10.1002/hec.4413"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1002/hec.4413",
+     "arxiv": null,
+     "oa": "W3121956886",
+     "s2": "25aa4179d7ea11fee86773a6744ea30961102758",
+     "year": 2021,
+     "venue": "Health Economics"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "House prices: bubbles, exuberance or something else? Evidence from euro area countries",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2289906600"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "1603dd07e9050aa06a5231c3e435bab05bd64324",
+     "year": 2015,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "In-fill Asymptotic Theory for Structural Break Point in Autoregression: A Unified Theory",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2617430129"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "63939e1c1daefb1b8445571f2719097b1ea718b5",
+     "year": 2017,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Date Stamping Historical Oil Price Bubbles: 1876-2014",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W1556905713"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "bf09850519c9faf227bcac60349eecb24951d262",
+     "year": 2014,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "New evidence for explosive behavior of commodity prices",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2529712998"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "9d42a12c301d1e0b0503ab1565e5b134e2d3c063",
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for Speculative Bubbles in Large-Dimensional Financial Panel Data Sets",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2432857831"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "7a743543025e562f3eb29652bbeb437996f7ad27",
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Allowance prices in the EU ETS -- fundamental price drivers and the recent upward trend",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2955990252"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "6266d4cb731d44b54787d9d8c37f4729144d05a2",
+     "year": 2019,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Uncovering Mild Drift in Asset Prices with Intraday High-Frequency Data",
+    "doi": "10.2139/ssrn.4786774",
+    "arxiv": null,
+    "oa": "W4394064497",
+    "twin_dois": [
+     "10.1016/j.jeconom.2025.106177"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1016/j.jeconom.2025.106177",
+     "arxiv": null,
+     "oa": "W7117679579",
+     "s2": "6ee417396a4b103990779dad389fa05f717cf633",
+     "year": 2025,
+     "venue": "Journal of Econometrics"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubble testing under deterministic trends",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2761673080"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "ce2e45ae94aeb706775ad0472ce883ec78b5ddc9",
+     "year": 2017,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubble Formation and Networks in Housing Markets",
+    "doi": "10.2139/ssrn.3126547",
+    "arxiv": null,
+    "oa": "W3046448892",
+    "twin_dois": [
+     "10.2139/ssrn.3141002"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3141002",
+     "arxiv": null,
+     "oa": "W4241977641",
+     "s2": null,
+     "year": 2018,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "An econometric analysis of U.K. regional real estate markets",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2588083061"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "0c4f68ad7a274cade43015d378c1e8845a7450f9",
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "How bubbly is the New Zealand dollar",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2614630502"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "aedeb25275d7522c8c5b871e1762f7f5578010f0",
+     "year": 2017,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A leading indicator of house-price bubbles",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2946002783"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "115be67711c2e2112e18f432e8e1cf284703e439",
+     "year": 2017,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The Timing of International Financial Market Bubbles",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W3168370575"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "1fe7b4bebecde6a1a87084aeeb9b565929565415",
+     "year": 2019,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Time Pressure Reduces Financial Bubbles: Evidence from a Forecasting Experiment",
+    "doi": "10.2139/ssrn.4808430",
+    "arxiv": null,
+    "oa": "W4395680675",
+    "twin_dois": [
+     "10.1017/eec.2025.10037"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1017/eec.2025.10037",
+     "arxiv": null,
+     "oa": "W7141311956",
+     "s2": null,
+     "year": 2025,
+     "venue": "Experimental Economics"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Hyperinflation and Explosive Behaviour in the General Price Level",
+    "doi": "10.2139/ssrn.7002157",
+    "arxiv": null,
+    "oa": "W7166083229",
+    "twin_dois": [
+     "10.2139/ssrn.7002219",
+     "10.2139/ssrn.7005921"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.7002219",
+     "arxiv": null,
+     "oa": "W7166059420",
+     "s2": null,
+     "year": 2026,
+     "venue": "SSRN Electronic Journal"
+    },
+    {
+     "doi": "10.2139/ssrn.7005921",
+     "arxiv": null,
+     "oa": "W7166179045",
+     "s2": null,
+     "year": 2026,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A Long-Run Performance Perspective on the Technology Bubble",
+    "doi": "10.2139/ssrn.2707583",
+    "arxiv": null,
+    "oa": "W2267471098",
+    "twin_dois": [
+     "10.1111/fire.12162"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1111/fire.12162",
+     "arxiv": null,
+     "oa": "W3122739056",
+     "s2": "44cfc3cb79e2462b6ab530697f21e1dfff0b7fb3",
+     "year": 2018,
+     "venue": "Financial Review"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "TRIBUTE TO T.W. ANDERSON",
+    "doi": "10.1017/s0266466616000530",
+    "arxiv": null,
+    "oa": "W2604356367",
+    "twin_dois": [
+     "10.2139/ssrn.2931083"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2931083",
+     "arxiv": null,
+     "oa": "W3121288296",
+     "s2": null,
+     "year": 2016,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Essays on Risk and Uncertainty in Economics and Finance",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2794622010"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "381209b35ab178bd102900ab5765fb6f7f4098da",
+     "year": 2018,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for Moderate Explosiveness in the Presence of Drift",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2886860567"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "638275ce6b641206099c8333c3eb12fb741eb1f1",
+     "year": 2018,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Cryptocurrency Market, A Bubble? - A Unit Root Approach",
+    "doi": "10.18452/19465",
+    "arxiv": null,
+    "oa": "W2896300479"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "bc8a1bf25f31e08cd96e1f013ca323064545f290",
+     "year": 2018,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for bubbles in time series data using long historical series",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2922095783"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "ef99af338eee62b04085ec5c76bafa82d5025167",
+     "year": 2019,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Comparing Tests for Identification of Bubbles",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2981818548"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "41f1ed0af52dd837d8fdcf0a9d33379d439f8b4b",
+     "year": 2019,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Inferring financial bubbles from option data",
+    "doi": "10.1002/jae.2862",
+    "arxiv": null,
+    "oa": "W3032910764",
+    "twin_dois": [
+     "10.2139/ssrn.3586437"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3586437",
+     "arxiv": null,
+     "oa": null,
+     "s2": "cc961bd8f725d68f1929f015aef128137991bf60",
+     "year": 2021,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Macro Aspects of Housing",
+    "doi": "10.2139/ssrn.3175691",
+    "arxiv": null,
+    "oa": "W3156360153",
+    "twin_dois": [
+     "10.24149/gwp340"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.24149/gwp340",
+     "arxiv": null,
+     "oa": null,
+     "s2": "6dbf929a2f879f24fda233c64a476c2fd939fe74",
+     "year": 2018,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Explosive behavior and rational bubbles: Evidence from the Serbian hyperinflation at daily frequency",
+    "doi": "10.2298/pan2203481p",
+    "arxiv": null,
+    "oa": "W4285151046"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "dee48d96f1c7459af498e5101b61c7bb1f7dfd2e",
+     "year": 2022,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Sequential monitoring of stock market price changes",
+    "doi": "10.1016/j.iref.2023.07.105",
+    "arxiv": null,
+    "oa": "W4385462915",
+    "twin_dois": [
+     "10.2139/ssrn.4041266"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4041266",
+     "arxiv": null,
+     "oa": null,
+     "s2": "69c449ddcec28d4fe13589047563f497ac16f1ae",
+     "year": 2023,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The cost of doing nothing: Testing the benefits of water disposal risk reduction with water management Activism investing in Latin America",
+    "doi": "10.21919/remef.v19i3.954",
+    "arxiv": null,
+    "oa": "W4389373118",
+    "twin_dois": [
+     "10.21919/remef.v19i2.954"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.21919/remef.v19i2.954",
+     "arxiv": null,
+     "oa": "W4393370847",
+     "s2": null,
+     "year": 2023,
+     "venue": "Revista Mexicana de Economía y Finanzas"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Time-varying Persistence of House Price Growth: The Role of Expectations and Credit Supply",
+    "doi": "10.1016/j.jbankfin.2026.107749",
+    "arxiv": null,
+    "oa": "W4396883729",
+    "twin_dois": [
+     "10.24149/gwp426"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.24149/gwp426",
+     "arxiv": null,
+     "oa": null,
+     "s2": "13a9943880fcccfa83dd06a83c44d129a406b034",
+     "year": 2024,
+     "venue": "Federal Reserve Bank of Dallas, Globalization Institute Working Papers"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Electronic Payments System and Banking Industry’s Return in Nigeria: A Time-Varying Granger Causality Approach",
+    "doi": "10.58567/fel03020003",
+    "arxiv": null,
+    "oa": "W4400370469"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "d2ae68d8c90c28b9fff0cd04e1523c13209ee9bf",
+     "year": null,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "P-Bubbles, Q-Bubbles, and Risk Premia",
+    "doi": "10.2139/ssrn.5152455",
+    "arxiv": null,
+    "oa": "W4407940845"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": "2608.01554",
+     "oa": null,
+     "s2": "0fd121d503c424aea8955104a9e6a24a220948ab",
+     "year": 2026,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Uniform Inference with General Autoregressive Processes",
+    "doi": "10.59576/sr.1151",
+    "arxiv": null,
+    "oa": "W4409799781",
+    "twin_dois": [
+     "10.2139/ssrn.5230584"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.5230584",
+     "arxiv": null,
+     "oa": "W4409897068",
+     "s2": null,
+     "year": 2025,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Dynamic Efficiency Redux: Evidence from China",
+    "doi": "10.1111/cwe.12611",
+    "arxiv": null,
+    "oa": "W4414124134",
+    "twin_dois": [
+     "10.2139/ssrn.4642433"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4642433",
+     "arxiv": null,
+     "oa": null,
+     "s2": "4d8b162e0f44baaffada4c7696471621c26f6aa8",
+     "year": 2025,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Limit Theory for Continuous Time Systems with Mildly Explosive Regressors",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W849967569"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "a26e8664fc6478683f90dcd3188336a85f162f81",
+     "year": 2015,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Technological Revolutions and Stock Prices",
+    "doi": "10.1257/aer.99.4.1451",
+    "arxiv": null,
+    "oa": "W3121865372",
+    "twin_dois": [
+     "10.2139/ssrn.868527"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.868527",
+     "arxiv": null,
+     "oa": null,
+     "s2": "50202f2fcabb31e2051d342c0c208e093c1f7080",
+     "year": 2009,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The financial economics of gold — A survey",
+    "doi": "10.1016/j.irfa.2015.07.005",
+    "arxiv": null,
+    "oa": "W3122159869",
+    "twin_dois": [
+     "10.2139/ssrn.2628018"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2628018",
+     "arxiv": null,
+     "oa": null,
+     "s2": "a3a8ce0b60bf0c1ecd11ccd14520ef4591a70718",
+     "year": 2015,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The impact of macroeconomic news on Bitcoin returns",
+    "doi": "10.1080/1351847x.2020.1737168",
+    "arxiv": null,
+    "oa": "W2986429079",
+    "twin_dois": [
+     "10.2139/ssrn.3550842"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3550842",
+     "arxiv": null,
+     "oa": "W3124863467",
+     "s2": null,
+     "year": 2020,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "From hero to zero: Evidence of performance reversal and speculative bubbles in German renewable energy stocks",
+    "doi": "10.1016/j.eneco.2013.01.006",
+    "arxiv": null,
+    "oa": "W2127647299",
+    "twin_dois": [
+     "10.2139/ssrn.2022314"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2022314",
+     "arxiv": null,
+     "oa": null,
+     "s2": "42b4040555e2801d27a02a60edfa084041b0661e",
+     "year": 2013,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A Mathematical Theory of Financial Bubbles",
+    "doi": "10.1007/978-3-319-00413-6_1",
+    "arxiv": null,
+    "oa": "W2128413721",
+    "twin_dois": [
+     "10.2139/ssrn.2115895"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2115895",
+     "arxiv": null,
+     "oa": "W4211022108",
+     "s2": "3995a6bd92fcf3060add25f1bea5d211de35a378",
+     "year": 2012,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Is there a bubble in the art market?",
+    "doi": "10.1016/j.jempfin.2015.10.010",
+    "arxiv": null,
+    "oa": "W3122345436",
+    "twin_dois": [
+     "10.2139/ssrn.2433597"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2433597",
+     "arxiv": null,
+     "oa": "W2163458615",
+     "s2": "efa21499078d58fcb19f2c0929c9f5fe2924d517",
+     "year": 2014,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "What factors drive the price–rent ratio for the housing market? A modified present-value analysis",
+    "doi": "10.1016/j.jedc.2015.06.006",
+    "arxiv": null,
+    "oa": "W3122193258",
+    "twin_dois": [
+     "10.2139/ssrn.2421115"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2421115",
+     "arxiv": null,
+     "oa": "W338273210",
+     "s2": "462d028a773592f0841ce561691b1aadd8d97e38",
+     "year": 2014,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Asymmetric mean reversion of Bitcoin price returns",
+    "doi": "10.1016/j.irfa.2018.10.004",
+    "arxiv": null,
+    "oa": "W2896687340",
+    "twin_dois": [
+     "10.2139/ssrn.3231161"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3231161",
+     "arxiv": null,
+     "oa": "W3125888076",
+     "s2": null,
+     "year": 2018,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Rational Speculators, Contrarians, and Excess Volatility",
+    "doi": "10.1287/mnsc.2014.1937",
+    "arxiv": null,
+    "oa": "W2124830076",
+    "twin_dois": [
+     "10.2139/ssrn.2194792"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2194792",
+     "arxiv": null,
+     "oa": "W2570483445",
+     "s2": null,
+     "year": 2012,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Do bubbles occur in the gold price? An investigation of gold lease rates and Markov Switching models",
+    "doi": "10.1016/j.bir.2013.10.008",
+    "arxiv": null,
+    "oa": "W3123730456",
+    "twin_dois": [
+     "10.2139/ssrn.2183597"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2183597",
+     "arxiv": null,
+     "oa": "W8175248",
+     "s2": null,
+     "year": 2012,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Recovery with Unbounded Diffusion Processes",
+    "doi": "10.1093/rof/rfw068",
+    "arxiv": null,
+    "oa": "W3122541860",
+    "twin_dois": [
+     "10.2139/ssrn.2508414"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2508414",
+     "arxiv": null,
+     "oa": null,
+     "s2": "296a9e22649e6cf27c36aed46dff97edc4d75908",
+     "year": 2017,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubbles in South African house prices and their impact on consumption",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W1535254333"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "8b15c86a0f4311470b86b24baa71d9785cc15a56",
+     "year": 2010,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Detecting housing bubble in Poland: Investigation into two housing booms",
+    "doi": "10.1016/j.habitatint.2023.102928",
+    "arxiv": null,
+    "oa": "W4387209427",
+    "twin_dois": [
+     "10.21203/rs.3.rs-2634869/v1"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.21203/rs.3.rs-2634869/v1",
+     "arxiv": null,
+     "oa": "W4323306341",
+     "s2": null,
+     "year": 2023,
+     "venue": "Research Square"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A Principal Component-Guided Sparse Regression Approach for the Determination of Bitcoin Returns",
+    "doi": "10.3390/jrfm13020033",
+    "arxiv": null,
+    "oa": "W3004329856",
+    "twin_dois": [
+     "10.2139/ssrn.3510816"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3510816",
+     "arxiv": null,
+     "oa": null,
+     "s2": "e226391ce532abfa135130d3eec9d1037cbee0fb",
+     "year": 2020,
+     "venue": "Journal of Risk and Financial Management"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "New Evidence that Index Traders Did Not Drive Bubbles in Grain Futures Markets",
+    "doi": "10.22004/ag.econ.252754",
+    "arxiv": null,
+    "oa": "W2593093517"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "7dc75e0db19e59966c8553fdb3f8578975dab31e",
+     "year": 2017,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for Bubbles in Housing Markets: New Results Using a New Method",
+    "doi": "10.24149/gwp164",
+    "arxiv": null,
+    "oa": "W1587973882",
+    "twin_dois": [
+     "10.32468/be.753"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.32468/be.753",
+     "arxiv": null,
+     "oa": "W3126113134",
+     "s2": null,
+     "year": 2013,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Identifying asset pricing bubbles: Testing for explosive behavior in the NASDAQ and STOXX 600 Europe Technology indices",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2463257634"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "ed2d178a977b0453e23d0d5961461ad8e51fade7",
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Investor Sentiment Mining Based on Bi-LSTM Model and its Impact on Stock Price Bubbles",
+    "doi": "10.1515/snde-2022-0028",
+    "arxiv": null,
+    "oa": "W4389032255",
+    "twin_dois": [
+     "10.2139/ssrn.4063403"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4063403",
+     "arxiv": null,
+     "oa": "W4293205432",
+     "s2": null,
+     "year": 2022,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Can we use volatility to diagnose financial bubbles? lessons from 40 historical bubbles",
+    "doi": "10.3934/qfe.2018.1.1",
+    "arxiv": null,
+    "oa": "W2742767756",
+    "twin_dois": [
+     "10.2139/ssrn.3006642"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3006642",
+     "arxiv": null,
+     "oa": "W3125404541",
+     "s2": "759091266c263686b6066a518f445ce3f77ae038",
+     "year": 2017,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Speculative trading in the gold market",
+    "doi": "10.1016/j.irfa.2015.02.004",
+    "arxiv": null,
+    "oa": "W3124690379",
+    "twin_dois": [
+     "10.2139/ssrn.2166636"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2166636",
+     "arxiv": null,
+     "oa": "W2002634958",
+     "s2": "95fbc05cbc4a7c455e9ce4dc4d327a6028555aa9",
+     "year": 2012,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The Long-Run Relationship Between Consumption, House Prices, and Stock Prices in South Africa: Evidence from Provincial-level Data",
+    "doi": "10.1080/10835547.2014.12090371",
+    "arxiv": null,
+    "oa": "W2147659817"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "d16bf9a405363a5278db1c4935b70d78d0d055bf",
+     "year": 2014,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing For Bubbles In The Housing Market: Further Evidence From Turkey",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W831880829"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "88d80aeef1d46ba97ed2023508ce1259d3c84d6f",
+     "year": 2015,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "What drove the mid-2000s explosiveness in alternative energy stock prices? Evidence from U.S., European and global indices",
+    "doi": "10.1016/j.irfa.2015.05.018",
+    "arxiv": null,
+    "oa": "W303345976",
+    "twin_dois": [
+     "10.2139/ssrn.2374447"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2374447",
+     "arxiv": null,
+     "oa": "W3122900998",
+     "s2": "3fb1e2d659ddb90c74b8fe94598cc2f0bda6e7cc",
+     "year": 2014,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Real-Time Warning Signs of Emerging and Collapsing Chinese House Price Bubbles",
+    "doi": "10.1177/002795011322300105",
+    "arxiv": null,
+    "oa": "W2082568370",
+    "twin_dois": [
+     "10.2139/ssrn.2175661"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2175661",
+     "arxiv": null,
+     "oa": "W3121898729",
+     "s2": null,
+     "year": 2012,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Time series properties of the renewable energy diffusion process: Implications for energy policy design and assessment",
+    "doi": "10.1016/j.rser.2015.08.028",
+    "arxiv": null,
+    "oa": "W2977504729",
+    "twin_dois": [
+     "10.2139/ssrn.2498504"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": "W3122963980",
+     "s2": null,
+     "year": 2015,
+     "venue": "Munich Personal RePEc Archive (Ludwig Maximilian University of Munich)"
+    },
+    {
+     "doi": "10.2139/ssrn.2498504",
+     "arxiv": null,
+     "oa": null,
+     "s2": "b1e6d09d7367b9870d0b2b4e88e4863878043e04",
+     "year": 2015,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Detecting periodically collapsing bubbles in the S&P 500",
+    "doi": "10.1016/j.qref.2021.11.005",
+    "arxiv": null,
+    "oa": "W3217236731",
+    "twin_dois": [
+     "10.2139/ssrn.5161153"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.5161153",
+     "arxiv": null,
+     "oa": "W4408107717",
+     "s2": "0b2860e63a9032176304b0a6b02019cd739526e9",
+     "year": 2025,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Price Explosiveness and Index Trader Behavior in the Corn, Soybean, and Wheat Futures Markets",
+    "doi": "10.22004/ag.econ.285778",
+    "arxiv": null,
+    "oa": "W2182475660"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "7bf1014e5181a08c2fc157fb1a0c8d10c6e859c8",
+     "year": 2012,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "INCONSISTENT VAR REGRESSION WITH COMMON EXPLOSIVE ROOTS",
+    "doi": "10.1017/s0266466612000709",
+    "arxiv": null,
+    "oa": "W3124969523",
+    "twin_dois": [
+     "10.2139/ssrn.1738354"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.1738354",
+     "arxiv": null,
+     "oa": "W1960934642",
+     "s2": null,
+     "year": 2011,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "FAMA ON BUBBLES",
+    "doi": "10.1111/joes.12104",
+    "arxiv": null,
+    "oa": "W3121724642",
+    "twin_dois": [
+     "10.2139/ssrn.2490371"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2490371",
+     "arxiv": null,
+     "oa": "W1928676546",
+     "s2": null,
+     "year": 2014,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The acceleration effect and Gamma factor in asset pricing",
+    "doi": "10.1016/j.physa.2020.125367",
+    "arxiv": null,
+    "oa": "W3110557043",
+    "twin_dois": [
+     "10.2139/ssrn.2645882"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2645882",
+     "arxiv": null,
+     "oa": null,
+     "s2": "5964b371742ee7bd71160b934f7d3ac279ccb2b3",
+     "year": 2015,
+     "venue": "Physica A: Statistical Mechanics and its Applications"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for parameter change epochs in GARCH time series",
+    "doi": "10.1093/ectj/utad006",
+    "arxiv": null,
+    "oa": "W4318756745",
+    "twin_dois": [
+     "10.2139/ssrn.3791556"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3791556",
+     "arxiv": null,
+     "oa": "W3186707933",
+     "s2": "93e2a30c44f9ec7f78be8bd5d25813551d2e44b0",
+     "year": 2021,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Dating the timeline of financial bubbles during the subprime crisis",
+    "doi": "10.3982/qe82",
+    "arxiv": null,
+    "oa": "W3123425418",
+    "twin_dois": [
+     "10.2139/ssrn.1676272"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.1676272",
+     "arxiv": null,
+     "oa": "W2130846218",
+     "s2": null,
+     "year": 2010,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Predicting Crashes in Oil Prices During The Covid-19 Pandemic with Mixed Causal-Noncausal Models",
+    "doi": "10.1108/s0731-90532023000045b010",
+    "arxiv": null,
+    "oa": "W4364370023"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": "1911.10916",
+     "oa": null,
+     "s2": "f739fcbd660564392297989eea4c345bd5f37c9a",
+     "year": 2019,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Bubble detective: City‐level analysis of house price cycles",
+    "doi": "10.1111/infi.12441",
+    "arxiv": null,
+    "oa": "W4387308991",
+    "twin_dois": [
+     "10.5089/9798400231537.001"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.5089/9798400231537.001",
+     "arxiv": null,
+     "oa": null,
+     "s2": "7db6cca91df48d3fd88b8c22ca7c3495511c170e",
+     "year": 2023,
+     "venue": "IMF Working Papers"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "House price bubble detection in Ukraine",
+    "doi": "10.1108/jerer-10-2022-0031",
+    "arxiv": null,
+    "oa": "W4378009458",
+    "twin_dois": [
+     "10.2139/ssrn.4245780"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4245780",
+     "arxiv": null,
+     "oa": null,
+     "s2": "aeaeda146cadddb5500a7c6e91f52172d3dc1399",
+     "year": 2023,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "EXPLOITING CLOSED‐END FUND DISCOUNTS: A SYSTEMATIC EXAMINATION OF ALPHAS",
+    "doi": "10.1111/jfir.12122",
+    "arxiv": null,
+    "oa": "W2620726931",
+    "twin_dois": [
+     "10.2139/ssrn.2468061"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2468061",
+     "arxiv": null,
+     "oa": null,
+     "s2": "a89bc0ac51f878e6467c6cc425ca52831bbfb9a7",
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Looking for Rational Bubbles in Agricultural Commodity Markets",
+    "doi": "10.22004/ag.econ.120377",
+    "arxiv": null,
+    "oa": "W1563615682"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "c617695f0c3f25625fbeebfad900330f2030cf79",
+     "year": 2011,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for Multiple Bubbles in the 35 Large and Medium Cities of Real Estate Price in China",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2296504688"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "31823014a23904b87aa9882f7a001b1cfbfcc47b",
+     "year": 2015,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Is housing still the business cycle? Perhaps not.",
+    "doi": "10.4337/9781789908497.00018",
+    "arxiv": null,
+    "oa": "W3181043581"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "c7aa474e0187c5d0abdc8e13e96e0428c8bd9cae",
+     "year": 2021,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Analysis of the Behavior of Amateur and Professional Investors’ Impact on the Formation of Bubbles in Tehran Stock Market",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2296676135"
+   },
+   "merged_in": [
+    {
+     "doi": "10.22059/ier.2015.56855",
+     "arxiv": null,
+     "oa": null,
+     "s2": "a04e4d8161683eb27ee1af9d59b7b3897624656c",
+     "year": 2015,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Artificial neural network small‐sample‐bias‐corrections of the AR(1) parameter close to unit root",
+    "doi": "10.1111/stan.12354",
+    "arxiv": null,
+    "oa": "W4401232266",
+    "twin_dois": [
+     "10.2139/ssrn.4748631"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4748631",
+     "arxiv": null,
+     "oa": "W4393325869",
+     "s2": null,
+     "year": 2024,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for Bubbles in LME Non-Ferrous Metals Prices",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2186254293"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "1f7effafb2e0593be5be8b4b7b0645e5cf95cb77",
+     "year": 2014,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Predicting bubble bursts in oil prices using mixed causal-noncausal models",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2989579738"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "72232a22d4c4dd3db6f5ed78c3597ee08c646bf1",
+     "year": 2019,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The Chinese warrant bubble: A fundamental analysis",
+    "doi": "10.1002/fut.22162",
+    "arxiv": null,
+    "oa": "W3124352359",
+    "twin_dois": [
+     "10.2139/ssrn.2820416"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2820416",
+     "arxiv": null,
+     "oa": "W2522226062",
+     "s2": "f6e490d29def3594a7ad90feddace7ef6c153523",
+     "year": 2016,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Periodically Collapsing Bubbles in Stock Prices Cointegrated with Broad Dividends and Macroeconomic Factors",
+    "doi": "10.3390/jrfm4010097",
+    "arxiv": null,
+    "oa": "W1965034506",
+    "twin_dois": [
+     "10.2139/ssrn.1947704"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.1947704",
+     "arxiv": null,
+     "oa": null,
+     "s2": "4e4878891db2bf9d2ba965b09132cc0eb6cf1630",
+     "year": 2011,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Does Dividend Yield Lose Predictive Ability? Evidence from the Bubbles Period",
+    "doi": "10.3905/joi.2015.24.2.059",
+    "arxiv": null,
+    "oa": "W2168407441",
+    "twin_dois": [
+     "10.3905/joi.2015.2015.1.043"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.3905/joi.2015.2015.1.043",
+     "arxiv": null,
+     "oa": "W4246833274",
+     "s2": null,
+     "year": 2015,
+     "venue": "The Journal of Investing"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing For Speculative Bubble On The Prices Of The Russian Telecommunication Companies The Late 1990s",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W311119720"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "4a7554d75e9506eb593fc3dfb1aecd98a6589960",
+     "year": 2014,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Super-exponential endogenous bubbles in an equilibrium model of fundamentalist and chartist traders",
+    "doi": "10.1016/j.jebo.2015.02.001",
+    "arxiv": null,
+    "oa": "W3121358850",
+    "twin_dois": [
+     "10.2139/ssrn.2561719"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2561719",
+     "arxiv": null,
+     "oa": "W2016909425",
+     "s2": "a495c99cab1882d635b5b9b4c2340132a9f96c88",
+     "year": 2015,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for Multiple Bubbles",
+    "doi": "10.2139/ssrn.1981976",
+    "arxiv": null,
+    "oa": "W1579941363",
+    "twin_dois": [
+     "10.2139/ssrn.2316339"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.2316339",
+     "arxiv": null,
+     "oa": "W3122081937",
+     "s2": null,
+     "year": 2011,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A DSGE-Based Assessment of Nonlinear Loan-to-Value Policies: Evidence from Hong Kong",
+    "doi": "10.2139/ssrn.2049783",
+    "arxiv": null,
+    "oa": "W2104177808"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": "W3124866097",
+     "s2": null,
+     "year": 2012,
+     "venue": "RePEc: Research Papers in Economics"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "No-Bubble Condition: Model-Free Tests in Housing Markets",
+    "doi": "10.2139/ssrn.2437563",
+    "arxiv": null,
+    "oa": "W1505477478",
+    "twin_dois": [
+     "10.3386/w20154",
+     "10.3982/ecta13447"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.3386/w20154",
+     "arxiv": null,
+     "oa": "W2889952287",
+     "s2": null,
+     "year": 2014,
+     "venue": "National Bureau of Economic Research"
+    },
+    {
+     "doi": "10.3982/ecta13447",
+     "arxiv": null,
+     "oa": null,
+     "s2": "03643329a693986d164759499455d588aa2919b3",
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for Multiple Bubbles in the BRICS Stock Markets",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W1491711242"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "ea4114936b67a3f55456d72ca9d933ea4de6d6d1",
+     "year": 2014,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A New Test for Rational Speculative Bubbles using Forward Exchange Rates: The Case of the Interwar German Hyperinflation",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W157434108"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "09ed721bd9de357222228578cc1653d0ffd7fea8",
+     "year": 2012,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Super-Exponential Growth Expectations and the Global Financial Crisis",
+    "doi": "10.2139/ssrn.2477396",
+    "arxiv": null,
+    "oa": "W2050827143",
+    "twin_dois": [
+     "10.1016/j.jedc.2015.03.005"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1016/j.jedc.2015.03.005",
+     "arxiv": null,
+     "oa": "W2789196243",
+     "s2": "9b446c47b4d7c39fee1506c1df6cce89870e00af",
+     "year": 2015,
+     "venue": "Journal of Economic Dynamics and Control"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Food Reserves in Developing Countries",
+    "doi": "10.7215/ag_ip_20110923a",
+    "arxiv": null,
+    "oa": "W2187622542"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "d40ce6ba81f5decba69969d3b66822b35fe8b99e",
+     "year": 2011,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The motivation and factors driving crypto-currency adoption in SMEs",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2547779932"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "e912f30366054968155c54d76818b322ff937b8d",
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The Changing Geopolitics in the Arab World: Implications of the 2017 Gulf Crisis for Business",
+    "doi": "10.48550/arxiv.1903.08076",
+    "arxiv": null,
+    "oa": "W2921036096"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": "1903.08076",
+     "oa": null,
+     "s2": "7837e9b9935336a39a89d54acf213c9a5deb046a",
+     "year": 2019,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Identifying speculative bubbles with an in finite hidden Markov model",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2031912001"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "1f67cac81020ab186bd2e1a9eb5550ad99bbe7b1",
+     "year": 2012,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Measuring asymmetries in financial returns : an empirical investigation using local gaussian correlation",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2465733027"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "83b709b39f69278cc8c134aa20fc6fd058363d7b",
+     "year": 2013,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Relative Asset Price Bubbles",
+    "doi": "10.2139/ssrn.2265465",
+    "arxiv": null,
+    "oa": "W1607786696",
+    "twin_dois": [
+     "10.1007/s10436-016-0274-8"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1007/s10436-016-0274-8",
+     "arxiv": null,
+     "oa": "W2278958537",
+     "s2": "4c870f345a4f62b7e0a23bad03e0d3d4f896a4f7",
+     "year": 2016,
+     "venue": "Annals of Finance"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Testing for Explosive Behaviour in Relative Inflation Measures: Implications for Monetary Policy",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W1496249229"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "f8169e1938b8241787a0562b1f264eab5dcd1877",
+     "year": 2011,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Episodes of exuberance in housing markets",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2239988301"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "f3b0771bdc4904a39093b3b4e1dac0f8e0123d7a",
+     "year": 2014,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Norming Rates and Limit Theory for Some Time-Varying Coefficient Autoregressions",
+    "doi": "10.2139/ssrn.2327613",
+    "arxiv": null,
+    "oa": "W2096640649",
+    "twin_dois": [
+     "10.1111/jtsa.12083"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1111/jtsa.12083",
+     "arxiv": null,
+     "oa": "W3121643944",
+     "s2": "0f6f0f3715485ed07800e4484faf838d2bf45263",
+     "year": 2014,
+     "venue": "Journal of Time Series Analysis"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Multiple Changes in Persistence vs. Explosive Behaviour: The Dotcom Bubble",
+    "doi": "10.2139/ssrn.2035033",
+    "arxiv": null,
+    "oa": "W2121351661"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": "W3122715120",
+     "s2": null,
+     "year": 2012,
+     "venue": "RePEc: Research Papers in Economics"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Are we in a bubble? A simple time-series-based diagnostic",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2149976946"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "a850d8a4b30eec36147dc7375d7be2c9484aaead",
+     "year": 2013,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Double Asymptotics for an Explosive Continuous Time Model",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2151797446"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "099f97be0ba52fa781093c7a7bfd5ad8a38df217",
+     "year": 2011,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Is the Bitcoin Rush Over?",
+    "doi": "10.2139/ssrn.3156694",
+    "arxiv": null,
+    "oa": "W2800186706",
+    "twin_dois": [
+     "10.2139/ssrn.3164750"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.3164750",
+     "arxiv": null,
+     "oa": "W4245053434",
+     "s2": null,
+     "year": 2018,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Specification Sensitivities in Right-Tailed Unit Root Testing",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W1564647202"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "4ad942fd8145fd0616dd6947ed3451f07e8929e0",
+     "year": 2011,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Econometric Analysis of Financial Risk and Correlation",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2189372285"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "1e79200cf8f5bb26417e15be0ac776d31fd5d8e4",
+     "year": 2012,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Identifying Periods of US Housing Market Explosivity",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2234550407"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "b539e9f9deb586afec3b7fa32e13daebc0d24c8f",
+     "year": 2015,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Landslide Regime Shift Detector (LRSD) for Landslide Early Warning Systems",
+    "doi": "10.31223/x5r09n",
+    "arxiv": null,
+    "oa": "W4391915995"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "b3b2c5605db766738afbd85fa0087d1cee1a5cbd",
+     "year": null,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A preliminary investigation of northern Ireland's housing market dynamics",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W1491879829"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "bffdb7ce52052c35e7229c58f16777be35152ce4",
+     "year": 2012,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Three Econometric Essays on Continuous Time Models",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W1562152219"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "0261c19a31c4175f200127302a00a9913ba16963",
+     "year": 2012,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Essays on the determinants and spillovers of South African housing market",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W1953206103"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "afb19ddcf8101ae0c2a3aadf597158bde40ff430",
+     "year": 2013,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The Present Value Model with Stochastic Discount Rate and an ANN Process for Broad Dividends",
+    "doi": "10.2139/ssrn.1947702",
+    "arxiv": null,
+    "oa": "W2030896769",
+    "twin_dois": [
+     "10.1142/s2010495211500011"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1142/s2010495211500011",
+     "arxiv": null,
+     "oa": "W3122302137",
+     "s2": null,
+     "year": 2011,
+     "venue": "Annals of Financial Economics"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Double Unit Roots Testing, GLS-detrending and Uncertainty over the Initial Conditions",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2112507794"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "76eeff547a1a1d9896b566249bac59f1fac3033f",
+     "year": 2013,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Are Transient Explosive Roots the Signature of a Bubble? A Markov Regime Switching Approach with Bayesian Model Averaging",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2182312835"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "18deed5a3601715ab9087ec46a8f5cdab9322868",
+     "year": 2014,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Impact of the crises on the efficiency of the financial market: evidence from the SDM",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2182623714"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "147dea0fad4b10cb5ca64bc26b89d33d8554dc6a",
+     "year": 2015,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Is There a Bubble in the German Housing Market",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2266811569"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "7f007729b27d7c94ca4965a55c577050ec8a6125",
+     "year": 2015,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Estimating rational stock-market bubbles with sequential Monte Carlo methods",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2268004661"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "4158e55326846d08b9b15ae05fb987401baed7f4",
+     "year": 2015,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Financial statement analysis: a Trickle-Down benchmarked factor analytic approach",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2277164793"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "640dcabce5c864df8583ffabf58c6dc6867defbd",
+     "year": 2017,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Studying Opportunities and Threats Resulting from Sanctions on International Activities of Iranian Banks (Case Study: Bank Melli of Iran)",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2442439214"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "e533efce41c30c8d28784b5efbc4093a5122deaa",
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Cross-sectional maximum likelihood and bias-corrected pooled least squares estimators for dynamic panels with short T",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2524611886"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "a0036b37cda6a1fa9adf410d0339341ba4b98234",
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "REGIME SWITCHING AND THE MONETARY ECONOMY",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2541687341"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "fe5faa41f90b31fef02fb8ca639baac9907df5de",
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Identifying Currency Bubbles using Markov-Switching Models: The Latin American case",
+    "doi": "10.34626/9knz-5s23",
+    "arxiv": null,
+    "oa": "W2591108233"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "6aca99190998cbf35e94d4b4011306254dd2e3f7",
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "A Direct Test on Speculative Bubbles in Agricultural Commodity Prices",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2607390906"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "9525d502b3ff4dcfcfdadf12d5c237db4ec4e08a",
+     "year": 2013,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "News, Noise, and Tests of Present Value Models",
+    "doi": "10.2139/ssrn.2958081",
+    "arxiv": null,
+    "oa": "W2607659357"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": "W2949321210",
+     "s2": null,
+     "year": 2017,
+     "venue": "Munich Personal RePEc Archive (Ludwig Maximilian University of Munich)"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Dependence in macroeconomic variables: Assessing instantaneous and persistent relations between and within time series",
+    "doi": "10.53846/goediss-6510",
+    "arxiv": null,
+    "oa": "W2761428840"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "a366d399f4f735d540f5c7724f5d3d2764d197f4",
+     "year": 2017,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Influence of Momentum Effect on Stock Performance of Firms Listed in the Nairobi Securities Exchange",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2888621986"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "f027b76d27cdd83a579ff49c3ae0db6e793a58e7",
+     "year": 2018,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Time Series Analysis of Bitcoin",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2998344024"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "af5efcebdb8014fc7632411e13f51ee1dd5fbe9e",
+     "year": 2019,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Market Instability, Investor Sentiment, and Probability Judgment Error in Index Option Prices",
+    "doi": "10.2139/ssrn.3845870",
+    "arxiv": null,
+    "oa": "W3174530065",
+    "twin_dois": [
+     "10.2139/ssrn.4250902"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.4250902",
+     "arxiv": null,
+     "oa": null,
+     "s2": "c6d4128514d69dcbbea3df0ad6e4273c3a6d01af",
+     "year": 2022,
+     "venue": "Social Science Research Network"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "House prices, (un)affordability and systemic risk",
+    "doi": "10.1080/00779954.2020.1718185",
+    "arxiv": null,
+    "oa": null
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "0f93598a37e7c4f1d1868e4a084837a9757158e1",
+     "year": null,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Recurrent explosive behaviour of debt-to-GDP ratio",
+    "doi": null,
+    "arxiv": null,
+    "oa": null
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "6f8f8d2217cca7e1e8d2d262783b94487c8aa817",
+     "year": 2019,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Inflation and Bubbles in the Japanese Condominium Market",
+    "doi": null,
+    "arxiv": null,
+    "oa": null
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "6aca3e659926271bb85ffad74aab7c4a23a812fc",
+     "year": null,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Mild-explosive and local-to-mild-explosive autoregressions with serially correlated errors",
+    "doi": null,
+    "arxiv": null,
+    "oa": null
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "ad375f3f49ab0a934c8d1e4496062ca27a9475d8",
+     "year": 2019,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Do Multiple Housing Bubbles Exist in China? Further Evidence from Generalized Sup ADF Tests",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W2597861760"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "22aa3e0b42e7c1af99eb6b06797c3dd5a528da2e",
+     "year": 2016,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Speculative Rational Bubbles: Asset Prices in GCC Equity Markets",
+    "doi": "10.31436/jif.v3i1.22",
+    "arxiv": null,
+    "oa": "W1579133553",
+    "twin_dois": [
+     "10.12816/0031473"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.12816/0031473",
+     "arxiv": null,
+     "oa": null,
+     "s2": "5c1784c2877d15dc7795df4e65f45e4a9ccf9e85",
+     "year": 2014,
+     "venue": "Journal of Islamic Finance"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Limit Theory for Dating the Origination and Collapse of Mildly Explosive Periods in Time Series Data",
+    "doi": null,
+    "arxiv": null,
+    "oa": "W91786817"
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "067b7ebdb615bb887d5f553a03f00b9e8b470e0b",
+     "year": 2020,
+     "venue": null
+    },
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "40e01fc2ad6cb4ce72974e7ffd45657cf0c57336",
+     "year": 2009,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Dating the Timeline of Financial Bubbles During the Subprime Crisis 1",
+    "doi": null,
+    "arxiv": null,
+    "oa": null
+   },
+   "merged_in": [
+    {
+     "doi": null,
+     "arxiv": null,
+     "oa": null,
+     "s2": "ec847bbe14e83800c052133117055f613cf07ebc",
+     "year": 2009,
+     "venue": null
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "EXPLOSIVE BEHAVIOR IN THE 1990s NASDAQ: WHEN DID EXUBERANCE ESCALATE ASSET VALUES?*",
+    "doi": "10.1111/j.1468-2354.2010.00625.x",
+    "arxiv": null,
+    "oa": "W2139238934",
+    "twin_dois": [
+     "10.2139/ssrn.1413830"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.2139/ssrn.1413830",
+     "arxiv": null,
+     "oa": "W3122336395",
+     "s2": null,
+     "year": 2009,
+     "venue": "SSRN Electronic Journal"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "Explosive behaviors on coupled fractional-order system",
+    "doi": "10.1007/s11071-022-07712-z",
+    "arxiv": null,
+    "oa": "W4286208213",
+    "twin_dois": [
+     "10.21203/rs.3.rs-1084963/v1"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.21203/rs.3.rs-1084963/v1",
+     "arxiv": null,
+     "oa": "W4200255431",
+     "s2": null,
+     "year": 2021,
+     "venue": "Research Square"
+    }
+   ]
+  },
+  {
+   "rule": "title-match-case-punct-insensitive (protocol 4.1)",
+   "kept": {
+    "title": "The random triangle model",
+    "doi": "10.1239/jap/1032374639",
+    "arxiv": null,
+    "oa": "W2090886232",
+    "twin_dois": [
+     "10.1017/s0021900200017629",
+     "10.1239/jap/1029349984"
+    ]
+   },
+   "merged_in": [
+    {
+     "doi": "10.1017/s0021900200017629",
+     "arxiv": null,
+     "oa": "W4251936655",
+     "s2": null,
+     "year": 1999,
+     "venue": "Journal of Applied Probability"
+    },
+    {
+     "doi": "10.1239/jap/1029349984",
+     "arxiv": null,
+     "oa": "W4251522811",
+     "s2": null,
+     "year": 1999,
+     "venue": "Journal of Applied Probability"
+    }
+   ]
+  }
+ ],
+ "hand_verification": "All 245 candidate title-merge groups reviewed by the executing agent on 2026-08-24 before application: composition is SSRN/RePEc/institutional-repository working-paper twins of journal records, publisher double-registrations, and cross-arm re-retrievals without shared identifiers. The one identical-venue same-title pair (Is the Bitcoin Rush Over?, doi:10.2139/ssrn.3156694 vs doi:10.2139/ssrn.3164750) was verified as the same author pair (Guegan, Frunza) by Crossref metadata lookup. No group rejected. Near-identical titles that fail the exact normalized-title rule (e.g. 'Double Asymptotics for an Explosive Continuous Time Model' vs 'Double asymptotics for explosive continuous time models') were deliberately NOT merged; residual twins of this kind are left to the review-stage hand-verified twin ledger (protocol 4.1).",
+ "universe_size_note": "Final universe 1996 > 600; protocol section 3.2 declares no date, language, or type filters and defines no pre-screening filters, so the whole deduplicated universe is delivered to screening."
+}

@@ -1,0 +1,1570 @@
+{
+ "query_id": "se-fc-oa-pwy-resolve",
+ "protocol_query_id": "er-fc-oa-pwy-resolve",
+ "arm": "forward-citation",
+ "platform": "openalex",
+ "url": "https://api.openalex.org/works/https://doi.org/10.1111/j.1468-2354.2010.00625.x",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "openalex_id": "W2139238934",
+ "cited_by_count": 1146,
+ "raw": {
+  "id": "https://openalex.org/W2139238934",
+  "doi": "https://doi.org/10.1111/j.1468-2354.2010.00625.x",
+  "title": "EXPLOSIVE BEHAVIOR IN THE 1990s NASDAQ: WHEN DID EXUBERANCE ESCALATE ASSET VALUES?*",
+  "display_name": "EXPLOSIVE BEHAVIOR IN THE 1990s NASDAQ: WHEN DID EXUBERANCE ESCALATE ASSET VALUES?*",
+  "publication_year": 2011,
+  "publication_date": "2011-02-01",
+  "ids": {
+   "openalex": "https://openalex.org/W2139238934",
+   "doi": "https://doi.org/10.1111/j.1468-2354.2010.00625.x",
+   "mag": "2139238934"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.1111/j.1468-2354.2010.00625.x",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1111/j.1468-2354.2010.00625.x",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S179979277",
+    "display_name": "International Economic Review",
+    "issn_l": "0020-6598",
+    "issn": [
+     "0020-6598",
+     "1468-2354"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "host_organization": "https://openalex.org/P4310320595",
+    "host_organization_name": "Wiley",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320595"
+    ],
+    "host_organization_lineage_names": [
+     "Wiley"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "International Economic Review",
+   "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=2264&context=soe_research",
+   "any_repository_has_fulltext": true
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5076177583",
+     "display_name": "Peter C.B. Phillips",
+     "orcid": "https://orcid.org/0000-0003-2341-0451"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I137867983",
+      "display_name": "Central University of Finance and Economics",
+      "ror": "https://ror.org/008e3hf02",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I137867983"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I79891267",
+      "display_name": "Singapore Management University",
+      "ror": "https://ror.org/050qmg959",
+      "country_code": "SG",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I79891267"
+      ]
+     }
+    ],
+    "countries": [
+     "CN",
+     "SG"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Peter C. B. Phillips",
+    "raw_affiliation_strings": [
+     "Yale University, University of Auckland, University of Southampton, and Singapore Management University; Rutgers University and Central University of Finance and Economics (Chinese Academy of Finance and Development); Singapore Management University",
+     "Rutgers University and Central University of Finance and Economics (Chinese Academy of Finance and Development)",
+     "Singapore Management University",
+     "Yale University, University of Auckland, University of Southampton, and Singapore Management University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Yale University, University of Auckland, University of Southampton, and Singapore Management University; Rutgers University and Central University of Finance and Economics (Chinese Academy of Finance and Development); Singapore Management University",
+      "institution_ids": [
+       "https://openalex.org/I79891267"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Rutgers University and Central University of Finance and Economics (Chinese Academy of Finance and Development)",
+      "institution_ids": [
+       "https://openalex.org/I137867983"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Singapore Management University",
+      "institution_ids": [
+       "https://openalex.org/I79891267"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Yale University, University of Auckland, University of Southampton, and Singapore Management University",
+      "institution_ids": [
+       "https://openalex.org/I79891267"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5056115615",
+     "display_name": "Yangru Wu",
+     "orcid": "https://orcid.org/0000-0002-3177-8523"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I137867983",
+      "display_name": "Central University of Finance and Economics",
+      "ror": "https://ror.org/008e3hf02",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I137867983"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I79891267",
+      "display_name": "Singapore Management University",
+      "ror": "https://ror.org/050qmg959",
+      "country_code": "SG",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I79891267"
+      ]
+     }
+    ],
+    "countries": [
+     "CN",
+     "SG"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Yangru Wu",
+    "raw_affiliation_strings": [
+     "Yale University, University of Auckland, University of Southampton, and Singapore Management University; Rutgers University and Central University of Finance and Economics (Chinese Academy of Finance and Development); Singapore Management University",
+     "Rutgers University and Central University of Finance and Economics (Chinese Academy of Finance and Development)",
+     "Singapore Management University",
+     "Yale University, University of Auckland, University of Southampton, and Singapore Management University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Yale University, University of Auckland, University of Southampton, and Singapore Management University; Rutgers University and Central University of Finance and Economics (Chinese Academy of Finance and Development); Singapore Management University",
+      "institution_ids": [
+       "https://openalex.org/I79891267"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Rutgers University and Central University of Finance and Economics (Chinese Academy of Finance and Development)",
+      "institution_ids": [
+       "https://openalex.org/I137867983"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Singapore Management University",
+      "institution_ids": [
+       "https://openalex.org/I79891267"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Yale University, University of Auckland, University of Southampton, and Singapore Management University",
+      "institution_ids": [
+       "https://openalex.org/I79891267"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5084275232",
+     "display_name": "Jun Yu",
+     "orcid": "https://orcid.org/0000-0003-2360-5873"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I137867983",
+      "display_name": "Central University of Finance and Economics",
+      "ror": "https://ror.org/008e3hf02",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I137867983"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I79891267",
+      "display_name": "Singapore Management University",
+      "ror": "https://ror.org/050qmg959",
+      "country_code": "SG",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I79891267"
+      ]
+     }
+    ],
+    "countries": [
+     "CN",
+     "SG"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Jun Yu",
+    "raw_affiliation_strings": [
+     "Yale University, University of Auckland, University of Southampton, and Singapore Management University; Rutgers University and Central University of Finance and Economics (Chinese Academy of Finance and Development); Singapore Management University",
+     "Rutgers University and Central University of Finance and Economics (Chinese Academy of Finance and Development)",
+     "Singapore Management University",
+     "Yale University, University of Auckland, University of Southampton, and Singapore Management University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Yale University, University of Auckland, University of Southampton, and Singapore Management University; Rutgers University and Central University of Finance and Economics (Chinese Academy of Finance and Development); Singapore Management University",
+      "institution_ids": [
+       "https://openalex.org/I79891267"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Rutgers University and Central University of Finance and Economics (Chinese Academy of Finance and Development)",
+      "institution_ids": [
+       "https://openalex.org/I137867983"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Singapore Management University",
+      "institution_ids": [
+       "https://openalex.org/I79891267"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Yale University, University of Auckland, University of Southampton, and Singapore Management University",
+      "institution_ids": [
+       "https://openalex.org/I79891267"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5084275232"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I137867983",
+   "https://openalex.org/I79891267"
+  ],
+  "apc_list": {
+   "value": 3570,
+   "currency": "USD",
+   "value_usd": 3570
+  },
+  "apc_paid": null,
+  "fwci": 125.4347,
+  "has_fulltext": true,
+  "cited_by_count": 1146,
+  "citation_normalized_percentile": {
+   "value": 0.99963205,
+   "is_in_top_1_percent": true,
+   "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+   "min": 99,
+   "max": 100
+  },
+  "biblio": {
+   "volume": "52",
+   "issue": "1",
+   "first_page": "201",
+   "last_page": "226"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T11270",
+   "display_name": "Complex Systems and Time Series Analysis",
+   "score": 0.9972000122070312,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2002",
+    "display_name": "Economics and Econometrics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/20",
+    "display_name": "Economics, Econometrics and Finance"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T11270",
+    "display_name": "Complex Systems and Time Series Analysis",
+    "score": 0.9972000122070312,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2002",
+     "display_name": "Economics and Econometrics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/20",
+     "display_name": "Economics, Econometrics and Finance"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/2",
+     "display_name": "Social Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T10047",
+    "display_name": "Financial Markets and Investment Strategies",
+    "score": 0.9968000054359436,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2003",
+     "display_name": "Finance"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/20",
+     "display_name": "Economics, Econometrics and Finance"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/2",
+     "display_name": "Social Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T12137",
+    "display_name": "Economic theories and models",
+    "score": 0.9955000281333923,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2002",
+     "display_name": "Economics and Econometrics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/20",
+     "display_name": "Economics, Econometrics and Finance"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/2",
+     "display_name": "Social Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/economics",
+    "display_name": "Economics",
+    "score": 0.6624706983566284
+   },
+   {
+    "id": "https://openalex.org/keywords/irrational-number",
+    "display_name": "Irrational number",
+    "score": 0.6126799583435059
+   },
+   {
+    "id": "https://openalex.org/keywords/asset",
+    "display_name": "Asset (computer security)",
+    "score": 0.5691680312156677
+   },
+   {
+    "id": "https://openalex.org/keywords/unit-root",
+    "display_name": "Unit root",
+    "score": 0.5624058246612549
+   },
+   {
+    "id": "https://openalex.org/keywords/unit-root-test",
+    "display_name": "Unit root test",
+    "score": 0.5390310883522034
+   },
+   {
+    "id": "https://openalex.org/keywords/explosive-material",
+    "display_name": "Explosive material",
+    "score": 0.523591160774231
+   },
+   {
+    "id": "https://openalex.org/keywords/economic-bubble",
+    "display_name": "Economic bubble",
+    "score": 0.50594562292099
+   },
+   {
+    "id": "https://openalex.org/keywords/stock-market",
+    "display_name": "Stock market",
+    "score": 0.4705299139022827
+   },
+   {
+    "id": "https://openalex.org/keywords/financial-economics",
+    "display_name": "Financial economics",
+    "score": 0.4477788805961609
+   },
+   {
+    "id": "https://openalex.org/keywords/empirical-evidence",
+    "display_name": "Empirical evidence",
+    "score": 0.41626402735710144
+   },
+   {
+    "id": "https://openalex.org/keywords/monetary-economics",
+    "display_name": "Monetary economics",
+    "score": 0.41356784105300903
+   },
+   {
+    "id": "https://openalex.org/keywords/keynesian-economics",
+    "display_name": "Keynesian economics",
+    "score": 0.38415446877479553
+   },
+   {
+    "id": "https://openalex.org/keywords/econometrics",
+    "display_name": "Econometrics",
+    "score": 0.3441063165664673
+   },
+   {
+    "id": "https://openalex.org/keywords/computer-science",
+    "display_name": "Computer science",
+    "score": 0.1477336287498474
+   },
+   {
+    "id": "https://openalex.org/keywords/mathematics",
+    "display_name": "Mathematics",
+    "score": 0.13439103960990906
+   },
+   {
+    "id": "https://openalex.org/keywords/cointegration",
+    "display_name": "Cointegration",
+    "score": 0.12276175618171692
+   },
+   {
+    "id": "https://openalex.org/keywords/history",
+    "display_name": "History",
+    "score": 0.10413685441017151
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C162324750",
+    "wikidata": "https://www.wikidata.org/wiki/Q8134",
+    "display_name": "Economics",
+    "level": 0,
+    "score": 0.6624706983566284
+   },
+   {
+    "id": "https://openalex.org/C94931360",
+    "wikidata": "https://www.wikidata.org/wiki/Q607728",
+    "display_name": "Irrational number",
+    "level": 2,
+    "score": 0.6126799583435059
+   },
+   {
+    "id": "https://openalex.org/C76178495",
+    "wikidata": "https://www.wikidata.org/wiki/Q4808784",
+    "display_name": "Asset (computer security)",
+    "level": 2,
+    "score": 0.5691680312156677
+   },
+   {
+    "id": "https://openalex.org/C195561663",
+    "wikidata": "https://www.wikidata.org/wiki/Q1307899",
+    "display_name": "Unit root",
+    "level": 2,
+    "score": 0.5624058246612549
+   },
+   {
+    "id": "https://openalex.org/C144341231",
+    "wikidata": "https://www.wikidata.org/wiki/Q7887151",
+    "display_name": "Unit root test",
+    "level": 3,
+    "score": 0.5390310883522034
+   },
+   {
+    "id": "https://openalex.org/C154238967",
+    "wikidata": "https://www.wikidata.org/wiki/Q12870",
+    "display_name": "Explosive material",
+    "level": 2,
+    "score": 0.523591160774231
+   },
+   {
+    "id": "https://openalex.org/C201543015",
+    "wikidata": "https://www.wikidata.org/wiki/Q207781",
+    "display_name": "Economic bubble",
+    "level": 2,
+    "score": 0.50594562292099
+   },
+   {
+    "id": "https://openalex.org/C2780299701",
+    "wikidata": "https://www.wikidata.org/wiki/Q475000",
+    "display_name": "Stock market",
+    "level": 3,
+    "score": 0.4705299139022827
+   },
+   {
+    "id": "https://openalex.org/C106159729",
+    "wikidata": "https://www.wikidata.org/wiki/Q2294553",
+    "display_name": "Financial economics",
+    "level": 1,
+    "score": 0.4477788805961609
+   },
+   {
+    "id": "https://openalex.org/C166052673",
+    "wikidata": "https://www.wikidata.org/wiki/Q83021",
+    "display_name": "Empirical evidence",
+    "level": 2,
+    "score": 0.41626402735710144
+   },
+   {
+    "id": "https://openalex.org/C556758197",
+    "wikidata": "https://www.wikidata.org/wiki/Q580018",
+    "display_name": "Monetary economics",
+    "level": 1,
+    "score": 0.41356784105300903
+   },
+   {
+    "id": "https://openalex.org/C165556158",
+    "wikidata": "https://www.wikidata.org/wiki/Q83937",
+    "display_name": "Keynesian economics",
+    "level": 1,
+    "score": 0.38415446877479553
+   },
+   {
+    "id": "https://openalex.org/C149782125",
+    "wikidata": "https://www.wikidata.org/wiki/Q160039",
+    "display_name": "Econometrics",
+    "level": 1,
+    "score": 0.3441063165664673
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.1477336287498474
+   },
+   {
+    "id": "https://openalex.org/C33923547",
+    "wikidata": "https://www.wikidata.org/wiki/Q395",
+    "display_name": "Mathematics",
+    "level": 0,
+    "score": 0.13439103960990906
+   },
+   {
+    "id": "https://openalex.org/C145162277",
+    "wikidata": "https://www.wikidata.org/wiki/Q1751675",
+    "display_name": "Cointegration",
+    "level": 2,
+    "score": 0.12276175618171692
+   },
+   {
+    "id": "https://openalex.org/C95457728",
+    "wikidata": "https://www.wikidata.org/wiki/Q309",
+    "display_name": "History",
+    "level": 0,
+    "score": 0.10413685441017151
+   },
+   {
+    "id": "https://openalex.org/C2524010",
+    "wikidata": "https://www.wikidata.org/wiki/Q8087",
+    "display_name": "Geometry",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C166957645",
+    "wikidata": "https://www.wikidata.org/wiki/Q23498",
+    "display_name": "Archaeology",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C2779343474",
+    "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+    "display_name": "Context (archaeology)",
+    "level": 2,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C138885662",
+    "wikidata": "https://www.wikidata.org/wiki/Q5891",
+    "display_name": "Philosophy",
+    "level": 0,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C111472728",
+    "wikidata": "https://www.wikidata.org/wiki/Q9471",
+    "display_name": "Epistemology",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 11,
+  "locations": [
+   {
+    "id": "doi:10.1111/j.1468-2354.2010.00625.x",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/j.1468-2354.2010.00625.x",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S179979277",
+     "display_name": "International Economic Review",
+     "issn_l": "0020-6598",
+     "issn": [
+      "0020-6598",
+      "1468-2354"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "host_organization": "https://openalex.org/P4310320595",
+     "host_organization_name": "Wiley",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320595"
+     ],
+     "host_organization_lineage_names": [
+      "Wiley"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Economic Review",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:ink.library.smu.edu.sg:soe_research-2264",
+    "is_oa": true,
+    "landing_page_url": "https://ink.library.smu.edu.sg/soe_research/1265",
+    "pdf_url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=2264&context=soe_research",
+    "source": {
+     "id": "https://openalex.org/S4306401925",
+     "display_name": "Singapore Management University Institutional Knowledge (InK) (Singapore Management University)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": "https://openalex.org/I79891267",
+     "host_organization_name": "Singapore Management University",
+     "host_organization_lineage": [
+      "https://openalex.org/I79891267"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "https://doi.org/10.1111/j.1468-2354.2010.00625.x",
+    "raw_type": "Journal Article"
+   },
+   {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.193.8340",
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.193.8340",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "http://cowles.econ.yale.edu/P/cd/d16b/d1699.pdf",
+    "raw_type": "text"
+   },
+   {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.207.9947",
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.207.9947",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "text"
+   },
+   {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.334.8049",
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.334.8049",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "https://bschool.nus.edu/departments/financenaccounting/seminars/papers/jun yu.pdf",
+    "raw_type": "text"
+   },
+   {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.414.6747",
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.414.6747",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "http://cowles.econ.yale.edu/P/cp/p13a/p1349.pdf",
+    "raw_type": "text"
+   },
+   {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.651.8727",
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.651.8727",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "http://hkimr.org/uploads/publication/175/ub_full_0_2_164_hkimr-no22_bw.pdf",
+    "raw_type": "text"
+   },
+   {
+    "id": "pmh:oai:ink.library.smu.edu.sg:soe_research-2154",
+    "is_oa": false,
+    "landing_page_url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=2154&context=soe_research",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306401925",
+     "display_name": "Singapore Management University Institutional Knowledge (InK) (Singapore Management University)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": "https://openalex.org/I79891267",
+     "host_organization_name": "Singapore Management University",
+     "host_organization_lineage": [
+      "https://openalex.org/I79891267"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "Working Paper"
+   },
+   {
+    "id": "pmh:oai:RePEc:ier:iecrev:v:52:y:2011:i:1:p:201-226",
+    "is_oa": false,
+    "landing_page_url": null,
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306401271",
+     "display_name": "RePEc: Research Papers in Economics",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": "https://openalex.org/I77793887",
+     "host_organization_name": "Federal Reserve Bank of St. Louis",
+     "host_organization_lineage": [
+      "https://openalex.org/I77793887"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "article"
+   },
+   {
+    "id": "pmh:oai:eprints.soton.ac.uk:157279",
+    "is_oa": false,
+    "landing_page_url": "https://eprints.soton.ac.uk/157279/",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306401019",
+     "display_name": "ePrints Soton (University of Southampton)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": "https://openalex.org/I43439940",
+     "host_organization_name": "University of Southampton",
+     "host_organization_lineage": [
+      "https://openalex.org/I43439940"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "Article"
+   },
+   {
+    "id": "pmh:oai:researchspace.auckland.ac.nz:2292/10593",
+    "is_oa": false,
+    "landing_page_url": "http://hdl.handle.net/2292/10593",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S7407055463",
+     "display_name": "ResearchSpace (University of Auckland)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": "https://openalex.org/I154130895",
+     "host_organization_name": "University of Auckland",
+     "host_organization_lineage": [
+      "https://openalex.org/I154130895"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "Journal Article"
+   }
+  ],
+  "best_oa_location": {
+   "id": "pmh:oai:ink.library.smu.edu.sg:soe_research-2264",
+   "is_oa": true,
+   "landing_page_url": "https://ink.library.smu.edu.sg/soe_research/1265",
+   "pdf_url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=2264&context=soe_research",
+   "source": {
+    "id": "https://openalex.org/S4306401925",
+    "display_name": "Singapore Management University Institutional Knowledge (InK) (Singapore Management University)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I79891267",
+    "host_organization_name": "Singapore Management University",
+    "host_organization_lineage": [
+     "https://openalex.org/I79891267"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "https://doi.org/10.1111/j.1468-2354.2010.00625.x",
+   "raw_type": "Journal Article"
+  },
+  "sustainable_development_goals": [
+   {
+    "display_name": "Reduced inequalities",
+    "score": 0.5299999713897705,
+    "id": "https://metadata.un.org/sdg/10"
+   },
+   {
+    "display_name": "Peace, Justice and strong institutions",
+    "score": 0.41999998688697815,
+    "id": "https://metadata.un.org/sdg/16"
+   }
+  ],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "pdf": true,
+   "grobid_xml": true
+  },
+  "content_urls": {
+   "pdf": "https://content.openalex.org/works/W2139238934.pdf",
+   "grobid_xml": "https://content.openalex.org/works/W2139238934.grobid-xml"
+  },
+  "referenced_works_count": 81,
+  "referenced_works": [
+   "https://openalex.org/W91786817",
+   "https://openalex.org/W1533792492",
+   "https://openalex.org/W1534100182",
+   "https://openalex.org/W1556316478",
+   "https://openalex.org/W1562652581",
+   "https://openalex.org/W1605283340",
+   "https://openalex.org/W1900872395",
+   "https://openalex.org/W1964227313",
+   "https://openalex.org/W1968694834",
+   "https://openalex.org/W1975140694",
+   "https://openalex.org/W1978720599",
+   "https://openalex.org/W1980585207",
+   "https://openalex.org/W1996097431",
+   "https://openalex.org/W1997824483",
+   "https://openalex.org/W1998293659",
+   "https://openalex.org/W2007636382",
+   "https://openalex.org/W2010997253",
+   "https://openalex.org/W2018511902",
+   "https://openalex.org/W2023668956",
+   "https://openalex.org/W2026391318",
+   "https://openalex.org/W2033923784",
+   "https://openalex.org/W2049156204",
+   "https://openalex.org/W2049287603",
+   "https://openalex.org/W2057346721",
+   "https://openalex.org/W2063516084",
+   "https://openalex.org/W2065273716",
+   "https://openalex.org/W2066313498",
+   "https://openalex.org/W2076237237",
+   "https://openalex.org/W2079200364",
+   "https://openalex.org/W2094833625",
+   "https://openalex.org/W2094926655",
+   "https://openalex.org/W2097580026",
+   "https://openalex.org/W2098415975",
+   "https://openalex.org/W2106284146",
+   "https://openalex.org/W2119592891",
+   "https://openalex.org/W2123518587",
+   "https://openalex.org/W2124120883",
+   "https://openalex.org/W2124181495",
+   "https://openalex.org/W2125865720",
+   "https://openalex.org/W2136506776",
+   "https://openalex.org/W2141312445",
+   "https://openalex.org/W2169829317",
+   "https://openalex.org/W2241575020",
+   "https://openalex.org/W2483975081",
+   "https://openalex.org/W2889716543",
+   "https://openalex.org/W2915674149",
+   "https://openalex.org/W3021680388",
+   "https://openalex.org/W3121287044",
+   "https://openalex.org/W3121306662",
+   "https://openalex.org/W3121574362",
+   "https://openalex.org/W3121865372",
+   "https://openalex.org/W3121874347",
+   "https://openalex.org/W3121973807",
+   "https://openalex.org/W3122245991",
+   "https://openalex.org/W3122264531",
+   "https://openalex.org/W3122367063",
+   "https://openalex.org/W3122475708",
+   "https://openalex.org/W3122885231",
+   "https://openalex.org/W3123076868",
+   "https://openalex.org/W3123110074",
+   "https://openalex.org/W3123385249",
+   "https://openalex.org/W3123447318",
+   "https://openalex.org/W3123499142",
+   "https://openalex.org/W3123646285",
+   "https://openalex.org/W3123728483",
+   "https://openalex.org/W3123913705",
+   "https://openalex.org/W3124269969",
+   "https://openalex.org/W3125017137",
+   "https://openalex.org/W3125553690",
+   "https://openalex.org/W3145963961",
+   "https://openalex.org/W4238469362",
+   "https://openalex.org/W4238542302",
+   "https://openalex.org/W4240224771",
+   "https://openalex.org/W4242443754",
+   "https://openalex.org/W4248104870",
+   "https://openalex.org/W4299589498",
+   "https://openalex.org/W4300567850",
+   "https://openalex.org/W6628879057",
+   "https://openalex.org/W6633348727",
+   "https://openalex.org/W6633718681",
+   "https://openalex.org/W6682071182"
+  ],
+  "related_works": [
+   "https://openalex.org/W2363942132",
+   "https://openalex.org/W2130548826",
+   "https://openalex.org/W4360600996",
+   "https://openalex.org/W2970661159",
+   "https://openalex.org/W2368604504",
+   "https://openalex.org/W2912435166",
+   "https://openalex.org/W1733001727",
+   "https://openalex.org/W2284487626",
+   "https://openalex.org/W1767539588",
+   "https://openalex.org/W3141290879"
+  ],
+  "abstract_inverted_index": {
+   "A": [
+    0
+   ],
+   "recursive": [
+    1,
+    36
+   ],
+   "test": [
+    2,
+    43,
+    68
+   ],
+   "procedure": [
+    3,
+    69
+   ],
+   "is": [
+    4,
+    70
+   ],
+   "suggested": [
+    5
+   ],
+   "that": [
+    6,
+    192
+   ],
+   "provides": [
+    7,
+    107
+   ],
+   "a": [
+    8,
+    39,
+    45,
+    83,
+    163,
+    185
+   ],
+   "mechanism": [
+    9
+   ],
+   "for": [
+    10,
+    28,
+    63,
+    92
+   ],
+   "testing": [
+    11
+   ],
+   "explosive": [
+    12,
+    29,
+    65
+   ],
+   "behavior,": [
+    13
+   ],
+   "date": [
+    14,
+    112
+   ],
+   "stamping": [
+    15
+   ],
+   "the": [
+    16,
+    35,
+    99,
+    105,
+    114,
+    123,
+    136,
+    141
+   ],
+   "origination": [
+    17,
+    115
+   ],
+   "and": [
+    18,
+    23,
+    44,
+    58,
+    111,
+    168,
+    175
+   ],
+   "collapse": [
+    19
+   ],
+   "of": [
+    20,
+    38,
+    49,
+    88,
+    109,
+    116,
+    170,
+    180,
+    188
+   ],
+   "economic": [
+    21,
+    93
+   ],
+   "exuberance,": [
+    22
+   ],
+   "providing": [
+    24
+   ],
+   "valid": [
+    25
+   ],
+   "confidence": [
+    26
+   ],
+   "intervals": [
+    27
+   ],
+   "growth": [
+    30
+   ],
+   "rates.": [
+    31
+   ],
+   "The": [
+    32,
+    67,
+    166
+   ],
+   "method": [
+    33
+   ],
+   "involves": [
+    34
+   ],
+   "implementation": [
+    37
+   ],
+   "right-side": [
+    40
+   ],
+   "unit": [
+    41,
+    89
+   ],
+   "root": [
+    42,
+    90
+   ],
+   "sup": [
+    46
+   ],
+   "test,": [
+    47
+   ],
+   "both": [
+    48
+   ],
+   "which": [
+    50,
+    173
+   ],
+   "are": [
+    51
+   ],
+   "easy": [
+    52
+   ],
+   "to": [
+    53,
+    72,
+    98,
+    119,
+    122,
+    190
+   ],
+   "use": [
+    54
+   ],
+   "in": [
+    55,
+    76,
+    85,
+    104,
+    126,
+    135
+   ],
+   "practical": [
+    56
+   ],
+   "applications,": [
+    57
+   ],
+   "some": [
+    59
+   ],
+   "new": [
+    60,
+    186
+   ],
+   "limit": [
+    61
+   ],
+   "theory": [
+    62
+   ],
+   "mildly": [
+    64
+   ],
+   "processes.": [
+    66
+   ],
+   "shown": [
+    71
+   ],
+   "have": [
+    73
+   ],
+   "discriminatory": [
+    74
+   ],
+   "power": [
+    75
+   ],
+   "detecting": [
+    77
+   ],
+   "periodically": [
+    78
+   ],
+   "collapsing": [
+    79
+   ],
+   "bubbles,": [
+    80
+   ],
+   "thereby": [
+    81,
+    139
+   ],
+   "overcoming": [
+    82
+   ],
+   "weakness": [
+    84
+   ],
+   "earlier": [
+    86
+   ],
+   "applications": [
+    87
+   ],
+   "tests": [
+    91
+   ],
+   "bubbles.": [
+    94
+   ],
+   "An": [
+    95
+   ],
+   "empirical": [
+    96,
+    143
+   ],
+   "application": [
+    97
+   ],
+   "Nasdaq": [
+    100
+   ],
+   "stock": [
+    101
+   ],
+   "price": [
+    102
+   ],
+   "index": [
+    103
+   ],
+   "1990s": [
+    106
+   ],
+   "confirmation": [
+    108
+   ],
+   "explosiveness": [
+    110
+   ],
+   "stamps": [
+    113
+   ],
+   "financial": [
+    117,
+    137
+   ],
+   "exuberance": [
+    118,
+    134,
+    151
+   ],
+   "mid-1995,": [
+    120
+   ],
+   "prior": [
+    121
+   ],
+   "famous": [
+    124
+   ],
+   "remark": [
+    125,
+    142
+   ],
+   "December": [
+    127
+   ],
+   "1996": [
+    128
+   ],
+   "by": [
+    129
+   ],
+   "Alan": [
+    130
+   ],
+   "Greenspan": [
+    131
+   ],
+   "about": [
+    132
+   ],
+   "irrational": [
+    133,
+    150
+   ],
+   "market,": [
+    138
+   ],
+   "giving": [
+    140
+   ],
+   "content.": [
+    144
+   ],
+   "How": [
+    145
+   ],
+   "do": [
+    146
+   ],
+   "we": [
+    147
+   ],
+   "know": [
+    148
+   ],
+   "when": [
+    149
+   ],
+   "has": [
+    152,
+    183
+   ],
+   "unduly": [
+    153
+   ],
+   "escalated": [
+    154
+   ],
+   "asset": [
+    155
+   ],
+   "values?": [
+    156
+   ],
+   "(Alan": [
+    157,
+    196
+   ],
+   "Greenspan,": [
+    158
+   ],
+   "1996)": [
+    159
+   ],
+   "Experience": [
+    160
+   ],
+   "can": [
+    161,
+    194
+   ],
+   "be": [
+    162
+   ],
+   "powerful": [
+    164
+   ],
+   "teacher.": [
+    165
+   ],
+   "rise": [
+    167
+   ],
+   "fall": [
+    169
+   ],
+   "internet": [
+    171
+   ],
+   "stocks,": [
+    172
+   ],
+   "created": [
+    174
+   ],
+   "then": [
+    176
+   ],
+   "destroyed": [
+    177
+   ],
+   "$8": [
+    178
+   ],
+   "trillion": [
+    179
+   ],
+   "shareholder": [
+    181
+   ],
+   "wealth,": [
+    182
+   ],
+   "led": [
+    184
+   ],
+   "generation": [
+    187
+   ],
+   "economists": [
+    189
+   ],
+   "acknowledge": [
+    191
+   ],
+   "bubbles": [
+    193
+   ],
+   "occur.": [
+    195
+   ],
+   "Krueger,": [
+    197
+   ],
+   "2005)": [
+    198
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 47
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 76
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 93
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 111
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 91
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 93
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 84
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 86
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 91
+   },
+   {
+    "year": 2017,
+    "cited_by_count": 84
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 66
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 77
+   },
+   {
+    "year": 2014,
+    "cited_by_count": 44
+   },
+   {
+    "year": 2013,
+    "cited_by_count": 40
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 31
+   }
+  ],
+  "updated_date": "2026-08-24T07:32:12.397491",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

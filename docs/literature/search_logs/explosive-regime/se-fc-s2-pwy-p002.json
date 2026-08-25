@@ -1,0 +1,1513 @@
+{
+ "query_id": "se-fc-s2-pwy-p002",
+ "protocol_query_id": "er-fc-s2-pwy",
+ "arm": "forward-citation",
+ "platform": "s2",
+ "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1111/j.1468-2354.2010.00625.x/citations?fields=title,year,venue,externalIds,citationCount&limit=1000&offset=1000",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "offset": 1000,
+ "page": 2,
+ "retrieved_count": 116,
+ "cumulative_retrieved": 1116,
+ "next": null,
+ "raw": {
+  "offset": 1000,
+  "data": [
+   {
+    "citingPaper": {
+     "paperId": "86b36ad4b7448f1bced35e92476e34ca1a4374ee",
+     "externalIds": {
+      "MAG": "2583003927",
+      "CorpusId": 168241463
+     },
+     "title": "An empirical investigation of bubble and contagion effects in the Thai stock market",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "22aa3e0b42e7c1af99eb6b06797c3dd5a528da2e",
+     "externalIds": {
+      "MAG": "2597861760",
+      "CorpusId": 157233179
+     },
+     "title": "Do Multiple Housing Bubbles Exist in China? Further Evidence from Generalized Sup ADF Tests",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 3
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6a67fa02e7d7707d8377d4f7b2996d981faf6ee7",
+     "externalIds": {
+      "CorpusId": 202592908
+     },
+     "title": "NON-LINEARITIES IN FINANCIAL BUBBLES : THEORY & BAYESIAN EVIDENCE FROM S & P 5001",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "75c0ed95b4d6170952998e1e733fec36adcc253a",
+     "externalIds": {
+      "CorpusId": 204752007
+     },
+     "title": "Efficient Market Hypothesis : Shiller Meets",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "1f160f08184a2009a14e9814bcbde7cb99bd2146",
+     "externalIds": {
+      "CorpusId": 207919889
+     },
+     "title": "1 FINANCIAL BUBBLE DETECTION : A NON-LINEAR METHOD WITH APPLICATION TO S & P 500",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "12d1ce5472ad849e613f4dae440d14f2ae30ccd6",
+     "externalIds": {
+      "CorpusId": 209333959
+     },
+     "title": "CAMA Centre for Applied Macroeconomic Analysis Speculative Bubbles or Market Fundamentals ? An Investigation of US Regional Housing Markets CAMA Working Paper 46 / 2016 July 2016",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a1a3d68d043bb2db03a7338d9d1d14eaf3c19ecd",
+     "externalIds": {
+      "CorpusId": 209442535
+     },
+     "title": "House prices in Norway since 1819",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "1ca06fafed444c32c229e17df5ffd3fbd044ee50",
+     "externalIds": {
+      "CorpusId": 214799002
+     },
+     "title": "Economic Letter: Assessing the Sustainability of Irish Residential Property Prices: 1980 Q1-2016 Q2",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8bde3f37886e00e4f992f0634b0b84191ef16d92",
+     "externalIds": {
+      "MAG": "2518941923",
+      "DOI": "10.1111/AJFS.12139",
+      "CorpusId": 157353175
+     },
+     "title": "Dynamic Analyses for Transmission between Asset Bubble Trends of Accumulated Co‐integration Errors",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 2
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "524db697ee87c361fa7e59e1789f4de6157843ea",
+     "externalIds": {
+      "MAG": "2255620132",
+      "DOI": "10.1016/B978-0-12-804494-0.00022-X",
+      "CorpusId": 155529630
+     },
+     "title": "Efficient Market Hypothesis Testing",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 4
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b9863359758b663e5d6fc32ccdb52b192a78c712",
+     "externalIds": {
+      "MAG": "2194139084",
+      "DOI": "10.1016/J.ECONMOD.2015.09.025",
+      "CorpusId": 155442498
+     },
+     "title": "Are there periodically collapsing bubbles in the stock markets? New international evidence",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 12
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ecf1c0bff42934de4a49dcfa463eacb6d1918908",
+     "externalIds": {
+      "MAG": "2520086461",
+      "DOI": "10.1016/B978-0-12-803776-8.00008-2",
+      "CorpusId": 157567755
+     },
+     "title": "Are European Frontier Markets Efficient",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 1
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "49a24867a5cce8f7be7685d88097144124af094d",
+     "externalIds": {
+      "MAG": "2563535420",
+      "CorpusId": 157821427
+     },
+     "title": "Monetary Policy and Asset Mispricing",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ef173d87bd507cd0f5c1448faa14b06d005e4c6a",
+     "externalIds": {
+      "CorpusId": 143429904
+     },
+     "title": "Series Working Paper No . 2 / 16 NonLinearities in the Relationship between House Prices and Interest Rates : Implications for Monetary Policy",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c689fc2921832e397253e8ae5bbf647ef314b796",
+     "externalIds": {
+      "CorpusId": 189760159
+     },
+     "title": "Multivariate tests for asset price bubbles",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 1
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "0bc19fdefb0e32a2aac156e7e94357a4caa6e1ed",
+     "externalIds": {
+      "CorpusId": 201049730
+     },
+     "title": "Testing for Speculative Bubbles: Revisiting the Rolling Window",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 8
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "049eeb43521abbb83e964048bee994bfaeb252cf",
+     "externalIds": {
+      "CorpusId": 285765484
+     },
+     "title": "NBER WORKING PAPER SERIES NO-BUBBLE CONDITION: MODEL-FREE TESTS IN HOUSING MARKETS",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "be1716b2c18d7bab7ef7e10059fb2a8bc21d5331",
+     "externalIds": {
+      "MAG": "112031048",
+      "DOI": "10.2139/SSRN.2548466",
+      "CorpusId": 54823150
+     },
+     "title": "Explosive bubbles in house prices? Evidence from the OECD countries",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 143
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "da7d7dfb2fde0b674b24f86298797118d9c16fa1",
+     "externalIds": {
+      "DOI": "10.1016/j.jedc.2015.06.006",
+      "CorpusId": 13103838
+     },
+     "title": "What factors drive the price – rent ratio for the housing market ? A modified present-value analysis",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 64
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ee7714cd3df10a796c427a996e45e7a5af78ecd7",
+     "externalIds": {
+      "MAG": "2089955195",
+      "DOI": "10.1007/s10198-015-0668-y",
+      "CorpusId": 31191302,
+      "PubMed": "25634500"
+     },
+     "title": "Is the United States in the middle of a healthcare bubble?",
+     "venue": "European Journal of Health Economics",
+     "year": 2015,
+     "citationCount": 9
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "60339b67bc28ed063390646899a361ad67f71545",
+     "externalIds": {
+      "MAG": "214620148",
+      "DBLP": "series/sci/HencicG15",
+      "DOI": "10.1007/978-3-319-13449-9_2",
+      "CorpusId": 4865081
+     },
+     "title": "Noncausal Autoregressive Model in Application to Bitcoin/USD Exchange Rates",
+     "venue": "Econometrics of Risk",
+     "year": 2015,
+     "citationCount": 116
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7f007729b27d7c94ca4965a55c577050ec8a6125",
+     "externalIds": {
+      "MAG": "2266811569",
+      "CorpusId": 54657832
+     },
+     "title": "Is There a Bubble in the German Housing Market",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "1926e84d41bde04aba477b01bcb8b9c13cd518d8",
+     "externalIds": {
+      "MAG": "2025888193",
+      "DOI": "10.1093/JJFINEC/NBT025",
+      "CorpusId": 59461477
+     },
+     "title": "Recursive Right-Tailed Unit Root Tests for an Explosive Asset Price Bubble",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 38
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2f4baab29616fe8d8266332db6f3a649f08fd5c7",
+     "externalIds": {
+      "DOI": "10.1515/jtse",
+      "CorpusId": 59153141
+     },
+     "title": "JOURNAL OF TIME SERIES ECONOMETRICS",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "18d8fd1b31be6a2bb9ad5b9a269a32b0c1124aa7",
+     "externalIds": {
+      "MAG": "2335866700",
+      "DOI": "10.26481/umagsb.2015035",
+      "CorpusId": 56301376
+     },
+     "title": "Identification of Mixed Causal-Noncausal Models : How Fat Should We Go?",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 2
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a49389067d22c2e4cb2dc1201022bd67de011ea9",
+     "externalIds": {
+      "MAG": "2063764360",
+      "DOI": "10.1016/J.ECONLET.2014.12.004",
+      "CorpusId": 14630012
+     },
+     "title": "Limit theory for an explosive autoregressive process",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 25
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a6badea9430be6351afb406c36b6683dc3c707e8",
+     "externalIds": {
+      "MAG": "2427274671",
+      "CorpusId": 114213154
+     },
+     "title": "Structural breaks and outliers detection in time-series econometrics: Methods and applications",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "cf644bbdd9bd19b22aabd0f2ca281158506607e0",
+     "externalIds": {
+      "MAG": "2156161622",
+      "DOI": "10.13043/DYS.75.5",
+      "CorpusId": 141064105
+     },
+     "title": "Testing for Bubbles in the Colombian Housing Market: A New Approach",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 13
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "31823014a23904b87aa9882f7a001b1cfbfcc47b",
+     "externalIds": {
+      "MAG": "2296504688",
+      "CorpusId": 55868343
+     },
+     "title": "Testing for Multiple Bubbles in the 35 Large and Medium Cities of Real Estate Price in China",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 6
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "1603dd07e9050aa06a5231c3e435bab05bd64324",
+     "externalIds": {
+      "MAG": "2289906600",
+      "CorpusId": 160026450
+     },
+     "title": "House prices: bubbles, exuberance or something else? Evidence from euro area countries",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 13
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d0b20895a7030e521f0fd06d2bdb7c6cf8fa8c4c",
+     "externalIds": {
+      "MAG": "2756830084",
+      "CorpusId": 168899754
+     },
+     "title": "Real estate market in Lebanon, real demand or a possible bubble? -",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "02fc94af9fa4661d4ddc60ba752133308d4a2647",
+     "externalIds": {
+      "MAG": "2337910541",
+      "DOI": "10.1515/jtse-2013-0004",
+      "CorpusId": 124644981
+     },
+     "title": "Fixed and Recursive Right-Tailed Dickey–Fuller Tests in the Presence of a Break under the Null",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 2
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "88d80aeef1d46ba97ed2023508ce1259d3c84d6f",
+     "externalIds": {
+      "MAG": "831880829",
+      "CorpusId": 166276777
+     },
+     "title": "Testing For Bubbles In The Housing Market: Further Evidence From Turkey",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 19
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "aa8046da111127c69f289a5af4d039fa9a7bff57",
+     "externalIds": {
+      "MAG": "1980167787",
+      "DOI": "10.1093/AJAE/AAU069",
+      "CorpusId": 154006609
+     },
+     "title": "Price Explosiveness, Speculation, and Grain Futures Prices",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 89
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b4787f526860e794e0c7f7ea1d52e63cb2c80615",
+     "externalIds": {
+      "MAG": "88580711",
+      "DOI": "10.1007/978-3-319-03122-4_17",
+      "CorpusId": 150598556
+     },
+     "title": "Do Industrial Metals Prices Exhibit Bubble Behavior",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 6
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a14b48eb648b2fa5f38364290c174079d5b60af7",
+     "externalIds": {
+      "MAG": "2012390495",
+      "DOI": "10.1016/J.RIBAF.2014.06.003",
+      "CorpusId": 153522474
+     },
+     "title": "Are there periodically collapsing bubbles in the REIT markets? New evidence from the US",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 21
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8b4f9d36d02a7fcfed5bbaacfae1af7f3785b6aa",
+     "externalIds": {
+      "MAG": "71811090",
+      "DOI": "10.1007/978-1-4614-7750-1_31",
+      "CorpusId": 116189498
+     },
+     "title": "Structural Change and Monitoring Tests",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 2
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "220981765a64d0f6740ef0475a791d395c8262b9",
+     "externalIds": {
+      "MAG": "2040237154",
+      "DOI": "10.1016/J.NAJEF.2014.11.003",
+      "CorpusId": 155010741
+     },
+     "title": "Bubbles in health care: Evidence from the U.S., U.K., and German stock markets",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 14
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "783714c1cf7aeae1f194da70611b6a5f47b2ab00",
+     "externalIds": {
+      "MAG": "2341931089",
+      "CorpusId": 124681948
+     },
+     "title": "Bias-corrected estimation in mildly explosive autoregressions",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 3
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "bd287fc088679e095b2da31527f9cf5a3dba76a6",
+     "externalIds": {
+      "CorpusId": 245509876
+     },
+     "title": "BUBBLING OVER ALONG THE OIL FUTURES YIELD CURVE",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 1
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b17beedecef088a0d02b143976c8dd6157ea6cc9",
+     "externalIds": {
+      "MAG": "1981840422",
+      "DOI": "10.1016/J.ECONLET.2013.11.006",
+      "CorpusId": 41683758
+     },
+     "title": "Asymptotic behaviour of tests for a unit root against an explosive alternative",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 7
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "1f7effafb2e0593be5be8b4b7b0645e5cf95cb77",
+     "externalIds": {
+      "MAG": "2186254293",
+      "CorpusId": 54073771
+     },
+     "title": "Testing for Bubbles in LME Non-Ferrous Metals Prices",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 2
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ac57fbd71566f4b8076f7a4ca1b4c80d8f8615b6",
+     "externalIds": {
+      "MAG": "658592322",
+      "CorpusId": 152913846
+     },
+     "title": "Does U.S. Monetary Policy Affect Crude Oil Future Price Volatility? An Empirical Investigation",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "87182e775f0e4c05b53f82b16b05f45fffc2a9a0",
+     "externalIds": {
+      "MAG": "962408571",
+      "CorpusId": 161648236
+     },
+     "title": "Die Target-Forderungen der Deutschen Bundesbank: Eine Zeitreihenanalyse",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 1
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "18deed5a3601715ab9087ec46a8f5cdab9322868",
+     "externalIds": {
+      "MAG": "2182312835",
+      "CorpusId": 14203393
+     },
+     "title": "Are Transient Explosive Roots the Signature of a Bubble? A Markov Regime Switching Approach with Bayesian Model Averaging",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "fd133e4d0548d50b1c81274f20d8960f321b8f4f",
+     "externalIds": {
+      "CorpusId": 54668549
+     },
+     "title": "Fama on bubbles Tom Engsted",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2ce2b2e5e747e030326e0b9d1c971d5f953c1699",
+     "externalIds": {
+      "MAG": "1133274483",
+      "CorpusId": 141631175
+     },
+     "title": "Essays on Extreme Markets",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b19266b4159bee27179318a8372e28cded7ddd1d",
+     "externalIds": {
+      "CorpusId": 153684441
+     },
+     "title": "Bubbles and crises : The role of house prices and credit ∗",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 113
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "e12353c6b39498b103abb386b9cab22b9857580b",
+     "externalIds": {
+      "CorpusId": 201676325
+     },
+     "title": "Financial Econometrics Series SWP 2013 / 06 Determinants of Stock Price Bubbles",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4a981093541ddf7ead2963d55d4cb51d8130ae54",
+     "externalIds": {
+      "CorpusId": 207905110
+     },
+     "title": "SFB 823 Monitoring stationarity and cointegration D iscussion P aper",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "0902c5c5dd65dc3895e6e9c2e8c6ae3488a5d753",
+     "externalIds": {
+      "MAG": "96746675",
+      "CorpusId": 151178242
+     },
+     "title": "FINANCIALIZATION OF THE COMMODITIES FUTURES MARKETS AND ITS EFFECTS ON PRICES",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 4
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4a7554d75e9506eb593fc3dfb1aecd98a6589960",
+     "externalIds": {
+      "MAG": "311119720",
+      "CorpusId": 150991216
+     },
+     "title": "Testing For Speculative Bubble On The Prices Of The Russian Telecommunication Companies The Late 1990s",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a49cc489b8558b0c966f57b7f8a91c6feef99a38",
+     "externalIds": {
+      "CorpusId": 218627148
+     },
+     "title": "Econometric Tests for Speculative Bubbles",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 2
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f3b0771bdc4904a39093b3b4e1dac0f8e0123d7a",
+     "externalIds": {
+      "MAG": "2239988301",
+      "CorpusId": 155856822
+     },
+     "title": "Episodes of exuberance in housing markets",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 5
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c0555e269ac8fe0214ffb79567ff6178e5388c8a",
+     "externalIds": {
+      "MAG": "435305549",
+      "CorpusId": 62883823
+     },
+     "title": "Bias-corrected estimation in potentially mildly explosive autoregressive models",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 16
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ea61838a498426d51b82ce18c56dd5432e075908",
+     "externalIds": {
+      "MAG": "2262296781",
+      "DOI": "10.7282/T3BV7DMH",
+      "CorpusId": 155591802
+     },
+     "title": "Essays on housing bubbles: testing, estimation, and fundamental analysis",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 1
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c9a57bc5a9b7d34a7bc21ad44eb1c3ee662f3697",
+     "externalIds": {
+      "CorpusId": 53988679
+     },
+     "title": "Working Paper Series The Forecasting Performance of Regime-Switching Models of Speculative Behaviour for Exchange Rates Ekaterini Panopoulou and Theologos Pantelidis",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "76eeff547a1a1d9896b566249bac59f1fac3033f",
+     "externalIds": {
+      "MAG": "2112507794",
+      "CorpusId": 122640014
+     },
+     "title": "Double Unit Roots Testing, GLS-detrending and Uncertainty over the Initial Conditions",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c3e5d9bf7463b0c63af1cadd91e44574ec7dad18",
+     "externalIds": {
+      "MAG": "322721287",
+      "DOI": "10.22495/COCV10I2C3ART1",
+      "CorpusId": 145818352
+     },
+     "title": "HOUSE PRICE, STOCK PRICE AND CONSUMPTION IN SOUTH AFRICA: A STRUCTURAL VAR APPROACH",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 10
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4843021668639132a694231f73b8d0c439c8a9af",
+     "externalIds": {
+      "MAG": "646606836",
+      "CorpusId": 153026710
+     },
+     "title": "Index funds do impact agricultural prices",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 18
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "991d6eed2383145fca5f1385edadf78e2836c691",
+     "externalIds": {
+      "MAG": "2185402836",
+      "CorpusId": 154511520
+     },
+     "title": "Bubbles in Grain Futures Markets: When are They Most Likely to Occur?",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 1
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4e4e1fa1ea6919aa477d3de4dab4142931d343f4",
+     "externalIds": {
+      "MAG": "2525647257",
+      "CorpusId": 157207221
+     },
+     "title": "Three essays on bubbles in agricultural futures markets",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ccc9717cdc131ef3a0aa39d5aa68a03feb30cf2c",
+     "externalIds": {
+      "CorpusId": 198960818
+     },
+     "title": "Impact of Increased Derivatives-Trading in India on the Price-Discovery Process",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 4
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "999f6aab60e7b94f60b1eef551b2ea5502f07b27",
+     "externalIds": {
+      "MAG": "2405907147",
+      "DOI": "10.1515/ordo-2013-0119",
+      "CorpusId": 156679010
+     },
+     "title": "Explosive Preisentwicklung und spekulative Blasen auf Rohstoffmärkten / Explosive behavior and speculative bubbles on commodity markets",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "9525d502b3ff4dcfcfdadf12d5c237db4ec4e08a",
+     "externalIds": {
+      "MAG": "2607390906",
+      "CorpusId": 157443158
+     },
+     "title": "A Direct Test on Speculative Bubbles in Agricultural Commodity Prices",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4f84f3eb4dcef27b713cb2a9893feca414360891",
+     "externalIds": {
+      "MAG": "2278283408",
+      "DOI": "10.1515/ordo-2013-0120",
+      "CorpusId": 162579467
+     },
+     "title": "Betreiben Indexfonds Agrarspekulation? Erläuterungen zum Geschäftsmodell und zum weiteren Forschungsbedarf / Do Index Funds Speculate on Agricultural Futures Markets? Explanatory Notes on the Business Model and the Additional Need for Research",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 5
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "afb19ddcf8101ae0c2a3aadf597158bde40ff430",
+     "externalIds": {
+      "MAG": "1953206103",
+      "CorpusId": 153808244
+     },
+     "title": "Essays on the determinants and spillovers of South African housing market",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f3cca576924a8106ec1825e2277950974d6c4f21",
+     "externalIds": {
+      "MAG": "1522784535",
+      "DOI": "10.17169/REFUBIUM-15048",
+      "CorpusId": 152741871
+     },
+     "title": "Essays on Asset Prices and Macroeconomic Fundamentals",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "0b2057876edebb2a0bc64d9983e9491436579fc7",
+     "externalIds": {
+      "CorpusId": 261748768
+     },
+     "title": "Detecting and Forecasting Large Deviations and Bubbles with a Near-Explosive Random Coefficient Model",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 1
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "03c9b362910adb1a08dca01530e9658eec884682",
+     "externalIds": {
+      "CorpusId": 54084225
+     },
+     "title": "Working Paper Series Speculative Behaviour and Oil Price Predictability Ekaterini Panopoulou and Theologos Pantelidis Kent Business",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f6076bd8221047d80fc54a483037e9852425f30f",
+     "externalIds": {
+      "CorpusId": 267719623
+     },
+     "title": "TESTING FOR MULTIPLE BUBBLES: HISTORICAL EPISODES OF EXUBERANCE AND COLLAPSE IN THE S&P 500 By",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 19
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f76a63569ed69da372ca86f77aed06dcda65e03f",
+     "externalIds": {
+      "MAG": "1503273182",
+      "DOI": "10.17169/FUDOCS_DOCUMENT_000000015373",
+      "CorpusId": 53614246
+     },
+     "title": "Are There Bubbles in the Sterling-dollar Exchange Rate?",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 10
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7bf1014e5181a08c2fc157fb1a0c8d10c6e859c8",
+     "externalIds": {
+      "MAG": "2182475660",
+      "CorpusId": 21992939
+     },
+     "title": "Price Explosiveness and Index Trader Behavior in the Corn, Soybean, and Wheat Futures Markets",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 10
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4eec56a377ef9d13cd12589d373b1c730a1509bf",
+     "externalIds": {
+      "CorpusId": 18907195
+     },
+     "title": "Detecting Asset Price Bubbles in the Near-Explosive Random Coefficient Autoregressive Model",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f18fa304dc0494503ee465cb6bf87a60af2f4a3e",
+     "externalIds": {
+      "CorpusId": 53572883
+     },
+     "title": "Testing for Explosive Behavior in Relative Price Measures : Implications for Inflation Expectations ∗",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "96609ab236b57586c9b3190e556f333a264faebe",
+     "externalIds": {
+      "CorpusId": 212574600
+     },
+     "title": "Herding Behavior under Markets Condition: Empirical Evidence on the European Financial Markets",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 3
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "0261c19a31c4175f200127302a00a9913ba16963",
+     "externalIds": {
+      "MAG": "1562152219",
+      "CorpusId": 153946811
+     },
+     "title": "Three Econometric Essays on Continuous Time Models",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "28d728de3dd789434931b9822f21e72ed815d2bd",
+     "externalIds": {
+      "MAG": "2182514977",
+      "CorpusId": 154483494
+     },
+     "title": "Institutional Knowledge at Singapore Management University",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 3
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "bac6cbd911c28ed825f028608558ea724d93cf38",
+     "externalIds": {
+      "MAG": "2042969518",
+      "DOI": "10.1093/JJFINEC/NBR009",
+      "CorpusId": 154612436
+     },
+     "title": "Testing for Speculative Bubbles in Stock Markets: A Comparison of Alternative Methods",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 451
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6422462aab0a64807539016a96ec1392c6e1ed6b",
+     "externalIds": {
+      "MAG": "380918562",
+      "DOI": "10.2139/ssrn.1724510",
+      "CorpusId": 53344433
+     },
+     "title": "Is There a Speculative Bubble in the Price of Gold",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 12
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "bf38175b0d39abc525dfafd73b6d1b2287271f70",
+     "externalIds": {
+      "MAG": "2473159942",
+      "DOI": "10.7215/ag_ip_20110923a",
+      "CorpusId": 55002700
+     },
+     "title": "Food reserves in developing countries: Trade policy options for improved food security",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 30
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "0eeac643efd9a23652b8a834d7f4acd7986edea7",
+     "externalIds": {
+      "DOI": "10.2139/ssrn.1981951",
+      "CorpusId": 263715
+     },
+     "title": "Specification Sensitivity in Right-Tailed Unit Root Testing for Explosive Behavior",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 162
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d3c8e889ca16427fe2f1d82589669f7c8a5705f3",
+     "externalIds": {
+      "MAG": "1562750750",
+      "CorpusId": 13838053
+     },
+     "title": "Safeguarding food security in volatile global markets.",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 149
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c8228069d69eb8fbbd78c19903c3e6aed88e90b3",
+     "externalIds": {
+      "MAG": "2247201988",
+      "DOI": "10.1111/J.1574-0862.2012.00636.X",
+      "CorpusId": 67853660
+     },
+     "title": "Agricultural Price Transmission Across Space and Commodities During Price Bubbles",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 110
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c617695f0c3f25625fbeebfad900330f2030cf79",
+     "externalIds": {
+      "MAG": "1563615682",
+      "CorpusId": 154100413
+     },
+     "title": "Looking for Rational Bubbles in Agricultural Commodity Markets",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 7
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d40ce6ba81f5decba69969d3b66822b35fe8b99e",
+     "externalIds": {
+      "MAG": "2187622542",
+      "CorpusId": 204403070
+     },
+     "title": "Food Reserves in Developing Countries",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 1
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c5ac374848a0e1fdb565d7433687c859f3a10fd5",
+     "externalIds": {
+      "CorpusId": 285743250
+     },
+     "title": "THE TIMELINE OF FINANCIAL BUBBLES DURING THE SUBPRIME CRISIS",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "697b789e1975ea770e47e10e7b3ff84773b2b9fc",
+     "externalIds": {
+      "CorpusId": 285743251
+     },
+     "title": "Dating the timeline of financial bubbles during the subprime crisis P",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4ad942fd8145fd0616dd6947ed3451f07e8929e0",
+     "externalIds": {
+      "MAG": "1564647202",
+      "CorpusId": 251014268
+     },
+     "title": "Specification Sensitivities in Right-Tailed Unit Root Testing",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 5
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "006dca9dfab5e2ca8ad3bfda1be3afb3654e98d3",
+     "externalIds": {
+      "CorpusId": 211141225
+     },
+     "title": "The Bubble Effect on the Predictive Ability of Dividend Yield",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a7907ba587f96fb62a327a745fd70429bc7e56af",
+     "externalIds": {
+      "MAG": "2554235937",
+      "CorpusId": 157485645
+     },
+     "title": "Rebalancing the British economy: a strategic assessment",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 11
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "50ecd616d859f8d5d1cc3809f5a097e93974f60a",
+     "externalIds": {
+      "CorpusId": 16858475
+     },
+     "title": "TESTING FOR PERIODICALLY COLLAPSING BUBBLES: AN GENERALIZED SUP ADF TEST",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 3
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c06afd76d2c7cdc1c21babf8be4d0834699a4d7a",
+     "externalIds": {
+      "CorpusId": 285743249
+     },
+     "title": "Dating the Timeline of Financial Bubbles During the Subprime Crisis 1",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "40e01fc2ad6cb4ce72974e7ffd45657cf0c57336",
+     "externalIds": {
+      "MAG": "91786817",
+      "CorpusId": 55857377
+     },
+     "title": "Limit Theory for Dating the Origination and Collapse of Mildly Explosive Periods in Time Series Data",
+     "venue": "",
+     "year": 2009,
+     "citationCount": 62
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a9716bd19ad2383f48a5c4fa96b58d33507194cf",
+     "externalIds": {
+      "CorpusId": 18800784
+     },
+     "title": "No 383 Testing for a Unit Root in a Random Coefficient Panel Data Model",
+     "venue": "",
+     "year": 2009,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ec847bbe14e83800c052133117055f613cf07ebc",
+     "externalIds": {
+      "CorpusId": 285743252
+     },
+     "title": "Dating the Timeline of Financial Bubbles During the Subprime Crisis 1",
+     "venue": "",
+     "year": 2009,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a033825d78a3025ec3f3b0212b671ac03e34a77c",
+     "externalIds": {
+      "CorpusId": 270279631
+     },
+     "title": "11. Testing Bubbles: Exuberance and collapse in the Shanghai A-share stock market",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ea4256c04cac4314f9b81492e7ab2d7eed4f6502",
+     "externalIds": {
+      "CorpusId": 279128854
+     },
+     "title": "Journal of Econometrics",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "85fe25cefc4b53a1499012f31c870bcf5b660020",
+     "externalIds": {
+      "CorpusId": 282834114
+     },
+     "title": "El Clasico of Housing: Bubbles in Madrid and Barcelona’s Real Estate Markets",
+     "venue": "",
+     "year": null,
+     "citationCount": 1
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "1a68f52b71217a984d129cf5830493e59e9b0c97",
+     "externalIds": {
+      "CorpusId": 14793615
+     },
+     "title": "Federal Reserve Bank of Dallas Globalization and Monetary Policy Institute Testing for Bubbles in Housing Markets: New Results Using a New Method Testing for Bubbles in Housing Markets: New Results Using a New Method",
+     "venue": "",
+     "year": null,
+     "citationCount": 16
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "28c3fd6a2f812225c2b5939d11cc7edfc6488d2e",
+     "externalIds": {
+      "CorpusId": 14603775
+     },
+     "title": "Federal Reserve Bank of Dallas Globalization and Monetary Policy Institute Monitoring Housing Markets for Episodes of Exuberance: an Application of the Phillips Et Al. (2012, 2013) Gsadf Test on the Dallas Fed International House Price Database",
+     "venue": "",
+     "year": null,
+     "citationCount": 16
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "59606f20f759026da63de7fb0112cf53d303444e",
+     "externalIds": {
+      "CorpusId": 31459198
+     },
+     "title": "Working Paper Series Regime-switching models for exchange rates Ekaterini Panopoulou",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f5c0a34f058d7721629d8d2599edd92a07d9312e",
+     "externalIds": {
+      "DOI": "10.1075/etc.1.1.13ack",
+      "CorpusId": 212458925
+     },
+     "title": "REFEREES FOR THIS ISSUE",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "534ea5e5eef21693192e022015974ef2912ad4e9",
+     "externalIds": {
+      "CorpusId": 218496711
+     },
+     "title": "MODEL-FREE DETECTION OF A SPECULATIVE ASSET BUBBLE: EVIDENCE FROM THE WORLD MARKET FOR SUPERSTAR WINES",
+     "venue": "",
+     "year": null,
+     "citationCount": 1
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7518b642bad2624646ecede01f03fa7c82edef0d",
+     "externalIds": {
+      "CorpusId": 245666775
+     },
+     "title": "Long-run neutrality of money and inflation in Spanish economy, 1830-1998",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "17c7b01be580f476791bfb6c4e11e22656d31415",
+     "externalIds": {
+      "CorpusId": 264043960
+     },
+     "title": "Observation-Driven filters for Time-Series with Stochastic Trends and Mixed Causal Non-Causal Dynamics",
+     "venue": "",
+     "year": null,
+     "citationCount": 3
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "53915bc24055f359ba6d6024a7002dc432e3f385",
+     "externalIds": {
+      "CorpusId": 264541110
+     },
+     "title": "Testing for Bubbles in the Colombian Housing Market: A New Approach 1",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "e08c423677c929632d02fa19c693577926d4930e",
+     "externalIds": {
+      "CorpusId": 265154449
+     },
+     "title": "Uniﬁed Inference for Panel Autoregressive Models with Unobserved Grouped Heterogeneity ∗",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b3b2c5605db766738afbd85fa0087d1cee1a5cbd",
+     "externalIds": {
+      "CorpusId": 268265953
+     },
+     "title": "Landslide Regime Shift Detector (LRSD) for Landslide Early Warning Systems",
+     "venue": "",
+     "year": null,
+     "citationCount": 1
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "0a9b12fbbd90166b5b809f26214cb313f33b60d0",
+     "externalIds": {
+      "CorpusId": 269786798
+     },
+     "title": "ScholarWorks @ UTRGV ScholarWorks @ UTRGV",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "04d05257d91eb0fd77b23083caa565eed48654b8",
+     "externalIds": {
+      "CorpusId": 276862903
+     },
+     "title": "Fluctuations in electricity prices and the identification of bubbles in Italy during COVID-19",
+     "venue": "",
+     "year": null,
+     "citationCount": 2
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "376a9bb0526020b70313187ee34e3f999d666078",
+     "externalIds": {
+      "CorpusId": 278238222
+     },
+     "title": "Leaning against housing booms fueled by credit",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a761b6a10d365458aa77fbe4aa2d84b8cee7765e",
+     "externalIds": {
+      "CorpusId": 281831769
+     },
+     "title": "Speculation in bearish commodity markets : The role of liquidity",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "628ab56651d0454c549f1d3dc599f95014150fb5",
+     "externalIds": {
+      "CorpusId": 284140293
+     },
+     "title": "İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ DERGİSİ",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8317450825f27f37e877f9bcc5cedfaf456686da",
+     "externalIds": {
+      "CorpusId": 284195141
+     },
+     "title": "Gelişen-8 (D-8) Piyasalarında Balon Oluşumu: Küresel Salgın Dönemi Üzerine",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5978a2ddcf3e7b25e384fe42ecceaa23911960e4",
+     "externalIds": {
+      "CorpusId": 284863211
+     },
+     "title": "Monitoring Explosive Prices in the Brazilian Real Estate Market (2008",
+     "venue": "",
+     "year": null,
+     "citationCount": 0
+    }
+   }
+  ]
+ }
+}

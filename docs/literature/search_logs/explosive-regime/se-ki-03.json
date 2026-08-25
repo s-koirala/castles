@@ -1,0 +1,367 @@
+{
+ "query_id": "se-ki-03",
+ "arm": "known-item",
+ "ki": "KI-03",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1111/iere.12131",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 200
+  }
+ ],
+ "retrieved_count": 1,
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      21
+     ]
+    ],
+    "date-time": "2026-08-21T11:46:03Z",
+    "timestamp": 1787312763729,
+    "version": "build-2736575974"
+   },
+   "reference-count": 24,
+   "publisher": "Wiley",
+   "issue": "4",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2015,
+        10,
+        28
+       ]
+      ],
+      "date-time": "2015-10-28T00:00:00Z",
+      "timestamp": 1445990400000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Int Economic Review"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2015,
+      11
+     ]
+    ]
+   },
+   "abstract": "<jats:p>\n                    This article provides the limit theory of real‐time dating algorithms for bubble detection that were suggested in Phillips, Wu, and Yu (PWY;\n                    <jats:italic>International Economic Review</jats:italic>\n                    52 [2011], 201–26) and in a companion paper by the present authors (Phillips, Shi, and Yu, 2015; PSY;\n                    <jats:italic>International Economic Review</jats:italic>\n                    56 [2015a], 1099–1134. Bubbles are modeled using mildly explosive bubble episodes that are embedded within longer periods where the data evolve as a stochastic trend, thereby capturing normal market behavior as well as exuberance and collapse. Both the PWY and PSY estimates rely on recursive right‐tailed unit root tests (each with a different recursive algorithm) that may be used in real time to locate the origination and collapse dates of bubbles. Under certain explicit conditions, the moving window detector of PSY is shown to be a consistent dating algorithm even in the presence of multiple bubbles. The other algorithms are consistent detectors for bubbles early in the sample and, under stronger conditions, for subsequent bubbles in some cases. These asymptotic results and accompanying simulations guide the practical implementation of the procedures. They indicate that the PSY moving window detector is more reliable than the PWY strategy, sequential application of the PWY procedure, and the CUSUM procedure.\n                  </jats:p>",
+   "DOI": "10.1111/iere.12131",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2015,
+      10,
+      28
+     ]
+    ],
+    "date-time": "2015-10-28T06:14:55Z",
+    "timestamp": 1446012895000
+   },
+   "page": "1079-1134",
+   "source": "Crossref",
+   "is-referenced-by-count": 418,
+   "title": [
+    "TESTING FOR MULTIPLE BUBBLES: LIMIT THEORY OF REAL‐TIME DETECTORS"
+   ],
+   "prefix": "10.1111",
+   "volume": "56",
+   "author": [
+    {
+     "given": "Peter C. B.",
+     "family": "Phillips",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Yale University, U.S.A, University of Auckland, New Zealand, University of Southampton, U.K., and Singapore Management University, Singapore; Macquarie University and CAMA, Australia Singapore Management University  Singapore"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Shuping",
+     "family": "Shi",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Yale University, U.S.A, University of Auckland, New Zealand, University of Southampton, U.K., and Singapore Management University, Singapore; Macquarie University and CAMA, Australia Singapore Management University  Singapore"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jun",
+     "family": "Yu",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Yale University, U.S.A, University of Auckland, New Zealand, University of Southampton, U.K., and Singapore Management University, Singapore; Macquarie University and CAMA, Australia Singapore Management University  Singapore"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2015,
+      10,
+      28
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_8_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.eneco.2013.01.006"
+    },
+    {
+     "key": "e_1_2_8_3_1",
+     "unstructured": "Caspi I.“Right‐Tailed ADF Tests: Eviews Add‐in ” mimeo Bank of Israel 2013."
+    },
+    {
+     "key": "e_1_2_8_4_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "69",
+     "DOI": "10.1080/10835547.2011.12090282",
+     "article-title": "International Articles: Bubbles in South African House Prices and Their Impact on Consumption",
+     "volume": "19",
+     "author": "Das S.",
+     "year": "2011",
+     "journal-title": "Journal of Real Estate Literature"
+    },
+    {
+     "key": "e_1_2_8_5_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jimonfin.2013.08.008"
+    },
+    {
+     "key": "e_1_2_8_6_1",
+     "unstructured": "Gilbert C. L. “Speculative Influences on Commodity Futures Prices2006–2008 ” Working Paper 197 United Nations Conference on Trade and Development (UNCTAD) 2010."
+    },
+    {
+     "key": "e_1_2_8_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/erae/jbs017"
+    },
+    {
+     "key": "e_1_2_8_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jjfinec/nbr009"
+    },
+    {
+     "key": "e_1_2_8_9_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Jiang L. P. C. BPhillips andJ. Yu “New Methodology for Constructing Real Estate Price Indices Applied to the Singapore Residential Market ”Journal of Banking and Finance(2015). doi:10.1016/j.jbankfin.2015.08.026",
+     "DOI": "10.1016/j.jbankfin.2015.08.026"
+    },
+    {
+     "key": "e_1_2_8_10_1",
+     "unstructured": "Masters M. W. “Testimony Before the United States Senate Committee of Homeland Security and Government Affairs ” Washington D.C. May2008."
+    },
+    {
+     "key": "e_1_2_8_11_1",
+     "unstructured": "Meyer G. “Commodity Booms Busts and Bubbles ”Financial Times March 25 2013."
+    },
+    {
+     "key": "e_1_2_8_12_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Ojeda‐Joya J. E. C. Rey‐Guerra andN. Sicard “Testing for Bubbles in Housing Markets: New Results Using a New Method ” Working paper 753 Banco de la República 2013.",
+     "DOI": "10.24149/gwp164"
+    },
+    {
+     "key": "e_1_2_8_13_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jeconom.2005.08.002"
+    },
+    {
+     "key": "e_1_2_8_14_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/CBO9780511493157.008"
+    },
+    {
+     "key": "e_1_2_8_15_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0266466609990296"
+    },
+    {
+     "key": "e_1_2_8_16_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Phillips P. C. B. andS.Shi “Financial Bubble Implosion ” Working Paper Presented at NZESG Conference February 2014.",
+     "DOI": "10.2139/ssrn.2533015"
+    },
+    {
+     "key": "e_1_2_8_17_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/obes.12026"
+    },
+    {
+     "key": "e_1_2_8_18_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/iere.12132"
+    },
+    {
+     "key": "e_1_2_8_19_1",
+     "unstructured": "Phillips P. C. B. S.Shi andJ.Yu “Supplement to Two Papers on Multiple Bubbles ” Manuscript 2015b available fromhttps://sites.google.com/site/shupingshi/TN_GSADF.pdf?attredirects=0&d=1."
+    },
+    {
+     "key": "e_1_2_8_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1468-2354.2010.00625.x"
+    },
+    {
+     "key": "e_1_2_8_21_1",
+     "unstructured": "Phillips P. C. B. andJ.Yu “Limit Theory for Dating the Origination and Collapse of Mildly Explosive Periods in Time Series Data ” Unpublished manuscript Sim Kee Boon Institute for Financial Economics Singapore Management University 2009."
+    },
+    {
+     "key": "e_1_2_8_22_1",
+     "unstructured": "Phillips P. C. B. andJ.Yu “Warning Signs of Future Asset Bubbles ”The Straits Times Singapore April 26 2011a."
+    },
+    {
+     "key": "e_1_2_8_23_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3982/QE82"
+    },
+    {
+     "key": "e_1_2_8_24_1",
+     "unstructured": "Phillips P. C. B. andJ.Yu “Bubble or Roller Coaster in World Stock Markets ”The Business Times Singapore June 28 2013."
+    },
+    {
+     "key": "e_1_2_8_25_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.asieco.2013.04.005"
+    }
+   ],
+   "container-title": [
+    "International Economic Review"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fiere.12131",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/iere.12131",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      10,
+      3
+     ]
+    ],
+    "date-time": "2023-10-03T00:36:32Z",
+    "timestamp": 1696293392000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1111/iere.12131"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2015,
+      10,
+      28
+     ]
+    ]
+   },
+   "references-count": 24,
+   "journal-issue": {
+    "issue": "4",
+    "published-print": {
+     "date-parts": [
+      [
+       2015,
+       11
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1111/iere.12131"
+   ],
+   "URL": "https://doi.org/10.1111/iere.12131",
+   "archive": [
+    "Portico"
+   ],
+   "relation": {},
+   "ISSN": [
+    "0020-6598",
+    "1468-2354"
+   ],
+   "issn-type": [
+    {
+     "value": "0020-6598",
+     "type": "print"
+    },
+    {
+     "value": "1468-2354",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2015,
+      10,
+      28
+     ]
+    ]
+   }
+  }
+ }
+}

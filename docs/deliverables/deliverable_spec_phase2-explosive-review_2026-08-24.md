@@ -8,7 +8,11 @@ scope_note: Stages 2 (branch-1 test-specification methods note) and 3 (branch-2 
 
 # Deliverables
 
-- [ ] `docs/methodology/protocol_explosive-regime-review_2026-08-24.md`
+- [x] `docs/methodology/protocol_explosive-regime-review_2026-08-24.md` —
+  PRISMA-P structure with item coverage; frozen SHA-256
+  `33c01c522521a9f0f9ee39caa7a71b1fcf51ca50a7b471cc4cc7ee2db7301a54`
+  (verified by lead recomputation); 25/25 protocol DOIs handle-resolve
+  (Evans 1991 FAIR gap declared)
   - state: Review protocol structured per PRISMA-P 2015 (Moher et al.,
     doi:10.1186/2046-4053-4-1): review question; eligibility criteria fixed in
     advance; named databases with verbatim query templates; dual-independent-
@@ -22,21 +26,39 @@ scope_note: Stages 2 (branch-1 test-specification methods note) and 3 (branch-2 
     published operating characteristics only, no simulations run.
   - check: file exists; PRISMA-P item coverage explicit; SHA-256 computed.
 
-- [ ] Registration commit (mid-session, BEFORE search execution)
+- [x] Registration commit — `9deee0ccdee8` at 2026-08-24 10:15:17 -0500,
+  subject carries the frozen SHA prefix; full protocol SHA bound as
+  `config_resolved_sha256` in pre-commit ReproLog
+  `repro_log_35329773772a4e0eac2cb5792d7d3be8.json` (sha256 `656a2369…`);
+  all search execution postdates this commit
   - state: The frozen protocol committed via /commit-with-provenance with its
     SHA-256 recorded in the commit body; search stages begin only after this
     commit exists.
   - check: `git log` shows the protocol commit with trailers timestamped
     before the search logs' recorded execution; protocol SHA in commit body.
 
-- [ ] `docs/literature/search_logs/explosive-regime/` + `docs/literature/references_explosive-regime-dating.json`
+- [x] `docs/literature/search_logs/explosive-regime/` + `docs/literature/references_explosive-regime-dating.json` —
+  62 se- logs on disk incl. dedup ledger and KI recall check; store parses at
+  1,996 entries (SHA-256 `2e8d5fc7…`); all 24 topical queries + 4 uncapped
+  forward-citation arms + 14 KIs executed post-registration; deviations
+  recorded as protocol amendments A1/A2 (append-only); PRESS recall check
+  fired on the three pre-seed antecedents (KI-05/13/14), captured via the
+  known-item arm
   - state: Search executed per the protocol's verbatim queries (deviations
     logged as protocol amendments, never silent); per-query logs; CSL-JSON
     store for all records advanced to screening.
   - check: logs exist with verbatim queries + dates + counts; store parses;
     every query in the protocol has a log or a logged amendment.
 
-- [ ] Dual-screening records + agreement statistic + adjudication log
+- [x] Dual-screening records + agreement statistic + adjudication log —
+  stage-1: R1/R2 verdict files (1,996 each, self-checked), κ=0.433 with raw
+  agreement 0.807 and the 2×2 table (se-kappa-computation.json), 386
+  disagreements blind-adjudicated (attribution withheld; se-adjudication-input
+  carries ids only); stage-2: dual full-text verdicts (586 each), 16
+  substantive conflicts blind-adjudicated, 153 access asymmetries resolved
+  under amendment A3; frozen screening prompts archived
+  (er-screening-prompt.txt); final corpus 72 (flow reconciles at every stage,
+  se-included-set.json)
   - state: Two agents screen the identical record set independently against
     the frozen criteria (no shared reasoning); verdict sets preserved
     verbatim; Cohen's kappa computed deterministically by the lead; every

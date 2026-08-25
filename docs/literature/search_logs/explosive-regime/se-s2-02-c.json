@@ -1,0 +1,276 @@
+{
+ "query_id": "se-s2-02-c",
+ "protocol_query_id": "er-s2-02",
+ "arm": "topical",
+ "platform": "s2",
+ "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=recursive%20unit%20root%20explosive%20bubble%20monitoring%20size%20power&fields=title,year,venue,externalIds,citationCount&limit=50",
+ "date_executed": "2026-08-24",
+ "http_status": 200,
+ "attempts": [
+  {
+   "attempt": 1,
+   "http_status": 429
+  },
+  {
+   "attempt": 2,
+   "http_status": 429
+  },
+  {
+   "attempt": 3,
+   "http_status": 429
+  },
+  {
+   "attempt": 4,
+   "http_status": 200
+  }
+ ],
+ "total_hits": 21,
+ "retrieved_count": 21,
+ "note": "second verbatim re-run (-c) beyond the single -b re-run specified by protocol 3.1; deviation recorded as amendment A2 in the protocol addendum",
+ "raw": {
+  "total": 21,
+  "offset": 0,
+  "data": [
+   {
+    "paperId": "c41b4c9b15457617863e7c6fcf5d687af0fccf60",
+    "externalIds": {
+     "DOI": "10.1111/obes.12668",
+     "CorpusId": 276955245
+    },
+    "title": "Unit Root Tests for Explosive Financial Bubbles in the Presence of Deterministic Level Shifts",
+    "venue": "Oxford Bulletin of Economics and Statistics",
+    "year": 2025,
+    "citationCount": 1
+   },
+   {
+    "paperId": "1926e84d41bde04aba477b01bcb8b9c13cd518d8",
+    "externalIds": {
+     "MAG": "2025888193",
+     "DOI": "10.1093/JJFINEC/NBT025",
+     "CorpusId": 59461477
+    },
+    "title": "Recursive Right-Tailed Unit Root Tests for an Explosive Asset Price Bubble",
+    "venue": "",
+    "year": 2015,
+    "citationCount": 38
+   },
+   {
+    "paperId": "312a2e194b01cf6165ce92fd6ea5accb509a4941",
+    "externalIds": {
+     "DOI": "10.1111/jtsa.12768",
+     "CorpusId": 272950562
+    },
+    "title": "Testing for a bubble with a stochastically varying explosive coefficient",
+    "venue": "Journal of Time Series Analysis",
+    "year": 2024,
+    "citationCount": 1
+   },
+   {
+    "paperId": "8b82e821e0d6ec4dfb1500616773af88910d6ef9",
+    "externalIds": {
+     "MAG": "2933843155",
+     "DOI": "10.1017/S0266466619000057",
+     "CorpusId": 132402316
+    },
+    "title": "SIGN-BASED UNIT ROOT TESTS FOR EXPLOSIVE FINANCIAL BUBBLES IN THE PRESENCE OF DETERMINISTICALLY TIME-VARYING VOLATILITY",
+    "venue": "Econometric Theory",
+    "year": 2019,
+    "citationCount": 30
+   },
+   {
+    "paperId": "21e244ab8ae1a0e2d902e5ed6d901dc82c568789",
+    "externalIds": {
+     "MAG": "1706984740",
+     "DOI": "10.1111/OBES.12026",
+     "CorpusId": 251620603
+    },
+    "title": "Specification Sensitivity in Right‐Tailed Unit Root Testing for Explosive Behaviour",
+    "venue": "",
+    "year": 2014,
+    "citationCount": 39
+   },
+   {
+    "paperId": "cab44a17f2ea1e40bde6fd40b350caf533393710",
+    "externalIds": {
+     "DOI": "10.1111/jtsa.12791",
+     "CorpusId": 267026967
+    },
+    "title": "Quantile analysis for financial bubble detection and surveillance",
+    "venue": "Social Science Research Network",
+    "year": 2024,
+    "citationCount": 2
+   },
+   {
+    "paperId": "20d88fcaee8afefa16fb81342353405d326674e6",
+    "externalIds": {
+     "MAG": "3152597534",
+     "DOI": "10.1017/S0266466621000098",
+     "CorpusId": 219348718
+    },
+    "title": "UNIT ROOT TEST WITH HIGH-FREQUENCY DATA",
+    "venue": "Econometric Theory",
+    "year": 2021,
+    "citationCount": 15
+   },
+   {
+    "paperId": "5ca8414c3963e467078157213bacbf73f577a76e",
+    "externalIds": {
+     "ArXiv": "2604.16186",
+     "CorpusId": 287608046
+    },
+    "title": "Path-Explosive Behaviour in Economic Time Series: A Realization-Centred Exploratory Framework",
+    "venue": "",
+    "year": 2026,
+    "citationCount": 0
+   },
+   {
+    "paperId": "272735f4158f169ba8eafbc6ba0699c4b6cf527c",
+    "externalIds": {
+     "MAG": "2139238934",
+     "DOI": "10.1111/J.1468-2354.2010.00625.X",
+     "CorpusId": 3967179
+    },
+    "title": "Explosive Behavior in the 1990s Nasdaq: When Did Exuberance Escalate Asset Values?",
+    "venue": "",
+    "year": 2011,
+    "citationCount": 1116
+   },
+   {
+    "paperId": "4ad942fd8145fd0616dd6947ed3451f07e8929e0",
+    "externalIds": {
+     "MAG": "1564647202",
+     "CorpusId": 251014268
+    },
+    "title": "Specification Sensitivities in Right-Tailed Unit Root Testing",
+    "venue": "",
+    "year": 2011,
+    "citationCount": 5
+   },
+   {
+    "paperId": "1b95ab274f0a9748ea470a1418194c95a58fd324",
+    "externalIds": {
+     "MAG": "2106290794",
+     "DOI": "10.1016/J.JEMPFIN.2015.09.002",
+     "CorpusId": 53611513
+    },
+    "title": "Tests for explosive financial bubbles in the presence of non-stationary volatility☆",
+    "venue": "",
+    "year": 2016,
+    "citationCount": 152
+   },
+   {
+    "paperId": "3b33255c3e2148448d49298a142345258dab1d4f",
+    "externalIds": {
+     "MAG": "2913363697",
+     "DOI": "10.2139/SSRN.972730",
+     "CorpusId": 159236165
+    },
+    "title": "Explosive Behavior and the Nasdaq Bubble in the 1990s: When Did Irrational Exuberance Escalate Asset Values?",
+    "venue": "",
+    "year": 2006,
+    "citationCount": 17
+   },
+   {
+    "paperId": "bd389ca977b596a037b4d0f981f686cfbdfd0692",
+    "externalIds": {
+     "MAG": "2953270576",
+     "DOI": "10.2139/SSRN.2916616",
+     "CorpusId": 157252418
+    },
+    "title": "Testing for explosive bubbles in the presence of autocorrelated innovations",
+    "venue": "Journal of Empirical Finance",
+    "year": 2017,
+    "citationCount": 28
+   },
+   {
+    "paperId": "1e50e3bcf5b216858c1f0258add25ec00783e918",
+    "externalIds": {
+     "DOI": "10.1111/jtsa.12794",
+     "CorpusId": 274125537
+    },
+    "title": "Bubbles and crashes: A tale of quantiles",
+    "venue": "Journal of Time Series Analysis",
+    "year": 2024,
+    "citationCount": 3
+   },
+   {
+    "paperId": "c2a3e11c9930af0e42816c5e4938378abbb82662",
+    "externalIds": {
+     "MAG": "2296442602",
+     "DOI": "10.1111/ECOT.12093",
+     "CorpusId": 155638944
+    },
+    "title": "China's Housing Bubble Burst?",
+    "venue": "",
+    "year": 2016,
+    "citationCount": 46
+   },
+   {
+    "paperId": "b30a1cc2a61e3435c53a1173f4b9a7f1daec8aa7",
+    "externalIds": {
+     "MAG": "2896025957",
+     "DOI": "10.2139/SSRN.3105251",
+     "CorpusId": 158534321
+    },
+    "title": "Testing for Bubbles in Cryptocurrencies with Time-Varying Volatility",
+    "venue": "Journal of Financial Econometrics",
+    "year": 2018,
+    "citationCount": 118
+   },
+   {
+    "paperId": "ecab9dbf36bd928c6c94bed8b88f613a015080fb",
+    "externalIds": {
+     "CorpusId": 249881961
+    },
+    "title": "Harvey, David I. and Leybourne, Stephen J. and Sollis, Robert and Taylor, A.M. Robert (2015) Tests for explosive financial bubbles in the presence of non-",
+    "venue": "",
+    "year": 2017,
+    "citationCount": 0
+   },
+   {
+    "paperId": "02fc94af9fa4661d4ddc60ba752133308d4a2647",
+    "externalIds": {
+     "MAG": "2337910541",
+     "DOI": "10.1515/jtse-2013-0004",
+     "CorpusId": 124644981
+    },
+    "title": "Fixed and Recursive Right-Tailed Dickey–Fuller Tests in the Presence of a Break under the Null",
+    "venue": "",
+    "year": 2015,
+    "citationCount": 2
+   },
+   {
+    "paperId": "1cf5e11d9b01a735f537fd3c7fa348ca232d4854",
+    "externalIds": {
+     "MAG": "2596335839",
+     "CorpusId": 157239092
+    },
+    "title": "Assessing the sustainability of Irish residential property prices: 1980Q1-2016Q2",
+    "venue": "",
+    "year": 2016,
+    "citationCount": 1
+   },
+   {
+    "paperId": "1ca06fafed444c32c229e17df5ffd3fbd044ee50",
+    "externalIds": {
+     "CorpusId": 214799002
+    },
+    "title": "Economic Letter: Assessing the Sustainability of Irish Residential Property Prices: 1980 Q1-2016 Q2",
+    "venue": "",
+    "year": 2016,
+    "citationCount": 0
+   },
+   {
+    "paperId": "1bbf7f3031b98b4a6b90d5ac5cc15a6d95876b52",
+    "externalIds": {
+     "MAG": "2183959285",
+     "CorpusId": 59484842
+    },
+    "title": "Mildly Explosive Processes and Economic Bubbles",
+    "venue": "",
+    "year": 2006,
+    "citationCount": 1
+   }
+  ]
+ }
+}
