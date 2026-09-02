@@ -1,0 +1,557 @@
+{
+ "query_id": "ka-crossref-01",
+ "protocol_query_id": "ka-crossref-01",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=prediction+market+arbitrage+no+arbitrage+bounds+binary+contracts&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1486628,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 1486628,
+   "items": [
+    {
+     "DOI": "10.5040/9798400613968.ch-005",
+     "title": [
+      "Arbitrage and Hedging with Spot and Forward Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004
+       ]
+      ]
+     },
+     "container-title": [
+      "Arbitrage, Hedging, and Speculation"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.5040/9798400613968.ch-007",
+     "title": [
+      "Arbitrage and Hedging with Forward Forward Contracts in Interest Rates"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004
+       ]
+      ]
+     },
+     "container-title": [
+      "Arbitrage, Hedging, and Speculation"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.2139/ssrn.7170178",
+     "title": [
+      "Mistiming is not Arbitrage: A Pre-registered Falsification of Cross-platform Prediction-market Arbitrage, and the Two-sided Cancellation of the Favourite-longshot Premium"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0009-1758-1423",
+       "authenticated-orcid": true,
+       "given": "Gaspard",
+       "family": "Moulinier",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Recent work reports a persistent, structurally protected arbitrage between the two largest prediction-market venues. We test it on executable quotes, Kalshi one-minute bid/ask candlesticks joined to the full Polymarket CLOB archive across 855 deterministically matched MLB moneylines and all four strikes of the June 2026 Federal Reserve decision, and find none. At true alignment the median cross-venue mid divergence is 0.60¢ against a 2.00¢ Kalshi fee, and only 7.03% of 20,915 aligned minutes carry a fee-clearing edge, with a median life of one minute. A mistiming sweep identifies the artifact: deliberately shifting one venue's quotes against the other makes the apparent edge grow monotonically, 7.03% → 23.8% at seven minutes on the fast panel, and 22.7% → 40.8% at sixty minutes on the slow one, where the mean net edge turns positive only at an hour of mistiming. The cleanest windows, pre-game minutes, are profitable in 0.00% of 2,617 minutes. We further show that the favourite-longshot premium is cancelled on both sides of the book: takers pay a half-spread five to seven times the fee, while makers who avoid it realise −7.39¢ per contract (t = −13.6), because fills arrive only when they are losing. Across nine pre-registered theses no fee- and spread-clearing edge survives. All results are pre-registered and reproducible from committed one-command scripts.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.7175258",
+     "title": [
+      "Mistiming is not Arbitrage: A Pre-registered Falsification of Cross-Platform Prediction-market Arbitrage, and the Two-sided Cancellation of the Favourite-longshot Premium"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0009-1758-1423",
+       "authenticated-orcid": true,
+       "given": "Gaspard",
+       "family": "Moulinier",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Recent work reports a persistent, structurally protected arbitrage between the two largest prediction-market venues. We test it on executable quotes, Kalshi one-minute bid/ask candlesticks joined to the full Polymarket CLOB archive across 855 deterministically matched MLB moneylines and all four strikes of the June 2026 Federal Reserve decision, and find none. At true alignment the median cross-venue mid divergence is 0.60¢ against a 2.00¢ Kalshi fee, and only 7.03% of 20,915 aligned minutes carry a fee-clearing edge, with a median life of one minute. A mistiming sweep identifies the artifact: deliberately shifting one venue's quotes against the other makes the apparent edge grow monotonically, 7.03% → 23.8% at seven minutes on the fast panel, and 22.7% → 40.8% at sixty minutes on the slow one, where the mean net edge turns positive only at an hour of mistiming. The cleanest windows, pre-game minutes, are profitable in 0.00% of 2,617 minutes. We further show that the favourite-longshot premium is cancelled on both sides of the book: takers pay a half-spread five to seven times the fee, while makers who avoid it realise −7.39¢ per contract (t = −13.6), because fills arrive only when they are losing. Across nine pre-registered theses no fee- and spread-clearing edge survives. All results are pre-registered and reproducible from committed one-command scripts.</jats:p>"
+    },
+    {
+     "DOI": "10.1007/978-1-349-21385-6_7",
+     "title": [
+      "Information Arbitrage: Market Efficiency"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1991
+       ]
+      ]
+     },
+     "container-title": [
+      "Arbitrage"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Michael",
+       "family": "Allingham",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.6446502",
+     "title": [
+      "Statistical Arbitrage in Binary Prediction Markets: Three Systematic Strategies and Their Empirical Properties"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Chrisler",
+       "family": "Nunes",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We document three systematic trading strategies deployable on binary prediction markets. SPREAD_FADE exploits the structural gap between bid-ask mid-prices and quoted ask prices in near-certain and near-zero probability markets, generating a theoretically riskless edge when the market maker spread exceeds twice the taker fee. CROSS_MARKET identifies groups of mutually exclusive outcome markets (tournament brackets, award nomination sets) whose YES prices collectively exceed unity, signalling oversubscription; we short the overpriced outcomes via their complementary NO contracts. DEP_GRAPH enforces stochastic dominance constraints on strikeprice ladders for crypto assets: a lower strike must price at least as high as any higher strike, and violations constitute pure arbitrage. An ancillary latency sub-strategy fires when a reference asset moves faster than the prediction market reprices. Across 50-cycle synthetic simulations, fractional Kelly sizing produces trade-size distributions consistent with theoretical optima. We derive closed-form edge conditions, analyse failure modes, and discuss deployment constraints including geo-blocked data feeds and minimum depth requirements.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.3472457",
+     "title": [
+      "Arbitrage and Risk Arbitrage in the Nikkei Put Warrant Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "William T.",
+       "family": "Ziemba",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This paper develops useful theory of arbitrage and risk arbitrage. It describes a prize winning successful risk arbitrage involving Nikkei put warrants trading on the Toronto and American stock exchanges. The paper describes the various types of contracts and how the risk arbitrage was traded and executed.</jats:p>"
+    },
+    {
+     "DOI": "10.1007/springerreference_2895",
+     "title": [
+      "Arbitrage and market frictions"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "SpringerReference"
+     ],
+     "type": "reference-entry"
+    },
+    {
+     "DOI": "10.5040/9798400613968.ch-001",
+     "title": [
+      "Arbitrage, Hedging, and Speculation: The Foreign Exchange Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004
+       ]
+      ]
+     },
+     "container-title": [
+      "Arbitrage, Hedging, and Speculation"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.4324/9781315207933-5",
+     "title": [
+      "Triangular Arbitrage"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017,
+        4,
+        21
+       ]
+      ]
+     },
+     "container-title": [
+      "The Forward Market in Foreign Exchange"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.5040/9798400613968.ch-006",
+     "title": [
+      "Arbitrage and Hedging with Options"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004
+       ]
+      ]
+     },
+     "container-title": [
+      "Arbitrage, Hedging, and Speculation"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.12794/metadc955071",
+     "title": [
+      "Information Content of Iron Butterfly Arbitrage Bounds"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "dissertation",
+     "author": [
+      {
+       "given": "Mucahit",
+       "family": "Kochan",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p xml:lang=\"en\">Informed traders trade options on underlying securities to lower transaction costs and increase financial leverage for price trend and variance strategies. Options markets play a significant role in price discovery by incorporating private information about future prices for an underlying security into option prices. I generate a new model-free volatility measure to calculate the \"distance from arbitrage bounds\" from minute-by-minute option series for the S&amp;P 500 index and 30 individual underlying stocks. These iron butterfly arbitrage bounds (IBBs) use intraday call and put option prices from the Bloomberg database. Narrow and wide IBBs are expected to reveal the options market valuation of volatility by market participants. Data series is gathered by using successive one-minute intervals from the Bloomberg database. The data comprise the most recent bid and ask option prices and volumes. I collect S&amp;P 500 index values and index options and use 30 underlying stock prices and option prices for the contracts that have the largest option trading volume during the sampling interval. These bid and ask prices reflect the information generated by intraday price pressures implied by S&amp;P 500 index options or stock options. Consistent with the option micro-structure literature, I find that the IBB measure for actively traded stock options attains its highest level immediately after the open of the market, declines steadily throughout the first trading hour and remains relatively stable until market close. However, index IBBs behave differently. S&amp;P 500 index option IBB attains its lowest level during the first hour of the trading day, then increases and remains relatively stable until market close. I present new evidence regarding the dynamic relation between stock returns and innovations in expected volatility by using the minute-by-minute change in implied volatility (IV) as a proxy. Unlike the relationship between individual stock returns and their respective changes in implied idiosyncratic volatility, I find that all the coefficients on the market volatility index (VIX) term are negative and significant. Therefore, the evidence supports the explanation that the negative relationship between stock returns and expected volatility innovations is primarily related to the systematic component of the expected volatility. I also test whether narrow and wide IBB values capture incremental information to explain the return-volatility relationship. Results indicate that neither narrow IBB nor wide IBB values provide additional information beyond that provided by VIX and IV. The results are robust to five-minute and ten-minute sampling frequencies.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.omega.2003.09.006",
+     "title": [
+      "Market arbitrage versus agent arbitrage"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "Omega"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "P.",
+       "family": "Modesti",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.6858200",
+     "title": [
+      "Who Profits in Binary Prediction Markets? Maker-Taker Dynamics, Behavioral Bias, and Sentiment Arbitrage on Kalshi"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Abhinav",
+       "family": "Gupta",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Whether liquidity providers in binary prediction markets systematically profit from uninformed order flow, and whether behavioral biases sustain that profit, remain open empirical questions. We address them using 72.1 million executed trades ($18.3B notional) on Kalshi from July 2021 through November 2025, supplemented by 404.5 million on-chain trades from Polymarket, applying volume-weighted return decomposition, calibration analysis, OLS regression, and paired t-tests. A statistically significant Favorite-Longshot Bias (FLSB) emerges on both platforms, but with a cross-platform contrast: Kalshi longshots are overpriced (δ b &amp;lt; 0, p &amp;lt; 0.001 for all sub-25% buckets) while Polymarket favorites above 55% implied probability are systematically underpriced (δ b &amp;gt; 0, t up to 361), implicating market design as the key moderating factor. On the supply side, makers earn +0.83 percentage points (pp) in volumeweighted returns (p = 0.0055), constituting a $142.5M wealth transfer that exceeds estimated bid-ask spread compensation by 0.13 pp. This alpha is not uniform: it ranges from +0.29 pp in Finance to +3.01 pp in World Events, with high-volume categories spanning +0.82 pp (Sports) to +1.78 pp (Media), consistent with adverse selection varying by information environment. On the demand side, takers allocate 63.8% of capital to YES contracts despite earning 0.32 pp less than NO-side takers, an affirmative framing bias unexplained by differential risk. Contrary to efficiency-convergence predictions, maker alpha trends upward at +8.21 bp/month (R 2 = 0.70) as retail participation grows. A sport-level decomposition of the dominant sports category (74% of volume) reveals maker alpha ranging from +0.18 pp in MLB to +3.43 pp in UFC/Boxing, with no significant time-to-resolution decay (p = 0.88), providing direct evidence of persistent fandriven sentiment arbitrage. Taken together, these findings indicate that binary prediction markets structurally disadvantage uninformed retail participants and call for targeted disclosure requirements and calibration-oriented regulatory oversight.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.5262988",
+     "title": [
+      "Arbitrage in Perpetual Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Min",
+       "family": "Dai",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Linfeng",
+       "family": "Li",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Chen",
+       "family": "Yang",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1002/9780470061602.eqf05010",
+     "title": [
+      "Arbitrage Bounds"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2010,
+        2,
+        26
+       ]
+      ]
+     },
+     "container-title": [
+      "Encyclopedia of Quantitative Finance"
+     ],
+     "type": "other",
+     "author": [
+      {
+       "given": "Alexander",
+       "family": "Cox",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:title>Abstract</jats:title><jats:p>A key question in option pricing concerns how to incorporate information about the prices of existing, liquidly traded options into the prices of exotic options. Rather than trying to calibrate market prices to models, an alternative approach is to construct model‐free bounds on the price of exotic options. These bounds are derived from arbitrages that may be constructed using relatively simple trading strategies in vanilla options, and their simplicity means that the bounds are generally valid for a wide class of models. This article discusses the construction of arbitrage bounds for a variety of classes of exotic options, and describes different techniques and approaches to the construction of such bounds. Particular examples include model‐free bounds on the price of one‐touch options, and pricing barrier options under the assumption of put–call symmetry.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.2266711",
+     "title": [
+      "No-Arbitrage Bounds on Two One-Touch Options"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Yukihiro",
+       "family": "Tsuzuki",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This paper investigates the pricing bounds of two one-touch options with the same maturity but different barrier levels, where the pricing bound is a range within which a one-touch option can take a price when a price of another one-touch option is given. The upper or lower bounds are the cost of a super-replicating portfolio and a sub-replicating portfolio respectively. These consist of call options, put options, digital options and a one-touch option. We assume that the underlying process is a continuous martingale, but do not postulate a model.</jats:p>"
+    },
+    {
+     "DOI": "10.1002/wilm.10674",
+     "title": [
+      "Arbitrage and Risk Arbitrage in the Nikkei Put Warrant Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        5
+       ]
+      ]
+     },
+     "container-title": [
+      "Wilmott"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Bill",
+       "family": "Ziemba",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1142/9789819816804_0016",
+     "title": [
+      "No-Arbitrage Pricing in the Black–Scholes Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        3
+       ]
+      ]
+     },
+     "container-title": [
+      "Arbitrage Theory in Discrete and Continuous Time"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.1017/cbo9780511921483.006",
+     "title": [
+      "Pricing Contracts via Arbitrage"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011,
+        2,
+        28
+       ]
+      ]
+     },
+     "container-title": [
+      "An Elementary Introduction to Mathematical Finance"
+     ],
+     "type": "book-chapter"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

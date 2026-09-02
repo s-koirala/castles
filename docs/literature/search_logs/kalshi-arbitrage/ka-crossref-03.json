@@ -1,0 +1,703 @@
+{
+ "query_id": "ka-crossref-03",
+ "protocol_query_id": "ka-crossref-03",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=cross+market+arbitrage+betting+exchange+bookmaker+price+discrepancy&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 2067828,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 2067828,
+   "items": [
+    {
+     "DOI": "10.7763/ijtef.2010.v1.61",
+     "title": [
+      "Currency Cross Rate and Triangular Arbitrage in Nigerian Exchange Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2010
+       ]
+      ]
+     },
+     "container-title": [
+      "International Journal of Trade, Economics and Finance"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Bright O.",
+       "family": "Osu",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.1503375",
+     "title": [
+      "Inter-Market Arbitrage in Betting"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2010
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Egon P.",
+       "family": "Franck",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Erwin",
+       "family": "Verbeek",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Stephan",
+       "family": "Nüesch",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We show that a combined bet at the bookmaker and at the bet exchange market yields a guaranteed positive return in 19.2% of the matches in the top-five European soccer leagues. Moreover, we find that all considered bookmakers frequently offered arbitrage positions, and that they experienced, on average, negative margins from these postings. Our findings indicate that bookmakers set prices not only by optimising over a particular bet, but also by taking the future trading behaviour of their customers into account. We discuss the implications for the literature on the relationship between betting market structure and informational efficiency.</jats:p>"
+    },
+    {
+     "DOI": "10.5040/9798400613968.ch-001",
+     "title": [
+      "Arbitrage, Hedging, and Speculation: The Foreign Exchange Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004
+       ]
+      ]
+     },
+     "container-title": [
+      "Arbitrage, Hedging, and Speculation"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1142/9789814405461_0003",
+     "title": [
+      "Arbitrage Strategies for Cross-Track Betting on Major Horse Races"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012,
+        7,
+        25
+       ]
+      ]
+     },
+     "container-title": [
+      "Calendar Anomalies and Arbitrage"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Donald B.",
+       "family": "Hausch",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "William T.",
+       "family": "Ziemba",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1002/wilm.10746",
+     "title": [
+      "Cross‐Currency Betting Arbitrage"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019,
+        3
+       ]
+      ]
+     },
+     "container-title": [
+      "Wilmott"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Rolf",
+       "family": "Poulsen",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.4324/9781315207933-5",
+     "title": [
+      "Triangular Arbitrage"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017,
+        4,
+        21
+       ]
+      ]
+     },
+     "container-title": [
+      "The Forward Market in Foreign Exchange"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.1093/acprof:oso/9780199276158.003.0009",
+     "title": [
+      "Betting and Bookmaking: Social Class and the Racecourse Bookmaker"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004,
+        9,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "Regulating Commercial Gambling"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "David",
+       "family": "Miers",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1142/9789812819192_0042",
+     "title": [
+      "RACETRACK BETTING–AN EXAMPLE OF A MARKET WITH EFFICIENT ARBITRAGE"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2008,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "World Scientific Handbook in Financial Economics Series",
+      "Efficiency of Racetrack Betting Markets"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Jay R.",
+       "family": "Ritter",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "College of Commerce and Business Administration, University of Illinois at Urbana-Champaign, USA"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.5040/9798400613968.ch-008",
+     "title": [
+      "Speculations in the Foreign Exchange Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004
+       ]
+      ]
+     },
+     "container-title": [
+      "Arbitrage, Hedging, and Speculation"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1007/springerreference_57552",
+     "title": [
+      "Arbitrage in Frictional Foreign Exchange Market, 2003; Cai, Deng"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "SpringerReference"
+     ],
+     "type": "reference-entry"
+    },
+    {
+     "DOI": "10.5040/9798400613968.ch-006",
+     "title": [
+      "Arbitrage and Hedging with Options"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004
+       ]
+      ]
+     },
+     "container-title": [
+      "Arbitrage, Hedging, and Speculation"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1111/ecca.12009",
+     "title": [
+      "Inter‐market Arbitrage in Betting"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012,
+        12,
+        17
+       ]
+      ]
+     },
+     "container-title": [
+      "Economica"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Egon",
+       "family": "Franck",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "University of Zurich"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Erwin",
+       "family": "Verbeek",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "University of Zurich"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Stephan",
+       "family": "Nüesch",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "University of Zurich"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We show that a combined bet at the bookmaker and at the bet exchange market yields a guaranteed positive return in 19.2% of the matches in the top five European soccer leagues. Moreover, we find that all considered bookmakers frequently offer arbitrage positions, and that they experience, on average, negative margins from these postings. Our findings indicate that bookmakers set prices not only by optimizing over a particular bet, but also by taking the future trading behaviour of their customers into account. We discuss the implications for the literature on the relationship between betting market structure and informational efficiency.</jats:p>"
+    },
+    {
+     "DOI": "10.2737/pnw-rp-556",
+     "title": [
+      "Alaska softwood market price arbitrage."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2003
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "James A.",
+       "family": "Stevens",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "David J.",
+       "family": "Brooks",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1142/9789812819192_0059",
+     "title": [
+      "TESTS OF THE EFFICIENCY OF RACETRACK BETTING USING BOOKMAKER ODDS"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2008,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "World Scientific Handbook in Financial Economics Series",
+      "Efficiency of Racetrack Betting Markets"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "RON",
+       "family": "BIRD",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "Commerce Department, Australian National University, Canberra, ACT 2601, Australia"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "MICHAEL",
+       "family": "MCCRAE",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "Commerce Department, Australian National University, Canberra, ACT 2601, Australia"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1142/9789812819192_0040",
+     "title": [
+      "Arbitrage Strategies for Cross-Track Betting on Major Horse Races"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2008,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "World Scientific Handbook in Financial Economics Series",
+      "Efficiency of Racetrack Betting Markets"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Donald B.",
+       "family": "Hausch",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "University of Wisconsin—Madison, USA"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "William T.",
+       "family": "Ziemba",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "University of British Columbia, Canada"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.5750/jpm.v4i1.470",
+     "title": [
+      "A STATISTICAL ARBITRAGE TRADE BASED ON BETTING PRICE VOLATILITY"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012,
+        12,
+        18
+       ]
+      ]
+     },
+     "container-title": [
+      "The Journal of Prediction Markets"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Alistair",
+       "family": "Brown",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>In this note, I derive a probability measure for betting prices on an exchange reaching a target level prior to the market closing.  This allows a bettor to take a long (short) position on a bet, and calculate the probability that the short (long) price will yield a profit before the market closes.  In effect, this facilitates the statistical arbitrage of betting price volatility.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.686432",
+     "title": [
+      "Cross-Listed Shares Arbitrage and Price Formation"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2005
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Stoyan",
+       "family": "Iliev",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We investigate the behavior of prices of shares of the same company listed on the home and ADR markets. Our study brings together insights from two separate fields of research: the pricing of dual listed shares and the price formation for cointegrated series. Both arbitrage and rational expectations arguments may be used to argue the exchange rate adjusted prices of the securities should be the same or at least move in sync to the extent there are no possibilities of risk-adjusted abnormal profits. The literature presents two approaches to the problem at hand: 1) test the hypothesis using a returns regression and 2) compare prices directly. We propose cointegration as a new tool to analyze this issue. We find strong evidence that the hypothesis of Price Parity should be tested using cointegration. Our analysis leads to the conclusion that there are no profits to be made in this market and that reported anomalies are due to the erroneous interpretation of the returns regression analysis. Our analysis of the regression results show that regression coefficients are more significant in the presence of cointegration than without cointegration, which is exactly the opposite of  the original hypothesis.  Cointegration also provides additional insight about the price formation of the issue. This is the first study of price formation of cross-listed shares and we use the approach of Gonzalo and Granger (1995). The evidence from the model is anomalous in the sense that price formation for European stocks occurs on NYSE despite the relatively small volumes of trading. This is attributed to non-anticipated news releases after market close and  may have very important implications for fund managers wishing to rebalance their portfolios subsequent to a non-anticipated news release.</jats:p>"
+    },
+    {
+     "DOI": "10.5040/9798400613968.ch-005",
+     "title": [
+      "Arbitrage and Hedging with Spot and Forward Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004
+       ]
+      ]
+     },
+     "container-title": [
+      "Arbitrage, Hedging, and Speculation"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.2139/ssrn.5043714",
+     "title": [
+      "Price Formation Dynamics and Learning in the Tennis Sports Betting Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0002-7246-6187",
+       "authenticated-orcid": true,
+       "given": "Michael",
+       "family": "Nagel",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We investigate price formation dynamics and learning in the tennis sports betting market by analyzing longitudinal data across multiple bookmakers. Our findings reveal that while opening prices are often noisy and biased, they become more accurate as the market approaches closing, indicating a significant learning process that is driven by the bettors. We estimate the market's learning rate using both GMM and Bayesian methods, finding substantial heterogeneity in learning rates among bookmakers and across market segments. Learning rates are greater for higher prices and vary with competition levels, suggesting different market dynamics. These insights enhance our understanding of price formation and learning in the sports betting market and may also have implications for the broader financial markets.</jats:p>"
+    },
+    {
+     "DOI": "10.4324/9781315207933",
+     "title": [
+      "The Forward Market in Foreign Exchange"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017,
+        4,
+        21
+       ]
+      ]
+     },
+     "type": "book",
+     "author": [
+      {
+       "given": "Brendan",
+       "family": "Brown",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

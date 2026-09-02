@@ -1,0 +1,18 @@
+{
+ "query_id": "ka-s2-03-c",
+ "protocol_query_id": "ka-s2-03",
+ "arm": "topical",
+ "platform": "semanticscholar",
+ "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=favorite%20longshot%20bias%20prediction%20markets&fields=title,year,venue,externalIds,abstract,citationCount&limit=50",
+ "date_executed": "2026-09-02",
+ "http_status": 429,
+ "total_hits": null,
+ "retrieved_count": 0,
+ "retry_suffix": "c",
+ "retry_attempts": 9,
+ "retry_note": "protocol section 3.1 retry-until-200 convention; URL byte-identical to the frozen query",
+ "raw": {
+  "message": "Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form",
+  "code": "429"
+ }
+}

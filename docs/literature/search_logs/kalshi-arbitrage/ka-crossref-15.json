@@ -1,0 +1,848 @@
+{
+ "query_id": "ka-crossref-15",
+ "protocol_query_id": "ka-crossref-15",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=prediction+markets+event+contracts+betting+market+efficiency&filter=prefix:10.3386&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 3217,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 3217,
+   "items": [
+    {
+     "DOI": "10.3386/w3645",
+     "title": [
+      "The Enforceability of Private Money Contracts, Market Efficiency, and Technological Change"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1991,
+        3
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Gary",
+       "family": "Gorton",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w16949",
+     "title": [
+      "How Prediction Markets Can Save Event Studies"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011,
+        4
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Erik",
+       "family": "Snowberg",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Justin",
+       "family": "Wolfers",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Eric",
+       "family": "Zitzewitz",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w35520",
+     "title": [
+      "Retail Betting Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        7
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Scott",
+       "family": "Baker",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Justin",
+       "family": "Balthrop",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Mark",
+       "family": "Johnson",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Jason",
+       "family": "Kotter",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Kevin",
+       "family": "Pisciotta",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w27412",
+     "title": [
+      "Betting on the House: Subjective Expectations and Market Choices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        6
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Nicolas",
+       "family": "Bottan",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Ricardo",
+       "family": "Perez-Truglia",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w11271",
+     "title": [
+      "Betting on Death and Capital Markets in Retirement: A Shortfall Risk Analysis of Life Annuities"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2005,
+        4
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Ivica",
+       "family": "Dus",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Raimond",
+       "family": "Maurer",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Olivia",
+       "family": "Mitchell",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w3542",
+     "title": [
+      "Contracts and the Market for Executives"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1990,
+        12
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Sherwin",
+       "family": "Rosen",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w22012",
+     "title": [
+      "Recursive Contracts and Endogenously Incomplete Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2016,
+        2
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Mikhail",
+       "family": "Golosov",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Aleh",
+       "family": "Tsyvinski",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Nicolas",
+       "family": "Werquin",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w16048",
+     "title": [
+      "Great Expectations: Law, Employment Contracts, and Labor Market Performance"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2010,
+        6
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "W. Bentley",
+       "family": "MacLeod",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w23452",
+     "title": [
+      "An Equilibrium Model of Housing and Mortgage Markets with State-Contingent Lending Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017,
+        5
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Tomasz",
+       "family": "Piskorski",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Alexei",
+       "family": "Tchistyi",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w7026",
+     "title": [
+      "Pricing to Market, Staggered Contracts, and Real Exchange Rate Persistence"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1999,
+        3
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Paul",
+       "family": "Bergin",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Robert",
+       "family": "Feenstra",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w10504",
+     "title": [
+      "Prediction Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004,
+        5
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Justin",
+       "family": "Wolfers",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Eric",
+       "family": "Zitzewitz",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w7287",
+     "title": [
+      "The Evolving Market for Catastrophic Event Risk"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1999,
+        8
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Kenneth",
+       "family": "Froot",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w5769",
+     "title": [
+      "Do Markets Respond More to More Reliable Labor Market Data? A Test of Market Rationality"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1996,
+        9
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Alan",
+       "family": "Krueger",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w20782",
+     "title": [
+      "Sequential Markets, Market Power and Arbitrage"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2014,
+        12
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Koichiro",
+       "family": "Ito",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Mar",
+       "family": "Reguant",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w10359",
+     "title": [
+      "Interpreting the Predictions of Prediction Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004,
+        3
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Charles",
+       "family": "Manski",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w8219",
+     "title": [
+      "The Perverse Effects of Partial Labor Market Reform: Fixed Duration Contracts in France"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2001,
+        4
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Olivier",
+       "family": "Blanchard",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Augustin",
+       "family": "Landier",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w21575",
+     "title": [
+      "Risk, Unemployment, and the Stock Market: A Rare-Event-Based Explanation of Labor Market Volatility"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015,
+        9
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Mete",
+       "family": "Kilic",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Jessica",
+       "family": "Wachter",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w10815",
+     "title": [
+      "Efficiency of Thin and Thick Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004,
+        10
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Li",
+       "family": "Gan",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Qi",
+       "family": "Li",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w11201",
+     "title": [
+      "Competition and Efficiency in Congested Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2005,
+        3
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Daron",
+       "family": "Acemoglu",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Asuman",
+       "family": "Ozdaglar",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.3386/w34272",
+     "title": [
+      "Measuring Market Power in Network-Constrained Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025,
+        9
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Christoph",
+       "family": "Graf",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Frank",
+       "family": "Wolak",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

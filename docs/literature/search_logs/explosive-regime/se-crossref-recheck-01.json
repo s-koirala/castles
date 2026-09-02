@@ -1,0 +1,2610 @@
+{
+ "log_id": "se-crossref-recheck-01",
+ "purpose": "Archived evidence for the identifier and metadata re-verification asserted in the review (L-13, L-13(e), section 12.3 identifier-verification paragraph, section 15 identifier-verification row). Written 2026-09-02 in response to round-2 finding REPRODUCIBILITY-2-4 (the check had been run but its responses were not retained) and round-2 findings QUANT-2-6 / LITERATURE-2-4 (the year field had not in fact been checked across all 62).",
+ "protocol": "docs/methodology/protocol_explosive-regime-review_2026-08-24.md section 4.1",
+ "date_executed": "2026-09-02",
+ "endpoints": {
+  "crossref": "https://api.crossref.org/works/{doi}",
+  "handle": "https://hdl.handle.net/api/handles/{identifier}",
+  "arxiv": "http://export.arxiv.org/api/query?id_list={id}"
+ },
+ "scope": "all 62 DOI-bearing records of the frozen 72-record included set, plus the 1 Handle-only record and the 2 arXiv-only records",
+ "counts": {
+  "crossref_queried": 62,
+  "crossref_retrieved": 62,
+  "handle_api_queried": 63,
+  "handle_api_responseCode_1": 63,
+  "arxiv_queried": 2,
+  "arxiv_retrieved": 2,
+  "year_online_vs_print_divergences": 19,
+  "year_label_vs_store_divergences": 22,
+  "label_equals_print_not_online": 12
+ },
+ "note_on_digests": "crossref_message_sha256 is the SHA-256 of the canonically serialised (sort_keys, UTF-8) Crossref message object as retrieved on 2026-09-02. Crossref records are mutable; the digest fixes the state compared here so a successor can detect drift rather than silently re-query a changed record.",
+ "crossref": [
+  {
+   "record": "eru-0126",
+   "doi": "10.3982/qe82",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Quantitative Economics",
+   "crossref_volume": "2",
+   "crossref_issue": "3",
+   "crossref_page": "455-491",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2011,
+     11,
+     11
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2011,
+     11
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2011,
+     11
+    ]
+   ],
+   "crossref_created": "2011-11-11T08:03:18Z",
+   "store_issued_year": 2011,
+   "review_label_year": 2011,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "39ceb9442b93c715cb411bff0b6a31d20734ac07a550e3474e13cd3edda67be8"
+  },
+  {
+   "record": "eru-0131",
+   "doi": "10.1111/j.1468-2354.2010.00625.x",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "International Economic Review",
+   "crossref_volume": "52",
+   "crossref_issue": "1",
+   "crossref_page": "201-226",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2011,
+     2,
+     24
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2011,
+     2
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2011,
+     2
+    ]
+   ],
+   "crossref_created": "2011-02-26T09:02:13Z",
+   "store_issued_year": 2011,
+   "review_label_year": 2011,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "af52bcb97d0b2c4616054905fdb1e1e55dadf3e17731668a0644f47f66470b5d"
+  },
+  {
+   "record": "eru-0150",
+   "doi": "10.1093/jjfinec/nbr009",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Financial Econometrics",
+   "crossref_volume": "10",
+   "crossref_issue": "1",
+   "crossref_page": "198-231",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2011,
+     12,
+     28
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2012,
+     1,
+     1
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2011,
+     12,
+     28
+    ]
+   ],
+   "crossref_created": "2011-12-28T21:05:06Z",
+   "store_issued_year": 2011,
+   "review_label_year": 2012,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": true,
+   "crossref_message_sha256": "b28ff4d3e3e4ec5c837ac3c2a828f52d38de9962cafd5b3a1068e115a26ff2c9"
+  },
+  {
+   "record": "eru-0238",
+   "doi": "10.1111/obes.12026",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Oxford Bulletin of Economics and Statistics",
+   "crossref_volume": "76",
+   "crossref_issue": "3",
+   "crossref_page": "315-333",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2013,
+     2,
+     6
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2014,
+     6
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2013,
+     2,
+     6
+    ]
+   ],
+   "crossref_created": "2013-02-06T10:11:45Z",
+   "store_issued_year": 2013,
+   "review_label_year": 2014,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": true,
+   "crossref_message_sha256": "868cc81033e198cc9a3410fddd3554ff851224d77e711b4ded5f99ae27b9764e"
+  },
+  {
+   "record": "eru-0259",
+   "doi": "10.1016/j.csda.2014.06.006",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Computational Statistics &amp; Data Analysis",
+   "crossref_volume": "100",
+   "crossref_issue": null,
+   "crossref_page": "160-169",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2016,
+     8
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2016,
+     8
+    ]
+   ],
+   "crossref_created": "2014-06-11T17:05:06Z",
+   "store_issued_year": 2014,
+   "review_label_year": 2016,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "14aaaa7ea942c25e9ab27fef6ccbc341e4abed7bc75891d9e3ca46df72d8ee72"
+  },
+  {
+   "record": "eru-0348",
+   "doi": "10.1515/jtse-2013-0004",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Time Series Econometrics",
+   "crossref_volume": "8",
+   "crossref_issue": "1",
+   "crossref_page": "1-19",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2015,
+     5,
+     28
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2016,
+     1,
+     1
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2015,
+     5,
+     28
+    ]
+   ],
+   "crossref_created": "2015-12-15T10:51:40Z",
+   "store_issued_year": 2015,
+   "review_label_year": 2016,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": true,
+   "crossref_message_sha256": "f7efc3d182da5439e5eed78d83a426798f04f966d93bb7c233ed7bbc1924ee71"
+  },
+  {
+   "record": "eru-0393",
+   "doi": "10.1111/iere.12132",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "International Economic Review",
+   "crossref_volume": "56",
+   "crossref_issue": "4",
+   "crossref_page": "1043-1078",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2015,
+     10,
+     28
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2015,
+     11
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2015,
+     10,
+     28
+    ]
+   ],
+   "crossref_created": "2015-10-28T06:14:55Z",
+   "store_issued_year": 2015,
+   "review_label_year": 2015,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "d7095e1973d2a14a2d692a239029b8f9b364c4cc750ada907663be2b68904083"
+  },
+  {
+   "record": "eru-0395",
+   "doi": "10.1111/iere.12131",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "International Economic Review",
+   "crossref_volume": "56",
+   "crossref_issue": "4",
+   "crossref_page": "1079-1134",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2015,
+     10,
+     28
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2015,
+     11
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2015,
+     10,
+     28
+    ]
+   ],
+   "crossref_created": "2015-10-28T06:14:55Z",
+   "store_issued_year": 2015,
+   "review_label_year": 2015,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "ef198e8a04547e3d624b07adab02e64df8cc31bdb479b9b8a97e057e8690c703"
+  },
+  {
+   "record": "eru-0463",
+   "doi": "10.1016/j.jempfin.2016.11.001",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Empirical Finance",
+   "crossref_volume": "40",
+   "crossref_issue": null,
+   "crossref_page": "121-138",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2017,
+     1
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2017,
+     1
+    ]
+   ],
+   "crossref_created": "2016-11-09T12:00:40Z",
+   "store_issued_year": 2016,
+   "review_label_year": 2017,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "3599e762c7be75901f5f923f5e92b451b885b5ccdae06dc78c7008127becb518"
+  },
+  {
+   "record": "eru-0503",
+   "doi": "10.1016/j.jempfin.2015.09.002",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Empirical Finance",
+   "crossref_volume": "38",
+   "crossref_issue": null,
+   "crossref_page": "548-574",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2016,
+     9
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2016,
+     9
+    ]
+   ],
+   "crossref_created": "2015-09-25T22:52:02Z",
+   "store_issued_year": 2016,
+   "review_label_year": 2016,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "9f43a38a2cf35ab65c66edd2f27d8ea74112080e4ac1f0ddf7287030dea77443"
+  },
+  {
+   "record": "eru-0513",
+   "doi": "10.2139/ssrn.3723392",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": null,
+   "crossref_volume": null,
+   "crossref_issue": null,
+   "crossref_page": null,
+   "crossref_type": "posted-content",
+   "crossref_published_online": null,
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2020
+    ]
+   ],
+   "crossref_created": "2021-11-17T11:17:15Z",
+   "store_issued_year": 2016,
+   "review_label_year": 2017,
+   "review_label_year_second": 2018,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "b6d509834fc9301727b16035ea55b2d1c70c551cc8e1af7e03c83c0f15ea376d"
+  },
+  {
+   "record": "eru-0526",
+   "doi": "10.3390/econometrics5040047",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Econometrics",
+   "crossref_volume": "5",
+   "crossref_issue": "4",
+   "crossref_page": "47",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2017,
+     10,
+     23
+    ]
+   ],
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2017,
+     10,
+     23
+    ]
+   ],
+   "crossref_created": "2017-10-23T12:20:24Z",
+   "store_issued_year": 2017,
+   "review_label_year": 2017,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "fcb35e9db968375879e3641486cec88f851946478a88f2935e77ef651be680ac"
+  },
+  {
+   "record": "eru-0559",
+   "doi": "10.1017/s0266466617000202",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Econometric Theory",
+   "crossref_volume": "34",
+   "crossref_issue": "4",
+   "crossref_page": "705-753",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2017,
+     6,
+     7
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2018,
+     8
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2017,
+     6,
+     7
+    ]
+   ],
+   "crossref_created": "2017-06-07T04:16:53Z",
+   "store_issued_year": 2017,
+   "review_label_year": 2018,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": true,
+   "crossref_message_sha256": "8445ceafcb021bf0ff229a16689b3ea72a7cd8e8ef35a68561aeea928be4a8b6"
+  },
+  {
+   "record": "eru-0597",
+   "doi": "10.1007/s00181-017-1347-x",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Empirical Economics",
+   "crossref_volume": "55",
+   "crossref_issue": "4",
+   "crossref_page": "1957-1983",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2017,
+     12,
+     21
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2018,
+     12
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2017,
+     12,
+     21
+    ]
+   ],
+   "crossref_created": "2017-12-21T10:26:14Z",
+   "store_issued_year": 2017,
+   "review_label_year": 2018,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": true,
+   "crossref_message_sha256": "bd4310e39ffa947e154e841f83748d6f4a8afd675a2aecd521cda863b0d9d2dd"
+  },
+  {
+   "record": "eru-0604",
+   "doi": "10.26481/marble.2016.v1.257",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "MaRBLe",
+   "crossref_volume": "1",
+   "crossref_issue": null,
+   "crossref_page": null,
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2017,
+     1,
+     20
+    ]
+   ],
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2017,
+     1,
+     20
+    ]
+   ],
+   "crossref_created": "2017-09-22T05:53:08Z",
+   "store_issued_year": 2017,
+   "review_label_year": 2016,
+   "review_label_year_second": 2017,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "300f870fe103b148f7ecf92e662dbc2ce18db8e88111c5c77b6beeec62a69c4a"
+  },
+  {
+   "record": "eru-0607",
+   "doi": "10.1111/iere.12249",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "International Economic Review",
+   "crossref_volume": "58",
+   "crossref_issue": "4",
+   "crossref_page": "1191-1226",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2017,
+     11,
+     28
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2017,
+     11
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2017,
+     11
+    ]
+   ],
+   "crossref_created": "2017-12-01T16:01:24Z",
+   "store_issued_year": 2017,
+   "review_label_year": 2017,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "30b162f942923f1ec285050905ba36388e8508d84dc563663db5baf28cc961e7"
+  },
+  {
+   "record": "eru-0609",
+   "doi": "10.1080/07474938.2017.1307490",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Econometric Reviews",
+   "crossref_volume": "36",
+   "crossref_issue": "6-9",
+   "crossref_page": "651-666",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2017,
+     6,
+     16
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2017,
+     10,
+     21
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2017,
+     6,
+     16
+    ]
+   ],
+   "crossref_created": "2017-03-22T22:12:25Z",
+   "store_issued_year": 2017,
+   "review_label_year": 2017,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "e7d0d2323b4c83099522c8e0cd57d96e88315fd42a169fd442d154246bad2248"
+  },
+  {
+   "record": "eru-0622",
+   "doi": "10.24149/gwp325",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Federal Reserve Bank of Dallas, Globalization and Monetary Policy Institute Working Papers",
+   "crossref_volume": "2017",
+   "crossref_issue": "325",
+   "crossref_page": null,
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2017
+    ]
+   ],
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2017
+    ]
+   ],
+   "crossref_created": "2017-08-16T17:42:01Z",
+   "store_issued_year": 2017,
+   "review_label_year": 2017,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "076fbb47f3ab907c3271abd978903e80d0676493c7b502d498ecd0022e8a5532"
+  },
+  {
+   "record": "eru-0675",
+   "doi": "10.1016/j.econmod.2018.07.021",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Economic Modelling",
+   "crossref_volume": "80",
+   "crossref_issue": null,
+   "crossref_page": "87-102",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2019,
+     8
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2019,
+     8
+    ]
+   ],
+   "crossref_created": "2018-08-10T01:40:34Z",
+   "store_issued_year": 2018,
+   "review_label_year": 2018,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "b59bc185009194211622d973d35c16528fe2413cb7bf189235d721c08304c790"
+  },
+  {
+   "record": "eru-0689",
+   "doi": "10.1111/obes.12270",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Oxford Bulletin of Economics and Statistics",
+   "crossref_volume": "81",
+   "crossref_issue": "1",
+   "crossref_page": "20-41",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2018,
+     10,
+     30
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2019,
+     2
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2018,
+     10,
+     30
+    ]
+   ],
+   "crossref_created": "2018-10-31T05:26:20Z",
+   "store_issued_year": 2018,
+   "review_label_year": 2019,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": true,
+   "crossref_message_sha256": "fee010a032a4d48edd11371b5d0fdcfdbc7e6d4aaefa7434ee307e5b4f368bd0"
+  },
+  {
+   "record": "eru-0691",
+   "doi": "10.1111/sjpe.12179",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Scottish Journal of Political Economy",
+   "crossref_volume": "66",
+   "crossref_issue": "1",
+   "crossref_page": "139-153",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2018,
+     5,
+     14
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2019,
+     2
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2018,
+     5,
+     14
+    ]
+   ],
+   "crossref_created": "2018-05-14T08:05:40Z",
+   "store_issued_year": 2018,
+   "review_label_year": 2018,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "626630d0eb78a21217161c98d3fa00d73536750405766fc8abf631017860089c"
+  },
+  {
+   "record": "eru-0731",
+   "doi": "10.3934/qfe.2018.4.904",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Quantitative Finance and Economics",
+   "crossref_volume": "2",
+   "crossref_issue": "4",
+   "crossref_page": "904-930",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2018
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2018
+    ]
+   ],
+   "crossref_created": "2018-11-27T02:12:56Z",
+   "store_issued_year": 2018,
+   "review_label_year": 2018,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "d078f72baa4d9eb96ee94cec8a1ab917be88505fea7959c96bf0318e5c7e56a2"
+  },
+  {
+   "record": "eru-0735",
+   "doi": "10.1111/jtsa.12409",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Time Series Analysis",
+   "crossref_volume": "39",
+   "crossref_issue": "6",
+   "crossref_page": "863-891",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2018,
+     7,
+     19
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2018,
+     11
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2018,
+     7,
+     19
+    ]
+   ],
+   "crossref_created": "2018-07-20T02:56:59Z",
+   "store_issued_year": 2018,
+   "review_label_year": 2018,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "0e92e32cb842dac47683801dba1d393974137dfcb0cb1cb20d4c886fba6b09be"
+  },
+  {
+   "record": "eru-0748",
+   "doi": "10.1080/07474938.2018.1536099",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Econometric Reviews",
+   "crossref_volume": "38",
+   "crossref_issue": "10",
+   "crossref_page": "1131-1151",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2018,
+     12,
+     20
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2019,
+     11,
+     26
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2018,
+     12,
+     20
+    ]
+   ],
+   "crossref_created": "2018-12-21T03:31:38Z",
+   "store_issued_year": 2018,
+   "review_label_year": 2019,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": true,
+   "crossref_message_sha256": "1258f1fc7993ac31e216e0a2ad3db71a75962c6d0d3b3ff2872fd980274bdcee"
+  },
+  {
+   "record": "eru-0749",
+   "doi": "10.1093/jjfinec/nby023",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Financial Econometrics",
+   "crossref_volume": null,
+   "crossref_issue": null,
+   "crossref_page": null,
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2018,
+     10,
+     16
+    ]
+   ],
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2018,
+     10,
+     16
+    ]
+   ],
+   "crossref_created": "2018-08-23T19:30:23Z",
+   "store_issued_year": 2018,
+   "review_label_year": 2020,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "be6d8a4fe35739a5d10006a8c809094806b0f2d1a1cd64ad6e3fd0c8fbb83cd3"
+  },
+  {
+   "record": "eru-0813",
+   "doi": "10.2139/ssrn.3392208",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "SSRN Electronic Journal",
+   "crossref_volume": null,
+   "crossref_issue": null,
+   "crossref_page": null,
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2019
+    ]
+   ],
+   "crossref_created": "2019-06-12T07:31:41Z",
+   "store_issued_year": 2019,
+   "review_label_year": 2019,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "da612859af9a20c93df822a8497ca974794eb6c0e189f66900a575a0afde5a42"
+  },
+  {
+   "record": "eru-0823",
+   "doi": "10.1111/obes.12307",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Oxford Bulletin of Economics and Statistics",
+   "crossref_volume": "81",
+   "crossref_issue": "6",
+   "crossref_page": "1336-1361",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2019,
+     6,
+     12
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2019,
+     12
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2019,
+     6,
+     12
+    ]
+   ],
+   "crossref_created": "2019-06-13T05:53:05Z",
+   "store_issued_year": 2019,
+   "review_label_year": 2019,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "aec4be7717ed386a1c4ff4daf135ff18d0c795794252744892e9af0e9f39d1e7"
+  },
+  {
+   "record": "eru-0855",
+   "doi": "10.1109/access.2019.2893929",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "IEEE Access",
+   "crossref_volume": "7",
+   "crossref_issue": null,
+   "crossref_page": "38356-38368",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2019
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2019
+    ]
+   ],
+   "crossref_created": "2019-02-12T20:10:46Z",
+   "store_issued_year": 2019,
+   "review_label_year": 2019,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "5ff712941c9fdbf72ff956149ddd5116978d4c031e1b745b3ad23e6381e073a5"
+  },
+  {
+   "record": "eru-0883",
+   "doi": "10.1016/j.jeconom.2019.01.002",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Econometrics",
+   "crossref_volume": "209",
+   "crossref_issue": "2",
+   "crossref_page": "208-237",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2019,
+     4
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2019,
+     4
+    ]
+   ],
+   "crossref_created": "2019-01-18T11:59:41Z",
+   "store_issued_year": 2019,
+   "review_label_year": 2019,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "e4e8f625766b3127fe3f1acd69bdf46505b38c1d015bcf46c3809ef0b27c94e4"
+  },
+  {
+   "record": "eru-0889",
+   "doi": "10.1016/j.jeconom.2019.08.010",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Econometrics",
+   "crossref_volume": "215",
+   "crossref_issue": "1",
+   "crossref_page": "209-238",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2020,
+     3
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2020,
+     3
+    ]
+   ],
+   "crossref_created": "2019-10-01T08:03:38Z",
+   "store_issued_year": 2019,
+   "review_label_year": 2020,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "44644d3ebdf9582c3052862969190a4b1385ecdf447361fb876e99061098f0ae"
+  },
+  {
+   "record": "eru-0891",
+   "doi": "10.1017/s0266466619000057",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Econometric Theory",
+   "crossref_volume": "36",
+   "crossref_issue": "1",
+   "crossref_page": "122-169",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2019,
+     3,
+     29
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2020,
+     2
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2019,
+     3,
+     29
+    ]
+   ],
+   "crossref_created": "2019-03-29T05:10:41Z",
+   "store_issued_year": 2019,
+   "review_label_year": 2020,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": true,
+   "crossref_message_sha256": "cad35422ea3dbd8189232e2126c945523ee9e39a2e799b83c0736122819edd6d"
+  },
+  {
+   "record": "eru-0924",
+   "doi": "10.2139/ssrn.3421332",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "SSRN Electronic Journal",
+   "crossref_volume": null,
+   "crossref_issue": null,
+   "crossref_page": null,
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2019
+    ]
+   ],
+   "crossref_created": "2019-07-24T07:31:53Z",
+   "store_issued_year": 2019,
+   "review_label_year": 2019,
+   "review_label_year_second": 2022,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "61eaec38c23c7e15fa27ff83233f66c7ed8872eff4f0ddf51d3cb4f0170016fc"
+  },
+  {
+   "record": "eru-0959",
+   "doi": "10.1016/j.jempfin.2020.06.004",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Empirical Finance",
+   "crossref_volume": "58",
+   "crossref_issue": null,
+   "crossref_page": "226-246",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2020,
+     9
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2020,
+     9
+    ]
+   ],
+   "crossref_created": "2020-06-18T21:52:05Z",
+   "store_issued_year": 2020,
+   "review_label_year": 2020,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "605d89768a044d98421d0b7e6ca934d3b9c7e22e53bff68931e6447fc4c5b399"
+  },
+  {
+   "record": "eru-1031",
+   "doi": "10.1016/bs.host.2018.12.002",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Handbook of Statistics",
+   "crossref_volume": null,
+   "crossref_issue": null,
+   "crossref_page": "61-80",
+   "crossref_type": "book-chapter",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2020
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2020
+    ]
+   ],
+   "crossref_created": "2019-02-10T14:50:19Z",
+   "store_issued_year": 2020,
+   "review_label_year": 2020,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "7ce2c67bc2aab0c68d6b853d5ebb94baf6db1a3c6b979000600f13b236eb7451"
+  },
+  {
+   "record": "eru-1038",
+   "doi": "10.2139/ssrn.3529058",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "SSRN Electronic Journal",
+   "crossref_volume": null,
+   "crossref_issue": null,
+   "crossref_page": null,
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2020
+    ]
+   ],
+   "crossref_created": "2020-03-02T11:31:43Z",
+   "store_issued_year": 2020,
+   "review_label_year": 2020,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "b1f3ff3cd18c4186fae2550d6b317e7ed4cc73efc0d7a32939cd44e33965ca76"
+  },
+  {
+   "record": "eru-1044",
+   "doi": "10.1007/s00181-020-01859-7",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Empirical Economics",
+   "crossref_volume": "61",
+   "crossref_issue": "1",
+   "crossref_page": "145-172",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2020,
+     3,
+     29
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2021,
+     7
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2020,
+     3,
+     29
+    ]
+   ],
+   "crossref_created": "2020-03-29T13:02:11Z",
+   "store_issued_year": 2020,
+   "review_label_year": 2021,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": true,
+   "crossref_message_sha256": "5717223eb0b5952e7bdecd9aa433f5618f52ac15ca3fcda8f34fc2d9f63552e7"
+  },
+  {
+   "record": "eru-1049",
+   "doi": "10.1016/j.jempfin.2020.06.002",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Empirical Finance",
+   "crossref_volume": "58",
+   "crossref_issue": null,
+   "crossref_page": "207-225",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2020,
+     9
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2020,
+     9
+    ]
+   ],
+   "crossref_created": "2020-06-17T11:45:26Z",
+   "store_issued_year": 2020,
+   "review_label_year": 2020,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "8642bff7d34363147ddc30ac976e5d1cd8257c14660d364f489d9a3e606c74bd"
+  },
+  {
+   "record": "eru-1112",
+   "doi": "10.1093/jjfinec/nbab027",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Financial Econometrics",
+   "crossref_volume": "21",
+   "crossref_issue": "4",
+   "crossref_page": "989-1063",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2022,
+     1,
+     7
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2023,
+     8,
+     31
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2022,
+     1,
+     7
+    ]
+   ],
+   "crossref_created": "2021-10-31T12:06:59Z",
+   "store_issued_year": 2021,
+   "review_label_year": 2022,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "444086c4a0d343afc267f45024d14237a4d91c06c72ec962d055615be0b4a188"
+  },
+  {
+   "record": "eru-1117",
+   "doi": "10.1093/jjfinec/nbab009",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Financial Econometrics",
+   "crossref_volume": "21",
+   "crossref_issue": "1",
+   "crossref_page": "187-227",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2021,
+     5,
+     5
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2023,
+     1,
+     19
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2021,
+     5,
+     5
+    ]
+   ],
+   "crossref_created": "2021-03-12T15:10:08Z",
+   "store_issued_year": 2021,
+   "review_label_year": 2021,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "9fb3df52ebe25fb00cd4216a79a4dbab808322e5df6138a1668fad1250d80c39"
+  },
+  {
+   "record": "eru-1155",
+   "doi": "10.6339/jds.201707_15(3).0007",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Data Science",
+   "crossref_volume": "15",
+   "crossref_issue": "3",
+   "crossref_page": "495-508",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2021,
+     3,
+     8
+    ]
+   ],
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2021,
+     3,
+     8
+    ]
+   ],
+   "crossref_created": "2021-03-11T10:29:09Z",
+   "store_issued_year": 2021,
+   "review_label_year": 2018,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "feed3a8e4b6a04df28c1dcfcfd9aaad2750f9d3215eb8684cde1e151f8c241ce"
+  },
+  {
+   "record": "eru-1260",
+   "doi": "10.1093/ectj/utac020",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "The Econometrics Journal",
+   "crossref_volume": "26",
+   "crossref_issue": "1",
+   "crossref_page": "25-44",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2022,
+     7,
+     22
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2023,
+     1,
+     10
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2022,
+     7,
+     22
+    ]
+   ],
+   "crossref_created": "2022-07-22T18:51:23Z",
+   "store_issued_year": 2022,
+   "review_label_year": 2023,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": true,
+   "crossref_message_sha256": "a601e4372172d2b2485c24cf55bfb8047969f19dd46fbc19eee0bfe53fc6f3ce"
+  },
+  {
+   "record": "eru-1289",
+   "doi": "10.1017/9781108910095.003",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Financial Econometrics",
+   "crossref_volume": null,
+   "crossref_issue": null,
+   "crossref_page": "30-59",
+   "crossref_type": "book-chapter",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2025,
+     4,
+     30
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2025,
+     4,
+     30
+    ]
+   ],
+   "crossref_created": "2025-02-20T00:05:55Z",
+   "store_issued_year": 2022,
+   "review_label_year": 2022,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "11ebd885ab427a387407c362d616d966c9836503ae3c485fd6ef6258e1c3f2eb"
+  },
+  {
+   "record": "eru-1384",
+   "doi": "10.1093/jjfinec/nbac004",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Financial Econometrics",
+   "crossref_volume": "21",
+   "crossref_issue": "4",
+   "crossref_page": "1282-1307",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2022,
+     4,
+     23
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2023,
+     8,
+     31
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2022,
+     4,
+     23
+    ]
+   ],
+   "crossref_created": "2022-02-15T13:41:52Z",
+   "store_issued_year": 2022,
+   "review_label_year": 2022,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "508f83de55b74b218595b89d7650fcf8ce4f62cd07ab98d0f49f103d4ddcc694"
+  },
+  {
+   "record": "eru-1394",
+   "doi": "10.1016/j.jempfin.2022.12.008",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Empirical Finance",
+   "crossref_volume": "70",
+   "crossref_issue": null,
+   "crossref_page": "342-366",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2023,
+     1
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2023,
+     1
+    ]
+   ],
+   "crossref_created": "2022-12-22T11:58:37Z",
+   "store_issued_year": 2022,
+   "review_label_year": 2023,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "e5b0a02ee8960c296fc97d9ed45bfe585b6bae43d1e3823754ebd1093ad47e4a"
+  },
+  {
+   "record": "eru-1405",
+   "doi": "10.1111/iere.12647",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "International Economic Review",
+   "crossref_volume": "64",
+   "crossref_issue": "4",
+   "crossref_page": "1347-1395",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2023,
+     6,
+     21
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2023,
+     11
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2023,
+     6,
+     21
+    ]
+   ],
+   "crossref_created": "2023-05-26T07:24:50Z",
+   "store_issued_year": 2023,
+   "review_label_year": 2023,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "961ad0969a252ab9b9d55b7fc27ab559f3c1fce2639fbfe9938e21a3e9b56302"
+  },
+  {
+   "record": "eru-1509",
+   "doi": "10.1515/snde-2022-0014",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Studies in Nonlinear Dynamics &amp; Econometrics",
+   "crossref_volume": "28",
+   "crossref_issue": "1",
+   "crossref_page": "25-37",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2023,
+     3,
+     13
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2024,
+     2,
+     29
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2023,
+     3,
+     13
+    ]
+   ],
+   "crossref_created": "2023-03-13T13:41:35Z",
+   "store_issued_year": 2023,
+   "review_label_year": 2023,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "000f02215b02d77d1dd95e84df51b193a5fbec77c73205c3c212c4d50a524f6f"
+  },
+  {
+   "record": "eru-1519",
+   "doi": "10.1111/obes.12540",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Oxford Bulletin of Economics and Statistics",
+   "crossref_volume": "85",
+   "crossref_issue": "3",
+   "crossref_page": "482-513",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2023,
+     1,
+     27
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2023,
+     6
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2023,
+     1,
+     27
+    ]
+   ],
+   "crossref_created": "2023-01-28T03:41:59Z",
+   "store_issued_year": 2023,
+   "review_label_year": 2023,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "39bb768c9d57f2d8ab27ed0fdfd9ca0f84c57fde6af9d396355eb6f985555da2"
+  },
+  {
+   "record": "eru-1526",
+   "doi": "10.1016/j.jeconom.2023.105626",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Econometrics",
+   "crossref_volume": "238",
+   "crossref_issue": "2",
+   "crossref_page": "105626",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2024,
+     1
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2024,
+     1
+    ]
+   ],
+   "crossref_created": "2023-12-05T14:10:09Z",
+   "store_issued_year": 2023,
+   "review_label_year": 2024,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "2e63b151f4d8d4c426230bdee6d6c286b3fb7d166514141ca0a08515ea894de0"
+  },
+  {
+   "record": "eru-1580",
+   "doi": "10.1111/jtsa.12784",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Time Series Analysis",
+   "crossref_volume": "46",
+   "crossref_issue": "5",
+   "crossref_page": "846-866",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2024,
+     10,
+     17
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2025,
+     9
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2024,
+     10,
+     17
+    ]
+   ],
+   "crossref_created": "2024-10-17T06:11:44Z",
+   "store_issued_year": 2024,
+   "review_label_year": 2024,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "8d1d7be761d0b6207b6e0c642e08719db1db7d08ff62f214e40f67cdf9bf0c87"
+  },
+  {
+   "record": "eru-1604",
+   "doi": "10.1111/jtsa.12794",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Time Series Analysis",
+   "crossref_volume": "46",
+   "crossref_issue": "5",
+   "crossref_page": "884-907",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2024,
+     11,
+     15
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2025,
+     9
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2024,
+     11,
+     15
+    ]
+   ],
+   "crossref_created": "2024-11-16T00:00:38Z",
+   "store_issued_year": 2024,
+   "review_label_year": 2025,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": true,
+   "crossref_message_sha256": "01692bdefabfd82221f780ae05ae4f77501bc861e8af36876e2cc6ad490bfb9d"
+  },
+  {
+   "record": "eru-1715",
+   "doi": "10.1111/jtsa.12768",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Time Series Analysis",
+   "crossref_volume": "46",
+   "crossref_issue": "5",
+   "crossref_page": "945-965",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2024,
+     9,
+     27
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2025,
+     9
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2024,
+     9,
+     27
+    ]
+   ],
+   "crossref_created": "2024-09-27T04:03:01Z",
+   "store_issued_year": 2024,
+   "review_label_year": 2025,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": true,
+   "year_label_equals_print_not_online": true,
+   "crossref_message_sha256": "88fc3b01c9112a9bcac19c7f8e5d309c7c9fe3b3a6547b4a7654d0fb05d76706"
+  },
+  {
+   "record": "eru-1761",
+   "doi": "10.1111/jtsa.70001",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Time Series Analysis",
+   "crossref_volume": "46",
+   "crossref_issue": "5",
+   "crossref_page": "966-980",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2025,
+     6,
+     25
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2025,
+     9
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2025,
+     6,
+     25
+    ]
+   ],
+   "crossref_created": "2025-06-25T21:59:10Z",
+   "store_issued_year": 2025,
+   "review_label_year": 2025,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "4244579451fc866036c606d9c68f0a1963025e590b849461803b35cdd1629354"
+  },
+  {
+   "record": "eru-1813",
+   "doi": "10.1016/j.eneco.2025.109095",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Energy Economics",
+   "crossref_volume": "154",
+   "crossref_issue": null,
+   "crossref_page": "109095",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2026,
+     2
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2026,
+     2
+    ]
+   ],
+   "crossref_created": "2025-12-23T16:49:48Z",
+   "store_issued_year": 2025,
+   "review_label_year": 2025,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "8d78c8407b4646874dbf0272b3dfa465afff7f9811c2663d1bf4f58611bdc0f7"
+  },
+  {
+   "record": "eru-1844",
+   "doi": "10.1016/j.ijforecast.2024.12.005",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "International Journal of Forecasting",
+   "crossref_volume": "41",
+   "crossref_issue": "3",
+   "crossref_page": "1260-1277",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2025,
+     7
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2025,
+     7
+    ]
+   ],
+   "crossref_created": "2025-01-27T07:52:11Z",
+   "store_issued_year": 2025,
+   "review_label_year": 2025,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "f791c120bad86a1d33e4da09afc4aae9e5e610bf1dd2c20f5e06e6e7c58e41dd"
+  },
+  {
+   "record": "eru-1845",
+   "doi": "10.1017/s0266466625000052",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Econometric Theory",
+   "crossref_volume": "42",
+   "crossref_issue": "3",
+   "crossref_page": "514-547",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2025,
+     3,
+     3
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2026,
+     6
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2025,
+     3,
+     3
+    ]
+   ],
+   "crossref_created": "2025-03-03T04:14:02Z",
+   "store_issued_year": 2025,
+   "review_label_year": 2025,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": true,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "00851a478b2e2c0b0da12dd78664ac82716a766dac050142e2d632af4c6fdce5"
+  },
+  {
+   "record": "eru-1852",
+   "doi": "10.1111/jtsa.12845",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Journal of Time Series Analysis",
+   "crossref_volume": "46",
+   "crossref_issue": "5",
+   "crossref_page": "829-845",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2025,
+     6,
+     5
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2025,
+     9
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2025,
+     6,
+     5
+    ]
+   ],
+   "crossref_created": "2025-06-06T02:31:09Z",
+   "store_issued_year": 2025,
+   "review_label_year": 2025,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "74ef4d1d0ba4add3a48b639947bb53c93a50d854236d7729b738e2c304f47dff"
+  },
+  {
+   "record": "eru-1889",
+   "doi": "10.59576/sr.1151",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Staff Reports (Federal Reserve Bank of New York)",
+   "crossref_volume": null,
+   "crossref_issue": null,
+   "crossref_page": null,
+   "crossref_type": "report",
+   "crossref_published_online": [
+    [
+     2025,
+     4
+    ]
+   ],
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2025,
+     4
+    ]
+   ],
+   "crossref_created": "2025-04-25T15:41:06Z",
+   "store_issued_year": 2025,
+   "review_label_year": 2025,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "cd694141a867807cb18db13528effda66eeb3fc1fb671f27d7fe9576f939bb1d"
+  },
+  {
+   "record": "eru-1890",
+   "doi": "10.1111/obes.12668",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Oxford Bulletin of Economics and Statistics",
+   "crossref_volume": "87",
+   "crossref_issue": "5",
+   "crossref_page": "880-898",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2025,
+     3,
+     3
+    ]
+   ],
+   "crossref_published_print": [
+    [
+     2025,
+     10
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2025,
+     3,
+     3
+    ]
+   ],
+   "crossref_created": "2025-03-11T16:53:02Z",
+   "store_issued_year": 2025,
+   "review_label_year": 2025,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "643758d5793fe7c59025fdab27ffcddae490506d635ba70ddb08eab7f1732bac"
+  },
+  {
+   "record": "eru-1920",
+   "doi": "10.1080/07474938.2026.2700653",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Econometric Reviews",
+   "crossref_volume": null,
+   "crossref_issue": null,
+   "crossref_page": "1-35",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2026,
+     7,
+     23
+    ]
+   ],
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2026,
+     7,
+     23
+    ]
+   ],
+   "crossref_created": "2026-07-23T17:36:29Z",
+   "store_issued_year": 2026,
+   "review_label_year": 2026,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "bdb67e806f1f87a467cad077aa3f6ff9bcfc86f4add8ba25ac4bc5c6c2902248"
+  },
+  {
+   "record": "eru-1921",
+   "doi": "10.1017/s0266466626100383",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Econometric Theory",
+   "crossref_volume": null,
+   "crossref_issue": null,
+   "crossref_page": "1-29",
+   "crossref_type": "journal-article",
+   "crossref_published_online": [
+    [
+     2026,
+     6,
+     11
+    ]
+   ],
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2026,
+     6,
+     11
+    ]
+   ],
+   "crossref_created": "2026-06-11T04:27:38Z",
+   "store_issued_year": 2026,
+   "review_label_year": 2026,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "87c3dd7def5c54377710d720b171515422fe8bda6224b2c2540597d166b44079"
+  },
+  {
+   "record": "eru-1929",
+   "doi": "10.2139/ssrn.6865190",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": null,
+   "crossref_volume": null,
+   "crossref_issue": null,
+   "crossref_page": null,
+   "crossref_type": "posted-content",
+   "crossref_published_online": null,
+   "crossref_published_print": null,
+   "crossref_issued": [
+    [
+     2026
+    ]
+   ],
+   "crossref_created": "2026-06-02T00:39:06Z",
+   "store_issued_year": 2026,
+   "review_label_year": 2026,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "db54a55515fcd9a2b4c56b2ebb49899f5b8d7e63beb77da0f5a275a6e05faca9"
+  },
+  {
+   "record": "eru-1950",
+   "doi": "10.3934/fmf.2026005",
+   "http_status": 200,
+   "attempt": 1,
+   "crossref_container_title": "Frontiers of Mathematical Finance",
+   "crossref_volume": "10",
+   "crossref_issue": "0",
+   "crossref_page": "1-42",
+   "crossref_type": "journal-article",
+   "crossref_published_online": null,
+   "crossref_published_print": [
+    [
+     2026
+    ]
+   ],
+   "crossref_issued": [
+    [
+     2026
+    ]
+   ],
+   "crossref_created": "2026-07-13T09:21:47Z",
+   "store_issued_year": 2026,
+   "review_label_year": 2026,
+   "review_label_year_second": null,
+   "year_online_vs_print_differ": false,
+   "year_label_vs_store_differ": false,
+   "year_label_equals_print_not_online": false,
+   "crossref_message_sha256": "421673116694c61e0b561c5fcf79b241d73f3150537db45b5bf0f51ae9e89c05"
+  }
+ ],
+ "handle_system_resolution": {
+  "eru-0131": {
+   "kind": "doi",
+   "identifier": "10.1111/j.1468-2354.2010.00625.x",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0150": {
+   "kind": "doi",
+   "identifier": "10.1093/jjfinec/nbr009",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0238": {
+   "kind": "doi",
+   "identifier": "10.1111/obes.12026",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0259": {
+   "kind": "doi",
+   "identifier": "10.1016/j.csda.2014.06.006",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0348": {
+   "kind": "doi",
+   "identifier": "10.1515/jtse-2013-0004",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0393": {
+   "kind": "doi",
+   "identifier": "10.1111/iere.12132",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0395": {
+   "kind": "doi",
+   "identifier": "10.1111/iere.12131",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0463": {
+   "kind": "doi",
+   "identifier": "10.1016/j.jempfin.2016.11.001",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0503": {
+   "kind": "doi",
+   "identifier": "10.1016/j.jempfin.2015.09.002",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0559": {
+   "kind": "doi",
+   "identifier": "10.1017/s0266466617000202",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0597": {
+   "kind": "doi",
+   "identifier": "10.1007/s00181-017-1347-x",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0604": {
+   "kind": "doi",
+   "identifier": "10.26481/marble.2016.v1.257",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0607": {
+   "kind": "doi",
+   "identifier": "10.1111/iere.12249",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0609": {
+   "kind": "doi",
+   "identifier": "10.1080/07474938.2017.1307490",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0689": {
+   "kind": "doi",
+   "identifier": "10.1111/obes.12270",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0735": {
+   "kind": "doi",
+   "identifier": "10.1111/jtsa.12409",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0748": {
+   "kind": "doi",
+   "identifier": "10.1080/07474938.2018.1536099",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0883": {
+   "kind": "doi",
+   "identifier": "10.1016/j.jeconom.2019.01.002",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0889": {
+   "kind": "doi",
+   "identifier": "10.1016/j.jeconom.2019.08.010",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0891": {
+   "kind": "doi",
+   "identifier": "10.1017/s0266466619000057",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0924": {
+   "kind": "doi",
+   "identifier": "10.2139/ssrn.3421332",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1031": {
+   "kind": "doi",
+   "identifier": "10.1016/bs.host.2018.12.002",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1038": {
+   "kind": "doi",
+   "identifier": "10.2139/ssrn.3529058",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1044": {
+   "kind": "doi",
+   "identifier": "10.1007/s00181-020-01859-7",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1049": {
+   "kind": "doi",
+   "identifier": "10.1016/j.jempfin.2020.06.002",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1112": {
+   "kind": "doi",
+   "identifier": "10.1093/jjfinec/nbab027",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1117": {
+   "kind": "doi",
+   "identifier": "10.1093/jjfinec/nbab009",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1384": {
+   "kind": "doi",
+   "identifier": "10.1093/jjfinec/nbac004",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1394": {
+   "kind": "doi",
+   "identifier": "10.1016/j.jempfin.2022.12.008",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1519": {
+   "kind": "doi",
+   "identifier": "10.1111/obes.12540",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1526": {
+   "kind": "doi",
+   "identifier": "10.1016/j.jeconom.2023.105626",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1604": {
+   "kind": "doi",
+   "identifier": "10.1111/jtsa.12794",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1813": {
+   "kind": "doi",
+   "identifier": "10.1016/j.eneco.2025.109095",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1844": {
+   "kind": "doi",
+   "identifier": "10.1016/j.ijforecast.2024.12.005",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1845": {
+   "kind": "doi",
+   "identifier": "10.1017/s0266466625000052",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1852": {
+   "kind": "doi",
+   "identifier": "10.1111/jtsa.12845",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1920": {
+   "kind": "doi",
+   "identifier": "10.1080/07474938.2026.2700653",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1921": {
+   "kind": "doi",
+   "identifier": "10.1017/s0266466626100383",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1929": {
+   "kind": "doi",
+   "identifier": "10.2139/ssrn.6865190",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1950": {
+   "kind": "doi",
+   "identifier": "10.3934/fmf.2026005",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0513": {
+   "kind": "doi",
+   "identifier": "10.2139/ssrn.3723392",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0526": {
+   "kind": "doi",
+   "identifier": "10.3390/econometrics5040047",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0622": {
+   "kind": "doi",
+   "identifier": "10.24149/gwp325",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0675": {
+   "kind": "doi",
+   "identifier": "10.1016/j.econmod.2018.07.021",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0691": {
+   "kind": "doi",
+   "identifier": "10.1111/sjpe.12179",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0749": {
+   "kind": "doi",
+   "identifier": "10.1093/jjfinec/nby023",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0823": {
+   "kind": "doi",
+   "identifier": "10.1111/obes.12307",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0959": {
+   "kind": "doi",
+   "identifier": "10.1016/j.jempfin.2020.06.004",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1155": {
+   "kind": "doi",
+   "identifier": "10.6339/jds.201707_15(3).0007",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1260": {
+   "kind": "doi",
+   "identifier": "10.1093/ectj/utac020",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1405": {
+   "kind": "doi",
+   "identifier": "10.1111/iere.12647",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1580": {
+   "kind": "doi",
+   "identifier": "10.1111/jtsa.12784",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1715": {
+   "kind": "doi",
+   "identifier": "10.1111/jtsa.12768",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1890": {
+   "kind": "doi",
+   "identifier": "10.1111/obes.12668",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0126": {
+   "kind": "doi",
+   "identifier": "10.3982/qe82",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0731": {
+   "kind": "doi",
+   "identifier": "10.3934/qfe.2018.4.904",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0813": {
+   "kind": "doi",
+   "identifier": "10.2139/ssrn.3392208",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0855": {
+   "kind": "doi",
+   "identifier": "10.1109/access.2019.2893929",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1289": {
+   "kind": "doi",
+   "identifier": "10.1017/9781108910095.003",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1509": {
+   "kind": "doi",
+   "identifier": "10.1515/snde-2022-0014",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1761": {
+   "kind": "doi",
+   "identifier": "10.1111/jtsa.70001",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-1889": {
+   "kind": "doi",
+   "identifier": "10.59576/sr.1151",
+   "responseCode": 1,
+   "attempt": 1
+  },
+  "eru-0198": {
+   "kind": "handle",
+   "identifier": "1765/39598",
+   "responseCode": 1,
+   "attempt": 1
+  }
+ },
+ "arxiv_resolution": {
+  "eru-1716": {
+   "arxiv_id": "2405.02087",
+   "http": 200,
+   "attempt": 1,
+   "title": "Testing for an Explosive Bubble using High-Frequency Volatility",
+   "sha256_of_response": "aa18784d5815efe2050cbdb20aa90b0d08182d83bd1c35539a2046afad3dd811"
+  },
+  "eru-1770": {
+   "arxiv_id": "2505.14911",
+   "http": 200,
+   "attempt": 1,
+   "title": "Bubble Detection with Application to Green Bubbles: A Noncausal Approach",
+   "sha256_of_response": "b09b6138eb01e54ae3435d1c30afdc180886984ca883851dc23b4f34cc4894e0"
+  }
+ }
+}

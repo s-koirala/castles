@@ -1,0 +1,447 @@
+{
+ "query_id": "ka-ki-ki22",
+ "protocol_query_id": "KI-22",
+ "arm": "known-item",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1007%2Fs11579-012-0087-0",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1,
+ "retrieved_count": 1,
+ "identifier": "10.1007/s11579-012-0087-0",
+ "raw_format": "json",
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      26
+     ]
+    ],
+    "date-time": "2026-08-26T09:46:44Z",
+    "timestamp": 1787737604103,
+    "version": "build-2784847793"
+   },
+   "reference-count": 25,
+   "publisher": "Springer Science and Business Media LLC",
+   "issue": "4",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2012,
+        9,
+        4
+       ]
+      ],
+      "date-time": "2012-09-04T00:00:00Z",
+      "timestamp": 1346716800000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "http://www.springer.com/tdm"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Math Finan Econ"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2013,
+      9
+     ]
+    ]
+   },
+   "DOI": "10.1007/s11579-012-0087-0",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2012,
+      9,
+      3
+     ]
+    ],
+    "date-time": "2012-09-03T09:05:15Z",
+    "timestamp": 1346663115000
+   },
+   "page": "477-507",
+   "source": "Crossref",
+   "is-referenced-by-count": 142,
+   "title": [
+    "Dealing with the inventory risk: a solution to the market making problem"
+   ],
+   "prefix": "10.1007",
+   "volume": "7",
+   "author": [
+    {
+     "given": "Olivier",
+     "family": "Guéant",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Charles-Albert",
+     "family": "Lehalle",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Joaquin",
+     "family": "Fernandez-Tapia",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "published-online": {
+    "date-parts": [
+     [
+      2012,
+      9,
+      4
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "87_CR1",
+     "doi-asserted-by": "crossref",
+     "first-page": "31",
+     "DOI": "10.1016/0304-405X(80)90020-3",
+     "volume": "8",
+     "author": "Y. Amihud",
+     "year": "1980",
+     "unstructured": "Amihud Y., Mendelson H.: Dealership market. market-making with inventory. J. Fin. Econ. 8, 31–53 (1980)",
+     "journal-title": "J. Fin. Econ."
+    },
+    {
+     "issue": "2",
+     "key": "87_CR2",
+     "doi-asserted-by": "crossref",
+     "first-page": "223",
+     "DOI": "10.1016/0304-405X(86)90065-6",
+     "volume": "17",
+     "author": "Y. Amihud",
+     "year": "1986",
+     "unstructured": "Amihud Y., Mendelson H.: Asset pricing and the bid-ask spread. J. Fin. Econ. 17(2), 223–249 (1986)",
+     "journal-title": "J. Fin. Econ."
+    },
+    {
+     "issue": "3",
+     "key": "87_CR3",
+     "doi-asserted-by": "crossref",
+     "first-page": "217",
+     "DOI": "10.1080/14697680701381228",
+     "volume": "8",
+     "author": "M. Avellaneda",
+     "year": "2008",
+     "unstructured": "Avellaneda M., Stoikov S.: High-frequency trading in a limit order book. Quant. Fin. 8(3), 217–224 (2008)",
+     "journal-title": "Quant. Fin."
+    },
+    {
+     "key": "87_CR4",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Bayraktar, E., Ludkovski, M.: Liquidation in limit order books with controlled intensity. Arxiv preprint arXiv:1105.0247 (2011)",
+     "DOI": "10.1111/j.1467-9965.2012.00529.x"
+    },
+    {
+     "issue": "4",
+     "key": "87_CR5",
+     "doi-asserted-by": "crossref",
+     "first-page": "353",
+     "DOI": "10.1016/0304-405X(74)90014-2",
+     "volume": "1",
+     "author": "L. Benston Robert",
+     "year": "1974",
+     "unstructured": "Benston Robert L., George J.: Determinants of bid-asked spreads in the over-the-counter market. J. Fin. Econ. 1(4), 353–364 (1974)",
+     "journal-title": "J. Fin. Econ."
+    },
+    {
+     "key": "87_CR6",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Cartea, Á., Jaimungal S.: Modeling asset prices for algorithmic and high frequency trading. Working Paper (2010)",
+     "DOI": "10.2139/ssrn.1722202"
+    },
+    {
+     "key": "87_CR7",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Cartea, Á., Jaimungal S.: Risk measures and fine tuning of high frequency trading strategies. Working Paper (2012)",
+     "DOI": "10.2139/ssrn.2010417"
+    },
+    {
+     "key": "87_CR8",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Cartea, Á., Jaimungal, S., Ricci, J.: Buy low sell high: a high frequency trading perspective. Working Paper (2011)",
+     "DOI": "10.2139/ssrn.1964781"
+    },
+    {
+     "issue": "04",
+     "key": "87_CR9",
+     "doi-asserted-by": "crossref",
+     "first-page": "813",
+     "DOI": "10.2307/2330456",
+     "volume": "14",
+     "author": "K.J. Cohen",
+     "year": "1979",
+     "unstructured": "Cohen K.J., Maier S.F., Schwartz R.A., Whitcomb D.K.: Market makers and the market spread: a review of recent literature. J. Fin. Quant. Anal. 14(04), 813–835 (1979)",
+     "journal-title": "J. Fin. Quant. Anal."
+    },
+    {
+     "issue": "2",
+     "key": "87_CR10",
+     "doi-asserted-by": "crossref",
+     "first-page": "287",
+     "DOI": "10.1086/260966",
+     "volume": "89",
+     "author": "K.J. Cohen",
+     "year": "1981",
+     "unstructured": "Cohen K.J., Maier S.F., Schwartz R.A., Whitcomb D.K.: Transaction costs, order placement strategy, and existence of the bid-ask spread. J. Polit. Econ. 89(2), 287–305 (1981)",
+     "journal-title": "J. Polit. Econ."
+    },
+    {
+     "issue": "3",
+     "key": "87_CR11",
+     "doi-asserted-by": "crossref",
+     "first-page": "257",
+     "DOI": "10.1016/0304-405X(76)90006-4",
+     "volume": "3",
+     "author": "M.B. Garman",
+     "year": "1976",
+     "unstructured": "Garman M.B.: Market microstructure. J. Fin. Econ. 3(3), 257–275 (1976)",
+     "journal-title": "J. Fin. Econ."
+    },
+    {
+     "key": "87_CR12",
+     "unstructured": "Guéant, O., Lehalle, C.A.: Existence and Uniqueness for the Avellaneda–Stoikov PDE. Working Paper. (2012)"
+    },
+    {
+     "key": "87_CR13",
+     "unstructured": "Guéant, O., Lehalle, C.A., Fernandez-Tapia, J.: Optimal Execution with Limit Orders. Working Paper. SIAM J. Fin. Math. (2011) (to appear)"
+    },
+    {
+     "key": "87_CR14",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Guilbaud, F., Pham, H.: Optimal high frequency trading with limit and market orders. Quant. Fin. (2011) (to appear)",
+     "DOI": "10.2139/ssrn.1871969"
+    },
+    {
+     "key": "87_CR15",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Guilbaud F., Pham H.: Optimal high frequency trading in a pro-rata microstructure with predictive information. Arxiv preprint arXiv:1205-3051 (2012)",
+     "DOI": "10.2139/ssrn.2040867"
+    },
+    {
+     "key": "87_CR16",
+     "unstructured": "Hendershott, T., Menkveld, A.: Price Pressures. Manuscript, VU University, Amsterdam (2009)"
+    },
+    {
+     "key": "87_CR17",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Ho, T.S.Y., Macris, R.G.: Dealer bid-ask quotes and transaction prices: An empirical study of some AMEX options. J. Fin. 39, 23–45 (1984)",
+     "DOI": "10.1111/j.1540-6261.1984.tb03858.x"
+    },
+    {
+     "issue": "1",
+     "key": "87_CR18",
+     "doi-asserted-by": "crossref",
+     "first-page": "47",
+     "DOI": "10.1016/0304-405X(81)90020-9",
+     "volume": "9",
+     "author": "T. Ho",
+     "year": "1981",
+     "unstructured": "Ho T., Stoll H.R.: Optimal dealer pricing under transactions and return uncertainty. J. Fin. Econ. 9(1), 47–73 (1981)",
+     "journal-title": "J. Fin. Econ."
+    },
+    {
+     "issue": "4",
+     "key": "87_CR19",
+     "doi-asserted-by": "crossref",
+     "first-page": "1053",
+     "DOI": "10.1111/j.1540-6261.1983.tb02282.x",
+     "volume": "38",
+     "author": "T.S.Y. Ho",
+     "year": "1983",
+     "unstructured": "Ho T.S.Y., Stoll H.R.: The dynamics of dealer markets under competition. J. Fin. 38(4), 1053–1074 (1983)",
+     "journal-title": "J. Fin."
+    },
+    {
+     "key": "87_CR20",
+     "volume-title": "Econophysics of Order-Driven Markets, New Economic Windows",
+     "author": "C.A. Lehalle",
+     "year": "2010",
+     "unstructured": "Lehalle, C.A., Guéant, O., Razafinimanana, J. : High Frequency Simulations of an Order Book: a Two-Scales Approach. In: Abergel, F., Chakrabarti, B.K., Chakraborti, A., Mitra, M. (eds.) Econophysics of Order-Driven Markets, New Economic Windows, Springer, New York (2010)"
+    },
+    {
+     "issue": "5",
+     "key": "87_CR21",
+     "doi-asserted-by": "crossref",
+     "first-page": "1595",
+     "DOI": "10.1111/j.1540-6261.1993.tb05122.x",
+     "volume": "48",
+     "author": "A. Madhavan",
+     "year": "1993",
+     "unstructured": "Madhavan A., Smidt S.: An analysis of changes in specialist inventories and quotations. J. Fin. 48(5), 1595–1628 (1993)",
+     "journal-title": "J. Fin."
+    },
+    {
+     "key": "87_CR22",
+     "unstructured": "Menkveld, A.J.: High Frequency Trading and The New-Market Makers. Social Science Research Network Working Paper Series (2010)"
+    },
+    {
+     "key": "87_CR23",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Mildenstein, E., Schleef, H.: The optimal pricing policy of a monopolistic marketmaker in the equity market. J. Fin. 38, 218–231, (1983)",
+     "DOI": "10.1111/j.1540-6261.1983.tb03637.x"
+    },
+    {
+     "issue": "04",
+     "key": "87_CR24",
+     "doi-asserted-by": "crossref",
+     "first-page": "361",
+     "DOI": "10.2307/2330686",
+     "volume": "21",
+     "author": "M. O’Hara",
+     "year": "1986",
+     "unstructured": "O’Hara M., Oldfield G.S.: The microeconomics of market making. J. Fin. Quant. Anal. 21(04), 361–376 (1986)",
+     "journal-title": "J. Fin. Quant. Anal."
+    },
+    {
+     "issue": "4",
+     "key": "87_CR25",
+     "doi-asserted-by": "crossref",
+     "first-page": "1127",
+     "DOI": "10.1111/j.1540-6261.1984.tb03897.x",
+     "volume": "39",
+     "author": "R. Roll",
+     "year": "1984",
+     "unstructured": "Roll R.: A simple implicit measure of the effective bid-ask spread in an efficient market. J. Fin. 39(4), 1127–1139 (1984)",
+     "journal-title": "J. Fin."
+    }
+   ],
+   "container-title": [
+    "Mathematics and Financial Economics"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://link.springer.com/content/pdf/10.1007/s11579-012-0087-0.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "http://link.springer.com/article/10.1007/s11579-012-0087-0/fulltext.html",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "http://link.springer.com/content/pdf/10.1007/s11579-012-0087-0",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2019,
+      7,
+      3
+     ]
+    ],
+    "date-time": "2019-07-03T05:50:43Z",
+    "timestamp": 1562133043000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "http://link.springer.com/10.1007/s11579-012-0087-0"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2012,
+      9,
+      4
+     ]
+    ]
+   },
+   "references-count": 25,
+   "journal-issue": {
+    "issue": "4",
+    "published-print": {
+     "date-parts": [
+      [
+       2013,
+       9
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "87"
+   ],
+   "URL": "https://doi.org/10.1007/s11579-012-0087-0",
+   "relation": {},
+   "ISSN": [
+    "1862-9679",
+    "1862-9660"
+   ],
+   "issn-type": [
+    {
+     "value": "1862-9679",
+     "type": "print"
+    },
+    {
+     "value": "1862-9660",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2012,
+      9,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

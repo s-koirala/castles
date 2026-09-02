@@ -1,0 +1,252 @@
+{
+ "query_id": "ka-ki-ki21",
+ "protocol_query_id": "KI-21",
+ "arm": "known-item",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1080%2F14697680701381228",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1,
+ "retrieved_count": 1,
+ "identifier": "10.1080/14697680701381228",
+ "raw_format": "json",
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      26
+     ]
+    ],
+    "date-time": "2026-08-26T09:46:44Z",
+    "timestamp": 1787737604542,
+    "version": "build-2784847793"
+   },
+   "reference-count": 14,
+   "publisher": "Informa UK Limited",
+   "issue": "3",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Quantitative Finance"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2008,
+      4
+     ]
+    ]
+   },
+   "DOI": "10.1080/14697680701381228",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2008,
+      3,
+      29
+     ]
+    ],
+    "date-time": "2008-03-29T04:06:38Z",
+    "timestamp": 1206763598000
+   },
+   "page": "217-224",
+   "source": "Crossref",
+   "is-referenced-by-count": 376,
+   "title": [
+    "High-frequency trading in a limit order book"
+   ],
+   "prefix": "10.1080",
+   "volume": "8",
+   "author": [
+    {
+     "given": "Marco",
+     "family": "Avellaneda",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sasha",
+     "family": "Stoikov",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "301",
+   "reference": [
+    {
+     "key": "CIT0001",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.finmar.2004.11.001"
+    },
+    {
+     "key": "CIT0002",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1088/1469-7688/2/4/301"
+    },
+    {
+     "key": "CIT0003",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1162/qjec.2006.121.2.461"
+    },
+    {
+     "key": "CIT0004",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1103/PhysRevE.62.R4493"
+    },
+    {
+     "key": "CIT0005",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2327666"
+    },
+    {
+     "key": "CIT0006",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2327382"
+    },
+    {
+     "key": "CIT0007",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0304-405X(81)90020-9"
+    },
+    {
+     "key": "CIT0008",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1088/1469-7688/3/5/305"
+    },
+    {
+     "key": "CIT0009",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0378-4371(01)00301-6"
+    },
+    {
+     "key": "CIT0010",
+     "volume-title": "Market Microstructure Theory",
+     "author": "O'Hara M",
+     "year": "1997"
+    },
+    {
+     "key": "CIT0011",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0378-4371(02)01896-4"
+    },
+    {
+     "key": "CIT0012",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1088/1469-7688/3/6/307"
+    },
+    {
+     "key": "CIT0013",
+     "volume-title": "Handbook of the Economics of Finance",
+     "author": "Stoll HR",
+     "year": "2003"
+    },
+    {
+     "key": "CIT0014",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/14697680500244411"
+    }
+   ],
+   "container-title": [
+    "Quantitative Finance"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://www.tandfonline.com/doi/pdf/10.1080/14697680701381228",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2016,
+      12,
+      17
+     ]
+    ],
+    "date-time": "2016-12-17T10:00:13Z",
+    "timestamp": 1481968813000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "http://www.tandfonline.com/doi/abs/10.1080/14697680701381228"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2008,
+      4
+     ]
+    ]
+   },
+   "references-count": 14,
+   "journal-issue": {
+    "issue": "3",
+    "published-print": {
+     "date-parts": [
+      [
+       2008,
+       4
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1080/14697680701381228"
+   ],
+   "URL": "https://doi.org/10.1080/14697680701381228",
+   "relation": {},
+   "ISSN": [
+    "1469-7688",
+    "1469-7696"
+   ],
+   "issn-type": [
+    {
+     "value": "1469-7688",
+     "type": "print"
+    },
+    {
+     "value": "1469-7696",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2008,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1062 @@
+{
+ "query_id": "ka-crossref-08",
+ "protocol_query_id": "ka-crossref-08",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=automated+market+maker+logarithmic+market+scoring+rule+bounded+loss+liquidity&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 478035,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 478035,
+   "items": [
+    {
+     "DOI": "10.2139/ssrn.976809",
+     "title": [
+      "The Hidden Beauty of the Quadratic Market Scoring Rule: A Uniform Liquidity Market Maker, with Variations"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Michael",
+       "family": "Abramowicz",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>The logarithmic market scoring rule has emerged as a standard automated market maker. The approach is particularly useful for combinatorial markets, but this article argues that for a variety of prediction market applications, the quadratic market scoring rule may be more sensible. With that rule, liquidity is uniform across the probability or prediction spectrum. Moreover, the rule can easily be adapted for contexts in which greater liquidity is desired for some portion of the probability or prediction spectrum. For each binary or linear outcome being predicted, two separate markets are used, so that a forecaster can always buy shares in either the low market or the high market to change the group prediction. The approach can be used as the basis for both conditional and deliberative prediction markets.</jats:p>"
+    },
+    {
+     "DOI": "10.32614/cran.package.impermanentlosscalc",
+     "title": [
+      "impermanentlosscalc: Calculate Impermanent Loss in Automated Market Maker (AMM) Liquidity Pools"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025,
+        12,
+        11
+       ]
+      ]
+     },
+     "container-title": [
+      "CRAN: Contributed Packages"
+     ],
+     "type": "dataset",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0002-7493-3909",
+       "authenticated-orcid": true,
+       "given": "Amber",
+       "family": "Krause",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.5750/jpm.v1i2.423",
+     "title": [
+      "THE HIDDEN BEAUTY OF THE QUADRATIC MARKET SCORING RULE: A UNIFORM LIQUIDITY MARKET MAKER, WITH VARIATIONS"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012,
+        12,
+        14
+       ]
+      ]
+     },
+     "container-title": [
+      "The Journal of Prediction Markets"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Michael",
+       "family": "Abramovicz",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>For some applications, prediction markets that rely entirely on voluntary transactions between individual participants may provide insufficient liquidity to aggregate information effectively, especially where the number of participants is small. A solution to this problem is to rely on an automated market maker, which allows participants to buy from or sell to the house. Robin Hanson has described a class of automated market makers called market scoring rules. This Article examines a member of this class that has received little attention, the quadratic market scoring rule. Its prime virtue is that it provides uniform liquidity across the probability or prediction spectrum. Market participants will thus have the same incentive to do research that is expected to produce an expected change in the market prediction, regardless of the current prediction. Formulas are provided for implementing the quadratic market scoring rule, as well as variations, for example to implement conditional markets.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.5708882",
+     "title": [
+      "The Price of Liquidity: Implied Volatility of Automated Market Maker Fees"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Maxim",
+       "family": "Bichuch",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Zachary",
+       "family": "Feinstein",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1111/j.1475-4932.2011.00761.x",
+     "title": [
+      "Liquidity Supply by a Risk-Averse Market Maker*"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011,
+        8,
+        22
+       ]
+      ]
+     },
+     "container-title": [
+      "Economic Record"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "SUREN",
+       "family": "BASOV",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "XIANGKANG",
+       "family": "YIN",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.4567604",
+     "title": [
+      "Option Market Maker Hedging and Stock Market Liquidity"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "James",
+       "family": "O'Donovan",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Gloria Yang",
+       "family": "Yu",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Jinyuan",
+       "family": "Zhang",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This paper demonstrates that option market maker hedging impacts the liquidity of underlying stocks. Options contracts have zero net supply, and option market makers engage in delta hedging to manage the risk of their net imbalances, unlike option end-users. Consequently, when option market makers hold a net short (long) position, their dynamic hedging demands liquidity from (or supplies liquidity to) the underlying stock, leading to market destabilization (or stabilization). Leveraging proprietary option exchange data that categorizes option trading by trader type, we document this effect and show that it is stronger for stocks where liquidity supply is expected to be limited.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.1013053",
+     "title": [
+      "Market Maker Revenues and Stock Market Liquidity"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Carole",
+       "family": "Comerton-Forde",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Terrence J.",
+       "family": "Hendershott",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Charles M.",
+       "family": "Jones",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We use an 11-year panel of daily specialist revenues on individual NYSE stocks to explore the relationship between market-maker revenues and liquidity.  If market makers suffer substantial trading losses, lenders may respond by increasing funding costs or reducing credit lines, and market makers should respond by reducing liquidity provision.  The data indicate that when specialists in aggregate lose money on their inventories, market-wide effective spreads widen in the days or weeks that follow, even after controlling for stock returns, volatility, and volume.  This suggests an important role for market-maker financial performance in explaining liquidity time-variation.  Revenues at the specialist firm level explain liquidity changes in that firm's assigned stocks.  Revenues at the individual stock level do not explain changes in individual stock liquidity, consistent with a financial constraints model with broadly diversified intermediaries.  Aggregate specialist revenues are increasing in conditional return volatility, as is revenue volatility.  Specialist margins (specialist revenue per dollar of trading volume) are essentially constant across stocks, implying limited scope for cross-subsidization.</jats:p>"
+    },
+    {
+     "DOI": "10.1108/jm2-06-2017-0066",
+     "title": [
+      "Optimizing the liquidity parameter of logarithmic market scoring rules prediction markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        9,
+        14
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Modelling in Management"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Suparerk",
+       "family": "Lekwijit",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Daricha",
+       "family": "Sutivong",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Purpose</jats:title>\n<jats:p>Prediction markets are techniques to aggregate dispersed public opinions via market mechanisms to predict uncertain future events’ outcome. Many experiments have shown that prediction markets outperform other traditional forecasting methods in terms of accuracy. Logarithmic market scoring rules (LMSR) is one of the most simple and widely used market mechanisms; however, market makers have to confront crucial design decisions including the setting of the parameter “b” or the “liquidity parameter” in the price functions. As the liquidity parameter has significant effects on the market performance, this paper aims to provide a comprehensive basis for the setting of the parameter.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Design/methodology/approach</jats:title>\n<jats:p>The analyses include the effects of the liquidity parameter on the forecast standard error and the amount of time for the market price to converge to the true value. These experiments use artificial prediction markets, the proposed simulation models that mimic real prediction markets.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Findings</jats:title>\n<jats:p>The simulation results indicate that prediction market’s forecast standard error decreases as the value of the liquidity parameter increases. Moreover, for any given number of traders in the market, there exists an optimal liquidity parameter value that yields appropriate price adaptability and leads to the fastest price convergence.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Originality/value</jats:title>\n<jats:p>Understanding these tradeoffs, the market makers can effectively determine the liquidity parameter value under various objectives on the standard error, the time to convergence and cost.</jats:p>\n</jats:sec>"
+    },
+    {
+     "DOI": "10.2139/ssrn.4103827",
+     "title": [
+      "A Logarithmic Market Scoring Rule Agent-based Model to Evaluate Prediction Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Athos",
+       "family": "V. C. Carvalho",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0003-3242-5284",
+       "authenticated-orcid": true,
+       "given": "Douglas",
+       "family": "Silveira",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0002-2468-3761",
+       "authenticated-orcid": true,
+       "given": "Regis Augusto",
+       "family": "Ely",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0001-5898-1655",
+       "authenticated-orcid": true,
+       "given": "Daniel O.",
+       "family": "Cajueiro",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Prediction Markets (PMs) are markets in which agents trade event contingent assets. Enterprises use PMs to forecast revenues and project deadlines. This paper presents an Agent-based model, called Logarithmic Market Scoring Rule-Automated Market Maker (LMSR-ASM), to evaluate Prediction Markets. Our model is capable of testing different types of Automated Market Makers (AMMs), which are mathematical functions or computational mechanisms needed to provide liquidity in Prediction Markets. The model offers insights into how to set parameters in a PM and how profits react to contrasting settings and AMMs. In addition, we simulate different probability processes, distinct AMMs, and agent behaviors. This paper also utilizes the LMSR-ASM to evaluate the impact of choosing initial prices on profits and revenue opportunities regarding AMM computational implementation. We show that we can use the LMSR-ASM to find optimal parameters for maximizing profits in PMs and how different AMMs affect market results under a variety of settings.</jats:p>"
+    },
+    {
+     "DOI": "10.36227/techrxiv.19196960.v1",
+     "title": [
+      "Impermanent Loss and Gain of Automated Market Maker Smart Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022,
+        2,
+        23
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0002-1144-6660",
+       "authenticated-orcid": false,
+       "given": "Hyoung Joong",
+       "family": "Kim",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "Korea University"
+        }
+       ],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Soohyuk",
+       "family": "Choi",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Yong Tae",
+       "family": "Yoon",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Shiyong",
+       "family": "Yoo",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Smart contract is an important building block of blockchain. Automated\nmarket makers are working without an order book, and they determine the\nprice of assets automatically. It is reported that he automated market\nmakers have the impermanent loss, which causes financial damage to\nliquidity providers. Impermanent loss makes the liquidity providers\nhesitant to deposit assets in the liquidity pool. Therefore, their\nparticipation incentive from liquidity provision should be anticipated\nby automatic market makers inherently. However, the existence of\nimpermanent gain has never been reported. Impermanent gain is important\nto attract liquidity providers without giving compensation incentives.\nThis study shows that for some automated market makers, impermanent gain\ncoexists with impermanent loss. Examples showing the coexistence and\nconditions are provided.</jats:p>"
+    },
+    {
+     "DOI": "10.36227/techrxiv.19196960",
+     "title": [
+      "Impermanent Loss and Gain of Automated Market Maker Smart Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022,
+        2,
+        23
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Hyoung Joong",
+       "family": "Kim",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Soohyuk",
+       "family": "Choi",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Yong Tae",
+       "family": "Yoon",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Shiyong",
+       "family": "Yoo",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Smart contract is an important building block of blockchain. Automated\nmarket makers are working without an order book, and they determine the price\nof assets automatically. It is reported that he automated market makers have\nthe impermanent loss, which causes financial damage to liquidity providers.\nImpermanent loss makes the liquidity providers hesitant to deposit assets in\nthe liquidity pool. Therefore, their participation incentive from liquidity\nprovision should be anticipated by automatic market makers inherently. However,\nthe existence of impermanent gain has never been reported. Impermanent gain is\nimportant to attract liquidity providers without giving compensation incentives.\nThis study shows that for some automated market makers, impermanent gain\ncoexists with impermanent loss. Examples showing the coexistence and conditions\nare provided.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.6830299",
+     "title": [
+      "Unlocking Liquidity in Cross-Regional Energy Markets with an Automated Market Maker-Based Exchange Mechanism"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0003-2525-7371",
+       "authenticated-orcid": true,
+       "given": "hengdi",
+       "family": "wang",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0002-7235-2377",
+       "authenticated-orcid": true,
+       "given": "Yebo",
+       "family": "Feng",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Konglin",
+       "family": "Zhu",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Lin",
+       "family": "Zhang",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0002-3993-5263",
+       "authenticated-orcid": true,
+       "given": "Jiahua",
+       "family": "Xu",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Traditional centralized energy markets are increasingly challenged by complex energy flows and inefficient resource scheduling. In this context, effective management of distributed energy flows, optimal resource allocation, and efficient market transactions have become critical research priorities. This paper proposes a decentralized energy trading market using Automated Market Maker (AMM)-based decentralized exchange (DEX), adapting the principles of Uniswap V2 protocol to enable decentralized liquidity provision for energy transactions. The system comprises multiple interconnected DEXs and a network of energy users, who can dynamically buy or sell energy across different DEXs. Our mechanism supports cross-pool trading, allowing users to access energy from multiple pools to minimize transaction costs and energy losses. The pricing mechanism inherently reflects real-time supply-demand imbalances, adjusting energy prices endogenously through AMM reserve dynamics. Experimental results demonstrate that the proposed framework improves market efficiency compared to existing decentralized energy trading approaches.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.4273989",
+     "title": [
+      "Decentralised Finance and Automated Market Making: Predictable Loss and Optimal Liquidity Provision"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0002-7426-4645",
+       "authenticated-orcid": true,
+       "given": "Álvaro",
+       "family": "Cartea",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Fayçal",
+       "family": "Drissi",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Marcello",
+       "family": "Monga",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Constant product markets with concentrated liquidity (CL) are the most popular type of automated market makers. In this paper, we characterise the continuous-time wealth dynamics of strategic LPs who dynamically adjust their range of liquidity provision in CL pools. Their wealth results from fee income, the value of their holdings in the pool, and rebalancing costs. Next, we derive a self-financing and closed-form optimal liquidity provision strategy where the width of the LP's liquidity range is determined by the profitability of the pool (provision fees minus gas fees), the predictable losses (PL) of the LP's position, and concentration risk. Concentration risk refers to the decrease in fee revenue if the marginal exchange rate (akin to the midprice in a limit order book) in the pool exits the LP's range of liquidity. When the drift in the marginal rate is stochastic, we show how to optimally skew the range of liquidity to increase fee revenue and profit from the expected changes in the marginal rate. Finally, we use Uniswap v3 data to show that, on average, LPs have traded at a significant loss, and to show that the out-of-sample performance of our strategy is superior to the historical performance of LPs in the pool we consider.</jats:p>"
+    },
+    {
+     "DOI": "10.1609/aaai.v29i1.9313",
+     "title": [
+      "Price Evolution in a Continuous Double Auction Prediction Market With a Scoring-Rule Based Market Maker"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015,
+        2,
+        16
+       ]
+      ]
+     },
+     "container-title": [
+      "Proceedings of the AAAI Conference on Artificial Intelligence"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Mithun",
+       "family": "Chakraborty",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Sanmay",
+       "family": "Das",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Justin",
+       "family": "Peabody",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>\n      \n        The logarithmic market scoring rule (LMSR), the most common automated market making rule for prediction markets, is typically studied in the framework of dealer markets, where the market maker takes one side of every transaction. The continuous double auction (CDA) is a much more widely used microstructure for general financial markets in practice. In this paper, we study the properties of CDA prediction markets with zero-intelligence traders in which an LMSR-style market maker participates actively. We extend an existing idea of Robin Hanson for integrating LMSR with limit order books in order to provide a new, self-contained market making algorithm that does not need “special” access to the order book and can participate as another trader. We find that, as expected, the presence of the market maker leads to generally lower bid-ask spreads and higher trader surplus (or price improvement), but, surprisingly, does not necessarily improve price discovery and market efficiency; this latter effect is more pronounced when there is higher variability in trader beliefs.\n      \n    </jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.4644445",
+     "title": [
+      "Automated Market Maker vs Continuous Double Auction: An Asset Market Experiment"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0002-1183-7979",
+       "authenticated-orcid": true,
+       "given": "Tibor",
+       "family": "Neugebauer",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "YiLong",
+       "family": "Xu",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>The Automated Market Maker trading institution (AMM) is a cornerstone of decentralized finance. This study directly compares price efficiency and liquidity between the continuous double auction (CDA) and the AMM in a controlled laboratory setting. Employing a clearly defined asset with known fundamentals, we find that the AMM significantly improves market liquidity with markedly higher trading volume than the CDA owed to the convenience of not having to wait for a counterparty. The degree of mispricing in AMM is comparable to CDA but with much smaller volatility. Experience has similar effects of reducing mispricing in both trading institutions, though the properties of high turnover and low volatility prevailed even with experienced traders.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.4424010",
+     "title": [
+      "Models of Market Liquidity: Applications to Traditional Markets and Automated Market Makers"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Fayçal",
+       "family": "Drissi",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>The thesis studies algorithmic trading problems for liquidity takers (LTs) and liquidity providers (LPs) in traditional electronic markets and in decentralised trading platforms that use Automated Market Makers (AMMs). AMMs are a new paradigm in the design of trading venues and are based on liquidity pooling. Chapter 1 introduces the literature on algorithmic trading in traditional markets. Chapter 2 solves a multi-asset optimal trading problem in LOBs where the agent adopts a CARA utility and the prices follow multivariate Ornstein-Uhlenbeck dynamics. These dynamics account for the presence of cointegration between the assets’ prices. We showcase the use of the model to enhance the performance of portfolio execution programmes and to build statistical arbitrage strategies using data from the Equity and FX markets. Chapter 3 uses stochastic control tools to solve a general differential Riccati equation (DRE) with an indefinite quadratic coefficient. We use the result to provide solutions to two algorithmic portfolio trading problems; one is optimal trading in LOBs with Bayesian learning of the drift using signals and past prices, the second is multi-asset market making in OTC markets with three important features: (𝑖) dynamics that incorporate cointegration and predictive signals, (𝑖𝑖) external hedging and client tiering, and (𝑖𝑖𝑖) computationally efficient methods to obtain quotes for large portfolios. Chapter 4 introduces AMMs and describes how liquidity takers and providers interact in liquidity pools. Chapter 5 studies optimal execution in a constant function market maker (CFMM), a popular type of AMMs. In particular, we use the convexity of the trading function as an approximation for the execution costs incurred by LTs. Chapter 6 introduces a new comprehensive metric of predictable loss (PL) for LPs in CFMMs. PL compares the value of the LP’s holdings in the liquidity pool with that of a self-financing portfolio that replicates the LP’s holdings and invests in a risk-free account. We show that the losses stem from two sources: the convexity cost, which depends on liquidity taking activity and the convexity of the pool’s trading function; the opportunity cost, which is due to locking the LP’s assets in the pool. Finally, Chapter 7 derives continuous-time dynamics for the wealth of LPs and provides a closed-form dynamic liquidity provision strategy in constant product market makers (CPMMs) with concentrated liquidity. The strategy dynamically adjusts the liquidity range around the exchange rate as a function of market trend, volatility, and liquidity taking activity in the pool. We prove that the profitability of liquidity provision depends on the tradeoff between PL and fee income. Chapter 5, 6, and 7 use Uniswap v3 data to showcase the superior out-of-sample performance of our strategies.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.943753",
+     "title": [
+      "Market Maker Inventories and Liquidity"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Terrence J.",
+       "family": "Hendershott",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Pamela C.",
+       "family": "Moulton",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Mark S.",
+       "family": "Seasholes",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Traditional microstructure models predict that market makers' inventory positions do not impact liquidity (the effective cost of trading). Models with limited market maker riskbearing capacity predict that larger inventories negatively impact overall liquidity and the effect is greater for more volatile stocks. Using 11 years of NYSE specialists' inventory data, this paper tests these theoretical predictions. We find that larger inventory positions lead to lower liquidity both at the market level and at the market maker's firm level. We also find that the impact of inventories is larger for the liquidity of high-volatility stocks and for smaller market making firms. Finally, we confirm a prediction of models both with and without limited risk-bearing capacity: Inventory positions affect the relative liquidity for stock buyers versus sellers.</jats:p>"
+    },
+    {
+     "DOI": "10.3386/w33587",
+     "title": [
+      "Liquidity Crises and the Market-Maker of Last Resort"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025,
+        3
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Charles",
+       "family": "Kahn",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "David",
+       "family": "Marshall",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Robert",
+       "family": "McDonald",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1145/1807342.1807402",
+     "title": [
+      "A practical liquidity-sensitive automated market maker"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2010,
+        6,
+        7
+       ]
+      ]
+     },
+     "container-title": [
+      "Proceedings of the 11th ACM conference on Electronic commerce"
+     ],
+     "type": "proceedings-article",
+     "author": [
+      {
+       "given": "Abraham",
+       "family": "Othman",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "Carnegie Mellon University, Pittsburgh, PA, USA"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Tuomas",
+       "family": "Sandholm",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "Carnegie Mellon University, Pittsburgh, PA, USA"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "David M.",
+       "family": "Pennock",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "Yahoo Research, New York, NY, USA"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Daniel M.",
+       "family": "Reeves",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "Yahoo Research, New York, NY, USA"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3898384",
+     "title": [
+      "The Replicating Portfolio of a Constant Product Market with Bounded Liquidity"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Joseph",
+       "family": "Clark",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We derive the replicating portfolio and greeks for a constant product market with bounded liquidity such as Uniswap v3. The portfolio value is concave in the relative price of pool assets, short volatility, and can be effectively hedged in the same manner as a  vanilla option.</jats:p>"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

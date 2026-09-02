@@ -1,0 +1,609 @@
+{
+ "date_checked": "2026-09-02",
+ "method": "DOI Handle System REST API https://doi.org/api/handles/{doi}; responseCode 1 == handle resolves",
+ "n_checked": 150,
+ "n_responsecode_1": 150,
+ "failures": [],
+ "records": {
+  "10.1287/mnsc.1040.0191": {
+   "id": "oliven2004mnsc10400191",
+   "responseCode": 1
+  },
+  "10.1016/j.econlet.2006.01.004": {
+   "id": "manski2006jeconlet2006",
+   "responseCode": 1
+  },
+  "10.3386/w12200": {
+   "id": "wolfers2006w12200",
+   "responseCode": 1
+  },
+  "10.1016/s1574-0722(07)00080-7": {
+   "id": "berg2008s15740722070",
+   "responseCode": 1
+  },
+  "10.1257/0895330041371277": {
+   "id": "rhode2004089533004137",
+   "responseCode": 1
+  },
+  "10.1111/ecca.12009": {
+   "id": "franck2012ecca12009",
+   "responseCode": 1
+  },
+  "10.1016/j.ijforecast.2018.07.008": {
+   "id": "angelini2019jijforecast2",
+   "responseCode": 1
+  },
+  "10.1257/jep.2.2.161": {
+   "id": "thaler1988jep22161",
+   "responseCode": 1
+  },
+  "10.1086/655844": {
+   "id": "snowberg2010655844",
+   "responseCode": 1
+  },
+  "10.1257/mic.2.1.58": {
+   "id": "ottaviani2010mic2158",
+   "responseCode": 1
+  },
+  "10.1023/a:1022058209073": {
+   "id": "hanson2003a10220582090",
+   "responseCode": 1
+  },
+  "10.5750/jpm.v1i1.417": {
+   "id": "hanson2012jpmv1i1417",
+   "responseCode": 1
+  },
+  "10.1145/2465769.2465777": {
+   "id": "abernethy2013246576924657",
+   "responseCode": 1
+  },
+  "10.1145/2509413.2509414": {
+   "id": "othman2013250941325094",
+   "responseCode": 1
+  },
+  "10.1145/2940716.2940767": {
+   "id": "kroer2016294071629407",
+   "responseCode": 1
+  },
+  "10.1016/0304-405x(85)90044-3": {
+   "id": "glosten19850304405x8590",
+   "responseCode": 1
+  },
+  "10.2307/1913210": {
+   "id": "kyle19851913210",
+   "responseCode": 1
+  },
+  "10.1016/0304-405x(81)90020-9": {
+   "id": "ho19810304405x8190",
+   "responseCode": 1
+  },
+  "10.1080/14697680701381228": {
+   "id": "avellaneda2008146976807013",
+   "responseCode": 1
+  },
+  "10.1007/s11579-012-0087-0": {
+   "id": "guant2012s11579012008",
+   "responseCode": 1
+  },
+  "10.1111/j.1468-0297.2004.00207.x": {
+   "id": "levitt2004j14680297200",
+   "responseCode": 1
+  },
+  "10.3233/af-140031": {
+   "id": "rothschild2014af140031",
+   "responseCode": 1
+  },
+  "10.1109/cecandeee.2008.131": {
+   "id": "luckner2008cecandeee200",
+   "responseCode": 1
+  },
+  "10.5750/jpm.v6i3.589": {
+   "id": "bergfjord2013jpmv6i3589",
+   "responseCode": 1
+  },
+  "10.5750/jpm.v7i3.824": {
+   "id": "antweiler2014jpmv7i3824",
+   "responseCode": 1
+  },
+  "10.5750/jpm.v14i1.1796": {
+   "id": "stershic2020jpmv14i11796",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.7170178": {
+   "id": "moulinier2026ssrn7170178",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.6446502": {
+   "id": "nunes2026ssrn6446502",
+   "responseCode": 1
+  },
+  "10.1080/14697688.2017.1395230": {
+   "id": "taleb2017146976882017",
+   "responseCode": 1
+  },
+  "10.1177/1527002513493630": {
+   "id": "ashiya2013152700251349",
+   "responseCode": 1
+  },
+  "10.1002/for.1085": {
+   "id": "vlastakis2008for1085",
+   "responseCode": 1
+  },
+  "10.1080/1351847x.2018.1443148": {
+   "id": "grant20181351847x2018",
+   "responseCode": 1
+  },
+  "10.1177/155862351801300305": {
+   "id": "buckle2018155862351801",
+   "responseCode": 1
+  },
+  "10.5750/jgbe.v7i2.630": {
+   "id": "constantinou2013jgbev7i2630",
+   "responseCode": 1
+  },
+  "10.17811/ebl.7.4.2018.129-136": {
+   "id": "gomezgonzalez2018ebl742018129",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.2199035": {
+   "id": "montone2012ssrn2199035",
+   "responseCode": 1
+  },
+  "10.3905/jod.2019.26.4.128": {
+   "id": "hanke2019jod201926412",
+   "responseCode": 1
+  },
+  "10.1016/j.ijforecast.2014.02.008": {
+   "id": "trumbelj2014jijforecast2",
+   "responseCode": 1
+  },
+  "10.1515/jqas-2024-0064": {
+   "id": "kizildemir2025jqas20240064",
+   "responseCode": 1
+  },
+  "10.1177/1527002517696957": {
+   "id": "berkowitz2017152700251769",
+   "responseCode": 1
+  },
+  "10.1111/j.1354-7798.2005.00274.x": {
+   "id": "lange2005j13547798200",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.294306": {
+   "id": "lange2001ssrn294306",
+   "responseCode": 1
+  },
+  "10.1111/j.1468-0335.2008.00716.x": {
+   "id": "sung2009j14680335200",
+   "responseCode": 1
+  },
+  "10.1016/j.frl.2018.08.003": {
+   "id": "restocchi2019jfrl20180800",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.6615739": {
+   "id": "bartlett2026ssrn6615739",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.5502658": {
+   "id": "brgi2025ssrn5502658",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.7117919": {
+   "id": "krause2026ssrn7117919",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.6748186": {
+   "id": "lee2026ssrn6748186",
+   "responseCode": 1
+  },
+  "10.1016/j.iref.2026.105577": {
+   "id": "goel2026jiref2026105",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.7254820": {
+   "id": "polson2026ssrn7254820",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.7364100": {
+   "id": "yurchyna2026ssrn7364100",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.7119120": {
+   "id": "krause2026ssrn7119120",
+   "responseCode": 1
+  },
+  "10.3386/w34702": {
+   "id": "diercks2026w34702",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.6704139": {
+   "id": "lim2026ssrn6704139",
+   "responseCode": 1
+  },
+  "10.1504/ijfmd.2026.10080801": {
+   "id": "subramanian2026ijfmd2026100",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.7021660": {
+   "id": "krause2026ssrn7021660",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.6442939": {
+   "id": "greene2026ssrn6442939",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.6964226": {
+   "id": "lee2026ssrn6964226",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.6858200": {
+   "id": "gupta2026ssrn6858200",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.7110758": {
+   "id": "krause2026ssrn7110758",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.7087538": {
+   "id": "krause2026ssrn7087538",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.6073727": {
+   "id": "swanson2026ssrn6073727",
+   "responseCode": 1
+  },
+  "10.5750/jpm.v1i2.423": {
+   "id": "abramovicz2012jpmv1i2423",
+   "responseCode": 1
+  },
+  "10.1145/1807342.1807372": {
+   "id": "chen2010180734218073",
+   "responseCode": 1
+  },
+  "10.1007/s10614-015-9514-7": {
+   "id": "sethi2015s10614015951",
+   "responseCode": 1
+  },
+  "10.65109/bbzi6501": {
+   "id": "dudk2021bbzi6501",
+   "responseCode": 1
+  },
+  "10.1007/978-3-642-25510-6_27": {
+   "id": "othman2011978364225510",
+   "responseCode": 1
+  },
+  "10.1108/jm2-06-2017-0066": {
+   "id": "lekwijit2018jm2062017006",
+   "responseCode": 1
+  },
+  "10.1609/aaai.v29i1.9313": {
+   "id": "chakraborty2015aaaiv29i1931",
+   "responseCode": 1
+  },
+  "10.1109/tem.2012.2191618": {
+   "id": "slamka2013tem201221916",
+   "responseCode": 1
+  },
+  "10.1287/opre.1110.0922": {
+   "id": "agrawal2011opre11100922",
+   "responseCode": 1
+  },
+  "10.1145/988772.988799": {
+   "id": "pennock2004988772988799",
+   "responseCode": 1
+  },
+  "10.1145/2600057.2602900": {
+   "id": "abernethy2014260005726029",
+   "responseCode": 1
+  },
+  "10.1145/2229012.2229047": {
+   "id": "dudik2012222901222290",
+   "responseCode": 1
+  },
+  "10.1145/1993574.1993621": {
+   "id": "abernethy2011199357419936",
+   "responseCode": 1
+  },
+  "10.1145/2482540.2482575": {
+   "id": "li2013248254024825",
+   "responseCode": 1
+  },
+  "10.1007/978-3-642-17572-5_44": {
+   "id": "gao2010978364217572",
+   "responseCode": 1
+  },
+  "10.1145/1386790.1386822": {
+   "id": "chen2008138679013868",
+   "responseCode": 1
+  },
+  "10.1145/2482540.2482608": {
+   "id": "chen2013248254024826",
+   "responseCode": 1
+  },
+  "10.1145/2728732.2728734": {
+   "id": "abernethy2015272873227287",
+   "responseCode": 1
+  },
+  "10.1145/2229012.2229074": {
+   "id": "othman2012222901222290",
+   "responseCode": 1
+  },
+  "10.1287/opre.2022.0417": {
+   "id": "gao2025opre20220417",
+   "responseCode": 1
+  },
+  "10.1007/s00199-018-1155-3": {
+   "id": "tarnaud2018s00199018115",
+   "responseCode": 1
+  },
+  "10.1080/14697680500148067": {
+   "id": "das2005146976805001",
+   "responseCode": 1
+  },
+  "10.1016/0165-1765(92)90014-p": {
+   "id": "krishnan1992016517659290",
+   "responseCode": 1
+  },
+  "10.1111/j.1468-0262.2004.00497.x": {
+   "id": "back2004j14680262200",
+   "responseCode": 1
+  },
+  "10.1016/j.jet.2016.01.005": {
+   "id": "liu2016jjet20160100",
+   "responseCode": 1
+  },
+  "10.1145/1993574.1993622": {
+   "id": "chakraborty2011199357419936",
+   "responseCode": 1
+  },
+  "10.1080/14697688.2022.2028888": {
+   "id": "donatoni2022146976882022",
+   "responseCode": 1
+  },
+  "10.1093/rfs/9.3.953": {
+   "id": "manaster199693953",
+   "responseCode": 1
+  },
+  "10.1287/opre.2021.2109": {
+   "id": "birge2021opre20212109",
+   "responseCode": 1
+  },
+  "10.1111/j.1467-9485.2011.00557.x": {
+   "id": "makropoulou2011j14679485201",
+   "responseCode": 1
+  },
+  "10.1111/j.1468-036x.2010.00601.x": {
+   "id": "hodges2013j1468036x201",
+   "responseCode": 1
+  },
+  "10.1093/oep/gpaf023": {
+   "id": "hegarty2025gpaf023",
+   "responseCode": 1
+  },
+  "10.1016/j.qref.2016.07.016": {
+   "id": "flepp2017jqref2016070",
+   "responseCode": 1
+  },
+  "10.1007/978-3-540-77105-0_11": {
+   "id": "petersNone978354077105",
+   "responseCode": 1
+  },
+  "10.5750/jpm.v2i3.445": {
+   "id": "seemann2012jpmv2i3445",
+   "responseCode": 1
+  },
+  "10.1057/s41302-020-00179-z": {
+   "id": "depken2021s41302020001",
+   "responseCode": 1
+  },
+  "10.1080/00036846.2015.1111993": {
+   "id": "lycsa2015000368462015",
+   "responseCode": 1
+  },
+  "10.1007/s13209-017-0156-y": {
+   "id": "vidalpuga2017s13209017015",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.7049119": {
+   "id": "cao2026ssrn7049119",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.6191618": {
+   "id": "dellavedova2026ssrn6191618",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.6396698": {
+   "id": "yang2026ssrn6396698",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.7222239": {
+   "id": "saliou2026ssrn7222239",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.929916": {
+   "id": "tetlock2008ssrn929916",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.7245879": {
+   "id": "gill2026ssrn7245879",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.997788": {
+   "id": "zhou2007ssrn997788",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.6325658": {
+   "id": "palumbo2026ssrn6325658",
+   "responseCode": 1
+  },
+  "10.1016/j.physa.2018.09.183": {
+   "id": "restocchi2019jphysa201809",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.7110798": {
+   "id": "gill2026ssrn7110798",
+   "responseCode": 1
+  },
+  "10.1016/b978-044450744-0.50009-3": {
+   "id": "ottaviani2008b97804445074",
+   "responseCode": 1
+  },
+  "10.1016/b978-044450744-0.50011-1": {
+   "id": "sobel2008b97804445074",
+   "responseCode": 1
+  },
+  "10.1142/9789812819192_0025": {
+   "id": "hausch2008978981281919",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.6150527": {
+   "id": "bakalo2026ssrn6150527",
+   "responseCode": 1
+  },
+  "10.1146/annurev-financial-053122-021925": {
+   "id": "ziemba2023annurevfinan",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.3044673": {
+   "id": "sestovic2017ssrn3044673",
+   "responseCode": 1
+  },
+  "10.2307/2234526": {
+   "id": "shin19922234526",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.3035848": {
+   "id": "sestovic2017ssrn3035848",
+   "responseCode": 1
+  },
+  "10.2139/ssrn.964438": {
+   "id": "koch2007ssrn964438",
+   "responseCode": 1
+  },
+  "10.3390/risks9010022": {
+   "id": "newall2021risks9010022",
+   "responseCode": 1
+  },
+  "10.1016/j.cnsns.2022.106994": {
+   "id": "gampe2023jcnsns202210",
+   "responseCode": 1
+  },
+  "10.1093/ej/ueaf040": {
+   "id": "gauriot2025ueaf040",
+   "responseCode": 1
+  },
+  "10.1016/j.jedc.2016.12.007": {
+   "id": "hofer2017jjedc2016120",
+   "responseCode": 1
+  },
+  "10.13140/RG.2.2.13916.03201": {
+   "id": "marek2019sportsbett",
+   "responseCode": 1
+  },
+  "10.11179/ker.74.119": {
+   "id": "tanaka2005inventorye",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.1206.5252": {
+   "id": "chen2012autilityfr",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.1009.1446": {
+   "id": "brahma2010comparingp",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2605.09599": {
+   "id": "nueve2026adaptiveli",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2603.22596": {
+   "id": "rana2026parlaymark",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2601.01706": {
+   "id": "gebele2026semanticno",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2505.02959": {
+   "id": "nueve2025smoothquad",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2510.15612": {
+   "id": "rahman2025sokmarketm",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2510.15205": {
+   "id": "dalen2025towardblac",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2302.00196": {
+   "id": "frongillo2023anaxiomati",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2605.30335": {
+   "id": "kotawala2026locallycoh",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2604.10005": {
+   "id": "dalen2026whathappen",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2608.00666": {
+   "id": "gebele2026executable",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2508.03474": {
+   "id": "saguillo2025unravellin",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2605.00864": {
+   "id": "cheng2026arbitragea",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2606.19517": {
+   "id": "portnaya2026dopredicti",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2604.01431": {
+   "id": "mohanty2026dopredicti",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2607.17991": {
+   "id": "feil2026optimalmar",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2607.17428": {
+   "id": "moallemi2026uniformlos",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2607.18299": {
+   "id": "moshrefi2026apmmautoma",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2311.08725": {
+   "id": "bhaskara2023ageneralth",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2606.01477": {
+   "id": "feys2026avellaneda",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.1609.03471": {
+   "id": "groeger2016theinforma",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2604.24366": {
+   "id": "dubach2026theanatomy",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2605.02287": {
+   "id": "nechepurenko2026permarketi",
+   "responseCode": 1
+  },
+  "10.48550/ARXIV.2607.08199": {
+   "id": "xi2026volatility",
+   "responseCode": 1
+  }
+ }
+}

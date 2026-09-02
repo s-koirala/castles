@@ -1,0 +1,720 @@
+{
+ "query_id": "ka-crossref-12",
+ "protocol_query_id": "ka-crossref-12",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=Kalshi+regulated+event+contract+exchange+prediction+market+design&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 4458996,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 4458996,
+   "items": [
+    {
+     "DOI": "10.2139/ssrn.6964226",
+     "title": [
+      "Underreaction, Salience, and Hot-Hand Beliefs in Sports Event-Contract Markets: Evidence from Kalshi NBA and NFL"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0001-5720-8337",
+       "authenticated-orcid": true,
+       "given": "Jaewook",
+       "family": "Lee",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0009-0007-6478-8473",
+       "authenticated-orcid": true,
+       "given": "Yebon",
+       "family": "Lee",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0002-2553-0177",
+       "authenticated-orcid": true,
+       "given": "Seungju",
+       "family": "Lee",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Prediction markets are widely regarded as efficient aggregators of public information, yet how quickly their prices absorb that information, and whether the speed depends on how the information arrives, remains unsettled. In-play sports contracts let us examine this directly. Evolving game states yield an objective, second-by-second win-probability benchmark against which prices can be tracked trade by trade. We exploit this setting using 41.8 million transactions across 1,496 NBA and NFL games on Kalshi, matched to play-by-play benchmarks. In both sports, prices adjust to scoring news only gradually and incompletely within short post-event windows, a robust underreaction consistent with limited attention. The adjustment path tracks each sport&amp;apos;s scoring structure. NBA prices drift steadily toward the benchmark after frequent, small shocks, whereas NFL prices settle at a flatter, less complete level after rarer, larger shocks. Salient, highlight-like events draw a weaker short-run response, most clearly in the NBA. Prices show no tendency to extrapolate scoring runs beyond fundamentals, leaving no role for hot-hand pricing. Although benchmark deviations exceed plausible fee-and-spread hurdles across the price distribution, a mean-reversion rule earns nothing net of costs. The market is inefficient in how fast it incorporates information, not in offering exploitable profit.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.5502658",
+     "title": [
+      "Makers and Takers: The Economics of the Kalshi Prediction Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Constantin",
+       "family": "Bürgi",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Wanying",
+       "family": "Deng",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Karl",
+       "family": "Whelan",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.7021660",
+     "title": [
+      "The Limits of Prediction: A Comparative Analysis of Market Efficiency Across Three Kalshi Prediction Market Events (A Case Study in Forecasting Precision, Liquidity, and Information Incorporation)"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0001-7257-9141",
+       "authenticated-orcid": true,
+       "given": "David",
+       "family": "Krause",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This paper examines three distinct Kalshi prediction market events-the US PPI MoM release, the FOMC rate decision with dissent count, and the 10-year Treasury yield-to explore the relationship between event characteristics, market liquidity, and forecasting precision. We find that prediction markets exhibit varying degrees of efficiency depending on the nature of the underlying event, the availability of information, and the liquidity of the contract. The PPI market, with its scheduled release and clear consensus forecast, demonstrated the most gradual information incorporation. The FOMC contract, with its combination of policy decision and human judgment (dissents), exhibited noisy information flow and overestimation of dissent probability. The Treasury yield contract, with its thin liquidity and lack of a specific announcement time, showed the most dramatic late-stage repricing. These findings have implications for the design of prediction markets, the interpretation of their prices as probability estimates, and the limits of forecasting in financial markets.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.7364100",
+     "title": [
+      "Composition Shift and the Measurement of Bias in a Growing Prediction Market: Evidence from Kalshi, 2021-2026"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0000-3978-9254",
+       "authenticated-orcid": true,
+       "given": "Vladyslav",
+       "family": "Yurchyna",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Prediction markets are now studied intensively enough that their own growth has become a measurement problem. Using 376.8 million Kalshi fills through June 2026, we show that sports contracts went from 0.009% of the in-scope sample in calendar 2024 to 58.8% after May 2025, and that 41% of the aggregate change in the Mincer-Zarnowitz slope at that boundary is composition rather than any change in how the market prices risk. The natural before/after design across early 2025 largely measures the arrival of an asset class. We then ask the persistence question properly. Reconstructing Kalshi's fee schedule from sixteen dated captures of its own published document, we find the 2025 maker fee was not the exchange-wide regime change the literature assumes: a per-series surcharge covering 8.0% to 14.4% of in-scope markets, revised five times, flat per contract before it was quadratic in price. That rules out a step dummy and calls for a difference-indifferences between treated and untreated series trading in the same months. The pre-specified estimate is a tight null:-0.0016 (0.0064) on 98 treated series. An event study added after that result was known supports parallel trends (χ 2 (5) = 3.24, p = 0.66) and, read as exploratory, indicates a transitory reduction three to four months after a series is charged. The maker's return advantage at prices at or above 50c survives every plausible fee rate. We publish the fee history, the category mapping and the full pipeline.</jats:p>"
+    },
+    {
+     "DOI": "10.65864/s9kc4p0b7t",
+     "title": [
+      "Makers and Takers: The Economics of the Kalshi Prediction Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        1,
+        27
+       ]
+      ]
+     },
+     "container-title": [
+      "CESifo Working Papers"
+     ],
+     "type": "report",
+     "author": [
+      {
+       "given": "Constantin",
+       "family": "Bürgi",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Wanying",
+       "family": "Deng",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Karl",
+       "family": "Whelan",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Since 2021, Kalshi has operated as the only federally licensed prediction market in the United States. Using transaction-level data on over 300,000 contracts, we provide the first systematic evidence on its pricing. Kalshi’s contract prices are informative and improve in accuracy as markets approach closing, but they display a clear favorite–longshot bias: low-price contracts win far less often than required to break even, while high-price contracts win more often and yield small positive returns. We interpret these patterns with a simple framework that reflects Kalshi’s quote-driven microstructure. Makers — relatively well-informed traders who post offers — seek positive expected returns but may be slightly over-optimistic, while Takers accept these offers. The model predicts distinct patterns of favorite–longshot bias for Makers and Takers, and the data confirm these predictions.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.6933527",
+     "title": [
+      "Beyond Liquidity: Market Design, Contract Lifecycle, and Informed Trading in Decentralized Prediction Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0007-7751-9352",
+       "authenticated-orcid": true,
+       "given": "Anh Quang",
+       "family": "Le",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Decentralized prediction markets increasingly support trading in claims on elections, macroeconomic events, sports outcomes, and regulatory decisions, yet little is known about the microstructure through which information enters their prices. This study examines informed trading on Polymarket by reconstructing trade direction from raw on-chain OrderFilled settlement events and converting YES and NO token trades into a common YES-equivalent buy/sell measure. Using 189,623 market-day observations across 5,518 resolved binary contracts, we estimate market-level Probability of Informed Trading (PIN). We document economically meaningful informed-order-flow intensity: mean PIN is 0.193, median PIN is 0.186, and volume-weighted PIN is 0.192. PIN remains stable across restricted samples and is positively associated with model-independent order imbalance. Cross-sectional evidence shows that informed trading is shaped more consistently by market design and contract lifecycle than by raw volume: negative-risk markets and longer-lived contracts exhibit higher PIN, whereas volume effects are not robust.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.6632818",
+     "title": [
+      "Beyond Liquidity: Market Design, Contract Lifecycle, and Informed Trading in Decentralized Prediction Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0007-7751-9352",
+       "authenticated-orcid": true,
+       "given": "Anh Quang",
+       "family": "Le",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>&lt;div&gt;\n Decentralized prediction markets increasingly support trading in claims on elections, macroeconomic events, sports outcomes, and regulatory decisions, yet little is known about the microstructure through which information enters their prices. This study examines informed trading on Polymarket by reconstructing trade direction from raw on-chain OrderFilled settlement events and converting YES and NO token trades into a common YES-equivalent buy/sell measure. Using 189,623 market-day observations across 5,518 resolved binary contracts, we estimate market-level Probability of Informed Trading (PIN).\n&lt;/div&gt;\n&lt;div&gt;\n We document economically meaningful informed-order-flow intensity: mean PIN is 0.193, median PIN is 0.186, and volume-weighted PIN is 0.192. PIN remains stable across restricted samples and is positively associated with model-independent order imbalance. Cross-sectional evidence shows that informed trading is shaped more consistently by market design and contract lifecycle than by raw volume: negative-risk markets and longer-lived contracts exhibit higher PIN, whereas volume effects are not robust.\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.6740358",
+     "title": [
+      "Convergence-Weighted Aggregation of Cross-Exchange Prediction Markets: A Dependency-Aware Index for Combining Prices Across Kalshi, Polymarket, Manifold, Metaculus, and Long-Tail Venues"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Luka",
+       "family": "Stanisljevic",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Modern prediction-market venues — Kalshi, Polymarket, Manifold, Metaculus, and a long tail of newer exchanges — increasingly host overlapping markets on identical world events. Naive aggregation methods (simple or volume-weighted means, Hanson-style market-scoring averages, information-diversity weighted aggregators) treat each venue as a conditionally independent source given the resolution outcome. This assumption is violated in practice by three documented mechanisms: cross-exchange copy-trading bots, shared news flow that drives all venues simultaneously after material announcements, and arbitrageurs whose activity compresses cross-exchange variance below the level that would reflect genuine informational dispersion. Under this dependence, weighted-mean aggregators are biased and overconfident in the contamination regimes a deployer cares about most. We adapt the Index of Convergence Multi-epistemic (ICM) framework, originally developed for cross-disciplinary scientific aggregation (Stanisljevic, 2026), to the prediction-market setting. ICM augments naive aggregation with five components — agreement (A), direction (D), uncertainty overlap (U), perturbation invariance (C), and a dependency penalty (Pi) — yielding a convergence-weighted estimator that decouples genuine cross-source agreement from cross-source contagion. Within Pi, the lead-lag primitive Pi_L is the load-bearing component for the empirical bias-reduction result. We evaluate ICM-weighted aggregation against three baselines (naive mean, volume-weighted mean, Satopaa-Pemantle-Ungar logit-pool) on (i) synthetic experiments under each contamination mechanism in isolation, (ii) hybrid backtests with real Polymarket trajectories, and (iii) a strict cross-exchange backtest on binary markets where Polymarket and Manifold both have hourly history. Synthetic experiments confirm bias-reduction under copy-trading contamination (Mechanism I); the result is regime-targeted rather than uniformly dominant. The strict cross-exchange backtest is reported with the explicit caveat that ICM degenerates to the equal-weighted naive mean at V = 2 listing venues, so the reported Polymarket+Manifold result tests the surrounding pipeline but not the pair-discriminating ICM machinery. Forward-looking evaluation across additional exchanges (Kalshi via authenticated API, plus Metaculus and the long-tail venues) is planned with rolling collection commencing May 2026. Conjecture 1 (asymptotic bias reduction under contamination) is supported by a mechanism-by-mechanism heuristic argument; the formalization of the asymptotic-rate proof is left to follow-up.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.7254820",
+     "title": [
+      "Prediction Markets, Bayes and Kalshi"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Nicholas G.",
+       "family": "Polson",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>An event contract settles at one dollar or zero, so its price is a probability and the exchange is a market quoted in the currency of Bayes. We give a Bayesian account of trading such contracts, with the CFTC regulated exchange Kalshi as the leading case. Three ingredients are needed. First, a model whose latent parameter is low dimensional relative to the number of listed contracts, so that a few liquid quotes identify the whole board. Second, a posterior that carries parameter uncertainty into every derived contract rather than a plug in estimate. Third, a sizing rule. We show that Kelly betting on an exclusive family of contracts has an explicit water filling solution with a shadow price b that is strictly below one, so that contracts with negative naive expected value can enter the growth optimal portfolio as hedges, and that the optimal growth rate is i∈S p i log(p i /c i) + (1-p S) log b, which collapses to the Kullback-Leibler divergence KL(p∥c) when the book is fair. The Harville (1973) formula is treated as the canonical low dimensional generator of a combinatorially large contract set, with a Jensen argument showing that plug in exacta prices are biased downward. We recall the Skellam calibration of real time soccer odds of Feng et al. (2016) and the model free martingale diagnostics of Aldous (2013), whose halftime price and serious candidates principles give tests of a Kalshi board that require no model at all. Kalshi's fee θπ(1-π) with θ = 0.07 creates a no trade band of width 2θπ(1-π), at most 3.5 cents at the mid, and it changes which positions exist and not merely their size. An ϵ contamination prior that shrinks the posterior toward the price scales the Kelly stake by exactly 1-ϵ, which makes fractional Kelly a Bayes rule rather than a heuristic, and a simulation study shows that the shrinkage is worth roughly six times its cost once the trader's input is noisy rather than merely uncertain. For the maker side we derive the adverse selection spread on a binary contract, which is 4µp(1-p) for an informed order flow fraction µ and therefore has the same quadratic shape as the exchange fee, and we show that a log utility maker's inventory adjusted reservation price is p i /(ΛW i), falling directly out of the same first order conditions. Three real episodes anchor the framework: the 2025 federal shutdown duration ladder, whose twelve rungs are reproduced to within a cent by a one parameter hazard; the 2024 election board and its cross venue incoherence; and the favourite longshot bias documented on Kalshi by Bürgi et al. (2025), under which contracts below ten cents lose more than sixty percent of the money staked.</jats:p>"
+    },
+    {
+     "DOI": "10.1504/ijfmd.2026.10080801",
+     "title": [
+      "Prediction market efficiency: evidence from Kalshi on pricing accuracy, forecasting, and risk"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "container-title": [
+      "International Journal of Financial Markets and Derivatives"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Tanay",
+       "family": "Subramanian",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.7119120",
+     "title": [
+      "Information Efficiency Across Macroeconomic Prediction Markets: Evidence from Kalshi"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0001-7257-9141",
+       "authenticated-orcid": true,
+       "given": "David",
+       "family": "Krause",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Prediction markets have emerged as an important source of real-time probabilistic forecasts for macroeconomic events, yet little is known about whether forecasting accuracy varies systematically across different categories of economic indicators. This study examines the calibration and forecast accuracy of Kalshi's macroeconomic prediction markets using a unified dataset of 2,668 settled contracts spanning July 2021 through June 2026. Eight economic series are grouped into three categories: Federal Reserve and interest rate decisions, inflation measures, and labor market indicators. Forecast performance is evaluated using Brier scores, calibration curves, and tests for the favorite-longshot bias based on implied probabilities observed seven days before contract settlement. The results reveal a clear hierarchy of predictability. Federal Reserve and interest rate markets exhibit near-perfect calibration and no statistically significant favorite-longshot bias, while inflation markets display moderate calibration and employment markets show the weakest forecasting performance together with significant systematic mispricing. In particular, unemployment rate contracts exhibit the largest calibration errors, suggesting that labor market outcomes remain more difficult for prediction markets to forecast than monetary policy decisions or inflation releases. These findings demonstrate that prediction market accuracy depends not only on market design but also on the underlying predictability of the economic variable being forecast, with important implications for researchers, policymakers, and market participants using prediction markets as forecasting tools.</jats:p>"
+    },
+    {
+     "DOI": "10.5089/9781451855722.001.a001",
+     "title": [
+      "Central Bank Foreign Exchange Market Intervention and Option Contract Specification"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component",
+     "author": [
+      {
+       "given": "Ousmene",
+       "family": "Mandeng",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/j.iref.2026.105577",
+     "title": [
+      "Measuring macroeconomic surprise magnitude with prediction markets: Market-implied dispersion from Kalshi"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "International Review of Economics &amp; Finance"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0009-0192-521X",
+       "authenticated-orcid": false,
+       "given": "Aditya",
+       "family": "Goel",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.6615739",
+     "title": [
+      "Adverse Selection in Prediction Markets: Evidence from Kalshi"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Robert",
+       "family": "Bartlett",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Maureen",
+       "family": "O'Hara",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Using 41.6 million trades, we measure adverse selection in prediction markets. Adapting Kyle's λ and the Glosten-Harris decomposition, we show single-name markets exhibit greater informed price impact than broad-based markets. Despite this, effective spreads are only modestly wider, and market makers earn twice as much per contract. A frequency-magnitude decomposition resolves this puzzle: traders systematically overbet YES in markets that predominantly settle NO, generating a behavioral surplus that cross-subsidizes adverse selection. Adapting the VPIN toxicity metric, we find that one-sided order flow predicts maker losses in single-name markets but not broad-based markets. Our research suggests a new microstructure equilibrium concept for bilateral settlement markets.</jats:p>"
+    },
+    {
+     "DOI": "10.1002/9781119670155.ch6",
+     "title": [
+      "SWING‐CONTRACT MARKET DESIGN"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        12,
+        14
+       ]
+      ]
+     },
+     "container-title": [
+      "A New Swing‐Contract Design for Wholesale Power Markets"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119670155.ch10",
+     "title": [
+      "THE LINKED SWING‐CONTRACT MARKET DESIGN"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        12,
+        14
+       ]
+      ]
+     },
+     "container-title": [
+      "A New Swing‐Contract Design for Wholesale Power Markets"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119670155.ch15",
+     "title": [
+      "ADVANTAGES OF THE LINKED SWING‐CONTRACT MARKET DESIGN"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        12,
+        14
+       ]
+      ]
+     },
+     "container-title": [
+      "A New Swing‐Contract Design for Wholesale Power Markets"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.2139/ssrn.7117919",
+     "title": [
+      "Calibration and Forecast Accuracy of Macroeconomic Prediction Markets: Evidence from Kalshi, 2025-2026"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0001-7257-9141",
+       "authenticated-orcid": true,
+       "given": "David",
+       "family": "Krause",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This paper examines the calibration and forecast accuracy of Kalshi prediction markets for major U.S. macroeconomic announcements during the 2025-June 2026 period. Using a dataset of 594 unique markets and 1,860 observations across nine economic series, I evaluate whether these markets produce well-calibrated probability estimates and identify which macroeconomic indicators are easiest and hardest to predict. The overall Brier score is 0.0987, representing a 60.5% improvement over random guessing. Calibration quality varies across series: Federal Funds Rate markets achieve near-perfect calibration (Brier: 0.0001), while Unemployment Rate markets show the poorest calibration (Brier: 0.1302). The 1-hour horizon produces the best calibration (Brier: 0.0812), while the 30-day horizon produces the worst (Brier: 0.1587). Markets exhibit systematic overconfidence across the probability spectrum, with predicted probabilities consistently exceeding observed frequencies at the extremes. Longshots priced below $0.30 have a bias of-0.0721 (p &amp;lt; 0.001), indicating that low-probability contracts are significantly overpriced. These findings suggest that Kalshi macroeconomic prediction markets provide valuable real-time probabilistic forecasts, though calibration quality varies systematically across series, with Federal Funds markets being exceptionally accurate and labor markets being the most difficult to forecast.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.6442939",
+     "title": [
+      "Trend Quality and Predictability in Prediction Markets: Evidence from Minute-Level Kalshi Data"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Clyde",
+       "family": "Greene",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This paper studies whether \"trend quality\"-a drift-per-noise statistic computed from within-market price paths-predicts short-horizon price dynamics and ex-post forecast error in prediction markets. Using a large panel of minute-level Kalshi contract snapshots, we construct the Trend Quality Ratio (TQR), defined as the slope of a linear pre-close price trend normalized by its residual dispersion. In non-zero trend regimes, higher |TQR| is associated with both higher short-horizon directionality (continuation) and lower ex-post forecast error, with statistically significant differences between the top and bottom |TQR| deciles. Because many minute-sampled contracts exhibit zero post-window price change, we report both continuation rates conditional on non-zero movements and a tie-adjusted continuation score that retains zero-change cases. Midrange restrictions highlight the importance of bounded-price effects. Quotebased robustness using midquotes increases coverage in thinly traded contracts and preserves the strong error results, while directionality patterns are weaker and closer to 50% when prices are measured from quotes rather than trades.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.6748186",
+     "title": [
+      "Cryptocurrency Prediction Markets through the Derivatives Lens: Evidence from Kalshi and Polymarket"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0002-2553-0177",
+       "authenticated-orcid": true,
+       "given": "Seungju",
+       "family": "Lee",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0009-0007-6478-8473",
+       "authenticated-orcid": true,
+       "given": "Yebon",
+       "family": "Lee",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0001-5720-8337",
+       "authenticated-orcid": true,
+       "given": "Jaewook",
+       "family": "Lee",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Cryptocurrency prediction markets have grown rapidly, yet their prices have been studied almost exclusively as probability forecasts. Because the binary contracts traded on these platforms are structurally identical to cash-or-nothing digital options, the standard derivatives pricing toolkit applies directly. We exploit this equivalence on 113,338 Bitcoin and Ethereum contracts traded on Kalshi and Polymarket between September 2025 and February 2026, extracting implied volatility surfaces, risk-neutral densities, and variance risk premia from prediction market prices for the first time. Risk-neutral skewness recovered from multi-strike Kalshi events is near zero, and the implied volatility smile is pronounced and roughly symmetric, contrasting with the persistent left-skewed smirk that crash-protection demand produces in equity index options. Implied variance exceeds realized variance across all contract series, documenting a positive variance risk premium in prediction markets. The VRP differs markedly across platforms, with Polymarket&amp;apos;s roughly 16 times larger than Kalshi&amp;apos;s, a pattern consistent with Polymarket&amp;apos;s forward-start contract design, which anchors pre-window prices near 0.50 and inflates implied variance. Calibration analysis shows that both venues are systematically underconfident, with Polymarket exhibiting more severe probability distortion. A cross-platform comparison of matched contracts is consistent with much of this divergence reflecting the structural distinction between fixed-strike and forward-start contracts. The derivatives framework reveals risk pricing information in prediction markets that probability-based analysis alone cannot detect.</jats:p>"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

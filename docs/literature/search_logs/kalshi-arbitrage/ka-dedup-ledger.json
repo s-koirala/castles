@@ -1,0 +1,220 @@
+{
+ "date": "2026-09-02",
+ "process": "identifier-level exact match on DOI (case-normalized), then arXiv id (version-stripped), then RePEc handle, then OpenAlex / Semantic Scholar internal id; then a same-work merge on a case- and punctuation-insensitive normalized title (protocol section 4.1 CONVENTION). Merging is transitive (union-find over identifier and normalized-title keys).",
+ "software": "executing agent's Python 3.11 script under the project venv; no reference-manager product used. Script archived at ka-dedup-script.py in this directory.",
+ "n_raw_records": 15924,
+ "n_distinct_works": 8813,
+ "n_duplicates_removed": 7111,
+ "n_merge_groups_size_gt_1": 5555,
+ "j6_note": "J6 (journal version retained over the working-paper/proceedings twin) was applied to every included record carrying more than one DOI; the retained identifier and the twins are itemized below for the included corpus.",
+ "included_twin_pairs": [
+  {
+   "uid": "U00001",
+   "retained": "doi:10.1145/2509413.2509414",
+   "twins": [
+    "10.1145/1807342.1807402"
+   ],
+   "title": "A Practical Liquidity-Sensitive Automated Market Maker"
+  },
+  {
+   "uid": "U00004",
+   "retained": "doi:10.3386/w12200",
+   "twins": [
+    "10.2139/ssrn.898597",
+    "10.24148/wp2006-11"
+   ],
+   "title": "Interpreting Prediction Market Prices as Probabilities"
+  },
+  {
+   "uid": "U00007",
+   "retained": "doi:10.1016/j.ijforecast.2018.07.008",
+   "twins": [
+    "10.2139/ssrn.3070329"
+   ],
+   "title": "Efficiency of Online Football Betting Markets"
+  },
+  {
+   "uid": "U00008",
+   "retained": "doi:10.1111/ecca.12009",
+   "twins": [
+    "10.2139/ssrn.1503375"
+   ],
+   "title": "Inter-Market Arbitrage in Betting"
+  },
+  {
+   "uid": "U00018",
+   "retained": "doi:10.1145/1386790.1386822",
+   "twins": [
+    "10.48550/arxiv.0802.1362"
+   ],
+   "title": "Complexity of Combinatorial Market Makers"
+  },
+  {
+   "uid": "U00025",
+   "retained": "doi:10.1016/j.qref.2016.07.016",
+   "twins": [
+    "10.2139/ssrn.2371185"
+   ],
+   "title": "The liquidity advantage of the quote-driven market: Evidence from the betting industry"
+  },
+  {
+   "uid": "U00037",
+   "retained": "doi:10.1287/opre.2021.2109",
+   "twins": [
+    "10.2139/ssrn.3283392"
+   ],
+   "title": "Dynamic Learning and Market Making in Spread Betting Markets with Informed Bettors"
+  },
+  {
+   "uid": "U00063",
+   "retained": "doi:10.5750/jpm.v1i2.423",
+   "twins": [
+    "10.2139/ssrn.976809"
+   ],
+   "title": "THE HIDDEN BEAUTY OF THE QUADRATIC MARKET SCORING RULE: A UNIFORM LIQUIDITY MARKET MAKER, WITH VARIATIONS"
+  },
+  {
+   "uid": "U00077",
+   "retained": "doi:10.1145/1807342.1807372",
+   "twins": [
+    "10.48550/arxiv.1003.0034"
+   ],
+   "title": "A New Understanding of Prediction Markets Via No-Regret Learning"
+  },
+  {
+   "uid": "U00081",
+   "retained": "arxiv:1206.5252",
+   "twins": [
+    "10.48550/arxiv.1206.5252",
+    "10.5555/3020488.3020495",
+    "arxiv:1206.5252"
+   ],
+   "title": "A Utility Framework for Bounded-Loss Market Makers"
+  },
+  {
+   "uid": "U00092",
+   "retained": "doi:10.1145/1993574.1993621",
+   "twins": [
+    "10.48550/arxiv.1011.1941"
+   ],
+   "title": "An optimization-based framework for automated market-making"
+  },
+  {
+   "uid": "U00105",
+   "retained": "doi:10.1007/s10614-015-9514-7",
+   "twins": [
+    "10.2139/ssrn.2288670"
+   ],
+   "title": "Belief Aggregation with Automated Market Makers"
+  },
+  {
+   "uid": "U00122",
+   "retained": "doi:10.1007/s11579-012-0087-0",
+   "twins": [
+    "10.48550/arxiv.1105.3115"
+   ],
+   "title": "Dealing with the Inventory Risk. A solution to the market making problem"
+  },
+  {
+   "uid": "U00146",
+   "retained": "doi:10.1111/j.1468-036x.2010.00601.x",
+   "twins": [
+    "10.1111/j.1468-036x.2011.00601.x",
+    "10.1111/j.1468-036x.2012.00601.x"
+   ],
+   "title": "Fixed Odds Bookmaking with Stochastic Betting Demands"
+  },
+  {
+   "uid": "U00184",
+   "retained": "doi:10.1016/j.econlet.2006.01.004",
+   "twins": [
+    "10.3386/w10359"
+   ],
+   "title": "Interpreting the predictions of prediction markets"
+  },
+  {
+   "uid": "U00200",
+   "retained": "doi:10.65109/bbzi6501",
+   "twins": [
+    "10.5555/3463952.3464011"
+   ],
+   "title": "Log-time Prediction Markets for Interval Securities"
+  },
+  {
+   "uid": "U00211",
+   "retained": "doi:10.1016/j.jet.2016.01.005",
+   "twins": [
+    "10.2139/ssrn.1511186"
+   ],
+   "title": "Market making with asymmetric information and inventory risk"
+  },
+  {
+   "uid": "U00316",
+   "retained": "doi:10.1515/jqas-2024-0064",
+   "twins": [
+    "10.33774/coe-2024-dwb6t"
+   ],
+   "title": "A family of solutions related to Shin’s model for probability forecasts"
+  },
+  {
+   "uid": "U00348",
+   "retained": "doi:10.1145/2482540.2482575",
+   "twins": [
+    "10.1145/2492002.2482575"
+   ],
+   "title": "An axiomatic characterization of adaptive-liquidity market makers"
+  },
+  {
+   "uid": "U00430",
+   "retained": "doi:10.1145/2482540.2482608",
+   "twins": [
+    "10.1145/2492002.2482608"
+   ],
+   "title": "Cost function market makers for measurable spaces"
+  },
+  {
+   "uid": "U00846",
+   "retained": "doi:10.1287/opre.2022.0417",
+   "twins": [
+    "10.1145/3490486.3538347"
+   ],
+   "title": "Price Interpretability of Prediction Markets: A Convergence Analysis"
+  },
+  {
+   "uid": "U03469",
+   "retained": "doi:10.2139/ssrn.5502658",
+   "twins": [
+    "10.65864/s9kc4p0b7t"
+   ],
+   "title": "Makers and Takers: The Economics of the Kalshi Prediction Market"
+  },
+  {
+   "uid": "U03692",
+   "retained": "doi:10.2139/ssrn.7170178",
+   "twins": [
+    "10.2139/ssrn.7175258"
+   ],
+   "title": "Mistiming is not Arbitrage: A Pre-registered Falsification of Cross-Platform Prediction-market Arbitrage, and "
+  },
+  {
+   "uid": "U04426",
+   "retained": "doi:10.2139/ssrn.6396698",
+   "twins": [
+    "10.2139/ssrn.6556613"
+   ],
+   "title": "Skilled Liquidity Provision in Prediction Markets: Evidence from 150 Million Trades"
+  }
+ ],
+ "merge_group_size_histogram": {
+  "12": 2,
+  "11": 2,
+  "10": 1,
+  "9": 1,
+  "7": 8,
+  "6": 11,
+  "5": 51,
+  "4": 220,
+  "3": 826,
+  "2": 4433
+ }
+}

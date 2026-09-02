@@ -14,7 +14,7 @@ scope_note: |
 
 ## Thread A — Phase 2 explosive-regime review close-out
 
-- [ ] `docs/literature/lit_review_explosive-regime-dating_2026-08-24.md`
+- [x] `docs/literature/lit_review_explosive-regime-dating_2026-08-24.md`
   - state: PRISMA 2020 review over the frozen 72-record included corpus: flow
     accounting (identified/screened/excluded-with-reasons/included) reconciling
     with the search logs and kappa records; one appraisal row per included study
@@ -29,7 +29,7 @@ scope_note: |
     `se-kappa-computation.json`; appraisal row count equals 72; both Phillips
     full-text sections present; three NB verdicts explicit.
 
-- [ ] `docs/research_notes/research_agenda_regime-classification_2026-08-21.md` (rev 4)
+- [x] `docs/research_notes/research_agenda_regime-classification_2026-08-21.md` (rev 4)
   - state: Branch 3 integrates the review's verdicts; every "full-text pass
     pending" caveat is discharged or corrected at each site it appears
     (Definitional basis (d), branch 3, Verification status); supersession markers
@@ -37,11 +37,14 @@ scope_note: |
   - check: grep for "pending full-text" returns no hit that refers to an
     adjudicated record; rev header reads 4.
 
-- [ ] `docs/audits/audit_trail_phase2-explosive-review_2026-08-24.md`
+- [x] `docs/audits/audit_trail_phase2-explosive-review_2026-08-24.md`
   - state: WI-3 §2 trail for the audit round covering the Thread A artifacts;
     22 required front-matter keys; 7 required body sections; attested.
-  - check: file exists, written this session, all 22 keys present, sidecar SHA
-    recorded.
+  - check: PASSED 2026-09-02 — written this session by the workflow's trail
+    phase, attested by an independent reproducibility-verifier agent; 22/22
+    front-matter keys verified by key-presence check; sidecar SHA recorded;
+    round-2 and round-3 sections appended to the same file per the append-only
+    rule.
 
 ## Thread B — standing round-3 audit failures
 
@@ -85,42 +88,89 @@ having been run, not on work performed this session.
 
 ## Thread C — Kalshi / binary-event-market arbitrage branch
 
-- [ ] `docs/decisions/ADR-0004-quant-rule-adoption-prediction-markets.md`
+- [x] `docs/decisions/ADR-0004-quant-rule-adoption-prediction-markets.md`
   - state: ADR recording that rules/quant-project.md and REVIEW.md are adopted
     by explicit reference for the prediction-market branch and for that branch
     only; states which blocking directives bind a literature-only stage
     (directive 8: citation-or-derivation) versus which bind only a future
     empirical stage (directives 1-7); states the boundary against ADR-0003
     (specification, not execution).
-  - check: file exists; ADR template sections present; adoption scope names the
-    branch, not the repository.
+  - check: PASSED 2026-09-02 — file exists; Status/Date/Deciders/Context/Decision/
+    Consequences/Alternatives/References present; adoption scope delimits the
+    branch by artifact-path set and explicitly excludes the explosive-regime,
+    charter, context-portability and architecture threads.
 
-- [ ] `docs/methodology/protocol_kalshi-arbitrage-review_2026-09-02.md`
+- [x] `docs/methodology/protocol_kalshi-arbitrage-review_2026-09-02.md`
   - state: Registered search protocol: review question; eligibility criteria
     fixed in advance; named databases with verbatim query templates; inclusion
     and exclusion rules; the CONVENTION label on every element whose source is
     convention rather than a cited standard; explicit statement that this is a
     registered search producing a corpus, NOT a dual-screened systematic review,
     with the PRISMA items thereby unmet enumerated.
-  - check: file exists; SHA-256 computed and recorded; every DOI cited in the
-    protocol handle-resolves.
+  - check: PASSED 2026-09-02 — file exists; SHA-256
+    99524df02696a59ab878173ce7f3636d9cd07067b5a801a677cdf5d126fa13f4 computed by
+    the lead and recorded in commit 27d7473; 29/29 cited DOIs returned
+    responseCode 1 from the DOI Handle System and were cross-checked against
+    Crossref (record: docs/literature/search_logs/kalshi-arbitrage/protocol-doicheck.json);
+    the one non-DOI identifier arXiv:1206.5252 verified against the arXiv API.
 
-- [ ] Registration commit for the Thread C protocol
+- [x] Registration commit for the Thread C protocol
   - state: The frozen protocol committed via /commit-with-provenance with its
     SHA-256 in the commit body; no Thread C search executes before this commit.
-  - check: `git log` shows the protocol commit with Repro-Log trailers,
-    timestamped before the earliest execution date in the Thread C search logs.
+  - check: PASSED 2026-09-02 with a stated granularity limit — commit 27d7473 at
+    2026-09-02T10:20:28-05:00 carries Repro-Log-Path, Repro-Log-SHA256 and
+    AI-Assistance trailers. The search logs record execution DATE only
+    (2026-09-02), not time, so the logs alone cannot order the two within the
+    day. Ordering rests instead on two independent facts: the search executor was
+    dispatched after the commit existed, and it verified the frozen protocol
+    SHA-256 99524df02696 against the committed file before its first query.
 
-- [ ] `docs/literature/search_logs/kalshi-arbitrage/` + `docs/literature/references_kalshi-arbitrage.json`
+- [x] `docs/literature/search_logs/kalshi-arbitrage/` + `docs/literature/references_kalshi-arbitrage.json`
   - state: Every protocol query executed verbatim post-registration, one log per
     query recording database, platform, verbatim query string, execution date
     and result count; deviations recorded as numbered append-only protocol
     amendments, never silently; CSL-JSON store parses and covers every record
     advanced past identification.
-  - check: the store parses as JSON under the project venv; every protocol query
-    has a log file or a logged amendment.
+  - check: PASSED 2026-09-02 — store parses as a 149-entry JSON list (sha256
+    fb0cf87ed53dcb0b37076fc5e441c0125ad94644603deb9a9604d5ce5f5c8164); 149 files
+    in the log directory; all 86 protocol query rows executed, with the five
+    deviations recorded as numbered append-only amendments A1-A5 in
+    ka-protocol-amendments.md. NOTE, not covered by this check: amendment A5's
+    disposition code X11 leaves 643 records with eligibility UNDECIDED and A4's
+    X10 leaves 545 eligible-but-unextracted, so 1,188 records reached the end of
+    screening unresolved. That is a defect of the corpus, audited separately.
+  - CORRECTION 2026-09-02, audit finding SCOPE-2-2 — the tick above stands as
+    written and is NOT edited; it is superseded here, as this spec already does
+    for Thread B. The check was executed BEFORE the round-1 remediation and the
+    delivery has since moved on four numbers. Restated as executed after
+    remediation rounds 1 and 2:
+      * FIFTEEN numbered append-only amendments, not five: A1-A5 during
+        execution, A6-A12 at round-1 audit remediation, A13-A15 at round-2. All
+        fifteen are in ka-protocol-amendments.md AND, from A12, in the frozen
+        protocol's own append-only addendum.
+      * NOT all 86 protocol query rows executed as a complete strategy. TWO
+        protocol arms were never executed and are now declared as numbered
+        amendments: A6, the ka-bc-{n} backward citation-chasing arm, whose recall
+        consequence is gap G-7; and A7, the SSRN supplementary site-search arm,
+        whose recall consequence is gap G-9 and access gap AG-9. G-9 is material:
+        31 of the 149 included records and 15 of the 19 Kalshi-specific records
+        carry SSRN DOIs.
+      * The unresolved split is 545 X10 + 700 X11 = 1,245, not 643 and not 1,188.
+        Amendment A11 corrected an unanchored-substring defect in the X5 rule and
+        moved 57 records from a criterion failure into the undecided stratum.
+      * The log directory holds 159 files, not 149. The additions are the round-1
+        and round-2 remediation artefacts: ka-partition-script.py,
+        ka-gate-verdict.json, ka-counterfactuals.py/.json,
+        ka-query-token-inventory.py/.json, ka-store-registrant-sweep.py/.json,
+        ka-store-arxiv-venuecheck.py/.json and ka-store-retroreg-yearcheck.json.
+      * The store still parses as a 149-entry JSON list and its digest is
+        UNCHANGED at
+        fb0cf87ed53dcb0b37076fc5e441c0125ad94644603deb9a9604d5ce5f5c8164.
+        No round-2 finding moved a record into or out of the corpus.
+    This note supersedes the tick's completeness picture; it does not un-tick the
+    item, because the artifacts it names do exist.
 
-- [ ] `docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md`
+- [x] `docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md`
   - state: Compiled corpus record per the research-compile skill: search
     provenance, per-source counts, inclusion/exclusion with reasons, and a
     synthesis of what the literature establishes about arbitrage and
@@ -130,27 +180,74 @@ having been run, not on work performed this session.
     cross-venue price-discrepancy evidence. Every claim carries a citation; each
     Kalshi-specific claim is separated from claims generalized from other venues,
     and each generalization states the assumption that carries it.
-  - check: every claim line carries a resolvable citation; a Kalshi-specific vs
-    generalized separation is present as a column or a section boundary; zero
-    unattributed factors per REVIEW.md blocking directive 8.
+  - check: PASSED 2026-09-02 on the three stated conditions — the audit found
+    REVIEW.md blocking directive 8 SATISFIED (every rule-shaped statement carries
+    its source plus an explicit E14 non-endorsement; the corpus states no rule of
+    its own; no unattributed folklore factor found); the Kalshi-specific vs
+    generalized separation is present as structural 8.x.1 / 8.x.2 blocks with the
+    carrying assumption on the same line as every generalized claim; identifiers
+    resolve 149/149 at the DOI Handle System.
+    **TICKED ON THIS CHECK ONLY, AND THE CHECK DOES NOT COVER WHAT MATTERS MOST.**
+    The artifact self-reports gate verdict `block`. After two audit rounds the
+    residual is that 98.3% of screening dispositions are keyword-classifier
+    outputs, 1,245 records ended screening unresolved (700 eligibility UNDECIDED),
+    and no full text was read for any of the 149 included records. The round-2
+    critical-reviewer's direct answer: a defensible compiled corpus record of what
+    a published classifier retrieved and what 116 abstracts plus 33 metadata stubs
+    state — defensible because the claims were trimmed to that, not because the
+    evidence base improved; its largest strand reads as a reading list with
+    transfer flags, not a synthesis. Round 3 of the 3-round cap was NOT run, so
+    the round-2 remediation is unverified. See
+    `docs/audits/audit_trail_open-items-kalshi-arbitrage_2026-09-02.md` §5.1, §5.3.
 
-- [ ] `docs/research_notes/research_agenda_prediction-market-microstructure_2026-09-02.md`
+- [x] `docs/research_notes/research_agenda_prediction-market-microstructure_2026-09-02.md`
   - state: New branch agenda: numbered research branches derived from the gaps
     the corpus exposes, each with a falsification test that is a genuine
     branch-level test (the defect repaired in the 2026-08-21 agendas), and each
     with its evidence tier.
-  - check: one falsification test per branch; no test that is a design-resolution
-    study, precondition, or adoption policy mislabelled as a test.
+  - check: PASSED 2026-09-02 — six numbered research branches, one falsification
+    test each, plus a Branch 0 precondition branch carrying no test BY DESIGN and
+    saying so, which is exactly the distinction this check enforces (the
+    2026-08-21 agendas' defect was mislabelling preconditions AS tests). Seven
+    identifiers verified live at the Handle System; four methodology DOIs verified
+    against Crossref and flagged non-corpus; TO COMPUTE parameters left uncomputed
+    with their selection rule named, per ADR-0003. Written in the unverified
+    post-round-2 pass.
 
 ## Thread D — session close
 
-- [ ] `docs/audits/audit_trail_open-items-kalshi-arbitrage_2026-09-02.md`
-  - state: WI-3 §2 trail for this session's audit round(s) over Threads B and C;
-    22 front-matter keys; 7 body sections; refute-gate dispositions verbatim for
-    every gated finding; attested.
-  - check: file exists, written this session, 22 keys present, sidecar SHA
-    recorded, refute-gate section non-empty or explicitly stating zero gated
-    findings.
+- [x] `docs/audits/audit_trail_kalshi-arbitrage-review_2026-09-02.md`
+      (+ `.json`, + `.round2.json`)
+  - state: WI-3 §2 trail for this session's audit round(s); 22 front-matter keys;
+    7 body sections; refute-gate dispositions verbatim for every gated finding;
+    attested.
+  - RENAMED 2026-09-02, audit finding SCOPE-2-4. This item previously named
+    `docs/audits/audit_trail_open-items-kalshi-arbitrage_2026-09-02.md` and
+    declared a single trail "covering this session's audit round(s) over Threads B
+    and C". Two facts made that unsatisfiable as written, and both are recorded
+    here rather than worked around:
+      * The trail actually written and shipped uses the PER-BRANCH slug
+        `audit_trail_kalshi-arbitrage-review_*`, which no spec item named, so the
+        delivered artifact sat under an unnamed path and the round-2 trail would
+        have inherited the same problem. The item is renamed to the slug in use.
+      * NO TRAIL COVERS THREAD B, and none will: Thread B carried no audit round
+        in this session because it was discharged pre-session. The Thread D item's
+        "over Threads B and C" is therefore replaced by "over the audit rounds
+        this session actually ran", which are the Thread C rounds 1 and 2.
+    Neither change relaxes the content requirements below; only the path and the
+    thread coverage are reconciled with what exists.
+  - check: PASSED 2026-09-02 — `audit_trail_kalshi-arbitrage-review_2026-09-02.md`
+    exists with 22/22 keys and its `.json` + `.round2.json` sidecars; refute-gate
+    sections non-empty (4 killed in round 1, 3 in round 2). Thread B's absence is
+    the recorded decision above, not an open box.
+    ADDITIONALLY DELIVERED, beyond this item: the lead wrote a SESSION-LEVEL trail
+    at `docs/audits/audit_trail_open-items-kalshi-arbitrage_2026-09-02.md`
+    (22/22 keys, YAML parses, sidecar sha256 `4a8520439ca9de0e…`) indexing both
+    per-branch trails and carrying what neither can: the cross-thread totals
+    (5 rounds, 184 agents, 5 critical / 146 major / 95 minor, 11 refuted, 140
+    remediated), the gate-calibration note, and the consolidated residual-risk
+    report. The original item name is retained by that file, so the rename above
+    costs no coverage.
 
 - [ ] Final commit via /commit-with-provenance --role=multi
   - state: All Thread A-D artifacts committed with Repro-Log-Path,
@@ -230,6 +327,21 @@ having been run, not on work performed this session.
   excluded: MUST NOT re-raise minors logged in prior specs; MUST NOT drop any
     critical/major finding without concrete enumerated counter-evidence per the
     refute-gate triage rule.
+
+# Recorded deviations
+
+- **Round-1 remediation of the Thread A review was DELEGATED, not self-executed**
+  (2026-09-02). The audit-remediate-loop assigns step 5 "Remediate. Apply fixes"
+  to the lead session, and this spec's Self-executed list assumed that. Of the 24
+  surviving major findings, four (REV-1-7, QUANT-1-6, LITERATURE-1-6, SCOPE-1-6)
+  are agenda-transcription fixes and were remediated by the lead as declared. The
+  other 20 land in the review, the corpus store and the protocol addendum, and
+  three of them — LITERATURE-1-4 (full Crossref page/volume check across all 62
+  DOI-bearing records), LITERATURE-1-2 (re-dating and re-tiering eru-1289) and
+  SCOPE-1-4 (execute the backward citation-chasing arm or waive it by dated
+  amendment) — require network retrieval the lead session cannot perform. They
+  were dispatched to research-librarian. Round 2 audits the result independently,
+  so the fix is not self-reviewed.
 
 # Self-executed
 

@@ -1,0 +1,4613 @@
+{
+ "query_id": "ka-fc-s2-a6-p007",
+ "protocol_query_id": "ka-fc-s2-a6",
+ "arm": "forward-citation",
+ "platform": "semanticscholar",
+ "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/0304-405X(85)90044-3/citations?fields=title,year,venue,externalIds,abstract,citationCount&limit=1000&offset=6000",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": null,
+ "retrieved_count": 147,
+ "page": 7,
+ "offset": 6000,
+ "retry_attempts": 1,
+ "raw": {
+  "offset": 6000,
+  "data": [
+   {
+    "citingPaper": {
+     "paperId": "2aafe8f83ceca9d0c20539109d5d68cd3bac0759",
+     "externalIds": {
+      "MAG": "2476871502",
+      "CorpusId": 132064812
+     },
+     "title": "Le contenu informatif des prix et des volumes à la bourse de Paris",
+     "venue": "",
+     "year": 1997,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2073530614",
+       "name": "Jean-François Gajewski"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8787b5514c8f2abe6d74cf862a1eddb6d786cd0c",
+     "externalIds": {
+      "MAG": "1567767576",
+      "CorpusId": 153792673
+     },
+     "title": "The determinants of BUND-future price changes: An ordered probit analysis using DTB and LIFFE data",
+     "venue": "",
+     "year": 1997,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "50353030",
+       "name": "Ulrich Kaiser"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f06895a1e5e84b5ebc0b9d9473931c1e246ced52",
+     "externalIds": {
+      "CorpusId": 14624399
+     },
+     "title": "Generating market risk scenarios using principal components analysis: methodological and practical considerations",
+     "venue": "",
+     "year": 1997,
+     "citationCount": 32,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "152386821",
+       "name": "M. Loretan"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b7d3ede0ae40b8cd53ffaf6dfaa38dd31c6c0150",
+     "externalIds": {
+      "MAG": "131492220",
+      "DOI": "10.1007/BFB0091998",
+      "CorpusId": 167101202
+     },
+     "title": "Risk sharing, adverse selection and market structure",
+     "venue": "",
+     "year": 1997,
+     "citationCount": 12,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/BFB0091998?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/BFB0091998, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1831662",
+       "name": "B. Biais"
+      },
+      {
+       "authorId": "2095325",
+       "name": "J. Rochet"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8f45996865a24a8eacb3df90010b948c3b0e300a",
+     "externalIds": {
+      "MAG": "2098051929",
+      "DOI": "10.1007/978-1-4615-6337-2_7",
+      "CorpusId": 167766821
+     },
+     "title": "The Information Content of Specialist Pricing: A Dynamic Model",
+     "venue": "",
+     "year": 1997,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-1-4615-6337-2_7?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-1-4615-6337-2_7, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1720227",
+       "name": "Sandro Brusco"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5468ff9f5db5c6a932d23761aa62f3860f988c6a",
+     "externalIds": {
+      "MAG": "1538222246",
+      "DOI": "10.1023/A:1008288519675",
+      "CorpusId": 152656010
+     },
+     "title": "Alternative Liquidity Measures and Stock Returns",
+     "venue": "",
+     "year": 1997,
+     "citationCount": 50,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1023/A:1008288519675?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1023/A:1008288519675, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "113699543",
+       "name": "Brian D. Kluger"
+      },
+      {
+       "authorId": "145304494",
+       "name": "J. Stephan"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5504979ea19a7dea1438a27b6f52a49fce736ba7",
+     "externalIds": {
+      "MAG": "2488101171",
+      "DOI": "10.1007/978-1-349-25315-9_3",
+      "CorpusId": 168526351
+     },
+     "title": "Market Regulation and Particularistic Interests: The Dynamics of Insider Trading Regulation in the US and Europe",
+     "venue": "",
+     "year": 1997,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-1-349-25315-9_3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-1-349-25315-9_3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "52387416",
+       "name": "J. McCahery"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "81c2576553b0800016d828d142175604bddaeb99",
+     "externalIds": {
+      "MAG": "2064298825",
+      "DOI": "10.1016/S0927-5398(96)00012-6",
+      "CorpusId": 154486801
+     },
+     "title": "Limit orders and ex-dividend day return distributions",
+     "venue": "",
+     "year": 1997,
+     "citationCount": 9,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/S0927-5398(96)00012-6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/S0927-5398(96)00012-6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "79378501",
+       "name": "David A. Dubofsky"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "59c5979fb9df8f0ae638fca2266ee6b1f4822b42",
+     "externalIds": {
+      "MAG": "2008511691",
+      "DOI": "10.1016/S0304-405X(96)00892-6",
+      "CorpusId": 153442825
+     },
+     "title": "The effects of equity issues on ownership structure and stock liquidity: A comparison of rights and public offerings",
+     "venue": "",
+     "year": 1997,
+     "citationCount": 150,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/S0304-405X(96)00892-6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/S0304-405X(96)00892-6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "118636370",
+       "name": "M. Kothare"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "e80cdfebe7813a6deb342b2474ac16173cbea961",
+     "externalIds": {
+      "MAG": "767201556",
+      "DOI": "10.1007/978-3-642-59039-9_4",
+      "CorpusId": 153007347
+     },
+     "title": "Foreign Exchange Vehicles Before and After EMU: From Dollar/Mark to Dollar/Euro?",
+     "venue": "",
+     "year": 1997,
+     "citationCount": 29,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-3-642-59039-9_4?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-3-642-59039-9_4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1484526577",
+       "name": "Philipp Hartmann"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "e89938e639927517bcf96a605293310d4dc8263c",
+     "externalIds": {
+      "CorpusId": 9738512
+     },
+     "title": "Autoregressive Condditional Duration: A New Model for. . .",
+     "venue": "",
+     "year": 1997,
+     "citationCount": 20,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "35535410",
+       "name": "R. Engle"
+      },
+      {
+       "authorId": "145068090",
+       "name": "Jeffrey R. Russell"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "04f023b412e215e1894c4bc934401cf2859597d3",
+     "externalIds": {
+      "CorpusId": 15568607
+     },
+     "title": "STOCK MARKET TRADING , PRICE FORMATION , AND OPTIMAL MANAGEMENT COMPENSATION : THEORY AND EVIDENCE",
+     "venue": "",
+     "year": 1996,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "47207552",
+       "name": "G. Garvey"
+      },
+      {
+       "authorId": "118732494",
+       "name": "M. McCorry"
+      },
+      {
+       "authorId": "46257100",
+       "name": "P. Swan"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6d1d5bac627e2879797d3ded05a23c20917c40b4",
+     "externalIds": {
+      "MAG": "1414546976",
+      "CorpusId": 17298799
+     },
+     "title": "An econometric assessment of the change in quality of the Irish gilt market since the introduction of market making",
+     "venue": "",
+     "year": 1996,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "145878873",
+       "name": "Peter G. Dunne"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "839dc075cd3c981b491d5f193c3df8400c6ab2a7",
+     "externalIds": {
+      "MAG": "3023564889",
+      "DOI": "10.2139/ssrn.7667",
+      "CorpusId": 8352963
+     },
+     "title": "Changes in REIT liquidity 1990-94: evidence from intra-day transactions",
+     "venue": "",
+     "year": 1996,
+     "citationCount": 67,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.7667",
+      "status": "GREEN",
+      "license": "public-domain",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.2139/ssrn.7667?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/ssrn.7667, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "145860469",
+       "name": "V. Bhasin"
+      },
+      {
+       "authorId": "145390231",
+       "name": "Rebel A. Cole"
+      },
+      {
+       "authorId": "119194011",
+       "name": "Joseph K. Kiely"
+      }
+     ],
+     "abstract": "In this study, we use data on intra-day transactions to analyze whether REIT liquidity as measured by the bid-ask spread changed from 1990 to 1994, a period during which the industry s market capitalization increased from $9 billion to $45 billion. We find that REIT spreads narrowed significantly. We then use a variation of the empirical model proposed by Stoll (1978) to analyze the determinants of percentage spreads including whether spreads are determined by return variability, share price, exchange listing, and asset type. We find strong support for Stoll s model, in that return variance and share price are the primary determinants of percentage spreads in both periods analyzed. This suggests that the liquidity of REIT securities is similar to that of non-REIT securities with similar prices and return variance. In addition, we find that spreads are wider for REITs trading on NASDAQ. In contrast with an earlier study, we find that market capitalization is not a significant determinant of REIT spreads."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "349b6b7d1bf4de1526039febb94b11a77ed7731a",
+     "externalIds": {
+      "MAG": "1641830431",
+      "CorpusId": 167041274
+     },
+     "title": "Small European securities markets : a study of trading volume and institutional factors in the evolution of selected European markets",
+     "venue": "",
+     "year": 1996,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "4772048",
+       "name": "T. Webb"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5a55fc70c035a2bef9861d98bcdee55421680bea",
+     "externalIds": {
+      "MAG": "2041641538",
+      "DOI": "10.1080/07350015.1998.10524739",
+      "CorpusId": 154476969
+     },
+     "title": "Dynamic bivariate mixture models: Modeling the behavior of prices and trading volume",
+     "venue": "",
+     "year": 1996,
+     "citationCount": 48,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1080/07350015.1998.10524739?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/07350015.1998.10524739, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2892516",
+       "name": "R. Liesenfeld"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d3b41ad2a6d704e3da3641ed45eec792df73b9d5",
+     "externalIds": {
+      "MAG": "2163588977",
+      "DOI": "10.1257/JEP.10.3.135",
+      "CorpusId": 154978816
+     },
+     "title": "Market Microstructure and Intermediation",
+     "venue": "",
+     "year": 1996,
+     "citationCount": 449,
+     "openAccessPdf": {
+      "url": "https://www.aeaweb.org/articles/pdf/doi/10.1257/jep.10.3.135",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1257/JEP.10.3.135?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1257/JEP.10.3.135, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "3305887",
+       "name": "Daniel F. Spulber"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "63cdace621155400a57299645d6a86d7082b1c3a",
+     "externalIds": {
+      "MAG": "1989202289",
+      "DOI": "10.1007/BF00290794",
+      "CorpusId": 153349349
+     },
+     "title": "Bid-ask bounce and speads in the foreign exchange futures market",
+     "venue": "",
+     "year": 1996,
+     "citationCount": 25,
+     "openAccessPdf": {
+      "url": "https://ink.library.smu.edu.sg/lkcsb_research/762",
+      "status": "GREEN",
+      "license": "other-oa",
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/BF00290794?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/BF00290794, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "51473059",
+       "name": "Quentin C. Chu"
+      },
+      {
+       "authorId": "1399191196",
+       "name": "David K. Ding"
+      },
+      {
+       "authorId": "116588758",
+       "name": "C. S. Pyun"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a7a719e062d0e801bed2d8e43a9d7237f26b87bf",
+     "externalIds": {
+      "MAG": "2330360904",
+      "DOI": "10.2307/2491426",
+      "CorpusId": 155379458
+     },
+     "title": "Discussion of a model of two-tiered financial reporting",
+     "venue": "",
+     "year": 1996,
+     "citationCount": 7,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2307/2491426?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2307/2491426, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "3474818",
+       "name": "Robert E. Verrecchia"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "02326c1b55c7804eddae63945f4baa15cc668724",
+     "externalIds": {
+      "MAG": "301983250",
+      "CorpusId": 160367353
+     },
+     "title": "Il comportamento strategico degli specialisti in titoli di Stato",
+     "venue": "",
+     "year": 1996,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2102771990",
+       "name": "Maurizio Ordine"
+      },
+      {
+       "authorId": "2079472102",
+       "name": "Antonio Scalia"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4d1bc63de4956fda319cc1363c24c1408d3f56fd",
+     "externalIds": {
+      "CorpusId": 167944664
+     },
+     "title": "An Empirical Analysis of the Trading Structure at the Stockholm Stock Exchange",
+     "venue": "",
+     "year": 1996,
+     "citationCount": 49,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "46260567",
+       "name": "Jonas Niemeyer"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5d0ddb19ecdc4504f2d33be562b2c359a59ba3d8",
+     "externalIds": {
+      "MAG": "34630992",
+      "DOI": "10.2139/ssrn.1068",
+      "CorpusId": 150828443
+     },
+     "title": "The \"Dartboard\" Column: The Pros, the Darts, and the Market",
+     "venue": "",
+     "year": 1996,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.1068",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/ssrn.1068?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/ssrn.1068, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2065526203",
+       "name": "B. Liang"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5b20d7cccc0d47c3cb8b111228a699386b5d805b",
+     "externalIds": {
+      "MAG": "1995673680",
+      "DOI": "10.1086/296676",
+      "CorpusId": 153491098
+     },
+     "title": "Market Making, the Tick Size, and Payment-for-Order Flow: Theory and Evidence",
+     "venue": "",
+     "year": 1995,
+     "citationCount": 127,
+     "openAccessPdf": {
+      "url": "https://figshare.com/articles/journal_contribution/Market_Making_the_Tick_Size_and_Payment-for-Order_Flow_Theory_and_Evidence/20615085",
+      "status": "GREEN",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1086/296676?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1086/296676, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "104633810",
+       "name": "Tarun Chordia"
+      },
+      {
+       "authorId": "3389595",
+       "name": "A. Subrahmanyam"
+      }
+     ],
+     "abstract": "The authors analyze the effects of a finite tick size and the practice of 'payment-for-order flow' on market competition. Even if the New York Stock Exchange (NYSE) reservation price is superior to its non-NYSE counterpart, brokers may, because of payment-for-order flow, prefer to execute orders off the NYSE floor. In accordance with the implications of the model, empirical analysis suggests that non-NYSE marketmakers trade a larger fraction of the smaller order sizes and offer fewer price improvement opportunities and that large companies appear to have enhanced price improvement opportunities on the NYSE. Copyright 1995 by University of Chicago Press."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4f7188eb2f432517a223ed4f42b6d33b0f8acc5e",
+     "externalIds": {
+      "CorpusId": 15854748
+     },
+     "title": "A Theory of Analyst Forecast",
+     "venue": "",
+     "year": 1995,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2080260297",
+       "name": "BiasMurugappa"
+      },
+      {
+       "authorId": "2090807787",
+       "name": "Krishnan"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4cbc663ea8f3a50a238fa5b89bfa100c465a4f23",
+     "externalIds": {
+      "MAG": "2187235978",
+      "CorpusId": 12631532
+     },
+     "title": "INTRODUCTION TO THE MARKET MICROSTRUCTURE LITERATURE APPLIED TO THE FOREIGN EXCHANGE MARKET",
+     "venue": "",
+     "year": 1995,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "119031604",
+       "name": "C. Plat"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c3fb1a945cb70a5d7f7513157b59a05d0cbf61e4",
+     "externalIds": {
+      "MAG": "2030589044",
+      "CorpusId": 167684586
+     },
+     "title": "Multi-Dimensional Uncertainty and Herd Be-havior in Financial Markets",
+     "venue": "",
+     "year": 1995,
+     "citationCount": 56,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "46655037",
+       "name": "Christopher Avery"
+      },
+      {
+       "authorId": "2097272",
+       "name": "Peter Zemsky"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d6543518fe541b9a323cd5a9646f56846e283d90",
+     "externalIds": {
+      "MAG": "2156513908",
+      "DOI": "10.1016/0020-0255(94)00040-I",
+      "CorpusId": 61650786
+     },
+     "title": "Rate distortion theory and the volatility of asset prices",
+     "venue": "",
+     "year": 1995,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/0020-0255(94)00040-I?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/0020-0255(94)00040-I, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1402933434",
+       "name": "W. D. O'Neill"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "78e9c193d13248f46dfb7e510e68b09209e083ab",
+     "externalIds": {
+      "MAG": "1480824603",
+      "CorpusId": 166376736
+     },
+     "title": "Information Flows in the Foreign Exchange Markets",
+     "venue": "",
+     "year": 1995,
+     "citationCount": 5,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "103048348",
+       "name": "W. Perraudin"
+      },
+      {
+       "authorId": "50843862",
+       "name": "Paolo Vitale"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "31b2fb3cb558250bf34a2c1023b4bdf1220cccce",
+     "externalIds": {
+      "MAG": "1488924298",
+      "CorpusId": 166981904
+     },
+     "title": "Asymmetric information about volatility and option markets",
+     "venue": "",
+     "year": 1995,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "6578224",
+       "name": "Saikat Nandi"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "dd0a51db9b316a2c8ab20d1a7b0a5f8a17c843cc",
+     "externalIds": {
+      "DBLP": "books/el/95/Kleidon95",
+      "MAG": "1589701759",
+      "DOI": "10.1016/S0927-0507(05)80060-X",
+      "CorpusId": 153639198
+     },
+     "title": "Chapter 16 Stock market crashes",
+     "venue": "Finance",
+     "year": 1995,
+     "citationCount": 7,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/S0927-0507(05)80060-X?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/S0927-0507(05)80060-X, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "104114888",
+       "name": "A. Kleidon"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2331c1fcaf9d441de5ece02017650892fbd05d44",
+     "externalIds": {
+      "DBLP": "books/el/95/EasleyO95",
+      "MAG": "1536042628",
+      "DOI": "10.1016/S0927-0507(05)80056-8",
+      "CorpusId": 152445119
+     },
+     "title": "Chapter 12 Market microstructure",
+     "venue": "Finance",
+     "year": 1995,
+     "citationCount": 9,
+     "openAccessPdf": {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0927050705800568/pdf",
+      "status": "HYBRID",
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/S0927-0507(05)80056-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/S0927-0507(05)80056-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1842749",
+       "name": "D. Easley"
+      },
+      {
+       "authorId": "88087434",
+       "name": "Maureen O'Hara"
+      }
+     ],
+     "abstract": "Publisher Summary This chapter discusses important aspects of the market microstructure literature and the theoretical approaches to the behavior of security prices and markets in the presence of differential information. The Walrasian (batch) market approach to modeling security market behavior in the presence of differential information is described. From this point of view there is a single market-clearing price set by some specified market intermediary. Because trades are aggregated and markets operate at specific points in time, this framework is closely related to rational expectations models. An alternative modeling approach is also presented– sequential trade model. In this model trades occur one at a time, different prices to buy and sell are quoted by a market specialist, and the sequence of orders may affect market behavior. From this point of view there is no market price; the price in any transaction will differ depending upon myriad factors such as whether the trade is large or small, the order arose from a buyer or seller, and the order is a limit or a market."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "343144b31c879fef520785abc966dde5e0297792",
+     "externalIds": {
+      "MAG": "2035204684",
+      "DOI": "10.1086/296651",
+      "CorpusId": 154200099
+     },
+     "title": "How Brokers Facilitate Trade For Long-Term Clients in Competitive Securities Markets",
+     "venue": "",
+     "year": 1995,
+     "citationCount": 44,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1086/296651?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1086/296651, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "39861967",
+       "name": "M. Aitken"
+      },
+      {
+       "authorId": "47207552",
+       "name": "G. Garvey"
+      },
+      {
+       "authorId": "46257100",
+       "name": "P. Swan"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "bd9067dfb39eff0a80ca50fb981952077e21e4a9",
+     "externalIds": {
+      "MAG": "1585177194",
+      "DOI": "10.3386/W4984",
+      "CorpusId": 153553473
+     },
+     "title": "Foreign Exchange Volume: Sound and Fury Signifying Nothing?",
+     "venue": "",
+     "year": 1995,
+     "citationCount": 116,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.3386/w4984",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.3386/W4984?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3386/W4984, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2270809544",
+       "name": "Richard K. Lyons"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "56834ac7b5e2da7093af7a524d9202b3d925baf8",
+     "externalIds": {
+      "MAG": "2140061981",
+      "DOI": "10.1300/J284V03N03_05",
+      "CorpusId": 261710418
+     },
+     "title": "An Empirical Analysis of the Trading Structure at the Stockholm Stock Exchange",
+     "venue": "",
+     "year": 1995,
+     "citationCount": 5,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1300/J284V03N03_05?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1300/J284V03N03_05, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "46260567",
+       "name": "Jonas Niemeyer"
+      },
+      {
+       "authorId": "100632138",
+       "name": "Patrik Sandås"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d4e7a7b7caf0597d3fea3bc108a7d06c2d9f8158",
+     "externalIds": {
+      "MAG": "117196521",
+      "DOI": "10.1007/978-3-642-86706-4_17",
+      "CorpusId": 167001973
+     },
+     "title": "Bond Pricing through Bargaining",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-3-642-86706-4_17?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-3-642-86706-4_17, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1807349",
+       "name": "Elisa Luciano"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5e7635e7dfcca09af6cd0a6955c2d0fa06a2c008",
+     "externalIds": {
+      "MAG": "2953272884",
+      "CorpusId": 8256898
+     },
+     "title": "Controlling The Agency Cost of Insider Trading",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 9,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "153260415",
+       "name": "D. Cox"
+      },
+      {
+       "authorId": "39740710",
+       "name": "James S. Ang"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "0f1bb7f6a5257309ac74b8ebfc56ac90f7270857",
+     "externalIds": {
+      "MAG": "1965441138",
+      "DOI": "10.2307/2234673",
+      "CorpusId": 51742308
+     },
+     "title": "UK Directors' Trading: The Impact of Dealings in Smaller Firms",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 93,
+     "openAccessPdf": {
+      "url": "http://eprints.lse.ac.uk/119183/1/dp160.pdf",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2307/2234673?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2307/2234673, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "144676676",
+       "name": "A. Gregory"
+      },
+      {
+       "authorId": "2806410",
+       "name": "J. Matatko"
+      },
+      {
+       "authorId": "134120496",
+       "name": "Ian Tonks"
+      },
+      {
+       "authorId": "101633903",
+       "name": "R. Purkis"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "243a741a561ca4789a58351a57a1e6fe40bf183d",
+     "externalIds": {
+      "MAG": "2010672405",
+      "DOI": "10.1093/RFS/8.1.125",
+      "CorpusId": 17940649
+     },
+     "title": "Short-Term Investment and the Informational Efficiency of the Market",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 171,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/RFS/8.1.125?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/RFS/8.1.125, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "144834442",
+       "name": "X. Vives"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "874cecace7563d3a3f2e0637cae92b3b6672d380",
+     "externalIds": {
+      "MAG": "2156758783",
+      "CorpusId": 18111925
+     },
+     "title": "Quote Revisions and The Quoted Size: An Empirical Analysis",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 15,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2643503",
+       "name": "M. Petersen"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "38aa33200b377b8755b90b6d4260580447e02597",
+     "externalIds": {
+      "MAG": "580041846",
+      "CorpusId": 181742847
+     },
+     "title": "Neue Politische Ökonomie der Regulierung, Deregulierung und Privatisierung",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1449701283",
+       "name": "Philipp Herder-Dorneich"
+      },
+      {
+       "authorId": "120528115",
+       "name": "K. Schenk"
+      },
+      {
+       "authorId": "50855745",
+       "name": "D. Schmidtchen"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f9b6d889759750d3bfe97dbab9e72ff92d311265",
+     "externalIds": {
+      "MAG": "2949486830",
+      "DOI": "10.31390/gradschool_disstheses.5779",
+      "CorpusId": 197813663
+     },
+     "title": "Three Essays on Derivative Securities.",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "https://repository.lsu.edu/cgi/viewcontent.cgi?article=6778&context=gradschool_disstheses",
+      "status": "GOLD",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.31390/gradschool_disstheses.5779?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.31390/gradschool_disstheses.5779, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2095488885",
+       "name": "Paul Brockman"
+      }
+     ],
+     "abstract": "................................ . vli Chapter 1 1."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "878bdfa918e7113655b96fc55fe82984c1521af2",
+     "externalIds": {
+      "MAG": "1532456825",
+      "CorpusId": 161184795
+     },
+     "title": "L'Analyse des prévisions de résultats publiées par les dirigeants d'entreprises",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 2,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "117396091",
+       "name": "Emmanuel Tchemeni"
+      },
+      {
+       "authorId": "80646256",
+       "name": "H. M. Mai"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d3c927d97a5ccf1af0f11acf34af53bd22f93551",
+     "externalIds": {
+      "MAG": "2515688940",
+      "CorpusId": 168552457
+     },
+     "title": "Corporate Financing Decisions and Anonymous",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "119378403",
+       "name": "Ron Giammarino"
+      },
+      {
+       "authorId": "69521194",
+       "name": "R. Heinkel"
+      },
+      {
+       "authorId": "3180700",
+       "name": "Burton Hollifield"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "08759daa26260ca58c83e0027aec5ab7ce478583",
+     "externalIds": {
+      "MAG": "2014394327",
+      "DOI": "10.1093/RFS/7.1.179",
+      "CorpusId": 153969249
+     },
+     "title": "Market Microstructure and Stock Return Predictions",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 274,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/RFS/7.1.179?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/RFS/7.1.179, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2453818373",
+       "name": "Roger D. Huang"
+      },
+      {
+       "authorId": "3374416",
+       "name": "H. Stoll"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d9d344de7e40bf368c612803ac6f6d3a6c82fe8c",
+     "externalIds": {
+      "MAG": "2085538322",
+      "DOI": "10.1016/0165-4101(94)90004-3",
+      "CorpusId": 154903576
+     },
+     "title": "Market liquidity and volume around earnings announcements",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 1824,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/0165-4101(94)90004-3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/0165-4101(94)90004-3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "145925679",
+       "name": "Oliver Kim"
+      },
+      {
+       "authorId": "3474818",
+       "name": "Robert E. Verrecchia"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "cd11264ebf5c775e1a5a249d8d64860907c08a0e",
+     "externalIds": {
+      "MAG": "28826599",
+      "DOI": "10.1007/978-94-011-1208-6_9",
+      "CorpusId": 150616935
+     },
+     "title": "The integration of European futures markets on long-term government securities",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-94-011-1208-6_9?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-94-011-1208-6_9, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "47696080",
+       "name": "M. Esposito"
+      },
+      {
+       "authorId": "118908535",
+       "name": "C. Giraldi"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "9183fbb4a95590081b7e7d3db3b30479fab6b42f",
+     "externalIds": {
+      "MAG": "85591595",
+      "CorpusId": 166935972
+     },
+     "title": "The impact of SEC's segment disclosure requirement on bid-ask spreads",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 134,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "51000474",
+       "name": "M. Greenstein"
+      },
+      {
+       "authorId": "97896469",
+       "name": "Heibatollah Sami"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "365cb1aad4b9c97f63d62b78ca2fdd753bf4c6c7",
+     "externalIds": {
+      "MAG": "2097052486",
+      "DOI": "10.1007/978-94-015-8350-3_23",
+      "CorpusId": 262363252
+     },
+     "title": "Market Liquidity Risk",
+     "venue": "",
+     "year": 1994,
+     "citationCount": 18,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-94-015-8350-3_23?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-94-015-8350-3_23, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "116646531",
+       "name": "E. Davis"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "62c1f4fe199b838665a487efa20ed9d59dd6d7df",
+     "externalIds": {
+      "MAG": "2181549578",
+      "CorpusId": 43123311
+     },
+     "title": "THE DETERMINANTS OF DIVIDEND POLICY",
+     "venue": "",
+     "year": 1993,
+     "citationCount": 50,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2081188916",
+       "name": "Cezary Mech"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5dab0d4d78ea6f5ce848e4ac28fa99af63c65946",
+     "externalIds": {
+      "MAG": "2023626913",
+      "DOI": "10.1086/296600",
+      "CorpusId": 153803113
+     },
+     "title": "Liquidity Effects of the Introduction of the S&P 500 Index Futures Contract on the Underlying Stocks",
+     "venue": "",
+     "year": 1993,
+     "citationCount": 123,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1086/296600?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1086/296600, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "66052545",
+       "name": "Narasimhan Jegadeesh"
+      },
+      {
+       "authorId": "3389595",
+       "name": "A. Subrahmanyam"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "07c059ae1c3290a6254ffb17b5c1298cce5ef68e",
+     "externalIds": {
+      "MAG": "53753198",
+      "DOI": "10.1007/978-3-642-46938-1_13",
+      "CorpusId": 166684369
+     },
+     "title": "Market Making with Noise: The Case of a Specialist Financial Market with Heterogeneous Traders",
+     "venue": "",
+     "year": 1993,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-3-642-46938-1_13?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-3-642-46938-1_13, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1807349",
+       "name": "Elisa Luciano"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "78e295a25da02f857589e3c762c4326dcf4ff507",
+     "externalIds": {
+      "MAG": "1979161134",
+      "DOI": "10.1093/RFS/6.1.191",
+      "CorpusId": 153960281
+     },
+     "title": "Assessing the Quality of a Security Market: A New Approach to Transaction-Cost Measurement",
+     "venue": "",
+     "year": 1993,
+     "citationCount": 515,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/RFS/6.1.191?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/RFS/6.1.191, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "97896536",
+       "name": "Joel Hasbrouck"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8d014afeb8c54a88043fed6f87cfbd18a20f63e2",
+     "externalIds": {
+      "MAG": "2283584955",
+      "DOI": "10.1007/978-3-322-86735-3_3",
+      "CorpusId": 155920234
+     },
+     "title": "Überblick über Erklärungsansätze zur Finanzintermediation",
+     "venue": "",
+     "year": 1993,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-3-322-86735-3_3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-3-322-86735-3_3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2200426",
+       "name": "W. Breuer"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "490ee7acd78719cd92691d6894a33fcd8aac20dd",
+     "externalIds": {
+      "MAG": "2133687654",
+      "DOI": "10.1007/978-94-011-2180-4_4",
+      "CorpusId": 154679853
+     },
+     "title": "An empirical examination of market maker profits on the London stock exchange",
+     "venue": "",
+     "year": 1993,
+     "citationCount": 28,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-94-011-2180-4_4?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-94-011-2180-4_4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "24693694",
+       "name": "A. Neuberger"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f655e4b6d0ee04b182a1a43237157ca0237f384d",
+     "externalIds": {
+      "MAG": "94053287",
+      "DOI": "10.1016/S1574-0005(05)80011-6",
+      "CorpusId": 18144730
+     },
+     "title": "Chapter 8 Strategic analysis of auctions",
+     "venue": "",
+     "year": 1992,
+     "citationCount": 161,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/S1574-0005(05)80011-6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/S1574-0005(05)80011-6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2109032373",
+       "name": "Robert B. Wilson"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6e9784f43b4e97a47a760ce72c46c9ec6633bcc6",
+     "externalIds": {
+      "MAG": "2007440627",
+      "DOI": "10.1086/296573",
+      "CorpusId": 154133102
+     },
+     "title": "A Comparison of Transaction Costs between Competitive Market Maker and Specialist Market Structures",
+     "venue": "",
+     "year": 1992,
+     "citationCount": 101,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1086/296573?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1086/296573, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "46719808",
+       "name": "R. Neal"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4d7d88eed06d84e27f2c36f5ad698922a4f69936",
+     "externalIds": {
+      "MAG": "2470982579",
+      "CorpusId": 168283333
+     },
+     "title": "Uncertainty, Information and Trading in Security Markets Auction and dealership markets",
+     "venue": "",
+     "year": 1992,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2096687410",
+       "name": "Marco Pagan"
+      },
+      {
+       "authorId": "122973781",
+       "name": "Ailsa Rijell"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "fac8acf23377fd83cbe0b87c919bc3b244797476",
+     "externalIds": {
+      "MAG": "2057450957",
+      "DOI": "10.1093/RFS/5.1.35",
+      "CorpusId": 154487114
+     },
+     "title": "Underestimation of Portfolio Insurance and the Crash of October 1987",
+     "venue": "",
+     "year": 1992,
+     "citationCount": 109,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/RFS/5.1.35?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/RFS/5.1.35, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "39679493",
+       "name": "Charles J. Jacklin"
+      },
+      {
+       "authorId": "104114888",
+       "name": "A. Kleidon"
+      },
+      {
+       "authorId": "119195063",
+       "name": "Paul Pfeiderer"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7778fbea07ad1788e33415c0db3d2c66ff7c0854",
+     "externalIds": {
+      "MAG": "2069325803",
+      "DOI": "10.1086/296574",
+      "CorpusId": 154766690
+     },
+     "title": "Options Trading and the Bid-Ask Spread of the Underlying Stocks",
+     "venue": "",
+     "year": 1992,
+     "citationCount": 118,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1086/296574?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1086/296574, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "92570279",
+       "name": "Mark Fedenia"
+      },
+      {
+       "authorId": "69561602",
+       "name": "Theoharry Grammatikos"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "59a559635b2c436cb98ca2b93a0e9d1043426bc5",
+     "externalIds": {
+      "MAG": "1555129214",
+      "DOI": "10.1016/S1573-4382(05)80006-2",
+      "CorpusId": 13872954
+     },
+     "title": "The theory of value in security markets",
+     "venue": "",
+     "year": 1991,
+     "citationCount": 28,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/S1573-4382(05)80006-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/S1573-4382(05)80006-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "3121291",
+       "name": "D. Duffie"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "bb8293ace6e0b7656a774b88c887d756ced68d64",
+     "externalIds": {
+      "MAG": "2071309967",
+      "DOI": "10.1093/RFS/4.1.17",
+      "CorpusId": 155030688
+     },
+     "title": "A Theory of Trading in Stock Index Futures",
+     "venue": "",
+     "year": 1991,
+     "citationCount": 511,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/RFS/4.1.17?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/RFS/4.1.17, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "3389595",
+       "name": "A. Subrahmanyam"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "62e1e089ddf5aab239d9efd4d8877b34c9d96413",
+     "externalIds": {
+      "MAG": "1985184366",
+      "DOI": "10.2307/20075842",
+      "CorpusId": 153696329
+     },
+     "title": "es modéles ARCH en finance: un point sur la théorie et les résultats empiriques",
+     "venue": "",
+     "year": 1991,
+     "citationCount": 19,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2307/20075842?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2307/20075842, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2702465",
+       "name": "Tim Bollerslev"
+      },
+      {
+       "authorId": "2069703250",
+       "name": "Ray Yeutien Chou"
+      },
+      {
+       "authorId": "5412897",
+       "name": "Narayanan Jayaraman"
+      },
+      {
+       "authorId": "1485803242",
+       "name": "L. KennethF.Kroner"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "11ed21bb0d98086f038cc0fcd2470a61a8987b5e",
+     "externalIds": {
+      "MAG": "1860215322",
+      "CorpusId": 153455263
+     },
+     "title": "Game theoretic models of price determination and financial intermediation.",
+     "venue": "",
+     "year": 1990,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "50303806",
+       "name": "Thomas Gehrig"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2ed2fb645cc5c627b0884c581efbcda8e28bd722",
+     "externalIds": {
+      "MAG": "2084899875",
+      "DOI": "10.1086/296495",
+      "CorpusId": 154590258
+     },
+     "title": "Dividend Neutrality with Transaction Costs",
+     "venue": "",
+     "year": 1990,
+     "citationCount": 8,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1086/296495?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1086/296495, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "144743716",
+       "name": "Gur Huberman"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8acb18aca8c3ab0110df341f208bbdaa7892ae92",
+     "externalIds": {
+      "MAG": "2444682859",
+      "CorpusId": 156965183
+     },
+     "title": "Intraday Spreads, Returns, and Variances: Tests of the Informed Trader Hypothesis",
+     "venue": "",
+     "year": 1990,
+     "citationCount": 11,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "97857152",
+       "name": "Stephen R. Foerster"
+      },
+      {
+       "authorId": "1689367",
+       "name": "Donald B. Keim"
+      },
+      {
+       "authorId": "34187444",
+       "name": "David Porter"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "cde0175feef0eaf444df0bc3d2d931d02ea0ebf1",
+     "externalIds": {
+      "MAG": "602436393",
+      "DOI": "10.31390/gradschool_disstheses.4822",
+      "CorpusId": 142017119
+     },
+     "title": "Essays on the Components of the Bid-Ask Spread.",
+     "venue": "",
+     "year": 1989,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "https://repository.lsu.edu/cgi/viewcontent.cgi?article=5821&context=gradschool_disstheses",
+      "status": "GOLD",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.31390/gradschool_disstheses.4822?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.31390/gradschool_disstheses.4822, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "115947595",
+       "name": "Pei-Hwang Wei"
+      }
+     ],
+     "abstract": "The presence of the bid-ask spread causes equilibrium prices to deviate from transaction prices. More importantly, the components of the spread the order component, the inventory component, and the information component have different impacts on transaction prices. In general, the order and the inventory components induce negative correlation in successive transaction price changes. On the other hand, transaction prices will form a martingale if only the information component exists. This dissertation is composed of three related essays that utilize this general relationship between transaction prices and the components of the spread. The first essay employs a cross-sectional analysis that relates components of the spread (costs of specialists) to measures of market activity, risk, and information risk. Primary results indicate that information component is positively related to transaction size and insider holdings. The order component is positively associated with number of transactions. Institutional holdings is negatively related to the order and the inventory components. The second essay gives empirical evidence that trading activity, price variability, information component are higher in the opening"
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "9d640cc4063f5274ef2270889923900d44fe240f",
+     "externalIds": {
+      "MAG": "1510502523",
+      "CorpusId": 166898182
+     },
+     "title": "Imperfectly competitive financial markets",
+     "venue": "",
+     "year": 1989,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2244726955",
+       "name": "J. Vilella"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6e0edc2f8b27bac780539c9655ba02596ce2b878",
+     "externalIds": {
+      "MAG": "1978737255",
+      "DOI": "10.2307/2234077",
+      "CorpusId": 153950341
+     },
+     "title": "Information and Equilibrium with Inside Traders",
+     "venue": "",
+     "year": 1989,
+     "citationCount": 14,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2307/2234077?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2307/2234077, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1865395",
+       "name": "Leonard J. Mirman"
+      },
+      {
+       "authorId": "2108084",
+       "name": "L. Samuelson"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8414eafc7900a2d62a2aad0a292e1e61af201bad",
+     "externalIds": {
+      "MAG": "1978628509",
+      "DOI": "10.1093/RFS/2.1.91",
+      "CorpusId": 153453817
+     },
+     "title": "The Box Spread Arbitrage Conditions: Theory, Tests, and Investment Strategies",
+     "venue": "",
+     "year": 1989,
+     "citationCount": 45,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/RFS/2.1.91?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/RFS/2.1.91, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "119443684",
+       "name": "A. Ronn"
+      },
+      {
+       "authorId": "2883649",
+       "name": "Ehud I. Ronn"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ae69503ab41fd839e600172f2fdaf394af78b4cf",
+     "externalIds": {
+      "MAG": "2494244622",
+      "DOI": "10.1007/978-1-349-08633-7_4",
+      "CorpusId": 147968080
+     },
+     "title": "Some Assumptions of Contemporary Neoclassical Economic Theology",
+     "venue": "",
+     "year": 1989,
+     "citationCount": 9,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-1-349-08633-7_4?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-1-349-08633-7_4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "3057565",
+       "name": "P. Hammond"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2f0254b0eedc438a4b880cb0966660020b782114",
+     "externalIds": {
+      "MAG": "1986142095",
+      "DOI": "10.1086/296460",
+      "CorpusId": 153841434
+     },
+     "title": "Insider Trading, Liquidity, and the Role of the Monopolist Specialist",
+     "venue": "",
+     "year": 1989,
+     "citationCount": 542,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1086/296460?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1086/296460, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "117267812",
+       "name": "L. Glosten"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "50206146bc4c6e7831ba4fc1c7c5b7183f5abd08",
+     "externalIds": {
+      "MAG": "2099051950",
+      "CorpusId": 154597120
+     },
+     "title": "Dealer behaviour and price volatility in asset markets",
+     "venue": "",
+     "year": 1989,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2053851",
+       "name": "M. Cripps"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5c5e1abb01e481ead13bf07a911f8a494477678e",
+     "externalIds": {
+      "MAG": "2157495061",
+      "DOI": "10.1093/RFS/1.1.3",
+      "CorpusId": 59520246
+     },
+     "title": "A Theory of Intraday Patterns: Volume and Price Variability",
+     "venue": "",
+     "year": 1988,
+     "citationCount": 3179,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/RFS/1.1.3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/RFS/1.1.3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "98261918",
+       "name": "Anat R. Admati"
+      },
+      {
+       "authorId": "11402332",
+       "name": "P. Pfleiderer"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "107a9ef5a3f0af560186242eb73436eac539621e",
+     "externalIds": {
+      "MAG": "2104591819",
+      "CorpusId": 154517682
+     },
+     "title": "Expected return and beta estimation incorporating bid/ask data",
+     "venue": "",
+     "year": 1988,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2112458749",
+       "name": "S. Ng"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a2d79a9fa577f66c97c68ed9f7e12c62f0ecf33c",
+     "externalIds": {
+      "MAG": "1862400904",
+      "DOI": "10.1007/978-3-662-07228-8_6",
+      "CorpusId": 178693060
+     },
+     "title": "Die Preisbildung auf dem Kapitalmarkt",
+     "venue": "",
+     "year": 1988,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-3-662-07228-8_6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-3-662-07228-8_6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "145605538",
+       "name": "G. Franke"
+      },
+      {
+       "authorId": "69517867",
+       "name": "H. Hax"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "dd392937014fdb305fc40929ff0cc4f9aecae2e0",
+     "externalIds": {
+      "MAG": "2238237264",
+      "CorpusId": 155661663
+     },
+     "title": "Basic conditions for costless signalling in financial markets",
+     "venue": "",
+     "year": 1985,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "144152617",
+       "name": "G. Franke"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "45020ebf76412977badb3203242dd8cf13f31362",
+     "externalIds": {
+      "MAG": "2508047326",
+      "CorpusId": 168230596
+     },
+     "title": "OPTIMAL STOCK TRADING WITH PERSONAL TAXES: IMPLICATIONS FOR PRICES AND THE ABNORMAL",
+     "venue": "",
+     "year": 1983,
+     "citationCount": 14,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "70246945",
+       "name": "Cambridge Ma"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d8c96a799874cd5771a971260391820bde413eec",
+     "externalIds": {
+      "DOI": "10.2139/ssrn.2051974",
+      "CorpusId": 10783051
+     },
+     "title": "To Trade, or Not to Trade: a Model of Regret and Investment to Trade, or Not to Trade: a Model of Regret and Investment",
+     "venue": "",
+     "year": null,
+     "citationCount": 6,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.2051974",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/ssrn.2051974?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/ssrn.2051974, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "119908705",
+       "name": "J. Qin"
+      },
+      {
+       "authorId": "2420954523",
+       "name": "D. Lawrence"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "98eefeba794bb369146316801f881c33db5cebd0",
+     "externalIds": {
+      "CorpusId": 221134943
+     },
+     "title": "A Test of Market Microstructure Model: Evidence from Nigerian Stock Market",
+     "venue": "",
+     "year": null,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "133641466",
+       "name": "A. Omoruyi"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d9851d4e5b96767c1ed269bbc2444b9681ae95e0",
+     "externalIds": {
+      "CorpusId": 264746394
+     },
+     "title": "ADEMU WORKING",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2263637577",
+       "name": "†. JordiCaballé"
+      },
+      {
+       "authorId": "2263641771",
+       "name": "‡. AriadnaDumitrescu"
+      },
+      {
+       "authorId": "1977026630",
+       "name": "May"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2c4db14782fe222e2fdb53913e83e938e3744d14",
+     "externalIds": {
+      "CorpusId": 50331919
+     },
+     "title": "The Current State of Business Disciplines Market Efficiency",
+     "venue": "",
+     "year": null,
+     "citationCount": 4,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "118610262",
+       "name": "Massoud Mussavian"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "da8d4ebc50d022a22389e0a551d6367ccf846f86",
+     "externalIds": {
+      "CorpusId": 14710062
+     },
+     "title": "Empirical Essays in Corporate Finance Empirical Essays in Corporate Finance",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "94310492",
+       "name": "Kristina Minnick"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7836bdc27f16abdef532c78d2c523a5d85df2f87",
+     "externalIds": {
+      "CorpusId": 12765902
+     },
+     "title": "Trading Activity , Illiquidity Costs and Stock Returns ¤",
+     "venue": "",
+     "year": null,
+     "citationCount": 10,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2095973085",
+       "name": "Natalia Scotto Piqueiraa"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "52a2e3ebdcd4270180bee2f3c9f52d4f0e5d6eb4",
+     "externalIds": {
+      "CorpusId": 12890050
+     },
+     "title": "Does Smart Money Move Markets ? Institutional investors play a price-setting role .",
+     "venue": "",
+     "year": null,
+     "citationCount": 2,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "34922812",
+       "name": "Scott K. Gibson"
+      },
+      {
+       "authorId": "90917948",
+       "name": "Assem Safieddine"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": null,
+     "externalIds": null,
+     "title": "The Structure of the Thai Capital Market",
+     "venue": "",
+     "year": null,
+     "citationCount": null,
+     "openAccessPdf": null,
+     "authors": [],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "193341eee3a6a2320cd8e6f51f33dea194dd0718",
+     "externalIds": {
+      "CorpusId": 12801365
+     },
+     "title": "National Bank of Belgium Working Papers -research Series How Does Liquidity React to Stress Periods in a Limit Order Market? ___________________ Editorial Director Editorial",
+     "venue": "",
+     "year": null,
+     "citationCount": 127,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "100733070",
+       "name": "H. Beltrán"
+      },
+      {
+       "authorId": "103540253",
+       "name": "A. Durre"
+      },
+      {
+       "authorId": "17001412",
+       "name": "P. Giot"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2f610fdab5063ad6ed0da84fb07f76b70ab649fa",
+     "externalIds": {
+      "CorpusId": 17343352
+     },
+     "title": "Discussion Paper Non Technical Summary Nicht-technische Zusammenfassung the Price Impact of Cds Trading",
+     "venue": "",
+     "year": null,
+     "citationCount": 13,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "102296260",
+       "name": "Yalin Gündüz"
+      },
+      {
+       "authorId": "119431000",
+       "name": "Julia Nasev"
+      },
+      {
+       "authorId": "11016784",
+       "name": "M. Trapp"
+      },
+      {
+       "authorId": "2141247123",
+       "name": "Klaus Düllmann"
+      },
+      {
+       "authorId": "2411153188",
+       "name": "Heinz Herrmann"
+      },
+      {
+       "authorId": "2430121293",
+       "name": "Die Nutzung"
+      },
+      {
+       "authorId": "102321477",
+       "name": "Deutsche Bundesbank"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d84c9283ffad780d923bdb9c0a9503f005a472bb",
+     "externalIds": {
+      "CorpusId": 17299650
+     },
+     "title": "Dividing the Surplus-- The New Evidence",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "152464737",
+       "name": "Qinglei Dai"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8779e0fc4304a29fd055665037eeb70594fc2d23",
+     "externalIds": {
+      "CorpusId": 1340159
+     },
+     "title": "Journal of Financial and Strategic Decisions the Use of Financial Ratios as Measures of Risk in the Determination of the Bid-ask Spread",
+     "venue": "",
+     "year": null,
+     "citationCount": 11,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "70711964",
+       "name": "Huldah A. Ryan"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7a3c69807c5d5cc6d09e9c22c6760a6fbfcaf7ec",
+     "externalIds": {
+      "CorpusId": 36617951
+     },
+     "title": "Chapter 2 Microstructure Foundations",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "9981b2a2aa6e141e48127775b9f14f7c088a37a1",
+     "externalIds": {
+      "CorpusId": 299470
+     },
+     "title": "Federal Reserve Bank of New York Staff Reports Are Market Makers Uninformed and Passive? Signing Trades in the Absence of Quotes",
+     "venue": "",
+     "year": null,
+     "citationCount": 10,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1741164155",
+       "name": "Michel van der Wel"
+      },
+      {
+       "authorId": "2632263",
+       "name": "A. Menkveld"
+      },
+      {
+       "authorId": "2418984184",
+       "name": "Asani Sarkar"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a7e6a3a2cdac106ae81d54631d3ce64be9f67788",
+     "externalIds": {
+      "CorpusId": 54744918
+     },
+     "title": "I s the market microst ructure of s tock markets important ?",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "152577477",
+       "name": "Randi Næs"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f3886786b0825fe62ab007d7fbdc3b2593a18c20",
+     "externalIds": {
+      "CorpusId": 15566538
+     },
+     "title": "1 FINANCE APPLICATIONS OF GAME THEORY",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1747992",
+       "name": "Franklin Allen"
+      },
+      {
+       "authorId": "48218339",
+       "name": "S. Morris"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "369e1a5300734087065bbcb5480c21e75b765d0f",
+     "externalIds": {
+      "CorpusId": 169969644
+     },
+     "title": "Publicizing Private Information",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "119167197",
+       "name": "Bige Kahraman"
+      },
+      {
+       "authorId": "122963275",
+       "name": "Salil Pachare"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6276023d2a6da28cdb22465cbac42061df86786c",
+     "externalIds": {
+      "DOI": "10.2139/ssrn.3137216",
+      "CorpusId": 169410496
+     },
+     "title": "Voluntary Disclosures by Activist Shareholders ∗",
+     "venue": "",
+     "year": null,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.3137216",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/ssrn.3137216?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/ssrn.3137216, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "49307081",
+       "name": "Ryan P. McDonough"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "0b512d8b6d3cf09ee0ef074233cb8cb7aacfd3ff",
+     "externalIds": {
+      "CorpusId": 202696471
+     },
+     "title": "Investment timing and capital structure under liquidity risk I",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "49528780",
+       "name": "Huamao Wang"
+      },
+      {
+       "authorId": "2118219597",
+       "name": "Qing Xu"
+      },
+      {
+       "authorId": "2109824993",
+       "name": "Jinqiang Yang"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f2a49b0f68810f48d7794665e8d6e1a2f9f2cd6d",
+     "externalIds": {
+      "CorpusId": 202891436
+     },
+     "title": "The value of experience : evidence from art auctions *",
+     "venue": "",
+     "year": null,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "71376609",
+       "name": "B. Bruno"
+      },
+      {
+       "authorId": "1422296667",
+       "name": "Emilia Garcia-Appendini"
+      },
+      {
+       "authorId": "143921065",
+       "name": "Giacomo Nocera"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "3b942673aa60c3cf75aff03fd8025d247673c729",
+     "externalIds": {
+      "CorpusId": 203590028
+     },
+     "title": "A . The Main Elements of the New Monetary Economics",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "48636352",
+       "name": "M. Krueger"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "39c742b7bd9fd4b257d17dcd6c5e9d5c8d9d754a",
+     "externalIds": {
+      "CorpusId": 154691912
+     },
+     "title": "Market Maker’s Price − correction Behavior towards Synchronization Risk ＊",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "49000086",
+       "name": "Y. Tsutsui"
+      },
+      {
+       "authorId": "2412307541",
+       "name": "Shinsuke Ikeda"
+      },
+      {
+       "authorId": "2662793",
+       "name": "M. Ohnishi"
+      },
+      {
+       "authorId": "66473938",
+       "name": "Wataru Ohta"
+      },
+      {
+       "authorId": "79997487",
+       "name": "Katuya Hata"
+      },
+      {
+       "authorId": "152243307",
+       "name": "Y. Fukuta"
+      },
+      {
+       "authorId": "2259165490",
+       "name": "M. Nakagawa"
+      },
+      {
+       "authorId": "92027853",
+       "name": "Naoki Watanabel"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": null,
+     "externalIds": null,
+     "title": "ADVERSE SELECTION , SQU BID-ASK SPREAD ON TR BRADFORD",
+     "venue": "",
+     "year": 2004,
+     "citationCount": null,
+     "openAccessPdf": null,
+     "authors": [],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2420880dd9f2cb388f0f8506b45b79d0307ebbab",
+     "externalIds": {
+      "CorpusId": 251397253
+     },
+     "title": "FREE-FLOAT AND STOCK LIQUIDITY: EVIDENCE FROM A POLICY EXPERIMENT",
+     "venue": "",
+     "year": null,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2077119422",
+       "name": "M. Jawed"
+      },
+      {
+       "authorId": "92996481",
+       "name": "K. K. Kotha"
+      },
+      {
+       "authorId": "46346236",
+       "name": "Vijay Gupta"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "72db99a2408048ceab5422721bfb28520be27dea",
+     "externalIds": {
+      "CorpusId": 263271272
+     },
+     "title": "Collateral Choice∗",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1395692587",
+       "name": "Benedikt Ballensiefen"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "50b55cc1189b17bdf6a0b5c37fa4c78b79c12f3c",
+     "externalIds": {
+      "CorpusId": 264434866
+     },
+     "title": "Edinburgh Research Explorer Trade Transparency and Trading Volume",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1406347867",
+       "name": "E. Avgouleas"
+      },
+      {
+       "authorId": "3022806",
+       "name": "Stavros Degiannakis"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6bbeea51105cb301ad0b9c0ee056b8b1733f5b97",
+     "externalIds": {
+      "CorpusId": 264541213
+     },
+     "title": "Impact of Corporate Governance Compliance and Financial Crisis on Stock Liquidity: Evidence from Pakistan",
+     "venue": "",
+     "year": null,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1738895331",
+       "name": "Javed Khan"
+      },
+      {
+       "authorId": "2260366919",
+       "name": "Shafiq ur Rehman"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": null,
+     "externalIds": null,
+     "title": "Research Summaries Financial System Review",
+     "venue": "",
+     "year": null,
+     "citationCount": null,
+     "openAccessPdf": null,
+     "authors": [],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": null,
+     "externalIds": null,
+     "title": "EngagedScholarship@CSU EngagedScholarship@CSU",
+     "venue": "",
+     "year": null,
+     "citationCount": null,
+     "openAccessPdf": null,
+     "authors": [],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4adfc331ecb63eadd7d58f6b86f0326e52c2e633",
+     "externalIds": {
+      "MAG": "2120603810",
+      "DBLP": "conf/iat/JumadinovaMD11",
+      "DOI": "10.1109/WI-IAT.2011.228",
+      "CorpusId": 2641303
+     },
+     "title": "A Multi-agent Prediction Market Based on Boolean Network Evolution",
+     "venue": "2011 IEEE/WIC/ACM International Conferences on Web Intelligence and Intelligent Agent Technology",
+     "year": 2011,
+     "citationCount": 6,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1109/WI-IAT.2011.228?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/WI-IAT.2011.228, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1886752",
+       "name": "Janyl Jumadinova"
+      },
+      {
+       "authorId": "47452590",
+       "name": "M. Matache"
+      },
+      {
+       "authorId": "34787658",
+       "name": "P. Dasgupta"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": null,
+     "externalIds": null,
+     "title": "Finance Applications of Game Theory Finance Applications of Game Theory",
+     "venue": "",
+     "year": null,
+     "citationCount": null,
+     "openAccessPdf": null,
+     "authors": [],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "90193012392bd81b0d1c798b813e3510b61cb993",
+     "externalIds": {
+      "CorpusId": 263753338
+     },
+     "title": "Federal Reserve Bank of Minneapolis Research Department Sta Report 316 Financial Crises as Herds: Overturning the Critiques",
+     "venue": "",
+     "year": null,
+     "citationCount": 205,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "46894492",
+       "name": "V. Chari"
+      },
+      {
+       "authorId": "2263090002",
+       "name": "Patrick J. Kehoe"
+      },
+      {
+       "authorId": "66249444",
+       "name": "We Thank"
+      },
+      {
+       "authorId": "2271613735",
+       "name": "Susan Athey"
+      },
+      {
+       "authorId": "2271677253",
+       "name": "Abhijit Banerjee"
+      },
+      {
+       "authorId": "2271815183",
+       "name": "Sushil Bikhchandani"
+      },
+      {
+       "authorId": "2259167373",
+       "name": "Harold L. Cole"
+      },
+      {
+       "authorId": "2271592367",
+       "name": "David Levine"
+      },
+      {
+       "authorId": "2499951",
+       "name": "G. Mailath"
+      },
+      {
+       "authorId": "2270162396",
+       "name": "Enrique Mendoza"
+      },
+      {
+       "authorId": "2257153725",
+       "name": "Stephen Morris"
+      },
+      {
+       "authorId": "2242229499",
+       "name": "Andy Postlewaite"
+      },
+      {
+       "authorId": "2269885014",
+       "name": "H. Shin"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "dec2a797c51dec24e7488ce770e843cb4802e33c",
+     "externalIds": {
+      "CorpusId": 266691120
+     },
+     "title": "Market Microstructure Effects of the Transparency of Indian Banks",
+     "venue": "",
+     "year": null,
+     "citationCount": 13,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "80613487",
+       "name": "Niranjan Chipalkatti"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8b43879be518fb44d6cfa70ce59440e8e2403264",
+     "externalIds": {
+      "CorpusId": 266697177
+     },
+     "title": "Back-Running: Seeking and Hiding Fundamental Information in Order Flows ∗",
+     "venue": "",
+     "year": null,
+     "citationCount": 5,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2276003425",
+       "name": "Liyan Yang"
+      },
+      {
+       "authorId": "2277303586",
+       "name": "‡. HaoxiangZhu"
+      },
+      {
+       "authorId": "1416990589",
+       "name": "Bradyn Breon-Drish"
+      },
+      {
+       "authorId": "2277308777",
+       "name": "Mike Burkart"
+      },
+      {
+       "authorId": "2287876520",
+       "name": "H. Cao"
+      },
+      {
+       "authorId": "2276735882",
+       "name": "David Easley"
+      },
+      {
+       "authorId": "2275848903",
+       "name": "Itay Goldstein"
+      },
+      {
+       "authorId": "2277421109",
+       "name": "Jungsuk Han"
+      },
+      {
+       "authorId": "2241353164",
+       "name": "Eric N. Hughson"
+      },
+      {
+       "authorId": "2301883313",
+       "name": "Leonid Kogan"
+      },
+      {
+       "authorId": "2276736970",
+       "name": "Pete Kyle"
+      },
+      {
+       "authorId": "152160831",
+       "name": "Doron Levit"
+      },
+      {
+       "authorId": "2278089158",
+       "name": "Wei Li"
+      },
+      {
+       "authorId": "2632263",
+       "name": "A. Menkveld"
+      },
+      {
+       "authorId": "2248699688",
+       "name": "Maureen O’Hara"
+      },
+      {
+       "authorId": "2206185",
+       "name": "Christine A. Parlour"
+      },
+      {
+       "authorId": "2237173713",
+       "name": "Uday Rajan"
+      },
+      {
+       "authorId": "87114400",
+       "name": "Ioanid Rosu"
+      },
+      {
+       "authorId": "46816771",
+       "name": "F. Sangiorgi"
+      },
+      {
+       "authorId": "4323930",
+       "name": "Duane J. Seppi"
+      },
+      {
+       "authorId": "2258070900",
+       "name": "Matthew Spiegel"
+      },
+      {
+       "authorId": "39387322",
+       "name": "Günter Strobl"
+      },
+      {
+       "authorId": "2277411631",
+       "name": "Yajun Wang"
+      },
+      {
+       "authorId": "2240347692",
+       "name": "Mao Ye"
+      },
+      {
+       "authorId": "2246693248",
+       "name": "Jerry Yu"
+      },
+      {
+       "authorId": "119022923",
+       "name": "B. Yueshen"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a7402982f3e66a74f40a2f7d6862ad459b132937",
+     "externalIds": {
+      "CorpusId": 266966897
+     },
+     "title": "ON THE LONDON TRADED OPTIONS MARKET AND A TEST OF MARKET EFFICIENCY BASED ON PUT-CALL PARTTY THEORY",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2279226019",
+       "name": "Mary Nisbet"
+      },
+      {
+       "authorId": "2279221763",
+       "name": "Grande-Bretagne United - Kingdom"
+      },
+      {
+       "authorId": "2279226281",
+       "name": "Couts TRANSACIlONNELS"
+      },
+      {
+       "authorId": "2279221178",
+       "name": "Sur LE Marc"
+      },
+      {
+       "authorId": "2279221767",
+       "name": "Des OFI'"
+      },
+      {
+       "authorId": "2279221200",
+       "name": "Test D'EFFIACXT DU Marc"
+      },
+      {
+       "authorId": "2279226174",
+       "name": "Fonde Sur"
+      },
+      {
+       "authorId": "148265887",
+       "name": "Un-Yung La"
+      },
+      {
+       "authorId": "2429686869",
+       "name": "M. Mary"
+      },
+      {
+       "authorId": "104936560",
+       "name": "Nisbet"
+      },
+      {
+       "authorId": "2279221715",
+       "name": "D'AKIEMENT"
+      },
+      {
+       "authorId": "2279221262",
+       "name": "ET Decomptab"
+      },
+      {
+       "authorId": "2279221741",
+       "name": "U. N. N. E. R. S. DE FINANCE"
+      },
+      {
+       "authorId": "2279226158",
+       "name": "DE Glasoow"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "12f7aa118805d418e9b41c83a7c164011f8cb183",
+     "externalIds": {
+      "CorpusId": 267873524
+     },
+     "title": "Collective Outsourcing to Market ( COM ) : A Market-Based Framework for Information Supply Chain Outsourcing *",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2330755332",
+       "name": "Zhiling Guo"
+      },
+      {
+       "authorId": "1746920",
+       "name": "A. Whinston"
+      },
+      {
+       "authorId": "2285204294",
+       "name": "Sal March"
+      },
+      {
+       "authorId": "145054353",
+       "name": "T. S. Raghu"
+      },
+      {
+       "authorId": "1756032",
+       "name": "A. Vinze"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c49b639f3f4a4f487ff668174739f180ac201cdb",
+     "externalIds": {
+      "CorpusId": 269432789
+     },
+     "title": "Competitive equilibrium under asymmetric information",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2298793228",
+       "name": "Vathana Lyvath"
+      },
+      {
+       "authorId": "2817401",
+       "name": "Vathana Ly Vath"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ec6014a3d486f0778613fda688838776ad2bb37d",
+     "externalIds": {
+      "CorpusId": 269954379
+     },
+     "title": "CAMBRIDGE WORKING PAPERS IN ECONOMICS I know best: Scepticism about the Knowledge of Experts and Peers on Economics Predictions",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "3230803",
+       "name": "Marina Agranov"
+      },
+      {
+       "authorId": "2377040713",
+       "name": "Matt Elliott"
+      },
+      {
+       "authorId": "2248736656",
+       "name": "Pietro Ortoleva"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "de60aaceaa2a453037e6d0fc2035b0d43511e0b2",
+     "externalIds": {
+      "CorpusId": 270070755
+     },
+     "title": "An Economic Analysis and Review of Non-Financial Reporting in the European Union: What Went Wrong with Directive 2014/95/EU",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2303514919",
+       "name": "Micol M. Agliati"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "719af1946953e35d774b3f465583a941478cc361",
+     "externalIds": {
+      "CorpusId": 271408050
+     },
+     "title": "The Augmented ACD Models: High Frequency Modelling and Applications to BVMT Stocks",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "3274661",
+       "name": "S. Guessoum"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "098d3149b198663ffe8ea73f22b9c90ad2a19d67",
+     "externalIds": {
+      "CorpusId": 271841201
+     },
+     "title": "Working Paper Series Bank private information in CDS markets",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "14045838",
+       "name": "Andrada Bilan"
+      },
+      {
+       "authorId": "2266646586",
+       "name": "S. Ongena"
+      },
+      {
+       "authorId": "119020660",
+       "name": "Cosimo Pancaro"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "0adbaf66c1cac2e200a2bf001c5a76f7a9fa4c1b",
+     "externalIds": {
+      "CorpusId": 272333043
+     },
+     "title": "Price Discovery on Decentralized Exchanges 1",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "34912789",
+       "name": "A. Capponi"
+      },
+      {
+       "authorId": "2053919572",
+       "name": "R. Jia"
+      },
+      {
+       "authorId": "2112273277",
+       "name": "Shi-Hao Yu"
+      },
+      {
+       "authorId": "2445989798",
+       "name": "Darrel Du ffi e"
+      },
+      {
+       "authorId": "97896536",
+       "name": "Joel Hasbrouck"
+      },
+      {
+       "authorId": "2319159153",
+       "name": "Sean Foley"
+      },
+      {
+       "authorId": "2319159065",
+       "name": "T¯alis Putnin"
+      },
+      {
+       "authorId": "119022923",
+       "name": "B. Yueshen"
+      },
+      {
+       "authorId": "118974730",
+       "name": "M. Zoican"
+      },
+      {
+       "authorId": "2265037353",
+       "name": "K. Sokolov"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8c774d0f0d91147501ee2fef29556fbd9474b702",
+     "externalIds": {
+      "CorpusId": 272366032
+     },
+     "title": "Bank Private Information in CDS Markets ∗",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2319377378",
+       "name": "†. AndradaBilan"
+      },
+      {
+       "authorId": "2238768344",
+       "name": "Steven R. G. Ongena"
+      },
+      {
+       "authorId": "119020660",
+       "name": "Cosimo Pancaro"
+      },
+      {
+       "authorId": "2158356",
+       "name": "Claire Célérier"
+      },
+      {
+       "authorId": "2238704667",
+       "name": "Itay Goldstein"
+      },
+      {
+       "authorId": "2412429903",
+       "name": "Alexander F. Wagner"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b4940df22faa8ee0027f4e02bef4c0234fbc02b2",
+     "externalIds": {
+      "CorpusId": 272648029
+     },
+     "title": "Information Asymmetry and the Cost of Capital: The Influence of Public and Private Information *",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "119255856",
+       "name": "F. Bardong"
+      },
+      {
+       "authorId": "9323673",
+       "name": "Söhnke M. Bartram"
+      },
+      {
+       "authorId": "2297289145",
+       "name": "Jeffrey R. Black"
+      },
+      {
+       "authorId": "2332426008",
+       "name": "P. K. Yadav"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7c5f74739350d13fde0499b9d865ba94f4a60962",
+     "externalIds": {
+      "DOI": "10.1016/j.jbusres.2024.114973",
+      "CorpusId": 272842726
+     },
+     "title": "Come and take it: Patenting pedigree and tenacity, takeover defenses, and patent valuation in post-IPO firms",
+     "venue": "Journal of business research",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.1016/j.jbusres.2024.114973",
+      "status": "HYBRID",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jbusres.2024.114973?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jbusres.2024.114973, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2118547171",
+       "name": "Pankaj C. Patel"
+      },
+      {
+       "authorId": "82594991",
+       "name": "M. Guedes"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d28e5562af3f4d166450c2bae92d5c48cd98f1ae",
+     "externalIds": {
+      "CorpusId": 155247773
+     },
+     "title": "Erim Report Series Research in Management from Discrete-time Models to Continuous-time, Asynchronous Models of Financial Markets Asynchronous Models of Financial Markets",
+     "venue": "",
+     "year": null,
+     "citationCount": 22,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "47269818",
+       "name": "K. Boer"
+      },
+      {
+       "authorId": "1678244",
+       "name": "U. Kaymak"
+      },
+      {
+       "authorId": "32880588",
+       "name": "Jaap Spiering"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5aa896376a298a1fa689ff3e498fa260c61de848",
+     "externalIds": {
+      "CorpusId": 273753125
+     },
+     "title": "OF TRADING IN ORGANIZED STOCK MARKETS:",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "121303465",
+       "name": "O. Liubkina"
+      },
+      {
+       "authorId": "2255661301",
+       "name": "V. Ihnatiuk"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "947f60d422eabc041f017bd8789f7c6e65e9bfb9",
+     "externalIds": {
+      "CorpusId": 274529250
+     },
+     "title": "Journal of Financial Markets",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2080117195",
+       "name": "A. Ivashchenko"
+      },
+      {
+       "authorId": "2334017935",
+       "name": "G12 G14"
+      },
+      {
+       "authorId": "2334017931",
+       "name": "Robert CollinDufresne"
+      },
+      {
+       "authorId": "2143984036",
+       "name": "Jakub Czech"
+      },
+      {
+       "authorId": "2334018216",
+       "name": "Robert Hajda"
+      },
+      {
+       "authorId": "2343037157",
+       "name": "M. Kosowski"
+      },
+      {
+       "authorId": "2334018031",
+       "name": "Norman O’Hara"
+      },
+      {
+       "authorId": "2334018128",
+       "name": "Schürhoff Johan"
+      },
+      {
+       "authorId": "2334017929",
+       "name": "Walden"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "39dc35c8bc84f2e8e22d0ebf055a37db785cb6a6",
+     "externalIds": {
+      "CorpusId": 275095792
+     },
+     "title": "2016-03: Stock liquidity, corporate governance, and leverage: New panel evidence (Working paper)",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "70650156",
+       "name": "N. Sivathaasan"
+      },
+      {
+       "authorId": "144044103",
+       "name": "Searat Ali"
+      },
+      {
+       "authorId": "73548008",
+       "name": "Benjamin Liu"
+      },
+      {
+       "authorId": "2413112941",
+       "name": "Allen H. Huang"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "87b2ff6865dca0a0a1889c497f07fc777b161f93",
+     "externalIds": {
+      "CorpusId": 276606721
+     },
+     "title": "Sentiment Divergence and its Impact on Share Liquidity",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2373766119",
+       "name": "J. Garcia"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "af9962c14243df9080e8ca45c3918517ba44fbc0",
+     "externalIds": {
+      "CorpusId": 276648828
+     },
+     "title": "Macroeconomic Effects from Sovereign Risk vs. Knightian Uncertainty",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2347568409",
+       "name": "A. Staffa"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a81cef87b11e787488f04451388ad5349d95e054",
+     "externalIds": {
+      "CorpusId": 276777122
+     },
+     "title": "Rollover Risk and Credit Risk (cid:3)",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2242030800",
+       "name": "Zhiguo He"
+      },
+      {
+       "authorId": "2251286875",
+       "name": "Wei Xiong"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "e9adde836171cf6cdbeecc0dff176ffa80d8b46b",
+     "externalIds": {
+      "CorpusId": 277397415
+     },
+     "title": "Why These Findings Are Important How the Author Reached These Findings",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "123873014",
+       "name": "Salil Gadgil"
+      },
+      {
+       "authorId": "3389595",
+       "name": "A. Subrahmanyam"
+      },
+      {
+       "authorId": "2352543942",
+       "name": "Francis Longstaf"
+      },
+      {
+       "authorId": "2005844339",
+       "name": "Patrick Augustin"
+      },
+      {
+       "authorId": "118732088",
+       "name": "Mark J. Garmaise"
+      },
+      {
+       "authorId": "2411970008",
+       "name": "Michael B. Gordy"
+      },
+      {
+       "authorId": "2352536453",
+       "name": "Valentin Haddad"
+      },
+      {
+       "authorId": "145485316",
+       "name": "Yesol Huh"
+      },
+      {
+       "authorId": "1789553",
+       "name": "Mahyar Kargar"
+      },
+      {
+       "authorId": "119268241",
+       "name": "Y. C. Loon"
+      },
+      {
+       "authorId": "2305280",
+       "name": "M. Paddrik"
+      },
+      {
+       "authorId": "2296839244",
+       "name": "Gregory Phelan"
+      },
+      {
+       "authorId": "144980358",
+       "name": "S. Rajan"
+      },
+      {
+       "authorId": "2296836676",
+       "name": "Thomas Ruchti"
+      },
+      {
+       "authorId": "2337501345",
+       "name": "Stacey Schreft"
+      },
+      {
+       "authorId": "2504742",
+       "name": "S. Tompaidis"
+      },
+      {
+       "authorId": "2215386472",
+       "name": "Jinyuan Zhang"
+      },
+      {
+       "authorId": "2334705674",
+       "name": "Ge Zheng"
+      },
+      {
+       "authorId": "2352552498",
+       "name": "Hossein Alidaee"
+      },
+      {
+       "authorId": "34965399",
+       "name": "Paul Huebner"
+      },
+      {
+       "authorId": "2222624847",
+       "name": "Denis Mokanov"
+      },
+      {
+       "authorId": "2070721718",
+       "name": "Clinton Tepper"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "daa0cf6084c3970b5c42d26256f8b88cc07ca471",
+     "externalIds": {
+      "CorpusId": 277738280
+     },
+     "title": "Sharing Information on Progress (SIP) 2024",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2056795819",
+       "name": "Marko Jovanovic"
+      },
+      {
+       "authorId": "2355014068",
+       "name": "Shahrzad Farzinpak"
+      },
+      {
+       "authorId": "2355016776",
+       "name": "Panagiotis Panagiotakopoulos"
+      },
+      {
+       "authorId": "2355015067",
+       "name": "Stephen Phoon"
+      },
+      {
+       "authorId": "2403336976",
+       "name": "K. Knudsen"
+      },
+      {
+       "authorId": "2355016531",
+       "name": "Dwangelyn Kayle"
+      },
+      {
+       "authorId": "2388734005",
+       "name": "Palma"
+      },
+      {
+       "authorId": "2381551746",
+       "name": "A. Toma"
+      },
+      {
+       "authorId": "2355015947",
+       "name": "-. May"
+      },
+      {
+       "authorId": "3469771",
+       "name": "O. Marko"
+      },
+      {
+       "authorId": "49937414",
+       "name": "Jovanovic"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "9dd5a61fa71347046d5337c9cea3ce42e5cb75e1",
+     "externalIds": {
+      "CorpusId": 277856117
+     },
+     "title": "Selling with Product Recommendation: Below-Cost Pricing and Price Reversal ∗",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2259174279",
+       "name": "Wenji Xu"
+      },
+      {
+       "authorId": "2355850240",
+       "name": "‡. ShuoguangYang"
+      },
+      {
+       "authorId": "2260267193",
+       "name": "Phil Reny"
+      },
+      {
+       "authorId": "46639600",
+       "name": "Wooyoung Lim"
+      },
+      {
+       "authorId": "2259902551",
+       "name": "K. Yang"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c6716b9e393d3fd9b47bb11dfcc5d260028db14d",
+     "externalIds": {
+      "CorpusId": 271870850
+     },
+     "title": "Journal of Empirical Finance",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2925764",
+       "name": "Alexander Brauneis"
+      },
+      {
+       "authorId": "7224856",
+       "name": "R. Mestel"
+      },
+      {
+       "authorId": "2356100775",
+       "name": "Ryan Riordan"
+      },
+      {
+       "authorId": "2301944542",
+       "name": "Erik Theissen"
+      },
+      {
+       "authorId": "2334017935",
+       "name": "G12 G14"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "14c9280d8df12b8eb9c743c1cc2313dc2eb7ae58",
+     "externalIds": {
+      "CorpusId": 277941371
+     },
+     "title": "Social Learning with Endogenous Information",
+     "venue": "",
+     "year": null,
+     "citationCount": 12,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2270817148",
+       "name": "S. Nageeb"
+      },
+      {
+       "authorId": "2292257150",
+       "name": "Christopher P. Chambers"
+      },
+      {
+       "authorId": "2356417884",
+       "name": "Ben Golub"
+      },
+      {
+       "authorId": "2356421761",
+       "name": "Johannes Horner"
+      },
+      {
+       "authorId": "2351707370",
+       "name": "Vijay Krishna"
+      },
+      {
+       "authorId": "1404107057",
+       "name": "Manuel Mueller-Frank"
+      },
+      {
+       "authorId": "119339845",
+       "name": "Omar A. Nayeem"
+      },
+      {
+       "authorId": "78378485",
+       "name": "P. Niehaus"
+      },
+      {
+       "authorId": null,
+       "name": "Henrique de Oliveira"
+      },
+      {
+       "authorId": "2287715280",
+       "name": "Mallesh Pai"
+      },
+      {
+       "authorId": "2356530916",
+       "name": "Andres Santos"
+      },
+      {
+       "authorId": "2370013322",
+       "name": "Ron Siegel"
+      },
+      {
+       "authorId": "2238766076",
+       "name": "Joel Sobel"
+      },
+      {
+       "authorId": "2297686267",
+       "name": "Thomas Wiseman"
+      },
+      {
+       "authorId": "1400424387",
+       "name": "Aislinn Bohren"
+      },
+      {
+       "authorId": "3024016",
+       "name": "N. Kartik"
+      },
+      {
+       "authorId": "48119221",
+       "name": "Tetsuya Hoshino"
+      },
+      {
+       "authorId": "122324279",
+       "name": "Erik Lillethun"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5cb562e198aa045c585b52051e007ac3eb5fa6ab",
+     "externalIds": {
+      "CorpusId": 278860818
+     },
+     "title": "Signal-herding in cryptocurrencies Signal-herding in cryptocurrencies",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ffb9c8d021bc163ad07544fdb873b31eac4c3220",
+     "externalIds": {
+      "CorpusId": 284930671
+     },
+     "title": "Catching the Falling Knife: Retail Liquidity Provision Amid Institutional Selling Pressure",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "119291712",
+       "name": "Håkan Jankensgård"
+      },
+      {
+       "authorId": "2405973805",
+       "name": "Anders Vilhelmsson Per Malm"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "aab4045bf86d1cdfb1daef59b3324b27bec935a0",
+     "externalIds": {
+      "CorpusId": 285185682
+     },
+     "title": "Collective Outsourcing to Market (Com): A Market-Based Collective Outsourcing to Market (Com): A Market-Based Framework for Information Supply Chain Outsourcing Framework for Information Supply Chain Outsourcing",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2330755332",
+       "name": "Zhiling Guo"
+      },
+      {
+       "authorId": "1746920",
+       "name": "A. Whinston"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8cbb6263986185bf2b2fca2cafe927d7d64c2ab9",
+     "externalIds": {
+      "CorpusId": 285933924
+     },
+     "title": "Endogenous Liquidity in Asset Markets",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2417467179",
+       "name": "Annette Vissing-Jørgenson"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "dddb2415c5f9e3d3b93a3dc64f93aef819fb2a3d",
+     "externalIds": {
+      "CorpusId": 285925188
+     },
+     "title": "Center for Economic Institutions Working Paper Series",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2240051435",
+       "name": "Jack Ochs"
+      },
+      {
+       "authorId": "2261670379",
+       "name": "In-Uck Park"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "9bc1378edf78259801ccf1d9b89b5bb89ccce25d",
+     "externalIds": {
+      "CorpusId": 286905764
+     },
+     "title": "Why do ﬁrms pay for liquidity provision in limit order markets?",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "46252971",
+       "name": "Johannes A. Skjeltorp"
+      },
+      {
+       "authorId": "88339377",
+       "name": "B. Ødegaard"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "eb1fa9b76df999b24854c4fcf3a95a4c7fc4eeac",
+     "externalIds": {
+      "CorpusId": 287830989
+     },
+     "title": "The Journal of Entrepreneurial Finance The Journal of Entrepreneurial Finance",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2120245520",
+       "name": "Peter Z. Chen"
+      },
+      {
+       "authorId": "2274991854",
+       "name": "Chunchi Wu"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "41d84f63349a8c2eb4ad4b0cd7c5b5d371d0e809",
+     "externalIds": {
+      "CorpusId": 287903124
+     },
+     "title": "DigitalCommons@SHU DigitalCommons@SHU",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "97692097",
+       "name": "Kwamie Dunbar"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "54f7043c9708b6b9d7d24b5aff378d0e2c22dd96",
+     "externalIds": {
+      "CorpusId": 288016047
+     },
+     "title": "Investor Contributions to Price Discovery and Trading Performance: Evidence from the Taiwan Stock Exchange",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "49414280",
+       "name": "Pi‐Hsia Hung"
+      },
+      {
+       "authorId": "2266104316",
+       "name": "Donald D. Lien"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "456d7edfb29db8a4b81cffa650e43cf6e7f43110",
+     "externalIds": {
+      "CorpusId": 287539867
+     },
+     "title": "City Research Online City St George’s, University of London",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "143973226",
+       "name": "M. Poirier"
+      },
+      {
+       "authorId": "3378748",
+       "name": "Daniel Heussen"
+      },
+      {
+       "authorId": "49734494",
+       "name": "Silvio Aldrovandi"
+      },
+      {
+       "authorId": "2061071083",
+       "name": "Lauren Daniel"
+      },
+      {
+       "authorId": "2340087184",
+       "name": "S. Tasnim"
+      },
+      {
+       "authorId": "1875015",
+       "name": "J. Hampton"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "cb1a26f4f9f576274ff131ef6953905024b7cea0",
+     "externalIds": {
+      "CorpusId": 289631504
+     },
+     "title": "The Impact of Market Informedness on Market Makers’ Profitability",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2444890437",
+       "name": "Konrad Ochedzan"
+      },
+      {
+       "authorId": "2440605355",
+       "name": "Nino Antulov-Fantulin"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "46f4db20c4f104f62427c50d6730388b613bea26",
+     "externalIds": {
+      "CorpusId": 289920204
+     },
+     "title": "THE IMPACT OF FOUNDER-RETAINED OWNERSHIP ON TRANSACTION COSTS IN LISTED FIRMS IN EMERGING OFFSHORE ECONOMIES",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ef0df2fc579d8e9af46ee0ea8eb0ef2c149ea0f8",
+     "externalIds": {
+      "CorpusId": 291045159
+     },
+     "title": "Free Float and Stock Market Liquidity: Evidence from the Casablanca Stock Exchange",
+     "venue": "",
+     "year": null,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2457131638",
+       "name": "Salhi Zakaria"
+      },
+      {
+       "authorId": "2104891076",
+       "name": "Ouakil Hicham"
+      }
+     ],
+     "abstract": null
+    }
+   }
+  ]
+ }
+}

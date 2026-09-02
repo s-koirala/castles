@@ -1,0 +1,311 @@
+{
+ "date": "2026-09-02",
+ "instrument": "protocol section 3.4 known-item recall check",
+ "rule": "a known item counts as independently retrieved iff at least one query id other than its own ka-ki-* fetch retrieved it",
+ "no_numeric_target": "protocol section 3.4: no pass threshold is set; per-item failures are reported and interpreted",
+ "n_known_items": 23,
+ "n_independently_retrieved": 16,
+ "n_not_independently_retrieved": 7,
+ "items": [
+  {
+   "ki": "KI-01",
+   "identifier": "10.1287/mnsc.1040.0191",
+   "uid": "U08136",
+   "title": "Suckers Are Born but Markets Are Made: Individual Rationality, Arbitrage, and Market Effic",
+   "independently_retrieved": false,
+   "independent_query_ids": [],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": "A1"
+  },
+  {
+   "ki": "KI-02",
+   "identifier": "10.1016/j.econlet.2006.01.004",
+   "uid": "U00184",
+   "title": "Interpreting the predictions of prediction markets",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-crossref-15",
+    "ka-nber-01",
+    "ka-openalex-01"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-03",
+   "identifier": "10.3386/w12200",
+   "uid": "U00004",
+   "title": "Interpreting Prediction Market Prices as Probabilities",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-crossref-04",
+    "ka-fc-oa-a5-p001",
+    "ka-fc-oa-a5-p002",
+    "ka-fc-s2-a5-p001",
+    "ka-nber-01"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-04",
+   "identifier": "10.1257/0895330041371321",
+   "uid": "U00002",
+   "title": "Prediction Markets",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-crossref-15",
+    "ka-fc-oa-a1-p001",
+    "ka-fc-oa-a3-p001",
+    "ka-fc-oa-a4-p001",
+    "ka-fc-oa-a4-p002",
+    "ka-fc-oa-a4-p003",
+    "ka-fc-s2-a4-p001",
+    "ka-nber-01",
+    "ka-openalex-01"
+   ],
+   "in_included_corpus": false,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-05",
+   "identifier": "10.1016/s1574-0722(07)00080-7",
+   "uid": "U00885",
+   "title": "Results from a Dozen Years of Election Futures Markets Research",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-fc-oa-a1-p001",
+    "ka-fc-s2-a1-p001"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-06",
+   "identifier": "10.1257/0895330041371277",
+   "uid": "U06853",
+   "title": "Historical Presidential Betting Markets",
+   "independently_retrieved": false,
+   "independent_query_ids": [],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-07",
+   "identifier": "10.1111/ecca.12009",
+   "uid": "U00008",
+   "title": "Inter-Market Arbitrage in Betting",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-crossref-03",
+    "ka-fc-oa-a5-p001",
+    "ka-fc-s2-a5-p001",
+    "ka-openalex-04"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": "A2"
+  },
+  {
+   "ki": "KI-08",
+   "identifier": "10.1016/j.ijforecast.2018.07.008",
+   "uid": "U00007",
+   "title": "Efficiency of Online Football Betting Markets",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-fc-oa-a2-p001",
+    "ka-fc-oa-a5-p001",
+    "ka-fc-oa-a5-p002",
+    "ka-fc-s2-a2-p001",
+    "ka-fc-s2-a5-p001"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-09",
+   "identifier": "10.1257/jep.2.2.161",
+   "uid": "U05837",
+   "title": "Anomalies: Parimutuel Betting Markets: Racetracks and Lotteries",
+   "independently_retrieved": false,
+   "independent_query_ids": [],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-10",
+   "identifier": "10.1086/655844",
+   "uid": "U02528",
+   "title": "Explaining the Favorite–Long Shot Bias: Is it Risk-Love or Misperceptions?",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-fc-oa-a5-p001"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": "A3"
+  },
+  {
+   "ki": "KI-11",
+   "identifier": "10.1257/mic.2.1.58",
+   "uid": "U00013",
+   "title": "Noise, Information and the Favorite-Longshot Bias in Parimutuel Predictions",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-fc-oa-a3-p001",
+    "ka-fc-oa-a5-p001",
+    "ka-fc-s2-a5-p001",
+    "ka-openalex-02"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-12",
+   "identifier": "10.1023/a:1022058209073",
+   "uid": "U01826",
+   "title": "Combinatorial Information Market Design",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-openalex-03"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": "A4"
+  },
+  {
+   "ki": "KI-13",
+   "identifier": "10.5750/jpm.v1i1.417",
+   "uid": "U03281",
+   "title": "LOGARITHMIC MARKETS CORING RULES FOR MODULAR COMBINATORIAL INFORMATION AGGREGATION",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-openalex-03"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-14",
+   "identifier": "1206.5252",
+   "uid": "U00081",
+   "title": "A Utility Framework for Bounded-Loss Market Makers",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-fc-oa-a4-p002",
+    "ka-fc-s2-a4-p001"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-15",
+   "identifier": "10.1145/2465769.2465777",
+   "uid": "U00134",
+   "title": "Efficient Market Making via Convex Optimization, and a Connection to Online Learning",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-fc-oa-a4-p001",
+    "ka-fc-s2-a4-p001",
+    "ka-openalex-03"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-16",
+   "identifier": "10.1145/2509413.2509414",
+   "uid": "U00001",
+   "title": "A Practical Liquidity-Sensitive Automated Market Maker",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-crossref-08",
+    "ka-fc-oa-a1-p001",
+    "ka-fc-oa-a4-p001",
+    "ka-fc-s2-a1-p001",
+    "ka-fc-s2-a4-p001",
+    "ka-openalex-03"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-17",
+   "identifier": "10.1145/2940716.2940767",
+   "uid": "U00094",
+   "title": "Arbitrage-Free Combinatorial Market Making via Integer Programming",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-arxiv-01",
+    "ka-fc-oa-a4-p002",
+    "ka-fc-s2-a4-p001"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-18",
+   "identifier": "10.1016/0304-405x(85)90044-3",
+   "uid": "U06000",
+   "title": "Bid, ask and transaction prices in a specialist market with heterogeneously informed trade",
+   "independently_retrieved": false,
+   "independent_query_ids": [],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": "A6"
+  },
+  {
+   "ki": "KI-19",
+   "identifier": "10.2307/1913210",
+   "uid": "U00419",
+   "title": "Continuous Auctions and Insider Trading",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-fc-oa-a6-p001",
+    "ka-fc-s2-a6-p005"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-20",
+   "identifier": "10.1016/0304-405x(81)90020-9",
+   "uid": "U07629",
+   "title": "Optimal dealer pricing under transactions and return uncertainty",
+   "independently_retrieved": false,
+   "independent_query_ids": [],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-21",
+   "identifier": "10.1080/14697680701381228",
+   "uid": "U06848",
+   "title": "High-frequency trading in a limit order book",
+   "independently_retrieved": false,
+   "independent_query_ids": [],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-22",
+   "identifier": "10.1007/s11579-012-0087-0",
+   "uid": "U00122",
+   "title": "Dealing with the Inventory Risk. A solution to the market making problem",
+   "independently_retrieved": true,
+   "independent_query_ids": [
+    "ka-arxiv-03",
+    "ka-openalex-06"
+   ],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": null
+  },
+  {
+   "ki": "KI-23",
+   "identifier": "10.1111/j.1468-0297.2004.00207.x",
+   "uid": "U08759",
+   "title": "Why are Gambling Markets Organised so Differently from Financial Markets?",
+   "independently_retrieved": false,
+   "independent_query_ids": [],
+   "in_included_corpus": true,
+   "is_forward_citation_anchor": "A5"
+  }
+ ],
+ "structural_note": "A known item that is ALSO a section 3.3 forward-citation anchor cannot be retrieved by its own citing-set query: the citing set contains the works that cite it, never the anchor itself. Of the 7 items not independently retrieved, 3 (KI-01/A1, KI-18/A6, KI-23/A5) are anchors, so their non-retrieval is structural, not a vocabulary failure. The remaining 4 (KI-06, KI-09, KI-20, KI-21) are genuine per-item recall failures of the section 3.2 topical strategy and are reported as such."
+}

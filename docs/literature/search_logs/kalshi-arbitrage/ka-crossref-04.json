@@ -1,0 +1,874 @@
+{
+ "query_id": "ka-crossref-04",
+ "protocol_query_id": "ka-crossref-04",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=prediction+market+prices+compared+with+options+futures+implied+probabilities&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1606625,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 1606625,
+   "items": [
+    {
+     "DOI": "10.3386/w12200",
+     "title": [
+      "Interpreting Prediction Market Prices as Probabilities"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006,
+        5
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Justin",
+       "family": "Wolfers",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Eric",
+       "family": "Zitzewitz",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3009820",
+     "title": [
+      "The Market Value of Dividend Imputation Credits Implied by Futures Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Damien",
+       "family": "Cannavan",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Stephen",
+       "family": "Gray",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Jason L.",
+       "family": "Hall",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>A limitation of prior research on imputation credit value is researchers’ selective interpretation of the regression coefficient used to estimate credit value. This ignores the in-sample evidence on the value of cash dividends and the value of a fully-franked dividend. This is a problem because a sample of security prices, unfranked dividends and franked dividends necessarily leads to the simultaneous estimation of the value of a cash dividend and an imputation credit. We measure the value of imputation credits under three tax regimes, accounting for the joint estimation of the value of cash and credits.&lt;br&gt;&lt;br&gt;The practical implication is that in the cash rebate regime, the market value of imputation credits lies within the range of -0.12 to 0.17. A dollar of cash is valued by the market at somewhere between 88 cents and 98 cents. At the lower end of the cash value (0.88), credits are worth between 0.04 and 0.17; and at the higher end of cash value (0.98), credits are worth between -0.12. and 0.00. The value of imputation credits has, in our view, moved over time in a direction consistent with changing tax treatment. But it is plausible that the value of imputation credits has remained within the range of -0.04 to 0.06 across all three tax regimes.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.6239958",
+     "title": [
+      "AURA Policy Uncertainty Index: A Real-Time, Market-Implied Index Constructed from Prediction Market Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Alex",
+       "family": "Byerly",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>&lt;p&gt;This paper presents the methodology for the AURA Policy Uncertainty Index (AURA-PUI), a high-frequency, daily-published measure of the dispersion and repricing intensity of currently tradable, policy-relevant event probabilities on U.S. prediction markets. Unlike text-based measures that infer uncertainty from newspaper keyword counts (such as the Baker-Bloom-Davis Economic Policy Uncertainty Index), the AURA-PUI derives its signal from the prices, volatility, and microstructure of binary event contracts traded on regulated exchanges and established decentralized platforms. The index is intended as a forward-looking, market-implied complement to existing text- and survey-based uncertainty measures, not a general-purpose proxy for macroeconomic policy uncertainty in the broadest sense. To the author’s knowledge, AURA-PUI is the first published, rules-based policy uncertainty index constructed from prediction market microstructure.&lt;/p&gt;\n&lt;p&gt;The index is constructed from a dynamically managed basket of prediction market contracts spanning five economic policy domains: monetary policy, trade and geopolitical economics, fiscal and regulatory affairs, macroeconomic outcomes, and sector-specific economic policy. Each contract is scored using a two-layer composite framework that captures both the static dispersion of the contract’s market-implied probability (via the Probability Dispersion Score, or PDS, and logit-space volatility) and abnormal per-contract price movement, used as a proxy for repricing intensity (via cross-sectionally normalized momentum). Contracts are weighted by observable liquidity metrics: trading volume and executable bid-ask spreads. Once the classification framework, exclusion filters, and parameters are fixed, no day-to-day discretionary overrides or salience reweightings enter the published index.&lt;/p&gt;\n&lt;p&gt;The methodology employs continuous reconstitution with asymmetric entry/exit buffers, score-proportional per-contract concentration caps, a 50% domain concentration ceiling, and a domain persistence layer that prevents artificial index collapse during contract expiration clusters. Multi-platform sourcing from Kalshi (CFTC-regulated) and Polymarket (decentralized CLOB) provides breadth across the prediction market ecosystem while accommodating platform-specific microstructure differences in spread estimation and volume reporting. An architectural decomposition finds that in the current backtest sample, the concentration caps have negligible effect on the headline series, while persistence contributes modest smoothing; the headline is predominantly determined by the scoring and liquidity-weighted aggregation rather than by the stabilizing rules.&lt;/p&gt;\n&lt;p&gt;The AURA-PUI is computed at hourly intervals with daily publication, providing a high-frequency, market-implied complement to existing monthly uncertainty measures.&lt;/p&gt;</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.898597",
+     "title": [
+      "Interpreting Prediction Market Prices as Probabilities"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Justin",
+       "family": "Wolfers",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Eric W.",
+       "family": "Zitzewitz",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>While most empirical analysis of prediction markets treats prices of binary options as predictions of the probability of future events, Manski (2004) has recently argued that there is little existing theory supporting this practice. We provide relevant analytic foundations, describing sufficient conditions under which prediction markets prices correspond with mean beliefs. Beyond these specific sufficient conditions, we show that for a broad class of models prediction market prices are usually close to the mean beliefs of traders. The key parameters driving trading behavior in prediction markets are the degree of risk aversion and the distribution on beliefs, and we provide some novel data on the distribution of beliefs in a couple of interesting contexts. We find that prediction markets prices typically provide useful (albeit sometimes biased) estimates of average beliefs about the probability an event occurs.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.6976498",
+     "title": [
+      "Option Prices and Option-Implied Probabilities in Incomplete Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Yannick",
+       "family": "Dillschneider",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This paper develops a methodology to quantify the uncertainty about option prices that persists in (statically) incomplete option markets due to finite strike and maturity grids as well as bid-ask price quoting. Uncertainty measures are provided for European option prices and their slopes (i.e., tail probabilities), each derived from model-free bounds that are consistent with a finite sample of observed bid and ask option prices and elementary no-arbitrage constraints in a multi-period setting. We obtain novel explicit expressions for these bounds, which are simple and efficient to compute. Moreover, we suggest a decomposition of the bounds and uncertainty measures into contributions of strike, maturity, and price quote incompleteness. In an empirical analysis of S&amp;amp;P 500 index options, we quantify the empirical uncertainty about option prices. We document sizable uncertainty levels for option prices and tail probabilities. Our findings challenge the common belief that such \"option-implied\" (tail) information can be measured at sufficiently high precision, which has implications for many empirical asset pricing applications that use this information.</jats:p>"
+    },
+    {
+     "DOI": "10.32614/cran.package.yrnd",
+     "title": [
+      "yrnd: Extracts Risk Neutral Densities of Prices, Money Market Rates and Government Bond Yields from Interest Rates Futures Options Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        2,
+        18
+       ]
+      ]
+     },
+     "container-title": [
+      "CRAN: Contributed Packages"
+     ],
+     "type": "dataset",
+     "author": [
+      {
+       "given": "William",
+       "family": "Arrata",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.359060",
+     "title": [
+      "Extracting Risk Neutral Probability Densities by Fitting Implied Volatility Smiles: Some Methodological Points and an Application to the 3m Euribor Futures Options Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2003
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Allan B.",
+       "family": "Andersen",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Tom",
+       "family": "Wagener",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Following Shimko (1993), a large amount of research has evolved around the problem of extracting risk neutral densities from options prices by interpolating the Black-Scholes implied volatility smile. Some of the methods recently proposed use variants of the cubic spline. These methods have the property of producing non-differentiable probability densities. We argue that this is an undesirable feature and suggest circumventing the problem by fitting a smoothing spline of higher order polynomials with a relatively low number of knot points. In the estimations we opt for a measure of roughness penalty, which is more appropriate than the plain second partial derivative often used. We apply this technique to the LIFFE three-month Euribor futures option prices. Constant horizon risk neutral densities are calculated and summary statistics from these densities are used to assess market uncertainty on a day-by-day basis. Finally, we analyse the impact of the 11 September attacks on the expectation of future Euribor interest rates.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.eneco.2007.05.004",
+     "title": [
+      "Market price of risk implied by Asian-style electricity options and futures"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2008,
+        5
+       ]
+      ]
+     },
+     "container-title": [
+      "Energy Economics"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Rafał",
+       "family": "Weron",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.2189482",
+     "title": [
+      "Probability Weighting Functions Implied in Options Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Valery",
+       "family": "Polkovnichenko",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0002-5910-2509",
+       "authenticated-orcid": true,
+       "given": "Feng",
+       "family": "Zhao",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>The empirical pricing kernels estimated from index options are non-monotone (Rosenberg and Engle, 2002; Bakshi, Madan, and Panayotov, 2010) and the corresponding risk aversion functions can be negative (Ait-Sahalia and Lo, 2000; and Jackwerth, 2000). We show theoretically that these and several other properties of empirical pricing kernels are consistent with rank-dependent utility model with probability weighting function which over-weights tail events. We also estimate the pricing kernels non-parametrically from the S&amp;P 500 index options and construct empirical probability weighting functions. The estimated probability weights typically have the inverse-S shape which overweights tail events and is widely supported by the experimental decision theory.</jats:p>"
+    },
+    {
+     "DOI": "10.3886/icpsr01043.v1",
+     "title": [
+      "Implied Arch Model from Options Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1996,
+        1,
+        3
+       ]
+      ]
+     },
+     "container-title": [
+      "ICPSR Data Holdings"
+     ],
+     "type": "dataset",
+     "author": [
+      {
+       "given": "Robert F.",
+       "family": "Engle",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1002/fut.21605",
+     "title": [
+      "Bid–Ask Spreads and Implied Volatilities of Key Players in a FX Options Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013,
+        2,
+        25
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Futures Markets"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Dan",
+       "family": "Galai",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "Dan Galai is the Abe Gray Professor of Finance and Business Administration at the Hebrew University School of Business Administration, Jerusalem, Israel and is a Principal in Sigma PCM Ltd."
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Ben Z.",
+       "family": "Schreiber",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "Ben Z. Schreiber is at the Information and Statistics Department Bank of Israel, Jerusalem, Israel, as well as Bar Ilan University, and Ono Academic College"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:label /><jats:p>This study proposes a simultaneous estimation of the bid–ask spreads (BAS) and implied volatility (IV), based on trading options of various key players in the Israeli OTC FX options market. It explores the surface shape of both variables based on a “clientele effect.” We employ detailed data on OTC foreign exchange options trading that enable us to examine the behavior of the key players (financial companies, non‐financial firms, households, and foreign investors) during relatively turbulent and tranquil periods. Using simultaneous unbiased estimates of BAS and IV, we find substantial differences in BASs among key players while insignificant differences in IV. This evidence reflects differences in key players' profile such as trading size, sophistication and contestability on one hand and a “no arbitrage opportunities” of IV on the other hand. © 2013 Wiley Periodicals, Inc. Jrl Fut Mark</jats:p></jats:sec>"
+    },
+    {
+     "DOI": "10.3886/icpsr01043",
+     "title": [
+      "Implied Arch Model from Options Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1996,
+        1,
+        3
+       ]
+      ]
+     },
+     "container-title": [
+      "ICPSR Data Holdings"
+     ],
+     "type": "dataset",
+     "author": [
+      {
+       "given": "Robert F.",
+       "family": "Engle",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1002/fut.70119",
+     "title": [
+      "The Dynamic Extreme Comovement Between Options Market Ambiguity and Implied Volatility"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        6,
+        7
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Futures Markets"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Qiang",
+       "family": "Chen",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "School of Economics Shanghai University of Finance and Economics Shanghai China"
+        },
+        {
+         "name": "Key Laboratory of Mathematical Economics (SUFE) Ministry of Education Shanghai China"
+        }
+       ],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Yuting",
+       "family": "Gong",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "SILC Business School Shanghai University Shanghai China"
+        }
+       ],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Yu",
+       "family": "Han",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "School of Economics Shanghai University of Finance and Economics Shanghai China"
+        }
+       ],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0009-0001-5626-0640",
+       "authenticated-orcid": false,
+       "given": "Ying",
+       "family": "Huang",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "School of Public Finance and Administration Shanghai Lixin University of Accounting and Finance Shanghai China"
+        }
+       ],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>This study parameterizes extreme comovement between options market ambiguity (OMA) and implied volatility using the Symmetrized Joe–Clayton copula model and a recursive estimation approach. The empirical results demonstrate that acceleration in extreme comovement (AEC) contains incremental information about future market uncertainty beyond that captured by OMA and implied volatility. Both in‐sample and out‐of‐sample predictive tests confirm that AEC anticipates impending market declines. Incorporation of this signal into investment strategies yields significantly better performance than the traditional buy‐and‐hold strategy and the strategies signaled by OMA and implied volatility, providing extra evidence that AEC is a leading indicator of market slumps.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.1786977",
+     "title": [
+      "Implied Default Probabilities and Recovery Rates from Option Prices"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Jennifer S.",
+       "family": "Conrad",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Robert F.",
+       "family": "Dittmar",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0001-7512-5295",
+       "authenticated-orcid": true,
+       "given": "Allaudeen",
+       "family": "Hameed",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We propose a novel method of estimating default probabilities using equity option data. The resulting default probabilities are highly correlated with estimates of default probabilities extracted from CDS spreads, which assume constant recovery rates. Additionally, the option implied default probabilities are higher in bad economic times and for ﬁrms with poorer credit ratings and ﬁnancial positions. An inferred recovery rate, after controlling for liquidity eﬀects, is also related to underlying business and ﬁrm conditions, varies across sectors and predicts subsequent equity returns.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.600742",
+     "title": [
+      "Predictive Accuracy of Futures Options Implied Volatility: The Case of the Exchange Rate Futures Mexican Peso-U.S. Dollar"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Guillermo",
+       "family": "Benavides",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>There has been substantial research effort aimed to forecast futures price return volatilities of financial assets. A significant part of the literature shows that volatility forecast accuracy is not easy to estimate regardless of the forecasting model applied. This paper examines the volatility accuracy of several volatility forecast models for the case of the Mexican peso-USD exchange rate futures returns. The models applied here are a univariate GARCH, a multivariate ARCH (the BEKK model), two option implied volatility models and a composite forecast model. The composite model includes time-series (historical) and option implied volatility forecasts. Different to other works in the literature, in this paper there is a more rigorous analysis of the option implied volatilities calculations. While most of the papers in the literature present only one option implied volatility model or estimates from it in this paper there are two option pricing models presented: one for pricing European options and the other one an approximation to price American options. The results show that the option implied models are superior to the historical models in terms of accuracy and that the composite forecast model was the most accurate one (compared to the alternative models) having the lowest mean-square-errors. According to these findings it is recommended to use a composite forecast model if both types of data are available i.e. the time-series (historical) and the option implied.</jats:p>"
+    },
+    {
+     "DOI": "10.32614/cran.package.greeks",
+     "title": [
+      "greeks: Sensitivities of Prices of Financial Options and Implied Volatilities"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021,
+        5,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "CRAN: Contributed Packages"
+     ],
+     "type": "dataset",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0002-5652-2815",
+       "authenticated-orcid": true,
+       "given": "Anselm",
+       "family": "Hudde",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.930726",
+     "title": [
+      "The Behaviour of Implied Volatility Surface: Evidence from Crude Oil Futures Options"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Amine",
+       "family": "Bouden",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>In this paper, I investigate Implied Volatility Surface patterns for Call options on crude oil futures. Instead of studying the power of the large number of explanatory factors inherent to oil markets, I focus on the common characteristics of option prices. By using quadratic Implied Volatility Functions (IVFs), I aim to establish a mapping from implied volatilities to option's intrinsic characteristics i.e. moneyness and time to expiration and to test the capacity of these functions to provide a good forecast of option prices. I found that the profile of crude oil implied volatility is too complex to be fully explained by IVFs. The main contribution of the paper is to perform an econometric explanatory analysis on a high volatile market, the petroleum market.</jats:p>"
+    },
+    {
+     "DOI": "10.1007/978-88-470-2342-0_37",
+     "title": [
+      "Extracting implied dividends from options prices: Some applications to the Italian derivatives market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012
+       ]
+      ]
+     },
+     "container-title": [
+      "Mathematical and Statistical Methods for Actuarial Sciences and Finance"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Martina",
+       "family": "Nardon",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Paolo",
+       "family": "Pianca",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2307/2234896",
+     "title": [
+      "The Stochastic behaviour of Market Variance Implied in the Prices of Index Options"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1991,
+        11
+       ]
+      ]
+     },
+     "container-title": [
+      "The Economic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Julian R.",
+       "family": "Franks",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Eduardo S.",
+       "family": "Schwartz",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1002/fut.20243",
+     "title": [
+      "Valuing real options using implied binomial trees and commodity futures options"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007,
+        1,
+        17
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Futures Markets"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Tom",
+       "family": "Arnold",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Timothy Falcon",
+       "family": "Crack",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Adam",
+       "family": "Schwartz",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:title>Abstract</jats:title><jats:p>A real option on a commodity is valued using an implied binomial tree (IBT) calibrated using commodity futures options prices. Estimating an IBT in the absence of spot options (the norm for commodities) allows real option models to be calibrated for the first time to market‐implied probability distributions for commodity prices. In addition, the existence of long‐dated futures options means that good volatility estimates may now be incorporated into capital budgeting evaluations of real options projects with long planning horizons. An example is given using gold futures options and a real option to extract gold from a mine. A detailed out‐of‐sample test is included that shows how IBT option pricing errors evolve on subtrees emanating from future levels of the underlying asset. © 2007 Wiley Periodicals, Inc. Jrl Fut Mark 27:203–226, 2007</jats:p>"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

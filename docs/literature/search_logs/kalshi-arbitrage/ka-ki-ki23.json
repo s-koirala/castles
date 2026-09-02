@@ -1,0 +1,472 @@
+{
+ "query_id": "ka-ki-ki23",
+ "protocol_query_id": "KI-23",
+ "arm": "known-item",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1111%2Fj.1468-0297.2004.00207.x",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1,
+ "retrieved_count": 1,
+ "identifier": "10.1111/j.1468-0297.2004.00207.x",
+ "raw_format": "json",
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      26
+     ]
+    ],
+    "date-time": "2026-08-26T06:30:05Z",
+    "timestamp": 1787725805268,
+    "version": "build-2784847793"
+   },
+   "reference-count": 26,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "495",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2015,
+        9,
+        1
+       ]
+      ],
+      "date-time": "2015-09-01T00:00:00Z",
+      "timestamp": 1441065600000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 4170,
+     "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [],
+   "published-print": {
+    "date-parts": [
+     [
+      2004,
+      4,
+      1
+     ]
+    ]
+   },
+   "DOI": "10.1111/j.1468-0297.2004.00207.x",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2004,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2004-04-01T10:47:31Z",
+    "timestamp": 1080816451000
+   },
+   "page": "223-246",
+   "source": "Crossref",
+   "is-referenced-by-count": 304,
+   "title": [
+    "Why are Gambling Markets Organised so Differently from Financial Markets?"
+   ],
+   "prefix": "10.1093",
+   "volume": "114",
+   "author": [
+    {
+     "given": "Steven D.",
+     "family": "Levitt",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "University of Chicago and American Bar Foundation"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2004,
+      4,
+      1
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b1",
+     "doi-asserted-by": "crossref",
+     "first-page": "803",
+     "DOI": "10.1086/260600",
+     "article-title": "‘Probability and utility estimates for racetrack bettors’",
+     "volume": "85",
+     "author": "Ali",
+     "year": "1977",
+     "journal-title": "Journal of Political Economy"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b2",
+     "doi-asserted-by": "crossref",
+     "first-page": "165",
+     "DOI": "10.1086/296257",
+     "article-title": "‘Market efficiency in racetrack betting’",
+     "volume": "57",
+     "author": "Asch",
+     "year": "1984",
+     "journal-title": "Journal of Business"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b3",
+     "doi-asserted-by": "crossref",
+     "first-page": "493",
+     "DOI": "10.1086/209625",
+     "article-title": "‘Identifying investor sentiment from price paths: the case of football betting’",
+     "volume": "72",
+     "author": "Avery",
+     "year": "1999",
+     "journal-title": "Journal of Business"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b4",
+     "doi-asserted-by": "crossref",
+     "first-page": "369",
+     "DOI": "10.1080/07350015.1986.10509492",
+     "article-title": "‘Combining economic forecasts’",
+     "volume": "4",
+     "author": "Clemen",
+     "year": "1986",
+     "journal-title": "Journal of Business and Economic Statistics"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b5",
+     "volume-title": "‘Contract design and self‐control: theory and evidence’",
+     "author": "DellaVigna",
+     "year": "2003"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b6",
+     "doi-asserted-by": "crossref",
+     "first-page": "391",
+     "DOI": "10.1080/07350015.1991.10509867",
+     "article-title": "‘Application of stein rules to combination forecasting’",
+     "volume": "9",
+     "author": "Fomby",
+     "year": "1991",
+     "journal-title": "Journal of Business and Economic Statistics"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b7",
+     "volume-title": "‘Bookies still counting the costs’",
+     "author": "Gambling Magazine",
+     "year": "1999"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b8",
+     "doi-asserted-by": "crossref",
+     "first-page": "311",
+     "DOI": "10.1016/0304-405X(91)90034-H",
+     "article-title": "‘The degree of price inefficiency in the football betting markets’",
+     "volume": "30",
+     "author": "Golec",
+     "year": "1991",
+     "journal-title": "Journal of Financial Economics"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b9",
+     "doi-asserted-by": "crossref",
+     "first-page": "205",
+     "DOI": "10.1086/250007",
+     "article-title": "‘Bettors love skewness, not risk, at the horse track’",
+     "volume": "106",
+     "author": "Golec",
+     "year": "1998",
+     "journal-title": "Journal of Political Economy"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b10",
+     "doi-asserted-by": "crossref",
+     "first-page": "1725",
+     "DOI": "10.1111/j.1540-6261.1997.tb01129.x",
+     "article-title": "‘Testing market efficiency: evidence from the NFL sports betting market’",
+     "volume": "52",
+     "author": "Gray",
+     "year": "1997",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b11",
+     "doi-asserted-by": "crossref",
+     "first-page": "503",
+     "DOI": "10.1086/262127",
+     "article-title": "‘Estimating preferences under risk: the case of racetrack bettors’",
+     "volume": "108",
+     "author": "Jullien",
+     "year": "2000",
+     "journal-title": "Journal of Political Economy"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b12",
+     "doi-asserted-by": "crossref",
+     "first-page": "1353",
+     "DOI": "10.1080/00036840050151449",
+     "article-title": "‘Information and efficiency: an empirical study of a fixed odds betting market’",
+     "volume": "32",
+     "author": "Kuypers",
+     "year": "2000",
+     "journal-title": "Applied Economics"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b13",
+     "article-title": "‘Regression to the mean and football wagers’",
+     "author": "Lee",
+     "journal-title": "Journal of Behavioral Decisionmaking"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b14",
+     "volume-title": "Final Report",
+     "author": "National Gambling Impact Study Commission",
+     "year": "1999"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b15",
+     "volume-title": "‘Nevada gaming revenues calendar year 2001 analysis’",
+     "author": "Nevada Gaming Control Board",
+     "year": "2002"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b16",
+     "doi-asserted-by": "crossref",
+     "first-page": "206",
+     "DOI": "10.1086/261532",
+     "article-title": "‘Hold your bets: another look at the efficiency of the gambling market for national football league games’",
+     "volume": "96,",
+     "author": "Sauer",
+     "year": "1988",
+     "journal-title": "Journal of Political Economy"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b17",
+     "doi-asserted-by": "crossref",
+     "first-page": "1179",
+     "DOI": "10.2307/2234434",
+     "article-title": "‘Optimal betting odds against insider traders’",
+     "volume": "101",
+     "author": "Shin",
+     "year": "1991",
+     "journal-title": "Economic Journal"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b18",
+     "doi-asserted-by": "crossref",
+     "first-page": "426",
+     "DOI": "10.2307/2234526",
+     "article-title": "‘Prices of state contingent claims with insider traders, and the favourite‐longshot bias’",
+     "volume": "102",
+     "author": "Shin",
+     "year": "1992",
+     "journal-title": "Economic Journal"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b19",
+     "doi-asserted-by": "crossref",
+     "first-page": "1141",
+     "DOI": "10.2307/2234240",
+     "article-title": "‘Measuring the incidence of insider trading in a market for state‐contingent claims’",
+     "volume": "103",
+     "author": "Shin",
+     "year": "1993",
+     "journal-title": "Economic Journal"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b20",
+     "volume-title": "Business Life",
+     "author": "Smith",
+     "year": "2002"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b21",
+     "volume-title": "‘Illegal sports bookmakers’",
+     "author": "Strumpf",
+     "year": "2002"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b22",
+     "doi-asserted-by": "crossref",
+     "first-page": "161",
+     "DOI": "10.1257/jep.2.2.161",
+     "article-title": "‘Parimutuel betting markets: racetracks and lotteries’",
+     "volume": "2",
+     "author": "Thaler",
+     "year": "1988",
+     "journal-title": "Journal of Economic Perspectives"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b23",
+     "doi-asserted-by": "crossref",
+     "first-page": "150",
+     "DOI": "10.1111/1468-0297.00147",
+     "article-title": "‘Why is there a favourite‐longshot bias in British racetrack betting markets?’",
+     "volume": "107",
+     "author": "Vaughn Williams",
+     "year": "1997",
+     "journal-title": "Economic Journal"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b24",
+     "doi-asserted-by": "crossref",
+     "first-page": "638",
+     "DOI": "10.1086/261770",
+     "article-title": "‘The effects of risk aversion on wagering: point spreads versus odds’",
+     "volume": "99",
+     "author": "Woodland",
+     "year": "1991",
+     "journal-title": "Journal of Political Economy"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b25",
+     "doi-asserted-by": "crossref",
+     "first-page": "269",
+     "DOI": "10.1111/j.1540-6261.1994.tb04429.x",
+     "article-title": "‘Market efficiency and the favourite‐longshot bias: the baseball betting market’",
+     "volume": "49",
+     "author": "Woodland",
+     "year": "1994",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "key\n\t\t\t\t2018110908441508900_b26",
+     "doi-asserted-by": "crossref",
+     "first-page": "800",
+     "DOI": "10.1086/261332",
+     "article-title": "‘Beating the spread: testing the efficiency of the gambling market for national football league games’",
+     "volume": "93",
+     "author": "Zuber",
+     "year": "1985",
+     "journal-title": "Journal of Political Economy"
+    }
+   ],
+   "container-title": [
+    "The Economic Journal"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1468-0297.2004.00207.x",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "http://academic.oup.com/ej/article-pdf/114/495/223/26448974/ej0223.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      12,
+      15
+     ]
+    ],
+    "date-time": "2024-12-15T13:50:23Z",
+    "timestamp": 1734270623000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/ej/article/114/495/223-246/5086012"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2004,
+      4,
+      1
+     ]
+    ]
+   },
+   "references-count": 26,
+   "journal-issue": {
+    "issue": "495",
+    "published-online": {
+     "date-parts": [
+      [
+       2004,
+       4,
+       1
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2004,
+       4,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1111/j.1468-0297.2004.00207.x",
+   "relation": {},
+   "ISSN": [
+    "0013-0133",
+    "1468-0297"
+   ],
+   "issn-type": [
+    {
+     "value": "0013-0133",
+     "type": "print"
+    },
+    {
+     "value": "1468-0297",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published-other": {
+    "date-parts": [
+     [
+      2004,
+      4
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2004,
+      4,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,5025 @@
+{
+ "query_id": "ka-fc-s2-a1-p001",
+ "protocol_query_id": "ka-fc-s2-a1",
+ "arm": "forward-citation",
+ "platform": "semanticscholar",
+ "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1287/mnsc.1040.0191/citations?fields=title,year,venue,externalIds,abstract,citationCount&limit=1000&offset=0",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": null,
+ "retrieved_count": 156,
+ "page": 1,
+ "offset": 0,
+ "retry_attempts": 1,
+ "raw": {
+  "offset": 0,
+  "data": [
+   {
+    "citingPaper": {
+     "paperId": "72bc43a1195ec3fe1c56ccd3071f6d68c7f0a096",
+     "externalIds": {
+      "DOI": "10.1093/ej/ueaf040",
+      "CorpusId": 279274294
+     },
+     "title": "How Market Prices React to Information: Evidence from Binary Options Markets",
+     "venue": "Economic Journal",
+     "year": 2025,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "http://archive.nyu.edu/bitstream/2451/75681/2/WP_0058.pdf",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1093/ej/ueaf040?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/ej/ueaf040, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "4296082",
+       "name": "Romain Gauriot"
+      },
+      {
+       "authorId": "2292079644",
+       "name": "Lionel Page"
+      }
+     ],
+     "abstract": "\n Using a natural experiment setting in binary options markets, we compare the evolution of market prices in situations where the occurrence of public information shocks is contingent on knife-edge conditions and can be considered nearly random. We find that prices mostly react efficiently and quickly to information shocks, adjusting to the new fundamental value. Nonetheless, we observe a tendency for prices to initially under-react when the information shocks are large. This under-reaction is short lived."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b9e889b8329f98a9ca63d501fda30833c091cfd6",
+     "externalIds": {
+      "DOI": "10.1057/s41599-024-04218-4",
+      "CorpusId": 275512375
+     },
+     "title": "Mandatory CSR disclosure regulation and stock price synchronicity: evidence from a quasi-natural experiment",
+     "venue": "Humanities and Social Sciences Communications",
+     "year": 2025,
+     "citationCount": 6,
+     "openAccessPdf": {
+      "url": "https://www.nature.com/articles/s41599-024-04218-4.pdf",
+      "status": "GOLD",
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1057/s41599-024-04218-4?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1057/s41599-024-04218-4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2402108642",
+       "name": "Chuan-Chih Wu"
+      }
+     ],
+     "abstract": "Using the mandatory CSR disclosure policy enacted in China as a quasi-natural experiment, this study provides causal evidence that mandatory CSR disclosure regulation increases stock price synchronicity. Drawing upon signaling theory and behavioral finance perspective, I argue that mandatory CSR disclosure regulation as a market level signal may affect investors’ category-learning behavior, which can further have a positive impact on stock price synchronicity. I further show that this positive impact can be attenuated when firms are followed by more analysts, when more following analysts are affiliated with large brokerage firms, and when firms have better corporate governance. This study not only provides new evidence that mandatory CSR disclosure regulation can positively affect stock price synchronicity but also suggests that analysts’ capabilities to extract and understand CSR information and better corporate governance can alleviate such an effect."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "61d6d83b738571711192631ff16ddc756f97c2f6",
+     "externalIds": {
+      "DOI": "10.1016/j.iref.2025.103910",
+      "CorpusId": 275844012
+     },
+     "title": "The Disciplinary Role of Options Trading: Evidence from Earnings Manipulation",
+     "venue": "International Review of Economics &amp; Finance",
+     "year": 2025,
+     "citationCount": 4,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.1016/j.iref.2025.103910",
+      "status": "GOLD",
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.iref.2025.103910?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.iref.2025.103910, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2334376341",
+       "name": "Mengshu Hao"
+      },
+      {
+       "authorId": "2341909173",
+       "name": "Jieying Hong"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4303af9edb253bbb36f6d96bbedea1ecec11b59d",
+     "externalIds": {
+      "DOI": "10.1016/j.jebo.2023.10.012",
+      "CorpusId": 266295754
+     },
+     "title": "Does the left-digit bias affect prices in financial markets?",
+     "venue": "Journal of Economic Behavior &amp; Organization",
+     "year": 2024,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jebo.2023.10.012?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jebo.2023.10.012, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2175141869",
+       "name": "Florian Heraud"
+      },
+      {
+       "authorId": "33281683",
+       "name": "Lionel Page"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "e202913e9294752e88c737ac9ed9342ca3844d51",
+     "externalIds": {
+      "DBLP": "journals/dss/DongZLZ24",
+      "DOI": "10.1016/j.dss.2024.114190",
+      "CorpusId": 267597670
+     },
+     "title": "Distilling wisdom of crowds in online communities: A novel prediction market constructed with comment posters",
+     "venue": "Decision Support Systems",
+     "year": 2024,
+     "citationCount": 12,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.dss.2024.114190?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.dss.2024.114190, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2269771634",
+       "name": "Li Dong"
+      },
+      {
+       "authorId": "2269700892",
+       "name": "Haichao Zheng"
+      },
+      {
+       "authorId": "1845827098",
+       "name": "Liting Li"
+      },
+      {
+       "authorId": "2110715926",
+       "name": "Chunyu Zhou"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "23fe5c6aa3a55d3958a328494b7d2b8e61644c0b",
+     "externalIds": {
+      "DBLP": "journals/ecra/DongZLH22",
+      "DOI": "10.1016/j.elerap.2022.101216",
+      "CorpusId": 253241652
+     },
+     "title": "Human-machine hybrid prediction market: A promising sales forecasting solution for E-commerce enterprises",
+     "venue": "Electronic Commerce Research and Applications",
+     "year": 2022,
+     "citationCount": 8,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.elerap.2022.101216?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.elerap.2022.101216, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2152286632",
+       "name": "Li Dong"
+      },
+      {
+       "authorId": "2034278",
+       "name": "Haichao Zheng"
+      },
+      {
+       "authorId": "1845827098",
+       "name": "Liting Li"
+      },
+      {
+       "authorId": "2113334570",
+       "name": "Linna Hao"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6712fe2c4032a5224e7b99d5261c0e4b640257ca",
+     "externalIds": {
+      "MAG": "3138866511",
+      "DOI": "10.5750/jpm.v14i2.1561",
+      "CorpusId": 234429494
+     },
+     "title": "Comparing trading behaviour and profit composition in prediction markets",
+     "venue": "",
+     "year": 2020,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5750/jpm.v14i2.1561?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5750/jpm.v14i2.1561, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "37570925",
+       "name": "Martin Waitz"
+      },
+      {
+       "authorId": "2415649",
+       "name": "A. Mild"
+      }
+     ],
+     "abstract": "Prediction markets have established itself as forecasting technique, especially within the IT industry. While the majority of existing studies focuses either on the output of such markets or its design settings, the traders who actually produce the forecasts got only little attention yet. Within this work, we develop a classification scheme for traders of a prediction market that is grounded on both, financial and prediction market literature. Over a period of three years, 127 prediction markets have been observed and its 4.329 traders are separated into seven subgroups (beginners, noise traders, average traders, experts, donkey traders, market makers and superior traders), based on their knowledge, experience and selectivity. We find empirical evidence for the existence of these subgroups and thus for the heterogeneity among the traders. For each of these subgroups, we analyze the trading behaviour and the profit composition."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4c98bebb07891b579dc16d6a9db5eac01e83caaf",
+     "externalIds": {
+      "MAG": "3088493171",
+      "DOI": "10.5750/JPM.V14I1.1796",
+      "CorpusId": 222225839
+     },
+     "title": "Arbitrage in Political Prediction Markets",
+     "venue": "",
+     "year": 2020,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "http://www.ubplj.org/index.php/jpm/article/download/1796/1605",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5750/JPM.V14I1.1796?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5750/JPM.V14I1.1796, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "92032908",
+       "name": "Andrew Stershic"
+      },
+      {
+       "authorId": "1394242885",
+       "name": "Kritee Gujral"
+      }
+     ],
+     "abstract": "Online prediction markets are a powerful tool for aggregating information and show promise as predictive tools for uncertain outcomes, from sporting events to election results. However, these markets only serve as effective prediction tools so long as the market pricing remains efficient. We analyze the potential arbitrage profits derived from such mispricings in two leading American political prediction markets, PredictIt (for the 2016 and 2020 elections) and the Iowa Electronic Markets (for the 2016 election), to quantify the degree of mispricing and to show how market design can contribute to price distortion. We show that contracts hosted by PredictIt, compared to the IEM, are chronically mispriced, with large arbitrage profits in the 2016 election markets and non-negligible profits for the 2020 markets. We discuss the role of profit fees and contract limits, the primary differences between the PredictIt and IEM, in distorting pricing on PredictIt by limiting the ability of traders to capture arbitrage profits. Additionally, we examine the association between arbitrage and margin-linking, increased liquidity, and the number of unique contracts PredictIt's markets. This research provides cautionary evidence of potential inefficiencies in prediction markets with the intention of improving market implementation and enhancing market predictiveness."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "3b027df4fd4db8febdcef3ebba6955f0cbc2d234",
+     "externalIds": {
+      "MAG": "2995058589",
+      "DOI": "10.1007/s10683-020-09654-y",
+      "CorpusId": 216158572
+     },
+     "title": "Improving decisions with market information: an experiment on corporate prediction markets",
+     "venue": "Experimental Economics",
+     "year": 2020,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "http://repository.essex.ac.uk/27164/1/paper14-ee-R1.pdf",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10683-020-09654-y?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10683-020-09654-y, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "3441514",
+       "name": "Ahrash Dianat"
+      },
+      {
+       "authorId": "9715971",
+       "name": "Christoph Siemroth"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6a1f00c111296cd9d5937bc0fb40aba543571260",
+     "externalIds": {
+      "MAG": "3011790102",
+      "DOI": "10.1111/poms.13175",
+      "CorpusId": 216278856
+     },
+     "title": "Anomalies in Probability Estimates for Event Forecasting on Prediction Markets",
+     "venue": "Production and operations management",
+     "year": 2020,
+     "citationCount": 5,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/poms.13175?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/poms.13175, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2110756802",
+       "name": "Ho Cheung Brian Lee"
+      },
+      {
+       "authorId": "2797657",
+       "name": "Jan Stallaert"
+      },
+      {
+       "authorId": "145104983",
+       "name": "Ming Fan"
+      }
+     ],
+     "abstract": "Innovative forecasting methods using new data sources have been developed to address various problems in operations management, such as demand, sales, and event forecasts. One of the methods for forecasting events consists of prediction markets where participants can take financial positions that may generate returns depending on whether certain events occur or not. Results in experimental psychology and behavioral economics have shown that individuals, including experts, can be subject to judgment bias when making probability estimates for future events. We examine, in this study, whether prediction markets are immune to such bias in estimating event probability. We find that even when there are large numbers of transactions and high volumes of trades, probabilistic fallacies still occur. Moreover, when they occur, they tend to be persistent over a certain period of time, and they tend to happen in situations similar to the ones where individual probabilistic fallacies are reported to occur. Our results have implications for the design of prediction markets and at the same time call for caution when using forecasts generated this way."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "91850a33e55ed7846f9db88988036309c6473d89",
+     "externalIds": {
+      "MAG": "3124603081",
+      "DOI": "10.2139/ssrn.3345569",
+      "CorpusId": 285756796
+     },
+     "title": "How Can Corporate Prediction Markets Improve Manager Decisions? An Experimental Study",
+     "venue": "Social Science Research Network",
+     "year": 2020,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.2139/ssrn.3345569?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/ssrn.3345569, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "3441514",
+       "name": "Ahrash Dianat"
+      },
+      {
+       "authorId": "9715971",
+       "name": "Christoph Siemroth"
+      }
+     ],
+     "abstract": "We conduct a lab experiment to investigate an important corporate prediction market setting: A manager needs information about the state of a project, which workers have, in order to make a state-dependent decision. Workers can potentially reveal this information by trading in a corporate prediction market. We test two different market designs to determine which provides more information to the manager and leads to better decisions. We also investigate the effect of top-down advice from the market designer to participants on how the prediction market is intended to function. Our results show that the theoretically superior market design performs worse in the lab---in terms of manager decisions---without top-down advice. With advice, manager decisions improve and both market designs perform similarly well, although the theoretically superior market design features less mis-pricing. We provide a behavioral explanation for the failure of the theoretical predictions and discuss implications for corporate prediction markets in the field."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5c457d19b3d1d8c6d3d9eeecd58ba148fe02962b",
+     "externalIds": {
+      "MAG": "3024243658",
+      "DOI": "10.58837/chula.the.2019.229",
+      "CorpusId": 226184599
+     },
+     "title": "The effect of U.S. Presidential elections on stock market liquidity in emerging economies",
+     "venue": "",
+     "year": 2020,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "http://cuir.car.chula.ac.th/bitstream/123456789/64787/1/6182941826.pdf",
+      "status": "GOLD",
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.58837/chula.the.2019.229?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.58837/chula.the.2019.229, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2007504494",
+       "name": "Phatarakorn Thongsathit"
+      },
+      {
+       "authorId": "2007507997",
+       "name": "ภัทรกร ทองสถิตย์"
+      },
+      {
+       "authorId": "83672192",
+       "name": "Ruttachai Seelajaroen"
+      },
+      {
+       "authorId": "2007502608",
+       "name": "รัฐชัย ศีลาเจริญ"
+      }
+     ],
+     "abstract": "This paper examines the effect of uncertainties that arises from U.S. presidential elections on emerging stock market liquidity over five period of elections from 2000 to 2016. The U.S. presidential elections created two uncertainties, which are political uncertainty and election uncertainty, before the election day. It is argued that the political uncertainty affects the emerging stock market liquidity through the change in future macroeconomic fundamentals while the election uncertainty is an uncertainty about the eventual winner of the election that affects the emerging stock market liquidity through market sentiment. Using monthly Iowa Electronic Markets data, this paper finds the evidence that the political uncertainty has a statistically impact on emerging stock market liquidity while this paper does not find the evidence for the impact of the election uncertainty. The effect of the political uncertainty still has statistically impact on the emerging stock market liquidity even I control the potential effect of macroeconomic variable to the political uncertainty. The result also implies the importance of seperating the two uncertainties during election period into the political uncertainty and the election uncertainty."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "e26cb6a95395b0e902c9c49ebbfa156b21f2eb03",
+     "externalIds": {
+      "MAG": "1486418140",
+      "DOI": "10.2139/SSRN.1645062",
+      "CorpusId": 16999416
+     },
+     "title": "Longshots, overconfidence and efficiency on the Iowa Electronic Market",
+     "venue": "International Journal of Forecasting",
+     "year": 2019,
+     "citationCount": 18,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.1645062",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.2139/SSRN.1645062?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/SSRN.1645062, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "50201370",
+       "name": "Joyce E. Berg"
+      },
+      {
+       "authorId": "2363796",
+       "name": "Thomas A. Rietz"
+      }
+     ],
+     "abstract": "A basic proposition of behavioral finance is that individual decision-making biases affect financial markets. We examine this proposition using data from the Iowa Electronic Market (IEM), a real money market conducted for teaching and research purposes. We ask whether the longshot bias or an overconfidence bias affects market prices. In our market context, these two biases yield opposing predictions. The IEM is ideal for answering these questions because it mixes many desirable research features from betting markets (where the longshot bias is observed) with a closer parallel to naturally occurring financial markets (where researchers look for evidence of overconfidence). While the longshot bias affects many sports betting markets robustly, no such bias appears here. Nor does overconfidence influence prices at short horizons. If there is a bias, it results from overconfident traders at long horizons. While the markets incorporate information efficiently at short horizons, non-market data indicate some long-horizon inefficiency. When markets appear inefficient, we calculate Sharpe ratios for static trading strategies and document returns for dynamic trading strategies to show the economic content of the inefficiencies."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d551a8a5475a95de75857dd515ed8577250a05e3",
+     "externalIds": {
+      "MAG": "2809249719",
+      "DOI": "10.1016/J.IJFORECAST.2018.04.003",
+      "CorpusId": 158356612
+     },
+     "title": "Predicting the failures of prediction markets: A procedure of decision making using classification models",
+     "venue": "International Journal of Forecasting",
+     "year": 2019,
+     "citationCount": 10,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.IJFORECAST.2018.04.003?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.IJFORECAST.2018.04.003, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2410317",
+       "name": "C. Tai"
+      },
+      {
+       "authorId": "2000558168",
+       "name": "Hung-Wen Lin"
+      },
+      {
+       "authorId": "2378087",
+       "name": "Bin-Tzong Chie"
+      },
+      {
+       "authorId": "2073903",
+       "name": "Chen-Yuan Tung"
+      }
+     ],
+     "abstract": "Prediction markets have been an important source of information for decision makers due to their high ex post accuracies. Nevertheless, recent failures of prediction markets remind us of the importance of ex ante assessments of their prediction accuracy. This paper proposes a systematic procedure for decision makers to acquire prediction models which may be used to predict the correctness of winner-take-all markets. We commence with a set of classification models and generate combined models following various rules. We also create artificial records in the training datasets to overcome the imbalanced data issue in classification problems. These models are then empirically trained and tested with a large dataset to see which may best be used to predict the failures of prediction markets. We find that no model can universally outperform others in terms of different performance measures. Despite this, we clearly demonstrate a result of capable models for decision makers based on different decision goals."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "fd43619d3c658f8e4b038ac2270aff96096b6e4c",
+     "externalIds": {
+      "MAG": "2898129443",
+      "DOI": "10.1111/JOFI.12736",
+      "CorpusId": 158459201
+     },
+     "title": "A Test of the Modigliani‐Miller Invariance Theorem and Arbitrage in Experimental Asset Markets",
+     "venue": "Journal of Finance",
+     "year": 2018,
+     "citationCount": 37,
+     "openAccessPdf": {
+      "url": "https://orbilu.uni.lu/handle/10993/40504",
+      "status": "GREEN",
+      "license": "other-oa",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/JOFI.12736?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/JOFI.12736, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1739997",
+       "name": "G. Charness"
+      },
+      {
+       "authorId": "2227884",
+       "name": "Tibor Neugebauer"
+      }
+     ],
+     "abstract": "Modigliani and Miller show that the total market value of a firm is unaffected by a repackaging of asset return streams to equity and debt if pricing is arbitrage‐free. We investigate this invariance theorem in experimental asset markets, finding value‐invariance for assets of identical risks when returns are perfectly correlated. However, exploiting price discrepancies has risk when returns have the same expected value but are uncorrelated, in which case the law of one price is violated. Discrepancies shrink in consecutive markets, but persist even with experienced traders. In markets where overall trader acuity is high, assets trade closer to parity."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "404806e7be9ac2c6a8494638a635f6514e23e7d3",
+     "externalIds": {
+      "MAG": "2885109968",
+      "DOI": "10.1093/OXFORDHB/9780198703174.013.21",
+      "CorpusId": 158182366
+     },
+     "title": "Volatility in prediction markets: A measure of information flow in political campaigns",
+     "venue": "Oxford Handbooks Online",
+     "year": 2018,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1093/OXFORDHB/9780198703174.013.21?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/OXFORDHB/9780198703174.013.21, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "144845491",
+       "name": "A. Dawid"
+      },
+      {
+       "authorId": "2015114",
+       "name": "J. Mortera"
+      },
+      {
+       "authorId": "2215463",
+       "name": "P. Vicard"
+      }
+     ],
+     "abstract": "This article discusses the use of Bayesian analysis in the evaluation of temporal volatility and information flows in political campaigns. Using the 2004 US presidential election campaign as a case study, it demonstrates the utility of a model with two volatility regimes that simplifies the task of associating events with periods of high information. The article first explains why prediction markets are able to aggregate information such that the prices of future contracts are reflective of the event’s actual probability of occurring before analysing data from futures on ‘Bush wins the popular vote in 2004’, or the traded probability, of Bush winning the election. These data are used to build a measure of information flow. The results show that information flows increased as a result of the televised debates, and that these debates, along with the selection of the vice presidential candidate, increased prediction market volatility."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "153d080f10fbc112a1a2f138036a216b7784795a",
+     "externalIds": {
+      "MAG": "2886173638",
+      "DOI": "10.1108/FS-01-2018-0009",
+      "CorpusId": 158696738
+     },
+     "title": "Analyzing prediction market trading behaviour to select Delphi-experts",
+     "venue": "Foresight",
+     "year": 2018,
+     "citationCount": 4,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1108/FS-01-2018-0009?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1108/FS-01-2018-0009, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "11028606",
+       "name": "Simon Kloker"
+      },
+      {
+       "authorId": "122625022",
+       "name": "F. Klatt"
+      },
+      {
+       "authorId": "98310761",
+       "name": "J. Höffer"
+      },
+      {
+       "authorId": "1733795",
+       "name": "Christof Weinhardt"
+      }
+     ],
+     "abstract": "\nPurpose\nThe selection of experts for Delphi studies is crucial for the quality of the forecast results and the information taken into account. In the past, this has usually been done by selecting participants according to their reputation, although this approach is questionable in terms of reaching the most knowledgeable participants having new, relevant and valid information. In this context, this paper aims to propose to operate a prediction market alongside Delphi studies and select participants based on their trading behaviour in the market for the Delphi study.\n\n\nDesign/methodology/approach\nBased on more than three years of historical prediction market trading data, the authors verify attributes that indicate insightful trades, as previously discussed in the finance literature, by using regression and classification trees.\n\n\nFindings\nThe paper contributes attributes of trading behaviour that are theoretically derived from literature and potentially related to informed traders. These are tested and evaluated on historical prediction market data. Especially, the trading volume, the spread at the moment of trading and the market maker attribute seem to predict informed traders the best.\n\n\nOriginality/value\nAlgorithms based on identified attributes can be used to objectify the selection of experts for Delphi studies with potential gains in terms of the amount of information considered.\n"
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "fc5e673167040bfe8d5c698bd8d6215d6321e68d",
+     "externalIds": {
+      "MAG": "2806320935",
+      "DOI": "10.1108/SEF-01-2014-0022",
+      "CorpusId": 158215942
+     },
+     "title": "Market efficiency and the global financial crisis: evidence from developed markets",
+     "venue": "Studies in Economics and Finance",
+     "year": 2018,
+     "citationCount": 11,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1108/SEF-01-2014-0022?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1108/SEF-01-2014-0022, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "71026661",
+       "name": "Omid Sabbaghi"
+      },
+      {
+       "authorId": "8764741",
+       "name": "Navid Sabbaghi"
+      }
+     ],
+     "abstract": "\nPurpose\nThis study aims to provide one of the first empirical investigations of market efficiency for developed markets during the recent global financial crisis.\n\n\nDesign/methodology/approach\nUsing the Morgan Stanley Capital International (MSCI) country indices as proxies for national stock markets, the study conducts a battery of econometric tests in assessing weak-form market efficiency for the developed markets.\n\n\nFindings\nThe inferential outcomes are consistent among the different tests. Specifically, the study finds that the majority of developed markets are weak-form efficient while the USA is the sole equity market to be commonly diagnosed as weak-form inefficient across the different tests when using full period data spanning the January 2008-November 2011 period. However, when basing the analysis on one-year subsamples over the identical time period, this study fails to reject weak-form market efficiency for all of the developed markets and presents evidence consistent with the Adaptive Market Hypothesis as described by Urquhart and Hudson (2013). When applying technical analysis for the case of the USA over the full study period, the results indicate that the return predictabilities can be exploited for some horizon of variable length moving average (VMA) trading rules.\n\n\nOriginality/value\nThis study provides one of the first empirical investigations of market efficiency for developed markets during the recent global financial crisis using an extended set of econometric tests. The study contributes to the existing body of empirical research that formally assesses the impact of a financial crisis on stock market efficiency and underlines the significance and relevance of examining market efficiency through subsample analysis.\n"
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "af439772091750281e0a35e2f555444b406c0fc1",
+     "externalIds": {
+      "MAG": "2009492419",
+      "DOI": "10.1007/S12197-015-9321-Y",
+      "CorpusId": 153654601
+     },
+     "title": "Wavelet decomposition of heterogeneous investment horizon",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 9,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/S12197-015-9321-Y?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/S12197-015-9321-Y, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "103160282",
+       "name": "Wen-Den Chen"
+      },
+      {
+       "authorId": "102309122",
+       "name": "Hsi-Cheng Li"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c9232bbea7dabfdfaa3ab439fcebac71b8e9952d",
+     "externalIds": {
+      "MAG": "2515948011",
+      "DBLP": "journals/orgsci/KaneR16",
+      "DOI": "10.1287/ORSC.2016.1075",
+      "CorpusId": 6751166
+     },
+     "title": "Content as Community Regulator: The Recursive Relationship Between Consumption and Contribution in Open Collaboration Communities",
+     "venue": "Organ. Sci.",
+     "year": 2016,
+     "citationCount": 68,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1287/ORSC.2016.1075?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1287/ORSC.2016.1075, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2878729",
+       "name": "Gerald C. Kane"
+      },
+      {
+       "authorId": "1733073",
+       "name": "S. Ransbotham"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "48a9770122140b88f6b1e5208f1fd04e46618e9f",
+     "externalIds": {
+      "DBLP": "phd/ethos/Jahedpari16",
+      "MAG": "2467054085",
+      "CorpusId": 268124787
+     },
+     "title": "Artificial prediction markets for online prediction of continuous variables",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "3042318",
+       "name": "Fatemeh Jahedpari"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5aaa1248683c8a91cb5bdbe5ecaae46686bce11a",
+     "externalIds": {
+      "MAG": "2292227941",
+      "DOI": "10.1108/IJMF-05-2015-0111",
+      "CorpusId": 155630125
+     },
+     "title": "Starting points for a new researcher in behavioral finance",
+     "venue": "",
+     "year": 2016,
+     "citationCount": 34,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1108/IJMF-05-2015-0111?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1108/IJMF-05-2015-0111, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1390668915",
+       "name": "Jim-Yuh Huang"
+      },
+      {
+       "authorId": "52221228",
+       "name": "Joseph C. P. Shieh"
+      },
+      {
+       "authorId": "2056892500",
+       "name": "Yu-Cheng Kao"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c6064c603725c2a98b920fbb77ada4a7dc56c64f",
+     "externalIds": {
+      "MAG": "2192760091",
+      "DBLP": "journals/isf/BuckleyO17",
+      "DOI": "10.1007/s10796-015-9617-7",
+      "CorpusId": 36882184
+     },
+     "title": "The effect of malicious manipulations on prediction market accuracy",
+     "venue": "Information Systems Frontiers",
+     "year": 2015,
+     "citationCount": 11,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10796-015-9617-7?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10796-015-9617-7, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "118632967",
+       "name": "P. Buckley"
+      },
+      {
+       "authorId": "2060791360",
+       "name": "Fergal Obrien"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "29d76c1749180d48276352a8b71d7e446b7bf276",
+     "externalIds": {
+      "MAG": "1670951631",
+      "DOI": "10.1016/J.IRFA.2015.05.003",
+      "CorpusId": 153618504
+     },
+     "title": "Political uncertainty and the 2012 US presidential election: A cointegration study of prediction markets, polls and a stand-out expert ☆",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 18,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.IRFA.2015.05.003?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.IRFA.2015.05.003, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "92198014",
+       "name": "John W. Goodell"
+      },
+      {
+       "authorId": "2908753",
+       "name": "Frank McGroarty"
+      },
+      {
+       "authorId": "73391209",
+       "name": "Andrew Urquhart"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "dcc03cb55f31894c1592549c736bee4282d59669",
+     "externalIds": {
+      "MAG": "258690295",
+      "DBLP": "journals/dss/YangLH15",
+      "DOI": "10.1016/j.dss.2015.05.009",
+      "CorpusId": 34271633
+     },
+     "title": "Information transparency in prediction markets",
+     "venue": "Decision Support Systems",
+     "year": 2015,
+     "citationCount": 10,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.dss.2015.05.009?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.dss.2015.05.009, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2119318007",
+       "name": "ShengYun Yang"
+      },
+      {
+       "authorId": "144890540",
+       "name": "Ting Li"
+      },
+      {
+       "authorId": "2113626",
+       "name": "E. V. Heck"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8e355f965a4ac8a1aa55d46c35d4cb2f08e61483",
+     "externalIds": {
+      "MAG": "2138554650",
+      "DOI": "10.1016/J.JEBO.2015.09.013",
+      "CorpusId": 54828308
+     },
+     "title": "Fragmentation and Stability of Markets",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 8,
+     "openAccessPdf": {
+      "url": "https://research.manchester.ac.uk/en/publications/e159c5cd-3ae6-4078-8856-7cb0e55c4a64",
+      "status": "GREEN",
+      "license": "other-oa",
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.JEBO.2015.09.013?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.JEBO.2015.09.013, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "40210505",
+       "name": "D. Ladley"
+      },
+      {
+       "authorId": "2728999",
+       "name": "T. Lensberg"
+      },
+      {
+       "authorId": "2103356",
+       "name": "Jan Palczewski"
+      },
+      {
+       "authorId": "1395595143",
+       "name": "K. Schenk-Hoppé"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2ec15db41d935027c4a3f7b89ba4c28b5f4e9ee9",
+     "externalIds": {
+      "MAG": "1884974518",
+      "PubMedCentral": "4542101",
+      "DOI": "10.1186/s12889-015-2121-7",
+      "CorpusId": 1126445,
+      "PubMed": "26259612"
+     },
+     "title": "Using prediction markets of market scoring rule to forecast infectious diseases: a case study in Taiwan",
+     "venue": "BMC Public Health",
+     "year": 2015,
+     "citationCount": 17,
+     "openAccessPdf": {
+      "url": "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12889-015-2121-7",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC4542101, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2073903",
+       "name": "Chen-Yuan Tung"
+      },
+      {
+       "authorId": "2066544656",
+       "name": "Tzu-Chuan Chou"
+      },
+      {
+       "authorId": "3957970",
+       "name": "Jih-wen Lin"
+      }
+     ],
+     "abstract": "BackgroundThe Taiwan CDC relied on the historical average number of disease cases or rate (AVG) to depict the trend of epidemic diseases in Taiwan. By comparing the historical average data with prediction markets, we show that the latter have a better prediction capability than the former. Given the volatility of the infectious diseases in Taiwan, historical average is unlikely to be an effective prediction mechanism.MethodsWe designed and built the Epidemic Prediction Markets (EPM) system based upon the trading mechanism of market scoring rule. By using this system, we aggregated dispersed information from various medical professionals to predict influenza, enterovirus, and dengue fever in Taiwan.ResultsEPM was more accurate in 701 out of 1,085 prediction events than the traditional baseline of historical average and the winning ratio of EPM versus AVG was 64.6 % for the target week. For the absolute prediction error of five diseases indicators of three infectious diseases, EPM was more accurate for the target week than AVG except for dengue fever confirmed cases. The winning ratios of EPM versus AVG for the confirmed cases of severe complicated influenza case, the rate of enterovirus infection, and the rate of influenza-like illness in the target week were 69.6 %, 83.9 and 76.0 %, respectively; instead, for the prediction of the confirmed cases of dengue fever and the confirmed cases of severe complicated enterovirus infection, the winning ratios of EPM were all below 50 %.ConclusionsExcept confirmed cases of dengue fever, EPM provided accurate, continuous and real-time predictions of four indicators of three infectious diseases for the target week in Taiwan and outperformed the historical average data of infectious diseases."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "33f7d7ab534903bc89ecccaa320e76da55298836",
+     "externalIds": {
+      "MAG": "2037378944",
+      "DOI": "10.1016/J.TECHFORE.2014.02.021",
+      "CorpusId": 790931
+     },
+     "title": "Integrating prediction market and Delphi methodology into a foresight support system — Insights from an online game",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 28,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.TECHFORE.2014.02.021?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.TECHFORE.2014.02.021, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "3045619",
+       "name": "Tobias Prokesch"
+      },
+      {
+       "authorId": "69923583",
+       "name": "Heiko A. Gracht"
+      },
+      {
+       "authorId": "50066425",
+       "name": "Holger Wohlenberg"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f231a5b542d7388b9a0913d692db370ad10f199e",
+     "externalIds": {
+      "MAG": "1194350409",
+      "DOI": "10.1007/s11403-015-0164-6",
+      "CorpusId": 27789696
+     },
+     "title": "Effects of limit order book information level on market stability metrics",
+     "venue": "Journal of Economic Interaction and Coordination",
+     "year": 2015,
+     "citationCount": 17,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11403-015-0164-6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11403-015-0164-6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2305280",
+       "name": "M. Paddrik"
+      },
+      {
+       "authorId": "47472042",
+       "name": "R. Hayes"
+      },
+      {
+       "authorId": "7513242",
+       "name": "W. Scherer"
+      },
+      {
+       "authorId": "2580906",
+       "name": "P. Beling"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ad350b95e9ff027076c69ce7717f079b0afc7587",
+     "externalIds": {
+      "MAG": "2127878508",
+      "DOI": "10.1111/ECCA.12118",
+      "CorpusId": 154433769
+     },
+     "title": "Information Acquisition in Ostensibly Efficient Markets",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 5,
+     "openAccessPdf": {
+      "url": "https://github.com/ueaeco/working-papers/raw/master/papers/afe/UEA-AFE-043.pdf",
+      "status": "GREEN",
+      "license": "public-domain",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/ECCA.12118?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/ECCA.12118, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "144210437",
+       "name": "Alasdair Brown"
+      }
+     ],
+     "abstract": "I use U.K. betting exchange data on Wimbledon tennis matches to investigate the Grossman and Stiglitz (1980) paradox. Risk-free arbitrage opportunities arise frequently during matches (as information arrives and asynchronously shifts prices), but seldom arise before matches (when there is little information to move prices). I find that on the few occasions that arbitrage opportunities do arise before matches, they last substantially longer than average. This suggests, in line with the paradox, that traders neglect to acquire information (i.e. carry out research, or watch markets) if they believe that markets are already efficient. This neglect, in turn, makes markets inefficient."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2699d41c319c9a928169bfff9f282cd104436f06",
+     "externalIds": {
+      "DBLP": "journals/ijeb/LiTC15",
+      "MAG": "2119865180",
+      "DOI": "10.1504/IJEB.2015.069092",
+      "CorpusId": 15539210
+     },
+     "title": "User adoption of wisdom of crowd: usage and performance of prediction market system",
+     "venue": "International Journal of Electronic Business",
+     "year": 2015,
+     "citationCount": 5,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1504/IJEB.2015.069092?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1504/IJEB.2015.069092, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "38717453",
+       "name": "Eldon Y. Li"
+      },
+      {
+       "authorId": "2073903",
+       "name": "Chen-Yuan Tung"
+      },
+      {
+       "authorId": "3062768",
+       "name": "Shu-Hsun Chang"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a7645c7fe522c0f1ea90be7eac74696aa7de701f",
+     "externalIds": {
+      "MAG": "2036856176",
+      "DOI": "10.1007/S11573-014-0741-5",
+      "CorpusId": 167907574
+     },
+     "title": "A macroeconomic forecasting market",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 2,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/S11573-014-0741-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/S11573-014-0741-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1688453",
+       "name": "F. Teschner"
+      },
+      {
+       "authorId": "1733795",
+       "name": "Christof Weinhardt"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "49683bbe0b16f1a44ec49556cb8dc7af63a839a3",
+     "externalIds": {
+      "DOI": "10.1007/s12197-015-9321-y",
+      "CorpusId": 255531000
+     },
+     "title": "Wavelet decomposition of heterogeneous investment horizon",
+     "venue": "Journal of economics and finance",
+     "year": 2015,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12197-015-9321-y?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12197-015-9321-y, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "14287848",
+       "name": "W. D. Chen"
+      },
+      {
+       "authorId": "113273296",
+       "name": "H. C. Li"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f98befedb1f093a95a4dfeb11e9f1b4209b0fda2",
+     "externalIds": {
+      "MAG": "2054567237",
+      "DOI": "10.2139/SSRN.2011564",
+      "CorpusId": 154870574
+     },
+     "title": "The Role of Surprise: Understanding Overreaction and Underreaction to Unanticipated Events using In-Play Soccer Betting Market",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 50,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/SSRN.2011564?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/SSRN.2011564, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "47592089",
+       "name": "Darwin Choi"
+      },
+      {
+       "authorId": "2403587048",
+       "name": "Sam K. Hui"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "06798cb5671f86f1954a0cd38291cec4c3844529",
+     "externalIds": {
+      "DBLP": "journals/ijesma/KranzTW14",
+      "MAG": "2007327153",
+      "DOI": "10.4018/ijesma.2014100103",
+      "CorpusId": 29675445
+     },
+     "title": "Web vs. Mobile: Comparing Trading Performance in Stationary and Mobile Settings",
+     "venue": "Int. J. E Serv. Mob. Appl.",
+     "year": 2014,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.4018/ijesma.2014100103?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4018/ijesma.2014100103, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1719022",
+       "name": "Tobias T. Kranz"
+      },
+      {
+       "authorId": "1688453",
+       "name": "F. Teschner"
+      },
+      {
+       "authorId": "1733795",
+       "name": "Christof Weinhardt"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "3d179d157432ed60ad58a33be445653aaaf92c3e",
+     "externalIds": {
+      "DOI": "10.1007/s11573-014-0741-5",
+      "CorpusId": 255305227
+     },
+     "title": "A macroeconomic forecasting market",
+     "venue": "Journal of Business Economics",
+     "year": 2014,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11573-014-0741-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11573-014-0741-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1688453",
+       "name": "F. Teschner"
+      },
+      {
+       "authorId": "1733795",
+       "name": "Christof Weinhardt"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "cfc89f251cf48ea5772da4c1174bf3f78a9e46ce",
+     "externalIds": {
+      "MAG": "1512847028",
+      "DBLP": "journals/af/RothschildP14",
+      "DOI": "10.3233/AF-140031",
+      "CorpusId": 17079172
+     },
+     "title": "The extent of price misalignment in prediction markets",
+     "venue": "Algorithmic Finance",
+     "year": 2014,
+     "citationCount": 12,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.3233/af-140031",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.3233/AF-140031?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3233/AF-140031, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "145792941",
+       "name": "David M. Rothschild"
+      },
+      {
+       "authorId": "1766638",
+       "name": "David M. Pennock"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "e35b306a8e81ed8e28487736472c27d89670e4e7",
+     "externalIds": {
+      "MAG": "2120509928",
+      "DOI": "10.1017/S1049096514000043",
+      "CorpusId": 154673614
+     },
+     "title": "Market Design, Manipulation, and Accuracy in Political Prediction Markets: Lessons from the Iowa Electronic Markets",
+     "venue": "PS",
+     "year": 2014,
+     "citationCount": 15,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1017/S1049096514000043?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1017/S1049096514000043, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "50201370",
+       "name": "Joyce E. Berg"
+      },
+      {
+       "authorId": "2363796",
+       "name": "Thomas A. Rietz"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "9b0928a7bb6fe44d1784f471ccea60816396830b",
+     "externalIds": {
+      "MAG": "1995180080",
+      "DOI": "10.2224/SBP.2014.42.4.561",
+      "CorpusId": 143649842
+     },
+     "title": "Emotion and Investment Returns: Situation and Personality as Moderators in a Stock Market",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 19,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2224/sbp.2014.42.4.561",
+      "status": "GOLD",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.2224/SBP.2014.42.4.561?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2224/SBP.2014.42.4.561, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2132537586",
+       "name": "Haochen Wang"
+      },
+      {
+       "authorId": "2151812741",
+       "name": "Jian Zhang"
+      },
+      {
+       "authorId": "2109120477",
+       "name": "Limin Wang"
+      },
+      {
+       "authorId": "48641937",
+       "name": "Shuyi Liu"
+      }
+     ],
+     "abstract": "Using a simulated stock investment system we examined the relationship between investors’ emotions and their investment returns, and the moderating effect of personality and situation in a stock market. Participants were undergraduate students from 6 universities. The results showed that: (a) investors’ positive emotions were positively correlated with investment returns in a market with a unilaterally rising price, and the moderating effect of extraversion was significant; (b) investors’ negative emotions were negatively correlated with investment returns in a market with a unilaterally falling price, and the moderating effect of neuroticism was significant."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8a5b2907e96b525720293fe0dfdc188c9e7ca547",
+     "externalIds": {
+      "MAG": "2281047485",
+      "DOI": "10.2139/SSRN.2398320",
+      "CorpusId": 155245077
+     },
+     "title": "Learning from Trading with Ambiguous Information",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.2398320",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/SSRN.2398320?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/SSRN.2398320, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "118808531",
+       "name": "Ido Kallir"
+      },
+      {
+       "authorId": "48559816",
+       "name": "A. R. Ofer"
+      },
+      {
+       "authorId": "48559816",
+       "name": "A. R. Ofer"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c8b06738d86a360156f99d35d453c0bbdb6ddffd",
+     "externalIds": {
+      "MAG": "1489221382",
+      "DOI": "10.5750/JPM.V7I3.752",
+      "CorpusId": 152578924
+     },
+     "title": "Multivariate Methods in Assessing the Accuracy of Prediction Markets Ex Ante based on ohe Highest-Price Criterion",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.5750/JPM.V7I3.752?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5750/JPM.V7I3.752, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2000558168",
+       "name": "Hung-Wen Lin"
+      },
+      {
+       "authorId": "2073903",
+       "name": "Chen-Yuan Tung"
+      },
+      {
+       "authorId": "46786769",
+       "name": "Jason J. H. Yeh"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "58e257c8e736e67d0949288e2d7e8656846f572c",
+     "externalIds": {
+      "MAG": "2038173282",
+      "DBLP": "conf/hicss/KranzTW14",
+      "DOI": "10.1109/HICSS.2014.159",
+      "CorpusId": 12880420
+     },
+     "title": "User Heterogeneity in Trading Systems: Assessing Trader's Market Predisposition via Personality Questionnaires",
+     "venue": "Hawaii International Conference on System Sciences",
+     "year": 2014,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "https://ieeexplore.ieee.org/ielx7/6751593/6758592/06758756.pdf",
+      "status": "GOLD",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/HICSS.2014.159?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/HICSS.2014.159, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1719022",
+       "name": "Tobias T. Kranz"
+      },
+      {
+       "authorId": "1688453",
+       "name": "F. Teschner"
+      },
+      {
+       "authorId": "1733795",
+       "name": "Christof Weinhardt"
+      }
+     ],
+     "abstract": "One of the main objectives facing service designers is presenting users with information from which to base their decisions. While traditional service research often emphasizes understanding of end users from a technology acceptance perspective, it fails to consider the individual economic dimensions of interactions within a system as in electronic markets. We study market participants from an individual perspective who interact in a repeated decision-making environment that closely resembles decision-making in financial markets. In contrast to financial markets (i) the outcome of events in our market is finally known and (ii) we can ex-post measure the participants' trading performance. In our field study with nearly 2,000 active traders and over 215,000 single trading decisions we analyze the impact of emotion regulation, cognition and risk on trading behavior and performance. Our analysis indicates a significant user heterogeneity, which suggests individualizing future market experiences."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "54fcfa1fe2840c5f612de5138b182acbcb4736ce",
+     "externalIds": {
+      "DBLP": "conf/icis/TeschnerG13",
+      "MAG": "28860020",
+      "CorpusId": 20150626
+     },
+     "title": "Crowd Labor Markets as Platform for IS Research: First Evidence from Electronic Markets",
+     "venue": "International Conference on Interaction Sciences",
+     "year": 2013,
+     "citationCount": 5,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1688453",
+       "name": "F. Teschner"
+      },
+      {
+       "authorId": "3055311",
+       "name": "Henner Gimpel"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7c0083af54f71ab60f13c30b05ee743ed0f7fa72",
+     "externalIds": {
+      "DBLP": "conf/dest/WagnerS13",
+      "MAG": "2015612910",
+      "DOI": "10.1109/DEST.2013.6611335",
+      "CorpusId": 125877
+     },
+     "title": "The role of task difficulty in the effectiveness of collective intelligence",
+     "venue": "2013 7th IEEE International Conference on Digital Ecosystems and Technologies (DEST)",
+     "year": 2013,
+     "citationCount": 4,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1109/DEST.2013.6611335?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/DEST.2013.6611335, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "145948602",
+       "name": "C. Wagner"
+      },
+      {
+       "authorId": "1690633",
+       "name": "Ayoung Suh"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7311eb60a2607af9bc872a6e2ca74fcfd109e5c2",
+     "externalIds": {
+      "MAG": "1515452424",
+      "DOI": "10.11221/JIMA.64.258",
+      "CorpusId": 166713353
+     },
+     "title": "Prediction Market System using VIPS, Gaussian Forecast Distribution and Batch-updating Central Market Maker for Demand Forecasting",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 2,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.11221/JIMA.64.258?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.11221/JIMA.64.258, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1742128",
+       "name": "H. Mizuyama"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b5740ec034ae9150ce8549048f62fe80018a3e04",
+     "externalIds": {
+      "MAG": "2248051659",
+      "DOI": "10.1111/JOES.12015",
+      "CorpusId": 156047202
+     },
+     "title": "Prediction Markets in the Laboratory",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 36,
+     "openAccessPdf": {
+      "url": "https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.chapman.edu%2Fresearch-and-institutions%2Feconomic-science-institute%2F_files%2FWorkingPapers%2Fporter-prediction-markets-in-the-laboratory.pdf;h=repec:chu:wpaper:13-05",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1111/JOES.12015?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/JOES.12015, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2411267507",
+       "name": "Cary Deck"
+      },
+      {
+       "authorId": "34187444",
+       "name": "David Porter"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f8c92c126b94ebd7011b0ec91eda88a149db8251",
+     "externalIds": {
+      "MAG": "1541081141",
+      "DOI": "10.1111/J.1468-0297.2012.02561.X",
+      "CorpusId": 152567648
+     },
+     "title": "Do prediction markets produce well-calibrated probability forecasts?",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 68,
+     "openAccessPdf": {
+      "url": "https://eprints.qut.edu.au/69211/1/EJ2012.pdf",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1111/J.1468-0297.2012.02561.X?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/J.1468-0297.2012.02561.X, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "33281683",
+       "name": "Lionel Page"
+      },
+      {
+       "authorId": "2558625",
+       "name": "R. Clemen"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a8f7861bb9809b940dbc66f26061c89556a03bda",
+     "externalIds": {
+      "MAG": "2207156987",
+      "DOI": "10.3386/W25046",
+      "CorpusId": 146710186
+     },
+     "title": "Ratings and Asset Allocation: An Experimental Analysis",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 6,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.3386/w25046",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3386/W25046?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3386/W25046, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2242236047",
+       "name": "Robert L. Mcdonald"
+      },
+      {
+       "authorId": "2363796",
+       "name": "Thomas A. Rietz"
+      }
+     ],
+     "abstract": "Financial product ratings are intended to summarize relevant information in a manner that assists in decision-making. Ratings, however, have the potential to be either helpful or harmful. Ratings are often assigned within categories; ratings across categories then may or may not be comparable. We experimentally assess the effect of ratings in a setting where subjects repeatedly make investment decisions, there is minimal computational burden, and at all times subjects have complete information about the characteristics of the investments. Ratings supply no additional information, but categorized ratings affect investment decisions and harm performance. More knowledgable subjects make better decisions, but are also affected by categorized ratings. The effects are largely reversed when ratings no longer appear."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "19edb92fb31f8ee0dc3e596710a97f5069735e12",
+     "externalIds": {
+      "MAG": "2062207740",
+      "DOI": "10.1007/S10058-013-0144-Z",
+      "CorpusId": 15193064
+     },
+     "title": "The Gates Hillman prediction market",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 9,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/S10058-013-0144-Z?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/S10058-013-0144-Z, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1848518",
+       "name": "Abraham Othman"
+      },
+      {
+       "authorId": "145714168",
+       "name": "T. Sandholm"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b23db0269847e8779f4ca75ad47e57a18e6f1d8b",
+     "externalIds": {
+      "MAG": "1531540146",
+      "DOI": "10.1016/J.JOEP.2012.09.014",
+      "CorpusId": 142922175
+     },
+     "title": "Fight or freeze? Individual differences in investors' motivational systems and trading in experimental asset markets",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 13,
+     "openAccessPdf": {
+      "url": "https://repository.ubn.ru.nl/bitstream/handle/2066/112067/3/112067-1.pdf",
+      "status": "GREEN",
+      "license": "other-oa",
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.JOEP.2012.09.014?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.JOEP.2012.09.014, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1845234",
+       "name": "K. Muehlfeld"
+      },
+      {
+       "authorId": "1881662",
+       "name": "Utz Weitzel"
+      },
+      {
+       "authorId": "8195844",
+       "name": "A. Witteloostuijn"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c5b39ffe3c9582166b06bec6e070817370a68fa7",
+     "externalIds": {
+      "MAG": "2075733374",
+      "DOI": "10.1007/s11573-012-0645-1",
+      "CorpusId": 167603051
+     },
+     "title": "Corporate prediction markets: a tool for predicting market shares",
+     "venue": "Journal of Business Economics",
+     "year": 2013,
+     "citationCount": 4,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11573-012-0645-1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11573-012-0645-1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "37570925",
+       "name": "Martin Waitz"
+      },
+      {
+       "authorId": "2415649",
+       "name": "A. Mild"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "945c36c9e067425badcc916375dee45ae8273248",
+     "externalIds": {
+      "MAG": "1853769036",
+      "DOI": "10.5750/JPM.V3I2.461",
+      "CorpusId": 153890276
+     },
+     "title": "Improving the Idea Screening Process within Organizations using Prediction Markets: A Theoretical Perspective",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 20,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.5750/JPM.V3I2.461?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5750/JPM.V3I2.461, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "145589669",
+       "name": "Gerrit Kamp"
+      },
+      {
+       "authorId": "5302435",
+       "name": "Peter A. Koen"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d83051fc41f5fb586e626af90ad5b2a262570c69",
+     "externalIds": {
+      "MAG": "2137539013",
+      "DOI": "10.5750/JPM.V1I3.428",
+      "CorpusId": 55208648
+     },
+     "title": "CONDITIONAL PREDICTION MARKETS AS CORPORATE DECISION SUPPORT SYSTEMS – AN EXPERIMENTAL COMPARISON WITH GROUP DELIBERATIONS",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 9,
+     "openAccessPdf": {
+      "url": "http://www.bjll.org/index.php/jpm/article/download/428/460",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.5750/JPM.V1I3.428?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5750/JPM.V1I3.428, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2469729",
+       "name": "T. Sprenger"
+      },
+      {
+       "authorId": "95077073",
+       "name": "P. Bolster"
+      },
+      {
+       "authorId": "2283966975",
+       "name": "Anand Venkateswaran"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5bfe3d7ed17b05dfbfdc7a91069da121018b36ca",
+     "externalIds": {
+      "MAG": "1576825644",
+      "DOI": "10.5750/JPM.V2I2.441",
+      "CorpusId": 153335547
+     },
+     "title": "EVENT STUDIES IN REAL- AND PLAY-MONEY PREDICTION MARKETS",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 20,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.5750/JPM.V2I2.441?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5750/JPM.V2I2.441, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1742044",
+       "name": "C. Slamka"
+      },
+      {
+       "authorId": "1983792",
+       "name": "Arina Soukhoroukova"
+      },
+      {
+       "authorId": "2329336",
+       "name": "Martin Spann"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2f0876f9362c96c077786fd62f69b6d21037b02a",
+     "externalIds": {
+      "MAG": "1591035273",
+      "DOI": "10.5750/JPM.V1I3.430",
+      "CorpusId": 58924067
+     },
+     "title": "PUBLIC INFORMATION BIAS AND PREDICTION MARKET ACCURACY",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 18,
+     "openAccessPdf": {
+      "url": "http://www.bjll.org/index.php/jpm/article/download/430/462",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.5750/JPM.V1I3.430?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5750/JPM.V1I3.430, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2305066",
+       "name": "T. Gruca"
+      },
+      {
+       "authorId": "50201370",
+       "name": "Joyce E. Berg"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "9bb8b57f45b9629c02268c88e86357f7ac5ce285",
+     "externalIds": {
+      "MAG": "1609175724",
+      "DOI": "10.5750/JPM.V2I1.435",
+      "CorpusId": 154083684
+     },
+     "title": "THE TRADESPORTS NFL PREDICTION MARKET: AN ANALYSIS OF MARKET EFFICIENCY, TRANSACTION COSTS, AND BETTOR PREFERENCES",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 12,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.5750/JPM.V2I1.435?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5750/JPM.V2I1.435, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2058139066",
+       "name": "Philip F. O'Connor"
+      },
+      {
+       "authorId": "120126275",
+       "name": "F. Zhou"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7138fc0049e2a85ec9654d44e5b147d9cb2e0a90",
+     "externalIds": {
+      "MAG": "2101313852",
+      "DOI": "10.2139/SSRN.1540313",
+      "CorpusId": 14029537
+     },
+     "title": "Efficiency and the Disposition Effect in NFL Prediction Markets",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 41,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.1540313",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/SSRN.1540313?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/SSRN.1540313, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "118827974",
+       "name": "Samuel M. Hartzmark"
+      },
+      {
+       "authorId": "2378329597",
+       "name": "David H. Solomon"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "3805adad9e925d8af20aab591f39846c3f9e05bc",
+     "externalIds": {
+      "DBLP": "journals/af/Schmitz11",
+      "MAG": "1928034212",
+      "DOI": "10.3233/AF-2011-012",
+      "CorpusId": 14329475
+     },
+     "title": "Algorithmic trading in the Iowa electronic markets",
+     "venue": "Algorithmic Finance",
+     "year": 2012,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.3233/af-2011-012",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.3233/AF-2011-012?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3233/AF-2011-012, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2055559628",
+       "name": "J. Schmitz"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "498e50c211bdaf1f8d849e9c1a204468ce018d93",
+     "externalIds": {
+      "MAG": "2002183649",
+      "DOI": "10.1016/J.ECONLET.2011.12.043",
+      "CorpusId": 153322128
+     },
+     "title": "Tournament incentives and asset price bubbles: Evidence from a field experiment",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 2,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.ECONLET.2011.12.043?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.ECONLET.2011.12.043, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "97219813",
+       "name": "Michael Berlemann"
+      },
+      {
+       "authorId": "49854289",
+       "name": "Henning Vöpel"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d5090407c8db446412538e2db0d8fc4bf40fe748",
+     "externalIds": {
+      "MAG": "2015201706",
+      "DOI": "10.1080/09672567.2011.616593",
+      "CorpusId": 154031515
+     },
+     "title": "Three ways of linking laboratory endeavours to the realm of policies",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 20,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1080/09672567.2011.616593?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/09672567.2011.616593, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2109968095",
+       "name": "Kyu Sang Lee"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2d2c57717d14e71eb1860803699e1e423df0a4f1",
+     "externalIds": {
+      "MAG": "1847984423",
+      "DOI": "10.1111/J.1467-6435.2011.00516.X",
+      "CorpusId": 153991058
+     },
+     "title": "A Quasi‐Experimental Test of the Marginal Trader Hypothesis",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 4,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1111/J.1467-6435.2011.00516.X?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/J.1467-6435.2011.00516.X, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "95204996",
+       "name": "Calvin Blackwell"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "24855a12be47b7081c6a5a17cfa14c274da1e61d",
+     "externalIds": {
+      "MAG": "1978997544",
+      "DOI": "10.1016/J.JPUBECO.2010.12.009",
+      "CorpusId": 33518225
+     },
+     "title": "Elections and political risk: New evidence from the 2008 Taiwanese Presidential Election",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 42,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.JPUBECO.2010.12.009?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.JPUBECO.2010.12.009, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "3248931",
+       "name": "Masami Imai"
+      },
+      {
+       "authorId": "3983898",
+       "name": "Cameron A. Shelton"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "50f67d5cfa358e983b3d119a0b869478ad3fdfe6",
+     "externalIds": {
+      "DBLP": "journals/ijnvo/WangZ11",
+      "MAG": "2127134442",
+      "DOI": "10.1504/IJNVO.2011.039996",
+      "CorpusId": 42791278
+     },
+     "title": "The impact of business-to-business electronic marketplaces: a field study",
+     "venue": "Int. J. Netw. Virtual Organisations",
+     "year": 2011,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1504/IJNVO.2011.039996?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1504/IJNVO.2011.039996, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "47673299",
+       "name": "Shan Wang"
+      },
+      {
+       "authorId": "152449815",
+       "name": "Shi Zheng"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "e257812cbad6ad1a89ca61bcccaf54237ab2e514",
+     "externalIds": {
+      "MAG": "1972587843",
+      "DOI": "10.1007/S12197-009-9092-4",
+      "CorpusId": 153609253
+     },
+     "title": "The wisdom of the few or the wisdom of the many? An indirect test of the marginal trader hypothesis",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 6,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/S12197-009-9092-4?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/S12197-009-9092-4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "95204996",
+       "name": "Calvin Blackwell"
+      },
+      {
+       "authorId": "145326824",
+       "name": "R. Pickford"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a600143b387659773b5910572cc583ad736dbdb4",
+     "externalIds": {
+      "MAG": "1547716457",
+      "CorpusId": 55383687
+     },
+     "title": "An Exploration of Market Efficiency and the Marginal Trader Hypothesis",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "112831401",
+       "name": "T. C. McManus"
+      },
+      {
+       "authorId": "95204996",
+       "name": "Calvin Blackwell"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "67a2b54c950727423eec30453becb8772f76ac69",
+     "externalIds": {
+      "MAG": "1483370896",
+      "DOI": "10.5750/JPM.V5I1.483",
+      "CorpusId": 60823849
+     },
+     "title": "RESULTS FROM A SIMPLE PREDICTION CONTEST",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 2,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.5750/JPM.V5I1.483?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5750/JPM.V5I1.483, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "95204996",
+       "name": "Calvin Blackwell"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "747f030b0869f985798e200cce52452d61cdd281",
+     "externalIds": {
+      "MAG": "2099373107",
+      "DOI": "10.1111/J.1540-5885.2010.00763.X",
+      "CorpusId": 167518688
+     },
+     "title": "New Product Development 2.0: Preference Markets—How Scalable Securities Markets Identify Winning Product Concepts and Attributes*",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 61,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1111/J.1540-5885.2010.00763.X?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/J.1540-5885.2010.00763.X, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "46840725",
+       "name": "E. Dahan"
+      },
+      {
+       "authorId": "1983792",
+       "name": "Arina Soukhoroukova"
+      },
+      {
+       "authorId": "2329336",
+       "name": "Martin Spann"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7d9a478f706ae9c0aee175511aaddd8578b2cbfe",
+     "externalIds": {
+      "MAG": "2079419588",
+      "DOI": "10.1016/J.RIBAF.2009.12.005",
+      "CorpusId": 155007588
+     },
+     "title": "Market structure and microstructure, in international interest rate futures markets",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 2,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.RIBAF.2009.12.005?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.RIBAF.2009.12.005, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2908753",
+       "name": "Frank McGroarty"
+      },
+      {
+       "authorId": "3216299",
+       "name": "O. Gwilym"
+      },
+      {
+       "authorId": "2241110887",
+       "name": "Stephen H. Thomas"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "486e111b194f8b5e9762ebce553004f1749f165b",
+     "externalIds": {
+      "MAG": "2017947603",
+      "DBLP": "conf/sigecom/GoelRWP10",
+      "DOI": "10.1145/1807342.1807400",
+      "CorpusId": 6942581
+     },
+     "title": "Prediction without markets",
+     "venue": "ACM Conference on Economics and Computation",
+     "year": 2010,
+     "citationCount": 67,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1145/1807342.1807400?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/1807342.1807400, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "143802734",
+       "name": "Sharad Goel"
+      },
+      {
+       "authorId": "34169881",
+       "name": "Daniel M. Reeves"
+      },
+      {
+       "authorId": "1783914",
+       "name": "D. Watts"
+      },
+      {
+       "authorId": "1766638",
+       "name": "David M. Pennock"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "df2a92cf616d262700f34d85dae63fe8424309cc",
+     "externalIds": {
+      "DBLP": "conf/sigecom/OthmanS10",
+      "MAG": "2013622632",
+      "DOI": "10.1145/1807342.1807401",
+      "CorpusId": 11262136
+     },
+     "title": "Automated market-making in the large: the gates hillman prediction market",
+     "venue": "ACM Conference on Economics and Computation",
+     "year": 2010,
+     "citationCount": 44,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1145/1807342.1807401?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/1807342.1807401, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1848518",
+       "name": "Abraham Othman"
+      },
+      {
+       "authorId": "145714168",
+       "name": "T. Sandholm"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a2a48cccbd47985dd2320391a8b1b4ae12bba8fa",
+     "externalIds": {
+      "MAG": "2084537882",
+      "DBLP": "conf/sigecom/OthmanSPR10",
+      "DOI": "10.1145/1807342.1807402",
+      "CorpusId": 9776520
+     },
+     "title": "A practical liquidity-sensitive automated market maker",
+     "venue": "ACM Conference on Economics and Computation",
+     "year": 2010,
+     "citationCount": 102,
+     "openAccessPdf": {
+      "url": "http://www-2.cs.cmu.edu/~sandholm/liquidity-sensitive%20market%20maker.EC10.pdf",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1145/1807342.1807402?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/1807342.1807402, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1848518",
+       "name": "Abraham Othman"
+      },
+      {
+       "authorId": "145714168",
+       "name": "T. Sandholm"
+      },
+      {
+       "authorId": "1766638",
+       "name": "David M. Pennock"
+      },
+      {
+       "authorId": "34169881",
+       "name": "Daniel M. Reeves"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "812559289636bb427cdb7016b285ef9160e0f86a",
+     "externalIds": {
+      "MAG": "1556029171",
+      "DOI": "10.2139/SSRN.1136883",
+      "CorpusId": 15624160
+     },
+     "title": "Memoirs of an Indifferent Trader: Estimating Forecast Distributions from Prediction Markets",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 10,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.1136883",
+      "status": "GREEN",
+      "license": "CCBYNC",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.2139/SSRN.1136883?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/SSRN.1136883, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "50201370",
+       "name": "Joyce E. Berg"
+      },
+      {
+       "authorId": "145161220",
+       "name": "John Geweke"
+      },
+      {
+       "authorId": "2363796",
+       "name": "Thomas A. Rietz"
+      }
+     ],
+     "abstract": "Prediction markets for future events are increasingly common and they often trade several contracts for the same event. This paper considers the distribution of a normative risk-neutral trader who, given any portfolio of contracts traded on the event, would choose not to reallocate that portfolio of contracts even if transactions costs were zero. Because common parametric distributions can conflict with observed prediction market prices, the distribution is given a nonparametric representation together with a prior distribution favoring smooth and concentrated distributions. Posterior modal distributions are found for popular vote shares of the U.S. presidential candidates in the 100 days leading up to the elections of 1992, 1996, 2000, and 2004, using bid and ask prices on multiple contracts from the Iowa Electronic Markets. On some days, the distributions are multimodal or substantially asymmetric. The derived distributions are more concentrated than the historical distribution of popular vote shares in presidential elections, but do not tend to become more concentrated as time to elections diminishes."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6c18e96f728bad8f3941cba5eb8cb90d61dc7bd5",
+     "externalIds": {
+      "MAG": "2137411599",
+      "DBLP": "journals/interfaces/ChenGHMZ10",
+      "DOI": "10.1287/INTE.1090.0478",
+      "CorpusId": 44918767
+     },
+     "title": "Preference Markets for Innovation Ranking and Selection",
+     "venue": "Interfaces",
+     "year": 2010,
+     "citationCount": 8,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1287/INTE.1090.0478?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1287/INTE.1090.0478, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2146027072",
+       "name": "Li Chen"
+      },
+      {
+       "authorId": "145051969",
+       "name": "Paulo B. Góes"
+      },
+      {
+       "authorId": "144078813",
+       "name": "W. Harris"
+      },
+      {
+       "authorId": "144720052",
+       "name": "J. Marsden"
+      },
+      {
+       "authorId": "123275808",
+       "name": "John Zhang"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f1aec96644d80d491f5a9ea87fdf8a0868947e68",
+     "externalIds": {
+      "MAG": "2047592681",
+      "DBLP": "conf/hicss/WagnerZSC10",
+      "DOI": "10.1109/HICSS.2010.483",
+      "CorpusId": 7184707
+     },
+     "title": "The Wisdom of Reluctant Crowds",
+     "venue": "Hawaii International Conference on System Sciences",
+     "year": 2010,
+     "citationCount": 21,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1109/HICSS.2010.483?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/HICSS.2010.483, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "145948602",
+       "name": "C. Wagner"
+      },
+      {
+       "authorId": "1391164707",
+       "name": "Sesia J. Zhao"
+      },
+      {
+       "authorId": "46588829",
+       "name": "Christoph Schneider"
+      },
+      {
+       "authorId": "145596335",
+       "name": "Hua-ping Chen"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "03df06b964f2c4b108d4b811bdb18b7354009b4f",
+     "externalIds": {
+      "DBLP": "journals/jmis/ChenGMZ10",
+      "MAG": "2034238019",
+      "DOI": "10.2753/MIS0742-1222260302",
+      "CorpusId": 37849806
+     },
+     "title": "Design and Use of Preference Markets for Evaluation of Early Stage Technologies",
+     "venue": "Journal of Management Information Systems",
+     "year": 2009,
+     "citationCount": 33,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2753/MIS0742-1222260302?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2753/MIS0742-1222260302, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2146027072",
+       "name": "Li Chen"
+      },
+      {
+       "authorId": "145051969",
+       "name": "Paulo B. Góes"
+      },
+      {
+       "authorId": "144720052",
+       "name": "J. Marsden"
+      },
+      {
+       "authorId": "2118748523",
+       "name": "Zhongju Zhang"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "fafd03cc080eb8b36fdbc8c2867cb1e3532de759",
+     "externalIds": {
+      "MAG": "2157090631",
+      "DBLP": "conf/atal/GuoP09",
+      "DOI": "10.65109/sffh5303",
+      "CorpusId": 899904
+     },
+     "title": "Combinatorial prediction markets for event hierarchies",
+     "venue": "Adaptive Agents and Multi-Agent Systems",
+     "year": 2009,
+     "citationCount": 15,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.65109/sffh5303?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.65109/sffh5303, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "30453927",
+       "name": "M. Guo"
+      },
+      {
+       "authorId": "1766638",
+       "name": "David M. Pennock"
+      }
+     ],
+     "abstract": "We study combinatorial prediction markets where agents bet on the sum of values at any tree node in a hierarchy of events, for example the sum of page views among all the children within a web sub-domain. We propose three expressive betting languages that seem natural, and analyze the complexity of pricing using Hanson's logarithmic market scoring rule (LMSR) market maker. Sum of arbitrary subset (SAS) allows agents to bet on the weighted sum of an arbitrary subset of values. Sum with varying weights (SVW) allows agents to set their own weights in their bets but restricts them to only bet on subsets that correspond to tree nodes in a fixed hierarchy. We show that LMSR pricing is NP-hard for both SAS and SVW. Sum with predefined weights (SPW) also restricts bets to nodes in a hierarchy, but using predefined weights. We derive a polynomial time pricing algorithm for SPW. We discuss the algorithm's generalization to other betting contexts, including betting on maximum/minimum and betting on the product of binary values. Finally, we describe a prototype we built to predict web site page views and discuss the implementation issues that arose."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6d53714270d7631c53a04f67545a00c9653bb19a",
+     "externalIds": {
+      "MAG": "2109380626",
+      "DBLP": "journals/mansci/SeybertB09",
+      "DOI": "10.1287/mnsc.1080.0973",
+      "CorpusId": 36076010
+     },
+     "title": "Contagion of Wishful Thinking in Markets",
+     "venue": "Management Sciences",
+     "year": 2009,
+     "citationCount": 58,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1287/mnsc.1080.0973?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1287/mnsc.1080.0973, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2174529",
+       "name": "N. Seybert"
+      },
+      {
+       "authorId": "1936198",
+       "name": "R. Bloomfield"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b4aaa821c94f3f5823d1b9c399a717b1f7a5138d",
+     "externalIds": {
+      "MAG": "1601554766",
+      "DOI": "10.2139/SSRN.1400864",
+      "CorpusId": 17029298
+     },
+     "title": "The Vicious Cycle: Fundraising and Perceived Viability in Us Presidential Primaries",
+     "venue": "",
+     "year": 2009,
+     "citationCount": 23,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/SSRN.1400864?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/SSRN.1400864, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2411824115",
+       "name": "Cameron A. Shelton"
+      },
+      {
+       "authorId": "2411805767",
+       "name": "James J. Feigenbaum"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "16c86a3acb4f106ce4c1ff8e11eb7adc32c8501e",
+     "externalIds": {
+      "MAG": "2159853134",
+      "DBLP": "journals/mansci/BergNR09",
+      "DOI": "10.1287/mnsc.1080.0956",
+      "CorpusId": 8717943
+     },
+     "title": "Searching for Google's Value: Using Prediction Markets to Forecast Market Capitalization Prior to an Initial Public Offering",
+     "venue": "Management Sciences",
+     "year": 2009,
+     "citationCount": 50,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1287/mnsc.1080.0956?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1287/mnsc.1080.0956, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "50201370",
+       "name": "Joyce E. Berg"
+      },
+      {
+       "authorId": "39596000",
+       "name": "G. R. Neumann"
+      },
+      {
+       "authorId": "2363796",
+       "name": "Thomas A. Rietz"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a5d1446a26f6fc414e4762aa82c62d4a28d06ee0",
+     "externalIds": {
+      "MAG": "1977923152",
+      "DOI": "10.1016/J.ECONLET.2008.10.006",
+      "CorpusId": 153428496
+     },
+     "title": "Is there an optimistic bias on betting markets",
+     "venue": "",
+     "year": 2009,
+     "citationCount": 20,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.ECONLET.2008.10.006?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.ECONLET.2008.10.006, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "33281683",
+       "name": "Lionel Page"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "578fc355333ce193b497c8ff09f0b454c764cca1",
+     "externalIds": {
+      "DBLP": "journals/isf/WangZXLM08",
+      "MAG": "1978915764",
+      "DOI": "10.1007/s10796-008-9115-2",
+      "CorpusId": 39064975
+     },
+     "title": "A literature review of electronic marketplace research: Themes, theories and an integrative framework",
+     "venue": "Inf. Syst. Frontiers",
+     "year": 2008,
+     "citationCount": 82,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10796-008-9115-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10796-008-9115-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "47673299",
+       "name": "Shan Wang"
+      },
+      {
+       "authorId": "152449815",
+       "name": "Shi Zheng"
+      },
+      {
+       "authorId": "39466716",
+       "name": "Lida Xu"
+      },
+      {
+       "authorId": "2151286602",
+       "name": "Dezheng Li"
+      },
+      {
+       "authorId": "2057834322",
+       "name": "Huan Meng"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5bdb8536bf4e9827f99e880d4437fb21c014378b",
+     "externalIds": {
+      "MAG": "2119668799",
+      "DOI": "10.1016/J.JBANKFIN.2007.12.021",
+      "CorpusId": 261764908
+     },
+     "title": "Stock Market Volatility around National Elections",
+     "venue": "",
+     "year": 2008,
+     "citationCount": 203,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.892143",
+      "status": "GREEN",
+      "license": "other-oa",
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.JBANKFIN.2007.12.021?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.JBANKFIN.2007.12.021, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "73084848",
+       "name": "J. Białkowski"
+      },
+      {
+       "authorId": "14567235",
+       "name": "Katrin Gottschalk"
+      },
+      {
+       "authorId": "2411451839",
+       "name": "Tomasz Piotr Wisniewski"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c69237338f45fe06060f4615780f904e689d9944",
+     "externalIds": {
+      "MAG": "1580723584",
+      "CorpusId": 51857417
+     },
+     "title": "Handbook of Experimental Economics Results",
+     "venue": "",
+     "year": 2008,
+     "citationCount": 372,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2885567",
+       "name": "C. Plott"
+      },
+      {
+       "authorId": "2418984",
+       "name": "V. Smith"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "97915f5ac4cf0650be9bd2a5d305ef52b16e8143",
+     "externalIds": {
+      "DBLP": "journals/jsit/FinchB08",
+      "MAG": "2093580558",
+      "DOI": "10.1108/13287260810897747",
+      "CorpusId": 20708339
+     },
+     "title": "Understanding trader heterogeneity in information markets",
+     "venue": "Journal of Systems and Information Technology",
+     "year": 2008,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1108/13287260810897747?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1108/13287260810897747, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "144980127",
+       "name": "Dezon K. Finch"
+      },
+      {
+       "authorId": "1715130",
+       "name": "D. Berndt"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "e709dfaa7f39346fe6a089db6975f7071486b2bd",
+     "externalIds": {
+      "DBLP": "conf/wecwis/LucknerW08",
+      "MAG": "2137354687",
+      "DOI": "10.1109/CECandEEE.2008.131",
+      "CorpusId": 22568842
+     },
+     "title": "Arbitrage Opportunities and Market-Making Traders in Prediction Markets",
+     "venue": "2008 10th IEEE Conference on E-Commerce Technology and the Fifth IEEE Conference on Enterprise Computing, E-Commerce and E-Services",
+     "year": 2008,
+     "citationCount": 13,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1109/CECandEEE.2008.131?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/CECandEEE.2008.131, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1741207",
+       "name": "Stefan Luckner"
+      },
+      {
+       "authorId": "1733795",
+       "name": "Christof Weinhardt"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "e111fad5fce99731cd45e6a29f984c0a03bc81c1",
+     "externalIds": {
+      "MAG": "2015736731",
+      "DOI": "10.1016/J.IJFORECAST.2008.03.007",
+      "CorpusId": 7678137
+     },
+     "title": "Prediction market accuracy in the long run",
+     "venue": "",
+     "year": 2008,
+     "citationCount": 320,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.IJFORECAST.2008.03.007?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.IJFORECAST.2008.03.007, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "50201370",
+       "name": "Joyce E. Berg"
+      },
+      {
+       "authorId": "32416568",
+       "name": "F. Nelson"
+      },
+      {
+       "authorId": "2363796",
+       "name": "Thomas A. Rietz"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a3349c54ebfaba07c26c32785c52fe1dacd49428",
+     "externalIds": {
+      "MAG": "2952078074",
+      "ArXiv": "0802.1362",
+      "DBLP": "journals/corr/abs-0802-1362",
+      "DOI": "10.1145/1386790.1386822",
+      "CorpusId": 60769
+     },
+     "title": "Complexity of combinatorial market makers",
+     "venue": "ACM Conference on Economics and Computation",
+     "year": 2008,
+     "citationCount": 73,
+     "openAccessPdf": {
+      "url": "http://arxiv.org/pdf/0802.1362",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/0802.1362, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "117745152",
+       "name": "Yiling Chen"
+      },
+      {
+       "authorId": "1691447",
+       "name": "L. Fortnow"
+      },
+      {
+       "authorId": "1784519",
+       "name": "Nicolas S. Lambert"
+      },
+      {
+       "authorId": "1766638",
+       "name": "David M. Pennock"
+      },
+      {
+       "authorId": "4006636",
+       "name": "Jennifer Wortman Vaughan"
+      }
+     ],
+     "abstract": "We analyze the computational complexity of market maker pricing algorithms for combinatorial prediction markets. We focus on Hanson's popular logarithmic market scoring rule market maker (LMSR). Our goal is to implicitly maintain correct LMSR prices across an exponentially large outcome space. We examine both permutation combinatorics, where outcomes are permutations of objects, and Boolean combinatorics, where outcomes are combinations of binary events. We look at three restrictive languages that limit what traders can bet on. Even with severely limited languages, we find that LMSR pricing is #P-hard, even when the same language admits polynomial-time matching without the market maker. We then propose an approximation technique for pricing permutation markets based on an algorithm for online permutation learning. The connections we draw between LMSR pricing and the literature on online learning with expert advice may be of independent interest."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "432cef3fe42b95bc2faa0eab78892d63f33f473e",
+     "externalIds": {
+      "DBLP": "conf/wine/ChenRPHFG07",
+      "MAG": "1863744984",
+      "DOI": "10.1007/978-3-540-77105-0_10",
+      "CorpusId": 14983446
+     },
+     "title": "Bluffing and Strategic Reticence in Prediction Markets",
+     "venue": "Workshop on Internet and Network Economics",
+     "year": 2007,
+     "citationCount": 50,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-3-540-77105-0_10?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-3-540-77105-0_10, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "117745152",
+       "name": "Yiling Chen"
+      },
+      {
+       "authorId": "34169881",
+       "name": "Daniel M. Reeves"
+      },
+      {
+       "authorId": "1766638",
+       "name": "David M. Pennock"
+      },
+      {
+       "authorId": "145447707",
+       "name": "R. Hanson"
+      },
+      {
+       "authorId": "1691447",
+       "name": "L. Fortnow"
+      },
+      {
+       "authorId": "34975166",
+       "name": "Rica Gonen"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8e107345c43091e3fb64ca590eec6336520467f1",
+     "externalIds": {
+      "MAG": "1563867361",
+      "DOI": "10.2139/SSRN.1031754",
+      "CorpusId": 14731789
+     },
+     "title": "Preference Markets: Organizing Securities Markets for Opinion Surveys with Infinite Scalability",
+     "venue": "",
+     "year": 2007,
+     "citationCount": 13,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.1031754",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/SSRN.1031754?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/SSRN.1031754, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "46840725",
+       "name": "E. Dahan"
+      },
+      {
+       "authorId": "1983792",
+       "name": "Arina Soukhoroukova"
+      },
+      {
+       "authorId": "2329336",
+       "name": "Martin Spann"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7985d15490fbf1610956822886511f0d7eb1d959",
+     "externalIds": {
+      "MAG": "124027388",
+      "DOI": "10.2139/SSRN.997788",
+      "CorpusId": 166941730
+     },
+     "title": "Trading the Tradesports NFL Market: An Analysis of Liquidity and Pricing Efficiency",
+     "venue": "",
+     "year": 2007,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/SSRN.997788?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/SSRN.997788, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "120126275",
+       "name": "F. Zhou"
+      },
+      {
+       "authorId": "2411788632",
+       "name": "Philip F. O'Connor"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "12f2a980478693680427b7d2b9d7235f8e27a7b2",
+     "externalIds": {
+      "MAG": "2256360278",
+      "DOI": "10.2139/SSRN.963532",
+      "CorpusId": 167404201
+     },
+     "title": "An Analysis of Tradesports' 2005-06 National Football League Prediction Market",
+     "venue": "",
+     "year": 2007,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/SSRN.963532?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/SSRN.963532, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "120126275",
+       "name": "F. Zhou"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "0b8eed73f16fa9ad87b194da04d59440cccf0160",
+     "externalIds": {
+      "MAG": "102452224",
+      "CorpusId": 167051710
+     },
+     "title": "Information Aggregation Efficiency in Virtual Prediction Markets",
+     "venue": "",
+     "year": 2006,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2110130831",
+       "name": "Jérôme Martin"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "67b33d80aae158c9871991f08506a94974189dda",
+     "externalIds": {
+      "MAG": "1544529256",
+      "DOI": "10.2139/SSRN.956062",
+      "CorpusId": 166410863
+     },
+     "title": "Portfolio Choice and Asset Prices in an Economy Populated by Case-Based Decision Makers",
+     "venue": "",
+     "year": 2006,
+     "citationCount": 5,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.956062",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/SSRN.956062?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/SSRN.956062, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2220070",
+       "name": "Ani Guerdjikova"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "445749cb7fe36f3f0d6e5a16202c99f5bd9cbd26",
+     "externalIds": {
+      "MAG": "2111499818",
+      "CorpusId": 109969
+     },
+     "title": "Institutional Forecasting: The Performance of Thin Virtual Stock Markets",
+     "venue": "",
+     "year": 2006,
+     "citationCount": 8,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1838701",
+       "name": "Gerrit van Bruggen"
+      },
+      {
+       "authorId": "2329336",
+       "name": "Martin Spann"
+      },
+      {
+       "authorId": "144996680",
+       "name": "G. Lilien"
+      },
+      {
+       "authorId": "1798410",
+       "name": "B. Skiera"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "1bbc2a010930267616f05e1c391bfc84ce7d7efd",
+     "externalIds": {
+      "DBLP": "conf/hicss/BerndtJF06",
+      "MAG": "2154070332",
+      "DOI": "10.1109/HICSS.2006.271",
+      "CorpusId": 40123240
+     },
+     "title": "Milestone Markets: Software Cost Estimation through Market Trading",
+     "venue": "Proceedings of the 39th Annual Hawaii International Conference on System Sciences (HICSS'06)",
+     "year": 2006,
+     "citationCount": 5,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1109/HICSS.2006.271?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/HICSS.2006.271, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1715130",
+       "name": "D. Berndt"
+      },
+      {
+       "authorId": "145353032",
+       "name": "Joni L. Jones"
+      },
+      {
+       "authorId": "144980127",
+       "name": "Dezon K. Finch"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "372e02e2764dd1da20a2588ab7a49f53113de1bc",
+     "externalIds": {
+      "MAG": "2270797452",
+      "CorpusId": 54530573
+     },
+     "title": "A Primer on Information Markets",
+     "venue": "",
+     "year": 2005,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "121803287",
+       "name": "G. Boyle"
+      },
+      {
+       "authorId": "13253344",
+       "name": "S. Videbeck"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "7da4207bdb06bb109f4316404e68fdd15472f85c",
+     "externalIds": {
+      "DOI": "10.1177/002196570504800109",
+      "CorpusId": 220119980
+     },
+     "title": "Research Bibliography",
+     "venue": "",
+     "year": 2005,
+     "citationCount": 5,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1177/002196570504800109?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1177/002196570504800109, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2055585097",
+       "name": "J. Berg"
+      },
+      {
+       "authorId": "2854315",
+       "name": "J. Dickhaut"
+      },
+      {
+       "authorId": "80451915",
+       "name": "K. Hughes"
+      },
+      {
+       "authorId": "144028343",
+       "name": "J. McCabe"
+      },
+      {
+       "authorId": "84648476",
+       "name": "Rayburn"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "55c84bacda1f82b31eebc2343b60e16d6269716a",
+     "externalIds": {
+      "DBLP": "journals/electronicmarkets/GrucaBC05",
+      "MAG": "2018376671",
+      "DOI": "10.1080/10196780500034939",
+      "CorpusId": 18098102
+     },
+     "title": "Consensus and Differences of Opinion in Electronic Prediction Markets",
+     "venue": "Electronic Markets",
+     "year": 2005,
+     "citationCount": 37,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1080/10196780500034939?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/10196780500034939, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2305066",
+       "name": "T. Gruca"
+      },
+      {
+       "authorId": "50201370",
+       "name": "Joyce E. Berg"
+      },
+      {
+       "authorId": "2055099275",
+       "name": "Michael Cipriano"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "22217b3b6324a48dd95311d5a39f969d7bc1a7bc",
+     "externalIds": {
+      "MAG": "1554997801",
+      "CorpusId": 16971625
+     },
+     "title": "Asset price in an overlapping generations model with case-based decision makers with short memory",
+     "venue": "",
+     "year": 2004,
+     "citationCount": 2,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2220070",
+       "name": "Ani Guerdjikova"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a91a523d4c399abb7ca0d4bcaafca6abd6b3003b",
+     "externalIds": {
+      "DOI": "10.2139/ssrn.4268381",
+      "CorpusId": 253756228
+     },
+     "title": "Betting and financial markets are cointegrated on election night",
+     "venue": "Social Science Research Network",
+     "year": 2022,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.4268381",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.2139/ssrn.4268381?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/ssrn.4268381, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "91379020",
+       "name": "Thomas Auld"
+      }
+     ],
+     "abstract": "We present a model linking prices of political binary options to financial assets that applies in the very particular circumstance of the overnight session following an election. Contrary to most of the existing literature, the model is derived from economic first principles and applies in a general setting. We find that under suitable assumptions, election and financial markets will be cointegrated. Deviations from risk neutrality lead to the presence of a non-linear term relating to risk in the cointegrating relationship. The model is tested on three recent political events: The 2014 Scottish independence referendum, the 2016 Brexit referendum and the 2016 US presidential election. Strong support is found for two events (the Brexit referendum and the 2016 Trump win). We find that weak market efficiency broadly holds although there are violations of the order of minutes to tens of minutes. This is apparently caused by betting markets leading financial markets, a phenomena that is observed for all three events. This finding is consistent with the conclusion of the existing literature that prediction markets have superior forecasting ability to other methods. A realistic ex-ante trading strategy is presented for Brexit that profits from these inefficiencies. However, the success is not repeated for the 2016 presidential election. This is due to an apparent deviation from risk neutrality that is not observed on the night of Brexit. Reference Details CWPE 2263 Published 2 November 2022"
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "0836c206aefb7e5a331e469898d899353bc4ee7f",
+     "externalIds": {
+      "CorpusId": 254091552
+     },
+     "title": "CAMBRIDGE WORKING PAPERS IN ECONOMICS Political markets as equity price factors",
+     "venue": "",
+     "year": 2022,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "3348419",
+       "name": "T. Auld"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "a9b18154678cfdf51617025546771a6cb5600362",
+     "externalIds": {
+      "CorpusId": 261818260
+     },
+     "title": "Prediction Markets: A Systematic Review and Meta-Analysis Prediction Markets: A Systematic Review and Meta-Analysis",
+     "venue": "",
+     "year": 2021,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2087429138",
+       "name": "Roberto Louis Forestal"
+      },
+      {
+       "authorId": "2288538422",
+       "name": "Taiwan R.O. Chung Yuan Christian"
+      },
+      {
+       "authorId": "2284517701",
+       "name": "Peng Cheng"
+      },
+      {
+       "authorId": "2470121697",
+       "name": "C. Zhang"
+      },
+      {
+       "authorId": "2288523743",
+       "name": "Taiwan R.O.C Shih-Ming Yuan Christian"
+      },
+      {
+       "authorId": "118839115",
+       "name": "Chung-Ron Pi"
+      },
+      {
+       "authorId": "2288523743",
+       "name": "Taiwan R.O.C Shih-Ming Yuan Christian"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "880fad7c7cc3ca92c840aa007c5aba990314c285",
+     "externalIds": {
+      "CorpusId": 249962662
+     },
+     "title": "Event studies in the prediction market: the case of overreaction among bettors during the 2016 US Presidential Election",
+     "venue": "",
+     "year": 2020,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "1ba3730ecc98f64258b7244e76d537065639eb09",
+     "externalIds": {
+      "MAG": "2975653219",
+      "DOI": "10.1111/ssqu.12729",
+      "CorpusId": 204358613
+     },
+     "title": "An Empirical Test of the Comey Effect on the 2016 Presidential Election",
+     "venue": "Social Science Quarterly",
+     "year": 2019,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/ssqu.12729?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/ssqu.12729, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "52611698",
+       "name": "Dennis Halcoussis"
+      },
+      {
+       "authorId": "68994006",
+       "name": "A. Lowenberg"
+      },
+      {
+       "authorId": "145900657",
+       "name": "G. Phillips"
+      }
+     ],
+     "abstract": "Objectives The contentious 2016 U.S. presidential election was marked by acrimonious televised debates between the two major candidates, Hillary Clinton and Donald Trump, federal investigations of Clinton's emails that were sent from a personal server when she held office as Secretary of State, and the release of a videotape of lewd remarks by Trump about his behavior toward women. Financial market uncertainty also played in role in the election campaign. The objective of the article is to examine the impact of these different factors on the election. Method The present article uses a popular vote prediction market to test the impact of these factors on the probability of Trump winning the election. Results Results indicate that the debates and videotape release were not statistically significant, but that a letter to Congress released by FBI Director James B. Comey on October 28, 2016, substantially decreased Clinton's probability of winning the popular vote and simultaneously increased Trump's probability. Financial market uncertainty is found to have some marginal positive effect on Trump's probability of winning. Conclusion Trump's probability of winning the election received a substantial boost from FBI Director James B. Comey's “last‐minute” announcement on October 28, 2016."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "1f2ed29bd549c9ad7eae7f8b1c338aa64ab0b2f8",
+     "externalIds": {
+      "MAG": "2969479547",
+      "DOI": "10.1007/978-3-030-18416-2_5",
+      "CorpusId": 202429692
+     },
+     "title": "Markets Are Moral Spaces",
+     "venue": "Do Markets Corrupt Our Morals?",
+     "year": 2019,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-3-030-18416-2_5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-3-030-18416-2_5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "79203777",
+       "name": "V. Storr"
+      },
+      {
+       "authorId": "133998343",
+       "name": "Ginny Seung Choi"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c6210ca4c64cf98a41dab1e105a3468a28cdcedf",
+     "externalIds": {
+      "CorpusId": 54820015
+     },
+     "title": "9-1-2009 Information Markets : A Research Landscape",
+     "venue": "",
+     "year": 2018,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "145353032",
+       "name": "Joni L. Jones"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "3e2214a770ba323c81fd2a8386fe89fb1c11d19c",
+     "externalIds": {
+      "CorpusId": 45837218
+     },
+     "title": "Information Markets : A Research Landscape Information Markets : A Research Landscape",
+     "venue": "",
+     "year": 2017,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "145353032",
+       "name": "Joni L. Jones"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ee9b3a6d3b98c1a6fe6937ccaac62ca257e913f3",
+     "externalIds": {
+      "DOI": "10.2139/ssrn.1553935",
+      "CorpusId": 5978239
+     },
+     "title": "Intuitive Biases in Choice vs . Estimation : Implications for the Wisdom of Crowds",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 143,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.1553935",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/ssrn.1553935?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/ssrn.1553935, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2118445",
+       "name": "J. Simmons"
+      },
+      {
+       "authorId": "118189419",
+       "name": "L. Nelson"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "9218c57d5aef5ddb4b2309df238aad30f869f77c",
+     "externalIds": {
+      "MAG": "1934116464",
+      "DOI": "10.26686/wgtn.17011910.v1",
+      "CorpusId": 166881844
+     },
+     "title": "A study of efficiency in New Zealand election prediction markers",
+     "venue": "",
+     "year": 2015,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "https://figshare.com/articles/thesis/A_study_of_efficiency_in_New_Zealand_election_prediction_markers/17011910",
+      "status": "GREEN",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.26686/wgtn.17011910.v1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.26686/wgtn.17011910.v1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "119547363",
+       "name": "Tram Cao"
+      }
+     ],
+     "abstract": "The development of prediction markets has naturally given rise to studies of their efficiency. Most studies of efficiency in prediction markets have focused on the speed with which they incorporate information. A necessary (but not sufficient) condition of efficiency is that arbitrage opportunities must non-existent or transitory in nature so that the systematic generation of abnormal profits is not possible. Using data from New Zealand’s first prediction market, iPredict, I examine the potential for arbitrage in the contracts for the party vote for the 2011 General Election. Relative to the risk-free interest rate, the returns from arbitrage are generally low, consistent with an efficient market. Regression analysis requires that the data not be subject to the possibility of spurious regressions - something that is not addressed in the literature. After confirming the non-stationarity of the price level and the stationarity of the price changes by the unit root test, I use the iPredict data in conjunction with opinion poll data to test whether the polls impact on market pricing behaviour. Using a number of different model types, I find that the opinion poll data has a very limited impact on market prices, suggesting that the information contained in the poll is largely already incorporated into market prices."
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ca55e0ed8c4c6a74b6a271a4f4c0a851690b5ca4",
+     "externalIds": {
+      "MAG": "117720179",
+      "DOI": "10.17077/ETD.3OMZ6TBP",
+      "CorpusId": 150590650
+     },
+     "title": "Essays in insider trading, informational efficiency, and asset pricing",
+     "venue": "",
+     "year": 2014,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "https://ir.uiowa.edu/cgi/viewcontent.cgi?article=5345&context=etd",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.17077/ETD.3OMZ6TBP?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.17077/ETD.3OMZ6TBP, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2074161012",
+       "name": "S. Clark"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "389dddc42f7ef147dbeeab873654c9e0262e24c7",
+     "externalIds": {
+      "CorpusId": 19111772
+     },
+     "title": "Economic Culture and Prediction Markets",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 2,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "119303852",
+       "name": "Khalid N. Alhayyan"
+      },
+      {
+       "authorId": "1777765",
+       "name": "R. Collins"
+      },
+      {
+       "authorId": "145353032",
+       "name": "Joni L. Jones"
+      },
+      {
+       "authorId": "1715130",
+       "name": "D. Berndt"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b11e0da6e037aef420c2371dfb68bcd7762080dd",
+     "externalIds": {
+      "MAG": "2229422657",
+      "CorpusId": 167327850
+     },
+     "title": "An explorative study of applying Prediction Markets in course evaluation",
+     "venue": "",
+     "year": 2013,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "50395222",
+       "name": "Kang-Wei Wang"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "cb2dd66c76047bf02b0e2451918568fd4baff987",
+     "externalIds": {
+      "DBLP": "conf/icis/GimpelT13",
+      "MAG": "145069223",
+      "CorpusId": 38218781
+     },
+     "title": "Collective Intelligence in Market-Based Social Decision Making",
+     "venue": "International Conference on Interaction Sciences",
+     "year": 2013,
+     "citationCount": 4,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "3055311",
+       "name": "Henner Gimpel"
+      },
+      {
+       "authorId": "1688453",
+       "name": "F. Teschner"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "bdb149b0828bbc2c51cc4da9ae4de52b109c920e",
+     "externalIds": {
+      "DBLP": "journals/teco/OthmanPRS13",
+      "DOI": "10.1145/2509413.2509414",
+      "CorpusId": 52798827
+     },
+     "title": "A Practical Liquidity-Sensitive Automated Market Maker",
+     "venue": "TEAC",
+     "year": 2013,
+     "citationCount": 27,
+     "openAccessPdf": {
+      "url": "http://www-2.cs.cmu.edu/~sandholm/liquidity-sensitive%20market%20maker.EC10.pdf",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1145/2509413.2509414?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/2509413.2509414, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1848518",
+       "name": "Abraham Othman"
+      },
+      {
+       "authorId": "1766638",
+       "name": "David M. Pennock"
+      },
+      {
+       "authorId": "34169881",
+       "name": "Daniel M. Reeves"
+      },
+      {
+       "authorId": "145714168",
+       "name": "T. Sandholm"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "970c4eba456b07a7ddaa62bcc06d1b4e30fc9615",
+     "externalIds": {
+      "MAG": "11646084",
+      "DBLP": "phd/us/Othman18",
+      "DOI": "10.1184/r1/6714920.v1",
+      "CorpusId": 151021357
+     },
+     "title": "Automated Market Making: Theory and Practice",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 14,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1184/r1/6714920.v1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1184/r1/6714920.v1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "1848518",
+       "name": "Abraham Othman"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8519fb26136093180b20035e02dc978c722df5c2",
+     "externalIds": {
+      "CorpusId": 791725
+     },
+     "title": "The Rating Effect : Stars and Asset Allocation ∗",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "31075257",
+       "name": "R. McDonald"
+      },
+      {
+       "authorId": "2363796",
+       "name": "Thomas A. Rietz"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "faf78dc71b909a036c228b4e804ce13d8b2a2a4a",
+     "externalIds": {
+      "MAG": "948911747",
+      "CorpusId": 47928020
+     },
+     "title": "Why Deliberative Democracy is (Still) Untenable",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 23,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1411351587",
+       "name": "Kristoffer Ahlstrom-Vij"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "4821041c3ea5bac517fd5d1b2508a10ff2fe9008",
+     "externalIds": {
+      "MAG": "103777204",
+      "DBLP": "conf/icis/KaneR12",
+      "CorpusId": 15970666
+     },
+     "title": "Codification and Collaboration: Information Quality in Social Media",
+     "venue": "International Conference on Interaction Sciences",
+     "year": 2012,
+     "citationCount": 18,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2878729",
+       "name": "Gerald C. Kane"
+      },
+      {
+       "authorId": "1733073",
+       "name": "S. Ransbotham"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ac406301d5c3e53addd6b340286faa43b861646c",
+     "externalIds": {
+      "MAG": "2119087768",
+      "CorpusId": 154766230
+     },
+     "title": "Economic Culture and Trading Behaviors in Information Markets",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "119303852",
+       "name": "Khalid N. Alhayyan"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "067a9d0ea203d6f78d9dc0149cced1be17ea55f8",
+     "externalIds": {
+      "MAG": "1574102466",
+      "CorpusId": 161518849
+     },
+     "title": "Predictive Markets: Ein vielversprechender Weg zur Verbesserung der Prognosequalität im Unternehmen?",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 9,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "95919738",
+       "name": "Hans-Christian Riekhof"
+      },
+      {
+       "authorId": "2076579301",
+       "name": "Marie-Catherine Riekhof"
+      },
+      {
+       "authorId": "120244646",
+       "name": "Stefan Brinkhoff"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "36aa6e014d5ba90a2401ead3204d3cbb562a1e16",
+     "externalIds": {
+      "MAG": "2509777688",
+      "CorpusId": 168294625
+     },
+     "title": "ARBITRAGE TRADE IN PREDICTION MARKETS",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "123589781",
+       "name": "T. Bergen"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6cb14c6db178d14b56fb1624d264983ce2c83bcc",
+     "externalIds": {
+      "MAG": "2187753570",
+      "CorpusId": 285961538
+     },
+     "title": "Do prediction markets produce well calibrated probability forecasts? Short title:Prediction markets' calibration",
+     "venue": "",
+     "year": 2012,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2292079644",
+       "name": "Lionel Page"
+      },
+      {
+       "authorId": "2558625",
+       "name": "R. Clemen"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "5471a09f57e481fcf638f19bb0f7b77c4541550f",
+     "externalIds": {
+      "CorpusId": 255501
+     },
+     "title": "Market Bubbles and Crashes as an Expression of Tension between Social and Individual Rationality: Experiments",
+     "venue": "",
+     "year": 2011,
+     "citationCount": 5,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2540320",
+       "name": "Elena Asparouhova"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "229172b1cffafe2ea6c323213ea851673701134e",
+     "externalIds": {
+      "MAG": "51266652",
+      "DBLP": "journals/ac/YassinH11",
+      "DOI": "10.1016/B978-0-12-385512-1.00001-3",
+      "CorpusId": 38563137
+     },
+     "title": "The Hows and Whys of Information Markets",
+     "venue": "Advances in Computing",
+     "year": 2011,
+     "citationCount": 4,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/B978-0-12-385512-1.00001-3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/B978-0-12-385512-1.00001-3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "8756332",
+       "name": "Areej M. Yassin"
+      },
+      {
+       "authorId": "1933556",
+       "name": "A. Hevner"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "99312f482a07c9447455e2322cc1bde573c0e346",
+     "externalIds": {
+      "MAG": "1543099959",
+      "CorpusId": 152598265
+     },
+     "title": "Organizational information markets: conceptual foundation and an approach for software project risk management",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 4,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1933556",
+       "name": "A. Hevner"
+      },
+      {
+       "authorId": "8756332",
+       "name": "Areej M. Yassin"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "b6d94936607ff08308b794ae60c26e9e8f5c42eb",
+     "externalIds": {
+      "MAG": "2434077053",
+      "CorpusId": 16900119
+     },
+     "title": "EVALUATING THE WISDOM OF CROWDS",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 31,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "145948602",
+       "name": "C. Wagner"
+      },
+      {
+       "authorId": "73059864",
+       "name": "T. Vinaimont"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "0cbd7cd9cef0bd69b38594b08f526fdb6c53b484",
+     "externalIds": {
+      "MAG": "2464733329",
+      "CorpusId": 18811041
+     },
+     "title": "Are Crowds Wise When Predicting Against Point Spreads? It Depends on How You Ask",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2118445",
+       "name": "J. Simmons"
+      },
+      {
+       "authorId": "33916832",
+       "name": "Leif D. Nelson"
+      },
+      {
+       "authorId": "4908329",
+       "name": "Jeff Galak"
+      },
+      {
+       "authorId": "145808041",
+       "name": "S. Frederick"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "2e215f2ab4e172654bb9b831c146ac0909c6dd31",
+     "externalIds": {
+      "CorpusId": 26899604
+     },
+     "title": "ImplIcatIons from ExpErImEntal BEhavIoral fInancE for ImprovIng portfolIo sElEctIon",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "31075257",
+       "name": "R. McDonald"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "3ee164e8242b6ea373058a687dff7ddd03446a9c",
+     "externalIds": {
+      "MAG": "1581577538",
+      "CorpusId": 142653786
+     },
+     "title": "On epistemic agency",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 51,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "102575250",
+       "name": "Kristoffer Ahlstrom"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "3693f74f370c94daa88aa7bdb75eb78861152f5b",
+     "externalIds": {
+      "MAG": "1549577177",
+      "CorpusId": 152908627
+     },
+     "title": "Elections and Political Risk: New Evidence from Political Prediction Markets in Taiwan",
+     "venue": "",
+     "year": 2010,
+     "citationCount": 8,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "3248931",
+       "name": "Masami Imai"
+      },
+      {
+       "authorId": "3983898",
+       "name": "Cameron A. Shelton"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "729dda156c9f5981beb764c1dbf49b0d5fa93368",
+     "externalIds": {
+      "MAG": "2135775480",
+      "DOI": "10.1002/FOR.1091",
+      "CorpusId": 17578391
+     },
+     "title": "Sports forecasting: a comparison of the forecast accuracy of prediction markets, betting odds and tipsters",
+     "venue": "",
+     "year": 2009,
+     "citationCount": 209,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1002/FOR.1091?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/FOR.1091, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2329336",
+       "name": "Martin Spann"
+      },
+      {
+       "authorId": "1798410",
+       "name": "B. Skiera"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "3331c79a1c598c25efb697dd6fa581477590b7fb",
+     "externalIds": {
+      "CorpusId": 198187977
+     },
+     "title": "NEW PRODUCT DEVELOPMENT 2.0: Preference Markets How Scalable Securities Markets Identify Winning Product Concepts & Attributes",
+     "venue": "",
+     "year": 2009,
+     "citationCount": 10,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "46840725",
+       "name": "E. Dahan"
+      },
+      {
+       "authorId": "1983792",
+       "name": "Arina Soukhoroukova"
+      },
+      {
+       "authorId": "2329336",
+       "name": "Martin Spann"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ba62b6e42d32e5a62a81d8d5e78a81f367254361",
+     "externalIds": {
+      "CorpusId": 215777534
+     },
+     "title": "Prediction Markets : Equilibrium Strategies with a Market Maker ?",
+     "venue": "",
+     "year": 2009,
+     "citationCount": 112,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "117745152",
+       "name": "Yiling Chen"
+      },
+      {
+       "authorId": "34788529",
+       "name": "Stanko Dimitrov"
+      },
+      {
+       "authorId": "2048799",
+       "name": "Rahul Sami"
+      },
+      {
+       "authorId": "34169881",
+       "name": "Daniel M. Reeves"
+      },
+      {
+       "authorId": "1766638",
+       "name": "David M. Pennock"
+      },
+      {
+       "authorId": "145447707",
+       "name": "R. Hanson"
+      },
+      {
+       "authorId": "1691447",
+       "name": "L. Fortnow"
+      },
+      {
+       "authorId": "34975166",
+       "name": "Rica Gonen"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "86ef1cce0e73ddc608ef47bf0524114cec054b0e",
+     "externalIds": {
+      "MAG": "66273524",
+      "DBLP": "journals/cais/JonesCB09",
+      "DOI": "10.17705/1CAIS.02527",
+      "CorpusId": 19394412
+     },
+     "title": "Information Markets: A Research Landscape",
+     "venue": "Communications of the Association for Information Systems",
+     "year": 2009,
+     "citationCount": 13,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.17705/1cais.02527",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.17705/1CAIS.02527?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.17705/1CAIS.02527, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "145353032",
+       "name": "Joni L. Jones"
+      },
+      {
+       "authorId": "1777765",
+       "name": "R. Collins"
+      },
+      {
+       "authorId": "1715130",
+       "name": "D. Berndt"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "75100cddb9e7766602ff077b0b0de3d4c3882ffa",
+     "externalIds": {
+      "MAG": "2397320241",
+      "CorpusId": 156808414
+     },
+     "title": "PREDICTION MARKETS: HOW THEY WORK AND HOW WELL THEY WORK",
+     "venue": "",
+     "year": 2009,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "113515590",
+       "name": "Vincent Jacobs"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "ff1686374df65a0242d18871bb3aed2e1c798944",
+     "externalIds": {
+      "MAG": "618991820",
+      "DOI": "10.1016/S1574-0722(07)00080-7",
+      "CorpusId": 33703551
+     },
+     "title": "Results from a Dozen Years of Election Futures Markets Research",
+     "venue": "",
+     "year": 2008,
+     "citationCount": 414,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/S1574-0722(07)00080-7?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/S1574-0722(07)00080-7, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "50201370",
+       "name": "Joyce E. Berg"
+      },
+      {
+       "authorId": "145324616",
+       "name": "Robert Forsythe"
+      },
+      {
+       "authorId": "32416568",
+       "name": "F. Nelson"
+      },
+      {
+       "authorId": "2363796",
+       "name": "Thomas A. Rietz"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "3bc30974d563c829960dd71ee755c642c1ceaa79",
+     "externalIds": {
+      "MAG": "2262758186",
+      "CorpusId": 147360202
+     },
+     "title": "Trader personality and trading performance : A framework and financial market experiment",
+     "venue": "",
+     "year": 2008,
+     "citationCount": 15,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2697616",
+       "name": "T. Koopmans"
+      },
+      {
+       "authorId": "1630360515",
+       "name": "Research Institute"
+      },
+      {
+       "authorId": "8195844",
+       "name": "A. Witteloostuijn"
+      },
+      {
+       "authorId": "2430547651",
+       "name": "Katrin Meuhlfeld"
+      },
+      {
+       "authorId": "1845234",
+       "name": "K. Muehlfeld"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "724698cf232bbfd6efe78f856c92349df706cb08",
+     "externalIds": {
+      "MAG": "234341894",
+      "DBLP": "conf/bled/Luckner08",
+      "CorpusId": 8906410
+     },
+     "title": "Prediction Markets: Fundamentals, Key Design Elements, and Applications",
+     "venue": "Bled eConference",
+     "year": 2008,
+     "citationCount": 25,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1741207",
+       "name": "Stefan Luckner"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "33661c0476da81d8f61035656284aec76fc2bce6",
+     "externalIds": {
+      "CorpusId": 18659095
+     },
+     "title": "Volatility in Prediction Markets : A Measure of Information Flow in Political Campaigns",
+     "venue": "",
+     "year": 2008,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "122657211",
+       "name": "Carlos M. Carvalho"
+      },
+      {
+       "authorId": "119528422",
+       "name": "Jill Rickershauser"
+      },
+      {
+       "authorId": "1402515348",
+       "name": "Tony O’Hagan"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "8350808ee47e0446115a2ab46eb771ca41e0919d",
+     "externalIds": {
+      "MAG": "1582690777",
+      "DBLP": "conf/pacis/ZhaoWC08",
+      "CorpusId": 12282932
+     },
+     "title": "Review of Prediction Market Research: Guidelines for Information Systems Research",
+     "venue": "Pacific Asia Conference on Information Systems",
+     "year": 2008,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1391164707",
+       "name": "Sesia J. Zhao"
+      },
+      {
+       "authorId": "145948602",
+       "name": "C. Wagner"
+      },
+      {
+       "authorId": "145596335",
+       "name": "Hua-ping Chen"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "d501814dd13e18fc8c41a51319d0835fedc88956",
+     "externalIds": {
+      "MAG": "1584968811",
+      "DOI": "10.14418/wes01.1.238",
+      "CorpusId": 153800333
+     },
+     "title": "The Money Primary: Political Prediction Markets, Campaign Contributions, and Expenditures",
+     "venue": "",
+     "year": 2008,
+     "citationCount": 2,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.14418/wes01.1.238?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.14418/wes01.1.238, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "46197835",
+       "name": "J. Feigenbaum"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "541d189eb1b4ee41ed1050249b794f2111ac405a",
+     "externalIds": {
+      "MAG": "2738364796",
+      "CorpusId": 157238300
+     },
+     "title": "Predictive Power of Markets - Prediction Accuracy, Incentive Schemes, and Traders' Biases",
+     "venue": "",
+     "year": 2008,
+     "citationCount": 4,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "1741207",
+       "name": "Stefan Luckner"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "91d5e9f9d50f3a49838ad93c5ae719398490a085",
+     "externalIds": {
+      "MAG": "2282014771",
+      "DOI": "10.1515/roe-2008-0105",
+      "CorpusId": 157970194
+     },
+     "title": "Prediction Markets: Prognosemärkte in Praxis und Theorie",
+     "venue": "",
+     "year": 2008,
+     "citationCount": 3,
+     "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1515/roe-2008-0105?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1515/roe-2008-0105, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "39095235",
+       "name": "Marian Berneburg"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c88286ad1247729c23f0273a8470f4e075877863",
+     "externalIds": {
+      "MAG": "2121026392",
+      "CorpusId": 111317473
+     },
+     "title": "The Dancer and the Dance: Agents, Beliefs, and Actions in Prediction Markets",
+     "venue": "",
+     "year": 2007,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2064155861",
+       "name": "A. M. Othman"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": null,
+     "externalIds": null,
+     "title": "Extended annotated bibliography for chapter on “ Computational aspects of prediction markets ”",
+     "venue": "",
+     "year": 2007,
+     "citationCount": null,
+     "openAccessPdf": null,
+     "authors": [],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "981febedf3d983b336404f3b40ff8743555cb228",
+     "externalIds": {
+      "CorpusId": 18434231
+     },
+     "title": "Socially Embedded Prediction Markets",
+     "venue": "",
+     "year": 2007,
+     "citationCount": 1,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "117745152",
+       "name": "Yiling Chen"
+      },
+      {
+       "authorId": "1766638",
+       "name": "David M. Pennock"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "3322bd03595561bccf9ef4c6247d8fbbb61ae0df",
+     "externalIds": {
+      "MAG": "1750951530",
+      "DOI": "10.5750/JPM.V1I1.421",
+      "CorpusId": 56565824
+     },
+     "title": "PREDICTION MARKETS: AN EXTENDED LITERATURE REVIEW",
+     "venue": "",
+     "year": 2007,
+     "citationCount": 166,
+     "openAccessPdf": {
+      "url": "http://www.bjll.org/index.php/jpm/article/download/421/452",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.5750/JPM.V1I1.421?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5750/JPM.V1I1.421, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "52375912",
+       "name": "Georgios Tziralis"
+      },
+      {
+       "authorId": "2875675",
+       "name": "I. Tatsiopoulos"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "1a72025a422629cc359f9e6c6ef90178b48223e9",
+     "externalIds": {
+      "DOI": "10.2139/ssrn.887562",
+      "CorpusId": 267832553
+     },
+     "title": "Searching for Google ’ s Value : Using Prediction Markets to Forecast Market Capitalization Prior to an Initial Public Offering",
+     "venue": "",
+     "year": 2007,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "http://www.smeal.psu.edu/lema/documents/neumann06.pdf/",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/ssrn.887562?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/ssrn.887562, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "50201370",
+       "name": "Joyce E. Berg"
+      },
+      {
+       "authorId": "2372258868",
+       "name": "George R. Neumann"
+      },
+      {
+       "authorId": "2363796",
+       "name": "Thomas A. Rietz"
+      },
+      {
+       "authorId": "2285494074",
+       "name": "Thomas George"
+      },
+      {
+       "authorId": "2288397735",
+       "name": "Bruce Johnson"
+      },
+      {
+       "authorId": "2285568343",
+       "name": "Thomas H. Noe"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "90f7a9db4aab640d1b67026c5bebf6a3213cac6f",
+     "externalIds": {
+      "MAG": "632212140",
+      "CorpusId": 152932581
+     },
+     "title": "Manipulating political stock markets: A field experiment and a century of observational data",
+     "venue": "",
+     "year": 2006,
+     "citationCount": 82,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "41050591",
+       "name": "P. Rhode"
+      },
+      {
+       "authorId": "40699937",
+       "name": "Koleman Strumpf"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": null,
+     "externalIds": null,
+     "title": "Stock Market Volatility around National Elections",
+     "venue": "",
+     "year": 2006,
+     "citationCount": null,
+     "openAccessPdf": null,
+     "authors": [],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f85624b21f6f80d96fb61d76ca3f02d462474ab1",
+     "externalIds": {
+      "CorpusId": 263327974
+     },
+     "title": "Stock market volatiltity around national elections",
+     "venue": "",
+     "year": 2006,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "73084848",
+       "name": "J. Białkowski"
+      },
+      {
+       "authorId": "14567235",
+       "name": "Katrin Gottschalk"
+      },
+      {
+       "authorId": "2239863483",
+       "name": "T. Wisniewski"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "c849c8ecbb03c2a76963472f0d226a89ff4b4b25",
+     "externalIds": {
+      "MAG": "1552650642",
+      "CorpusId": 263327969
+     },
+     "title": "Stock market volatiltity around national elections",
+     "venue": "",
+     "year": 2006,
+     "citationCount": 8,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "73084848",
+       "name": "J. Białkowski"
+      },
+      {
+       "authorId": "14567235",
+       "name": "Katrin Gottschalk"
+      },
+      {
+       "authorId": "2239863483",
+       "name": "T. Wisniewski"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "3b80d9f834b6171e240e6ebe5a2ae297cbac2ef5",
+     "externalIds": {
+      "CorpusId": 199514205
+     },
+     "title": "The Iowa Electronic Market : Lessons Learned and Answers Yearned",
+     "venue": "",
+     "year": 2005,
+     "citationCount": 9,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "116555284",
+       "name": "Berg"
+      },
+      {
+       "authorId": "2363796",
+       "name": "Thomas A. Rietz"
+      },
+      {
+       "authorId": "2102045884",
+       "name": "Tippie"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "f9b21374b31bf9875f0b5bf89c19cd62a0219e7b",
+     "externalIds": {
+      "MAG": "2065331451",
+      "DOI": "10.2139/SSRN.568502",
+      "CorpusId": 154983128
+     },
+     "title": "On the microstructure of price determination and information aggregation with sequential and asymmetric information arrival in an experimental asset market",
+     "venue": "",
+     "year": 2005,
+     "citationCount": 38,
+     "openAccessPdf": {
+      "url": "https://doi.org/10.2139/ssrn.568502",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2139/SSRN.568502?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2139/SSRN.568502, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     },
+     "authors": [
+      {
+       "authorId": "2296367759",
+       "name": "M. Barner"
+      },
+      {
+       "authorId": "2279650",
+       "name": "Francesco Feri"
+      },
+      {
+       "authorId": "2885567",
+       "name": "C. Plott"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "6d9974a259dd2843c2023b7dc56fcf739406942d",
+     "externalIds": {
+      "CorpusId": 286079152
+     },
+     "title": "Searching for Google ’ s Value : Using Prediction Markets to Forecast Market Capitalization Prior to an Initial Public Offering",
+     "venue": "",
+     "year": 2005,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "50201370",
+       "name": "Joyce E. Berg"
+      },
+      {
+       "authorId": "2207141159",
+       "name": "George R. Neumann"
+      },
+      {
+       "authorId": "2363796",
+       "name": "Thomas A. Rietz"
+      },
+      {
+       "authorId": "46894949",
+       "name": "Thomas J. George"
+      },
+      {
+       "authorId": "2288397735",
+       "name": "Bruce Johnson"
+      },
+      {
+       "authorId": "2285568343",
+       "name": "Thomas H. Noe"
+      }
+     ],
+     "abstract": null
+    }
+   },
+   {
+    "citingPaper": {
+     "paperId": "41ecb69a43fecfe8e1a882bcbd66e84a3d2a6877",
+     "externalIds": {
+      "CorpusId": 277351360
+     },
+     "title": "JOURNAL OF GLOBAL TRADE, ETHICS AND LAW",
+     "venue": "",
+     "year": null,
+     "citationCount": 0,
+     "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+     },
+     "authors": [
+      {
+       "authorId": "2268993449",
+       "name": "E. Alzate"
+      },
+      {
+       "authorId": null,
+       "name": "Oscar Claveria"
+      },
+      {
+       "authorId": "2352307800",
+       "name": "Durham Thunmann"
+      }
+     ],
+     "abstract": null
+    }
+   }
+  ]
+ }
+}

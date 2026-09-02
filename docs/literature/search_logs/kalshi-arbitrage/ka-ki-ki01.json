@@ -1,0 +1,345 @@
+{
+ "query_id": "ka-ki-ki01",
+ "protocol_query_id": "KI-01",
+ "arm": "known-item",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1287%2Fmnsc.1040.0191",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1,
+ "retrieved_count": 1,
+ "identifier": "10.1287/mnsc.1040.0191",
+ "raw_format": "json",
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      3,
+      10
+     ]
+    ],
+    "date-time": "2026-03-10T03:10:52Z",
+    "timestamp": 1773112252267,
+    "version": "3.50.1"
+   },
+   "reference-count": 28,
+   "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+   "issue": "3",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Management Science"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2004,
+      3
+     ]
+    ]
+   },
+   "abstract": "<jats:p> The Iowa Electronic Markets are specially designed futures markets that appear to aggregate information efficiently to predict events such as election outcomes. Yet, in theory, perfect information aggregation is impossible. Further, the markets are populated by a nonrepresentative sample of mistake-prone and biased traders. That is, traders are prone to the behavioral anomalies predicted by behavioral finance. How can this be reconciled with market efficiency? Here, we take a first step by analyzing the behavior of two self-selected types of traders. Dramatic differences in mistake rates across traders can help us answer the question. Market-making traders who set prices are less mistake prone and appear to be more rational than price-taking traders. This highlights an important feature of markets: marginal (in this case, market making), not average, traders set prices. This can drive the efficiency of market prices in spite of large numbers of traders who display patently suboptimal behavior. </jats:p>",
+   "DOI": "10.1287/mnsc.1040.0191",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2004,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2004-04-01T09:55:49Z",
+    "timestamp": 1080813349000
+   },
+   "page": "336-351",
+   "source": "Crossref",
+   "is-referenced-by-count": 94,
+   "title": [
+    "Suckers Are Born but Markets Are Made: Individual Rationality, Arbitrage, and Market Efficiency on an Electronic Futures Market"
+   ],
+   "prefix": "10.1287",
+   "volume": "50",
+   "author": [
+    {
+     "given": "Kenneth",
+     "family": "Oliven",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Henry B. Tippie College of Business, University of Iowa, Iowa City, Iowa 52242-1000"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Thomas A.",
+     "family": "Rietz",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Henry B. Tippie College of Business, University of Iowa, Iowa City, Iowa 52242-1000"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "109",
+   "reference": [
+    {
+     "key": "B1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1162/003355301556400"
+    },
+    {
+     "key": "B2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1022002107255"
+    },
+    {
+     "key": "B3",
+     "unstructured": "Berg J. E., Nelson F. D., Rietz T. A. Accuracy and forecast standard error of prediction markets (2003) Working paper, Department of Finance, University of Iowa. Iowa City, IA."
+    },
+    {
+     "key": "B4",
+     "volume-title": "Handbook of Experimental Economic Results",
+     "author": "Berg J. E.",
+     "year": "2004"
+    },
+    {
+     "key": "B5",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0304-405X(83)90034-X"
+    },
+    {
+     "key": "B6",
+     "first-page": "163",
+     "volume": "43",
+     "author": "Borch K.",
+     "year": "1960",
+     "journal-title": "Skand. Aktuar."
+    },
+    {
+     "key": "B7",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-1-349-01989-2_6"
+    },
+    {
+     "key": "B8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0378-4266(93)90006-Y"
+    },
+    {
+     "key": "B9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/0022-1082.00350"
+    },
+    {
+     "key": "B10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0304-3932(01)00091-5"
+    },
+    {
+     "key": "B11",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2325486"
+    },
+    {
+     "key": "B12",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1540-6261.1991.tb04636.x"
+    },
+    {
+     "key": "B13",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1540-6261.1985.tb04998.x"
+    },
+    {
+     "key": "B14",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1540-6261.1989.tb02654.x"
+    },
+    {
+     "key": "B15",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/fut.3990100403"
+    },
+    {
+     "key": "B16",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0167-2681(99)00027-X"
+    },
+    {
+     "key": "B17",
+     "first-page": "1142",
+     "volume": "82",
+     "author": "Forsythe R.",
+     "year": "1992",
+     "journal-title": "Amer. Econom. Rev."
+    },
+    {
+     "key": "B18",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0304-405X(78)90029-6"
+    },
+    {
+     "key": "B19",
+     "first-page": "393",
+     "volume": "70",
+     "author": "Grossman S. J.",
+     "year": "1980",
+     "journal-title": "Amer. Econom. Rev."
+    },
+    {
+     "key": "B20",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1540-6261.1985.tb04968.x"
+    },
+    {
+     "key": "B21",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1913210"
+    },
+    {
+     "key": "B22",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-1-349-01989-2_8"
+    },
+    {
+     "key": "B23",
+     "volume-title": "The Psychology of Investing",
+     "author": "Nofsinger J. R.",
+     "year": "2002"
+    },
+    {
+     "key": "B26",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1061610"
+    },
+    {
+     "key": "B28",
+     "first-page": "274",
+     "volume": "66",
+     "author": "Smith V. L.",
+     "year": "1976",
+     "journal-title": "Amer. Econom. Rev."
+    },
+    {
+     "key": "B29",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/fut.3990140107"
+    },
+    {
+     "key": "B30",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1540-6261.1986.tb04495.x"
+    },
+    {
+     "key": "B31",
+     "first-page": "188",
+     "volume": "48",
+     "author": "Working H.",
+     "year": "1958",
+     "journal-title": "Amer. Econom. Rev."
+    }
+   ],
+   "container-title": [
+    "Management Science"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://pubsonline.informs.org/doi/pdf/10.1287/mnsc.1040.0191",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      4,
+      2
+     ]
+    ],
+    "date-time": "2023-04-02T12:07:15Z",
+    "timestamp": 1680437235000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://pubsonline.informs.org/doi/10.1287/mnsc.1040.0191"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2004,
+      3
+     ]
+    ]
+   },
+   "references-count": 28,
+   "journal-issue": {
+    "issue": "3",
+    "published-print": {
+     "date-parts": [
+      [
+       2004,
+       3
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1287/mnsc.1040.0191"
+   ],
+   "URL": "https://doi.org/10.1287/mnsc.1040.0191",
+   "relation": {},
+   "ISSN": [
+    "0025-1909",
+    "1526-5501"
+   ],
+   "issn-type": [
+    {
+     "value": "0025-1909",
+     "type": "print"
+    },
+    {
+     "value": "1526-5501",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2004,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

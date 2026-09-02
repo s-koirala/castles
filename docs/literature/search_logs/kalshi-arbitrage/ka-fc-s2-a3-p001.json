@@ -1,0 +1,17 @@
+{
+ "query_id": "ka-fc-s2-a3-p001",
+ "protocol_query_id": "ka-fc-s2-a3",
+ "arm": "forward-citation",
+ "platform": "semanticscholar",
+ "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1086/655844/citations?fields=title,year,venue,externalIds,abstract,citationCount&limit=1000&offset=0",
+ "date_executed": "2026-09-02",
+ "http_status": 404,
+ "total_hits": null,
+ "retrieved_count": 0,
+ "page": 1,
+ "offset": 0,
+ "retry_attempts": 6,
+ "raw": {
+  "error": "Paper with id DOI:10.1086/655844 not found"
+ }
+}

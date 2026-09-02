@@ -1,0 +1,682 @@
+{
+ "query_id": "ka-ki-ki08",
+ "protocol_query_id": "KI-08",
+ "arm": "known-item",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1016%2Fj.ijforecast.2018.07.008",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1,
+ "retrieved_count": 1,
+ "identifier": "10.1016/j.ijforecast.2018.07.008",
+ "raw_format": "json",
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      7,
+      22
+     ]
+    ],
+    "date-time": "2026-07-22T09:23:34Z",
+    "timestamp": 1784712214751,
+    "version": "3.55.0"
+   },
+   "reference-count": 40,
+   "publisher": "Elsevier BV",
+   "issue": "2",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2019,
+        4,
+        1
+       ]
+      ],
+      "date-time": "2019-04-01T00:00:00Z",
+      "timestamp": 1554076800000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "elsevier.com",
+     "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "International Journal of Forecasting"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2019,
+      4
+     ]
+    ]
+   },
+   "DOI": "10.1016/j.ijforecast.2018.07.008",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2018,
+      10,
+      4
+     ]
+    ],
+    "date-time": "2018-10-04T00:29:18Z",
+    "timestamp": 1538612958000
+   },
+   "page": "712-721",
+   "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 74,
+   "title": [
+    "Efficiency of online football betting markets"
+   ],
+   "prefix": "10.1016",
+   "volume": "35",
+   "author": [
+    {
+     "given": "Giovanni",
+     "family": "Angelini",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Luca",
+     "family": "De Angelis",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "issue": "7",
+     "key": "10.1016/j.ijforecast.2018.07.008_b1",
+     "doi-asserted-by": "crossref",
+     "first-page": "795",
+     "DOI": "10.1002/for.2471",
+     "article-title": "PARX model for football matches predictions",
+     "volume": "36",
+     "author": "Angelini",
+     "year": "2017",
+     "journal-title": "Journal of Forecasting"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.ijforecast.2018.07.008_b2",
+     "doi-asserted-by": "crossref",
+     "first-page": "458",
+     "DOI": "10.1016/j.ijforecast.2016.11.006",
+     "article-title": "A bivariate Weibull count model for forecasting association football scores",
+     "volume": "33",
+     "author": "Boshnakov",
+     "year": "2017",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.ijforecast.2018.07.008_b3",
+     "doi-asserted-by": "crossref",
+     "first-page": "257",
+     "DOI": "10.1016/S0169-2070(01)00144-3",
+     "article-title": "Predicting the outcomes of National Football League games",
+     "volume": "19",
+     "author": "Boulier",
+     "year": "2003",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b4",
+     "doi-asserted-by": "crossref",
+     "first-page": "1748",
+     "DOI": "10.1111/ecin.12506",
+     "article-title": "Using social media to identify market inefficiencies: evidence from twitter and betfair",
+     "volume": "56",
+     "author": "Brown",
+     "year": "2017",
+     "journal-title": "Economic Inquiry"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b5",
+     "unstructured": "Brown, A., & Reade, J. J. (2017). Combining prediction markets and forecasting contests. Available at SSRN: https://ssrn.com/abstract=2944675."
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b6",
+     "series-title": "Forecasting and forecast narratives: The bank of England inflation reports. Technical report, Discussion paper",
+     "author": "Clements",
+     "year": "2016"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b7",
+     "doi-asserted-by": "crossref",
+     "first-page": "62",
+     "DOI": "10.1111/ecoj.12033",
+     "article-title": "Information and efficiency: goal arrival in soccer betting",
+     "volume": "124",
+     "author": "Croxson",
+     "year": "2014",
+     "journal-title": "Economic Journal"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b8",
+     "doi-asserted-by": "crossref",
+     "first-page": "343",
+     "DOI": "10.1080/00036846.2011.602010",
+     "article-title": "Are betting markets efficient? Evidence from European football championships",
+     "volume": "45",
+     "author": "Direr",
+     "year": "2013",
+     "journal-title": "Applied Economics"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b9",
+     "doi-asserted-by": "crossref",
+     "first-page": "686",
+     "DOI": "10.1016/j.ijforecast.2003.12.007",
+     "article-title": "The value of statistical forecasts in the UK association football betting market",
+     "volume": "20",
+     "author": "Dixon",
+     "year": "2004",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b10",
+     "doi-asserted-by": "crossref",
+     "first-page": "383",
+     "DOI": "10.2307/2325486",
+     "article-title": "Efficient capital markets: a review of theory and empirical work",
+     "volume": "25",
+     "author": "Fama",
+     "year": "1970",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b11",
+     "doi-asserted-by": "crossref",
+     "first-page": "551",
+     "DOI": "10.1016/j.ijforecast.2005.03.003",
+     "article-title": "Odds-setters as forecasters: the case of English football",
+     "volume": "21",
+     "author": "Forrest",
+     "year": "2005",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b12",
+     "doi-asserted-by": "crossref",
+     "first-page": "317",
+     "DOI": "10.1016/S0169-2070(00)00050-9",
+     "article-title": "Forecasting sport: the behaviour and performance of football tipsters",
+     "volume": "16",
+     "author": "Forrest",
+     "year": "2000",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b13",
+     "doi-asserted-by": "crossref",
+     "first-page": "448",
+     "DOI": "10.1016/j.ijforecast.2010.01.004",
+     "article-title": "Prediction accuracy of different market structures — bookmakers versus a betting exchange",
+     "volume": "26",
+     "author": "Franck",
+     "year": "2010",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b14",
+     "doi-asserted-by": "crossref",
+     "first-page": "300",
+     "DOI": "10.1111/ecca.12009",
+     "article-title": "Inter-market arbitrage in betting",
+     "volume": "80",
+     "author": "Franck",
+     "year": "2013",
+     "journal-title": "Economica"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b15",
+     "doi-asserted-by": "crossref",
+     "first-page": "25",
+     "DOI": "10.1080/01621459.1998.10474084",
+     "article-title": "A state-space model for National Football League scores",
+     "volume": "93",
+     "author": "Glickman",
+     "year": "1998",
+     "journal-title": "Journal of the American Statistical Association"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b16",
+     "doi-asserted-by": "crossref",
+     "first-page": "51",
+     "DOI": "10.1002/for.877",
+     "article-title": "Forecasting football results and the efficiency of fixed-odds betting",
+     "volume": "23",
+     "author": "Goddard",
+     "year": "2004",
+     "journal-title": "Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b17",
+     "doi-asserted-by": "crossref",
+     "first-page": "498",
+     "DOI": "10.1016/j.ijforecast.2010.01.002",
+     "article-title": "Finding profitable forecast combinations using probability scoring rules",
+     "volume": "26",
+     "author": "Grant",
+     "year": "2010",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b18",
+     "doi-asserted-by": "crossref",
+     "first-page": "290",
+     "DOI": "10.2307/1418469",
+     "article-title": "Odds adjustment by American horse-race bettors",
+     "volume": "62",
+     "author": "Griffith",
+     "year": "1949",
+     "journal-title": "American Journal of Psychology"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b19",
+     "first-page": "949",
+     "article-title": "Note on the Hayek hypothesis and the favorite–longshot bias in parimutuel betting",
+     "volume": "85",
+     "author": "Hurley",
+     "year": "1995",
+     "journal-title": "American Economic Review"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b20",
+     "doi-asserted-by": "crossref",
+     "first-page": "221",
+     "DOI": "10.1016/j.econlet.2004.06.025",
+     "article-title": "Testing for market efficiency in gambling markets when the errors are non-normal and heteroskedastic — an application of the wild bootstrap",
+     "volume": "87",
+     "author": "Ioannidis",
+     "year": "2005",
+     "journal-title": "Economics Letters"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.ijforecast.2018.07.008_b21",
+     "doi-asserted-by": "crossref",
+     "first-page": "167",
+     "DOI": "10.1111/rssa.12042",
+     "article-title": "A dynamic bivariate Poisson model for analysing and forecasting match results in the English Premier League",
+     "volume": "178",
+     "author": "Koopman",
+     "year": "2015",
+     "journal-title": "Journal of the Royal Statistical Society, Series A"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b22",
+     "doi-asserted-by": "crossref",
+     "first-page": "1353",
+     "DOI": "10.1080/00036840050151449",
+     "article-title": "Information and efficiency: an empirical study of a fixed odds betting market",
+     "volume": "32",
+     "author": "Kuypers",
+     "year": "2000",
+     "journal-title": "Applied Economics"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b23",
+     "doi-asserted-by": "crossref",
+     "first-page": "518",
+     "DOI": "10.1016/j.ijforecast.2009.12.013",
+     "article-title": "Alternative methods of predicting competitive events: an application in horserace betting markets",
+     "volume": "26",
+     "author": "Lessmann",
+     "year": "2010",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b24",
+     "doi-asserted-by": "crossref",
+     "first-page": "223",
+     "DOI": "10.1111/j.1468-0297.2004.00207.x",
+     "article-title": "Why are gambling markets organised so differently?",
+     "volume": "114",
+     "author": "Levitt",
+     "year": "2004",
+     "journal-title": "The Economic Journal"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b25",
+     "doi-asserted-by": "crossref",
+     "first-page": "13",
+     "DOI": "10.1093/biomet/73.1.13",
+     "article-title": "Longitudinal data analysis using generalized linear models",
+     "volume": "73",
+     "author": "Liang",
+     "year": "1986",
+     "journal-title": "Biometrika"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.ijforecast.2018.07.008_b26",
+     "doi-asserted-by": "crossref",
+     "first-page": "619",
+     "DOI": "10.1016/j.ijforecast.2010.04.004",
+     "article-title": "A Bradley–Terry type model for forecasting tennis match results",
+     "volume": "27",
+     "author": "McHale",
+     "year": "2011",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b27",
+     "series-title": "Economic forecasts and expectations: Analysis of forecasting behavior and performance",
+     "article-title": "The evaluation of economic forecasts",
+     "author": "Mincer",
+     "year": "1969"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b28",
+     "doi-asserted-by": "crossref",
+     "first-page": "323",
+     "DOI": "10.2307/2554281",
+     "article-title": "Information, prices and efficiency in a fixed-odds betting market",
+     "volume": "56",
+     "author": "Pope",
+     "year": "1989",
+     "journal-title": "Economica"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b29",
+     "doi-asserted-by": "crossref",
+     "first-page": "43",
+     "DOI": "10.5750/jpm.v8i1.865",
+     "article-title": "Information and predictability: bookmakers, prediction markets and tipsters as forecasters",
+     "volume": "8",
+     "author": "Reade",
+     "year": "2014",
+     "journal-title": "Journal of Prediction Markets"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b30",
+     "doi-asserted-by": "crossref",
+     "first-page": "511",
+     "DOI": "10.1016/j.ijforecast.2010.01.001",
+     "article-title": "An optimized ratings-based model for forecasting Australian Rules football",
+     "volume": "26",
+     "author": "Rydall",
+     "year": "2010",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b31",
+     "series-title": "Handbook of sports and lottery markets",
+     "article-title": "The favorite–longshot bias: an overview of the main explanations",
+     "author": "Sorensen",
+     "year": "2008"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b32",
+     "doi-asserted-by": "crossref",
+     "first-page": "55",
+     "DOI": "10.1002/for.1091",
+     "article-title": "Sports forecasting: a comparison of the forecast accuracy of prediction markets, betting odds and tipsters",
+     "volume": "28",
+     "author": "Spann",
+     "year": "2009",
+     "journal-title": "Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b33",
+     "doi-asserted-by": "crossref",
+     "first-page": "161",
+     "DOI": "10.1257/jep.2.2.161",
+     "article-title": "Parimutual betting markets: racetracks and lotteries",
+     "volume": "2",
+     "author": "Thaler",
+     "year": "1988",
+     "journal-title": "Journal of Economic Perspectives"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.ijforecast.2018.07.008_b34",
+     "doi-asserted-by": "crossref",
+     "first-page": "482",
+     "DOI": "10.1016/j.ijforecast.2009.10.005",
+     "article-title": "Online bookmakers’ odds as forecasts: the case of European soccer leagues",
+     "volume": "26",
+     "author": "S̆trumbelj",
+     "year": "2010",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.ijforecast.2018.07.008_b35",
+     "doi-asserted-by": "crossref",
+     "first-page": "532",
+     "DOI": "10.1016/j.ijforecast.2011.01.004",
+     "article-title": "Simulating a basketball match with a homogeneous Markov model and forecasting the outcome",
+     "volume": "28",
+     "author": "S̆trumbelj",
+     "year": "2012",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b36",
+     "series-title": "Information efficiency in financial and betting markets",
+     "author": "Vaughan Williams",
+     "year": "2005"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b37",
+     "doi-asserted-by": "crossref",
+     "first-page": "426",
+     "DOI": "10.1002/for.1085",
+     "article-title": "How efficient is the European football betting market? Evidence from arbitrage and trading strategies",
+     "volume": "28",
+     "author": "Vlastakis",
+     "year": "2009",
+     "journal-title": "Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b38",
+     "doi-asserted-by": "crossref",
+     "first-page": "934",
+     "DOI": "10.1016/j.ijforecast.2014.02.008",
+     "article-title": "On determining probability forecasts from betting odds",
+     "volume": "30",
+     "author": "Štrumbelj",
+     "year": "2014",
+     "journal-title": "International Journal of Forecasting"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b39",
+     "doi-asserted-by": "crossref",
+     "first-page": "269",
+     "DOI": "10.1111/j.1540-6261.1994.tb04429.x",
+     "article-title": "Market efficiency and the favorite–longshot bias: the baseball betting market",
+     "volume": "49",
+     "author": "Woodland",
+     "year": "1994",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1016/j.ijforecast.2018.07.008_b40",
+     "doi-asserted-by": "crossref",
+     "first-page": "983",
+     "DOI": "10.2307/1061582",
+     "article-title": "Market efficiency and profitable wagering in the National Hockey League: can bettors score on longshots?",
+     "volume": "67",
+     "author": "Woodland",
+     "year": "2001",
+     "journal-title": "Southern Economic Journal"
+    }
+   ],
+   "updated-by": [
+    {
+     "DOI": "10.1016/j.ijforecast.2021.01.020",
+     "type": "erratum",
+     "label": "Erratum",
+     "source": "publisher",
+     "updated": {
+      "date-parts": [
+       [
+        2021,
+        7,
+        1
+       ]
+      ],
+      "date-time": "2021-07-01T00:00:00Z",
+      "timestamp": 1625097600000
+     }
+    }
+   ],
+   "container-title": [
+    "International Journal of Forecasting"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0169207018301134?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0169207018301134?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2020,
+      11,
+      12
+     ]
+    ],
+    "date-time": "2020-11-12T00:16:43Z",
+    "timestamp": 1605140203000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169207018301134"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2019,
+      4
+     ]
+    ]
+   },
+   "references-count": 40,
+   "journal-issue": {
+    "issue": "2",
+    "published-print": {
+     "date-parts": [
+      [
+       2019,
+       4
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "S0169207018301134"
+   ],
+   "URL": "https://doi.org/10.1016/j.ijforecast.2018.07.008",
+   "relation": {
+    "erratum": [
+     {
+      "id-type": "doi",
+      "id": "10.1016/j.ijforecast.2021.01.020",
+      "asserted-by": "object"
+     }
+    ]
+   },
+   "ISSN": [
+    "0169-2070"
+   ],
+   "issn-type": [
+    {
+     "value": "0169-2070",
+     "type": "print"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2019,
+      4
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "Elsevier",
+     "name": "publisher",
+     "label": "This article is maintained by"
+    },
+    {
+     "value": "Efficiency of online football betting markets",
+     "name": "articletitle",
+     "label": "Article Title"
+    },
+    {
+     "value": "International Journal of Forecasting",
+     "name": "journaltitle",
+     "label": "Journal Title"
+    },
+    {
+     "value": "https://doi.org/10.1016/j.ijforecast.2018.07.008",
+     "name": "articlelink",
+     "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+     "value": "article",
+     "name": "content_type",
+     "label": "Content Type"
+    },
+    {
+     "value": "© 2018 International Institute of Forecasters. Published by Elsevier B.V. All rights reserved.",
+     "name": "copyright",
+     "label": "Copyright"
+    }
+   ]
+  }
+ }
+}

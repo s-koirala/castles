@@ -1,0 +1,341 @@
+{
+ "query_id": "ka-ki-ki05",
+ "protocol_query_id": "KI-05",
+ "arm": "known-item",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1016%2FS1574-0722%2807%2900080-7",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1,
+ "retrieved_count": 1,
+ "identifier": "10.1016/S1574-0722(07)00080-7",
+ "raw_format": "json",
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      1
+     ]
+    ],
+    "date-time": "2026-09-01T07:09:18Z",
+    "timestamp": 1788246558038,
+    "version": "build-2803163510"
+   },
+   "reference-count": 19,
+   "publisher": "Elsevier",
+   "isbn-type": [
+    {
+     "value": "9780444826428",
+     "type": "print"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [],
+   "published-print": {
+    "date-parts": [
+     [
+      2008
+     ]
+    ]
+   },
+   "DOI": "10.1016/s1574-0722(07)00080-7",
+   "type": "book-chapter",
+   "created": {
+    "date-parts": [
+     [
+      2008,
+      8,
+      20
+     ]
+    ],
+    "date-time": "2008-08-20T06:30:51Z",
+    "timestamp": 1219213851000
+   },
+   "page": "742-751",
+   "source": "Crossref",
+   "is-referenced-by-count": 154,
+   "title": [
+    "Chapter 80 Results from a Dozen Years of Election Futures Markets Research"
+   ],
+   "prefix": "10.1016",
+   "author": [
+    {
+     "given": "Joyce",
+     "family": "Berg",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Robert",
+     "family": "Forsythe",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Forrest",
+     "family": "Nelson",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Thomas",
+     "family": "Rietz",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib001",
+     "doi-asserted-by": "crossref",
+     "first-page": "171",
+     "DOI": "10.1111/j.1467-6435.1996.tb01391.x",
+     "article-title": "‘Passauer Wahlbörse’: Information processing in a political market experiment",
+     "volume": "49",
+     "author": "Beckmann",
+     "year": "1996",
+     "journal-title": "Kyklos"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib002",
+     "unstructured": "Berg, J.E., Rietz, T.A. (2003a). “Longshots, overconfidence and efficiency on the Iowa Electronic Market”. Mimeo, Department of Finance, University of Iowa"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib003",
+     "doi-asserted-by": "crossref",
+     "first-page": "79",
+     "DOI": "10.1023/A:1022002107255",
+     "article-title": "Prediction markets as decision support systems",
+     "volume": "5",
+     "author": "Berg",
+     "year": "2003",
+     "journal-title": "Information Systems Frontiers"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib004",
+     "series-title": "Understanding Strategic Interaction: Essays in Honor of Reinhard Selten",
+     "first-page": "444",
+     "article-title": "What makes markets predict well? Evidence from the Iowa Electronic Markets",
+     "author": "Berg",
+     "year": "1996"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib005",
+     "series-title": "Blackwell Encyclopedic Dictionary of Finance",
+     "article-title": "The Iowa Electronic Market",
+     "author": "Berg",
+     "year": "1997"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib006",
+     "unstructured": "Berg, J.E., Nelson, F.D., Rietz, T.A. (2001). “Accuracy and forecast standard error of prediction markets”. Mimeo, Department of Finance, University of Iowa"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib007",
+     "doi-asserted-by": "crossref",
+     "first-page": "1535",
+     "DOI": "10.1016/S0378-4266(99)00090-4",
+     "article-title": "Expectations and learning in Iowa",
+     "volume": "24",
+     "author": "Bondarenko",
+     "year": "2000",
+     "journal-title": "Journal of Banking and Finance"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib008",
+     "doi-asserted-by": "crossref",
+     "first-page": "83",
+     "DOI": "10.1016/S0167-2681(99)00027-X",
+     "article-title": "Wishes, expectations and actions: Price formation in election stock markets",
+     "volume": "39",
+     "author": "Forsythe",
+     "year": "1999",
+     "journal-title": "Journal of Economic Behavior and Organization"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib009",
+     "series-title": "Contemporary Laboratory Experiments in Political Economy",
+     "first-page": "69",
+     "article-title": "Forecasting elections: A market alternative to polls",
+     "author": "Forsythe",
+     "year": "1991"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib010",
+     "first-page": "1142",
+     "article-title": "Anatomy of an experimental political stock market",
+     "volume": "82",
+     "author": "Forsythe",
+     "year": "1992",
+     "journal-title": "American Economic Review"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib011",
+     "doi-asserted-by": "crossref",
+     "first-page": "477",
+     "DOI": "10.1037/0022-3514.45.3.477",
+     "article-title": "When prophecy bends: The preference-expectation link in U.S. Presidential elections",
+     "volume": "45",
+     "author": "Granberg",
+     "year": "1983",
+     "journal-title": "Journal of Personality and Social Psychology"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib012",
+     "doi-asserted-by": "crossref",
+     "first-page": "205",
+     "DOI": "10.1016/S0014-2921(98)00081-6",
+     "article-title": "(In)accuracy of a European political stock market: The influence of common value structures",
+     "volume": "44",
+     "author": "Jacobsen",
+     "year": "2000",
+     "journal-title": "European Economic Review"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib013",
+     "doi-asserted-by": "crossref",
+     "first-page": "263",
+     "DOI": "10.2307/1914185",
+     "article-title": "Prospect theory: An analysis of decision under risk",
+     "volume": "47",
+     "author": "Kahneman",
+     "year": "1979",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib014",
+     "doi-asserted-by": "crossref",
+     "first-page": "336",
+     "DOI": "10.1287/mnsc.1040.0191",
+     "article-title": "Suckers are born but markets are made: Individual rationality, arbitrage and market efficiency on an electronic futures market",
+     "volume": "50",
+     "author": "Oliven",
+     "year": "2004",
+     "journal-title": "Management Science"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib015",
+     "unstructured": "Ortner, G. (1997). “Forecasting markets: An industrial application: Part I”. Mimeo, Technical University of Vienna"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib016",
+     "unstructured": "Ortner, G. (1998). “Forecasting markets: An industrial application: Part II”. Mimeo, Technical University of Vienna"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib017",
+     "doi-asserted-by": "crossref",
+     "first-page": "2",
+     "DOI": "10.2307/1061610",
+     "article-title": "Markets as information gathering tools",
+     "volume": "67",
+     "author": "Plott",
+     "year": "2000",
+     "journal-title": "Southern Economic Journal"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib018",
+     "unstructured": "Rietz, T.A. (1998). “Enforcing arbitrage restrictions in experimental asset markets”. Mimeo, Department of Finance, University of Iowa"
+    },
+    {
+     "key": "10.1016/S1574-0722(07)00080-7_bib019",
+     "doi-asserted-by": "crossref",
+     "first-page": "81",
+     "DOI": "10.1016/S0047-2727(99)00019-5",
+     "article-title": "Did Steve Forbes scare the municipal bond market?",
+     "volume": "74",
+     "author": "Slemrod",
+     "year": "1999",
+     "journal-title": "Journal of Public Economics"
+    }
+   ],
+   "container-title": [
+    "Handbook of Experimental Economics Results"
+   ],
+   "original-title": [],
+   "language": "en",
+   "deposited": {
+    "date-parts": [
+     [
+      2018,
+      12,
+      26
+     ]
+    ],
+    "date-time": "2018-12-26T05:51:34Z",
+    "timestamp": 1545803494000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1574072207000807"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2008
+     ]
+    ]
+   },
+   "ISBN": [
+    "9780444826428"
+   ],
+   "references-count": 19,
+   "URL": "https://doi.org/10.1016/s1574-0722(07)00080-7",
+   "relation": {},
+   "ISSN": [
+    "1574-0722"
+   ],
+   "issn-type": [
+    {
+     "value": "1574-0722",
+     "type": "print"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2008
+     ]
+    ]
+   }
+  }
+ }
+}

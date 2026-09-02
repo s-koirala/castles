@@ -1,0 +1,87 @@
+{
+ "date": "2026-09-02",
+ "findings": [
+  "QUANT-2-2",
+  "QUANT-2-9",
+  "REPRODUCIBILITY-2-3",
+  "REPRODUCIBILITY-2-4"
+ ],
+ "seeds": [
+  "0",
+  "1",
+  "7",
+  "12345"
+ ],
+ "CF-1_abstract_tiebreak": {
+  "claim_in_A11": "set-converted abstract tie-break gives X1 6,672 instead of 6,707",
+  "reproduces": false,
+  "X1_by_run": {
+   "list@seed0/boundary": 6707,
+   "list@seed0/substring": 6707,
+   "list@seed1/boundary": 6707,
+   "list@seed1/substring": 6707,
+   "list@seed12345/boundary": 6707,
+   "list@seed12345/substring": 6707,
+   "list@seed7/boundary": 6707,
+   "list@seed7/substring": 6707,
+   "set@seed0/boundary": 6707,
+   "set@seed0/substring": 6707,
+   "set@seed1/boundary": 6707,
+   "set@seed1/substring": 6707,
+   "set@seed12345/boundary": 6707,
+   "set@seed12345/substring": 6707,
+   "set@seed7/boundary": 6707,
+   "set@seed7/substring": 6707
+  },
+  "n_works_whose_retained_abstract_differs_from_list_at_seed0": {
+   "list@seed0": 0,
+   "list@seed1": 0,
+   "list@seed12345": 0,
+   "list@seed7": 0,
+   "set@seed0": 17,
+   "set@seed1": 22,
+   "set@seed12345": 18,
+   "set@seed7": 17
+  },
+  "seed_sensitivity": {
+   "list_form_max_pairwise_diff": 0,
+   "set_form_max_pairwise_diff": 24
+  },
+  "conclusion": "the aggregate nine-code table is IDENTICAL in all 16 runs, so the 6,672 figure does not reproduce and is withdrawn; but the SET form is seed-DEPENDENT (works change which abstract they retain between seeds) while the LIST form is not (zero differences at any seed pair), which is the correct and verifiable ground for refusing the conversion"
+ },
+ "CF-2_bare_defi_patterns": {
+  "claim_in_A11": "the bare patterns would have moved three genuine DeFi records out of X5",
+  "bare_patterns": "BOUNDED = {\"dex\": r\"\\bdex\\b\", \"amm\": r\"\\bamm\\b\", \"defi\": r\"\\bdefi\\b\", \"crypto\": r\"\\bcrypto\\b\"}",
+  "n_moved": 2,
+  "moved": [
+   {
+    "uid": "U02297",
+    "title": "Dynamic Function Market Maker",
+    "code_under_bare": "X11"
+   },
+   {
+    "uid": "U02674",
+    "title": "Funding-Aware Optimal Market Making for Perpetual DEXs",
+    "code_under_bare": "X11"
+   }
+  ],
+  "moved_in_reverse": [],
+  "conclusion": "two records move, not three; the third record the amendment named, \"Automated Market Makers in Cryptoeconomic Systems\", carries standalone AMM tokens and stays X5 under the bare patterns"
+ },
+ "CF-3_corpus_token_statistics": {
+  "dex": {
+   "bare_pattern": "\\bdex\\b",
+   "shipped_pattern": "\\bdexe?s?\\b",
+   "works_containing_substring": 305,
+   "no_match_under_bare_pattern": 289,
+   "no_match_under_shipped_pattern": 284
+  },
+  "amm": {
+   "bare_pattern": "\\bamm\\b",
+   "shipped_pattern": "\\bamms?\\b",
+   "works_containing_substring": 128,
+   "no_match_under_bare_pattern": 83,
+   "no_match_under_shipped_pattern": 64
+  }
+ }
+}

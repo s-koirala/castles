@@ -1,0 +1,3710 @@
+{
+ "date": "2026-09-02",
+ "finding": [
+  "QUANT-2-8",
+  "REPRODUCIBILITY-2-6"
+ ],
+ "purpose": "archived evidence for the section-7 statement that all 149 store DOIs were checked against a registration agency and that the store agrees with the registrant on every comparable field",
+ "n_records": 149,
+ "n_crossref": 122,
+ "n_datacite": 26,
+ "n_unresolved": 1,
+ "year_comparisons": 147,
+ "year_agreements": 147,
+ "year_disagreements": 0,
+ "container_comparisons": 94,
+ "container_agreements": 94,
+ "container_disagreements": 0,
+ "rows": [
+  {
+   "doi": "10.1287/mnsc.1040.0191",
+   "store_id": "oliven2004mnsc10400191",
+   "store_year": 2004,
+   "store_container": "Management Science",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2004,
+     3
+    ]
+   ],
+   "registrant_container": "Management Science",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2004,
+     4,
+     1
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1016/j.econlet.2006.01.004",
+   "store_id": "manski2006jeconlet2006",
+   "store_year": 2006,
+   "store_container": "Economics Letters",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2006,
+     6
+    ]
+   ],
+   "registrant_container": "Economics Letters",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2006,
+     5,
+     3
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.3386/w12200",
+   "store_id": "wolfers2006w12200",
+   "store_year": 2006,
+   "store_container": null,
+   "store_type": "report",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2006,
+     5
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "report",
+   "registrant_created": [
+    [
+     2007,
+     10,
+     24
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.1016/s1574-0722(07)00080-7",
+   "store_id": "berg2008s15740722070",
+   "store_year": 2008,
+   "store_container": "Handbook of Experimental Economics Results",
+   "store_type": "chapter",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2008
+    ]
+   ],
+   "registrant_container": "Handbook of Experimental Economics Results",
+   "registrant_type": "book-chapter",
+   "registrant_created": [
+    [
+     2008,
+     8,
+     20
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1257/0895330041371277",
+   "store_id": "rhode2004089533004137",
+   "store_year": 2004,
+   "store_container": "Journal of Economic Perspectives",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2004,
+     5,
+     1
+    ]
+   ],
+   "registrant_container": "Journal of Economic Perspectives",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2004,
+     7,
+     9
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1111/ecca.12009",
+   "store_id": "franck2012ecca12009",
+   "store_year": 2012,
+   "store_container": "Economica",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2012,
+     12,
+     17
+    ]
+   ],
+   "registrant_container": "Economica",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2012,
+     12,
+     18
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1016/j.ijforecast.2018.07.008",
+   "store_id": "angelini2019jijforecast2",
+   "store_year": 2019,
+   "store_container": "International Journal of Forecasting",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2019,
+     4
+    ]
+   ],
+   "registrant_container": "International Journal of Forecasting",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2018,
+     10,
+     4
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1257/jep.2.2.161",
+   "store_id": "thaler1988jep22161",
+   "store_year": 1988,
+   "store_container": "Journal of Economic Perspectives",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     1988,
+     5,
+     1
+    ]
+   ],
+   "registrant_container": "Journal of Economic Perspectives",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2012,
+     8,
+     17
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1086/655844",
+   "store_id": "snowberg2010655844",
+   "store_year": 2010,
+   "store_container": "Journal of Political Economy",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2010,
+     8
+    ]
+   ],
+   "registrant_container": "Journal of Political Economy",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2010,
+     10,
+     12
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1257/mic.2.1.58",
+   "store_id": "ottaviani2010mic2158",
+   "store_year": 2010,
+   "store_container": "American Economic Journal: Microeconomics",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2010,
+     2,
+     1
+    ]
+   ],
+   "registrant_container": "American Economic Journal: Microeconomics",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2010,
+     2,
+     2
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1023/a:1022058209073",
+   "store_id": "hanson2003a10220582090",
+   "store_year": 2003,
+   "store_container": "Information Systems Frontiers",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2003,
+     1
+    ]
+   ],
+   "registrant_container": "Information Systems Frontiers",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2003,
+     3,
+     21
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.5750/jpm.v1i1.417",
+   "store_id": "hanson2012jpmv1i1417",
+   "store_year": 2012,
+   "store_container": "The Journal of Prediction Markets",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2012,
+     12,
+     13
+    ]
+   ],
+   "registrant_container": "The Journal of Prediction Markets",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2020,
+     8,
+     26
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/2465769.2465777",
+   "store_id": "abernethy2013246576924657",
+   "store_year": 2013,
+   "store_container": "ACM Transactions on Economics and Computation",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2013,
+     5
+    ]
+   ],
+   "registrant_container": "ACM Transactions on Economics and Computation",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2013,
+     6,
+     5
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/2509413.2509414",
+   "store_id": "othman2013250941325094",
+   "store_year": 2013,
+   "store_container": "ACM Transactions on Economics and Computation",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2013,
+     9
+    ]
+   ],
+   "registrant_container": "ACM Transactions on Economics and Computation",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2013,
+     9,
+     23
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/2940716.2940767",
+   "store_id": "kroer2016294071629407",
+   "store_year": 2016,
+   "store_container": "Proceedings of the 2016 ACM Conference on Economics and Computation",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2016,
+     7,
+     21
+    ]
+   ],
+   "registrant_container": "Proceedings of the 2016 ACM Conference on Economics and Computation",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2016,
+     7,
+     21
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1016/0304-405x(85)90044-3",
+   "store_id": "glosten19850304405x8590",
+   "store_year": 1985,
+   "store_container": "Journal of Financial Economics",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     1985,
+     3
+    ]
+   ],
+   "registrant_container": "Journal of Financial Economics",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2002,
+     7,
+     26
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2307/1913210",
+   "store_id": "kyle19851913210",
+   "store_year": 1985,
+   "store_container": "Econometrica",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     1985,
+     11
+    ]
+   ],
+   "registrant_container": "Econometrica",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2006,
+     7,
+     5
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1016/0304-405x(81)90020-9",
+   "store_id": "ho19810304405x8190",
+   "store_year": 1981,
+   "store_container": "Journal of Financial Economics",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     1981,
+     3
+    ]
+   ],
+   "registrant_container": "Journal of Financial Economics",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2002,
+     7,
+     26
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1080/14697680701381228",
+   "store_id": "avellaneda2008146976807013",
+   "store_year": 2008,
+   "store_container": "Quantitative Finance",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2008,
+     4
+    ]
+   ],
+   "registrant_container": "Quantitative Finance",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2008,
+     3,
+     29
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1007/s11579-012-0087-0",
+   "store_id": "guant2012s11579012008",
+   "store_year": 2012,
+   "store_container": "Mathematics and Financial Economics",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2012,
+     9,
+     4
+    ]
+   ],
+   "registrant_container": "Mathematics and Financial Economics",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2012,
+     9,
+     3
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1111/j.1468-0297.2004.00207.x",
+   "store_id": "levitt2004j14680297200",
+   "store_year": 2004,
+   "store_container": "The Economic Journal",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2004,
+     4,
+     1
+    ]
+   ],
+   "registrant_container": "The Economic Journal",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2004,
+     4,
+     1
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.3233/af-140031",
+   "store_id": "rothschild2014af140031",
+   "store_year": 2014,
+   "store_container": "Algorithmic Finance",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2014,
+     5,
+     23
+    ]
+   ],
+   "registrant_container": "Algorithmic Finance",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2019,
+     11,
+     9
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1109/cecandeee.2008.131",
+   "store_id": "luckner2008cecandeee200",
+   "store_year": 2008,
+   "store_container": "2008 10th IEEE Conference on E-Commerce Technology and the Fifth IEEE Conference on Enterprise Computing, E-Commerce and E-Services",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2008,
+     7
+    ]
+   ],
+   "registrant_container": "2008 10th IEEE Conference on E-Commerce Technology and the Fifth IEEE Conference on Enterprise Computing, E-Commerce and E-Services",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2009,
+     2,
+     19
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.5750/jpm.v6i3.589",
+   "store_id": "bergfjord2013jpmv6i3589",
+   "store_year": 2013,
+   "store_container": "The Journal of Prediction Markets",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2013,
+     1,
+     22
+    ]
+   ],
+   "registrant_container": "The Journal of Prediction Markets",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2020,
+     8,
+     26
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.5750/jpm.v7i3.824",
+   "store_id": "antweiler2014jpmv7i3824",
+   "store_year": 2014,
+   "store_container": "The Journal of Prediction Markets",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2014,
+     1,
+     16
+    ]
+   ],
+   "registrant_container": "The Journal of Prediction Markets",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2020,
+     8,
+     26
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.5750/jpm.v14i1.1796",
+   "store_id": "stershic2020jpmv14i11796",
+   "store_year": 2020,
+   "store_container": "The Journal of Prediction Markets",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2020,
+     9,
+     23
+    ]
+   ],
+   "registrant_container": "The Journal of Prediction Markets",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2020,
+     9,
+     22
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2139/ssrn.7170178",
+   "store_id": "moulinier2026ssrn7170178",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     8,
+     5
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.6446502",
+   "store_id": "nunes2026ssrn6446502",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     4,
+     20
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.1080/14697688.2017.1395230",
+   "store_id": "taleb2017146976882017",
+   "store_year": 2017,
+   "store_container": "Quantitative Finance",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2017,
+     12,
+     5
+    ]
+   ],
+   "registrant_container": "Quantitative Finance",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2017,
+     12,
+     5
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1177/1527002513493630",
+   "store_id": "ashiya2013152700251349",
+   "store_year": 2013,
+   "store_container": "Journal of Sports Economics",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2013,
+     6,
+     27
+    ]
+   ],
+   "registrant_container": "Journal of Sports Economics",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2013,
+     6,
+     29
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1002/for.1085",
+   "store_id": "vlastakis2008for1085",
+   "store_year": 2008,
+   "store_container": "Journal of Forecasting",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2008,
+     11,
+     27
+    ]
+   ],
+   "registrant_container": "Journal of Forecasting",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2008,
+     11,
+     27
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1080/1351847x.2018.1443148",
+   "store_id": "grant20181351847x2018",
+   "store_year": 2018,
+   "store_container": "The European Journal of Finance",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2018,
+     3,
+     5
+    ]
+   ],
+   "registrant_container": "The European Journal of Finance",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2018,
+     3,
+     6
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1177/155862351801300305",
+   "store_id": "buckle2018155862351801",
+   "store_year": 2018,
+   "store_container": "International Journal of Sport Finance",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2018,
+     8
+    ]
+   ],
+   "registrant_container": "International Journal of Sport Finance",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2025,
+     9,
+     26
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.5750/jgbe.v7i2.630",
+   "store_id": "constantinou2013jgbev7i2630",
+   "store_year": 2013,
+   "store_container": "The Journal of Gambling Business and Economics",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2013,
+     8,
+     28
+    ]
+   ],
+   "registrant_container": "The Journal of Gambling Business and Economics",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2020,
+     8,
+     18
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.17811/ebl.7.4.2018.129-136",
+   "store_id": "gomezgonzalez2018ebl742018129",
+   "store_year": 2018,
+   "store_container": "Economics and Business Letters",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2018,
+     11,
+     23
+    ]
+   ],
+   "registrant_container": "Economics and Business Letters",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2018,
+     11,
+     28
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2139/ssrn.2199035",
+   "store_id": "montone2012ssrn2199035",
+   "store_year": 2012,
+   "store_container": "SSRN Electronic Journal",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2012
+    ]
+   ],
+   "registrant_container": "SSRN Electronic Journal",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2013,
+     1,
+     16
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.3905/jod.2019.26.4.128",
+   "store_id": "hanke2019jod201926412",
+   "store_year": 2019,
+   "store_container": "The Journal of Derivatives",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2019,
+     5,
+     31
+    ]
+   ],
+   "registrant_container": "The Journal of Derivatives",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2019,
+     5,
+     31
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1016/j.ijforecast.2014.02.008",
+   "store_id": "trumbelj2014jijforecast2",
+   "store_year": 2014,
+   "store_container": "International Journal of Forecasting",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2014,
+     10
+    ]
+   ],
+   "registrant_container": "International Journal of Forecasting",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2014,
+     7,
+     24
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1515/jqas-2024-0064",
+   "store_id": "kizildemir2025jqas20240064",
+   "store_year": 2025,
+   "store_container": "Journal of Quantitative Analysis in Sports",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2025,
+     2,
+     7
+    ]
+   ],
+   "registrant_container": "Journal of Quantitative Analysis in Sports",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2025,
+     2,
+     6
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1177/1527002517696957",
+   "store_id": "berkowitz2017152700251769",
+   "store_year": 2017,
+   "store_container": "Journal of Sports Economics",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2017,
+     3,
+     28
+    ]
+   ],
+   "registrant_container": "Journal of Sports Economics",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2017,
+     3,
+     28
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1111/j.1354-7798.2005.00274.x",
+   "store_id": "lange2005j13547798200",
+   "store_year": 2005,
+   "store_container": "European Financial Management",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2005,
+     1
+    ]
+   ],
+   "registrant_container": "European Financial Management",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2005,
+     1,
+     12
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1111/j.1468-0335.2008.00716.x",
+   "store_id": "sung2009j14680335200",
+   "store_year": 2009,
+   "store_container": "Economica",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2009,
+     12,
+     22
+    ]
+   ],
+   "registrant_container": "Economica",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2008,
+     9,
+     1
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1016/j.frl.2018.08.003",
+   "store_id": "restocchi2019jfrl20180800",
+   "store_year": 2019,
+   "store_container": "Finance Research Letters",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2019,
+     6
+    ]
+   ],
+   "registrant_container": "Finance Research Letters",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2018,
+     8,
+     10
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2139/ssrn.6615739",
+   "store_id": "bartlett2026ssrn6615739",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     4,
+     21
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.5502658",
+   "store_id": "brgi2025ssrn5502658",
+   "store_year": 2025,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2025
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2025,
+     9,
+     18
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.7117919",
+   "store_id": "krause2026ssrn7117919",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     7,
+     14
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.6748186",
+   "store_id": "lee2026ssrn6748186",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     5,
+     11
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.1016/j.iref.2026.105577",
+   "store_id": "goel2026jiref2026105",
+   "store_year": 2026,
+   "store_container": "International Review of Economics &amp; Finance",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026,
+     9
+    ]
+   ],
+   "registrant_container": "International Review of Economics &amp; Finance",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2026,
+     6,
+     30
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2139/ssrn.7254820",
+   "store_id": "polson2026ssrn7254820",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     8,
+     10
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.7364100",
+   "store_id": "yurchyna2026ssrn7364100",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     8,
+     29
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.7119120",
+   "store_id": "krause2026ssrn7119120",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     7,
+     31
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.3386/w34702",
+   "store_id": "diercks2026w34702",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "report",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026,
+     1
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "report",
+   "registrant_created": [
+    [
+     2026,
+     1,
+     20
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.6704139",
+   "store_id": "lim2026ssrn6704139",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     5,
+     4
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.1504/ijfmd.2026.10080801",
+   "store_id": "subramanian2026ijfmd2026100",
+   "store_year": 2026,
+   "store_container": "International Journal of Financial Markets and Derivatives",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "International Journal of Financial Markets and Derivatives",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2026,
+     8,
+     28
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2139/ssrn.7021660",
+   "store_id": "krause2026ssrn7021660",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     6,
+     30
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.6442939",
+   "store_id": "greene2026ssrn6442939",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     4,
+     13
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.6964226",
+   "store_id": "lee2026ssrn6964226",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     6,
+     22
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.6858200",
+   "store_id": "gupta2026ssrn6858200",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     6,
+     17
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.7110758",
+   "store_id": "krause2026ssrn7110758",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     7,
+     29
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.7087538",
+   "store_id": "krause2026ssrn7087538",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     7,
+     10
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.6073727",
+   "store_id": "swanson2026ssrn6073727",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     1,
+     23
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.5750/jpm.v1i2.423",
+   "store_id": "abramovicz2012jpmv1i2423",
+   "store_year": 2012,
+   "store_container": "The Journal of Prediction Markets",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2012,
+     12,
+     14
+    ]
+   ],
+   "registrant_container": "The Journal of Prediction Markets",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2020,
+     8,
+     26
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/1807342.1807372",
+   "store_id": "chen2010180734218073",
+   "store_year": 2010,
+   "store_container": "Proceedings of the 11th ACM conference on Electronic commerce",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2010,
+     6,
+     7
+    ]
+   ],
+   "registrant_container": "Proceedings of the 11th ACM conference on Electronic commerce",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2010,
+     6,
+     8
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1007/s10614-015-9514-7",
+   "store_id": "sethi2015s10614015951",
+   "store_year": 2015,
+   "store_container": "Computational Economics",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2015,
+     8,
+     19
+    ]
+   ],
+   "registrant_container": "Computational Economics",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2015,
+     8,
+     18
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.65109/bbzi6501",
+   "store_id": "dudk2021bbzi6501",
+   "store_year": 2021,
+   "store_container": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2021,
+     5,
+     3
+    ]
+   ],
+   "registrant_container": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2026,
+     1,
+     15
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1007/978-3-642-25510-6_27",
+   "store_id": "othman2011978364225510",
+   "store_year": 2011,
+   "store_container": "Lecture Notes in Computer Science",
+   "store_type": "chapter",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2011
+    ]
+   ],
+   "registrant_container": "Lecture Notes in Computer Science",
+   "registrant_type": "book-chapter",
+   "registrant_created": [
+    [
+     2011,
+     11,
+     30
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1108/jm2-06-2017-0066",
+   "store_id": "lekwijit2018jm2062017006",
+   "store_year": 2018,
+   "store_container": "Journal of Modelling in Management",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2018,
+     9,
+     14
+    ]
+   ],
+   "registrant_container": "Journal of Modelling in Management",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2018,
+     9,
+     14
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1609/aaai.v29i1.9313",
+   "store_id": "chakraborty2015aaaiv29i1931",
+   "store_year": 2015,
+   "store_container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2015,
+     2,
+     16
+    ]
+   ],
+   "registrant_container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2022,
+     6,
+     23
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1109/tem.2012.2191618",
+   "store_id": "slamka2013tem201221916",
+   "store_year": 2013,
+   "store_container": "IEEE Transactions on Engineering Management",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2013,
+     2
+    ]
+   ],
+   "registrant_container": "IEEE Transactions on Engineering Management",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2012,
+     4,
+     27
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1287/opre.1110.0922",
+   "store_id": "agrawal2011opre11100922",
+   "store_year": 2011,
+   "store_container": "Operations Research",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2011,
+     6
+    ]
+   ],
+   "registrant_container": "Operations Research",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2011,
+     7,
+     12
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/988772.988799",
+   "store_id": "pennock2004988772988799",
+   "store_year": 2004,
+   "store_container": "Proceedings of the 5th ACM conference on Electronic commerce",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2004,
+     5,
+     17
+    ]
+   ],
+   "registrant_container": "Proceedings of the 5th ACM conference on Electronic commerce",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2004,
+     7,
+     20
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/2600057.2602900",
+   "store_id": "abernethy2014260005726029",
+   "store_year": 2014,
+   "store_container": "Proceedings of the fifteenth ACM conference on Economics and computation",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2014,
+     6
+    ]
+   ],
+   "registrant_container": "Proceedings of the fifteenth ACM conference on Economics and computation",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2014,
+     5,
+     30
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/2229012.2229047",
+   "store_id": "dudik2012222901222290",
+   "store_year": 2012,
+   "store_container": "Proceedings of the 13th ACM Conference on Electronic Commerce",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2012,
+     6,
+     4
+    ]
+   ],
+   "registrant_container": "Proceedings of the 13th ACM Conference on Electronic Commerce",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2012,
+     6,
+     5
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/1993574.1993621",
+   "store_id": "abernethy2011199357419936",
+   "store_year": 2011,
+   "store_container": "Proceedings of the 12th ACM conference on Electronic commerce",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2011,
+     6,
+     5
+    ]
+   ],
+   "registrant_container": "Proceedings of the 12th ACM conference on Electronic commerce",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2011,
+     6,
+     6
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/2482540.2482575",
+   "store_id": "li2013248254024825",
+   "store_year": 2013,
+   "store_container": "Proceedings of the fourteenth ACM conference on Electronic commerce",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2013,
+     6,
+     16
+    ]
+   ],
+   "registrant_container": "Proceedings of the fourteenth ACM conference on Electronic commerce",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2020,
+     2,
+     16
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1007/978-3-642-17572-5_44",
+   "store_id": "gao2010978364217572",
+   "store_year": 2010,
+   "store_container": "Lecture Notes in Computer Science",
+   "store_type": "chapter",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2010
+    ]
+   ],
+   "registrant_container": "Lecture Notes in Computer Science",
+   "registrant_type": "book-chapter",
+   "registrant_created": [
+    [
+     2010,
+     12,
+     6
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/1386790.1386822",
+   "store_id": "chen2008138679013868",
+   "store_year": 2008,
+   "store_container": "Proceedings of the 9th ACM conference on Electronic commerce",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2008,
+     7,
+     8
+    ]
+   ],
+   "registrant_container": "Proceedings of the 9th ACM conference on Electronic commerce",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2008,
+     12,
+     17
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/2482540.2482608",
+   "store_id": "chen2013248254024826",
+   "store_year": 2013,
+   "store_container": "Proceedings of the fourteenth ACM conference on Electronic commerce",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2013,
+     6,
+     16
+    ]
+   ],
+   "registrant_container": "Proceedings of the fourteenth ACM conference on Electronic commerce",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2020,
+     2,
+     16
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/2728732.2728734",
+   "store_id": "abernethy2015272873227287",
+   "store_year": 2015,
+   "store_container": "ACM SIGecom Exchanges",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2015,
+     1,
+     28
+    ]
+   ],
+   "registrant_container": "ACM SIGecom Exchanges",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2015,
+     1,
+     28
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/2229012.2229074",
+   "store_id": "othman2012222901222290",
+   "store_year": 2012,
+   "store_container": "Proceedings of the 13th ACM Conference on Electronic Commerce",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2012,
+     6,
+     4
+    ]
+   ],
+   "registrant_container": "Proceedings of the 13th ACM Conference on Electronic Commerce",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2012,
+     6,
+     5
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1287/opre.2022.0417",
+   "store_id": "gao2025opre20220417",
+   "store_year": 2025,
+   "store_container": "Operations Research",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2025,
+     1
+    ]
+   ],
+   "registrant_container": "Operations Research",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2024,
+     6,
+     10
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1007/s00199-018-1155-3",
+   "store_id": "tarnaud2018s00199018115",
+   "store_year": 2018,
+   "store_container": "Economic Theory",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2018,
+     10,
+     11
+    ]
+   ],
+   "registrant_container": "Economic Theory",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2018,
+     10,
+     11
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1080/14697680500148067",
+   "store_id": "das2005146976805001",
+   "store_year": 2005,
+   "store_container": "Quantitative Finance",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2005,
+     4
+    ]
+   ],
+   "registrant_container": "Quantitative Finance",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2005,
+     9,
+     7
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1016/0165-1765(92)90014-p",
+   "store_id": "krishnan1992016517659290",
+   "store_year": 1992,
+   "store_container": "Economics Letters",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     1992,
+     11
+    ]
+   ],
+   "registrant_container": "Economics Letters",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2002,
+     7,
+     26
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1111/j.1468-0262.2004.00497.x",
+   "store_id": "back2004j14680262200",
+   "store_year": 2004,
+   "store_container": "Econometrica",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2004,
+     3
+    ]
+   ],
+   "registrant_container": "Econometrica",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2004,
+     1,
+     26
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1016/j.jet.2016.01.005",
+   "store_id": "liu2016jjet20160100",
+   "store_year": 2016,
+   "store_container": "Journal of Economic Theory",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2016,
+     5
+    ]
+   ],
+   "registrant_container": "Journal of Economic Theory",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2016,
+     1,
+     19
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1145/1993574.1993622",
+   "store_id": "chakraborty2011199357419936",
+   "store_year": 2011,
+   "store_container": "Proceedings of the 12th ACM conference on Electronic commerce",
+   "store_type": "paper-conference",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2011,
+     6,
+     5
+    ]
+   ],
+   "registrant_container": "Proceedings of the 12th ACM conference on Electronic commerce",
+   "registrant_type": "proceedings-article",
+   "registrant_created": [
+    [
+     2011,
+     6,
+     6
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1080/14697688.2022.2028888",
+   "store_id": "donatoni2022146976882022",
+   "store_year": 2022,
+   "store_container": "Quantitative Finance",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2022,
+     2,
+     11
+    ]
+   ],
+   "registrant_container": "Quantitative Finance",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2022,
+     2,
+     11
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1093/rfs/9.3.953",
+   "store_id": "manaster199693953",
+   "store_year": 1996,
+   "store_container": "Review of Financial Studies",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     1996,
+     7
+    ]
+   ],
+   "registrant_container": "Review of Financial Studies",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2002,
+     7,
+     26
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1287/opre.2021.2109",
+   "store_id": "birge2021opre20212109",
+   "store_year": 2021,
+   "store_container": "Operations Research",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2021,
+     11
+    ]
+   ],
+   "registrant_container": "Operations Research",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2021,
+     11,
+     5
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1111/j.1467-9485.2011.00557.x",
+   "store_id": "makropoulou2011j14679485201",
+   "store_year": 2011,
+   "store_container": "Scottish Journal of Political Economy",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2011,
+     6,
+     14
+    ]
+   ],
+   "registrant_container": "Scottish Journal of Political Economy",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2011,
+     6,
+     15
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1111/j.1468-036x.2010.00601.x",
+   "store_id": "hodges2013j1468036x201",
+   "store_year": 2013,
+   "store_container": "European Financial Management",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2013,
+     3
+    ]
+   ],
+   "registrant_container": "European Financial Management",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2017,
+     3,
+     29
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1093/oep/gpaf023",
+   "store_id": "hegarty2025gpaf023",
+   "store_year": 2025,
+   "store_container": "Oxford Economic Papers",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2025,
+     8,
+     28
+    ]
+   ],
+   "registrant_container": "Oxford Economic Papers",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2025,
+     8,
+     5
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1016/j.qref.2016.07.016",
+   "store_id": "flepp2017jqref2016070",
+   "store_year": 2017,
+   "store_container": "The Quarterly Review of Economics and Finance",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2017,
+     5
+    ]
+   ],
+   "registrant_container": "The Quarterly Review of Economics and Finance",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2016,
+     8,
+     3
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1007/978-3-540-77105-0_11",
+   "store_id": "petersNone978354077105",
+   "store_year": null,
+   "store_container": "Lecture Notes in Computer Science",
+   "store_type": "chapter",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     null
+    ]
+   ],
+   "registrant_container": "Lecture Notes in Computer Science",
+   "registrant_type": "book-chapter",
+   "registrant_created": [
+    [
+     2007,
+     12,
+     3
+    ]
+   ],
+   "year_agrees": null,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.5750/jpm.v2i3.445",
+   "store_id": "seemann2012jpmv2i3445",
+   "store_year": 2012,
+   "store_container": "The Journal of Prediction Markets",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2012,
+     12,
+     14
+    ]
+   ],
+   "registrant_container": "The Journal of Prediction Markets",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2020,
+     8,
+     26
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1057/s41302-020-00179-z",
+   "store_id": "depken2021s41302020001",
+   "store_year": 2021,
+   "store_container": "Eastern Economic Journal",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2021,
+     1
+    ]
+   ],
+   "registrant_container": "Eastern Economic Journal",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2021,
+     1,
+     4
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1080/00036846.2015.1111993",
+   "store_id": "lycsa2015000368462015",
+   "store_year": 2015,
+   "store_container": "Applied Economics",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2015,
+     11,
+     16
+    ]
+   ],
+   "registrant_container": "Applied Economics",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2015,
+     11,
+     16
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1007/s13209-017-0156-y",
+   "store_id": "vidalpuga2017s13209017015",
+   "store_year": 2017,
+   "store_container": "SERIEs",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2017,
+     3,
+     10
+    ]
+   ],
+   "registrant_container": "SERIEs",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2017,
+     3,
+     10
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2139/ssrn.7049119",
+   "store_id": "cao2026ssrn7049119",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     7,
+     22
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.6191618",
+   "store_id": "dellavedova2026ssrn6191618",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     3,
+     10
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.6396698",
+   "store_id": "yang2026ssrn6396698",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     3,
+     19
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.7222239",
+   "store_id": "saliou2026ssrn7222239",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     8,
+     10
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.929916",
+   "store_id": "tetlock2008ssrn929916",
+   "store_year": 2008,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2008
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2011,
+     12,
+     28
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.7245879",
+   "store_id": "gill2026ssrn7245879",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     8,
+     12
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.2139/ssrn.997788",
+   "store_id": "zhou2007ssrn997788",
+   "store_year": 2007,
+   "store_container": "SSRN Electronic Journal",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2007
+    ]
+   ],
+   "registrant_container": "SSRN Electronic Journal",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2011,
+     12,
+     28
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2139/ssrn.6325658",
+   "store_id": "palumbo2026ssrn6325658",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     3,
+     10
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.1016/j.physa.2018.09.183",
+   "store_id": "restocchi2019jphysa201809",
+   "store_year": 2019,
+   "store_container": "Physica A: Statistical Mechanics and its Applications",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2019,
+     2
+    ]
+   ],
+   "registrant_container": "Physica A: Statistical Mechanics and its Applications",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2018,
+     9,
+     28
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2139/ssrn.7110798",
+   "store_id": "gill2026ssrn7110798",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     7,
+     29
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.1016/b978-044450744-0.50009-3",
+   "store_id": "ottaviani2008b97804445074",
+   "store_year": 2008,
+   "store_container": "Handbook of Sports and Lottery Markets",
+   "store_type": "chapter",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2008
+    ]
+   ],
+   "registrant_container": "Handbook of Sports and Lottery Markets",
+   "registrant_type": "book-chapter",
+   "registrant_created": [
+    [
+     2009,
+     2,
+     4
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1016/b978-044450744-0.50011-1",
+   "store_id": "sobel2008b97804445074",
+   "store_year": 2008,
+   "store_container": "Handbook of Sports and Lottery Markets",
+   "store_type": "chapter",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2008
+    ]
+   ],
+   "registrant_container": "Handbook of Sports and Lottery Markets",
+   "registrant_type": "book-chapter",
+   "registrant_created": [
+    [
+     2009,
+     2,
+     4
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1142/9789812819192_0025",
+   "store_id": "hausch2008978981281919",
+   "store_year": 2008,
+   "store_container": "World Scientific Handbook in Financial Economics Series",
+   "store_type": "chapter",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2008,
+     6
+    ]
+   ],
+   "registrant_container": "World Scientific Handbook in Financial Economics Series",
+   "registrant_type": "book-chapter",
+   "registrant_created": [
+    [
+     2010,
+     3,
+     9
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2139/ssrn.6150527",
+   "store_id": "bakalo2026ssrn6150527",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2026,
+     3,
+     5
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.1146/annurev-financial-053122-021925",
+   "store_id": "ziemba2023annurevfinan",
+   "store_year": 2023,
+   "store_container": "Annual Review of Financial Economics",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2023,
+     11,
+     1
+    ]
+   ],
+   "registrant_container": "Annual Review of Financial Economics",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2023,
+     11,
+     1
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2139/ssrn.3044673",
+   "store_id": "sestovic2017ssrn3044673",
+   "store_year": 2017,
+   "store_container": "SSRN Electronic Journal",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2017
+    ]
+   ],
+   "registrant_container": "SSRN Electronic Journal",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2017,
+     10,
+     11
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2307/2234526",
+   "store_id": "shin19922234526",
+   "store_year": 1992,
+   "store_container": "The Economic Journal",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     1992,
+     3
+    ]
+   ],
+   "registrant_container": "The Economic Journal",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2006,
+     6,
+     19
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2139/ssrn.3035848",
+   "store_id": "sestovic2017ssrn3035848",
+   "store_year": 2017,
+   "store_container": "SSRN Electronic Journal",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2017
+    ]
+   ],
+   "registrant_container": "SSRN Electronic Journal",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2017,
+     9,
+     27
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.2139/ssrn.964438",
+   "store_id": "koch2007ssrn964438",
+   "store_year": 2007,
+   "store_container": null,
+   "store_type": "manuscript",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2007
+    ]
+   ],
+   "registrant_container": null,
+   "registrant_type": "posted-content",
+   "registrant_created": [
+    [
+     2011,
+     12,
+     28
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.3390/risks9010022",
+   "store_id": "newall2021risks9010022",
+   "store_year": 2021,
+   "store_container": "Risks",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2021,
+     1,
+     12
+    ]
+   ],
+   "registrant_container": "Risks",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2021,
+     1,
+     12
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1016/j.cnsns.2022.106994",
+   "store_id": "gampe2023jcnsns202210",
+   "store_year": 2023,
+   "store_container": "Communications in Nonlinear Science and Numerical Simulation",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2023,
+     4
+    ]
+   ],
+   "registrant_container": "Communications in Nonlinear Science and Numerical Simulation",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2022,
+     11,
+     11
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1093/ej/ueaf040",
+   "store_id": "gauriot2025ueaf040",
+   "store_year": 2025,
+   "store_container": "The Economic Journal",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2025,
+     6,
+     10
+    ]
+   ],
+   "registrant_container": "The Economic Journal",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2025,
+     6,
+     9
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.1016/j.jedc.2016.12.007",
+   "store_id": "hofer2017jjedc2016120",
+   "store_year": 2017,
+   "store_container": "Journal of Economic Dynamics and Control",
+   "store_type": "article-journal",
+   "agency": "crossref",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2017,
+     3
+    ]
+   ],
+   "registrant_container": "Journal of Economic Dynamics and Control",
+   "registrant_type": "journal-article",
+   "registrant_created": [
+    [
+     2017,
+     1,
+     1
+    ]
+   ],
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.13140/RG.2.2.13916.03201",
+   "store_id": "marek2019sportsbett",
+   "store_year": 2019,
+   "store_container": "Unpublished",
+   "store_type": "article-journal",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2019
+    ]
+   ],
+   "registrant_container": "Unpublished",
+   "registrant_type": "Text",
+   "registrant_created": "2019-02-19T11:19:44.000Z",
+   "year_agrees": true,
+   "container_agrees": true
+  },
+  {
+   "doi": "10.11179/ker.74.119",
+   "store_id": "tanaka2005inventorye",
+   "store_year": 2005,
+   "store_container": "The Kyoto Economic Review",
+   "store_type": "article",
+   "agency": null,
+   "http_status": "crossref:404 datacite:404",
+   "registrant_issued": null,
+   "registrant_container": null,
+   "registrant_type": null,
+   "registrant_created": null,
+   "year_agrees": null,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.1206.5252",
+   "store_id": "chen2012autilityfr",
+   "store_year": 2012,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2012
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2022-03-12T21:40:45.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.1009.1446",
+   "store_id": "brahma2010comparingp",
+   "store_year": 2010,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2010
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2022-03-13T18:05:49.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2605.09599",
+   "store_id": "nueve2026adaptiveli",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-05-12T04:17:42.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2603.22596",
+   "store_id": "rana2026parlaymark",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-03-25T02:04:24.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2601.01706",
+   "store_id": "gebele2026semanticno",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-01-06T03:40:06.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2505.02959",
+   "store_id": "nueve2025smoothquad",
+   "store_year": 2025,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2025
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2025-05-07T01:48:48.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2510.15612",
+   "store_id": "rahman2025sokmarketm",
+   "store_year": 2025,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2025
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2025-10-20T01:46:24.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2510.15205",
+   "store_id": "dalen2025towardblac",
+   "store_year": 2025,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2025
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2025-10-20T01:36:45.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2302.00196",
+   "store_id": "frongillo2023anaxiomati",
+   "store_year": 2023,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2023
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2023-02-02T01:51:47.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2605.30335",
+   "store_id": "kotawala2026locallycoh",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-05-29T02:50:48.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2604.10005",
+   "store_id": "dalen2026whathappen",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-04-14T03:22:50.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2608.00666",
+   "store_id": "gebele2026executable",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-08-04T03:44:36.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2508.03474",
+   "store_id": "saguillo2025unravellin",
+   "store_year": 2025,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2025
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2025-08-21T14:42:38.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2605.00864",
+   "store_id": "cheng2026arbitragea",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-05-05T02:58:27.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2606.19517",
+   "store_id": "portnaya2026dopredicti",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-06-19T01:50:55.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2604.01431",
+   "store_id": "mohanty2026dopredicti",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-04-03T01:48:00.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2607.17991",
+   "store_id": "feil2026optimalmar",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-07-21T03:31:06.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2607.17428",
+   "store_id": "moallemi2026uniformlos",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-07-21T03:18:56.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2607.18299",
+   "store_id": "moshrefi2026apmmautoma",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-07-22T01:49:56.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2311.08725",
+   "store_id": "bhaskara2023ageneralth",
+   "store_year": 2023,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2023
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2023-11-16T02:20:23.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2606.01477",
+   "store_id": "feys2026avellaneda",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-06-02T04:16:27.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.1609.03471",
+   "store_id": "groeger2016theinforma",
+   "store_year": 2016,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2016
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2022-03-05T19:37:13.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2604.24366",
+   "store_id": "dubach2026theanatomy",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-04-28T03:46:02.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2605.02287",
+   "store_id": "nechepurenko2026permarketi",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-05-05T03:35:04.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  },
+  {
+   "doi": "10.48550/ARXIV.2607.08199",
+   "store_id": "xi2026volatility",
+   "store_year": 2026,
+   "store_container": null,
+   "store_type": "article",
+   "agency": "datacite",
+   "http_status": 200,
+   "registrant_issued": [
+    [
+     2026
+    ]
+   ],
+   "registrant_container": "arXiv",
+   "registrant_type": "Preprint",
+   "registrant_created": "2026-07-10T01:40:33.000Z",
+   "year_agrees": true,
+   "container_agrees": null
+  }
+ ]
+}

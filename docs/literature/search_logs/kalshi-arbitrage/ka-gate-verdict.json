@@ -1,0 +1,1210 @@
+{
+ "gate": "research-compile",
+ "gate_script": "~/.claude/skills/research-compile/assets/check_lit_review.py",
+ "target": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+ "assertions": "G1-G20",
+ "date_run": "2026-09-02",
+ "run_context": "RE-RUN AFTER ROUND-2 AUDIT REMEDIATION, finding QUANT-2-5. The previous ka-gate-verdict.json was written at 11:53 against the pre-remediation document and could not describe the document that ships. This run is against the remediated document.",
+ "supersedes": "the 2026-09-02 11:53 run of this file",
+ "verdict": "block",
+ "n_findings": 83,
+ "finding_ids": {
+  "G16": 83
+ },
+ "findings_by_http_status": {
+  "403": 81,
+  "404": 1,
+  "302": 1
+ },
+ "handle_system_recheck": {
+  "test": "GET https://doi.org/api/handles/{doi}; responseCode 1 == the identifier resolves",
+  "date": "2026-09-02 (re-run after round-2 remediation)",
+  "n_checked": 149,
+  "n_responseCode_1": 149,
+  "n_other": 0,
+  "rows": [
+   {
+    "doi": "10.1287/mnsc.1040.0191",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/j.econlet.2006.01.004",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.3386/w12200",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/s1574-0722(07)00080-7",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1257/0895330041371277",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1111/ecca.12009",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/j.ijforecast.2018.07.008",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1257/jep.2.2.161",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1086/655844",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1257/mic.2.1.58",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1023/a:1022058209073",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.5750/jpm.v1i1.417",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/2465769.2465777",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/2509413.2509414",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/2940716.2940767",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/0304-405x(85)90044-3",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2307/1913210",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/0304-405x(81)90020-9",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1080/14697680701381228",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1007/s11579-012-0087-0",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1111/j.1468-0297.2004.00207.x",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.3233/af-140031",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1109/cecandeee.2008.131",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.5750/jpm.v6i3.589",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.5750/jpm.v7i3.824",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.5750/jpm.v14i1.1796",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.7170178",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.6446502",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1080/14697688.2017.1395230",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1177/1527002513493630",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1002/for.1085",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1080/1351847x.2018.1443148",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1177/155862351801300305",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.5750/jgbe.v7i2.630",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.17811/ebl.7.4.2018.129-136",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.2199035",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.3905/jod.2019.26.4.128",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/j.ijforecast.2014.02.008",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1515/jqas-2024-0064",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1177/1527002517696957",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1111/j.1354-7798.2005.00274.x",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1111/j.1468-0335.2008.00716.x",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/j.frl.2018.08.003",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.6615739",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.5502658",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.7117919",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.6748186",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/j.iref.2026.105577",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.7254820",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.7364100",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.7119120",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.3386/w34702",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.6704139",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1504/ijfmd.2026.10080801",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.7021660",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.6442939",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.6964226",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.6858200",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.7110758",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.7087538",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.6073727",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.5750/jpm.v1i2.423",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/1807342.1807372",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1007/s10614-015-9514-7",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.65109/bbzi6501",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1007/978-3-642-25510-6_27",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1108/jm2-06-2017-0066",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1609/aaai.v29i1.9313",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1109/tem.2012.2191618",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1287/opre.1110.0922",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/988772.988799",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/2600057.2602900",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/2229012.2229047",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/1993574.1993621",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/2482540.2482575",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1007/978-3-642-17572-5_44",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/1386790.1386822",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/2482540.2482608",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/2728732.2728734",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/2229012.2229074",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1287/opre.2022.0417",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1007/s00199-018-1155-3",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1080/14697680500148067",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/0165-1765(92)90014-p",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1111/j.1468-0262.2004.00497.x",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/j.jet.2016.01.005",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1145/1993574.1993622",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1080/14697688.2022.2028888",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1093/rfs/9.3.953",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1287/opre.2021.2109",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1111/j.1467-9485.2011.00557.x",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1111/j.1468-036x.2010.00601.x",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1093/oep/gpaf023",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/j.qref.2016.07.016",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1007/978-3-540-77105-0_11",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.5750/jpm.v2i3.445",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1057/s41302-020-00179-z",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1080/00036846.2015.1111993",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1007/s13209-017-0156-y",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.7049119",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.6191618",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.6396698",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.7222239",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.929916",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.7245879",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.997788",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.6325658",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/j.physa.2018.09.183",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.7110798",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/b978-044450744-0.50009-3",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/b978-044450744-0.50011-1",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1142/9789812819192_0025",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.6150527",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1146/annurev-financial-053122-021925",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.3044673",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2307/2234526",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.3035848",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.2139/ssrn.964438",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.3390/risks9010022",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/j.cnsns.2022.106994",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1093/ej/ueaf040",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.1016/j.jedc.2016.12.007",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.13140/RG.2.2.13916.03201",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.11179/ker.74.119",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.1206.5252",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.1009.1446",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2605.09599",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2603.22596",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2601.01706",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2505.02959",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2510.15612",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2510.15205",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2302.00196",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2605.30335",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2604.10005",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2608.00666",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2508.03474",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2605.00864",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2606.19517",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2604.01431",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2607.17991",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2607.17428",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2607.18299",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2311.08725",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2606.01477",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.1609.03471",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2604.24366",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2605.02287",
+    "responseCode": 1
+   },
+   {
+    "doi": "10.48550/ARXIV.2607.08199",
+    "responseCode": 1
+   }
+  ]
+ },
+ "disposition": "All 83 findings are G16 identifier-resolution findings and G1-G15 and G17-G20 pass. 81 are HTTP 403 at the publisher landing page -- the standing closed publisher-403 class in this project, whose resolution test is the DOI Handle System responseCode. 1 is HTTP 302 to a login-gated page (10.3905/jod.2019.26.4.128): the identifier resolves and the full text is paywalled. 1 is HTTP 404 at the REGISTERED TARGET URL (10.17811/ebl.7.4.2018.129-136): the identifier resolves but the landing page the registrant points at is dead. That one is NOT merely the closed class and is carried as access gap AG-8. The Handle System re-check on the remediated store returns responseCode 1 for 149/149 identifiers. ROUND-2 CORRECTION (QUANT-2-5): the previous disposition asserted that ALL findings were of the closed publisher-403 class. That was not exact -- the 404 and the 302 are not 403s, and the 404 is a dead registered target rather than bot-blocking. The class closure covers 81 of 83; the other two are dispositioned individually above. The verdict is reported verbatim and is NOT claimed as a pass.",
+ "second_residual": "AG-10, 10.11179/ker.74.119 -- registered with neither Crossref nor DataCite, so its bibliographic metadata is unverified against a registration agency. It resolves at the Handle System.",
+ "findings": [
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1002/for.1085 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1080/00036846.2015.1111993 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1080/1351847x.2018.1443148 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1080/14697680500148067 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1080/14697680701381228 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1080/14697688.2017.1395230 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1080/14697688.2022.2028888 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1086/655844 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1093/ej/ueaf040 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1093/oep/gpaf023 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1093/rfs/9.3.953 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1108/jm2-06-2017-0066 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1111/ecca.12009 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1111/j.1354-7798.2005.00274.x did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1111/j.1467-9485.2011.00557.x did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1111/j.1468-0262.2004.00497.x did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1111/j.1468-0297.2004.00207.x did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1111/j.1468-0335.2008.00716.x did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1111/j.1468-036x.2010.00601.x did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1142/9789812819192_0025 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/1386790.1386822 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/1807342.1807372 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/1993574.1993621 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/1993574.1993622 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/2229012.2229047 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/2229012.2229074 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/2465769.2465777 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/2482540.2482575 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/2482540.2482608 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/2509413.2509414 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/2600057.2602900 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/2728732.2728734 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/2940716.2940767 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1145/988772.988799 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1146/annurev-financial-053122-021925 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1177/1527002513493630 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1177/1527002517696957 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1177/155862351801300305 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1257/0895330041371277 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1257/jep.2.2.161 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1257/mic.2.1.58 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1287/mnsc.1040.0191 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1287/opre.1110.0922 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1287/opre.2021.2109 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.1287/opre.2022.0417 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.13140/RG.2.2.13916.03201 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.17811/ebl.7.4.2018.129-136 did not resolve (HTTP 404)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.2199035 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.3035848 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.3044673 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.5502658 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.6073727 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.6150527 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.6191618 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.6325658 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.6396698 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.6442939 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.6446502 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.6615739 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.6704139 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.6748186 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.6858200 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.6964226 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.7021660 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.7049119 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.7087538 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.7110758 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.7110798 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.7117919 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.7119120 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.7170178 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.7222239 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.7245879 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.7254820 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.7364100 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.929916 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.964438 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2139/ssrn.997788 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.2307/2234526 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.3233/af-140031 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.3390/risks9010022 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.3905/jod.2019.26.4.128 did not resolve (HTTP 302)",
+   "correction": "correct or remove the identifier"
+  },
+  {
+   "id": "G16",
+   "severity": "critical",
+   "claim_location": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "issue": "DOI 10.65109/bbzi6501 did not resolve (HTTP 403)",
+   "correction": "correct or remove the identifier"
+  }
+ ],
+ "claim_location_note": "the gate emits absolute paths; they are rewritten to repo-relative here per CLAUDE.md identity hygiene (this repository is public). No other field is altered."
+}

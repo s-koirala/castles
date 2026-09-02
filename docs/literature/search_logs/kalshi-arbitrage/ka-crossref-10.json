@@ -1,0 +1,419 @@
+{
+ "query_id": "ka-crossref-10",
+ "protocol_query_id": "ka-crossref-10",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=collateral+margin+capital+lockup+event+contract+settlement+risk&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 2375993,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 2375993,
+   "items": [
+    {
+     "DOI": "10.1002/9781119508991.ch7",
+     "title": [
+      "Margin (Collateral) and Settlement"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch14",
+     "title": [
+      "Funding, Margin, and Capital Costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch9",
+     "title": [
+      "Initial Margin Methodologies"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119109440.ch16",
+     "title": [
+      "Margin and Capital Value Adjustments"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015,
+        9,
+        11
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.fmatter",
+     "title": [
+      "Front Matter"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991",
+     "title": [
+      "The xVA Challenge"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "type": "monograph",
+     "author": [
+      {
+       "given": "Jon",
+       "family": "Gregory",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch3",
+     "title": [
+      "Counterparty Risk and Beyond"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.gloss",
+     "title": [
+      "Glossary"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch1",
+     "title": [
+      "Introduction"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.index",
+     "title": [
+      "Index"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch2",
+     "title": [
+      "Derivatives"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch4",
+     "title": [
+      "Regulation"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.refs",
+     "title": [
+      "References"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch15",
+     "title": [
+      "Quantifying Exposure"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch13",
+     "title": [
+      "Regulatory Methodologies"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch8",
+     "title": [
+      "Central Clearing"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch18",
+     "title": [
+      "<scp>FVA</scp>"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch19",
+     "title": [
+      "<scp>KVA</scp>"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch17",
+     "title": [
+      "<scp>CVA</scp>"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1002/9781119508991.ch20",
+     "title": [
+      "<scp>MVA</scp>"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "The xVA Challenge"
+     ],
+     "type": "other"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

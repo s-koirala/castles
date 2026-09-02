@@ -1,0 +1,1480 @@
+{
+ "log_id": "se-bc-01",
+ "protocol_query_id": "er-bc-*",
+ "protocol_section": "3.3 (backward citation-chasing)",
+ "amendment": "A11",
+ "date_executed": "2026-09-02",
+ "executed_by": "claude-opus-5 (Claude Code / Claude Agent SDK), remediation session; sole effective screener class, no human screener",
+ "status": "EXECUTED POST-FREEZE AS A RECALL DIAGNOSTIC; no record admitted to the frozen included set (72)",
+ "route_deviation": "Reference lists taken from publisher-deposited metadata (Crossref `reference` arrays; OpenAlex `referenced_works` fallback) rather than from the source PDFs. Deposited lists are not guaranteed complete.",
+ "endpoints": [
+  "https://api.crossref.org/works/{DOI}",
+  "https://api.openalex.org/works/doi:{DOI}",
+  "https://api.openalex.org/works?filter=openalex_id:{ids}"
+ ],
+ "carriers_targeted": 27,
+ "carriers_covered": 22,
+ "carriers_uncovered": [
+  "eru-0813",
+  "eru-1289",
+  "eru-1770",
+  "eru-0268",
+  "eru-1310"
+ ],
+ "carrier_reference_counts_crossref": {
+  "eru-0150": 23,
+  "eru-0259": 11,
+  "eru-0348": 17,
+  "eru-0463": 21,
+  "eru-0597": 54,
+  "eru-0604": 0,
+  "eru-0607": 101,
+  "eru-0609": 11,
+  "eru-1044": 32,
+  "eru-1049": 33,
+  "eru-1519": 31,
+  "eru-1604": 62,
+  "eru-1813": 58,
+  "eru-0526": 30,
+  "eru-0622": 0,
+  "eru-0675": 47,
+  "eru-0691": 35,
+  "eru-0749": 28,
+  "eru-1155": 0,
+  "eru-0813": 0,
+  "eru-1289": 0,
+  "eru-1509": 20,
+  "eru-1761": 32
+ },
+ "carrier_reference_counts_openalex": {
+  "eru-0604": 11,
+  "eru-0622": 45,
+  "eru-1155": 17,
+  "eru-0813": 0,
+  "eru-1289": 0,
+  "eru-0198": 2,
+  "eru-1770": 0
+ },
+ "unique_referenced_dois": 392,
+ "referenced_dois_not_in_universe": 177,
+ "universe_compared_against": "docs/literature/references_explosive-regime-dating.json (1,996 deduplicated candidate records); match on normalised DOI OR normalised title",
+ "hand_check_depth": "title, plus OpenAlex abstract where one was deposited",
+ "candidate_additions": [
+  {
+   "er_bc_id": "er-bc-1",
+   "doi": "10.1002/(SICI)1099-1255(199903/04)14:2<143::AID-JAE500>3.0.CO;2-X",
+   "citation": "Hall SG, Psaradakis Z, Sola M (1999). Detecting periodically collapsing bubbles: a Markov-switching unit root test. Journal of Applied Econometrics 14(2):143-154.",
+   "carriers": [
+    "eru-0463",
+    "eru-0526",
+    "eru-1509"
+   ],
+   "S_a": "pass (candidate) - alternative separates expanding from collapsing regimes via a Markov-switching generalisation of the Dickey-Fuller procedure",
+   "S_b": "pass (candidate) - the stated object is 'identifying the collapsing periods from the expanding ones', i.e. a time-indexed regime assignment",
+   "S_c": "pass (candidate) - generalisation of the DF test procedure; reference distribution asserted in the abstract, not verified at full text",
+   "I2": "I2b candidate - 'potential of the new methodology is illustrated via simulation'",
+   "evidence": "OpenAlex deposited abstract, retrieved 2026-09-02",
+   "disposition": "NOT ADMITTED. Corpus frozen at 72 by commit 8aeebfe. Full-text screening under protocol 2 was not run. Carried as a named recall gap."
+  },
+  {
+   "er_bc_id": "er-bc-2",
+   "doi": "10.2139/ssrn.2322360",
+   "citation": "Banerjee A, Chevillon G, Kratz M (2013). Detecting and Forecasting Large Deviations and Bubbles in a Near-Explosive Random Coefficient Model. SSRN 2322360.",
+   "carriers": [
+    "eru-0604"
+   ],
+   "S_a": "pass (candidate) on the title's 'near-explosive random coefficient model'; same lineage as included eru-0883 and eru-1761",
+   "S_b": "INDETERMINATE at retrievable depth - no abstract deposited at Crossref or OpenAlex",
+   "S_c": "INDETERMINATE at retrievable depth",
+   "I2": "indeterminate",
+   "evidence": "title only; no abstract available at either platform on 2026-09-02",
+   "disposition": "NOT ADMITTED. Eligibility indeterminate at title depth; under X6 as written a record whose eligibility cannot be verified at any retrievable depth is excluded, but no full-text attempt was made here. Carried as a named recall gap."
+  }
+ ],
+ "near_misses_with_reasons": [
+  {
+   "doi": "10.1017/S0266466609990144",
+   "citation": "Nielsen B (2010). Analysis of coexplosive processes. Econometric Theory 26(3).",
+   "carriers": [
+    "eru-0607",
+    "eru-0675"
+   ],
+   "verdict": "EXCLUDE",
+   "reason": "S-a pass (explosive characteristic root in a VAR); S-b FAIL - the object is a likelihood-ratio test on coexplosive vectors over the whole sample, with no time-indexed episode output. X2 class."
+  },
+  {
+   "doi": "10.1111/j.1368-423X.2012.00369.x",
+   "citation": "Engsted T, Nielsen B (2012). Testing for rational bubbles in a coexplosive vector autoregression. Econometrics Journal 15(2).",
+   "carriers": [
+    "eru-0607",
+    "eru-1049"
+   ],
+   "verdict": "EXCLUDE",
+   "reason": "S-a pass; S-b FAIL - full-sample existence test for a rational bubble, no date-stamp or stopping decision. X2 class."
+  },
+  {
+   "doi": "10.2139/ssrn.1726707",
+   "citation": "Nielsen B. On the Explosive Nature of Hyper-Inflation Data. Economics E-Journal / SSRN 1726707.",
+   "carriers": [
+    "eru-0607"
+   ],
+   "verdict": "EXCLUDE",
+   "reason": "S-a plausible; S-b and S-c INDETERMINATE - no abstract deposited at either platform. X6 class at retrievable depth."
+  },
+  {
+   "doi": "10.1080/07350015.1992.10509905",
+   "citation": "Banerjee A, Lumsdaine RL, Stock JH (1992). Recursive and sequential tests of the unit-root and trend-break hypotheses. JBES 10(3).",
+   "carriers": [
+    "eru-0259"
+   ],
+   "verdict": "EXCLUDE",
+   "reason": "S-a FAIL - the alternative is trend-stationarity with a break, not an explosive root. X4. Named because it is the direct methodological antecedent of recursive/rolling/sequential unit-root testing, the layer the known-item recall check failed on."
+  },
+  {
+   "doi": "10.1016/S0304-4076(99)00031-7",
+   "citation": "Kim JY (2000). Detection of change in persistence of a linear time series. Journal of Econometrics 95(1).",
+   "carriers": [
+    "eru-0150",
+    "eru-0526",
+    "eru-0607"
+   ],
+   "verdict": "EXCLUDE",
+   "reason": "S-a FAIL - alternative is a change in persistence I(0)->I(1), not an explosive root. X4. The Kim statistic nonetheless enters the review through eru-0150's comparison set under X2's retention rule."
+  },
+  {
+   "doi": "10.2307/2171955",
+   "citation": "Chu C-SJ, Stinchcombe M, White H (1996). Monitoring structural change. Econometrica 64(5).",
+   "carriers": [
+    "eru-0150",
+    "eru-0259"
+   ],
+   "verdict": "EXCLUDE",
+   "reason": "S-a FAIL - alternative is a parameter change, not an explosive root. X4. Named because its fluctuation/CUSUM monitoring boundary is the crossing function the review's surveillance line builds on (eru-0889, eru-1038, eru-1921)."
+  }
+ ],
+ "all_referenced_dois_not_in_universe": {
+  "10.1002/(sici)1099-1158(199610)1:4<303::aid-ijfe27>3.0.co;2-b": {
+   "carriers": [
+    "eru-1509"
+   ],
+   "title": "Blackburn, K., and M. Sola. 1996. “Market Fundamentals versus Speculative Bubbles: A New Test Applied to the German Hyperinflation.” International Journal of Finance & Economics 1: 303–17. https://doi.org/10.1002/(sici)1099-1158(199610)1:4<303::aid-ijfe27>3.0.co;2-b.",
+   "year": null
+  },
+  "10.1002/(sici)1099-1255(199903/04)14:2<143::aid-jae500>3.0.co;2-x": {
+   "carriers": [
+    "eru-0463",
+    "eru-0526",
+    "eru-1509"
+   ],
+   "title": "Detecting periodically collapsing bubbles: a Markov-switching unit root test",
+   "year": "1999"
+  },
+  "10.1002/jae.1025": {
+   "carriers": [
+    "eru-0463",
+    "eru-0607"
+   ],
+   "title": "Market fundamentals versus rational bubbles in stock prices: a Bayesian perspective",
+   "year": "2008"
+  },
+  "10.1006/juec.2000.2180": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Krainer J (2001) A theory of liquidity in residential real estate markets. J Urb Econ 49(1):32–53",
+   "year": "2001"
+  },
+  "10.1007/bf00178859": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Reichert AK (1990) The impact of interest rates, income, and employment upon regional housing prices. J Real Estate Finance Econ 3(4):373–391",
+   "year": "1990"
+  },
+  "10.1007/s10272-005-0157-0": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Belke A, Wiedmann M (2005) Boom or bubble in the us real estate market. Intereconomics 40(5):273–284",
+   "year": "2005"
+  },
+  "10.1007/s10273-013-1562-9": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "an de Meulen P, Micheli M (2013) Droht eine Immobilienpreisblase in Deutschland? Wirtschaftsdienst 93(8):539–544",
+   "year": "2013"
+  },
+  "10.1007/s10901-013-9383-0": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Kofner S (2014) The German housing system: fundamentally resilient? J Hous Built Environ 29(2):255–275",
+   "year": "2014"
+  },
+  "10.1007/s11146-006-6962-9": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Fernández-Kranz D, Hon MT (2006) A cross-section analysis of the income elasticity of housing demand in Spain: is there a real estate bubble? J Real Estate Finance Econ 32(4):449–470",
+   "year": "2006"
+  },
+  "10.1007/s11356-022-23903-y": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Oil and renewable energy returns during pandemic",
+   "year": "2023"
+  },
+  "10.1007/s13278-023-01150-4": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "An exploratory study of net zero discourse based on South Korean newspapers: A topic modeling and sentiment analysis approach",
+   "year": "2023"
+  },
+  "10.1016/0014-2921(94)90073-6": {
+   "carriers": [
+    "eru-0526",
+    "eru-0607"
+   ],
+   "title": "Rational bubbles during Poland’s hyperinflation: Implications and empirical evidence",
+   "year": null
+  },
+  "10.1016/0165-1765(85)90058-8": {
+   "carriers": [
+    "eru-0150",
+    "eru-0675"
+   ],
+   "title": "Testing the random walk hypothesis: power versus frequency of observation",
+   "year": "1985"
+  },
+  "10.1016/0165-1765(92)90133-j": {
+   "carriers": [
+    "eru-0622",
+    "eru-0675"
+   ],
+   "title": "Effects of data aggregation on the power of tests for a unit root",
+   "year": "1992"
+  },
+  "10.1016/0165-1889(94)90039-6": {
+   "carriers": [
+    "eru-1044"
+   ],
+   "title": "Zakoïan JM (1994) Threshold heteroscedastic models. J Econ Dyn Control 18:931–955",
+   "year": "1994"
+  },
+  "10.1016/0304-3932(85)90041-8": {
+   "carriers": [
+    "eru-0607",
+    "eru-0675",
+    "eru-1604"
+   ],
+   "title": "The observable implications of self-fulfilling expectations",
+   "year": null
+  },
+  "10.1016/0304-3932(88)90044-x": {
+   "carriers": [
+    "eru-1155"
+   ],
+   "title": "Rational inflationary bubbles",
+   "year": 1988
+  },
+  "10.1016/0304-405x(82)90018-6": {
+   "carriers": [
+    "eru-1044"
+   ],
+   "title": "Christie AA (1982) The stochastic behavior of common stock variances: value, leverage and interest rate effects. J Financ Econ 10:407–432",
+   "year": "1982"
+  },
+  "10.1016/0304-4076(86)90063-1": {
+   "carriers": [
+    "eru-1044"
+   ],
+   "title": "Bollerslev T (1986) Generalized autoregressive conditional heteroskedasticity. J Econom 31:307–328",
+   "year": "1986"
+  },
+  "10.1016/0304-4076(90)90092-8": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "ARCH Models as Diffusion Approximations",
+   "year": "1990"
+  },
+  "10.1016/0304-4076(93)01589-e": {
+   "carriers": [
+    "eru-0622",
+    "eru-0675"
+   ],
+   "title": "Temporal aggregation and the power of tests for a unit root",
+   "year": "1995"
+  },
+  "10.1016/b978-0-444-53683-9.00009-8": {
+   "carriers": [
+    "eru-1049"
+   ],
+   "title": "Forecasting real estate prices",
+   "year": "2013"
+  },
+  "10.1016/j.econ.2015.05.001": {
+   "carriers": [
+    "eru-1509"
+   ],
+   "title": "de Holanda Barbosa, F. H., and T. N. T. da Silva Filho. 2015. “Bubble, Weak and Strong Hyperinflation: Theory and Empirical Evidence.” Economia 16: 145–56. https://doi.org/10.1016/j.econ.2015.05.001.",
+   "year": null
+  },
+  "10.1016/j.econlet.2014.03.023": {
+   "carriers": [
+    "eru-1044"
+   ],
+   "title": "Rotermann B, Wilfling B (2014) Periodically collapsing Evans bubbles and stock-price volatility. Econ Lett 123:383–386",
+   "year": "2014"
+  },
+  "10.1016/j.econlet.2016.09.019": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "The Inefficiency of Bitcoin",
+   "year": "2016"
+  },
+  "10.1016/j.econlet.2016.10.033": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "On the Inefficiency of Bitcoin",
+   "year": "2017"
+  },
+  "10.1016/j.econmod.2023.106273": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Connectedness between fossil and renewable energy stock indices: The impact of the COP policies",
+   "year": "2023"
+  },
+  "10.1016/j.eneco.2023.106753": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Greening through centralization of environmental monitoring?",
+   "year": "2023"
+  },
+  "10.1016/j.eneco.2023.106877": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "The role of venture capital and governments in clean energy: Lessons from the first cleantech bubble",
+   "year": "2023"
+  },
+  "10.1016/j.eneco.2023.107281": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Optimal monetary policy responses to carbon and green bubbles: A two-sector DSGE analysis",
+   "year": "2024"
+  },
+  "10.1016/j.frl.2016.09.025": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "On the Hedge and Safe Haven Properties of Bitcoin: Is It Really More than a Diversifier?",
+   "year": "2017"
+  },
+  "10.1016/j.irfa.2016.03.015": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Google searches and stock returns",
+   "year": "2016"
+  },
+  "10.1016/j.jbankfin.2006.02.006": {
+   "carriers": [
+    "eru-0463"
+   ],
+   "title": "Bubbles in the dividend-price ratio? Evidence from an asymmetric exponential smooth-transition model",
+   "year": "2006"
+  },
+  "10.1016/j.jbankfin.2012.02.007": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Information demand and stock market volatility",
+   "year": "2012"
+  },
+  "10.1016/j.jbankfin.2023.106948": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Dissecting climate risks: Are they reflected in stock prices?",
+   "year": "2023"
+  },
+  "10.1016/j.jeca.2015.07.001": {
+   "carriers": [
+    "eru-0675"
+   ],
+   "title": "Stock markets and industrial production in North and South of Euro-zone: asymmetric effects via threshold cointegration approach",
+   "year": "2015"
+  },
+  "10.1016/j.jeconom.2013.05.002": {
+   "carriers": [
+    "eru-0526"
+   ],
+   "title": "Efficient learning via simulation: A marginalized resample-move approach",
+   "year": "2013"
+  },
+  "10.1016/j.jedc.2008.11.007": {
+   "carriers": [
+    "eru-0675"
+   ],
+   "title": "A new Keynesian model with heterogeneous expectations",
+   "year": "2009"
+  },
+  "10.1016/j.jfs.2010.05.002": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Duca JV, Muellbauer J, Murphy A (2010) Housing markets and the financial crisis of 2007–2009: lessons for the future. J Financ Stab 6(4, Sp. Iss. SI):203–217",
+   "year": "2010"
+  },
+  "10.1016/j.jhe.2007.12.001": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Goodman AC, Thibodeau T (2008) Where are the speculative bubbles in US housing markets? J Hous Econ 17(2):117–137",
+   "year": "2008"
+  },
+  "10.1016/j.jhe.2011.04.001": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Agnello L, Schuknecht L (2011) Booms and busts in housing markets: determinants and implications. J Hous Econ 20(3):171–190",
+   "year": "2011"
+  },
+  "10.1016/j.jue.2009.06.002": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Campbell SD, Davis MA, Gallin J, Martin RF (2009) What moves housing markets: a variance decomposition of the rent-price ratio. J Urb Econ 66(2):90–102. https://ideas.repec.org/a/eee/juecon/v66y2009i2p90-102.html",
+   "year": null
+  },
+  "10.1016/j.regsciurbeco.2013.07.005": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Clapp JM, Eichholtz P, Lindenthal T (2013) Real option value over a housing market cycle. Reg Sci Urb Econ 43(6):862–874",
+   "year": "2013"
+  },
+  "10.1016/j.ribaf.2016.08.002": {
+   "carriers": [
+    "eru-0675"
+   ],
+   "title": "Towards an asymmetric long-run equilibrium between economic uncertainty and the yield spread. A multi-economy view",
+   "year": "2017"
+  },
+  "10.1016/j.rineng.2023.101287": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Sentiment analysis on twitter data towards climate action",
+   "year": "2023"
+  },
+  "10.1016/s0165-1889(97)00086-9": {
+   "carriers": [
+    "eru-1509"
+   ],
+   "title": "Fukuta, Y. 1998. “A Simple Discrete-Time Approximation of Continuous-Time Bubbles.” Journal of Economic Dynamics and Control 22: 937–54. https://doi.org/10.1016/s0165-1889(97)00086-9.",
+   "year": null
+  },
+  "10.1016/s0261-5606(00)00021-8": {
+   "carriers": [
+    "eru-0607",
+    "eru-1509"
+   ],
+   "title": "Hooker, M. A. 2000. “Misspecification versus Bubbles in Hyperinflation Data: Monte Carlo and Interwar European Evidence.” Journal of International Money and Finance 19: 583–600. https://doi.org/10.1016/s0261-5606(00)00021-8.",
+   "year": null
+  },
+  "10.1016/s0304-3932(01)00108-8": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Harding D, Pagan A (2002) Dissecting the cycle: a methodological investigation. J Monet Econ 49(2):365–381",
+   "year": "2002"
+  },
+  "10.1016/s0304-3932(98)00021-x": {
+   "carriers": [
+    "eru-0607",
+    "eru-1509"
+   ],
+   "title": "Driffill, J., and M. Sola 1998. “Intrinsic Bubbles and Regime-Switching.” Journal of Monetary Economics 42: 357–73. https://doi.org/10.1016/s0304-3932(98)00021-x.",
+   "year": null
+  },
+  "10.1016/s0304-4076(03)00092-7": {
+   "carriers": [
+    "eru-0622",
+    "eru-0675"
+   ],
+   "title": "Testing for unit roots in heterogeneous panels",
+   "year": "2003"
+  },
+  "10.1016/s0304-4076(97)00009-2": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "Augmented GARCH(p, q) Process and Its Diffusion Limit",
+   "year": "1997"
+  },
+  "10.1016/s0304-4076(97)00049-3": {
+   "carriers": [
+    "eru-0348"
+   ],
+   "title": "Further Evidence on Breaking Trend Functions in Macroeconomic Variables",
+   "year": "1997"
+  },
+  "10.1016/s0304-4076(98)00014-1": {
+   "carriers": [
+    "eru-0348"
+   ],
+   "title": "Spurious Rejections by Dickey-Fuller Tests in the Presence of a Break Under the Null",
+   "year": "1998"
+  },
+  "10.1016/s0304-4076(99)00031-7": {
+   "carriers": [
+    "eru-0150",
+    "eru-0526",
+    "eru-0607"
+   ],
+   "title": "Detection of change in persistence of a linear time series",
+   "year": "2000"
+  },
+  "10.1016/s0742-3322(2007)24": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Real options theory",
+   "year": "2007"
+  },
+  "10.1017/cbo9780511802843": {
+   "carriers": [
+    "eru-1509"
+   ],
+   "title": "Davison, A. C., and D. V. Hinkley. 1997. Bootstrap Methods and Their Application. Cambridge: Cambridge University Press.",
+   "year": null
+  },
+  "10.1017/s0266466600004503": {
+   "carriers": [
+    "eru-0622",
+    "eru-0675"
+   ],
+   "title": "Test consistency with varying sampling frequency",
+   "year": "1991"
+  },
+  "10.1017/s0266466600013402": {
+   "carriers": [
+    "eru-0348"
+   ],
+   "title": "Statistical Inference in Regressions with Integrated Processes: Part I",
+   "year": "1988"
+  },
+  "10.1017/s026646660809049x": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "Heteroskedastic Time Series with a Unit Root",
+   "year": "2009"
+  },
+  "10.1017/s0266466609990144": {
+   "carriers": [
+    "eru-0607",
+    "eru-0675"
+   ],
+   "title": "Analysis of coexplosive processes",
+   "year": null
+  },
+  "10.1017/s0266466612000357": {
+   "carriers": [
+    "eru-0463"
+   ],
+   "title": "Wald tests for detecting multiple structural changes in persistence",
+   "year": "2013"
+  },
+  "10.1038/srep01684": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Quantifying trading behavior in financial markets using Google Trends",
+   "year": "2013"
+  },
+  "10.1038/srep03415": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "BitCoin meets Google Trends and Wikipedia: Quantifying the relationship between phenomena of the Internet era",
+   "year": "2013"
+  },
+  "10.1080/00224065.2010.11917814": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "A nonparametric change-point control chart",
+   "year": "2010"
+  },
+  "10.1080/00224065.2012.11917887": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Two nonparametric control charts for detecting arbitrary distribution changes",
+   "year": "2012"
+  },
+  "10.1080/01621459.1979.10482531": {
+   "carriers": [
+    "eru-0622",
+    "eru-0675",
+    "eru-1155"
+   ],
+   "title": "Distribution of the estimators for autoregressive time series with a unit root",
+   "year": "1979"
+  },
+  "10.1080/01621459.1995.10476510": {
+   "carriers": [
+    "eru-1049"
+   ],
+   "title": "Unit root tests in ARMA models with data dependent methods for the selection of the truncation lag",
+   "year": "1995"
+  },
+  "10.1080/07350015.1989.10509723": {
+   "carriers": [
+    "eru-1049"
+   ],
+   "title": "Tests for unit roots: a monte carlo investigation",
+   "year": "1989"
+  },
+  "10.1080/07350015.1992.10509905": {
+   "carriers": [
+    "eru-0259"
+   ],
+   "title": "Recursive and sequential tests of the unit-root and trend-break hypothesis: theory and international evidence",
+   "year": "1992"
+  },
+  "10.1080/07350015.2011.648858": {
+   "carriers": [
+    "eru-0622",
+    "eru-0675"
+   ],
+   "title": "Why frequency matters for unit root testing in financial time series",
+   "year": "2012"
+  },
+  "10.1080/07474930802467167": {
+   "carriers": [
+    "eru-1049"
+   ],
+   "title": "Bootstrap M unit root tests",
+   "year": "2009"
+  },
+  "10.1080/07474939908800445": {
+   "carriers": [
+    "eru-0622",
+    "eru-0675"
+   ],
+   "title": "The effect of aggregation on nonlinearity",
+   "year": "1999"
+  },
+  "10.1080/09537325.2022.2060809": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "‘Salvation and profit’: Deconstructing the clean-tech bubble",
+   "year": "2024"
+  },
+  "10.1080/096031097333745": {
+   "carriers": [
+    "eru-0348"
+   ],
+   "title": "Regime Switching in Stock Market Returns",
+   "year": "1997"
+  },
+  "10.1080/14631377.2010.498686": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Michelsen C, Weiß D (2010) What happened to the East German housing market? A historical perspective on the role of public funding. Post Communist Econ 22(3):387–409",
+   "year": "2010"
+  },
+  "10.1080/14697688.2015.1015599": {
+   "carriers": [
+    "eru-1044"
+   ],
+   "title": "Reher G, Wilfling B (2016) A nesting framework for Markov-switching GARCH modelling with an application to the German stock market. Quant Finance 16:411–426",
+   "year": "2016"
+  },
+  "10.1081/etc-120015385": {
+   "carriers": [
+    "eru-1049"
+   ],
+   "title": "On the asymptotics of ADF tests for unit roots",
+   "year": "2002"
+  },
+  "10.1086/260846": {
+   "carriers": [
+    "eru-0607",
+    "eru-0675",
+    "eru-1604"
+   ],
+   "title": "An economic theory of monetary reform",
+   "year": null
+  },
+  "10.1086/261502": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "Cointegration and Tests of Present Value Models",
+   "year": "1989"
+  },
+  "10.1086/654163": {
+   "carriers": [
+    "eru-1155"
+   ],
+   "title": "Pitfalls and Opportunities: What Macroeconomists Should Know about Unit Roots",
+   "year": 1991
+  },
+  "10.1093/biomet/71.3.599": {
+   "carriers": [
+    "eru-0622",
+    "eru-0675",
+    "eru-1049"
+   ],
+   "title": "Testing for unit roots in autoregressive-moving average models of uknown order",
+   "year": "1984"
+  },
+  "10.1093/biomet/75.2.335": {
+   "carriers": [
+    "eru-1049"
+   ],
+   "title": "Testing for a unit root in time series regression",
+   "year": "1988"
+  },
+  "10.1093/oso/9780198773917.003.0009": {
+   "carriers": [
+    "eru-0607"
+   ],
+   "title": "Non‐stationary Time Series Analysis and Cointegration",
+   "year": "1994"
+  },
+  "10.1093/qje/qjw024": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Measuring economic policy uncertainty",
+   "year": "2016"
+  },
+  "10.1093/rfs/1.3.195": {
+   "carriers": [
+    "eru-0526",
+    "eru-1604"
+   ],
+   "title": "The dividend-price ratio and expectations of future dividends and discount factors",
+   "year": null
+  },
+  "10.1093/rfs/5.2.243": {
+   "carriers": [
+    "eru-0607",
+    "eru-1155"
+   ],
+   "title": "Explaining the Variance of Price–Dividend Ratios",
+   "year": null
+  },
+  "10.1093/rfs/hhn004": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "The Spline-GARCH Model for Low-Frequency Volatility and Its Global Macroeconomic Causes",
+   "year": "2008"
+  },
+  "10.1093/rfs/hhz144": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Pricing uncertainty induced by climate change",
+   "year": "2020"
+  },
+  "10.1108/bfj-08-2022-0691": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Scenario analysis and climate change: A literature review via text analytics",
+   "year": "2024"
+  },
+  "10.1111/1368-423x.00036": {
+   "carriers": [
+    "eru-0348"
+   ],
+   "title": "Behaviour of Standard and Symmetric Dickey-Fuller-Type Tests When There Is a Break Under the Null Hypothesis",
+   "year": "2000"
+  },
+  "10.1111/1467-9892.00312": {
+   "carriers": [
+    "eru-1049"
+   ],
+   "title": "A sieve bootstrap for the test of a unit root",
+   "year": "2003"
+  },
+  "10.1111/1468-0262.00256": {
+   "carriers": [
+    "eru-1049"
+   ],
+   "title": "Lag length selection and the construction of unit root tests with good size and power",
+   "year": "2001"
+  },
+  "10.1111/1468-0262.00393": {
+   "carriers": [
+    "eru-0463",
+    "eru-0597",
+    "eru-0607"
+   ],
+   "title": "Bubbles and crashes",
+   "year": "2003"
+  },
+  "10.1111/1468-0262.00471": {
+   "carriers": [
+    "eru-1049"
+   ],
+   "title": "Bootstrap unit root tests",
+   "year": "2003"
+  },
+  "10.1111/1540-6229.00699": {
+   "carriers": [
+    "eru-0675"
+   ],
+   "title": "Rational expectations, market fundamentals and housing price volatility",
+   "year": "1996"
+  },
+  "10.1111/j.1368-423x.2012.00369.x": {
+   "carriers": [
+    "eru-0607",
+    "eru-1049"
+   ],
+   "title": "Testing for rational bubbles in a coexplosive vector autoregression",
+   "year": null
+  },
+  "10.1111/j.1467-6419.2007.00530.x": {
+   "carriers": [
+    "eru-0150",
+    "eru-0607",
+    "eru-0622",
+    "eru-0675",
+    "eru-1604"
+   ],
+   "title": "Econometric tests of asset price bubbles: taking stock",
+   "year": "2008"
+  },
+  "10.1111/j.1467-9787.2006.00480.x": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Hwang M, Quigley JM (2006) Economic fundamentals in local housing markets: evidence from U.S. metropolitan regions. J Reg Sci 46(3):425–453",
+   "year": "2006"
+  },
+  "10.1111/j.1467-9868.2009.00736.x": {
+   "carriers": [
+    "eru-0526"
+   ],
+   "title": "Particle Markov Chain Monte Carlo",
+   "year": "2010"
+  },
+  "10.1111/j.1467-9868.2012.01046.x": {
+   "carriers": [
+    "eru-0526"
+   ],
+   "title": "SMC2: An efficient algorithm for sequential analysis of state space models",
+   "year": "2013"
+  },
+  "10.1111/j.1467-9892.1994.tb00190.x": {
+   "carriers": [
+    "eru-1049"
+   ],
+   "title": "Empirical evidence on dickey-fuller-type tests",
+   "year": "1992"
+  },
+  "10.1111/j.1467-9892.1994.tb00204.x": {
+   "carriers": [
+    "eru-0348"
+   ],
+   "title": "Least Squares Estimation of a Shift in a Linear Process",
+   "year": "1994"
+  },
+  "10.1111/j.1467-9892.2007.00565.x": {
+   "carriers": [
+    "eru-1049"
+   ],
+   "title": "Bootstrap unit-root tests: comparison and extenstions",
+   "year": "2008"
+  },
+  "10.1111/j.1468-0084.1995.tb00040.x": {
+   "carriers": [
+    "eru-1155"
+   ],
+   "title": "TESTING FOR UNIT ROOTS USING FORWARD AND REVERSE DICKEY‐FULLER REGRESSIONS",
+   "year": 1995
+  },
+  "10.1111/j.1468-0289.2005.00304.x": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "Irrational Behavior during the South Sea Bubble",
+   "year": "2005"
+  },
+  "10.1111/j.1468-0297.2004.00962.x": {
+   "carriers": [
+    "eru-0348"
+   ],
+   "title": "Economic Implications of Bull and Bear Regimes in UK Stock and Bond Returns",
+   "year": "2005"
+  },
+  "10.1111/j.1540-6261.1977.tb03317.x": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Miller E (1977) Risk, uncertainty, and divergence of opinion. J Finance 32(4):1151–1168",
+   "year": "1977"
+  },
+  "10.1111/j.1540-6261.1986.tb04551.x": {
+   "carriers": [
+    "eru-1155"
+   ],
+   "title": "Asset Price Volatility, Bubbles, and Process Switching",
+   "year": 1986
+  },
+  "10.1111/j.1540-6261.1989.tb02647.x": {
+   "carriers": [
+    "eru-1044"
+   ],
+   "title": "Schwert GW (1989) Why does stock market volatility change over time? J Finance 44:1115–1153",
+   "year": "1989"
+  },
+  "10.1111/j.1540-6261.1993.tb05128.x": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "Relationship between the Expected Value and the Volatility of the Nominal Excess Return on Stocks",
+   "year": "1993"
+  },
+  "10.1111/j.1540-6261.1997.tb03807.x": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Shleifer A, Vishny R (1997) The limits of arbitrage. J Finance 52(1):35–55",
+   "year": "1997"
+  },
+  "10.1111/j.1540-6261.2011.01671.x": {
+   "carriers": [
+    "eru-0526",
+    "eru-1044"
+   ],
+   "title": "Cochrane JH (2011) Presidential address: discount rates. J Finance 66:1047–1108",
+   "year": "2011"
+  },
+  "10.1111/j.1540-6261.2011.01679.x": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "In search of attention",
+   "year": "2011"
+  },
+  "10.1146/annurev-financial-102620-103311": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Climate finance",
+   "year": "2021"
+  },
+  "10.1198/073500102753410372": {
+   "carriers": [
+    "eru-1049"
+   ],
+   "title": "Further evidence on the great crash, the oil-price shock, and the unit-root hypothesis",
+   "year": "2002"
+  },
+  "10.1198/073500102753410444": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Comparing predictive accuracy",
+   "year": "2002"
+  },
+  "10.1214/aoms/1177706198": {
+   "carriers": [
+    "eru-0622",
+    "eru-0675"
+   ],
+   "title": "On asymptotic distributions of estimates of parameters of stochastic difference equations",
+   "year": "1959"
+  },
+  "10.1214/aoms/1177706450": {
+   "carriers": [
+    "eru-0622",
+    "eru-0675"
+   ],
+   "title": "The limiting distribution of the serial correlation coefficient in the explosive case",
+   "year": "1958"
+  },
+  "10.1214/aoms/1177730243": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "On the Kolmogorov–Smirnov limit theorems for empirical distributions",
+   "year": "1948"
+  },
+  "10.1214/aos/1176349025": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "Bootstrap and Wild Bootstrap for High Dimensional Models",
+   "year": "1993"
+  },
+  "10.1214/aos/1176350169": {
+   "carriers": [
+    "eru-1509"
+   ],
+   "title": "Hall, P. 1986. “On the Number of Bootstrap Simulations Required to Construct a Confidence Interval.” Annals of Statistics 14: 1453–62. https://doi.org/10.1214/aos/1176350169.",
+   "year": null
+  },
+  "10.1257/aer.107.4.967": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Narrative economics",
+   "year": "2017"
+  },
+  "10.1257/aer.20191823": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Measuring geopolitical risk",
+   "year": "2022"
+  },
+  "10.1287/mnsc.2022.4635": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Climate change and uncertainty: An asset pricing perspective",
+   "year": "2023"
+  },
+  "10.1287/mnsc.3.1.102": {
+   "carriers": [
+    "eru-0675"
+   ],
+   "title": "Capital equipment analysis: the required rate of profit",
+   "year": "1956"
+  },
+  "10.1353/eca.0.0013": {
+   "carriers": [
+    "eru-0526"
+   ],
+   "title": "Financial Crash, Commodity Prices and Global Imbalances",
+   "year": "2008"
+  },
+  "10.1353/eca.2004.0004": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Case KE, Shiller RJ (2003) Is there a bubble in the housing market? Brook Pap Econ Act 2:299–362",
+   "year": "2003"
+  },
+  "10.1353/eca.2006.0019": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Smith MH, Smith G (2006) Bubble, bubble, where’s the housing bubble? Brook Pap Econ Act 1:1–67",
+   "year": "2006"
+  },
+  "10.1515/9781400830213": {
+   "carriers": [
+    "eru-1044"
+   ],
+   "title": "The econometrics of financial markets",
+   "year": "1997"
+  },
+  "10.17016/ifdp.2004.808": {
+   "carriers": [
+    "eru-0607"
+   ],
+   "title": "Chernenko S. K.Schwarz andJ. H.Wright “The Information Content of Forward and Futures Prices: Market Expectations and the Price of Risk ” FRB International Finance Discussion Paper 2004 1–27.",
+   "year": null
+  },
+  "10.18637/jss.v066.i03": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Parametric and nonparametric sequential change detection in R: The cpm package",
+   "year": "2015"
+  },
+  "10.2139/ssrn.1726707": {
+   "carriers": [
+    "eru-0607"
+   ],
+   "title": "Nielsen B. “On the Explosive Nature of Hyper‐Inflation Data ” Economics Discussion Papers 2008‐9 Kiel Institute for the World Economy 2008.",
+   "year": null
+  },
+  "10.2139/ssrn.2322360": {
+   "carriers": [
+    "eru-0604"
+   ],
+   "title": "Detecting and Forecasting Large Deviations and Bubbles in a Near-Explosive Random Coefficient Model",
+   "year": 2013
+  },
+  "10.2139/ssrn.2361599": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "Is Bitcoin a Real Currency?",
+   "year": "2013"
+  },
+  "10.2139/ssrn.2548999": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "The Economics of Bitcoin—Market Characteristics and Price Jumps",
+   "year": "2014"
+  },
+  "10.2139/ssrn.2785137": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Hoffmann J, Kurz C (2002) Rent indices for housing in West Germany 1985 to 1998. Working Paper Series 116, European Central Bank",
+   "year": null
+  },
+  "10.2139/ssrn.2796934": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Kajuth F, Knetsch TA, Pinkwart N (2013) Assessing house prices in Germany: evidence from an estimated stock-flow model using regional data. Discussion paper Deutsche Bundesbank 46/2013",
+   "year": null
+  },
+  "10.2139/ssrn.3440802": {
+   "carriers": [
+    "eru-0604"
+   ],
+   "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+   "year": 2019
+  },
+  "10.2139/ssrn.3903964": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "New Private Monies. A Bit-Part Player?",
+   "year": "2014"
+  },
+  "10.2139/ssrn.3977007": {
+   "carriers": [
+    "eru-0604"
+   ],
+   "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+   "year": 2022
+  },
+  "10.2139/ssrn.970241": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Hoffmann J, Lorenz A (2006) Real estate price indices in Germany: past, present and future. In: OECD-IMF workshop “Real Estate Price Indexes”, Paris, 6–7 Nov",
+   "year": null
+  },
+  "10.2139/ssrn.982615": {
+   "carriers": [
+    "eru-0607"
+   ],
+   "title": "Carlson M. A. “A Brief History of the 1987 Stock Market Crash with a Discussion of the Federal Reserve Response ” Finance and Economics Discussion Series 2007‐13 Board of Governors of the Federal Reserve System (U.S.) 2006.",
+   "year": null
+  },
+  "10.2307/1911012": {
+   "carriers": [
+    "eru-0597",
+    "eru-0607"
+   ],
+   "title": "Tirole J (1985) Asset bubbles and overlapping generations. Econometrica 53(5):1071–1100",
+   "year": "1985"
+  },
+  "10.2307/1911512": {
+   "carriers": [
+    "eru-0150",
+    "eru-0607",
+    "eru-0622",
+    "eru-0675",
+    "eru-1155"
+   ],
+   "title": "The present-value relation: tests based on implied variance bounds",
+   "year": "1981"
+  },
+  "10.2307/1911868": {
+   "carriers": [
+    "eru-1155"
+   ],
+   "title": "On the Possibility of Speculation under Rational Expectations",
+   "year": 1982
+  },
+  "10.2307/1912559": {
+   "carriers": [
+    "eru-0526"
+   ],
+   "title": "A new approach to the economic analysis of nonstationary time series and the business cycle",
+   "year": "1989"
+  },
+  "10.2307/1913837": {
+   "carriers": [
+    "eru-1155"
+   ],
+   "title": "Asset Prices in an Exchange Economy",
+   "year": 1978
+  },
+  "10.2307/1927792": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Gordon MJ (1959) Dividends, earnings, and stock prices. Rev Econ Stat 41(2):99–105",
+   "year": "1959"
+  },
+  "10.2307/2077848": {
+   "carriers": [
+    "eru-0463"
+   ],
+   "title": "The macroeconomics of the great depression: a comparative approach",
+   "year": "1995"
+  },
+  "10.2307/2171955": {
+   "carriers": [
+    "eru-0150",
+    "eru-0259"
+   ],
+   "title": "Monitoring structural change",
+   "year": "1996"
+  },
+  "10.2307/2233912": {
+   "carriers": [
+    "eru-0607",
+    "eru-0622",
+    "eru-0675",
+    "eru-1044",
+    "eru-1604"
+   ],
+   "title": "Diba B, Grossman H (1988b) The theory of rational bubbles in stock prices. Econ J 98:746–754",
+   "year": null
+  },
+  "10.2307/2286348": {
+   "carriers": [
+    "eru-0622"
+   ],
+   "title": "Distribution of the Estimators for Autoregressive Time Series With a Unit Root",
+   "year": 1979
+  },
+  "10.2307/2298101": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Allen F, Gorton G (1993) Churning bubbles. Rev Econ Stud 60(4):813–836",
+   "year": "1993"
+  },
+  "10.2307/2330890": {
+   "carriers": [
+    "eru-1155"
+   ],
+   "title": "On the Presence of Speculative Bubbles in Stock Prices",
+   "year": 1990
+  },
+  "10.2307/2336570": {
+   "carriers": [
+    "eru-0622"
+   ],
+   "title": "Testing for Unit Roots in Autoregressive-Moving Average Models of Unknown Order",
+   "year": 1984
+  },
+  "10.2307/2938260": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "Conditional Heteoskedasticity in Asset Returns: A New Approach",
+   "year": "1991"
+  },
+  "10.2307/2951597": {
+   "carriers": [
+    "eru-0259"
+   ],
+   "title": "The CUSUM-test with OLS-residuals",
+   "year": "1992"
+  },
+  "10.2307/2998540": {
+   "carriers": [
+    "eru-0150",
+    "eru-0463"
+   ],
+   "title": "Estimating and testing linear models with multiple structural changes",
+   "year": "1998"
+  },
+  "10.24149/gwp99": {
+   "carriers": [
+    "eru-0622"
+   ],
+   "title": "A Cross-Country Quarterly Database of Real House Prices: A Methodological Note",
+   "year": 2011
+  },
+  "10.3386/t0045": {
+   "carriers": [
+    "eru-0622"
+   ],
+   "title": "Testing the Random Walk Hypothesis: Power versus Frequency of Observation",
+   "year": 1985
+  },
+  "10.3386/t0100": {
+   "carriers": [
+    "eru-0622"
+   ],
+   "title": "Pitfalls and Opportunities: What Macroeconomists Should Know About Unit Roots",
+   "year": 1991
+  },
+  "10.3386/w0456": {
+   "carriers": [
+    "eru-0622"
+   ],
+   "title": "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?",
+   "year": 1980
+  },
+  "10.3386/w0945": {
+   "carriers": [
+    "eru-0607",
+    "eru-1155",
+    "eru-1604"
+   ],
+   "title": "Blanchard O. J. andM. W.Watson “Bubbles Rational Expectations and Financial Markets ” NBER Working Paper 945 1983.",
+   "year": null
+  },
+  "10.3386/w11643": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Himmelberg C, Mayer C, Sinai T (2005) Assessing high house prices: bubbles, fundamentals, and misperceptions. NBER Working Paper Series 11643",
+   "year": null
+  },
+  "10.3386/w13318": {
+   "carriers": [
+    "eru-0607"
+   ],
+   "title": "Engel C. N. C.Mark andK. D.West “Exchange Rate Models Are not as Bad as You Think ” technical report National Bureau of Economic Research 2007.",
+   "year": null
+  },
+  "10.3386/w18398": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Brunnermeier MK, Oehmke M (2012) Bubbles, financial crises, and systemic risk. NBER Working Papers 18398, National Bureau of Economic Research, Inc. https://ideas.repec.org/p/nbr/nberwo/18398.html",
+   "year": null
+  },
+  "10.3386/w20771": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Jordà Ò, Schularick MH, Taylor AM (2014) Betting the house. Technical report. Paper presented at the NBER international seminar on macroeconomics",
+   "year": null
+  },
+  "10.3386/w8992": {
+   "carriers": [
+    "eru-0607"
+   ],
+   "title": "Mishkin F. S. andE. N.White “US Stock Market Crashes and Their Aftermath: Implications for Monetary Policy ” technical report National Bureau of Economic Research 2002.",
+   "year": null
+  },
+  "10.3390/en14238085": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Climate risks and the realized volatility oil and gas prices: Results of an out-of-sample forecasting experiment",
+   "year": "2021"
+  },
+  "10.3390/jrfm11020023": {
+   "carriers": [
+    "eru-0749"
+   ],
+   "title": "Long- and Short-Term Cryptocurrency Volatility Components: A GARCH-MIDAS Analysis",
+   "year": "2018"
+  },
+  "10.3390/jrfm15080367": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Bubble in carbon credits during COVID-19: Financial instability or positive impact (‘Minsky’ or ‘Social’)?",
+   "year": "2022"
+  },
+  "10.3390/risks7010025": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "The OFR financial stress index",
+   "year": "2019"
+  },
+  "10.3390/su14063466": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "Deconstruction of the green bubble during COVID-19 international evidence",
+   "year": "2022"
+  },
+  "10.3982/ecta5771": {
+   "carriers": [
+    "eru-1813"
+   ],
+   "title": "The model confidence set",
+   "year": "2011"
+  },
+  "10.5018/economics-ejournal.ja.2013-8": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Dreger C, Kholodilin KA (2013) An early warning system to predict speculative house price bubbles. Econ Open Access Open Asses E J https://doi.org/10.5018/economics-ejournal.ja.2013-8",
+   "year": null
+  },
+  "10.5018/economics-ejournal.ja.2015-28": {
+   "carriers": [
+    "eru-0597"
+   ],
+   "title": "Kholodilin KA, Ulbricht D (2015) Urban house prices: a tale of 48 cities. Econ Open Access Open Assess E J https://doi.org/10.5018/economics-ejournal.ja.2015-28",
+   "year": null
+  },
+  "10.6339/jds.2011.09(2).925": {
+   "carriers": [
+    "eru-1155"
+   ],
+   "title": "Is the Banker a Myth",
+   "year": 2021
+  }
+ },
+ "notes": [
+  "This arm did not run in the registered execution window (2026-08-24/25). It is executed here after the corpus freeze and does not change the included set.",
+  "Single-agent hand-check. No dual screening, no blind adjudication. It is a recall diagnostic, not a screening stage.",
+  "Deposited reference lists were unavailable for 5 of 27 carriers, so the diagnostic itself has bounded coverage."
+ ],
+ "corrections_2026-09-02": {
+  "entered_by": "round-2 audit remediation; protocol amendment A12",
+  "finding_id": "LITERATURE-2-1",
+  "status": "The as-executed fields above are NOT edited. This block records what the executed pass got wrong.",
+  "corrections": [
+   {
+    "field": "candidate_additions[1] (er-bc-2)",
+    "as_executed": "reported as a candidate addition absent from the 1,996-record universe, eligibility indeterminate at retrievable depth",
+    "correction": "WITHDRAWN. The work is in the universe twice: eru-0209 (2013 working paper, title variant \"...Bubbles WITH a Near-Explosive Random Coefficient Model\", no DOI, S2 paperId 0b2057876edebb2a0bc64d9983e9491436579fc7) and eru-1027 (Econometrics Journal 2020, doi 10.1093/ectj/utaa004). Both PROMOTE/PROMOTE at stage 1; at stage 2 eru-0209 EXCLUDE/X7 (\"working-paper twin of eru-1027\") and eru-1027 EXCLUDE/S-c-fail, other screener X6 in both cases, terminal under A3. It is not a recall gap.",
+    "evidence": [
+     "screen-verdicts-R1.jsonl",
+     "screen-verdicts-R2.jsonl",
+     "screen2-verdicts-R1.jsonl",
+     "screen2-verdicts-R2.jsonl",
+     "references_explosive-regime-dating.json (eru-0209, eru-1027)"
+    ]
+   },
+   {
+    "field": "result summary",
+    "as_executed": "2 candidate additions, 6 named near-misses",
+    "correction": "1 candidate addition (er-bc-1), 6 named near-misses"
+   },
+   {
+    "field": "referenced_dois_not_in_universe (177)",
+    "as_executed": "177 of 392 unique referenced DOIs absent from the 1,996-record universe",
+    "correction": "Absent BY DOI OR EXACT NORMALISED TITLE only. The er-bc-2 case shows the test is defeated by a one-word title variant against a store record carrying no DOI (\"in a\" vs \"with a\"). 177 is therefore an UPPER BOUND on genuine absence with unquantified looseness, and the same weakness attaches to the near-miss adjudications and to every reference the pass judged uninteresting."
+   }
+  ],
+  "not_done": "No re-run. The corpus stays frozen at 72 and no screening decision is reopened."
+ }
+}

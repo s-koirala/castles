@@ -1,0 +1,109 @@
+{
+ "query_id": "ka-doc-01",
+ "protocol_query_id": "ka-doc-01",
+ "arm": "documentation-S7",
+ "platform": "doc",
+ "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=Kalshi&per_page=100&order=newest&fields%5B%5D=title&fields%5B%5D=document_number&fields%5B%5D=publication_date&fields%5B%5D=agencies&fields%5B%5D=html_url&fields%5B%5D=type",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": null,
+ "retrieved_count": null,
+ "retry_suffix": null,
+ "raw": {
+  "description": "Documents matching 'Kalshi'",
+  "count": 5,
+  "total_pages": 1,
+  "results": [
+   {
+    "title": "Conflicts and Affiliations",
+    "document_number": "2026-15948",
+    "publication_date": "2026-08-06",
+    "agencies": [
+     {
+      "raw_name": "COMMODITY FUTURES TRADING COMMISSION",
+      "name": "Commodity Futures Trading Commission",
+      "id": 77,
+      "url": "https://www.federalregister.gov/agencies/commodity-futures-trading-commission",
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/77",
+      "parent_id": null,
+      "slug": "commodity-futures-trading-commission"
+     }
+    ],
+    "html_url": "https://www.federalregister.gov/documents/2026/08/06/2026-15948/conflicts-and-affiliations",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Data Reporting Requirements for Certain Event Contracts",
+    "document_number": "2026-13239",
+    "publication_date": "2026-07-01",
+    "agencies": [
+     {
+      "raw_name": "COMMODITY FUTURES TRADING COMMISSION",
+      "name": "Commodity Futures Trading Commission",
+      "id": 77,
+      "url": "https://www.federalregister.gov/agencies/commodity-futures-trading-commission",
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/77",
+      "parent_id": null,
+      "slug": "commodity-futures-trading-commission"
+     }
+    ],
+    "html_url": "https://www.federalregister.gov/documents/2026/07/01/2026-13239/data-reporting-requirements-for-certain-event-contracts",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Prediction Markets; Public Interest Determinations",
+    "document_number": "2026-11854",
+    "publication_date": "2026-06-12",
+    "agencies": [
+     {
+      "raw_name": "COMMODITY FUTURES TRADING COMMISSION",
+      "name": "Commodity Futures Trading Commission",
+      "id": 77,
+      "url": "https://www.federalregister.gov/agencies/commodity-futures-trading-commission",
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/77",
+      "parent_id": null,
+      "slug": "commodity-futures-trading-commission"
+     }
+    ],
+    "html_url": "https://www.federalregister.gov/documents/2026/06/12/2026-11854/prediction-markets-public-interest-determinations",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Fees for Reviews of the Rule Enforcement Programs of Designated Contract Markets and Registered Futures Associations",
+    "document_number": "2025-22807",
+    "publication_date": "2025-12-15",
+    "agencies": [
+     {
+      "raw_name": "COMMODITY FUTURES TRADING COMMISSION",
+      "name": "Commodity Futures Trading Commission",
+      "id": 77,
+      "url": "https://www.federalregister.gov/agencies/commodity-futures-trading-commission",
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/77",
+      "parent_id": null,
+      "slug": "commodity-futures-trading-commission"
+     }
+    ],
+    "html_url": "https://www.federalregister.gov/documents/2025/12/15/2025-22807/fees-for-reviews-of-the-rule-enforcement-programs-of-designated-contract-markets-and-registered",
+    "type": "Rule"
+   },
+   {
+    "title": "Event Contracts",
+    "document_number": "2024-12125",
+    "publication_date": "2024-06-10",
+    "agencies": [
+     {
+      "raw_name": "COMMODITY FUTURES TRADING COMMISSION",
+      "name": "Commodity Futures Trading Commission",
+      "id": 77,
+      "url": "https://www.federalregister.gov/agencies/commodity-futures-trading-commission",
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/77",
+      "parent_id": null,
+      "slug": "commodity-futures-trading-commission"
+     }
+    ],
+    "html_url": "https://www.federalregister.gov/documents/2024/06/10/2024-12125/event-contracts",
+    "type": "Proposed Rule"
+   }
+  ]
+ }
+}

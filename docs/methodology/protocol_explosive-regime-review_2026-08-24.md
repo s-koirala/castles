@@ -818,3 +818,485 @@ amendment time, from se-stage2-crosstable.json: 21 INCLUDE-vs-X6, 132
 EXCLUDE-vs-X6, 16 INCLUDE-vs-EXCLUDE, 20 code-mismatch pairs. This
 amendment weakens dual assessment for exactly the 153 asymmetric records and
 is declared in the review's PRISMA conformance map.
+
+### A4 — 2026-09-02 — output naming (decided pre-execution; entry POST-HOC) — PRISMA-P item 4
+
+Frontmatter `planned_outputs` names
+`docs/literature/lit_review_explosive-regime_{execution-date}.md`. The delivered
+review is `docs/literature/lit_review_explosive-regime-dating_2026-08-24.md`,
+directed by the dispatching session before any query executed. Content,
+structure and scope unchanged; the date component is the protocol/execution
+date, not the synthesis date. **Post-hoc as an addendum entry**: the naming
+decision predates execution, but this entry is written after the affected
+artifact was produced. No screening, extraction or appraisal decision depends
+on it.
+
+### A5 — 2026-09-02 — §8 extraction stage, before the affected texts were read (entry POST-HOC) — PRISMA-P item 11c
+
+Retrieval-cap deviation confined to the three §9.1(i) adjudication carriers.
+Four in-cap retrieval attempts failed for KI-01/KI-02/KI-03. A web search plus a
+Cowles reprint fetch, both outside the declared attempt cap, secured the
+published *IER* texts. The deviation was decided before those texts were read;
+it does not touch the topical, forward-citation or known-item arms, and no
+record entered or left the universe because of it. **Post-hoc as an addendum
+entry.**
+
+### A6 — 2026-09-02 — extraction stage (entry POST-HOC, after the affected appraisal entries were made) — PRISMA-P items 11c, 14
+
+§4.3's dual re-extraction ran (`se-extraction-primary.jsonl`, 72 record rows;
+`se-extraction-recheck.jsonl`, 65 rows of which 63 substantive), but the
+prescribed reconciliation of mismatches **against the source text** did not.
+Comparing the two passes on the 51 records where both answered Q1–Q7 gives 90
+divergent cells out of 357 (25.2%). No reconciliation artifact exists (protocol
+defect I-6: §4.3 names none). The review substitutes a declared conservative
+ordering rule (`no` > `unclear` > `partial` > `yes`, marked with a dagger;
+divergence never resolved toward lower concern) applied uniformly to all 90
+cells without reopening any source. **This amendment is logged after the
+affected appraisal entries were made and says so, per §10.** Consequence carried
+in the review: the ER-RoB v1 profile is convention-resolved, not
+source-adjudicated, and may not be cited as an adjudicated appraisal.
+
+### A7 — 2026-09-02 — appraisal stage (entry POST-HOC, after the affected appraisal entries were made) — PRISMA-P item 14
+
+**Response-scale extension to the frozen instrument ER-RoB v1.** §6 declares the
+signalling-question response scale as three levels — "answered yes / no /
+unclear per included study". Execution used a **four-level** scale by adding
+`partial`, in **50 of the 585 answered Q-cells** (Q1 2, Q2 3, Q3 1, Q4 8, Q5 2,
+Q6 1, Q7 1, Q8 3, Q9 29). No amendment was requested at the time, and the review
+as first delivered asserted at §2.7 that no domain or question was added,
+dropped or reworded — true of the domains and the questions, false of the
+response scale.
+
+Where `partial` sits in the frozen concern rule: **nowhere.** §6's rule raises a
+domain's concern on `no` or `unclear` and is silent on `partial`, so every
+domain judgment resting on a `partial` cell rests on an undeclared convention.
+Fixed here, retrospectively and labelled `CONVENTION`, so that the rule is at
+least stated: **`partial` is treated as not-`yes` and therefore raises the
+domain's concern**, the same direction the §2.8 resolution rule takes. This
+CONVENTION is declared, not validated; it is the direction-safe reading, and it
+is applied only in the rule-derived domain column the review now reports
+alongside the extractor's judgment (§6, §6.1). It does not alter any recorded Q
+cell. Domain cells whose only non-`yes` input is `partial` are counted and
+reported separately from those with a `no` or `unclear` input, so a reader who
+rejects this CONVENTION can subtract them.
+
+**Post-hoc**: the affected appraisal entries were all made before this entry.
+
+### A8 — 2026-09-02 — appraisal stage (entry POST-HOC) — PRISMA-P item 14
+
+**Departure from §6's Q-to-D concern rule.** §6 states: "'no' or 'unclear' on
+any question in a domain raises that domain's concern." The delivered appraisal
+records domain concerns as the primary extractor's own judgments, not as
+mechanical derivations from the Q cells, and the review as first delivered
+described the consequence as affecting "a few cells". Recount over the 72
+appraisal rows with §6's domain-to-question map (D1 from Q1, D2 from Q2, D3 from
+Q3 and Q4, D4 from Q5, D5 from Q6, D6 from Q7, D7 from Q8, D8 from Q9): **31
+domain cells are recorded `low` although a question in that domain is answered
+other than `yes`** — 22 of them with a `no` or `unclear` input (D3 13, D4 6,
+D5 2, D6 1), which the frozen rule decides directly, and 9 whose only non-`yes`
+input is `partial` (D3 8, D4 1), which the frozen rule does not decide and A7's
+CONVENTION does. A further **13 cells run the other way**: recorded `unclear` or
+`high` where every answered question in the domain is `yes` (D3 1, D4 7, D5 5).
+Both directions are departures; the first direction is the lenient one and is
+the one that matters, because it runs against the direction-safe posture the
+review adopts everywhere else.
+
+The rule is not restored retroactively over the recorded judgments — the
+appraisal is frozen with the corpus. Instead the review reports **both** columns:
+the mechanically rule-derived domain judgment and the extractor's recorded
+judgment, with per-domain divergence counts and every divergent cell marked. The
+corpus-level concern profile and the abstract's D-domain claims are restated on
+the rule-derived column, with the recorded-judgment column as sensitivity.
+
+**Post-hoc**: the affected appraisal entries were all made before this entry.
+
+### A9 — 2026-09-02 — screening stage (entry POST-HOC) — PRISMA-P items 8, 9, 11c
+
+**§9.1's force-screening requirement was not executed.** §9.1's final paragraph
+requires records (ii)-(iv) — NB-02 `10.21314/jor.2002.058`, NB-08
+`10.1017/jpr.2017.20`, NB-13 `10.1016/j.jfs.2008.08.001` — to be "force-screened
+into the record universe regardless of query recall". None of the three DOIs
+appears in `screen-verdicts-R1.jsonl`, `screen-verdicts-R2.jsonl`,
+`screen-verdicts-ADJ.jsonl` or the 1,996-record candidate store; they appear
+only in `se-nb-adjudications.json` and `protocol-doicheck.json`. They were
+adjudicated directly as out-of-corpus targets in the review's §9 without ever
+entering the screened universe.
+
+Consequences, recorded rather than repaired: the identification count 4,898 and
+the deduplicated universe 1,996 **exclude** all three; the review's §3.1 flow
+and its §3.2 statement that "the flow reconciles exactly with the logs at every
+stage" hold over the universe as executed, but that universe is three records
+short of the one §9.1 prescribes; and no screening verdict with a criterion
+identifier exists for any of the three, so their eligibility failure is
+documented only by the §9 full-text adjudications (all three fail S-a, S-b and
+S-c on full text). The substantive verdicts are unaffected — all three would
+have been excluded — but the audit trail §9.1 requires does not exist and cannot
+be manufactured after the fact. The corpus is frozen and is not re-screened.
+
+**Post-hoc**: the affected screening decisions were all made before this entry.
+
+### A10 — 2026-09-02 — screening stage (entry POST-HOC) — PRISMA-P items 8, 11c
+
+**Two frozen eligibility rules were applied differently from their written form,
+inside the frozen included set.**
+
+(a) **§2.2 I3.** I3 requires a DOI, arXiv ID or Handle-System handle and states
+that a record failing it "is excluded and logged with its best locator (FAIR F1
+gap), not silently dropped". **Seven** included records carry none of the three:
+`eru-0100`, `eru-0112`, `eru-0154`, `eru-0268`, `eru-0427`, `eru-0904`,
+`eru-1310`. All seven entered by the A3 single-screener path and were included
+rather than excluded-with-logging. Two of the seven (`eru-0154`, `eru-0904`) are
+same-work twins whose carriers (`eru-0126`, `eru-1526`) do carry DOIs; **a twin
+does not inherit its carrier's identifier for I3 purposes** — I3 is a property of
+the record, and each twin is a distinct record in the frozen set with its own
+row, its own contribution to every count, and its own FAIR F1 obligation. Best
+locators (the Semantic Scholar `paperId` in each store entry's `custom` block)
+are recorded for all seven.
+
+(b) **§2.3 X7.** Three same-work twins survive deduplication inside the included
+set: `eru-0622` (carrier `eru-0675`), `eru-0154` (carrier `eru-0126`),
+`eru-0904` (carrier `eru-1526`). Under X7 they should have been merged at §4.1.
+Each is extracted once, under its carrier, so no operating characteristic is
+double-counted, but the included set is **72 records / 69 distinct works** and
+every record-level count overstates the number of works by three.
+
+Neither is repaired: the corpus is frozen at 72 and this review does not
+re-screen it. Both are carried in the review's limitations, its verification
+gaps and its denominators.
+
+**Post-hoc**: the affected screening decisions were all made before this entry.
+
+### A11 — 2026-09-02 — supplementary search, executed AFTER corpus freeze (execution and entry both POST-HOC) — PRISMA-P items 9, 10, 11c
+
+**Backward citation-chasing (`er-bc-*`) — not run in the registered execution
+window; executed here as a post-freeze recall diagnostic, with the corpus left
+frozen.**
+
+§3.3 prescribes hand-checking the reference lists of INCLUDED I2b comparison and
+simulation studies for in-scope detectors not yet retrieved, each addition
+logged with its carrier as `er-bc-{n}`. No `se-bc-*` log existed at the
+2026-08-24/25 execution dates and no included record carries a backward-chase
+provenance; the arm did not run. The review recorded that as a MAJOR
+protocol-vs-execution gap (L-5, VG-4) but left it open.
+
+Executed 2026-09-02 over the 27 I2b-bearing included records (I2b 24,
+I2a-or-I2b 2, I2b-or-I2c 1), logged at
+`docs/literature/search_logs/explosive-regime/se-bc-01.json`:
+
+- **Retrieval-route deviation, declared.** §3.3 says "hand-checked", which
+  implies the reference list of the source document. Reference lists were taken
+  instead from **publisher-deposited metadata** — Crossref `reference` arrays
+  (18 carriers) and, where Crossref carried none, OpenAlex `referenced_works`
+  (4 carriers). Deposited reference lists are not guaranteed complete and omit
+  every uncited-but-relevant work by construction; this is a weaker instrument
+  than reading the source PDFs.
+- **Carrier coverage 22 of 27.** Five carriers yielded no deposited reference
+  list at either platform: `eru-0813`, `eru-1289`, `eru-1770`, `eru-0268`,
+  `eru-1310` (the last two have no persistent identifier at all — A10(a)).
+- **Yield.** 392 unique referenced DOIs; 177 not present in the 1,996-record
+  deduplicated universe by DOI or normalised title; hand-checked at title and,
+  where retrievable, abstract depth against §2.1's S-a/S-b/S-c.
+- **Result: 2 candidate additions, 6 named near-misses.** Candidates —
+  `er-bc-1` Hall, Psaradakis & Sola (1999), *Detecting periodically collapsing
+  bubbles: a Markov-switching unit root test*, *Journal of Applied Econometrics*
+  14(2), DOI `10.1002/(SICI)1099-1255(199903/04)14:2<143::AID-JAE500>3.0.CO;2-X`
+  (carriers `eru-0463`, `eru-0526`, `eru-1509`); `er-bc-2` Banerjee, Chevillon &
+  Kratz (2013), *Detecting and Forecasting Large Deviations and Bubbles in a
+  Near-Explosive Random Coefficient Model*, DOI `10.2139/ssrn.2322360` (carrier
+  `eru-0604`). Near-misses with their exclusion reasons are enumerated in the
+  log.
+- **Neither candidate is admitted.** The included set is frozen at 72 by commit
+  `8aeebfe` and this pass does not re-open it; admitting a record after freeze
+  would require re-running dual screening over a changed universe. The two
+  candidates are therefore carried as **named, bounded recall gaps** rather than
+  as the unbounded gap the review previously reported, and a successor pass that
+  unfreezes the corpus inherits them.
+
+**Post-hoc in both senses**: the arm ran after the corpus was frozen, and this
+entry is written after that run.
+
+### A12 — 2026-09-02 (round-2 correcting entry) — appraisal and supplementary search (entry POST-HOC) — PRISMA-P items 9, 11c, 14
+
+**Two figures inside earlier addendum entries are wrong. §10 makes this
+addendum append-only, so A7 and A11 are not edited; they are corrected here and
+each carries a pointer in the review's §12.5 table.**
+
+**(a) A7's response-scale denominator: 585 is wrong; the figure is 561.**
+A7 records the `partial` extension as "50 of the 585 answered Q-cells". 585 is
+65 records × 9 questions, which counts as answered the 24 Q8/Q9 cells of the 12
+records read only at the re-extraction pass — cells the review's own §6 table
+shows as `n/a` and whose denominator §6.1 fixes at 53. The count of answered,
+non-`n/a`, non-twin Q-cells is
+
+    65 × 7 (Q1-Q7)  +  53 × 2 (Q8, Q9)  =  455 + 106  =  561,
+
+so the response-scale deviation is **50 of 561 = 8.9%**, not 50 of 585 = 8.5%.
+Exclusion classes by name: 4 records with no full text at any stage, 3 same-work
+twins appraised under their carriers, and the 12 recheck-only records on Q8/Q9
+only. **The 50-cell numerator and its per-question split (Q1 2, Q2 3, Q3 1,
+Q4 8, Q5 2, Q6 1, Q7 1, Q8 3, Q9 29) are unchanged** and reconcile cell for cell
+with the `partial` column of the review's §6.1. Nothing in A7's CONVENTION
+(`partial` counts as not-`yes`) changes; only its denominator does. The error
+was the assessable-denominator discipline of the review's §6.1 not being carried
+into the amendment that records the deviation.
+*(Round-2 findings QUANT-2-1, REV-2-12.)*
+
+**(b) A11's yield: 1 candidate addition, not 2. `er-bc-2` is in the universe.**
+A11 records the post-freeze backward-chase arm as surfacing "2 candidate
+additions", the second being `er-bc-2` Banerjee, Chevillon & Kratz (2013),
+*Detecting and Forecasting Large Deviations and Bubbles in a Near-Explosive
+Random Coefficient Model*, DOI `10.2139/ssrn.2322360`, described as a record the
+frozen corpus does not contain whose eligibility is "indeterminate at
+retrievable depth". **That is false.** The same work is in the 1,996-record
+deduplicated universe twice and was dual-screened at both stages:
+
+- `eru-0209` — *"Detecting and Forecasting Large Deviations and Bubbles WITH a
+  Near-Explosive Random Coefficient Model"*, 2013, no DOI, Semantic Scholar
+  `paperId` `0b2057876edebb2a0bc64d9983e9491436579fc7`. Stage 1: PROMOTE
+  (`screen-verdicts-R1.jsonl`) and PROMOTE (`screen-verdicts-R2.jsonl`).
+  Stage 2: `EXCLUDE`, criterion **X7**, note "working-paper twin of eru-1027
+  (near-explosive random coefficient forecasting)" (`screen2-verdicts-R1.jsonl`);
+  `X6` from the other screener; terminal under A3.
+- `eru-1027` — *Probabilistic forecasting of bubbles and flash crashes*,
+  Banerjee/Chevillon/Kratz, *Econometrics Journal* 2020, DOI
+  `10.1093/ectj/utaa004`, with a full deposited abstract of the same NERC model.
+  Stage 1: PROMOTE / PROMOTE. Stage 2: `EXCLUDE`, criterion **S-c-fail**, note
+  "NERC predictive-probability model (ESSEC WP twin); no null-referenced time-t
+  decision"; `X6` from the other screener; terminal under A3.
+
+So the work was screened and excluded on substantive criteria, not missed. It is
+**not** a recall gap and is withdrawn from A11's candidate list. The arm's yield
+of records the corpus does not contain is **`er-bc-1` alone**.
+
+**(c) Sub-note on A11's absence test, because (b) is evidence about the
+instrument and not only about one record.** A11 matched referenced DOIs against
+the universe **by DOI or by exact normalised title**. `er-bc-2`'s DOI
+(`10.2139/ssrn.2322360`) is genuinely absent from the store, and the two
+normalised titles differ by exactly one word — "…Bubbles **in** a
+Near-Explosive…" versus "…Bubbles **with** a Near-Explosive…" — so neither key
+fired against a store record that carries no DOI of its own. Consequences,
+recorded rather than repaired:
+
+- A11's headline "392 unique referenced DOIs; **177 absent** from the
+  1,996-record universe" means absent *by those two keys*. It is an **upper
+  bound** on genuine absence, and its looseness is unquantified: one of the two
+  records A11 escalated out of that pool was already in the corpus.
+- The same weakness attaches to A11's *negative* results — the references it
+  judged uninteresting and the 6 named near-misses — since they were adjudicated
+  against the same universe by the same keys.
+- No re-run is performed. The corpus stays frozen at 72, A11's log
+  `se-bc-01.json` is left as executed with a `corrections_2026-09-02` block
+  appended to it recording this entry, and a successor pass that unfreezes the
+  corpus inherits a diagnostic whose recall is bounded from below only.
+
+*(Round-2 finding LITERATURE-2-1.)*
+
+**Post-hoc**: this entry corrects entries that were themselves post-hoc, and is
+written after both the affected appraisal entries and the affected search pass.
+
+### A13 — 2026-09-02 (round-2 correcting entry) — screening, and the §9.1 verdict vocabulary (entry POST-HOC) — PRISMA-P items 8, 11c
+
+**(a) A10(b)'s no-double-counting assurance was stated too broadly.** A10(b)
+says of the three surviving same-work twins: "Each is extracted once, under its
+carrier, so no operating characteristic is double-counted." True as far as the
+review's §7 evidence tables go — those cite the carrier record and its table or
+equation, never the twin. **False of the review's record-level distributions.**
+`eru-0154` (O6 `CS`, PSY lineage), `eru-0904` (O6 `CS`, PSY lineage) and
+`eru-0622` (O6 `FS`, other lineage) each carry codes inherited from their
+carriers, so the distributions in the review's §4, §7.6 and §10.2 counted those
+three works a second time. Corrected counts over the **69 distinct works**:
+
+- O6: RT 22 / FS 21 / CS 17 / SPLIT 3 / NS 2 / NE 4 (record-level: 22/22/19/3/2/4).
+- authorship lineage: PSY 19 / HLTA 16 / other 34 (record-level: 21/16/35).
+- evidence tier: peer-reviewed 53 / working paper 10 / preprint 4 / other 2
+  (record-level: 53/13/4/2 — all three twins are working-paper tier).
+- study type: I2a 41 / I2b 23 / I2a+I2b 2 / I2c 2 / I2b+I2c 1.
+- E14 code-or-data: "not extracted" 16 (record-level 19; the three twins sit in
+  that class).
+
+The assurance is narrowed in the review to "no operating characteristic **in the
+§7 evidence tables** is double-counted", and the distinct-work column is given
+beside the record column at all three sites. The frozen corpus is not
+re-screened and no record's code is altered. *(Round-2 finding REV-2-3.)*
+
+**(b) A fourth same-work twin pair exists inside the frozen included set, is
+PROBABLE rather than confirmed, and was never adjudicated.** A10(b) enumerates
+three twin pairs. The project's own extraction logs document a fourth:
+
+- `se-extraction-primary.jsonl` for `eru-0259` (Franses, *A simple test for a
+  bubble based on growth and acceleration*, *CSDA* 100:160–169,
+  `10.1016/j.csda.2014.06.006`) records `fulltext_status` = "journal PDF
+  unobtainable … content extracted from the probable working-paper twin
+  `eru-0198`", `rob` = "see eru-0198; not independently applied to the journal
+  text", and the note "**PROBABLE SAME-WORK TWIN PAIR** (eru-0198 WP, eru-0259
+  journal): abstracts near-identical …; titles differ so the section-4.1 title
+  rule does not fire … recorded as probable-twin for the review's dedup ledger
+  to adjudicate."
+- `se-extraction-recheck.jsonl` records `eru-0198` as `{"twin_of":"eru-0259"}`
+  and carries the Q1–Q7 answers for `eru-0259` taken from the EI Report 2013-12
+  text.
+
+**The adjudication the primary extractor asked for never happened.** Consequences
+as they stand in the frozen set:
+
+- Both records carry independent appraisal rows in the review's §6 (rows 4 and
+  64) with divergent cells — Q4 `no` vs `partial` and Q7 `yes` vs `no` — and both
+  count in the Q1–Q7 assessable denominator of 65.
+- Those two rows are **two passes over one document**: row 4 (`eru-0259`) is
+  marked single-pass *recheck only* and row 64 (`eru-0198`) single-pass *primary
+  only*, and §5.4 records that `eru-0259`'s extraction was performed on
+  `eru-0198`'s text. The Q4/Q7 divergence between them is therefore an
+  inter-pass divergence on the same text that the review's 90-of-357 count does
+  **not** include, because that count runs over the 51 records where one record
+  id was answered by both passes. Both divergent questions are the two
+  ER-RoB v1 items L-11 names as ambiguous.
+- Neither store entry carries a twin note.
+
+**Why this is not simply declared a fourth X7 twin.** The pair fails the
+§4.1 exact-normalised-title rule (the titles are genuinely different), the two
+records' own titles describe the test differently, and — decisively — **the
+journal text was never obtained**, which is why the extraction was substituted in
+the first place (L-10, VG-6). Same-work identity therefore cannot be established
+at the depth available; the review will not assert it and will not assert its
+negation. What is recorded instead: **72 records are 69 distinct works if this
+pair is two works, and 68 if it is one**, and the pair's two appraisal rows are
+not independent evidence whichever it is. Carried as a verification gap in the
+review's §12.3 (VG-13). The corpus is frozen and is not re-screened.
+*(Round-2 finding SCOPE-2-3.)*
+
+**(c) The §9.1 verdict-vocabulary scope qualifier used on NB-13 is a CONVENTION
+of the review, not of this protocol.** The review ships NB-13's verdict as
+`episode-statistic-null` **— PROVISIONAL ON THE WORKING-PAPER TWIN**. §9.1 fixes
+the verdict vocabulary as `assignment-null` / `episode-statistic-null` / `mixed`
+/ `indeterminate-from-full-text` and defines **no** scope qualifier. Registered
+here, on the A7 precedent that an extension the frozen instrument is silent
+about must be recorded as a numbered amendment:
+
+- **What it is.** A scope label on the *adjudicated object* — the verdict is
+  established for IIIS DP 122 (2006) and extended to *J. Financial Stability*
+  5(4):339–352 (2009) by an absence-of-evidence inference. It is not a fifth
+  verdict token; the token stays inside the frozen vocabulary and unaltered.
+- **Why `indeterminate-from-full-text` was not used instead.** A full text was
+  read and it did decide, under §9.1(iv)'s pre-specified criterion, which rules
+  full-sample coefficient tests that induce day labels `episode-statistic-null`
+  in advance and by name. The ambiguity is about *which version* the label
+  attaches to, not about whether the text read decided.
+- **And here is the part the review previously got wrong.** Its justification
+  asserted that "the protocol's verdict vocabulary contains
+  `indeterminate-from-full-text` for the case where a full text was read and did
+  not decide." **§9.1 says no such thing.** It defines `assignment-null` and
+  `episode-statistic-null` at length and then lists `mixed` and
+  `indeterminate-from-full-text` as bare tokens with no gloss at all. The
+  definition on which the adjudication turns is the review's own reading
+  presented as frozen text. It is relabelled a **CONVENTION of the review**, and
+  the frozen protocol is recorded as deciding **neither** the meaning of its two
+  undefined tokens **nor** the version-mismatch case. A reader who rejects the
+  convention may read NB-13 as `indeterminate-from-full-text` on the journal
+  version; the underlying evidence in the review's §9.3 is unchanged either way.
+- **Post-hoc, and PRISMA-P item 11c.** The qualifier was applied when §9.3 was
+  written; this entry follows it.
+
+*(Round-2 findings REV-2-4, LITERATURE-2-6.)*
+
+**Post-hoc**: all three parts correct or register decisions already made.
+
+
+### A14 — 2026-09-02 (round-3 correcting entry) — the twin-declaration standard, the §9.1 adjudication evidence, and the digest convention (entry POST-HOC) — PRISMA-P items 8, 11c, 27
+
+**(a) A13(b) refused to adjudicate the fourth twin pair on a ground the review
+does not apply to the three pairs it did adjudicate. The ground is withdrawn;
+the standard is stated; the refusal is relabelled OPERATIONAL.** A13(b) declined
+to declare `eru-0198` / `eru-0259` a same-work twin pair because "the journal
+text was never obtained". That ground does not distinguish this pair from
+`eru-0622` / `eru-0675`, which the review **does** declare a twin pair and whose
+journal text was likewise never read — the review's own §5.3 says extraction there
+was "performed once on the WP text". Nor does the title-mismatch objection
+distinguish it: `eru-0904` / `eru-1526` is declared a twin pair and its titles
+differ too.
+
+- **The standard actually applied to the three declared pairs, registered here as
+  a CONVENTION of the review because §4.1 states no such rule** (§4.1 fixes only
+  the mechanical exact-normalised-title dedup key): a same-work twin declaration
+  rests on **documentary evidence recorded at extraction — same author line, same
+  subject, and a documented working-paper-to-journal chain — with only one of the
+  two texts read**. It is *not* a side-by-side reading of both full texts.
+- **`eru-0198` / `eru-0259` meets that standard**: sole author Philip Hans
+  Franses on both; the same growth-versus-acceleration imbalance test on
+  (1−L²)-differenced data via recursive residuals; an explicit Econometric
+  Institute Report 2013-12 → *CSDA* 100:160–169 chain.
+- **Consequence, stated in the form the review now uses**: 72 records are
+  **69** distinct works as the review's arithmetic runs, and **68** under the
+  uniform standard. The review does **not** renumber to 68, and the reason is
+  **operational, not evidential**: the three declared pairs were given
+  carrier/twin treatment at extraction (one extraction, one appraisal row, the
+  twin subtracted from every assessable denominator), while this pair was
+  extracted and appraised twice and both rows count in the 65-record assessable
+  denominator. Renumbering would re-derive that denominator, §6's rows, §6.1's
+  per-domain distributions and every "of 65" fraction in §7 — a re-appraisal of a
+  frozen corpus, not a bookkeeping correction. The corpus is frozen and is not
+  re-screened.
+- **A13(b)'s sentence "same-work identity therefore cannot be established at the
+  depth available" is withdrawn as the reason.** A13's text is not edited because
+  the addendum is append-only.
+
+**(b) A supporting claim inside the review's §5.4 is withdrawn as
+irreproducible.** §5.4 stated "Twin status was verified against the published
+article's indexed abstract". That sentence transcribes the recheck extraction
+log's `doc` field. **The abstract it names is not retained and is not now
+retrievable**: `eru-0259` carries no `abstract` field in the 1,996-record
+candidate store (only `eru-0198` does), and on 2026-09-02 the *CSDA* article's
+abstract is not deposited in Crossref, not present in OpenAlex (`W2007843530`)
+and not present in Semantic Scholar — all three queried on this pass and logged
+in `se-verify-r3-01.json`. The primary extraction log, written by the other pass,
+records the pair as "PROBABLE". The review adopts the weaker of the two logs'
+claims and withdraws the sentence.
+
+**(c) The §9.1(ii)–(iv) adjudication evidence has now been re-read, and one
+cited result was misattributed.** A9 records that NB-02, NB-08 and NB-13 never
+entered the screened universe, so their eligibility failures and their verdicts
+rest on §9's full-text reading alone. That reading was a single-session
+transcription until this round. All three texts were re-fetched on 2026-09-02 —
+a third fetch, digests byte-identical to rounds 1 and 2 — and re-read:
+
+- **Fourteen quoted strings verify verbatim**; every §9 verdict and every
+  eligibility judgment is unaffected.
+- **Four page locators were wrong or loose** (three in NB-02, one in NB-13).
+- **One result was misattributed**: the drawdown stopping-time law the review
+  derives TC-6 from is NB-08's **Theorem 1 (p.609)**, not "Theorem 3.1"; the only
+  occurrence of the string "Theorem 3.1" in that paper is a citation to another
+  work (reference [23], p.613). A successor following the review's reference
+  would have landed on a different paper's theorem.
+
+All are corrected in the review at §9.1, §9.2, §9.3, §9.5 and TC-6 and tabulated
+in its L-20. The evidence base A9 flags as thin is therefore now verified rather
+than merely disclosed, with the single exception recorded in the review's L-20:
+one sentence quoted in §9.3 is attributed to the journal abstract, which was
+never obtained (VG-3), and remains unverified.
+
+**(d) CONVENTION: every SHA-256 this review publishes for a `.json` evidence log
+is taken over LF-normalised bytes.** The digests round 2 published for
+`se-crossref-recheck-01.json` and `se-fetch-recheck-01.json` were computed over
+CRLF working-tree bytes on a Windows host, while `.gitattributes` forces
+`*.json text eol=lf`. Git therefore stores and checks out those files with LF on
+every platform, and **no consumer of the committed repository could have
+reproduced the published digests**. The two logs are rewritten with LF
+terminators (line endings only; no field value changed), `se-bc-01.json` with
+them, and the digests are republished:
+
+| log | superseded (CRLF) | published (LF) |
+|---|---|---|
+| `se-crossref-recheck-01.json` | `cb9b0c26…` | `9457d3de7e3e3e60cc2b5832785b0b8b6da462153a627ddc69e29f72cd77ac9d` |
+| `se-fetch-recheck-01.json` | `30b69960…` | `f93061d1871baab9f6e4af534227fef0c6158684417c987747132895192b43a9` |
+| `se-bc-01.json` | (never published) | `75f36b547b305857e6af20a8127c0f0cbdb83df655749ee22e51e6ee052c2a9f` |
+| `se-verify-r3-01.json` (new, this round) | — | `a92fae17c041674094c0cfdb7753b18ef54da6fabb5c8ffb4cb68adc945a44bf` |
+
+**`se-extraction-recheck.jsonl` is deliberately excluded.** `.gitattributes`
+gives `*.jsonl` only `text=auto` with `eol` unspecified, and `core.autocrlf` is
+`true` on the execution host, so its checkout form is platform-dependent. **No
+SHA-256 is published for it, and none may be published until
+`*.jsonl text eol=lf` is added to `.gitattributes`** — a repository-maintenance
+action outside this review's scope, recorded in the review's §12.3.
+
+**Post-hoc**: all four parts correct, withdraw or register decisions already
+made. *(Round-3 findings LITERATURE-3-2, QUANT-3-5, REV-3-5, QUANT-3-4,
+REPRODUCIBILITY-3-2.)*

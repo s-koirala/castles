@@ -1,0 +1,2536 @@
+[
+  {
+    "id": "eru-0131",
+    "type": "article-journal",
+    "title": "EXPLOSIVE BEHAVIOR IN THE 1990s NASDAQ: WHEN DID EXUBERANCE ESCALATE ASSET VALUES?*",
+    "author": [
+      {
+        "family": "Phillips",
+        "given": "Peter C. B."
+      },
+      {
+        "family": "Wu",
+        "given": "Yangru"
+      },
+      {
+        "family": "Yu",
+        "given": "Jun"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "International Economic Review",
+    "DOI": "10.1111/j.1468-2354.2010.00625.x",
+    "abstract": "A recursive test procedure is suggested that provides a mechanism for testing explosive behavior, date stamping the origination and collapse of economic exuberance, and providing valid confidence intervals for explosive growth rates. The method involves the recursive implementation of a right-side unit root test and a sup test, both of which are easy to use in practical applications, and some new limit theory for mildly explosive processes. The test procedure is shown to have discriminatory power in detecting periodically collapsing bubbles, thereby overcoming a weakness in earlier applications of unit root tests for economic bubbles. An empirical application to the Nasdaq stock price index in the 1990s provides confirmation of explosiveness and date stamps the origination of financial exuberance to mid-1995, prior to the famous remark in December 1996 by Alan Greenspan about irrational exuberance in the financial market, thereby giving the remark empirical content. How do we know when irrational exuberance has unduly escalated asset values? (Alan Greenspan, 1996) Experience can be a powerful teacher. The rise and fall of internet stocks, which created and then destroyed $8 trillion of shareholder wealth, has led a new generation of economists to acknowledge that bubbles can occur. (Alan Krueger, 2005)",
+    "custom": {
+      "source_arms": [
+        "se-ki-01",
+        "se-openalex-03",
+        "se-s2-02-c"
+      ],
+      "openalex_id": "W2139238934",
+      "s2_paper_id": "272735f4158f169ba8eafbc6ba0699c4b6cf527c",
+      "known_item": "KI-01",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0150",
+    "type": "article-journal",
+    "title": "Testing for Speculative Bubbles in Stock Markets: A Comparison of Alternative Methods",
+    "author": [
+      {
+        "family": "Homm",
+        "given": "U."
+      },
+      {
+        "family": "Breitung",
+        "given": "J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "Journal of Financial Econometrics",
+    "DOI": "10.1093/jjfinec/nbr009",
+    "abstract": "We propose several tests for rational bubbles and investigate their power properties. The focus lies on the case where bubble detection is reduced to testing for a unknown change from a random walk to an explosive process. In simulations, a Chow-type break test exhibits the highest power and performs well relative to the power envelope. The Chow-type procedure also provides a reliable estimator for the break date. Furthermore, we suggest monitoring procedures for detecting speculative bubbles in real time. As applications, we analyze the Nasdaq composite index and various other financial time series.",
+    "custom": {
+      "source_arms": [
+        "se-crossref-08",
+        "se-fc-oa-pwy",
+        "se-fc-s2-pwy",
+        "se-ki-04"
+      ],
+      "openalex_id": "W2042969518",
+      "s2_paper_id": "bac6cbd911c28ed825f028608558ea724d93cf38",
+      "known_item": "KI-04",
+      "included_set_path": "dual-include",
+      "i2_type": "I2b"
+    }
+  },
+  {
+    "id": "eru-0238",
+    "type": "article-journal",
+    "title": "Specification Sensitivity in Right‐Tailed Unit Root Testing for Explosive Behaviour",
+    "author": [
+      {
+        "literal": "Peter C.B. Phillips"
+      },
+      {
+        "literal": "Shuping Shi"
+      },
+      {
+        "literal": "Jun Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "container-title": "Oxford Bulletin of Economics and Statistics",
+    "DOI": "10.1111/obes.12026",
+    "abstract": "Abstract This article aims to provide some empirical guidelines for the practical implementation of right‐tailed unit root tests, focusing on the recursive right‐tailed ADF test of Phillips et al . (2011b). We analyze and compare the limit theory of the recursive test under different hypotheses and model specifications. The size and power properties of the test under various scenarios are examined and some recommendations for empirical practice are given. Some new results on the consistent estimation of localizing drift exponents are obtained, which are useful in assessing model specification. Empirical applications to stock markets illustrate these specification issues and reveal their practical importance in testing.",
+    "custom": {
+      "source_arms": [
+        "se-crossref-03",
+        "se-fc-oa-pwy",
+        "se-fc-s2-pwy",
+        "se-s2-02-c"
+      ],
+      "openalex_id": "W1706984740",
+      "s2_paper_id": "21e244ab8ae1a0e2d902e5ed6d901dc82c568789",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0259",
+    "type": "article-journal",
+    "title": "A simple test for a bubble based on growth and acceleration",
+    "author": [
+      {
+        "literal": "Philip Hans Franses"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Computational Statistics & Data Analysis",
+    "DOI": "10.1016/j.csda.2014.06.006",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-pwy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W2007843530",
+      "s2_paper_id": "8e1952a9a70acd1ee1e22f7db73d993eddada950",
+      "included_set_path": "dual-include",
+      "i2_type": "I2b"
+    },
+    "note": "PROBABLE UNADJUDICATED SAME-WORK TWIN of eru-0198 (Franses, 'Are we in a bubble? A simple time-series-based diagnostic', Econometric Institute Report 2013-12, hdl:1765/39598). The journal PDF was unobtainable and this record's extraction was performed on eru-0198's text (se-extraction-primary.jsonl fulltext_status; review section 5.4, L-10, VG-6). The primary extractor flagged the pair as a probable twin for adjudication and the adjudication never ran, so same-work identity is unsettled: 72 records are 69 distinct works if the pair is two works and 68 if it is one (VG-13, protocol amendment A13(b)). Numbers attributed to this record are the working paper's numbers. Added 2026-09-02 by the round-2 audit remediation; no field other than this note was altered."
+  },
+  {
+    "id": "eru-0348",
+    "type": "article-journal",
+    "title": "Fixed and Recursive Right-Tailed Dickey–Fuller Tests in the Presence of a Break under the Null",
+    "author": [
+      {
+        "literal": "Robert Sollis"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "Journal of Time Series Econometrics",
+    "DOI": "10.1515/jtse-2013-0004",
+    "abstract": "Abstract Right-tailed Dickey–Fuller-type unit root tests against the explosive alternative have become popular in economics and finance for detecting asset price bubbles. This paper studies the size properties of fixed sample and recursive right-tailed Dickey–Fuller tests if the relevant series contains a unit root, but a structural break in the drift parameter occurs. It is shown that positive size distortion and therefore spurious rejections of the unit root null hypothesis in favour of the explosive alternative can be a problem for both types of test. Some possible solutions to this problem are briefly discussed.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-pwy",
+        "se-fc-s2-pwy",
+        "se-s2-02-c"
+      ],
+      "openalex_id": "W2337910541",
+      "s2_paper_id": "02fc94af9fa4661d4ddc60ba752133308d4a2647",
+      "included_set_path": "dual-include",
+      "i2_type": "I2b"
+    }
+  },
+  {
+    "id": "eru-0393",
+    "type": "article-journal",
+    "title": "TESTING FOR MULTIPLE BUBBLES: HISTORICAL EPISODES OF EXUBERANCE AND COLLAPSE IN THE S&amp;P 500",
+    "author": [
+      {
+        "family": "Phillips",
+        "given": "Peter C. B."
+      },
+      {
+        "family": "Shi",
+        "given": "Shuping"
+      },
+      {
+        "family": "Yu",
+        "given": "Jun"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "International Economic Review",
+    "DOI": "10.1111/iere.12132",
+    "abstract": "Recent work on econometric detection mechanisms has shown the effectiveness of recursive procedures in identifying and dating financial bubbles in real time. These procedures are useful as warning alerts in surveillance strategies conducted by central banks and fiscal regulators with real‐time data. Use of these methods over long historical periods presents a more serious econometric challenge due to the complexity of the nonlinear structure and break mechanisms that are inherent in multiple‐bubble phenomena within the same sample period. To meet this challenge, this article develops a new recursive flexible window method that is better suited for practical implementation with long historical time series. The method is a generalized version of the sup augmented Dickey–Fuller (ADF) test of Phillips et al. (“Explosive behavior in the 1990s NASDAQ: When did exuberance escalate asset values?” International Economic Review 52 (2011), 201–26; PWY) and delivers a consistent real‐time date‐stamping strategy for the origination and termination of multiple bubbles. Simulations show that the test significantly improves discriminatory power and leads to distinct power gains when multiple bubbles occur. An empirical application of the methodology is conducted on S&P 500 stock market data over a long historical period from January 1871 to December 2010. The new approach successfully identifies the well‐known historical episodes of exuberance and collapses over this period, whereas the strategy of PWY and a related cumulative sum (CUSUM) dating procedure locate far fewer episodes in the same sample range.",
+    "custom": {
+      "source_arms": [
+        "se-crossref-07",
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-pwy",
+        "se-ki-02",
+        "se-openalex-01"
+      ],
+      "openalex_id": "W3125260748",
+      "s2_paper_id": "40f0f065d17297d84265d665d506b38a5ebf4fac",
+      "known_item": "KI-02",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0395",
+    "type": "article-journal",
+    "title": "TESTING FOR MULTIPLE BUBBLES: LIMIT THEORY OF REAL‐TIME DETECTORS",
+    "author": [
+      {
+        "family": "Phillips",
+        "given": "Peter C. B."
+      },
+      {
+        "family": "Shi",
+        "given": "Shuping"
+      },
+      {
+        "family": "Yu",
+        "given": "Jun"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "International Economic Review",
+    "DOI": "10.1111/iere.12131",
+    "abstract": "This article provides the limit theory of real‐time dating algorithms for bubble detection that were suggested in Phillips, Wu, and Yu (PWY; International Economic Review 52 [2011], 201–26) and in a companion paper by the present authors (Phillips, Shi, and Yu, 2015; PSY; International Economic Review 56 [2015a], 1099–1134. Bubbles are modeled using mildly explosive bubble episodes that are embedded within longer periods where the data evolve as a stochastic trend, thereby capturing normal market behavior as well as exuberance and collapse. Both the PWY and PSY estimates rely on recursive right‐tailed unit root tests (each with a different recursive algorithm) that may be used in real time to locate the origination and collapse dates of bubbles. Under certain explicit conditions, the moving window detector of PSY is shown to be a consistent dating algorithm even in the presence of multiple bubbles. The other algorithms are consistent detectors for bubbles early in the sample and, under stronger conditions, for subsequent bubbles in some cases. These asymptotic results and accompanying simulations guide the practical implementation of the procedures. They indicate that the PSY moving window detector is more reliable than the PWY strategy, sequential application of the PWY procedure, and the CUSUM procedure.",
+    "custom": {
+      "source_arms": [
+        "se-crossref-02",
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-ki-03",
+        "se-openalex-03"
+      ],
+      "openalex_id": "W3121133327",
+      "s2_paper_id": "7faa3226e4092d7a43a89a21b4440807180a4351",
+      "known_item": "KI-03",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0463",
+    "type": "article-journal",
+    "title": "Improving the accuracy of asset price bubble start and end date estimators",
+    "author": [
+      {
+        "literal": "David I. Harvey"
+      },
+      {
+        "literal": "Stephen J. Leybourne"
+      },
+      {
+        "literal": "Robert Sollis"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Journal of Empirical Finance",
+    "DOI": "10.1016/j.jempfin.2016.11.001",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W2549957445",
+      "s2_paper_id": "65379516594995abf2be57b68ca6680b70314771",
+      "included_set_path": "dual-include",
+      "i2_type": "I2b"
+    }
+  },
+  {
+    "id": "eru-0503",
+    "type": "article-journal",
+    "title": "Tests for explosive financial bubbles in the presence of non-stationary volatility",
+    "author": [
+      {
+        "family": "Harvey",
+        "given": "David I."
+      },
+      {
+        "family": "Leybourne",
+        "given": "Stephen J."
+      },
+      {
+        "family": "Sollis",
+        "given": "Robert"
+      },
+      {
+        "family": "Taylor",
+        "given": "A.M. Robert"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Journal of Empirical Finance",
+    "DOI": "10.1016/j.jempfin.2015.09.002",
+    "custom": {
+      "source_arms": [
+        "se-crossref-09",
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-ki-06",
+        "se-s2-02-c"
+      ],
+      "openalex_id": "W2106290794",
+      "s2_paper_id": "1b95ab274f0a9748ea470a1418194c95a58fd324",
+      "known_item": "KI-06",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0559",
+    "type": "article-journal",
+    "title": "FINANCIAL BUBBLE IMPLOSION AND REVERSE REGRESSION",
+    "author": [
+      {
+        "family": "Phillips",
+        "given": "Peter C.B."
+      },
+      {
+        "family": "Shi",
+        "given": "Shu-Ping"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Econometric Theory",
+    "DOI": "10.1017/s0266466617000202",
+    "abstract": "Expansion and collapse are two key features of a financial asset bubble. Bubble expansion may be modeled using a mildly explosive process. Bubble implosion may take several different forms depending on the nature of the collapse and therefore requires some flexibility in modeling. This paper first strengthens the theoretical foundation of the real time bubble monitoring strategy proposed in Phillips, Shi and Yu (2015a,b, PSY) by developing analytics and studying the performance characteristics of the testing algorithm under alternative forms of bubble implosion which capture various return paths to market normalcy. Second, we propose a new reverse sample use of the PSY procedure for detecting crises and estimating the date of market recovery. Consistency of the dating estimators is established and the limit theory addresses new complications arising from the alternative forms of bubble implosion and the endogeneity effects present in the reverse regression. A real-time version of the strategy is provided that is suited for practical implementation. Simulations explore the finite sample performance of the strategy for dating market recovery. The use of the PSY strategy for bubble monitoring and the new procedure for crisis detection are illustrated with an application to the Nasdaq stock market.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-ki-11",
+        "se-openalex-03"
+      ],
+      "openalex_id": "W2622783749",
+      "s2_paper_id": "3765c7407037834a695d673d5a342c5e60035405",
+      "known_item": "KI-11",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0597",
+    "type": "article-journal",
+    "title": "Speculative price bubbles in urban housing markets",
+    "author": [
+      {
+        "literal": "Konstantin A. Kholodilin"
+      },
+      {
+        "literal": "Claus Michelsen"
+      },
+      {
+        "literal": "Dirk Ulbricht"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Empirical Economics",
+    "DOI": "10.1007/s00181-017-1347-x",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-pwy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W2777806569",
+      "s2_paper_id": "3f1170393f59619470f72c3f398d362e54ae6f06",
+      "included_set_path": "dual-include",
+      "i2_type": "I2b|I2c"
+    }
+  },
+  {
+    "id": "eru-0604",
+    "type": "article-journal",
+    "title": "Testing for Multiple Bubbles in Asset Prices",
+    "author": [
+      {
+        "literal": "Nikolaus Landgraf"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "MaRBLe",
+    "DOI": "10.26481/marble.2016.v1.257",
+    "abstract": "Detecting the presence of bubbles in asset prices has become a major interest for policy makers and central banks. By an early identification of a bubble it might be possible for them to intervene and prevent the asset price from collapsing. For this purpose, several econometric tests were invented and some of which summarized by Homm and Breitung (2011). The power of one of the statistics, the sup augmented Dickey- Fuller (SADF) statistic, was improved by Phillips, Shi and Yu (2012). They developed a new recursive strategy and proposed the general SADF statistic.The present thesis approaches the sup Bhargava and the sup DFC statistic similarly and computes the power of all statistics on five different bubble generating processes using Monte Carlo Simulations. It turned out that the modified DFC statistic and the general SADF statistic have highest rejection frequencies on processes that generate multiple bubbles, while the simple sup DFC statistic performed best on processes that do not burst. Application was conducted to the internet currency Bitcoin and the Japanese stock Index Nikkei 225. In both instances, the findings of the power investigation were confirmed. Since both series include bursting bubbles, the simple sup Bhargava and sup DFC statistics were not able to detect a bubble. On the other hand, the modified sup DFC and the general SADF statistics showed clear evidence in favor of the presence of a bubble in both series.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-pwy"
+      ],
+      "openalex_id": "W2599763728",
+      "included_set_path": "dual-include",
+      "i2_type": "I2b"
+    }
+  },
+  {
+    "id": "eru-0607",
+    "type": "article-journal",
+    "title": "TESTING FOR SPECULATIVE BUBBLES USING SPOT AND FORWARD PRICES",
+    "author": [
+      {
+        "literal": "Efthymios Pavlidis"
+      },
+      {
+        "literal": "Iván Payá"
+      },
+      {
+        "literal": "David Peel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "International Economic Review",
+    "DOI": "10.1111/iere.12249",
+    "abstract": "Abstract The probabilistic structure of periodically collapsing bubbles creates a gap between future spot and forward (futures) asset prices in small samples. By exploiting this fact, we use a recently developed recursive unit root test and rolling Fama regressions for detecting bubbles. Both methods do not rely on a particular model of asset price determination, are robust to explosive fundamentals, and allow date stamping. An application to U.S. dollar exchange rates provides evidence of bubbles during the interwar German hyperinflation, but not during the recent floating‐rate period. A further application to S&P 500 supports the existence of bubbles in the U.S. equity market.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-openalex-01",
+        "se-openalex-03"
+      ],
+      "openalex_id": "W2553889882",
+      "s2_paper_id": "7beed13ff8f219f06795b0c0bca1dd31bc87f93a",
+      "included_set_path": "dual-include",
+      "i2_type": "I2b"
+    }
+  },
+  {
+    "id": "eru-0609",
+    "type": "article-journal",
+    "title": "Tests for an end-of-sample bubble in financial time series",
+    "author": [
+      {
+        "literal": "Sam Astill"
+      },
+      {
+        "literal": "David I. Harvey"
+      },
+      {
+        "literal": "Stephen J. Leybourne"
+      },
+      {
+        "literal": "Robert Taylor"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Econometric Reviews",
+    "DOI": "10.1080/07474938.2017.1307490",
+    "abstract": "In this paper, we examine the issue of detecting explosive behavior in economic and financial time series when an explosive episode is both ongoing at the end of the sample and of finite length. We propose a testing strategy based on a subsampling method in which a suitable test statistic is calculated on a finite number of end-of-sample observations, with a critical value obtained using subsample test statistics calculated on the remaining observations. This approach also has the practical advantage that, by virtue of how the critical values are obtained, it can deliver tests which are robust to, among other things, conditional heteroskedasticity and serial correlation in the driving shocks. We also explore modifications of the raw statistics to account for unconditional heteroskedasticity using studentization and a White-type correction. We evaluate the finite sample size and power properties of our proposed procedures and find that they offer promising levels of power, suggesting the possibility for earlier detection of end-of-sample bubble episodes compared to existing procedures.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-openalex-04"
+      ],
+      "openalex_id": "W2539899255",
+      "s2_paper_id": "4fa676752acb994844eb617d8ce56293af7af9ca",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a|I2b"
+    }
+  },
+  {
+    "id": "eru-0689",
+    "type": "article-journal",
+    "title": "Explosive Asset Price Bubble Detection with Unknown Bubble Length and Initial Condition",
+    "author": [
+      {
+        "literal": "Emily J. Whitehouse"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Oxford Bulletin of Economics and Statistics",
+    "DOI": "10.1111/obes.12270",
+    "abstract": "Abstract Recent research has proposed a method of detecting explosive processes that is based on forward recursions of OLS, right‐tailed, Dickey–Fuller [DF] unit root tests. In this paper, an alternative approach using GLS DF test statistics is considered. We derive limiting distributions for both mean‐invariant and trend‐invariant versions of OLS and GLS‐based Phillips, Wu and Yu (2011, International Economic Review 52, 201–226) [PWY] test statistics under a temporary, locally explosive alternative. These limits are shown to be dependent on both the value of the initial condition and the start and end points of the temporary explosive regime. Local asymptotic power simulations show that a GLS version of the PWY statistic offers superior power when a large proportion of the data is explosive, but that the OLS approach is preferred for explosive periods of short duration as a proportion of the total sample. These power differences are magnified by the presence of an asymptotically non‐negligible initial condition. We propose a union of rejections procedure that capitalizes on the respective power advantages of both OLS and GLS‐based approaches. This procedure achieves power close to the effective envelope provided by the two individual PWY tests across all settings of the initial condition and length of the explosive period considered in this paper. These results are shown to be robust to the point in the sample at which the temporary explosive regime occurs. An application of the union procedure to NASDAQ prices confirms the empirical value of this testing strategy.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W2897389063",
+      "s2_paper_id": "50c0c7e982a6cefc912af25f9e960eb6124a76ff",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0735",
+    "type": "article-journal",
+    "title": "Real‐Time Monitoring for Explosive Financial Bubbles",
+    "author": [
+      {
+        "family": "Astill",
+        "given": "Sam"
+      },
+      {
+        "family": "Harvey",
+        "given": "David I."
+      },
+      {
+        "family": "Leybourne",
+        "given": "Stephen J."
+      },
+      {
+        "family": "Sollis",
+        "given": "Robert"
+      },
+      {
+        "family": "Robert Taylor",
+        "given": "A. M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Journal of Time Series Analysis",
+    "DOI": "10.1111/jtsa.12409",
+    "abstract": "We propose new methods for the real‐time detection of explosive bubbles in financial time series. Most extant methods are constructed for a fixed sample of data and, as such, are appropriate only when applied as one‐shot tests. Sequential application of these tests, declaring the presence of a bubble as soon as one of these statistics exceeds the one‐shot critical value, would yield a detection procedure with an unknown false‐positive rate likely to be far in excess of the nominal level. Our approach sequentially applies the one‐shot tests of Astill et al. ( ), comparing sub‐sample statistics calculated in real time during the monitoring period with the corresponding sub‐sample statistics obtained from a prior training period. We propose two procedures: one based on comparing the real‐time monitoring period statistics with the maximum statistic over the training period, and another that compares the number of consecutive exceedances of a threshold value in the monitoring and training periods, the threshold value obtained from the training period. Both allow the practitioner to determine the false‐positive rate for any given monitoring horizon, or to ensure that this rate does not exceed a specified level by setting a maximum monitoring horizon. Monte Carlo simulations suggest that the finite‐sample false‐positive rates lie close to their theoretical counterparts, even in the presence of time‐varying volatility and serial correlation in the shocks. The procedures are shown to perform well in the presence of a bubble in the monitoring period, offering the possibility of rapid detection of an emerging bubble in a real‐time setting. An empirical application to monthly stock market index data is considered.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-ki-09"
+      ],
+      "openalex_id": "W2808274207",
+      "s2_paper_id": "762ea3cd148712e6d25d65b0d80c163cef76d676",
+      "known_item": "KI-09",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0748",
+    "type": "article-journal",
+    "title": "Testing explosive bubbles with time-varying volatility",
+    "author": [
+      {
+        "literal": "David I. Harvey"
+      },
+      {
+        "literal": "Stephen J. Leybourne"
+      },
+      {
+        "literal": "Yang Zu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Econometric Reviews",
+    "DOI": "10.1080/07474938.2018.1536099",
+    "abstract": "This article considers the problem of testing for an explosive bubble in financial data in the presence of time-varying volatility. We propose a weighted least squares-based variant of the Phillips et al.) test for explosive autoregressive behavior. We find that such an approach has appealing asymptotic power properties, with the potential to deliver substantially greater power than the established OLS-based approach for many volatility and bubble settings. Given that the OLS-based test can outperform the weighted least squares-based test for other volatility and bubble specifications, we also suggest a union of rejections procedure that succeeds in capturing the better power available from the two constituent tests for a given alternative. Our approach involves a nonparametric kernel-based volatility function estimator for computation of the weighted least squares-based statistic, together with the use of a wild bootstrap procedure applied jointly to both individual tests, delivering a powerful testing procedure that is asymptotically size-robust to a wide range of time-varying volatility specifications.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W2896420624",
+      "s2_paper_id": "f8ff070eb76a7491cb7058d59ef38a6af8d965cd",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0883",
+    "type": "article-journal",
+    "title": "Random coefficient continuous systems: Testing for extreme sample path behavior",
+    "author": [
+      {
+        "literal": "Yubo Tao"
+      },
+      {
+        "literal": "Peter C.B. Phillips"
+      },
+      {
+        "literal": "Jun Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Journal of Econometrics",
+    "DOI": "10.1016/j.jeconom.2019.01.002",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W2771231293",
+      "s2_paper_id": "001a90544dfcecbc96d73250a01c6fe3862e7b9e",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0889",
+    "type": "article-journal",
+    "title": "Sequential monitoring for changes from stationarity to mild non-stationarity",
+    "author": [
+      {
+        "literal": "Lajos Horváth"
+      },
+      {
+        "literal": "Zhenya Liu"
+      },
+      {
+        "literal": "Gregory Rice"
+      },
+      {
+        "literal": "Shixuan Wang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Journal of Econometrics",
+    "DOI": "10.1016/j.jeconom.2019.08.010",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-s2-psy"
+      ],
+      "openalex_id": "W2977575809",
+      "s2_paper_id": "deca6f3188df20f80135a617d4c88c097fa4dd1f",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0891",
+    "type": "article-journal",
+    "title": "SIGN-BASED UNIT ROOT TESTS FOR EXPLOSIVE FINANCIAL BUBBLES IN THE PRESENCE OF DETERMINISTICALLY TIME-VARYING VOLATILITY",
+    "author": [
+      {
+        "family": "Harvey",
+        "given": "David I."
+      },
+      {
+        "family": "Leybourne",
+        "given": "Stephen J."
+      },
+      {
+        "family": "Zu",
+        "given": "Yang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Econometric Theory",
+    "DOI": "10.1017/s0266466619000057",
+    "abstract": "This article considers the problem of testing for an explosive bubble in financial data in the presence of time-varying volatility. We propose a sign-based variant of the Phillips, Shi, and Yu (2015, International Economic Review 56, 1043–1077) test. Unlike the original test, the sign-based test does not require bootstrap-type methods to control size in the presence of time-varying volatility. Under a locally explosive alternative, the sign-based test delivers higher power than the original test for many time-varying volatility and bubble specifications. However, since the original test can still outperform the sign-based one for some specifications, we also propose a union of rejections procedure that combines the original and sign-based tests, employing a wild bootstrap to control size. This is shown to capture most of the power available from the better performing of the two tests. We also show how a sign-based statistic can be used to date the bubble start and end points. An empirical illustration using Bitcoin price data is provided.",
+    "custom": {
+      "source_arms": [
+        "se-crossref-09",
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-ki-07",
+        "se-s2-02-c"
+      ],
+      "openalex_id": "W2933843155",
+      "s2_paper_id": "8b82e821e0d6ec4dfb1500616773af88910d6ef9",
+      "known_item": "KI-07",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0924",
+    "type": "article-journal",
+    "title": "Unit Root Test with High-Frequency Data",
+    "author": [
+      {
+        "literal": "Sébastien Laurent"
+      },
+      {
+        "literal": "Shuping Shi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "SSRN Electronic Journal",
+    "DOI": "10.2139/ssrn.3421332",
+    "abstract": "Deviations of asset prices from the random walk dynamic imply the predictability of asset returns and thus have important implications for portfolio construction and risk management. This paper proposes a real-time monitoring device for such deviations using intraday high-frequency data. The proposed procedures are based on unit root tests with in-fill asymptotics but extended to take the empirical features of high-frequency financial data (particularly jumps) into consideration. We derive the limiting distributions of the tests under both the null hypothesis of a random walk with jumps and the alternative of mean reversion/explosiveness with jumps. The limiting results show that ignoring the presence of jumps could potentially lead to severe size distortions of both the standard left-sided (against mean reversion) and right-sided (against explosiveness) unit root tests. The simulation results reveal satisfactory performance of the proposed tests even with data from a relatively short time span. As an illustration, we apply the procedure to the Nasdaq composite index at the 10-minute frequency over two periods: around the peak of the dot-com bubble and during the 2015–2106 stock market sell-off. We find strong evidence of explosiveness in asset prices in late 1999 and mean reversion in late 2015. We also show that accounting for jumps when testing the random walk hypothesis on intraday data is empirically relevant and that ignoring jumps can lead to different conclusions.",
+    "custom": {
+      "source_arms": [
+        "se-crossref-11",
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-s2-02-c"
+      ],
+      "openalex_id": "W3152597534",
+      "s2_paper_id": "20d88fcaee8afefa16fb81342353405d326674e6",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-1031",
+    "type": "chapter",
+    "title": "Real time monitoring of asset markets: Bubbles and crises",
+    "author": [
+      {
+        "literal": "Peter C.B. Phillips"
+      },
+      {
+        "literal": "Shuping Shi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Handbook of Statistics",
+    "DOI": "10.1016/bs.host.2018.12.002",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-ki-12"
+      ],
+      "openalex_id": "W2910640390",
+      "s2_paper_id": "3fdc5111b2040ef41b7b5c5653daefa5397d6d1b",
+      "known_item": "KI-12",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-1038",
+    "type": "document",
+    "title": "Sequential Monitoring of Changes in Housing Prices",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Social Science Research Network",
+    "DOI": "10.2139/ssrn.3529058",
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-psy"
+      ],
+      "arxiv_id": "2002.04101",
+      "s2_paper_id": "052077a2960f5826a4546efd04fa297877b3514d",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-1044",
+    "type": "article-journal",
+    "title": "Sup-ADF-style bubble-detection methods under test",
+    "author": [
+      {
+        "literal": "Verena Monschang"
+      },
+      {
+        "literal": "Bernd Wilfling"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Empirical Economics",
+    "DOI": "10.1007/s00181-020-01859-7",
+    "abstract": "Abstract In this paper, we analyze the capacity of supremum augmented Dickey–Fuller (SADF), generalized SADF (GSADF), and of several heteroscedasticity-adjusted sup-ADF-style tests for detecting and date-stamping financial bubbles. Our Monte Carlo simulations find that the majority of the sup-ADF-style tests exhibit substantial size distortions, when the data-generating process is subject to leverage effects. Moreover, the sup-ADF-style tests often have low empirical power in identifying a (flexible and empirically relevant) rational stock-price bubble, recently proposed in the literature. In a simulation study, we compare the effectiveness of two real-time bubble date-stamping procedures (Procedures 1 and 2), both based on variants of the backward SADF (BSADF) test. While Procedure 1 (predominantly) provides better estimates of the bubbles’ origination and termination dates than Procedure 2, the first procedure frequently stamps non-existing bubbles. In an empirical application, we use NASDAQ data covering a time-span of 45 years and find that the bubble date-stamping outcomes of both procedures are sensitive to the data frequency chosen by the econometrician.",
+    "custom": {
+      "source_arms": [
+        "se-crossref-01",
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-openalex-01",
+        "se-s2-01-c"
+      ],
+      "openalex_id": "W2921574338",
+      "s2_paper_id": "e736fe00b1b7694d3cafa562c81d561b625397cb",
+      "included_set_path": "dual-include",
+      "i2_type": "I2b"
+    }
+  },
+  {
+    "id": "eru-1049",
+    "type": "article-journal",
+    "title": "Testing for explosive bubbles in the presence of autocorrelated innovations",
+    "author": [
+      {
+        "literal": "Thomas Pedersen"
+      },
+      {
+        "literal": "Erik Christian Montes Schütte"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Empirical Finance",
+    "DOI": "10.1016/j.jempfin.2020.06.002",
+    "abstract": "We analyze an empirically important issue with recursive right-tailed unit root tests for bubbles in asset prices. First, we show that serially correlated innovations, which is a feature that is present in most financial series used to test for bubbles, can lead to severe size distortions when using either fixed or automatic (based on information criteria) lag-length selection in the auxiliary regressions underlying the test. Second, we propose a sieve-bootstrap version of these tests and show that this results in tests which control size well across a number of simulation designs both with and without highly autocorrelated innovations. We also find that these improvements in size come at a relatively low cost for the power of the tests. Finally, we apply the bootstrap tests on the housing market of OECD countries, and generally find much weaker evidence of housing bubbles compared to existing evidence.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-openalex-03",
+        "se-s2-02-c"
+      ],
+      "openalex_id": "W3035981231",
+      "s2_paper_id": "bd389ca977b596a037b4d0f981f686cfbdfd0692",
+      "included_set_path": "dual-include",
+      "i2_type": "I2b"
+    }
+  },
+  {
+    "id": "eru-1112",
+    "type": "article-journal",
+    "title": "Common Bubble Detection in Large Dimensional Financial Systems",
+    "author": [
+      {
+        "literal": "Ye Chen"
+      },
+      {
+        "literal": "Peter C.B. Phillips"
+      },
+      {
+        "literal": "Shuping Shi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Journal of Financial Econometrics",
+    "DOI": "10.1093/jjfinec/nbab027",
+    "abstract": "Abstract Price bubbles in multiple assets are sometimes nearly coincident in occurrence. Such near-coincidence is strongly suggestive of co-movement in the associated asset prices and is likely driven by certain factors that are latent in the financial or economic system with common effects across several markets. Can we detect the presence of such common factors at the early stages of their emergence? To answer this question, we build a factor model that includes I(1), mildly explosive, and stationary factors to capture normal, exuberant, and collapsing phases in such phenomena. The I(1) factor models the primary driving force of market fundamentals. The explosive and stationary factors model latent forces that underlie the formation and destruction of asset price bubbles, which typically exist only for subperiods of the sample. The article provides an algorithm for testing the presence of and date-stamping the origination and termination of price bubbles determined by latent factors in a large-dimensional system embodying many markets. Asymptotics of the bubble test statistic are given under the null of no common bubbles and the alternative of a common bubble across these markets. We prove the consistency of a factor bubble detection process for the origination and termination dates of the common bubble. Simulations show good finite sample performance of the testing algorithm in terms of its successful detection rates. Our methods are applied to real estate markets covering eighty-nine major cities in China over the period January 2005 to December 2008. Results suggest the presence of a common bubble episode in what are known as China’s Tier 1 and Tier 2 cities from June 2007 to February 2008. There is also a common bubble episode in Tier 3 cities but of shorter duration.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W3048674328",
+      "s2_paper_id": "ce49307074e9786504eeec9828450e4482789414",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): J. Financial Econometrics 20(5):989-1063 in the extraction citation vs Crossref 21(4):989-1063. The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-1117",
+    "type": "article-journal",
+    "title": "CUSUM-Based Monitoring for Explosive Episodes in Financial Data in the Presence of Time-Varying Volatility",
+    "author": [
+      {
+        "family": "Astill",
+        "given": "Sam"
+      },
+      {
+        "family": "Harvey",
+        "given": "David I"
+      },
+      {
+        "family": "Leybourne",
+        "given": "Stephen J"
+      },
+      {
+        "family": "Taylor",
+        "given": "A M Robert"
+      },
+      {
+        "family": "Zu",
+        "given": "Yang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Journal of Financial Econometrics",
+    "DOI": "10.1093/jjfinec/nbab009",
+    "abstract": "Abstract We generalize the Homm and Breitung (2012) CUSUM-based procedure for the real-time detection of explosive autoregressive episodes in financial price data to allow for time-varying volatility. Such behavior can heavily inflate the false positive rate (FPR) of the CUSUM-based procedure to spuriously signal the presence of an explosive episode. Our modified procedure involves replacing the standard variance estimate in the CUSUM statistics with a nonparametric kernel-based spot variance estimate. We show that the sequence of modified CUSUM statistics has a joint limiting null distribution which is invariant to any time-varying volatility present in the innovations and that this delivers a real-time monitoring procedure whose theoretical FPR is controlled. Simulations show that the modification is effective in controlling the empirical FPR of the procedure, yet sacrifices only a small amount of power to detect explosive episodes, relative to the standard procedure, when the shocks are homoskedastic. An empirical illustration using Bitcoin price data is provided.",
+    "custom": {
+      "source_arms": [
+        "se-crossref-06",
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-ki-10"
+      ],
+      "openalex_id": "W3159762087",
+      "s2_paper_id": "4fbefdbe3f0bdcdd50d684c6f6badd726f724987",
+      "known_item": "KI-10",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-1384",
+    "type": "article-journal",
+    "title": "Time-Transformed Test for Bubbles under Non-stationary Volatility",
+    "author": [
+      {
+        "literal": "Eiji Kurozumi"
+      },
+      {
+        "literal": "Anton Skrobotov"
+      },
+      {
+        "literal": "Alexey Tsarev"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Journal of Financial Econometrics",
+    "DOI": "10.1093/jjfinec/nbac004",
+    "abstract": "Abstract This paper is devoted to testing for bubbles under time-varying non-stationary volatility. Because the limiting distribution of the seminal Phillips, Wu, and Yu (2011) test depends on the variance function and usually requires a bootstrap implementation under heteroskedasticity, we construct the test based on a deformation of the time domain. The proposed test is asymptotically pivotal under the null hypothesis and its limiting distribution coincides with that of the standard test under homoskedasticity, so that the test does not require computationally extensive methods for inference. Appealing finite sample properties are demonstrated through Monte-Carlo simulations. An empirical application demonstrates that the upsurge behavior of cryptocurrency time series in the middle of the sample is partially explained by the volatility change.",
+    "custom": {
+      "source_arms": [
+        "se-crossref-09",
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy"
+      ],
+      "openalex_id": "W4213207069",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): J. Financial Econometrics 21(4):1282-1314 in the extraction citation vs Crossref 21(4):1282-1307. The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-1394",
+    "type": "article-journal",
+    "title": "Using covariates to improve the efficacy of univariate bubble detection methods",
+    "author": [
+      {
+        "literal": "Sam Astill"
+      },
+      {
+        "literal": "Robert Taylor"
+      },
+      {
+        "literal": "Neil Kellard"
+      },
+      {
+        "literal": "Ioannis Korkos"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Journal of Empirical Finance",
+    "DOI": "10.1016/j.jempfin.2022.12.008",
+    "abstract": "We explore how information additional to a specific price series can be used to improve the power of popular univariate autoregressive-based methods for detecting and dating speculative price bubble episodes. Following Phillips et al. (2011, 2015) we base our approach on sequences of sub-sample regression-based augmented Dickey–Fuller [ADF] statistics. Our point of departure from these extant procedures is to allow for additional information in the testing and dating procedures. To do so we follow the approach of Hansen (1995) and augment the sub-sample ADF regressions with covariate regressors. The limiting null distributions of the resulting statistics depend on the long-run squared correlation between the covariates and the regression error. We show that this dependence can be accounted for by using a residual bootstrap re-sampling method. Simulation evidence shows that including relevant covariates can significantly improve the efficacy of both the resulting bubble detection tests and the associated date-stamping procedure, relative to using standard sub-sample ADF statistics. An empirical application of the proposed methodology to monthly S&P 500 data is considered, using a variety of candidate covariates. Using these covariates, the onset of the dotcom bubble and the bubble associated with Black Monday are both identified significantly earlier than when using standard methods.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W4313536145",
+      "s2_paper_id": "28cc4925898c76c9b18ecc65cdec9da41c07890b",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-1519",
+    "type": "article-journal",
+    "title": "Real‐Time Monitoring of Bubbles and Crashes",
+    "author": [
+      {
+        "literal": "Emily J. Whitehouse"
+      },
+      {
+        "literal": "David I. Harvey"
+      },
+      {
+        "literal": "Stephen J. Leybourne"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Oxford Bulletin of Economics and Statistics",
+    "DOI": "10.1111/obes.12540",
+    "abstract": "Abstract Given the financial and economic damage that can be caused by the collapse of an asset price bubble, it is of critical importance to rapidly detect the onset of a crash once a bubble has been identified. We develop a real‐time monitoring procedure for detecting a crash episode in a time series. We adopt an autoregressive framework, with bubble and crash regimes modelled by explosive and stationary dynamics, respectively. The first stage of our approach is to monitor for a bubble; conditional on which, we monitor for a crash in real time as new data emerges. Our crash detection procedure employs a statistic based on the different signs of the means of the first differences associated with explosive and stationary regimes, and critical values are obtained using a training period of data. We show that the procedure has desirable asymptotic properties in terms of its ability to rapidly detect a crash while never indicating a crash earlier than one occurs. Monte Carlo simulations further demonstrate that our procedure can offer a well‐controlled false positive rate during a bubble regime. Application to the US housing market demonstrates the efficacy of our procedure in rapidly detecting the house price crash of 2006.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W4318301914",
+      "s2_paper_id": "296e1b84c84bebc8fb9fceec89c403912f7328c9",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a|I2b"
+    }
+  },
+  {
+    "id": "eru-1526",
+    "type": "article-journal",
+    "title": "Robust testing for explosive behavior with strongly dependent errors",
+    "author": [
+      {
+        "literal": "Yiu Lim Lui"
+      },
+      {
+        "literal": "Peter C.B. Phillips"
+      },
+      {
+        "literal": "Jun Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Journal of Econometrics",
+    "DOI": "10.1016/j.jeconom.2023.105626",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W4389355704",
+      "s2_paper_id": "4b43dfce82fa1a435ae3f9f0744459db403ad073",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-1604",
+    "type": "article-journal",
+    "title": "Bubbles and crashes: A tale of quantiles",
+    "author": [
+      {
+        "literal": "Efthymios Pavlidis"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Journal of Time Series Analysis",
+    "DOI": "10.1111/jtsa.12794",
+    "abstract": "Periodically collapsing bubbles, if they exist, induce asymmetric dynamics in asset prices. In this article, I show that unit root quantile autoregressive models can approximate such dynamics by allowing the largest autoregressive root to take values below unity at low quantiles, which correspond to price crashes, and above unity at upper quantiles, that correspond to bubble expansions. On this basis, I employ two unit root tests based on quantile autoregressions to detect bubbles. Monte Carlo simulations suggest that the two tests have good size and power properties, and can outperform recursive least‐squares‐based tests. The merits of the two tests are further illustrated in three empirical applications that examine Bitcoin, US equity and US housing markets. In the empirical applications, special attention is given to the issue of controlling for economic fundamentals. The estimation results indicate the presence of asymmetric dynamics that closely match those of the simulated bubble processes.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-s2-02-c"
+      ],
+      "openalex_id": "W4404420141",
+      "s2_paper_id": "1e50e3bcf5b216858c1f0258add25ec00783e918",
+      "included_set_path": "dual-include",
+      "i2_type": "I2b"
+    }
+  },
+  {
+    "id": "eru-1716",
+    "type": "document",
+    "title": "Testing for an Explosive Bubble using High-Frequency Volatility",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "arxiv_id": "2405.02087",
+      "s2_paper_id": "23b211626cf87c59ccb43c8c660d70fd6e7e8aee",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    },
+    "note": "I3 satisfied by arXiv ID 2405.02087 (arXiv API verified 2026-09-02); no DOI registered."
+  },
+  {
+    "id": "eru-1813",
+    "type": "article-journal",
+    "title": "Green bubbles: A four-stage paradigm for detection and propagation",
+    "author": [
+      {
+        "literal": "Gian Luca Vriz"
+      },
+      {
+        "literal": "Luigi Grossi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Energy Economics",
+    "DOI": "10.1016/j.eneco.2025.109095",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "arxiv_id": "2410.06564",
+      "openalex_id": "W4403345275",
+      "s2_paper_id": "ba30b8f326c0e51931c6dd78948abd1f2af939a1",
+      "included_set_path": "dual-include",
+      "i2_type": "I2b"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): Energy Economics 149:109095 (2025) in the extraction citation vs Crossref 154:109095 (2026). The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-1844",
+    "type": "article-journal",
+    "title": "Real-time monitoring procedures for early detection of bubbles",
+    "author": [
+      {
+        "literal": "Emily J. Whitehouse"
+      },
+      {
+        "literal": "David I. Harvey"
+      },
+      {
+        "literal": "Stephen J. Leybourne"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "International Journal of Forecasting",
+    "DOI": "10.1016/j.ijforecast.2024.12.005",
+    "abstract": "Asset price bubbles and crashes can have severe consequences for the stability of financial and economic systems. Policymakers require timely identification of such bubbles in order to respond to their emergence. In this paper we propose new econometric procedures that improve the speed of detection for an emerging asset price bubble in real time. Our new monitoring procedures make use of alternative variance standardisations that are better able to capture the behaviour of the underlying process during a bubble phase. We derive asymptotic results to show that using these alternative variance standardisations does not increase the probability of false detection under the no-bubble (unit root) null hypothesis relative to existing procedures. However, Monte Carlo simulations demonstrate that much earlier detection becomes possible with our new procedures under the bubble (explosive autoregressive) alternative. Empirical applications to OECD housing markets and bitcoin prices show the value in terms of earlier detection of bubbles that our new procedures can achieve. In particular, we show that the United States housing bubble that preceded the global financial crisis could have been detected as early as 1999:Q1 by our new procedures.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W4406873206",
+      "s2_paper_id": "968c4b63bcd7ccd31f2416a31451eec99889c7c3",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-1845",
+    "type": "article-journal",
+    "title": "REAL-TIME MONITORING WITH RCA MODELS",
+    "author": [
+      {
+        "literal": "Lajos Horváth"
+      },
+      {
+        "literal": "Lorenzo Trapani"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Econometric Theory",
+    "DOI": "10.1017/s0266466625000052",
+    "abstract": "We propose a family of weighted statistics based on the CUSUM process of the WLS residuals for the online detection of changepoints in a Random Coefficient Autoregressive model, using both the standard CUSUM and the Page-CUSUM process. We derive the asymptotics under the null of no changepoint for all possible weighing schemes, including the case of the standardized CUSUM, for which we derive a Darling–Erdös-type limit theorem; our results guarantee the procedure-wise size control under both an open-ended and a closed-ended monitoring. In addition to considering the standard RCA model with no covariates, we also extend our results to the case of exogenous regressors. Our results can be applied irrespective of (and with no prior knowledge required as to) whether the observations are stationary or not, and irrespective of whether they change into a stationary or nonstationary regime. Hence, our methodology is particularly suited to detect the onset, or the collapse, of a bubble or an epidemic. Our simulations show that our procedures, especially when standardising the CUSUM process, can ensure very good size control and short detection delays. We complement our theory by studying the online detection of breaks in epidemiological and housing prices series.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "arxiv_id": "2312.11710",
+      "openalex_id": "W4408121542",
+      "s2_paper_id": "a2c12a259e744109d6d1a6e8e05db88bbbfab5e0",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    },
+    "note": "CROSSREF PAGINATION UPDATE (full 62/62 cross-check, 2026-09-02; review L-13(b)): the extraction citation records this record as forthcoming or without pagination; Crossref now carries Econometric Theory 42(3):514-547. An update, not a discrepancy."
+  },
+  {
+    "id": "eru-1852",
+    "type": "article-journal",
+    "title": "Sequential Detector Statistics for Speculative Bubbles",
+    "author": [
+      {
+        "literal": "Jörg Breitung"
+      },
+      {
+        "literal": "Max Diegel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Journal of Time Series Analysis",
+    "DOI": "10.1111/jtsa.12845",
+    "abstract": "ABSTRACT We propose a heteroskedasticity‐robust locally best invariant (LBI) statistic to test the hypothesis of a unit root against the alternative of an explosive root associated with speculative bubbles. Compared to existing alternatives such as Dickey‐Fuller type tests, the LBI statistic has a standard limiting distribution and greater power, particularly in the empirically relevant scenario of a moderately explosive root. Further refinements, such as the point‐optimal linear test, approach the power envelope remarkably closely. To detect bubbles with an unknown starting date, we consider sequential (CUSUM) schemes based on constant and time‐varying boundary functions, where the exponentially weighted CUSUM detector with a constant boundary function turns out to be most powerful. We also propose a simple method for date‐stamping the start of the bubble consistently. Finally, we illustrate our methods using two empirical examples.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W4411077434",
+      "s2_paper_id": "050cff5256ea89c410211be03d65a136fd474f5a",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): J. Time Series Analysis 46(5):828-847 in the extraction citation vs Crossref 46(5):829-845. The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-1920",
+    "type": "article-journal",
+    "title": "Confidence sets for the emergence, collapse, and recovery dates of a bubble",
+    "author": [
+      {
+        "literal": "Eiji Kurozumi"
+      },
+      {
+        "literal": "Anton Skrobotov"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "container-title": "Econometric Reviews",
+    "DOI": "10.1080/07474938.2026.2700653",
+    "abstract": "We propose constructing confidence sets for the emergence, collapse, and recovery dates of a bubble separately by inverting tests for the location of the break date. We examine both likelihood ratio-type tests and the Elliott-Müller-type (2007) tests for detecting break locations. The limiting distributions of these tests are derived under the null hypothesis, and their asymptotic consistency under the alternative is established. Finite-sample properties are evaluated through Monte Carlo simulations. The results indicate that combining different types of tests effectively controls the empirical coverage rate while maintaining a reasonably small length of the confidence set. The confidence sets for the bubble dates are empirically useful for quantifying the uncertainty surrounding the point estimates, as demonstrated through an application to Japanese stock price data.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W7170165834",
+      "s2_paper_id": "8bd25fadc245232e865a92f0438751c982222368",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    },
+    "note": "CROSSREF PAGINATION UPDATE (full 62/62 cross-check, 2026-09-02; review L-13(b)): the extraction citation records this record as forthcoming or without pagination; Crossref now carries Econometric Reviews, pp. 1-35 (no volume assigned). An update, not a discrepancy."
+  },
+  {
+    "id": "eru-1921",
+    "type": "article-journal",
+    "title": "COVARIATE-AUGMENTED CUSUM BUBBLE MONITORING PROCEDURES",
+    "author": [
+      {
+        "literal": "Sam Astill"
+      },
+      {
+        "literal": "Robert Taylor"
+      },
+      {
+        "literal": "Yang Zu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "container-title": "Econometric Theory",
+    "DOI": "10.1017/s0266466626100383",
+    "abstract": "We explore how information from covariates can be incorporated into the CUSUM-based real-time monitoring procedure for explosive asset price bubbles developed in Homm and Breitung (2012, Journal of Financial Econometrics 10, 198–231). Where dynamic covariates are present in the data generating process (DGP), the false positive rate (FPR) of the basic CUSUM procedure, which is based on the assumption that prices follow a univariate DGP, under the null of no explosivity will not, in general, be properly controlled, even asymptotically. In contrast, accounting for these relevant covariates in the construction of the CUSUM statistics leads to a procedure whose FPR can be controlled using the same asymptotic crossing function as employed by Homm and Breitung (2012). Doing so is also shown to have the potential to significantly increase the chance of detecting an emerging bubble episode in finite samples. We additionally allow for time-varying volatility in the innovations driving the model through the use of a kernel-based variance estimator.",
+    "custom": {
+      "source_arms": [
+        "se-crossref-06",
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W7164352226",
+      "s2_paper_id": "180ceaaef73f9a629f24ceba726ff37c234a9631",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): Econometric Theory, pp. 1-30, in the extraction citation vs Crossref pp. 1-29. The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-1929",
+    "type": "article",
+    "title": "Double Local-to-Unity: Inference under Nearly Nonstationary Volatility",
+    "author": [
+      {
+        "literal": "Abir Sarkar"
+      },
+      {
+        "literal": "Martin T. Wells"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "container-title": "SSRN Electronic Journal",
+    "DOI": "10.2139/ssrn.6865190",
+    "abstract": "This article develops a moderate-deviation limit theory for autoregressive models with jointly persistent mean and volatility dynamics. The autoregressive coefficient is allowed to drift toward unity slower than the classical 1/n rate, while the volatility persistence parameter also converges to one at an even slower, logarithmic order, so that the conditional variance process is itself nearly nonstationary and its unconditional moments may diverge. This double localization allows the variance process to be nearly nonstationary and to evolve slowly, as observed in financial data and during asset price bubble episodes. Under standard regularity conditions, we establish consistency and distributional limits for the OLS estimator of the autoregressive coefficient that remains valid in the presence of highly persistent stochastic volatility. We show that the effective normalization for least squares inference is governed by an average volatility scale, and we derive martingale limit theorems for the OLS estimator under joint drift and volatility dynamics. In a mildly stationary regime (where the autoregressive root approaches one from below), the OLS estimator is asymptotically normal. In a mildly explosive regime (where the root approaches one from above), an OLS based self normalized statistic converges to a Cauchy limit. Strikingly, in both regimes, the limiting laws of our statistics are invariant to the detailed specification of the volatility process, even though the conditional variance is itself nearly nonstationary. Overall, the results extend moderate-deviation asymptotics to settings with drifting volatility persistence, unify local to unity inference with nearly nonstationary stochastic volatility, and deliver practically usable volatility robust statistics for empirical work in settings approaching instability and exhibiting bubbles.",
+    "custom": {
+      "source_arms": [
+        "se-arxiv-03",
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "arxiv_id": "2512.06823",
+      "openalex_id": "W7163035097",
+      "s2_paper_id": "310f5223ee0090bfc05d11554309ffdaaf65e0a8",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-1950",
+    "type": "article-journal",
+    "title": "Is there an AI bubble? Robust date-stamping for periods of exuberance",
+    "author": [
+      {
+        "literal": "Abir Sarkar"
+      },
+      {
+        "literal": "M Wells"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "container-title": "Frontiers of Mathematical Finance",
+    "DOI": "10.3934/fmf.2026005",
+    "abstract": "The recent surge in valuations of firms exposed to artificial intelligence has raised concerns about speculative exuberance in technology and semiconductor markets. Motivated by this episode, we develop a stochastic-volatility-robust ADF (SV-ADF) framework for date-stamping asset-price bubbles when prices exhibit persistent, time-varying volatility. Standard Dickey–Fuller procedures can be distorted in heteroskedastic environments, leading to unstable inference and spurious bubble classifications. We extend recursive ADF testing to autoregressive models with highly persistent mean and volatility components and derive nuisance-parameter-free asymmetric calibration rules for bubble origination and collapse. The resulting procedure delivers consistent date-stamping and remains implementable for real-time monitoring. Monte Carlo evidence shows improved power and dating accuracy relative to homoskedastic PWY tests. Applying the method to AI-exposed equities, including the 'Magnificent Seven' and major semiconductor stocks, we find substantial cross-sectional heterogeneity in exuberance, with current bubble dynamics concentrated in Alphabet and TSMC, while Tesla and Nvidia exhibited earlier explosive episodes.",
+    "custom": {
+      "source_arms": [
+        "se-arxiv-02",
+        "se-arxiv-05",
+        "se-crossref-01",
+        "se-crossref-07",
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-s2-01-c"
+      ],
+      "arxiv_id": "2604.12062",
+      "openalex_id": "W7168160208",
+      "s2_paper_id": "072ccf0f305cb8a54c841664c587c764dcb61c43",
+      "included_set_path": "dual-include",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0100",
+    "type": "report",
+    "title": "Limit Theory for Dating the Origination and Collapse of Mildly Explosive Periods in Time Series Data",
+    "author": [
+      {
+        "literal": "Jun Yu"
+      },
+      {
+        "literal": "Peter C.B. Phillips"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "container-title": "Singapore Management University Institutional Knowledge (InK) (Singapore Management University)",
+    "abstract": "Some limit theory is developed for estimators suggested in Phillips, Wu and Yu (2009) for dating bubble pheonoma in time series data. The models involve mildly explosive autoregressions and the tests rely on right sided recursive unit root tests. The estimates locate the origination and collapse dates of bubbles involving mildly explosive episodes set within longer periods where the data evolve as a stochastic trend. The dating estimators are shown to be consistent under mild regularity conditions on the process. Some simulation evidence on the performance of the estimators is reported. The proposed method works well in nite samples and conforms with the limit theory. Keywords: Bubble, Date stamping, Explosive behavior, Mildly explosive process, Right sided unit root tests, Structural breaks. JEL classication: C15, G12",
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-pwy",
+        "se-openalex-03"
+      ],
+      "openalex_id": "W91786817",
+      "s2_paper_id": "067b7ebdb615bb887d5f553a03f00b9e8b470e0b",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2a"
+    },
+    "note": "I3 GAP: no DOI, arXiv ID or Handle-System handle located; best locator is the Semantic Scholar paperId in `custom`. Recorded, not silently dropped (protocol 2.2 I3)."
+  },
+  {
+    "id": "eru-0112",
+    "type": "document",
+    "title": "TESTING FOR PERIODICALLY COLLAPSING BUBBLES: AN GENERALIZED SUP ADF TEST",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-pwy"
+      ],
+      "s2_paper_id": "50ecd616d859f8d5d1cc3809f5a097e93974f60a",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2a"
+    },
+    "note": "I3 GAP: no DOI, arXiv ID or Handle-System handle located; best locator is the Semantic Scholar paperId in `custom`. Recorded, not silently dropped (protocol 2.2 I3)."
+  },
+  {
+    "id": "eru-0154",
+    "type": "document",
+    "title": "THE TIMELINE OF FINANCIAL BUBBLES DURING THE SUBPRIME CRISIS",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-pwy"
+      ],
+      "s2_paper_id": "c5ac374848a0e1fdb565d7433687c859f3a10fd5",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2a"
+    },
+    "note": "I3 GAP: no DOI, arXiv ID or Handle-System handle located for this record; best locator is the Semantic Scholar paperId in `custom`. A twin does not inherit its carrier's identifier for I3 purposes - I3 is a property of the record. Recorded, not silently dropped (protocol 2.2 I3; amendment A10(a); review section 5.1, L-6, VG-8). Same-work twin of eru-0126 (protocol 4.1 twin rule); retained as a distinct included record because the frozen included set lists it separately."
+  },
+  {
+    "id": "eru-0268",
+    "type": "document",
+    "title": "Detecting speculative bubbles in GARCH processes: A time-series based test for predicting explosive behavior",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-pwy"
+      ],
+      "s2_paper_id": "3c7ff35961fc756c2581b8307348dba0de271a3a",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2b"
+    },
+    "note": "I3 GAP: no DOI, arXiv ID or Handle-System handle located; best locator is the Semantic Scholar paperId in `custom`. Recorded, not silently dropped (protocol 2.2 I3)."
+  },
+  {
+    "id": "eru-0427",
+    "type": "document",
+    "title": "CAMA Centre for Applied Macroeconomic Analysis Speculative Bubbles or Market Fundamentals ? An Investigation of US Regional Housing Markets CAMA Working Paper 46 / 2016 July 2016",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "s2_paper_id": "12d1ce5472ad849e613f4dae440d14f2ae30ccd6",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2a"
+    },
+    "note": "I3 GAP: no DOI, arXiv ID or Handle-System handle located; best locator is the Semantic Scholar paperId in `custom`. Recorded, not silently dropped (protocol 2.2 I3)."
+  },
+  {
+    "id": "eru-0513",
+    "type": "document",
+    "title": "Use of Unit Root Methods in Early Warning of Financial Crises",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Social Science Research Network",
+    "DOI": "10.2139/ssrn.3723392",
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "s2_paper_id": "783e35525a13cd0a79a09c7241a993565187fbeb",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2c"
+    }
+  },
+  {
+    "id": "eru-0526",
+    "type": "article-journal",
+    "title": "Bayesian Analysis of Bubbles in Asset Prices",
+    "author": [
+      {
+        "literal": "András Fülöp"
+      },
+      {
+        "literal": "Jun Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Econometrics",
+    "DOI": "10.3390/econometrics5040047",
+    "abstract": "We develop a new model where the dynamic structure of the asset price, after the fundamental value is removed, is subject to two different regimes. One regime reflects the normal period where the asset price divided by the dividend is assumed to follow a mean-reverting process around a stochastic long run mean. The second regime reflects the bubble period with explosive behavior. Stochastic switches between two regimes and non-constant probabilities of exit from the bubble regime are both allowed. A Bayesian learning approach is employed to jointly estimate the latent states and the model parameters in real time. An important feature of our Bayesian method is that we are able to deal with parameter uncertainty and at the same time, to learn about the states and the parameters sequentially, allowing for real time model analysis. This feature is particularly useful for market surveillance. Analysis using simulated data reveals that our method has good power properties for detecting bubbles. Empirical analysis using price-dividend ratios of S&P500 highlights the advantages of our method.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W3122681168",
+      "s2_paper_id": "104f3122d54c80ac2084e1b9a00ecc2d2784b2a2",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2b"
+    }
+  },
+  {
+    "id": "eru-0622",
+    "type": "document",
+    "title": "Working Paper No. 325-Dallas Fed",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-psy"
+      ],
+      "s2_paper_id": "a278c44755edc59f95a2f05972f55baea1208a8d",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2b"
+    },
+    "DOI": "10.24149/gwp325",
+    "note": "DOI resolved at full-text extraction (Dallas Fed Globalization Institute Working Paper 325); DOI Handle System responseCode 1, checked 2026-09-02. Same-work twin of eru-0675 (protocol 4.1 twin rule); retained as a distinct included record because the frozen included set lists it separately."
+  },
+  {
+    "id": "eru-0675",
+    "type": "article-journal",
+    "title": "Detecting periods of exuberance: A look at the role of aggregation with an application to house prices",
+    "author": [
+      {
+        "literal": "Efthymios Pavlidis"
+      },
+      {
+        "literal": "Enrique Martínez‐García"
+      },
+      {
+        "literal": "Valerie Aarne Grossman"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Economic Modelling",
+    "DOI": "10.1016/j.econmod.2018.07.021",
+    "abstract": "The recently developed SADF and GSADF unit root tests of In this paper, we examine through simulation experiments the effect of cross-sectional aggregation on the power properties of these tests. The simulation design considered is based on simulated data and actual housing data for both U.S. metropolitan areas and international housing markets and thus allows us to draw conclusions for different levels of aggregation. Our findings suggest that aggregation lowers the power of both the SADF and GSADF tests. The effect, however, is much larger for the SADF test. We also provide evidence that tests based on panel data techniques, namely the panel GSADF test recently proposed by Furthermore, we also illustrate the date-stamping procedure under the univariate/panel GSADF procedure uncovering novel evidence on the role of interest rates and policy uncertainty as factors explaining episodes of widespread mildly explosive dynamics in housing markets.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-s2-psy",
+        "se-openalex-02"
+      ],
+      "openalex_id": "W2745341418",
+      "s2_paper_id": "d79f3265b823eb112ccc135b9d0537d861b59344",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2b"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): Economic Modelling 73:404-416 (2018) in the extraction citation vs Crossref 80:87-102 (2019). The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-0691",
+    "type": "article-journal",
+    "title": "Explosive behaviour and long memory with an application to European bond yield spreads",
+    "author": [
+      {
+        "literal": "Robinson Kruse"
+      },
+      {
+        "literal": "Christoph Wegener"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Scottish Journal of Political Economy",
+    "DOI": "10.1111/sjpe.12179",
+    "abstract": "Abstract This article deals with the interplay of explosive behaviour and long memory. We conduct Monte Carlo simulations and study the finite‐sample properties of the popular unit root test by Phillips et al. (2011) against explosive alternatives. This test exhibits severe upward size distortions under the presence of strongly autocorrelated residuals. We propose the usage of a set of adjusted critical values which leads to a size‐controlled test with increased power. As a complement, we consider the Lagrange Multiplier test against long memory by Tanaka (1999). We study European government bond yield spreads during the financial crisis.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W2804650935",
+      "s2_paper_id": "a8c855f23ce212d3f6466190693fcb7a8ad6c0fa",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2b"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): Scottish J. Political Economy 65(2):139-162 in the extraction citation vs Crossref 66(1):139-153. The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-0749",
+    "type": "article-journal",
+    "title": "Testing for Bubbles in Cryptocurrencies with Time-Varying Volatility",
+    "author": [
+      {
+        "literal": "Christian Hafner"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Journal of Financial Econometrics",
+    "DOI": "10.1093/jjfinec/nby023",
+    "abstract": "The recent evolution of cryptocurrencies has been characterized by bubble-like behavior and extreme volatility. While it is difficult to assess an intrinsic value to a specific cryptocurrency, one can employ recently proposed bubble tests that rely on recursive applications of classical unit root tests. This paper extends this approach to the case where volatility is time varying, assuming a deterministic long-run component that may take into account a decrease of unconditional volatility when the cryptocurrency matures with a higher market dissemination. Volatility also includes a stochastic short-run component to capture volatility clustering. The wild bootstrap is shown to correctly adjust the size properties of the bubble test, which retains good power properties. In an empirical application using 11 of the largest cryptocurrencies and the CRIX index, the general evidence in favor of bubbles is confirmed, but much less pronounced than under constant volatility.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-s2-02-c"
+      ],
+      "openalex_id": "W2896025957",
+      "s2_paper_id": "b30a1cc2a61e3435c53a1173f4b9a7f1daec8aa7",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2b"
+    },
+    "note": "CROSSREF CHECK INCONCLUSIVE (2026-09-02; review L-13(d)): the Crossref record for this DOI carries no volume, issue or page range, so the extraction citation's J. Financial Econometrics 18(2):233-249 could be neither confirmed nor refuted. This record also has no full text at any stage (review L-9, VG-1)."
+  },
+  {
+    "id": "eru-0823",
+    "type": "article-journal",
+    "title": "Detecting Financial Collapse and Ballooning Sovereign Risk",
+    "author": [
+      {
+        "literal": "Peter C.B. Phillips"
+      },
+      {
+        "literal": "Shuping Shi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Oxford Bulletin of Economics and Statistics",
+    "DOI": "10.1111/obes.12307",
+    "abstract": "Abstract This paper proposes a new model for capturing discontinuities in the underlying financial environment that can lead to abrupt falls, but not necessarily sustained monotonic falls, in asset prices. This notion of price dynamics is consistent with existing understanding of market crashes, which allows for a mix of market responses that are not universally negative. The model may be interpreted as a martingale composed with a randomized drift process that is designed to capture various asymmetric drivers of market sentiment. In particular, the model is capable of generating realistic patterns of price meltdowns and bond yield inflations that constitute major market reversals while not necessarily being always monotonic in form. The recursive and moving window methods developed in Phillips, Shi and Yu (2015a,b; PSY), which were designed to detect exuberance in financial and economic data, are shown to have detective capacity for such meltdowns and expansions. This characteristic of the PSY tests has been noted in earlier empirical studies by the present authors and other researchers but no analytic reasoning has yet been given to explain why methods intended to capture the expansionary phase of a bubble may also detect abrupt and broadly sustained collapses. The model and asymptotic theory developed in the present paper together explain this property of the PSY procedures. The methods are applied to analyse S&P 500 stock prices and sovereign risk in European Union countries over 2001–16 using government bond yields and credit default swap (CDS) premia. A pseudo real‐time empirical analysis of these data shows the effectiveness of the monitoring strategy in capturing key events and turning points in market risk assessment.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-s2-psy"
+      ],
+      "openalex_id": "W2757370191",
+      "s2_paper_id": "2c443ff8782e3d19d649249c11838a7b8e7d7d4b",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0904",
+    "type": "document",
+    "title": "Testing for Rational Bubbles under Strongly Dependent Errors∗",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "s2_paper_id": "f166228e45a54ce9eeffab34909507fb8069b702",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2a"
+    },
+    "note": "I3 GAP: no DOI, arXiv ID or Handle-System handle located for this record; best locator is the Semantic Scholar paperId in `custom`. A twin does not inherit its carrier's identifier for I3 purposes - I3 is a property of the record. Recorded, not silently dropped (protocol 2.2 I3; amendment A10(a); review section 5.1, L-6, VG-8). Same-work twin of eru-1526 (protocol 4.1 twin rule); retained as a distinct included record because the frozen included set lists it separately."
+  },
+  {
+    "id": "eru-0959",
+    "type": "article-journal",
+    "title": "Date-stamping multiple bubble regimes",
+    "author": [
+      {
+        "literal": "David I. Harvey"
+      },
+      {
+        "literal": "Stephen J. Leybourne"
+      },
+      {
+        "literal": "Emily J. Whitehouse"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Empirical Finance",
+    "DOI": "10.1016/j.jempfin.2020.06.004",
+    "custom": {
+      "source_arms": [
+        "se-crossref-01",
+        "se-crossref-07",
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W3036458949",
+      "s2_paper_id": "f2b0e2ea179392c0c539380aeb3c50ccdf50ce9f",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-1155",
+    "type": "article-journal",
+    "title": "Improved Test for Detecting Explosive Bubbles",
+    "author": [
+      {
+        "literal": "Sri Harsha"
+      },
+      {
+        "literal": "B. Ismail"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Journal of Data Science",
+    "DOI": "10.6339/jds.201707_15(3).0007",
+    "abstract": "Recent decades have witnessed a series of damages in the financial sector due to the unpleasant movements of prices beyond certain limits. These movements are commonly termed as Financial Bubbles. The formation and burst of a bubble creates huge damage in the field of finance. Hence in order to prevent the market from facing damages, the detection and modeling of financial bubble is very essential. We proposed improved test procedures for detecting financial bubbles by combining the existing Max test and Supremum Augmented Dickey Fuller (SADF) test generally used for detecting bubbles. The performance of proposed test is compared with existing tests via Monte Carlo simulation. It is observed that the proposed test have higher power compared to the existing tests, for detecting collapsible bubble irrespective of window length and collapsible probability. Further the power of proposed test increases as window size decreases. The empirical study of S&P 500 monthly data from January 2006 to December 2010 is carried out to demonstrate the advantages of proposed test procedures over existing tests.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W3138306600",
+      "s2_paper_id": "bdd5cc0dc718277305199c1500c51da7ef4acbe5",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2b"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): J. Data Science 16(3):495-508 in the extraction citation vs Crossref 15(3):495-508. The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-1260",
+    "type": "article-journal",
+    "title": "Bubble testing under polynomial trends",
+    "author": [
+      {
+        "literal": "Xiaohu Wang"
+      },
+      {
+        "literal": "Jun Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Econometrics Journal",
+    "DOI": "10.1093/ectj/utac020",
+    "abstract": "Summary This paper develops the asymptotic theory of the least squares estimator of the autoregressive (AR) coefficient in an AR(1) regression with intercept when data is generated from a polynomial trend model in different forms. It is shown that the commonly used right-tailed unit root tests tend to favour the explosive alternative. A new procedure, which implements the right-tailed unit root tests in an AR(2) regression, is proposed. It is shown that, when the data generating process has a polynomial trend, the test statistics based on the new procedure cannot find evidence of explosiveness. Whereas, when the data generating process is mildly explosive, the new procedure finds evidence of explosiveness. Hence, it enables robust bubble testing under polynomial trends. Empirical application of the proposed procedure using data from the US real estate market reveals some interesting findings. In particular, all the negative bubble episodes flagged by the traditional method are no longer regarded as bubbles by the new procedure.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-openalex-03"
+      ],
+      "openalex_id": "W4286586758",
+      "s2_paper_id": "0c8b9f444f8a60922cfbc86200e68ef3a35f259d",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-1310",
+    "type": "document",
+    "title": "Fundamental Value Pricing and Bubbles for Nontraditional Assets: The Case of Cryptocurrencies *",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "s2_paper_id": "eecd29fb813290900e89b70ff60b8cc0333ba674",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2b"
+    },
+    "note": "I3 GAP: no DOI, arXiv ID or Handle-System handle located; best locator is the Semantic Scholar paperId in `custom`. Recorded, not silently dropped (protocol 2.2 I3)."
+  },
+  {
+    "id": "eru-1405",
+    "type": "article-journal",
+    "title": "A PANEL CLUSTERING APPROACH TO ANALYZING BUBBLE BEHAVIOR",
+    "author": [
+      {
+        "literal": "Yanbo Liu"
+      },
+      {
+        "literal": "Peter C.B. Phillips"
+      },
+      {
+        "literal": "Jun Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "International Economic Review",
+    "DOI": "10.1111/iere.12647",
+    "abstract": "Abstract This study provides new mechanisms for identifying and estimating explosive bubbles in mixed‐root panel autoregressions with a latent group structure. A postclustering approach is employed that combines k‐means clustering with right‐tailed panel‐data testing. Uniform consistency of the k‐means algorithm is established. Pivotal null limit distributions of the tests are introduced. A new method is proposed to consistently estimate the number of groups. Monte Carlo simulations show that the proposed methods perform well in finite samples; and empirical applications of the proposed methods identify bubbles in the U.S. and Chinese housing markets and the U.S. stock market.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W4378378858",
+      "s2_paper_id": "957e83a2e99008d8631d28ac5069def5377cb012",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-1580",
+    "type": "article-journal",
+    "title": "A new heteroskedasticity‐robust test for explosive bubbles",
+    "author": [
+      {
+        "family": "Harvey",
+        "given": "David I."
+      },
+      {
+        "family": "Leybourne",
+        "given": "Stephen J."
+      },
+      {
+        "family": "Taylor",
+        "given": "A. M. Robert"
+      },
+      {
+        "family": "Zu",
+        "given": "Yang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Journal of Time Series Analysis",
+    "DOI": "10.1111/jtsa.12784",
+    "abstract": "We propose a new class of modified regression‐based tests for detecting asset price bubbles designed to be robust to the presence of general forms of both conditional and unconditional heteroskedasticity in the price series. This modification, based on the approach developed in Beare (2018) in the context of conventional unit root testing, is achieved by purging the impact of unconditional heteroskedasticity from the data using a kernel estimate of volatility before the application of the bubble detection methods proposed in Phillips, Shi and Yu (2015) (PSY). The modified statistic is shown to achieve the same limiting null distribution as the corresponding (heteroskedasticity‐uncorrected) statistic from PSY would obtain under homoskedasticity, such that the usual critical values provided in PSY may still be used. Versions of the test based on regressions including either no intercept or a (redundant) intercept are considered. Representations for asymptotic local power against a single bubble model are also derived. Monte Carlo simulation results highlight that neither one of these tests dominates the other across different bubble locations and magnitudes, and across different models of time‐varying volatility. Accordingly, we also propose a test based on a union of rejections between the with‐ and without‐intercept variants of the modified PSY test. The union procedure is shown to perform almost as well as the better of the constituent tests for a given DGP, and also performs very well compared to existing heteroskedasticity‐robust tests across a large range of simulation DGPs.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-ki-08"
+      ],
+      "openalex_id": "W4403491610",
+      "s2_paper_id": "9835ce106064383d95b5812915fda0ad42081a2e",
+      "known_item": "KI-08",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2a"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): J. Time Series Analysis 46(1):102-132 in the extraction citation vs Crossref 46(5):846-866. The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-1715",
+    "type": "article-journal",
+    "title": "Testing for a bubble with a stochastically varying explosive coefficient",
+    "author": [
+      {
+        "literal": "Eiji Kurozumi"
+      },
+      {
+        "literal": "Mikihito Nishi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Journal of Time Series Analysis",
+    "DOI": "10.1111/jtsa.12768",
+    "abstract": "In this article, we test for a bubble in a model with a random explosive autoregressive coefficient. We consider two local alternatives and find that versions of recursive stochastic unit root tests are more powerful when facing a randomly explosive process than the recursive right‐tailed ADF tests, whereas the latter performs better in a model with a non‐stochastic coefficient. We then propose the union of rejections strategy using the recursive right‐tailed ADF and stochastic unit root tests. We examine the finite sample properties of the proposed tests using Monte Carlo simulations and observe that the test based on the union of rejections strategy is the second‐best, and its power is close to the best one in most cases.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy",
+        "se-s2-02-c"
+      ],
+      "openalex_id": "W4402899959",
+      "s2_paper_id": "312a2e194b01cf6165ce92fd6ea5accb509a4941",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2a"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): J. Time Series Analysis 46(1):133-160 in the extraction citation vs Crossref 46(5):945-965. The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-1890",
+    "type": "article-journal",
+    "title": "Unit Root Tests for Explosive Financial Bubbles in the Presence of Deterministic Level Shifts",
+    "author": [
+      {
+        "literal": "David I. Harvey"
+      },
+      {
+        "literal": "Stephen J. Leybourne"
+      },
+      {
+        "literal": "Benjamin S. Tatlow"
+      },
+      {
+        "literal": "Yang Zu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Oxford Bulletin of Economics and Statistics",
+    "DOI": "10.1111/obes.12668",
+    "abstract": "ABSTRACT This article considers the issue of testing for an explosive bubble in financial time series in the presence of deterministic level shifts. We demonstrate that the sign‐based variants of the Phillips‐Shi‐Yu test retain their asymptotic validity in the presence of level shifts under a weak restriction on the number of shifts that occur. This is in contrast to the original Phillips‐Shi‐Yu test which only remains valid under a joint restriction involving both the number and magnitudes of the level shifts. We find, through Monte Carlo simulation, that the original test can display substantial over‐size in the presence of level shifts, without a corresponding increase in power, while the sign‐based variants are largely unaffected in both regards. The sign‐based tests therefore offer robust and powerful methods for detecting an explosive autoregressive regime in a financial time series that potentially contains level shifts. Empirical applications of the different tests are provided using intraday Bitcoin log price data and daily Nasdaq price data.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-s2-psy",
+        "se-s2-02-c"
+      ],
+      "openalex_id": "W4408307187",
+      "s2_paper_id": "c41b4c9b15457617863e7c6fcf5d687af0fccf60",
+      "included_set_path": "single-screener-fulltext (A3)",
+      "i2_type": "I2a"
+    },
+    "note": "CROSSREF PAGINATION UPDATE (full 62/62 cross-check, 2026-09-02; review L-13(b)): the extraction citation records this record as forthcoming or without pagination; Crossref now carries Oxford Bulletin of Economics and Statistics 87(5):880-898. An update, not a discrepancy."
+  },
+  {
+    "id": "eru-0126",
+    "type": "article-journal",
+    "title": "Dating the timeline of financial bubbles during the subprime crisis",
+    "author": [
+      {
+        "literal": "Peter C.B. Phillips"
+      },
+      {
+        "literal": "Jun Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "Quantitative Economics",
+    "DOI": "10.3982/qe82",
+    "abstract": "A new recursive regression methodology is introduced to analyze the bubble characteristics of various financial time series during the subprime crisis. The methods modify a technique proposed in Phillips, Wu, and Yu (2011) and provide a technology for identifying bubble behavior with consistent dating of their origination and collapse. The tests serve as an early warning diagnostic of bubble activity and a new procedure is introduced for testing bubble migration across markets. Three relevant financial series are investigated, including a financial asset price (a house price index), a commodity price (the crude oil price), and one bond price (the spread between Baa and Aaa). Statistically significant bubble characteristics are found in all of these series. The empirical estimates of the origination and collapse dates suggest a migration mechanism among the financial variables. A bubble emerged in the real estate market in February 2002. After the subprime crisis erupted in 2007, the phenomenon migrated selectively into the commodity market and the bond market, creating bubbles which subsequently burst at the end of 2008, just as the effects on the real economy and economic growth became manifest. Our empirical estimates of the origination and collapse dates and tests of migration across markets match well with the general dateline of the crisis put forward in the recent study by Caballero, Farhi, and Gourinchas (2008a).",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-pwy",
+        "se-fc-s2-pwy",
+        "se-openalex-03"
+      ],
+      "openalex_id": "W3123425418",
+      "s2_paper_id": "a40c062cbe482f0eaf30c4dbbfd0e91036ceb7b0",
+      "included_set_path": "adjudicated",
+      "i2_type": "I2a"
+    }
+  },
+  {
+    "id": "eru-0198",
+    "type": "report",
+    "title": "Are we in a bubble? A simple time-series-based diagnostic",
+    "author": [
+      {
+        "literal": "Philip Hans Franses"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "container-title": "Data Archiving and Networked Services (DANS)",
+    "abstract": "Time series with bubble-like patterns display an unbalance between growth and acceleration, in the sense that growth in the upswing is “too fast” and then there is a collapse. In fact, such time series show periods where both the first differences (1-L) and the second differences (1-L)2 of the data are positive-valued, after which period there is a collapse. For a time series without such bubbles, it can be shown that 1-L2 differenced data should be stable. A simple test based on one-step-ahead forecast errors can now be used to timely monitor whether a series experiences a bubble and also whether a collapse is near. Illustration on simulated data and on two housing prices and the Nikkei index illustrates the practical relevance of the new diagnostic. Monte Carlo simulations indicate that the empirical power of the test is high.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-pwy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W2149976946",
+      "s2_paper_id": "a850d8a4b30eec36147dc7375d7be2c9484aaead",
+      "included_set_path": "adjudicated",
+      "i2_type": "I2b"
+    },
+    "note": "I3 satisfied by Handle 1765/39598 (Handle System responseCode 1, checked 2026-09-02); no DOI registered. PROBABLE UNADJUDICATED SAME-WORK TWIN of eru-0259 (Franses, 'A simple test for a bubble based on growth and acceleration', CSDA 100:160-169, doi:10.1016/j.csda.2014.06.006). se-extraction-primary.jsonl records eru-0259 as extracted from THIS record's text and flags the pair 'PROBABLE SAME-WORK TWIN PAIR ... recorded as probable-twin for the review's dedup ledger to adjudicate'; se-extraction-recheck.jsonl records this record as twin_of eru-0259. That adjudication never ran, and same-work identity cannot be settled because the journal text was never obtained. Both records therefore carry independent appraisal rows in review section 6 (rows 4 and 64) whose Q4 and Q7 cells diverge, although both rows are readings of THIS document. Consequence: 72 records are 69 distinct works if the pair is two works and 68 if it is one (review section 5.4, VG-13, protocol amendment A13(b)). Added 2026-09-02 by the round-2 audit remediation; no field other than this note was altered."
+  },
+  {
+    "id": "eru-0731",
+    "type": "article-journal",
+    "title": "Out-of-sample forecasting of housing bubble tipping points",
+    "author": [
+      {
+        "literal": "Diego Ardila"
+      },
+      {
+        "literal": "Dorsa Sanadgol"
+      },
+      {
+        "literal": "Didier Sornette"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Quantitative Finance and Economics",
+    "DOI": "10.3934/qfe.2018.4.904",
+    "abstract": "This paper analyzes the information content of statistical tests for bubble detection in the context of international real estate markets. We derive binary indicators from the causal application of five statistical tests to log house prices, and via logit regressions we assess the indicators' out-of-sample performance in the forecasting of tipping points of housing bubbles and systemic financial crises. In our assessment, three of the indicators - two based on the identification of super-exponential trends and one based on the scaled ratio of the sum of squared forecast errors - exhibit significant out-of-sample results. Combining the indicators via simple threshold-rules yields the most robust and best results.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-pwy"
+      ],
+      "openalex_id": "W2903265560",
+      "included_set_path": "adjudicated",
+      "i2_type": "I2c"
+    }
+  },
+  {
+    "id": "eru-0813",
+    "type": "article",
+    "title": "Comparing Tests for Identification of Bubbles",
+    "author": [
+      {
+        "literal": "Kristoffer Pons Bertelsen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "RePEc: Research Papers in Economics",
+    "abstract": "This paper compares the log periodic power law (LPPL) and the supremum augmented Dickey Fuller (supremum ADF) procedures considering bubble detection and time stamping capabilities in a thorough analysis based on simulated data. A generalized formulation of the LPPL procedure is derived and analysed demonstrating performance improvements.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W2981818548",
+      "s2_paper_id": "41f1ed0af52dd837d8fdcf0a9d33379d439f8b4b",
+      "included_set_path": "adjudicated",
+      "i2_type": "I2b"
+    },
+    "DOI": "10.2139/ssrn.3392208",
+    "note": "DOI resolved at full-text extraction (SSRN twin of CREATES Research Paper 2019-16); DOI Handle System responseCode 1, checked 2026-09-02."
+  },
+  {
+    "id": "eru-0855",
+    "type": "article-journal",
+    "title": "High-Dimensional Multiple Bubbles Prediction Based on Sparse Constraints",
+    "author": [
+      {
+        "literal": "Heng-Guo Zhang"
+      },
+      {
+        "literal": "Libo Wu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "IEEE Access",
+    "DOI": "10.1109/access.2019.2893929",
+    "abstract": "Many bubble test methods do not have the ability to predict multiple bubbles in a high dimensional space now. Therefore, we propose a data-driven, self-adaptive evolutionary bubble prediction algorithm named WSADF. First, according to the invariance principle, we speculate that if there are inherent degrees of freedom for high dimensional time series, then comovement causality analysis (CCA) can be improved to select the decisive high dimensional time series that must reflect the prominent comovement causality. The optimization problem of the high dimensional space can be solved in the low dimensional space and maintain the inherent relationships among the time series by using CCA. Second, the learning parameters of hidden neurons have the ability of self-adaptive differential evolution. The neurons in the network are used to model the individuals’ signals from the perspective of evolution. Third, a self-adaptive evolutionary neural network can be used to simulate the operation of the entire market’s signals. The generalized sup augmented Dickey–Fuller test is improved to suit changing market environmental conditions. Thus, the WSADF algorithm has the ability to predict multiple bubbles in high dimensional space. An empirical application of the methodology is conducted on different types of markets (e.g., the USDCNH and CSI300 closing prices), which has successfully identified and forecasted multiple bubbles from 2015 to 2017.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-pwy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W2914604286",
+      "s2_paper_id": "b4af3c68020d6c3a57ba54af1c8aaf54bdb3b933",
+      "included_set_path": "adjudicated",
+      "i2_type": "I2a"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): IEEE Access 7:32586-32596 in the extraction citation vs Crossref 7:38356-38368. The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-1289",
+    "type": "document",
+    "title": "Econometric Analysis of Asset Price Bubbles *",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "s2_paper_id": "ff141276183b210c7905ce6bafd63203c26c7edb",
+      "included_set_path": "adjudicated",
+      "i2_type": "I2b"
+    },
+    "DOI": "10.1017/9781108910095.003",
+    "note": "VERSION AND TIER CORRECTION (2026-09-02, review LITERATURE-1-2): the DOI 10.1017/9781108910095.003 resolves (Crossref, checked 2026-09-02) to a chapter in 'Financial Econometrics: Theory and Applications', Cambridge University Press, 2025, pp. 30-59. That chapter was NEVER obtained. The text extracted for this review is Cowles Foundation Discussion Paper 2331 (2022), the working-paper twin, and the record's `issued` year 2022 is the working paper's. The record is therefore tiered WORKING-PAPER, not peer-reviewed chapter, and every claim resting on it - including the FWER triple 0.55/0.78/0.93 - carries that tier (review sections 7.4, 12.1 L-10, 12.3 VG-6). DOI Handle System responseCode 1, checked 2026-09-02."
+  },
+  {
+    "id": "eru-1509",
+    "type": "article-journal",
+    "title": "On testing for bubbles during hyperinflations",
+    "author": [
+      {
+        "literal": "Rubens Morita"
+      },
+      {
+        "literal": "Zacharias Psaradakis"
+      },
+      {
+        "literal": "Martín Solà"
+      },
+      {
+        "literal": "Patricio Yunis"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Studies in Nonlinear Dynamics and Econometrics",
+    "DOI": "10.1515/snde-2022-0014",
+    "abstract": "Abstract We consider testing for the presence of rational bubbles during hyperinflations via an analysis of the non-stationarity properties of relevant observable time series. The test procedure is based on a Markov regime-switching model with independent stochastic changes in its intercept, error variance and autoregressive coefficients. This model formulation allow us to disentangle fundamentals-driven changes in the drift, bubble-driven explosiveness, and volatility changes that may be fundamentals-driven and/or bubble-driven. The testing methodology is illustrated by applying it to data from hyperinflations in Argentina, Brazil, Germany and Poland.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W4324028139",
+      "s2_paper_id": "5871acc8a27e1f5991a4ff3d10df3b2c20c1fc62",
+      "included_set_path": "adjudicated",
+      "i2_type": "I2b"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): Studies in Nonlinear Dynamics & Econometrics 28(2), no pages, in the extraction citation vs Crossref 28(1):25-37. The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-1761",
+    "type": "article-journal",
+    "title": "A Novel Test for the Presence of Local Explosive Dynamics",
+    "author": [
+      {
+        "literal": "Francisco Blasques"
+      },
+      {
+        "literal": "Siem Jan Koopman"
+      },
+      {
+        "literal": "Gabriele Mingoli"
+      },
+      {
+        "literal": "Sean Telg"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Journal of Time Series Analysis",
+    "DOI": "10.1111/jtsa.70001",
+    "abstract": "ABSTRACT In economics and finance, speculative bubbles take the form of locally explosive dynamics that eventually collapse. We propose a test for the presence of speculative bubbles in the context of mixed causal‐noncausal autoregressive processes. The test exploits the fact that bubbles are anticipative, that is, they are generated by an extreme shock in the forward‐looking dynamics. In particular, the test uses both path‐level deviations and growth rates to assess the presence of a bubble of a given duration and size, at any moment in time. We show that the distribution of the test statistic can be either analytically determined or numerically approximated, depending on the error distribution. Size and power properties of the test are analyzed in controlled Monte Carlo experiments. An empirical application is presented for a monthly oil price index. It demonstrates the ability of the test to detect bubbles and to provide valuable insights in terms of risk assessments in the spirit of Value‐at‐Risk.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy",
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "openalex_id": "W4411632912",
+      "s2_paper_id": "be3488a68bd07bda7fd02540b91fe5167c389f99",
+      "included_set_path": "adjudicated",
+      "i2_type": "I2b"
+    },
+    "note": "CROSSREF METADATA DISCREPANCY (full 62/62 cross-check, 2026-09-02; review L-13(a)): J. Time Series Analysis (2025), no pages, in the extraction citation vs Crossref 46(5):966-980. The extraction citation is reproduced verbatim in review section 5; the Crossref values are authoritative. No extracted operating characteristic is affected - every value in section 7 is located by table or equation, not by page."
+  },
+  {
+    "id": "eru-1770",
+    "type": "document",
+    "title": "Bubble Detection with Application to Green Bubbles: A Noncausal Approach",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "custom": {
+      "source_arms": [
+        "se-fc-s2-psy",
+        "se-fc-s2-pwy"
+      ],
+      "arxiv_id": "2505.14911",
+      "s2_paper_id": "3d3623fa61e24b21004740f80b85fa28587d3fc2",
+      "included_set_path": "adjudicated",
+      "i2_type": "I2b"
+    },
+    "note": "I3 satisfied by arXiv ID 2505.14911 (arXiv API verified 2026-09-02); no DOI registered."
+  },
+  {
+    "id": "eru-1889",
+    "type": "report",
+    "title": "Uniform Inference with General Autoregressive Processes",
+    "author": [
+      {
+        "literal": "Tassos Magdalinos"
+      },
+      {
+        "literal": "Kateřina Petrová"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Staff reports",
+    "DOI": "10.59576/sr.1151",
+    "abstract": "A unified theory of estimation and inference is developed for an autoregressive process with root in (-∞, ∞) that includes the stationary, local-to-unity, explosive and all intermediate regions. The discontinuity of the limit distribution of the t-statistic outside the stationary region and its dependence on the distribution of the innovations in the explosive regions (-∞, -1) ∪ (1, ∞) are addressed simultaneously. A novel estimation procedure, based on a data-driven combination of a near-stationary and a mildly explosive artificially constructed instrument, delivers mixed-Gaussian limit theory and gives rise to an asymptotically standard normal t-statistic across all autoregressive regions. The resulting hypothesis tests and confidence intervals are shown to have correct asymptotic size (uniformly over the space of autoregressive parameters and the space of innovation distribution functions) in autoregressive, predictive regression and local projection models, thereby establishing a general and unified framework for inference with autoregressive processes. Extensive Monte Carlo simulation shows that the proposed methodology exhibits very good finite sample properties over the entire autoregressive parameter space (-∞, ∞) and compares favorably to existing methods within their parametric (-1, 1] validity range. We demonstrate how our procedure can be used to construct valid confidence intervals in standard epidemiological models as well as to test in real-time for speculative bubbles in the price of the Magnificent Seven tech stocks.",
+    "custom": {
+      "source_arms": [
+        "se-fc-oa-psy",
+        "se-fc-oa-pwy"
+      ],
+      "openalex_id": "W4409799781",
+      "included_set_path": "adjudicated",
+      "i2_type": "I2a"
+    }
+  }
+]

@@ -1,0 +1,853 @@
+{
+ "query_id": "ka-crossref-05",
+ "protocol_query_id": "ka-crossref-05",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=favorite+longshot+bias+betting+markets+explanations&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 381712,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 381712,
+   "items": [
+    {
+     "DOI": "10.4337/9781785364556.00013",
+     "title": [
+      "Market efficiency and the favorite–longshot bias: evidence from handball betting markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017,
+        7,
+        28
+       ]
+      ]
+     },
+     "container-title": [
+      "The Economics of Sports Betting"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Arne",
+       "family": "Feddersen",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/b978-044450744-0.50009-3",
+     "title": [
+      "The Favorite-Longshot Bias: An Overview of the Main Explanations"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2008
+       ]
+      ]
+     },
+     "container-title": [
+      "Handbook of Sports and Lottery Markets"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Marco",
+       "family": "Ottaviani",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Peter Norman",
+       "family": "Sørensen",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.6150527",
+     "title": [
+      "Understanding the Favorite–Longshot Bias: Review of Explanations and a Hedging-Based Mechanism"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Lior",
+       "family": "Bakalo",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>&lt;span&gt;The Favorite-Longshot Bias (FLB) is one of the most persistent and well-documented anomalies in wagering markets, observed across multiple sports over the past 70 years. While prior research has attributed the bias to behavioral factors such as misperceptions of probability and risk-seeking tendencies, these explanations alone cannot fully account for its persistence. This paper provides a comprehensive review of the literature on the FLB, categorizing existing explanations into behavioral, informational, and structural mechanisms. Building on this review, we propose a novel explanation: the bias may emerge from bookmakers’ hedging practices. Specifically, risk management by bookmakers can systematically reduce the expected return on low-probability, high-value outcomes, generating a longshot bias even when bettors’ predictions are unbiased. We discuss empirical strategies to test the theory. Our findings contribute to a deeper understanding of market anomalies, the interaction between human behavior and institutional structures, and the role of risk management in shaping observed market biases.&amp;nbsp;&lt;/span&gt;</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.7087538",
+     "title": [
+      "Zero-Price Contracts and the Favorite-Longshot Bias in CPI Prediction Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0001-7257-9141",
+       "authenticated-orcid": true,
+       "given": "David",
+       "family": "Krause",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This study examines the favorite-longshot bias in the Consumer Price Index (CPI) prediction markets on the Kalshi platform. Analyzing 95 contracts across 12 months with 58,138 price observations, we find no evidence of the classic favorite-longshot bias. Contracts priced at zero exhibited perfect calibration, winning 0% of the time. When excluding zero-price contracts, lowprobability contracts (prices between 0.01 and 0.28) showed slight overpricing with a bias of-0.08 (p &amp;lt; 0.001), while high-probability contracts (prices above 0.70) were well-calibrated with a bias of-0.03 (p = 0.589). The overall market outperformed random guessing by 26.6% (Brier Score = 0.1835). These findings suggest that CPI prediction markets are efficient at the extremes and do not exhibit the favorite-longshot bias commonly found in sports betting markets. We discuss implications for market design and the interpretation of prediction market prices as information aggregation mechanisms.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.7110758",
+     "title": [
+      "Market Efficiency and the Favorite-Longshot Bias in Unemployment Prediction Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0001-7257-9141",
+       "authenticated-orcid": true,
+       "given": "David",
+       "family": "Krause",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This paper examines whether the unemployment prediction markets on the Kalshi platform exhibit the classic favorite-longshot bias. Analyzing 287 unique contracts traded between July 2021 and March 2026, I find clear evidence of the classic favorite-longshot bias. Longshots, which are contracts priced below $0.30, show a statistically significant negative bias of-0.077 (p &amp;lt; 0.001), meaning these low-probability contracts are systematically overpriced relative to their actual win rate of just 4.0%. The overall market bias of-0.054 is also statistically significant (p = 0.006), suggesting a general tendency toward overpricing. Favorites, by contrast, are wellcalibrated with a bias of-0.028 that is not statistically significant (p = 0.364). Despite this bias, the market is remarkably efficient overall, with a Brier Score of 0.1106 representing a 55.8% improvement over random guessing. Calibration is strong across most price ranges, with significant deviations only at the lowest price intervals. These findings suggest that while unemployment prediction markets are highly informative, their prices for extreme outcomes should be interpreted with caution. I discuss implications for market design and for researchers and practitioners who use prediction market prices as forecasting inputs.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.1019426",
+     "title": [
+      "Loss Aversion and Mental Accounting: The Favorite Longshot Bias in Parimutuel Betting"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Jianying",
+       "family": "Qiu",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1007/s12197-026-09757-x",
+     "title": [
+      "Efficient market insights and favorite-longshot bias in mixed martial arts betting markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026,
+        2,
+        20
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Economics and Finance"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Kaiana M.",
+       "family": "Miller",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0002-1738-4229",
+       "authenticated-orcid": false,
+       "given": "Mark W.",
+       "family": "Nichols",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1142/9789812819192_0025",
+     "title": [
+      "Introduction to the Efficiency of Win Markets and the Favorite-Longshot Bias"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2008,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "World Scientific Handbook in Financial Economics Series",
+      "Efficiency of Racetrack Betting Markets"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Donald B.",
+       "family": "Hausch",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "University of Wisconsin-Madison, USA"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Victor S. Y.",
+       "family": "Lo",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "University of British Columbia, Canada"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "William T.",
+       "family": "Ziemba",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "University of British Columbia, Canada"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1017/cbo9780511493614.009",
+     "title": [
+      "Longshot bias: insights from the betting market on men's professional tennis"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2005,
+        9,
+        29
+       ]
+      ]
+     },
+     "container-title": [
+      "Information Efficiency in Financial and Betting Markets"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "David",
+       "family": "Forrest",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Ian",
+       "family": "McHale",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.964976",
+     "title": [
+      "Market Manipulation and the Favorite-Longshot Bias"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Stefan",
+       "family": "Winter",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>One of the most striking empirical patterns of horse race betting markets is the favorite-longshot bias: Bets on favorites have dramatically higher expected returns than bets on longshots. The literature offers a couple of different, though not mutually exclusive, explanations. One is the assumption of rational, risk-loving bettors accepting lower expected returns for longshot bets in exchange for higher risk. Another class of explanations focuses on information problems and misperceptions regarding winning probabilities. This article offers still another explanation: The favourite-longshot bias may be the rational answer of an honest audience to a simple, but highly lucrative cheating opportunity of insiders.</jats:p>"
+    },
+    {
+     "DOI": "10.2307/2329144",
+     "title": [
+      "Market Efficiency and the Favorite-Longshot Bias: The Baseball Betting Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1994,
+        3
+       ]
+      ]
+     },
+     "container-title": [
+      "The Journal of Finance"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Linda M.",
+       "family": "Woodland",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Bill M.",
+       "family": "Woodland",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1080/00779954.2011.615116",
+     "title": [
+      "Loss aversion and mental accounting: the favorite-longshot bias in parimutuel betting"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012,
+        8
+       ]
+      ]
+     },
+     "container-title": [
+      "New Zealand Economic Papers"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Jianying",
+       "family": "Qiu",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/j.jebo.2017.05.001",
+     "title": [
+      "Favorite–longshot bias in pari-mutuel betting: An evolutionary explanation"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017,
+        8
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Economic Behavior &amp; Organization"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Atsushi",
+       "family": "Kajii",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Takahiro",
+       "family": "Watanabe",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/j.qref.2015.11.011",
+     "title": [
+      "A favorite-longshot bias in fixed-odds betting markets: Evidence from college basketball and college football"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "The Quarterly Review of Economics and Finance"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Jason P.",
+       "family": "Berkowitz",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "suffix": "II",
+       "given": "Craig A.",
+       "family": "Depken",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "John M.",
+       "family": "Gandar",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1111/j.1540-6261.1994.tb04429.x",
+     "title": [
+      "Market Efficiency and the Favorite‐Longshot Bias: The Baseball Betting Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1994,
+        3
+       ]
+      ]
+     },
+     "container-title": [
+      "The Journal of Finance"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "LINDA M.",
+       "family": "WOODLAND",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "BILL M.",
+       "family": "WOODLAND",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>This paper examines the efficiency of the legal gambling market for major league baseball. Weak‐form tests of market efficiency within and across odds lines are performed. Surprisingly, the consistently observed favorite‐longshot bias in racetrack betting is shown to exist in reverse for baseball bettors. However, these and other deviations from efficiency are shown to be insufficient to allow for profitable betting strategies when commissions are considered.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/b978-044450744-0.50011-1",
+     "title": [
+      "Unifying the Favorite-Longshot Bias with Other Market Anomalies"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2008
+       ]
+      ]
+     },
+     "container-title": [
+      "Handbook of Sports and Lottery Markets"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Russell S.",
+       "family": "Sobel",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Matt E.",
+       "family": "Ryan",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1023/a:1027387507335",
+     "title": [
+      "The Favorite-Longshot Bias in Sequential Parimutuel Betting with Non-Expected Utility Players"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2003,
+        5
+       ]
+      ]
+     },
+     "container-title": [
+      "Theory and Decision"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Frédéric",
+       "family": "Koessler",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Anthony",
+       "family": "Ziegelmeyer",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Marie-Hélène",
+       "family": "Broihanne",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.5750/jpm.v4i1.473",
+     "title": [
+      "EVIDENCE ON THE FAVORITE-LONGSHOT BIAS AS A SUPPLY-SIDE PHENOMENON"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012,
+        12,
+        18
+       ]
+      ]
+     },
+     "container-title": [
+      "The Journal of Prediction Markets"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Matti",
+       "family": "Metsola",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>The favorite-longshot bias has been referred to as the most longstanding empirical regularity in literature concerning decision-making under uncertainty, as well as a central theme of the literature on betting. However, it has defied authoritative explanation to date. Several attempts have been offered to explain the bias. They can be divided to two main categories: demand-oriented and supply-oriented explanations. This article argues in favour of supply-side explanations. The study is based on comparison of bookmaker odds to betting exchange odds in three betting markets. The data obtained illustrate that the disparity between bookmaker odds and betting exchange prices increases rapidly as the implied probability of the event decreases. This provides an explanation of the favorite-longshot bias which is consistent with earlier empirical research, showing declining expected returns on bets as odds increase. In addition, this explanation is consistent with the evidence concerning the volume of bets actually received by bookmakers.</jats:p>"
+    },
+    {
+     "DOI": "10.3386/w15923",
+     "title": [
+      "Explaining the Favorite-Longshot Bias: Is it Risk-Love or Misperceptions?"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2010,
+        4
+       ]
+      ]
+     },
+     "type": "report",
+     "author": [
+      {
+       "given": "Erik",
+       "family": "Snowberg",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Justin",
+       "family": "Wolfers",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.1597604",
+     "title": [
+      "Explaining the Favorite-Longshot Bias: Is it Risk-Love or Misperceptions?"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2010
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Erik",
+       "family": "Snowberg",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Justin",
+       "family": "Wolfers",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>The favorite-longshot bias describes the longstanding empirical regularity that betting odds provide biased estimates of the probability of a horse winning - longshots are overbet, while favorites are underbet. Neoclassical explanations of this phenomenon focus on rational gamblers who overbet longshots due to risk-love. The competing behavioral explanations emphasize the role of misperceptions of probabilities. We provide novel empirical tests that can discriminate between these competing theories by assessing whether the models that explain gamblers’ choices in one part of their choice set (betting to win) can also rationalize decisions over a wider choice set, including compound bets in the exacta, quinella or trifecta pools. Using a new, large-scale dataset ideally suited to implement these tests we find evidence in favour of the view that misperceptions of probability drive the favorite-longshot bias, as suggested by Prospect Theory.</jats:p>"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

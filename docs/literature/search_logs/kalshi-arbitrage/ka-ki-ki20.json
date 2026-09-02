@@ -1,0 +1,433 @@
+{
+ "query_id": "ka-ki-ki20",
+ "protocol_query_id": "KI-20",
+ "arm": "known-item",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1016%2F0304-405X%2881%2990020-9",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1,
+ "retrieved_count": 1,
+ "identifier": "10.1016/0304-405X(81)90020-9",
+ "raw_format": "json",
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      29
+     ]
+    ],
+    "date-time": "2026-08-29T09:22:00Z",
+    "timestamp": 1787995320906,
+    "version": "build-2784847793"
+   },
+   "reference-count": 24,
+   "publisher": "Elsevier BV",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        1981,
+        3,
+        1
+       ]
+      ],
+      "date-time": "1981-03-01T00:00:00Z",
+      "timestamp": 352252800000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Journal of Financial Economics"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      1981,
+      3
+     ]
+    ]
+   },
+   "DOI": "10.1016/0304-405x(81)90020-9",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2002,
+      7,
+      26
+     ]
+    ],
+    "date-time": "2002-07-26T04:14:15Z",
+    "timestamp": 1027656855000
+   },
+   "page": "47-73",
+   "source": "Crossref",
+   "is-referenced-by-count": 1022,
+   "title": [
+    "Optimal dealer pricing under transactions and return uncertainty"
+   ],
+   "prefix": "10.1016",
+   "volume": "9",
+   "author": [
+    {
+     "given": "Thomas",
+     "family": "Ho",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Hans R.",
+     "family": "Stoll",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "issue": "no. 1",
+     "key": "10.1016/0304-405X(81)90020-9_BIB1",
+     "doi-asserted-by": "crossref",
+     "first-page": "31",
+     "DOI": "10.1016/0304-405X(80)90020-3",
+     "article-title": "Dealership market: Market making with inventory",
+     "volume": "8",
+     "author": "Amihud",
+     "year": "1980",
+     "journal-title": "Journal of Financial Economics"
+    },
+    {
+     "issue": "no. 4",
+     "key": "10.1016/0304-405X(81)90020-9_BIB2",
+     "doi-asserted-by": "crossref",
+     "first-page": "353",
+     "DOI": "10.1016/0304-405X(74)90014-2",
+     "article-title": "Determinants of bid-asked spread in the over-the-counter market",
+     "volume": "1",
+     "author": "Benston",
+     "year": "1974",
+     "journal-title": "Journal of Financial Economics"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB3",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1086/295634",
+     "article-title": "A comparison of the stable and student distribution as statistical models for stock prices",
+     "volume": "47",
+     "author": "Blattberg",
+     "year": "1974",
+     "journal-title": "Journal of Business"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB4",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/1913889",
+     "article-title": "A subordinated stochastic process model with finite variance for speculative prices",
+     "volume": "41",
+     "author": "Clark",
+     "year": "1973",
+     "journal-title": "Econometrica"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB5",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/2326356",
+     "article-title": "The returns generation process returns variance and the effect of thinness in securities markets",
+     "volume": "33",
+     "author": "Cohen",
+     "year": "1978",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB6",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/2326467",
+     "article-title": "Limit orders, market structure, and the returns generation process",
+     "volume": "33",
+     "author": "Cohen",
+     "year": "1978",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB7",
+     "series-title": "Market makers and the market spread: A review of recent literature",
+     "author": "Cohen",
+     "year": "1979"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB8",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/2326280",
+     "article-title": "A model of asset trading under the assumption of sequential information arrival",
+     "volume": "31",
+     "author": "Copeland",
+     "year": "1976",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB9",
+     "series-title": "Linear estimation and stochastic control",
+     "author": "Davis",
+     "year": "1977"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB10",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/3003195",
+     "article-title": "The demand for broker's services: The relation between security trading volume and transaction cost",
+     "volume": "7",
+     "author": "Epps",
+     "year": "1976",
+     "journal-title": "Bell Journal of Economics"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB11",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/2327427",
+     "article-title": "Structural organization of secondary markets: Clearing frequency, dealer activity and liquidity risk",
+     "volume": "34",
+     "author": "Garbade",
+     "year": "1979",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "issue": "no. 3",
+     "key": "10.1016/0304-405X(81)90020-9_BIB12",
+     "doi-asserted-by": "crossref",
+     "first-page": "257",
+     "DOI": "10.1016/0304-405X(76)90006-4",
+     "article-title": "Market microstructure",
+     "volume": "3",
+     "author": "Garman",
+     "year": "1976",
+     "journal-title": "Journal of Financial Economics"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB13",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/2327428",
+     "article-title": "Market prices vs equilibrium prices: Returns variance, serial correlation and the role of the specialist",
+     "volume": "34",
+     "author": "Goldman",
+     "year": "1979",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "issue": "no. 1",
+     "key": "10.1016/0304-405X(81)90020-9_BIB14",
+     "doi-asserted-by": "crossref",
+     "first-page": "29",
+     "DOI": "10.1016/0304-405X(79)90021-7",
+     "article-title": "Information dissemination, market efficiency and the frequency of transactions",
+     "volume": "7",
+     "author": "Goldman",
+     "year": "1979",
+     "journal-title": "Journal of Financial Economics"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB15",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/2327382",
+     "article-title": "On dealer markets under competition",
+     "volume": "35",
+     "author": "Ho",
+     "year": "1980",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB16",
+     "series-title": "The optimal pricing policy of a monopolistic marketmaker in the equity market",
+     "author": "Mildenstein",
+     "year": "1980"
+    },
+    {
+     "issue": "no. 3",
+     "key": "10.1016/0304-405X(81)90020-9_BIB17",
+     "doi-asserted-by": "crossref",
+     "first-page": "389",
+     "DOI": "10.1016/0304-405X(77)90045-9",
+     "article-title": "An autoregressive jump process for common stock returns",
+     "volume": "5",
+     "author": "Oldfield",
+     "year": "1977",
+     "journal-title": "Journal of Financial Economics"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB18",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/2326901",
+     "article-title": "The time-variance relationship: Evidence on autocorrelation in common stock returns",
+     "volume": "32",
+     "author": "Schwartz",
+     "year": "1977",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB19",
+     "series-title": "Paper presented at the Western Finance Association Meetings",
+     "article-title": "Continuous vs. intermittent trading on auction markets",
+     "author": "Smidt",
+     "year": "1979"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB20",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/2326945",
+     "article-title": "The supply of dealer services in securities markets",
+     "volume": "33",
+     "author": "Stoll",
+     "year": "1978",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB21",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/2326946",
+     "article-title": "The pricing of security dealer services: An empirical study of NASDAQ stocks",
+     "volume": "33",
+     "author": "Stoll",
+     "year": "1978",
+     "journal-title": "Journal of Finance"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB22",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/1880494",
+     "article-title": "The economics of liquidity services",
+     "volume": "86",
+     "author": "Tinic",
+     "year": "1972",
+     "journal-title": "Quarterly Journal of Economics"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB23",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/2329797",
+     "article-title": "Competition and the pricing of dealer services in the over-the-counter market",
+     "volume": "7",
+     "author": "Tinic",
+     "year": "1972",
+     "journal-title": "Journal of Financial and Quantitative Analysis"
+    },
+    {
+     "key": "10.1016/0304-405X(81)90020-9_BIB24",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2307/2330254",
+     "article-title": "The distribution of common stock price changes: An application of transactions time and subordinated stochastic models",
+     "author": "Westerfield",
+     "year": "1977",
+     "journal-title": "Journal of Financial and Quantitative Analysis"
+    }
+   ],
+   "container-title": [
+    "Journal of Financial Economics"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:0304405X81900209?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:0304405X81900209?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2019,
+      4,
+      12
+     ]
+    ],
+    "date-time": "2019-04-12T15:51:22Z",
+    "timestamp": 1555084282000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/0304405X81900209"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      1981,
+      3
+     ]
+    ]
+   },
+   "references-count": 24,
+   "journal-issue": {
+    "issue": "1",
+    "published-print": {
+     "date-parts": [
+      [
+       1981,
+       3
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "0304405X81900209"
+   ],
+   "URL": "https://doi.org/10.1016/0304-405x(81)90020-9",
+   "relation": {},
+   "ISSN": [
+    "0304-405X"
+   ],
+   "issn-type": [
+    {
+     "value": "0304-405X",
+     "type": "print"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      1981,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

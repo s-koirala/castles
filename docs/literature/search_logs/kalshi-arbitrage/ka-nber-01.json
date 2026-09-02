@@ -1,0 +1,2115 @@
+{
+ "query_id": "ka-nber-01",
+ "protocol_query_id": "ka-nber-01",
+ "arm": "topical",
+ "platform": "nber",
+ "url": "https://www.nber.org/api/v1/working_page_listing/contentType/working_paper/_/_/search?page=1&perPage=50&q=prediction%20markets",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": null,
+ "retrieved_count": 50,
+ "retry_suffix": null,
+ "raw": {
+  "totalResults": 21594,
+  "results": [
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/justin_wolfers\">Justin Wolfers</a>",
+     "<a href=\"/people/eric_zitzewitz\">Eric Zitzewitz</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "May 2004",
+    "abstract": "We analyze the extent to which simple markets can be used to aggregate disperse information into efficient forecasts of uncertain future events. Drawing together data from a range of prediction contexts, we show that market-generated forecasts are typically fairly accurate, and that they outperform",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "26851",
+    "title": "Prediction Markets",
+    "type": "working_paper",
+    "url": "/papers/w10504",
+    "id": "i768l2-sitesearch-entity:node/26851:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/charles_manski\">Charles F. Manski</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 2004",
+    "abstract": "Participants in prediction markets such as the Iowa Electronic Markets trade all-or-nothing contracts that pay a dollar if and only if specified future events occur. Researchers engaged in empirical study of prediction markets have argued broadly that equilibrium prices of the contracts traded are",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "38066",
+    "title": "Interpreting the Predictions of Prediction Markets",
+    "type": "working_paper",
+    "url": "/papers/w10359",
+    "id": "i768l2-sitesearch-entity:node/38066:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/justin_wolfers\">Justin Wolfers</a>",
+     "<a href=\"/people/eric_zitzewitz\">Eric Zitzewitz</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 2006",
+    "abstract": "Prediction Markets, sometimes referred to as \"information markets,\" \"idea futures\" or \"event futures\", are markets where participants trade contracts whose payoffs are tied to a future event, thereby yielding prices that can be interpreted as market-aggregated forecasts. This article summarizes the",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "65536",
+    "title": "Prediction Markets in Theory and Practice",
+    "type": "working_paper",
+    "url": "/papers/w12083",
+    "id": "i768l2-sitesearch-entity:node/65536:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/erik_snowberg\">Erik Snowberg</a>",
+     "<a href=\"/people/justin_wolfers\">Justin Wolfers</a>",
+     "<a href=\"/people/eric_zitzewitz\">Eric Zitzewitz</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "July 2012",
+    "abstract": "Prediction markets--markets used to forecast future events--have been used to accurately forecast the outcome of political contests, sporting events, and, occasionally, economic outcomes. This chapter summarizes the latest research on prediction markets in order to further their utilization by",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "71517",
+    "title": "Prediction Markets for Economic Forecasting",
+    "type": "working_paper",
+    "url": "/papers/w18222",
+    "id": "i768l2-sitesearch-entity:node/71517:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/justin_wolfers\">Justin Wolfers</a>",
+     "<a href=\"/people/eric_zitzewitz\">Eric Zitzewitz</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "May 2006",
+    "abstract": "While most empirical analysis of prediction markets treats prices of binary options as predictions of the probability of future events, Manski (2004) has recently argued that there is little existing theory supporting this practice. We provide relevant analytic foundations, describing sufficient",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "65653",
+    "title": "Interpreting Prediction Market Prices as Probabilities",
+    "type": "working_paper",
+    "url": "/papers/w12200",
+    "id": "i768l2-sitesearch-entity:node/65653:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/justin_wolfers\">Justin Wolfers</a>",
+     "<a href=\"/people/eric_zitzewitz\">Eric Zitzewitz</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "February 2006",
+    "abstract": "Interest in prediction markets has increased in the last decade, driven in part by the hope that these markets will prove to be valuable tools in forecasting, decision-making and risk management -- in both the public and private sectors. This paper outlines five open questions in the literature, and",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "65512",
+    "title": "Five Open Questions About Prediction Markets",
+    "type": "working_paper",
+    "url": "/papers/w12060",
+    "id": "i768l2-sitesearch-entity:node/65512:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/charles_calomiris\">Charles W. Calomiris</a>",
+     "<a href=\"/people/nida_cakir_melek\">Nida Çakır Melek</a>",
+     "<a href=\"/people/harry_mamaysky\">Harry Mamaysky</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "October 2021",
+    "abstract": "We study the performance of many traditional and novel, text-based variables for in-sample and out-of-sample forecasting of oil spot, futures, and energy company stock returns, and changes in oil volatility, production, and inventories. After controlling for small-sample biases, we find evidence of",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "333398",
+    "title": "Predicting the Oil Market",
+    "type": "working_paper",
+    "url": "/papers/w29379",
+    "id": "i768l2-sitesearch-entity:node/333398:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/erik_snowberg\">Erik Snowberg</a>",
+     "<a href=\"/people/justin_wolfers\">Justin Wolfers</a>",
+     "<a href=\"/people/eric_zitzewitz\">Eric Zitzewitz</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "April 2011",
+    "abstract": "This review paper articulates the relationship between prediction market data and event studies, with a special focus on applications in political economy. Event studies have been used to address a variety of political economy questions from the economic effects of party control of government to the",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "70304",
+    "title": "How Prediction Markets Can Save Event Studies",
+    "type": "working_paper",
+    "url": "/papers/w16949",
+    "id": "i768l2-sitesearch-entity:node/70304:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/erik_snowberg\">Erik Snowberg</a>",
+     "<a href=\"/people/justin_wolfers\">Justin Wolfers</a>",
+     "<a href=\"/people/eric_zitzewitz\">Eric Zitzewitz</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 2006",
+    "abstract": "Analyses of the effects of election outcomes on the economy have been hampered by the problem that economic outcomes also influence elections. We sidestep these problems by analyzing movements in economic indicators caused by clearly exogenous changes in expectations about the likely winner during",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "27616",
+    "title": "Partisan Impacts on the Economy: Evidence from Prediction Markets and Close Elections",
+    "type": "working_paper",
+    "url": "/papers/w12073",
+    "id": "i768l2-sitesearch-entity:node/27616:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/andrew_leigh\">Andrew Leigh</a>",
+     "<a href=\"/people/justin_wolfers\">Justin Wolfers</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "February 2006",
+    "abstract": "We review the efficacy of three approaches to forecasting elections: econometric models that project outcomes on the basis of the state of the economy; public opinion polls; and election betting (prediction markets). We assess the efficacy of each in light of the 2004 Australian election. This",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "65504",
+    "title": "Competing Approaches to Forecasting Elections: Economic Models, Opinion Polling and Prediction Markets",
+    "type": "working_paper",
+    "url": "/papers/w12053",
+    "id": "i768l2-sitesearch-entity:node/65504:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/lubos_pastor\">Lubos Pastor</a>",
+     "<a href=\"/people/robert_stambaugh\">Robert F. Stambaugh</a>",
+     "<a href=\"/people/lucian_taylor\">Lucian A. Taylor</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "August 2026",
+    "abstract": "We study how opening private markets to retail investors affects investors and firms. Calibrating a production-based asset-pricing model, we find that democratization raises retail investors' welfare, but barely. Retail investors benefit little from democratization even if they face no extra cost or",
+    "newthisweek": true,
+    "certifiedrandom": false,
+    "nid": "1369589",
+    "title": "Democratizing Private Markets: Equilibrium Predictions",
+    "type": "working_paper",
+    "url": "/papers/w35665",
+    "id": "i768l2-sitesearch-entity:node/1369589:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/mikhail_chernov\">Mikhail Chernov</a>",
+     "<a href=\"/people/vadim_elenev\">Vadim Elenev</a>",
+     "<a href=\"/people/dongho_song\">Dongho Song</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "January 2025",
+    "abstract": "We propose a novel time-series econometric framework to forecast U.S. Presidential election outcomes in real time by combining polling data, economic fundamentals, and political prediction market prices. Our model estimates the joint dynamics of voter preferences across states. Applying our approach",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "1001453",
+    "title": "The Comovement of Voter Preferences: Insights from U.S. Presidential Election Prediction Markets Beyond Polls",
+    "type": "working_paper",
+    "url": "/papers/w33339",
+    "id": "i768l2-sitesearch-entity:node/1001453:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/malcolm_baker\">Malcolm P. Baker</a>",
+     "<a href=\"/people/ryan_taliaferro\">Ryan Taliaferro</a>",
+     "<a href=\"/people/jeffrey_wurgler\">Jeffrey Wurgler</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "October 2004",
+    "abstract": "A number of studies claim that aggregate managerial decision variables, such as aggregate equity issuance, have power to predict stock or bond market returns. Recent research argues that these results may be driven by an aggregate time-series version of Schultz's (2003) pseudo market timing bias. We",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "40466",
+    "title": "Pseudo Market Timing and Predictive Regressions",
+    "type": "working_paper",
+    "url": "/papers/w10823",
+    "id": "i768l2-sitesearch-entity:node/40466:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/andrew_lo\">Andrew W. Lo</a>",
+     "<a href=\"/people/craig_mackinlay\">A. Craig MacKinlay</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "February 1995",
+    "abstract": "We construct portfolios of stocks and of bonds that are maximally predictable with respect to a set of ex ante observable economic variables, and show that these levels of predictability are statistically significant, even after controlling for data-snooping biases. We disaggregate the sources for",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "84216",
+    "title": "Maximizing Predictability in the Stock and Bond Markets",
+    "type": "working_paper",
+    "url": "/papers/w5027",
+    "id": "i768l2-sitesearch-entity:node/84216:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/christopher_avery\">Christopher Avery</a>",
+     "<a href=\"/people/judith_chevalier\">Judith A. Chevalier</a>",
+     "<a href=\"/people/richard_zeckhauser\">Richard J. Zeckhauser</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "August 2011",
+    "abstract": "We study the predictive power of approximately 2.5 million stock picks submitted by individual users to the \"CAPS\" website run by the Motley Fool company (www.caps.fool.com). These picks prove to be surprisingly informative about future stock prices. Indeed, a strategy of shorting stocks with a",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "22301",
+    "title": "The \"CAPS\" Prediction System and Stock Market Returns",
+    "type": "working_paper",
+    "url": "/papers/w17298",
+    "id": "i768l2-sitesearch-entity:node/22301:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/richard_levich\">Richard M. Levich</a>",
+     "<a href=\"/people/valerio_poti\">Valerio Poti</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "December 2008",
+    "abstract": "This paper studies predictability of currency returns over the period 1971-2006. To assess the economic significance of currency predictability, we construct an upper bound on the explanatory power of predictive regressions. The upper bound is motivated by \"no good-deal\" restrictions that rule out",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "68044",
+    "title": "Predictability and 'Good Deals' in Currency Markets",
+    "type": "working_paper",
+    "url": "/papers/w14597",
+    "id": "i768l2-sitesearch-entity:node/68044:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/campbell_harvey\">Campbell R. Harvey</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "January 1994",
+    "abstract": "The emergence of new equity markets in Europe, Latin America, Asia, the Mideast and Africa provides a new menu of opportunities for investors. These markets exhibit high expected returns as well as high volatility. Importantly, the low correlations with developed countries' equity markets",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "83847",
+    "title": "Predictable Risk and Returns in Emerging Markets",
+    "type": "working_paper",
+    "url": "/papers/w4621",
+    "id": "i768l2-sitesearch-entity:node/83847:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/jonathan_lewellen\">Jonathan Lewellen</a>",
+     "<a href=\"/people/jay_shanken\">Jay Shanken</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "May 2000",
+    "abstract": "In asset pricing, estimation risk refers to investor uncertainty about the parameters of the return or cashflow process. We show that with estimation risk the observable properties of prices and returns can differ significantly from the properties perceived by rational investors. In particular,",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "86472",
+    "title": "Estimation Risk, Market Efficiency, and the Predictability of Returns",
+    "type": "working_paper",
+    "url": "/papers/w7699",
+    "id": "i768l2-sitesearch-entity:node/86472:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/carolin_pflueger\">Carolin E. Pflueger</a>",
+     "<a href=\"/people/luis_viceira\">Luis M. Viceira</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 2011",
+    "abstract": "Estimating the liquidity differential between inflation-indexed and nominal bond yields, we separately test for time-varying real rate risk premia, inflation risk premia, and liquidity premia in U.S. and U.K. bond markets. We find strong, model independent evidence that real rate risk premia and",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "70247",
+    "title": "Return Predictability in the Treasury Market: Real Rates, Inflation, and Liquidity",
+    "type": "working_paper",
+    "url": "/papers/w16892",
+    "id": "i768l2-sitesearch-entity:node/70247:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/alex_chan\">Alex Chan</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "July 2026",
+    "abstract": "I study insurance when contracts can change residual risk. Under complete contracting, prevention is supplied by its least-cost source. Prediction and prevention can lower claims but the best prevention package may attract the people most likely to need it. Competition then creates a risk-design",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "1340742",
+    "title": "Risk Design: AI and Prediction Beyond Screening in Insurance Markets",
+    "type": "working_paper",
+    "url": "/papers/w35444",
+    "id": "i768l2-sitesearch-entity:node/1340742:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/ajay_agrawal\">Ajay Agrawal</a>",
+     "<a href=\"/people/joshua_gans\">Joshua S. Gans</a>",
+     "<a href=\"/people/avi_goldfarb\">Avi Goldfarb</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 2019",
+    "abstract": "Recent advances in artificial intelligence are primarily driven by machine learning, a prediction technology. Prediction is useful because it is an input into decision-making. In order to appreciate the impact of artificial intelligence on jobs, it is important to understand the relative roles of",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "80858",
+    "title": "Artificial Intelligence: The Ambiguous Labor Market Impact of Automating Prediction",
+    "type": "working_paper",
+    "url": "/papers/w25619",
+    "id": "i768l2-sitesearch-entity:node/80858:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/dennis_carlton\">Dennis W. Carlton</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "July 1980",
+    "abstract": "To say that the price of some good is inflexible over time has little meaning if the \"good\" is changing over time. In this paper we concentrate on delivery lags as being the only dimension other than price that varies. We show how one can predict the relative importance of price and delivery lag",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "33751",
+    "title": "Modeling Price Rigidity or Predicting the Quality of the Good that Clears the Market",
+    "type": "working_paper",
+    "url": "/papers/w0503",
+    "id": "i768l2-sitesearch-entity:node/33751:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/ravi_bansal\">Ravi Bansal</a>",
+     "<a href=\"/people/ivan_shaliastovich\">Ivan Shaliastovich</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "September 2012",
+    "abstract": "We show that bond risk-premia rise with uncertainty about expected inflation and fall with uncertainty about expected growth; the magnitude of return predictability using these two uncertainty measures is similar to that by multiple yields. Motivated by this evidence, we develop and estimate a long",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "71652",
+    "title": "A Long-Run Risks Explanation of Predictability Puzzles in Bond and Currency Markets",
+    "type": "working_paper",
+    "url": "/papers/w18357",
+    "id": "i768l2-sitesearch-entity:node/71652:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/bryan_kelly\">Bryan T. Kelly</a>",
+     "<a href=\"/people/semyon_malamud\">Semyon Malamud</a>",
+     "<a href=\"/people/kyzhou\">Kangying Zhou</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "July 2022",
+    "abstract": "Much of the extant literature predicts market returns with simple models that use only a few parameters. Contrary to conventional wisdom, we theoretically prove that simple models severely understate return predictability compared to complex models in which the number of parameters exceeds the",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "474210",
+    "title": "The Virtue of Complexity in Return Prediction",
+    "type": "working_paper",
+    "url": "/papers/w30217",
+    "id": "i768l2-sitesearch-entity:node/474210:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/anthony_diercks\">Anthony M. Diercks</a>",
+     "<a href=\"/people/jdkatz21\">Jared Dean Katz</a>",
+     "<a href=\"/people/jonathan_wright\">Jonathan H. Wright</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "January 2026",
+    "abstract": "Prediction markets offer a new market-based approach to measuring macroeconomic expectations in real-time. We evaluate the accuracy of prediction market-implied forecasts from Kalshi, the largest federally regulated prediction market overseen by the CFTC. We compare Kalshi with more traditional",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "1230519",
+    "title": "Kalshi and the Rise of Macro Markets",
+    "type": "working_paper",
+    "url": "/papers/w34702",
+    "id": "i768l2-sitesearch-entity:node/1230519:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/samuel_hartzmark\">Samuel M. Hartzmark</a>",
+     "<a href=\"/people/david_solomon\">David H. Solomon</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "November 2022",
+    "abstract": "We demonstrate that predictable uninformed cash flows forecast market and individual stock returns. Buying pressure from dividend payments (announced weeks prior) predicts higher value-weighted market returns, with returns for the top quintile of payment days four times higher than the lowest. This",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "553847",
+    "title": "Predictable Price Pressure",
+    "type": "working_paper",
+    "url": "/papers/w30688",
+    "id": "i768l2-sitesearch-entity:node/553847:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/geert_bekaert\">Geert Bekaert</a>",
+     "<a href=\"/people/robert_hodrick\">Robert J. Hodrick</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "July 1991",
+    "abstract": "The paper characterizes predictable components in excess rates of returns on major equity and foreign exchange markets using lagged excess returns, dividend yields, and forward premiums as instruments. Vector autoregressive techniques demonstrate one-step-ahead predictability and provide implied",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "83103",
+    "title": "Characterizing Predictable Components in Excess Returns on Equity and Foreign Exchange Markets",
+    "type": "working_paper",
+    "url": "/papers/w3790",
+    "id": "i768l2-sitesearch-entity:node/83103:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/valentin_haddad\">Valentin Haddad</a>",
+     "<a href=\"/people/serhiy_kozak\">Serhiy Kozak</a>",
+     "<a href=\"/people/shrihari_santosh\">Shrihari Santosh</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "October 2017",
+    "abstract": "Across a variety of asset classes, we show that relative returns are highly predictable in the time series in and out of sample, much more so than aggregate returns. For Treasuries, slope is more predictable than level. For equities, dominant principal components of anomaly long-short strategies are",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "78081",
+    "title": "Predicting Relative Returns",
+    "type": "working_paper",
+    "url": "/papers/w23886",
+    "id": "i768l2-sitesearch-entity:node/78081:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/jessica_wachter\">Jessica A. Wachter</a>",
+     "<a href=\"/people/missaka_warusawitharana\">Missaka Warusawitharana</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "June 2007",
+    "abstract": "Are excess returns predictable and if so, what does this mean for investors? Previous literature has tended toward two polar viewpoints: that predictability is useful only if the statistical evidence for it is incontrovertible, or that predictability should affect portfolio choice, even if the",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "66632",
+    "title": "Predictable Returns and Asset Allocation: Should a Skeptical Investor Time the Market?",
+    "type": "working_paper",
+    "url": "/papers/w13165",
+    "id": "i768l2-sitesearch-entity:node/66632:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/william_cong\">Lin William Cong</a>",
+     "<a href=\"/people/guanhao_feng\">Guanhao Feng</a>",
+     "<a href=\"/people/jingyuhe\">Jingyu He</a>",
+     "<a href=\"/people/yuanzwang5\">Yuanzhi Wang</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "May 2026",
+    "abstract": "We argue that return predictability is a latent, asset-specific, and state-dependent characteristic. We develop an interpretable Panel Tree that endogenously partitions the U.S. equity panel into out-of-sample and persistent mosaic patterns, and estimate cluster-specific forecasting models.",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "1297249",
+    "title": "Mosaics of Predictability",
+    "type": "working_paper",
+    "url": "/papers/w35158",
+    "id": "i768l2-sitesearch-entity:node/1297249:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/thomas_buser\">Thomas Buser</a>",
+     "<a href=\"/people/muriel_niederle\">Muriel Niederle</a>",
+     "<a href=\"/people/hessel_oosterbeek\">Hessel Oosterbeek</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "June 2021",
+    "abstract": "We assess the predictive power of two measures of competitiveness for education and labor market outcomes using a large, representative survey panel. The first is incentivized and is an online adaptation of the laboratory-based Niederle-Vesterlund measure. The second is an unincentivized survey",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "264049",
+    "title": "Can Competitiveness predict Education and Labor Market Outcomes? Evidence from Incentivized Choice and Survey Measures",
+    "type": "working_paper",
+    "url": "/papers/w28916",
+    "id": "i768l2-sitesearch-entity:node/264049:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/rui_castro\">Rui Castro</a>",
+     "<a href=\"/people/jiyoung_kim\">Jiyoung Kim</a>",
+     "<a href=\"/people/fabian_lange\">Fabian Lange</a>",
+     "<a href=\"/people/jeromelariviere\">Jérôme Larivière</a>",
+     "<a href=\"/people/markus_poschke\">Markus Poschke</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "June 2026",
+    "abstract": "A small group of people accounts for a large majority of flows between labor market states and of spells in un- and non-employment. In this paper, we ask whether it is possible to identify those weakly attached to the labor market during their prime working-age years using information available",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "1319801",
+    "title": "Predicting Labor Force Types",
+    "type": "working_paper",
+    "url": "/papers/w35295",
+    "id": "i768l2-sitesearch-entity:node/1319801:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/robin_greenwood\">Robin Greenwood</a>",
+     "<a href=\"/people/samuel_hanson\">Samuel G. Hanson</a>",
+     "<a href=\"/people/andrei_shleifer\">Andrei Shleifer</a>",
+     "<a href=\"/people/jakob_sorensen\">Jakob Ahm Sørensen</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "June 2020",
+    "abstract": "Using historical data on post-war financial crises around the world, we show that crises are substantially predictable. The combination of rapid credit and asset price growth over the prior three years, whether in the nonfinancial business or the household sector, is associated with about a 40%",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "99869",
+    "title": "Predictable Financial Crises",
+    "type": "working_paper",
+    "url": "/papers/w27396",
+    "id": "i768l2-sitesearch-entity:node/99869:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/robert_stambaugh\">Robert F. Stambaugh</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "May 1999",
+    "abstract": "When a rate of return is regressed on a lagged stochastic regressor, such as a dividend yield, the regression disturbance is correlated with the regressor's innovation. The OLS estimator's finite-sample properties, derived here, can depart substantially from the standard regression setting. Bayesian",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "30681",
+    "title": "Predictive Regressions",
+    "type": "working_paper",
+    "url": "/papers/t0240",
+    "id": "i768l2-sitesearch-entity:node/30681:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/anisha_ghosh\">Anisha Ghosh</a>",
+     "<a href=\"/people/george_constantinides\">George M. Constantinides</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "July 2010",
+    "abstract": "The predictability of the market return and dividend growth is addressed in an equilibrium model with two regimes. A state variable that drives the conditional means of the aggregate consumption and dividend growth rates follows different time-series processes in the two regimes. In linear",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "69564",
+    "title": "The Predictability of Returns with Regime Shifts in Consumption and Dividend Growth",
+    "type": "working_paper",
+    "url": "/papers/w16183",
+    "id": "i768l2-sitesearch-entity:node/69564:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/benjamin_golez\">Benjamin Golez</a>",
+     "<a href=\"/people/peter_koudijs\">Peter Koudijs</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "January 2015",
+    "abstract": "We combine annual stock market data for the most important equity markets of the last four centuries: the Netherlands/U.K. (1629-1812), U.K. (1813-1870) and U.S. (1871-2015). We show that dividend yields are stationary and consistently forecast returns. The documented predictability holds for annual",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "74141",
+    "title": "Four Centuries of Return Predictability",
+    "type": "working_paper",
+    "url": "/papers/w20814",
+    "id": "i768l2-sitesearch-entity:node/74141:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/menzie_chinn\">Menzie D. Chinn</a>",
+     "<a href=\"/people/olivier_coibion\">Olivier Coibion</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 2010",
+    "abstract": "This paper examines the relationship between spot and futures prices for a broad range of commodities, including energy, precious and base metals, and agricultural commodities. In particular, we examine whether futures prices are (1) an unbiased and/or (2) accurate predictor of subsequent spot",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "69240",
+    "title": "The Predictive Content of Commodity Futures",
+    "type": "working_paper",
+    "url": "/papers/w15830",
+    "id": "i768l2-sitesearch-entity:node/69240:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/amit_goyal\">Amit Goyal</a>",
+     "<a href=\"/people/ivo_welch\">Ivo Welch</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "February 2002",
+    "abstract": "Our paper reexamines the forecasting regressions which predict annual aggregate stock market returns net of the risk-free rate with lagged aggregate dividend-yield ratios and dividend-price ratios. Prior to 1990, the conditional dividend yield could reliably outperform the historical equity premium",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "87424",
+    "title": "Predicting the Equity Premium With Dividend Ratios",
+    "type": "working_paper",
+    "url": "/papers/w8788",
+    "id": "i768l2-sitesearch-entity:node/87424:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/scott_baker\">Scott R. Baker</a>",
+     "<a href=\"/people/justin_balthrop\">Justin Balthrop</a>",
+     "<a href=\"/people/mark_johnson\">Mark J. Johnson</a>",
+     "<a href=\"/people/jason_kotter\">Jason D. Kotter</a>",
+     "<a href=\"/people/kevin_pisciotta\">Kevin Pisciotta</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "July 2026",
+    "abstract": "This paper examines the rapid expansion and convergence of retail betting markets. We analyze market design elements, discuss economic utility, and highlight shared behavioral drivers of sports betting markets, prediction markets, and retail options trading. Our review underscores how technological",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "1349266",
+    "title": "Retail Betting Markets",
+    "type": "working_paper",
+    "url": "/papers/w35520",
+    "id": "i768l2-sitesearch-entity:node/1349266:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/vance_roley\">V. Vance Roley</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 1985",
+    "abstract": "The performance of empirical money demand equations over the past decade raises serious questions about money demand predictability. A variety of specifications were presented to explain past episodes of apparent money demand instability, but their success in predicting future money demand is",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "69210",
+    "title": "Money Demand Predictability",
+    "type": "working_paper",
+    "url": "/papers/w1580",
+    "id": "i768l2-sitesearch-entity:node/69210:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/francis_diebold\">Francis X. Diebold</a>",
+     "<a href=\"/people/roberto_mariano\">Roberto S. Mariano</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "November 1994",
+    "abstract": "Using research designs patterned after randomized experiments, many recent economic studies examine outcome measures for treatment groups and comparison groups that are not randomly assigned. By using variation in explanatory variables generated by changes in state laws, government draft mechanisms,",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "30326",
+    "title": "Comparing Predictive Accuracy",
+    "type": "working_paper",
+    "url": "/papers/t0169",
+    "id": "i768l2-sitesearch-entity:node/30326:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/ashvin_gandhi\">Ashvin Gandhi</a>",
+     "<a href=\"/people/andrew_olenski\">Andrew Olenski</a>",
+     "<a href=\"/people/maggie_shi\">Maggie Shi</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "December 2025",
+    "abstract": "Inspections are a common tool for acquiring information and incentivizing compliance. Though typically unannounced, they often follow a predictable schedule. We study how this predictability shapes firm effort and patient outcomes in U.S. nursing homes. Nursing homes slack in the low-risk period",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "1194508",
+    "title": "Predictably Unpredictable Inspections",
+    "type": "working_paper",
+    "url": "/papers/w34491",
+    "id": "i768l2-sitesearch-entity:node/1194508:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/andrew_ang\">Andrew Ang</a>",
+     "<a href=\"/people/geert_bekaert\">Geert Bekaert</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "April 2001",
+    "abstract": "We ask whether stock returns in France, Germany, Japan, the UK and the US are predictable by three instruments: the dividend yield, the earnings yield and the short rate. The predictability regression is suggested by a present value model with earnings growth, payout ratios and the short rate as",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "86913",
+    "title": "Stock Return Predictability: Is it There?",
+    "type": "working_paper",
+    "url": "/papers/w8207",
+    "id": "i768l2-sitesearch-entity:node/86913:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/stoddardg\">Greg Stoddard</a>",
+     "<a href=\"/people/dylan_fitzpatrick\">Dylan J. Fitzpatrick</a>",
+     "<a href=\"/people/jens_ludwig\">Jens Ludwig</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "May 2024",
+    "abstract": "Whether police misconduct can be prevented depends partly on whether it can be predicted. We show police misconduct is partially predictable and that estimated misconduct risk is not simply an artifact of measurement error or a proxy for officer activity. We also show many officers at risk of on",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "860463",
+    "title": "Predicting Police Misconduct",
+    "type": "working_paper",
+    "url": "/papers/w32432",
+    "id": "i768l2-sitesearch-entity:node/860463:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/john_campbell\">John Y. Campbell</a>",
+     "<a href=\"/people/yasushi_hamao\">Yasushi Hamao</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "December 1989",
+    "abstract": "This paper studies the predictability of monthly excess returns on equity portfolios over the domestic short-term interest rate in the U.S. and Japan during the period 1971:1-1989:3. The paper finds that similar variables, including the dividend-price ratio and interest rate variables, help to",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "82554",
+    "title": "Predictable Stock Returns in the United States and Japan: A Study of Long-Term Capital Market Integration",
+    "type": "working_paper",
+    "url": "/papers/w3191",
+    "id": "i768l2-sitesearch-entity:node/82554:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/jules_vanbinsbergen\">Jules H. van Binsbergen</a>",
+     "<a href=\"/people/ralph_koijen\">Ralph S.J. Koijen</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "August 2010",
+    "abstract": "We propose a latent variables approach within a present-value model to estimate the expected returns and expected dividend growth rates of the aggregate stock market. This approach aggregates information contained in the history of price-dividend ratios and dividend growth rates to predict future",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "69640",
+    "title": "Predictive Regressions: A Present-value Approach",
+    "type": "working_paper",
+    "url": "/papers/w16263",
+    "id": "i768l2-sitesearch-entity:node/69640:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/ralph_koijen\">Ralph S.J. Koijen</a>",
+     "<a href=\"/people/stijn_vannieuwerburgh\">Stijn Van Nieuwerburgh</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "December 2010",
+    "abstract": "We review the literature on return and cash flow growth predictability form the perspective of the present-value identity. We focus predominantly on recent work. Our emphasis is on U.S. aggregate stock return predictability, but we also discuss evidence from other asset classes and countries.",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "70009",
+    "title": "Predictability of Returns and Cash Flows",
+    "type": "working_paper",
+    "url": "/papers/w16648",
+    "id": "i768l2-sitesearch-entity:node/70009:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/zheng_tracy_ke_\">Zheng Tracy Ke</a>",
+     "<a href=\"/people/bryan_kelly\">Bryan T. Kelly</a>",
+     "<a href=\"/people/dacheng_xiu\">Dacheng Xiu</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "September 2019",
+    "abstract": "We introduce a new text-mining methodology that extracts sentiment information from news articles to predict asset returns. Unlike more common sentiment scores used for stock return prediction (e.g., those sold by commercial vendors or built with dictionary-based methods), our supervised learning",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "81810",
+    "title": "Predicting Returns With Text Data",
+    "type": "working_paper",
+    "url": "/papers/w26186",
+    "id": "i768l2-sitesearch-entity:node/81810:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/victor_zarnowitz\">Victor Zarnowitz</a>",
+     "<a href=\"/people/louis_lambros\">Louis A. Lambros</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "July 1983",
+    "abstract": "The usual practice in economic forecasting is to report point predictions without specifying the attached probabilities. Periodic surveys of such forecasts produce group averages, which are taken to indicate the \"consensus\" of experts. Measures of the dispersion of individual forecasts around these",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "63331",
+    "title": "Consensus and Uncertainty in Economic Prediction",
+    "type": "working_paper",
+    "url": "/papers/w1171",
+    "id": "i768l2-sitesearch-entity:node/63331:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/kent_daniel\">Kent Daniel</a>",
+     "<a href=\"/people/david_hirshleifer\">David Hirshleifer</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "February 2016",
+    "abstract": "Individuals and asset managers trade aggressively, resulting in high volume in asset markets, even when such trading results in high risk and low net returns. Asset prices display patterns of predictability that are difficult to reconcile with rational expectationsbased theories of price formation.",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "75553",
+    "title": "Overconfident Investors, Predictable Returns, and Excessive Trading",
+    "type": "working_paper",
+    "url": "/papers/w21945",
+    "id": "i768l2-sitesearch-entity:node/75553:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   }
+  ],
+  "facets": [
+   {
+    "endpoint": "/suggest",
+    "values": [
+     {
+      "smallText": "Affiliated Org",
+      "name": "Joshua Aizenman",
+      "id": "authorNames:Joshua Aizenman",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Daron Acemoglu",
+      "id": "authorNames:Daron Acemoglu",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Richard B. Freeman",
+      "id": "authorNames:Richard B. Freeman",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Edward L. Glaeser",
+      "id": "authorNames:Edward L. Glaeser",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Michael D. Bordo",
+      "id": "authorNames:Michael D. Bordo",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Andrei Shleifer",
+      "id": "authorNames:Andrei Shleifer",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "David Neumark",
+      "id": "authorNames:David Neumark",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Joseph E. Stiglitz",
+      "id": "authorNames:Joseph E. Stiglitz",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "René M. Stulz",
+      "id": "authorNames:René M. Stulz",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Assaf Razin",
+      "id": "authorNames:Assaf Razin",
+      "selected": false
+     }
+    ],
+    "label": "Author & Editor",
+    "id": "authorNames"
+   },
+   {
+    "endpoint": "/suggest",
+    "values": [
+     {
+      "name": "Gender in the Economy",
+      "id": "projects:Gender in the Economy",
+      "selected": false
+     },
+     {
+      "name": "Healthcare Decision-Making and Outcomes for People Living with Alzheimer's Disease",
+      "id": "projects:Healthcare Decision-Making and Outcomes for People Living with Alzheimer's Disease",
+      "selected": false
+     },
+     {
+      "name": "Training Program in Aging and Health Economics",
+      "id": "projects:Training Program in Aging and Health Economics",
+      "selected": false
+     },
+     {
+      "name": "Center for Aging and Health Research",
+      "id": "projects:Center for Aging and Health Research",
+      "selected": false
+     },
+     {
+      "name": "Economics of Aging Training Program",
+      "id": "projects:Economics of Aging Training Program",
+      "selected": false
+     },
+     {
+      "name": "Integrated Lifecycle Approach to the Development of Health & Other Capabilities",
+      "id": "projects:Integrated Lifecycle Approach to the Development of Health & Other Capabilities",
+      "selected": false
+     },
+     {
+      "name": "Retirement and Disability Research Center",
+      "id": "projects:Retirement and Disability Research Center",
+      "selected": false
+     },
+     {
+      "name": "Economics of Digitization",
+      "id": "projects:Economics of Digitization",
+      "selected": false
+     },
+     {
+      "name": "Economics of Entrepreneurship and Innovation",
+      "id": "projects:Economics of Entrepreneurship and Innovation",
+      "selected": false
+     },
+     {
+      "name": "2018-2019 R-DRC",
+      "id": "projects:2018-2019 R-DRC",
+      "selected": false
+     },
+     {
+      "name": "New Developments in Long-Term Asset Management",
+      "id": "projects:New Developments in Long-Term Asset Management",
+      "selected": false
+     },
+     {
+      "name": "Environmental and Energy Policy and the Economy, 2021-2024",
+      "id": "projects:Environmental and Energy Policy and the Economy%COMMA% 2021-2024",
+      "selected": false
+     },
+     {
+      "name": "Innovation in an Aging Society",
+      "id": "projects:Innovation in an Aging Society",
+      "selected": false
+     },
+     {
+      "name": "NBER Roybal Center for Behavior Change in Health",
+      "id": "projects:NBER Roybal Center for Behavior Change in Health",
+      "selected": false
+     },
+     {
+      "name": "The Labor Market in the Aftermath of the Great Recession",
+      "id": "projects:The Labor Market in the Aftermath of the Great Recession",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Economic Crises and Amplification Mechanisms",
+      "id": "projects:CAREER: Economic Crises and Amplification Mechanisms",
+      "selected": false
+     },
+     {
+      "name": "Determinants of Elderly Health: The Role of Place-Based Factors",
+      "id": "projects:Determinants of Elderly Health: The Role of Place-Based Factors",
+      "selected": false
+     },
+     {
+      "name": "Determinants of Elderly Health: The Role of Place-Based Factors (Continuation)",
+      "id": "projects:Determinants of Elderly Health: The Role of Place-Based Factors (Continuation)",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Business Taxation and Local Fiscal Policy",
+      "id": "projects:CAREER: Business Taxation and Local Fiscal Policy",
+      "selected": false
+     },
+     {
+      "name": "Determinants of Medical Spending for the Elderly: Insurance, Patients, Providers",
+      "id": "projects:Determinants of Medical Spending for the Elderly: Insurance%COMMA% Patients%COMMA% Providers",
+      "selected": false
+     },
+     {
+      "name": "Environmental and Energy Policy and the Economy, 2018-2021",
+      "id": "projects:Environmental and Energy Policy and the Economy%COMMA% 2018-2021",
+      "selected": false
+     },
+     {
+      "name": "Moving To Opportunity",
+      "id": "projects:Moving To Opportunity",
+      "selected": false
+     },
+     {
+      "name": "Innovative Information Initiative",
+      "id": "projects:Innovative Information Initiative",
+      "selected": false
+     },
+     {
+      "name": "NBER Roybal Center for Behavior Change in Health: Pilot Core",
+      "id": "projects:NBER Roybal Center for Behavior Change in Health: Pilot Core",
+      "selected": false
+     },
+     {
+      "name": "CAREER:  The Impact of Expanded Health Insurance Coverage",
+      "id": "projects:CAREER:  The Impact of Expanded Health Insurance Coverage",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Global Capital Flows",
+      "id": "projects:CAREER: Global Capital Flows",
+      "selected": false
+     },
+     {
+      "name": "Digitization",
+      "id": "projects:Digitization",
+      "selected": false
+     },
+     {
+      "name": "Empirical Studies of the Development and Diffusion of Medical Technologies",
+      "id": "projects:Empirical Studies of the Development and Diffusion of Medical Technologies",
+      "selected": false
+     },
+     {
+      "name": "Expectations and Choice in Macroeconomics: Causal Evidence",
+      "id": "projects:Expectations and Choice in Macroeconomics: Causal Evidence",
+      "selected": false
+     },
+     {
+      "name": "Macroeconomics as Explicitly Aggregated Microeconomics",
+      "id": "projects:Macroeconomics as Explicitly Aggregated Microeconomics",
+      "selected": false
+     },
+     {
+      "name": "Collaborative Research: Macroeconomic Implications of Economic Policy in Imperfectly Competitive Labor Markets",
+      "id": "projects:Collaborative Research: Macroeconomic Implications of Economic Policy in Imperfectly Competitive Labor Markets",
+      "selected": false
+     },
+     {
+      "name": "High Skill Immigration in the Global Economy",
+      "id": "projects:High Skill Immigration in the Global Economy",
+      "selected": false
+     },
+     {
+      "name": "Incentives and Limitations of Employment Policies on Retirement Transitions: Comparison of Public and Private Sectors",
+      "id": "projects:Incentives and Limitations of Employment Policies on Retirement Transitions: Comparison of Public and Private Sectors",
+      "selected": false
+     },
+     {
+      "name": "Research and Innovation in Agriculture",
+      "id": "projects:Research and Innovation in Agriculture",
+      "selected": false
+     },
+     {
+      "name": "Risk, Insurance and the Family",
+      "id": "projects:Risk%COMMA% Insurance and the Family",
+      "selected": false
+     },
+     {
+      "name": "Technology, Automation and Inequality",
+      "id": "projects:Technology%COMMA% Automation and Inequality",
+      "selected": false
+     },
+     {
+      "name": "The Environmental Bias of Trade Policy",
+      "id": "projects:The Environmental Bias of Trade Policy",
+      "selected": false
+     },
+     {
+      "name": "Trade and Labor Market Adjustment",
+      "id": "projects:Trade and Labor Market Adjustment",
+      "selected": false
+     },
+     {
+      "name": "Big Data for 21st Century Economic Statistics",
+      "id": "projects:Big Data for 21st Century Economic Statistics",
+      "selected": false
+     },
+     {
+      "name": "CRIW Conference on Measurement of Housing and the Housing Sector, Spring 2026",
+      "id": "projects:CRIW Conference on Measurement of Housing and the Housing Sector%COMMA% Spring 2026",
+      "selected": false
+     },
+     {
+      "name": "Digital Economics and Artificial Intelligence, 2023-2026",
+      "id": "projects:Digital Economics and Artificial Intelligence%COMMA% 2023-2026",
+      "selected": false
+     },
+     {
+      "name": "Economics of Tax Competition and Business Taxation",
+      "id": "projects:Economics of Tax Competition and Business Taxation",
+      "selected": false
+     },
+     {
+      "name": "Evaluating Macroeconomic Stabilization Policy",
+      "id": "projects:Evaluating Macroeconomic Stabilization Policy",
+      "selected": false
+     },
+     {
+      "name": "Future Directions in Market Design",
+      "id": "projects:Future Directions in Market Design",
+      "selected": false
+     },
+     {
+      "name": "Neoclassical Growth with Long-Term One-Sided Commitment Contracts",
+      "id": "projects:Neoclassical Growth with Long-Term One-Sided Commitment Contracts",
+      "selected": false
+     },
+     {
+      "name": "Parenting Styles within and across Neighborhoods",
+      "id": "projects:Parenting Styles within and across Neighborhoods",
+      "selected": false
+     },
+     {
+      "name": "Place Based Entrepreneurship and Innovation",
+      "id": "projects:Place Based Entrepreneurship and Innovation",
+      "selected": false
+     },
+     {
+      "name": "Risks in the Agricultural Supply Chain",
+      "id": "projects:Risks in the Agricultural Supply Chain",
+      "selected": false
+     },
+     {
+      "name": "The Impact of Consumer Credit Access on Earnings Mobility, Entrepreneurship and Income Inequality",
+      "id": "projects:The Impact of Consumer Credit Access on Earnings Mobility%COMMA% Entrepreneurship and Income Inequality",
+      "selected": false
+     },
+     {
+      "name": "The International Price System: Macro and Micro Evidence",
+      "id": "projects:The International Price System: Macro and Micro Evidence",
+      "selected": false
+     },
+     {
+      "name": "The Transmission from Households to the Real Economy: Evidence from Mortgage and Consumer Credit Markets",
+      "id": "projects:The Transmission from Households to the Real Economy: Evidence from Mortgage and Consumer Credit Markets",
+      "selected": false
+     },
+     {
+      "name": "Women Working Longer",
+      "id": "projects:Women Working Longer",
+      "selected": false
+     },
+     {
+      "name": "Aspirations, Inequality and Social Conflict",
+      "id": "projects:Aspirations%COMMA% Inequality and Social Conflict",
+      "selected": false
+     },
+     {
+      "name": "BIGDATA: IA: Collaborative Research: Understanding the Financial Market Ecosystem",
+      "id": "projects:BIGDATA: IA: Collaborative Research: Understanding the Financial Market Ecosystem",
+      "selected": false
+     },
+     {
+      "name": "Bounds Approaches to Empirical Market Design",
+      "id": "projects:Bounds Approaches to Empirical Market Design",
+      "selected": false
+     },
+     {
+      "name": "CAREER: A Quantitative Analysis of Spatial Inequality and Place-based Policies",
+      "id": "projects:CAREER: A Quantitative Analysis of Spatial Inequality and Place-based Policies",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Macroeconomic Implications of Microeconomic Heterogeneity",
+      "id": "projects:CAREER: Macroeconomic Implications of Microeconomic Heterogeneity",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Unity in Diversity? Migration, Culture and National Development",
+      "id": "projects:CAREER: Unity in Diversity? Migration%COMMA% Culture and National Development",
+      "selected": false
+     },
+     {
+      "name": "Collaborative Research: A Unified Approach to Spatial Economics",
+      "id": "projects:Collaborative Research: A Unified Approach to Spatial Economics",
+      "selected": false
+     },
+     {
+      "name": "Collaborative Research: The Private and Social Returns to R&D in the Age of Offshoring",
+      "id": "projects:Collaborative Research: The Private and Social Returns to R&D in the Age of Offshoring",
+      "selected": false
+     },
+     {
+      "name": "Economic Analysis of Tax Policy 2023",
+      "id": "projects:Economic Analysis of Tax Policy 2023",
+      "selected": false
+     },
+     {
+      "name": "Economic Perspectives on Water Resources, Climate Change, and Agricultural Sustainability",
+      "id": "projects:Economic Perspectives on Water Resources%COMMA% Climate Change%COMMA% and Agricultural Sustainability",
+      "selected": false
+     },
+     {
+      "name": "Gender in the Economy Study Group",
+      "id": "projects:Gender in the Economy Study Group",
+      "selected": false
+     },
+     {
+      "name": "Heterogeneity, Household Behavior, and the Transmission of Aggregate Shocks",
+      "id": "projects:Heterogeneity%COMMA% Household Behavior%COMMA% and the Transmission of Aggregate Shocks",
+      "selected": false
+     },
+     {
+      "name": "Leakage from Environmental Regulation: Evidence from Used Vehicle Trade and Smog Check",
+      "id": "projects:Leakage from Environmental Regulation: Evidence from Used Vehicle Trade and Smog Check",
+      "selected": false
+     },
+     {
+      "name": "Lessons from Social Security Reform Around the World, 2019-2024",
+      "id": "projects:Lessons from Social Security Reform Around the World%COMMA% 2019-2024",
+      "selected": false
+     },
+     {
+      "name": "The Impact of Temperature and Pollution on Mortality, Morbidity, and Health Care Cost Among the Elderly",
+      "id": "projects:The Impact of Temperature and Pollution on Mortality%COMMA% Morbidity%COMMA% and Health Care Cost Among the Elderly",
+      "selected": false
+     },
+     {
+      "name": "The Value of Medical Research",
+      "id": "projects:The Value of Medical Research",
+      "selected": false
+     },
+     {
+      "name": "Bilateral Bargaining through the Lens of Big Data",
+      "id": "projects:Bilateral Bargaining through the Lens of Big Data",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Empirical Studies on the Role of Cities in Influencing Health and Economic Growth in the Long Run",
+      "id": "projects:CAREER: Empirical Studies on the Role of Cities in Influencing Health and Economic Growth in the Long Run",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Robust Econometric Inference",
+      "id": "projects:CAREER: Robust Econometric Inference",
+      "selected": false
+     },
+     {
+      "name": "Conference on Research in Income and Wealth",
+      "id": "projects:Conference on Research in Income and Wealth",
+      "selected": false
+     },
+     {
+      "name": "Coordinating Center on the Economics of Alzheimer’s Disease and Alzheimer’s Disease-Related Dementias: Prevention, Treatment, and Care",
+      "id": "projects:Coordinating Center on the Economics of Alzheimer’s Disease and Alzheimer’s Disease-Related Dementias: Prevention%COMMA% Treatment%COMMA% and Care",
+      "selected": false
+     },
+     {
+      "name": "Diversity and Transportation in School Choice",
+      "id": "projects:Diversity and Transportation in School Choice",
+      "selected": false
+     },
+     {
+      "name": "Dynamics of Occupation Choice, Skill Investment and Output Pricing with Multidimensional Skill",
+      "id": "projects:Dynamics of Occupation Choice%COMMA% Skill Investment and Output Pricing with Multidimensional Skill",
+      "selected": false
+     },
+     {
+      "name": "Economics and Finances of Higher Education",
+      "id": "projects:Economics and Finances of Higher Education",
+      "selected": false
+     },
+     {
+      "name": "Economics of Digitization, 2020-2023",
+      "id": "projects:Economics of Digitization%COMMA% 2020-2023",
+      "selected": false
+     },
+     {
+      "name": "Environmental and Energy Policy and the Economy, 2025-2028",
+      "id": "projects:Environmental and Energy Policy and the Economy%COMMA% 2025-2028",
+      "selected": false
+     },
+     {
+      "name": "Estimating Returns to Medical Care",
+      "id": "projects:Estimating Returns to Medical Care",
+      "selected": false
+     },
+     {
+      "name": "Inflation and Welfare with Preference",
+      "id": "projects:Inflation and Welfare with Preference",
+      "selected": false
+     },
+     {
+      "name": "Measuring Well-Being and Its Multidimensional Determinants Across Individuals and the Life Course",
+      "id": "projects:Measuring Well-Being and Its Multidimensional Determinants Across Individuals and the Life Course",
+      "selected": false
+     },
+     {
+      "name": "Medicaid, Medicare, and Social Security for Couples and Singles",
+      "id": "projects:Medicaid%COMMA% Medicare%COMMA% and Social Security for Couples and Singles",
+      "selected": false
+     },
+     {
+      "name": "Place Based Policies for Promoting Economic Development: Assessing the Evidence",
+      "id": "projects:Place Based Policies for Promoting Economic Development: Assessing the Evidence",
+      "selected": false
+     },
+     {
+      "name": "Tariffs and Economic Development in the USA: New Evidence from a New Dataset of US Product-Level Tariffs, 1789 - Present",
+      "id": "projects:Tariffs and Economic Development in the USA: New Evidence from a New Dataset of US Product-Level Tariffs%COMMA% 1789 - Present",
+      "selected": false
+     },
+     {
+      "name": "Taxation, Taxpayer Behavior and Economic Activity 2018",
+      "id": "projects:Taxation%COMMA% Taxpayer Behavior and Economic Activity 2018",
+      "selected": false
+     },
+     {
+      "name": "Taxation, Taxpayer Behavior, and Economic Activity 2021",
+      "id": "projects:Taxation%COMMA% Taxpayer Behavior%COMMA% and Economic Activity 2021",
+      "selected": false
+     },
+     {
+      "name": "Taxation, Taxpayer Behavior, and Economic Activity 2022",
+      "id": "projects:Taxation%COMMA% Taxpayer Behavior%COMMA% and Economic Activity 2022",
+      "selected": false
+     }
+    ],
+    "label": "Projects",
+    "id": "projects"
+   },
+   {
+    "endpoint": "/suggest",
+    "values": [
+     {
+      "name": "Asset Pricing",
+      "id": "programs:Asset Pricing",
+      "selected": false
+     },
+     {
+      "name": "Children and Families",
+      "id": "programs:Children and Families",
+      "selected": false
+     },
+     {
+      "name": "Corporate Finance",
+      "id": "programs:Corporate Finance",
+      "selected": false
+     },
+     {
+      "name": "Development Economics",
+      "id": "programs:Development Economics",
+      "selected": false
+     },
+     {
+      "name": "Development of the American Economy",
+      "id": "programs:Development of the American Economy",
+      "selected": false
+     },
+     {
+      "name": "Economic Fluctuations and Growth",
+      "id": "programs:Economic Fluctuations and Growth",
+      "selected": false
+     },
+     {
+      "name": "Economics of Aging",
+      "id": "programs:Economics of Aging",
+      "selected": false
+     },
+     {
+      "name": "Economics of Education",
+      "id": "programs:Economics of Education",
+      "selected": false
+     },
+     {
+      "name": "Economics of Health",
+      "id": "programs:Economics of Health",
+      "selected": false
+     },
+     {
+      "name": "Environment and Energy Economics",
+      "id": "programs:Environment and Energy Economics",
+      "selected": false
+     },
+     {
+      "name": "Industrial Organization",
+      "id": "programs:Industrial Organization",
+      "selected": false
+     },
+     {
+      "name": "International Finance and Macroeconomics",
+      "id": "programs:International Finance and Macroeconomics",
+      "selected": false
+     },
+     {
+      "name": "International Trade and Investment",
+      "id": "programs:International Trade and Investment",
+      "selected": false
+     },
+     {
+      "name": "Labor Studies",
+      "id": "programs:Labor Studies",
+      "selected": false
+     },
+     {
+      "name": "Law and Economics",
+      "id": "programs:Law and Economics",
+      "selected": false
+     },
+     {
+      "name": "Monetary Economics",
+      "id": "programs:Monetary Economics",
+      "selected": false
+     },
+     {
+      "name": "Political Economy",
+      "id": "programs:Political Economy",
+      "selected": false
+     },
+     {
+      "name": "Productivity, Innovation, and Entrepreneurship",
+      "id": "programs:Productivity%COMMA% Innovation%COMMA% and Entrepreneurship",
+      "selected": false
+     },
+     {
+      "name": "Public Economics",
+      "id": "programs:Public Economics",
+      "selected": false
+     },
+     {
+      "name": "Technical Working Papers",
+      "id": "programs:Technical Working Papers",
+      "selected": false
+     }
+    ],
+    "label": "Programs",
+    "id": "programs"
+   },
+   {
+    "endpoint": "/suggest",
+    "values": [
+     {
+      "name": "Macroeconomics",
+      "id": "topics:Macroeconomics",
+      "selected": false
+     },
+     {
+      "name": "Labor Economics",
+      "id": "topics:Labor Economics",
+      "selected": false
+     },
+     {
+      "name": "Financial Economics",
+      "id": "topics:Financial Economics",
+      "selected": false
+     },
+     {
+      "name": "International Economics",
+      "id": "topics:International Economics",
+      "selected": false
+     },
+     {
+      "name": "Microeconomics",
+      "id": "topics:Microeconomics",
+      "selected": false
+     },
+     {
+      "name": "Health, Education, and Welfare",
+      "id": "topics:Health%COMMA% Education%COMMA% and Welfare",
+      "selected": false
+     },
+     {
+      "name": "Public Economics",
+      "id": "topics:Public Economics",
+      "selected": false
+     },
+     {
+      "name": "Development and Growth",
+      "id": "topics:Development and Growth",
+      "selected": false
+     },
+     {
+      "name": "Industrial Organization",
+      "id": "topics:Industrial Organization",
+      "selected": false
+     },
+     {
+      "name": "Other",
+      "id": "topics:Other",
+      "selected": false
+     },
+     {
+      "name": "Health",
+      "id": "topics:Health",
+      "selected": false
+     },
+     {
+      "name": "Labor Supply and Demand",
+      "id": "topics:Labor Supply and Demand",
+      "selected": false
+     },
+     {
+      "name": "Portfolio Selection and Asset Pricing",
+      "id": "topics:Portfolio Selection and Asset Pricing",
+      "selected": false
+     },
+     {
+      "name": "Econometrics",
+      "id": "topics:Econometrics",
+      "selected": false
+     },
+     {
+      "name": "Financial Markets",
+      "id": "topics:Financial Markets",
+      "selected": false
+     },
+     {
+      "name": "International Finance",
+      "id": "topics:International Finance",
+      "selected": false
+     },
+     {
+      "name": "Financial Institutions",
+      "id": "topics:Financial Institutions",
+      "selected": false
+     },
+     {
+      "name": "Consumption and Investment",
+      "id": "topics:Consumption and Investment",
+      "selected": false
+     },
+     {
+      "name": "Demography and Aging",
+      "id": "topics:Demography and Aging",
+      "selected": false
+     },
+     {
+      "name": "Trade",
+      "id": "topics:Trade",
+      "selected": false
+     },
+     {
+      "name": "Households and Firms",
+      "id": "topics:Households and Firms",
+      "selected": false
+     },
+     {
+      "name": "Business Cycles",
+      "id": "topics:Business Cycles",
+      "selected": false
+     },
+     {
+      "name": "Development",
+      "id": "topics:Development",
+      "selected": false
+     },
+     {
+      "name": "Taxation",
+      "id": "topics:Taxation",
+      "selected": false
+     },
+     {
+      "name": "Education",
+      "id": "topics:Education",
+      "selected": false
+     },
+     {
+      "name": "History",
+      "id": "topics:History",
+      "selected": false
+     },
+     {
+      "name": "Environmental and Resource Economics",
+      "id": "topics:Environmental and Resource Economics",
+      "selected": false
+     },
+     {
+      "name": "Innovation and R&D",
+      "id": "topics:Innovation and R&D",
+      "selected": false
+     },
+     {
+      "name": "Corporate Finance",
+      "id": "topics:Corporate Finance",
+      "selected": false
+     },
+     {
+      "name": "Labor Compensation",
+      "id": "topics:Labor Compensation",
+      "selected": false
+     },
+     {
+      "name": "Money and Interest Rates",
+      "id": "topics:Money and Interest Rates",
+      "selected": false
+     },
+     {
+      "name": "Economics of Information",
+      "id": "topics:Economics of Information",
+      "selected": false
+     },
+     {
+      "name": "Monetary Policy",
+      "id": "topics:Monetary Policy",
+      "selected": false
+     },
+     {
+      "name": "Market Structure and Firm Performance",
+      "id": "topics:Market Structure and Firm Performance",
+      "selected": false
+     },
+     {
+      "name": "Estimation Methods",
+      "id": "topics:Estimation Methods",
+      "selected": false
+     },
+     {
+      "name": "Regional and Urban Economics",
+      "id": "topics:Regional and Urban Economics",
+      "selected": false
+     },
+     {
+      "name": "International Macroeconomics",
+      "id": "topics:International Macroeconomics",
+      "selected": false
+     },
+     {
+      "name": "Unemployment and Immigration",
+      "id": "topics:Unemployment and Immigration",
+      "selected": false
+     },
+     {
+      "name": "Law and Economics",
+      "id": "topics:Law and Economics",
+      "selected": false
+     },
+     {
+      "name": "National Fiscal Issues",
+      "id": "topics:National Fiscal Issues",
+      "selected": false
+     },
+     {
+      "name": "Welfare and Collective Choice",
+      "id": "topics:Welfare and Collective Choice",
+      "selected": false
+     },
+     {
+      "name": "Industry Studies",
+      "id": "topics:Industry Studies",
+      "selected": false
+     },
+     {
+      "name": "Market Structure and Distribution",
+      "id": "topics:Market Structure and Distribution",
+      "selected": false
+     },
+     {
+      "name": "Environment",
+      "id": "topics:Environment",
+      "selected": false
+     },
+     {
+      "name": "Behavioral Economics",
+      "id": "topics:Behavioral Economics",
+      "selected": false
+     },
+     {
+      "name": "Fiscal Policy",
+      "id": "topics:Fiscal Policy",
+      "selected": false
+     },
+     {
+      "name": "International Factor Mobility",
+      "id": "topics:International Factor Mobility",
+      "selected": false
+     },
+     {
+      "name": "Growth and Productivity",
+      "id": "topics:Growth and Productivity",
+      "selected": false
+     },
+     {
+      "name": "Firm Behavior",
+      "id": "topics:Firm Behavior",
+      "selected": false
+     },
+     {
+      "name": "Poverty and Wellbeing",
+      "id": "topics:Poverty and Wellbeing",
+      "selected": false
+     },
+     {
+      "name": "Accounting, Marketing, and Personnel",
+      "id": "topics:Accounting%COMMA% Marketing%COMMA% and Personnel",
+      "selected": false
+     },
+     {
+      "name": "Other History",
+      "id": "topics:Other History",
+      "selected": false
+     },
+     {
+      "name": "Subnational Fiscal Issues",
+      "id": "topics:Subnational Fiscal Issues",
+      "selected": false
+     },
+     {
+      "name": "Experimental Design",
+      "id": "topics:Experimental Design",
+      "selected": false
+     },
+     {
+      "name": "Macroeconomic History",
+      "id": "topics:Macroeconomic History",
+      "selected": false
+     },
+     {
+      "name": "COVID-19",
+      "id": "topics:COVID-19",
+      "selected": false
+     },
+     {
+      "name": "Public Goods",
+      "id": "topics:Public Goods",
+      "selected": false
+     },
+     {
+      "name": "Energy",
+      "id": "topics:Energy",
+      "selected": false
+     },
+     {
+      "name": "Labor Market Structures",
+      "id": "topics:Labor Market Structures",
+      "selected": false
+     },
+     {
+      "name": "Economic Systems",
+      "id": "topics:Economic Systems",
+      "selected": false
+     },
+     {
+      "name": "Labor and Health History",
+      "id": "topics:Labor and Health History",
+      "selected": false
+     },
+     {
+      "name": "Regional Economics",
+      "id": "topics:Regional Economics",
+      "selected": false
+     },
+     {
+      "name": "Regulatory Economics",
+      "id": "topics:Regulatory Economics",
+      "selected": false
+     },
+     {
+      "name": "Financial History",
+      "id": "topics:Financial History",
+      "selected": false
+     },
+     {
+      "name": "Globalization and International Relations",
+      "id": "topics:Globalization and International Relations",
+      "selected": false
+     },
+     {
+      "name": "Real Estate",
+      "id": "topics:Real Estate",
+      "selected": false
+     },
+     {
+      "name": "Macroeconomic Models",
+      "id": "topics:Macroeconomic Models",
+      "selected": false
+     },
+     {
+      "name": "Labor Discrimination",
+      "id": "topics:Labor Discrimination",
+      "selected": false
+     },
+     {
+      "name": "Culture",
+      "id": "topics:Culture",
+      "selected": false
+     },
+     {
+      "name": "Country Studies",
+      "id": "topics:Country Studies",
+      "selected": false
+     },
+     {
+      "name": "General Equilibrium",
+      "id": "topics:General Equilibrium",
+      "selected": false
+     },
+     {
+      "name": "Antitrust",
+      "id": "topics:Antitrust",
+      "selected": false
+     },
+     {
+      "name": "Behavioral Finance",
+      "id": "topics:Behavioral Finance",
+      "selected": false
+     },
+     {
+      "name": "Game Theory",
+      "id": "topics:Game Theory",
+      "selected": false
+     },
+     {
+      "name": "Agriculture",
+      "id": "topics:Agriculture",
+      "selected": false
+     },
+     {
+      "name": "Data Collection",
+      "id": "topics:Data Collection",
+      "selected": false
+     },
+     {
+      "name": "Labor Relations",
+      "id": "topics:Labor Relations",
+      "selected": false
+     },
+     {
+      "name": "Mathematical Tools",
+      "id": "topics:Mathematical Tools",
+      "selected": false
+     },
+     {
+      "name": "Renewable Resources",
+      "id": "topics:Renewable Resources",
+      "selected": false
+     },
+     {
+      "name": "General, Teaching",
+      "id": "topics:General%COMMA% Teaching",
+      "selected": false
+     },
+     {
+      "name": "Nonprofits",
+      "id": "topics:Nonprofits",
+      "selected": false
+     },
+     {
+      "name": "History of Economic Thought",
+      "id": "topics:History of Economic Thought",
+      "selected": false
+     }
+    ],
+    "label": "Topics",
+    "id": "topics"
+   },
+   {
+    "endpoint": "/suggest",
+    "values": [
+     {
+      "name": "Behavioral Finance",
+      "id": "groups:Behavioral Finance",
+      "selected": false
+     },
+     {
+      "name": "Chinese Economy",
+      "id": "groups:Chinese Economy",
+      "selected": false
+     },
+     {
+      "name": "Cohort Studies",
+      "id": "groups:Cohort Studies",
+      "selected": false
+     },
+     {
+      "name": "Economics of Crime",
+      "id": "groups:Economics of Crime",
+      "selected": false
+     },
+     {
+      "name": "Economics of National Security",
+      "id": "groups:Economics of National Security",
+      "selected": false
+     },
+     {
+      "name": "Entrepreneurship",
+      "id": "groups:Entrepreneurship",
+      "selected": false
+     },
+     {
+      "name": "Gender in the Economy",
+      "id": "groups:Gender in the Economy",
+      "selected": false
+     },
+     {
+      "name": "Household Finance",
+      "id": "groups:Household Finance",
+      "selected": false
+     },
+     {
+      "name": "India",
+      "id": "groups:India",
+      "selected": false
+     },
+     {
+      "name": "Innovation Policy",
+      "id": "groups:Innovation Policy",
+      "selected": false
+     },
+     {
+      "name": "Insurance",
+      "id": "groups:Insurance",
+      "selected": false
+     },
+     {
+      "name": "Market Design",
+      "id": "groups:Market Design",
+      "selected": false
+     },
+     {
+      "name": "Organizational Economics",
+      "id": "groups:Organizational Economics",
+      "selected": false
+     },
+     {
+      "name": "Personnel Economics",
+      "id": "groups:Personnel Economics",
+      "selected": false
+     },
+     {
+      "name": "Race and Stratification in the Economy",
+      "id": "groups:Race and Stratification in the Economy",
+      "selected": false
+     },
+     {
+      "name": "Risks of Financial Institutions",
+      "id": "groups:Risks of Financial Institutions",
+      "selected": false
+     },
+     {
+      "name": "Urban Economics",
+      "id": "groups:Urban Economics",
+      "selected": false
+     }
+    ],
+    "label": "Working Groups",
+    "id": "groups"
+   }
+  ],
+  "suggestion": null
+ }
+}

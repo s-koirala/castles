@@ -1,0 +1,182 @@
+{
+ "artifacts": [
+  {
+   "git_head": "27d74738aa35ec1cdf1ec6915b50532e3620ea6f",
+   "path": "docs/literature/lit_review_explosive-regime-dating_2026-08-24.md",
+   "sha256": "1760be0c6288878d8e68e534d3d01e4711135f5611ee611a11e74f976984018c"
+  },
+  {
+   "git_head": "27d74738aa35ec1cdf1ec6915b50532e3620ea6f",
+   "path": "docs/literature/references_explosive-regime.json",
+   "sha256": "13c76d8fd56ff86eed3f4b0ed7766ef72946a1b6d995aa7c7604348229ce5521"
+  },
+  {
+   "git_head": "27d74738aa35ec1cdf1ec6915b50532e3620ea6f",
+   "path": "docs/research_notes/research_agenda_regime-classification_2026-08-21.md",
+   "sha256": "31473c70c51d6d4c323e5d4f2c893b13f94c99e0298a9b15da1e69671bffa9e9"
+  },
+  {
+   "git_head": "27d74738aa35ec1cdf1ec6915b50532e3620ea6f",
+   "path": "docs/methodology/protocol_explosive-regime-review_2026-08-24.md",
+   "sha256": "9d400eb557680d393af052bcb48eb52e880b3f9182b081b56c7ceaff3f83ecaa"
+  },
+  {
+   "git_head": "27d74738aa35ec1cdf1ec6915b50532e3620ea6f",
+   "path": "docs/literature/lit_review_kalshi-arbitrage_2026-09-02.md",
+   "sha256": "4ee8ef348fbd5c19eb1c86f8abaf74986a8b9492bdda80da5147587a559e8db0"
+  },
+  {
+   "git_head": "27d74738aa35ec1cdf1ec6915b50532e3620ea6f",
+   "path": "docs/literature/references_kalshi-arbitrage.json",
+   "sha256": "fb0cf87ed53dcb0b37076fc5e441c0125ad94644603deb9a9604d5ce5f5c8164"
+  },
+  {
+   "git_head": "27d74738aa35ec1cdf1ec6915b50532e3620ea6f",
+   "path": "docs/methodology/protocol_kalshi-arbitrage-review_2026-09-02.md",
+   "sha256": "21a77d10841ba7f15ea58d5a58a1bca57818b2ed1a0f3bf53a1dbce6a8dcc53b"
+  },
+  {
+   "git_head": "27d74738aa35ec1cdf1ec6915b50532e3620ea6f",
+   "path": "docs/decisions/ADR-0004-quant-rule-adoption-prediction-markets.md",
+   "sha256": "51034c44e6e21b5f9281fa7150bbf939867b46b3b863c4be8e329d0ff35ff886"
+  },
+  {
+   "git_head": "27d74738aa35ec1cdf1ec6915b50532e3620ea6f",
+   "path": "docs/research_notes/research_agenda_prediction-market-microstructure_2026-09-02.md",
+   "sha256": "f9659fa7e105438969a78d097e186597b2b6e5140acdec64fcb9ff6e015566fe"
+  }
+ ],
+ "audit_criteria": [
+  {
+   "path": "CLAUDE.md",
+   "sha256": "2d37579a3e967ea72a2805789f2ea0c40222da211ef7e7ce4d3ad8bc03d41759"
+  },
+  {
+   "path": "REVIEW.md",
+   "sha256": "fd766934cb4709d78d192561b5f7efecdd6bde2a538ae3b94cecbb23159784ec"
+  },
+  {
+   "path": "docs/deliverables/deliverable_spec_open-items-kalshi-arbitrage_2026-09-02.md",
+   "sha256": "2c0ac94cc893c84e21763ea97ac84ac8ee62f41d0fbb17eb263093cb1435bca6"
+  }
+ ],
+ "cap_reached": {
+  "thread_A": true,
+  "thread_C": false
+ },
+ "date": "2026-09-02",
+ "round_trails": [
+  "docs/audits/audit_trail_phase2-explosive-review_2026-08-24.md",
+  "docs/audits/audit_trail_kalshi-arbitrage-review_2026-09-02.md"
+ ],
+ "rounds": [
+  {
+   "agents": 33,
+   "branches": [
+    "critical-reviewer",
+    "scope-auditor",
+    "quant-auditor",
+    "literature-check"
+   ],
+   "raw_critical": 0,
+   "raw_major": 27,
+   "raw_minor": 21,
+   "refuted": 3,
+   "remediated": 24,
+   "round": 1,
+   "slug": "phase2-explosive-review",
+   "thread": "A",
+   "verdict": "proceed-with-remediation"
+  },
+  {
+   "agents": 37,
+   "branches": [
+    "critical-reviewer",
+    "scope-auditor",
+    "quant-auditor",
+    "literature-check",
+    "reproducibility-verifier"
+   ],
+   "raw_critical": 0,
+   "raw_major": 30,
+   "raw_minor": 15,
+   "refuted": 0,
+   "remediated": 30,
+   "round": 2,
+   "slug": "phase2-explosive-review",
+   "thread": "A",
+   "verdict": "proceed-with-remediation"
+  },
+  {
+   "agents": 24,
+   "branches": [
+    "critical-reviewer",
+    "scope-auditor",
+    "quant-auditor",
+    "literature-check",
+    "reproducibility-verifier"
+   ],
+   "cap_reached": true,
+   "raw_critical": 0,
+   "raw_major": 17,
+   "raw_minor": 16,
+   "refuted": 1,
+   "remediated": 16,
+   "round": 3,
+   "slug": "phase2-explosive-review",
+   "thread": "A",
+   "verdict": "proceed-with-remediation"
+  },
+  {
+   "agents": 47,
+   "branches": [
+    "critical-reviewer",
+    "scope-auditor",
+    "quant-auditor",
+    "literature-check"
+   ],
+   "raw_critical": 3,
+   "raw_major": 38,
+   "raw_minor": 24,
+   "refuted": 4,
+   "remediated": 37,
+   "round": 1,
+   "slug": "kalshi-arbitrage-review",
+   "thread": "C",
+   "verdict": "block"
+  },
+  {
+   "agents": 43,
+   "branches": [
+    "critical-reviewer",
+    "scope-auditor",
+    "quant-auditor",
+    "literature-check",
+    "reproducibility-verifier"
+   ],
+   "raw_critical": 2,
+   "raw_major": 34,
+   "raw_minor": 19,
+   "refuted": 3,
+   "remediated": 33,
+   "round": 2,
+   "slug": "kalshi-arbitrage-review",
+   "thread": "C",
+   "verdict": "block"
+  }
+ ],
+ "schema_version": "WI-3/2",
+ "session": "0dd6aec6-5e05-434f-b42c-7cc8e9f01065",
+ "slug": "open-items-kalshi-arbitrage",
+ "thread_C_round_3_not_run": "remediation of round-2 findings completed; no verifying round was run before session close",
+ "totals": {
+  "agents": 184,
+  "audit_rounds": 5,
+  "minors_logged": 95,
+  "raw_critical": 5,
+  "raw_major": 146,
+  "raw_minor": 95,
+  "refuted": 11,
+  "remediated": 140
+ }
+}

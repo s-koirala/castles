@@ -1,0 +1,366 @@
+{
+ "query_id": "ka-ki-ki10",
+ "protocol_query_id": "KI-10",
+ "arm": "known-item",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1086%2F655844",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1,
+ "retrieved_count": 1,
+ "identifier": "10.1086/655844",
+ "raw_format": "json",
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      1
+     ]
+    ],
+    "date-time": "2026-09-01T07:09:17Z",
+    "timestamp": 1788246557339,
+    "version": "build-2803163510"
+   },
+   "reference-count": 36,
+   "publisher": "University of Chicago Press",
+   "issue": "4",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Journal of Political Economy"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      8
+     ]
+    ]
+   },
+   "DOI": "10.1086/655844",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2010,
+      10,
+      12
+     ]
+    ],
+    "date-time": "2010-10-12T15:21:46Z",
+    "timestamp": 1286896906000
+   },
+   "page": "723-746",
+   "source": "Crossref",
+   "is-referenced-by-count": 250,
+   "title": [
+    "Explaining the Favorite–Long Shot Bias: Is it Risk-Love or Misperceptions?"
+   ],
+   "prefix": "10.1086",
+   "volume": "118",
+   "author": [
+    {
+     "given": "Erik",
+     "family": "Snowberg",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Justin",
+     "family": "Wolfers",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "200",
+   "reference": [
+    {
+     "key": "rf1",
+     "volume-title": "Lectures on Functional Equations and Their Applications",
+     "author": "Aczél J."
+    },
+    {
+     "key": "rf2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/260600"
+    },
+    {
+     "key": "rf3",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1914189"
+    },
+    {
+     "key": "rf4",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0304-405X(82)90012-5"
+    },
+    {
+     "key": "rf5",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2554443"
+    },
+    {
+     "key": "rf6",
+     "volume-title": "Efficiency of Racetrack Betting Markets",
+     "author": "Busche Kelly"
+    },
+    {
+     "key": "rf7",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/296436"
+    },
+    {
+     "key": "rf8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF01065371"
+    },
+    {
+     "key": "rf9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0304-4076(88)90077-2"
+    },
+    {
+     "key": "rf10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF01072614"
+    },
+    {
+     "key": "rf11",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2554733"
+    },
+    {
+     "key": "rf12",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/256692"
+    },
+    {
+     "key": "rf13",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/261710"
+    },
+    {
+     "key": "rf15",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/250007"
+    },
+    {
+     "key": "rf16",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1418469"
+    },
+    {
+     "key": "rf17",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/01621459.1973.10482425"
+    },
+    {
+     "key": "rf18",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2981894"
+    },
+    {
+     "key": "rf19",
+     "first-page": "949",
+     "volume": "85",
+     "author": "Hurley William",
+     "year": "1995",
+     "journal-title": "A.E.R."
+    },
+    {
+     "key": "rf20",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/262127"
+    },
+    {
+     "key": "rf21",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1914185"
+    },
+    {
+     "key": "rf22",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1468-0297.2004.00207.x"
+    },
+    {
+     "key": "rf23",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.econlet.2006.01.004"
+    },
+    {
+     "key": "rf24",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1419083"
+    },
+    {
+     "key": "rf25",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1257/mic.2.1.58"
+    },
+    {
+     "key": "rf26",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2998573"
+    },
+    {
+     "key": "rf27",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1884650"
+    },
+    {
+     "key": "rf28",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/259086"
+    },
+    {
+     "key": "rf29",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1907649"
+    },
+    {
+     "key": "rf30",
+     "first-page": "2021",
+     "volume": "36",
+     "author": "Sauer Raymond D",
+     "year": "1998",
+     "journal-title": "J. Econ. Literature"
+    },
+    {
+     "key": "rf31",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2938207"
+    },
+    {
+     "key": "rf32",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2234526"
+    },
+    {
+     "key": "rf33",
+     "volume-title": "Efficiency of Sports and Lottery Markets",
+     "author": "Snowberg Erik"
+    },
+    {
+     "key": "rf34",
+     "volume-title": "Working Paper no. 15923, NBER",
+     "author": "Snowberg Erik"
+    },
+    {
+     "key": "rf35",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1257/jep.2.2.161"
+    },
+    {
+     "key": "rf36",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/258989"
+    },
+    {
+     "key": "rf37",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/1468-0297.00147"
+    }
+   ],
+   "container-title": [
+    "Journal of Political Economy"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://www.journals.uchicago.edu/doi/pdf/10.1086/655844",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2018,
+      4,
+      6
+     ]
+    ],
+    "date-time": "2018-04-06T20:43:40Z",
+    "timestamp": 1523047420000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://www.journals.uchicago.edu/doi/10.1086/655844"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2010,
+      8
+     ]
+    ]
+   },
+   "references-count": 36,
+   "journal-issue": {
+    "issue": "4",
+    "published-print": {
+     "date-parts": [
+      [
+       2010,
+       8
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1086/655844"
+   ],
+   "URL": "https://doi.org/10.1086/655844",
+   "relation": {},
+   "ISSN": [
+    "0022-3808",
+    "1537-534X"
+   ],
+   "issn-type": [
+    {
+     "value": "0022-3808",
+     "type": "print"
+    },
+    {
+     "value": "1537-534X",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2010,
+      8
+     ]
+    ]
+   }
+  }
+ }
+}

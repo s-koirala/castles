@@ -3,8 +3,22 @@ type: research_agenda
 slug: regime-classification
 date: 2026-08-21
 status: open
-revision: 3
+revision: 4
 revision_note: >
+  Rev 4 (2026-09-02) integrates the Phase 2 explosive-regime PRISMA review
+  (deliverable_spec_open-items-kalshi-arbitrage_2026-09-02.md, Thread A):
+  the Rev 3 Phillips sentence is CORRECTED on full text, not confirmed — the
+  online detector is the sequence statistic (ADF_r, BSADF_r2), not SADF/GSADF,
+  and the operating critical values are simulated and design-dependent, not
+  derived; universal (d) stays refuted but the sentence's strength falls.
+  NB-02/NB-08/NB-13 adjudicated: all episode-statistic-null, none a time-t
+  assignment null, so none is a branch-3 comparator (NB-13 provisional — its
+  journal version was never obtained). The "pending full-text pass" caveat is
+  discharged at all three sites. Branch 3 gains the FWER 0.55-0.93 multiplicity
+  condition on BSADF comparators, the surveillance/monitoring comparator line,
+  and TO COMPUTE TC-4. Recall and appraisal limitations of the 72-record corpus
+  recorded in Verification status. Corrected 2026-09-02 after the Thread A audit
+  round (REV-1-2, REV-1-6, REV-1-7, QUANT-1-6, LITERATURE-1-6, SCOPE-1-6).
   Rev 3 (2026-08-24) integrates the vocabulary-expansion naming sweep
   (deliverable_spec_naming-sweep_2026-08-24.md): the Definitional-basis
   time-t-null universal (d) is refuted by the explosive/exuberant-regime
@@ -87,17 +101,52 @@ expansion.** The explosive/exuberant-regime literature
 ([Phillips, Wu & Yu 2011](https://doi.org/10.1111/j.1468-2354.2010.00625.x),
 *International Economic Review* 52:201–226;
 [Phillips, Shi & Yu 2015](https://doi.org/10.1111/iere.12132),
-*International Economic Review* 56:1043–1078) date-stamps an explosive state
-in real time against derived critical values — a time-t assignment with a
-stated null, reachable only under vocabulary ("explosive", "exuberance",
-"date-stamping") outside the original query set. The bounded form survives:
+*International Economic Review* 56:1043–1078) ~~date-stamps an explosive state
+in real time against derived critical values~~ — **Rev 4: corrected on full
+text, not confirmed** ([lit_review_explosive-regime-dating_2026-08-24.md](../literature/lit_review_explosive-regime-dating_2026-08-24.md)
+§8.3). The corrected form: the recursive right-tailed unit-root family
+date-stamps an explosive state in real time **through its sequence statistics**
+— ADF_r ([PWY 2011](https://doi.org/10.1111/j.1468-2354.2010.00625.x) eq. (8))
+and BSADF_{r₂} ([PSY 2015a](https://doi.org/10.1111/iere.12132) p.1053, limit
+theory in [PSY 2015b](https://doi.org/10.1111/iere.12131)) — **not** through
+SADF or GSADF, which their own authors describe as ex-post existence statistics
+("sup_{r∈[r₀,1]} ADF_r cannot reveal the location of the exuberance", *IER*
+52:214; GSADF "is an ex post statistic", *IER* 56:1053). The operational
+critical values are **simulated from a derived null limit theory** (PWY Table 1
+note p.213, 10,000 reps; PSY Table 1 note p.1050, 2,000 reps), or in PWY's
+dating rule a stated divergence convention log(log(ns))/100 at "around the 4%
+significance level" (p.207) — not derived values. This is still a time-t
+assignment with a stated null, reachable only under vocabulary ("explosive",
+"exuberance", "date-stamping") outside the original query set, so **universal
+(d) remains refuted**; what falls is the strength of the Rev 3 sentence.
+Consequence carried to branch 3: simulated finite-sample critical values are
+design-dependent (T, r₀, lag order, assumed error and volatility structure) and
+do not transfer to a new setting without being re-simulated there — `TO COMPUTE`
+handoff TC-5 of the review. The bounded form survives:
 within the 59 surveyed definitions, none attaches a time-t assignment null.
 Outside the explosive family, no other located vocabulary was *classified by
-the sweeps* as carrying a time-t assignment null — but the nearest candidates
-are unadjudicated, not absent: drawdown/drawup episodes (NB-02/NB-08) and
-flight-to-quality (NB-13) attach stated nulls at filtered causality and were
-screened only at abstract depth; whether their nulls attach to the assignment
-procedure itself awaits the full-text pass. The refutation is the same
+the sweeps* as carrying a time-t assignment null. **Rev 4: the three
+unadjudicated candidates are now adjudicated on full text and none of them
+carries one** — drawdown/drawup episodes NB-02
+([Johansen & Sornette 2002](https://doi.org/10.21314/jor.2002.058)) and NB-08
+([Landriault, Li & Zhang 2017](https://doi.org/10.1017/jpr.2017.20)), and
+flight-to-quality NB-13
+([Baur & Lucey 2009](https://doi.org/10.1016/j.jfs.2008.08.001)), are all
+`episode-statistic-null`: their stated nulls attach to a completed episode or to
+a full-sample coefficient test, never to the assignment of a state at time *t*
+(review §9). **Two of the three are adjudicated on full text; NB-13 is
+provisional** (audit REV-1-6) — its journal version was never obtained after
+four attempts, the adjudicated text is the 2006 IIIS DP 122 working-paper twin,
+and the sentence carrying the claim appears in the journal abstract but not in
+DP 122. Extending the DP 122 verdict to the journal version is an
+absence-of-evidence inference, which cannot carry a definite adjudication, so
+NB-13's `episode-statistic-null` stands as provisional-on-the-working-paper-twin
+and is re-openable under review protocol §10. NB-08 attaches no null at all — it is apparatus, whose stopping
+time τ_a is an online object whose derived law would supply a monitor's ARL₀,
+recorded as `TO COMPUTE` TC-6 rather than as a published assignment null. The
+NB-13 verdict rests on the IIIS DP 122 working paper plus the journal abstract
+after four failed attempts on the journal version, and is explicitly re-openable
+under review protocol §10. The refutation is the same
 structural event as F005's — an unbounded
 universal from bounded search coverage falling to vocabulary the query set
 missed — and is why the term registry now precedes any evidence query;
@@ -439,14 +488,73 @@ Open questions:
 - Frequentist counterparts — CUSUM, Page–Hinkley, SPRT — and Bai–Perron as the
   retrospective comparator establishing an upper bound on what an online
   detector could achieve. **Rev 3 (naming sweep):** the recursive
-  right-tailed unit-root family — SADF/GSADF real-time date-stamping of
-  explosive episodes ([Phillips, Wu & Yu 2011](https://doi.org/10.1111/j.1468-2354.2010.00625.x);
+  right-tailed unit-root family — ~~SADF/GSADF real-time date-stamping of
+  explosive episodes~~ ([Phillips, Wu & Yu 2011](https://doi.org/10.1111/j.1468-2354.2010.00625.x);
   [Phillips, Shi & Yu 2015](https://doi.org/10.1111/iere.12132)) — is a
-  published online state-onset detector **with stated limit theory and
-  critical values**, and belongs in this branch's comparator set: it is the
-  only detector the sweeps *classified* as carrying its own time-t assignment
-  null (nearest unadjudicated candidates at abstract depth: NB-02/NB-08
-  drawdown episodes, NB-13 flight-to-quality). The
+  published online state-onset detector ~~**with stated limit theory and
+  critical values**~~, and belongs in this branch's comparator set.
+  **Rev 4 correction on full text**
+  ([lit_review_explosive-regime-dating_2026-08-24.md](../literature/lit_review_explosive-regime-dating_2026-08-24.md)
+  §8.3): the online detector is the **sequence statistic** — ADF_r (PWY eq. (8))
+  and BSADF_{r₂} (PSY 2015a p.1053, limit theory in
+  [PSY 2015b](https://doi.org/10.1111/iere.12131)) — **not** SADF or GSADF,
+  which their authors call ex-post existence statistics. Only the sequence
+  statistics may enter the comparator set as online detectors; SADF/GSADF enter,
+  if at all, as retrospective comparators alongside Bai–Perron. The limit theory
+  is stated, but the **operating critical values are simulated, not derived**,
+  and are design-dependent on T, r₀, lag order and the assumed error and
+  volatility structure — so they do **not** transfer to this project's setting
+  and must be re-simulated there (`TO COMPUTE` TC-5). PSY 2015b's consistency of
+  the crossing-time date estimators holds under the rate conditions cv_T → ∞ and
+  cv_T/T^{1−α/2} → 0 (Theorems 2–3, 8); any comparator use must state the
+  threshold path satisfying them. It remains the
+  only detector the sweeps classified as carrying its own time-t assignment
+  null, and **Rev 4 moves that claim from "nearest candidates unadjudicated" to
+  two adjudicated-and-negative on full text, the third negative but provisional**
+  (audit REV-1-6 — NB-13's journal version was never obtained; see Definitional
+  basis (d)): NB-02/NB-08 drawdown episodes
+  and NB-13 flight-to-quality are all `episode-statistic-null` on full text
+  (review §9) — none attaches a null to a time-*t* assignment, so none is a
+  comparator for this branch. NB-08's stopping time τ_a is retained as a
+  separate handoff (`TO COMPUTE` TC-6: its derived law is the ARL₀ a monitor
+  needs, which is the operating characteristic this branch's next bullet is
+  about).
+  **Rev 4, multiplicity condition on any BSADF comparator (audit QUANT-1-6,
+  REV-1-7).** Used as conventionally applied, the PSY date-stamping recursion
+  carries a measured family-wise false-detection probability of roughly 0.55 to
+  0.93 over a decade of data (review §7.4, from `eru-1289` Table 1 — extraction
+  source Cowles DP 2331, 2022, working-paper tier). The FWER-controlled variant
+  buys that back at a cost of **7.56 → 12.20 months of mean bias in the estimated
+  bubble origination date, at successful-detection rate 0.84 → 0.75** (review
+  §7.3 / L-19, from `eru-1289` **Table 2**, p.21 — **working-paper tier**, Cowles
+  DP 2331; corrected 2026-09-02 round 3, audit REV-3-3/QUANT-3-3, which found
+  this quantity mis-identified as a delay cost and mis-attributed to Table 1).
+  The FWER triple itself is Table 1, p.20. **No BSADF comparator
+  specification in this branch may be written without stating which of the two
+  it uses and carrying the corresponding cost.** **Corpus-scoped, corrected
+  2026-09-02** (audit REV-2-7; the first Rev 4 text stated this as an unscoped
+  universal negative, the very defect the review had just repaired in its own
+  §7.4): **no record in the 72-record explosive-regime corpus** publishes this
+  branch's declared comparison metric (delay against ARL₀) for the recursive
+  family. That corpus lost 47.8% of its full-text-stage records and ran its
+  backward-chase arm only post-freeze, so this bounds **the corpus, not the
+  literature** — a delay-versus-ARL₀ result for the recursive family may exist
+  outside it, and nothing here bounds that possibility (review §7.4).
+  **Rev 4, admission of the surveillance/monitoring line (audit REV-1-7,
+  QUANT-1-6; review §14 item 2).** Within that same 72-record corpus and under
+  the same recall bound (audit REV-2-7 — point-of-claim scoping, not deferred),
+  that line *does* publish a false-alarm rate over a stated horizon in closed
+  form, which is the quantity this branch's metric needs, and enters the
+  comparator set on that ground alone:
+  `eru-0735`, `eru-1117`, `eru-1519`, `eru-1844`, `eru-1845`, `eru-0889`,
+  `eru-1038`, `eru-1921`, `eru-1852` (review §7.4, §14).
+  **Rev 4, third `TO COMPUTE` handoff (audit REV-1-7).** TC-4: r₀ and the
+  minimum-duration constant are `CONVENTION` **in the family's own words**.
+  Neither may be adopted from the literature — not r₀ = 0.10, not δ·log(T).
+  Adopting either would install an unlabelled constant, which the project's
+  parameter rule forbids outright. TC-4 blocks a parameter choice; TC-5 and TC-6
+  above do not.
+  The
   directional-change/intrinsic-time framework also gains operational records
   (Tsang-school DC-indicator regime detection and a renewal-process reference
   value; naming sweep NB-25…NB-29).
@@ -615,3 +723,129 @@ the frontmatter); every Rev 3 DOI was handle-API-verified by the sweep agents
 date-stamping records' content claims rest on abstract-level verification and
 the family's standing in the literature, flagged for a full-text pass before
 any branch-3 specification cites their critical values quantitatively.
+
+**Rev 4 (2026-09-02) — the flagged full-text pass has run and the caveat is
+discharged.** Under
+[deliverable_spec_open-items-kalshi-arbitrage_2026-09-02.md](../deliverables/deliverable_spec_open-items-kalshi-arbitrage_2026-09-02.md)
+Thread A, the PRISMA 2020 review
+[lit_review_explosive-regime-dating_2026-08-24.md](../literature/lit_review_explosive-regime-dating_2026-08-24.md)
+(72-record included corpus, protocol frozen at sha256 `33c01c5225…`, registered
+at commit `9deee0c`) extracted both Phillips records from the published *IER*
+versions. The Rev 3 sentence was **corrected, not confirmed** — see
+Definitional basis (d) and branch 3 above. Consequences for this document:
+
+- No branch-3 specification may cite SADF or GSADF as an online detector; only
+  the sequence statistics ADF_r and BSADF_{r₂} qualify.
+- No branch-3 specification may cite the Phillips critical values
+  quantitatively **as transferable**. They are simulated and design-dependent;
+  transfer requires re-simulation under this project's T, r₀, lag order and
+  error/volatility assumptions (`TO COMPUTE` TC-5). Under ADR-0003 that
+  re-simulation is an executing project's work, not this repository's.
+- The NB-02 / NB-08 / NB-13 caveats are discharged: all three adjudicated
+  `episode-statistic-null` (review §9). **No screening verdict exists for any of
+  the three** (audit SCOPE-2-2, LITERATURE-2-8; review §14 item 3, A9, L-17,
+  VG-9): protocol §9.1 required them to be force-screened into the record
+  universe regardless of query recall, and they never entered it, so all three
+  adjudications rest on §9's full-text reading alone with no criterion-citing
+  dual-screening trail behind them. **Two on full text; NB-13 provisional**
+  — journal version unobtainable after four attempts, verdict resting on IIIS
+  DP 122 plus the journal abstract, extension to the journal version being an
+  absence-of-evidence inference — re-openable under review protocol §10 (audit
+  REV-1-6).
+- **Page locators corrected 2026-09-02** (audit QUANT-2-3, review L-18). The two
+  Phillips quotation locators this agenda carries were wrong and are fixed: the
+  PWY "cannot reveal the location" quotation is *IER* **52:214** (was 215) and
+  the PSY ex-ante/ex-post quotation is *IER* **56:1053** (was 1054). They were
+  wrong because round 1 marked the Cowles reprints un-refetchable on an
+  HTTPS-only attempt; the host serves them over plain HTTP, and re-reading the
+  retrieved PDFs corrected **19** locators in the review (recounted at round 3,
+  audit LITERATURE-3-3; the figure 14 was inconsistent with the review's own
+  L-18 table, which carries 9 PWY + 7 PSY 2015a + 3 PSY 2015b corrected rows).
+  A further four §9 locators were corrected at round 3 after the three NB texts
+  were re-read, and one result was found misattributed: NB-08's law is
+  **Theorem 1, p.609** — "Theorem 3.1" in that paper is a citation to another
+  work, not its own result (review L-20).
+- Branch 3 additionally carries, from the same review: the FWER 0.55–0.93
+  multiplicity condition on any BSADF comparator, admission of the
+  surveillance/monitoring line to the comparator set, and `TO COMPUTE` TC-4
+  barring adoption of r₀ or the minimum-duration constant from the literature
+  (audit REV-1-7, QUANT-1-6).
+
+**Residual, carried openly.** Corrected and extended 2026-09-02 after the Thread
+A audit round (findings LITERATURE-1-6, SCOPE-1-6, REV-1-2); the Rev 4 text as
+first written under-bounded the corpus and is superseded here.
+
+- **Largest completeness threat, corpus-wide.** 280 records — 47.8% of those
+  reaching the full-text stage — were excluded solely because full text could
+  not be obtained (review L-4 / VG-2). Its direction is unknown, and nothing in
+  the review bounds the number of eligible studies lost this way. This is a
+  bound on the *whole* corpus, not only on the antecedent layer.
+- **Antecedent layer specifically — corrected 2026-09-02** (audit SCOPE-2-1,
+  QUANT-2-5, LITERATURE-2-7; the first Rev 4 text said the arm "never executed"
+  and was already stale when written). The protocol's backward citation-chasing
+  arm (`er-bc-*`, protocol §3.3) **ran post-freeze under amendment A11**, not at
+  its prescribed stage: 22 of 27 I2b carriers covered, via publisher-deposited
+  reference lists (Crossref `reference` arrays, OpenAlex `referenced_works`)
+  rather than the hand-checked full texts §3.3 specifies, single-agent, and not
+  a screening stage. **Corrected 2026-09-02, round 3** (audit REV-3-1, SCOPE-3-1,
+  QUANT-3-1, LITERATURE-3-1; review §14 item 7, protocol A12(b)–(c)). The first
+  Rev 4 text said the arm named *two* candidates the corpus does not contain.
+  **It named one.**
+  - `er-bc-1` **Hall, Psaradakis & Sola 1999**,
+    [doi:10.1002/(SICI)1099-1255(199903/04)14:2<143::AID-JAE500>3.0.CO;2-X](https://doi.org/10.1002/(SICI)1099-1255(199903/04)14:2%3C143::AID-JAE500%3E3.0.CO;2-X)
+    — passes S-a/S-b/S-c on its deposited abstract and reports simulation. A
+    **probable eligible miss on exactly the pre-2011 antecedent layer** where the
+    known-item recall check already failed. Not admitted; the corpus is frozen.
+  - ~~`er-bc-2` Banerjee, Chevillon & Kratz 2013 — eligibility indeterminate~~ —
+    **WITHDRAWN as a false positive.** That work *is* in the 1,996-record
+    universe, twice: `eru-0209` (stage-2 X7) and `eru-1027`
+    ([doi:10.1093/ectj/utaa004](https://doi.org/10.1093/ectj/utaa004), stage-2
+    S-c-fail). Both were PROMOTE/PROMOTE at stage 1 and excluded at stage 2. It
+    was dual-screened and excluded, so it **is not a recall gap** and must not be
+    transcribed as one.
+  - **Consequence this agenda inherits (A12(c)).** The A11 arm's absence test
+    keys on DOI *or* exact normalised title, and it was defeated here by a
+    one-word title variant ("in a" vs "with a") combined with an SSRN DOI absent
+    from the store. Its **"177 referenced DOIs absent from the universe" figure
+    is therefore an upper bound of unquantified looseness**, not a count.
+
+  Three known-item antecedents (Phillips & Magdalinos, Busetti & Taylor, Evans)
+  were recovered by the known-item arm alone. Pre-2011 coverage therefore rests
+  on the known-item list **plus one bounded, weakly-routed post-freeze pass with
+  a known named miss**. The gap is bounded and named, not closed — and the
+  refusal to admit `er-bc-1` is a decision this agenda inherits, not a fact about
+  the literature.
+- **The appraisal is convention-resolved, not source-adjudicated.** Amendment A6
+  records that the protocol's dual-extraction reconciliation never ran: 90 of
+  357 comparable ER-RoB cells diverged between extraction passes and were
+  resolved by a declared direction-safe conservative rule without reopening a
+  single source (review §2.8 / L-2). Any concern-profile claim this agenda
+  leans on inherits that status and may not be cited as an adjudicated
+  appraisal.
+- **Eligibility deviations inside the frozen set.** **Seven** included records
+  fail criterion I3 as written — five carrying the I3 GAP note plus the twins
+  `eru-0154` and `eru-0904`, for which a carrier's DOI is *not* the twin's
+  identifier (audit REV-1-2; the Rev 4 figure of five was an undercount) — and
+  three same-work twin pairs survive X7 deduplication, so **72 records are 69
+  distinct works under the three adjudicated pairs, and 68 if the fourth,
+  unadjudicated pair `eru-0198`/`eru-0259` is one work** (audit REV-3-2; review
+  VG-13, protocol A13(b) — the journal text was never obtained, so same-work
+  identity is not establishable at any available depth and the review declines to
+  assert it either way). Recorded as findings; the corpus was **not** re-screened.
+- **Amendments A4–A13 are all post-hoc** (corrected twice: the first Rev 4 text
+  named only A4–A6; the round-2 correction said A4–A11 and was itself stale
+  before the day ended, because the same pass appended A12 and A13 — audit
+  REV-3-2). The substantive ones for this agenda: **A12** — corrects A7's
+  `partial` denominator (585 → 561) and A11's yield (2 candidates → 1, the
+  `er-bc-2` withdrawal above); **A13** — narrows the no-double-counting
+  assurance to §7's evidence tables, discloses the fourth probable unadjudicated
+  twin pair, and registers the NB-13 scope qualifier as a review CONVENTION
+  rather than a frozen-vocabulary token; **A7/A8** —
+  instrument deviations (a four-level response scale against a frozen
+  three-level one; 31 domain cells scored against the frozen Q→D rule), which
+  qualify *every* concern-profile claim this agenda leans on; **A9** —
+  force-screening not executed (see the NB bullet); **A10** — the I3 and X7
+  violations inside the frozen set; **A11** — the post-freeze backward chase.
+
+Consequently the Rev 4 claims above state what the *included corpus*
+establishes, not what the explosive-regime literature contains.

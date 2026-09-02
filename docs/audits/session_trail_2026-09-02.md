@@ -1,0 +1,6 @@
+- 2026-09-02T08:12:33 | session=8c390f63-a7d | reason=other | cwd=C:\Users\skoir\castles | git=8aeebfe9adec
+- 2026-09-02T08:12:47 | session=37cf21ea-9b1 | reason=other | cwd=C:\Users\skoir\castles | git=8aeebfe9adec
+- 2026-09-02T09:08:08 | session=6a79ae93-5b9 | reason=other | cwd=C:\Users\skoir\castles | git=8aeebfe9adec
+- 2026-09-02T09:23:14 | session=65148ad5-9c9 | reason=other | cwd=C:\Users\skoir\castles | git=8aeebfe9adec
+- 2026-09-02T10:12:55 | session=dab85163-aae | reason=other | cwd=C:\Users\skoir\castles | git=8aeebfe9adec
+- 2026-09-02T10:13:30 | session=d47b8777-373 | reason=other | cwd=C:\Users\skoir\castles | git=8aeebfe9adec

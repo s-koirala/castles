@@ -1,0 +1,1002 @@
+{
+ "query_id": "ka-fc-oa-a1-resolve",
+ "protocol_query_id": "ka-fc-oa-a1-resolve",
+ "arm": "forward-citation",
+ "platform": "openalex",
+ "url": "https://api.openalex.org/works/https://doi.org/10.1287/mnsc.1040.0191",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1,
+ "retrieved_count": 1,
+ "anchor_doi": "10.1287/mnsc.1040.0191",
+ "resolved_work_id": "https://openalex.org/W2167866999",
+ "raw": {
+  "id": "https://openalex.org/W2167866999",
+  "doi": "https://doi.org/10.1287/mnsc.1040.0191",
+  "title": "Suckers Are Born but Markets Are Made: Individual Rationality, Arbitrage, and Market Efficiency on an Electronic Futures Market",
+  "display_name": "Suckers Are Born but Markets Are Made: Individual Rationality, Arbitrage, and Market Efficiency on an Electronic Futures Market",
+  "publication_year": 2004,
+  "publication_date": "2004-03-01",
+  "ids": {
+   "openalex": "https://openalex.org/W2167866999",
+   "doi": "https://doi.org/10.1287/mnsc.1040.0191",
+   "mag": "2167866999"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.1287/mnsc.1040.0191",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1287/mnsc.1040.0191",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S33323087",
+    "display_name": "Management Science",
+    "issn_l": "0025-1909",
+    "issn": [
+     "0025-1909",
+     "1526-5501"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "host_organization": "https://openalex.org/P4310315699",
+    "host_organization_name": "Institute for Operations Research and the Management Sciences",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310315699"
+    ],
+    "host_organization_lineage_names": [
+     "Institute for Operations Research and the Management Sciences"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Management Science",
+   "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5041736760",
+     "display_name": "Kenneth Oliven",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I126307644",
+      "display_name": "University of Iowa",
+      "ror": "https://ror.org/036jqmy94",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I126307644"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Kenneth Oliven",
+    "raw_affiliation_strings": [
+     "Henry B. Tippie College of Business, University of Iowa, Iowa City, Iowa 52242-1000"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Henry B. Tippie College of Business, University of Iowa, Iowa City, Iowa 52242-1000",
+      "institution_ids": [
+       "https://openalex.org/I126307644"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5035382643",
+     "display_name": "Thomas A. Rietz",
+     "orcid": "https://orcid.org/0000-0001-9875-4780"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I126307644",
+      "display_name": "University of Iowa",
+      "ror": "https://ror.org/036jqmy94",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I126307644"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Thomas A. Rietz",
+    "raw_affiliation_strings": [
+     "Henry B. Tippie College of Business, University of Iowa, Iowa City, Iowa 52242-1000"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Henry B. Tippie College of Business, University of Iowa, Iowa City, Iowa 52242-1000",
+      "institution_ids": [
+       "https://openalex.org/I126307644"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I126307644"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.6592,
+  "has_fulltext": false,
+  "cited_by_count": 152,
+  "citation_normalized_percentile": {
+   "value": 0.96052922,
+   "is_in_top_1_percent": false,
+   "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+   "min": 88,
+   "max": 100
+  },
+  "biblio": {
+   "volume": "50",
+   "issue": "3",
+   "first_page": "336",
+   "last_page": "351"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10047",
+   "display_name": "Financial Markets and Investment Strategies",
+   "score": 0.9995999932289124,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2003",
+    "display_name": "Finance"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/20",
+    "display_name": "Economics, Econometrics and Finance"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10047",
+    "display_name": "Financial Markets and Investment Strategies",
+    "score": 0.9995999932289124,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2003",
+     "display_name": "Finance"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/20",
+     "display_name": "Economics, Econometrics and Finance"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/2",
+     "display_name": "Social Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11270",
+    "display_name": "Complex Systems and Time Series Analysis",
+    "score": 0.9972000122070312,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2002",
+     "display_name": "Economics and Econometrics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/20",
+     "display_name": "Economics, Econometrics and Finance"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/2",
+     "display_name": "Social Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11059",
+    "display_name": "Market Dynamics and Volatility",
+    "score": 0.9854000210762024,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2002",
+     "display_name": "Economics and Econometrics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/20",
+     "display_name": "Economics, Econometrics and Finance"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/2",
+     "display_name": "Social Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/mistake",
+    "display_name": "Mistake",
+    "score": 0.8280410766601562
+   },
+   {
+    "id": "https://openalex.org/keywords/arbitrage",
+    "display_name": "Arbitrage",
+    "score": 0.7161755561828613
+   },
+   {
+    "id": "https://openalex.org/keywords/futures-contract",
+    "display_name": "Futures contract",
+    "score": 0.6979851722717285
+   },
+   {
+    "id": "https://openalex.org/keywords/economics",
+    "display_name": "Economics",
+    "score": 0.6785863637924194
+   },
+   {
+    "id": "https://openalex.org/keywords/market-efficiency",
+    "display_name": "Market efficiency",
+    "score": 0.5051329731941223
+   },
+   {
+    "id": "https://openalex.org/keywords/efficient-market-hypothesis",
+    "display_name": "Efficient-market hypothesis",
+    "score": 0.4995105266571045
+   },
+   {
+    "id": "https://openalex.org/keywords/financial-economics",
+    "display_name": "Financial economics",
+    "score": 0.46690091490745544
+   },
+   {
+    "id": "https://openalex.org/keywords/sample",
+    "display_name": "Sample (material)",
+    "score": 0.4577776789665222
+   },
+   {
+    "id": "https://openalex.org/keywords/microeconomics",
+    "display_name": "Microeconomics",
+    "score": 0.43618834018707275
+   },
+   {
+    "id": "https://openalex.org/keywords/behavioral-economics",
+    "display_name": "Behavioral economics",
+    "score": 0.41717711091041565
+   },
+   {
+    "id": "https://openalex.org/keywords/commit",
+    "display_name": "Commit",
+    "score": 0.4127790927886963
+   },
+   {
+    "id": "https://openalex.org/keywords/set",
+    "display_name": "Set (abstract data type)",
+    "score": 0.41242778301239014
+   },
+   {
+    "id": "https://openalex.org/keywords/stock-market",
+    "display_name": "Stock market",
+    "score": 0.13339215517044067
+   },
+   {
+    "id": "https://openalex.org/keywords/computer-science",
+    "display_name": "Computer science",
+    "score": 0.07530048489570618
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C2777179996",
+    "wikidata": "https://www.wikidata.org/wiki/Q911222",
+    "display_name": "Mistake",
+    "level": 2,
+    "score": 0.8280410766601562
+   },
+   {
+    "id": "https://openalex.org/C160623529",
+    "wikidata": "https://www.wikidata.org/wiki/Q273088",
+    "display_name": "Arbitrage",
+    "level": 2,
+    "score": 0.7161755561828613
+   },
+   {
+    "id": "https://openalex.org/C106306483",
+    "wikidata": "https://www.wikidata.org/wiki/Q183984",
+    "display_name": "Futures contract",
+    "level": 2,
+    "score": 0.6979851722717285
+   },
+   {
+    "id": "https://openalex.org/C162324750",
+    "wikidata": "https://www.wikidata.org/wiki/Q8134",
+    "display_name": "Economics",
+    "level": 0,
+    "score": 0.6785863637924194
+   },
+   {
+    "id": "https://openalex.org/C2985330422",
+    "wikidata": "https://www.wikidata.org/wiki/Q724931",
+    "display_name": "Market efficiency",
+    "level": 2,
+    "score": 0.5051329731941223
+   },
+   {
+    "id": "https://openalex.org/C29368100",
+    "wikidata": "https://www.wikidata.org/wiki/Q724931",
+    "display_name": "Efficient-market hypothesis",
+    "level": 4,
+    "score": 0.4995105266571045
+   },
+   {
+    "id": "https://openalex.org/C106159729",
+    "wikidata": "https://www.wikidata.org/wiki/Q2294553",
+    "display_name": "Financial economics",
+    "level": 1,
+    "score": 0.46690091490745544
+   },
+   {
+    "id": "https://openalex.org/C198531522",
+    "wikidata": "https://www.wikidata.org/wiki/Q485146",
+    "display_name": "Sample (material)",
+    "level": 2,
+    "score": 0.4577776789665222
+   },
+   {
+    "id": "https://openalex.org/C175444787",
+    "wikidata": "https://www.wikidata.org/wiki/Q39072",
+    "display_name": "Microeconomics",
+    "level": 1,
+    "score": 0.43618834018707275
+   },
+   {
+    "id": "https://openalex.org/C109574028",
+    "wikidata": "https://www.wikidata.org/wiki/Q647525",
+    "display_name": "Behavioral economics",
+    "level": 2,
+    "score": 0.41717711091041565
+   },
+   {
+    "id": "https://openalex.org/C153180980",
+    "wikidata": "https://www.wikidata.org/wiki/Q19776675",
+    "display_name": "Commit",
+    "level": 2,
+    "score": 0.4127790927886963
+   },
+   {
+    "id": "https://openalex.org/C177264268",
+    "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+    "display_name": "Set (abstract data type)",
+    "level": 2,
+    "score": 0.41242778301239014
+   },
+   {
+    "id": "https://openalex.org/C2780299701",
+    "wikidata": "https://www.wikidata.org/wiki/Q475000",
+    "display_name": "Stock market",
+    "level": 3,
+    "score": 0.13339215517044067
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.07530048489570618
+   },
+   {
+    "id": "https://openalex.org/C86803240",
+    "wikidata": "https://www.wikidata.org/wiki/Q420",
+    "display_name": "Biology",
+    "level": 0,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C2780762169",
+    "wikidata": "https://www.wikidata.org/wiki/Q5905368",
+    "display_name": "Horse",
+    "level": 2,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C43617362",
+    "wikidata": "https://www.wikidata.org/wiki/Q170050",
+    "display_name": "Chromatography",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C199360897",
+    "wikidata": "https://www.wikidata.org/wiki/Q9143",
+    "display_name": "Programming language",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C199539241",
+    "wikidata": "https://www.wikidata.org/wiki/Q7748",
+    "display_name": "Law",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C77088390",
+    "wikidata": "https://www.wikidata.org/wiki/Q8513",
+    "display_name": "Database",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C151730666",
+    "wikidata": "https://www.wikidata.org/wiki/Q7205",
+    "display_name": "Paleontology",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C17744445",
+    "wikidata": "https://www.wikidata.org/wiki/Q36442",
+    "display_name": "Political science",
+    "level": 0,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C185592680",
+    "wikidata": "https://www.wikidata.org/wiki/Q2329",
+    "display_name": "Chemistry",
+    "level": 0,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+   {
+    "id": "doi:10.1287/mnsc.1040.0191",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1287/mnsc.1040.0191",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S33323087",
+     "display_name": "Management Science",
+     "issn_l": "0025-1909",
+     "issn": [
+      "0025-1909",
+      "1526-5501"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "host_organization": "https://openalex.org/P4310315699",
+     "host_organization_name": "Institute for Operations Research and the Management Sciences",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310315699"
+     ],
+     "host_organization_lineage_names": [
+      "Institute for Operations Research and the Management Sciences"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Management Science",
+    "raw_type": "journal-article"
+   }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+   {
+    "display_name": "Partnerships for the goals",
+    "id": "https://metadata.un.org/sdg/17",
+    "score": 0.4300000071525574
+   }
+  ],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "grobid_xml": false,
+   "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 32,
+  "referenced_works": [
+   "https://openalex.org/W98535591",
+   "https://openalex.org/W177751847",
+   "https://openalex.org/W1481342746",
+   "https://openalex.org/W1515534126",
+   "https://openalex.org/W1526874807",
+   "https://openalex.org/W1547859443",
+   "https://openalex.org/W1603577318",
+   "https://openalex.org/W1975831816",
+   "https://openalex.org/W1976253472",
+   "https://openalex.org/W1988326759",
+   "https://openalex.org/W2006884477",
+   "https://openalex.org/W2008349436",
+   "https://openalex.org/W2036229720",
+   "https://openalex.org/W2050031929",
+   "https://openalex.org/W2063703678",
+   "https://openalex.org/W2065325702",
+   "https://openalex.org/W2068162574",
+   "https://openalex.org/W2116455234",
+   "https://openalex.org/W2116988722",
+   "https://openalex.org/W2130942060",
+   "https://openalex.org/W2131773668",
+   "https://openalex.org/W2142080386",
+   "https://openalex.org/W2146930477",
+   "https://openalex.org/W2165611410",
+   "https://openalex.org/W2286529110",
+   "https://openalex.org/W2475723074",
+   "https://openalex.org/W3122597312",
+   "https://openalex.org/W3124655772",
+   "https://openalex.org/W3126080930",
+   "https://openalex.org/W4212875445",
+   "https://openalex.org/W4231546411",
+   "https://openalex.org/W4232064139"
+  ],
+  "related_works": [
+   "https://openalex.org/W1980136777",
+   "https://openalex.org/W2107813245",
+   "https://openalex.org/W3011236531",
+   "https://openalex.org/W3124252378",
+   "https://openalex.org/W3152101882",
+   "https://openalex.org/W4249692389",
+   "https://openalex.org/W2940698412",
+   "https://openalex.org/W2167866999",
+   "https://openalex.org/W2476460172",
+   "https://openalex.org/W2261239403"
+  ],
+  "abstract_inverted_index": {
+   "The": [
+    0
+   ],
+   "Iowa": [
+    1
+   ],
+   "Electronic": [
+    2
+   ],
+   "Markets": [
+    3
+   ],
+   "are": [
+    4,
+    33,
+    47,
+    99
+   ],
+   "specially": [
+    5
+   ],
+   "designed": [
+    6
+   ],
+   "futures": [
+    7
+   ],
+   "markets": [
+    8,
+    32
+   ],
+   "that": [
+    9
+   ],
+   "appear": [
+    10,
+    104
+   ],
+   "to": [
+    11,
+    15,
+    49,
+    105
+   ],
+   "aggregate": [
+    12
+   ],
+   "information": [
+    13,
+    26
+   ],
+   "efficiently": [
+    14
+   ],
+   "predict": [
+    16
+   ],
+   "events": [
+    17
+   ],
+   "such": [
+    18
+   ],
+   "as": [
+    19
+   ],
+   "election": [
+    20
+   ],
+   "outcomes.": [
+    21
+   ],
+   "Yet,": [
+    22
+   ],
+   "in": [
+    23,
+    83,
+    138
+   ],
+   "theory,": [
+    24
+   ],
+   "perfect": [
+    25
+   ],
+   "aggregation": [
+    27
+   ],
+   "is": [
+    28
+   ],
+   "impossible.": [
+    29
+   ],
+   "Further,": [
+    30
+   ],
+   "the": [
+    31,
+    50,
+    73,
+    92,
+    133
+   ],
+   "populated": [
+    34
+   ],
+   "by": [
+    35,
+    54,
+    71
+   ],
+   "a": [
+    36,
+    68
+   ],
+   "nonrepresentative": [
+    37
+   ],
+   "sample": [
+    38
+   ],
+   "of": [
+    39,
+    75,
+    79,
+    117,
+    135,
+    140,
+    143
+   ],
+   "mistake-prone": [
+    40
+   ],
+   "and": [
+    41,
+    103
+   ],
+   "biased": [
+    42
+   ],
+   "traders.": [
+    43,
+    80,
+    111
+   ],
+   "That": [
+    44
+   ],
+   "is,": [
+    45
+   ],
+   "traders": [
+    46,
+    87,
+    95,
+    127,
+    144
+   ],
+   "prone": [
+    48,
+    102
+   ],
+   "behavioral": [
+    51,
+    55
+   ],
+   "anomalies": [
+    52
+   ],
+   "predicted": [
+    53
+   ],
+   "finance.": [
+    56
+   ],
+   "How": [
+    57
+   ],
+   "can": [
+    58,
+    88,
+    131
+   ],
+   "this": [
+    59,
+    121
+   ],
+   "be": [
+    60,
+    106
+   ],
+   "reconciled": [
+    61
+   ],
+   "with": [
+    62
+   ],
+   "market": [
+    63,
+    123,
+    136
+   ],
+   "efficiency?": [
+    64
+   ],
+   "Here,": [
+    65
+   ],
+   "we": [
+    66
+   ],
+   "take": [
+    67
+   ],
+   "first": [
+    69
+   ],
+   "step": [
+    70
+   ],
+   "analyzing": [
+    72
+   ],
+   "behavior": [
+    74
+   ],
+   "two": [
+    76
+   ],
+   "self-selected": [
+    77
+   ],
+   "types": [
+    78
+   ],
+   "Dramatic": [
+    81
+   ],
+   "differences": [
+    82
+   ],
+   "mistake": [
+    84,
+    101
+   ],
+   "rates": [
+    85
+   ],
+   "across": [
+    86
+   ],
+   "help": [
+    89
+   ],
+   "us": [
+    90
+   ],
+   "answer": [
+    91
+   ],
+   "question.": [
+    93
+   ],
+   "Market-making": [
+    94
+   ],
+   "who": [
+    96,
+    145
+   ],
+   "set": [
+    97,
+    128
+   ],
+   "prices": [
+    98,
+    137
+   ],
+   "less": [
+    100
+   ],
+   "more": [
+    107
+   ],
+   "rational": [
+    108
+   ],
+   "than": [
+    109
+   ],
+   "price-taking": [
+    110
+   ],
+   "This": [
+    112,
+    130
+   ],
+   "highlights": [
+    113
+   ],
+   "an": [
+    114
+   ],
+   "important": [
+    115
+   ],
+   "feature": [
+    116
+   ],
+   "markets:": [
+    118
+   ],
+   "marginal": [
+    119
+   ],
+   "(in": [
+    120
+   ],
+   "case,": [
+    122
+   ],
+   "making),": [
+    124
+   ],
+   "not": [
+    125
+   ],
+   "average,": [
+    126
+   ],
+   "prices.": [
+    129
+   ],
+   "drive": [
+    132
+   ],
+   "efficiency": [
+    134
+   ],
+   "spite": [
+    139
+   ],
+   "large": [
+    141
+   ],
+   "numbers": [
+    142
+   ],
+   "display": [
+    146
+   ],
+   "patently": [
+    147
+   ],
+   "suboptimal": [
+    148
+   ],
+   "behavior.": [
+    149
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2025,
+    "cited_by_count": 3
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 3
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 4
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 5
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 9
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 3
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 10
+   },
+   {
+    "year": 2014,
+    "cited_by_count": 12
+   },
+   {
+    "year": 2013,
+    "cited_by_count": 10
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 16
+   }
+  ],
+  "updated_date": "2026-08-27T14:10:00.468798",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

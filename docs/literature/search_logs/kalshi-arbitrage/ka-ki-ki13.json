@@ -1,0 +1,173 @@
+{
+ "query_id": "ka-ki-ki13",
+ "protocol_query_id": "KI-13",
+ "arm": "known-item",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.5750%2Fjpm.v1i1.417",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1,
+ "retrieved_count": 1,
+ "identifier": "10.5750/jpm.v1i1.417",
+ "raw_format": "json",
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      18
+     ]
+    ],
+    "date-time": "2026-08-18T16:07:22Z",
+    "timestamp": 1787069242616,
+    "version": "build-2736575974"
+   },
+   "reference-count": 0,
+   "publisher": "University of Buckingham Press",
+   "issue": "1",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "jpm"
+   ],
+   "abstract": "<jats:p>In practice, scoring rules elicit good probability estimates from individuals, while betting markets elicit good consensus estimates from groups. Market scoring rules combine these features, eliciting estimates from individuals or groups, with groups costing no more than individuals. Regarding a bet on one event given another event, only logarithmic versions preserve the probability of the given event. Logarithmic versions also preserve the conditional probabilities of other events, and so preserve conditional independence relations. Given logarithmic rules that elicit relative probabilities of base event pairs, it costs no more to elicit estimates on all combinations of these base events.</jats:p>",
+   "DOI": "10.5750/jpm.v1i1.417",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2020,
+      8,
+      26
+     ]
+    ],
+    "date-time": "2020-08-26T10:05:34Z",
+    "timestamp": 1598436334000
+   },
+   "page": "3-15",
+   "source": "Crossref",
+   "is-referenced-by-count": 165,
+   "title": [
+    "LOGARITHMIC MARKETS CORING RULES FOR MODULAR COMBINATORIAL INFORMATION AGGREGATION"
+   ],
+   "prefix": "10.5750",
+   "volume": "1",
+   "author": [
+    {
+     "given": "Robin",
+     "family": "Hanson",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "3758",
+   "published-online": {
+    "date-parts": [
+     [
+      2012,
+      12,
+      13
+     ]
+    ]
+   },
+   "container-title": [
+    "The Journal of Prediction Markets"
+   ],
+   "original-title": [],
+   "link": [
+    {
+     "URL": "http://www.bjll.org/index.php/jpm/article/download/417/448",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "http://www.bjll.org/index.php/jpm/article/download/417/448",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2020,
+      8,
+      26
+     ]
+    ],
+    "date-time": "2020-08-26T10:14:06Z",
+    "timestamp": 1598436846000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "http://www.bjll.org/index.php/jpm/article/view/417"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2012,
+      12,
+      13
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "1",
+    "published-online": {
+     "date-parts": [
+      [
+       2012,
+       12,
+       19
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.5750/jpm.v1i1.417",
+   "relation": {},
+   "ISSN": [
+    "1750-676X",
+    "1750-6751"
+   ],
+   "issn-type": [
+    {
+     "value": "1750-676X",
+     "type": "electronic"
+    },
+    {
+     "value": "1750-6751",
+     "type": "print"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2012,
+      12,
+      13
+     ]
+    ]
+   }
+  }
+ }
+}

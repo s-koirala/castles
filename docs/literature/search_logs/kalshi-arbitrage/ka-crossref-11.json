@@ -1,0 +1,806 @@
+{
+ "query_id": "ka-crossref-11",
+ "protocol_query_id": "ka-crossref-11",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=binary+option+microstructure+bid+ask+spread+informed+trading&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 673302,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 673302,
+   "items": [
+    {
+     "DOI": "10.3905/jot.2015.2015.1.041",
+     "title": [
+      "Option Bid–Ask Spread and Liquidity"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015,
+        6,
+        10
+       ]
+      ]
+     },
+     "container-title": [
+      "The Journal of Trading"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Mo",
+       "family": "Chaudhury",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.1516061",
+     "title": [
+      "How Important is Informed Trading for the Bid-Ask Spread? Evidence from an Emerging Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0006-3997-5931",
+       "authenticated-orcid": true,
+       "given": "Jan",
+       "family": "Hanousek",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Richard",
+       "family": "Podpiera",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>The link between informed trading and the bid-ask spread has been the focus of abundant literature and some authors feared that a large amount of informed trading might lead to shutdown of markets. We explore this issue using data from the Czech Republic. Our estimates confirm that the share of informed trading and its variability is indeed high relative to developed markets, however, share of the adverse selection component is only 14% of the spread. Since the Czech Republic has been known in the financial community as being plagued by informed trading, our findings suggest that the relative importance of adverse selection as a determinant of the spread is generally low across markets.</jats:p>"
+    },
+    {
+     "DOI": "10.3905/jot.2015.10.3.044",
+     "title": [
+      "Option Bid–Ask Spread and Liquidity"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015,
+        6,
+        30
+       ]
+      ]
+     },
+     "container-title": [
+      "The Journal of Trading"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Mo",
+       "family": "Chaudhury",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3336264",
+     "title": [
+      "Bid-Ask Spread and Liquidity Searching Behaviour of Informed Investors in Option Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Alejandro",
+       "family": "Bernales",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Carlos",
+       "family": "Cañón",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Thanos",
+       "family": "Verousis",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.1676952",
+     "title": [
+      "Information-Based Trading and the Bid-Ask Spread"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2010
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Kee H.",
+       "family": "Chung",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Jing",
+       "family": "Jiang",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We analyze the equilibrium spread when the transaction size of informed traders is elastic in the value of private information (α).  We show that the pooling equilibrium is likely to be inefficient when trade size is sensitive to α and the inefficient equilibrium can occur before the market breaks down. The pooling equilibrium spread does not monotonically increase with α, although it increases with the elasticity of informed trades to α. The upper bound of the elasticity of informed trades for the market to remain open for the active specialist is higher than the corresponding value for the passive specialist when the specialist has enough leverage over brokers.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.1769126",
+     "title": [
+      "Option Bid-Ask Spread and Liquidity"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Mo",
+       "family": "Chaudhury",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/j.frl.2017.10.025",
+     "title": [
+      "Bid–ask spread and liquidity searching behaviour of informed investors in option markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "Finance Research Letters"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Alejandro",
+       "family": "Bernales",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Carlos",
+       "family": "Cañón",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Thanos",
+       "family": "Verousis",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/s0147-5967(03)00044-1",
+     "title": [
+      "Informed trading and the bid–ask spread: evidence from an emerging market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2003,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Comparative Economics"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Jan",
+       "family": "Hanousek",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Richard",
+       "family": "Podpiera",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1093/oso/9780195144703.003.0014",
+     "title": [
+      "Bid/Ask Spreads"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2002,
+        10,
+        24
+       ]
+      ]
+     },
+     "container-title": [
+      "Trading and Exchanges"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Larry",
+       "family": "Harris",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>The bid/ask spread is the price impatient traders pay for immediacy. Impatient traders buy at the ask price and sell at the bid price. The spread is the compensation dealers and limit order traders receive for offering immediacy.</jats:p>"
+    },
+    {
+     "DOI": "10.1007/springerreference_835",
+     "title": [
+      "Bid-Ask Spread"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "SpringerReference"
+     ],
+     "type": "reference-entry"
+    },
+    {
+     "DOI": "10.2139/ssrn.440380",
+     "title": [
+      "Insider Trading and the Bid-Ask Spread: A Critical Evaluation of Adverse Selection in Market Making"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2003
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Stanislav",
+       "family": "Dolgopolov",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>In economic, finance, and legal literature, there is a widespread acceptance of the notion that market makers increase the bid-ask spread in response to insider trading, as they consistently lose money by transacting with better-informed insiders. The development of this adverse selection model of market making was treated as proof that insider trading imposes a real cost on securities markets by decreasing liquidity and increasing the corporate cost of capital and was used as a justification for regulation. This Article is a critical review of the adverse selection literature. It discusses the model's theoretical development, its use in the regulation debates, a summary of the case law on the harm from insider trading to market makers, and empirical research on the link between insider trading and transaction costs. The adverse selection argument is criticized from both theoretical and empirical standpoints: there are limitations to the model due to required assumptions about the role and behavior of market makers' inventories; different causal links among insider trading, firm size, quality of disclosure, stock price volatility, and the bid-ask spread are possible; the existing empirical studies may confuse various components of the spread; and information asymmetry may actually benefit market makers.</jats:p>"
+    },
+    {
+     "DOI": "10.1007/978-94-011-2180-4_5",
+     "title": [
+      "Automating German Equity Trading: Bid-Ask Spreads on Competing Systems"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1992
+       ]
+      ]
+     },
+     "container-title": [
+      "Microstructure of World Trading Markets"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Hartmut",
+       "family": "Schmidt",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Peter",
+       "family": "Iversen",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.252510",
+     "title": [
+      "The Microstructure of Currency Markets: An Empirical Model of Intra-Day Return and Bid-Ask Spread Behavior"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2001
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Paolo",
+       "family": "Pasquariello",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This paper analyzes the intra-day relationship between bid-ask spreads and \"market\" return volatility for U.S. Dollar/Deutschemark quotes. We are able to identify a statistically and economically significant \"Reverse U-shaped\" pattern in the bid-offer spread in 1996. Tests of the stability and ordering of \"market\" volatility, performed across several different fractions of the day, reveal that variances of intra-day returns are heterogeneous and ordered, declining around the Asian lunch break, increasing steadily during the London morning trading hours, peaking at the opening of New York to subsequently fall with the closing of the European markets. Results also indicate that \"market\" volatility is significantly higher during intra-day versus overnight periods. Then, we introduce a structural model that attempts to explain those empirical regularities by capturing some currency-specific features of the data: possibly asymmetric and stochastic trading cost structure, discrete directional updates and parameters' temporal heterogeneity, and by relating the bid-ask spread to different sources of random noise. We evaluate these parameters via GMM using a set of convenient unconditional intra-day moments implied by the basic configuration of the model. Analysis of the resulting estimated patterns reveals that trading costs play a significant role in explaining the intra-day variability of bid and offer currency returns. Inventory considerations appear to be more relevant in the trading morning, while the perceived risk of arrival of informed trades seems more likely to affect the dealers' cost structure in the afternoon. The contribution of the \"true\" currency risk to the total variability of posted bid and ask quotes' returns is not surprisingly highest with the opening of the European markets.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.4792199",
+     "title": [
+      "Intraday Dynamics of NASDAQ Stocks in the Electronic Trading Era: Uncovering Strong U-Shape Patterns in Trading Volume and Bid-Ask Spread"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2024
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Jian",
+       "family": "Hua",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Lingyi",
+       "family": "Kong",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Yajun",
+       "family": "Wang",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Using Trade and Quote (TAQ) data from 2000 to 2021, we find that NASDAQ stocks exhibit pronounced U-shaped patterns in bid-ask spreads and trading volumes. Traders often trade aggressively at market open to capitalize on their private information and rebalance their portfolios at market close, leading to concentrated trading at market open and close. Our findings suggest that the U-shaped pattern in bid-ask spread arises from imperfect competition among liquidity providers, who may increase spreads in response to heightened trading incentives. The U-shaped pattern is more pronounced for smaller stocks and those with larger order imbalances, consistent with our hypothesis and existing theoretical predictions. Moreover, the spikes in bid-ask spreads at market close help explain the observed trend of higher overnight returns compared to intraday returns for certain stocks on NASDAQ.</jats:p>"
+    },
+    {
+     "DOI": "10.1002/9781119203100.ch8",
+     "title": [
+      "The Bid/Ask Spread"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012,
+        1,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "Options Math for Traders"
+     ],
+     "type": "other"
+    },
+    {
+     "DOI": "10.1111/j.1475-6803.1995.tb00569.x",
+     "title": [
+      "INFORMED TRADING RISK AND BID‐ASK SPREAD CHANGES AROUND OPEN MARKET STOCK REPURCHASES IN THE NASDAQ MARKET"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1995,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Financial Research"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Diana R.",
+       "family": "Franz",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "University of Toledo"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Ramesh P.",
+       "family": "Rao",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "Texas Tech University"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Niranjan",
+       "family": "Tripathy",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "University of North Texas"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:title>Abstract</jats:title><jats:p>Microstructure theory contends that dealers' bid‐ask spreads should vary intertemporally with changes in the asymmetric information component of the spread. Corporate theory suggests that stock repurchase announcements signal management's private information to the securities markets. An examination of dealers' spread behavior around firms' open market repurchases in the NASDAQ market reveals a decline in spreads adjusted for dealers' inventory‐holding and order‐processing costs. This decline is attributed to a reduction in informed trading risk associated with the open market repurchase announcements.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.3692174",
+     "title": [
+      "Does the bid–ask spread affect trading in exchange operated dark pools? Evidence from a natural experiment"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0002-2252-2913",
+       "authenticated-orcid": true,
+       "given": "Huu Nhan",
+       "family": "Duong",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0001-6082-1263",
+       "authenticated-orcid": true,
+       "given": "Petko S.",
+       "family": "Kalev",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0001-5358-2305",
+       "authenticated-orcid": true,
+       "given": "Xiao",
+       "family": "Tian",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We exploit exogenous reductions in the minimum tick size to examine the effect of the bid–ask spread in the lit market on dark trading activity in the exchange operated dark pool in Japan. Stocks affected by the minimum tick size experience a decline in the share of trading in the exchange operated dark pool. The decrease in the share of dark trading is mostly evident among stocks with a constrained tick size prior to the tick size changes. Overall, our findings imply that reducing the minimum tick size can help lit venues regain market shares over dark venues.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.5368466",
+     "title": [
+      "Narrative Consistency and Bid-ask Spread"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "MoonDeok",
+       "family": "Park",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1007/0-387-26336-5_197",
+     "title": [
+      "Bid-Ask Spread"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "Encyclopedia of Finance"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.1111/j.1540-6288.1998.tb01379.x",
+     "title": [
+      "Insider Trading and the Bid‐Ask Spread"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1998,
+        8
+       ]
+      ]
+     },
+     "container-title": [
+      "Financial Review"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Kee H.",
+       "family": "Chung",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Charlie",
+       "family": "Charoenwong",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>This study examines the intertemporal and cross‐sectional association between the bid‐ask spread and insider trading. Empirical results from the cross‐sectional regression analysis reveal that market makers establish larger spreads for stocks with a greater extent of insider trading. The time‐series regression analysis, however, finds no evidence of spread changes on insider trading days. These results suggest that although market makers may not be able to detect insider trading when it occurs, they protect themselves by maintaining larger spreads for stocks with a greater tendency of insider trading. The results also reveal that market makers establish larger spreads when there are unusually large transactions. In addition, this study finds that spreads are positively associated with risk and negatively with trading volume, the number of exchange listings, share price, and firm size.</jats:p>"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

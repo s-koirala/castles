@@ -1,0 +1,779 @@
+{
+ "query_id": "ka-crossref-07",
+ "protocol_query_id": "ka-crossref-07",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=market+making+inventory+risk+optimal+bid+ask+quotes+limit+order+book&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 79887,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 79887,
+   "items": [
+    {
+     "DOI": "10.2139/ssrn.174692",
+     "title": [
+      "Screen Information, Trader Activity, and Bid-Ask Spreads in a Limit Order Market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1999
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Mark T.",
+       "family": "Coppejans",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Ian H.",
+       "family": "Domowitz",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>A key focus of empirical work on limit order markets is the relative importance of individual pieces of information in characterizing order submission and trade execution.  We enlarge this focus to include an examination of pricing behavior, using data on index futures trading in a pure electronic limit order book market.  A theoretical link between order, trade, and cancellation arrival rates, and the distribution of bid-ask spreads is empirically implemented.  Evaluation of models across different information sets is based on relative ability to predict market activity and pricing out-of-sample.  A main finding of the paper is the importance and superiority of information embodied in continuous individual traders' actions in characterizing order submission behavior and the structure of pricing.  The book information on chararcteristics of resting orders alone cannot explain subsequent order submission, trade, or pricing behavior, and has little impact on the shape of the spread distribution.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.2788349",
+     "title": [
+      "Bid- and Ask-Side Liquidity in the NYSE Limit Order Book"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2016
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Tolga",
+       "family": "Cenesizoglu",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Gunnar",
+       "family": "Grass",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.1042",
+     "title": [
+      "The Dynamics of Discrete Bid and Ask Quotes"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1997
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Joel",
+       "family": "Hasbrouck",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This analysis models discrete quotes as arising from two continuous random variables, the efficient price and a cost of quote exposure (information and processing costs). The former less the latter rounded down to the next tick yields the bid; the former plus the latter rounded up yields the ask. To deal with situations in which the cost of quote exposure possesses both stochastic and deterministic components, the paper proposes a nonlinear state-space estimation method. The method is applied to intraday quotes at fifteen-minute intervals for Alcoa (a randomly chosen Dow stock). The results confirm the existence of deterministic and stochastic components of the cost that are of roughly comparable magnitudes.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.1456846",
+     "title": [
+      "Asymmetric Futures Price Distribution and Bid-Ask Quotes"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Lars L.",
+       "family": "Nordén",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This study presents a model for estimating the asymmetry of the futures price with respect to the futures bid-ask spread. Using data from the Swedish OMXS 30 index futures market, estimation results show clear evidence of futures price asymmetry, where the futures price in general tends to be closer to the bid than to the ask quote. Moreover, in a futures market environment with a relatively low liquidity, the futures price tends to be closer to the bid quote, whereas the futures price is virtually symmetrically located within the futures spread when liquidity is relatively high.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.finmar.2017.10.002",
+     "title": [
+      "Bid- and ask-side liquidity in the NYSE limit order book"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        3
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Financial Markets"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Tolga",
+       "family": "Cenesizoglu",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Gunnar",
+       "family": "Grass",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1093/jjfinec/nbac025",
+     "title": [
+      "Market Maker Inventory, Bid–Ask Spreads, and the Computation of Option Implied Risk Measures"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022,
+        8,
+        10
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Financial Econometrics"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0001-7899-8948",
+       "authenticated-orcid": false,
+       "given": "Bjørn",
+       "family": "Eraker",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "University of Wisconsin-Madison , USA"
+        }
+       ],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Daniela",
+       "family": "Osterrieder",
+       "sequence": "additional",
+       "affiliation": [
+        {
+         "name": "University of Wisconsin-Madison , USA"
+        }
+       ],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>We present empirical evidence showing that option-implied risk measures (OIRMs) are substantially impacted by bid–ask spreads in underlying options. Asking prices are more sensitive to shocks than bids, leading to highly skewed distributions of spreads. We derive and estimate a model of market making that empirically matches these asymmetric responses as well as the time-series properties of bid–ask spreads. Using these estimates to obtain bias-corrected option quotes, we compute several popular OIRMs. We find that fear and risk premia associated with market events that affect the center of the return distribution or unpredictable return jumps are on average overstated when relying on option mid-quotes, whereas risk associated with return-tail events is larger once the bias has been corrected.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.302129",
+     "title": [
+      "Asymmetric Option Price Distribution and Bid-Ask Quotes: Consequences for Implied Volatility Smiles"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2002
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Lars L.",
+       "family": "Nordén",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This study presents a model, which can be used to estimate the asymmetry of option values with respect to option bid-ask spreads. The model provides an extension to the model in Chan and Chung (1999), since it does not require knowledge of the actual option value to evaluate the asymmetry. Using data from the Swedish market for equity options, results show clear evidence of asymmetry in call and put option values, where the option values tend to be closer to bid than to ask quotes. Significant differences are found with respect to option moneyness; in- and out-of-the-money calls and puts show a higher degree of asymmetry than options which are close to at-the-money. These results imply that representing an option value with the bid-ask midpoint results in a bias, overestimating the value. The possible linkage between the asymmetry at the options markets and the so-called volatility smile is recognised. The estimated asymmetry parameters for call and put option values are used in an out-of-sample analysis of option-implied volatility. Comparisons are made with the benchmark case under the assumption of no asymmetry in option values, i.e. when the bid-ask midpoints are used in the estimation of implied volatility. When the implied volatilities are adjusted for asymmetry effects, there is considerably less evidence of a smile, relative to the benchmark case. This study is believed to be the first to account for asymmetry effects in option values when calculating implied volatility.</jats:p>"
+    },
+    {
+     "DOI": "10.1017/9781316659335.024",
+     "title": [
+      "The Determinants of the Bid–Ask Spread"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "Trades, Quotes and Prices"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.2139/ssrn.3296798",
+     "title": [
+      "Liquidity, Durations and Bid-Ask Spread in Limit Order Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Ranjan",
+       "family": "Chakravarty",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Sudhanshu Sekhar",
+       "family": "Pani",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.2226089",
+     "title": [
+      "The Effect of Issuer Leverage on Issuer Bid and Ask Quotes for Structured Retail Product"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Stefan",
+       "family": "Petry",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>The financial institution that issues a structured retail product (SRP) becomes the dealer for that security. Issuer–dealer funding constraints can directly impact price quotes for SRPs. The 2007–2009 financial crisis diminished issuer funding liquidity, and both bid and ask quotes declined, with the decrease in bids being significantly greater than that for the asks. A reduction in the bid (ask) discourages (encourages) investor selling (buying) and helps preserve dealer capital. The SRP’s intrinsic value places a bound on how far the ask needs to be reduced to induce investor buying. High-leverage (low-leverage) issuers are the most (least) financially constrained and decrease their bids by a significant 167% (nonsignificant 41%) compared to the pre-crisis average. The decrease in asks is nonsignificant for both groups.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.440380",
+     "title": [
+      "Insider Trading and the Bid-Ask Spread: A Critical Evaluation of Adverse Selection in Market Making"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2003
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Stanislav",
+       "family": "Dolgopolov",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>In economic, finance, and legal literature, there is a widespread acceptance of the notion that market makers increase the bid-ask spread in response to insider trading, as they consistently lose money by transacting with better-informed insiders. The development of this adverse selection model of market making was treated as proof that insider trading imposes a real cost on securities markets by decreasing liquidity and increasing the corporate cost of capital and was used as a justification for regulation. This Article is a critical review of the adverse selection literature. It discusses the model's theoretical development, its use in the regulation debates, a summary of the case law on the harm from insider trading to market makers, and empirical research on the link between insider trading and transaction costs. The adverse selection argument is criticized from both theoretical and empirical standpoints: there are limitations to the model due to required assumptions about the role and behavior of market makers' inventories; different causal links among insider trading, firm size, quality of disclosure, stock price volatility, and the bid-ask spread are possible; the existing empirical studies may confuse various components of the spread; and information asymmetry may actually benefit market makers.</jats:p>"
+    },
+    {
+     "DOI": "10.4324/9781315737676-19",
+     "title": [
+      "Optimal informed trading in the foreign exchange market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2016,
+        4,
+        14
+       ]
+      ]
+     },
+     "container-title": [
+      "High Frequency Trading and Limit Order Book Dynamics"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.1140/epjb/e2007-00158-7",
+     "title": [
+      "Quantifying bid-ask spreads in the Chinese stock market using limit-order book data"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2007,
+        5
+       ]
+      ]
+     },
+     "container-title": [
+      "The European Physical Journal B"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "G.-F.",
+       "family": "Gu",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "W.",
+       "family": "Chen",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "W.-X.",
+       "family": "Zhou",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3798235",
+     "title": [
+      "Constrained Optimal Execution in Limit Order Book Market with Power-shaped Market Depth"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "weiping",
+       "family": "wu",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Jianjun",
+       "family": "Gao",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Dian",
+       "family": "Yu",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.229830",
+     "title": [
+      "Bid-Ask Spread Formula and Liquidity Cost: Risk and Reward of a Market Maker"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2000
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Sergei",
+       "family": "Esipov",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Alex",
+       "family": "Morozovsky",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>One of the fundamental properties of most markets is the existence of more than one asset price or distribution of prices for a given asset. In many markets this distribution is clearly bi-modal, and can be related to the so-called \"bid\" and \"ask\" positions. The underlying detailed \"microscopic\" kinetics of bids, offers, and their matches can be complex and includes information flow along with capital and inventory balances. The reduction of a micro-model to the observed bid-ask spread determines the parameters of interest. We study a dynamic modification of the Garman model without inventory shortages, and obtain a relationship between the bid-ask spread, Value-at-Risk of the market maker, required returns, and the rate of arrivals of orders (measure of liquidity). Our formula for the bid-ask spread can be parametrized by historical data and used as a key ingredient in the information systems and/or automatic trading systems. The formula is derived in the risk-premium pricing framework suggested earlier by one of us and Guo. The bid-ask spread and liquidity costs are computed theoretically and compared with estimates for the most traded equity stocks. The remainder of the paper explores the benefits of dynamic bid-ask trading strategies.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.5152207",
+     "title": [
+      "Event-Based Limit Order Book Simulation under a Neural Hawkes Process: Application in Market-Making"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Anatoliy V.",
+       "family": "Swishchuk",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Luca",
+       "family": "Lalor",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/j.jbankfin.2013.10.004",
+     "title": [
+      "Asymmetric responses of ask and bid quotes to information in the foreign exchange market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2014,
+        1
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Banking &amp; Finance"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Yu-Lun",
+       "family": "Chen",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Yin-Feng",
+       "family": "Gau",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.1337999",
+     "title": [
+      "The Relative Contribution of Ask and Bid Quotes to Price Discovery"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Roberto",
+       "family": "Pascual",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Bartolomé",
+       "family": "Pascual-Fuster",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1017/cbo9780511844393.003",
+     "title": [
+      "Asset Pricing and the Bid–Ask Spread"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012,
+        11,
+        12
+       ]
+      ]
+     },
+     "container-title": [
+      "Market Liquidity"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.1111/j.2041-6156.2011.01063.x",
+     "title": [
+      "Asymmetric Price Distribution and Bid–Ask Quotes in the Stock Options Market*"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "Asia-Pacific Journal of Financial Studies"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Kalok",
+       "family": "Chan",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Y.",
+       "family": "Peter Chung",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:title>Abstract</jats:title><jats:p>We present a model of the bid and ask quotes in the equity option market when option payoffs are asymmetrically distributed due to the limited liability of the option. We then provide empirical evidence for the actively traded Chicago Board Options Exchange stock options, which is consistent with the implications of our model. First, the bid and ask quotes are asymmetric around the option value, with the value being closer to the bid quote than to the ask. Second, the degree of the asymmetry increases as the moneyness of the option decreases. Finally, the ask quote of an option changes more than its bid quote. An important implication of the paper is that the bid–ask midpoint is not an unbiased estimator of the option value, especially for out‐of‐the‐money options.</jats:p>"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

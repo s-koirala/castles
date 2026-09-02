@@ -1,0 +1,252 @@
+{
+  "log_id": "se-verify-r3-01",
+  "purpose": "Round-3 audit remediation of lit_review_explosive-regime-dating_2026-08-24. Archived evidence for findings REV-3-3, REV-3-4, REV-3-5, REV-3-6, QUANT-3-3, QUANT-3-4, QUANT-3-5, LITERATURE-3-2, LITERATURE-3-3, REPRODUCIBILITY-3-1, REPRODUCIBILITY-3-2.",
+  "date_executed": "2026-09-02",
+  "executed_by_model": "claude-opus-5 (Claude Code / Claude Agent SDK)",
+  "adr_boundary": "ADR-0003 - no simulation, no fitting, no critical value computed.",
+  "note_on_line_endings": "This file is written with LF terminators. .gitattributes forces '*.json text eol=lf', so the bytes here are the bytes git stores and the bytes any clone checks out on any platform; the SHA-256 published in the review is therefore reproducible by a consumer.",
+  "source_text_refetch": [
+    {
+      "record": "eru-1289",
+      "text": "Shi & Phillips, Cowles DP 2331 (2022)",
+      "url": "https://cowles.yale.edu/sites/default/files/2022-08/d2331_0.pdf",
+      "http_status": 200,
+      "bytes": 591865,
+      "sha256": "309a38ae13210f56f81db2a871b428a56cad99547966a9d4e1418d9c40e4167e",
+      "matches_section_9_5_digest": true,
+      "fetch_ordinal": "third independent fetch (rounds 1, 2, 3)"
+    },
+    {
+      "record": "eru-0393",
+      "text": "PSY 2015a, IER 56(4):1043-1078 (Cowles reprint p1498)",
+      "url": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+      "http_status": 200,
+      "bytes": 1204657,
+      "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+      "matches_section_9_5_digest": true,
+      "fetch_ordinal": "third independent fetch (rounds 1, 2, 3)"
+    },
+    {
+      "record": "eru-0395",
+      "text": "PSY 2015b, IER 56(4):1079-1134 (Cowles reprint p1499)",
+      "url": "http://korora.econ.yale.edu/phillips/pubs/art/p1499.pdf",
+      "http_status": 200,
+      "bytes": 470694,
+      "sha256": "85a984e9cab1aaf42d4decf22a2066ea6aedf0d32600d6042bddebefb8d7d012",
+      "matches_section_9_5_digest": true,
+      "fetch_ordinal": "third independent fetch (rounds 1, 2, 3)"
+    },
+    {
+      "record": "eru-0131",
+      "text": "PWY 2011, IER 52(1):201-226 (Cowles reprint p1349)",
+      "url": "http://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+      "http_status": 200,
+      "bytes": 258681,
+      "sha256": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+      "matches_section_9_5_digest": true,
+      "fetch_ordinal": "third independent fetch (rounds 1, 2, 3)"
+    },
+    {
+      "record": "NB-02",
+      "text": "Johansen & Sornette, arXiv:cond-mat/0010050v2",
+      "url": "https://arxiv.org/pdf/cond-mat/0010050v2",
+      "http_status": 200,
+      "bytes": 1205388,
+      "sha256": "d8ae7e69dce54dc97a3b014f4865ad263a0cf4d2d6a75fa8476214d3bc12973f",
+      "matches_section_9_5_digest": true,
+      "fetch_ordinal": "third independent fetch (rounds 1, 2, 3)"
+    },
+    {
+      "record": "NB-08",
+      "text": "Landriault, Li & Zhang, J. Appl. Prob. 54(2):603-626",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0021900217000201",
+      "http_status": 200,
+      "bytes": 255312,
+      "sha256": "87277984ef7ecf4c61509577257de911b40ed18331d32013ac7249b3ebe13413",
+      "matches_section_9_5_digest": true,
+      "fetch_ordinal": "third independent fetch (rounds 1, 2, 3)"
+    },
+    {
+      "record": "NB-13",
+      "text": "Baur & Lucey, IIIS DP 122 (2006)",
+      "url": "https://www.tcd.ie/triss/assets/PDFs/iiis/iiisdp122.pdf",
+      "http_status": 200,
+      "bytes": 1233602,
+      "sha256": "9e38c95673c9880aa2d8db353c06b020be49e86b78b9280bbeea44d8c476379a",
+      "matches_section_9_5_digest": true,
+      "fetch_ordinal": "third independent fetch (rounds 1, 2, 3)"
+    }
+  ],
+  "dp2331_table_verification": {
+    "finding": "REV-3-3 / QUANT-3-3",
+    "table_1": {
+      "printed_page": 20,
+      "pdf_page": 21,
+      "caption": "Table 1: The family wise error rates of the PSY procedure",
+      "psy_standard": {
+        "T=40 quarterly": 0.55,
+        "T=120 monthly": 0.78,
+        "T=520 weekly": 0.93
+      },
+      "psy_multiple": {
+        "T=40": 0.04,
+        "T=120": 0.06,
+        "T=520": 0.05
+      }
+    },
+    "table_2": {
+      "printed_page": 21,
+      "pdf_page": 22,
+      "caption": "Table 2: The successful detection rates and the biases of the estimated bubble origination and collasping dates [sic]",
+      "T": 120,
+      "psy_standard": {
+        "SDR": 0.84,
+        "origination_bias_months": 7.56,
+        "origination_sd": 4.99,
+        "collapse_bias_months": 0.79,
+        "collapse_sd": 1.72
+      },
+      "psy_multiple": {
+        "SDR": 0.75,
+        "origination_bias_months": 12.2,
+        "origination_sd": 5.33,
+        "collapse_bias_months": 0.77,
+        "collapse_sd": 1.71
+      }
+    },
+    "quantity_identity": "(1/M) * sum_m (t_hat_e^(m) - t_e), in months. Table 2's caption calls it a bias; the section 5.2 text calls it an averaged delay. Same statistic, two names.",
+    "verbatim_text_p20": "the succesful [sic] detection rate of PSY (multiple) is lower (75% versus 84%) and the bias in the estimated bubble origination date is larger (12.20 months versus 7.56 months)",
+    "design": {
+      "period": "10-year",
+      "M": 2000
+    },
+    "errors_found_in_review": [
+      "section 7.3 attributed 7.56/12.20 to Table 1; they are in Table 2 p.21",
+      "section 7.3 labelled them 'origination delay' without the 0.84->0.75 SDR cost",
+      "section 7.3 gave the FWER-controlled collapse SD as 1.72; DP 2331 gives 1.71",
+      "section 7.3 called the FWER-controlled critical values a 'multiple-window bootstrap'; DP 2331 section 5.1 simulates max_s PSY_s from x_t = x_{t-1} + e_t and takes the 95th percentile, over a single control window T_w = T"
+    ]
+  },
+  "psy2015a_table2_verification": {
+    "finding": "REV-3-6",
+    "printed_page": 1058,
+    "caption": "TABLE 2 SIZES OF THE SADF AND GSADF TESTS WITH ASYMPTOTIC CRITICAL VALUES",
+    "notes": "The data-generating process is (3) with d=eta=1. The nominal size is 5%. Size calculations are based on 5,000 replications.",
+    "T100_r0_0.190": {
+      "SADF": {
+        "k=0": 0.041,
+        "k=1": 0.065,
+        "k=3": 0.092,
+        "k=6": 0.184,
+        "BIC max3": 0.055,
+        "BIC max6": 0.066,
+        "sig max3": 0.077,
+        "sig max6": 0.145
+      },
+      "GSADF": {
+        "k=0": 0.061,
+        "k=1": 0.13,
+        "k=3": 0.29,
+        "k=6": 0.787,
+        "BIC max3": 0.189,
+        "BIC max6": 0.197,
+        "sig max3": 0.26,
+        "sig max6": 0.697
+      }
+    },
+    "table_maximum": {
+      "statistic": "GSADF",
+      "value": 0.787,
+      "condition": "fixed lag k=6, T=100, r0=0.190, same null DGP"
+    },
+    "prose_check": "The surrounding text states 'size increases with lag length (k) for both tests', names the T=400 k=6 GSADF cell as 40.1%, and names the kmax=6 pair 'the size of SADF and GSADF is 0.145 and 0.697'. It does NOT name 0.787 in prose; 0.787 is read from the table. Recorded so the claim is not overstated.",
+    "k0_column_recheck": "all ten k=0 cells verify against review section 7.1 cell for cell"
+  },
+  "nb_reread": {
+    "finding": "REV-3-5 / QUANT-3-4",
+    "quotations_checked": 14,
+    "quotations_verbatim": 14,
+    "pagination_conventions": {
+      "NB-02 arXiv v2": "printed page = PDF page - 2",
+      "NB-08": "PDF page 1 = printed p.603",
+      "NB-13 DP 122": "printed page = PDF page - 3"
+    },
+    "locator_corrections": [
+      {
+        "text": "NB-02",
+        "item": "'we shall take the stretched exponential law as our null hypothesis' (sect. 1)",
+        "old": "p.1",
+        "new": "p.2"
+      },
+      {
+        "text": "NB-02",
+        "item": "'...we have reshuffled the daily returns 1000 times...' (sect. 5)",
+        "old": "p.8",
+        "new": "p.9"
+      },
+      {
+        "text": "NB-02",
+        "item": "'The third column gives the number of drawdowns above the threshold...' (sect. 5)",
+        "old": "p.8",
+        "new": "p.9"
+      },
+      {
+        "text": "NB-02",
+        "item": "sect. 6 item 6, 'The remaining 1-2%...'",
+        "old": "pp.9-10",
+        "new": "p.10 (list runs pp.9-10)"
+      },
+      {
+        "text": "NB-13",
+        "item": "'...but on an a posteriori analysis of these phenomena' (sect. 2)",
+        "old": "pp.4-5",
+        "new": "p.5 (sect. 2 opens p.4)"
+      }
+    ],
+    "result_misattribution": {
+      "text": "NB-08",
+      "old": "Theorem 3.1",
+      "new": "Theorem 1, p.609 (Corollary 2 p.610, Corollary 3 p.611)",
+      "evidence": "the paper numbers results sequentially; the only occurrence of the string 'Theorem 3.1' in its text is a citation to reference [23] at p.613"
+    },
+    "verified_unchanged": [
+      "NB-08 locators p.603, p.604 (x2), p.605 verify as published",
+      "NB-13 locators p.2, p.6, p.14 verify as published",
+      "'explosive', 'unit root' and 'autoregressive' occur 0 times in NB-02 and 0 times in NB-13"
+    ],
+    "not_covered": "the sentence 'We propose a definition and a test for flight-to-quality, flight-from-quality and cross-asset contagion' is attributed to the journal/SSRN-2008 abstract, not to DP 122; the journal text was never obtained (VG-3) and this sentence remains unverified"
+  },
+  "eru_0259_abstract_search": {
+    "finding": "QUANT-3-5 / LITERATURE-3-2",
+    "claim_under_test": "se-extraction-recheck.jsonl doc field: 'Twin status verified against the published article's indexed abstract'",
+    "candidate_store_abstract_field_present": {
+      "eru-0198": true,
+      "eru-0259": false
+    },
+    "crossref_abstract": "none deposited (api.crossref.org/works/10.1016/j.csda.2014.06.006)",
+    "openalex_abstract": "abstract_inverted_index absent (W2007843530)",
+    "semantic_scholar_abstract": "null (DOI:10.1016/j.csda.2014.06.006)",
+    "verdict": "the asserted comparison cannot be re-opened from this repository or from any of the three metadata sources the review uses; the sentence is withdrawn from section 5.4 and VG-13"
+  },
+  "line_ending_defect": {
+    "finding": "REPRODUCIBILITY-3-2",
+    "files_normalised_to_lf": {
+      "se-crossref-recheck-01.json": {
+        "published_crlf_sha256": "cb9b0c26428ee8fc7d7f6b23150e3b8b3c8fc81b90602080b5fa990479172bf2",
+        "lf_sha256": "9457d3de7e3e3e60cc2b5832785b0b8b6da462153a627ddc69e29f72cd77ac9d"
+      },
+      "se-fetch-recheck-01.json": {
+        "published_crlf_sha256": "30b6996084d83293f6bebfb4072021e6c60f650880b2d58ab543037465d99253",
+        "lf_sha256": "f93061d1871baab9f6e4af534227fef0c6158684417c987747132895192b43a9"
+      },
+      "se-bc-01.json": {
+        "published_crlf_sha256": "not cited in the review",
+        "lf_sha256": "75f36b547b305857e6af20a8127c0f0cbdb83df655749ee22e51e6ee052c2a9f"
+      }
+    },
+    "not_normalised": {
+      "se-extraction-recheck.jsonl": "gitattributes gives it 'text: auto' with eol unspecified and core.autocrlf=true on this host, so its checkout form is platform-dependent; NO SHA-256 is published for it and none should be until '*.jsonl text eol=lf' is added to .gitattributes"
+    },
+    "content_change": "none - line terminators only; every JSON field value is unchanged"
+  }
+}

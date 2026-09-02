@@ -1,0 +1,109 @@
+{
+ "log_id": "se-fetch-recheck-01",
+ "purpose": "Per-host, per-attempt evidence for the section 9.5 source-text re-fetch. Round 1 recorded the three Cowles reprints and Cowles DP 2331 as un-refetchable with digest \"none\"; round-2 findings LITERATURE-2-2 and QUANT-2-4 reported that claim as false. This log records every attempt made on 2026-09-02 with its scheme, host, status and content digest, so the claim is checkable rather than asserted.",
+ "date_executed": "2026-09-02",
+ "finding_ids": [
+  "LITERATURE-2-2",
+  "QUANT-2-4",
+  "REPRODUCIBILITY-2-4"
+ ],
+ "failure_mode_identified": "korora.econ.yale.edu serves the Phillips reprints over plain HTTP (port 80) and refuses TCP connections on port 443. The round-1 pass attempted HTTPS only and recorded \"host did not accept a connection\", which is true of port 443 and false of the host. cowles.yale.edu serves Cowles DP 2331 over HTTPS at the direct file path; the round-1 pass reached a landing page rather than the file path and recorded \"returned HTML\".",
+ "attempts": [
+  {
+   "record": "eru-0131",
+   "url": "https://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+   "date": "2026-09-02",
+   "outcome": "FAILED",
+   "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+   "record": "eru-0131",
+   "url": "http://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+   "date": "2026-09-02",
+   "http_status": 200,
+   "content_type": "application/pdf",
+   "bytes": 258681,
+   "sha256": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+   "is_pdf": true,
+   "outcome": "OK"
+  },
+  {
+   "record": "eru-0393",
+   "url": "https://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+   "date": "2026-09-02",
+   "outcome": "FAILED",
+   "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+   "record": "eru-0393",
+   "url": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+   "date": "2026-09-02",
+   "http_status": 200,
+   "content_type": "application/pdf",
+   "bytes": 1204657,
+   "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+   "is_pdf": true,
+   "outcome": "OK"
+  },
+  {
+   "record": "eru-0395",
+   "url": "https://korora.econ.yale.edu/phillips/pubs/art/p1499.pdf",
+   "date": "2026-09-02",
+   "outcome": "FAILED",
+   "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+   "record": "eru-0395",
+   "url": "http://korora.econ.yale.edu/phillips/pubs/art/p1499.pdf",
+   "date": "2026-09-02",
+   "http_status": 200,
+   "content_type": "application/pdf",
+   "bytes": 470694,
+   "sha256": "85a984e9cab1aaf42d4decf22a2066ea6aedf0d32600d6042bddebefb8d7d012",
+   "is_pdf": true,
+   "outcome": "OK"
+  },
+  {
+   "record": "eru-1289",
+   "url": "https://cowles.yale.edu/sites/default/files/2022-08/d2331_0.pdf",
+   "date": "2026-09-02",
+   "http_status": 200,
+   "content_type": "application/pdf",
+   "bytes": 591865,
+   "sha256": "309a38ae13210f56f81db2a871b428a56cad99547966a9d4e1418d9c40e4167e",
+   "is_pdf": true,
+   "outcome": "OK"
+  },
+  {
+   "record": "NB-02",
+   "url": "https://arxiv.org/pdf/cond-mat/0010050v2",
+   "date": "2026-09-02",
+   "http_status": 200,
+   "content_type": "application/pdf",
+   "bytes": 1205388,
+   "sha256": "d8ae7e69dce54dc97a3b014f4865ad263a0cf4d2d6a75fa8476214d3bc12973f",
+   "is_pdf": true,
+   "outcome": "OK"
+  },
+  {
+   "record": "NB-13",
+   "url": "https://www.tcd.ie/triss/assets/PDFs/iiis/iiisdp122.pdf",
+   "date": "2026-09-02",
+   "http_status": 200,
+   "content_type": "application/pdf",
+   "bytes": 1233602,
+   "sha256": "9e38c95673c9880aa2d8db353c06b020be49e86b78b9280bbeea44d8c476379a",
+   "is_pdf": true,
+   "outcome": "OK"
+  }
+ ],
+ "digests_obtained": {
+  "eru-0131": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+  "eru-0393": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+  "eru-0395": "85a984e9cab1aaf42d4decf22a2066ea6aedf0d32600d6042bddebefb8d7d012",
+  "eru-1289": "309a38ae13210f56f81db2a871b428a56cad99547966a9d4e1418d9c40e4167e",
+  "NB-02": "d8ae7e69dce54dc97a3b014f4865ad263a0cf4d2d6a75fa8476214d3bc12973f",
+  "NB-13": "9e38c95673c9880aa2d8db353c06b020be49e86b78b9280bbeea44d8c476379a"
+ },
+ "note": "Digest fixes the retrieved file, not the correctness of any quotation. Quotation and page-locator re-verification against these files is reported in review section 9.5 and section 12.1 L-16."
+}

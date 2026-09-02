@@ -1,0 +1,495 @@
+{
+ "query_id": "ka-ki-ki16",
+ "protocol_query_id": "KI-16",
+ "arm": "known-item",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1145%2F2509413.2509414",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1,
+ "retrieved_count": 1,
+ "identifier": "10.1145/2509413.2509414",
+ "raw_format": "json",
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      11
+     ]
+    ],
+    "date-time": "2026-08-11T15:49:02Z",
+    "timestamp": 1786463342287,
+    "version": "build-2736575974"
+   },
+   "reference-count": 27,
+   "publisher": "Association for Computing Machinery (ACM)",
+   "issue": "3",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2013,
+        9,
+        1
+       ]
+      ],
+      "date-time": "2013-09-01T00:00:00Z",
+      "timestamp": 1377993600000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+   ],
+   "funder": [
+    {
+     "DOI": "10.13039/100000145",
+     "name": "Division of Information and Intelligent Systems",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "CCF-1101668, IIS-0905390, IIS-0964579"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "CCF-1101668, IIS-0905390, IIS-0964579"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/100000145",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/100006785",
+     "name": "Google",
+     "doi-asserted-by": "publisher",
+     "id": [
+      {
+       "id": "10.13039/100006785",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/100000143",
+     "name": "Division of Computing and Communication Foundations",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "CCF-1101668, IIS-0905390, IIS-0964579"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "CCF-1101668, IIS-0905390, IIS-0964579"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/100000143",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "ACM Trans. Econ. Comput."
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2013,
+      9
+     ]
+    ]
+   },
+   "abstract": "<jats:p>Automated market makers are algorithmic agents that enable participation and information elicitation in electronic markets. They have been widely and successfully applied in artificial-money settings, like some Internet prediction markets. Automated market makers from the literature suffer from two problems that contribute to their impracticality and impair their use beyond artificial-money settings: first, they are unable to adapt to liquidity, so that trades cause prices to move the same amount in both heavily and lightly traded markets, and second, in typical circumstances, they run at a deficit. In this article, we construct a market maker that is both sensitive to liquidity and can run at a profit. Our market maker has bounded loss for any initial level of liquidity and, as the initial level of liquidity approaches zero, worst-case loss approaches zero. For any level of initial liquidity we can establish a boundary in market state space such that, if the market terminates within that boundary, the market maker books a profit regardless of the realized outcome.</jats:p>",
+   "DOI": "10.1145/2509413.2509414",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2013,
+      9,
+      23
+     ]
+    ],
+    "date-time": "2013-09-23T13:47:05Z",
+    "timestamp": 1379944025000
+   },
+   "page": "1-25",
+   "update-policy": "https://doi.org/10.1145/crossmark-policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 32,
+   "title": [
+    "A Practical Liquidity-Sensitive Automated Market Maker"
+   ],
+   "prefix": "10.1145",
+   "volume": "1",
+   "author": [
+    {
+     "given": "Abraham",
+     "family": "Othman",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Carnegie Mellon University"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "David M.",
+     "family": "Pennock",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Microsoft Research"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Daniel M.",
+     "family": "Reeves",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Beeminder"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Tuomas",
+     "family": "Sandholm",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Carnegie Mellon University"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "320",
+   "published-online": {
+    "date-parts": [
+     [
+      2013,
+      9
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_1_1_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1145/1993574.1993621"
+    },
+    {
+     "key": "e_1_2_1_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1145/1566374.1566412"
+    },
+    {
+     "key": "e_1_2_1_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/1467-9965.00068"
+    },
+    {
+     "key": "e_1_2_1_4_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1467-9965.2007.00311.x"
+    },
+    {
+     "key": "e_1_2_1_5_1",
+     "unstructured": "Berg J. Forsythe R. Nelson F. and Rietz T. 2001. Results from a dozen years of election futures markets research. In Handbook of Experimental Economics Results. 486--515.  Berg J. Forsythe R. Nelson F. and Rietz T. 2001. Results from a dozen years of election futures markets research. In Handbook of Experimental Economics Results . 486--515."
+    },
+    {
+     "key": "e_1_2_1_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1145/1183907.1183913"
+    },
+    {
+     "key": "e_1_2_1_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.5555/1622637.1622641"
+    },
+    {
+     "key": "e_1_2_1_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1515/9781400833115"
+    },
+    {
+     "key": "e_1_2_1_9_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0304-405X(01)00075-7"
+    },
+    {
+     "key": "e_1_2_1_10_1",
+     "volume-title": "Proceedings of the 23rd Annual Conference on Uncertainty in Artificial Intelligence (UAI). 49--56",
+     "author": "Chen Y.",
+     "unstructured": "Chen , Y. and Pennock , D. M . 2007. A utility framework for bounded-loss market makers . In Proceedings of the 23rd Annual Conference on Uncertainty in Artificial Intelligence (UAI). 49--56 . Chen, Y. and Pennock, D. M. 2007. A utility framework for bounded-loss market makers. In Proceedings of the 23rd Annual Conference on Uncertainty in Artificial Intelligence (UAI). 49--56."
+    },
+    {
+     "key": "e_1_2_1_11_1",
+     "first-page": "4",
+     "article-title": "Designing markets for prediction",
+     "volume": "31",
+     "author": "Chen Y.",
+     "year": "2010",
+     "unstructured": "Chen , Y. and Pennock , D. M. 2010 . Designing markets for prediction . AI Mag. 31 , 4 . Chen, Y. and Pennock, D. M. 2010. Designing markets for prediction. AI Mag. 31, 4.",
+     "journal-title": "AI Mag."
+    },
+    {
+     "key": "e_1_2_1_12_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1145/1807342.1807372"
+    },
+    {
+     "key": "e_1_2_1_13_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1145/1386790.1386822"
+    },
+    {
+     "key": "e_1_2_1_14_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Cover T. and Thomas J. 2006. Elements of Information Theory. Wiley.   Cover T. and Thomas J. 2006. Elements of Information Theory . Wiley.",
+     "DOI": "10.1002/047174882X"
+    },
+    {
+     "key": "e_1_2_1_15_1",
+     "volume-title": "Proceedings of the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS). 887--894",
+     "author": "Das S.",
+     "year": "2008",
+     "unstructured": "Das , S. 2008 . The effects of market-making on price dynamics . In Proceedings of the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS). 887--894 . Das, S. 2008. The effects of market-making on price dynamics. In Proceedings of the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS). 887--894."
+    },
+    {
+     "key": "e_1_2_1_16_1",
+     "unstructured": "Das S. and Magdon-Ismail M. 2009. Adapting to a market shock: Optimal sequential market-making. In Advances in Neural Information Processing Systems 21 (NIPS). 361--368.  Das S. and Magdon-Ismail M. 2009. Adapting to a market shock: Optimal sequential market-making. In Advances in Neural Information Processing Systems 21 (NIPS) . 361--368."
+    },
+    {
+     "key": "e_1_2_1_17_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s007800200072"
+    },
+    {
+     "key": "e_1_2_1_18_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1022058209073"
+    },
+    {
+     "key": "e_1_2_1_19_1",
+     "first-page": "1",
+     "article-title": "Logarithmic market scoring rules for modular combinatorial information aggregation",
+     "volume": "1",
+     "author": "Hanson R.",
+     "year": "2007",
+     "unstructured": "Hanson , R. 2007 . Logarithmic market scoring rules for modular combinatorial information aggregation . J. Predict. Mark. 1 , 1, 1 -- 15 . Hanson, R. 2007. Logarithmic market scoring rules for modular combinatorial information aggregation. J. Predict. Mark. 1, 1, 1--15.",
+     "journal-title": "J. Predict. Mark."
+    },
+    {
+     "key": "e_1_2_1_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1287/mnsc.1040.0191"
+    },
+    {
+     "key": "e_1_2_1_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1145/1566374.1566411"
+    },
+    {
+     "key": "e_1_2_1_22_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1145/1807342.1807401"
+    },
+    {
+     "key": "e_1_2_1_23_1",
+     "volume-title": "Proceedings of the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS). 865--872",
+     "author": "Othman A.",
+     "unstructured": "Othman , A. and Sandholm , T . 2010b. When do markets with simple agents fail? In Proceedings of the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS). 865--872 . Othman, A. and Sandholm, T. 2010b. When do markets with simple agents fail? In Proceedings of the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS). 865--872."
+    },
+    {
+     "key": "e_1_2_1_24_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-3-642-25510-6_27"
+    },
+    {
+     "key": "e_1_2_1_25_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Pennock D. and Sami R. 2007. Computational aspects of prediction markets. In Algorithmic Game Theory Cambridge University Press 651--674.  Pennock D. and Sami R. 2007. Computational aspects of prediction markets. In Algorithmic Game Theory Cambridge University Press 651--674.",
+     "DOI": "10.1017/CBO9780511800481.028"
+    },
+    {
+     "key": "e_1_2_1_26_1",
+     "volume-title": "Proceedings of the International Workshop on Internet and Network Economics (WINE). 82--95",
+     "author": "Peters A.",
+     "unstructured": "Peters , A. , So , A. M.-C. , and Ye , Y . 2007. Pari-mutuel markets: Mechanisms and performance . In Proceedings of the International Workshop on Internet and Network Economics (WINE). 82--95 . Peters, A., So, A. M.-C., and Ye, Y. 2007. Pari-mutuel markets: Mechanisms and performance. In Proceedings of the International Workshop on Internet and Network Economics (WINE). 82--95."
+    },
+    {
+     "key": "e_1_2_1_27_1",
+     "unstructured": "Williams O. M. 2009. Regulatory oversight and recent initiatives to address risk posed by credit default swaps. Testimony Before the Subcommittee on Capital Markets Insurance and Government Sponsored Enterprises.  Williams O. M. 2009. Regulatory oversight and recent initiatives to address risk posed by credit default swaps. Testimony Before the Subcommittee on Capital Markets Insurance and Government Sponsored Enterprises."
+    }
+   ],
+   "container-title": [
+    "ACM Transactions on Economics and Computation"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://dl.acm.org/doi/10.1145/2509413.2509414",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://dl.acm.org/doi/pdf/10.1145/2509413.2509414",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      6,
+      18
+     ]
+    ],
+    "date-time": "2025-06-18T07:28:35Z",
+    "timestamp": 1750231715000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://dl.acm.org/doi/10.1145/2509413.2509414"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2013,
+      9
+     ]
+    ]
+   },
+   "references-count": 27,
+   "journal-issue": {
+    "issue": "3",
+    "published-print": {
+     "date-parts": [
+      [
+       2013,
+       9
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1145/2509413.2509414"
+   ],
+   "URL": "https://doi.org/10.1145/2509413.2509414",
+   "relation": {},
+   "ISSN": [
+    "2167-8375",
+    "2167-8383"
+   ],
+   "issn-type": [
+    {
+     "value": "2167-8375",
+     "type": "print"
+    },
+    {
+     "value": "2167-8383",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2013,
+      9
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "2011-09-01",
+     "order": 0,
+     "name": "received",
+     "label": "Received",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "2012-08-01",
+     "order": 1,
+     "name": "accepted",
+     "label": "Accepted",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "2013-09-01",
+     "order": 2,
+     "name": "published",
+     "label": "Published",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    }
+   ]
+  }
+ }
+}

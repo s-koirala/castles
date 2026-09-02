@@ -1,0 +1,790 @@
+{
+ "query_id": "ka-crossref-06",
+ "protocol_query_id": "ka-crossref-06",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=prediction+market+forecast+accuracy+calibration+bias+event+contracts&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1952274,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 1952274,
+   "items": [
+    {
+     "DOI": "10.2139/ssrn.7117919",
+     "title": [
+      "Calibration and Forecast Accuracy of Macroeconomic Prediction Markets: Evidence from Kalshi, 2025-2026"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0001-7257-9141",
+       "authenticated-orcid": true,
+       "given": "David",
+       "family": "Krause",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This paper examines the calibration and forecast accuracy of Kalshi prediction markets for major U.S. macroeconomic announcements during the 2025-June 2026 period. Using a dataset of 594 unique markets and 1,860 observations across nine economic series, I evaluate whether these markets produce well-calibrated probability estimates and identify which macroeconomic indicators are easiest and hardest to predict. The overall Brier score is 0.0987, representing a 60.5% improvement over random guessing. Calibration quality varies across series: Federal Funds Rate markets achieve near-perfect calibration (Brier: 0.0001), while Unemployment Rate markets show the poorest calibration (Brier: 0.1302). The 1-hour horizon produces the best calibration (Brier: 0.0812), while the 30-day horizon produces the worst (Brier: 0.1587). Markets exhibit systematic overconfidence across the probability spectrum, with predicted probabilities consistently exceeding observed frequencies at the extremes. Longshots priced below $0.30 have a bias of-0.0721 (p &amp;lt; 0.001), indicating that low-probability contracts are significantly overpriced. These findings suggest that Kalshi macroeconomic prediction markets provide valuable real-time probabilistic forecasts, though calibration quality varies systematically across series, with Federal Funds markets being exceptionally accurate and labor markets being the most difficult to forecast.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.641481",
+     "title": [
+      "On Aggregation Bias in Fixed-Event Forecast Efficiency Tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2004
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Gultekin",
+       "family": "Isiklar",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This note shows that problems due to aggregation in fixed-event forecast efficiency tests are not as severe as they are in unbiasedness tests. We also show that first lags of consensus revisions should be avoided in the tests.</jats:p>"
+    },
+    {
+     "DOI": "10.5750/jpm.v1i3.430",
+     "title": [
+      "PUBLIC INFORMATION BIAS AND PREDICTION MARKET ACCURACY"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012,
+        12,
+        14
+       ]
+      ]
+     },
+     "container-title": [
+      "The Journal of Prediction Markets"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Thomas S",
+       "family": "Gruca",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Joyce E.",
+       "family": "Berg",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>How do prediction markets achieve high levels of accuracy? We propose that, in some situations, traders in prediction markets improve upon publicly available information. Specifically, when there is a known bias in publicly available information, markets provide an incentive for traders to “de-bias” this information. In such a situation, a prediction market will provide a more accurate forecast than the public information available to traders. We test our conjecture using real-money prediction markets for seven local elections in the United States. We find that the prediction market forecasts are significantly more accurate than those generated using the pre-election polls.Previous versions of this paper were presented at the Workshop on The Growth of Gambling and Prediction Markets, the ISBM Conference on Prediction Markets in Marketing: Issues, Challenges and Research Opportunities, the DIMACS Workshop on Markets as Predictive Devices, and the 17th Annual AMA Advanced Research Techniques Forum. The authors thank the participants for their insights which have helped improve this research</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.5807643",
+     "title": [
+      "Reporting Bias and Analyst Forecast Accuracy&amp;nbsp;"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Greg",
+       "family": "Clinch",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Nanqin",
+       "family": "Liu",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Yan",
+       "family": "Meng",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1007/978-3-540-77554-6_17",
+     "title": [
+      "On the Forecast Accuracy of Sports Prediction Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "Lecture Notes in Business Information Processing",
+      "Negotiation, Auctions, and Market Engineering"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Stefan",
+       "family": "Luckner",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Jan",
+       "family": "Schröder",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Christian",
+       "family": "Slamka",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.874075",
+     "title": [
+      "CEO Compensation Mix and Analysts' Forecast Accuracy and Bias"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2006
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0002-3641-1050",
+       "authenticated-orcid": true,
+       "given": "Kiridaran",
+       "family": "Kanagaretnam",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Robert",
+       "family": "Mathieu",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0002-4644-5633",
+       "authenticated-orcid": true,
+       "given": "Gerald J.",
+       "family": "Lobo",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We investigate the relation between the proportion of total compensation received by CEOs from stock options and the accuracy and bias of analysts' earnings forecasts. We hypothesize that forecast accuracy decreases as the proportion of stock option pay increases. Higher proportions of stock options induce managers to undertake riskier projects, to change and/or reallocate their effort, to manipulate accounting earnings, and to make opportunistic voluntary disclosures, resulting in an increase in the complexity of forecasting. We also examine the relation between forecast bias and the proportion of stock option pay. Analysts' optimistic forecast bias increases as the proportion of stock option pay increases. Because forecast complexity increases with stock option pay, analysts, needing greater access to management's information to produce accurate forecasts, have incentives to increase the optimistic bias in their forecasts. Our empirical evidence indicates that analysts' earnings forecast accuracy decreases and forecast optimism increases as the proportion of CEO compensation from stock options increases, even after controlling for previously identified determinants of forecasting difficulty.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.6986138",
+     "title": [
+      "The Volatility of Analyst Disagreement, Forecast Accuracy, and the Market Reaction"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0006-3504-6430",
+       "authenticated-orcid": true,
+       "given": "Richard",
+       "family": "Wang",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>A large literature studies what the level of analyst disagreement reveals about a firm. This paper studies what the temporal instability of analyst forecast dispersion reveals. I construct the Volatility of Disagreement (VoD), the rolling 12-month volatility of a firm's analyst earnings forecast dispersion, for U.S. firms from 1980 to 2024, and show that VoD predicts larger absolute consensus forecast errors, incremental to the level of dispersion. VoD's predictive power is robust to the forecast-accuracy literature's controls and established proxies for information quality. VoD also predicts larger stock-price reactions to earnings announcements, incremental to the earnings surprise. VoD is distinct from the level of analyst disagreement and from established information environment proxies such as accruals quality, earnings persistence, earnings smoothness, and the bid-ask spread. The temporal instability of disagreement, not only its level, is thus a determinant of forecast accuracy and of the market's reaction to earnings.</jats:p>"
+    },
+    {
+     "DOI": "10.5220/0013207000004568",
+     "title": [
+      "Reevaluating Stock Price Prediction: The Influence of Machine Learning on Forecast Accuracy"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2024
+       ]
+      ]
+     },
+     "container-title": [
+      "Proceedings of the 1st International Conference on E-commerce and Artificial Intelligence"
+     ],
+     "type": "proceedings-article",
+     "author": [
+      {
+       "given": "Yingqian",
+       "family": "Cao",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "School of Engineering, Carnegie Mellon University, Pittsburgh, PA, U.S.A."
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.7087538",
+     "title": [
+      "Zero-Price Contracts and the Favorite-Longshot Bias in CPI Prediction Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0001-7257-9141",
+       "authenticated-orcid": true,
+       "given": "David",
+       "family": "Krause",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This study examines the favorite-longshot bias in the Consumer Price Index (CPI) prediction markets on the Kalshi platform. Analyzing 95 contracts across 12 months with 58,138 price observations, we find no evidence of the classic favorite-longshot bias. Contracts priced at zero exhibited perfect calibration, winning 0% of the time. When excluding zero-price contracts, lowprobability contracts (prices between 0.01 and 0.28) showed slight overpricing with a bias of-0.08 (p &amp;lt; 0.001), while high-probability contracts (prices above 0.70) were well-calibrated with a bias of-0.03 (p = 0.589). The overall market outperformed random guessing by 26.6% (Brier Score = 0.1835). These findings suggest that CPI prediction markets are efficient at the extremes and do not exhibit the favorite-longshot bias commonly found in sports betting markets. We discuss implications for market design and the interpretation of prediction market prices as information aggregation mechanisms.</jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.simpat.2023.102740",
+     "title": [
+      "Forecast and production order accuracy for stochastic forecast updates with demand shifting and forecast bias correction"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2023,
+        5
+       ]
+      ]
+     },
+     "container-title": [
+      "Simulation Modelling Practice and Theory"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0002-3175-4855",
+       "authenticated-orcid": false,
+       "given": "Klaus",
+       "family": "Altendorfer",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0003-0618-6427",
+       "authenticated-orcid": false,
+       "given": "Thomas",
+       "family": "Felberbauer",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1017/s1930297500007105",
+     "title": [
+      "Comparative evaluation of the forecast accuracy of analysis reports and a prediction market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        3
+       ]
+      ]
+     },
+     "container-title": [
+      "Judgment and Decision Making"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Bradley J.",
+       "family": "Stastny",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Paul E.",
+       "family": "Lehner",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:title>Abstract</jats:title><jats:p>This paper summarizes an empirical comparison of the accuracy of forecasts included in analysis reports developed by professional intelligence analysts to comparable forecasts in a prediction market that has broad participation from across an intelligence community. To compare forecast accuracy, 99 event forecasts were extracted from qualitative descriptions found in 41 analysis reports and posted on the prediction market. Quantitative probabilities were imputed from the qualitative forecasts by asking seasoned professional analysts, who did not participate in the prediction market, to read the reports and to infer a quantitative probability based on what was written. These readers were also asked to provide their personal probabilities before and after reading the reports. There were two statistically significant results of particular interest. First, the primary result is that the prediction market forecasts were more accurate than the analysis reports. On average prediction market probabilities were 0.114 closer to ground truth than the analysis report probabilities. Second, in cases where analysts (readers) updated their personal probabilities in a direction opposite to what the reports implied, analysts tended to update their probabilities in the correct direction. This occurred even though, on average, reading the reports did not make readers more accurate.</jats:p>"
+    },
+    {
+     "DOI": "10.1007/0-306-47372-0_13",
+     "title": [
+      "Forecast Accuracy and Bias"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "The Springer Series on Demographic Methods and Population Analysis",
+      "State and Local Population Projections"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.7717/peerj-cs.3948/fig-5",
+     "title": [
+      "Figure 5: Selective prediction: accuracy\n                      <i>vs</i>\n                      coverage before and after calibration."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.69645/snew9655",
+     "title": [
+      "Performance metrics and measuring forecast accuracy and bias"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025,
+        3,
+        31
+       ]
+      ]
+     },
+     "container-title": [
+      "The Business &amp; Management Collection"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Misty",
+       "family": "Eldridge",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "Planning and S&OP Leader",
+         "place": [
+          "United States"
+         ]
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/j.econlet.2005.06.003",
+     "title": [
+      "On aggregation bias in fixed-event forecast efficiency tests"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2005,
+        12
+       ]
+      ]
+     },
+     "container-title": [
+      "Economics Letters"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Gultekin",
+       "family": "Isiklar",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/j.jhydrol.2009.09.048",
+     "title": [
+      "Assessing the impacts of precipitation bias on distributed hydrologic model calibration and prediction accuracy"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "Journal of Hydrology"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Jonathan P.",
+       "family": "Looper",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Baxter E.",
+       "family": "Vieux",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Maria A.",
+       "family": "Moreno",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.22541/au.170433257.70942877/v1",
+     "title": [
+      "Exploring Bias Assessment and Strong Calibration in AI-based Medical Risk Prediction Models"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2024,
+        1,
+        4
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0006-3833-0912",
+       "authenticated-orcid": false,
+       "given": "Nidhi",
+       "family": "Gaonkar",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Rapid advancements in machine learning and artificial intelligence have raised  important concerns regarding fairness and biases in algorithmic decision-making. This  paper evaluates the biases present in major machine learning models–Random Forest,  K-nearest neighbors, XGBoost, and Naive Bayes - by comparing their performance on  different subgroups of health data, including across genders and racial groups. We also  analyze the models for strong calibration: if the average predicted probability  corresponds to the actual observed rate for all subgroups. Through a t-test and  ANOVA test of model performance on different subgroups, we demonstrate that the  models have significantly different True Positive Rates across racial groups, but not  across gender groups. A comparison of parity metrics and testing for strong calibration  through changepoint detection of the random forest model further showed that there  were disparities in model performance. Cross validation and the implementation of a  paired t-test showed that Brier scores differed across k -folds, indicating  inconsistencies in model calibration. When we employed the bias mitigation strategy  of reweighting, however, the disparity was reduced. We also suggest a new method for  bias mitigation which jointly employs reweighting and adversarial training. This work  serves to caution the use of machine learning models in medical contexts, especially  for clinical outcome prediction where risk or mortality likelihood may be significantly  impacted by biases in the model or data. It is imperative that creators and users of  machine learning models prioritize diversity and representation in both datasets and  trained models concerning sensitive attributes to ensure equity and ethical practices in  this field. We also suggest future work.</jats:p>"
+    },
+    {
+     "DOI": "10.5750/jpm.v8i2.888",
+     "title": [
+      "The Relationship between Sportsbook Volume, Forecast Accuracy, and Market Efficiency:  The NFL and NCAA Football"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2014,
+        9,
+        12
+       ]
+      ]
+     },
+     "container-title": [
+      "The Journal of Prediction Markets"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Rodney",
+       "family": "Paul",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Andrew P.",
+       "family": "Weinbach",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Kenneth",
+       "family": "Small",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Using betting market volume data for the NFL and NCAA Football, we examine the role of betting volume as it relates to bettor biases, forecast accuracy, and volume-based betting market strategies.  We find that betting volume has a statistically significant effect on the percentage bet on the favorite, but its impact is different between the two levels of football.  Increased betting volume was shown to not have an impact on forecast accuracy in the sports.  Simple betting simulations revealed that underdogs win more than implied by efficiency in low-volume NFL games, but other strategies did not reject market efficiency.</jats:p>"
+    },
+    {
+     "DOI": "10.4324/9780203815526-11",
+     "title": [
+      "Prediction market accuracy for business forecasting"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011,
+        6,
+        16
+       ]
+      ]
+     },
+     "container-title": [
+      "Prediction Markets"
+     ],
+     "type": "book-chapter"
+    },
+    {
+     "DOI": "10.2139/ssrn.4294849",
+     "title": [
+      "Financial Literacy is Associated with Stock Market Expectations But Not with Forecast Accuracy: Evidence from Germany"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0003-0445-4205",
+       "authenticated-orcid": true,
+       "given": "René",
+       "family": "Buschong",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Using a representative panel dataset, this study focuses on stock market expectations as well as the accuracy of forecasts made by private households in Germany. First, I find evidence that higher financial literacy is associated with lower stock market expectations. However, there is no evidence that financial literacy is associated with the accuracy of forecasts. Second, the findings suggest that individuals form their expectations based on past performance: The three-month stock market return prior to being surveyed is associated with stated expectations and this association is heterogenous by financial literacy levels.</jats:p>"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

@@ -1,0 +1,762 @@
+{
+ "query_id": "ka-crossref-09",
+ "protocol_query_id": "ka-crossref-09",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=transaction+costs+commission+fees+betting+exchange+arbitrage+profitability&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 680973,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 680973,
+   "items": [
+    {
+     "DOI": "10.1007/978-3-540-68121-2_3",
+     "title": [
+      "Arbitrage Theory under Transaction Costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009
+       ]
+      ]
+     },
+     "container-title": [
+      "Markets with Transaction Costs"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Yuri",
+       "family": "Kabanov",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Mher",
+       "family": "Safarian",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.1133152",
+     "title": [
+      "Mutual Fund Arbitrage and Transaction Costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2008
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0001-9008-9261",
+       "authenticated-orcid": true,
+       "given": "John A.",
+       "family": "Haslem",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>The 2003 mutual funds scandal that exploded upon the public revealed something that had long been known to insiders: Mutual fund advisers often approve and allow frequent trading, frequent trading arbitrage, and late trading arbitrage to selected traders. To increase adviser profits, the latter two arrangements often require traders to investment \"sticky assets\" to \"grow\" fund assets. \n\nThese costly mutual fund adviser practices increase transaction costs along several dimensions and lower current fund and shareholder assets, along with opportunity costs of dilution in fund share values and returns for long-term shareholders. Independent directors have either not been informed or have acquiesced in the decisions. In any case, independent directors have not performed their primary fiduciary duty as \"shareholder watchdogs.\"</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.2803018",
+     "title": [
+      "No-Arbitrage Pricing of Securities Under Transaction Costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2016
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Silke",
+       "family": "Prohl",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>These lecture notes summarize standard machinery of an advanced course on Mathematics of Arbitrage. This note is based on material developed in a series of papers published in recent years by Prof. Walter Schachermeyer. The notes must be understood as a complementary material to the book of F. Delbaen and W. Schachermayer \"Mathematics of Arbitrage\" published with Springer Verlag.</jats:p>"
+    },
+    {
+     "DOI": "10.21248/gups.67339",
+     "title": [
+      "Arbitrage theory in models with transaction costs beyond efficient friction"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "dissertation",
+     "author": [
+      {
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Alexander",
+       "family": "Molitor",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>In the first part of this thesis, we introduce the concept of prospective strict no-arbitrage for discrete-time financial market models with proportional transaction. The prospective strict no-arbitrage condition, which is a variant of strict no-arbitrage, is slightly weaker than the robust no-arbitrage condition. It still implies that the set of portfolios attainable from zero initial endowment is closed in probability. Consequently, prospective strict no-arbitrage implies the existence of consistent prices, which may lie on the boundary of the bid-ask spread. A weak version of prospective strict no-arbitrage turns out to be equivalent to the existence of a consistent price system. In continuous-time financial market models with proportional transaction costs, efficient friction, i.e., nonvanishing transaction costs, is a standing assumption. Together with robust no free lunch with vanishing risk, it rules out strategies of infinite variation which usually appear in frictionless financial markets. In the second part of this thesis, we show how models with and without transaction costs can be unified. The bid and the ask price of a risky asset are given by cadlag processes which are locally bounded from below and may coincide at some points. In a first step, we show that if the bid-ask model satisfies no unbounded profit with bounded risk for simple long-only strategies, then there exists a semimartingale lying between the bid and the ask price process. In a second step, under the additional assumption that the zeros of the bid-ask spread are either starting points of an excursion away from zero or inner points from the right, we show that for every bounded predictable strategy specifying the amount of risky assets, the semimartingale can be used to construct the corresponding self-financing risk-free position in a consistent way. Finally, the set of most general strategies is introduced, which also provides a new view on the frictionless case.</jats:p>"
+    },
+    {
+     "DOI": "10.58837/chula.the.2009.708",
+     "title": [
+      "Option replication and arbitrage trading strategy with liquidity and transaction costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "dissertation",
+     "author": [
+      {
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Kornkanok",
+       "family": "Atisutapote",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This study investigates the pricing of option by using the optimal hedging strategy for super-replicating an option in which the underlying asset is not perfectly liquid and there are transaction costs. The theoretical analysis and empirical evidence are conducted in the Thai option market. Since the continuous trading is impossible to implement in practice, discrete trading strategies are defined in this study. The optimal hedging strategy provides an advantage of assuring that the value of the replicating portfolio is not less than the option’s liability at maturity. The empirical results reveal the significant positivity of the liquidity parameter which implies the upward-sloping of the supply curve. This supply curve is consistent with the market microstructure literature and assumes that the underlying security prices depend on trading volume and direction. This study finds that the liquidity cost has a bigger impact on the option prices than the transaction cost in the Thai market. Moreover, the difference between model prices (with liquidity and transaction costs included) and actual market prices in each option series will allow us to implement an arbitrage trading strategy when the model prices are lower than the market prices. The trading strategy of buying stock and selling the option will be exploited in the Thai market. The results show some positive profits which means that this arbitrage trading strategy succeeds</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.2560176",
+     "title": [
+      "Asymptotic Arbitrage with Small Transaction Costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Irene",
+       "family": "Klein",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Emmanuel",
+       "family": "Lepinette",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Lavinia",
+       "family": "Ostafe",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We give characterizations of asymptotic arbitrage of the first and second kind and of strong asymptotic arbitrage for a sequence of financial markets with small proportional transaction costs   in terms of contiguity properties of sequences of equivalent probability measures induced by consistent price systems. These results are analogous to the frictionless case. Our setting is simple, each market  contains two assets. The proofs use quantitative versions of the Halmos-Savage Theorem and a monotone convergence result of nonnegative local martingales. Moreover, we study examples of models which admit a strong asymptotic arbitrage without transaction costs; but with transaction costs   there does not exist any form of asymptotic arbitrage.</jats:p>"
+    },
+    {
+     "DOI": "10.1142/9789814273473_0005",
+     "title": [
+      "Arbitrage Pricing Under Transaction Costs: Continuous Time"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "Recent Advances in Financial Engineering"
+     ],
+     "type": "proceedings-article",
+     "author": [
+      {
+       "given": "Emmanuel",
+       "family": "Denis",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "School of Management, Boston University, USA"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.5185177",
+     "title": [
+      "What Determines 401(k) Plan Fees? A Dynamic Model of Transaction Costs and Markups"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Hanbin",
+       "family": "Yang",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1007/978-3-540-71189-6_24",
+     "title": [
+      "General Arbitrage Pricing Model: II – Transaction Costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "Lecture Notes in Mathematics",
+      "Séminaire de Probabilités XL"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Alexander",
+       "family": "Cherny",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.1933169",
+     "title": [
+      "Transaction Costs and Market Efficiency: Evidence from Commission Deregulation"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Shinhua",
+       "family": "Liu",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>This study analyzes the impacts of explicit transaction costs on weak-form market efficiency within the context of the brokerage commission deregulation in Japan in October 1999, which led to lower commission rates across the market. Applying two alternative statistical tests to both daily and weekly data, we find that return randomness (unpredictability) increases significantly for stocks listed in Japan, but not for the Japanese stocks dually listed in the United States, which are immune to the deregulation. These results suggest an inefficiency loss or an efficiency gain in the Japanese equity market following the deregulation, insofar as randomness proxies for efficiency.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.2569090",
+     "title": [
+      "Robust No Arbitrage of the Second Kind with a Continuum of Assets and Proportional Transaction Costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Emmanuel",
+       "family": "Lepinette",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We study the criteria of robust absence of arbitrage opportunity (RNA2) of the second kind as initially introduced by Rasony M. in the case of a continuous-time and infinite dimensional financial market model with proportional transaction costs allowing for bond market modeling. Robust no arbitrage criteria seems to be unavoidable to assure closedness of the set of attainable claims. This allows us to relate the (RNA2) condition to the richness of the solvency cones (K&lt;sub&gt;t)t∈[0,T]&lt;/sub&gt; of all solvent portfolio positions, or equivalently, to the existence of (many) consistent price systems starting from an arbitrary selector of the interior of the positive dual of K under efficient friction.</jats:p>"
+    },
+    {
+     "DOI": "10.1007/978-3-540-68121-2_2",
+     "title": [
+      "Arbitrage Theory for Frictionless Markets"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009
+       ]
+      ]
+     },
+     "container-title": [
+      "Markets with Transaction Costs"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Yuri",
+       "family": "Kabanov",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Mher",
+       "family": "Safarian",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1007/978-3-642-02608-9_11",
+     "title": [
+      "Arbitrage Under Transaction Costs Revisited"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009
+       ]
+      ]
+     },
+     "container-title": [
+      "Optimality and Risk - Modern Trends in Mathematical Finance"
+     ],
+     "type": "book-chapter",
+     "author": [
+      {
+       "given": "Miklós",
+       "family": "Rásonyi",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1007/bf02696752",
+     "title": [
+      "Covered arbitrage margin and transaction costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1981,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "Weltwirtschaftliches Archiv"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Philippe",
+       "family": "Callier",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.2338700",
+     "title": [
+      "Arbitrage Pricing Theory Under Transaction Costs and Application to the Tobin Tax"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2013
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Erindi",
+       "family": "Allaj",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.4064/am-27-4-419-436",
+     "title": [
+      "Discrete time arbitrage under transaction costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2000
+       ]
+      ]
+     },
+     "container-title": [
+      "Applicationes Mathematicae"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Joanna",
+       "family": "Piasecka",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1142/9789814366038_0004",
+     "title": [
+      "Robust No Arbitrage Condition for Continuous-time Models with Transaction Costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011,
+        6
+       ]
+      ]
+     },
+     "container-title": [
+      "Recent Advances in Financial Engineering 2010"
+     ],
+     "type": "proceedings-article",
+     "author": [
+      {
+       "given": "Emmanuel",
+       "family": "Denis",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "Ceremade, Université Paris Dauphine, Place du Maréchal De Lattre De Tassigny 75775, Paris Cedex 16, France"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1007/bf01731870",
+     "title": [
+      "Covered interest arbitrage with transaction costs: An evidence from the Hong Kong foreign exchange market"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1994,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "Asia Pacific Journal of Management"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Cheung",
+       "family": "Kui-yin",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Daniel Chan",
+       "family": "Po-ming",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.6550798",
+     "title": [
+      "The Profitability of Corporate Bond Factors with Transaction Costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "Yuan",
+       "family": "Wang",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Yinzhou",
+       "family": "YANG",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Qiangqiang",
+       "family": "Yu",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Hao",
+       "family": "Zhou",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>We adopt a Bayesian approach to estimate transaction costs when assessing the profitability of both observable factors and latent factors from Instrumented Principal Component Analysis (IPCA) in the corporate bond market. Most factors yield considerable gains in the absence of trading frictions. However, their performance is severely undermined by incorporating transaction costs. The number of profitable observable factors collapses from 20 to one. The IPCA factors, despite surviving, suffer a substantial performance haircut, with the out-of-sample Sharpe ratio of the tangency portfolio dropping to 2.25, in contrast to the frictionless baseline of 7.80 and the fixed transaction cost benchmark of 5.67 (Kelly et al., 2023).</jats:p>"
+    },
+    {
+     "DOI": "10.3905/joi.2009.18.2.057",
+     "title": [
+      "Mutual Fund Arbitrage and Transaction Costs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2009,
+        5,
+        31
+       ]
+      ]
+     },
+     "container-title": [
+      "The Journal of Investing"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "John A",
+       "family": "Haslem",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

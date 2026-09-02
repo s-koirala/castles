@@ -1,0 +1,353 @@
+{
+ "query_id": "ka-ki-ki17",
+ "protocol_query_id": "KI-17",
+ "arm": "known-item",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works/10.1145%2F2940716.2940767",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1,
+ "retrieved_count": 1,
+ "identifier": "10.1145/2940716.2940767",
+ "raw_format": "json",
+ "raw": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      18
+     ]
+    ],
+    "date-time": "2026-08-18T01:44:51Z",
+    "timestamp": 1787017491104,
+    "version": "build-2736575974"
+   },
+   "publisher-location": "New York, NY, USA",
+   "reference-count": 20,
+   "publisher": "ACM",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2016,
+        7,
+        21
+       ]
+      ],
+      "date-time": "2016-07-21T00:00:00Z",
+      "timestamp": 1469059200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [],
+   "published-print": {
+    "date-parts": [
+     [
+      2016,
+      7,
+      21
+     ]
+    ]
+   },
+   "DOI": "10.1145/2940716.2940767",
+   "type": "proceedings-article",
+   "created": {
+    "date-parts": [
+     [
+      2016,
+      7,
+      21
+     ]
+    ],
+    "date-time": "2016-07-21T11:20:09Z",
+    "timestamp": 1469100009000
+   },
+   "page": "161-178",
+   "update-policy": "https://doi.org/10.1145/crossmark-policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 3,
+   "title": [
+    "Arbitrage-Free Combinatorial Market Making via Integer Programming"
+   ],
+   "prefix": "10.1145",
+   "author": [
+    {
+     "given": "Christian",
+     "family": "Kroer",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Carnegie Mellon University, Pittsburgh, PA, USA"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Miroslav",
+     "family": "Dudík",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Microsoft Research, New York City, NY, USA"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sébastien",
+     "family": "Lahaie",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Microsoft Research, New York City, NY, USA"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sivaraman",
+     "family": "Balakrishnan",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Carnegie Mellon University, Pittsburgh, PA, USA"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "320",
+   "published-online": {
+    "date-parts": [
+     [
+      2016,
+      7,
+      21
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_3_2_1_1_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1145/1993574.1993621"
+    },
+    {
+     "key": "e_1_3_2_1_2_1",
+     "volume-title": "NIPS 2013 workshop on Greedy Optimization, Frank-Wolfe and Friends.",
+     "author": "Belanger David",
+     "year": "2013"
+    },
+    {
+     "key": "e_1_3_2_1_3_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Joyce Berg Robert Forsythe Forrest Nelson and Thomas Rietz. 2008. Results from a Dozen Years of Election Futures Markets Research. In Handbook of Exp. Econ. Results.  Joyce Berg Robert Forsythe Forrest Nelson and Thomas Rietz. 2008. Results from a Dozen Years of Election Futures Markets Research. In Handbook of Exp. Econ. Results.",
+     "DOI": "10.1016/S1574-0722(07)00080-7"
+    },
+    {
+     "key": "e_1_3_2_1_4_1",
+     "unstructured": "Dimitri P. Bertsekas. 2015. Convex Optimization Algorithms.  Dimitri P. Bertsekas. 2015. Convex Optimization Algorithms."
+    },
+    {
+     "key": "e_1_3_2_1_5_1",
+     "unstructured": "Robert Charette. 2007. An Internal Futures Market. Information Management (March 2007).  Robert Charette. 2007. An Internal Futures Market. Information Management (March 2007)."
+    },
+    {
+     "key": "e_1_3_2_1_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1145/1386790.1386822"
+    },
+    {
+     "key": "e_1_3_2_1_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1145/1250910.1250957"
+    },
+    {
+     "key": "e_1_3_2_1_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1145/1374376.1374421"
+    },
+    {
+     "key": "e_1_3_2_1_9_1",
+     "unstructured": "Yiling Chen and David M. Pennock. 2007. A Utility Framework for Bounded-Loss Market Makers. In UAI-07.  Yiling Chen and David M. Pennock. 2007. A Utility Framework for Bounded-Loss Market Makers. In UAI-07."
+    },
+    {
+     "key": "e_1_3_2_1_10_1",
+     "unstructured": "Miroslav Dudík Rafael Frongillo and Jennifer Wortman Vaughan. 2014. Market Making with Decreasing Utility for Information. In UAI-14.  Miroslav Dudík Rafael Frongillo and Jennifer Wortman Vaughan. 2014. Market Making with Decreasing Utility for Information. In UAI-14."
+    },
+    {
+     "key": "e_1_3_2_1_11_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Miroslav Dudík Sébastien Lahaie and David M. Pennock. 2012. A Tractable Combinatorial Market Maker Using Constraint Generation. In EC-12.  Miroslav Dudík Sébastien Lahaie and David M. Pennock. 2012. A Tractable Combinatorial Market Maker Using Constraint Generation. In EC-12.",
+     "DOI": "10.1145/2229012.2229047"
+    },
+    {
+     "key": "e_1_3_2_1_12_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Miroslav Dudík Sébastien Lahaie David M. Pennock and David Rothschild. 2013. A Combinatorial Prediction Market for the U.S. Elections. In EC-13.  Miroslav Dudík Sébastien Lahaie David M. Pennock and David Rothschild. 2013. A Combinatorial Prediction Market for the U.S. Elections. In EC-13.",
+     "DOI": "10.1145/2492002.2482601"
+    },
+    {
+     "key": "e_1_3_2_1_13_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Marguerite Frank and Philip Wolfe. 1956. An algorithm for quadratic programming. Naval research logistics quarterly 3 1--2 (1956).  Marguerite Frank and Philip Wolfe. 1956. An algorithm for quadratic programming. Naval research logistics quarterly 3 1--2 (1956).",
+     "DOI": "10.1002/nav.3800030109"
+    },
+    {
+     "key": "e_1_3_2_1_14_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1022058209073"
+    },
+    {
+     "key": "e_1_3_2_1_15_1",
+     "article-title": "Logarithmic market scoring rules for modular combinatorial information aggregation",
+     "volume": "1",
+     "author": "Hanson Robin D.",
+     "year": "2007",
+     "journal-title": "Journal of Prediction Markets"
+    },
+    {
+     "key": "e_1_3_2_1_16_1",
+     "unstructured": "Martin Jaggi. 2013. Revisiting Frank-Wolfe: Projection-free sparse convex optimization. In ICML-13.  Martin Jaggi. 2013. Revisiting Frank-Wolfe: Projection-free sparse convex optimization. In ICML-13."
+    },
+    {
+     "key": "e_1_3_2_1_17_1",
+     "unstructured": "Rahul G. Krishnan Simon Lacoste-Julien and David Sontag. 2015. Barrier Frank-Wolfe for marginal inference. In NIPS-15.   Rahul G. Krishnan Simon Lacoste-Julien and David Sontag. 2015. Barrier Frank-Wolfe for marginal inference. In NIPS-15."
+    },
+    {
+     "key": "e_1_3_2_1_19_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "David M. Pennock Steve Lawrence C. Lee Giles and Finn A. Nielsen. 2002. The real power of artificial markets. Science 291 (2002).  David M. Pennock Steve Lawrence C. Lee Giles and Finn A. Nielsen. 2002. The real power of artificial markets. Science 291 (2002).",
+     "DOI": "10.1126/science.291.5506.987"
+    },
+    {
+     "key": "e_1_3_2_1_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1287/mnsc.49.10.1310.17314"
+    },
+    {
+     "key": "e_1_3_2_1_21_1",
+     "unstructured": "Pe11Lirong Xia and David M. Pennock. 2011. An Efficient Monte-Carlo Algorithm for Pricing Combinatorial Prediction Markets for Tournaments. In IJCAI-11.  Pe11Lirong Xia and David M. Pennock. 2011. An Efficient Monte-Carlo Algorithm for Pricing Combinatorial Prediction Markets for Tournaments. In IJCAI-11."
+    }
+   ],
+   "event": {
+    "name": "EC '16: ACM Conference on Economics and Computation",
+    "location": "Maastricht The Netherlands",
+    "acronym": "EC '16",
+    "sponsor": [
+     "SIGecom Special Interest Group on Economics and Computation"
+    ]
+   },
+   "container-title": [
+    "Proceedings of the 2016 ACM Conference on Economics and Computation"
+   ],
+   "original-title": [],
+   "link": [
+    {
+     "URL": "https://dl.acm.org/doi/10.1145/2940716.2940767",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://dl.acm.org/doi/pdf/10.1145/2940716.2940767",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      6,
+      18
+     ]
+    ],
+    "date-time": "2025-06-18T00:56:27Z",
+    "timestamp": 1750208187000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://dl.acm.org/doi/10.1145/2940716.2940767"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2016,
+      7,
+      21
+     ]
+    ]
+   },
+   "references-count": 20,
+   "alternative-id": [
+    "10.1145/2940716.2940767",
+    "10.1145/2940716"
+   ],
+   "URL": "https://doi.org/10.1145/2940716.2940767",
+   "relation": {},
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2016,
+      7,
+      21
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "2016-07-21",
+     "order": 2,
+     "name": "published",
+     "label": "Published",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    }
+   ]
+  }
+ }
+}

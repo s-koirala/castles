@@ -1,0 +1,708 @@
+{
+ "query_id": "ka-crossref-14",
+ "protocol_query_id": "ka-crossref-14",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=event+contracts+Kalshi+Polymarket+PredictIt&query.container-title=SSRN&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 1093,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 1093,
+   "items": [
+    {
+     "DOI": "10.2139/ssrn.2799550",
+     "title": [
+      "High-Water Marks Contracts Versus Recurring Option Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "C. Wei",
+       "family": "Li",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3925127",
+     "title": [
+      "Legal Considerations Around Smart Contracts: Contracts Between Computer Programs"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2021
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Simon",
+       "family": "Gleeson",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.1903674",
+     "title": [
+      "Formal Contracts, Relational Contracts, and the Threat-Point Effect"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Hideshi",
+       "family": "Itoh",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Hodaka",
+       "family": "Morita",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3506265",
+     "title": [
+      "Vertical Contracts with Endogenous Product Selection: An Empirical Analysis of Vendor-Allowance Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Sylvia",
+       "family": "Hristakeva",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3772099",
+     "title": [
+      "Contracts Without Promises: Blockchain-Based 'Smart Contracts' and the Title-Transfer Theory of Contract"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "David",
+       "family": "Hoffa",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3317504",
+     "title": [
+      "Introdução e Guia Prático a Smart Contracts (Introduction and Practical Guide to Smart Contracts)"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "David",
+       "family": "Schechtman",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.4278510",
+     "title": [
+      "Anticompetitive Behaviours in Public Contracts between Entities within the Public Sector (In-House Contracts)"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Antonio",
+       "family": "Mino Lopez",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.1972675",
+     "title": [
+      "Contracts for Dummies? The Performance of Individual Investors in Contracts for Difference"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Adrian D.",
+       "family": "Lee",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Shan",
+       "family": "Choy",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3743932",
+     "title": [
+      "Smart Legal Contracts: A Model for the Integration of Machine Capabilities Into Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Natasha",
+       "family": "Blycha",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Ariane",
+       "family": "Garside",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3014728",
+     "title": [
+      "Relational Contracts, the Cost of Enforcing Formal Contracts, and Capital Structure Choice - Theory and Evidence"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Matthias",
+       "family": "Fahn",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Valeria",
+       "family": "Merlo",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Georg",
+       "family": "Wamser",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3016403",
+     "title": [
+      "Contracts of Guarantees in Nigeria: An Analysis of the Effect of Arbitration Clauses on Contracts of Guarantee in Nigeria"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Bassey Eteyen",
+       "family": "Hogan-Itam",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3241806",
+     "title": [
+      "International Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Granit",
+       "family": "Kelmendi",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3425805",
+     "title": [
+      "Blockchain-Technologie, Smart Contracts und selbstvollziehende Verträge – Eine Analyse der Chancen und Risiken einer Zukunftstechnologie sowie der Vereinbarkeit der Systemkreise Technik und Recht (Blockchain Technology, Smart Contracts and Self-Executing Contracts – An Analysis of the Chances and Risks of a Future Technology As Well As the Compatibility of Technology and Law)"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Nico",
+       "family": "Bilski",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3458234",
+     "title": [
+      "Robust Procurement Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Alexander",
+       "family": "Rodivilov",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3201352",
+     "title": [
+      "Online Contracts (2018)"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Eric",
+       "family": "Goldman",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.4239312",
+     "title": [
+      "Deconstructing Smart Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Eliza",
+       "family": "Mik",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.2995737",
+     "title": [
+      "Contracts on the Seabed"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2017
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Christiana",
+       "family": "Ochoa",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3430795",
+     "title": [
+      "Uma Visão De Futuro Para Adoção De Smart Contracts Em M&amp;amp;A (A Future Vision for the Adoption of Smart Contracts in M&amp;amp;A)"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "David",
+       "family": "Schechtman",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.1986186",
+     "title": [
+      "Ambiguity in Dynamic Contracts"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Martin",
+       "family": "Szydlowski",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2139/ssrn.3354272",
+     "title": [
+      "Smart Contracts and Consumers"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2019
+       ]
+      ]
+     },
+     "container-title": [
+      "SSRN Electronic Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Tatiana",
+       "family": "Cutts",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

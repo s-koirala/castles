@@ -1,0 +1,2141 @@
+{
+ "query_id": "ka-nber-02",
+ "protocol_query_id": "ka-nber-02",
+ "arm": "topical",
+ "platform": "nber",
+ "url": "https://www.nber.org/api/v1/working_page_listing/contentType/working_paper/_/_/search?page=1&perPage=50&q=betting%20market%20arbitrage",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": null,
+ "retrieved_count": 50,
+ "retry_suffix": null,
+ "raw": {
+  "totalResults": 19389,
+  "results": [
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/scott_baker\">Scott R. Baker</a>",
+     "<a href=\"/people/justin_balthrop\">Justin Balthrop</a>",
+     "<a href=\"/people/mark_johnson\">Mark J. Johnson</a>",
+     "<a href=\"/people/jason_kotter\">Jason D. Kotter</a>",
+     "<a href=\"/people/kevin_pisciotta\">Kevin Pisciotta</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "July 2026",
+    "abstract": "This paper examines the rapid expansion and convergence of retail betting markets. We analyze market design elements, discuss economic utility, and highlight shared behavioral drivers of sports betting markets, prediction markets, and retail options trading. Our review underscores how technological",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "1349266",
+    "title": "Retail Betting Markets",
+    "type": "working_paper",
+    "url": "/papers/w35520",
+    "id": "i768l2-sitesearch-entity:node/1349266:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/edward_glaeser\">Edward L. Glaeser</a>",
+     "<a href=\"/people/joseph_gyourko\">Joseph Gyourko</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "December 2007",
+    "abstract": "Urban economists understand housing prices with a spatial equilibrium approach that assumes people must be indifferent across locations. Since the spatial no arbitrage condition is inherently imprecise, other economists have turned to different no arbitrage conditions, such as the prediction that",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "67171",
+    "title": "Arbitrage in Housing Markets",
+    "type": "working_paper",
+    "url": "/papers/w13704",
+    "id": "i768l2-sitesearch-entity:node/67171:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/koichiro_ito\">Koichiro Ito</a>",
+     "<a href=\"/people/mar_reguant\">Mar Reguant</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "December 2014",
+    "abstract": "We develop a theoretical framework to characterize strategic behavior in sequential markets under imperfect competition and limited arbitrage. Our theory predicts that these two elements can generate a systematic price premium. We test the model predictions using micro-data from the Iberian",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "74101",
+    "title": "Sequential Markets, Market Power and Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w20782",
+    "id": "i768l2-sitesearch-entity:node/74101:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/nicolasluis_bottan\">Nicolas L. Bottan</a>",
+     "<a href=\"/people/ricardo_pereztruglia\">Ricardo Perez-Truglia</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "June 2020",
+    "abstract": "Home price expectations play a central role in macroeconomics and finance. However, there is little direct evidence on how home price expectations affect market choices. We provide the first causal evidence based on a large-scale, high-stakes, and naturally occurring field experiment in the United",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "99888",
+    "title": "Betting on the House: Subjective Expectations and Market Choices",
+    "type": "working_paper",
+    "url": "/papers/w27412",
+    "id": "i768l2-sitesearch-entity:node/99888:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/amine_ouazad\">Amine Ouazad</a>",
+     "<a href=\"/people/romain_ranciere\">Romain Rancière</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "April 2019",
+    "abstract": "The price-amenity arbitrage is a cornerstone of spatial economics, as the response of land and house prices to shifts in the quality of local amenities and public goods is typically used to reveal households' willingness to pay for amenities. With informational, time, and cash constraints,",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "81037",
+    "title": "Market Frictions, Arbitrage, and the Capitalization of Amenities",
+    "type": "working_paper",
+    "url": "/papers/w25701",
+    "id": "i768l2-sitesearch-entity:node/81037:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/oscar_jorda\">Òscar Jordà</a>",
+     "<a href=\"/people/moritz_schularick\">Moritz HP. Schularick</a>",
+     "<a href=\"/people/alan_taylor\">Alan M. Taylor</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "December 2014",
+    "abstract": "Is there a link between loose monetary conditions, credit growth, house price booms, and financial instability? This paper analyzes the role of interest rates and credit in driving house price booms and busts with data spanning 140 years of modern economic history in the advanced economies. We",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "64021",
+    "title": "Betting the House",
+    "type": "working_paper",
+    "url": "/papers/w20771",
+    "id": "i768l2-sitesearch-entity:node/64021:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/eduardo_davila\">Eduardo Dávila</a>",
+     "<a href=\"/people/daniel_graves\">Daniel D. Graves</a>",
+     "<a href=\"/people/cecilia_parlatore\">Cecilia Parlatore</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "February 2022",
+    "abstract": "This paper studies the social value of closing price differentials in financial markets. We show that arbitrage gaps (price differentials between markets) exactly correspond to the marginal social value of executing an arbitrage trade. We further show that arbitrage gaps and measures of price impact",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "399253",
+    "title": "The Value of Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w29744",
+    "id": "i768l2-sitesearch-entity:node/399253:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/andrea_frazzini\">Andrea Frazzini</a>",
+     "<a href=\"/people/lasse_pedersen\">Lasse H. Pedersen</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "December 2010",
+    "abstract": "We present a model in which some investors are prohibited from using leverage and other investors' leverage is limited by margin requirements. The former investors bid up high-beta assets while the latter agents trade to profit from this, but must de-lever when they hit their margin constraints. We",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "69963",
+    "title": "Betting Against Beta",
+    "type": "working_paper",
+    "url": "/papers/w16601",
+    "id": "i768l2-sitesearch-entity:node/69963:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/andrei_shleifer\">Andrei Shleifer</a>",
+     "<a href=\"/people/robert_vishny\">Robert W. Vishny</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "July 1995",
+    "abstract": "In traditional models, arbitrage in a given security is performed by a large number of diversified investors taking small positions against its mispricing. In reality, however, arbitrage is conducted by a relatively small number of highly specialized investors who take large positions using other",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "84344",
+    "title": "The Limits of Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w5167",
+    "id": "i768l2-sitesearch-entity:node/84344:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/harrison_hong\">Harrison Hong</a>",
+     "<a href=\"/people/jeremy_stein\">Jeremy C. Stein</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "October 1999",
+    "abstract": "We develop a theory of stock-market crashes based on differences of opinion among investors. Because of short-sales constraints, bearish investors do not initially participate in the market and their information is not revealed in prices. However, if other, previously-bullish investors have a change",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "86189",
+    "title": "Differences of Opinion, Rational Arbitrage and Market Crashes",
+    "type": "working_paper",
+    "url": "/papers/w7376",
+    "id": "i768l2-sitesearch-entity:node/86189:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/emil_siriwardane\">Emil Siriwardane</a>",
+     "<a href=\"/people/adi_sunderam\">Adi Sunderam</a>",
+     "<a href=\"/people/jonathan_wallen\">Jonathan L. Wallen</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "October 2022",
+    "abstract": "We use arbitrage activity in equity, fixed income, and foreign exchange markets to characterize the frictions and constraints facing intermediaries. The average pairwise correlation between the 29 arbitrage spreads that we study is 21%. These low correlations are inconsistent with canonical",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "530627",
+    "title": "Segmented Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w30561",
+    "id": "i768l2-sitesearch-entity:node/530627:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/james_dow\">James Dow</a>",
+     "<a href=\"/people/gary_gorton\">Gary Gorton</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "April 1993",
+    "abstract": "In efficient markets the price should reflect the arrival of private information. The mechanism by which this is accomplished is arbitrage. A privately informed trader will engage in costly arbitrage, that is, trade on his knowledge that the price of an asset is different from the fundamental value",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "83580",
+    "title": "Arbitrage Chains",
+    "type": "working_paper",
+    "url": "/papers/w4314",
+    "id": "i768l2-sitesearch-entity:node/83580:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/benjamin_hebert\">Benjamin M. Hébert</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "October 2020",
+    "abstract": "How can we assess whether macro-prudential regulations are having their intended effects? If these regulations are optimal, their marginal benefit of addressing externalities should equal their marginal cost of distorting risk-sharing. These risk-sharing distortions will manifest as trading",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "124907",
+    "title": "Externalities as Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w27953",
+    "id": "i768l2-sitesearch-entity:node/124907:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/viral_acharya\">Viral V. Acharya</a>",
+     "<a href=\"/people/lars_lochstoer\">Lars A. Lochstoer</a>",
+     "<a href=\"/people/tarun_ramadorai\">Tarun Ramadorai</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 2011",
+    "abstract": "Motivated by the literature on limits-to-arbitrage, we build an equilibrium model of commodity markets in which speculators are capital constrained, and commodity producers have hedging demands for commodity futures. Increases (decreases) in producers' hedging demand (speculators' risk-capacity)",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "70229",
+    "title": "Limits to Arbitrage and Hedging: Evidence from Commodity Markets",
+    "type": "working_paper",
+    "url": "/papers/w16875",
+    "id": "i768l2-sitesearch-entity:node/70229:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/takatoshi_ito\">Takatoshi Ito</a>",
+     "<a href=\"/people/kenta_yamada\">Kenta Yamada</a>",
+     "<a href=\"/people/misako_takayasu\">Misako Takayasu</a>",
+     "<a href=\"/people/hideki_takayasu\">Hideki Takayasu</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "January 2020",
+    "abstract": "With the high-frequency data of firm quotes in the transaction platform of foreign exchanges, arbitrage profit opportunitiesin the forms of a negative bid-ask spread of a currency pair and triangular transactions involving three currency pairscan be detected to emerge and disappear in the matter of",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "94150",
+    "title": "Execution Risk and Arbitrage Opportunities in the Foreign Exchange Markets",
+    "type": "working_paper",
+    "url": "/papers/w26706",
+    "id": "i768l2-sitesearch-entity:node/94150:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/gary_chamberlain\">Gary Chamberlain</a>",
+     "<a href=\"/people/michael_rothschild\">Michael Rothschild</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "July 1981",
+    "abstract": "We examine the implications of arbitrage in a market with many assets. The absence of arbitrage opportunities implies that the linear functionals that give the mean and cost of a portfolio are continuous; hence there exist unique portfolios that represent these functionals. The mean variance",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "29556",
+    "title": "Arbitrage and Mean-Variance Analysis on Large Asset Markets",
+    "type": "working_paper",
+    "url": "/papers/t0015",
+    "id": "i768l2-sitesearch-entity:node/29556:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/takatoshi_ito\">Takatoshi Ito</a>",
+     "<a href=\"/people/kenta_yamada\">Kenta Yamada</a>",
+     "<a href=\"/people/misako_takayasu\">Misako Takayasu</a>",
+     "<a href=\"/people/hideki_takayasu\">Hideki Takayasu</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "November 2012",
+    "abstract": "Using the \"firm\" quotes obtained from the tick-by-tick EBS (electronic broking system that is a major trading platform for foreign exchanges) data, it is found that risk-free arbitrage opportunities--free lunch--do occur in the foreign exchange markets, but it typically last only a few seconds.",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "71816",
+    "title": "Free Lunch! Arbitrage Opportunities in the Foreign Exchange Markets",
+    "type": "working_paper",
+    "url": "/papers/w18541",
+    "id": "i768l2-sitesearch-entity:node/71816:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/david_backus\">David Backus</a>",
+     "<a href=\"/people/silverio_foresi\">Silverio Foresi</a>",
+     "<a href=\"/people/stanley_zin\">Stanley Zin</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "June 1996",
+    "abstract": "Mathematical models of bond pricing are used by both academics and Wall Street practitioners, with practitioners introducing time-dependent parameters to fit arbitrage-free models to selected asset prices. We show, in a simple one-factor setting, that the ability of such models to reproduce a subset",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "84761",
+    "title": "Arbitrage Opportunities in Arbitrage-Free Models of Bond Pricing",
+    "type": "working_paper",
+    "url": "/papers/w5638",
+    "id": "i768l2-sitesearch-entity:node/84761:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/denis_gromb\">Denis Gromb</a>",
+     "<a href=\"/people/dimitri_vayanos\">Dimitri Vayanos</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 2015",
+    "abstract": "We develop a model of financially constrained arbitrage, and use it to study the dynamics of arbitrage capital, liquidity, and asset prices. Arbitrageurs exploit price discrepancies between assets traded in segmented markets, and in doing so provide liquidity to investors. A collateral constraint",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "74326",
+    "title": "The Dynamics of Financially Constrained Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w20968",
+    "id": "i768l2-sitesearch-entity:node/74326:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/rui_da_1\">Rui Da</a>",
+     "<a href=\"/people/stefan_nagel\">Stefan Nagel</a>",
+     "<a href=\"/people/dacheng_xiu\">Dacheng Xiu</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "October 2024",
+    "abstract": "We investigate the economic consequences of statistical learning for arbitrage pricing in a high-dimensional setting. Arbitrageurs learn about alphas from historical data. When alphas are weak and rare, estimation errors hinder arbitrageurseven those employing optimal machine learning techniquesfrom",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "954277",
+    "title": "The Statistical Limit of Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w33070",
+    "id": "i768l2-sitesearch-entity:node/954277:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/andrew_ang\">Andrew Ang</a>",
+     "<a href=\"/people/sd2068\">Sen Dong</a>",
+     "<a href=\"/people/monika_piazzesi\">Monika Piazzesi</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "September 2007",
+    "abstract": "We estimate Taylor (1993) rules and identify monetary policy shocks using no-arbitrage pricing techniques. Long-term interest rates are risk-adjusted expected values of future short rates and thus provide strong over-identifying restrictions about the policy rule used by the Federal Reserve. The no",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "66917",
+    "title": "No-Arbitrage Taylor Rules",
+    "type": "working_paper",
+    "url": "/papers/w13448",
+    "id": "i768l2-sitesearch-entity:node/66917:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/denis_gromb\">Denis Gromb</a>",
+     "<a href=\"/people/dimitri_vayanos\">Dimitri Vayanos</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 2010",
+    "abstract": "We survey theoretical developments in the literature on the limits of arbitrage. This literature investigates how costs faced by arbitrageurs can prevent them from eliminating mispricings and providing liquidity to other investors. Research in this area is currently evolving into a broader agenda",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "69233",
+    "title": "Limits of Arbitrage: The State of the Theory",
+    "type": "working_paper",
+    "url": "/papers/w15821",
+    "id": "i768l2-sitesearch-entity:node/69233:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/yiming_ma\">Yiming Ma</a>",
+     "<a href=\"/people/yao_zeng1\">Yao Zeng</a>",
+     "<a href=\"/people/anthony_lee_zhang\">Anthony Lee Zhang</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "June 2025",
+    "abstract": "Stablecoins are cryptoassets which are designed to be pegged to the dollar, but are backed by imperfectly liquid USD assets. We show that stablecoins feature concentrated arbitrage: the largest issuer, Tether, only allows 6 agents in an average month to redeem stablecoins for cash. We argue that",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "1088280",
+    "title": "Stablecoin Runs and the Centralization of Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w33882",
+    "id": "i768l2-sitesearch-entity:node/1088280:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/jonas_agell\">Jonas Agell</a>",
+     "<a href=\"/people/mats_persson\">Mats Persson</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "August 1998",
+    "abstract": "We examine how tax avoidance in the form of trade in well-functioning asset markets affects the basic labor supply model. We argue that models that integrate tax arbitrage and labor supply decisions may shed light on a number of positive and normative questions concerning modern systems of income",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "85621",
+    "title": "Tax Arbitrage and Labor Supply",
+    "type": "working_paper",
+    "url": "/papers/w6708",
+    "id": "i768l2-sitesearch-entity:node/85621:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/alyssa_anderson\">Alyssa G. Anderson</a>",
+     "<a href=\"/people/wenxin_du\">Wenxin Du</a>",
+     "<a href=\"/people/bernd_schlusche\">Bernd Schlusche</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "April 2021",
+    "abstract": "We show that the role of unsecured, short-term wholesale funding for global banks has changed significantly in the post-financial-crisis regulatory environment. Global banks mainly use such funding to finance liquid, near risk-free arbitrage positionsin particular, the interest on excess reserves",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "231013",
+    "title": "Arbitrage Capital of Global Banks",
+    "type": "working_paper",
+    "url": "/papers/w28658",
+    "id": "i768l2-sitesearch-entity:node/231013:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/ivica_dus\">Ivica Dus</a>",
+     "<a href=\"/people/raimond_maurer\">Raimond Maurer</a>",
+     "<a href=\"/people/olivia_mitchell\">Olivia S. Mitchell</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "April 2005",
+    "abstract": "Retirees must draw down their accumulated assets in an orderly fashion, so as not to exhaust their funds too soon. We compare alternative phased withdrawal strategies to a life annuity benchmark using German data; one particular phased withdrawal rule seems attractive, as it offers relatively low",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "42801",
+    "title": "Betting on Death and Capital Markets in Retirement: A Shortfall Risk Analysis of Life Annuities",
+    "type": "working_paper",
+    "url": "/papers/w11271",
+    "id": "i768l2-sitesearch-entity:node/42801:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/maurice_obstfeld\">Maurice Obstfeld</a>",
+     "<a href=\"/people/alan_taylor\">Alan M. Taylor</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "June 1997",
+    "abstract": "We propose that analysis of purchasing power parity (PPP) and the law of one price (LOOP) should explicitly take into account the possibility of commodity points' thresholds delineating a region of no central tendency among relative prices, possibly due to lack of perfect arbitrage in the presence",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "85101",
+    "title": "Nonlinear Aspects of Goods-Market Arbitrage and Adjustment: Heckscher's Commodity Points Revisited",
+    "type": "working_paper",
+    "url": "/papers/w6053",
+    "id": "i768l2-sitesearch-entity:node/85101:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/xavier_gabaix\">Xavier Gabaix</a>",
+     "<a href=\"/people/arvind_krishnamurthy\">Arvind Krishnamurthy</a>",
+     "<a href=\"/people/olivier_vigneron\">Olivier Vigneron</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "December 2005",
+    "abstract": "\"Limits of Arbitrage\" theories hypothesize that the marginal investor in a particular asset market is a specialized arbitrageur rather than a diversified representative investor. We examine the mortgage-backed securities (MBS) market in this light. We show that the risk of homeowner prepayment,",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "65304",
+    "title": "Limits of Arbitrage: Theory and Evidence from the Mortgage-Backed Securities Market",
+    "type": "working_paper",
+    "url": "/papers/w11851",
+    "id": "i768l2-sitesearch-entity:node/65304:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/john_cochrane\">John H. Cochrane</a>",
+     "<a href=\"/people/jesus_saa-requejo\">Jesus Saa-Requejo</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 1996",
+    "abstract": "It is often useful to price assets and other random payoffs by reference to other observed prices rather than construct full-fledged economic asset pricing models. This approach breaks down if one cannot find a perfect replicating portfolio. We impose weak economic restrictions to derive usefully",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "84632",
+    "title": "Beyond Arbitrage: \"Good-Deal\" Asset Price Bounds in Incomplete Markets",
+    "type": "working_paper",
+    "url": "/papers/w5489",
+    "id": "i768l2-sitesearch-entity:node/84632:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/gary_chamberlain\">Gary Chamberlain</a>",
+     "<a href=\"/people/michael_rothschild\">Michael Rothschild</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "October 1982",
+    "abstract": "We examine the implications of arbitrage in a market with many assets. The absence of arbitrage opportunities implies that the linear functionals that give the mean and cost of a portfolio are continuous; hence there exist unique portfolios that represent these functionals. These portfolios span the",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "36216",
+    "title": "Arbitrage, Factor Structure, and Mean-Variance Analysis on Large Asset Markets",
+    "type": "working_paper",
+    "url": "/papers/w0996",
+    "id": "i768l2-sitesearch-entity:node/36216:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/merle_erickson\">Merle Erickson</a>",
+     "<a href=\"/people/austan_goolsbee\">Austan Goolsbee</a>",
+     "<a href=\"/people/edward_maydew\">Edward Maydew</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "August 2002",
+    "abstract": "Although tax arbitrage is central to the literatures on tax capitalization, implicit taxes, and even capital structure, there is little empirical evidence of the extent to which firms actually engage in tax arbitrage. This paper provides some evidence on the topic by focusing on a simple and",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "87702",
+    "title": "How Prevalent is Tax Arbitrage? Evidence from the Market for Municipal Bonds",
+    "type": "working_paper",
+    "url": "/papers/w9105",
+    "id": "i768l2-sitesearch-entity:node/87702:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/eli_ofek\">Eli Ofek</a>",
+     "<a href=\"/people/matthew_richardson\">Matthew Richardson</a>",
+     "<a href=\"/people/robert_whitelaw\">Robert F. Whitelaw</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "January 2003",
+    "abstract": "In this paper, we investigate empirically the well-known put-call parity no-arbitrage relation in the presence of short sale restrictions. We use a new and comprehensive sample of options on individual stocks in combination with a measure of the cost and difficulty of short selling, specifically the",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "87982",
+    "title": "Limited Arbitrage and Short Sales Restrictions: Evidence from the Options Markets",
+    "type": "working_paper",
+    "url": "/papers/w9423",
+    "id": "i768l2-sitesearch-entity:node/87982:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/alex_edmans\">Alex Edmans</a>",
+     "<a href=\"/people/itay_goldstein\">Itay Goldstein</a>",
+     "<a href=\"/people/wei_jiang\">Wei Jiang</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "November 2011",
+    "abstract": "This paper identifies a limit to arbitrage that arises from the fact that a firm's fundamental value is endogenous to the act of exploiting the arbitrage. Trading on private information reveals this information to managers and helps them improve their real decisions, in turn enhancing fundamental",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "70906",
+    "title": "Feedback Effects and the Limits to Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w17582",
+    "id": "i768l2-sitesearch-entity:node/70906:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/urban_jermann\">Urban Jermann</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "January 2019",
+    "abstract": "Since October 2008 fixed rates for interest rate swaps with a thirty year maturity have been mostly below treasury rates with the same maturity. Under standard assumptions this implies the existence of arbitrage opportunities. This paper presents a model for pricing interest rate swaps where",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "80518",
+    "title": "Negative Swap Spreads and Limited Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w25422",
+    "id": "i768l2-sitesearch-entity:node/80518:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/ted_juhl\">Ted Juhl</a>",
+     "<a href=\"/people/william_miles\">William Miles</a>",
+     "<a href=\"/people/marc_weidenmier\">Marc D. Weidenmier</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "December 2004",
+    "abstract": "We introduce a new weekly database of spot and forward US-UK exchange rates as well as interest rates to examine the integration of forward exchange markets during the classical gold standard period (1880-1914). Using threshold autoregressions (TAR), we estimate the transactions cost band of covered",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "41161",
+    "title": "Covered Interest Arbitrage: Then vs. Now",
+    "type": "working_paper",
+    "url": "/papers/w10961",
+    "id": "i768l2-sitesearch-entity:node/41161:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/eugene_canjels\">Eugene Canjels</a>",
+     "<a href=\"/people/gauri_prakash-canjels\">Gauri Prakash-Canjels</a>",
+     "<a href=\"/people/alan_taylor\">Alan M. Taylor</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "June 2004",
+    "abstract": "A major question in the literature on the classical gold standard concerns the efficiency of international arbitrage. Authors have examined efficiency by looking at the spread of the gold points, gold point violations, the flow of gold, or by tests of various asset market criteria, including",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "39206",
+    "title": "Measuring Market Integration: Foreign Exchange Arbitrage and the Gold Standard, 1879-1913",
+    "type": "working_paper",
+    "url": "/papers/w10583",
+    "id": "i768l2-sitesearch-entity:node/39206:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/marshall_burke\">Marshall Burke</a>",
+     "<a href=\"/people/lauren_bergquist\">Lauren Falcao Bergquist</a>",
+     "<a href=\"/people/edward_miguel\">Edward Miguel</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "April 2018",
+    "abstract": "Large and regular seasonal price fluctuations in local grain markets appear to offer African farmers substantial inter-temporal arbitrage opportunities, but these opportunities remain largely unexploited: small-scale farmers are commonly observed to \"sell low and buy high\" rather than the reverse.",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "79007",
+    "title": "Sell Low and Buy High: Arbitrage and Local Price Effects in Kenyan Markets",
+    "type": "working_paper",
+    "url": "/papers/w24476",
+    "id": "i768l2-sitesearch-entity:node/79007:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/anton_korinek\">Anton Korinek</a>",
+     "<a href=\"/people/joseph_stiglitz\">Joseph E. Stiglitz</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 2008",
+    "abstract": "We analyze the effects of changes in dividend tax policy using a life-cycle model of the firm, in which new firms first access equity markets, then grow internally, and finally pay dividends when they have reached steady state. In accordance with the traditional view of dividend taxation, new firms",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "67326",
+    "title": "Dividend Taxation and Intertemporal Tax Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w13858",
+    "id": "i768l2-sitesearch-entity:node/67326:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/mazino\">Marlon Azinovic-Yang</a>",
+     "<a href=\"/people/harold_cole\">Harold L. Cole</a>",
+     "<a href=\"/people/felix_kubler\">Felix Kubler</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "November 2023",
+    "abstract": "Is deficit finance free when real borrowing rates are routinely lower than growth rates? We study this question in a production-based asset-pricing model that features heterogeneous trading technologies as well as idiosyncratic and aggregate risk and can match the observed low average risk-free rate",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "752517",
+    "title": "Low Risk-Free Rates and Intertemporal Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w31832",
+    "id": "i768l2-sitesearch-entity:node/752517:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/greg_buchak\">Greg Buchak</a>",
+     "<a href=\"/people/gregor_matvos\">Gregor Matvos</a>",
+     "<a href=\"/people/tomasz_piskorski\">Tomasz Piskorski</a>",
+     "<a href=\"/people/amit_seru\">Amit Seru</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 2017",
+    "abstract": "Shadow bank market share in residential mortgage origination nearly doubled from 2007-2015, with particularly dramatic growth among online fintech lenders. We study how two forces, regulatory differences and technological advantages, contributed to this growth. Difference in difference tests",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "77205",
+    "title": "Fintech, Regulatory Arbitrage, and the Rise of Shadow Banks",
+    "type": "working_paper",
+    "url": "/papers/w23288",
+    "id": "i768l2-sitesearch-entity:node/77205:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/gauri_prakash-canjels\">Gauri Prakash</a>",
+     "<a href=\"/people/alan_taylor\">Alan M. Taylor</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "June 1997",
+    "abstract": "A major question in the literature on the classical gold standard concerns the efficiency of international arbitrage. Most authors have examined efficiency by looking at the spread of the gold points, gold-point violations, the flow of gold in profitable or unprofitable directions, or by tests of",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "85113",
+    "title": "Measuring Market Integration: A Model of Arbitrage with an Econometric Application to the Gold Standard, 1879-1913",
+    "type": "working_paper",
+    "url": "/papers/w6073",
+    "id": "i768l2-sitesearch-entity:node/85113:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/robert_stambaugh\">Robert F. Stambaugh</a>",
+     "<a href=\"/people/jianfeng_yu\">Jianfeng Yu</a>",
+     "<a href=\"/people/yu_yuan\">Yu Yuan</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "November 2012",
+    "abstract": "Short selling, as compared to purchasing, faces greater risks and other potential impediments. This arbitrage asymmetry explains the negative relation between idiosyncratic volatility (IVOL) and average return. The IVOL effect is negative among overpriced stocks but positive among underpriced stocks",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "71833",
+    "title": "Arbitrage Asymmetry and the Idiosyncratic Volatility Puzzle",
+    "type": "working_paper",
+    "url": "/papers/w18560",
+    "id": "i768l2-sitesearch-entity:node/71833:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/peter_kondor\">Péter Kondor</a>",
+     "<a href=\"/people/dimitri_vayanos\">Dimitri Vayanos</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "February 2014",
+    "abstract": "We develop a continuous-time model of liquidity provision, in which hedgers can trade multiple risky assets with arbitrageurs. Arbitrageurs have CRRA utility, while hedgers asset demand is independent of wealth. An increase in hedgers risk aversion can make arbitrageurs endogenously more risk-averse",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "73194",
+    "title": "Liquidity Risk and the Dynamics of Arbitrage Capital",
+    "type": "working_paper",
+    "url": "/papers/w19931",
+    "id": "i768l2-sitesearch-entity:node/73194:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/james_hines\">James R. Hines Jr.</a>",
+     "<a href=\"/people/emily_horton\">Emily Horton</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "July 2024",
+    "abstract": "Interest paid by U.S. state and local bonds is tax-exempt, making these bonds attractive to investors  though a tax rule limits arbitrage opportunities by restricting associated interest expense deductions. Prior to 1986, U.S. banks were not subject to the interest deduction limitation, making banks",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "890056",
+    "title": "Banks and Tax-Exempt Debt Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w32647",
+    "id": "i768l2-sitesearch-entity:node/890056:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/michael_brandt\">Michael W. Brandt</a>",
+     "<a href=\"/people/francis_diebold\">Francis X. Diebold</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "May 2003",
+    "abstract": "We extend range-based volatility estimation to the multivariate case. In particular, we propose a range-based covariance estimator motivated by a key financial economic consideration, the absence of arbitrage, in addition to statistical considerations. We show that this estimator is highly efficient",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "88181",
+    "title": "A No-Arbitrage Approach to Range-Based Estimation of Return Covariances and Correlations",
+    "type": "working_paper",
+    "url": "/papers/w9664",
+    "id": "i768l2-sitesearch-entity:node/88181:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/gilbert_metcalf\">Gilbert E. Metcalf</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "June 1989",
+    "abstract": "The federal tax code creates strong incentives for tax arbitrage activity on the part of state governments. This arbitrage activity is illegal and previous research has typically assumed that the constraint against arbitrage activity is binding. This paper explicitly tests this proposition by",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "82396",
+    "title": "Arbitrage and the Savings Behavior of State Governments",
+    "type": "working_paper",
+    "url": "/papers/w3017",
+    "id": "i768l2-sitesearch-entity:node/82396:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/bruce_lehmann\">Bruce N. Lehmann</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "August 2005",
+    "abstract": "This paper provides a road map for building a contingent claims theory of limit order markets grounded in a simple observation: limit orders are equivalent to a portfolio of cash-or-nothing and asset-or-nothing digital options on market order flow. However, limit orders are not conventional",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "64999",
+    "title": "Notes for a Contingent Claims Theory of Limit Order Markets",
+    "type": "working_paper",
+    "url": "/papers/w11533",
+    "id": "i768l2-sitesearch-entity:node/64999:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/philippe_bacchetta\">Philippe Bacchetta</a>",
+     "<a href=\"/people/scott_j_davis\">J. Scott Davis</a>",
+     "<a href=\"/people/eric_vanwincoop\">Eric van Wincoop</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "September 2024",
+    "abstract": "Recent theories of exchange rate determination have emphasized limited UIP arbitrage by international financial institutions. New regulations since 2008 have also lead to imperfect CIP arbitrage. We show that under limited CIP arbitrage the exchange rate and CIP deviation are jointly determined by",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "924224",
+    "title": "Exchange Rate Determination under Limits to CIP Arbitrage",
+    "type": "working_paper",
+    "url": "/papers/w32876",
+    "id": "i768l2-sitesearch-entity:node/924224:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/bruce_lehmann\">Bruce N. Lehmann</a>",
+     "<a href=\"/people/david_modest\">David M. Modest</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "October 1985",
+    "abstract": "This paper provides a detailed and extensive examination of the validity of the APT based on maximum likelihood factor analysis of large cross-sections of securities. Our empirical implementation of the theory proved in capable of explaining expected returns on portfolios composed of securities with",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "70595",
+    "title": "The Empirical Foundations of the Arbitrage Pricing Theory I: The Empirical Tests",
+    "type": "working_paper",
+    "url": "/papers/w1725",
+    "id": "i768l2-sitesearch-entity:node/70595:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   },
+   {
+    "imageurl": null,
+    "authors": [
+     "<a href=\"/people/evan_gatev\">Evan G. Gatev</a>",
+     "<a href=\"/people/william_goetzmann\">William N. Goetzmann</a>",
+     "<a href=\"/people/geert_rouwenhorst\">K. Geert Rouwenhorst</a>"
+    ],
+    "publisheddate": null,
+    "displaydate": "March 1999",
+    "abstract": "We test a Wall Street investment strategy known as pairs trading' with daily data over the period 1962 through 1997. Stocks are matched into pairs according to minimum distance in historical normalized price space. We test the profitability of several trading rules with six-month trading periods",
+    "newthisweek": false,
+    "certifiedrandom": false,
+    "nid": "85891",
+    "title": "Pairs Trading: Performance of a Relative Value Arbitrage Rule",
+    "type": "working_paper",
+    "url": "/papers/w7032",
+    "id": "i768l2-sitesearch-entity:node/85891:en",
+    "backofficeid": null,
+    "displaytypename": "Working Paper"
+   }
+  ],
+  "facets": [
+   {
+    "endpoint": "/suggest",
+    "values": [
+     {
+      "smallText": "Affiliated Org",
+      "name": "Joshua Aizenman",
+      "id": "authorNames:Joshua Aizenman",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Richard B. Freeman",
+      "id": "authorNames:Richard B. Freeman",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Daron Acemoglu",
+      "id": "authorNames:Daron Acemoglu",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Michael D. Bordo",
+      "id": "authorNames:Michael D. Bordo",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "David Neumark",
+      "id": "authorNames:David Neumark",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Joseph E. Stiglitz",
+      "id": "authorNames:Joseph E. Stiglitz",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "René M. Stulz",
+      "id": "authorNames:René M. Stulz",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Andrei Shleifer",
+      "id": "authorNames:Andrei Shleifer",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Edward L. Glaeser",
+      "id": "authorNames:Edward L. Glaeser",
+      "selected": false
+     },
+     {
+      "smallText": "Affiliated Org",
+      "name": "Olivia S. Mitchell",
+      "id": "authorNames:Olivia S. Mitchell",
+      "selected": false
+     }
+    ],
+    "label": "Author & Editor",
+    "id": "authorNames"
+   },
+   {
+    "endpoint": "/suggest",
+    "values": [
+     {
+      "name": "Gender in the Economy",
+      "id": "projects:Gender in the Economy",
+      "selected": false
+     },
+     {
+      "name": "Healthcare Decision-Making and Outcomes for People Living with Alzheimer's Disease",
+      "id": "projects:Healthcare Decision-Making and Outcomes for People Living with Alzheimer's Disease",
+      "selected": false
+     },
+     {
+      "name": "Training Program in Aging and Health Economics",
+      "id": "projects:Training Program in Aging and Health Economics",
+      "selected": false
+     },
+     {
+      "name": "Center for Aging and Health Research",
+      "id": "projects:Center for Aging and Health Research",
+      "selected": false
+     },
+     {
+      "name": "Economics of Aging Training Program",
+      "id": "projects:Economics of Aging Training Program",
+      "selected": false
+     },
+     {
+      "name": "Economics of Digitization",
+      "id": "projects:Economics of Digitization",
+      "selected": false
+     },
+     {
+      "name": "Integrated Lifecycle Approach to the Development of Health & Other Capabilities",
+      "id": "projects:Integrated Lifecycle Approach to the Development of Health & Other Capabilities",
+      "selected": false
+     },
+     {
+      "name": "Economics of Entrepreneurship and Innovation",
+      "id": "projects:Economics of Entrepreneurship and Innovation",
+      "selected": false
+     },
+     {
+      "name": "Retirement and Disability Research Center",
+      "id": "projects:Retirement and Disability Research Center",
+      "selected": false
+     },
+     {
+      "name": "New Developments in Long-Term Asset Management",
+      "id": "projects:New Developments in Long-Term Asset Management",
+      "selected": false
+     },
+     {
+      "name": "2018-2019 R-DRC",
+      "id": "projects:2018-2019 R-DRC",
+      "selected": false
+     },
+     {
+      "name": "Environmental and Energy Policy and the Economy, 2021-2024",
+      "id": "projects:Environmental and Energy Policy and the Economy%COMMA% 2021-2024",
+      "selected": false
+     },
+     {
+      "name": "The Labor Market in the Aftermath of the Great Recession",
+      "id": "projects:The Labor Market in the Aftermath of the Great Recession",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Business Taxation and Local Fiscal Policy",
+      "id": "projects:CAREER: Business Taxation and Local Fiscal Policy",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Economic Crises and Amplification Mechanisms",
+      "id": "projects:CAREER: Economic Crises and Amplification Mechanisms",
+      "selected": false
+     },
+     {
+      "name": "Moving To Opportunity",
+      "id": "projects:Moving To Opportunity",
+      "selected": false
+     },
+     {
+      "name": "NBER Roybal Center for Behavior Change in Health",
+      "id": "projects:NBER Roybal Center for Behavior Change in Health",
+      "selected": false
+     },
+     {
+      "name": "Determinants of Elderly Health: The Role of Place-Based Factors",
+      "id": "projects:Determinants of Elderly Health: The Role of Place-Based Factors",
+      "selected": false
+     },
+     {
+      "name": "Determinants of Elderly Health: The Role of Place-Based Factors (Continuation)",
+      "id": "projects:Determinants of Elderly Health: The Role of Place-Based Factors (Continuation)",
+      "selected": false
+     },
+     {
+      "name": "CAREER:  The Impact of Expanded Health Insurance Coverage",
+      "id": "projects:CAREER:  The Impact of Expanded Health Insurance Coverage",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Global Capital Flows",
+      "id": "projects:CAREER: Global Capital Flows",
+      "selected": false
+     },
+     {
+      "name": "Determinants of Medical Spending for the Elderly: Insurance, Patients, Providers",
+      "id": "projects:Determinants of Medical Spending for the Elderly: Insurance%COMMA% Patients%COMMA% Providers",
+      "selected": false
+     },
+     {
+      "name": "Digitization",
+      "id": "projects:Digitization",
+      "selected": false
+     },
+     {
+      "name": "Empirical Studies of the Development and Diffusion of Medical Technologies",
+      "id": "projects:Empirical Studies of the Development and Diffusion of Medical Technologies",
+      "selected": false
+     },
+     {
+      "name": "Environmental and Energy Policy and the Economy, 2018-2021",
+      "id": "projects:Environmental and Energy Policy and the Economy%COMMA% 2018-2021",
+      "selected": false
+     },
+     {
+      "name": "Innovation in an Aging Society",
+      "id": "projects:Innovation in an Aging Society",
+      "selected": false
+     },
+     {
+      "name": "Innovative Information Initiative",
+      "id": "projects:Innovative Information Initiative",
+      "selected": false
+     },
+     {
+      "name": "Macroeconomics as Explicitly Aggregated Microeconomics",
+      "id": "projects:Macroeconomics as Explicitly Aggregated Microeconomics",
+      "selected": false
+     },
+     {
+      "name": "NBER Roybal Center for Behavior Change in Health: Pilot Core",
+      "id": "projects:NBER Roybal Center for Behavior Change in Health: Pilot Core",
+      "selected": false
+     },
+     {
+      "name": "Collaborative Research: Macroeconomic Implications of Economic Policy in Imperfectly Competitive Labor Markets",
+      "id": "projects:Collaborative Research: Macroeconomic Implications of Economic Policy in Imperfectly Competitive Labor Markets",
+      "selected": false
+     },
+     {
+      "name": "Expectations and Choice in Macroeconomics: Causal Evidence",
+      "id": "projects:Expectations and Choice in Macroeconomics: Causal Evidence",
+      "selected": false
+     },
+     {
+      "name": "High Skill Immigration in the Global Economy",
+      "id": "projects:High Skill Immigration in the Global Economy",
+      "selected": false
+     },
+     {
+      "name": "Research and Innovation in Agriculture",
+      "id": "projects:Research and Innovation in Agriculture",
+      "selected": false
+     },
+     {
+      "name": "Technology, Automation and Inequality",
+      "id": "projects:Technology%COMMA% Automation and Inequality",
+      "selected": false
+     },
+     {
+      "name": "The Environmental Bias of Trade Policy",
+      "id": "projects:The Environmental Bias of Trade Policy",
+      "selected": false
+     },
+     {
+      "name": "Trade and Labor Market Adjustment",
+      "id": "projects:Trade and Labor Market Adjustment",
+      "selected": false
+     },
+     {
+      "name": "Digital Economics and Artificial Intelligence, 2023-2026",
+      "id": "projects:Digital Economics and Artificial Intelligence%COMMA% 2023-2026",
+      "selected": false
+     },
+     {
+      "name": "Economics of Tax Competition and Business Taxation",
+      "id": "projects:Economics of Tax Competition and Business Taxation",
+      "selected": false
+     },
+     {
+      "name": "Future Directions in Market Design",
+      "id": "projects:Future Directions in Market Design",
+      "selected": false
+     },
+     {
+      "name": "Neoclassical Growth with Long-Term One-Sided Commitment Contracts",
+      "id": "projects:Neoclassical Growth with Long-Term One-Sided Commitment Contracts",
+      "selected": false
+     },
+     {
+      "name": "Parenting Styles within and across Neighborhoods",
+      "id": "projects:Parenting Styles within and across Neighborhoods",
+      "selected": false
+     },
+     {
+      "name": "Place Based Entrepreneurship and Innovation",
+      "id": "projects:Place Based Entrepreneurship and Innovation",
+      "selected": false
+     },
+     {
+      "name": "Risk, Insurance and the Family",
+      "id": "projects:Risk%COMMA% Insurance and the Family",
+      "selected": false
+     },
+     {
+      "name": "The Impact of Consumer Credit Access on Earnings Mobility, Entrepreneurship and Income Inequality",
+      "id": "projects:The Impact of Consumer Credit Access on Earnings Mobility%COMMA% Entrepreneurship and Income Inequality",
+      "selected": false
+     },
+     {
+      "name": "The Transmission from Households to the Real Economy: Evidence from Mortgage and Consumer Credit Markets",
+      "id": "projects:The Transmission from Households to the Real Economy: Evidence from Mortgage and Consumer Credit Markets",
+      "selected": false
+     },
+     {
+      "name": "BIGDATA: IA: Collaborative Research: Understanding the Financial Market Ecosystem",
+      "id": "projects:BIGDATA: IA: Collaborative Research: Understanding the Financial Market Ecosystem",
+      "selected": false
+     },
+     {
+      "name": "Big Data for 21st Century Economic Statistics",
+      "id": "projects:Big Data for 21st Century Economic Statistics",
+      "selected": false
+     },
+     {
+      "name": "Bounds Approaches to Empirical Market Design",
+      "id": "projects:Bounds Approaches to Empirical Market Design",
+      "selected": false
+     },
+     {
+      "name": "CAREER: A Quantitative Analysis of Spatial Inequality and Place-based Policies",
+      "id": "projects:CAREER: A Quantitative Analysis of Spatial Inequality and Place-based Policies",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Macroeconomic Implications of Microeconomic Heterogeneity",
+      "id": "projects:CAREER: Macroeconomic Implications of Microeconomic Heterogeneity",
+      "selected": false
+     },
+     {
+      "name": "CRIW Conference on Measurement of Housing and the Housing Sector, Spring 2026",
+      "id": "projects:CRIW Conference on Measurement of Housing and the Housing Sector%COMMA% Spring 2026",
+      "selected": false
+     },
+     {
+      "name": "Collaborative Research: A Unified Approach to Spatial Economics",
+      "id": "projects:Collaborative Research: A Unified Approach to Spatial Economics",
+      "selected": false
+     },
+     {
+      "name": "Collaborative Research: The Private and Social Returns to R&D in the Age of Offshoring",
+      "id": "projects:Collaborative Research: The Private and Social Returns to R&D in the Age of Offshoring",
+      "selected": false
+     },
+     {
+      "name": "Economic Analysis of Tax Policy 2023",
+      "id": "projects:Economic Analysis of Tax Policy 2023",
+      "selected": false
+     },
+     {
+      "name": "Economic Perspectives on Water Resources, Climate Change, and Agricultural Sustainability",
+      "id": "projects:Economic Perspectives on Water Resources%COMMA% Climate Change%COMMA% and Agricultural Sustainability",
+      "selected": false
+     },
+     {
+      "name": "Gender in the Economy Study Group",
+      "id": "projects:Gender in the Economy Study Group",
+      "selected": false
+     },
+     {
+      "name": "Heterogeneity, Household Behavior, and the Transmission of Aggregate Shocks",
+      "id": "projects:Heterogeneity%COMMA% Household Behavior%COMMA% and the Transmission of Aggregate Shocks",
+      "selected": false
+     },
+     {
+      "name": "Incentives and Limitations of Employment Policies on Retirement Transitions: Comparison of Public and Private Sectors",
+      "id": "projects:Incentives and Limitations of Employment Policies on Retirement Transitions: Comparison of Public and Private Sectors",
+      "selected": false
+     },
+     {
+      "name": "Leakage from Environmental Regulation: Evidence from Used Vehicle Trade and Smog Check",
+      "id": "projects:Leakage from Environmental Regulation: Evidence from Used Vehicle Trade and Smog Check",
+      "selected": false
+     },
+     {
+      "name": "Risks in the Agricultural Supply Chain",
+      "id": "projects:Risks in the Agricultural Supply Chain",
+      "selected": false
+     },
+     {
+      "name": "The International Price System: Macro and Micro Evidence",
+      "id": "projects:The International Price System: Macro and Micro Evidence",
+      "selected": false
+     },
+     {
+      "name": "The Value of Medical Research",
+      "id": "projects:The Value of Medical Research",
+      "selected": false
+     },
+     {
+      "name": "Women Working Longer",
+      "id": "projects:Women Working Longer",
+      "selected": false
+     },
+     {
+      "name": "Aspirations, Inequality and Social Conflict",
+      "id": "projects:Aspirations%COMMA% Inequality and Social Conflict",
+      "selected": false
+     },
+     {
+      "name": "Bilateral Bargaining through the Lens of Big Data",
+      "id": "projects:Bilateral Bargaining through the Lens of Big Data",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Unity in Diversity? Migration, Culture and National Development",
+      "id": "projects:CAREER: Unity in Diversity? Migration%COMMA% Culture and National Development",
+      "selected": false
+     },
+     {
+      "name": "Conference on Research in Income and Wealth",
+      "id": "projects:Conference on Research in Income and Wealth",
+      "selected": false
+     },
+     {
+      "name": "Economics of Digitization, 2020-2023",
+      "id": "projects:Economics of Digitization%COMMA% 2020-2023",
+      "selected": false
+     },
+     {
+      "name": "Estimating Returns to Medical Care",
+      "id": "projects:Estimating Returns to Medical Care",
+      "selected": false
+     },
+     {
+      "name": "Evaluating Macroeconomic Stabilization Policy",
+      "id": "projects:Evaluating Macroeconomic Stabilization Policy",
+      "selected": false
+     },
+     {
+      "name": "Inflation and Welfare with Preference",
+      "id": "projects:Inflation and Welfare with Preference",
+      "selected": false
+     },
+     {
+      "name": "Lessons from Social Security Reform Around the World, 2019-2024",
+      "id": "projects:Lessons from Social Security Reform Around the World%COMMA% 2019-2024",
+      "selected": false
+     },
+     {
+      "name": "Measuring Well-Being and Its Multidimensional Determinants Across Individuals and the Life Course",
+      "id": "projects:Measuring Well-Being and Its Multidimensional Determinants Across Individuals and the Life Course",
+      "selected": false
+     },
+     {
+      "name": "Medicaid, Medicare, and Social Security for Couples and Singles",
+      "id": "projects:Medicaid%COMMA% Medicare%COMMA% and Social Security for Couples and Singles",
+      "selected": false
+     },
+     {
+      "name": "Place Based Policies for Promoting Economic Development: Assessing the Evidence",
+      "id": "projects:Place Based Policies for Promoting Economic Development: Assessing the Evidence",
+      "selected": false
+     },
+     {
+      "name": "Taxation, Taxpayer Behavior and Economic Activity 2018",
+      "id": "projects:Taxation%COMMA% Taxpayer Behavior and Economic Activity 2018",
+      "selected": false
+     },
+     {
+      "name": "Taxation, Taxpayer Behavior, and Economic Activity 2021",
+      "id": "projects:Taxation%COMMA% Taxpayer Behavior%COMMA% and Economic Activity 2021",
+      "selected": false
+     },
+     {
+      "name": "Taxation, Taxpayer Behavior, and Economic Activity 2022",
+      "id": "projects:Taxation%COMMA% Taxpayer Behavior%COMMA% and Economic Activity 2022",
+      "selected": false
+     },
+     {
+      "name": "The Micro and Macro Effects of Supply-Chain Disruptions",
+      "id": "projects:The Micro and Macro Effects of Supply-Chain Disruptions",
+      "selected": false
+     },
+     {
+      "name": "The Rise of Global Supply Chains, Networks, and the Rise of Interruptions: Looking Forward Past COVID-19",
+      "id": "projects:The Rise of Global Supply Chains%COMMA% Networks%COMMA% and the Rise of Interruptions: Looking Forward Past COVID-19",
+      "selected": false
+     },
+     {
+      "name": "The Valuation of Public Debt in the U.S. and Across Countries",
+      "id": "projects:The Valuation of Public Debt in the U.S. and Across Countries",
+      "selected": false
+     },
+     {
+      "name": "Transportation Economics in the 21st Century",
+      "id": "projects:Transportation Economics in the 21st Century",
+      "selected": false
+     },
+     {
+      "name": "Using Subjective Well-Being Data to Monitor Changes in Health and Well-Being",
+      "id": "projects:Using Subjective Well-Being Data to Monitor Changes in Health and Well-Being",
+      "selected": false
+     },
+     {
+      "name": "Wage Dynamics in the 21st Century",
+      "id": "projects:Wage Dynamics in the 21st Century",
+      "selected": false
+     },
+     {
+      "name": "Youth Labor Markets",
+      "id": "projects:Youth Labor Markets",
+      "selected": false
+     },
+     {
+      "name": "2020-21 R-DRC",
+      "id": "projects:2020-21 R-DRC",
+      "selected": false
+     },
+     {
+      "name": "Behavioral Responses to Taxation and Inequality: Evidence from Policy Variation Using Administrative Data",
+      "id": "projects:Behavioral Responses to Taxation and Inequality: Evidence from Policy Variation Using Administrative Data",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Empirical Analysis of Financial Markets Using Auction Data",
+      "id": "projects:CAREER: Empirical Analysis of Financial Markets Using Auction Data",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Empirical Studies of Cities' and Neighborhoods' Influence on Income and Consumption Inequality",
+      "id": "projects:CAREER: Empirical Studies of Cities' and Neighborhoods' Influence on Income and Consumption Inequality",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Empirical Studies of Electricity Markets: The Impacts of Renewable Energy",
+      "id": "projects:CAREER: Empirical Studies of Electricity Markets: The Impacts of Renewable Energy",
+      "selected": false
+     },
+     {
+      "name": "CAREER: Empirical Studies on the Impact of Public Policy and Incentive Design in Insurance for Health-Related Risks",
+      "id": "projects:CAREER: Empirical Studies on the Impact of Public Policy and Incentive Design in Insurance for Health-Related Risks",
+      "selected": false
+     }
+    ],
+    "label": "Projects",
+    "id": "projects"
+   },
+   {
+    "endpoint": "/suggest",
+    "values": [
+     {
+      "name": "Asset Pricing",
+      "id": "programs:Asset Pricing",
+      "selected": false
+     },
+     {
+      "name": "Children and Families",
+      "id": "programs:Children and Families",
+      "selected": false
+     },
+     {
+      "name": "Corporate Finance",
+      "id": "programs:Corporate Finance",
+      "selected": false
+     },
+     {
+      "name": "Development Economics",
+      "id": "programs:Development Economics",
+      "selected": false
+     },
+     {
+      "name": "Development of the American Economy",
+      "id": "programs:Development of the American Economy",
+      "selected": false
+     },
+     {
+      "name": "Economic Fluctuations and Growth",
+      "id": "programs:Economic Fluctuations and Growth",
+      "selected": false
+     },
+     {
+      "name": "Economics of Aging",
+      "id": "programs:Economics of Aging",
+      "selected": false
+     },
+     {
+      "name": "Economics of Education",
+      "id": "programs:Economics of Education",
+      "selected": false
+     },
+     {
+      "name": "Economics of Health",
+      "id": "programs:Economics of Health",
+      "selected": false
+     },
+     {
+      "name": "Environment and Energy Economics",
+      "id": "programs:Environment and Energy Economics",
+      "selected": false
+     },
+     {
+      "name": "Industrial Organization",
+      "id": "programs:Industrial Organization",
+      "selected": false
+     },
+     {
+      "name": "International Finance and Macroeconomics",
+      "id": "programs:International Finance and Macroeconomics",
+      "selected": false
+     },
+     {
+      "name": "International Trade and Investment",
+      "id": "programs:International Trade and Investment",
+      "selected": false
+     },
+     {
+      "name": "Labor Studies",
+      "id": "programs:Labor Studies",
+      "selected": false
+     },
+     {
+      "name": "Law and Economics",
+      "id": "programs:Law and Economics",
+      "selected": false
+     },
+     {
+      "name": "Monetary Economics",
+      "id": "programs:Monetary Economics",
+      "selected": false
+     },
+     {
+      "name": "Political Economy",
+      "id": "programs:Political Economy",
+      "selected": false
+     },
+     {
+      "name": "Productivity, Innovation, and Entrepreneurship",
+      "id": "programs:Productivity%COMMA% Innovation%COMMA% and Entrepreneurship",
+      "selected": false
+     },
+     {
+      "name": "Public Economics",
+      "id": "programs:Public Economics",
+      "selected": false
+     },
+     {
+      "name": "Technical Working Papers",
+      "id": "programs:Technical Working Papers",
+      "selected": false
+     }
+    ],
+    "label": "Programs",
+    "id": "programs"
+   },
+   {
+    "endpoint": "/suggest",
+    "values": [
+     {
+      "name": "Macroeconomics",
+      "id": "topics:Macroeconomics",
+      "selected": false
+     },
+     {
+      "name": "Financial Economics",
+      "id": "topics:Financial Economics",
+      "selected": false
+     },
+     {
+      "name": "Labor Economics",
+      "id": "topics:Labor Economics",
+      "selected": false
+     },
+     {
+      "name": "International Economics",
+      "id": "topics:International Economics",
+      "selected": false
+     },
+     {
+      "name": "Microeconomics",
+      "id": "topics:Microeconomics",
+      "selected": false
+     },
+     {
+      "name": "Health, Education, and Welfare",
+      "id": "topics:Health%COMMA% Education%COMMA% and Welfare",
+      "selected": false
+     },
+     {
+      "name": "Public Economics",
+      "id": "topics:Public Economics",
+      "selected": false
+     },
+     {
+      "name": "Development and Growth",
+      "id": "topics:Development and Growth",
+      "selected": false
+     },
+     {
+      "name": "Industrial Organization",
+      "id": "topics:Industrial Organization",
+      "selected": false
+     },
+     {
+      "name": "Other",
+      "id": "topics:Other",
+      "selected": false
+     },
+     {
+      "name": "Health",
+      "id": "topics:Health",
+      "selected": false
+     },
+     {
+      "name": "Financial Markets",
+      "id": "topics:Financial Markets",
+      "selected": false
+     },
+     {
+      "name": "Labor Supply and Demand",
+      "id": "topics:Labor Supply and Demand",
+      "selected": false
+     },
+     {
+      "name": "Portfolio Selection and Asset Pricing",
+      "id": "topics:Portfolio Selection and Asset Pricing",
+      "selected": false
+     },
+     {
+      "name": "International Finance",
+      "id": "topics:International Finance",
+      "selected": false
+     },
+     {
+      "name": "Financial Institutions",
+      "id": "topics:Financial Institutions",
+      "selected": false
+     },
+     {
+      "name": "Consumption and Investment",
+      "id": "topics:Consumption and Investment",
+      "selected": false
+     },
+     {
+      "name": "Trade",
+      "id": "topics:Trade",
+      "selected": false
+     },
+     {
+      "name": "Demography and Aging",
+      "id": "topics:Demography and Aging",
+      "selected": false
+     },
+     {
+      "name": "Econometrics",
+      "id": "topics:Econometrics",
+      "selected": false
+     },
+     {
+      "name": "Households and Firms",
+      "id": "topics:Households and Firms",
+      "selected": false
+     },
+     {
+      "name": "Business Cycles",
+      "id": "topics:Business Cycles",
+      "selected": false
+     },
+     {
+      "name": "Taxation",
+      "id": "topics:Taxation",
+      "selected": false
+     },
+     {
+      "name": "Development",
+      "id": "topics:Development",
+      "selected": false
+     },
+     {
+      "name": "History",
+      "id": "topics:History",
+      "selected": false
+     },
+     {
+      "name": "Labor Compensation",
+      "id": "topics:Labor Compensation",
+      "selected": false
+     },
+     {
+      "name": "Corporate Finance",
+      "id": "topics:Corporate Finance",
+      "selected": false
+     },
+     {
+      "name": "Education",
+      "id": "topics:Education",
+      "selected": false
+     },
+     {
+      "name": "Money and Interest Rates",
+      "id": "topics:Money and Interest Rates",
+      "selected": false
+     },
+     {
+      "name": "Environmental and Resource Economics",
+      "id": "topics:Environmental and Resource Economics",
+      "selected": false
+     },
+     {
+      "name": "Innovation and R&D",
+      "id": "topics:Innovation and R&D",
+      "selected": false
+     },
+     {
+      "name": "Market Structure and Firm Performance",
+      "id": "topics:Market Structure and Firm Performance",
+      "selected": false
+     },
+     {
+      "name": "Monetary Policy",
+      "id": "topics:Monetary Policy",
+      "selected": false
+     },
+     {
+      "name": "Economics of Information",
+      "id": "topics:Economics of Information",
+      "selected": false
+     },
+     {
+      "name": "Regional and Urban Economics",
+      "id": "topics:Regional and Urban Economics",
+      "selected": false
+     },
+     {
+      "name": "Unemployment and Immigration",
+      "id": "topics:Unemployment and Immigration",
+      "selected": false
+     },
+     {
+      "name": "International Macroeconomics",
+      "id": "topics:International Macroeconomics",
+      "selected": false
+     },
+     {
+      "name": "Estimation Methods",
+      "id": "topics:Estimation Methods",
+      "selected": false
+     },
+     {
+      "name": "National Fiscal Issues",
+      "id": "topics:National Fiscal Issues",
+      "selected": false
+     },
+     {
+      "name": "Law and Economics",
+      "id": "topics:Law and Economics",
+      "selected": false
+     },
+     {
+      "name": "Industry Studies",
+      "id": "topics:Industry Studies",
+      "selected": false
+     },
+     {
+      "name": "Market Structure and Distribution",
+      "id": "topics:Market Structure and Distribution",
+      "selected": false
+     },
+     {
+      "name": "Welfare and Collective Choice",
+      "id": "topics:Welfare and Collective Choice",
+      "selected": false
+     },
+     {
+      "name": "Environment",
+      "id": "topics:Environment",
+      "selected": false
+     },
+     {
+      "name": "International Factor Mobility",
+      "id": "topics:International Factor Mobility",
+      "selected": false
+     },
+     {
+      "name": "Fiscal Policy",
+      "id": "topics:Fiscal Policy",
+      "selected": false
+     },
+     {
+      "name": "Behavioral Economics",
+      "id": "topics:Behavioral Economics",
+      "selected": false
+     },
+     {
+      "name": "Growth and Productivity",
+      "id": "topics:Growth and Productivity",
+      "selected": false
+     },
+     {
+      "name": "Firm Behavior",
+      "id": "topics:Firm Behavior",
+      "selected": false
+     },
+     {
+      "name": "Poverty and Wellbeing",
+      "id": "topics:Poverty and Wellbeing",
+      "selected": false
+     },
+     {
+      "name": "Accounting, Marketing, and Personnel",
+      "id": "topics:Accounting%COMMA% Marketing%COMMA% and Personnel",
+      "selected": false
+     },
+     {
+      "name": "Other History",
+      "id": "topics:Other History",
+      "selected": false
+     },
+     {
+      "name": "Macroeconomic History",
+      "id": "topics:Macroeconomic History",
+      "selected": false
+     },
+     {
+      "name": "Energy",
+      "id": "topics:Energy",
+      "selected": false
+     },
+     {
+      "name": "Labor Market Structures",
+      "id": "topics:Labor Market Structures",
+      "selected": false
+     },
+     {
+      "name": "Subnational Fiscal Issues",
+      "id": "topics:Subnational Fiscal Issues",
+      "selected": false
+     },
+     {
+      "name": "COVID-19",
+      "id": "topics:COVID-19",
+      "selected": false
+     },
+     {
+      "name": "Public Goods",
+      "id": "topics:Public Goods",
+      "selected": false
+     },
+     {
+      "name": "Labor and Health History",
+      "id": "topics:Labor and Health History",
+      "selected": false
+     },
+     {
+      "name": "Regulatory Economics",
+      "id": "topics:Regulatory Economics",
+      "selected": false
+     },
+     {
+      "name": "Experimental Design",
+      "id": "topics:Experimental Design",
+      "selected": false
+     },
+     {
+      "name": "Financial History",
+      "id": "topics:Financial History",
+      "selected": false
+     },
+     {
+      "name": "Real Estate",
+      "id": "topics:Real Estate",
+      "selected": false
+     },
+     {
+      "name": "Regional Economics",
+      "id": "topics:Regional Economics",
+      "selected": false
+     },
+     {
+      "name": "Globalization and International Relations",
+      "id": "topics:Globalization and International Relations",
+      "selected": false
+     },
+     {
+      "name": "Economic Systems",
+      "id": "topics:Economic Systems",
+      "selected": false
+     },
+     {
+      "name": "Labor Discrimination",
+      "id": "topics:Labor Discrimination",
+      "selected": false
+     },
+     {
+      "name": "Macroeconomic Models",
+      "id": "topics:Macroeconomic Models",
+      "selected": false
+     },
+     {
+      "name": "Country Studies",
+      "id": "topics:Country Studies",
+      "selected": false
+     },
+     {
+      "name": "General Equilibrium",
+      "id": "topics:General Equilibrium",
+      "selected": false
+     },
+     {
+      "name": "Culture",
+      "id": "topics:Culture",
+      "selected": false
+     },
+     {
+      "name": "Antitrust",
+      "id": "topics:Antitrust",
+      "selected": false
+     },
+     {
+      "name": "Behavioral Finance",
+      "id": "topics:Behavioral Finance",
+      "selected": false
+     },
+     {
+      "name": "Agriculture",
+      "id": "topics:Agriculture",
+      "selected": false
+     },
+     {
+      "name": "Game Theory",
+      "id": "topics:Game Theory",
+      "selected": false
+     },
+     {
+      "name": "Data Collection",
+      "id": "topics:Data Collection",
+      "selected": false
+     },
+     {
+      "name": "Labor Relations",
+      "id": "topics:Labor Relations",
+      "selected": false
+     },
+     {
+      "name": "Mathematical Tools",
+      "id": "topics:Mathematical Tools",
+      "selected": false
+     },
+     {
+      "name": "Renewable Resources",
+      "id": "topics:Renewable Resources",
+      "selected": false
+     },
+     {
+      "name": "Nonprofits",
+      "id": "topics:Nonprofits",
+      "selected": false
+     },
+     {
+      "name": "General, Teaching",
+      "id": "topics:General%COMMA% Teaching",
+      "selected": false
+     },
+     {
+      "name": "History of Economic Thought",
+      "id": "topics:History of Economic Thought",
+      "selected": false
+     }
+    ],
+    "label": "Topics",
+    "id": "topics"
+   },
+   {
+    "endpoint": "/suggest",
+    "values": [
+     {
+      "name": "Behavioral Finance",
+      "id": "groups:Behavioral Finance",
+      "selected": false
+     },
+     {
+      "name": "Chinese Economy",
+      "id": "groups:Chinese Economy",
+      "selected": false
+     },
+     {
+      "name": "Cohort Studies",
+      "id": "groups:Cohort Studies",
+      "selected": false
+     },
+     {
+      "name": "Economics of Crime",
+      "id": "groups:Economics of Crime",
+      "selected": false
+     },
+     {
+      "name": "Economics of National Security",
+      "id": "groups:Economics of National Security",
+      "selected": false
+     },
+     {
+      "name": "Entrepreneurship",
+      "id": "groups:Entrepreneurship",
+      "selected": false
+     },
+     {
+      "name": "Gender in the Economy",
+      "id": "groups:Gender in the Economy",
+      "selected": false
+     },
+     {
+      "name": "Household Finance",
+      "id": "groups:Household Finance",
+      "selected": false
+     },
+     {
+      "name": "India",
+      "id": "groups:India",
+      "selected": false
+     },
+     {
+      "name": "Innovation Policy",
+      "id": "groups:Innovation Policy",
+      "selected": false
+     },
+     {
+      "name": "Insurance",
+      "id": "groups:Insurance",
+      "selected": false
+     },
+     {
+      "name": "Market Design",
+      "id": "groups:Market Design",
+      "selected": false
+     },
+     {
+      "name": "Organizational Economics",
+      "id": "groups:Organizational Economics",
+      "selected": false
+     },
+     {
+      "name": "Personnel Economics",
+      "id": "groups:Personnel Economics",
+      "selected": false
+     },
+     {
+      "name": "Race and Stratification in the Economy",
+      "id": "groups:Race and Stratification in the Economy",
+      "selected": false
+     },
+     {
+      "name": "Risks of Financial Institutions",
+      "id": "groups:Risks of Financial Institutions",
+      "selected": false
+     },
+     {
+      "name": "Urban Economics",
+      "id": "groups:Urban Economics",
+      "selected": false
+     }
+    ],
+    "label": "Working Groups",
+    "id": "groups"
+   }
+  ],
+  "suggestion": null
+ }
+}

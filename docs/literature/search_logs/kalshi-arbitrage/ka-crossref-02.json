@@ -1,0 +1,693 @@
+{
+ "query_id": "ka-crossref-02",
+ "protocol_query_id": "ka-crossref-02",
+ "arm": "topical",
+ "platform": "crossref",
+ "url": "https://api.crossref.org/works?query.bibliographic=coherence+probability+prices+mutually+exclusive+exhaustive+outcomes+sum+to+one&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": 2329830,
+ "retrieved_count": 20,
+ "retry_suffix": null,
+ "raw": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 2329830,
+   "items": [
+    {
+     "DOI": "10.1016/0083-6656(93)90062-o",
+     "title": [
+      "Sum-over-paths extension of the notion of exhaustive set of mutually exclusive events"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1993,
+        1
+       ]
+      ]
+     },
+     "container-title": [
+      "Vistas in Astronomy"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Norifumi",
+       "family": "Yamada",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Shin",
+       "family": "Takagi",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.2307/2553697",
+     "title": [
+      "On Mutually Exclusive and Collectively Exhaustive Properties of Demand Functions"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1981,
+        11
+       ]
+      ]
+     },
+     "container-title": [
+      "Economica"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Malachy",
+       "family": "Carey",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/j.oceaneng.2021.110172",
+     "title": [
+      "Generating an ensemble of mutually exclusive and exhaustive waves targeted for extreme responses"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2022,
+        1
+       ]
+      ]
+     },
+     "container-title": [
+      "Ocean Engineering"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0000-0003-0323-2096",
+       "authenticated-orcid": false,
+       "given": "H.C.",
+       "family": "Seyffert",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.53829/ntr202003tp1",
+     "title": [
+      "Promoting Communication with Digital Transformation and Applying Mutually Exclusive and Collectively Exhaustive Principle"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2020,
+        3
+       ]
+      ]
+     },
+     "container-title": [
+      "NTT Technical Review"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Atsuko",
+       "family": "Oka",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "NTT Corporation"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1007/bf00708957",
+     "title": [
+      "Mutually exclusive and exhaustive quantum states"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1976,
+        4
+       ]
+      ]
+     },
+     "container-title": [
+      "Foundations of Physics"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "James L.",
+       "family": "Park",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "William",
+       "family": "Band",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/j.asoc.2017.04.055",
+     "title": [
+      "Mutually-exclusive-and-collectively-exhaustive feature selection scheme"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        7
+       ]
+      ]
+     },
+     "container-title": [
+      "Applied Soft Computing"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Chia-Yen",
+       "family": "Lee",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Bo-Syun",
+       "family": "Chen",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/0004-3702(92)90072-6",
+     "title": [
+      "Bayesian updating: On the interpretation of exhaustive and mutually exclusive assumptions"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1992,
+        2
+       ]
+      ]
+     },
+     "container-title": [
+      "Artificial Intelligence"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "F.C.",
+       "family": "Lam",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "W.K.",
+       "family": "Yeap",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1109/date.2011.5763224",
+     "title": [
+      "Optimisation of mutually exclusive arithmetic sum-of-products"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2011,
+        3
+       ]
+      ]
+     },
+     "container-title": [
+      "2011 Design, Automation &amp; Test in Europe"
+     ],
+     "type": "proceedings-article",
+     "author": [
+      {
+       "given": "T",
+       "family": "Drane",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "G",
+       "family": "Constantinides",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1016/j.procir.2015.07.077",
+     "title": [
+      "Using Functional Metrics to Facilitate Designing Collectively Exhaustive Mutually Exclusive Systems in the Context of Managing Return on Investment"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2015
+       ]
+      ]
+     },
+     "container-title": [
+      "Procedia CIRP"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Richard",
+       "family": "Henley",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1007/springerreference_2005",
+     "title": [
+      "Mutually Exclusive Projects"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "SpringerReference"
+     ],
+     "type": "reference-entry"
+    },
+    {
+     "DOI": "10.1109/mpul.2018.2866355",
+     "title": [
+      "AI and Clinicians: Not a Mutually Exclusive Zero-Sum Game"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        9
+       ]
+      ]
+     },
+     "container-title": [
+      "IEEE Pulse"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Kyongtae Ty",
+       "family": "Bae",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.4064/fm-6-1-189-202",
+     "title": [
+      "Concerning the sum of a countable number of mutually exclusive continua in the plane"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1924
+       ]
+      ]
+     },
+     "container-title": [
+      "Fundamenta Mathematicae"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "R.",
+       "family": "Moore",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1007/bf01475482",
+     "title": [
+      "Concerning the sum of a countable infinity of mutually exclusive continua"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        1927,
+        12
+       ]
+      ]
+     },
+     "container-title": [
+      "Mathematische Zeitschrift"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "John Robert",
+       "family": "Kline",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.1007/springerreference_2004",
+     "title": [
+      "Mutually Exclusive Investment Decisions"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "container-title": [
+      "SpringerReference"
+     ],
+     "type": "reference-entry"
+    },
+    {
+     "DOI": "10.17816/kmj684956-4387147",
+     "title": [
+      "6. Matrix of concomitant and mutually exclusive gene mutations. [n] — the frequency of mutations in the gene; ° — mutually exclusive mutations; • — concomitant mutations."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.17816/kmj684956-4396707",
+     "title": [
+      "Fig. 6. Matrix of co-occurring and mutually exclusive gene mutations. [n], mutation frequency in the gene; °, mutually exclusive mutations; •, co-occurring mutations."
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        null
+       ]
+      ]
+     },
+     "type": "component"
+    },
+    {
+     "DOI": "10.1371/journal.pone.0038765",
+     "title": [
+      "Detecting Mutually Exclusive Interactions in Protein-Protein Interaction Maps"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2012,
+        6,
+        8
+       ]
+      ]
+     },
+     "container-title": [
+      "PLoS ONE"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Carmen",
+       "family": "Sánchez Claros",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      },
+      {
+       "given": "Anna",
+       "family": "Tramontano",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.59704/2081b9981d6d1cb0",
+     "title": [
+      "Exclusive Does Not Mean Exhaustive"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2025,
+        12,
+        22
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "ORCID": "https://orcid.org/0009-0008-5014-3479",
+       "authenticated-orcid": false,
+       "given": "Tristan",
+       "family": "Radtke",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "id": [
+          {
+           "id": "https://ror.org/02kkvpp62",
+           "id-type": "ROR",
+           "asserted-by": "publisher"
+          }
+         ],
+         "name": "Technical University of Munich, DE"
+        }
+       ],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>“[The author] shall […] provide the publisher with the exclusive right of reproduction and distribution (publishing right).” – This provision, set out in § 8 of the German Publishers’ Rights Act outlines the common practice for publishing an article in a journal, not only in Germany, but in many other countries too. What appears to mark the end of the author’s control over their article, is arguably just the beginning.</jats:p>"
+    },
+    {
+     "DOI": "10.2139/ssrn.6360878",
+     "title": [
+      "Green Arbitration and Artificial Intelligence: Mutually Supportive or Mutually Exclusive?"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2026
+       ]
+      ]
+     },
+     "type": "posted-content",
+     "author": [
+      {
+       "given": "S.I.",
+       "family": "Strong",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>Beginning in 2019, the international arbitral community decided to take steps to reduce the environmental impact of international commercial and investment arbitration. Over the next few years, more than 1750 law firms, arbitral institutions, and arbitrators signed the Green Pledge, which outlined various steps signatories intended to take to promote environmentally sustainable practices in cross-border proceedings.&amp;nbsp; \n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n As successful as these efforts were, problems arose in 2023 with the advent of artificial intelligence (AI). As AI has improved, so, too, has the risk of digital replicas (deepfakes) being introduced into evidence. Several of the key recommendations of the Green Pledge make it easier, rather than harder, for unethical parties to use deepfake technology, increasing the likelihood that parties will return to environmentally problematic practices simply to ensure procedural fairness in their arbitrations.&amp;nbsp;&lt;span&gt;This chapter considers whether and to what extent green arbitration can survive in the AI era. Given the unreliability of AIdetection tools, the discussion focuses on procedural remedies that allow litigants to adopt pro-environmental practices without sacrificing the quality of their arbitral proceedings. In so doing, this chapter hopes to inspire similar innovations in both domestic arbitration and in judicial proceedings.&lt;/span&gt;\n &lt;br&gt;\n&lt;/div&gt;</jats:p>"
+    },
+    {
+     "DOI": "10.1016/j.ausmj.2009.12.001",
+     "title": [
+      "Correcting the Illogicality in Probability Data of Mutually Exclusive Behaviours"
+     ],
+     "issued": {
+      "date-parts": [
+       [
+        2010,
+        5
+       ]
+      ]
+     },
+     "container-title": [
+      "Australasian Marketing Journal"
+     ],
+     "type": "journal-article",
+     "author": [
+      {
+       "given": "Mathew",
+       "family": "Parackal",
+       "sequence": "first",
+       "affiliation": [
+        {
+         "name": "Department of Marketing, School of Business, University of Otago, P.O. Box 56, Dunedin, New Zealand"
+        }
+       ],
+       "role": [
+        {
+         "role": "author",
+         "vocabulary": "crossref"
+        }
+       ]
+      }
+     ],
+     "abstract": "<jats:p>One application of the Verbal Probability Scale (VPS) that has immense value to marketers is its use in estimating market shares and customer preferences of mutually exclusive offerings. The literature on this application reveals illogicality in the data produced with the scale. Researchers have corrected the illogicality by employing a weighting technique. This technique enables the logical interpretation of data, albeit with certain ramification on the estimates. The current study investigated the extent to which the ramification affected the estimates. Comparisons were made between the weighted means produced on VPS with the means produced on a Constant Sum Scale (CSS), a scale that controls for illogical assignment of scores. The results showed that the weighted means were comparable to that produced on CSS for a set of mutually exclusive mobile phone payment plans. The paper discusses the implications of the results and future research needed for developing this particular application.</jats:p>"
+    }
+   ],
+   "items-per-page": 20,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

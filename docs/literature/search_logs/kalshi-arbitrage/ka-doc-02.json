@@ -1,0 +1,720 @@
+{
+ "query_id": "ka-doc-02",
+ "protocol_query_id": "ka-doc-02",
+ "arm": "documentation-S7",
+ "platform": "doc",
+ "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=event%20contracts&conditions%5Bagencies%5D%5B%5D=commodity-futures-trading-commission&per_page=100&order=newest&fields%5B%5D=title&fields%5B%5D=document_number&fields%5B%5D=publication_date&fields%5B%5D=html_url&fields%5B%5D=type",
+ "date_executed": "2026-09-02",
+ "http_status": 200,
+ "total_hits": null,
+ "retrieved_count": null,
+ "retry_suffix": null,
+ "raw": {
+  "description": "Documents matching 'event contracts' and from Commodity Futures Trading Commission",
+  "count": 570,
+  "total_pages": 6,
+  "next_page_url": "https://www.federalregister.gov/api/v1/documents?conditions%5Bagencies%5D%5B%5D=commodity-futures-trading-commission&conditions%5Bterm%5D=event+contracts&fields%5B%5D=title&fields%5B%5D=document_number&fields%5B%5D=publication_date&fields%5B%5D=html_url&fields%5B%5D=type&format=json&order=newest&page=2&per_page=100",
+  "results": [
+   {
+    "title": "Conflicts and Affiliations",
+    "document_number": "2026-15948",
+    "publication_date": "2026-08-06",
+    "html_url": "https://www.federalregister.gov/documents/2026/08/06/2026-15948/conflicts-and-affiliations",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Order Sunsetting Certain Large Trader Reporting Requirements for Physical Commodity Swaps",
+    "document_number": "2026-14710",
+    "publication_date": "2026-07-21",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/21/2026-14710/order-sunsetting-certain-large-trader-reporting-requirements-for-physical-commodity-swaps",
+    "type": "Rule"
+   },
+   {
+    "title": "Renewal of the Agricultural Advisory Committee",
+    "document_number": "2026-14575",
+    "publication_date": "2026-07-20",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/20/2026-14575/renewal-of-the-agricultural-advisory-committee",
+    "type": "Notice"
+   },
+   {
+    "title": "Margin Requirements for Uncleared Swaps for Swap Dealers and Major Swap Participants",
+    "document_number": "2026-14509",
+    "publication_date": "2026-07-17",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/17/2026-14509/margin-requirements-for-uncleared-swaps-for-swap-dealers-and-major-swap-participants",
+    "type": "Rule"
+   },
+   {
+    "title": "Data Reporting Requirements for Certain Event Contracts",
+    "document_number": "2026-13239",
+    "publication_date": "2026-07-01",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/01/2026-13239/data-reporting-requirements-for-certain-event-contracts",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Request for Comment on the Extension of Standard Futures Contracts to 24/7 Trading and on Perpetual Contracts Referencing Physically Delivered or Storable Energy Commodities",
+    "document_number": "2026-12784",
+    "publication_date": "2026-06-25",
+    "html_url": "https://www.federalregister.gov/documents/2026/06/25/2026-12784/request-for-comment-on-the-extension-of-standard-futures-contracts-to-247-trading-and-on-perpetual",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Joint Request for Comment on Further Definition of “Swap” and “Security-Based Swap” and on Alternative Compliance",
+    "document_number": "2026-12743",
+    "publication_date": "2026-06-24",
+    "html_url": "https://www.federalregister.gov/documents/2026/06/24/2026-12743/joint-request-for-comment-on-further-definition-of-swap-and-security-based-swap-and-on-alternative",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Joint Request for Comment on Swap and Security-Based Swap Data Reporting",
+    "document_number": "2026-12742",
+    "publication_date": "2026-06-24",
+    "html_url": "https://www.federalregister.gov/documents/2026/06/24/2026-12742/joint-request-for-comment-on-swap-and-security-based-swap-data-reporting",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Whistleblower Award Determination",
+    "document_number": "2026-12006",
+    "publication_date": "2026-06-15",
+    "html_url": "https://www.federalregister.gov/documents/2026/06/15/2026-12006/whistleblower-award-determination",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Prediction Markets; Public Interest Determinations",
+    "document_number": "2026-11854",
+    "publication_date": "2026-06-12",
+    "html_url": "https://www.federalregister.gov/documents/2026/06/12/2026-11854/prediction-markets-public-interest-determinations",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Rescission of Policy Relating to the Acceptance of Settlements in Administrative and Civil Proceedings",
+    "document_number": "2026-11466",
+    "publication_date": "2026-06-08",
+    "html_url": "https://www.federalregister.gov/documents/2026/06/08/2026-11466/rescission-of-policy-relating-to-the-acceptance-of-settlements-in-administrative-and-civil",
+    "type": "Rule"
+   },
+   {
+    "title": "Order Granting Conditional Substituted Compliance in Connection With Certain Capital and Financial Reporting Requirements Applicable to a Nonbank Swap Dealer Domiciled in the French Republic and Subject to the European Union's Investment Firms Regulation and Investment Firms Directive",
+    "document_number": "2026-09693",
+    "publication_date": "2026-05-14",
+    "html_url": "https://www.federalregister.gov/documents/2026/05/14/2026-09693/order-granting-conditional-substituted-compliance-in-connection-with-certain-capital-and-financial",
+    "type": "Rule"
+   },
+   {
+    "title": "Clearing Requirement Determination Under Section 2(h) of the Commodity Exchange Act for Interest Rate Swaps to Account for CAD and MXN Interest Rate Benchmark Transitions",
+    "document_number": "2026-09428",
+    "publication_date": "2026-05-12",
+    "html_url": "https://www.federalregister.gov/documents/2026/05/12/2026-09428/clearing-requirement-determination-under-section-2h-of-the-commodity-exchange-act-for-interest-rate",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Privacy Act of 1974; System of Records",
+    "document_number": "2026-08978",
+    "publication_date": "2026-05-06",
+    "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08978/privacy-act-of-1974-system-of-records",
+    "type": "Notice"
+   },
+   {
+    "title": "Review of the Commitments of Traders Reporting Program",
+    "document_number": "2026-08743",
+    "publication_date": "2026-05-05",
+    "html_url": "https://www.federalregister.gov/documents/2026/05/05/2026-08743/review-of-the-commitments-of-traders-reporting-program",
+    "type": "Notice"
+   },
+   {
+    "title": "Form PF; Reporting Requirements for All Filers",
+    "document_number": "2026-07993",
+    "publication_date": "2026-04-24",
+    "html_url": "https://www.federalregister.gov/documents/2026/04/24/2026-07993/form-pf-reporting-requirements-for-all-filers",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Order Providing Exemptive Relief To Facilitate Cross-Margining of Customer Positions Cleared at Chicago Mercantile Exchange, Inc. and Fixed Income Clearing Corporation",
+    "document_number": "2026-07643",
+    "publication_date": "2026-04-20",
+    "html_url": "https://www.federalregister.gov/documents/2026/04/20/2026-07643/order-providing-exemptive-relief-to-facilitate-cross-margining-of-customer-positions-cleared-at",
+    "type": "Rule"
+   },
+   {
+    "title": "Application of the Federal Securities Laws to Certain Types of Crypto Assets and Certain Transactions Involving Crypto Assets",
+    "document_number": "2026-05635",
+    "publication_date": "2026-03-23",
+    "html_url": "https://www.federalregister.gov/documents/2026/03/23/2026-05635/application-of-the-federal-securities-laws-to-certain-types-of-crypto-assets-and-certain",
+    "type": "Rule"
+   },
+   {
+    "title": "Prediction Markets",
+    "document_number": "2026-05105",
+    "publication_date": "2026-03-16",
+    "html_url": "https://www.federalregister.gov/documents/2026/03/16/2026-05105/prediction-markets",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Event Contracts; Withdrawal of Proposed Regulatory Action",
+    "document_number": "2026-02454",
+    "publication_date": "2026-02-06",
+    "html_url": "https://www.federalregister.gov/documents/2026/02/06/2026-02454/event-contracts-withdrawal-of-proposed-regulatory-action",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Revisions to Business Conduct and Swap Documentation Requirements for Swap Dealers and Major Swap Participants",
+    "document_number": "2025-23953",
+    "publication_date": "2025-12-30",
+    "html_url": "https://www.federalregister.gov/documents/2025/12/30/2025-23953/revisions-to-business-conduct-and-swap-documentation-requirements-for-swap-dealers-and-major-swap",
+    "type": "Rule"
+   },
+   {
+    "title": "Proposal To Provide Exemptive Relief To Facilitate Cross-Margining of Customer Positions Cleared at Chicago Mercantile Exchange, Inc. and Fixed Income Clearing Corporation",
+    "document_number": "2025-23150",
+    "publication_date": "2025-12-17",
+    "html_url": "https://www.federalregister.gov/documents/2025/12/17/2025-23150/proposal-to-provide-exemptive-relief-to-facilitate-cross-margining-of-customer-positions-cleared-at",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Order of the Commodity Futures Trading Commission Relating to the Continuation, Shutdown, and Resumption of Certain Commission Operations in the Event of a Lapse in Appropriations",
+    "document_number": "2025-19319",
+    "publication_date": "2025-10-02",
+    "html_url": "https://www.federalregister.gov/documents/2025/10/02/2025-19319/order-of-the-commodity-futures-trading-commission-relating-to-the-continuation-shutdown-and",
+    "type": "Rule"
+   },
+   {
+    "title": "Revisions to Business Conduct and Swap Documentation Requirements for Swap Dealers and Major Swap Participants",
+    "document_number": "2025-18924",
+    "publication_date": "2025-09-30",
+    "html_url": "https://www.federalregister.gov/documents/2025/09/30/2025-18924/revisions-to-business-conduct-and-swap-documentation-requirements-for-swap-dealers-and-major-swap",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Agency Information Collection Activities: Notice of Intent To Extend Collection 3038-0052: Core Principles & Other Requirements for DCMs",
+    "document_number": "2025-13539",
+    "publication_date": "2025-07-18",
+    "html_url": "https://www.federalregister.gov/documents/2025/07/18/2025-13539/agency-information-collection-activities-notice-of-intent-to-extend-collection-3038-0052-core",
+    "type": "Notice"
+   },
+   {
+    "title": "Agency Information Collection Activities: Notice of Intent To Extend Collection 3038-0052: Core Principles & Other Requirements for Designated Contract Markets",
+    "document_number": "2025-08073",
+    "publication_date": "2025-05-08",
+    "html_url": "https://www.federalregister.gov/documents/2025/05/08/2025-08073/agency-information-collection-activities-notice-of-intent-to-extend-collection-3038-0052-core",
+    "type": "Notice"
+   },
+   {
+    "title": "Regulations To Address Margin Adequacy and To Account for the Treatment of Separate Accounts by Futures Commission Merchants",
+    "document_number": "2024-31177",
+    "publication_date": "2025-01-22",
+    "html_url": "https://www.federalregister.gov/documents/2025/01/22/2024-31177/regulations-to-address-margin-adequacy-and-to-account-for-the-treatment-of-separate-accounts-by",
+    "type": "Rule"
+   },
+   {
+    "title": "Investment of Customer Funds by Futures Commission Merchants and Derivatives Clearing Organizations",
+    "document_number": "2024-30927",
+    "publication_date": "2025-01-22",
+    "html_url": "https://www.federalregister.gov/documents/2025/01/22/2024-30927/investment-of-customer-funds-by-futures-commission-merchants-and-derivatives-clearing-organizations",
+    "type": "Rule"
+   },
+   {
+    "title": "Provisions Common to Registered Entities",
+    "document_number": "2024-24388",
+    "publication_date": "2024-11-07",
+    "html_url": "https://www.federalregister.gov/documents/2024/11/07/2024-24388/provisions-common-to-registered-entities",
+    "type": "Rule"
+   },
+   {
+    "title": "Commission Guidance Regarding the Listing of Voluntary Carbon Credit Derivative Contracts",
+    "document_number": "2024-23105",
+    "publication_date": "2024-10-15",
+    "html_url": "https://www.federalregister.gov/documents/2024/10/15/2024-23105/commission-guidance-regarding-the-listing-of-voluntary-carbon-credit-derivative-contracts",
+    "type": "Rule"
+   },
+   {
+    "title": "Commodity Pool Operators, Commodity Trading Advisors, and Commodity Pools Operated: Updating the `Qualified Eligible Person' Definition; Adding Minimum Disclosure Requirements for Pools and Trading Programs; Permitting Monthly Account Statements for Funds of Funds; Technical Amendments",
+    "document_number": "2024-21682",
+    "publication_date": "2024-09-26",
+    "html_url": "https://www.federalregister.gov/documents/2024/09/26/2024-21682/commodity-pool-operators-commodity-trading-advisors-and-commodity-pools-operated-updating-the",
+    "type": "Rule"
+   },
+   {
+    "title": "Sunshine Act Meetings",
+    "document_number": "2024-21398",
+    "publication_date": "2024-09-18",
+    "html_url": "https://www.federalregister.gov/documents/2024/09/18/2024-21398/sunshine-act-meetings",
+    "type": "Notice"
+   },
+   {
+    "title": "Incorporation of Changes in the Commission's Administrative Structure, Remove Superfluous Verbiage, and Correct Inaccurate Text",
+    "document_number": "2024-18445",
+    "publication_date": "2024-09-04",
+    "html_url": "https://www.federalregister.gov/documents/2024/09/04/2024-18445/incorporation-of-changes-in-the-commissions-administrative-structure-remove-superfluous-verbiage-and",
+    "type": "Rule"
+   },
+   {
+    "title": "Agency Information Collection Activities Under OMB Review",
+    "document_number": "2024-19214",
+    "publication_date": "2024-08-27",
+    "html_url": "https://www.federalregister.gov/documents/2024/08/27/2024-19214/agency-information-collection-activities-under-omb-review",
+    "type": "Notice"
+   },
+   {
+    "title": "Foreign Boards of Trade",
+    "document_number": "2024-17828",
+    "publication_date": "2024-08-15",
+    "html_url": "https://www.federalregister.gov/documents/2024/08/15/2024-17828/foreign-boards-of-trade",
+    "type": "Rule"
+   },
+   {
+    "title": "Order Granting Conditional Substituted Compliance in Connection With Certain Capital and Financial Reporting Requirements Applicable to Nonbank Swap Dealers Domiciled in the French Republic and Federal Republic of Germany and Subject to Regulation in the European Union",
+    "document_number": "2024-15095",
+    "publication_date": "2024-07-18",
+    "html_url": "https://www.federalregister.gov/documents/2024/07/18/2024-15095/order-granting-conditional-substituted-compliance-in-connection-with-certain-capital-and-financial",
+    "type": "Rule"
+   },
+   {
+    "title": "Order Granting Conditional Substituted Compliance in Connection With Certain Capital and Financial Reporting Requirements Applicable to Nonbank Swap Dealers Subject to Regulation by the United Kingdom Prudential Regulation Authority",
+    "document_number": "2024-15094",
+    "publication_date": "2024-07-18",
+    "html_url": "https://www.federalregister.gov/documents/2024/07/18/2024-15094/order-granting-conditional-substituted-compliance-in-connection-with-certain-capital-and-financial",
+    "type": "Rule"
+   },
+   {
+    "title": "Order Granting Conditional Substituted Compliance in Connection With Certain Capital and Financial Reporting Requirements Applicable to Nonbank Swap Dealer Subject to Regulation by the Mexican Comision Nacional Bancaria y de Valores and Banco de Mexico",
+    "document_number": "2024-15093",
+    "publication_date": "2024-07-18",
+    "html_url": "https://www.federalregister.gov/documents/2024/07/18/2024-15093/order-granting-conditional-substituted-compliance-in-connection-with-certain-capital-and-financial",
+    "type": "Rule"
+   },
+   {
+    "title": "Order Granting Conditional Substituted Compliance in Connection With Certain Capital and Financial Reporting Requirements Applicable to Nonbank Swap Dealers Subject to Regulation by the Financial Services Agency of Japan",
+    "document_number": "2024-15092",
+    "publication_date": "2024-07-18",
+    "html_url": "https://www.federalregister.gov/documents/2024/07/18/2024-15092/order-granting-conditional-substituted-compliance-in-connection-with-certain-capital-and-financial",
+    "type": "Rule"
+   },
+   {
+    "title": "Event Contracts",
+    "document_number": "2024-14610",
+    "publication_date": "2024-07-05",
+    "html_url": "https://www.federalregister.gov/documents/2024/07/05/2024-14610/event-contracts",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Sunshine Act Meetings",
+    "document_number": "2024-13744",
+    "publication_date": "2024-06-21",
+    "html_url": "https://www.federalregister.gov/documents/2024/06/21/2024-13744/sunshine-act-meetings",
+    "type": "Notice"
+   },
+   {
+    "title": "Agency Information Collection Activities: Notice of Intent To Extend Collection 3038-0021, Regulations Governing Bankruptcies of Commodity Brokers",
+    "document_number": "2024-13254",
+    "publication_date": "2024-06-17",
+    "html_url": "https://www.federalregister.gov/documents/2024/06/17/2024-13254/agency-information-collection-activities-notice-of-intent-to-extend-collection-3038-0021-regulations",
+    "type": "Notice"
+   },
+   {
+    "title": "Event Contracts",
+    "document_number": "2024-12125",
+    "publication_date": "2024-06-10",
+    "html_url": "https://www.federalregister.gov/documents/2024/06/10/2024-12125/event-contracts",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Large Trader Reporting Requirements",
+    "document_number": "2024-11798",
+    "publication_date": "2024-06-03",
+    "html_url": "https://www.federalregister.gov/documents/2024/06/03/2024-11798/large-trader-reporting-requirements",
+    "type": "Rule"
+   },
+   {
+    "title": "Capital and Financial Reporting Requirements for Swap Dealers and Major Swap Participants",
+    "document_number": "2024-10342",
+    "publication_date": "2024-05-23",
+    "html_url": "https://www.federalregister.gov/documents/2024/05/23/2024-10342/capital-and-financial-reporting-requirements-for-swap-dealers-and-major-swap-participants",
+    "type": "Rule"
+   },
+   {
+    "title": "Sunshine Act Meetings",
+    "document_number": "2024-10120",
+    "publication_date": "2024-05-08",
+    "html_url": "https://www.federalregister.gov/documents/2024/05/08/2024-10120/sunshine-act-meetings",
+    "type": "Notice"
+   },
+   {
+    "title": "Swap Confirmation Requirements for Swap Execution Facilities",
+    "document_number": "2024-09368",
+    "publication_date": "2024-05-01",
+    "html_url": "https://www.federalregister.gov/documents/2024/05/01/2024-09368/swap-confirmation-requirements-for-swap-execution-facilities",
+    "type": "Rule"
+   },
+   {
+    "title": "Requirements for Designated Contract Markets and Swap Execution Facilities Regarding Governance and the Mitigation of Conflicts of Interest Impacting Market Regulation Functions",
+    "document_number": "2024-04938",
+    "publication_date": "2024-03-19",
+    "html_url": "https://www.federalregister.gov/documents/2024/03/19/2024-04938/requirements-for-designated-contract-markets-and-swap-execution-facilities-regarding-governance-and",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Form PF; Reporting Requirements for All Filers and Large Hedge Fund Advisers",
+    "document_number": "2024-03473",
+    "publication_date": "2024-03-12",
+    "html_url": "https://www.federalregister.gov/documents/2024/03/12/2024-03473/form-pf-reporting-requirements-for-all-filers-and-large-hedge-fund-advisers",
+    "type": "Rule"
+   },
+   {
+    "title": "Foreign Boards of Trade",
+    "document_number": "2024-04117",
+    "publication_date": "2024-03-01",
+    "html_url": "https://www.federalregister.gov/documents/2024/03/01/2024-04117/foreign-boards-of-trade",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Regulations To Address Margin Adequacy and To Account for the Treatment of Separate Accounts by Futures Commission Merchants",
+    "document_number": "2024-04107",
+    "publication_date": "2024-03-01",
+    "html_url": "https://www.federalregister.gov/documents/2024/03/01/2024-04107/regulations-to-address-margin-adequacy-and-to-account-for-the-treatment-of-separate-accounts-by",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Sunshine Act Meetings",
+    "document_number": "2024-02997",
+    "publication_date": "2024-02-13",
+    "html_url": "https://www.federalregister.gov/documents/2024/02/13/2024-02997/sunshine-act-meetings",
+    "type": "Notice"
+   },
+   {
+    "title": "Notice of Proposed Order and Request for Comment on an Application for a Capital Comparability Determination Submitted on Behalf of Nonbank Swap Dealers Subject to Capital and Financial Reporting Requirements of the United Kingdom and Regulated by the United Kingdom Prudential Regulation Authority",
+    "document_number": "2024-02070",
+    "publication_date": "2024-02-05",
+    "html_url": "https://www.federalregister.gov/documents/2024/02/05/2024-02070/notice-of-proposed-order-and-request-for-comment-on-an-application-for-a-capital-comparability",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Operational Resilience Framework for Futures Commission Merchants, Swap Dealers, and Major Swap Participants",
+    "document_number": "2023-28745",
+    "publication_date": "2024-01-24",
+    "html_url": "https://www.federalregister.gov/documents/2024/01/24/2023-28745/operational-resilience-framework-for-futures-commission-merchants-swap-dealers-and-major-swap",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Sunshine Act Meetings",
+    "document_number": "2024-00943",
+    "publication_date": "2024-01-17",
+    "html_url": "https://www.federalregister.gov/documents/2024/01/17/2024-00943/sunshine-act-meetings",
+    "type": "Notice"
+   },
+   {
+    "title": "Capital and Financial Reporting Requirements for Swap Dealers and Major Swap Participants",
+    "document_number": "2023-28649",
+    "publication_date": "2024-01-16",
+    "html_url": "https://www.federalregister.gov/documents/2024/01/16/2023-28649/capital-and-financial-reporting-requirements-for-swap-dealers-and-major-swap-participants",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Protection of Clearing Member Funds Held by Derivatives Clearing Organizations",
+    "document_number": "2023-28767",
+    "publication_date": "2024-01-03",
+    "html_url": "https://www.federalregister.gov/documents/2024/01/03/2023-28767/protection-of-clearing-member-funds-held-by-derivatives-clearing-organizations",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Real-Time Public Reporting Requirements and Swap Data Recordkeeping and Reporting Requirements",
+    "document_number": "2023-28350",
+    "publication_date": "2023-12-28",
+    "html_url": "https://www.federalregister.gov/documents/2023/12/28/2023-28350/real-time-public-reporting-requirements-and-swap-data-recordkeeping-and-reporting-requirements",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Commission Guidance Regarding the Listing of Voluntary Carbon Credit Derivative Contracts; Request for Comment",
+    "document_number": "2023-28532",
+    "publication_date": "2023-12-27",
+    "html_url": "https://www.federalregister.gov/documents/2023/12/27/2023-28532/commission-guidance-regarding-the-listing-of-voluntary-carbon-credit-derivative-contracts-request",
+    "type": "Notice"
+   },
+   {
+    "title": "Agency Information Collection Activities Under OMB Review",
+    "document_number": "2023-28243",
+    "publication_date": "2023-12-22",
+    "html_url": "https://www.federalregister.gov/documents/2023/12/22/2023-28243/agency-information-collection-activities-under-omb-review",
+    "type": "Notice"
+   },
+   {
+    "title": "Investment of Customer Funds by Futures Commission Merchants and Derivatives Clearing Organizations",
+    "document_number": "2023-24774",
+    "publication_date": "2023-11-21",
+    "html_url": "https://www.federalregister.gov/documents/2023/11/21/2023-24774/investment-of-customer-funds-by-futures-commission-merchants-and-derivatives-clearing-organizations",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Agency Information Collection Activities: Notice of Intent To Extend Collection 3038-0062: Off-Exchange Foreign Currency Transactions",
+    "document_number": "2023-22748",
+    "publication_date": "2023-10-16",
+    "html_url": "https://www.federalregister.gov/documents/2023/10/16/2023-22748/agency-information-collection-activities-notice-of-intent-to-extend-collection-3038-0062",
+    "type": "Notice"
+   },
+   {
+    "title": "Commodity Pool Operators, Commodity Trading Advisors, and Commodity Pools: Updating the `Qualified Eligible Person' Definition; Adding Minimum Disclosure Requirements for Pools and Trading Programs; Permitting Monthly Account Statements for Funds of Funds; Technical Amendments",
+    "document_number": "2023-22324",
+    "publication_date": "2023-10-12",
+    "html_url": "https://www.federalregister.gov/documents/2023/10/12/2023-22324/commodity-pool-operators-commodity-trading-advisors-and-commodity-pools-updating-the-qualified",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Provisions Common to Registered Entities",
+    "document_number": "2023-18694",
+    "publication_date": "2023-09-06",
+    "html_url": "https://www.federalregister.gov/documents/2023/09/06/2023-18694/provisions-common-to-registered-entities",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Swap Confirmation Requirements for Swap Execution Facilities",
+    "document_number": "2023-17747",
+    "publication_date": "2023-08-25",
+    "html_url": "https://www.federalregister.gov/documents/2023/08/25/2023-17747/swap-confirmation-requirements-for-swap-execution-facilities",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Reporting and Information Requirements for Derivatives Clearing Organizations",
+    "document_number": "2023-16591",
+    "publication_date": "2023-08-08",
+    "html_url": "https://www.federalregister.gov/documents/2023/08/08/2023-16591/reporting-and-information-requirements-for-derivatives-clearing-organizations",
+    "type": "Rule"
+   },
+   {
+    "title": "Margin Requirements for Uncleared Swaps for Swap Dealers and Major Swap Participants",
+    "document_number": "2023-16572",
+    "publication_date": "2023-08-08",
+    "html_url": "https://www.federalregister.gov/documents/2023/08/08/2023-16572/margin-requirements-for-uncleared-swaps-for-swap-dealers-and-major-swap-participants",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Derivatives Clearing Organizations Recovery and Orderly Wind-Down Plans; Information for Resolution Planning",
+    "document_number": "2023-14457",
+    "publication_date": "2023-07-28",
+    "html_url": "https://www.federalregister.gov/documents/2023/07/28/2023-14457/derivatives-clearing-organizations-recovery-and-orderly-wind-down-plans-information-for-resolution",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Risk Management Program Regulations for Swap Dealers, Major Swap Participants, and Futures Commission Merchants",
+    "document_number": "2023-15056",
+    "publication_date": "2023-07-18",
+    "html_url": "https://www.federalregister.gov/documents/2023/07/18/2023-15056/risk-management-program-regulations-for-swap-dealers-major-swap-participants-and-futures-commission",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Governance Requirements for Derivatives Clearing Organizations",
+    "document_number": "2023-14361",
+    "publication_date": "2023-07-13",
+    "html_url": "https://www.federalregister.gov/documents/2023/07/13/2023-14361/governance-requirements-for-derivatives-clearing-organizations",
+    "type": "Rule"
+   },
+   {
+    "title": "Large Trader Reporting Requirements",
+    "document_number": "2023-13459",
+    "publication_date": "2023-06-27",
+    "html_url": "https://www.federalregister.gov/documents/2023/06/27/2023-13459/large-trader-reporting-requirements",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Notice of Proposed Order and Request for Comment on an Application for a Capital Comparability Determination Submitted on Behalf of Nonbank Swap Dealers Domiciled in the French Republic and Federal Republic of Germany and Subject to Capital and Financial Reporting Requirements of the European Union",
+    "document_number": "2023-13446",
+    "publication_date": "2023-06-27",
+    "html_url": "https://www.federalregister.gov/documents/2023/06/27/2023-13446/notice-of-proposed-order-and-request-for-comment-on-an-application-for-a-capital-comparability",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Sunshine Act Meetings",
+    "document_number": "2023-13350",
+    "publication_date": "2023-06-22",
+    "html_url": "https://www.federalregister.gov/documents/2023/06/22/2023-13350/sunshine-act-meetings",
+    "type": "Notice"
+   },
+   {
+    "title": "Derivatives Clearing Organization Risk Management Regulations To Account for the Treatment of Separate Accounts by Futures Commission Merchants",
+    "document_number": "2023-06248",
+    "publication_date": "2023-04-14",
+    "html_url": "https://www.federalregister.gov/documents/2023/04/14/2023-06248/derivatives-clearing-organization-risk-management-regulations-to-account-for-the-treatment-of",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Reporting and Information Requirements for Derivatives Clearing Organizations",
+    "document_number": "2022-26849",
+    "publication_date": "2022-12-15",
+    "html_url": "https://www.federalregister.gov/documents/2022/12/15/2022-26849/reporting-and-information-requirements-for-derivatives-clearing-organizations",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Notice of Proposed Order and Request for Comment on an Application for a Capital Comparability Determination Submitted on Behalf of Nonbank Swap Dealers Subject to Regulation by the Mexican Comision Nacional Bancaria y de Valores",
+    "document_number": "2022-26758",
+    "publication_date": "2022-12-13",
+    "html_url": "https://www.federalregister.gov/documents/2022/12/13/2022-26758/notice-of-proposed-order-and-request-for-comment-on-an-application-for-a-capital-comparability",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Form PF; Reporting Requirements for All Filers and Large Hedge Fund Advisers",
+    "document_number": "2022-17724",
+    "publication_date": "2022-09-01",
+    "html_url": "https://www.federalregister.gov/documents/2022/09/01/2022-17724/form-pf-reporting-requirements-for-all-filers-and-large-hedge-fund-advisers",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Clearing Requirement Determination Under Section 2(h) of the Commodity Exchange Act for Interest Rate Swaps To Account for the Transition From LIBOR and Other IBORs to Alternative Reference Rates",
+    "document_number": "2022-17736",
+    "publication_date": "2022-08-24",
+    "html_url": "https://www.federalregister.gov/documents/2022/08/24/2022-17736/clearing-requirement-determination-under-section-2h-of-the-commodity-exchange-act-for-interest-rate",
+    "type": "Rule"
+   },
+   {
+    "title": "Governance Requirements for Derivatives Clearing Organizations",
+    "document_number": "2022-16683",
+    "publication_date": "2022-08-11",
+    "html_url": "https://www.federalregister.gov/documents/2022/08/11/2022-16683/governance-requirements-for-derivatives-clearing-organizations",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Notice of Proposed Order and Request for Comment on an Application for a Capital Comparability Determination From the Financial Services Agency of Japan",
+    "document_number": "2022-16684",
+    "publication_date": "2022-08-08",
+    "html_url": "https://www.federalregister.gov/documents/2022/08/08/2022-16684/notice-of-proposed-order-and-request-for-comment-on-an-application-for-a-capital-comparability",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Agency Information Collection Activities Under OMB Review",
+    "document_number": "2022-14088",
+    "publication_date": "2022-07-01",
+    "html_url": "https://www.federalregister.gov/documents/2022/07/01/2022-14088/agency-information-collection-activities-under-omb-review",
+    "type": "Notice"
+   },
+   {
+    "title": "Request for Information on Climate-Related Financial Risk",
+    "document_number": "2022-12302",
+    "publication_date": "2022-06-08",
+    "html_url": "https://www.federalregister.gov/documents/2022/06/08/2022-12302/request-for-information-on-climate-related-financial-risk",
+    "type": "Notice"
+   },
+   {
+    "title": "Clearing Requirement Determination Under Section 2(h) of the Commodity Exchange Act for Interest Rate Swaps To Account for the Transition From LIBOR and Other IBORs to Alternative Reference Rates",
+    "document_number": "2022-10490",
+    "publication_date": "2022-05-31",
+    "html_url": "https://www.federalregister.gov/documents/2022/05/31/2022-10490/clearing-requirement-determination-under-section-2h-of-the-commodity-exchange-act-for-interest-rate",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Agency Information Collection Activities: Notice of Intent To Extend Collection 3038-0052: Core Principles & Other Requirements for DCMs",
+    "document_number": "2022-09014",
+    "publication_date": "2022-04-28",
+    "html_url": "https://www.federalregister.gov/documents/2022/04/28/2022-09014/agency-information-collection-activities-notice-of-intent-to-extend-collection-3038-0052-core",
+    "type": "Notice"
+   },
+   {
+    "title": "Swap Clearing Requirement To Account for the Transition From LIBOR and Other IBORs to Alternative Reference Rates",
+    "document_number": "2021-25450",
+    "publication_date": "2021-11-23",
+    "html_url": "https://www.federalregister.gov/documents/2021/11/23/2021-25450/swap-clearing-requirement-to-account-for-the-transition-from-libor-and-other-ibors-to-alternative",
+    "type": "Proposed Rule"
+   },
+   {
+    "title": "Changing Position Title of Judgment Officer to Administrative Judge",
+    "document_number": "2021-24449",
+    "publication_date": "2021-11-18",
+    "html_url": "https://www.federalregister.gov/documents/2021/11/18/2021-24449/changing-position-title-of-judgment-officer-to-administrative-judge",
+    "type": "Rule"
+   },
+   {
+    "title": "Bankruptcy Regulations",
+    "document_number": "2020-28300",
+    "publication_date": "2021-04-13",
+    "html_url": "https://www.federalregister.gov/documents/2021/04/13/2020-28300/bankruptcy-regulations",
+    "type": "Rule"
+   },
+   {
+    "title": "Swap Execution Facilities",
+    "document_number": "2020-28944",
+    "publication_date": "2021-02-11",
+    "html_url": "https://www.federalregister.gov/documents/2021/02/11/2020-28944/swap-execution-facilities",
+    "type": "Rule"
+   },
+   {
+    "title": "Position Limits for Derivatives",
+    "document_number": "2020-25332",
+    "publication_date": "2021-01-14",
+    "html_url": "https://www.federalregister.gov/documents/2021/01/14/2020-25332/position-limits-for-derivatives",
+    "type": "Rule"
+   },
+   {
+    "title": "Electronic Trading Risk Principles",
+    "document_number": "2020-27622",
+    "publication_date": "2021-01-11",
+    "html_url": "https://www.federalregister.gov/documents/2021/01/11/2020-27622/electronic-trading-risk-principles",
+    "type": "Rule"
+   },
+   {
+    "title": "Exemption From Derivatives Clearing Organization Registration",
+    "document_number": "2020-26527",
+    "publication_date": "2021-01-07",
+    "html_url": "https://www.federalregister.gov/documents/2021/01/07/2020-26527/exemption-from-derivatives-clearing-organization-registration",
+    "type": "Rule"
+   },
+   {
+    "title": "Margin Requirements for Uncleared Swaps for Swap Dealers and Major Swap Participants",
+    "document_number": "2020-27736",
+    "publication_date": "2021-01-05",
+    "html_url": "https://www.federalregister.gov/documents/2021/01/05/2020-27736/margin-requirements-for-uncleared-swaps-for-swap-dealers-and-major-swap-participants",
+    "type": "Rule"
+   },
+   {
+    "title": "Portfolio Reconciliation Requirements for Swap Dealers and Major Swap Participants-Revision of “Material Terms” Definition",
+    "document_number": "2020-26536",
+    "publication_date": "2021-01-05",
+    "html_url": "https://www.federalregister.gov/documents/2021/01/05/2020-26536/portfolio-reconciliation-requirements-for-swap-dealers-and-major-swap-participants-revision-of",
+    "type": "Rule"
+   },
+   {
+    "title": "Agency Information Collection Activities Under OMB Review",
+    "document_number": "2020-28711",
+    "publication_date": "2020-12-29",
+    "html_url": "https://www.federalregister.gov/documents/2020/12/29/2020-28711/agency-information-collection-activities-under-omb-review",
+    "type": "Notice"
+   },
+   {
+    "title": "Swap Execution Facility Requirements",
+    "document_number": "2020-26555",
+    "publication_date": "2020-12-18",
+    "html_url": "https://www.federalregister.gov/documents/2020/12/18/2020-26555/swap-execution-facility-requirements",
+    "type": "Rule"
+   },
+   {
+    "title": "Exemption From Registration for Certain Foreign Intermediaries",
+    "document_number": "2020-23810",
+    "publication_date": "2020-12-07",
+    "html_url": "https://www.federalregister.gov/documents/2020/12/07/2020-23810/exemption-from-registration-for-certain-foreign-intermediaries",
+    "type": "Rule"
+   },
+   {
+    "title": "Swap Clearing Requirement Exemptions",
+    "document_number": "2020-25394",
+    "publication_date": "2020-11-30",
+    "html_url": "https://www.federalregister.gov/documents/2020/11/30/2020-25394/swap-clearing-requirement-exemptions",
+    "type": "Rule"
+   },
+   {
+    "title": "Certain Swap Data Repository and Data Reporting Requirements",
+    "document_number": "2020-21570",
+    "publication_date": "2020-11-25",
+    "html_url": "https://www.federalregister.gov/documents/2020/11/25/2020-21570/certain-swap-data-repository-and-data-reporting-requirements",
+    "type": "Rule"
+   },
+   {
+    "title": "Swap Data Recordkeeping and Reporting Requirements",
+    "document_number": "2020-21569",
+    "publication_date": "2020-11-25",
+    "html_url": "https://www.federalregister.gov/documents/2020/11/25/2020-21569/swap-data-recordkeeping-and-reporting-requirements",
+    "type": "Rule"
+   },
+   {
+    "title": "Real-Time Public Reporting Requirements",
+    "document_number": "2020-21568",
+    "publication_date": "2020-11-25",
+    "html_url": "https://www.federalregister.gov/documents/2020/11/25/2020-21568/real-time-public-reporting-requirements",
+    "type": "Rule"
+   }
+  ]
+ }
+}

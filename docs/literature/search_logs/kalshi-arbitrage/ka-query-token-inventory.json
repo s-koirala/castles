@@ -1,0 +1,195 @@
+{
+ "date": "2026-09-02",
+ "finding": [
+  "QUANT-2-1",
+  "LITERATURE-2-1"
+ ],
+ "method": "percent-decode each fenced topical query block, map \"+\" to space, case-fold, then substring-test each token. present_raw_literal is the round-1 test, retained so the defect is visible and not merely asserted.",
+ "n_blocks_record": 45,
+ "n_blocks_protocol_frozen": 35,
+ "note_on_counts": "the record carries the 35 frozen topical queries plus 10 retry re-issues (ka-s2-0{1..4}-b, -c and ka-repec-0{1,2}-supp); the protocol carries the 35 frozen queries only",
+ "tokens_over_record_blocks": {
+  "parimutuel": {
+   "present_decoded": [],
+   "present_raw_literal": []
+  },
+  "pari-mutuel": {
+   "present_decoded": [],
+   "present_raw_literal": []
+  },
+  "pari mutuel": {
+   "present_decoded": [],
+   "present_raw_literal": []
+  },
+  "dealer": {
+   "present_decoded": [],
+   "present_raw_literal": []
+  },
+  "specialist": {
+   "present_decoded": [],
+   "present_raw_literal": []
+  },
+  "limit order": {
+   "present_decoded": [
+    "ka-crossref-07"
+   ],
+   "present_raw_literal": []
+  },
+  "order book": {
+   "present_decoded": [
+    "ka-crossref-07"
+   ],
+   "present_raw_literal": []
+  },
+  "inventory risk": {
+   "present_decoded": [
+    "ka-crossref-07",
+    "ka-openalex-06",
+    "ka-s2-02",
+    "ka-s2-02-b",
+    "ka-s2-02-c"
+   ],
+   "present_raw_literal": []
+  },
+  "market making": {
+   "present_decoded": [
+    "ka-arxiv-03",
+    "ka-crossref-07",
+    "ka-crossref-13",
+    "ka-openalex-06",
+    "ka-s2-02",
+    "ka-s2-02-b",
+    "ka-s2-02-c"
+   ],
+   "present_raw_literal": []
+  },
+  "betting market": {
+   "present_decoded": [
+    "ka-crossref-05",
+    "ka-crossref-15",
+    "ka-nber-02"
+   ],
+   "present_raw_literal": []
+  },
+  "market maker": {
+   "present_decoded": [
+    "ka-arxiv-02",
+    "ka-crossref-08",
+    "ka-openalex-03"
+   ],
+   "present_raw_literal": []
+  },
+  "binary option": {
+   "present_decoded": [
+    "ka-arxiv-05",
+    "ka-crossref-11"
+   ],
+   "present_raw_literal": []
+  },
+  "event contract": {
+   "present_decoded": [
+    "ka-crossref-06",
+    "ka-crossref-10",
+    "ka-crossref-12",
+    "ka-crossref-14",
+    "ka-crossref-15",
+    "ka-openalex-05",
+    "ka-s2-02",
+    "ka-s2-02-b",
+    "ka-s2-02-c",
+    "ka-s2-04",
+    "ka-s2-04-b",
+    "ka-s2-04-c"
+   ],
+   "present_raw_literal": []
+  }
+ },
+ "tokens_over_frozen_protocol_blocks": {
+  "parimutuel": {
+   "present_decoded": [],
+   "present_raw_literal": []
+  },
+  "pari-mutuel": {
+   "present_decoded": [],
+   "present_raw_literal": []
+  },
+  "pari mutuel": {
+   "present_decoded": [],
+   "present_raw_literal": []
+  },
+  "dealer": {
+   "present_decoded": [],
+   "present_raw_literal": []
+  },
+  "specialist": {
+   "present_decoded": [],
+   "present_raw_literal": []
+  },
+  "limit order": {
+   "present_decoded": [
+    "ka-crossref-07"
+   ],
+   "present_raw_literal": []
+  },
+  "order book": {
+   "present_decoded": [
+    "ka-crossref-07"
+   ],
+   "present_raw_literal": []
+  },
+  "inventory risk": {
+   "present_decoded": [
+    "ka-crossref-07",
+    "ka-openalex-06",
+    "ka-s2-02"
+   ],
+   "present_raw_literal": []
+  },
+  "market making": {
+   "present_decoded": [
+    "ka-arxiv-03",
+    "ka-crossref-07",
+    "ka-crossref-13",
+    "ka-openalex-06",
+    "ka-s2-02"
+   ],
+   "present_raw_literal": []
+  },
+  "betting market": {
+   "present_decoded": [
+    "ka-crossref-05",
+    "ka-crossref-15",
+    "ka-nber-02"
+   ],
+   "present_raw_literal": []
+  },
+  "market maker": {
+   "present_decoded": [
+    "ka-arxiv-02",
+    "ka-crossref-08",
+    "ka-openalex-03"
+   ],
+   "present_raw_literal": []
+  },
+  "binary option": {
+   "present_decoded": [
+    "ka-arxiv-05",
+    "ka-crossref-11"
+   ],
+   "present_raw_literal": []
+  },
+  "event contract": {
+   "present_decoded": [
+    "ka-crossref-06",
+    "ka-crossref-10",
+    "ka-crossref-12",
+    "ka-crossref-14",
+    "ka-crossref-15",
+    "ka-openalex-05",
+    "ka-s2-02",
+    "ka-s2-04"
+   ],
+   "present_raw_literal": []
+  }
+ }
+}
