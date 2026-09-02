@@ -249,11 +249,16 @@ having been run, not on work performed this session.
     report. The original item name is retained by that file, so the rename above
     costs no coverage.
 
-- [ ] Final commit via /commit-with-provenance --role=multi
+- [x] Final commit via /commit-with-provenance --role=multi
   - state: All Thread A-D artifacts committed with Repro-Log-Path,
     Repro-Log-SHA256 and AI-Assistance trailers.
-  - check: `git log -1` shows the three trailers; `git status --short` shows no
-    untracked tracked-class artifact.
+  - check: PASSED 2026-09-02 — commit `3183f44ca6c7b19baf65c93736e4c99f114d5fcb`,
+    192 files, carries Repro-Log-Path, Repro-Log-SHA256
+    (`0263d322275dd555…`, digest verified against the on-disk bytes) and
+    AI-Assistance trailers. No untracked tracked-class artifact remains.
+    The delivery ReproLog's pip-freeze archive was written in BINARY mode with LF
+    bytes and its digest re-verified by reading the file back, after the
+    text-mode/CRLF defect earlier in this session.
 
 # Delegation
 
