@@ -1,0 +1,804 @@
+{
+  "check": "protocol-doicheck",
+  "protocol": "docs/methodology/protocol_kalshi-arbitrage-review_2026-09-02.md",
+  "date_checked": "2026-09-02",
+  "resolver": "DOI Handle System REST API (doi.org/api/handles)",
+  "metadata_source": "Crossref REST API (api.crossref.org/works/{doi})",
+  "n_checked": 29,
+  "n_responseCode_1": 29,
+  "records": [
+    {
+      "doi": "10.1186/2046-4053-4-1",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement",
+        "container-title": "Systematic Reviews",
+        "issued": [
+          2015,
+          1,
+          1
+        ],
+        "volume": "4",
+        "issue": "1",
+        "page": null,
+        "authors": [
+          null,
+          "Moher",
+          "Shamseer",
+          "Clarke",
+          "Ghersi",
+          "Liberati",
+          "Petticrew",
+          "Shekelle",
+          "Stewart"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1136/bmj.n71",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
+        "container-title": "BMJ",
+        "issued": [
+          2021,
+          3,
+          29
+        ],
+        "volume": null,
+        "issue": null,
+        "page": "n71",
+        "authors": [
+          "Page",
+          "McKenzie",
+          "Bossuyt",
+          "Boutron",
+          "Hoffmann",
+          "Mulrow",
+          "Shamseer",
+          "Tetzlaff",
+          "Akl",
+          "Brennan",
+          "Chou",
+          "Glanville",
+          "Grimshaw",
+          "Hróbjartsson",
+          "Lalu",
+          "Li",
+          "Loder",
+          "Mayo-Wilson",
+          "McDonald",
+          "McGuinness",
+          "Stewart",
+          "Thomas",
+          "Tricco",
+          "Welch",
+          "Whiting",
+          "Moher"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1371/journal.pmed.1003583",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "The PRISMA 2020 statement: An updated guideline for reporting systematic reviews",
+        "container-title": "PLOS Medicine",
+        "issued": [
+          2021,
+          3,
+          29
+        ],
+        "volume": "18",
+        "issue": "3",
+        "page": "e1003583",
+        "authors": [
+          "Page",
+          "McKenzie",
+          "Bossuyt",
+          "Boutron",
+          "Hoffmann",
+          "Mulrow",
+          "Shamseer",
+          "Tetzlaff",
+          "Akl",
+          "Brennan",
+          "Chou",
+          "Glanville",
+          "Grimshaw",
+          "Hróbjartsson",
+          "Lalu",
+          "Li",
+          "Loder",
+          "Mayo-Wilson",
+          "McDonald",
+          "McGuinness",
+          "Stewart",
+          "Thomas",
+          "Tricco",
+          "Welch",
+          "Whiting",
+          "Moher"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1186/s13643-020-01542-z",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews",
+        "container-title": "Systematic Reviews",
+        "issued": [
+          2021,
+          1,
+          26
+        ],
+        "volume": "10",
+        "issue": "1",
+        "page": null,
+        "authors": [
+          "Rethlefsen",
+          "Kirtley",
+          "Waffenschmidt",
+          "Ayala",
+          "Moher",
+          "Page",
+          "Koffel",
+          null,
+          "Blunt",
+          "Brigham",
+          "Chang",
+          "Clark",
+          "Conway",
+          "Couban",
+          "de Kock",
+          "Farrah",
+          "Fehrmann",
+          "Foster",
+          "Fowler",
+          "Glanville",
+          "Harris",
+          "Hoffecker",
+          "Isojarvi",
+          "Kaunelis",
+          "Ket",
+          "Levay",
+          "Lyon",
+          "McGowan",
+          "Murad",
+          "Nicholson",
+          "Pannabecker",
+          "Paynter",
+          "Pinotti",
+          "Ross-White",
+          "Sampson",
+          "Shields",
+          "Stevens",
+          "Sutton",
+          "Weinfurter",
+          "Wright",
+          "Young"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1016/j.jclinepi.2016.01.021",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "PRESS Peer Review of Electronic Search Strategies: 2015 Guideline Statement",
+        "container-title": "Journal of Clinical Epidemiology",
+        "issued": [
+          2016,
+          7
+        ],
+        "volume": "75",
+        "issue": null,
+        "page": "40-46",
+        "authors": [
+          "McGowan",
+          "Sampson",
+          "Salzwedel",
+          "Cogo",
+          "Foerster",
+          "Lefebvre"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1038/sdata.2016.18",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+        "container-title": "Scientific Data",
+        "issued": [
+          2016,
+          3,
+          15
+        ],
+        "volume": "3",
+        "issue": "1",
+        "page": null,
+        "authors": [
+          "Wilkinson",
+          "Dumontier",
+          "Aalbersberg",
+          "Appleton",
+          "Axton",
+          "Baak",
+          "Blomberg",
+          "Boiten",
+          "da Silva Santos",
+          "Bourne",
+          "Bouwman",
+          "Brookes",
+          "Clark",
+          "Crosas",
+          "Dillo",
+          "Dumon",
+          "Edmunds",
+          "Evelo",
+          "Finkers",
+          "Gonzalez-Beltran",
+          "Gray",
+          "Groth",
+          "Goble",
+          "Grethe",
+          "Heringa",
+          "’t Hoen",
+          "Hooft",
+          "Kuhn",
+          "Kok",
+          "Kok",
+          "Lusher",
+          "Martone",
+          "Mons",
+          "Packer",
+          "Persson",
+          "Rocca-Serra",
+          "Roos",
+          "van Schaik",
+          "Sansone",
+          "Schultes",
+          "Sengstag",
+          "Slater",
+          "Strawn",
+          "Swertz",
+          "Thompson",
+          "van der Lei",
+          "van Mulligen",
+          "Velterop",
+          "Waagmeester",
+          "Wittenburg",
+          "Wolstencroft",
+          "Zhao",
+          "Mons"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1371/journal.pone.0163309",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Reproducibility of Search Strategies Is Poor in Systematic Reviews Published in High-Impact Pediatrics, Cardiology and Surgery Journals: A Cross-Sectional Study",
+        "container-title": "PLOS ONE",
+        "issued": [
+          2016,
+          9,
+          26
+        ],
+        "volume": "11",
+        "issue": "9",
+        "page": "e0163309",
+        "authors": [
+          "Koffel",
+          "Rethlefsen"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1016/0304-405X(85)90044-3",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Bid, ask and transaction prices in a specialist market with heterogeneously informed traders",
+        "container-title": "Journal of Financial Economics",
+        "issued": [
+          1985,
+          3
+        ],
+        "volume": "14",
+        "issue": "1",
+        "page": "71-100",
+        "authors": [
+          "Glosten",
+          "Milgrom"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1016/0304-405X(81)90020-9",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Optimal dealer pricing under transactions and return uncertainty",
+        "container-title": "Journal of Financial Economics",
+        "issued": [
+          1981,
+          3
+        ],
+        "volume": "9",
+        "issue": "1",
+        "page": "47-73",
+        "authors": [
+          "Ho",
+          "Stoll"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.2307/1913210",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Continuous Auctions and Insider Trading",
+        "container-title": "Econometrica",
+        "issued": [
+          1985,
+          11
+        ],
+        "volume": "53",
+        "issue": "6",
+        "page": "1315",
+        "authors": [
+          "Kyle"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1080/14697680701381228",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "High-frequency trading in a limit order book",
+        "container-title": "Quantitative Finance",
+        "issued": [
+          2008,
+          4
+        ],
+        "volume": "8",
+        "issue": "3",
+        "page": "217-224",
+        "authors": [
+          "Avellaneda",
+          "Stoikov"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1007/s11579-012-0087-0",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Dealing with the inventory risk: a solution to the market making problem",
+        "container-title": "Mathematics and Financial Economics",
+        "issued": [
+          2012,
+          9,
+          4
+        ],
+        "volume": "7",
+        "issue": "4",
+        "page": "477-507",
+        "authors": [
+          "Guéant",
+          "Lehalle",
+          "Fernandez-Tapia"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1023/A:1022058209073",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Combinatorial Information Market Design",
+        "container-title": "Information Systems Frontiers",
+        "issued": [
+          2003,
+          1
+        ],
+        "volume": "5",
+        "issue": "1",
+        "page": "107-119",
+        "authors": [
+          "Hanson"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.5750/jpm.v1i1.417",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "LOGARITHMIC MARKETS CORING RULES FOR MODULAR COMBINATORIAL INFORMATION AGGREGATION",
+        "container-title": "The Journal of Prediction Markets",
+        "issued": [
+          2012,
+          12,
+          13
+        ],
+        "volume": "1",
+        "issue": "1",
+        "page": "3-15",
+        "authors": [
+          "Hanson"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1145/2465769.2465777",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Efficient Market Making via Convex Optimization, and a Connection to Online Learning",
+        "container-title": "ACM Transactions on Economics and Computation",
+        "issued": [
+          2013,
+          5
+        ],
+        "volume": "1",
+        "issue": "2",
+        "page": "1-39",
+        "authors": [
+          "Abernethy",
+          "Chen",
+          "Vaughan"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1145/2509413.2509414",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "A Practical Liquidity-Sensitive Automated Market Maker",
+        "container-title": "ACM Transactions on Economics and Computation",
+        "issued": [
+          2013,
+          9
+        ],
+        "volume": "1",
+        "issue": "3",
+        "page": "1-25",
+        "authors": [
+          "Othman",
+          "Pennock",
+          "Reeves",
+          "Sandholm"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1145/2940716.2940767",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Arbitrage-Free Combinatorial Market Making via Integer Programming",
+        "container-title": "Proceedings of the 2016 ACM Conference on Economics and Computation",
+        "issued": [
+          2016,
+          7,
+          21
+        ],
+        "volume": null,
+        "issue": null,
+        "page": "161-178",
+        "authors": [
+          "Kroer",
+          "Dudík",
+          "Lahaie",
+          "Balakrishnan"
+        ],
+        "type": "proceedings-article"
+      }
+    },
+    {
+      "doi": "10.1257/jep.2.2.161",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Anomalies: Parimutuel Betting Markets: Racetracks and Lotteries",
+        "container-title": "Journal of Economic Perspectives",
+        "issued": [
+          1988,
+          5,
+          1
+        ],
+        "volume": "2",
+        "issue": "2",
+        "page": "161-174",
+        "authors": [
+          "Thaler",
+          "Ziemba"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1086/655844",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Explaining the Favorite–Long Shot Bias: Is it Risk-Love or Misperceptions?",
+        "container-title": "Journal of Political Economy",
+        "issued": [
+          2010,
+          8
+        ],
+        "volume": "118",
+        "issue": "4",
+        "page": "723-746",
+        "authors": [
+          "Snowberg",
+          "Wolfers"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1257/mic.2.1.58",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Noise, Information, and the Favorite-Longshot Bias in Parimutuel Predictions",
+        "container-title": "American Economic Journal: Microeconomics",
+        "issued": [
+          2010,
+          2,
+          1
+        ],
+        "volume": "2",
+        "issue": "1",
+        "page": "58-85",
+        "authors": [
+          "Ottaviani",
+          "Sørensen"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1257/0895330041371321",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Prediction Markets",
+        "container-title": "Journal of Economic Perspectives",
+        "issued": [
+          2004,
+          5,
+          1
+        ],
+        "volume": "18",
+        "issue": "2",
+        "page": "107-126",
+        "authors": [
+          "Wolfers",
+          "Zitzewitz"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1257/0895330041371277",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Historical Presidential Betting Markets",
+        "container-title": "Journal of Economic Perspectives",
+        "issued": [
+          2004,
+          5,
+          1
+        ],
+        "volume": "18",
+        "issue": "2",
+        "page": "127-142",
+        "authors": [
+          "Rhode",
+          "Strumpf"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1287/mnsc.1040.0191",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Suckers Are Born but Markets Are Made: Individual Rationality, Arbitrage, and Market Efficiency on an Electronic Futures Market",
+        "container-title": "Management Science",
+        "issued": [
+          2004,
+          3
+        ],
+        "volume": "50",
+        "issue": "3",
+        "page": "336-351",
+        "authors": [
+          "Oliven",
+          "Rietz"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1016/S1574-0722(07)00080-7",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Chapter 80 Results from a Dozen Years of Election Futures Markets Research",
+        "container-title": "Handbook of Experimental Economics Results",
+        "issued": [
+          2008
+        ],
+        "volume": null,
+        "issue": null,
+        "page": "742-751",
+        "authors": [
+          "Berg",
+          "Forsythe",
+          "Nelson",
+          "Rietz"
+        ],
+        "type": "book-chapter"
+      }
+    },
+    {
+      "doi": "10.1016/j.econlet.2006.01.004",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Interpreting the predictions of prediction markets",
+        "container-title": "Economics Letters",
+        "issued": [
+          2006,
+          6
+        ],
+        "volume": "91",
+        "issue": "3",
+        "page": "425-429",
+        "authors": [
+          "Manski"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1111/ecca.12009",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Inter‐market Arbitrage in Betting",
+        "container-title": "Economica",
+        "issued": [
+          2012,
+          12,
+          17
+        ],
+        "volume": "80",
+        "issue": "318",
+        "page": "300-325",
+        "authors": [
+          "Franck",
+          "Verbeek",
+          "Nüesch"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1016/j.ijforecast.2018.07.008",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Efficiency of online football betting markets",
+        "container-title": "International Journal of Forecasting",
+        "issued": [
+          2019,
+          4
+        ],
+        "volume": "35",
+        "issue": "2",
+        "page": "712-721",
+        "authors": [
+          "Angelini",
+          "De Angelis"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.1111/j.1468-0297.2004.00207.x",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Why are Gambling Markets Organised so Differently from Financial Markets?",
+        "container-title": "The Economic Journal",
+        "issued": [
+          2004,
+          4,
+          1
+        ],
+        "volume": "114",
+        "issue": "495",
+        "page": "223-246",
+        "authors": [
+          "Levitt"
+        ],
+        "type": "journal-article"
+      }
+    },
+    {
+      "doi": "10.3386/w12200",
+      "handle_responseCode": 1,
+      "crossref": {
+        "title": "Interpreting Prediction Market Prices as Probabilities",
+        "container-title": "",
+        "issued": [
+          2006,
+          5
+        ],
+        "volume": null,
+        "issue": null,
+        "page": null,
+        "authors": [
+          "Wolfers",
+          "Zitzewitz"
+        ],
+        "type": "report"
+      }
+    }
+  ],
+  "other_identifiers": [
+    {
+      "arxiv_id": "1206.5252",
+      "resolver": "arXiv API (export.arxiv.org/api/query?id_list=)",
+      "title": "A Utility Framework for Bounded-Loss Market Makers",
+      "authors": [
+        "Yiling Chen",
+        "David M Pennock"
+      ],
+      "published": "2012-06-20T14:57:00Z",
+      "responseCode_equivalent": "200/1 entry returned"
+    }
+  ],
+  "url_reachability_checks": [
+    {
+      "url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizations",
+      "http_status": 200,
+      "note": "final URL after 301 from sirt.cftc.gov"
+    },
+    {
+      "url": "https://www.cftc.gov/IndustryOversight/TradingOrganizations/DCMs/index.htm",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.cftc.gov/LawRegulation/FederalRegister/index.htm",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.cftc.gov/PressRoom/PressReleases",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=Kalshi&per_page=20",
+      "http_status": 200,
+      "note": "endpoint reachable and returns a JSON document list; no record inspected for eligibility at protocol time"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-17/chapter-I/part-40/section-40.11",
+      "http_status": 200
+    },
+    {
+      "url": "https://kalshi.com/regulatory/rulebook",
+      "http_status": 429,
+      "note": "rate-limited/bot-blocked at protocol time; carried as anticipated access gap AG-1"
+    }
+  ]
+}
