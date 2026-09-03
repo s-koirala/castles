@@ -7,9 +7,19 @@ authors = [{name = "Sajan Koirala", email = "238704148+s-koirala@users.noreply.g
 license = {text = "MIT"}
 readme = "README.md"
 
-[project.optional-dependencies]
 # Justify: ruff/pytest/pre-commit are the user's tooling defaults
 # (CLAUDE.md "Tooling defaults"). nbstripout + nbqa for notebooks.
+#
+# Declared as a PEP 735 dependency GROUP, not an optional-dependencies extra.
+# Reason (2026-09-03, VG-16 remediation): `uv sync` installs the `dev` group by
+# default but does NOT install extras, so while these sat under
+# [project.optional-dependencies] the Quickstart in README.md and CLAUDE.md
+# (`uv venv && uv sync` then `uv run pytest`) did not install pytest. On a clean
+# clone it either failed or silently fell through to a machine-global pytest on
+# PATH — which is the same class of defect as VG-16 itself: a documented
+# reproduce command that does not reproduce. Nothing outside this file
+# referenced the `dev` extra by name, so the move costs no caller.
+[dependency-groups]
 dev = [
     "ruff",
     "pytest",
@@ -20,6 +30,7 @@ dev = [
     "jsonschema>=4.18", # Draft 2020-12 support; justify: R1-A schema needs Draft 2020-12
 ]
 
+[project.optional-dependencies]
 # Justify: pandera for schema validation (validate-data SKILL.md §2);
 # pandas/numpy/scipy are the foundational data stack.
 data = [
@@ -38,7 +49,7 @@ viz = [
     "great_tables",     # publication tables (R2-C)
 ]
 
-[build-system]
+# [build-system] table intentionally absent; see comment below.
 # Defer per memo §5 Q1 default = no build-system declaration; matches
 # SKIE-Universe pattern. Uncomment to make installable:
 # requires = ["hatchling"]

@@ -61,7 +61,7 @@ wheels = [
 [[package]]
 name = "castles"
 version = "0.0.1"
-source = { editable = "." }
+source = { virtual = "." }
 
 [package.optional-dependencies]
 data = [
@@ -73,6 +73,13 @@ data = [
     { name = "scipy", version = "1.17.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
     { name = "scipy", version = "1.18.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
 ]
+viz = [
+    { name = "great-tables" },
+    { name = "matplotlib" },
+    { name = "seaborn" },
+]
+
+[package.dev-dependencies]
 dev = [
     { name = "jsonschema" },
     { name = "nbqa" },
@@ -82,31 +89,30 @@ dev = [
     { name = "pyyaml" },
     { name = "ruff" },
 ]
-viz = [
-    { name = "great-tables" },
-    { name = "matplotlib" },
-    { name = "seaborn" },
-]
 
 [package.metadata]
 requires-dist = [
     { name = "great-tables", marker = "extra == 'viz'" },
-    { name = "jsonschema", marker = "extra == 'dev'", specifier = ">=4.18" },
     { name = "matplotlib", marker = "extra == 'viz'" },
-    { name = "nbqa", marker = "extra == 'dev'" },
-    { name = "nbstripout", marker = "extra == 'dev'" },
     { name = "numpy", marker = "extra == 'data'" },
     { name = "pandas", marker = "extra == 'data'" },
     { name = "pandera", marker = "extra == 'data'" },
-    { name = "pre-commit", marker = "extra == 'dev'" },
     { name = "pyarrow", marker = "extra == 'data'" },
-    { name = "pytest", marker = "extra == 'dev'" },
-    { name = "pyyaml", marker = "extra == 'dev'" },
-    { name = "ruff", marker = "extra == 'dev'" },
     { name = "scipy", marker = "extra == 'data'" },
     { name = "seaborn", marker = "extra == 'viz'" },
 ]
-provides-extras = ["dev", "data", "viz"]
+provides-extras = ["data", "viz"]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "jsonschema", specifier = ">=4.18" },
+    { name = "nbqa" },
+    { name = "nbstripout" },
+    { name = "pre-commit" },
+    { name = "pytest" },
+    { name = "pyyaml" },
+    { name = "ruff" },
+]
 
 [[package]]
 name = "cffi"
