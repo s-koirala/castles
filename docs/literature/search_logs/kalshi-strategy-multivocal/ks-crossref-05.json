@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-crossref-05",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://api.crossref.org/works?query.bibliographic=sports+event+contract+mispricing&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "endpoint": "https://api.crossref.org/works",
+ "platform": "crossref",
+ "executed_at": "2026-09-04T10:14:52-05:00",
+ "http_status": 200,
+ "client_error": null,
+ "n_returned": 20,
+ "n_total_reported": 696269,
+ "truncated_by_cap": true,
+ "retrieval_cap_in_force": "rows=20",
+ "payload_sha256": "a07fadb4111ad8168c968ffb79ade5438a06895cf0b072386ae1ea393fa2cf30",
+ "payload_bytes": 14579,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-crossref-05.json",
+ "retry_of": null,
+ "construction_section_3_1": {
+  "instrument_term": "sports event contract",
+  "strategy_term": "mispricing",
+  "venue_narrowing": null,
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "query.bibliographic (bibliographic metadata field; Crossref exposes no combined title-and-abstract field)",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "S2-sports-and-sportsbook-vs-exchange",
+ "note": null,
+ "count_parse_error": null
+}

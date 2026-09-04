@@ -1,0 +1,1214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EmUvFxezkudCJPnJrmOSEeFC0YY</id>
+  <title>arXiv Query: search_query=abs:"prediction market" AND abs:"forecasting"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-09-04T15:16:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22prediction+market%22+AND+abs:%22forecasting%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>69</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.16345v1</id>
+    <title>On convergence of forecasts in prediction markets</title>
+    <updated>2024-02-26T06:59:27Z</updated>
+    <link href="https://arxiv.org/abs/2402.16345v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.16345v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a dynamic model of a prediction market in which agents predict the values of a sequence of random vectors. The main result shows that if there are agents who make correct (or asymptotically correct) next-period forecasts, then the aggregated market forecasts converge to the next-period conditional expectations of the random vectors.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-26T06:59:27Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Nina Badulina</name>
+    </author>
+    <author>
+      <name>Dmitry Shatilovich</name>
+    </author>
+    <author>
+      <name>Mikhail Zhitlukhin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.7584v1</id>
+    <title>Interval Elicitation of Forecasts in a Prediction Market Reveals Lack of Anchoring "Bias"</title>
+    <updated>2014-06-30T02:45:03Z</updated>
+    <link href="https://arxiv.org/abs/1406.7584v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.7584v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In an online prediction market, forecasters who could not see the current state of the market until they made their own separate estimates moved their estimates closer to the market forecast when the current state of the market became known. Their first edits to the market forecast were very similar to the first edits of forecasters who could always see the current state of the market, and forecasters in both conditions had similar accuracy. These results suggest that our more elaborate forecast elicitation method might not improve forecasts and that any anchoring on the state of the market does not constitute an error in judgment.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-30T02:45:03Z</published>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Kenneth Olson</name>
+    </author>
+    <author>
+      <name>Kathryn Laskey</name>
+    </author>
+    <author>
+      <name>Charles Twardy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.11220v1</id>
+    <title>Prediction Markets Underperform Simple Baselines For Infectious Disease Forecasting</title>
+    <updated>2026-05-11T20:32:19Z</updated>
+    <link href="https://arxiv.org/abs/2605.11220v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.11220v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prediction markets (e.g., Polymarket, Kalshi) allow participants to bet on future events, producing real-time forecasts based on collective judgment. In domains such as elections and finance, markets have been effective at aggregating information, often rivaling or outperforming expert forecasters or polls. Whether this performance extends to infectious disease dynamics is unclear. Participants are self-selected and typically lack epidemiological expertise. However, markets can respond in real time to emerging news and unstructured signals in ways that standard forecasting pipelines cannot. Also, substantial financial stakes encourage participants to make an effort to be accurate. We evaluate Polymarket forecasts during 2025 and 2026 for two settings: weekly cumulative influenza hospitalizations in the US, which have an established expert-curated forecasting ensemble (CDC FluSight), and monthly measles cases, which do not. Across both settings, prediction markets fail to outperform standard benchmarks. For influenza, markets are competitive with low-performing individual FluSight models but are dominated by the FluSight ensemble: even when we combine market forecasts with the ensemble, the best combination puts zero weight on the markets. For measles, markets are outperformed by simple statistical baselines. We diagnose two sources of market inefficiency: placement of probability mass on impossible outcomes (e.g., decreasing values in cumulative forecasts) and low trading volume. These results suggest that current prediction markets are not reliable forecasters of infectious disease dynamics on their own or useful as complementary features for existing forecasting systems.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-11T20:32:19Z</published>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Carson Dudley</name>
+    </author>
+    <author>
+      <name>Reiden Magdaleno</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.03015v1</id>
+    <title>Beyond Forecasting: The Belief-to-Trade Layer in Prediction-Market Agents</title>
+    <updated>2026-07-03T06:49:48Z</updated>
+    <link href="https://arxiv.org/abs/2607.03015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.03015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Forecasting future events has attracted growing attention as a testbed for general-purpose AI. A natural way to ground this evaluation is let the models trade in the prediction markets. Trading, however, requires more than forecasting. Moreover, recent benchmarks report a substantial gap between calibrated probability scores and the trading results. We propose Raven-Agent, to the best of our knowledge, the first autonomous trading agent for prediction markets. On a controlled replay over an archived decision set, our architecture achieves the only positive return and the only positive risk-adjusted return among all tested policies. We have released our code in https://github.com/Alchemist-X/predict-raven .</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-03T06:49:48Z</published>
+    <arxiv:comment>10 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yishu Wang</name>
+    </author>
+    <author>
+      <name>Yuxuan Wang</name>
+    </author>
+    <author>
+      <name>Jiaqi Deng</name>
+    </author>
+    <author>
+      <name>Hanyang Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.21229v2</id>
+    <title>Forecasting Future Language: Context Design for Mention Markets</title>
+    <updated>2026-02-27T06:43:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.21229v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.21229v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mention markets, a type of prediction market in which contracts resolve based on whether a specified keyword is mentioned during a future public event, require accurate probabilistic forecasts of keyword-mention outcomes. While recent work shows that large language models (LLMs) can generate forecasts competitive with human forecasters, it remains unclear how input context should be designed to support accurate prediction. In this paper, we study this question through experiments on earnings-call mention markets, which require forecasting whether a company will mention a specified keyword during its upcoming call. We run controlled comparisons varying (i) which contextual information is provided (news and/or prior earnings-call transcripts) and (ii) how \textit{market probability}, (i.e., prediction market contract price) is used. We introduce Market-Conditioned Prompting (MCP), which explicitly treats the market-implied probability as a prior and instructs the LLM to update this prior using textual evidence, rather than re-predicting the base rate from scratch. In our experiments, we find three insights: (1) richer context consistently improves forecasting performance; (2) market-conditioned prompting (MCP), which treats the market probability as a prior and updates it using textual evidence, yields better-calibrated forecasts; and (3) a mixture of the market probability and MCP (MixMCP) outperforms the market baseline. By dampening the LLM's posterior update with the market prior, MixMCP yields more robust predictions than either the market or the LLM alone.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T12:43:31Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <author>
+      <name>Sumin Kim</name>
+    </author>
+    <author>
+      <name>Jihoon Kwon</name>
+    </author>
+    <author>
+      <name>Yoon Kim</name>
+    </author>
+    <author>
+      <name>Nicole Kagan</name>
+    </author>
+    <author>
+      <name>Raffi Khatchadourian</name>
+    </author>
+    <author>
+      <name>Wonbin Ahn</name>
+    </author>
+    <author>
+      <name>Alejandro Lopez-Lira</name>
+    </author>
+    <author>
+      <name>Jaewon Lee</name>
+    </author>
+    <author>
+      <name>Yoontae Hwang</name>
+    </author>
+    <author>
+      <name>Oscar Levy</name>
+    </author>
+    <author>
+      <name>Yongjae Lee</name>
+    </author>
+    <author>
+      <name>Chanyeol Choi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.10011v2</id>
+    <title>Securities Based Decision Markets</title>
+    <updated>2021-11-15T02:38:15Z</updated>
+    <link href="https://arxiv.org/abs/2103.10011v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.10011v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Decision markets are mechanisms for selecting one among a set of actions based on forecasts about their consequences. Decision markets that are based on scoring rules have been proven to offer incentive compatibility analogous to properly incentivised prediction markets. However, in contrast to prediction markets, it is unclear how to implement decision markets such that forecasting is done through the trading of securities. We here propose such a securities based implementation, and show that it offers the same expected payoff as the corresponding scoring rules based decision market. The distribution of realised payoffs, however, might differ. Our analysis expands the knowledge on forecasting based decision making and provides novel insights for intuitive and easy-to-use decision market implementations.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-18T04:13:52Z</published>
+    <arxiv:comment>To be published in The Third International Conference on Distributed Artificial Intelligence</arxiv:comment>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Wenlong Wang</name>
+    </author>
+    <author>
+      <name>Thomas Pfeiffer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.24147v1</id>
+    <title>Price as Focal Point: Prediction Markets,Conditional Reflexivity, and the Politics of Common Knowledge</title>
+    <updated>2026-04-27T08:02:34Z</updated>
+    <link href="https://arxiv.org/abs/2604.24147v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.24147v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prediction markets are widely treated as forecasting devices that reveal collective expectations about uncertain futures. This article argues that under specifiable conditions they also function as coordination mechanisms: public probabilities that organize the behavior of voters, donors, journalists, traders, and institutions in ways that can be self-fulfilling or self-defeating. Most existing work asks whether prediction markets forecast accurately; this paper asks whether accurate forecasting is even the right criterion for a market that has become a public coordination device. Drawing on transaction-level evidence from the 2024 U.S. presidential election, we show that the social force of a market signal depends less on its size than on its persistence, the breadth of responding trader types, and cross-platform consensus. We introduce a Signal Credibility Index (SCI) -- combining the variance ratio VR(6), a two-sidedness diagnostic, and a trader-concentration adjustment -- as a microstructure-grounded criterion for predicting when price moves acquire behavioral traction. Applied to three major 2024 political shocks, the framework reveals that superficially similar events generated qualitatively distinct signal types with different implications for elite coordination. A cross-platform comparison establishes a systematic decoupling of social authority from epistemic robustness: the most visible market produced the least accurate forecasts. The framework carries direct implications for regulating prediction markets as democratic information infrastructure.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-27T08:02:34Z</published>
+    <arxiv:comment>35 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Maksym Nechepurenko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.08768v4</id>
+    <title>Decentralized Prediction Markets and Sports Books</title>
+    <updated>2025-01-08T19:58:15Z</updated>
+    <link href="https://arxiv.org/abs/2307.08768v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.08768v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prediction markets allow traders to bet on potential future outcomes. These markets exist for weather, political, sports, and economic forecasting. Within this work we consider a decentralized framework for prediction markets using automated market makers (AMMs). Specifically, we construct a liquidity-based AMM structure for prediction markets that, under reasonable axioms on the underlying utility function, satisfy meaningful financial properties on the cost of betting and the resulting pricing oracle. Importantly, we study how liquidity can be pooled or withdrawn from the AMM and the resulting implications to the market behavior. In considering this decentralized framework, we additionally propose financially meaningful fees that can be collected for trading to compensate the liquidity providers for their vital market function.</summary>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-17T18:29:01Z</published>
+    <arxiv:primary_category term="q-fin.MF"/>
+    <author>
+      <name>Hamed Amini</name>
+    </author>
+    <author>
+      <name>Maxim Bichuch</name>
+    </author>
+    <author>
+      <name>Zachary Feinstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.13385v3</id>
+    <title>Probabilistic Prediction Markets with Intermittent Contributions</title>
+    <updated>2026-05-13T14:27:59Z</updated>
+    <link href="https://arxiv.org/abs/2510.13385v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.13385v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although both data availability and the demand for accurate forecasts are increasing, collaboration between stakeholders is often constrained by data ownership and competitive interests. In contrast to recent proposals within cooperative game-theoretical frameworks, we place ourselves in a more general framework, based on prediction markets. There, independent agents trade forecasts of uncertain future events in exchange for rewards. We introduce and analyse a prediction market that (i) accounts for the historical performance of the agents, (ii) adapts to time-varying conditions, while (iii) permitting agents to enter and exit the market at will. The proposed design employs robust regression models to learn the optimal forecasts' combination whilst handling missing submissions. Moreover, we introduce a pay-off allocation mechanism that considers both in-sample and out-of-sample performance while satisfying several desirable economic properties. Case-studies using simulated and real-world data allow demonstrating the effectiveness and adaptability of the proposed market design.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-15T10:23:28Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Michael Vitali</name>
+    </author>
+    <author>
+      <name>Pierre Pinson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0905.4171v1</id>
+    <title>A Prediction Market for Toxic Assets Prices</title>
+    <updated>2009-05-26T11:32:43Z</updated>
+    <link href="https://arxiv.org/abs/0905.4171v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0905.4171v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose the development of a prediction market for forecasting prices for "toxic assets" to be transferred from Irish banks to the National Asset Management Agency (NAMA). Such a market allows market participants to assume a stake in a security whose value is tied to a future event. We propose that securities are created whose value hinges on the transfer amount paid for loans from NAMA to a bank. In essence, bets are accepted on whether the price is higher or lower than a certain quoted figure. The prices of the securities represent transfer prices for toxic assets increases or decreases in line with market opinion. Prediction markets offer a proven means of aggregating distributed knowledge pertaining to fair market values in a scalable and transparent manner. They are incentive compatible (i.e. induce truthful reporting) and robust to strategic manipulation. We propose that a prediction market is run in parallel with the pricing procedure recommended by the European Commission. This procedure need not necessarily take heed of the prediction markets view in all cases but it may offer guidance and a means of anomaly detection. An online prediction market would offer everybody an opportunity to "have their say" in an open and transparent manner.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-05-26T11:32:43Z</published>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <author>
+      <name>Alan Holland</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.13427v3</id>
+    <title>DeepClair: Utilizing Market Forecasts for Effective Portfolio Selection</title>
+    <updated>2024-08-16T06:54:26Z</updated>
+    <link href="https://arxiv.org/abs/2407.13427v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.13427v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Utilizing market forecasts is pivotal in optimizing portfolio selection strategies. We introduce DeepClair, a novel framework for portfolio selection. DeepClair leverages a transformer-based time-series forecasting model to predict market trends, facilitating more informed and adaptable portfolio decisions. To integrate the forecasting model into a deep reinforcement learning-driven portfolio selection framework, we introduced a two-step strategy: first, pre-training the time-series model on market data, followed by fine-tuning the portfolio selection architecture using this model. Additionally, we investigated the optimization technique, Low-Rank Adaptation (LoRA), to enhance the pre-trained forecasting model for fine-tuning in investment scenarios. This work bridges market forecasting and portfolio selection, facilitating the advancement of investment strategies.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-18T11:51:03Z</published>
+    <arxiv:comment>CIKM 2024 Accepted</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Donghee Choi</name>
+    </author>
+    <author>
+      <name>Jinkyu Kim</name>
+    </author>
+    <author>
+      <name>Mogan Gim</name>
+    </author>
+    <author>
+      <name>Jinho Lee</name>
+    </author>
+    <author>
+      <name>Jaewoo Kang</name>
+    </author>
+    <arxiv:doi>10.1145/3627673.3680008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3627673.3680008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.7583v1</id>
+    <title>Trade-based Asset Model using Dynamic Junction Tree for Combinatorial Prediction Markets</title>
+    <updated>2014-06-30T02:43:28Z</updated>
+    <link href="https://arxiv.org/abs/1406.7583v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.7583v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prediction markets have demonstrated their value for aggregating collective expertise. Combinatorial prediction markets allow forecasts not only on base events, but also on conditional and/or Boolean combinations of events. We describe a trade-based combinatorial prediction market asset management system, called Dynamic Asset Cluster (DAC), that improves both time and space efficiency over the method of, which maintains parallel junction trees for assets and probabilities. The basic data structure is the asset block, which compactly represents a set of trades made by a user. A user's asset model consists of a set of asset blocks representing the user's entire trade history. A junction tree is created dynamically from the asset blocks to compute a user's minimum and expected assets.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-30T02:43:28Z</published>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Wei Sun</name>
+    </author>
+    <author>
+      <name>Kathryn Laskey</name>
+    </author>
+    <author>
+      <name>Charles Twardy</name>
+    </author>
+    <author>
+      <name>Robin Hanson</name>
+    </author>
+    <author>
+      <name>Brandon Goldfedder</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.08778v1</id>
+    <title>Price Formation in Field Prediction Markets: the Wisdom in the Crowd</title>
+    <updated>2022-09-19T06:04:49Z</updated>
+    <link href="https://arxiv.org/abs/2209.08778v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.08778v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prediction markets are a popular, prominent, and successful structure for a collective intelligence platform. However the exact mechanism by which information known to the participating traders is incorporated into the market price is unknown. Kyle (1985) detailed a model for price formation in continuous auctions with information distributed heterogeneously amongst market participants. This paper demonstrates a novel method derived from the Kyle model applied to data from a field experiment prediction market. The method is able to identify traders whose trades have price impact that adds a significant amount of information to the market price. Traders who are not identified as informed in aggregate have price impact consistent with noise trading. Results are reproduced on other prediction market datasets. Ultimately the results provide strong evidence in favor of the Kyle model in a field market setting, and highlight an under-discussed advantage of prediction markets over alternative group forecasting mechanisms: that the operator of the market does not need to have information on the distribution of information amongst participating traders.</summary>
+    <category term="q-fin.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-19T06:04:49Z</published>
+    <arxiv:primary_category term="q-fin.PR"/>
+    <author>
+      <name>Frederik Bossaerts</name>
+    </author>
+    <author>
+      <name>Nitin Yadav</name>
+    </author>
+    <author>
+      <name>Peter Bossaerts</name>
+    </author>
+    <author>
+      <name>Chad Nash</name>
+    </author>
+    <author>
+      <name>Torquil Todd</name>
+    </author>
+    <author>
+      <name>Torsten Rudolf</name>
+    </author>
+    <author>
+      <name>Rowena Hutchins</name>
+    </author>
+    <author>
+      <name>Anne-Louise Ponsonby</name>
+    </author>
+    <author>
+      <name>Karl Mattingly</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.3710v1</id>
+    <title>Strictly Proper Mechanisms with Cooperating Players</title>
+    <updated>2012-02-14T16:41:17Z</updated>
+    <link href="https://arxiv.org/abs/1202.3710v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.3710v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prediction markets provide an efficient means to assess uncertain quantities from forecasters. Traditional and competitive strictly proper scoring rules have been shown to incentivize players to provide truthful probabilistic forecasts. However, we show that when those players can cooperate, these mechanisms can instead discourage them from reporting what they really believe. When players with different beliefs are able to cooperate and form a coalition, these mechanisms admit arbitrage and there is a report that will always pay coalition members more than their truthful forecasts. If the coalition were created by an intermediary, such as a web portal, the intermediary would be guaranteed a profit.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-14T16:41:17Z</published>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>SangIn Chun</name>
+    </author>
+    <author>
+      <name>Ross D. Shachter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.07678v1</id>
+    <title>AIA Forecaster: Technical Report</title>
+    <updated>2025-11-10T22:45:07Z</updated>
+    <link href="https://arxiv.org/abs/2511.07678v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.07678v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This technical report describes the AIA Forecaster, a Large Language Model (LLM)-based system for judgmental forecasting using unstructured data. The AIA Forecaster approach combines three core elements: agentic search over high-quality news sources, a supervisor agent that reconciles disparate forecasts for the same event, and a set of statistical calibration techniques to counter behavioral biases in large language models. On the ForecastBench benchmark (Karger et al., 2024), the AIA Forecaster achieves performance equal to human superforecasters, surpassing prior LLM baselines. In addition to reporting on ForecastBench, we also introduce a more challenging forecasting benchmark sourced from liquid prediction markets. While the AIA Forecaster underperforms market consensus on this benchmark, an ensemble combining AIA Forecaster with market consensus outperforms consensus alone, demonstrating that our forecaster provides additive information. Our work establishes a new state of the art in AI forecasting and provides practical, transferable recommendations for future research. To the best of our knowledge, this is the first work that verifiably achieves expert-level forecasting at scale.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-10T22:45:07Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Rohan Alur</name>
+    </author>
+    <author>
+      <name>Bradly C. Stadie</name>
+    </author>
+    <author>
+      <name>Daniel Kang</name>
+    </author>
+    <author>
+      <name>Ryan Chen</name>
+    </author>
+    <author>
+      <name>Matt McManus</name>
+    </author>
+    <author>
+      <name>Michael Rickert</name>
+    </author>
+    <author>
+      <name>Tyler Lee</name>
+    </author>
+    <author>
+      <name>Michael Federici</name>
+    </author>
+    <author>
+      <name>Richard Zhu</name>
+    </author>
+    <author>
+      <name>Dennis Fogerty</name>
+    </author>
+    <author>
+      <name>Hayley Williamson</name>
+    </author>
+    <author>
+      <name>Nina Lozinski</name>
+    </author>
+    <author>
+      <name>Aaron Linsky</name>
+    </author>
+    <author>
+      <name>Jasjeet S. Sekhon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.00517v1</id>
+    <title>Predicting replicability -- analysis of survey and prediction market data from large-scale forecasting projects</title>
+    <updated>2021-01-31T19:32:06Z</updated>
+    <link href="https://arxiv.org/abs/2102.00517v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.00517v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The reproducibility of published research has become an important topic in science policy. A number of large-scale replication projects have been conducted to gauge the overall reproducibility in specific academic fields. Here, we present an analysis of data from four studies which sought to forecast the outcomes of replication projects in the social and behavioural sciences, using human experts who participated in prediction markets and answered surveys. Because the number of findings replicated and predicted in each individual study was small, pooling the data offers an opportunity to evaluate hypotheses regarding the performance of prediction markets and surveys at a higher power. In total, peer beliefs were elicited for the replication outcomes of 103 published findings. We find there is information within the scientific community about the replicability of scientific findings, and that both surveys and prediction markets can be used to elicit and aggregate this information. Our results show prediction markets can determine the outcomes of direct replications with 73% accuracy (n=103). Both the prediction market prices and the average survey responses are correlated with outcomes (0.581 and 0.564 respectively, both p &lt; .001). We also found a significant relationship between p-values of the original findings and replication outcomes. The dataset is made available through the R package pooledmaRket and can be used to further study community beliefs towards replications outcomes as elicited in the surveys and prediction markets.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-31T19:32:06Z</published>
+    <arxiv:comment>19 Pages</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Michael Gordon</name>
+    </author>
+    <author>
+      <name>Domenico Viganola</name>
+    </author>
+    <author>
+      <name>Anna Dreber</name>
+    </author>
+    <author>
+      <name>Magnus Johannesson</name>
+    </author>
+    <author>
+      <name>Thomas Pfeiffer</name>
+    </author>
+    <arxiv:doi>10.1371/journal.pone.0248780</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1371/journal.pone.0248780" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.12464v2</id>
+    <title>Volatility forecasting using Deep Learning and sentiment analysis</title>
+    <updated>2022-11-17T10:27:02Z</updated>
+    <link href="https://arxiv.org/abs/2210.12464v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.12464v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several studies have shown that deep learning models can provide more accurate volatility forecasts than the traditional methods used within this domain. This paper presents a composite model that merges a deep learning approach with sentiment analysis for predicting market volatility. To classify public sentiment, we use a Convolutional Neural Network, which obtained data from Reddit global news headlines. We then describe a composite forecasting model, a Long-Short-Term-Memory Neural Network method, to use historical sentiment and the previous day's volatility to make forecasts. We employed this method on the past volatility of the S&amp;P500 and the major BRICS indices to corroborate its effectiveness. Our results demonstrate that including sentiment can improve Deep Learning volatility forecasting models. However, in contrast to return forecasting, the performance benefits of including sentiment appear for volatility forecasting appears to be market specific.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-22T14:54:33Z</published>
+    <arxiv:comment>13 pages, 4 figures, accepted for publication at the SACAIR 2022 conference</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>V Ncume</name>
+    </author>
+    <author>
+      <name>T. L van Zyl</name>
+    </author>
+    <author>
+      <name>A Paskaramoorthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.07810v2</id>
+    <title>A Decomposition of Forecast Error in Prediction Markets</title>
+    <updated>2018-02-21T02:22:08Z</updated>
+    <link href="https://arxiv.org/abs/1702.07810v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.07810v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze sources of error in prediction market forecasts in order to bound the difference between a security's price and the ground truth it estimates. We consider cost-function-based prediction markets in which an automated market maker adjusts security prices according to the history of trade. We decompose the forecasting error into three components: sampling error, arising because traders only possess noisy estimates of ground truth; market-maker bias, resulting from the use of a particular market maker (i.e., cost function) to facilitate trade; and convergence error, arising because, at any point in time, market prices may still be in flux. Our goal is to make explicit the tradeoffs between these error components, influenced by design decisions such as the functional form of the cost function and the amount of liquidity in the market. We consider a specific model in which traders have exponential utility and exponential-family beliefs representing noisy estimates of ground truth. In this setting, sampling error vanishes as the number of traders grows, but there is a tradeoff between the other two components. We provide both upper and lower bounds on market-maker bias and convergence error, and demonstrate via numerical simulations that these bounds are tight. Our results yield new insights into the question of how to set the market's liquidity parameter and into the forecasting benefits of enforcing coherent prices across securities.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-25T00:05:57Z</published>
+    <arxiv:primary_category term="cs.GT"/>
+    <arxiv:journal_ref>Advances in Neural Information Processing Systems 30 (NIPS 2017)</arxiv:journal_ref>
+    <author>
+      <name>Miroslav Dudík</name>
+    </author>
+    <author>
+      <name>Sébastien Lahaie</name>
+    </author>
+    <author>
+      <name>Ryan Rogers</name>
+    </author>
+    <author>
+      <name>Jennifer Wortman Vaughan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.30040v1</id>
+    <title>The Shape of Macroeconomic Beliefs</title>
+    <updated>2026-06-29T09:35:50Z</updated>
+    <link href="https://arxiv.org/abs/2606.30040v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.30040v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Macroeconomic expectations are usually observed through point forecasts or through asset prices whose mapping into beliefs is model-dependent. This paper uses prediction-market prices to recover high-frequency distributions of short-run macroeconomic beliefs. We construct a panel of Kalshi-implied distributions for CPI and core CPI releases by converting adjacent threshold contracts into probability mass over inflation outcomes. The data reveal market-implied means, uncertainty, and upper-tail probabilities from 30 days to one hour before each release. The market-implied mean contains meaningful forecast information, especially for headline CPI, but the main signal is distributional. Lagged Reuters Poll surprises do not predict systematic deviations of Kalshi means from the current Reuters consensus. By contrast, large lagged surprises are associated with higher implied uncertainty, and positive lagged surprises raise the probability assigned to fixed high-inflation outcomes. In the baseline specification with variable-by-horizon fixed effects, a 0.1 percentage point positive lagged surprise raises the probability of monthly inflation above 0.3 percent by about 4.7 percentage points, even after controlling for the current consensus forecast. In release-level validation tests, Kalshi upper-tail probabilities also predict the realization of high-inflation states, including episodes in which the market-implied mean remains close to the Reuters consensus. The evidence suggests that prediction markets can provide real-time information about inflation risk that is missed by point forecasts.</summary>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-29T09:35:50Z</published>
+    <arxiv:primary_category term="econ.EM"/>
+    <author>
+      <name>Giovanni Angelini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.4900v1</id>
+    <title>Probability and Asset Updating using Bayesian Networks for Combinatorial Prediction Markets</title>
+    <updated>2012-10-16T17:50:37Z</updated>
+    <link href="https://arxiv.org/abs/1210.4900v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.4900v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A market-maker-based prediction market lets forecasters aggregate information by editing a consensus probability distribution either directly or by trading securities that pay off contingent on an event of interest. Combinatorial prediction markets allow trading on any event that can be specified as a combination of a base set of events. However, explicitly representing the full joint distribution is infeasible for markets with more than a few base events. A factored representation such as a Bayesian network (BN) can achieve tractable computation for problems with many related variables. Standard BN inference algorithms, such as the junction tree algorithm, can be used to update a representation of the entire joint distribution given a change to any local conditional probability. However, in order to let traders reuse assets from prior trades while never allowing assets to become negative, a BN based prediction market also needs to update a representation of each user's assets and find the conditional state in which a user has minimum assets. Users also find it useful to see their expected assets given an edit outcome. We show how to generalize the junction tree algorithm to perform all these computations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-16T17:50:37Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Eighth Conference on Uncertainty in Artificial Intelligence (UAI2012)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Wei Sun</name>
+    </author>
+    <author>
+      <name>Robin Hanson</name>
+    </author>
+    <author>
+      <name>Kathryn Blackmond Laskey</name>
+    </author>
+    <author>
+      <name>Charles Twardy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.11597v2</id>
+    <title>Sentiment Protocol: A Decentralized Protocol Leveraging Crowd Sourced Wisdom</title>
+    <updated>2018-05-05T17:55:25Z</updated>
+    <link href="https://arxiv.org/abs/1710.11597v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.11597v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The wisdom of the crowd is a valuable asset in today's society. It is not only important in predicting elections but also plays an essential role in marketing and the financial industry. Having a trustworthy source of opinion can make forecasts more accurate and markets predictable. Until now, a fundamental problem of surveys is the lack of incentives for participants to provide accurate information. Classical solutions like small monetary rewards or the chance of winning a prize are often not very attractive for participants. More attractive solutions, such as prediction markets, face the issue of illegality and are often unavailable. In this work, we present a solution that unites the advantages from classical polling and prediction markets via a customizable incentivization framework. Apart from predicting events, this framework can also be used to govern decentralized autonomous organizations.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-31T17:17:25Z</published>
+    <arxiv:comment>13 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <arxiv:journal_ref>Ledger Journal, 2018</arxiv:journal_ref>
+    <author>
+      <name>Anton Muehlemann</name>
+    </author>
+    <arxiv:doi>10.5195/ledger.2018.113</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5195/ledger.2018.113" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.08524v2</id>
+    <title>Measuring Consistency in Text-based Financial Forecasting Models</title>
+    <updated>2023-06-02T05:13:40Z</updated>
+    <link href="https://arxiv.org/abs/2305.08524v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.08524v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Financial forecasting has been an important and active area of machine learning research, as even the most modest advantage in predictive accuracy can be parlayed into significant financial gains. Recent advances in natural language processing (NLP) bring the opportunity to leverage textual data, such as earnings reports of publicly traded companies, to predict the return rate for an asset. However, when dealing with such a sensitive task, the consistency of models -- their invariance under meaning-preserving alternations in input -- is a crucial property for building user trust. Despite this, current financial forecasting methods do not consider consistency. To address this problem, we propose FinTrust, an evaluation tool that assesses logical consistency in financial text. Using FinTrust, we show that the consistency of state-of-the-art NLP models for financial forecasting is poor. Our analysis of the performance degradation caused by meaning-preserving alternations suggests that current text-based methods are not suitable for robustly predicting market information. All resources are available at https://github.com/yingpengma/fintrust.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-15T10:32:26Z</published>
+    <arxiv:comment>Accepted to ACL 2023 Main Conference</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Linyi Yang</name>
+    </author>
+    <author>
+      <name>Yingpeng Ma</name>
+    </author>
+    <author>
+      <name>Yue Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.01017v1</id>
+    <title>MegazordNet: combining statistical and machine learning standpoints for time series forecasting</title>
+    <updated>2021-06-23T15:06:54Z</updated>
+    <link href="https://arxiv.org/abs/2107.01017v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.01017v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Forecasting financial time series is considered to be a difficult task due to the chaotic feature of the series. Statistical approaches have shown solid results in some specific problems such as predicting market direction and single-price of stocks; however, with the recent advances in deep learning and big data techniques, new promising options have arises to tackle financial time series forecasting. Moreover, recent literature has shown that employing a combination of statistics and machine learning may improve accuracy in the forecasts in comparison to single solutions. Taking into consideration the mentioned aspects, in this work, we proposed the MegazordNet, a framework that explores statistical features within a financial series combined with a structured deep learning model for time series forecasting. We evaluated our approach predicting the closing price of stocks in the S&amp;P 500 using different metrics, and we were able to beat single statistical and machine learning methods.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-23T15:06:54Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Angelo Garangau Menezes</name>
+    </author>
+    <author>
+      <name>Saulo Martiello Mastelini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.08199v2</id>
+    <title>Volatility in Prediction Markets: A Structural Approach</title>
+    <updated>2026-07-11T10:25:01Z</updated>
+    <link href="https://arxiv.org/abs/2607.08199v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.08199v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Forward-looking volatility forecasts are central inputs to derivatives pricing, market making, risk management, and volatility-linked trading strategies, with ARCH and GARCH models serving as the canonical workhorses. Such models are natural in standard asset markets, where prices are positive-valued stochastic processes and volatility is typically inferred from return dynamics. Prediction markets have a different structure: prices are bounded probabilities, payoffs are binary, and contracts resolve at known deadlines.
+  We develop and estimate a volatility model tailored to binary prediction markets. The model combines two economic mechanisms: a Wright-Fisher deadline-resolution component, capturing how remaining binary uncertainty is forced to resolve over time, and a Glosten-Milgrom order-flow component, capturing volatility from informed trading as reflected in spreads and volume. Using a large panel of Kalshi contracts, we show that these structural variables carry substantial forecasting power. Plain ARCH/GARCH benchmarks are dominated by structural specifications; combining the structural model with residual GARCH dynamics gives the best overall forecasts. The model also provides an interpretable measurement framework: volatility is highest near fifty-fifty prices, rises near resolution, and varies across categories with the timing and discreteness of information arrival. Economics contracts are closer to smooth deadline-resolution dynamics, while sports contracts exhibit more event-concentrated, jump-like behavior. Across major categories, category-specific fitting does not systematically improve out-of-sample performance, suggesting that the structural specification transfers beyond the pooled headline result.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-09T07:57:43Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Weiye Xi</name>
+    </author>
+    <author>
+      <name>Ciamac C. Moallemi</name>
+    </author>
+    <author>
+      <name>Mallesh Pai</name>
+    </author>
+    <author>
+      <name>Shouqiao Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.04305v2</id>
+    <title>Self-Resolving Prediction Markets for Unverifiable Outcomes</title>
+    <updated>2025-02-18T11:49:03Z</updated>
+    <link href="https://arxiv.org/abs/2306.04305v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.04305v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prediction markets elicit and aggregate beliefs by paying agents based on how close their predictions are to a verifiable future outcome. However, outcomes of many important questions are difficult to verify or unverifiable, in that the ground truth may be hard or impossible to access. We present a novel incentive-compatible prediction market mechanism to elicit and efficiently aggregate information from a pool of agents without observing the outcome, by paying agents the negative cross-entropy between their prediction and that of a carefully chosen reference agent. Our key insight is that a reference agent with access to more information can serve as a reasonable proxy for the ground truth. We use this insight to propose self-resolving prediction markets that terminate with some probability after every report and pay all but a few agents based on the final prediction. The final agent is chosen as the reference agent since they observe the full history of market forecasts, and thus have more information by design. We show that it is a perfect Bayesian equilibrium (PBE) for all agents to report truthfully in our mechanism and to believe that all other agents report truthfully. Although primarily of interest for unverifiable outcomes, this design is also applicable for verifiable outcomes.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-07T10:09:22Z</published>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Siddarth Srinivasan</name>
+    </author>
+    <author>
+      <name>Ezra Karger</name>
+    </author>
+    <author>
+      <name>Yiling Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.09570v2</id>
+    <title>Conversational Forecasting Across Large Human Groups Using A Swarm of Surrogate AI Agents</title>
+    <updated>2026-05-08T20:48:07Z</updated>
+    <link href="https://arxiv.org/abs/2604.09570v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.09570v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hyperchat AI is a communication and collaboration architecture that employs intervening AI agents to enable real-time conversational deliberations among networked human teams of unlimited size. Prior work has shown that teams as large as 250 people can hold productive real-time conversations by text, voice, or video using Hyperchat AI to discuss complex problems, brainstorm solutions, surface risks, assess alternatives, prioritize options, and converge on optimized results. Building on this prior work, this new study tasked groups of 25 to 30 basketball fans with conversationally forecasting NBA games (against the spread) over a 12-week period. Results show that when discussing and debating NBA games (for five minutes each) using a Hyperchat AI enabled platform called Thinkscape, human teams were 62% accurate across a set of 50 forecasted NBA games. This is an impressive result versus the Vegas odds of 50% (p=0.059). Furthermore, had the participants wagered on the games, they would have produced an 18.4% ROI over the 12-week period. In addition, this study found that the group's conversation rate during each forecast was positively correlated with their prediction accuracy. In fact, when excluding the 12 forecasts in the bottom 25th percentile by average conversation rate, the remaining 38 forecasts recorded a 68% accuracy, significantly better than the 50% Vegas odds (p=0.017). This result also outperformed the well-known prediction market Polymarket (p=0.062) across the same set of NBA games. These outcomes suggest that real-time conversational deliberations, when facilitated by Surrogate AI agents, can significantly amplify groupwise collective intelligence during human forecasting tasks.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-20T13:35:15Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Louis Rosenberg</name>
+    </author>
+    <author>
+      <name>Hans Schumann</name>
+    </author>
+    <author>
+      <name>Ganesh Mani</name>
+    </author>
+    <author>
+      <name>Gregg Willcox</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.27394v1</id>
+    <title>Human-AI Collaboration for Estimating Scientific Replicability</title>
+    <updated>2026-04-19T14:32:01Z</updated>
+    <link href="https://arxiv.org/abs/2605.27394v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.27394v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Determining whether published scientific findings can successfully be replicated is a long-standing challenge in the empirical sciences. Existing approaches for replicability assessment typically rely either on human judgment, i.e., creative assembly of human experts, or on machine learning models trained on paper content metadata. While both approaches have demonstrated value, each also has important limitations. Human forecasts can be influenced by cognitive biases and narrow exposure to the research literature, while automated assessments often struggle to capture contextual cues and subtle signals of credibility. In this paper, we examine a hybrid approach. Specifically, we introduce a hybrid prediction market in which algorithmic agents trade alongside human participants to jointly estimate the likelihood that a published scientific finding will be corroborated via the outcome of a controlled replication study. Agents are trained on outcomes from hundreds of prior replication studies while human participants contribute domain knowledge through real-time trading. We evaluate this hybrid approach through multiple live experiments involving participants from different academic disciplines and compare its performance to artificial-only and human-only baselines. Our results show that, except for a few cases, hybrid markets match or outperform artificial prediction markets, producing more accurate and reliable replication forecasts.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-19T14:32:01Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Tatiana Chakravorti</name>
+    </author>
+    <author>
+      <name>Robert Fraleigh</name>
+    </author>
+    <author>
+      <name>Timothy Fritton</name>
+    </author>
+    <author>
+      <name>Christopher Griffin</name>
+    </author>
+    <author>
+      <name>Vaibhav Singh</name>
+    </author>
+    <author>
+      <name>Sai Koneru</name>
+    </author>
+    <author>
+      <name>C. Lee Giles</name>
+    </author>
+    <author>
+      <name>David Pennock</name>
+    </author>
+    <author>
+      <name>Anthony Kwasnica</name>
+    </author>
+    <author>
+      <name>Sarah Rajtmajer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.06166v2</id>
+    <title>When do prophets profit in prediction markets?</title>
+    <updated>2026-07-11T01:51:28Z</updated>
+    <link href="https://arxiv.org/abs/2607.06166v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.06166v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prediction markets aggregate dispersed beliefs into prices that act as probabilistic forecasts of uncertain events. Classical theory establishes a clean equivalence between forecasting accuracy and trading profit, but only for the specific automated market maker (AMM) design. However, the largest exchanges today are based on central limit order books in which informed forecasters routinely lose money while uninformed strategies can profit on simple heuristics. We resolve this discrepancy by establishing a formal equivalence between predictive accuracy and profitability. For any strictly proper scoring rule $S$, we exhibit a "proper" betting strategy that depends only on the forecaster's prediction $\mathbf{p}$ and the market price $\mathbf{q}$, and earns positive expected profit whenever $\mathbf{p}$ outperforms $\mathbf{q}$ under $S$ and the market has sufficient liquidity. Moreover, this proper betting is essentially the only strategy with such robust profitability guarantee. The proof rests on a decomposition of expected profit that strictly generalizes the classical AMM guarantee and also explains how strategies can profit without an accuracy edge. Empirically, across thousands of forecasts by AI models, proper betting is the only strategy that reliably converts accuracy into profit, and we further identify systematic forecasting personas and show how the optimal proper strategy varies across them. A month-long live deployment on Kalshi achieves $+80.33\%$ return on investment with a Sharpe ratio of $3.35$.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-07T11:41:46Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Anri Gu</name>
+    </author>
+    <author>
+      <name>Nicole Kagan</name>
+    </author>
+    <author>
+      <name>Alec Sun</name>
+    </author>
+    <author>
+      <name>Jibang Wu</name>
+    </author>
+    <author>
+      <name>Haifeng Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.31431v1</id>
+    <title>When Certainty Is Not Worth It: Capital Lock-Up and Settlement Discounting in Prediction Markets</title>
+    <updated>2026-05-29T15:27:12Z</updated>
+    <link href="https://arxiv.org/abs/2605.31431v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.31431v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Collateralized prediction markets are contingent-claim markets in which economic uncertainty can disappear before winning claims become redeemable. This paper studies the pricing effect of that delay. When collateral remains locked until oracle settlement, a near-certain dollar is a delayed dollar, so prices embed a maturity-dependent settlement discount in addition to beliefs about outcomes. We recover an implied settlement-discount term structure from persistent near-certain contracts using realized settlement times and summarize it as an annualized settlement wedge (ASW). The recovered wedges are positive, maturity-dependent, and time-varying. Adjusting pricesby these curves reduces the near-certainty horizon gradient by roughly 48-88%, indicating that much of the raw maturity pattern reflects priced settlement frictions rather than forecast error alone. Market architecture changes the wedge: negRisk conversion compresses discounts by recycling part of the position into synthetic collateral, while yield-bearing collateral flattens the term structure by reducing the opportunity cost of lock-up. The results show that pricing quality in prediction markets is endogenous to settlement mechanics, collateral productivity, and capital-recycling design. Prediction-market prices therefore aggregate information through a financial infrastructure whose funding conditions are measurable and economically important.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-29T15:27:12Z</published>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Jonas Gebele</name>
+    </author>
+    <author>
+      <name>Florian Matthes</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.11041v1</id>
+    <title>What should clubs monitor to predict future value of football players</title>
+    <updated>2022-12-21T14:30:26Z</updated>
+    <link href="https://arxiv.org/abs/2212.11041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.11041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Huge amounts of money are invested every year by football clubs on transfers. For both growth and survival, it is crucial for recruiting departments to make smart choices when targeting players. Therefore, it is very important to identify the right parameters to monitor to predict market value. The following paper aims at determining the relevant features that successfully forecast future value for football players. Success is measured against their market value from TransferMarkt. To select prominent features, we use Lasso regressions and Random Forest algorithms. Some obvious variables are selected but we also observe some subtle dependencies between features and future market value. Finally, we rank the Golden Boy nominees using our forecasts and show our methodology can successfully compare football players based on their quality.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-21T14:30:26Z</published>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Ali Baouan</name>
+    </author>
+    <author>
+      <name>Elsa Bismuth</name>
+    </author>
+    <author>
+      <name>Aurèle Bohbot</name>
+    </author>
+    <author>
+      <name>Sébastien Coustou</name>
+    </author>
+    <author>
+      <name>Mathieu Lacome</name>
+    </author>
+    <author>
+      <name>Mathieu Rosenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.15448v1</id>
+    <title>EventConnector: Mining Social Event Relations through Temporal Graphs</title>
+    <updated>2026-06-13T19:44:57Z</updated>
+    <link href="https://arxiv.org/abs/2606.15448v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.15448v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding and retrieving related real-world events based on their temporal dynamics is a fundamental challenge in time-sensitive applications such as forecasting, information retrieval, and social analysis. Existing methods often rely on semantic similarity or global time-series alignment, which overlook the transient and directional dependencies that frequently underlie real-world correlations. In this work, we introduce \textit{EventConnector}, a framework that constructs a temporal event graph capturing localized co-fluctuations and lead-lag relationships between events through their time-series trajectories. We further propose \textbf{EC-Fusion}, an adaptive retrieval mechanism that fuses EventConnector's graph-based scores with a complementary Granger-causal signal via a graph-quality-aware mixing weight. Across two real-world prediction market benchmarks (Polymarket and Kalshi) and nine forecasting architectures evaluated over three random seeds, EC-Fusion is the best non-oracle retrieval method on $17/18$ model--dataset cells, reducing RMSE by $6.87\%$ on average (up to $10.86\%$) over the strongest comparable retrieval baseline, with statistical significance at $p &lt; 0.01$ after Holm--Bonferroni correction. These results highlight the effectiveness of temporally grounded graph modeling, augmented with causal-signal fusion, in capturing latent event relationships beyond what semantic similarity or traditional alignment techniques can offer.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-13T19:44:57Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Zijie Lei</name>
+    </author>
+    <author>
+      <name>Haofei Yu</name>
+    </author>
+    <author>
+      <name>Ge Liu</name>
+    </author>
+    <author>
+      <name>Jiaxuan You</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.04217v2</id>
+    <title>Polymarket-v1 Database</title>
+    <updated>2026-06-08T11:47:35Z</updated>
+    <link href="https://arxiv.org/abs/2606.04217v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.04217v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the Polymarket-v1 Database: the complete on-chain trade archive of Polymarket's first-generation CTF Exchange on Polygon, spanning 2022-11-21 to 2026-04-28 and covering the full contract lifecycle from first settlement to natural termination. The dataset comprises 1.20 billion trade records across 1.30 million markets with $61 billion in nominal volume. Its defining feature is 100% ground-truth aggressor direction derived from the blockchain settlement layer, a property unavailable in existing prediction market archives, which rely on heuristic inference. We use this truth-aligned archive to benchmark standard microstructure tools and document three findings. First, the tick rule and bulk volume classification achieve near-random aggregate accuracy (49.83% and 50.51%), but this masks a systematic, correctable price-level gradient driven by positive trade direction autocorrelation and concentrated market-making -- two structural features of prediction markets that violate the mean-reversion assumption embedded in classical classifiers. Second, these classification errors propagate into downstream metrics: inferred VPIN diverges substantially from ground-truth VPIN, and OFI estimates are directionally biased, with material consequences for Transaction Cost Analysis. Third, ground-truth microstructure quality predicts forecasting performance in ways that classification-based proxies cannot recover: True VPIN positively predicts Brier scores, while Gibbs spread negatively predicts them -- a selection effect reflecting that high-spread niche markets attract informed specialists rather than noise traders. Replacing ground-truth metrics with classified proxies attenuates both relationships, illustrating that measurement accuracy at the transaction level is a prerequisite for reliable inference about prediction market design and probability calibration.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-02T21:06:27Z</published>
+    <arxiv:comment>35 pages, 17 figures, 15 tables. Dataset available at https://huggingface.co/datasets/TimeSeventeen/Polymarket-v1</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Boka Qin</name>
+    </author>
+    <author>
+      <name>Rui Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.15674v1</id>
+    <title>Can LLMs Help Decentralized Dispute Arbitration? A Case Study of UMA-Resolved Markets on Polymarket</title>
+    <updated>2026-04-17T03:54:02Z</updated>
+    <link href="https://arxiv.org/abs/2604.15674v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.15674v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Web3 prediction markets, exemplified by Polymarket, have gained prominence for leveraging collective intelligence to forecast a wide range of social, political, and sports events. However, among the thousands of prediction market events, consensus disputes still arise due to imperfections in market mechanisms. On Polymarket alone, the trading volume involving disputed events has reached $972,370,804.71, underscoring the critical need for objective and efficient dispute resolution. In this study, we introduce large language models (LLMs) to: (1) evaluate whether web-enabled LLMs can reproduce the decision quality of UMA's on-chain voting process once a dispute has been raised, and (2) predict, based on event rules, which market events are likely to face future disputes before they occur. Our findings show that LLMs are unable to reliably predict which events will become disputed in advance; however, once a dispute is initiated, web-enabled LLMs achieve 89.58% agreement with UMA's final resolutions and demonstrate strong stability.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-17T03:54:02Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Junhao Wen</name>
+    </author>
+    <author>
+      <name>Juncen Zhou</name>
+    </author>
+    <author>
+      <name>Junjie Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.18269v2</id>
+    <title>Wisdom of LLM Crowds: Aggregation and Contamination in Language Model Ensembles</title>
+    <updated>2026-07-22T22:30:26Z</updated>
+    <link href="https://arxiv.org/abs/2607.18269v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.18269v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The wisdom of crowds -- the finding that aggregating judgments across individuals often outperforms the best individual -- has been extensively studied with human forecasters. Whether the same phenomenon emerges when the ``crowd'' consists of large language models (LLMs) is an open question with both theoretical and practical implications. We elicited probability estimates from 15 LLMs on 254 binary prediction market questions and evaluated classical and learned aggregation methods. Learned aggregators -- a multilayer perceptron and a logistic regression -- outperformed all individual models and classical methods. The logistic regression was found to match the neural network, suggesting that the benefit of learned aggregation derives from learning a linear combination of diverse model outputs rather than from nonlinear interactions. Symbolic regression applied to the neural network's learned mapping recovered a pure model-disagreement signal as the lowest-complexity useful formula on the Pareto frontier, further supporting this interpretation. Training cutoff contamination proved a pervasive confound: the apparent capability gap between frontier cloud models and smaller local models collapsed from 35.8% to 8.9% on a clean subset of questions resolving after all models' training cutoffs, and individual model rankings showed only moderate stability. Even when the prediction market is evaluated at each model's training cutoff, LLMs remained substantially less accurate, indicating a genuine gap in collective information aggregation. These findings suggest that LLM crowds can exhibit wisdom-of-crowds effects, but that contamination-free evaluation is essential for reliable assessment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-26T16:07:01Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Igor Douven</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.02467v1</id>
+    <title>Human Capital, Not Model Benchmarks, Predicts Hybrid Intelligence in Forecasting</title>
+    <updated>2026-07-02T17:34:37Z</updated>
+    <link href="https://arxiv.org/abs/2607.02467v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.02467v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Whether pairing people with AI helps or hurts is usually reported as a single average effect. Using a real-money prediction market (Polymarket) as an objective, externally resolved benchmark, this pilot shows that the value of human-AI collaboration depends on a specific, measurable form of human capital. Analyzed at the level of the individual forecaster, hybrid performance is trimodal: most people either deferred to the model (matching it) or used it to rubber-stamp a prior guess (performing worse than the model alone), while a minority engaged in genuine complementary reasoning and reached accuracy matching or even exceeding (i.e., lower error than) the market itself. Collaborative traits (perspective-taking, intellectual humility, and curiosity) rather than raw cognitive ability or model benchmarks, distinguished who reached that mode. The results are preliminary but statistically robust, and motivate a pre-registered replication now in preparation.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-02T17:34:37Z</published>
+    <arxiv:comment>4 pages, 1 figure, PNAS brief style</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Vivienne Ming</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.04220v1</id>
+    <title>TimeSeek: Temporal Reliability of Agentic Forecasters</title>
+    <updated>2026-04-05T18:38:39Z</updated>
+    <link href="https://arxiv.org/abs/2604.04220v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.04220v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce TimeSeek, a benchmark for studying how the reliability of agentic LLM forecasters changes over a prediction market's lifecycle. We evaluate 10 frontier models on 150 CFTC-regulated Kalshi binary markets at five temporal checkpoints, with and without web search, for 15,000 forecasts total. Models are most competitive early in a market's life and on high-uncertainty markets, but much less competitive near resolution and on strong-consensus markets. Web search improves pooled Brier Skill Score (BSS) for every model overall, yet hurts in 12% of model-checkpoint pairs, indicating that retrieval is helpful on average but not uniformly so. Simple two-model ensembles reduce error without surpassing the market overall. These descriptive results motivate time-aware evaluation and selective-deference policies rather than a single market snapshot or a uniform tool-use setting.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-05T18:38:39Z</published>
+    <arxiv:comment>Workshop paper. 11 pages including references</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hamza Mostafa</name>
+    </author>
+    <author>
+      <name>Om Shastri</name>
+    </author>
+    <author>
+      <name>Dennis Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.17989v4</id>
+    <title>Outcome-based Reinforcement Learning to Predict the Future</title>
+    <updated>2025-12-01T18:12:07Z</updated>
+    <link href="https://arxiv.org/abs/2505.17989v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.17989v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning with Verifiable Rewards (RLVR) has been an effective approach for improving Large Language Models' reasoning in domains such as coding and mathematics. Here, we apply RLVR methods towards forecasting future real-world events - a challenging task for RL due to the very noisy (and delayed) outcomes involved. Using a novel dataset of recent questions from a prediction market, and accompanying relevant news headlines, we show that a compact (14B) reasoning model can be trained to match or surpass the predictive accuracy of frontier models like o1, while greatly improving probabilistic calibration. The model's performance is also practically meaningful: in a Polymarket trading simulation, we estimate that its bets would have yielded a return on investment of over 10% across all questions in the test set. We detail and compare approaches used in training our model, including augmenting our training-data with synthetic prediction questions, guardrails for learning stability, and median prediction sampling at inference-time.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-23T14:56:07Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Benjamin Turtel</name>
+    </author>
+    <author>
+      <name>Danny Franklin</name>
+    </author>
+    <author>
+      <name>Kris Skotheim</name>
+    </author>
+    <author>
+      <name>Luke Hewitt</name>
+    </author>
+    <author>
+      <name>Philipp Schoenegger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.11019v1</id>
+    <title>Predicting Financial Market Crises using Multilayer Network Analysis and LSTM-based Forecasting of Spillover Effects</title>
+    <updated>2025-05-16T09:14:08Z</updated>
+    <link href="https://arxiv.org/abs/2505.11019v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.11019v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Financial crises often occur without warning, yet markets leading up to these events display increasing volatility and complex interdependencies across multiple sectors. This study proposes a novel approach to predicting market crises by combining multilayer network analysis with Long Short-Term Memory (LSTM) models, using Granger causality to capture within-layer connections and Random Forest to model interlayer relationships. Specifically, we utilize Granger causality to model the temporal dependencies between market variables within individual layers, such as asset prices, trading values, and returns. To represent the interactions between different market variables across sectors, we apply Random Forest to model the interlayer connections, capturing the spillover effects between these features. The LSTM model is then trained to predict market instability and potential crises based on the dynamic features of the multilayer network. Our results demonstrate that this integrated approach, combining Granger causality, Random Forest, and LSTM, significantly enhances the accuracy of market crisis prediction, outperforming traditional forecasting models. This methodology provides a powerful tool for financial institutions and policymakers to better monitor systemic risks and take proactive measures to mitigate financial crises.</summary>
+    <category term="econ.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-16T09:14:08Z</published>
+    <arxiv:primary_category term="econ.TH"/>
+    <author>
+      <name>Mahdi Kohan Sefidi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.05998v1</id>
+    <title>Going All-In on LLM Accuracy: Fake Prediction Markets, Real Confidence Signals</title>
+    <updated>2025-12-01T19:04:25Z</updated>
+    <link href="https://arxiv.org/abs/2512.05998v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.05998v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are increasingly used to evaluate other models, yet these judgments typically lack any representation of confidence. This pilot study tests whether framing an evaluation task as a betting game (a fictional prediction market with its own LLM currency) improves forecasting accuracy and surfaces calibrated confidence signals. We generated 100 math and logic questions with verifiable answers. Six Baseline models (three current-generation, three prior-generation) answered all items. Three Predictor models then forecasted, for each question-baseline pair, if the baseline would answer correctly. Each predictor completed matched runs in two conditions: Control (simple correct/incorrect predictions) and Incentive (predictions plus wagers of 1-100,000 LLMCoin under even odds, starting from a 1,000,000 LLMCoin bankroll). Across 5,400 predictions per condition, Incentive runs showed modestly higher accuracy (81.5% vs. 79.1%, p = .089, d = 0.86) and significantly faster learning across rounds (12.0 vs. 2.9 percentage-point improvement from Round 1 to Round 4, p = .011). Most notably, stake size tracked confidence. "Whale" bets of 40,000+ coins were correct ~99% of the time, while small bets (&lt;1,000 coins) showed only ~74% accuracy. The key finding is not that fictional money makes models smarter; accuracy gains were modest and did not reach statistical significance (p = .089) in this pilot. Rather, the betting mechanic created a legible confidence signal absent from binary yes/no outputs. This suggests that simple financial framing may help transform LLMs into risk-aware forecasters, making their internal beliefs visible and usable. The protocol offers a foundation for future work for meta-evaluation systems and what may become LLM-to-LLM prediction markets.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-01T19:04:25Z</published>
+    <arxiv:comment>25 pages, 8 tables, 2 figures. Pilot study. Data, prompts, and code available at https://osf.io/dc24t/</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Michael Todasco</name>
+      <arxiv:affiliation>Visiting Fellow at the James Silberrad Center for Artificial Intelligence, San Diego State University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.17605/OSF.IO/DC24T</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.17605/OSF.IO/DC24T" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.14051v1</id>
+    <title>Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters</title>
+    <updated>2026-07-15T17:21:43Z</updated>
+    <link href="https://arxiv.org/abs/2607.14051v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.14051v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Forecasters are evaluated by backtesting, which replays resolved questions and grades the probability the system would have assigned before the outcome was known. For LLMs, two channels leak the answer into this test. A model that retrieves can surface reports written after the event, turning forecasting into a lookup, and each new model is trained on data closer to the event, so a question that lay in the future for last year's models sits inside this year's training data. Either way, the test grades recall while claiming to grade foresight. We introduce Hindcast, which closes both leaks by grading a model as if it stood at a chosen past date $t_0$, before the outcome existed in either channel. Hindcast replays resolved Polymarket prediction markets against a frozen snapshot of public Reddit, lets the model read only posts written before $t_0$, and scores each forecast against both what happened and the market's own price at $t_0$, itself a human forecast made from the same past information. Because the cutoff is set per market and the snapshot never changes, the evaluation re-runs on new markets as models improve, without going stale. Once the leak is closed, retrieval still helps most models, but only where Reddit discussed the event beforehand. Where the archive carried only speculation, retrieval hurts.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-15T17:21:43Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiao Ye</name>
+    </author>
+    <author>
+      <name>Jacob Dineen</name>
+    </author>
+    <author>
+      <name>Evan Zhu</name>
+    </author>
+    <author>
+      <name>Shijie Lu</name>
+    </author>
+    <author>
+      <name>Kevin Song</name>
+    </author>
+    <author>
+      <name>Ben Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.11162v3</id>
+    <title>On the Statistical Differences between Binary Forecasts and Real World Payoffs</title>
+    <updated>2019-12-29T12:35:57Z</updated>
+    <link href="https://arxiv.org/abs/1907.11162v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.11162v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>What do binary (or probabilistic) forecasting abilities have to do with overall performance? We map the difference between (univariate) binary predictions, bets and "beliefs" (expressed as a specific "event" will happen/will not happen) and real-world continuous payoffs (numerical benefits or harm from an event) and show the effect of their conflation and mischaracterization in the decision-science literature. We also examine the differences under thin and fat tails. The effects are:
+  A- Spuriousness of many psychological results particularly those documenting that humans overestimate tail probabilities and rare events, or that they overreact to fears of market crashes, ecological calamities, etc. Many perceived "biases" are just mischaracterizations by psychologists. There is also a misuse of Hayekian arguments in promoting prediction markets.
+  We quantify such conflations with a metric for "pseudo-overestimation".
+  B- Being a "good forecaster" in binary space doesn't lead to having a good actual performance}, and vice versa, especially under nonlinearities. A binary forecasting record is likely to be a reverse indicator under some classes of distributions. Deeper uncertainty or more complicated and realistic probability distribution worsen the conflation .
+  C- Machine Learning: Some nonlinear payoff functions, while not lending themselves to verbalistic expressions and "forecasts", are well captured by ML or expressed in option contracts.
+  D- Fattailedness: The difference is exacerbated in the power law classes of probability distributions.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.RM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-24T11:32:47Z</published>
+    <arxiv:comment>Minor revisions for the accepted version</arxiv:comment>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <arxiv:journal_ref>International Journal of Forecasting, April 4, 2020</arxiv:journal_ref>
+    <author>
+      <name>Nassim Nicholas Taleb</name>
+    </author>
+    <arxiv:doi>10.1016/j.ijforecast.2019.12.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ijforecast.2019.12.004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.14844v1</id>
+    <title>Political Leanings in Web3 Betting: Decoding the Interplay of Political and Profitable Motives</title>
+    <updated>2024-07-20T11:17:19Z</updated>
+    <link href="https://arxiv.org/abs/2407.14844v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.14844v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Harnessing the transparent blockchain user behavior data, we construct the Political Betting Leaning Score (PBLS) to measure political leanings based on betting within Web3 prediction markets. Focusing on Polymarket and starting from the 2024 U.S. Presidential Election, we synthesize behaviors over 15,000 addresses across 4,500 events and 8,500 markets, capturing the intensity and direction of their political leanings by the PBLS. We validate the PBLS through internal consistency checks and external comparisons. We uncover relationships between our PBLS and betting behaviors through over 800 features capturing various behavioral aspects. A case study of the 2022 U.S. Senate election further demonstrates the ability of our measurement while decoding the dynamic interaction between political and profitable motives. Our findings contribute to understanding decision-making in decentralized markets, enhancing the analysis of behaviors within Web3 prediction environments. The insights of this study reveal the potential of blockchain in enabling innovative, multidisciplinary studies and could inform the development of more effective online prediction markets, improve the accuracy of forecast, and help the design and optimization of platform mechanisms. The data and code for the paper are accessible at the following link: https://github.com/anonymous.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-20T11:17:19Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Hongzhou Chen</name>
+    </author>
+    <author>
+      <name>Xiaolin Duan</name>
+    </author>
+    <author>
+      <name>Abdulmotaleb El Saddik</name>
+    </author>
+    <author>
+      <name>Wei Cai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.01042v2</id>
+    <title>Public Projects with Preferences and Predictions</title>
+    <updated>2025-02-28T00:44:25Z</updated>
+    <link href="https://arxiv.org/abs/2403.01042v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.01042v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When making a decision as a group, there are two primary paradigms: aggregating preferences (e.g. voting, mechanism design) and aggregating information (e.g. discussion, consulting, forecasting). Almost all formally-studied group decisionmaking mechanisms fall under one paradigm or the other, but not both. We consider a public projects problem with the objective of maximizing utilitarian social welfare. Decisionmakers have both preferences, modeled as utility functions over the alternatives; and information, modeled as Bayesian signals relevant to the alternatives' external welfare impact. Aligning incentives is highly challenging because, on the one hand, agents can provide bad information in order to manipulate the mechanism into satisfying their preferences; and on the other hand, they can misreport their preferences to favor selection of an alternative for which their information rewards are high.
+  We propose a two-stage mechanism for this problem. The forecasting stage aggregates information using either a wagering mechanism or a prediction market (the mechanism is modular and compatible with both). The voting stage aggregates preferences, together with the forecasts from the previous stage, and selects an alternative by leveraging the recently-studied Quadratic Transfers Mechanism. We show that, when carefully combined, the entire two-stage mechanism is robust to manipulation of all forms, and under weak assumptions, satisfies Price of Anarchy guarantees. In the case of two alternatives, the Price of Anarchy tends to 1 as natural measures of the "size" of the population grow large. In most cases, the mechanisms achieve a balanced budget as well. We also give the first nonasymptotic Price of Anarchy guarantee for the Quadratic Transfers Mechanism, a result of independent interest.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-02T00:26:57Z</published>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Mary Monroe</name>
+    </author>
+    <author>
+      <name>Bo Waggoner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20452v1</id>
+    <title>Manipulation in Prediction Markets: An Agent-based Modeling Experiment</title>
+    <updated>2026-01-28T10:20:47Z</updated>
+    <link href="https://arxiv.org/abs/2601.20452v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20452v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prediction markets mobilize financial incentives to forecast binary event outcomes through the aggregation of dispersed beliefs and heterogeneous information. Their growing popularity and demonstrated predictive accuracy in political elections have raised speculation and concern regarding their susceptibility to manipulation and the potential consequences for democratic processes. Using agent-based simulations combined with an analytic characterization of price dynamics, we study how high-budget agents can introduce price distortions in prediction markets. We explore the persistence and stability of these distortions in the presence of herding or stubborn agents, and analyze how agent expertise affects market-price variance. Firstly we propose an agent-based model of a prediction market in which bettors with heterogeneous expertise, noisy private information, variable learning rates and budgets observe the evolution of public opinion on a binary election outcome to inform their betting strategies in the market. The model exhibits stability across a broad parameter space, with complex agent behaviors and price interactions producing self-regulatory price discovery. Second, using this simulation framework, we investigate the conditions under which a highly resourced minority, or ''whale'' agent, with a biased valuation can distort the market price, and for how long. We find that biased whales can temporarily shift prices, with the magnitude and duration of distortion increasing when non-whale bettors exhibit herding behavior and slow learning. Our theoretical analysis corroborates these results, showing that whales can shift prices proportionally to their share of market capital, with distortion duration depending on non-whale learning rates and herding intensity.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T10:20:47Z</published>
+    <arxiv:comment>Open source code for the agent-based model and Dash application available at https://github.com/ebbam/power_prediction/ 14 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Bridget Smart</name>
+    </author>
+    <author>
+      <name>Ebba Mark</name>
+    </author>
+    <author>
+      <name>Anne Bastian</name>
+    </author>
+    <author>
+      <name>Josefina Waugh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.26583v1</id>
+    <title>Preference Optimization Drives Monoculture in LLM Prediction Markets</title>
+    <updated>2026-06-25T04:16:44Z</updated>
+    <link href="https://arxiv.org/abs/2606.26583v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.26583v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prediction markets rest on the independence of participant errors. As LLM agents become active traders on platforms like Kalshi and Polymarket, we ask: does this independence hold when the crowd is composed of LLMs? We find it does not. LLM agents fine-tuned with Direct Preference Optimization (DPO) share a convergent output distribution, producing pairwise error correlations of $ρ= 0.70$ and reducing ten agents to the effective forecasting power of ${\approx}1.4$ independent forecasters $N_{\text{eff}}$. This is not a scaling problem: $N_{\text{eff}}$ remains flat from $N=5$ to $N=40$, and the 10-agent market (67.6%) fails to match a single standalone agent (70.2%). Two controlled ablations isolate preference optimization as the causal driver, replicated across labs and scales ($Δρ= +0.24$ to $+0.46$ on identical-SFT controls at 8B and 70B). Among mitigations tested, cross-model diversity achieves the largest correlation reduction ($ρ$ from 0.68 to 0.40). As LLMs become more aligned, markets built from them become more monocultural.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-25T04:16:44Z</published>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>James Begin</name>
+    </author>
+    <author>
+      <name>Brendan Gho</name>
+    </author>
+    <author>
+      <name>Suman Muppavarapu</name>
+    </author>
+    <author>
+      <name>Tyson Tsay</name>
+    </author>
+    <author>
+      <name>Atharva Mohan</name>
+    </author>
+    <author>
+      <name>Afnan Shaik</name>
+    </author>
+    <author>
+      <name>Ruizhe Li</name>
+    </author>
+    <author>
+      <name>Vasu Sharma</name>
+    </author>
+    <author>
+      <name>Archana Vaidheeswaran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.00785v1</id>
+    <title>Applying News and Media Sentiment Analysis for Generating Forex Trading Signals</title>
+    <updated>2024-02-19T02:43:55Z</updated>
+    <link href="https://arxiv.org/abs/2403.00785v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.00785v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The objective of this research is to examine how sentiment analysis can be employed to generate trading signals for the Foreign Exchange (Forex) market. The author assessed sentiment in social media posts and news articles pertaining to the United States Dollar (USD) using a combination of methods: lexicon-based analysis and the Naive Bayes machine learning algorithm. The findings indicate that sentiment analysis proves valuable in forecasting market movements and devising trading signals. Notably, its effectiveness is consistent across different market conditions. The author concludes that by analyzing sentiment expressed in news and social media, traders can glean insights into prevailing market sentiments towards the USD and other pertinent countries, thereby aiding trading decision-making. This study underscores the importance of weaving sentiment analysis into trading strategies as a pivotal tool for predicting market dynamics.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-19T02:43:55Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <arxiv:journal_ref>Review of Business and Economics Studies. 2023;11(4):84-94</arxiv:journal_ref>
+    <author>
+      <name>Oluwafemi F Olaiyapo</name>
+    </author>
+    <arxiv:doi>10.26794/2308-944X-2023-11-4-84-94</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.26794/2308-944X-2023-11-4-84-94" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.2489v1</id>
+    <title>Eliciting Forecasts from Self-interested Experts: Scoring Rules for Decision Makers</title>
+    <updated>2011-06-13T17:04:03Z</updated>
+    <link href="https://arxiv.org/abs/1106.2489v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.2489v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scoring rules for eliciting expert predictions of random variables are usually developed assuming that experts derive utility only from the quality of their predictions (e.g., score awarded by the rule, or payoff in a prediction market). We study a more realistic setting in which (a) the principal is a decision maker and will take a decision based on the expert's prediction; and (b) the expert has an inherent interest in the decision. For example, in a corporate decision market, the expert may derive different levels of utility from the actions taken by her manager. As a consequence the expert will usually have an incentive to misreport her forecast to influence the choice of the decision maker if typical scoring rules are used. We develop a general model for this setting and introduce the concept of a compensation rule. When combined with the expert's inherent utility for decisions, a compensation rule induces a net scoring rule that behaves like a normal scoring rule. Assuming full knowledge of expert utility, we provide a complete characterization of all (strictly) proper compensation rules. We then analyze the situation where the expert's utility function is not fully known to the decision maker. We show bounds on: (a) expert incentive to misreport; (b) the degree to which an expert will misreport; and (c) decision maker loss in utility due to such uncertainty. These bounds depend in natural ways on the degree of uncertainty, the local degree of convexity of net scoring function, and natural properties of the decision maker's utility function. They also suggest optimization procedures for the design of compensation rules. Finally, we briefly discuss the use of compensation rules as market scoring rules for self-interested experts in a prediction market.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-13T17:04:03Z</published>
+    <arxiv:comment>11 pages 4 figures pdflatex See http://www.cs.toronto.edu/~cebly/papers.html</arxiv:comment>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Craig Boutilier</name>
+      <arxiv:affiliation>Department of Computer Science, University of Toronto, Canada</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.01661v1</id>
+    <title>Diverse Evidence, Better Forecasts: Multi-Agent Deliberation Under Information Asymmetry</title>
+    <updated>2026-07-02T03:41:25Z</updated>
+    <link href="https://arxiv.org/abs/2607.01661v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.01661v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent systems are increasingly used for forecasting future events, as deliberation among multiple LLMs is believed to improve reasoning and calibration. Yet existing approaches overlook a critical design choice: what information each agent receives. When all agents are given identical evidence, deliberation collapses into herding rather than genuine belief revision, leaving multi-agent systems little better than a single agent. We identify this as a fundamental gap and propose designed information asymmetry to close it: by partitioning evidence into shared public and disjoint private subsets, each agent holds exclusive knowledge that can only reach others through deliberation. We theoretically show that this decomposition reduces inter-agent error correlation, and instantiate it in InfoDelphi, a framework combining relevance-aware evidence routing, rationale-based iterative deliberation, and confidence-weighted aggregation. On PolyGym, a benchmark of 375 binary forecasting questions derived from real-world prediction markets, InfoDelphi outperforms the strongest single-agent and multi-agent baselines by 12--18% in Brier score and 4--8 percentage points in accuracy. More detailed experiments confirm that removing information asymmetry eliminates most deliberation gains, establishing diversity of input as the key enabler of effective multi-agent reasoning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-02T03:41:25Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuante Li</name>
+    </author>
+    <author>
+      <name>Yicheng Tao</name>
+    </author>
+    <author>
+      <name>Kate Zhang</name>
+    </author>
+    <author>
+      <name>Taozhi Wang</name>
+    </author>
+    <author>
+      <name>Gefei Gu</name>
+    </author>
+    <author>
+      <name>Yaxin Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.02094v1</id>
+    <title>TM-vector: A Novel Forecasting Approach for Market stock movement with a Rich Representation of Twitter and Market data</title>
+    <updated>2023-03-13T18:55:41Z</updated>
+    <link href="https://arxiv.org/abs/2304.02094v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.02094v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stock market forecasting has been a challenging part for many analysts and researchers. Trend analysis, statistical techniques, and movement indicators have traditionally been used to predict stock price movements, but text extraction has emerged as a promising method in recent years. The use of neural networks, especially recurrent neural networks, is abundant in the literature. In most studies, the impact of different users was considered equal or ignored, whereas users can have other effects. In the current study, we will introduce TM-vector and then use this vector to train an IndRNN and ultimately model the market users' behaviour. In the proposed model, TM-vector is simultaneously trained with both the extracted Twitter features and market information. Various factors have been used for the effectiveness of the proposed forecasting approach, including the characteristics of each individual user, their impact on each other, and their impact on the market, to predict market direction more accurately. Dow Jones 30 index has been used in current work. The accuracy obtained for predicting daily stock changes of Apple is based on various models, closed to over 95\% and for the other stocks is significant. Our results indicate the effectiveness of TM-vector in predicting stock market direction.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-13T18:55:41Z</published>
+    <arxiv:comment>24 page</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Faraz Sasani</name>
+    </author>
+    <author>
+      <name>Ramin Mousa</name>
+    </author>
+    <author>
+      <name>Ali Karkehabadi</name>
+    </author>
+    <author>
+      <name>Samin Dehbashi</name>
+    </author>
+    <author>
+      <name>Ali Mohammadi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.06042v2</id>
+    <title>Image Processing Tools for Financial Time Series Classification</title>
+    <updated>2020-08-18T14:13:07Z</updated>
+    <link href="https://arxiv.org/abs/2008.06042v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.06042v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The application of deep learning to time series forecasting is one of the major challenges in present machine learning. We propose a novel methodology that combines machine learning and image processing methods to define and predict market states with intraday financial data. A wavelet transform is applied to the log-return of stock prices for both image extraction and denoising. A convolutional neural network then extracts patterns from denoised wavelet images to classify daily time series, i.e. a market state is associated with the binary prediction of the daily close price movement based on the wavelet image constructed from the price changes in the first hours of the day. This method overcomes the low signal-to-noise ratio problem in financial time series and gets a competitive prediction accuracy of the market states 'Up' and 'Down' of financial data as tested on the S&amp;P 500.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-13T17:56:17Z</published>
+    <arxiv:comment>12 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Bairui Du</name>
+    </author>
+    <author>
+      <name>Delmiro Fernandez-Reyes</name>
+    </author>
+    <author>
+      <name>Paolo Barucca</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,4566 @@
+[
+  {
+    "URL": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-commodity-markets",
+    "abstract": "On a ladder whose rungs are cumulative thresholds, a higher strike cannot be worth more than a lower one, and the source states an out-of-order quote is an arbitrage once the gap clears the per-trade fee.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "OddsShopper (commercial sports-betting media), article bylined Eytan Shander"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific (stated for Kalshi commodity ladders); the monotonicity relation itself is transferable",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C01",
+      "sha256_of_retrieved_bytes": "23861fe9c5e041f1881b7617425c89586420ceed24ed6e58bde082ec64a4c932",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T1"
+      ]
+    },
+    "id": "KSL-C01",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          29
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 23861fe9c5e041f1881b7617425c89586420ceed24ed6e58bde082ec64a4c932. HTTP 200, 190847 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R02).",
+    "title": "Nested-strike monotonicity on a cumulative threshold ladder",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.botforkalshi.com/blog/kalshi-arbitrage-guide",
+    "abstract": "The sum of executable YES prices across a mutually exclusive and exhaustive field is the coherence relation, and the source states the gate on the venue's own mutual-exclusivity flag is what separates a real candidate from a false one.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Bot for Kalshi (commercial vendor blog; publisher discloses the product is its own)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K2",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific as to the exposed flag; the field-sum relation is transferred",
+      "ordinary_or_lateral": "ordinary (the relation) with a lateral precondition (the venue-exposed exclusivity flag and the absence of atomic multi-leg execution)",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C02",
+      "sha256_of_retrieved_bytes": "eed5742777a4c7d4251f714b094493638b4ebc543f057b1a68ea0c30762745c3",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T1"
+      ]
+    },
+    "id": "KSL-C02",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): eed5742777a4c7d4251f714b094493638b4ebc543f057b1a68ea0c30762745c3. HTTP 200, 58023 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R01).",
+    "title": "Field-sum coherence over a mutually exclusive event, gated on the venue's mutual-exclusivity flag",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.botforkalshi.com/blog/kalshi-arbitrage-guide",
+    "abstract": "Because the per-contract fee is a downward parabola in price, a multi-leg coherence gap survives fees only where every leg is priced near the tails, which the source states forces genuine candidates into thin longshot events.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Bot for Kalshi (commercial vendor blog)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific (the fee formula is Kalshi's)",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C03",
+      "sha256_of_retrieved_bytes": "eed5742777a4c7d4251f714b094493638b4ebc543f057b1a68ea0c30762745c3",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T6"
+      ]
+    },
+    "id": "KSL-C03",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): eed5742777a4c7d4251f714b094493638b4ebc543f057b1a68ea0c30762745c3. HTTP 200, 58023 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R01).",
+    "title": "Fee-curve curvature confines surviving field-sum candidates to the longshot tail",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://blog.polytrage.com/kalshis-fee-structure-explained/",
+    "abstract": "The venue's fee is rounded up to the nearest cent, so the realised rate exceeds the nominal rate by an amount that grows as order size falls.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Polytrage (product-company blog)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C04",
+      "sha256_of_retrieved_bytes": "165441a385472128633a9903c569741e91a4d686807e5520a4a909cf9c4a3972",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T6"
+      ]
+    },
+    "id": "KSL-C04",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          29
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 165441a385472128633a9903c569741e91a4d686807e5520a4a909cf9c4a3972. HTTP 200, 27036 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R08).",
+    "title": "Round-up-to-the-cent fee quantisation inflates the effective rate at small order size",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://blog.polytrage.com/kalshis-fee-structure-explained/",
+    "abstract": "The two venues' fee curves peak at different prices, so the cost of the same coherence trade depends on which venue carries which leg.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Polytrage (product-company blog)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "transferred (states a relation between two venues)",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C05",
+      "sha256_of_retrieved_bytes": "165441a385472128633a9903c569741e91a4d686807e5520a4a909cf9c4a3972",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T6"
+      ]
+    },
+    "id": "KSL-C05",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          29
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 165441a385472128633a9903c569741e91a4d686807e5520a4a909cf9c4a3972. HTTP 200, 27036 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R08).",
+    "title": "Cross-venue fee-curve shape asymmetry as a leg-placement constraint",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://docs.polymarket.com/concepts/negative-risk",
+    "abstract": "On a multi-outcome event where exactly one outcome wins, the venue's adapter converts a NO position into YES positions in all other outcomes plus released collateral, making the basket a single capital-efficient claim.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Polymarket (trading venue developer documentation)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "transferred (Polymarket mechanism; no Kalshi equivalent is claimed by this source)",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C06",
+      "sha256_of_retrieved_bytes": "7a064f1ba633b16a928ed9061e69d9464865c15e856be2d0874fb7934de89693",
+      "source_class": "S-D",
+      "strategy_class": [
+        "T1"
+      ]
+    },
+    "id": "KSL-C06",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          23
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 7a064f1ba633b16a928ed9061e69d9464865c15e856be2d0874fb7934de89693. HTTP 200, 384216 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R03).",
+    "title": "Venue-provided negative-risk conversion: one NO converts to YES in every other outcome",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://news.kalshi.com/p/collateral-return",
+    "abstract": "Buying the non-mutually-exclusive sides across a mutually exclusive group can make maximum loss less than cash outlay, and the venue states it returns the difference immediately rather than at settlement.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Kalshi (venue-published explainer stating a clearing mechanic of its own contracts)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C07",
+      "sha256_of_retrieved_bytes": "722114f41ce355c70116e440e49a5e295cae37eb53784f73f5a785e7384678b1",
+      "source_class": "S-D",
+      "strategy_class": [
+        "T1"
+      ]
+    },
+    "id": "KSL-C07",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          1
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 722114f41ce355c70116e440e49a5e295cae37eb53784f73f5a785e7384678b1. HTTP 200, 786637 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R05).",
+    "title": "Collateral return: locked-in profit on a mutually exclusive group is paid out at entry, not at settlement",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://medium.com/@mgoelzer/kalshi-market-mechanics-9f4bdec45e84",
+    "abstract": "A binary position is not sold but closed by opening the opposite side; the venue nets the pair immediately and credits the guaranteed $1, so the capital path of a round trip differs from a margined instrument.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Individual author (Michael Goelzer) on Medium"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C08",
+      "sha256_of_retrieved_bytes": "605668ac7a6c56cc8489149588c927fe58c5ec9234e258c6fc47ef9720f2c6d6",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T6"
+      ]
+    },
+    "id": "KSL-C08",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          13
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 605668ac7a6c56cc8489149588c927fe58c5ec9234e258c6fc47ef9720f2c6d6. HTTP 200, 143889 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R31).",
+    "title": "Position closure by opening the offsetting side, with instant netting to $1",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://help.kalshi.com/en/articles/13823847-apy-on-kalshi",
+    "abstract": "The venue pays interest on cash and on the collateral locked behind open positions, so an unresolved [0,1] claim carries a positive time return that a naive hold-to-expiry cost model omits.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Kalshi (venue help-centre article stating the programme's terms)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C09",
+      "sha256_of_retrieved_bytes": "76fb49a8e8f16db37c84d7f81035f1d9065c9f2b9ea6140da026bd4e6aaf6116",
+      "source_class": "S-D",
+      "strategy_class": [
+        "T6"
+      ]
+    },
+    "id": "KSL-C09",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          17
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 76fb49a8e8f16db37c84d7f81035f1d9065c9f2b9ea6140da026bd4e6aaf6116. HTTP 200, 78348 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R33).",
+    "title": "Interest accrual on the collateral underlying open positions (carry on a fully-collateralised binary)",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://kairos.trade/blog/kalshi-trading-strategies",
+    "abstract": "The settlement-relevant policy outcome is also priced by an interest-rate futures market, and the source states a divergence rule against that reference.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Kairos (commercial trading-terminal vendor blog)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "transferred (states the pairing of an in-scope Kalshi contract against a non-binary CME instrument; in scope only by the protocol 2.2 counterparty-leg extension)",
+      "ordinary_or_lateral": "ordinary",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C10",
+      "sha256_of_retrieved_bytes": "2726e75ad8b287db4f7fd336a7f6ff84c5f02b6e9c6411a0e3177ad94f31b8dd",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T3"
+      ]
+    },
+    "id": "KSL-C10",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          31
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 2726e75ad8b287db4f7fd336a7f6ff84c5f02b6e9c6411a0e3177ad94f31b8dd. HTTP 200, 120390 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R27).",
+    "title": "Cross-instrument basis against the futures-implied probability of the same policy decision",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.avo.bet/articles/kalshi-arbitrage-betting",
+    "abstract": "The same outcome is priced by a bookmaker in odds form; the source states the comparison rule is to convert both sides to implied probability and look for a sum below 100%.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "AVO (commercial betting-tools site)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "transferred (Kalshi leg against a bookmaker leg; the bookmaker leg is in scope only under the protocol 2.2 counterparty-leg extension)",
+      "ordinary_or_lateral": "ordinary",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C11",
+      "sha256_of_retrieved_bytes": "46f0555f7293e1d9cb97e4edf139afe184b6b46aaca6cf4341d1a4d3f404b936",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T3"
+      ]
+    },
+    "id": "KSL-C11",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          21
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 46f0555f7293e1d9cb97e4edf139afe184b6b46aaca6cf4341d1a4d3f404b936. HTTP 200, 112398 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R19).",
+    "title": "Cross-instrument basis against sportsbook lines converted to implied probability",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.botforkalshi.com/blog/kalshi-weather-trading-strategy",
+    "abstract": "The pairing is a model-derived probability against the contract price, and the source states the geographic mismatch between a forecast point and the contract's named settlement station is large enough to flip the outcome.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Bot for Kalshi (commercial vendor blog)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K2",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific (the settlement-station convention is Kalshi's)",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C12",
+      "sha256_of_retrieved_bytes": "e33800389d5b469a875f8f55a42fa4035cba78eceb2bb585fc4c3d85c076abbe",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T3"
+      ]
+    },
+    "id": "KSL-C12",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          21
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): e33800389d5b469a875f8f55a42fa4035cba78eceb2bb585fc4c3d85c076abbe. HTTP 200, 53869 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R41).",
+    "title": "Cross-instrument basis against numerical weather guidance, with the named settlement station as the binding constraint",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://newyorkcityservers.com/blog/prediction-market-arbitrage-guide",
+    "abstract": "Where one venue expresses an event as a cumulative ladder and another as a single band contract, the comparable quantity is the difference between adjacent rungs, not any single rung.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "New York City Servers (commercial hosting-vendor blog)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific as to the ladder geometry; the differencing construction is transferable",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C13",
+      "sha256_of_retrieved_bytes": "a23af606ded4f558004140d686eb703c053829dd5c569440525e6f1e2ec4d64b",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T2"
+      ]
+    },
+    "id": "KSL-C13",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): a23af606ded4f558004140d686eb703c053829dd5c569440525e6f1e2ec4d64b. HTTP 200, 259006 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R20).",
+    "title": "Synthesising a band probability by differencing adjacent nested rungs to compare against another venue's single contract",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-vs-polymarket-settlement-rules",
+    "abstract": "Two venues listing what reads as the same event can bind different sources, different reading times and different event definitions, so a cross-venue pair is not a hedge.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "OddsShopper (commercial sports-betting media)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "transferred (the class is about a Kalshi/Polymarket pair; the mechanism generalises to any two venues)",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C14",
+      "sha256_of_retrieved_bytes": "a31131da569d9bfb22d84f4aedf84de4824c4e29cefaa4ad9a94d7540c77ce95",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T2"
+      ]
+    },
+    "id": "KSL-C14",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          15
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): a31131da569d9bfb22d84f4aedf84de4824c4e29cefaa4ad9a94d7540c77ce95. HTTP 200, 205704 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R50).",
+    "title": "Cross-venue settlement-clock and definition basis: the same headline is two different propositions",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-vs-polymarket-settlement-rules",
+    "abstract": "The contract reads its named source at one instant; absence of data at that instant defaults to No, and any later revision of the figure does not reach back into the settled contract.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "OddsShopper, quoting Kalshi's published SHUTDOWN contract terms"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "secondary: the contract-terms language is quoted by a practitioner source; the Kalshi contract document itself was not retrieved in this arm",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C15",
+      "sha256_of_retrieved_bytes": "a31131da569d9bfb22d84f4aedf84de4824c4e29cefaa4ad9a94d7540c77ce95",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T6"
+      ]
+    },
+    "id": "KSL-C15",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          15
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): a31131da569d9bfb22d84f4aedf84de4824c4e29cefaa4ad9a94d7540c77ce95. HTTP 200, 205704 bytes, retrieved 2026-09-04. extraction depth: secondary: the contract-terms language is quoted by a practitioner source; the Kalshi contract document itself was not retrieved in this arm. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R50).",
+    "title": "Source-outage default and revision-immunity in the contract terms",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://nexusfi.com/a/prediction-markets/weather-event-contracts",
+    "abstract": "Revision handling is not uniform across a venue's series: at least one series settles on the source's post-hoc revised figure while others settle on the first print and ignore revision.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "NexusFi Academy (independent prediction-markets education site)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C16",
+      "sha256_of_retrieved_bytes": "9fabe183188b54a79eef531d35a5c30d7db9c7253a09791bb705c004b53bd0fd",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T6"
+      ]
+    },
+    "id": "KSL-C16",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          18
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 9fabe183188b54a79eef531d35a5c30d7db9c7253a09791bb705c004b53bd0fd. HTTP 200, 204507 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R46).",
+    "title": "Per-series asymmetry in revision treatment across a single venue",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://ufoholdings.substack.com/p/i-lost-30k-due-to-kalshis-void-rules",
+    "abstract": "Where the event cannot be adjudicated, the venue settles at a last-traded or exchange-estimated fair value; the source states this differs from the void convention a sportsbook-trained participant expects.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Individual practitioner Substack (UFO Holdings), first-person loss postmortem"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K2",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page; the rule text the author paraphrases as 'Kalshi's book' was not retrieved from the rulebook itself",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C17",
+      "sha256_of_retrieved_bytes": "3129c34114fcf0e30bc2af28d30b8a80092c7484d0a2107e11c58e0ec395bbaf",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T6"
+      ]
+    },
+    "id": "KSL-C17",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          12
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 3129c34114fcf0e30bc2af28d30b8a80092c7484d0a2107e11c58e0ec395bbaf. HTTP 200, 195462 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page; the rule text the author paraphrases as 'Kalshi's book' was not retrieved from the rulebook itself. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R35).",
+    "title": "Unresolvable or non-occurring outcomes settle at an exchange-determined fair price rather than voiding",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-jobs-report-markets",
+    "abstract": "For at least one scheduled-release series the contract stops trading before the number lands, so the naive speed strategy has no window; the source states the observable consequence is quote withdrawal into the close.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "OddsShopper (commercial sports-betting media)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C18",
+      "sha256_of_retrieved_bytes": "ebebacea42c4521748f2433d5d8a8bb27c393e45255643e409dd867513555bda",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T6"
+      ]
+    },
+    "id": "KSL-C18",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          19
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): ebebacea42c4521748f2433d5d8a8bb27c393e45255643e409dd867513555bda. HTTP 200, 197998 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R40).",
+    "title": "Trading close precedes the scheduled release, which forecloses the post-print latency race",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://kairos.trade/blog/kalshi-trading-strategies",
+    "abstract": "The source states that prices overshoot in the minutes after a scheduled print and that a delayed re-entry is standard practice among traders who specialise in the category.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Kairos (commercial trading-terminal vendor blog)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific as stated",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C19",
+      "sha256_of_retrieved_bytes": "2726e75ad8b287db4f7fd336a7f6ff84c5f02b6e9c6411a0e3177ad94f31b8dd",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T4"
+      ]
+    },
+    "id": "KSL-C19",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          31
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 2726e75ad8b287db4f7fd336a7f6ff84c5f02b6e9c6411a0e3177ad94f31b8dd. HTTP 200, 120390 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R27).",
+    "title": "Post-release overshoot and a stated delayed re-entry window",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.botforkalshi.com/blog/kalshi-trading-strategies-guide",
+    "abstract": "The stated discipline is to fix the surprise threshold before the release and then test whether any resulting price gap survives suspension, latency, spread and fees.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Bot for Kalshi (commercial vendor blog)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "date_basis": "the source states no date; the recordable date under N4 is the access date",
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific as stated",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C20",
+      "sha256_of_retrieved_bytes": "745cbba5f36c427c242db6800fd0f8fd10dfb5124ee1d4ecf49df43d991e71f5",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T7"
+      ]
+    },
+    "id": "KSL-C20",
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 745cbba5f36c427c242db6800fd0f8fd10dfb5124ee1d4ecf49df43d991e71f5. HTTP 200, 63760 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R15).",
+    "title": "Pre-committed surprise band with an explicit executability test",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://help.kalshi.com/en/articles/13823851-liquidity-incentive-program",
+    "abstract": "A published venue programme pays a share of a per-market pot for maintaining resting orders, and states the payment does not require the orders to trade.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Kalshi (venue help-centre article stating the programme's terms)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C21",
+      "sha256_of_retrieved_bytes": "dfc8373f145773ff1c740c5889298ef4d5c7a16f985271757c3dd90eeebfb2b1",
+      "source_class": "S-D",
+      "strategy_class": [
+        "T5"
+      ]
+    },
+    "id": "KSL-C21",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          3
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): dfc8373f145773ff1c740c5889298ef4d5c7a16f985271757c3dd90eeebfb2b1. HTTP 200, 104751 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R09).",
+    "title": "Resting-order reward farming: the venue pays for posted depth independently of fills",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://help.kalshi.com/en/articles/15410219-liquidity-provider-program",
+    "abstract": "Access to the higher-paying liquidity tier is allocated by an auction in which the applicant states the minimum reward it will accept for meeting the stated obligations.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Kalshi (venue help-centre article stating the programme's terms)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C22",
+      "sha256_of_retrieved_bytes": "cf5c16cbc2d68d3b8f354edbdeb5f4300e349484a018918758ff0e8ffa10483c",
+      "source_class": "S-D",
+      "strategy_class": [
+        "T5"
+      ]
+    },
+    "id": "KSL-C22",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          31
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): cf5c16cbc2d68d3b8f354edbdeb5f4300e349484a018918758ff0e8ffa10483c. HTTP 200, 89358 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R10).",
+    "title": "Reverse auction for designated liquidity-provider status",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://www.navnoorbawaresearch.com/p/kalshi-publishes-one-liquidity-subsidy",
+    "abstract": "Because the per-contract subsidy is flat and the per-contract fee is a function of price, the subsidy can exceed the whole fee at prices near the low end of the eligible band.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Navnoor Bawa Research (individual research newsletter; the same article also appears on x.com)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved article; the underlying CFTC rule filings it quotes were not retrieved in this arm",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C23",
+      "sha256_of_retrieved_bytes": "b954f07711f3eaad2d043cd0509356aa873ebadbc72153a4b6653a2d0577bed7",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T6"
+      ]
+    },
+    "id": "KSL-C23",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          14
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): b954f07711f3eaad2d043cd0509356aa873ebadbc72153a4b6653a2d0577bed7. HTTP 200, 251442 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved article; the underlying CFTC rule filings it quotes were not retrieved in this arm. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R52).",
+    "title": "Volume-incentive credit exceeding the taker fee at the low edge of the eligible price band",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.navnoorbawaresearch.com/p/kalshi-publishes-one-liquidity-subsidy",
+    "abstract": "Where the reward pot per market is fixed and shared pro rata, the realised reward per contract falls as eligible volume rises, so the subsidy is largest exactly where the book is thinnest.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Navnoor Bawa Research (individual research newsletter)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved article; the underlying filings were not retrieved in this arm",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C24",
+      "sha256_of_retrieved_bytes": "b954f07711f3eaad2d043cd0509356aa873ebadbc72153a4b6653a2d0577bed7",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T5"
+      ]
+    },
+    "id": "KSL-C24",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          14
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): b954f07711f3eaad2d043cd0509356aa873ebadbc72153a4b6653a2d0577bed7. HTTP 200, 251442 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved article; the underlying filings were not retrieved in this arm. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R52).",
+    "title": "Pro-rata pot dilution makes the realised subsidy largest in the thinnest markets",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.navnoorbawaresearch.com/p/kalshi-publishes-one-liquidity-subsidy",
+    "abstract": "A venue programme cancels a maker's remaining resting orders when fills move the position by a set delta inside a short window, which changes the adverse-selection cost of quoting.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Navnoor Bawa Research (individual research newsletter)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "SECONDARY. The programme document itself was not retrieved: the Kalshi help-centre page at help.kalshi.com/en/articles/13823822-maker-order-protections returned HTTP 200 but no article body (1,829 characters of font licence text only), so no primary quotation is available.",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C25",
+      "sha256_of_retrieved_bytes": "b954f07711f3eaad2d043cd0509356aa873ebadbc72153a4b6653a2d0577bed7",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T5"
+      ]
+    },
+    "id": "KSL-C25",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          14
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): b954f07711f3eaad2d043cd0509356aa873ebadbc72153a4b6653a2d0577bed7. HTTP 200, 251442 bytes, retrieved 2026-09-04. extraction depth: SECONDARY. The programme document itself was not retrieved: the Kalshi help-centre page at help.kalshi.com/en/articles/13823822-maker-order-protections returned HTTP 200 but no article body (1,829 characters of font licence text only), so no primary quotation is available.. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R52).",
+    "title": "Venue-provided maker protection: correlated resting orders auto-cancel on an adverse position delta",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.convoyfinance.com/resources/kalshi-polymarket-taxes-llc-section-1256",
+    "abstract": "The tax character of event-contract gains is unsettled, and the source states that the choice of trading entity changes how any favourable character is applied, together with an operational rule on contract tenor and month-end marking.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Convoy Finance (accounting practice site; author writes as a practising adviser)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "transferred (states the treatment for Kalshi and Polymarket contracts jointly)",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C26",
+      "sha256_of_retrieved_bytes": "2a08a26f198571b420038fb6eb50b1816e460087871ce3666a8f27c10cae9785",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T6"
+      ]
+    },
+    "id": "KSL-C26",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          12
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 2a08a26f198571b420038fb6eb50b1816e460087871ce3666a8f27c10cae9785. HTTP 200, 48596 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R14).",
+    "title": "Contract-characterisation uncertainty and entity structure as an after-tax executability constraint",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://github.com/OctagonAI/kalshi-trading-bot-cli",
+    "abstract": "An open-source tool computes an independent probability per market and defines its signal as the spread between that model price and the executable book.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "OctagonAI (public source repository, README)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K4"
+      ],
+      "date_basis": "the source states no date; the recordable date under N4 is the access date",
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific (the client targets Kalshi)",
+      "ordinary_or_lateral": "ordinary",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C27",
+      "sha256_of_retrieved_bytes": "f1d20b13256f84a90e04a1ceb256581f56c88a3fc45fbf67ed94adae834051a8",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T7"
+      ]
+    },
+    "id": "KSL-C27",
+    "note": "S-C. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): f1d20b13256f84a90e04a1ceb256581f56c88a3fc45fbf67ed94adae834051a8. HTTP 200, 470951 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R12).",
+    "title": "Model-derived probability differenced against the live order book, gated by a stated risk pipeline",
+    "type": "software"
+  },
+  {
+    "URL": "https://www.northlakelabs.com/max/blog/kalshi-weather-postmortem-and-pivot/",
+    "abstract": "A practitioner reports abandoning model-versus-market weather trading and states a different thesis: that certain categories misprice against historical base rates for behavioural reasons.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Northlake Labs (individual practitioner blog, first-person postmortem)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K2"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific as stated",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C28",
+      "sha256_of_retrieved_bytes": "70b441d5ab6f13b4e695715bcd6af1f8d8d38731233c01f235e7e9367330c71e",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T4"
+      ]
+    },
+    "id": "KSL-C28",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          23
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 70b441d5ab6f13b4e695715bcd6af1f8d8d38731233c01f235e7e9367330c71e. HTTP 200, 28778 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R13).",
+    "title": "Base-rate divergence in retail-dominated categories, adopted after a reported failure of model-versus-market forecasting",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.botforkalshi.com/blog/kalshi-parlay-strategy",
+    "abstract": "The venue prices a multi-leg all-or-nothing contract by request-for-quote with no standing book, and the source states the single-leg books provide the independence reference against which the quote can be read.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Bot for Kalshi (commercial vendor blog)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C29",
+      "sha256_of_retrieved_bytes": "649fca92502c41c0f8dcf0a173a4b4120d9af72a6f0695750abbbb15e0e4c024",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T1"
+      ]
+    },
+    "id": "KSL-C29",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          5
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 649fca92502c41c0f8dcf0a173a4b4120d9af72a6f0695750abbbb15e0e4c024. HTTP 200, 56143 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R49).",
+    "title": "RFQ-priced multi-leg combo referenced against the product of the single-leg books",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://www.botforkalshi.com/blog/kalshi-parlay-strategy",
+    "abstract": "The venue's raw markets endpoint carries synthetic combination markets without independent liquidity, so any scanner's market count is not a count of tradeable markets.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Bot for Kalshi (commercial vendor blog)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C30",
+      "sha256_of_retrieved_bytes": "649fca92502c41c0f8dcf0a173a4b4120d9af72a6f0695750abbbb15e0e4c024",
+      "source_class": "S-E",
+      "strategy_class": [
+        "T8"
+      ]
+    },
+    "id": "KSL-C30",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          5
+        ]
+      ]
+    },
+    "note": "S-E. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 649fca92502c41c0f8dcf0a173a4b4120d9af72a6f0695750abbbb15e0e4c024. HTTP 200, 56143 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R49).",
+    "title": "Auto-generated combination markets pollute the raw market feed, so universe construction is a prerequisite",
+    "type": "post-weblog"
+  },
+  {
+    "URL": "https://docs.kalshi.com/getting_started/market_lifecycle",
+    "abstract": "The venue's API exposes 'disputed' and 'amended' as market statuses with a restarting settlement timer, and documents that a market can be closed ahead of its scheduled close time.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Kalshi (venue API documentation)"
+      }
+    ],
+    "custom": {
+      "arm": "lateral-practitioner",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-records.json",
+      "contribution_codes": [
+        "K3",
+        "K4"
+      ],
+      "extraction_depth": "full text of the retrieved page",
+      "kalshi_specific": "Kalshi-specific",
+      "ordinary_or_lateral": "lateral",
+      "persistent_identifier": "none",
+      "record_id": "KSL-C32",
+      "sha256_of_retrieved_bytes": "e64499bc2b06d0ef38d433989b94ddcbc33e667d98037f0927356043348f487f",
+      "source_class": "S-D",
+      "strategy_class": [
+        "T8"
+      ]
+    },
+    "id": "KSL-C32",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          1
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): e64499bc2b06d0ef38d433989b94ddcbc33e667d98037f0927356043348f487f. HTTP 200, 250530 bytes, retrieved 2026-09-04. extraction depth: full text of the retrieved page. TITLE BASIS: the arm log records no document title for this source; the title field carries this corpus's strategy-class name and the URL is the locator. arm log: ks-lateral-records.json (query KSL-R36).",
+    "title": "Dispute and re-determination are machine-readable market states, and close time can move earlier",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://github.com/sudo-ai-git/kalshi-backtest",
+    "abstract": "Independent, honest backtester + data pullers for Kalshi prediction markets (structured finding: direct markets ~0.15% of settle feed).",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "sudo-ai-git"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1",
+        "K2",
+        "K4"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-001",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T4",
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi"
+    },
+    "id": "ks-sc-001",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          27
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: c32b700111a321db16a8cfae5eceaab0ea167dd8. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 50293b496c265abb368eee1bead288beafb437d565a2088ec5aa533a8ef76118. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "sudo-ai-git/kalshi-backtest",
+    "type": "software",
+    "version": "c32b700111a321db16a8cfae5eceaab0ea167dd8"
+  },
+  {
+    "URL": "https://github.com/himagna16/kalshi-microstructure",
+    "abstract": "19 days / 8M snapshots of Kalshi crypto orderbook data: liquidity, cost-to-trade, calibration, and execution-aware backtests. Includes the collectors.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "himagna16"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K2",
+        "K3",
+        "K4"
+      ],
+      "declared_license": "MIT",
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-002",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T6",
+        "T4",
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi crypto event contracts (BTC, ETH, SOL, XRP, DOGE hourly and daily threshold markets)"
+    },
+    "id": "ks-sc-002",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          18
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 817fe37ceb184bd649b71d0dbebb4a8e5718bb59. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 753d94ddd29ee97929fa4d483420e105aeee602f34f610d69ec65b4bb7668462. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "himagna16/kalshi-microstructure",
+    "type": "software",
+    "version": "817fe37ceb184bd649b71d0dbebb4a8e5718bb59"
+  },
+  {
+    "URL": "https://github.com/satchelscode/Kalshi-Market-Maker",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "satchelscode"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1",
+        "K3",
+        "K4"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-003",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T5"
+      ],
+      "venue_of_establishment": "Kalshi"
+    },
+    "id": "ks-sc-003",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          6
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 7b3dd63ba1222990e0ceb30e05eb5afe5d523c8a. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 008e19051257b85d1efd17440b8ca381e52b1b461c7662e48c9ba04e8c91af5a. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "satchelscode/Kalshi-Market-Maker",
+    "type": "software",
+    "version": "7b3dd63ba1222990e0ceb30e05eb5afe5d523c8a"
+  },
+  {
+    "URL": "https://github.com/AjwaZainab/WTI_Kalshi_Backtest",
+    "abstract": "Python backtest for evaluating a Kalshi WTI range market strategy — filters \"between\" markets by NO probability threshold, selects the bracket furthest from the 2:20 PM ET spot price, and reports historical win rate",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "AjwaZainab"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1",
+        "K2",
+        "K4"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-004",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T4",
+        "T3",
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi WTI crude oil range markets"
+    },
+    "id": "ks-sc-004",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          7
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 84630ad75b8f3afefa5355afdc91e3afd629d9a0. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 3040ea10415d5a582a5d025422e60cba87477b6a859a4072c5540f971d800c2e. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "AjwaZainab/WTI_Kalshi_Backtest",
+    "type": "software",
+    "version": "84630ad75b8f3afefa5355afdc91e3afd629d9a0"
+  },
+  {
+    "URL": "https://github.com/VishalBalaji13/RL-Trader-for-Kalshi-Bitcoin-Hourly-Markets",
+    "abstract": "PPO-based RL agent trading Bitcoin event contracts on Kalshi - custom Gymnasium env, backtesting, live demo deployment.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "VishalBalaji13"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1",
+        "K4"
+      ],
+      "declared_license": "Apache-2.0",
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-005",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T7"
+      ],
+      "venue_of_establishment": "Kalshi Bitcoin hourly threshold markets, Kalshi Demo environment"
+    },
+    "id": "ks-sc-005",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          9
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 0eaf4a620978be3c3a90bfb014a916b913540749. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): d83460dcc0ff8a19cd52c066820b51b563fc66f9b2a9db79dbbfc71de9d5aee0. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "VishalBalaji13/RL-Trader-for-Kalshi-Bitcoin-Hourly-Markets",
+    "type": "software",
+    "version": "0eaf4a620978be3c3a90bfb014a916b913540749"
+  },
+  {
+    "URL": "https://github.com/PCeltide/snapevent",
+    "abstract": "Capture and store Kalshi market data - live L2 order books + trade tape - with lossless Parquet processing, deterministic replay, and Python dataset access",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "PCeltide"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K3",
+        "K4"
+      ],
+      "declared_license": "Apache-2.0",
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-006",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8",
+        "T6"
+      ],
+      "venue_of_establishment": "Kalshi"
+    },
+    "id": "ks-sc-006",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          14
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: c0563ab234f94eb841dab78ae4c098be9306404f. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): c798978a47019f42ac13873947eecdfc48e935ed6eae626b11fdda9021a16884. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "PCeltide/snapevent",
+    "type": "software",
+    "version": "c0563ab234f94eb841dab78ae4c098be9306404f"
+  },
+  {
+    "URL": "https://github.com/kapelame/kalshi-crypto-bot",
+    "abstract": "Kalshi 15-min crypto prediction market trading framework — collector, ML, backtester, live trader, terminal dashboard",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "kapelame"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K3",
+        "K4"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-007",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8",
+        "T6"
+      ],
+      "venue_of_establishment": "Kalshi crypto 15-minute markets (BTC, ETH, SOL, XRP)"
+    },
+    "id": "ks-sc-007",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          28
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: eb129b4fe2fe9a05d8e9f5439e7a97a8e77ae550. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): da0d1740897a2fe92fd8eff98e2994d2a92cbd183c025c6613594eb52fffa1d1. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "kapelame/kalshi-crypto-bot",
+    "type": "software",
+    "version": "eb129b4fe2fe9a05d8e9f5439e7a97a8e77ae550"
+  },
+  {
+    "URL": "https://github.com/dino-markets/dino-markets-typescript",
+    "abstract": "Official TypeScript SDK for dino.markets — cross-venue prediction market data (Kalshi + Polymarket)",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "dino-markets"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1",
+        "K4"
+      ],
+      "declared_license": "MIT",
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "transferred-with-stated-assumption",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-008",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T2",
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi and Polymarket (as stated); the SDK's own vendor venue is dino.markets"
+    },
+    "id": "ks-sc-008",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          28
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: ce9cec864d2af8d74225bf53c3fd9f6d95e91c6c. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 27f004e38a4e24775141647cf9479a4e73ac3d230fa6dd33982df159eff3ef29. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "dino-markets/dino-markets-typescript",
+    "type": "software",
+    "version": "ce9cec864d2af8d74225bf53c3fd9f6d95e91c6c"
+  },
+  {
+    "URL": "https://github.com/carllman13/Kalshi_Trading",
+    "abstract": "All Kalshi-related projects - data analysis/visualization/trading",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "carllman13"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1",
+        "K4"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-009",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T3",
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi Fed-Rate contracts"
+    },
+    "id": "ks-sc-009",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          1
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 26ce6ecb6a6f54b572db2ad5b928bff03505b6fc. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 0f39fc4de32ab8b165bcddf6f8a9db671a82b768538774c726951243e8a633a7. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "carllman13/Kalshi_Trading",
+    "type": "software",
+    "version": "26ce6ecb6a6f54b572db2ad5b928bff03505b6fc"
+  },
+  {
+    "URL": "https://github.com/dagemawigetachew-arch/Kalshi_Project",
+    "abstract": "Quantitative analysis and backtesting of NBA prediction markets to investigate market overreaction, mean reversion, and game-state-driven trading opportunities.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "dagemawigetachew-arch"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1"
+      ],
+      "declared_license": "MIT",
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "transferred-with-stated-assumption",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-010",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T4"
+      ],
+      "venue_of_establishment": "NBA prediction markets; the record names no specific venue beyond the repository name 'Kalshi_Project'"
+    },
+    "id": "ks-sc-010",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          13
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 554f1e0d61badc8d9f755e62b15e9d22f5854b7b. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 6ff07bf7ed54b863f591c19be39ad0f2365961dcaf6323dd02eb51be5fa76890. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "dagemawigetachew-arch/Kalshi_Project",
+    "type": "software",
+    "version": "554f1e0d61badc8d9f755e62b15e9d22f5854b7b"
+  },
+  {
+    "URL": "https://github.com/Waike122333/Automated-Trading-Kalshi",
+    "abstract": "An algorithmic trading bot for kalshi.com event contracts that automates trading strategies based on economic data, news events, weather patterns, and political markets in real-time.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Waike122333"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1"
+      ],
+      "declared_license": "BSL-1.0",
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-011",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T7"
+      ],
+      "venue_of_establishment": "Kalshi"
+    },
+    "id": "ks-sc-011",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          6
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 49555d79b7df06af4994358b4218064b11f0aeb2. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): b7d42963aa66d623a0ddb13d80d8e65560277033fa8924b872ab1dab63a835de. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "Waike122333/Automated-Trading-Kalshi",
+    "type": "software",
+    "version": "49555d79b7df06af4994358b4218064b11f0aeb2"
+  },
+  {
+    "URL": "https://github.com/EliasLittle/KalshiTradingSystem",
+    "abstract": "Framework built around Kalshi's api to more easily implement automated strategies",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "EliasLittle"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-012",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi (prod and demo environments)"
+    },
+    "id": "ks-sc-012",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          20
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: bbe68bb89db61103de444c5d277f7ef11913a66f. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 74f7f9099de77445ea7c3e32c027ad7ccfc9b80ef776b75cb21ee22bd6c40420. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "EliasLittle/KalshiTradingSystem",
+    "type": "software",
+    "version": "bbe68bb89db61103de444c5d277f7ef11913a66f"
+  },
+  {
+    "URL": "https://github.com/dpeachpeach/kalshi-rust",
+    "abstract": "Kalshi trading API client/wrapper written in rust.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "dpeachpeach"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "declared_license": "MIT",
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-013",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi"
+    },
+    "id": "ks-sc-013",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 195c0c8569d376acd8cce5be96c1f3c0a06a3450. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 1c50bf93d878f844060d220597b25a02a95c7076b64d97d3d2927efddb197b12. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "dpeachpeach/kalshi-rust",
+    "type": "software",
+    "version": "195c0c8569d376acd8cce5be96c1f3c0a06a3450"
+  },
+  {
+    "URL": "https://github.com/bennapp/kalshi-sdk",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "bennapp"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-014",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi (host https://api.elections.kalshi.com/trade-api/v2)"
+    },
+    "id": "ks-sc-014",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          29
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 6f35053ff4ed123ceb4bd8440e3ef56d9741ebcc. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): fcb05a26d606a68c7adf9b1b2534d3dc39e0c1419390403b477a62010b7b5905. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "bennapp/kalshi-sdk",
+    "type": "software",
+    "version": "6f35053ff4ed123ceb4bd8440e3ef56d9741ebcc"
+  },
+  {
+    "URL": "https://github.com/yw666/kalshi_weather_betting",
+    "abstract": "Weather Betting Scanner",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "yw666"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-015",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi daily high-temperature markets"
+    },
+    "id": "ks-sc-015",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 043ef96bf1574d3109ce797bedbf5049d526dfab. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): b1bcbaec487bdea390f0f7017535cf13bac9ccdccc9c9e402393bc5773cfd2e3. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "yw666/kalshi_weather_betting",
+    "type": "software",
+    "version": "043ef96bf1574d3109ce797bedbf5049d526dfab"
+  },
+  {
+    "URL": "https://github.com/Archsec-Emman/Prediction-Engine",
+    "abstract": "Unified Prediction Market Oracle – Combines AI analysis, paper trading, and strategy backtesting into one binary. Run all three engines on any Polymarket or Kalshi event for a complete intelligence report.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Archsec-Emman"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "declared_license": "MIT",
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "not-transferable-as-stated",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-016",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "none/theoretical — the record names Polymarket via its upstreams and states no venue of its own"
+    },
+    "id": "ks-sc-016",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          23
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 3cc1a0130f7c60e16f133cbf2fcc99a7be38b1f6. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): b51e23f98742665144eb3b41d4f96ff7c13c696e827c3417c87906c7a3fcb5f7. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "Archsec-Emman/Prediction-Engine",
+    "type": "software",
+    "version": "3cc1a0130f7c60e16f133cbf2fcc99a7be38b1f6"
+  },
+  {
+    "URL": "https://github.com/talhareltal/awesome-prediction-market-analytics-tools",
+    "abstract": "A curated list of prediction market analytics, trading, and monitoring tools: odds, volume, and wallet tracking, not just headlines.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "talhareltal"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "transferred-with-stated-assumption",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-017",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Polymarket, Kalshi, and others (as stated)"
+    },
+    "id": "ks-sc-017",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          2
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 302161ed4206042e557d81514f268adb89dcb6a8. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): f48c4b795b2bd25a1c0a11f40947ee1abbb31cde4a1385cf156d1f043c312dd3. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "talhareltal/awesome-prediction-market-analytics-tools",
+    "type": "software",
+    "version": "302161ed4206042e557d81514f268adb89dcb6a8"
+  },
+  {
+    "URL": "https://github.com/api-evangelist/kalshi",
+    "abstract": "Kalshi — independent third-party profile of a public API surface, by API Evangelist. Kalshi is a CFTC-regulated US exchange for binary event contracts on real-world outcomes - elections, economics, weather, sports, and more. The platform exposes a public REST trading API and WebSocket streams for market data, orders, positions, and portfolio action",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "api-evangelist"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K3",
+        "K4"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-018",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T6",
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi's public API surface"
+    },
+    "id": "ks-sc-018",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          1
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 8e2b9b170a679ca30b71c286cae3466bbff73a25. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 5f4eb603e33c95038db134afc0b179a92c3c59560e2ac77c6ea26dd0f702e1e7. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "api-evangelist/kalshi",
+    "type": "software",
+    "version": "8e2b9b170a679ca30b71c286cae3466bbff73a25"
+  },
+  {
+    "URL": "https://github.com/samuel483/poly-kalshi-arb",
+    "abstract": "🎯 Automate cross-platform arbitrage trading between Kalshi and Polymarket with this easy-to-use bot designed for optimal profit.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "samuel483"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "transferred-with-stated-assumption",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-019",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T2"
+      ],
+      "venue_of_establishment": "Kalshi and Polymarket, as named by the credential blocks"
+    },
+    "id": "ks-sc-019",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 73b7cdac1fa9b8956e954f41d0bc03a03ad48bcc. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): a8b08ef852f4c95d71f8b5eb7e55f0e999939e0a73d4c0ae242be0a13001a9c7. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "samuel483/poly-kalshi-arb",
+    "type": "software",
+    "version": "73b7cdac1fa9b8956e954f41d0bc03a03ad48bcc"
+  },
+  {
+    "URL": "https://github.com/kevinbalcom82-create/poly-kalshi-arb-scanner",
+    "abstract": "A lightweight, headless Python scanner for detecting cross-exchange probability spreads.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "kevinbalcom82-create"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1",
+        "K4"
+      ],
+      "extraction_depth": "metadata",
+      "kalshi_specific": "transferred-with-stated-assumption",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-021",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T2"
+      ],
+      "venue_of_establishment": "not stated in the retrieved metadata beyond the repository name naming Polymarket and Kalshi"
+    },
+    "id": "ks-sc-021",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          25
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: ae34f8a9ee3f610d959d875cabb28fa941f595ec. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): none recorded. extraction depth: metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "kevinbalcom82-create/poly-kalshi-arb-scanner",
+    "type": "software",
+    "version": "ae34f8a9ee3f610d959d875cabb28fa941f595ec"
+  },
+  {
+    "URL": "https://github.com/octavi42/prediction-market-maker",
+    "abstract": "Market-making strategy that placed #2 in Paradigm's Prediction Market Challenge. 110 iterations, 8 hours.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "octavi42"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1",
+        "K2"
+      ],
+      "declared_license": "MIT",
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "not-transferable-as-stated",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-024",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T5"
+      ],
+      "venue_of_establishment": "A simulated hackathon venue — Paradigm's Prediction Market Challenge / Automated Research Hackathon. NOT a live exchange."
+    },
+    "id": "ks-sc-024",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          10
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 3ae051bc16fbfd7fdc6bb2c7f801e5f09822637f. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): fd14af9d7ec385c664138224ca08e193c089429792382b28ca3ea39bee9adca1. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "octavi42/prediction-market-maker",
+    "type": "software",
+    "version": "3ae051bc16fbfd7fdc6bb2c7f801e5f09822637f"
+  },
+  {
+    "URL": "https://github.com/sandeepportfolio/arbiter-dashboard",
+    "abstract": "ARBITER - Prediction Market Arbitrage Dashboard",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "sandeepportfolio"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-025",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T2",
+        "T6"
+      ],
+      "venue_of_establishment": "Kalshi, Polymarket (US gateway), and ForecastEx (IBKR-routed)"
+    },
+    "id": "ks-sc-025",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 2d639af1278b9bd0a08a95c9e5f0a135def4e469. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): a089d2ad2b7a66f88fdd8f92daf48e2c0ec95bbcc3476142de84c7969ba6ce75. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "sandeepportfolio/arbiter-dashboard",
+    "type": "software",
+    "version": "2d639af1278b9bd0a08a95c9e5f0a135def4e469"
+  },
+  {
+    "URL": "https://github.com/ryohno/polymarket-legend-mm",
+    "abstract": "Polymarket market maker for Legend",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "ryohno"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "transferred-with-stated-assumption",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-026",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T5"
+      ],
+      "venue_of_establishment": "Polymarket; built for the 'Legend Trade Series' event (8 binary YES/NO markets, NegRisk CTF on Polygon)"
+    },
+    "id": "ks-sc-026",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          11
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 31c05a707e333093ace3ff51d3eb38607c804e72. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 487bc233076beea9be4e73c43326fe45b254ff592ef2d1adfdadde6351a7a54d. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "ryohno/polymarket-legend-mm",
+    "type": "software",
+    "version": "31c05a707e333093ace3ff51d3eb38607c804e72"
+  },
+  {
+    "URL": "https://github.com/ConteurShadow/Polymarket-Market-Maker-Bot",
+    "abstract": "Polymarket market maker",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "ConteurShadow"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "not-transferable-as-stated",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-027",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T5"
+      ],
+      "venue_of_establishment": "Polymarket CLOB"
+    },
+    "id": "ks-sc-027",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          29
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 0f88aa8e355f59b73809352dcb0e4d542e2705e2. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 318320f8891236a7d4245235188aa71820a65a4e38ee97b5cbfb7fa1f026d25f. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "ConteurShadow/Polymarket-Market-Maker-Bot",
+    "type": "software",
+    "version": "0f88aa8e355f59b73809352dcb0e4d542e2705e2"
+  },
+  {
+    "URL": "https://github.com/DiegoBermud65/OracleMind-Polymarket-BTC-AI-Probability-Bot",
+    "abstract": "Polymarket-BTC-AI-Probability-Bot Polymarket-BTC-AI-Probability-Bot Polymarket-BTC-AI-Probability-Bot Polymarket-BTC-AI-Probability-Bot Polymarket-BTC-AI-Probability-Bot Polymarket-BTC-AI-Probability-Bot Polymarket-BTC-AI-Probability-Bot Polymarket-BTC-AI-Probability-Bot Polymarket-BTC-AI-Probability-Bot Polymarket-BTC-AI-Probability-Bot ",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "DiegoBermud65"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "declared_license": "MIT",
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "not-transferable-as-stated",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-028",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T7",
+        "T3"
+      ],
+      "venue_of_establishment": "Polymarket BTC Up/Down markets at 5m / 15m / 1h horizons"
+    },
+    "id": "ks-sc-028",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          26
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 0ddb2dd2215401f76454b86c0be8d33dce1ca66a. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 01d125b65225908f90b97631ddf20f28ef7afcbb201c6e86fcf82a7e8fa6919f. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "DiegoBermud65/OracleMind-Polymarket-BTC-AI-Probability-Bot",
+    "type": "software",
+    "version": "0ddb2dd2215401f76454b86c0be8d33dce1ca66a"
+  },
+  {
+    "URL": "https://github.com/betcode-org/flumine",
+    "abstract": "flūmine - Betting trading framework",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "betcode-org"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4",
+        "K1"
+      ],
+      "declared_license": "MIT",
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "transferred-with-stated-assumption",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-029",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8",
+        "T5"
+      ],
+      "venue_of_establishment": "Betting exchanges (Betfair, per the project's lineage and its stated sports-betting scope)"
+    },
+    "id": "ks-sc-029",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 13ad8115adaa5df9cc0bb0da737b2dd667833802. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 50f303276196355f54f006de2326a97667be07f7983dfb312d3ddf07695b2075. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "github.com",
+    "title": "betcode-org/flumine",
+    "type": "software",
+    "version": "13ad8115adaa5df9cc0bb0da737b2dd667833802"
+  },
+  {
+    "URL": "https://gitlab.com/nayrbryanGaming/arbiter",
+    "abstract": "Process-first quant bot for Polymarket political markets. Hunts cross-market arbitrage (no-arbitrage violations between related election markets), sizes positions with fractional Kelly, and refuses to trade without a backtested out-of-sample edge. Paper-trading by default — survival over profit.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "nayrbryanGaming"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K1",
+        "K3"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "transferred-with-stated-assumption",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-030",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T1",
+        "T2"
+      ],
+      "venue_of_establishment": "Polymarket, stated as the primary venue; the architecture tree also names Kalshi and Manifold read clients"
+    },
+    "id": "ks-sc-030",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          13
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: eb1943b82fd70642a9bb44929fb021d059342bd3. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 17bc910e30d2a8ad4fa22bf433b1c6a483e81782f2f47eb0e8042d22b8718309. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "gitlab.com",
+    "title": "nayrbryanGaming/arbiter",
+    "type": "software",
+    "version": "eb1943b82fd70642a9bb44929fb021d059342bd3"
+  },
+  {
+    "URL": "https://gitlab.com/kandadamukesh8/alphaedge",
+    "abstract": "Stop guessing. Spot mispriced markets and follow the smart money on Polymarket & Kalshi - your quant edge, in the browser. FastAPI + Next.js + XGBoost paper-trading prediction platform.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "kandadamukesh8"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4",
+        "K3"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "not-transferable-as-stated",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-031",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T7",
+        "T8"
+      ],
+      "venue_of_establishment": "none/theoretical — the record states it is a simulation with its own seeded order book, not a live venue"
+    },
+    "id": "ks-sc-031",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          5
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 107d814f7c1b881904413634910ef37a59c3ff57. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 0d8ebdd7c66231efb5ce349c8d8b514e0146d5224bdacde6cf8a8e078ca0ff3a. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "gitlab.com",
+    "title": "kandadamukesh8/alphaedge",
+    "type": "software",
+    "version": "107d814f7c1b881904413634910ef37a59c3ff57"
+  },
+  {
+    "URL": "https://gitlab.com/ciberhands/claude-for-polymarket-bots",
+    "abstract": "bot",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "ciberhands"
+      }
+    ],
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "extraction_depth": "README-and-metadata",
+      "kalshi_specific": "not-transferable-as-stated",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-032",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Polymarket"
+    },
+    "id": "ks-sc-032",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          24
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 09defbe57961993b14b2cbb0fbdc8c47d6d70b6f. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): b06d6cef13f9658944c83368f8efb7b221bfbe0806a3cc5985ae03ecbd037c3a. extraction depth: README-and-metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "gitlab.com",
+    "title": "ciberhands/claude-for-polymarket-bots",
+    "type": "software",
+    "version": "09defbe57961993b14b2cbb0fbdc8c47d6d70b6f"
+  },
+  {
+    "URL": "https://pypi.org/project/kalshi-python/",
+    "abstract": "Kalshi Trading API",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "declared_license": "LicenseRef-Proprietary",
+      "extraction_depth": "metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-033",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi"
+    },
+    "id": "ks-sc-033",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          6
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 2.1.4. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 16c1d1baa7e6745df597913f2f4f3f79585690dec986026415253332b60db8e6. extraction depth: metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "pypi.org",
+    "title": "kalshi-python",
+    "type": "software",
+    "version": "2.1.4"
+  },
+  {
+    "URL": "https://pypi.org/project/kalshi/",
+    "abstract": "Library for accessing Kalshi API",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "declared_license": "MIT",
+      "extraction_depth": "metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-034",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi"
+    },
+    "id": "ks-sc-034",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          4
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 0.2.0. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 595c16761392bca382b7c75e5d8c5c80542a603bdc1896afe15a5e423f9f5eb9. extraction depth: metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "pypi.org",
+    "title": "kalshi",
+    "type": "software",
+    "version": "0.2.0"
+  },
+  {
+    "URL": "https://pypi.org/project/kalshi-sdk/",
+    "abstract": "A professional Python SDK for the Kalshi prediction markets and Perps (margin) APIs",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "declared_license": "MIT",
+      "extraction_depth": "metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-035",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi prediction markets, and a margined 'Perps' product the summary names"
+    },
+    "id": "ks-sc-035",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          28
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 13.0.0. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): f14a59201bbdd1d19af8410ad44fbdcf9bbd6349df403eae26067aa8e3942f29. extraction depth: metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "pypi.org",
+    "title": "kalshi-sdk",
+    "type": "software",
+    "version": "13.0.0"
+  },
+  {
+    "URL": "https://pypi.org/project/py-clob-client/",
+    "abstract": "Python client for the Polymarket CLOB",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "extraction_depth": "metadata",
+      "kalshi_specific": "not-transferable-as-stated",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-036",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Polymarket CLOB"
+    },
+    "id": "ks-sc-036",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          19
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 0.34.6. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 09c6b96e7296f6cc22466018af9ab74bcaab661a697432025e7257252c660af4. extraction depth: metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "pypi.org",
+    "title": "py-clob-client",
+    "type": "software",
+    "version": "0.34.6"
+  },
+  {
+    "URL": "https://pypi.org/project/polymarket-sdk/",
+    "abstract": "Polymarket trading client and market data fetcher",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "declared_license": "MIT",
+      "extraction_depth": "metadata",
+      "kalshi_specific": "not-transferable-as-stated",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-037",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Polymarket"
+    },
+    "id": "ks-sc-037",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          22
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 0.2.0. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): 4347b9ba4892c5a6e2785bc326fa12a86f81ac6bfc1ebea29c6b141e0cfa3bdc. extraction depth: metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "pypi.org",
+    "title": "polymarket-sdk",
+    "type": "software",
+    "version": "0.2.0"
+  },
+  {
+    "URL": "https://pypi.org/project/polymarket/",
+    "abstract": "A package to export historical odds for an outcome of a market on Polymarket",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "extraction_depth": "metadata",
+      "kalshi_specific": "not-transferable-as-stated",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-038",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Polymarket"
+    },
+    "id": "ks-sc-038",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          6
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 0.1.2. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): ff8256b8e63113bc0b609ee4daeb478b28f6fbed6af6791188ad61721a798e78. extraction depth: metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "pypi.org",
+    "title": "polymarket",
+    "type": "software",
+    "version": "0.1.2"
+  },
+  {
+    "URL": "https://www.npmjs.com/package/kalshi-cli",
+    "abstract": "Interactive CLI for trading prediction markets on Kalshi",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "extraction_depth": "metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-039",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi"
+    },
+    "id": "ks-sc-039",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          26
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 1.2.78. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): none recorded. extraction depth: metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "registry.npmjs.org",
+    "title": "kalshi-cli",
+    "type": "software",
+    "version": "1.2.78"
+  },
+  {
+    "URL": "https://www.npmjs.com/package/kalshi-typescript",
+    "abstract": "OpenAPI client for kalshi-typescript",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "extraction_depth": "metadata",
+      "kalshi_specific": "kalshi-specific",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-040",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Kalshi, by the package name; the description names no venue of its own"
+    },
+    "id": "ks-sc-040",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          1
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 3.29.0. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): none recorded. extraction depth: metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "registry.npmjs.org",
+    "title": "kalshi-typescript",
+    "type": "software",
+    "version": "3.29.0"
+  },
+  {
+    "URL": "https://www.npmjs.com/package/clawbid-agent",
+    "abstract": "ClawBid AI Agent SDK — autonomous prediction market trading",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "extraction_depth": "metadata",
+      "kalshi_specific": "not-transferable-as-stated",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-041",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T7",
+        "T8"
+      ],
+      "venue_of_establishment": "not stated — the description names no venue"
+    },
+    "id": "ks-sc-041",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 1.0.10. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): none recorded. extraction depth: metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "registry.npmjs.org",
+    "title": "clawbid-agent",
+    "type": "software",
+    "version": "1.0.10"
+  },
+  {
+    "URL": "https://www.npmjs.com/package/n8n-nodes-polymarket",
+    "abstract": "n8n community nodes for Polymarket - trading, market data, and order management",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "extraction_depth": "metadata",
+      "kalshi_specific": "not-transferable-as-stated",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-042",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Polymarket"
+    },
+    "id": "ks-sc-042",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          10
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 4.2.0. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): none recorded. extraction depth: metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "registry.npmjs.org",
+    "title": "n8n-nodes-polymarket",
+    "type": "software",
+    "version": "4.2.0"
+  },
+  {
+    "URL": "https://www.npmjs.com/package/@alpha-arcade/sdk",
+    "abstract": "TypeScript SDK for trading on Alpha Market — Algorand prediction markets. Place orders, manage positions, read orderbooks from API or chain, and build trading bots.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "software-repository",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-github-records.jsonl",
+      "contribution_codes": [
+        "K4"
+      ],
+      "extraction_depth": "metadata",
+      "kalshi_specific": "not-transferable-as-stated",
+      "persistent_identifier": "none",
+      "record_id": "ks-sc-043",
+      "source_class": "S-C",
+      "strategy_class": [
+        "T8"
+      ],
+      "venue_of_establishment": "Alpha Market, stated as Algorand-based prediction markets"
+    },
+    "id": "ks-sc-043",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          25
+        ]
+      ]
+    },
+    "note": "S-C. persistent identifier: none (ADR-0006). commit-or-release as of access date: 0.5.0. retrieved-bytes digest (README or sdist; project design choice, protocol section 12): none recorded. extraction depth: metadata. arm log: ks-github-records.jsonl.",
+    "publisher": "registry.npmjs.org",
+    "title": "@alpha-arcade/sdk",
+    "type": "software",
+    "version": "0.5.0"
+  },
+  {
+    "URL": "https://kalshi.com/docs/kalshi-fee-schedule.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d01-c1",
+        "d01-c2",
+        "d01-c3",
+        "d01-c4",
+        "d01-c5",
+        "d01-c6",
+        "d01-c7",
+        "d01-c8",
+        "d01-c9",
+        "d01-c10",
+        "d01-c11"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "effective_date": "2026-07-07",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d01",
+      "sha256_of_retrieved_bytes": "c326a69f596a11e8f8be2620402d39a8d4823920c21cc97c93a114d862699601",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d01",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          7
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): c326a69f596a11e8f8be2620402d39a8d4823920c21cc97c93a114d862699601. retrieved 2026-09-04, HTTP 200, 281129 bytes. document class: 3. Fee schedule and maker/taker structure. clauses extracted: 11. attribution label: as stated in Kalshi's published fee schedule. arm log: ks-venue-docs.json (query KS-VR-Q09).",
+    "publisher": "KalshiEX LLC (trading venue)",
+    "title": "Trading Fees [Kalshi Exchange Fee Schedule]",
+    "type": "report"
+  },
+  {
+    "URL": "https://kalshi.com/docs/kalshi-member-agreement.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d02-c1",
+        "d02-c2",
+        "d02-c3"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d02",
+      "sha256_of_retrieved_bytes": "292643cdae6c2898cf923d518d412b58f9f340547f344cef8528c6143c136884",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d02",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 292643cdae6c2898cf923d518d412b58f9f340547f344cef8528c6143c136884. retrieved 2026-09-04, HTTP 200, 167183 bytes. document class: 1. Rulebook and its amendments (member-facing contract of adhesion). clauses extracted: 3. attribution label: as stated in the Kalshi Member Agreement. arm log: ks-venue-docs.json (query KS-VR-Q13).",
+    "publisher": "KalshiEX LLC (trading venue)",
+    "title": "Kalshi Member Agreement",
+    "type": "report"
+  },
+  {
+    "URL": "https://kalshi.com/docs/api.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d03-c1",
+        "d03-c2",
+        "d03-c3",
+        "d03-c4"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d03",
+      "sha256_of_retrieved_bytes": "d8d392f330abdbf7523f4db7950e803483504abcda36edda1cc3973cc1c53a61",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d03",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): d8d392f330abdbf7523f4db7950e803483504abcda36edda1cc3973cc1c53a61. retrieved 2026-09-04, HTTP 200, 7560 bytes. document class: 6. API documentation and rate limits. clauses extracted: 4. attribution label: as stated in Kalshi's published API overview. arm log: ks-venue-docs.json (query KS-VR-Q19).",
+    "publisher": "KalshiEX LLC (trading venue)",
+    "title": "Kalshi API Overview",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://kalshi.com/AGENTS.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d04-c1",
+        "d04-c2",
+        "d04-c3",
+        "d04-c4"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d04",
+      "sha256_of_retrieved_bytes": "6b1a42e9f051bc376a5d806fefb0ffc1b307e9ac64d1d835731a884852a8e848",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d04",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 6b1a42e9f051bc376a5d806fefb0ffc1b307e9ac64d1d835731a884852a8e848. retrieved 2026-09-04, HTTP 200, 10768 bytes. document class: 6. API documentation and rate limits (agent-directed variant). clauses extracted: 4. attribution label: as stated in Kalshi's published agent skill file. arm log: ks-venue-docs.json (query KS-VR-Q07).",
+    "publisher": "KalshiEX LLC (trading venue)",
+    "title": "Kalshi - Agent Instructions (AGENTS.md)",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://docs.kalshi.com/getting_started/rate_limits.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d06-c1",
+        "d06-c2",
+        "d06-c3",
+        "d06-c4",
+        "d06-c5",
+        "d06-c6",
+        "d06-c7",
+        "d06-c8",
+        "d06-c9"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d06",
+      "sha256_of_retrieved_bytes": "c7fac04330544488f504533d96d7893652679e4898a5fc365f8d644c2401d32d",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d06",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): c7fac04330544488f504533d96d7893652679e4898a5fc365f8d644c2401d32d. retrieved 2026-09-04, HTTP 200, 11717 bytes. document class: 6. API documentation and rate limits. clauses extracted: 9. attribution label: as stated in Kalshi's published developer documentation. arm log: ks-venue-docs.json (query KS-VR-Q24b).",
+    "publisher": "KalshiEX LLC (trading venue)",
+    "title": "Rate Limits and Tiers",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://docs.kalshi.com/getting_started/market_settlement.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d07-c1",
+        "d07-c2",
+        "d07-c3"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d07",
+      "sha256_of_retrieved_bytes": "c8cdf6d9b09b2e76d9e25218ec2d109149b541360d8c10f2dc8a7fa5f23a54e6",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d07",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): c8cdf6d9b09b2e76d9e25218ec2d109149b541360d8c10f2dc8a7fa5f23a54e6. retrieved 2026-09-04, HTTP 200, 1106 bytes. document class: 2. Contract series specifications and the named settlement source. clauses extracted: 3. attribution label: as stated in Kalshi's published developer documentation. arm log: ks-venue-docs.json (query KS-VR-Q25b).",
+    "publisher": "KalshiEX LLC (trading venue)",
+    "title": "Market Settlement",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://docs.kalshi.com/getting_started/fee_rounding.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d08-c1",
+        "d08-c2",
+        "d08-c3",
+        "d08-c4"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d08",
+      "sha256_of_retrieved_bytes": "7591cf0fb277eaf8fac8aedaf1645e58b61dacb22b5fed20ba7d8ea9f76ffa22",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d08",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 7591cf0fb277eaf8fac8aedaf1645e58b61dacb22b5fed20ba7d8ea9f76ffa22. retrieved 2026-09-04, HTTP 200, 4041 bytes. document class: 3. Fee schedule and maker/taker structure. clauses extracted: 4. attribution label: as stated in Kalshi's published developer documentation. arm log: ks-venue-docs.json (query KS-VR-Q26b).",
+    "publisher": "KalshiEX LLC (trading venue)",
+    "title": "Fee Rounding",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://docs.kalshi.com/getting_started/order_groups.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d09-c1",
+        "d09-c2"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d09",
+      "sha256_of_retrieved_bytes": "b864a2c2befdae824a8271c40e2f730ed53f0bb9495fea2a8f06713129263d05",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d09",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): b864a2c2befdae824a8271c40e2f730ed53f0bb9495fea2a8f06713129263d05. retrieved 2026-09-04, HTTP 200, 2134 bytes. document class: 4. Position limits and membership/participant limits (order-level risk control). clauses extracted: 2. attribution label: as stated in Kalshi's published developer documentation. arm log: ks-venue-docs.json (query KS-VR-Q27b).",
+    "publisher": "KalshiEX LLC (trading venue)",
+    "title": "Order Groups",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://docs.kalshi.com/getting_started/maintenance_and_pauses.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d10-c1",
+        "d10-c2",
+        "d10-c3",
+        "d10-c4"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d10",
+      "sha256_of_retrieved_bytes": "788b5a5e994f4c86b341a995f92d51fe997784ba06772f19c6dfe32e345037bf",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d10",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 788b5a5e994f4c86b341a995f92d51fe997784ba06772f19c6dfe32e345037bf. retrieved 2026-09-04, HTTP 200, 2731 bytes. document class: 1. Rulebook and its amendments (operational availability). clauses extracted: 4. attribution label: as stated in Kalshi's published developer documentation. arm log: ks-venue-docs.json (query KS-VR-Q28b).",
+    "publisher": "KalshiEX LLC (trading venue)",
+    "title": "Maintenance and Pauses",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizations/42993",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d11-c1",
+        "d11-c2"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d11",
+      "sha256_of_retrieved_bytes": "690d78727aa985e89607579cf1182d236e1b98863298c84021b47ba3172d4c00",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d11",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 690d78727aa985e89607579cf1182d236e1b98863298c84021b47ba3172d4c00. retrieved 2026-09-04, HTTP 200, 8857 bytes. document class: 8. CFTC orders, letters, dockets and press naming the venue (index record). clauses extracted: 2. attribution label: as published by the CFTC in its industry-filings register. arm log: ks-venue-docs.json (query KS-VR-Q22).",
+    "publisher": "U.S. Commodity Futures Trading Commission",
+    "title": "Designated Contract Markets (DCM) : 42993 - Kalshi",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://www.cftc.gov/filings/documents/2023/orgkexkalshiexhibitm231130.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d13-c1",
+        "d13-c2",
+        "d13-c3",
+        "d13-c4"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_defect": "The PDF is a track-changes redline carrying a DRAFT watermark. Extraction interleaves struck and inserted text and injects the watermark letters D, R, A, F, T at line starts, and inserts spurious intra-word spaces. Quotations below are transcribed EXACTLY as the extractor returns them, artifacts included, so that they remain reproducible from the retrieved bytes; they are NOT clean rulebook text and must never be re-quoted as such.",
+      "extraction_depth": "full-text, DEGRADED",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d13",
+      "sha256_of_retrieved_bytes": "db8edbbcc9864613cebbcc811d8eab829080d499d9bd49f3a4f59b43d9caf76a",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d13",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): db8edbbcc9864613cebbcc811d8eab829080d499d9bd49f3a4f59b43d9caf76a. retrieved 2026-09-04, HTTP 200, 696608 bytes. document class: 1. Rulebook and its amendments. clauses extracted: 4. attribution label: as filed - a redlined draft rulebook submitted in support of a petition, not a statement of the rulebook in force on any date. arm log: ks-venue-docs.json (query KS-VR-Q26).",
+    "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC",
+    "title": "Appendix D: Rulebook / KalshiEX LLC Rulebook (filed as Exhibit M - Kalshi Rulebook Nov. 2023)",
+    "type": "report"
+  },
+  {
+    "URL": "https://www.cftc.gov/filings/documents/2020/orgkexexhibitmrulebook200114.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d14-c1",
+        "d14-c2",
+        "d14-c3",
+        "d14-c4"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d14",
+      "sha256_of_retrieved_bytes": "1136a82e986c08faa6bc20a11156d2432a71f9bd6f87f11c0df5c3815fc4c107",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d14",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          8
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 1136a82e986c08faa6bc20a11156d2432a71f9bd6f87f11c0df5c3815fc4c107. retrieved 2026-09-04, HTTP 200, 567103 bytes. document class: 1. Rulebook and its amendments (earliest publicly retrievable version). clauses extracted: 4. attribution label: as filed, redacted - a 2019 version submitted in 2020, superseded many times since; quoted for the structure of the rules, never as the rule in force. arm log: ks-venue-docs.json (query KS-VR-Q27).",
+    "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC",
+    "title": "KalshiEX LLC Rulebook (filed as Exhibit M - KalshiEX LLC - Rulebook (redacted))",
+    "type": "report"
+  },
+  {
+    "URL": "https://www.cftc.gov/filings/documents/2025/orgdcmkexkalshiamord250117.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d15-c1",
+        "d15-c2",
+        "d15-c3"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d15",
+      "sha256_of_retrieved_bytes": "8fc9cc12adf3dfefad57ca4ce9ed58622583d072bfbf218e5e355bd0f19ddd6f",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d15",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          17
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 8fc9cc12adf3dfefad57ca4ce9ed58622583d072bfbf218e5e355bd0f19ddd6f. retrieved 2026-09-04, HTTP 200, 123513 bytes. document class: 8. CFTC orders, letters, dockets and press naming the venue. clauses extracted: 3. attribution label: a Commission order. arm log: ks-venue-docs.json (query KS-VR-Q24).",
+    "publisher": "U.S. Commodity Futures Trading Commission",
+    "title": "Amended Order of Designation - In the Matter of the Request by KalshiEX LLC to Amend Its Order of Designation as a Contract Market",
+    "type": "report"
+  },
+  {
+    "URL": "https://www.cftc.gov/filings/orgrules/rule022123kexdcm002.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d16-c1",
+        "d16-c2",
+        "d16-c3",
+        "d16-c4",
+        "d16-c5"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d16",
+      "sha256_of_retrieved_bytes": "827db72ab6af7d1d706c40c339455eacac51c64971f2dc70c40110afbe9e465d",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d16",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          16
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 827db72ab6af7d1d706c40c339455eacac51c64971f2dc70c40110afbe9e465d. retrieved 2026-09-04, HTTP 200, 568209 bytes. document class: 4. Position limits and membership/participant limits. clauses extracted: 5. attribution label: as filed by Kalshi. arm log: ks-venue-docs.json (query KS-VR-Q41).",
+    "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC under Regulation 40.6",
+    "title": "KalshiEX LLC - Rulebook Amendment Regarding Position Limits (self-certification submission letter)",
+    "type": "report"
+  },
+  {
+    "URL": "https://www.cftc.gov/filings/orgrules/rules1114248723.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d17-c1",
+        "d17-c2",
+        "d17-c3",
+        "d17-c4",
+        "d17-c5",
+        "d17-c6",
+        "d17-c7",
+        "d17-c8",
+        "d17-c9"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "effective_date": "2024-11-27",
+      "extraction_defect": "The submission is a track-changes document. Even the section the filer labels a clean copy retains residual redline text - Rule 5.15(a) below extracts as 'Kalshi may has imposed Position Limits' and cites 'this Rule 5.15 4', both artifacts of an unaccepted change. Extraction also inserts spurious intra-word spaces. Quotations are transcribed EXACTLY as extracted so they remain reproducible from the bytes; they are not clean rule text.",
+      "extraction_depth": "full-text, DEGRADED",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d17",
+      "sha256_of_retrieved_bytes": "8113d2d4967217b37005f6a45aaf06b6986fca87f63c2eb8aa5ae80167f4c082",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d17",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          14
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 8113d2d4967217b37005f6a45aaf06b6986fca87f63c2eb8aa5ae80167f4c082. retrieved 2026-09-04, HTTP 200, 1438346 bytes. document class: 4. Position limits and membership/participant limits. clauses extracted: 9. attribution label: as filed by Kalshi. arm log: ks-venue-docs.json (query KS-VR-Q43).",
+    "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC",
+    "title": "KalshiEX LLC - Position Accountability and Other Rulebook Changes (self-certification submission with Appendix A, redline and clean copy)",
+    "type": "report"
+  },
+  {
+    "URL": "https://www.cftc.gov/filings/orgrules/rules0712269458.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d18-c1",
+        "d18-c2",
+        "d18-c3",
+        "d18-c4"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "effective_date": "2026-07-24 (earliest; conditional on exchange notice)",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d18",
+      "sha256_of_retrieved_bytes": "d87f83d746caab5d451bfb9540cd74e4b3e78d84bb49d66f8fc7afca745e0bd9",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d18",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          12
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): d87f83d746caab5d451bfb9540cd74e4b3e78d84bb49d66f8fc7afca745e0bd9. retrieved 2026-09-04, HTTP 200, 84418 bytes. document class: 7. Self-certification filings / 3. Fee schedule. clauses extracted: 4. attribution label: as filed by Kalshi. arm log: ks-venue-docs.json (query KS-VR-Q44).",
+    "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC under Regulation 40.6(a)",
+    "title": "KalshiEX LLC - Exchange Fee Schedule Update (RFQs)",
+    "type": "report"
+  },
+  {
+    "URL": "https://www.cftc.gov/filings/orgrules/rules0518263591.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d19-c1",
+        "d19-c2",
+        "d19-c3",
+        "d19-c4",
+        "d19-c5",
+        "d19-c6",
+        "d19-c7"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "effective_date": "2026-05-18 (earliest; conditional on exchange notice)",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d19",
+      "sha256_of_retrieved_bytes": "523bb57600a9ba345b113fbb480ab8e2e39fd30f9c0e40f4b6d490c6b10e07d2",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d19",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          4
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 523bb57600a9ba345b113fbb480ab8e2e39fd30f9c0e40f4b6d490c6b10e07d2. retrieved 2026-09-04, HTTP 200, 284802 bytes. document class: 5. Market-maker or liquidity-provider programs and their incentive terms. clauses extracted: 7. attribution label: as filed by Kalshi. arm log: ks-venue-docs.json (query KS-VR-Q49).",
+    "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC",
+    "title": "KalshiEX LLC - May 2026 Liquidity Provider Program (self-certification submission with Appendix A: Terms and Conditions)",
+    "type": "report"
+  },
+  {
+    "URL": "https://www.cftc.gov/filings/orgrules/rules0701268684.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d20-c1",
+        "d20-c2",
+        "d20-c3"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "effective_date": "2026-07-16",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d20",
+      "sha256_of_retrieved_bytes": "bf9f549ef338288b8748d0fffe4c264cfe83abbc75b5f4c4d95f3c40133d4b0c",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d20",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          16
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): bf9f549ef338288b8748d0fffe4c264cfe83abbc75b5f4c4d95f3c40133d4b0c. retrieved 2026-09-04, HTTP 200, 104083 bytes. document class: 7. Self-certification filings / 4. Position and size thresholds. clauses extracted: 3. attribution label: as filed by Kalshi. arm log: ks-venue-docs.json (query KS-VR-Q77).",
+    "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC under Regulation 40.6(a)",
+    "title": "KalshiEX LLC - Block Trade Minimum Threshold",
+    "type": "report"
+  },
+  {
+    "URL": "https://www.cftc.gov/filings/ptc/ptc09012622854.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d21-c1",
+        "d21-c2",
+        "d21-c3",
+        "d21-c4",
+        "d21-c5",
+        "d21-c6",
+        "d21-c7",
+        "d21-c8",
+        "d21-c9",
+        "d21-c10",
+        "d21-c11"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_defect": "spurious intra-word spaces throughout; quotations are transcribed exactly as extracted so they remain reproducible from the bytes",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d21",
+      "sha256_of_retrieved_bytes": "6d456e2ba1a13fcd33890a18370fee45b91f7b5ae71f381ea284aa9b35d913ce",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d21",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 6d456e2ba1a13fcd33890a18370fee45b91f7b5ae71f381ea284aa9b35d913ce. retrieved 2026-09-04, HTTP 200, 347967 bytes. document class: 2. Contract series specifications and the named settlement source. clauses extracted: 11. attribution label: as filed by Kalshi. arm log: ks-venue-docs.json (query KS-VR-Q74).",
+    "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC under Regulation 40.2",
+    "title": "Appendix A - Terms and Conditions, Kalshi Weather Index (San Francisco Bay Area) event contract, filed with the product self-certification for CFTC DCM product record 63548",
+    "type": "report"
+  },
+  {
+    "URL": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-17?part=40",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d22-c1",
+        "d22-c2",
+        "d22-c3",
+        "d22-c4",
+        "d22-c5",
+        "d22-c6"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text of Part 40, clauses drawn from 40.1, 40.2 and 40.6",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d22",
+      "sha256_of_retrieved_bytes": "2342bcd5e5c85bfe7a084c6021afcfc815bd3c6c54b2e164c6c57093ffa9145b",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d22",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 2342bcd5e5c85bfe7a084c6021afcfc815bd3c6c54b2e164c6c57093ffa9145b. retrieved 2026-09-04, HTTP 200, 22915 bytes. document class: 7. Self-certification filings (the framework that governs them). clauses extracted: 6. attribution label: a codified federal regulation. arm log: ks-venue-docs.json (query KS-VR-Q51).",
+    "publisher": "Office of the Federal Register / U.S. Government Publishing Office (eCFR), reproducing CFTC regulations",
+    "title": "17 CFR Part 40 - Provisions Common to Registered Entities",
+    "type": "regulation"
+  },
+  {
+    "URL": "https://www.cftc.gov/PressRoom/PressReleases/9267-26",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d23-c1",
+        "d23-c2",
+        "d23-c3"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "extraction_depth": "full-text of the release body as retrieved",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d23",
+      "sha256_of_retrieved_bytes": "56e3a0c780360210aef0b3a08de4c6c62a523e58b8a340c045e28b66844a81b4",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d23",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          14
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 56e3a0c780360210aef0b3a08de4c6c62a523e58b8a340c045e28b66844a81b4. retrieved 2026-09-04, HTTP 200, 9710 bytes. document class: 8. CFTC orders, letters, dockets and press naming the venue. clauses extracted: 3. attribution label: a Commission press release describing Commission action. arm log: ks-venue-docs.json (query KS-VR-Q56).",
+    "publisher": "U.S. Commodity Futures Trading Commission",
+    "title": "CFTC Stays KalshiEX Rule Change and Exercises Emergency Authority to Order Fulfillment of Pending Trades (Release Number 9267-26)",
+    "type": "report"
+  },
+  {
+    "URL": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=Kalshi&per_page=40&order=newest",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d24-c1",
+        "d24-c2",
+        "d24-c3",
+        "d24-c4"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "metadata",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d24",
+      "sha256_of_retrieved_bytes": "c665eae8724e1a8b6e9b3216990ff0ae5c373d23c3abb61b441db50ea7b97c9e",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d24",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): c665eae8724e1a8b6e9b3216990ff0ae5c373d23c3abb61b441db50ea7b97c9e. retrieved 2026-09-04, HTTP 200, 711 bytes. document class: 8. CFTC orders, letters, dockets and press naming the venue (Federal Register enumeration). clauses extracted: 4. attribution label: as returned by the Federal Register API. arm log: ks-venue-docs.json (query KS-VR-Q52).",
+    "publisher": "Office of the Federal Register (API)",
+    "title": "Federal Register documents matching the term 'Kalshi' (API query result)",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://docs.polymarket.us/fees.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d25-c1",
+        "d25-c2",
+        "d25-c3",
+        "d25-c4",
+        "d25-c5"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "effective_date": "2026-07-01",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d25",
+      "sha256_of_retrieved_bytes": "588880f87fb11d8cfea52d03be13086a13ccc17c9448377158c323190796344a",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d25",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          1
+        ]
+      ]
+    },
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 588880f87fb11d8cfea52d03be13086a13ccc17c9448377158c323190796344a. retrieved 2026-09-04, HTTP 200, 2926 bytes. document class: 9. Equivalent published rule documents for a paired venue - Polymarket US (QCX LLC). clauses extracted: 5. attribution label: as stated in Polymarket US's published fee schedule. arm log: ks-venue-docs.json (query KS-VR-Q68).",
+    "publisher": "Polymarket US / QCX LLC (trading venue)",
+    "title": "Fee Schedule",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://docs.polymarket.us/api-reference/rate-limits.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d26-c1",
+        "d26-c2",
+        "d26-c3",
+        "d26-c4",
+        "d26-c5"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d26",
+      "sha256_of_retrieved_bytes": "670610f351c22e395960b58b0538ee312e1d42017faf64c1e4b1517abae41f09",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d26",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 670610f351c22e395960b58b0538ee312e1d42017faf64c1e4b1517abae41f09. retrieved 2026-09-04, HTTP 200, 1852 bytes. document class: 9. Equivalent published rule documents for a paired venue - Polymarket US (QCX LLC). clauses extracted: 5. attribution label: as stated in Polymarket US's published developer documentation. arm log: ks-venue-docs.json (query KS-VR-Q69).",
+    "publisher": "Polymarket US / QCX LLC (trading venue)",
+    "title": "Rate Limits",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://docs.polymarket.us/incentives/market-maker.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d27-c1"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d27",
+      "sha256_of_retrieved_bytes": "d4b568df596d93c7e7d1b7da7d74602349449b59535644abafe2909dc7245d42",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d27",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): d4b568df596d93c7e7d1b7da7d74602349449b59535644abafe2909dc7245d42. retrieved 2026-09-04, HTTP 200, 308 bytes. document class: 9. Equivalent published rule documents for a paired venue - Polymarket US (QCX LLC). clauses extracted: 1. attribution label: as stated in Polymarket US's published documentation. arm log: ks-venue-docs.json (query KS-VR-Q70).",
+    "publisher": "Polymarket US / QCX LLC (trading venue)",
+    "title": "Market Maker Program",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://docs.polymarket.us/learn/trading/access-and-limits/trading-restrictions.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d28-c1",
+        "d28-c2"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d28",
+      "sha256_of_retrieved_bytes": "7d0e3d7dcf23f8507757bb226b29b71ea76726bd59658ffafd4eeceb0fa7bceb",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d28",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 7d0e3d7dcf23f8507757bb226b29b71ea76726bd59658ffafd4eeceb0fa7bceb. retrieved 2026-09-04, HTTP 200, 607 bytes. document class: 9. Equivalent published rule documents for a paired venue - Polymarket US (QCX LLC). clauses extracted: 2. attribution label: as stated in Polymarket US's published documentation. arm log: ks-venue-docs.json (query KS-VR-Q71).",
+    "publisher": "Polymarket US / QCX LLC (trading venue)",
+    "title": "Trading Restrictions",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://docs.polymarket.com/trading/fees.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d29-c1",
+        "d29-c2",
+        "d29-c3",
+        "d29-c4",
+        "d29-c5"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "full-text",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d29",
+      "sha256_of_retrieved_bytes": "8e246189f6ca85b8b8782e1d76a769cf98672a98c4c63d8bbe6150d659db8d7c",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d29",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): 8e246189f6ca85b8b8782e1d76a769cf98672a98c4c63d8bbe6150d659db8d7c. retrieved 2026-09-04, HTTP 200, 1935 bytes. document class: 9. Equivalent published rule documents for a paired venue - Polymarket (non-US). clauses extracted: 5. attribution label: as stated in Polymarket's published documentation. arm log: ks-venue-docs.json (query KS-VR-Q64).",
+    "publisher": "Polymarket (trading venue)",
+    "title": "Fees",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizations?Show_All=1",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          4
+        ]
+      ]
+    },
+    "custom": {
+      "arm": "venue-and-regulator",
+      "arm_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-docs.json",
+      "clause_ids": [
+        "d30-c1",
+        "d30-c2",
+        "d30-c3"
+      ],
+      "contribution_codes": [
+        "K3"
+      ],
+      "date_basis": "the document states no publication date; the recordable date under N4 is the access date",
+      "extraction_depth": "metadata",
+      "persistent_identifier": "none",
+      "record_id": "ks-vr-d30",
+      "sha256_of_retrieved_bytes": "b605a7dd799c85d0888837fc476d0d5499b0076fe9560a0c8872ffb45795e8c2",
+      "source_class": "S-D"
+    },
+    "id": "ks-vr-d30",
+    "note": "S-D. persistent identifier: none (ADR-0006). SHA-256 of retrieved bytes (project design choice, protocol section 12): b605a7dd799c85d0888837fc476d0d5499b0076fe9560a0c8872ffb45795e8c2. retrieved 2026-09-04, HTTP 200, 18329 bytes. document class: 9. Equivalent published rule documents for the venues a cross-venue strategy would pair with (enumeration). clauses extracted: 3. attribution label: as published by the CFTC in its industry-filings register. arm log: ks-venue-docs.json (query KS-VR-Q57).",
+    "publisher": "U.S. Commodity Futures Trading Commission",
+    "title": "Industry Filings: Designated Contract Markets (DCM) - full listing",
+    "type": "webpage"
+  }
+]

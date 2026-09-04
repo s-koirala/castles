@@ -25,35 +25,42 @@ disposition_codes_added:
   - "X10 (amendments A4, A10) KEYWORD-IDENTIFIED CANDIDATE STRATUM, not a criterion failure and not an eligibility determination: title/abstract carry an event-claim token and a contribution token; no record was read, eligibility under I1-I5 was never assessed, and section-5 extraction was not performed"
   - "X11 (amendments A5, A10) KEYWORD-IDENTIFIED MODEL-RECORD STRATUM, not a criterion failure and not an eligibility determination: title/abstract carry a market-making or inventory-model token and no event-claim token; no record was read, neither the section 4.2 stage-1 promotion condition nor any stage-2 assessment was evaluated, so eligibility is UNDECIDED"
 registration: "not-registered (PROSPERO accepts only reviews with health-related outcomes and this review has none). The registration event is the provenance commit 27d74738aa35ec1cdf1ec6915b50532e3620ea6f, subject 'docs(protocol): register frozen kalshi-arbitrage search protocol (sha256 99524df02696)', which committed the frozen protocol before any query executed."
-protocol_path: docs/methodology/protocol_kalshi-arbitrage-review_2026-09-02.md
-protocol_amendments: "Fifteen numbered append-only amendments, all enumerated in section 13.1, all recorded in docs/literature/search_logs/kalshi-arbitrage/ka-protocol-amendments.md AND (from A12) transcribed into the frozen protocol's own append-only addendum as protocol section 10 requires: A1 (eCFR content-free HTTP 200 classified as a transient failure for retry purposes), A2 (supplementary RePEc POST arm after the frozen GET endpoint returned an empty result page), A3 (deterministic vocabulary pre-sorter over the forward-citation-only stratum), A4 (disposition code X10 plus publication of Table X-full as a machine-readable artifact), A5 (disposition code X11), A6 (backward citation-chasing arm ka-bc-{n} not executed), A7 (SSRN supplementary site-search arm not run; gap AG-9), A8 (criterion I4 relaxed for 33 metadata-depth included records), A9 (zero-full-text extraction; E8-E13 partial), A10 (the full five-list keyword classifier declared the automation tool of record for all 8,664 non-include dispositions), A11 (X5 word-boundary defect corrected and the pipeline made deterministic), A12 (the amendment mechanism itself: A1-A5 were logged outside the protocol addendum; A1-A12 are now appended to it), A13 (A10 strike of the individual-reading claims completed: five surviving A3 assertions struck by quotation and a supersession banner added at the head of A3), A14 (evidence corrections to A11 — the 6,672 tie-break figure struck and replaced by measured seed sensitivity, the three-record bare-pattern claim corrected to two, the dex/amm corpus statistics labelled by the pattern each is measured under, and the identifier join key narrowed to the 6,923 rows on which it is defined; both declared departures upheld), A15 (A6 assertion 'neither term appears in any of the 35 frozen topical queries' struck as false — `limit order` is carried by ka-crossref-07 — and no demonstrated vocabulary gap is claimed for any known-item miss)."
+protocol_path: docs/methodology/protocol_kalshi-arbitrage-review_2026-09-02.md   # frozen prefix sha256 99524df02696a59ab878173ce7f3636d9cd07067b5a801a677cdf5d126fa13f4 over the first 82,677 bytes, re-verified against the bytes on disk after the A19 append; with addendum A1-A19 sha256 7f49fdaf8cab08b2d6484ff7258c906f492fbf9cb5262b934e2c83717fe3ac18 over 206,123 bytes, superseding the A1-A18 value dcfae5643ff86e49bbcf33a68e730fcb9d7f46b41f30cbd62bafdd297c3fc4dc (183,534 bytes). This field and section 13.1 are the carriers of record for the whole-file value, which A19 (e) explains cannot be written inside the protocol itself
+protocol_amendments: "Nineteen numbered append-only amendments, all enumerated in section 13.1, all recorded in docs/literature/search_logs/kalshi-arbitrage/ka-protocol-amendments.md AND (from A12) transcribed into the frozen protocol's own append-only addendum as protocol section 10 requires: A1 (eCFR content-free HTTP 200 classified as a transient failure for retry purposes), A2 (supplementary RePEc POST arm after the frozen GET endpoint returned an empty result page), A3 (deterministic vocabulary pre-sorter over the forward-citation-only stratum), A4 (disposition code X10 plus publication of Table X-full as a machine-readable artifact), A5 (disposition code X11), A6 (backward citation-chasing arm ka-bc-{n} not executed), A7 (SSRN supplementary site-search arm not run; gap AG-9), A8 (criterion I4 relaxed for 33 metadata-depth included records), A9 (zero-full-text extraction; E8-E13 partial), A10 (the full five-list keyword classifier declared the automation tool of record for all 8,664 non-include dispositions), A11 (X5 word-boundary defect corrected and the pipeline made deterministic), A12 (the amendment mechanism itself: A1-A5 were logged outside the protocol addendum; A1-A12 are now appended to it), A13 (A10 strike of the individual-reading claims completed: five surviving A3 assertions struck by quotation and a supersession banner added at the head of A3), A14 (evidence corrections to A11 — the 6,672 tie-break figure struck and replaced by measured seed sensitivity, the three-record bare-pattern claim corrected to two, the dex/amm corpus statistics labelled by the pattern each is measured under, and the identifier join key narrowed to the 6,923 rows on which it is defined; both declared departures upheld), A15 (A6 assertion 'neither term appears in any of the 35 frozen topical queries' struck as false — `limit order` is carried by ka-crossref-07 — and no demonstrated vocabulary gap is claimed for any known-item miss). A16 (2026-09-03; the S4 transfer-clause subset of the X11 stratum assessed at stage 2 by reading, under a subset rule fixed and hashed before assessment: 197 subset, 503 residual, 178 include, 12 X5, 7 still undecided; the first amendment that decides eligibility for records A5 left UNDECIDED), A17 (2026-09-03; full-text extraction for the S4 core set: 59 records attempted, 33 obtained and read, 26 attempted and not obtained, 178 newly included records carried at screen-abstract depth without extraction; the first amendment under which any full text was read for any included record, and therefore the first partial relaxation of A9), A18 (2026-09-03, round-4 audit remediation; corrections to A16 and A17 that change NO verdict and NO count in the 197/503 or 178/12/7 splits: the subset rule's pre-fixing is declared SELF-ATTESTED with no external timestamp (REV-1-2); A17 §(e)'s 'Four E10 transfer statuses moved' is STRUCK — three changed and one was confirmed (REV-1-3); the admission bar actually applied was the negation of X6 rather than the transfer clause's conjunction, so X6's stage rate is zero by construction and 178 is an UPPER bound with no recorded lower bound above zero (QUANT-1-2, QUANT-1-1); the A16 retrieval chain's trigger was abstract-field PRESENCE rather than usability, four X11 records bypassed it, and a re-run recovered a full abstract for U01126 (QUANT-1-3); and the 197 read-based verdicts and 33 extractions are single-pass LLM outputs with no archived prompt and no recoverable sampling parameters (REPRODUCIBILITY-1-3)). A19 (2026-09-04, round-5 audit remediation; changes NO verdict, NO transfer status and NO count: the QUOTATION AUDIT, in which all 33 A17 full-text sources were re-retrieved -- 32 of 33 byte-identical to the sha256 the extraction log publishes -- and 231 quoted spans re-checked against them, of which SEVEN were altered relative to their sources and are corrected there and in section 8.4, the serious one being a string attributed to Feys 2026 that the paper does not contain (LITERATURE-2-1); the OPERATIVE READING of field E10s transfer status recorded as compatibility-between-the-payoff-class-and-the-records-stated-assumptions rather than the frozen definitions record-itself-addresses-the-question, with A18 (b) qualified to separate the authors sentence from the corpuss inference and the [corpus-inference] marker added at section 10 gap G-5 (LITERATURE-2-3); the [corpus-inference] marker carried for the Kyle half of A18 (g), established over pp. 1315-1317 only as an inference from absence (QUANT-2-3); the post-A18 whole-file digest dcfae564... published, A18s unsatisfiable promise to publish it inside itself struck by quotation, and the rule stated that a whole-file digest cannot be written into the file it digests (FORMAT-2-1); and ReproLog+sidecar pairs emitted for both the round-1 and the round-2 remediation passes (REPRODUCIBILITY-2-1))."
 bibliography: docs/literature/references_kalshi-arbitrage.json
 bibliography_sha256: fb0cf87ed53dcb0b37076fc5e441c0125ad94644603deb9a9604d5ce5f5c8164
+bibliography_store_covers: 149   # NOT 327. The CSL-JSON store was NOT extended to the 178 records amendment A16 admitted. The frozen protocol section 4.3 identity `len(bibliography store) == n_included` therefore DOES NOT CLOSE. This is recorded as verification gap AG-11 in section 13.3 and in the section 5 identity table, not papered over.
+completion_screen_log: docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl   # sha256 8e25fa353dad315c10a7734c0e1c5a627a305b7f1fd05ab1d34406d940ef8848
+extraction_log: docs/literature/search_logs/kalshi-arbitrage/ka-s4-fulltext-extraction.jsonl   # sha256 b7970a22c93430b69e30344737c2f8fa0f003a2f7c029545b77f8e6990ee902a
 n_identified: 15924
 n_duplicates_removed: 7111
 n_screened: 8813
-n_excluded: 8664
-n_criterion_excluded: 7419
-n_capacity_disposition: 1245
+n_excluded: 8486   # WAS 8664. Amendment A16 moved 178 X11 records into `include` and 12 into X5; X11 falls 700 -> 510.
+n_criterion_excluded: 7431   # WAS 7419; +12 X5 from amendment A16.
+n_capacity_disposition: 1055   # WAS 1245; 545 X10 unchanged + 510 X11.
 n_keyword_candidate_unextracted: 545   # RENAMED 2026-09-02, finding QUANT-2-3, from `n_eligible_not_extracted`. The old name asserted, to any tool reading only this header, the eligibility determination amendment A10 struck: no record in this stratum was read and eligibility under I1-I5 was never assessed. Consumers pinned to the old key must migrate.
-n_eligibility_undecided: 700
-n_included: 149
-extraction_depth: "NO FULL TEXT WAS READ FOR ANY INCLUDED RECORD (amendment A9). 116 of 149 reached abstract depth; 33 reached metadata depth (title, venue, year only). Extraction fields E8-E13 are partially completed at best and no stage-2 assessment was performed for any record. Metadata-depth inclusion runs against frozen criterion I4 and is authorised by amendment A8, not by the frozen text."
-screening_verdict_source: "READ-BASED: 150 of 8,813 records (the 149 includes and one hand-verified J6 same-work twin). CLASSIFIER-BASED: 8,663 (the five-list keyword classifier archived at docs/literature/search_logs/kalshi-arbitrage/ka-screening-script.py, rules R0-R9, declared the PRISMA 2020 item-8 automation tool of record by amendment A10). No record outside the 149 includes carries a verdict from a screener reading it."
+n_eligibility_undecided: 510   # WAS 700. 503 outside the A16 S4 subset (never assessed at stage 2) + 7 inside it and unresolved at the depth reached.
+n_included: 327   # WAS 149. 149 + the 178 amendment A16 admitted. BOUNDED, and the bound travels with the number (findings REV-2-1, QUANT-2-4; A18 sections (c)-(d); section 8.4.4): the admission bar A16 actually applied was the NEGATION OF X6, not the section 2.2 transfer clause's conjunction, so 178 is an UPPER bound with no recorded lower bound above zero, the set the transfer clause admits lies in [0, 178], and the include count is conditioned at [149, 327]. A READER MUST NOT READ 178 AS THE COUNT OF RECORDS THE TRANSFER CLAUSE ADMITS. 327 remains the true count of included DISPOSITIONS and no count is changed by this bound. The 149-record table in section 7 is NOT regenerated: see the note at its head.
+extraction_depth: "MIXED, and the mixture is the point (amendments A9, A17). Of the 327 included records, **33 were read at FULL TEXT** on 2026-09-03 under amendment A17 and carry a completed E10; **26 further records that section 8.4 cites had full text attempted and not obtained**, and stay at the depth the 2026-09-02 execution reached (21 abstract, 5 metadata); the remaining **90 of the original 149** were not in the A17 core set and stay where A9 left them; and the **178 records amendment A16 admitted carry NO extraction at all** and are labelled `screen-abstract`, which is an eligibility-screen depth and not an extraction depth. Amendment A9 is therefore no longer true as written and A17 is its recorded partial relaxation. Metadata-depth inclusion still runs against frozen criterion I4 and is authorised by amendment A8, not by the frozen text."
+screening_verdict_source: "READ-BASED: 347 of 8,813 records — the 149 original includes, one hand-verified J6 same-work twin, and the 197 X11 records amendment A16 assessed at stage 2 by reading (178 include, 12 X5, 7 still undecided). CLASSIFIER-BASED: 8,466 (the five-list keyword classifier archived at docs/literature/search_logs/kalshi-arbitrage/ka-screening-script.py, rules R0-R9, declared the PRISMA 2020 item-8 automation tool of record by amendment A10). WAS 150 read-based / 8,663 classifier-based before A16. The read-based share rises from 1.7% to 3.9%; 96.1% of the dispositions in this flow are still keyword-classifier outputs, and that remains the largest single limitation of this artifact."
 materials_availability:
   - docs/literature/search_logs/kalshi-arbitrage
   - docs/literature/references_kalshi-arbitrage.json
   - docs/methodology/protocol_kalshi-arbitrage-review_2026-09-02.md
 competing_interests: none
 ai_assistance: "Claude Opus 5 (model id claude-opus-5; Claude Code / Claude Agent SDK, research-librarian agent) executed the frozen protocol's queries, built the record universe, performed the single-pass screening, resolved every identifier against the DOI Handle System, and drafted this record. Role per ICMJE 2026 disclosure: code + prose + audit-support. The model is also the declared PRISMA 2020 item-8 automation tool for screening. No result in this record was written from model memory; every metadata field traces to a stored response in the search-log directory."
-git_head_at_authoring: 27d74738aa35ec1cdf1ec6915b50532e3620ea6f
+git_head_at_authoring: 27d74738aa35ec1cdf1ec6915b50532e3620ea6f   # the 2026-09-02 SEARCH-EXECUTION HEAD. It PREDATES the 2026-09-03 A16/A17 stage entirely; that stage's HEAD is 01ecfe7822ccca794272c35956ac8f8289d0c20b, carried by repro_log_path_2026_09_03. Labelled 2026-09-03 under finding REPRODUCIBILITY-1-1
 pip_freeze_sha256: "51760dc96e6ea3cbf93f08976bc3518cca5ca832cf22e993a06729118b0c550e"  # archived at logs/reproducibility/env/51760dc9….txt (UNTRACKED LOCATOR). The search itself ran on the Python 3.11 standard library only; executing scripts archived at docs/literature/search_logs/kalshi-arbitrage/ka-universe-script.py, ka-dedup-script.py, ka-partition-script.py, ka-screening-script.py. Finding QUANT-1-7, filled by the lead session.
-repro_log_path: "logs/reproducibility/repro_log_8f5b02d3bf61492b8bf9ae5214594f10.json"  # UNTRACKED LOCATOR (logs/ is gitignored); the clone-durable carrier is the Repro-Log-Path / Repro-Log-SHA256 trailer on the provenance commit
+repro_log_path: "logs/reproducibility/repro_log_8f5b02d3bf61492b8bf9ae5214594f10.json"  # 2026-09-02 SEARCH-EXECUTION run. UNTRACKED LOCATOR (logs/ is gitignored); the clone-durable carrier is the Repro-Log-Path / Repro-Log-SHA256 trailer on the provenance commit. This pair does NOT cover the 2026-09-03 A16/A17 stage -- see repro_log_path_2026_09_03 below and section 13.8 limit 5
 repro_log_sha256: "416d4d4891ffd9804f0276e91dc96d5c48460764722191ede10d5fbf476b94ee"
-sidecar_path: "artifacts/runs/kalshi-arbitrage/8f5b02d3bf61492b8bf9ae5214594f10/sidecar.json"  # UNTRACKED LOCATOR (artifacts/ is gitignored)
+repro_log_path_2026_09_03: "logs/reproducibility/repro_log_b47b1cf8777d494cadc68f5f90847bda.json"  # 2026-09-03 A16/A17 re-execution (197 read-based verdicts, 33 full texts, five new log files). UNTRACKED LOCATOR. Added 2026-09-03 under finding REPRODUCIBILITY-1-1; the stage emitted nothing at execution time and this pair is RETROSPECTIVE, written at 2026-09-03T20:41:39Z against git_head 01ecfe7822ccca794272c35956ac8f8289d0c20b. Its dataset_checksums pin the protocol at e93e0151... which amendment A18 supersedes
+repro_log_sha256_2026_09_03: "95c55f0f724c0c5940d3bb7110b67050ffea9c4f551b66f0b732fa9d2393497c"
+sidecar_path_2026_09_03: "artifacts/runs/kalshi-arbitrage/b47b1cf8777d494cadc68f5f90847bda/sidecar.json"  # UNTRACKED LOCATOR
+sidecar_sha256_2026_09_03: "c2523746d054173460fb4ff54f80d97529f77cd284aa2bfb895567b1769a40c7"
+sidecar_path: "artifacts/runs/kalshi-arbitrage/8f5b02d3bf61492b8bf9ae5214594f10/sidecar.json"  # 2026-09-02 SEARCH-EXECUTION run. UNTRACKED LOCATOR (artifacts/ is gitignored)
 sidecar_sha256: "7207fad1866437d188f621e13042ac9a3e95481e46490d3f28949426880e2a67"  # supersedes 96c4134c03f247edc2837e178525a9f215fb8eeb2ab30ca3b9ac53a5e1d5647a. The sidecar carries BOTH the as-first-published and the post-A11 word-boundary disposition tables; round-2 remediation renamed its `X10_eligible_not_extracted` key to `X10_keyword_candidate_unextracted` (finding QUANT-2-3) and re-recorded the protocol-with-addendum digest, so its digest moved. No count in it changed.
 dataset_checksums: "n/a (no dataset; no market data was acquired and no exchange API was called). The corpus store digest is the frontmatter bibliography_sha256; the store DOI-resolution record is docs/literature/search_logs/kalshi-arbitrage/ka-store-doicheck.json"
-rng_seed: "0 — and, from amendment A11, PYTHONHASHSEED=0 is asserted at entry by ka-dedup-script.py, ka-partition-script.py and ka-screening-script.py. Before A11 the frontmatter declared rng_seed: 0 while pinning nothing that mattered: record-level title and venue tie-breaks resolved on set iteration order, so every Table X-full row identifier depended on the interpreter's hash seed (finding QUANT-1-6)."
+rng_seed: "0 FOR THE CLASSIFIER HALF ONLY, and not a reproducibility claim about the read-based half: the 197 verdicts of amendment A16 and the 33 extractions of A17 are single-pass LLM outputs with no archived prompt and no recoverable sampling parameters, and a re-run is not guaranteed to reproduce them (finding REPRODUCIBILITY-1-3, 2026-09-03; section 5, section 13.8 limit 5, protocol amendment A18). For the classifier: 0 — and, from amendment A11, PYTHONHASHSEED=0 is asserted at entry by ka-dedup-script.py, ka-partition-script.py and ka-screening-script.py. Before A11 the frontmatter declared rng_seed: 0 while pinning nothing that mattered: record-level title and venue tie-breaks resolved on set iteration order, so every Table X-full row identifier depended on the interpreter's hash seed (finding QUANT-1-6)."
 model_commit: "n/a (no model artifact; this record fits nothing and estimates nothing)"
 ---
 
@@ -75,25 +82,91 @@ limitations. The disclosure existed in the frontmatter, sections 5, 6, 13.2 and
 13.6 and gap G-10, so nothing was lost — but the one front-of-document block a
 reader is told to read first did not carry it. It does now.
 
-1. **98.3% of the dispositions in this flow are keyword-classifier outputs.** 150
-   of 8,813 records carry a verdict from anyone reading them (the 149 includes and
-   one hand-verified same-work twin); the other **8,663** were verdicted by the
-   deterministic five-list keyword classifier archived at
+1. **96.1% of the dispositions in this flow are keyword-classifier outputs.** 347
+   of 8,813 records carry a verdict from anyone reading them — the 149 original
+   includes, one hand-verified same-work twin, and the **197** X11 records
+   amendment **A16** assessed at stage 2 by reading on 2026-09-03. The other
+   **8,466** were verdicted by the deterministic five-list keyword classifier
+   archived at
    [ka-screening-script.py](docs/literature/search_logs/kalshi-arbitrage/ka-screening-script.py),
    which amendment **A10** declares the PRISMA 2020 item-8 automation tool of
-   record. A disposition code in this artifact states which tokens a record's title
-   and retrieved abstract contain, and nothing else.
-2. **1,245 records ended screening unresolved** — 545 X10 and 700 X11 — and they
-   are **capacity gaps, not criterion failures**. No eligibility determination was
-   made for any of them. They are counted inside `n_excluded` only so the frozen
-   arithmetic identities close.
-3. **No full text was read for any included record** (amendment **A9**). Every
-   claim in section 8 is a transcription of an abstract or of metadata.
-4. **33 of the 149 included records were retrieved to metadata depth only** —
-   title, venue and year. On the frozen text they fail criterion I4 and belong
-   under X8; their inclusion is authorised by amendment **A8**, not by the
-   protocol. A reader who declines A8 should read this corpus as **116 included
-   records plus 33 X8 exclusions**.
+   record. A disposition code assigned by that classifier states which tokens a
+   record's title and retrieved abstract contain, and nothing else. **The share
+   improved from 1.7% to 3.9% read-based; it did not stop being the largest single
+   limitation of this artifact.**
+2. **1,055 records ended screening unresolved** — 545 X10 and **510** X11 — and
+   they are **capacity gaps, not criterion failures**. No eligibility determination
+   was made for any of them. They are counted inside `n_excluded` only so the frozen
+   arithmetic identities close. Of the 510, **503 were never assessed at stage 2 at
+   all** (they fell outside the S4 subset rule A16 fixed in advance) and **7 were
+   assessed and could not be settled** at the depth reached.
+3. **Full text was read for 33 of the 327 included records** (amendments **A9**,
+   **A17**). A9 recorded that no full text had been read for any record; that is no
+   longer true, and A17 is its recorded partial relaxation. The 33 are the S4
+   lineage anchors and the S4-native maker literature, and **every claim in section
+   8.4 that rests on one of them says so**. Every other claim in section 8 remains a
+   transcription of an abstract or of metadata. **26 further records section 8.4
+   cites had full text attempted on 2026-09-03 and not obtained**, and each is named
+   with its failure mode in
+   [ka-s4-fulltext-extraction.jsonl](docs/literature/search_logs/kalshi-arbitrage/ka-s4-fulltext-extraction.jsonl).
+4. **33 of the original 149 included records were retrieved to metadata depth
+   only** — title, venue and year. On the frozen text they fail criterion I4 and
+   belong under X8; their inclusion is authorised by amendment **A8**, not by the
+   protocol. A reader who declines A8 should read the original block as **116
+   included records plus 33 X8 exclusions**.
+5. **The 178 records amendment A16 admitted carry no extraction and are not in the
+   bibliography store.** They were included on a stage-2 eligibility reading of
+   their own text, which is a stronger warrant than any of the 8,466 classifier
+   dispositions carry — and it is not an extraction. They contribute **nothing** to
+   section 8's claim lines, they are not in the section 7 table, and the frozen
+   protocol's identity `len(bibliography store) == n_included` **does not close**
+   while they are in the corpus and out of the store (verification gap **AG-11**).
+   **And their number is an upper bound, which this block must carry because it is
+   the block the document tells you to carry into every number below.** *(Added
+   2026-09-04, findings **REV-2-1** and **QUANT-2-4**; protocol amendment **A18**
+   §§(c)–(d); §8.4.4.)* The bar A16 applied was the **negation of X6** — admitted
+   unless the record states *neither* a payoff support *nor* an applicability
+   condition — and not the section 2.2 transfer clause's **conjunction**. **The set
+   the transfer clause admits therefore lies in [0, 178]**, the artifact records no
+   lower bound above zero for it, and the include count is conditioned at
+   **[149, 327]**. **A reader must not read 178 as the count of records the transfer
+   clause admits.** 327 is nevertheless the exact count of included **dispositions**,
+   and nothing in §8's claim lines rests on any of the 178, so no claim in this
+   artifact inherits the interval — only the corpus-shape counts do, and they are
+   marked at their sites (§8.4, §8.8).
+
+**Revision note, 2026-09-03 — this artifact was revised in place and its corpus
+grew from 149 records to 327, where the 178 that made the difference are an UPPER
+bound and the corpus size is therefore conditioned at [149, 327].** *(Bound added to
+this note 2026-09-04, finding **REV-2-1**; A18 §§(c)–(d); §8.4.4. No count changes:
+327 is the exact number of included dispositions, and the interval is on the warrant
+under them, not on the arithmetic.)* The revision executes Thread A of
+[deliverable_spec_s4-reexecution-and-repo-gaps_2026-09-03.md](docs/deliverables/deliverable_spec_s4-reexecution-and-repo-gaps_2026-09-03.md)
+and is carried by two append-only protocol amendments:
+
+- **A16** completed a screen that was never completed. The 700 records dispositioned
+  **X11** carried eligibility **UNDECIDED** — promoted under the section 2.2 transfer
+  clause and never assessed at stage 2. A16 fixed a subset rule *before* reading
+  anything, assessed the **197** records that rule selects by **reading each record's
+  own text**, and returned **178 include, 12 exclude under X5, 7 still undecided**.
+  The remaining **503** keep X11 and remain undecided. **The 149-record corpus was
+  never legitimately frozen**, because its eligible set was undetermined at roughly
+  4.7x its included set; deciding those records is completion, not re-screening, and
+  the change in corpus composition is the intended outcome.
+- **A17** performed the full-text extraction amendment **A9** recorded as never
+  performed. For the S4 core set — the named inventory-risk and market-scoring-rule
+  lineage anchors plus every record section 8.4 cites — **59 records were attempted
+  at full text, 33 were obtained, identity-checked and read, and 26 were attempted
+  and not obtained**. Section **8.4** below is rewritten on that evidence.
+
+**What did not change.** The 545 **X10** records are not re-opened. The 503
+out-of-subset **X11** records are not re-opened. No record carrying a terminal
+criterion-failure code is revisited. No eligibility criterion is altered: I1–I6,
+X1–X9, B-a–B-d, C1–C4 and J1–J6 are applied exactly as frozen, and the protocol's
+frozen prefix still hashes to
+`99524df02696a59ab878173ce7f3636d9cd07067b5a801a677cdf5d126fa13f4` over its first
+82,677 bytes. Sections 8.1, 8.2, 8.3, 8.5, 8.6, 9 and 10 are **not** rewritten on
+full-text evidence and still rest where amendment A9 left them.
 
 **Provenance.** Frozen protocol
 [docs/methodology/protocol_kalshi-arbitrage-review_2026-09-02.md](docs/methodology/protocol_kalshi-arbitrage-review_2026-09-02.md),
@@ -721,25 +794,49 @@ statement, with the per-query table, is at `prisma-s-9`; the gap is G-8.
 Per-source and per-query record counts are the `n_records` column of the table in
 section 2; the arithmetic identities the frozen protocol section 4.3 requires are:
 
+**Restated 2026-09-03 for the 327-record corpus (amendments A16, A17). One
+identity no longer closes, and it is reported as not closing.**
+
 | identity | left | right | holds |
 |---|---|---|---|
 | `sum(n_records per query) == n_identified` | 15,924 | 15,924 | yes |
 | `n_identified - n_duplicates_removed == n_screened` | 15,924 - 7,111 = 8,813 | 8,813 | yes |
-| `n_screened - n_excluded == n_included` | 8,813 - 8,664 = 149 | 149 | yes |
-| `len(bibliography store) == n_included` | 149 | 149 | yes |
+| `n_screened - n_excluded == n_included` | 8,813 - 8,486 = **327** | **327** | yes — **as an identity over dispositions.** 327 = 149 + 178 and **178 is an upper bound** (A18 §§(c)–(d); §8.4.4): the transfer-clause-admitted set lies in **[0, 178]** and the include count is conditioned at **[149, 327]**. The identity closes on the dispositions as recorded; the *warrant* under it is bounded, and this row must not be read as certifying 327 eligible records |
+| `len(bibliography store) == n_included` | **149** | **327** | **NO — see AG-11** |
 
-**The `n_excluded` row split, finding REV-1-8.** The identity above closes on
-8,664, and the frozen protocol's section 4.3 arithmetic is unchanged. But 8,664
-is not 8,664 criterion failures, and publishing it as one number lets a consumer
-of this table read 149/8,813 as a completed screen. The split:
+**AG-11, stated here rather than at the bottom.** *(The 178 named in this
+paragraph are an upper bound on the transfer-clause admissions — [0, 178], A18
+§§(c)–(d) and §8.4.4 — so the store's shortfall "by 178" is itself the shortfall
+against the upper-bound corpus. Added 2026-09-04, finding **REV-2-1**.)* The CSL-JSON store
+[references_kalshi-arbitrage.json](docs/literature/references_kalshi-arbitrage.json)
+still holds **149** records and its SHA-256 is unchanged. Amendment A16 admitted
+**178** records that are in the corpus and **not in the store**, so the frozen
+protocol section 4.3 identity `len(bibliography store) == n_included` **fails by
+178**. Extending the store is a separate act on a separate artifact with its own
+DOI-resolution sweep and its own digest, and this revision did not perform it. The
+consequence a reader must carry: **the 178 satisfy FAIR F1 individually** — every
+one carries a persistent identifier, recorded in
+[ka-s4-completion-screen.jsonl](docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl)
+— **but they are not resolvable from the store**, and any tool that reads the
+store as the corpus will see 149 records and be wrong by 178.
+
+**The `n_excluded` row split, finding REV-1-8, restated 2026-09-03.** The identity
+above closes on **8,486** (8,664 before amendment A16), and the frozen protocol's
+section 4.3 arithmetic is unchanged. But 8,486 is not 8,486 criterion failures, and
+publishing it as one number lets a consumer of this table read 327/8,813 as a
+completed screen. The split:
 
 | component of `n_excluded` | n | what it is |
 |---|---|---|
-| criterion failures (X1, X2, X3, X5, X7, X9) | 7,419 | a section-2 criterion was cited against the record — by the keyword classifier, not by a reader |
-| X10, keyword-identified candidate stratum | 545 | eligible-or-not is **unknown**; extraction not performed |
-| X11, keyword-identified model-record stratum | 700 | eligibility **UNDECIDED**; neither stage assessed |
-| **capacity dispositions, subtotal** | **1,245** | **not criterion failures** |
-| **`n_excluded`, total** | **8,664** | identity closes: 8,813 − 8,664 = 149 |
+| criterion failures (X1, X2, X3, X5, X7, X9) | **7,431** | a section-2 criterion was cited against the record. **7,419 of them by the keyword classifier, not by a reader; 12 by a screener reading the record** — the 12 X5 exclusions amendment A16 made inside the S4 subset |
+| X10, keyword-identified candidate stratum | 545 | eligible-or-not is **unknown**; extraction not performed. **Unchanged — not re-opened by A16** |
+| X11, keyword-identified model-record stratum | **510** | eligibility **UNDECIDED**. **503** were never assessed at stage 2 (outside the A16 subset rule); **7** were assessed by reading and could not be settled at the depth reached |
+| **capacity dispositions, subtotal** | **1,055** | **not criterion failures** |
+| **`n_excluded`, total** | **8,486** | identity closes: 8,813 − 8,486 = **327** |
+
+**The X11 row is the one that moved, and here is the whole of its movement:**
+700 = **178** now included + **12** now X5 + **503** never assessed + **7**
+assessed and unresolved. 178 + 12 + 503 + 7 = 700.
 
 The same three counts are carried in the frontmatter as `n_criterion_excluded`,
 `n_keyword_candidate_unextracted` and `n_eligibility_undecided`, so a tool reading
@@ -760,16 +857,23 @@ known-item, supplementary). Deduplication collapsed them to 8,813 distinct works
 removing 7,111 duplicate retrievals; 5,555 merge groups contained more than one
 raw record, which is what an uncapped two-tool forward-citation design produces.
 All 8,813 received a disposition. **How, corrected under findings REV-1-5 and
-QUANT-1-1:** the previous wording of this sentence — "All 8,813 were screened at
-title level (and at abstract level where an abstract had been retrieved)" —
-asserted that every record was read. It was not. **150 records carry a read-based
-verdict** (the 149 includes, read at abstract or metadata depth and extracted,
-plus one hand-verified J6 same-work twin excluded X9). **The other 8,663 were verdicted by the deterministic five-list keyword classifier archived at
+QUANT-1-1 and restated 2026-09-03 under amendment A16:** the original wording of
+this sentence — "All 8,813 were screened at title level (and at abstract level
+where an abstract had been retrieved)" — asserted that every record was read. It
+was not. **347 records carry a read-based verdict**: the 149 original includes,
+read at abstract or metadata depth and extracted; one hand-verified J6 same-work
+twin excluded X9; and the **197** X11 records amendment A16 assessed at stage 2 on
+2026-09-03 by reading each record's own retrievable text, the classifier not being
+invoked at that stage. **The other 8,466 were verdicted by the deterministic
+five-list keyword classifier archived at
 [ka-screening-script.py](docs/literature/search_logs/kalshi-arbitrage/ka-screening-script.py)**,
 rules R0-R9. Amendment A10 declares that classifier the PRISMA 2020 item-8
-automation tool of record for all of them.
+automation tool of record for all of them; **A16 declares the LLM screener itself
+(Claude Opus 5, model id `claude-opus-5`) the item-8 automation tool for the 197**,
+with one screener and no independent duplicate assessment.
 
-**The 8,663 by stratum, net of the 150 (finding LITERATURE-2-7).** The three
+**The classifier verdicts by stratum, net of the read-based records (finding
+LITERATURE-2-7; restated 2026-09-03 for 8,466 net of 347).** The three
 strata partition the 8,813 works, so the classifier subtotals must be stated **net
 of the read-based records that fall inside them** or the enumeration re-includes
 the 150 the sentence has just carved out — which is what it did until this
@@ -778,22 +882,46 @@ remediation, summing to 8,813:
 | amendment-A3 stratum | records | read-based | **classifier-verdicted** |
 |---|---|---|---|
 | DEFAULT-X1 (rule R2) | 5,249 | 0 | **5,249** |
-| REVIEW | 2,905 | 62 | **2,843** |
-| topical / known-item / supplementary | 659 | 88 | **571** |
-| **total** | **8,813** | **150** | **8,663** |
+| REVIEW | 2,905 | **200** | **2,705** |
+| topical / known-item / supplementary | 659 | **147** | **512** |
+| **total** | **8,813** | **347** | **8,466** |
+
+**Restated 2026-09-03.** The read-based column rises by the **197** records
+amendment A16 assessed by reading. Their allocation across the strata is derived,
+not asserted: the A3 partition applies only to the forward-citation-only stratum,
+and an X11 record cannot sit in DEFAULT-X1 because rule R2 fires on records with
+**no** published vocabulary token while the R6 branch that created X11 fires on
+records that carry a model token. So every forward-citation-only X11 record is in
+the REVIEW half. From the `arms` field of
+[ka-s4-completion-screen.jsonl](docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl):
+**138** of the 197 have `arms == ["forward-citation"]` and land in REVIEW
+(62 + 138 = 200); the other **59** carry a topical arm and land in the third row
+(88 + 59 = 147). 5,249 + 2,705 + 512 = 8,466, and 0 + 200 + 147 = 347.
 
 The split is re-derivable from the committed pipeline: the A3 partition is
 `ka-partition-script.py` over the `arms == ['forward-citation']` stratum, and the
-read-based set is the 149 store DOIs plus the one hand-verified X9 twin. The
-2,843 + 571 = **3,414** figure is the same one amendment A10 reports as the
-dispositions that were presented as individual screening verdicts and were not.
+read-based set is now the 149 store DOIs, the one hand-verified X9 twin, and the
+197 ids in the A16 verdict file. The **3,414** figure amendment A10 reports as the
+dispositions presented as individual screening verdicts and were not is a statement
+about the record **as first published** and is not restated here; **197 of those
+3,414 now carry a reading**, leaving **3,217** that do not.
 
-8,664 were excluded, of which **1,245 are capacity dispositions, not criterion
-failures** (545 X10 + 700 X11) — this is the single most important number in the
-flow and section 13.2 states its consequence. 149 records were included and
-extracted. The 1,245 figure is 57 higher than the 1,188 first published, because
-amendment A11 corrected an unanchored-substring defect in the X5 rule and moved
-57 records out of a criterion failure into the undecided stratum (section 6).
+**8,486** were excluded, of which **1,055 are capacity dispositions, not criterion
+failures** (545 X10 + 510 X11) — this remains the single most important number in
+the flow and section 13.2 states its consequence. **327** records are included —
+**327 = 149 + 178, where 178 is an UPPER bound** (A18 §§(c)–(d); §8.4.4): the set
+the section 2.2 transfer clause admits lies in **[0, 178]**, no lower bound above
+zero is recorded for it, and the corpus size is conditioned at **[149, 327]**.
+**They are not uniformly extracted, and the artifact must not be read as though
+they were**: 149 were extracted in the 2026-09-02 execution at abstract or metadata
+depth, of which 33 were additionally read at full text on 2026-09-03 under
+amendment A17; the 178 amendment A16 admitted carry **no extraction at all**.
+
+The capacity-disposition figure has moved twice. It was **1,188** as first
+published; amendment A11 corrected an unanchored-substring defect in the X5 rule and
+moved 57 records out of a criterion failure into the undecided stratum, giving
+**1,245** (section 6); amendment A16 then decided 190 of the X11 records — 178
+included, 12 excluded X5 — giving **1,055**.
 
 <!-- prisma-s-16 -->
 **Deduplication process.** Identifier-level exact match on DOI first
@@ -888,6 +1016,26 @@ id and no RePEc handle — so those rows collapse to a single join value and **c
 be reconciled at all**; for them the citation string is the only fallback and it is
 not a key. On the 6,923 that do carry one, the values are unique.
 
+**Determinism is a property of the CLASSIFIER half only, and this record now says so
+where it makes the claim.** *(Added 2026-09-03, finding REPRODUCIBILITY-1-3; protocol
+amendment **A18** §(f).)* Everything in this section — the seed guards, the sixteen
+counterfactual runs, `rng_seed: 0` in the frontmatter — is true of the deterministic
+five-list keyword classifier and of the universe/dedup/partition pipeline. It is **not**
+true of the **347 read-based dispositions**, and it is not true of the 33 full-text
+extractions. Specifically: the **197** verdicts amendment A16 recorded and the **33**
+extractions amendment A17 recorded are **single-pass LLM judgments** whose provenance is
+pinned only to a model-family identifier (`claude-opus-5`). **No prompt was archived** —
+the sibling explosive-regime stage archived `er-screening-prompt.txt`; this
+search-log directory contains no prompt file, and the A16 and A17 prompts were not
+captured at execution time and are **not** reconstructed retrospectively, because a
+prompt written after the fact from the stage brief would be a fabrication presented as a
+provenance record. **No sampling parameters were recorded**; they were provider defaults
+and are **not recoverable**. There was **one screener, not independent**, and no second
+pass. **A re-run of the read-based half is not guaranteed to reproduce these 197
+dispositions or these 33 extractions.** The seed-pinned classifier and the read-based
+screener are different kinds of object on this axis, and a reader must not carry the
+determinism claim from the first to the second.
+
 <!-- prisma-2020-8 -->
 PRISMA 2020 item 8, selection process. An LLM screener is an automation tool in
 the item's own terms ([Page et al. 2021](https://doi.org/10.1371/journal.pmed.1003583))
@@ -914,21 +1062,29 @@ reading" was **unfalsifiable and unsupported**. It is withdrawn.
   [ka-screening-script.py](docs/literature/search_logs/kalshi-arbitrage/ka-screening-script.py)
   — token lists `EVENT`, `CONTRIB`, `MODEL`, `DEFI`, `ELICIT`, rules **R0-R9**,
   all published in the file. Amendment A10 declares this **the automation tool of
-  record for all 8,664 non-include dispositions** (8,663 assigned by the
-  classifier; 1 hand-verified). Its declaration supersedes the narrower amendment-A3
-  declaration, which named only the R2 branch.
+  record for all 8,664 non-include dispositions as they stood on 2026-09-02**
+  (8,663 assigned by the classifier; 1 hand-verified). Its declaration supersedes the
+  narrower amendment-A3 declaration, which named only the R2 branch. **Restated
+  2026-09-03:** amendment A16 removed 197 records from that population by assessing
+  them through reading, so the classifier is now the tool of record for **8,466**
+  dispositions, and tool (2) below is the item-8 tool for the 197.
   **(2) Claude Opus 5**, model id `claude-opus-5`, running as the
   `research-librarian` agent under Claude Code / the Claude Agent SDK. Its
-  read-based verdicts cover **the 149 included records** (read at abstract or
-  metadata depth and extracted per section 5) **and the single hand-verified J6
-  same-work twin** excluded X9 under rule R9. It also authored the rule set and the
-  token lists, and it wrote this record.
+  read-based verdicts cover **the 149 originally included records** (read at
+  abstract or metadata depth and extracted per section 5), **the single
+  hand-verified J6 same-work twin** excluded X9 under rule R9, and — added
+  2026-09-03 — **the 197 X11 records amendment A16 assessed at stage 2 by reading**
+  (178 include, 12 X5, 7 still undecided). **A16 declares this model the PRISMA 2020
+  item-8 automation tool of record for those 197**, with the keyword classifier not
+  invoked at that stage; **A17 declares it the extractor of record for the 33
+  full-text extractions**, one extractor, no independent duplicate extraction. It
+  also authored the rule set and the token lists, and it wrote this record.
   **(3) The amendment-A3 vocabulary pre-sorter**, token list published at
   [ka-screening-vocabulary.json](docs/literature/search_logs/kalshi-arbitrage/ka-screening-vocabulary.json)
   — the R2 branch of tool (1), retained as a separate declaration because its token
   list and its 2,905 / 5,249 partition counts are published separately.
-- **records carrying a read-based verdict**: **150 of 8,813 (1.7%)**
-- **records carrying a classifier verdict**: **8,663 of 8,813 (98.3%)**
+- **records carrying a read-based verdict**: **347 of 8,813 (3.9%)** — was 150 of 8,813 (1.7%) before amendment A16
+- **records carrying a classifier verdict**: **8,466 of 8,813 (96.1%)** — was 8,663 (98.3%) before amendment A16
 - **what a disposition code in this artifact therefore means**: that the record's
   title and retrieved abstract contain, or do not contain, particular published
   tokens. It does **not** mean a screener judged the record against the criterion
@@ -949,14 +1105,22 @@ and this record does not present them as one.
 ## 6. Excluded records
 
 **Read the whole of this preamble before reading the table.** Every count below
-except `include` and the single X9 row is a **keyword-classifier output**, not a
-screener's verdict (finding QUANT-1-1, amendment A10). The `what it means` column
-therefore states two things per row: the section-2 criterion the rule was written
-to stand in for, and the token condition that actually fired.
+except `include`, the single X9 row and **12 of the X5 rows** is a **keyword-classifier
+output**, not a screener's verdict (finding QUANT-1-1, amendment A10). The
+`what it means` column therefore states two things per row: the section-2 criterion
+the rule was written to stand in for, and the token condition that actually fired.
 
-**Per-code summary of all 8,664 exclusions.** X4 and X6 were not used: no record
-was excluded for being pure decision theory, and none for stating no applicability
-condition (that judgement requires a full text, which was not read — see X11).
+**Per-code summary of all 8,486 exclusions, restated 2026-09-03 under amendment
+A16.** X4 was not used: no record was excluded for being pure decision theory.
+**X6 was not used either, and the reason changed.** The 2026-09-02 wording was that
+the X6 judgement "requires a full text, which was not read". Amendment A16 §(d)
+supersedes that: X6 excludes a C3 record that "states **neither** payoff support
+**nor** an applicability condition", and **that is a claim about the whole record
+that an abstract cannot establish**. A16 therefore recorded records whose abstracts
+stated neither as **still undecided inside the subset**, with the reason and the
+depth, rather than coding them X6 — which is why the 7 exist. The X6 row is empty
+because the stage that could have populated it declined to populate it on evidence
+that could not support it, not because no record might qualify.
 
 **X8 was not used either, and that is a deviation, not a clean result (finding
 QUANT-1-3, amendment A8).** The previous wording justified the empty X8 row by
@@ -981,11 +1145,11 @@ who declines the relaxation should read this corpus as 116 included records plus
 | X1 | 6,707 | classifier (R2: 5,249; R8: 1,458) — the per-rule split published under finding REV-1-6 | criterion stood in for: not an in-scope instrument under 2.1 and not a C3 transfer-clause record. Fired on: **R2** — the amendment-A3 DEFAULT-X1 rule, no published vocabulary token anywhere in title or abstract; **R8** — the classifier's fall-through, no event-claim token, no model token, no elicitation token |
 | X2 | 338 | classifier (R4) | criterion: satisfies 2.1 but makes none of C1-C4. Fired on: an event-claim token present and no contribution token |
 | X3 | 35 | classifier (R7) | criterion: elicitation without a transferable traded claim; fails B-d. Fired on: no event-claim token, no model token, an elicitation token present |
-| X5 | **94** | classifier (R5) | criterion: traded object is a token pair or liquidity pool, not an event claim; fails B-a. Fired on: no event-claim token, a model token, and a **word-boundary** DeFi token. **Was 159 before amendment A11 — see the correction below** |
+| X5 | **106** | classifier (R5): 94; **screener reading the record (amendment A16): 12** | criterion: traded object is a token pair or liquidity pool, not an event claim; fails B-a. Fired on: no event-claim token, a model token, and a **word-boundary** DeFi token. **Was 159 before amendment A11 and 94 after it — see the correction below.** The **12** added on 2026-09-03 are constant-function and automated market makers inside the A16 S4 subset whose traded object is an asset pair and not an event claim; X5 precedes X6 in the section 2.4 first-code-that-applies order. They are the only X5 exclusions in this flow that a screener made by reading the record |
 | X7 | **244** | classifier (R1) | criterion: no DOI, arXiv id or RePEc handle in any retrieved metadata record; fails I3. Fired on: the record would otherwise have taken the R3 or R6 branch and carries no persistent identifier. **Was 236 before A11** |
 | X9 | 1 | **hand-verified by the screener** | same-work twin, verified at extraction time; J6 retains the journal version (`10.1111/j.1354-7798.2005.00274.x`) and records the working-paper twin (`10.2139/ssrn.294306`). **The only non-include verdict in the whole flow that the classifier did not assign** |
 | **X10** | **545** | classifier (R3) | **amendments A4 + A10 — KEYWORD-IDENTIFIED CANDIDATE STRATUM, not a criterion failure and not an eligibility determination.** Fired on: an event-claim token **and** a contribution token both present, which is the A4 extraction-selection rule's keyword proxy for "serves only secondary objective O2 or O3". No record was read; eligibility under I1-I5 was never assessed (finding QUANT-1-4) |
-| **X11** | **700** | classifier (R6) | **amendments A5 + A10 — KEYWORD-IDENTIFIED MODEL-RECORD STRATUM, not a criterion failure and not an eligibility determination.** Fired on: a market-making or inventory-model token present and no event-claim token. Neither the section 4.2 stage-1 promotion condition (*"a record is promoted iff its abstract does not settle I1/I2"*) nor any stage-2 assessment was evaluated for any of them, so eligibility is **UNDECIDED** (finding QUANT-1-4). **Was 643 before A11** |
+| **X11** | **510** | classifier (R6), residual after amendment A16 | **amendments A5 + A10 + A16 — KEYWORD-IDENTIFIED MODEL-RECORD STRATUM, not a criterion failure and not an eligibility determination.** Fired on: a market-making or inventory-model token present and no event-claim token. **Was 643 before A11, 700 after it, and 510 after A16.** Of the 510: **503** fell outside the S4 subset rule A16 fixed in advance, and for them neither the section 4.2 stage-1 promotion condition (*"a record is promoted iff its abstract does not settle I1/I2"*) nor any stage-2 assessment has ever been evaluated — eligibility **UNDECIDED** in exactly the sense A5 fixed (finding QUANT-1-4); **7** were inside the subset, were assessed by reading, and could not be settled at the depth reached, and are named individually in the A16 verdict file. **88 of the 503 are coded SR-2d** — the reading chain could not reach them past a title. Per A16 §(e) and [ka-s4-retrieval-log.json](docs/literature/search_logs/kalshi-arbitrage/ka-s4-retrieval-log.json), 78 of those were HTTP 429 rate limits and 19 were HTTP 403 bot blocks: **a retrieval failure, never evidence that the record has no abstract**, and X8 is applied to none of them |
 
 **Correction to the X5 rule, finding QUANT-1-2, amendment A11.** The X5 branch
 tested its DeFi vocabulary as **unanchored substrings**. Three of the four short
@@ -1049,7 +1213,8 @@ setting `KA_DEFI_MATCH=substring`.
 | X5 | 159 | **94** | **−65** |
 | X11 | 643 | **700** | **+57** |
 | X7 | 236 | **244** | **+8** |
-| X1, X2, X3, X9, X10, include | 6,707 / 338 / 35 / 1 / 545 / 149 | unchanged | 0 |
+| X1, X2, X3, X9, X10 | 6,707 / 338 / 35 / 1 / 545 | unchanged | 0 |
+| include | 149 | unchanged **by A11**; **327 after A16** | 0 at A11, **+178 at A16** |
 | total | 8,813 | 8,813 | 0 |
 
 **65 records moved, none of them into a B-a criterion failure**, which was the
@@ -1079,17 +1244,27 @@ materially larger than stated. Corpus-wide, 4,779 of 8,813 works have an abstrac
 The residual risk is therefore **bounded below by the 3,090-record title-only
 stratum** and is reported that way in section 13.1.
 
-**Table X-nearmiss (PRISMA 2020 item 16b proper).** **No record reached full-text
-assessment and was then excluded**, because no full-text assessment was performed
-in this execution. The table is therefore reported as empty in those words rather
-than omitted. The **700** X11 rows are the records that *would* have populated it
-and did not, which is why they are counted and named rather than folded into a
-criterion code. (643 before amendment A11; see the X5 correction above.)
+**Table X-nearmiss (PRISMA 2020 item 16b proper), restated 2026-09-03.** The
+2026-09-02 wording was: "No record reached full-text assessment and was then
+excluded, because no full-text assessment was performed in this execution." That is
+**still true of full-text assessment** — amendment A17 read 33 full texts, all of
+them for records already included, and excluded none. But it is no longer the whole
+story, and the table is no longer empty in the sense that matters. **Twelve records
+reached a stage-2 eligibility assessment by reading and were then excluded**, under
+X5, by amendment A16. They are the item-16b rows this artifact previously had none
+of, and they are enumerated with a criterion and a rationale each in
+[ka-s4-completion-screen.jsonl](docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl).
+**Seven more were assessed and left unresolved** and are named there too; leaving
+them unresolved rather than forcing a verdict is itself the item-16b disclosure.
+The remaining **503** X11 rows are still records that *would* have populated the
+table and did not, which is why they are counted and named rather than folded into
+a criterion code. (700 before A16; 643 before amendment A11; see the X5 correction
+above.)
 
 <!-- prisma-2020-16b -->
 **Itemized exclusions of records that looked eligible.** These are the individual
 rows PRISMA 2020 item 16b exists for: records a reader would expect to find in the
-corpus and will not. The full 8,664-row table is the JSONL artifact named above.
+corpus and will not. The full **8,486**-row exclusion table is the JSONL artifact named above, read together with [ka-s4-completion-screen.jsonl](docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl), which supersedes 190 of its rows.
 
 | id | citation | stage_excluded | reason |
 |---|---|---|---|
@@ -1115,7 +1290,27 @@ corpus and will not. The full 8,664-row table is the JSONL artifact named above.
 ## 7. Included corpus
 
 <!-- included-corpus -->
-149 records, each carrying a persistent identifier (FAIR F1). The
+**327 records after amendment A16 — but this table lists 149 of them, and that
+gap is stated rather than hidden.** The table below is the 2026-09-02 index of the
+149 records the original execution included and extracted. The **178** records
+amendment A16 admitted on 2026-09-03 are **not in this table and not in the
+CSL-JSON store** (verification gap **AG-11**, section 5). Their machine-readable
+index is
+[ka-s4-completion-screen.jsonl](docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl)
+(sha256 `8e25fa353dad315c10a7734c0e1c5a627a305b7f1fd05ab1d34406d940ef8848`), one row
+per record with its persistent identifier, the criterion cited, the depth read and
+the rationale. Every one carries a persistent identifier, so FAIR F1 holds record
+by record; what does not hold is the store's coverage of the corpus.
+
+**No CLAIM LINE in section 8 rests on any of the 178.** They were assessed for
+eligibility and never extracted, so they carry no claim line anywhere in this
+artifact. *(Narrowed 2026-09-04, finding **REPRODUCIBILITY-2-3**: two corpus-shape
+counts in §8.4 and §8.8 do add the 178, and both are marked as upper bounds at
+their sites. And the **178** named in this paragraph is itself an upper bound —
+[0, 178], A18 §§(c)–(d) and §8.4.4.)* A reader who wants the corpus's *claims* should read this 149-record
+table; a reader who wants the corpus's *extent* must read both files.
+
+Each of the 149 below carries a persistent identifier (FAIR F1). The
 machine-readable form is the CSL-JSON store; this table is the human-readable
 index.
 
@@ -1478,10 +1673,16 @@ effectively 18-of-18 T5 before this fix (finding LITERATURE-1-10).
 
 1. **Every claim line carries a resolvable citation.** A line with no citation is
    a defect, not a stylistic choice.
-2. **Extraction depth is abstract or metadata, never full text** (section 13.2).
-   Every statement below is a statement about **what a record's abstract or
-   metadata says**, transcribed as the record states it. Where an abstract does
-   not settle a point, this section says so instead of inferring it.
+2. **Extraction depth is abstract or metadata, never full text — EXCEPT in
+   section 8.4, amended 2026-09-03 under amendment A17** (section 13.2). Outside
+   8.4, every statement below is a statement about **what a record's abstract or
+   metadata says**, transcribed as the record states it. **Inside 8.4, 33 records
+   were read at full text and every claim line carries an explicit depth marker
+   — `[FT]`, `[abs]`, `[meta]` or `[corpus-inference]`.** Where an abstract does
+   not settle a point, this section says so instead of inferring it. **No claim
+   anywhere in section 8 may assert an applicability condition at abstract depth
+   without saying so**; in 8.4 that obligation is discharged by the markers, and
+   outside 8.4 it is discharged by this rule.
 3. **No quantitative pooling and no vote counting.** Records differ in venue,
    mechanism, period and measurement; there is no common estimand. Figures are
    transcribed, never re-derived, re-scaled or rounded silently.
@@ -2033,33 +2234,216 @@ effectively 18-of-18 T5 before this fix (finding LITERATURE-1-10).
 
 ### 8.4 Strand S4 — market making, inventory risk, market scoring rules, automated market makers
 
-This is the largest strand in the corpus (61 of 149 records) and the one where the
-frozen protocol's **transfer clause** does the most work. Two sub-literatures sit
-here and they must not be run together: the **event-market market-maker design**
-literature, which is written natively for bounded [0,1] payoffs settling at an
-endpoint, and the **inventory-risk dealer** lineage, which is written for
-unbounded-payoff instruments and reaches this corpus only as a model whose
+**Rewritten 2026-09-03 on full-text evidence (amendment A17). Read the depth
+markers; they are the load-bearing part of this section.**
+
+Every claim line below carries one of four markers, and no line is without one:
+
+- **[FT]** — rests on the **full text**, read on 2026-09-03, of a file whose
+  SHA-256, retrieval route and first-page identity check are recorded in
+  [ka-s4-fulltext-extraction.jsonl](docs/literature/search_logs/kalshi-arbitrage/ka-s4-fulltext-extraction.jsonl).
+  **33 records** carry this marker.
+- **[abs]** — rests on a **retrieved abstract** and nothing more. Full text was
+  attempted on 2026-09-03 and not obtained; the failure mode is named per record in
+  the extraction file. **21 records.**
+- **[meta]** — rests on **title, venue and year only** (the amendment-A8 stratum).
+  Full text was attempted and not obtained. **5 records.**
+- **[corpus-inference]** — a step this corpus takes from something an author states
+  to something the author does not state. Every such step is flagged here and in the
+  extraction file, because collapsing the two is the defect this whole thread exists
+  to correct.
+
+**Glyph reconstruction, disclosed before the first quotation.** Text was extracted
+from the retrieved PDFs with `pdftotext`, which drops or mangles set membership,
+inequality signs, arrows and subscripts. **Where a quotation below contains such a
+glyph, the glyph is a reconstruction and the surrounding words are verbatim.** Three
+cases matter and are named rather than left to be found:
+
+- **Hanson's Theorem 2.** The extractor returned *"For I  3, if yi = 0 for i  {j, k}
+  implies qi = 0 for i  {j, k}, the rule is logarithmic."* The reconstruction reads the
+  first gap as ≥ and the second and third as ∉, on the strength of the sentence
+  immediately preceding it in the same paragraph: *"When there are at least three events
+  i, the inverse also holds."*
+- **Abernethy, Chen & Vaughan's payoff map.** The extractor returned *"rho: O  RK0"*.
+  It is reconstructed as a map into the non-negative orthant, on the strength of the
+  complete-security-space special case the same paragraph states, in which ρᵢ(o) is 1
+  or 0.
+- **Glosten & Milgrom's support condition — which was NOT reconstructed.** The OCR
+  text layer returns *"V 2 0, var( V) < 001"*, which is unusable, so **p. 76 was re-read
+  as a rendered page image** and the quotation is transcribed from the image. **Kyle
+  1985 was read entirely as page images**, because that scan has no text layer at all.
+
+Where a glyph could not be reconstructed with confidence, the quotation was cut short
+rather than guessed.
+
+> **Every verbatim quotation in this section, and every one in the extraction log's
+> 33 full-text rows, was re-checked against a re-retrieved source on 2026-09-04 —
+> and four of the spans in this section were wrong.** *(Finding
+> **LITERATURE-2-1**; the audit is recorded in full in protocol amendment **A19**.)*
+> All **33** full-text sources were re-retrieved; **32 of the 33** hash byte-for-byte
+> to the `sha256` the A17 retrieval record published, and the exception
+> (`gao2010978364217572`, a Harvard DASH re-serialization differing by 33 bytes) is
+> named in A19. **231 quoted spans were checked** — 146 in the extraction log's 33
+> full-text rows and 85 in this section's prose — including the two records with no
+> usable text layer, whose quotations were verified against rendered page images
+> (Glosten & Milgrom pp. 76 and 91; Kyle pp. 1316 and 1317). **Seven quoted spans
+> were altered relative to their sources.** Four of the seven are in this section —
+> at **five** sites, the Feys span appearing twice — and each is corrected in place
+> with the correction named inline: **Feys 2026**
+> (a substituted noun and a dropped adverb — the serious one, because it carried this
+> section's revised Feys classification), **Chen & Pennock 2007** ("the whole process
+> of the market" for "the whole process of trading"), **Chen et al. 2008** (dropped
+> "the set"), and **Kroer et al. 2016** (an "(IP)" gloss imported from the abstract).
+> Three more are in the extraction log only and never reached this prose —
+> **Chakraborty & Kearns 2011**, **Othman & Sandholm 2011** and the **Moallemi et al.
+> 2026** identity-check string; all three are quoted verbatim from source in A19.
+> **What this audit does not cover, stated so it is not over-read:** the extraction
+> log's 21 abstract-depth, 5 metadata-depth and 178 screen-abstract rows, and every
+> quotation in §§8.1–8.3 and 8.5–8.6. No claim is made about those.
+> **No transfer status, no verdict, no count and no record changes anywhere in this
+> audit.** What changes is that four sentences this section attributed to authors are
+> now the sentences those authors wrote.
+
+**Strand size, and the fact that most of it is unread.** S4 is by a wide margin the
+largest strand: **61 of the original 149 records**, plus the **178** records
+amendment A16 admitted, all of which are C3 model records and therefore S4 — **239
+records in a 327-record corpus**. Of those 239, **33 were read at full text**, 26
+were attempted at full text and not obtained, and **178 carry no extraction at
+all**. Section 8.4.4 states what the 178 do and do not contribute, which is: they
+enlarge the corpus and they carry no claim line.
+
+> **Both figures in that sentence are UPPER BOUNDS and are marked as such here.**
+> *(Added 2026-09-04, findings **REPRODUCIBILITY-2-3** and **QUANT-2-4**; A18
+> §§(c)–(d); §8.4.4.)* 178 of the 239 rest on the negation-of-X6 admission bar, not
+> on the transfer clause's conjunction, so the strand size is **61 confirmed plus at
+> most 178, i.e. [61, 239]**, in a corpus of **[149, 327]**. These are counts about
+> the *shape* of the corpus, not claim lines: **no sentence in §8.4 rests on any of
+> the 178**, and the only §8.4 statement their admission touches is the universal
+> negative below, which their admission can only **weaken** — the conservative
+> direction. **A reader must not read 178 as the count of records the transfer clause
+> admits.**
+
+Two sub-literatures sit here and they must not be run together: the **event-market
+market-maker design** literature, written natively for bounded [0,1] payoffs
+settling at an endpoint, and the **inventory-risk dealer** lineage, written for
+unbounded-payoff instruments and reaching this corpus only as a model whose
 transfer must be argued.
 
-**The corpus's central S4 finding, restated to the size the corpus can carry
-(finding LITERATURE-1-14).** The previous wording was: "the first literature
-states its own applicability conditions in terms of the binary payoff, and the
-second does not." The second half is a positive claim about non-statement, and the
-corpus cannot make it. Corrected: **among the records this corpus assessed, and at
-the extraction depth it reached, the first literature states its applicability
-conditions in terms of the binary payoff and the second does not.** The
-qualifications are not decorative. Of the five named-lineage anchors in 8.4.3,
-**four were read at metadata depth only** (Ho & Stoll, Glosten & Milgrom, Kyle,
-Krishnan, Liu & Wang) with transfer status "not addressed **at the depth
-reached**"; gap G-5 states in terms that "the corpus cannot say whether the
-originals address bounded payoffs, because it did not read them"; and **700 X11
-records — transfer-clause records of exactly this class — were never assessed at
-all** (section 6, section 13.2). Amendment A5 records that the transfer-clause
-literature is represented here "by its anchors and its event-market-facing members
-only". A reader wanting to know whether the inventory-risk lineage states a payoff
-support must read those 700 rows of the verdicts file, not this section.
+#### The corpus's central S4 finding, restated on full-text evidence
+
+**What it said on 2026-09-02 (finding LITERATURE-1-14).** *"Among the records this
+corpus assessed, and at the extraction depth it reached, the first literature states
+its applicability conditions in terms of the binary payoff and the second does
+not."* The stated ground for the second half was that the named inventory-lineage
+anchors had been read at metadata depth only, so the corpus "cannot say whether the
+originals address bounded payoffs, because it did not read them" (gap G-5).
+
+**A counting error in that sentence, found 2026-09-03 and corrected here.** The
+2026-09-02 text read: *"Of the five named-lineage anchors in 8.4.3, **four were read
+at metadata depth only** (Ho & Stoll, Glosten & Milgrom, Kyle, Krishnan, Liu &
+Wang)."* **The parenthetical names five records against the number four**, and the
+section-7 table gives `meta` for all five. The number was wrong, not the list. It is
+recorded rather than silently repaired because the same mis-transcription propagated:
+`research_agenda_prediction-market-microstructure_2026-09-02.md` Branch 2 restated it
+as *"four of five named-lineage anchors are at metadata depth and the one whose model
+is stated assumes a Brownian reference price (Guéant, Lehalle & Fernandez-Tapia)"* —
+substituting Guéant, which the corpus carried at **abstract** depth, for a fifth
+metadata-depth anchor. That agenda entry is corrected in its rev 2 with a supersession
+marker.
+
+**What reading them shows.** The literal claim survives; the transfer determination
+built on it does not.
+
+1. **No inventory-lineage record read at full text states an applicability
+   condition *in terms of* a binary payoff.** That half is confirmed, at full text,
+   for Glosten & Milgrom, Kyle, Avellaneda & Stoikov, Guéant/Lehalle/Fernandez-Tapia,
+   Feys and Chakraborty & Kearns. **[FT]** None of them mentions binary, bounded or
+   event contracts anywhere the corpus read.
+2. **But "does not state a condition in terms of the binary payoff" is not the same
+   as "states nothing the transfer clause can use", and the 2026-09-02 record ran the
+   two together.** Four of the six state **a support or process assumption**
+   explicitly — and the four are **not** four of a kind. *(Corrected 2026-09-03,
+   finding REV-1-4: this block previously called all four "a payoff-support
+   assumption", which contradicts §8.4.3 and the corrected finding one paragraph
+   below. A reference-price process is not a payoff support, and this corpus's own
+   transfer clause turns on the distinction.)*
+   - **One is a payoff-support statement.** **Glosten & Milgrom 1985** assume
+     **V ≥ 0 with finite variance, realised at a terminal date T₀**, and impose no
+     distributional form at all. That is a statement about the *payoff* and its
+     support. **[FT]**
+   - **Three are price-process statements, not payoff supports.** **Kyle 1985**
+     assumes the ex post liquidation value is **normally distributed**;
+     **Avellaneda & Stoikov 2008** assume the mid-price is a **driftless arithmetic
+     Brownian motion**, valued at the horizon by mark-to-market; **Guéant, Lehalle &
+     Fernandez-Tapia** assume a **Brownian reference price**, likewise mark-to-market
+     at the horizon. Each constrains the *process the price follows* and the *terminal
+     valuation*, not the support of a contractual payoff. **[FT]**
+   The three process assumptions are ones a payoff confined to [0,1] and terminating
+   at an endpoint **cannot** satisfy. The one payoff-support assumption is one it
+   **can**. **[corpus-inference]** for the word "cannot" and the word "can" in that
+   sentence — the authors state the assumptions; the compatibility judgement is this
+   corpus's.
+3. **Two of the six state no payoff support for the traded claim**, and that is a
+   positive finding rather than an absence of one. **Chakraborty & Kearns 2011** take
+   the price series as **exogenous and unconstrained**, so their profitability result
+   is distribution-free and neither includes nor excludes a [0,1] instrument. **[FT]**
+   **Feys 2026** assumes a continuous semimartingale mid-price, **stopped at a level
+   M for the technical conditions**, and states that liquidation-adjusted terminal
+   wealth is **bounded**, writing in Remark 1: *"The boundedness is the regime in which
+   the dynamic-risk-measure machinery of Kupper and Schachermayer (2009) applies
+   directly."* **[FT]** *(Quotation corrected 2026-09-04, finding **LITERATURE-2-1**.
+   This site, §8.4.3 and the extraction row printed, inside quotation marks and
+   introduced by attributive verbs, "the regime in which the dynamic-risk-measure
+   **representation** applies" — a string that occurs nowhere in the paper: it
+   substitutes "representation" for "machinery of Kupper and Schachermayer (2009)"
+   and drops "directly", with no ellipsis. Re-verified 2026-09-04 against arXiv
+   HTML v1 and v3 of 2606.01477, which carry the identical sentence, and against the
+   PDF whose sha256 matches the A17 retrieval record byte for byte. **No transfer
+   status, verdict or count changes**; the stated bounding regime the sentence
+   establishes is unaffected.)* *(Corrected 2026-09-03, finding REV-1-4: this
+   line previously read "says nothing about boundedness or endpoint settlement",
+   which contradicts §8.4.3's own Feys entry. A stated bounding regime is not
+   nothing.)* What Feys states no payoff support for is **the traded claim**, and he
+   says nothing about endpoint settlement. The verdict is unchanged: **`not
+   addressed`**, and the full text licenses no move in either direction.
+4. **The one anchor still unread is Ho & Stoll 1981.** Full text was attempted
+   through six routes and not obtained; no abstract exists in any source either — the
+   RePEc record states *"No abstract is available for this item."* **[meta]** The
+   corpus's transfer determination for it is `not addressed` **at the depth reached**,
+   and what could not be extracted is named in the extraction file. Every description
+   of the Ho & Stoll model elsewhere in this corpus is **a statement by other authors
+   about it**, not a reading of it.
+
+**The corrected finding, in one sentence.** *Among the S4 records this corpus read
+at full text: the event-market design literature states its applicability conditions
+in terms of the bounded payoff, uniformly and without exception; the inventory-risk
+lineage overwhelmingly states conditions that are about **price processes** rather
+than payoffs — three such process conditions, all of which a [0,1] endpoint-settling
+payoff provably violates — against **one** genuine payoff-support statement, which
+that payoff provably satisfies, and **two** records that state no payoff support for
+the traded claim at all; and the blanket "not addressed" the 2026-09-02 record
+assigned to that lineage was an artefact of not having read it.* *(Made precise
+2026-09-03, finding REV-1-4: the earlier wording put all four conditions in the
+price-process class and then said one of them was satisfied, which cannot both be
+true.)*
+
+**What did not improve.** 178 S4 records now in the corpus were never extracted;
+503 X11 records were never assessed at all; 545 X10 records were never assessed; and
+the three Kalshi-specific S4 records in 8.4.1 are still at abstract depth because
+SSRN returns HTTP 403 to this session. A reader who wants to know whether the
+inventory-risk lineage *as a whole* states a payoff support must still read the 503
+X11 rows, and this section does not answer that question.
 
 #### 8.4.1 Kalshi-specific
+
+**All three records in this block are still at abstract depth, and the reason is
+recorded rather than left implicit.** All three are SSRN preprints; all three resolve
+through `doi.org` to `papers.ssrn.com`, which returned **HTTP 403** with a Cloudflare
+interstitial on every attempt on 2026-09-03. **This is the most consequential
+retrieval failure of the re-execution**: the strand's only venue-specific evidence
+is the part that could not be read. Per the discipline amendment A16 §(e) fixes and
+A17 §(d) restates, a bot-blocked response is a failure of the retrieval chain and
+**not** evidence about what these records state.
 
 - Adverse selection is measured on the venue and is contract-family-dependent:
   using 41.6 million trades and adaptations of Kyle's lambda and the
@@ -2071,360 +2455,849 @@ support must read those 700 rows of the verdicts file, not this section.
   surplus that cross-subsidizes adverse selection**. An adapted VPIN toxicity
   metric predicts maker losses in single-name markets but not broad-based ones
   ([Bartlett & O'Hara 2026](https://doi.org/10.2139/ssrn.6615739), T5 preprint,
-  abstract depth). *This is the corpus's single most important Kalshi-specific
-  result for S4, and note what it is: the classical inventory/adverse-selection
-  apparatus is applied to the venue by adapting Kyle and Glosten-Harris — the
-  transfer is performed by that record's authors, not by this corpus.*
+  **[abs]**). *This is the corpus's single most important Kalshi-specific result
+  for S4, and note what it is: the classical inventory/adverse-selection apparatus
+  is applied to the venue by adapting Kyle and Glosten-Harris — the transfer is
+  performed by that record's authors, not by this corpus.* **Every figure in this
+  paragraph — the 41.6 million trades, the single-name versus broad-based
+  comparison, the twice-as-much-per-contract figure, the VPIN result — rests on an
+  abstract and was not checkable against the record's own text at this stage.**
 - Maker-taker structure and who earns: **one record characterises the venue as
   quote-driven** and interprets makers through that characterisation as relatively
-  well-informed traders who post offers and seek positive expected returns ([Bürgi, Deng & Whelan 2025](https://doi.org/10.2139/ssrn.5502658),
-  T5, abstract depth). **Attribution, finding REV-1-2:** "quote-driven" is
-  stated here as *what that record says*, not as a fact about the venue. This
-  corpus does not know Kalshi's trading mechanism: the rulebook was unreachable
-  (AG-1) and S7-5 records the contract specifications as Not established. The same
-  record's characterisation is also in direct tension with 8.3.2's former
-  order-driven assertion, now withdrawn, and with 8.4.2's former attribution of a
-  continuous double auction to the CFTC record, also now withdrawn. **The corpus
-  reports the tension and settles nothing.** A separate record decomposes 72.1
-  million Kalshi trades to ask whether liquidity providers systematically profit
-  from uninformed order flow
-  ([Gupta 2026](https://doi.org/10.2139/ssrn.6858200), T5 preprint, abstract
-  depth).
-- **No retrieved abstract among the 116 abstract-depth included records states a
+  well-informed traders who post offers and seek positive expected returns
+  ([Bürgi, Deng & Whelan 2025](https://doi.org/10.2139/ssrn.5502658), T5,
+  **[abs]**). **Attribution, finding REV-1-2, and it still holds:** "quote-driven"
+  is stated here as *what that record says*, not as a fact about the venue, and the
+  2026-09-03 re-execution **could not check it against the record's own text**
+  because SSRN returned 403. This corpus does not know Kalshi's trading mechanism:
+  the rulebook was unreachable (AG-1) and S7-5 records the contract specifications
+  as Not established. The same record's characterisation is also in direct tension
+  with 8.3.2's former order-driven assertion, now withdrawn, and with 8.4.2's
+  former attribution of a continuous double auction to the CFTC record, also now
+  withdrawn. **The corpus reports the tension and settles nothing.** A separate
+  record decomposes 72.1 million Kalshi trades to ask whether liquidity providers
+  systematically profit from uninformed order flow
+  ([Gupta 2026](https://doi.org/10.2139/ssrn.6858200), T5 preprint, **[abs]**).
+- **No retrieved abstract among the abstract-depth included records states a
   market-making model fitted to, or calibrated on, Kalshi**, and the Kalshi block
   of S4 is entirely measurement while the model block below is entirely venue-none
-  or other-venue. **Qualified under finding REV-1-10**, because the previous
-  wording was a universal negative over the corpus and this corpus cannot make one:
-  the **33 metadata-depth** included records were never read past title, venue and
-  year; the **545 X10** and **700 X11** records were never assessed; and the
-  **5,249 records** verdicted by the amendment-A3 token rule were never read at
-  all. A record can fit a model to Kalshi without saying so in an abstract, which is
-  the exact "not mentioned versus not stated in the abstract" indistinguishability
-  declared at 13.2. The asymmetry is carried into section 10 as gap G-4 with the
-  same qualifiers attached there.
+  or other-venue. **Qualified under finding REV-1-10 and re-qualified 2026-09-03**,
+  because the previous wording was a universal negative over the corpus and this
+  corpus cannot make one: the **33 metadata-depth** included records were never read
+  past title, venue and year; the **545 X10** and **503 X11** records were never
+  assessed; the **178** records amendment A16 admitted were assessed for eligibility
+  and **never extracted**, so a model fitted to Kalshi could sit inside them and
+  this corpus would not know; and the **5,249 records** verdicted by the
+  amendment-A3 token rule were never read at all. A record can fit a model to
+  Kalshi without saying so in an abstract, which is the exact "not mentioned versus
+  not stated in the abstract" indistinguishability declared at 13.2. The asymmetry
+  is carried into section 10 as gap G-4 with the same qualifiers attached there.
+  **The A16 admissions make this negative weaker than it was on 2026-09-02, not
+  stronger**, and it is restated here in the weakened form rather than left to be
+  read at its old strength.
 
 #### 8.4.2 Generalized, part one — market makers written natively for bounded [0,1] payoffs
 
 These records are **venue-none** and their applicability conditions are stated in
 terms of the binary-payoff structure itself, so the transfer question for them is
-about the *venue's mechanism*, not about the payoff support.
+about the *venue's mechanism*, not about the payoff support. **That statement was
+an inference from abstracts on 2026-09-02. It is now an observation: every record
+in this block that was read at full text states its payoff assumption explicitly,
+and the statements are quoted below rather than paraphrased.**
 
-- The lineage's origin: market scoring rules combine the individual-elicitation
-  property of scoring rules with the group-consensus property of betting markets,
-  and only **logarithmic** versions preserve the probability of a conditioning
-  event and hence conditional independence relations — the stated reason LMSR is
-  the modular choice ([Hanson 2007](https://doi.org/10.5750/jpm.v1i1.417), T1,
-  abstract depth; combinatorial design in
-  [Hanson 2003](https://doi.org/10.1023/A:1022058209073), T1, metadata depth).
-  *Applicability condition stated by the author: contracts on combinations of base
-  events whose conditional structure is to be preserved.*
-- The utility characterization: utility-based market makers that always accept
-  orders at their risk-neutral prices have **bounded loss** under necessary and
-  sufficient conditions the record derives; hyperbolic-absolute-risk-aversion
-  utility makers are equivalent to weighted pseudospherical scoring-rule makers,
-  and Hanson's LMSR maker corresponds to a negative-exponential utility maker.
-  The record states the **tradeoff between market liquidity and worst-case loss**
-  explicitly ([Chen & Pennock 2007](https://arxiv.org/abs/1206.5252), **T1**, UAI
-  2007 proceedings, retrieved as arXiv:1206.5252, abstract depth). *Transfer
-  status: `addressed` — the bounded payoff is the premise, not an assumption to be
-  relaxed.* **Corrected 2026-09-02, finding LITERATURE-2-4:** this was cited as a
-  2012 T5 preprint. arXiv:1206.5252 is the 2012 bulk upload of the UAI proceedings;
-  the arXiv record's own **report number is `UAI-P-2007-PG-49-56`** and its Comments
-  field reads *"Appears in Proceedings of the Twenty-Third Conference on Uncertainty
-  in Artificial Intelligence (UAI2007)"*. The work is a peer-reviewed conference
-  paper, so it is **T1**, and the arXiv posting is the retrieved manifestation, not
-  the work.
-- The convex-analytic characterization: any market satisfying a stated set of
-  conditions **must** price securities via a convex cost function constructed by
-  conjugate duality, which reduces automated market making to convex optimization
-  over a convex hull rather than over the outcome space
-  ([Abernethy, Chen & Vaughan 2013](https://doi.org/10.1145/2465769.2465777), T1,
-  abstract depth); the framework's precursor is
-  [Abernethy, Chen & Wortman Vaughan 2011](https://doi.org/10.1145/1993574.1993621)
-  (T1, abstract depth), its axioms are extended to adaptive liquidity by
-  [Li & Vaughan 2013](https://doi.org/10.1145/2482540.2482575) (T1, abstract
-  depth), to measurable spaces and continuous random variables by
-  [Chen, Ruberry & Wortman Vaughan 2013](https://doi.org/10.1145/2482540.2482608)
-  (T1, abstract depth), and connected to risk measures and exponential families by
-  [Abernethy, Frongillo & Kutty 2015](https://doi.org/10.1145/2728732.2728734)
-  (T1, abstract depth). *Applicability condition stated across the set: securities
-  with **bounded payoff** over a possibly infinite outcome space.*
-- The learning-theoretic equivalence: any cost-function-based prediction market can
-  be read as an algorithm for learning from expert advice, and a bound on the
-  market organizer's loss yields a regret bound of order square-root-T for the
-  corresponding learning algorithm
-  ([Chen & Vaughan 2010](https://doi.org/10.1145/1807342.1807372), T1, abstract
-  depth). *Applicability condition: the market's outcome set is the learning
-  problem's expert set — a structural correspondence, not a market assumption.*
-- The impossibility results that bound the design space: LMSR pricing over
-  combinatorial outcome spaces is `#P`-hard even under severely restricted betting
-  languages, and even where matching without a market maker is polynomial
-  ([Chen, Fortnow, Lambert, Pennock & Wortman 2008](https://doi.org/10.1145/1386790.1386822), T1,
-  abstract depth); and continuous-outcome market makers cannot satisfy a set of
-  desirable axioms simultaneously
-  ([Gao & Chen 2010](https://doi.org/10.1007/978-3-642-17572-5_44), T1, abstract
-  depth). *These are the corpus's clearest statements of what a binary-contract
-  market maker cannot be asked to do.*
-- The four-desiderata result: bounded loss, ability to profit, vanishing bid/ask
-  spread and unlimited market depth were previously attainable only three at a
-  time; the record constructs makers satisfying **all four** by extending
-  constant-utility cost functions with two added functions on the quoted prices
-  ([Othman & Sandholm 2012](https://doi.org/10.1145/2229012.2229074), T1, abstract
-  depth). Practical liquidity sensitivity plus the ability to run at a profit,
-  rather than at a deficit, is the stated defect the practical liquidity-sensitive
-  maker repairs
-  ([Othman, Pennock, Reeves & Sandholm 2013](https://doi.org/10.1145/2509413.2509414),
-  T1, abstract depth), with a risk-measure formulation in
-  [Othman & Sandholm 2011](https://doi.org/10.1007/978-3-642-25510-6_27) (T1,
-  metadata depth). *Applicability condition stated by the authors: the maker's
-  loss bound and profit property are properties of the cost function, and hold for
-  any bounded-payoff security set.*
-- Unification and generalization: a convex-optimization framework expresses LMSR,
-  cost-function makers, utility-based markets and the sequential convex parimutuel
-  mechanism as one model differing only in the choice of a concave value function,
-  equivalent to convex risk minimization for the market maker
-  ([Agrawal, Delage, Peters, Wang & Ye 2011](https://doi.org/10.1287/opre.1110.0922),
-  T1, abstract depth); a volume-parameterized framework prices on liabilities
-  **and** total traded volume and recovers cost-function, profit-charging and
-  buy-only markets as special cases
-  ([Abernethy, Frongillo, Li & Vaughan 2014](https://doi.org/10.1145/2600057.2602900),
-  T1, abstract depth); a multivariate-utility mechanism unifies several schemes and
-  yields convergence results whose limiting wealth distribution lies on the Pareto
-  frontier of participants' utilities
-  ([Gao, Wang, Wu & Yu 2025](https://doi.org/10.1287/opre.2022.0417), T1, abstract
-  depth); and convergence within **binary** market scoring rules is characterized
-  in [Tarnaud 2018](https://doi.org/10.1007/s00199-018-1155-3) (T1, metadata
-  depth).
-- Combinatorial and structured contracts: a tractable combinatorial maker sits
-  between independent securities and full combinatorial pricing using convex
-  optimization with constraint generation
-  ([Dudik, Lahaie & Pennock 2012](https://doi.org/10.1145/2229012.2229047), T1,
-  abstract depth); interval securities over a continuous variable are priced in
-  **logarithmic** time in the number of intervals, replicating LMSR exponentially
-  faster ([Dudík, Wang, Pennock et al. 2021](https://doi.org/10.65109/bbzi6501),
-  T1, abstract depth); and the parlay problem — the full combinatorial family of
-  joint contracts on M binary events with maker loss bounded at order M-squared —
-  is solved in [Moshrefi, Rana & Viswanath 2026](https://arxiv.org/abs/2607.18299)
-  (T5 preprint, abstract depth) and, via a shared pairwise exponential-family
-  belief state so that all base and parlay prices are marginals of one coherent
-  distribution, in
-  [Rana, Nadkarni, Moshrefi & Viswanath 2026](https://doi.org/10.48550/arxiv.2603.22596) (T5
-  preprint, abstract depth). *The second of these is the corpus's only explicit
-  link between a market-maker design and the S1 coherence condition: the design
-  enforces coherence by construction rather than leaving it to arbitrageurs.*
-- The DeFi bridge, stated as an equivalence rather than an analogy: **every
-  constant-function market maker with a concave potential on n assets is
-  equivalent to a cost-function prediction market on n outcomes**, and the
-  construction converts one into the other in both directions
-  ([Frongillo, Papireddygari & Waggoner 2023](https://doi.org/10.48550/arxiv.2302.00196),
-  T5 preprint, abstract depth). *This is why the corpus excludes token-pair
-  constant-function-market-maker records under X5 while still admitting their
-  apparatus: the transfer is licensed by a stated equivalence theorem, not by
-  resemblance.* The loss-versus-rebalancing apparatus is carried across the same
-  bridge to define **uniform** automated market makers whose instantaneous loss is
-  proportional to pool value and independent of the current price, for the class of
-  win-martingales ([Moallemi, Robinson & Zhu 2026](https://arxiv.org/abs/2607.17428),
-  T5 preprint, abstract depth).
-- Liquidity as a decision rather than a constant: liquidity is fixed ex ante in
-  existing mechanisms, which enforces a static trade-off between price
-  responsiveness and worst-case loss; treating liquidity selection as an online
-  learning problem mixes a family of cost-function markets with learnable weights
-  and is stated to preserve **no-arbitrage**, bounded worst-case loss,
-  expressiveness and positive upside
-  ([Nueve, Nguyen, Frongillo & Waggoner 2026](https://doi.org/10.48550/arxiv.2605.09599), T5
-  preprint, abstract depth); liquidity provisioning by third parties in
-  cost-function markets is generalized in
-  [Bhaskara, Frongillo, Lindgren & Papireddygari 2023](https://arxiv.org/abs/2311.08725) (T5
-  preprint, abstract depth); the smooth quadratic market incentivizes collective
-  steepest gradient descent with a better worst-case monetary loss for
-  Arrow-Debreu securities
-  ([Nueve & Waggoner 2025](https://doi.org/10.48550/arxiv.2505.02959), T5
-  preprint, abstract depth); and the LMSR liquidity parameter `b` is studied as a
-  design decision in its own right
-  ([Lekwijit & Sutivong 2018](https://doi.org/10.1108/jm2-06-2017-0066), T1,
-  abstract depth). **Convention note:** these records treat the liquidity
-  parameter as a quantity to be chosen by a stated criterion, which is the posture
-  CLAUDE.md requires of any tunable value; this corpus adopts none of their
-  numerical settings.
-- **The one record in the corpus that solves the market-making control problem
-  natively for the binary settlement structure**: because prediction-market
-  settlement is binary, optimal market making "leads to an optimization problem
-  that is fundamentally different from the ones studied in classical settings";
-  the record models the market price as a conditional probability generated by a
-  transformed latent belief diffusion and has the maker choose bid and ask quotes
-  to maximize expected terminal wealth
-  ([Feil & Nendel 2026](https://arxiv.org/abs/2607.17991), T5 preprint, abstract
-  depth). *This is the corpus's direct answer to review-question item (d): the
-  difference from the classical inventory problem is asserted by the authors and
-  is the premise of their formulation.* A companion attempt at a unifying kernel
-  proposes a logit jump-diffusion with risk-neutral drift treating the traded
-  probability as a Q-martingale, exposing belief volatility, jump intensity and
-  dependence as quotable risk factors
-  ([Dalen 2025](https://doi.org/10.48550/arxiv.2510.15205), T5 preprint, abstract
-  depth).
-- Mechanism comparisons on event markets: a simulation comparison of four applied
-  automated market makers reports that logarithmic scoring rules and the dynamic
-  parimutuel mechanism perform best on the record's criteria
-  ([Slamka, Skiera & Spann 2013](https://doi.org/10.1109/tem.2012.2191618), T1,
-  abstract depth); a live-trading experimental design compares two microstructures
-  with the same trading population
-  ([Brahma, Das & Magdon-Ismail 2010](https://doi.org/10.48550/arxiv.1009.1446),
-  T5 preprint, abstract depth); LMSR is integrated into a continuous double auction
-  with a self-contained algorithm requiring no special-purpose specification
-  ([Chakraborty, Das & Peabody 2015](https://doi.org/10.1609/aaai.v29i1.9313), T1,
-  abstract depth); and the dynamic parimutuel market is introduced as a hybrid
-  offering infinite buy-in liquidity and zero institutional risk while still
-  reacting continuously to information
-  ([Pennock 2004](https://doi.org/10.1145/988772.988799), T1, abstract depth).
-  *The mechanism comparison is the transfer question in its operational form: a
-  result proved for a dealer-style scoring-rule maker does not automatically hold
-  in a continuous double auction.* **Corrected under findings QUANT-1-5 and
-  LITERATURE-1-4:** the previous wording ended "...which is the microstructure the
-  CFTC record associates with a designated contract market". It does not. The
-  retrieved CFTC pages carry a designation status, a designation date and an
-  intermediation-permission change, and nothing about matching, quoting or order
-  handling; S7-5 records contract specifications as Not established. **This corpus
-  does not know which microstructure Kalshi runs**, so the mechanism-comparison
-  transfer is marked `not-transferable-as-stated` and counted in gap G-3.
-- The parimutuel-as-microstructure statement: parimutuel trading is a call auction
-  with non-continuous trading, riskless funding of payouts from the amounts
-  wagered, and equilibrium conditions requiring relative claim prices to equal
-  relative aggregate amounts wagered
-  ([Lange & Economides 2005](https://doi.org/10.1111/j.1354-7798.2005.00274.x), T1,
-  abstract depth), with mechanism and performance analysis in
-  [Peters, So & Ye 2007](https://doi.org/10.1007/978-3-540-77105-0_11) (T1,
-  metadata depth). *These state the E6 boundary explicitly and are the corpus's
-  basis for refusing to carry parimutuel results into order-book settings without
-  an argument.*
-- The quadratic market scoring rule provides **uniform liquidity across the
-  probability spectrum**, unlike the logarithmic rule
-  ([Abramovicz 2007](https://doi.org/10.5750/jpm.v1i2.423), **T1** — corrected
-  from T5 under finding LITERATURE-1-3; Crossref records a `journal-article` in
-  *The Journal of Prediction Markets* — abstract depth).
-  *Directly relevant to a venue listing contracts at extreme prices, and the corpus
-  notes it alongside the Kalshi zero-price-contract finding in 8.3.1 without
-  asserting a link neither record makes.*
+**The lineage's origin, and its uniqueness result.** Market scoring rules combine
+the individual-elicitation property of scoring rules with the group-consensus
+property of betting markets. **[FT]** The traded objects are stated by the author as
+assets of the form *"Pays $1 if A and B hold"*, traded against *"Pays $1 if B holds
+and A does not"*, over a complete set of I disjoint events summing to probability
+one — the bounded payoff is the premise, not an assumption to be relaxed. The
+locality property that motivates modular combinatorial use is proved for the
+logarithmic version and **only** for it: Theorem 1 states that logarithmic-rule bets
+on A given B preserve p(B) and the conditional probabilities p(C|AB), p(C|ĀB) and
+p(C|B̄), hence the conditional-independence relations; Theorem 2 states the converse
+— *"For I ≥ 3, if yᵢ = 0 for i ∉ {j,k} implies qᵢ = 0 for i ∉ {j,k}, the rule is
+logarithmic."* **The uniqueness holds for at least three events, and the author says
+so.** The author also states the cost condition against his own mechanism: the
+financial cost of the full combinatorial report is bounded by the base-only cost
+when b is held constant, but *"it remains difficult to bound the computational cost
+of updating prices and assets"*, which *"can be large, being worse than polynomial
+in the worst case"*
+([Hanson 2007](https://doi.org/10.5750/jpm.v1i1.417), T1, **[FT]** —
+**manifestation caveat:** the retrieved file is the author's **January 2002 working
+paper**, not the 2007 published article; title and author match and the file carries
+the two theorems the published abstract describes, but wording differences between
+the two manifestations are unverified, and every quotation above is attributed to
+the 2002 manifestation).
+The combinatorial design paper states three conditions the mechanism must satisfy in
+practice, and the third is a **collateral** condition: how to represent variables to
+support conditional and unconditional estimates; how to avoid becoming a money pump
+through errors in calculating probabilities; and how to ensure users can cover their
+bets *"without needlessly preventing them from using previous bets as collateral for
+future bets"*
+([Hanson 2003](https://doi.org/10.1023/A:1022058209073), T1, **[FT]**). *That third
+condition is the only statement in the S4-native literature this corpus read at full
+text that reaches strand S5, and it was invisible at metadata depth, where this
+record previously sat.*
 
-#### 8.4.3 Generalized, part two — the inventory-risk lineage, transfer status recorded per record
+**The utility characterization, with its necessary-and-sufficient condition quoted.**
+Utility-based market makers that always accept orders at their risk-neutral prices
+have bounded loss under a condition the record derives as **necessary and
+sufficient**: *"For a real-valued, continuous and strictly increasing utility
+function u(m), any fixed subjective probability estimate whose elements are
+nonzeros, and a utility-based market maker who sets prices according to (4), the
+necessary and sufficient condition for the market maker to have bounded loss for any
+feasible expected utility level k is that at least one of the following conditions is
+satisfied: (1) The domain of u(m) is bounded below; (2) The range of u(m) is bounded
+above but not bounded below."* The authors draw the consequence themselves —
+*"neither linear functions nor strictly convex functions defined on (−∞,+∞)
+guarantee bounded loss."* HARA-utility makers are equivalent to weighted
+pseudospherical scoring-rule makers, and Hanson's LMSR maker corresponds to a
+negative-exponential utility maker. The maker is explicitly **myopic**: the authors
+state that it *"does not maximize his expected utility. Instead, the market maker
+starts the market with some initial expected utility and then keeps this expected
+utility level during the whole process of trading."* *(Quotation corrected
+2026-09-04, finding **LITERATURE-2-1** quotation audit: the artifact printed "the
+whole process of the market"; the source reads "the whole process of trading". No
+verdict changes.)* The liquidity / worst-case
+loss trade-off is stated *"under some regularity conditions"* and its content is an
+impossibility of **uniform** dominance — some makers are more liquid near uniform
+prices, some near extreme prices, and none uniformly
+([Chen & Pennock 2007](https://arxiv.org/abs/1206.5252), **T1**, UAI 2007
+proceedings pp. 49-56, retrieved as arXiv:1206.5252, **[FT]**). *Transfer status:
+`addressed` — mutually exclusive and exhaustive outcomes with $1-if-outcome payoffs
+are the premise.* **The 2026-09-02 T1 correction under finding LITERATURE-2-4 is
+confirmed at full text: the retrieved file's running head is "CHEN & PENNOCK 49",
+the proceedings pagination the correction asserted.**
+
+**The convex-analytic characterization, and the venue exclusion its authors state.**
+Any market satisfying a stated set of conditions **must** price securities via a
+convex cost function constructed by conjugate duality, reducing automated market
+making to convex optimization over a convex hull rather than over the outcome space.
+**[FT]** The standing payoff assumption is quoted: *"We assume that the payoff of
+each security … can be described by an arbitrary but efficiently-computable function
+ρ: O → R^K_{≥0} … It will be assumed, throughout the paper, that ρ(O) is closed and
+bounded."* The complete security space — the Kalshi-shaped case — is the stated
+special case in which ρᵢ(o) = 1 if o is the ith outcome and 0 otherwise. The five
+conditions are named: **path independence**, **existence of instantaneous prices**,
+**information incorporation**, **no arbitrage**, **expressiveness**.
+**And the authors state a venue exclusion, in their own words, immediately under the
+first condition:** *"there are interesting markets that do not satisfy this
+condition, such as the continuous double auction and the market maker for continuous
+double auctions considered by Brahma et al. [2010] and Das and Magdon-Ismail [2008].
+These markets do not fall into our framework and deserve separate treatment."*
+([Abernethy, Chen & Vaughan 2013](https://doi.org/10.1145/2465769.2465777), T1,
+**[FT]** — **manifestation caveat:** the retrieved file is the accepted manuscript,
+printing the placeholder DOI `10.1145/0000000.0000000` and a different volume and
+article number; identity rests on title, author triple and journal, and no page
+locator is cited against the published pagination).
+*This is the strongest single result of the re-execution for gap **G-3**. The
+2026-09-02 record carried the mechanism-transfer problem as a general caution of the
+corpus's own. It is not the corpus's caution: it is an **author-stated boundary** on
+the framework's own applicability, and it is stated in terms of the venue mechanism
+rather than the payoff.* The framework's precursor is
+[Abernethy, Chen & Wortman Vaughan 2011](https://doi.org/10.1145/1993574.1993621)
+(T1, **[FT]**, same axioms, same bounded-payoff premise; the venue exclusion above is
+quoted from the 2013 article and is **not** attributed to the 2011 one). Its axioms
+are extended to adaptive liquidity by
+[Li & Vaughan 2013](https://doi.org/10.1145/2482540.2482575) (T1, **[FT]**), whose
+stated motivating limitation of the inherited framework is that *"the liquidity of
+any market in their class … is fixed a priori and does not change as the volume of
+trade increases"*, whose boundedness of the conjugate R is an explicit hypothesis
+for a subset of its results only, and which states the design consequence that *"the
+curvature of the price space can be used to manage a trade-off between information
+loss and profit"*. They are extended to measurable spaces and continuous random
+variables by [Chen, Ruberry & Wortman Vaughan 2013](https://doi.org/10.1145/2482540.2482608)
+(T1, **[FT]**), whose standing assumption is that payoffs are **bounded measurable
+functions** and whose headline construction is *"the first automated market maker for
+betting on the realization of a continuous random variable taking values in [0,1]
+that has bounded loss without resorting to discretization"*. **[corpus-inference]**
+*That record's [0,1] is the range of the outcome variable, not a binary settlement at
+an endpoint; the two are different structures and this corpus does not conflate
+them.* The connection to risk measures and exponential families is made by
+[Abernethy, Frongillo & Kutty 2015](https://doi.org/10.1145/2728732.2728734)
+(T1, **[abs]** — full text attempted 2026-09-03, `oa_status: closed`, no location to
+fetch).
+
+**The learning-theoretic equivalence, with its condition.** Any cost-function-based
+prediction market can be read as an algorithm for learning from expert advice, and a
+bound on the market organizer's loss yields a regret bound for the corresponding
+learning algorithm. **[FT]** The condition is that the maker have **bounded loss** —
+the conversion is stated for *"any cost function based prediction market with
+bounded loss"*, and the O(√T) regret result additionally requires **slowly changing
+prices**, with the authors stating that the quality of the bound depends on that
+trade-off ([Chen & Vaughan 2010](https://doi.org/10.1145/1807342.1807372), T1,
+**[FT]**). *Applicability condition: the market's outcome set is the learning
+problem's expert set — a structural correspondence, not a market assumption.*
+
+**The impossibility results that bound the design space.** LMSR pricing over
+combinatorial outcome spaces is `#P`-hard even under severely restricted betting
+languages, and even where matching without a market maker is polynomial; the traded
+objects are compound securities, of each of which the authors write that it *"pays $1
+if one of the outcomes in the set S occurs and $0 otherwise"* *(quotation corrected
+2026-09-04, finding **LITERATURE-2-1** quotation audit: the artifact printed "pay $1
+if one of the outcomes in S occurs", dropping "the set" and altering "pays"; no
+verdict changes)*, and the hardness results are stated for **specific** restricted
+betting languages — subset betting and pair betting over permutations — not for
+arbitrary combinatorial markets
+([Chen, Fortnow, Lambert, Pennock & Wortman 2008](https://doi.org/10.1145/1386790.1386822),
+T1, **[FT]**). Continuous-outcome market makers cannot satisfy a set of desirable
+axioms simultaneously; the impossibility is proved for makers offering **exclusively
+binary-payoff contracts over a continuous outcome space**, after Theorem 1
+establishes the necessary and sufficient conditions for a cost functional to be valid
+([Gao & Chen 2010](https://doi.org/10.1007/978-3-642-17572-5_44), T1, **[FT]**).
+**[corpus-inference]** *A venue listing finitely many mutually exclusive contracts is
+not in the scope of that impossibility, and this corpus does not carry it to one.*
+*These remain the corpus's clearest statements of what a binary-contract market maker
+cannot be asked to do — and they are now statements about a stated scope rather than
+about an abstract's summary of one.*
+
+**The four-desiderata result, and the coherence consequence the abstract did not
+carry.** Bounded loss, ability to profit, vanishing bid/ask spread and unlimited
+market depth were previously attainable only three at a time; the record constructs
+makers satisfying **all four** by extending constant-utility cost functions with two
+added functions on the quoted prices
+([Othman & Sandholm 2012](https://doi.org/10.1145/2229012.2229074), T1, **[FT]**).
+The practical liquidity-sensitive maker states its own applicability condition
+verbatim: *"The market makers we describe here are appropriate for use with any
+assets that trade off a binary payoff structure, in which the future can be
+partitioned into a finite number of states exactly one of which will be realized."*
+**[FT]** Three further statements from that record were not visible at abstract
+depth and each of them matters:
+1. **Theorem 2.9:** *"No pricing rule is translation invariant, path independent, and
+   liquidity sensitive."* The authors draw the consequence themselves: *"In the LMSR,
+   prices of disjoint assets always sum to exactly $1. In our market maker, prices can
+   sum to greater than $1. However, we prove that dropping the sums-to-unity property
+   is a theoretical requirement for any liquidity-sensitive and path-independent
+   market maker."* **This is a direct S1 result reached from an S4 record**: on a
+   venue priced by a liquidity-sensitive path-independent maker, prices of a
+   mutually-exclusive-and-exhaustive set summing to more than one is a **property of
+   the mechanism**, not evidence of a mispricing. **[corpus-inference]** for the word
+   "not evidence" — the theorem is the authors'; the reading of what it implies for a
+   measured coherence violation is this corpus's, and it is stated conditionally
+   because **this corpus does not know what mechanism the venue of interest runs**
+   (S7-5 Not established, AG-1).
+2. **A setting restriction, in the authors' words:** *"our market maker operates in an
+   online setting where traders either accept or reject bets but do not have the
+   option of setting persistent limit orders … that may be filled in the future."*
+3. **A negative applicability condition, in the authors' words:** *"Increasing market
+   depth with increased trade may not be appropriate in every setting … increasing
+   market depth with transaction volume in these settings will result in 'sticky'
+   prices that are unable to reach their correct values."* They recommend their maker
+   only *"for settings in which new information does not emerge, where information is
+   revealed gently, or where there is substantial capital 'on the sidelines'"*.
+([Othman, Pennock, Reeves & Sandholm 2013](https://doi.org/10.1145/2509413.2509414),
+T1, **[FT]**; the risk-measure formulation is
+[Othman & Sandholm 2011](https://doi.org/10.1007/978-3-642-25510-6_27), T1,
+**[FT]** — **this record stood at metadata depth on 2026-09-02 and its principal
+result can now be stated**: homogeneous risk measures are *"the support functions of
+compact convex sets in the non-negative orthant"*, and it is the **curvature** of that
+conjugate set that implicitly regularises the maker's price response.)
+
+**Unification and generalization.** A convex-optimization framework expresses LMSR,
+cost-function makers, utility-based markets and the sequential convex parimutuel
+mechanism as one model differing only in the choice of a concave value function,
+equivalent to convex risk minimization for the market maker
+([Agrawal, Delage, Peters, Wang & Ye 2011](https://doi.org/10.1287/opre.1110.0922),
+T1, **[abs]** — closed, no open-access location). A volume-parameterized framework
+prices on liabilities **and** total traded volume and recovers cost-function,
+profit-charging and buy-only markets as special cases; **[FT]** its authors also
+prove an impossibility the abstract states only in part — the perspective market
+satisfies worst-case loss, no arbitrage, increasing liquidity and shrinking spread
+but fails information incorporation, and *"any market maker that prices securities
+based only on the trade history cannot satisfy all five properties simultaneously"*
+([Abernethy, Frongillo, Li & Vaughan 2014](https://doi.org/10.1145/2600057.2602900),
+T1, **[FT]**). A multivariate-utility mechanism unifies several schemes and yields
+convergence results whose limiting wealth distribution lies on the Pareto frontier of
+participants' utilities
+([Gao, Wang, Wu & Yu 2025](https://doi.org/10.1287/opre.2022.0417), T1, **[abs]**);
+convergence within **binary** market scoring rules is characterized in
+[Tarnaud 2018](https://doi.org/10.1007/s00199-018-1155-3) (T1, **[meta]**).
+
+**Combinatorial and structured contracts.** A tractable combinatorial maker sits
+between independent securities and full combinatorial pricing using convex
+optimization with constraint generation
+([Dudik, Lahaie & Pennock 2012](https://doi.org/10.1145/2229012.2229047), T1,
+**[abs]** — **and a retrieval note that belongs in the record**: a guessed URL for
+this paper returned **HTTP 200 with `content-type: application/pdf`** and was a
+**different paper entirely**; the identity check caught it and the file was discarded
+unread). Interval securities over a continuous variable are priced in **logarithmic**
+time in the number of intervals, replicating LMSR exponentially faster; **[FT]** the
+traded objects *"pay $1 if the outcome falls into an interval and $0 otherwise"*, the
+cost function is assumed to satisfy no arbitrage and bounded loss, and the authors
+state the LMSR limitation motivating the work — its *"worst-case loss can grow
+unbounded if traders select intervals with prior probability approaching zero"*
+([Dudík, Wang, Pennock et al. 2021](https://doi.org/10.65109/bbzi6501), T1, **[FT]**,
+retrieved as arXiv:2102.07308 — manifestation caveat recorded). Arbitrage-free
+combinatorial market making is reduced to integer programming, with prices constrained
+to the **marginal polytope**, which is the paper's operational definition of
+arbitrage-freeness; the authors state the hardness they work around — arbitrage-free
+pricing under a subsidy bound is `#P`-hard in the worst case — and state their premise
+**as a hypothesis**: *"We hypothesize that while the pricing may be difficult in the
+worst case, a typical case is amenable to modern integer programming solvers."*
+*(Quotation corrected 2026-09-04, finding **LITERATURE-2-1** quotation audit: the
+artifact printed "modern integer programming (IP) solvers", importing the "(IP)"
+gloss from a different sentence in the abstract into the introduction's sentence. No
+verdict changes.)*
+([Kroer, Dudík, Lahaie & Balakrishnan 2016](https://doi.org/10.1145/2940716.2940767),
+T1, **[FT]**). *This record is now cited in S4 as well as S1: it is the corpus's
+clearest full-text link between a maker design and the coherence condition, because
+the design enforces coherence by construction rather than leaving it to arbitrageurs.*
+The parlay problem — the full combinatorial family of joint contracts on M binary
+events — is solved with maker loss bounded at order M² in
+[Moshrefi, Rana & Viswanath 2026](https://arxiv.org/abs/2607.18299) (T5 preprint,
+**[FT]**), **under an information assumption the authors state and the abstract does
+not**: *"We assume the flow is fully informative. The aggregate of all traders'
+partial information reconstructs the latent truth"*, so each book closes at its true
+value — **the loss bound is conditional on that assumption and the corpus states it
+only with the condition attached**. A companion design prices base and parlay
+contracts as posted marginals of one shared pairwise exponential-family belief state,
+so all prices are marginals of a single coherent distribution
+([Rana, Nadkarni, Moshrefi & Viswanath 2026](https://doi.org/10.48550/arxiv.2603.22596),
+T5 preprint, **[FT]**); its authors state the failure mode it exists to fix in
+coherence terms — pricing parlays as products of base prices *"hard-codes independence
+and therefore fails whenever outcomes are correlated. The failure is structural."* —
+and state that in their full-market emulation the base markets are **externally
+operated LMSRs**, so the design composes with an external maker rather than replacing
+it. *These two, with Kroer et al., are the corpus's explicit links between
+market-maker design and the S1 coherence condition.*
+
+**The DeFi bridge, stated as an equivalence rather than an analogy.** Every
+constant-function market maker with a **concave** potential on n assets is equivalent
+to a cost-function prediction market on n outcomes, and the construction converts one
+into the other in both directions; **[FT]** the axioms are named — NoDominatedTrades,
+PathIndependence, Liquidation, StrongPathIndependence, BoundedReserves, WorstCaseLoss
+— and the authors record a limit on the construction, that it is not clear a single
+concave potential covers a maker with multiple initial feasible reserves
+([Frongillo, Papireddygari & Waggoner 2023](https://doi.org/10.48550/arxiv.2302.00196),
+T5 preprint, **[FT]**). *This is why the corpus excludes token-pair
+constant-function-market-maker records under X5 while still admitting their apparatus:
+the transfer is licensed by a stated equivalence theorem, for concave potentials, and
+not by resemblance. Amendment A16 excluded a further **12** records on that same X5
+ground.* The loss-versus-rebalancing apparatus is carried across the same bridge to
+define **uniform** automated market makers whose instantaneous loss is proportional to
+pool value and independent of the current price
+([Moallemi, Robinson & Zhu 2026](https://arxiv.org/abs/2607.17428), T5 preprint,
+**[FT]**). **That record states the strand's structural premise more plainly than any
+other in the corpus:** *"Outcome contracts in prediction markets stand out from other
+assets as their prices are bounded between zero and one, and at resolution they
+collapse to one of the two endpoints."* Its Assumption 3 makes the endpoints
+**absorbing**, and it derives that the conditional variance of the terminal outcome is
+the Bernoulli variance of the current price, Var[P_T | F_t] = P_t(1 − P_t). It also
+states a negative result about a specific design: under Gaussian score dynamics *"the
+CPMM exposes LPs to unbounded relative instantaneous LVR near prices close to zero or
+one"*.
+
+**Liquidity as a decision rather than a constant.** Liquidity is fixed ex ante in
+existing mechanisms, which enforces a static trade-off between price responsiveness
+and worst-case loss; treating liquidity selection as an online learning problem mixes
+a family of cost-function markets with learnable weights and preserves no-arbitrage,
+bounded worst-case loss, expressiveness and positive upside — **[FT]** under
+Assumption 1, that all constituent cost functions satisfy the framework's axioms with
+respect to a **common** outcome space and a **common bounded payoff map**, and
+Assumption 2, a full-support condition on the weight sequence that the authors state
+*"holds, for example, under multiplicative-weights updates"*
+([Nueve, Nguyen, Frongillo & Waggoner 2026](https://doi.org/10.48550/arxiv.2605.09599),
+T5 preprint, **[FT]**). Liquidity provisioning by third parties in cost-function
+markets is generalized in
+[Bhaskara, Frongillo, Lindgren & Papireddygari 2023](https://arxiv.org/abs/2311.08725)
+(T5 preprint, **[FT]**), whose potentials are required to be **1-homogeneous** on the
+non-negative orthant and which states an incompatibility the abstract does not: with
+three or more securities liquidity is inherently matrix-valued, and *"natural axioms
+on the design of these fees are incompatible"*. The smooth quadratic market
+incentivizes collective steepest gradient descent with a better worst-case monetary
+loss for Arrow-Debreu securities, **[FT]** under the condition that the cost function
+be **CIIP** — convex, increasing, 1-invariant and a probability mapping — a property
+the authors devote a subsection to constructing, and additionally L-smooth for the
+later results
+([Nueve & Waggoner 2025](https://doi.org/10.48550/arxiv.2505.02959), T5 preprint,
+**[FT]**). The LMSR liquidity parameter `b` is studied as a design decision in its own
+right ([Lekwijit & Sutivong 2018](https://doi.org/10.1108/jm2-06-2017-0066), T1,
+**[abs]**). **Convention note, unchanged:** these records treat the liquidity
+parameter as a quantity to be chosen by a stated criterion, which is the posture
+CLAUDE.md requires of any tunable value; **this corpus adopts none of their numerical
+settings and states none of its own.**
+
+**The record that solves the market-making control problem natively for the binary
+settlement structure.** Because prediction-market settlement is binary, optimal market
+making *"leads to an optimization problem that is fundamentally different from the
+ones studied in classical settings"*. **[FT]** The full text lets the corpus say what
+the difference *is*, which the abstract did not: the settlement is *"modeled as a
+random variable Y taking values in {0,1}"*; the price p_t is a martingale with values
+in **(0,1)**, generated by a C² transformation f: ℝ → (0,1) of a latent belief
+diffusion, with the logistic function offered as a choice satisfying every stated
+assumption; quotes are **constrained to lie in [0,1]**; trades occur in fixed sizes;
+and the objective *"maximize[s] expected terminal wealth subject to a running
+inventory penalty and a **terminal settlement risk penalty**"* — **that last term is
+the structural departure**, and the classical mark-to-market problem has no analogue
+of it. The authors additionally assume market efficiency in order to identify p_t with
+the market price, and they state a scope claim: *"To the best of our knowledge,
+optimal market making in prediction markets has not yet been studied within a
+stochastic control framework."*
+([Feil & Nendel 2026](https://arxiv.org/abs/2607.17991), T5 preprint, **[FT]**).
+*This is the corpus's direct answer to review-question item (d), and it is now an
+answer with content rather than an assertion the corpus repeated.* The authors' own
+reported numerical result is **the diminishing importance of inventory risk as prices
+approach zero or one** — stated here as their reported result on their model, and it
+is neither a claim about any venue nor a rule. **[corpus-inference]** *Their
+characterisation of Avellaneda & Stoikov — that those authors model the mid-price as a
+Brownian motion with constant volatility — independently corroborates this corpus's
+own full-text reading of that record, and the two readings were made separately.*
+A companion attempt at a unifying kernel proposes a logit jump-diffusion with
+risk-neutral drift treating the traded probability as a Q-martingale, exposing belief
+volatility, jump intensity and dependence as quotable risk factors; **[FT]** its
+stated first step is to *"work in logit x to remove [0,1] boundaries"*, and its author
+records his own limitations — single-event dynamics, a parsimonious symmetric
+light-tailed jump law, and microstructure conditioning that is *"venue-agnostic but
+stylized"*, with production systems needing *"venue-specific frictions (batch
+auctions, halts, cross-venue consolidation)"*
+([Dalen 2025](https://doi.org/10.48550/arxiv.2510.15205), T5 preprint, **[FT]**).
+**Register warning, added 2026-09-03.** That record is written as a *"market-maker's
+handbook"* and proposes live A/B tests measuring spread, fill quality and hedging P&L.
+**This corpus carries no quoting rule, no hedging rule and no trading rule from it**
+(ADR-0003, ADR-0004), and the venue named throughout it is Polymarket, not the venue
+of interest.
+
+**Mechanism comparisons on event markets — and the one record that carries a
+scoring-rule maker into an order book.** A simulation comparison of four applied
+automated market makers reports that logarithmic scoring rules and the dynamic
+parimutuel mechanism perform best on the record's criteria
+([Slamka, Skiera & Spann 2013](https://doi.org/10.1109/tem.2012.2191618), T1,
+**[abs]**). A live-trading experimental design compares two microstructures with the
+same trading population; **[FT]** the authors state the caveat their abstract carries
+only in passing and the corpus previously did not carry at all — the Bayesian maker
+*"does not provide a similar guarantee on maximum loss"*, unlike LMSR — and they state
+the general property they draw: *"there is an inherent tradeoff between adaptability
+to market shocks and convergence during market equilibrium"*
+([Brahma, Das & Magdon-Ismail 2010](https://doi.org/10.48550/arxiv.1009.1446), T5
+preprint, **[FT]**). **[corpus-inference]** *Abernethy, Chen & Vaughan cite this very
+record as an example of a market that does **not** satisfy their path-independence
+condition — the corpus's only full-text instance of one included record placing
+another outside its own framework's scope.*
+**LMSR is integrated into a continuous double auction** with a self-contained
+algorithm requiring no special-purpose specification: **[FT]** the authors state the
+transfer problem in their own words — the LMSR *"is typically studied in the framework
+of dealer markets, where the market maker takes one side of every transaction"* — and
+their contribution is to have the maker *"compute limit bid and ask prices and
+participate in the order books as any other trader"*, on an asset traded *"at prices
+in the interval [0,1]"* with a liquidation value at a settlement date, in a setting
+where *"the market institution does not impose any budget constraint"*
+([Chakraborty, Das & Peabody 2015](https://doi.org/10.1609/aaai.v29i1.9313), T1,
+**[FT]**). *This is the single most useful record in the strand for gap **G-3**, and
+its limits must travel with it: it is a **simulation**, with **no budget constraint**,
+on a venue that is not the venue of interest. It shows that the S4-native maker
+literature and an order-driven venue are not simply incompatible. It does not show
+that any particular result transfers to any particular venue.*
+The dynamic parimutuel market is introduced as a hybrid offering infinite buy-in
+liquidity and zero institutional risk while still reacting continuously to information
+([Pennock 2004](https://doi.org/10.1145/988772.988799), T1, **[abs]**).
+**Corrected under findings QUANT-1-5 and LITERATURE-1-4, and the correction stands:**
+the pre-2026-09-02 wording ended "…which is the microstructure the CFTC record
+associates with a designated contract market". It does not. The retrieved CFTC pages
+carry a designation status, a designation date and an intermediation-permission
+change, and nothing about matching, quoting or order handling; S7-5 records contract
+specifications as Not established. **This corpus does not know which microstructure
+Kalshi runs**, so the mechanism-comparison transfer is marked
+`not-transferable-as-stated` and counted in gap G-3. **What changed on 2026-09-03 is
+the character of that gap, not its existence**: it is no longer only this corpus's
+caution, because two included records now state venue-mechanism boundaries in their
+own words (Abernethy/Chen/Vaughan's continuous-double-auction exclusion, and Othman
+et al.'s no-persistent-limit-orders restriction).
+
+**The parimutuel-as-microstructure statement.** Parimutuel trading is a call auction
+with non-continuous trading, riskless funding of payouts from the amounts wagered, and
+equilibrium conditions requiring relative claim prices to equal relative aggregate
+amounts wagered ([Lange & Economides 2005](https://doi.org/10.1111/j.1354-7798.2005.00274.x),
+T1, **[abs]** — full text attempted 2026-09-03: the SSRN green location returned HTTP
+403 and the publisher DOI route returned **HTTP 200 with `text/html`** that was a
+Wiley cookie wall, not the article; identity check failed and the response was
+discarded), with mechanism and performance analysis in
+[Peters, So & Ye 2007](https://doi.org/10.1007/978-3-540-77105-0_11) (T1, **[meta]**).
+*These state the E6 boundary explicitly and are the corpus's basis for refusing to
+carry parimutuel results into order-book settings without an argument.*
+
+**The quadratic market scoring rule** provides **uniform liquidity across the
+probability spectrum**, unlike the logarithmic rule
+([Abramovicz 2007](https://doi.org/10.5750/jpm.v1i2.423), **T1** — corrected from T5
+under finding LITERATURE-1-3; Crossref records a `journal-article` in *The Journal of
+Prediction Markets* — **[abs]**). *Directly relevant to a venue listing contracts at
+extreme prices, and the corpus notes it alongside the Kalshi zero-price-contract
+finding in 8.3.1 without asserting a link neither record makes.* **[corpus-inference]**
+*Chen & Pennock's full text supplies the general form of the same trade-off — no maker
+is uniformly more liquid in all price regimes — but it does so under "some regularity
+conditions" and as an impossibility of uniform dominance, and this corpus does not
+convert either statement into a design preference.*
+
+#### 8.4.3 Generalized, part two — the inventory-risk lineage, transfer status per record, read where it could be read
 
 - **Ho & Stoll 1981** — optimal dealer pricing under transactions and return
   uncertainty ([doi:10.1016/0304-405X(81)90020-9](https://doi.org/10.1016/0304-405X(81)90020-9),
-  T1, **metadata depth: no abstract was returned by any source**). Transfer status:
-  **not addressed** — nothing in the retrieved metadata states a payoff support,
-  and the corpus therefore records that the transfer clause has nothing to work
-  with at the depth reached. It is retained as a named-lineage anchor, not as
-  evidence about binary contracts.
-- **Glosten & Milgrom 1985** — bid, ask and transaction prices in a specialist
-  market with heterogeneously informed traders
+  T1, **[meta]**). Transfer status: **not addressed at the depth reached.**
+  **Full text was attempted on 2026-09-03 through six routes and not obtained**:
+  Unpaywall `closed`; Semantic Scholar `CLOSED`; OpenAlex, three locations with every
+  `pdf_url` null; ScienceDirect PDF, HTTP 403; a course-page mirror that returned
+  **HTTP 200 with `text/html`** and was an *"Account Suspended"* page — an identity
+  check failure, recorded rather than counted as a retrieval; and two guessed Wharton
+  working-paper URLs, HTTP 404. **No abstract exists in any source either**: the RePEc
+  record states *"No abstract is available for this item."* What could not be
+  extracted, named: the objective function, the state variables, the payoff support
+  assumed by the model, every applicability condition, the frictions treated and the
+  executability statement. **Every description of this model elsewhere in this corpus
+  — Avellaneda & Stoikov's and Feil & Nendel's alike — is a statement by those authors
+  about Ho & Stoll, and not a reading of Ho & Stoll by this corpus.** It is retained as
+  a named-lineage anchor, not as evidence about binary contracts.
+- **Glosten & Milgrom 1985** — bid, ask and transaction prices in a specialist market
+  with heterogeneously informed traders
   ([doi:10.1016/0304-405X(85)90044-3](https://doi.org/10.1016/0304-405X(85)90044-3),
-  T1, **metadata depth**). Transfer status: **not addressed** at the depth reached.
-  **The transfer sentence that stood here is withdrawn (finding
-  LITERATURE-1-5).** It read that the corpus "records that its apparatus *has*
-  been transferred to a binary event venue by others — the Kalshi adverse-selection
-  record adapts the Glosten-Harris decomposition (8.4.1)". That is an attribution
-  bridge built on a shared surname. **Glosten & Harris (1988), *Estimating the
-  components of the bid/ask spread*, JFE 21(1), `10.1016/0304-405X(88)90034-7`, is
-  a different paper by a different author pair from Glosten & Milgrom (1985)**: an
-  empirical spread-decomposition regression, not a sequential-trade
-  adverse-selection model. What Bartlett & O'Hara adapt at 8.4.1 is the
-  Glosten-Harris decomposition. **Glosten & Harris 1988 is not in this
-  149-record corpus**, so this corpus records no transfer of the Glosten &
-  Milgrom apparatus to a binary event venue at all. The parallel move made for
-  Kyle two entries below is sound, because Kyle's lambda does come from Kyle 1985;
-  this one was not, and it is removed rather than softened.
+  T1, **[FT]**). Transfer status: **`addressed`, upgraded from `not addressed`.**
+  The record states a payoff-support condition, on p. 76: *"At some time T₀ in the
+  future, some random dollar value V [V ≥ 0, var(V) < ∞] per share will be realized,
+  and the informed have information about this random variable V."* No distributional
+  form is imposed. **[corpus-inference]** *A payoff bounded in [0,1] settling at an
+  endpoint satisfies V ≥ 0 with finite variance and is realised at a terminal date.
+  That satisfaction is this corpus's inference from the authors' stated condition; the
+  authors nowhere discuss binary, bounded or event contracts.* Their own worked example
+  in section 3, p. 91, is a two-point-valued security: *"Suppose that the stock can
+  have either of two values, V = 1 or V = 11, and that the higher value has prior
+  probability π."* The applicability conditions the authors state are about the
+  **mechanism**, not the payoff: a pure dealership market in which *"the specialist
+  performs no brokerage services, and in effect all orders are market orders"*; unit
+  trades only, which the authors state is what *"allows us to analyze a model that
+  places no restrictions on the form of the traders' information"*; limit orders ruled
+  out, with the authors noting that including them *"may well alter the characteristics
+  of transaction prices"*; zero expected profit per trade and no transaction costs;
+  and inventory-carrying capacity large enough that inventory constraints do not bind,
+  which the authors state is necessary because binding constraints are inconsistent
+  with the zero-profit condition. E15: **generalizable-with-stated-assumption**, and
+  the carrying assumption is the mechanism, not the payoff — *whether the venue of
+  interest is a dealership market in which a competitive supplier quotes at zero
+  expected profit is **Not established** (S7-5, AG-1).*
+  **The 2026-09-02 withdrawal under finding LITERATURE-1-5 stands and is unaffected by
+  the full text.** The withdrawn sentence claimed this record's apparatus *had* been
+  transferred to a binary event venue by others, on the ground that the Kalshi
+  adverse-selection record adapts the Glosten-Harris decomposition. **Glosten & Harris
+  (1988), JFE 21(1), `10.1016/0304-405X(88)90034-7`, is a different paper by a
+  different author pair**, an empirical spread-decomposition regression rather than a
+  sequential-trade adverse-selection model, and it is not in this corpus. The bridge
+  was built on a shared surname and it is removed, not softened.
 - **Kyle 1985** — continuous auctions and insider trading
-  ([doi:10.2307/1913210](https://doi.org/10.2307/1913210), T1, **metadata
-  depth**). Transfer status: **not addressed** at the depth reached. The corpus
-  does record that Kyle's own apparatus has been carried to the venue by others —
-  Bartlett & O'Hara adapt **Kyle's lambda** to Kalshi at 8.4.1, and lambda is
-  Kyle's construct — so unlike the Glosten & Milgrom entry above, this attribution
-  bridge holds. The transfer is still performed by that record's authors, not by
-  this corpus, and this corpus did not read Kyle's own statement of applicability.
-- **Avellaneda & Stoikov 2008** — the dealer's role is to provide liquidity by
-  quoting bid and ask prices at which he will buy and sell a specific quantity
+  ([doi:10.2307/1913210](https://doi.org/10.2307/1913210), T1, **[FT]**, pp. 1315-1317
+  read as **rendered page images** because the retrieved JSTOR scan carries no text
+  layer; the rest of the article was not read). Transfer status: **`explicitly
+  excluded`, changed from `not addressed`.** The record states its payoff support on
+  p. 1317: *"The ex post liquidation value of the risky asset, denoted ṽ, is normally
+  distributed with mean p₀ and variance Σ₀."* And it states what the assumption buys,
+  on p. 1316: *"By assuming that the relevant random variables are normally
+  distributed, the model acquires a tractable linear structure. This makes it possible
+  to characterize explicitly a unique 'sequential auction equilibrium' in which prices
+  and quantities are simple linear functions of the observations…"* In the
+  continuous-auction limit, *"prices also follow Brownian motion"* and market depth is
+  constant. **[corpus-inference]** *A normal distribution has unbounded support, so a
+  value supported in [0,1] is not a realisation of the stated assumption. Kyle nowhere
+  discusses binary or event contracts and nowhere says his model does or does not apply
+  to them; the incompatibility is this corpus's inference from his stated assumption,
+  and the corpus attributes no such statement to him.* The corpus does record that
+  Kyle's own apparatus has been carried to the venue by others — Bartlett & O'Hara
+  adapt **Kyle's lambda** at 8.4.1, and lambda is Kyle's construct — so unlike the
+  Glosten & Milgrom entry, that attribution bridge holds. The transfer is still
+  performed by those authors, not by this corpus.
+- **Avellaneda & Stoikov 2008** — high-frequency trading in a limit order book
   ([doi:10.1080/14697680701381228](https://doi.org/10.1080/14697680701381228), T1,
-  abstract depth, abstract truncated by the publisher at the retrieved length).
-  Transfer status: **not addressed** — the retrieved text states a securities-market
-  setting and no bounded-payoff condition.
-- **Guéant, Lehalle & Fernandez-Tapia 2012** — the maker's return from the quoted
-  spread and the frequency of providing liquidity is challenged by the price risk
-  of the inventory; the market is modelled with a **reference price following a
-  Brownian motion** with standard deviation sigma, arrival rates of
-  liquidity-consuming orders depending on distance to the reference price, and the
-  maker maximizing expected utility of profit and loss over a finite horizon
+  **[FT]**). Transfer status: **`explicitly excluded`, changed from `not addressed`.**
+  **The 2026-09-02 entry read "not addressed — the retrieved text states a
+  securities-market setting and no bounded-payoff condition". That was an artefact of a
+  publisher-truncated abstract**: the full text states the payoff support in section
+  2.1. The mid-price evolves as dS_u = σ dW_u — driftless **arithmetic** Brownian
+  motion — and the authors' own footnote gives the reason for the choice: *"We choose
+  this model over the standard geometric Brownian motion to ensure that the utility
+  functionals introduced in the sequel remain bounded."* The objective is expected
+  **exponential (CARA)** utility of P&L at a terminal time T, chosen because it makes
+  reservation prices independent of wealth. The mid-price *"will be used solely to
+  value the agent's assets at the end of the investment period"* — **the terminal value
+  is a mark-to-market at S_T, not a settlement at a contractual endpoint.** Further
+  stated conditions: the agent has no opinion on drift or autocorrelation; a constant
+  frequency of market buy or sell orders; the money market pays no interest; limit
+  orders are for one share. **[corpus-inference]** *An unbounded driftless Brownian
+  mid-price with no absorbing endpoint cannot be a probability confined to [0,1] that
+  terminates at 0 or 1.*
+- **Guéant, Lehalle & Fernandez-Tapia 2012** — dealing with the inventory risk
   ([doi:10.1007/s11579-012-0087-0](https://doi.org/10.1007/s11579-012-0087-0), T1,
-  abstract depth). Transfer status: **explicitly excluded by the stated model** —
-  a Brownian reference price is unbounded and cannot be a [0,1] probability that
-  must terminate at an endpoint, so this model as stated does not apply to a
-  binary event contract. *This is the corpus's cleanest instance of the transfer
-  clause biting, and it is the reason the S4 native literature in 8.4.2 exists as
-  a separate lineage.*
+  **[FT]**, retrieved as arXiv:1105.3115v5 — **manifestation caveat:** the accepted
+  manuscript, not the publisher version, so no page locator is cited). Transfer status:
+  **`explicitly excluded`**, the determination the 2026-09-02 record already made at
+  abstract depth, **confirmed** at full text and extended. The stated model is a
+  reference price following a Brownian motion with standard deviation σ, arrival rates
+  of liquidity-consuming orders decreasing in the distance to that price, and a maker
+  maximising CARA utility of P&L over a finite horizon with terminal value cash plus
+  the **mark-to-market** evaluation q_T S_T of remaining inventory. Conditions the
+  abstract did not carry: the order-arrival intensities are **bounded from below** over
+  the admissible quote set, which is what supplies the martingale arguments; the
+  inventory is constrained to |q| ≤ Q, and that constraint is what reduces the HJB
+  system to a finite system of **linear ODEs**; and the closed-form approximations are
+  stated for the **asymptotic** regime, not for the general finite-horizon problem.
+  *This remains the corpus's cleanest instance of the transfer clause biting, and it is
+  the reason the S4 native literature in 8.4.2 exists as a separate lineage — but it is
+  no longer the only such instance, because Kyle and Avellaneda & Stoikov now bite the
+  same way.*
 - **The two frameworks are one framework.** A small set of axioms on the maker's
   dynamic preference functional — cash-additivity, normalization, concavity, strong
   dynamic consistency and law-invariance — forces the functional to be the entropic
   certainty-equivalent on liquidation-adjusted terminal wealth with a **single**
   positive parameter, so the Cartea-Jaimungal running-penalty coefficient and the
-  Avellaneda-Stoikov risk-aversion parameter are **not independent** and must not
-  be calibrated separately ([Feys 2026](https://arxiv.org/abs/2606.01477), T5
-  preprint, abstract depth). *This is a parameter-identification statement, and it
-  is the corpus's most directly usable warning for any future empirical stage: two
-  parameters routinely fitted independently are, under those axioms, one
-  parameter.*
-- Learning and equilibrium bridges within the lineage: a **learning** market maker
+  Avellaneda-Stoikov risk-aversion parameter are **not independent** and must not be
+  calibrated separately ([Feys 2026](https://arxiv.org/abs/2606.01477), T5 preprint,
+  **[FT]**). Transfer status: **`not addressed`, and the full text does not license
+  changing it in either direction.** The mid-price is a continuous semimartingale with
+  a driftless-Brownian benchmark, stopped at a level M for the technical conditions;
+  liquidation-adjusted terminal wealth is bounded, of which the author writes in
+  Remark 1 *"The boundedness is the regime in which the dynamic-risk-measure machinery
+  of Kupper and Schachermayer (2009) applies directly."*; the liquidation
+  cost L(q) is convex. *(Quotation corrected 2026-09-04, finding
+  **LITERATURE-2-1**; see the central-block note above. No verdict changes.)* Scope the author states against his own result: *"We do not
+  model adverse selection"*, and path-functional preferences such as maximum-drawdown
+  aversion are *"genuinely outside the scope"*. **[corpus-inference]** *A [0,1]-valued
+  martingale settling at an endpoint could in principle be a continuous semimartingale,
+  so this corpus **cannot** say this model excludes the binary case the way Kyle's
+  normality and Avellaneda & Stoikov's Brownian mid-price do — but the terminal object
+  is a liquidation-adjusted mark-to-market rather than a settlement, and the author says
+  nothing about the binary case. "Not addressed" is the honest verdict and this corpus
+  strengthens it in neither direction. The 2026-09-02 record did not overstate this
+  entry.* *The parameter-identification statement is a statement about those two models
+  and not about any venue, and it remains the corpus's most directly usable warning for
+  any future empirical stage: two parameters routinely fitted independently are, under
+  those axioms, one parameter.*
+- **Learning and equilibrium bridges within the lineage.** A **learning** market maker
   extends Glosten-Milgrom, tracking a changing true value with informed traders
-  receiving noisy signals ([Das 2005](https://doi.org/10.1080/14697680500148067),
-  T1, abstract depth); the Kyle and Glosten-Milgrom models are shown equivalent
-  ([Krishnan 1992](https://doi.org/10.1016/0165-1765(92)90014-p), T1, metadata
-  depth) and unified when the informed trader optimizes his times of trading
+  receiving noisy signals ([Das 2005](https://doi.org/10.1080/14697680500148067), T1,
+  **[abs]** — closed, and one guessed author-page URL returned HTTP 404). The Kyle and
+  Glosten-Milgrom models are shown equivalent
+  ([Krishnan 1992](https://doi.org/10.1016/0165-1765(92)90014-p), T1, **[meta]**) and
+  unified when the informed trader optimizes his times of trading
   ([Back & Baruch 2004](https://doi.org/10.1111/j.1468-0262.2004.00497.x), T1,
-  abstract depth); market making with asymmetric information **and** inventory
-  risk is treated jointly in [Liu & Wang 2016](https://doi.org/10.1016/j.jet.2016.01.005)
-  (T1, metadata depth); two risk-averse makers sharing clearing risk in a
-  Kyle-type batch model produce a linear aggregate pricing schedule that inventory
-  shifts vertically and the coalition parameter tilts
-  ([Tanaka 2005](https://doi.org/10.11179/ker.74.119), T1, abstract depth); and
-  market-making profitability is characterized without stochastic assumptions on
-  price evolution, exhibiting a trade-off between local price fluctuation and
+  **[abs]** — closed; one guessed author-page URL returned HTTP 404). Market making
+  with asymmetric information **and** inventory risk is treated jointly in
+  [Liu & Wang 2016](https://doi.org/10.1016/j.jet.2016.01.005) (T1, **[meta]**). Two
+  risk-averse makers sharing clearing risk in a Kyle-type batch model produce a linear
+  aggregate pricing schedule that inventory shifts vertically and the coalition
+  parameter tilts ([Tanaka 2005](https://doi.org/10.11179/ker.74.119), T1, **[abs]** —
+  the DOI is registered with neither Crossref nor DataCite, verification gap AG-10, so
+  there was no registration-agency record to resolve and no open-access location to
+  query). Market-making profitability is characterized **without stochastic assumptions
+  on price evolution**, exhibiting a trade-off between local price fluctuation and
   adverse drift ([Chakraborty & Kearns 2011](https://doi.org/10.1145/1993574.1993622),
-  T1, abstract depth). *All are transfer-clause records; none states a
-  bounded-payoff condition at the depth reached.*
-- The empirical inventory result that contradicts the models: futures transaction
-  data show traders control inventory throughout the day, yet the correlation
-  between inventory and reservation prices is **positive**, contradicting the
-  negative relation inventory-control models predict
-  ([Manaster & Mann 1996](https://doi.org/10.1093/rfs/9.3.953), T1, abstract
-  depth). *Recorded as a standing disagreement inside the lineage, on futures data;
-  it is not transferred to event contracts here.*
-- The betting-venue market-making models, which sit between the two lineages: a
+  T1, **[FT]**). *Transfer status for the last of these, at full text:* **`not
+  addressed`, and for a reason worth stating** — the price series is *exogenous and
+  unconstrained*, so the general profitability result is distribution-free and neither
+  includes nor excludes a [0,1] instrument; the stronger guarantees are stated for
+  **specific mean-reverting processes**, with the Ornstein-Uhlenbeck process as the
+  worked example, and are not claimed for arbitrary series. Its stated conditions are
+  discrete time to a hard horizon T, single-share orders, and an online algorithm
+  deciding at t on the series through t. **The 2026-09-02 blanket sentence — "All are
+  transfer-clause records; none states a bounded-payoff condition at the depth reached"
+  — is replaced.** For the five records still at abstract or metadata depth it is
+  restated as a statement about the depth reached and nothing more; for Chakraborty &
+  Kearns it is now a full-text finding that no payoff support is assumed at all.
+- **The empirical inventory result that contradicts the models.** Futures transaction
+  data show traders control inventory throughout the day, yet the correlation between
+  inventory and reservation prices is **positive**, contradicting the negative relation
+  inventory-control models predict
+  ([Manaster & Mann 1996](https://doi.org/10.1093/rfs/9.3.953), T1, **[abs]** —
+  closed). *Recorded as a standing disagreement inside the lineage, on futures data; it
+  is not transferred to event contracts here.* **[corpus-inference]** *The models it
+  contradicts are the lineage whose payoff assumptions three of the four anchors state
+  a binary contract cannot satisfy; the corpus does not treat the contradiction as
+  informative about binary contracts, and says so.*
+- **The betting-venue market-making models, which sit between the two lineages.** A
   bookmaker faces sophisticated bettors and can be manipulated through information
   asymmetry, and the record derives how to set spread lines as prices
-  ([Birge, Feng, Keskin & Schultz 2021](https://doi.org/10.1287/opre.2021.2109),
-  T1, abstract depth); optimal price setting under information uncertainty gives an
+  ([Birge, Feng, Keskin & Schultz 2021](https://doi.org/10.1287/opre.2021.2109), T1,
+  **[abs]**); optimal price setting under information uncertainty gives an
   information-based derivation of the favourite-longshot bias
   ([Makropoulou & Markellos 2011](https://doi.org/10.1111/j.1467-9485.2011.00557.x),
-  T1, abstract depth); and a bookmaker facing stochastic betting demands sets odds
-  to influence flow and mitigate unbalanced liability
+  T1, **[abs]**); and a bookmaker facing stochastic betting demands sets odds to
+  influence flow and mitigate unbalanced liability
   ([Hodges, Lin & Liu 2013](https://doi.org/10.1111/j.1468-036x.2010.00601.x), T1,
-  abstract depth). *Transfer status: `addressed` for the payoff support — these are
-  state-contingent claims with endpoint settlement — but the mechanism is a
-  bookmaker book, so **E6 blocks the transfer to any order-driven venue; whether the
-  venue of interest is one is not established** (S7-5 `Not established`, AG-1), and
-  the determination therefore reads `not-transferable-as-stated` rather than
-  `blocked`.* **Conditioned 2026-09-02 under finding REV-2-8**, which found this a
-  residual venue-mechanism presupposition surviving the REV-1-2 fix: the clause
-  previously read "so E6 blocks the transfer to an order-driven exchange", asserting
-  the venue's mechanism at the site where the conclusion turns on it. It is the
-  sixth mark in the G-3 table.
-- Liquidity provision measured on event venues: an automated maker engaging in
+  **[abs]**). *Transfer status: `addressed` for the payoff support — these are
+  state-contingent claims with endpoint settlement — but the mechanism is a bookmaker
+  book, so **E6 blocks the transfer to any order-driven venue; whether the venue of
+  interest is one is not established** (S7-5 `Not established`, AG-1), and the
+  determination therefore reads `not-transferable-as-stated` rather than `blocked`.*
+  **Conditioned 2026-09-02 under finding REV-2-8**, which found this a residual
+  venue-mechanism presupposition surviving the REV-1-2 fix: the clause previously read
+  "so E6 blocks the transfer to an order-driven exchange", asserting the venue's
+  mechanism at the site where the conclusion turns on it. It is the sixth mark in the
+  G-3 table. **All three are still at abstract depth**, so the `addressed` transfer
+  status for them rests on an abstract and is marked accordingly.
+- **Liquidity provision measured on event venues.** An automated maker engaging in
   zero-profit **cross-arbitrage** in multi-contract markets is proposed as a way to
-  supply artificial liquidity in a continuous double auction, with an empirical
-  analysis of observed spreads, offer acceptance and order sizes on an election
-  market ([Antweiler 2013](https://doi.org/10.5750/jpm.v7i3.824), T1, abstract
-  depth); and traders are observed taking the market-maker role in a sports
-  prediction market where arbitrage was studied
+  supply artificial liquidity in a continuous double auction, with an empirical analysis
+  of observed spreads, offer acceptance and order sizes on an election market
+  ([Antweiler 2013](https://doi.org/10.5750/jpm.v7i3.824), T1, **[abs]**); and traders
+  are observed taking the market-maker role in a sports prediction market where
+  arbitrage was studied
   ([Luckner & Weinhardt 2008](https://doi.org/10.1109/cecandeee.2008.131), T1,
-  abstract depth). *These are the corpus's only records that join the maker
-  question to the coherence question on an operating event venue.*
+  **[abs]**). *These are the corpus's only records that join the maker question to the
+  coherence question on an operating event venue, and both are still at abstract
+  depth.*
+
+#### 8.4.4 The 178 records amendment A16 admitted — what they do and do not contribute
+
+**They enlarge the corpus and they carry no claim line.** Each of the 178 was assessed
+at stage 2 against the frozen section 2 criteria by a screener **reading its own
+retrievable text**, and was included under I1 through the section 2.2 transfer clause,
+I2 through C3, with the criterion cited per record. That is a stronger warrant than any
+of the 8,466 classifier dispositions carries. It is **not** an extraction: none of them
+has an E10, a payoff support, an applicability condition or a transfer status, and
+**none of them supports any CLAIM LINE in section 8**. *(Narrowed 2026-09-04,
+finding **REPRODUCIBILITY-2-3**: the earlier wording, "none of them supports any
+sentence in section 8", is falsified on its face by two **corpus-shape counts**
+that do add the 178 as a point value — §8.4's "239 records in a 327-record corpus"
+and §8.8's "194 of 327". Neither is a claim about the literature; both are counts
+about this corpus, both are now marked as upper bounds at their own sites, and no
+claim line anywhere in §8 rests on any of the 178.)* Their per-record index, with
+identifier, criterion, depth read and rationale, is
+[ka-s4-completion-screen.jsonl](docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl);
+each also has a row in
+[ka-s4-fulltext-extraction.jsonl](docs/literature/search_logs/kalshi-arbitrage/ka-s4-fulltext-extraction.jsonl)
+labelled `screen-abstract`, which is an eligibility-screen depth and not an extraction
+depth.
+
+> **178 is an UPPER BOUND, and the artifact records no lower bound above zero.**
+> *(Added 2026-09-03, findings QUANT-1-1 and QUANT-1-2; protocol amendment **A18**
+> §(c)–(d). Nothing here re-screens anything: the 178 / 12 / 7 split is unchanged.)*
+> The transfer clause admits a non-in-scope C3 record **only if** the corpus can state
+> what the record's own text says about its payoff support **and** its applicability
+> conditions — a **conjunction**. Amendment A16 §(d) instead elected X6's bar, whose
+> negation is a **disjunction**: admitted unless the record states *neither*. That
+> converts "eligible only if A and B" into "eligible unless neither A nor B", and it has
+> two consequences A16 does not state. **First, X6's rate at this stage is zero by
+> construction** — all 12 exclusions inside the subset are X5, and X6, the one exclusion
+> code the frozen protocol wrote for exactly this literature, could not be returned once
+> the reading fixed that an abstract cannot establish a universal negative. **Second,
+> the epistemic asymmetry that motivates that reading cuts both ways:** an abstract
+> equally cannot establish the conjunctive *positive* the transfer clause requires, so
+> the rule file's own third verdict — "still undecided, inside the subset", used 7 times
+> in 197 — was the available honest disposition wherever the conjunction could not be
+> shown.
+>
+> **Separately, no field on any include row records the admitting statement.**
+> A16 §(d) fixes the include bar as "the abstract itself states the model's assumed
+> environment … or a condition under which its result holds", and rules that "a
+> statement only of the record's topic or method was not counted as either". Verified
+> mechanically over the verdict file on 2026-09-03: `criterion_cited` takes **two**
+> distinct values across the 178 — byte-identical boilerplate on **177** of them, and
+> one bespoke value for `U01611`, which is admitted under I1 directly — and **0 of 178**
+> rows quote any sentence from the record's own text. (Checked over *every* field of
+> every include row, not only `rationale`: exactly one row carries any quotation glyph
+> at all, `U04783`, and it is a typographic apostrophe inside the record's own title.)
+> The per-record `rationale` is
+> distinct for all 178 and is a real judgment, but it is the SR-1 **object-half**
+> rationale, which is the conjunct SR-1 uses; the second conjunct, which the rule file
+> expressly *reserved* as the test to be applied inside the subset, has no per-record
+> trace anywhere.
+>
+> **So the set the transfer clause admits lies in [0, 178] and this artifact narrows it
+> no further.** 178 is what the negation-of-X6 bar returns; the lower bound recoverable
+> from the recorded evidence is 0 — not because the records are silent, but because no
+> row records a quotation. **A reader must not read 178 as the count of records the
+> transfer clause admits.**
+>
+> **"No lower bound above zero" — checked literally, and stated precisely.**
+> *(Added 2026-09-04, finding **REPRODUCIBILITY-2-3**.)* Re-verified against
+> [ka-s4-completion-screen.jsonl](docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl)
+> on 2026-09-04: no field of any of the 178 include rows records a quotation from the
+> record's own text, so nothing in the artifact establishes the transfer clause's
+> **positive conjunct** for even one record, and the recorded lower bound on the
+> transfer-clause-admitted set is exactly **0**. The sentence is therefore literally
+> true **of that set**. Two precisions it needs, neither of which moves any count.
+> **(i) The published interval is conservative by one record, deliberately.** Of the
+> 178, exactly **177** cite the transfer clause; the 178th, `U01611`, is admitted
+> **under I1 directly** on its own text (Internet prediction markets, a fielded
+> prediction market and wagers) and does not rest on the transfer clause at all. The
+> transfer-clause-admitted set is therefore a subset of **177**, not of 178, and
+> A18's `[0, 178]` is one wider than the evidence requires. **A18's interval is kept
+> as published** — it is the governing amendment's bound, it errs in the direction
+> that assumes less, and narrowing it here would be a change of a published number
+> under the guise of a clarification. **(ii) "No lower bound above zero" is a
+> statement about what this artifact RECORDS, not about the records.** It does not
+> assert that fewer than 178 satisfy the clause; the per-record `rationale` is
+> distinct and substantive for all 178. It asserts that the evidence needed to *count*
+> them was not captured. The repair is the re-screen named below. The repair — a mandatory `admitting_statement` field quoting
+> the record's own sentence with its source named, and re-adjudication to `undecided`
+> wherever none can be quoted — is a re-screen of 178 records, and is declared as an open
+> defect in A18 rather than performed here.
+>
+> **One further defect of the same stage, recorded here because it bears on the
+> residual rather than on the 178.** *(Finding QUANT-1-3; A18 §(e).)* A16's four-arm
+> retrieval chain was triggered by the **absence** of the archived abstract field, not by
+> the **unusability** of its contents. Four X11 records whose abstract field held
+> something that is not an abstract — a publisher correction notice (`U01126`), two
+> bibliographic citation strings (`U02218`, `U03624`) and a single opening sentence
+> (`U03553`) — therefore had **no arm run for them at all**, and two of them were pushed
+> out of the subset on an SR-2a content ground reached from a title, which SR-2d forbids.
+> The chain was re-run for all four on 2026-09-03
+> ([ka-s4-retrieval-recheck-01.json](docs/literature/search_logs/kalshi-arbitrage/ka-s4-retrieval-recheck-01.json),
+> sha256 `6c4290c889f7b3d3719f7422bf9cf2ce4633727106146cc4cefe0a051a3b5df8`; **retrieval
+> only, no verdict changed**): Crossref returned a **full, usable abstract for `U01126`**,
+> which the stage's own chain would have reached under a usability trigger; the other
+> three returned nothing usable, but on two of six arms each returned HTTP 429, which this
+> corpus's binding rule forbids reading as absence. **No count is corrected and no record
+> is recoded here.**
+
+**What their admission changes about this section's negatives.** Every universal
+negative in 8.4 is now weaker, and 8.4.1's third bullet is restated above for exactly
+this reason. A model fitted to Kalshi, a stated applicability condition in terms of a
+bounded payoff, an executability statement — any of these could sit inside the 178, and
+this corpus does not know, because it read them for eligibility and not for content.
+
+**What their admission does not change.** The **503** out-of-subset X11 records and the
+**545** X10 records remain unassessed. The subset rule A16 fixed in advance selects C3
+model records and nothing else, so records bearing on S1 or S6 inside the X11 stratum
+were **deliberately not adjudicated** — A16 names `U01518` as one such. This section
+therefore still cannot say what the X11 stratum as a whole contains.
+
+#### The standing caveat: partly discharged, mostly retained
+
+The section 8 reading rule that "extraction depth is abstract or metadata, never full
+text" is **no longer true of this section**, and rule 2 of the section 8 preamble is
+amended above to say so. The caveat it expresses is discharged and retained in
+specific, countable parts:
+
+**Discharged, for 33 records.** For every claim marked **[FT]** above, the corpus now
+states what the authors state, from their text, with the applicability conditions they
+attach. **Three transfer determinations changed and one was confirmed** on the strength
+of sentences the authors wrote — Glosten & Milgrom `not addressed` → `addressed`, Kyle
+and Avellaneda & Stoikov `not addressed` → `explicitly excluded`, and Guéant et al.'s
+`explicitly excluded` **confirmed** at full text and extended. All three *changes* ran
+*against* the corpus's prior reading, which is the direction that matters. *(Corrected
+2026-09-03, finding REV-1-3: this paragraph said "Four transfer determinations changed
+… three of the four changed against the corpus's prior reading", which contradicts
+itself — a confirmation is not a change. The same false count sat in protocol amendment
+A17 §(e) and in the research agenda's rev-2 list; A17 is append-only and is corrected by
+amendment **A18**, which strikes the sentence by quotation.)* The section 8.4.2 block, in
+particular, is no longer a reading list: the payoff assumptions, the axioms, the
+necessary-and-sufficient conditions and the two author-stated venue exclusions are quoted
+rather than summarised.
+
+**Retained, and here is the reason it survives.** Four things keep this section short
+of a synthesis:
+
+1. **The venue block is unread.** All three Kalshi-specific records are behind an SSRN
+   bot block. The strand's only venue-specific evidence is the part that could not be
+   read, and no amount of full text on venue-none models repairs that.
+2. **26 of the 59 records this section cites are still at abstract or metadata
+   depth**, and each is marked. A synthesis that mixes 33 read records with 26 unread
+   ones is a synthesis of unequal objects.
+3. **178 included records carry no extraction at all**, so the strand's *extent* and
+   the strand's *claims* are now measured on different populations.
+4. **No pooling is possible and none is attempted.** The records differ in venue,
+   mechanism, outcome space and objective; there is no common estimand. Section 8.4
+   states what each record states and where two records disagree; it computes nothing
+   across them, and the frozen protocol's section 7 synthesis plan does not ask it to.
+
+**So: read section 8.4.2 and the full-text entries of 8.4.3 as a synthesis of stated
+model conditions, and read everything else in this strand as a reading list with
+transfer flags.** The boundary between the two is the depth marker on each line, and
+that is why the markers are there.
 
 ### 8.5 Strand S5 — transaction costs, fees, collateral, capital lockup, executability
 
@@ -2538,9 +3411,12 @@ is **not determinable at abstract depth**.
   abstract-depth included records states a measurement of the capital-lockup cost
   of holding an event-contract position to settlement, and none states a collateral
   or margin rule for such a position.** **Qualified under finding REV-1-10**: the
-  33 metadata-depth records, the 545 X10 records, the 700 X11 records and the 5,249
-  A3-rule records were **not assessed for it**, so this is a statement about 116
-  abstracts, not about the corpus and certainly not about the literature. The
+  33 metadata-depth records, the 545 X10 records, the **503** residual X11 records
+  and the 5,249 A3-rule records were **not assessed for it**, and the **178** records
+  amendment A16 admitted were assessed for eligibility and **never extracted**, so
+  this is a statement about 116 abstracts, not about the corpus and certainly not
+  about the literature. **The re-execution made this negative weaker, not
+  stronger.** The
   frozen protocol asked for this (O5, E12) and the queries written for it returned
   nothing eligible. Reported as gap G-2 in section 10; an absence of evidence, not
   a finding about the world.
@@ -2674,8 +3550,33 @@ Reported, not averaged away.
 
 ### 8.8 Included records that carry no claim line in section 8
 
-**Finding LITERATURE-1-9.** A mechanical check of every included DOI against the
-text of section 8 found **19** of the 149 included records with no claim line
+**Restated 2026-09-03: the count is now 16 + 178 = 194 of 327.** Amendment A16
+admitted **178** records that carry **no claim line anywhere in section 8**, and
+they are not listed individually in the table below because their index is a
+committed machine-readable file rather than a hand-composed table —
+[ka-s4-completion-screen.jsonl](docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl),
+one row per record with identifier, criterion, depth read and rationale. Section
+8.4.4 states what they do and do not contribute. **The honest headline for this
+subsection is therefore: 194 of 327 included records support no claim in the
+synthesis on the include count as recorded — 59% — against 11% (16 of 149) before
+the re-execution.** That ratio is a property of a corpus whose eligible set was
+completed after its synthesis was written, and it is stated rather than buried.
+
+> **That ratio is not a point estimate, and the bound it inherits is stated here.**
+> *(Added 2026-09-04, findings **REV-2-1** and **REPRODUCIBILITY-2-3**; A18
+> §§(c)–(d); §8.4.4.)* Both its numerator and its denominator add the **178** as a
+> point value, and 178 is an **upper bound** on what the section 2.2 transfer clause
+> admits, with no lower bound above zero recorded. Under that bound the numerator is
+> **[16, 194]** and the denominator **[149, 327]**, so the ratio ranges from
+> **11% (16 of 149)** to **59% (194 of 327)**. The 59% figure is the value on the
+> include count **as recorded**; it is reported because it is the conservative end
+> for a reader asking how much of the corpus is unused, and it must not be quoted as
+> a measured proportion. **A reader must not read 178 as the count of records the
+> transfer clause admits.**
+
+**Finding LITERATURE-1-9, unchanged for the original 149.** A mechanical check of
+every included DOI against the text of section 8 found **19** of the 149 included
+records with no claim line
 anywhere in the synthesis, while the section-7 `role in the argument` column
 affirmatively stated that each enters a named section-8 block. Three are added
 above at their stated extraction depth (Subramanian, Diercks et al., Štrumbelj).
@@ -2809,8 +3710,9 @@ Stated as gaps — absences of evidence — never as findings about the world.
   exactly this and returned nothing eligible. **Qualified under finding REV-1-10**,
   because the previous wording ("no record in the corpus") was a universal negative
   over 149 records of which 33 were never read past title, venue and year: **the 33
-  metadata-depth records, the 545 X10 records, the 700 X11 records and the 5,249
-  records verdicted by the amendment-A3 token rule were not assessed for it.** The
+  metadata-depth records, the 545 X10 records, the 503 residual X11 records and the
+  5,249 records verdicted by the amendment-A3 token rule were not assessed for it,
+  and the 178 records amendment A16 admitted were never extracted.** The
   standing "absence of evidence, not evidence of absence" caveat disclaims a
   statement about the world; it did not disclaim the statement about the corpus,
   which is the one that was at risk. This one now does both.
@@ -2836,6 +3738,20 @@ Stated as gaps — absences of evidence — never as findings about the world.
   | 5 | **added** — continuous-double-auction microstructure attribution | 8.4.2 | Kalshi's trading mechanism, E6 (S7-5) |
   | 6 | **added round 2 (REV-2-8)** — bookmaker market-making transfer, E6 block | 8.4.3 | Kalshi's trading mechanism, E6 (S7-5). The entry asserted unconditionally that E6 blocks the transfer *"to an order-driven exchange"*. The destination of every transfer in this corpus is the venue of interest, whose mechanism this record now says it cannot establish; and the determination **flips** on that unknown — on the quote-driven characterisation the Burgi record gives at 8.4.1, E6 would license rather than block it. The clause is now conditional |
 
+  **Added 2026-09-03, and it changes the gap's character without closing it.** Two
+  included records now state venue-mechanism boundaries **in their own words**, read
+  at full text, so the mechanism problem is no longer only this corpus's caution:
+  Abernethy, Chen & Vaughan state that *"the continuous double auction and the market
+  maker for continuous double auctions … do not fall into our framework and deserve
+  separate treatment"*; Othman, Pennock, Reeves & Sandholm state that their maker
+  *"operates in an online setting where traders either accept or reject bets but do
+  not have the option of setting persistent limit orders"*. Against those, Chakraborty,
+  Das & Peabody carry an LMSR maker **into** a continuous double auction and show it
+  can post limit orders like any other trader — in a **simulation**, with **no budget
+  constraint**, on a venue that is not the venue of interest. **The six marks stand
+  unchanged**: none of this establishes what mechanism Kalshi runs, which is the
+  unretrieved fact every mark needs.
+
   Marks 3 and 4 matter beyond their own lines. Mark 3 carried the property this
   record called "the property that makes the whole binary-contract literature
   transferable at all". Mark 4 carried what this record called "the single largest
@@ -2843,23 +3759,58 @@ Stated as gaps — absences of evidence — never as findings about the world.
   finding". **Both of those load-bearing statements now rest on an unretrieved
   document (TC-1), not on the CFTC record.**
 - **G-4. No abstract this corpus read states a market-making model fitted to
-  Kalshi.** **Qualified under finding REV-1-10**: this is a statement about the 116
-  abstract-depth included records. The 33 metadata-depth records, the 545 X10, the
-  700 X11 and the 5,249 A3-rule records were not assessed for it. S4's Kalshi block
-  is entirely measurement and its model block is entirely venue-none or
-  other-venue.
+  Kalshi.** **Qualified under finding REV-1-10 and WEAKENED 2026-09-03**: this is a
+  statement about the 116 abstract-depth included records of the original 149. The
+  33 metadata-depth records, the 545 X10, the 503 residual X11 and the 5,249 A3-rule
+  records were not assessed for it — and the **178 records amendment A16 admitted
+  were assessed for eligibility and never extracted**, so a model fitted to Kalshi
+  could sit inside them and this corpus would not know. **The gap is larger after
+  the re-execution, not smaller.** S4's Kalshi block is entirely measurement and its
+  model block is entirely venue-none or other-venue.
   The one record that formulates the control problem natively for binary
-  settlement ([Feil & Nendel 2026](https://arxiv.org/abs/2607.17991)) is not
-  calibrated to any named venue in its abstract.
-- **G-5. The inventory-risk lineage's applicability to [0,1] payoffs is asserted
-  by transfer, not by the lineage.** Of the five named-lineage anchors, four are at
-  metadata depth with transfer status `not addressed`, and the one whose model is
-  stated in the retrieved text assumes a **Brownian reference price**, which is
-  `explicitly excluded` for a bounded probability
-  ([Guéant, Lehalle & Fernandez-Tapia 2012](https://doi.org/10.1007/s11579-012-0087-0)).
-  The corpus cannot say whether the originals address bounded payoffs, because it
-  did not read them. Nor can it say it for the lineage at large: **700 X11 records
-  are transfer-clause records of exactly this class and none was assessed.**
+  settlement ([Feil & Nendel 2026](https://arxiv.org/abs/2607.17991)) **was read at
+  full text on 2026-09-03 and names no venue anywhere in it**; the corpus can now
+  say that from the text rather than from the abstract.
+- **G-5. RESTATED 2026-09-03 — the anchors were read, and the gap narrowed at the
+  anchors and widened everywhere else.** The 2026-09-02 wording was: *"Of the five
+  named-lineage anchors, four are at metadata depth with transfer status `not
+  addressed` … The corpus cannot say whether the originals address bounded payoffs,
+  because it did not read them."* **Four of those five were read at full text under
+  amendment A17**, and the corpus can now say what each assumes:
+  Kyle assumes a **normally distributed** liquidation value; Avellaneda & Stoikov a
+  **driftless arithmetic Brownian** mid-price valued by mark-to-market; Guéant,
+  Lehalle & Fernandez-Tapia a **Brownian reference price**, likewise mark-to-market
+  — all three `explicitly excluded` for a payoff confined to [0,1] and terminating
+  at an endpoint. Glosten & Milgrom assume **V ≥ 0 with finite variance realised at
+  a terminal date**, with no distributional form, which such a payoff **satisfies**,
+  and their own worked example is a two-valued security — `addressed`.
+  **[corpus-inference] on every one of those four labels, and the marker belongs
+  here as much as at the per-record entries.** *(Added 2026-09-04, finding
+  **LITERATURE-2-3**; protocol amendment **A19** §(b).)* The **assumptions** are the
+  authors': a normally distributed liquidation value, a driftless arithmetic
+  Brownian mid-price, a Brownian reference price, V ≥ 0 with finite variance
+  realised at T₀. The words **"excluded"** and **"satisfies"** are **this corpus's
+  compatibility judgement** made from those assumptions. **None of the four records
+  mentions binary, bounded or event contracts anywhere the corpus read**, and none
+  states that its model does or does not apply to such a payoff. The frozen
+  protocol's E10 defines transfer status as a property of **the record itself**;
+  A19 §(b) records the **operative reading** actually in force from A17 onward —
+  compatibility between the payoff class and the record's own stated assumptions —
+  and states the cost of that choice. **No transfer status is re-decided by this
+  marker.** **The fifth,
+  Ho & Stoll 1981, was attempted through six routes and not obtained, and has no
+  abstract in any source**; it stays `not addressed at the depth reached`, and what
+  could not be extracted from it is named in 8.4.3.
+  **What the gap now is.** It is no longer "the corpus did not read the anchors".
+  It is three things: (i) **no** inventory-lineage record read at full text states an
+  applicability condition *in terms of* a binary payoff, so the transfer is still
+  argued by this corpus and by other authors and never by the lineage itself;
+  (ii) **503** X11 records are transfer-clause records of exactly this class and were
+  **never assessed at all**, so nothing can be said about the lineage at large;
+  (iii) the **178** records amendment A16 admitted from this class were assessed for
+  eligibility and **never extracted**, so their payoff supports and applicability
+  conditions are unknown to this corpus. On (ii) and (iii) the gap is unchanged or
+  larger.
 - **G-6. Author concentration and tier thinness in the Kalshi block, corrected to
   their true size (findings REV-1-7, LITERATURE-1-10).** **Seventeen of the
   nineteen** Kalshi-specific records are T5 preprints or working papers — not
@@ -2922,7 +3873,7 @@ and on what data; none is a trading rule and none is executed in this repository
 <!-- bibliography-store -->
 - Store: `docs/literature/references_kalshi-arbitrage.json` (CSL-JSON, canonical serialization)
 - SHA-256: `fb0cf87ed53dcb0b37076fc5e441c0125ad94644603deb9a9604d5ce5f5c8164` — equals frontmatter `bibliography_sha256`
-- Entries: 149, equal to `n_included`; every entry carries a DOI (FAIR F1)
+- Entries: **149 — NOT equal to `n_included`, which is now 327 (verification gap AG-11, added 2026-09-03).** Every entry carries a DOI (FAIR F1). The store was **not** extended to the 178 records amendment A16 admitted, so the frozen protocol section 4.3 identity `len(bibliography store) == n_included` **fails by 178** and the store's SHA-256 is unchanged. The 178 carry persistent identifiers individually, recorded in [ka-s4-completion-screen.jsonl](docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl); what does not hold is the store's coverage of the corpus. **A tool that reads this store as the corpus will see 149 records and be wrong by 178.** Extending the store is a separate act on a separate artifact, with its own registration-agency sweep and its own digest, and this revision did not perform it
 - Identifier resolution: all 149 DOIs were resolved against the **DOI Handle System** (`https://doi.org/api/handles/{doi}`) on 2026-09-02 and every one returned `responseCode` 1. The per-identifier record is [ka-store-doicheck.json](docs/literature/search_logs/kalshi-arbitrage/ka-store-doicheck.json). **Caveat, stated so it is not mistaken for a resolution failure:** an unauthenticated HTTP HEAD to `https://doi.org/{doi}` returns 403 for 83 of the 149 identifiers. That is publisher bot-blocking at the landing page, not a failure of the handle to resolve; the Handle System is the authoritative resolution test and it passed 149/149.
 - Derived exports (regenerable; never a source of truth): `python ~/.claude/scripts/build_bibliography.py export docs/literature/references_kalshi-arbitrage.json --format bibtex|ris`
 
@@ -3019,7 +3970,56 @@ not suppress it.
 
 ### 13.1 Amendments this record ran under
 
-**Fifteen.** Five ran during execution; seven were added by round-1 audit
+**Nineteen amendments after the 2026-09-04 round-5 remediation; seventeen were in
+force at the close of the 2026-09-03 re-execution and A18 and A19 are the two
+audit-correcting entries that followed.** **A16** completed the stage-2
+screen amendment A5 left unperformed for the S4 subset of the X11 stratum, under a
+subset rule fixed and hashed **before** any record was assessed: 197 assessed by
+reading, 178 include, 12 exclude X5, 7 still undecided, 503 residual. **A17**
+performed the full-text extraction amendment A9 recorded as never performed, for
+the S4 core set: 59 records attempted, 33 obtained and read, 26 attempted and not
+obtained, and the 178 A16 admitted carried at screen-abstract depth with no
+extraction. Both are appended to the frozen protocol's addendum. **The frozen
+prefix is unchanged** — the first 82,677 bytes still hash to
+`99524df02696a59ab878173ce7f3636d9cd07067b5a801a677cdf5d126fa13f4`, re-verified
+against the bytes on disk after both appends. **The protocol-with-addendum SHA-256
+is now `7f49fdaf8cab08b2d6484ff7258c906f492fbf9cb5262b934e2c83717fe3ac18`
+(206,123 bytes, after amendment A19)**, superseding
+`dcfae5643ff86e49bbcf33a68e730fcb9d7f46b41f30cbd62bafdd297c3fc4dc` (183,534 bytes,
+after A18), `e93e01516f840a2f9adc2f319f128c4d13403281005fea42037b46790c1b3982`
+(160,105 bytes, after A17), `97a4b61d5b8db0d1c639a06b8fd6d4e35f2b2e821c7a263f2d80b6bd22d4a07a`
+(148,467 bytes, after A16) and, before that, the values recorded below.
+**This section is the carrier of record for that value and A19 §(e) says so in
+terms** (finding **FORMAT-2-1**): A18 promised to publish its own post-append digest
+"at the end of this entry" and did not, and the promise was unsatisfiable as written,
+because **a whole-file digest cannot be written inside the file it digests**. A19
+strikes the clause by quotation, publishes the post-A18 value `dcfae564…` one
+amendment later — the earliest point at which it can be stated — and declines to
+state its own, naming this section, the front-matter `protocol_amendments` field, the
+research agenda's front matter and the round-2 ReproLog's `dataset_checksums` as the
+four places the post-A19 value is published instead. **Every whole-file digest written
+inside the protocol is necessarily the digest of a previous state.** **A19** is the
+2026-09-04 round-5 correcting entry: it publishes the quotation audit that re-checked
+**231** quoted spans against **33** re-retrieved sources and corrects the **seven**
+that were altered; records the **operative reading of E10**'s transfer status as
+compatibility-with-stated-assumptions rather than record-addresses-the-question, and
+qualifies A18 §(b) accordingly; carries the **[corpus-inference]** marker for the
+Kyle half of A18 §(g); publishes the digest A18 promised; and records the provenance
+of both remediation passes. **It changes no verdict, no transfer status and no
+count.** The frozen prefix was re-verified against the bytes on disk after that
+append too. **A18** is
+the 2026-09-03 round-4 correcting entry: it strikes A17 §(e)'s false "four transfer
+statuses moved", declares the subset rule's pre-fixing self-attested, states that
+178 is an upper bound on what the transfer clause admits, records that the A16
+retrieval chain's trigger was abstract-field presence rather than usability, and
+records that the read-based verdicts are single-pass LLM outputs. **It changes no
+verdict and no count.** The frozen prefix was re-verified against the bytes on disk
+after that append too. A digest
+`949f89e6ff7b96256a70bf0f1eaa6a3b026126e4e166dcd76a8fc0b7cc0081f5` circulated
+mid-session for an intermediate state of A16 and is stale; it is named here so that
+a reader holding it can tell what they have.
+
+**Fifteen before that.** Five ran during execution; seven were added by round-1 audit
 remediation on 2026-09-02; **three more (A13, A14, A15) were added by round-2 audit
 remediation on the same day**, and all three correct what earlier amendments
 *asserted*, not what the pipeline *did*: no verdict value, no count and no
@@ -3088,8 +4088,17 @@ design does not have. Corpus-wide, 4,779 of 8,813 works have an abstract.
 
 Three statements, all unwelcome and all true.
 
-1. **No full text was read.** Extraction reached **abstract depth for 116 of the
-   149 included records and metadata depth (title, venue, year) for the remaining
+1. **Full text was read for 33 of 327 included records, and for none of the other
+   294 (amendments A9, A17).** *(327 = 149 + 178 and **178 is an upper bound**:
+   the transfer-clause-admitted set lies in **[0, 178]** and the corpus size at
+   **[149, 327]** — A18 §§(c)–(d), §8.4.4. Added 2026-09-04, finding **REV-2-1**.)* The 2026-09-02 wording was "No full text was read".
+   That is no longer true and A17 is its recorded partial relaxation: on 2026-09-03,
+   **59** S4 core-set records had full text attempted, **33** were obtained,
+   identity-checked and read, and **26** were attempted and not obtained. Section
+   8.4's claim lines carry an explicit depth marker each. **Nothing outside section
+   8.4 was re-read**, and the 178 records amendment A16 admitted carry **no
+   extraction at all**. For the original 149, extraction reached **abstract depth
+   for 116 and metadata depth (title, venue, year) for the remaining
    33**. Every claim in section 8 is a transcription of what a record's abstract
    or metadata states. Where an abstract does not settle a point, section 8 says
    so rather than inferring it, and records at metadata depth are named without
@@ -3108,9 +4117,10 @@ Three statements, all unwelcome and all true.
    inclusion is authorised by amendment **A8**, not by the protocol. A reader who
    declines A8 should read this corpus as **116 included records plus 33 X8
    exclusions**.
-2. **1,245 records that reached the end of screening were not resolved**
-   (1,188 before amendment A11 moved 57 records from X5 into X11). **545** carry
-   X10 and **700** carry X11. **Restated under finding QUANT-1-4**: the previous
+2. **1,055 records that reached the end of screening were not resolved**
+   (1,245 before amendment A16 decided 190 of them; 1,188 before amendment A11 moved
+   57 records from X5 into X11). **545** carry X10 and **510** carry X11 — 503 never
+   assessed at stage 2 and 7 assessed and unresolved. **Restated under finding QUANT-1-4**: the previous
    wording said the 545 "passed eligibility" and the 700 were "promoted under the
    transfer clause". Neither happened. Both sets were assigned by token rules over
    titles and abstracts; **no eligibility determination and no promotion decision
@@ -3121,9 +4131,10 @@ Three statements, all unwelcome and all true.
    arithmetic identities hold. A reader who wants the S4 inventory-risk lineage in
    full, or the single-venue favorite-longshot literature in full, will find them
    in the X11 and X10 rows of the verdicts file and **not** in this corpus.
-4. **98.3% of the flow's dispositions are keyword-classifier outputs** (finding
-   QUANT-1-1, amendment A10). 150 of 8,813 records carry a verdict from a screener
-   reading them. This is the limitation that conditions all three above, and it was
+4. **96.1% of the flow's dispositions are keyword-classifier outputs** (finding
+   QUANT-1-1, amendments A10, A16). 347 of 8,813 records carry a verdict from a
+   screener reading them, up from 150; the improvement is the 197 records A16
+   assessed and it does not change the character of the limitation. This is the limitation that conditions all three above, and it was
    not stated at all in the record as first published.
 3. **The extraction-selection rule was the protocol's own objective
    prioritization**, not a budget number: primary objectives O1, O4, O5 plus the
@@ -3138,7 +4149,9 @@ Three statements, all unwelcome and all true.
 | AG-2 | 17 CFR 40.11 text via eCFR | HTTP 200 access interstitial on the frozen query and on the `-b` (5) and `-c` (9) retries | Any statement about the regulation's content (S7-6) |
 | AG-3 | Semantic Scholar topical arm, `ka-s2-01` … `ka-s2-04` | HTTP 429 on all four frozen queries and on all four `-b` retries and all four `-c` retry-until-200 runs (12, 12, 9 and 9 attempts) | **One of the four named bibliographic databases contributed zero records to the corpus.** The Semantic Scholar `/paper/search` endpoint refused every unauthenticated request; only its `/citations` endpoint responded |
 | AG-4 | Semantic Scholar forward-citation arm for anchor A3 (`10.1086/655844`) | HTTP 404, 6 retry attempts, stored in `ka-fc-s2-a3-p001.json` with `"error": "Paper with id DOI:10.1086/655844 not found"` | The S3 anchor's citing set was retrieved on one tool (OpenAlex, 321/321) rather than two. **The section-2 provenance table recorded this row as HTTP 200 until this remediation and is corrected** (findings REV-1-11, LITERATURE-1-8); every other row in that table was re-checked against its own stored log and agrees |
-| AG-5 | Full texts, all 149 included records | Not attempted within this execution | See 13.2 |
+| AG-5 | Full texts | **RESTATED 2026-09-03.** Not attempted in the 2026-09-02 execution for any of the 149. Attempted on 2026-09-03 for the **59** S4 core-set records under amendment A17: **33 obtained and read, 26 attempted and not obtained** (21 at abstract depth, 5 at metadata depth), with the failure mode named per record in `ka-s4-fulltext-extraction.jsonl`. **Not attempted at all** for the other 90 of the 149, nor for any of the 178 records A16 admitted | See 13.2 and section 8.4 |
+| **AG-11** | **The CSL-JSON bibliography store's coverage of the corpus** | **The store holds 149 records; the corpus holds 327 — where 327 = 149 + 178 and 178 is an UPPER bound on what the section 2.2 transfer clause admits ([0, 178]; corpus size conditioned at [149, 327]; A18 §§(c)–(d), §8.4.4; qualifier added 2026-09-04 under finding REV-2-1).** Amendment A16 admitted 178 records that are in the corpus and not in the store, and the store was not extended by this revision. Its SHA-256 is unchanged | **The frozen protocol section 4.3 identity `len(bibliography store) == n_included` DOES NOT CLOSE, by 178.** Every one of the 178 carries a persistent identifier, recorded in `ka-s4-completion-screen.jsonl`, so FAIR F1 holds record by record; what fails is the store's coverage. Any tool that reads the store as the corpus will see 149 and be wrong by 178 |
+| **AG-12** | **SSRN full texts, all three Kalshi-specific S4 records** | `doi.org` resolves each to `papers.ssrn.com`, which returned **HTTP 403** with a Cloudflare interstitial on every attempt on 2026-09-03 (`10.2139/ssrn.6615739`, `10.2139/ssrn.5502658`, `10.2139/ssrn.6858200`; the same block hit `10.1111/j.1354-7798.2005.00274.x`'s green location) | **The strand's only venue-specific evidence is the part that could not be read.** Every figure section 8.4.1 reports from Bartlett & O'Hara, and the `quote-driven` characterisation finding REV-1-2 quarantines, still rest on abstracts |
 | AG-6 | RePEc/IDEAS via the frozen GET endpoint | HTTP 200 with a structurally empty results page, twice | The frozen RePEc arm contributed zero records; the amendment-A2 POST arm contributed 20 from a platform-reported 830 and 121, which is itself a depth truncation |
 | AG-8 | Full text of Gomez-Gonzalez & Del Corral 2018 via its own DOI | Handle System resolves (`responseCode` 1); the registered target URL returns HTTP 404 | The record is carried at abstract depth only and cannot be deepened through its identifier |
 | AG-7 | Abstracts for 33 included records | Requested from Crossref, OpenAlex, arXiv, Semantic Scholar and DOI content negotiation; none returned one | Those records are carried at metadata depth and their findings are not stated. **On the frozen text they fail I4 and belong under X8**; their inclusion is authorised by amendment A8 (finding QUANT-1-3) |
@@ -3256,10 +4269,13 @@ citing works on OpenAlex.
 Repeating the frozen protocol's section 9.1 so that no downstream artifact
 inherits a false claim. This is **not a systematic review**. Screening was
 **single-pass**, and — corrected under finding QUANT-1-1 — it was
-**overwhelmingly not performed by an agent reading records at all**: 8,663 of
-8,813 dispositions are outputs of a published keyword classifier and 150 are
-read-based (section 6, amendment A10). Extraction was **single-extractor** and
-reached **no full text** (amendment A9); **no
+**overwhelmingly not performed by an agent reading records at all**: **8,466** of
+8,813 dispositions are outputs of a published keyword classifier and **347** are
+read-based (section 6, amendments A10 and A16; the figures were 8,663 and 150 before
+A16). Extraction was **single-extractor** and reached **no full text** for the
+2026-09-02 execution (amendment A9) and **full text for 33 of 327 records** on
+2026-09-03 (amendment A17), with **no independent duplicate extraction** for any of
+them; **no
 risk-of-bias assessment was performed** and none is claimed, because RoB 2,
 QUADAS-2 and PROBAST do not map onto these study types and an unvalidated
 single-assessor instrument would produce an uninterpretable number. The evidence
@@ -3337,7 +4353,8 @@ in this record depends on them:
 The clone-durable carrier for the two digests is the provenance commit itself, via
 its `Repro-Log-Path:` and `Repro-Log-SHA256:` trailers. **All five keys were
 filled by the lead session on 2026-09-02** and QUANT-1-7 is closed at the
-frontmatter. **Four** scope limits stand, and the contract is satisfied only
+frontmatter. **Five** scope limits stand — the fifth added 2026-09-03 under findings
+REPRODUCIBILITY-1-1 and REPRODUCIBILITY-1-3 — and the contract is satisfied only
 within them.
 
 1. **The ReproLog covers the SEARCH-EXECUTION run only — not the remediation
@@ -3381,23 +4398,112 @@ within them.
    reader handed that directory sees two files; only the LF one is the digest the
    frontmatter and the ReproLog name.
 
+5. **The 2026-09-03 A16/A17 stage emitted no ReproLog and no sidecar at execution
+   time, and the pair that now covers it is retrospective.** The largest
+   artifact-producing run in this branch — 197 read-based screen verdicts, 33 full
+   texts read, five new log files — ran on 2026-09-03 with no provenance record of
+   any kind, exactly the defect REPRODUCIBILITY-2-2 raised and closed one stage
+   earlier. Raised again as **REPRODUCIBILITY-1-1** and remediated the same day. The
+   pair is:
+
+   | artifact | untracked locator | sha256 |
+   |---|---|---|
+   | ReproLog | `logs/reproducibility/repro_log_b47b1cf8777d494cadc68f5f90847bda.json` | `95c55f0f724c0c5940d3bb7110b67050ffea9c4f551b66f0b732fa9d2393497c` |
+   | sidecar | `artifacts/runs/kalshi-arbitrage/b47b1cf8777d494cadc68f5f90847bda/sidecar.json` | `c2523746d054173460fb4ff54f80d97529f77cd284aa2bfb895567b1769a40c7` |
+
+   **Three limits on it, stated rather than buried.** (i) It was emitted at
+   `2026-09-03T20:41:39Z` against `git_head`
+   `01ecfe7822ccca794272c35956ac8f8289d0c20b`, i.e. **after** the run it describes:
+   it pins an input state, not an execution, and is weaker than a contemporaneous
+   record in exactly the way §12.3's VG-15 describes for the sibling review.
+   (ii) Its `dataset_checksums` pin the protocol at
+   `e93e01516f840a2f9adc2f319f128c4d13403281005fea42037b46790c1b3982`; **amendment
+   A18 moves that digest**, so a reader holding this ReproLog is holding the pre-A18
+   state of the protocol. (iii) The frontmatter's `git_head_at_authoring`
+   (`27d7473…`) is the **2026-09-02** search-execution HEAD and **predates the
+   2026-09-03 stage entirely**; the 09-03 HEAD is the one in the ReproLog above.
+   Both 09-02 and 09-03 pairs are now carried in the frontmatter, labelled by stage.
+   **And the reproducibility this pair records is partial by construction:** it
+   covers the seed-pinned classifier pipeline; the 197 read-based verdicts and the
+   33 extractions are single-pass LLM outputs that a re-run is not guaranteed to
+   reproduce, with no prompt archived and no sampling parameters recoverable
+   (**REPRODUCIBILITY-1-3**; §5 above; protocol amendment **A18** §(f)).
+
+6. **The round-1 audit-remediation pass was itself an artifact-producing run and
+   emitted no ReproLog and no sidecar either. A retrospective pair now covers it.**
+   *(Added 2026-09-04, finding **REPRODUCIBILITY-2-1**.)* The 2026-09-03 round-1
+   remediation performed live network retrieval — the A16 four-arm chain re-run for
+   `U01126`, `U02218`, `U03624` and `U03553`, producing
+   [ka-s4-retrieval-recheck-01.json](docs/literature/search_logs/kalshi-arbitrage/ka-s4-retrieval-recheck-01.json)
+   — and produced
+   [se-verify-loadbearing-01.json](docs/literature/search_logs/explosive-regime/se-verify-loadbearing-01.json)
+   and protocol amendment **A18**. That is exactly the class of run CLAUDE.md
+   §Reproducibility contract covers, and the pair at limit 5 above does not reach it:
+   `b47b1cf8` is scoped to the A16/A17 stage and predates every round-1 remediation
+   artifact. The pair, emitted 2026-09-04 by hashing the bytes on disk:
+
+   | artifact | untracked locator | sha256 |
+   |---|---|---|
+   | ReproLog | `logs/reproducibility/repro_log_9c27ee4ba0264615a1e331f7112e96d6.json` | `ca4c513c65255c01b5b002c600fe4f6f89403285b45a8c32df3cb6bf1e657309` |
+   | sidecar | `artifacts/runs/kalshi-arbitrage/9c27ee4ba0264615a1e331f7112e96d6/sidecar.json` | `2a0e8d80f06ece0e4c83e11f3e8610c32c597d8c9fc4dae92185cc6687e74896` |
+
+   **Three limits on it, in the form limit 5 established.** (i) It is **retrospective**
+   — emitted a day after the run it describes — so it pins an input state, not an
+   execution, and does not make the round-1 pass replayable. (ii) Its
+   `dataset_checksums` pin the Kalshi protocol at
+   `dcfae5643ff86e49bbcf33a68e730fcb9d7f46b41f30cbd62bafdd297c3fc4dc` (183,534 bytes,
+   A1–A18), which is the state round 1 left; **amendment A19 moves that digest**, and
+   A19's own pair is recorded at limit 7. (iii) The round-1 pass's reasoning is, like
+   the stage it corrects, single-pass LLM output with no archived prompt and no
+   recoverable sampling parameters, and the four-arm re-run is reproducible only up to
+   the remote services' availability — two of six arms returned HTTP 429 for three of
+   the four records.
+
+7. **The round-2 audit-remediation pass — this one — emitted its pair at the end of
+   the pass, not afterwards.** *(Added 2026-09-04.)* It performed live network
+   retrieval of its own: all **33** A17 full-text sources were re-retrieved for the
+   **LITERATURE-2-1** quotation audit, plus the arXiv HTML of 2606.01477 in two
+   versions. Its `dataset_checksums` pin the post-A19 protocol, so — by the rule A19
+   §(e) states — its own digests are published **here** and not inside the protocol:
+
+   | artifact | untracked locator | sha256 |
+   |---|---|---|
+   | ReproLog | `logs/reproducibility/repro_log_ff5cee87d13144838870d65b726ae2ac.json` | `e9f966948a3ef92a58ed5bec6c3a19a3d0006e7dbef106a35dbe03c859df83dc` |
+   | sidecar | `artifacts/runs/kalshi-arbitrage/ff5cee87d13144838870d65b726ae2ac/sidecar.json` | `affe3c3deecfccc301dc54cc9026b07595de0e690a2efc1a5e7ee4cf1982c720` |
+
+   **It changes no count, no verdict, no transfer status and no record**, and its
+   artifacts are prose, digest and disclosure corrections only. The sidecar carries
+   the **full quotation-audit census** — 33 sources re-retrieved, 32 byte-identical
+   to the digests the extraction log publishes, 231 spans checked, the 7 altered
+   spans with the verbatim source text for each — so the audit is machine-readable
+   and not only narrated. **What is deterministic in this pass was re-run and is
+   recorded as such**: both frozen prefixes and the subset-rule prefix re-hash to
+   their registered values, the §7 candidate-denominator regexes reproduce 91/42 at
+   `01ecfe7` and 107/54 on the delivered file, 32 of 33 source retrievals reproduce
+   their recorded content digests, and `tests/test_erob_recount.py` passes 10 of 10.
+   **What is not deterministic is the prose**, for the reason A18 §(f) gives.
+
 The sidecar carries **both** disposition tables — as first published and post-A11
 word-boundary — so a reader can see what the bug-fix moved.
 `git_head_at_authoring` is `27d74738aa35ec1cdf1ec6915b50532e3620ea6f` for the
 execution run; the remediation run's HEAD is the follow-on provenance commit, which
-must also carry the current protocol-with-addendum digest
-`21a77d10841ba7f15ea58d5a58a1bca57818b2ed1a0f3bf53a1dbce6a8dcc53b` (amendments
-A1-A15), **not** the superseded `42bc6116…` recorded at amendment A12.
+must also carry the current protocol-with-addendum digest — which as of the
+2026-09-03 round-4 remediation is
+`dcfae5643ff86e49bbcf33a68e730fcb9d7f46b41f30cbd62bafdd297c3fc4dc` (183,534 bytes,
+amendments A1-A18) — **not** `21a77d10841ba7f15ea58d5a58a1bca57818b2ed1a0f3bf53a1dbce6a8dcc53b`
+(A1-A15, the value at the time this paragraph was written), and **not** the
+superseded `42bc6116…` recorded at amendment A12.
 
 Determinism, which is the other half of a reproducibility claim, is handled by
 amendment A11 and reported in section 5.
 
 ### 13.9 Audit remediation — traceability, one row per finding
 
-**Two rounds are recorded here, round 1 first and round 2 second.** Every edit
-made under either is traceable to a finding id in these tables, and every edit site
-also carries the finding id inline. The refuted findings of each round are named
-below the tables so that a later round does not re-raise them.
+**Three rounds are recorded here, in order.** Every edit made under any of them is
+traceable to a finding id in these tables, and every edit site also carries the
+finding id inline. The refuted findings of each round are named below the tables so
+that a later round does not re-raise them. **Round 3 (2026-09-04) audited round 2's
+own remediation**, and its table is the last block of this section.
 
 **This table over-reported its own edits in round 1, and that is corrected rather
 than quietly repaired (findings REV-2-2, REV-2-3).** Three rows named an edit site
@@ -3537,8 +4643,106 @@ about the corpus, and three amendments' worth of struck assertions.
 reproducibility keys were filled on 2026-09-02 with
 `repro_log_8f5b02d3bf61492b8bf9ae5214594f10.json` (sha256 `416d4d48…`) and
 `artifacts/runs/kalshi-arbitrage/8f5b02d3…/sidecar.json` (sha256 `96c4134c…`),
-both untracked locators. Section 13.8 states the two scope limits that survive
-the fill.
+both untracked locators. Section 13.8 states the scope limits that survive the
+fill — **four** at the time this paragraph was written, **five** from 2026-09-03,
+the fifth being that the 2026-09-03 A16/A17 stage emitted no ReproLog at execution
+time and is covered only by a retrospective pair.
+
+#### Round 4 — 2026-09-03, the audit of the S4 re-execution: the findings whose edit sites are in this record
+
+**Nothing in this round changed a verdict, a disposition count, an eligibility
+judgement or an included record.** The nine-code table, the 197 / 503 subset split
+and the 178 include / 12 X5 / 7 undecided split are identical before and after.
+Every row below is a correction to what this record, the protocol or a sibling
+artifact *says*.
+
+| finding | severity | what was wrong | where the fix is |
+|---|---|---|---|
+| **REV-1-2** | major | The subset rule's "fixed before assessment" claim is self-attested — a `date -u` string and a git HEAD written by the assessing agent into the artifact whose priority is in question — and no commit carries the rule file before the assessment | A post-stage disclosure section appended below a marker in [ka-s4-subset-rule.md](docs/literature/search_logs/kalshi-arbitrage/ka-s4-subset-rule.md), leaving the rule text as applied byte-identical as a **prefix digest**; protocol amendment **A18 §(a)**, which also records the digest supersession and names commit `27d7473` as the mechanism that would have established priority |
+| **REV-1-3** | major | Three artifacts asserted **four** transfer determinations changed at full text; three changed and one (Guéant et al.) was confirmed, and two of the three then contradicted themselves two lines later | §8.4 standing-caveat block, corrected in place; the research agenda's rev-2 list, corrected in place; protocol amendment **A18 §(b)**, which strikes A17 §(e)'s sentence by quotation because that addendum is append-only |
+| **REV-1-4** | major | The rewritten central-S4-finding block called Kyle's normality and two Brownian price processes "a payoff-support assumption", contradicting §8.4.3 and its own concluding sentence, and said Feys "says nothing about boundedness" although §8.4.3 records a stopping level M and a bounded liquidation-adjusted terminal wealth | §8.4 central block, items 2 and 3, split into **one** payoff-support statement and **three** price-process statements, and the Feys line replaced with §8.4.3's own wording; the concluding one-sentence finding made precise. **No transfer verdict changes** |
+| **QUANT-1-1** | major | The 178 includes carry no per-record trace of the conjunct that decides them: `criterion_cited` is boilerplate on 177 of 178 and **0 of 178** rationales quote the record's own text | §8.4.4 disclosure block; protocol amendment **A18 §(d)**. The repair is a re-screen of 178 records and is **declared as an open defect, not performed** |
+| **QUANT-1-2** | major | The admission bar applied was the negation of X6 (a disjunction) rather than the transfer clause's conjunction, so X6's stage rate is zero by construction and 178 is an upper bound — neither consequence stated | §8.4.4 disclosure block; protocol amendment **A18 §(c)**. Range now stated: the set the transfer clause admits lies in **[0, 178]** |
+| **QUANT-1-3** | major | The A16 retrieval chain's trigger was abstract-field **presence**, not usability; four X11 records with unusable abstract fields never entered it, and two were pushed out on an SR-2a ground reached from a title, which SR-2d forbids | Chain re-run for all four, archived at [ka-s4-retrieval-recheck-01.json](docs/literature/search_logs/kalshi-arbitrage/ka-s4-retrieval-recheck-01.json) (sha256 `6c4290c8…`); §8.4.4 disclosure block; protocol amendment **A18 §(e)**. **Crossref returned a full usable abstract for `U01126`**, so the finding's proposed recode-all-four repair is itself wrong; no count is corrected and no record recoded |
+| **REPRODUCIBILITY-1-1** | major | The 2026-09-03 A16/A17 stage — 197 verdicts, 33 full texts, five new logs — emitted no ReproLog and no sidecar | Emitted by the lead session; cited in the frontmatter as `repro_log_path_2026_09_03` / `sidecar_path_2026_09_03` with digests, and at **13.8 limit 5**, which states that the pair is retrospective and that `git_head_at_authoring` predates the stage |
+| **REPRODUCIBILITY-1-3** | major | The 197 verdicts and the 33 extractions are LLM judgments pinned only to a model-family id; no prompt archived, no sampling parameters, one non-independent screener — while `rng_seed: 0` and §5 let a reader over-read the whole flow as reproducible | §5 determinism block, new closing paragraph; frontmatter `rng_seed` re-scoped to the classifier half; 13.8 limit 5; protocol amendment **A18 §(f)**. **The prompts are NOT reconstructed** — writing them now would be a fabrication presented as provenance |
+
+**Sites in other tracked files.** **QUANT-1-4** (the agenda's `revision_note`
+saying "three of the five" where the body establishes two) and **LITERATURE-1-1**
+(the agenda asserting Kyle "says so in his own text" about having no inventory
+objective, where the cited p. 1316 passage says nothing about inventory) are
+corrected in
+[docs/research_notes/research_agenda_prediction-market-microstructure_2026-09-02.md](docs/research_notes/research_agenda_prediction-market-microstructure_2026-09-02.md),
+which names both findings inline. **QUANT-1-5**, **QUANT-1-6**, **REV-1-6**,
+**REV-1-5** and **REPRODUCIBILITY-1-2** belong to the explosive-regime branch and
+are recorded there.
+
+**The failure mode this round localises.** Four false claims were introduced into
+this session's prose. Two were caught in-stage (an 8,663/7,418 arithmetic error and
+an 88/30 coverage error) and two by this audit (**REV-1-3**'s "four moved" and
+**QUANT-1-4**'s "three of the five"). **All four were in amendment or summary
+prose. None was in verdict data.** *(That last sentence is scoped to what round 2
+looked at. **Round 3 found a further class it did not look for** — altered quotations
+inside §8.4 — and the round-3 block below restates the position. It remains true that
+no verdict datum has been found wrong in any round.)* Every one of the 197 screen
+verdicts and every one of the 33 extraction rows reproduced against its own artifact
+under audit, and
+the universe rebuild reproduced 15,924 / 8,813 / 7,111 exactly. The defect is in the
+layer that *describes* the work, not the layer that *records* it.
+
+#### Round 3 — 2026-09-04, the round-2 audit of the round-1 remediation: 16 findings remediated, 4 refuted
+
+**The pattern round 3 identified, stated before the table because it is the point.**
+Round 2 had already established that a claim about what a remediation just changed is
+a claim like any other. Round 3 adds the sharper case: **a quoted string attributed
+to an author is a claim like any other, and this artifact had not been checking
+them.** Every false claim this session had caught before round 3 sat in **amendment
+or summary prose** — protocol amendment **A18 §(b)** tallies four of them and states
+that none was in verdict data. The class round 3 adds is different: a defect **inside
+quotation marks in §8.4**, the block whose declared purpose is to say what the authors
+state, from their text. **Seven such spans were found in 231 checked**, one of which
+carried the revised Feys classification, and none of which moved a verdict. The
+standing rule this round adds: **every verbatim quotation is re-checked against a
+re-retrieved source before it is published, and the census is recorded, not the
+conclusion** — 231 of 231 spans checked, 33 of 33 sources re-retrieved, 32 of 33
+byte-identical to the digests already published for them.
+
+**And the second pattern: a disclosure at one site is not a disclosure.** Every
+finding in the first block below is a case where the artifact stated something true
+in one place and its unqualified contrary at the places a reader actually reads. Four
+sites carried the `[0, 178]` bound; eleven published a count derived from the 178
+without it.
+
+| finding | severity | what was wrong | where the fix is |
+|---|---|---|---|
+| **LITERATURE-2-1** | major | **A quoted string attributed to Feys 2026 as the author's own words is not what the paper says** — *"the regime in which the dynamic-risk-measure **representation** applies"*, where Remark 1 reads *"the dynamic-risk-measure **machinery of Kupper and Schachermayer (2009)** applies **directly**"*. The misquote sits inside the REV-1-4 remediation text and carries §8.4's revised Feys classification | §8.4 central block and §8.4.3, both corrected inline; the **quotation-audit disclosure block** at the head of §8.4; protocol amendment **A19 §(a)**, which publishes the whole census — **33** sources re-retrieved (32 byte-identical to the extraction log's recorded digests), **231** spans checked, **7** altered, the verbatim source text given for each. Three of the seven never reached this prose and are corrected in A19 only, the extraction log's bytes being pinned by two append-only amendments. **No transfer status, verdict or count changes** |
+| **REV-2-1** / **QUANT-2-4** | major | The **placement** defect, from two branches. Every mechanical count in §8.4.4 and A18 §(d) verified, and the adjudication against the session's own interest is correct — but A18 §(d)'s binding instruction *"no consumer of this protocol may read 178 as the count of records the transfer clause admits"* was then contradicted at every accounting site: `n_included: 327` unconditional in the front matter, the revision note, the §5 identity table (reported as holding), the flow narrative, AG-11, §13.2 and the agenda's front matter, with §8.8 converting it into a headline rate | The bound is propagated, **with no count changed**, to: front-matter `n_included`; **"Read this first" item 5**, which is the block the document tells the reader to carry into every number; the §5 identity-table `n_included` row; the §5 AG-11 paragraph; the §5 flow's closing sentence; the §7 table head; §8.4's strand-size paragraph; §8.8's rate; §13.2 item 1; the §13.3 **AG-11** row; and the agenda's front-matter `corpus:` field |
+| **REPRODUCIBILITY-2-3** | major | §8.4.4 asserted *"Nothing in section 8 rests on any of the 178"* while two §8 statements add the 178 as a point value — §8.4's *"239 records in a 327-record corpus"* and §8.8's *"194 of 327"* | Both narrowed to **claim lines**, at §8.4.4 and at the §7 table head; the two corpus-shape counts marked as upper bounds at their own sites, **[61, 239]** and **[16, 194]** over **[149, 327]**. And **"the artifact records no lower bound above zero" was checked literally** and is stated precisely at §8.4.4: it is true of the transfer-clause-admitted set, and A18's `[0, 178]` is **one wider than the evidence requires** because `U01611` is admitted under I1 directly and does not rest on the transfer clause at all. **A18's published interval is kept**, because narrowing it here would be a change of a published number dressed as a clarification |
+| **LITERATURE-2-3** | major | The frozen protocol defines E10's transfer status as a property of **the record itself**, while the re-execution assigned `explicitly excluded` / `addressed` on **compatibility with the record's stated assumptions** — and §10 gap G-5 restated those labels with no marker at all | Protocol amendment **A19 §(b)** records the operative reading as the reading in force, tabulates it against the frozen one, states the cost, qualifies A18 §(b)'s *"each rested on a sentence the authors wrote"* by naming the sentence and the inference separately for all four records, and **re-codes nothing**. The **[corpus-inference]** marker is added at §10 G-5 |
+| **QUANT-2-3** / **REV-2-3** / **LITERATURE-2-4** | major | The LITERATURE-1-1 marker was incomplete by four sites, including the machine-readable `revision_note` a tool reads and Branch 2b's founding paragraph, which is the entire warrant for creating a branch | The agenda's `revision_note`, its branch-count paragraph, its Branch 2 premise heading, its Branch 2 consequence paragraph and Branch 2b's *"Why this branch exists"* all carry the marker and the three-page limit; Branch 2b gains a **precondition** recording that its own founding premise is unverified over the unread remainder of Kyle 1985; protocol amendment **A19 §(c)** carries the qualifier for A18 §(g), which is append-only |
+| **REPRODUCIBILITY-2-1** | major | The round-1 remediation pass was itself an artifact-producing run — live network retrieval included — with no ReproLog, no sidecar and no disclosure of the absence | **§13.8 limits 6 and 7**; a retrospective pair for round 1 (`9c27ee4b…`) and a contemporaneous pair for round 2 (`ff5cee87…`), both emitted by hashing the bytes on disk; protocol amendment **A19 §(f)**. Three limits stated on each pair rather than buried |
+| **FORMAT-2-1** | major | A18 promised its post-append whole-file digest *"is published at the end of this entry"* and did not publish it; the promise was also **unsatisfiable as written** | Protocol amendment **A19 §(e)** strikes the clause by quotation, publishes `dcfae564…` (183,534 bytes, A1–A18) one amendment later, states the rule that **a whole-file digest cannot be written inside the file it digests**, declines to state its own post-append value, and names the four carriers that do publish it. **§13.1** is the carrier of record and now says so |
+| **REV-2-4** | major | The **VG-16** register row and the §15 reproduce-target row of the explosive-regime review pinned a description of a superseded module state as the evidence for the only VG-16 closure this repository claims, and attested "green" against that state | Both rows updated to the delivered module — **1,149 lines, 56,401 bytes, 10 tests**, SHA-256 `90981cd0…`, re-attested green at 10 passed on 2026-09-04 — with the `01ecfe7` / 707-line / 9-test triple **retained as the superseded value**. Explosive-regime protocol amendment **A16** strikes A15 §(c)'s *"passes on 9 tests"* by quotation, records what both audit rounds did to the module body, and records that the CODE-2-1 fix found **four** fail-open paths where the finding named one — all four hole cells of the 576-cell cross-tab being empty, so the guards are additive and **no count moves** |
+| **QUANT-2-2** | major | The candidate denominator added for QUANT-1-5 was pinned to a repository state that does not produce it, and was measured on a §7 the same pass had already enlarged | `se-verify-loadbearing-01.json` `scan_scope` repointed to the state actually scanned, with a **`pre_correction_pool`** block giving 91 occurrences / 42 distinct at `01ecfe7` §7 = 1467–2038, the delta authored by the pass itself (**17 added, 1 removed**, 91 + 17 − 1 = 107) and the coverage restated against the 91 as an **upper bound rather than a ratio**. Both states re-derived by running the log's own regexes. The scanned state is pinned by a **§7-only digest** so the review and the log do not pin each other circularly. Digest supersession recorded in the explosive-regime review's §15 artifact row |
+| **SCOPE-2-1** | major | Thread A item 1 was delivered in a different **kind** than the spec declares: the artifact meets every clause of the mechanical check, but the criterion actually applied was the negation of X6 and not the transfer clause's conjunction | The spec item is recorded **delivered-with-a-declared-defect** and the box is deliberately **not ticked**, per the spec's own Standing-correction clause 2. The re-screen of the 178 under the transfer clause's positive conjunct — with a mandatory `admitting_statement` quoting each record's own sentence — is named as a **carried-forward open item**. **No re-screen was performed** |
+
+**Sites in other tracked files.** **REV-2-4** and **QUANT-2-2** belong to the
+explosive-regime branch and are recorded there, in that review's VG-16 row, its §15
+rows and its protocol amendment **A16**. **QUANT-2-3**, **REV-2-3** and
+**LITERATURE-2-4** are corrected in
+[docs/research_notes/research_agenda_prediction-market-microstructure_2026-09-02.md](docs/research_notes/research_agenda_prediction-market-microstructure_2026-09-02.md),
+which names each finding inline. **SCOPE-2-1** is recorded in
+[docs/deliverables/deliverable_spec_s4-reexecution-and-repo-gaps_2026-09-03.md](docs/deliverables/deliverable_spec_s4-reexecution-and-repo-gaps_2026-09-03.md).
+
+**Refuted at the round-3 gate and NOT acted on — do not re-raise:**
+**REV-2-2** (claimed the four-vs-three transfer correction had not landed — it had);
+**REPRODUCIBILITY-2-2** (claimed the subset-rule prefix-digest arrangement is
+unsound — it is sound); **LITERATURE-2-2** (claimed the Feys phrase *"genuinely
+outside the scope"* is not the author's — it is verbatim, and this round re-verified
+it independently against the re-retrieved source); **FORMAT-2-3** (the §8.4
+quoted-span scan against the extraction file, which was correct). **CODE-2-1** was
+remediated in `tests/` outside this record, and **QUANT-2-1** and **FORMAT-2-2** were
+handled by the lead session.
 
 ## 14. Works cited by this record beyond the corpus
 

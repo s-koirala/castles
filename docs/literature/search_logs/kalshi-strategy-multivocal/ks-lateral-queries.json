@@ -1,0 +1,2534 @@
+[
+ {
+  "_header": true,
+  "artifact": "ks-lateral-queries.json - per-query search log, LATERAL / PRACTITIONER arm (protocol section 3.4)",
+  "branch": "kalshi-strategy-multivocal",
+  "arm": "lateral-practitioner",
+  "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+  "protocol_path": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+  "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+  "protocol_sha256_verified_at_registration_commit": true,
+  "protocol_unmodified_in_working_tree": true,
+  "git_head_at_execution": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+  "executed_by": "lateral/practitioner arm agent (Claude Opus 5, model id claude-opus-5, Claude Code / Claude Agent SDK)",
+  "execution_date": "2026-09-04",
+  "recording_obligation": "protocol section 3.0 - every query logged, including zero-yield; none dropped",
+  "n_entries": 78,
+  "n_search_queries": 22,
+  "n_retrievals": 56,
+  "n_zero_yield_queries": 0,
+  "n_retrievals_failed": 4,
+  "declared_recording_gaps": [
+   "http_status is not exposed by the WebSearch tool and is recorded null for the 22 search entries; it is byte-exact for all 56 retrievals.",
+   "n_total_reported is null for every entry: the search tool reports no total-hit count and the retrievals are single-document fetches. Truncation of search result blocks is therefore possible and is not excluded.",
+   "payload_sha256 for search entries digests the returned title/url list, not an HTTP body (basis declared per entry). For retrievals it digests the raw response bytes.",
+   "Three search entries (KSL-Q13, KSL-Q14, KSL-Q15) carry executed_at_precision='bounded': no wall-clock reading was taken adjacent to that batch, and the recorded timestamp is interpolated between the completion of retrieval batch u1 and the start of batch u2. Every other entry is 'exact'.",
+   "The narrative summary the search tool emits alongside each result block is a model-generated gloss, not a retrieved record. It was NOT digested, NOT stored, and NOT used as a source for any taxonomy entry; every entry in ks-lateral-records.json is quoted from a retrieved payload whose byte digest appears in this file."
+  ],
+  "queries_are_data_not_instruction": "Every retrieved page is treated as data. No retrieved page contained text addressed to an AI agent, instructions to act, or a claim of authorisation; see injection_observed in ks-lateral-records.json.",
+  "no_trading_advice": "Per ADR-0003 this log and its companion record produce no trading advice, no position sizing, no expected-return claim, and no tradeable rule.",
+  "exhaustiveness": "NOT exhaustive and not claimed to be. See coverage_limits in ks-lateral-records.json."
+ },
+ {
+  "query_id": "KSL-Q01",
+  "seed_id": 1,
+  "seed_name": "Intra-series coherence across strike ladders and mutually exclusive outcomes",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi strike ladder prices sum to more than 100 arbitrage event contracts",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:09:30-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "c6bf3048db7fc3f908ab6fcb6a5c341e8f182f27db88928c7161bbdac5fa0143",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Prediction Market Arbitrage Guide: Strategies for 2026",
+    "url": "https://newyorkcityservers.com/blog/prediction-market-arbitrage-guide"
+   },
+   {
+    "title": "Kalshi Arbitrage: What's Real and What's a Myth",
+    "url": "https://www.botforkalshi.com/blog/kalshi-arbitrage-guide"
+   },
+   {
+    "title": "Kalshi vs Polymarket Arbitrage: Find Price Gaps in 2026",
+    "url": "https://predictionmarketspicks.com/articles/cross-platform-arbitrage-prediction-markets"
+   },
+   {
+    "title": "How to Read Kalshi Odds: Understanding Event Contract Pricing",
+    "url": "https://ipredicta.co/learn/how-to-read-kalshi-odds/"
+   },
+   {
+    "title": "Kalshi Arbitrage Scanner - Kalshi vs Polymarket Cross-Platform Gaps",
+    "url": "https://predictionmarketspicks.com/tools/arb-scanner"
+   },
+   {
+    "title": "Kalshi Event Contracts: All You Need to Know in 2026",
+    "url": "https://deadspin.com/prediction-markets/kalshi/event-contracts/"
+   },
+   {
+    "title": "Polymarket & Kalshi Arbitrage Opportunities 2026",
+    "url": "https://laikalabs.ai/prediction-markets/polymarket-kalshi-arbitrage-guide"
+   },
+   {
+    "title": "Kalshi Commodity Markets: How The Daily Ladders Work",
+    "url": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-commodity-markets"
+   },
+   {
+    "title": "Kalshi Fees: What The Coin Flip Really Costs",
+    "url": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-fees"
+   },
+   {
+    "title": "How Does Kalshi Make Money? The Charge You Can't See",
+    "url": "https://www.oddsshopper.com/articles/prediction-markets/how-does-kalshi-make-money"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q02",
+  "seed_id": 1,
+  "seed_name": "Intra-series coherence across strike ladders and mutually exclusive outcomes",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi mutually exclusive market \"sum of yes\" prices arbitrage guaranteed profit",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:09:30-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "67308cea6a718d65b670f242dd5ea1b03bc156e9010e5b1249aebc5dded9efac",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Polymarket + Kalshi Arbitrage Finder - Apify",
+    "url": "https://apify.com/congism/polymarket-kalshi-arb-finder"
+   },
+   {
+    "title": "Prediction Market Arbitrage Guide: Strategies for 2026",
+    "url": "https://newyorkcityservers.com/blog/prediction-market-arbitrage-guide"
+   },
+   {
+    "title": "How Prediction Market Arbitrage Works (Polymarket, Kalshi)",
+    "url": "https://www.trevorlasn.com/blog/how-prediction-market-polymarket-kalshi-arbitrage-works"
+   },
+   {
+    "title": "Semantic Non-Fungibility and Violations of the Law of One Price in Prediction Markets",
+    "url": "https://arxiv.org/pdf/2601.01706"
+   },
+   {
+    "title": "Kalshi Arbitrage: What's Real and What's a Myth",
+    "url": "https://www.botforkalshi.com/blog/kalshi-arbitrage-guide"
+   },
+   {
+    "title": "How to Find Kalshi vs Polymarket Arbitrage (2026)",
+    "url": "https://www.predictionhunt.com/blog/kalshi-vs-polymarket-arbitrage"
+   },
+   {
+    "title": "Prediction Market Arbitrage: How to Profit From Price Gaps",
+    "url": "https://clawarbs.com/blog/prediction-market-arbitrage/"
+   },
+   {
+    "title": "Kalshi vs Polymarket Arbitrage: Bot Guide 2026",
+    "url": "https://clawarbs.com/blog/kalshi-vs-polymarket-arbitrage/"
+   },
+   {
+    "title": "Fill-Side Non-Retail Trading on Polymarket",
+    "url": "https://arxiv.org/pdf/2605.11640"
+   },
+   {
+    "title": "Polymarket-Kalshi Arbitrage: Cross-Platform Opportunities - Predik",
+    "url": "https://predik.io/en/blog/arbitraje-polymarket-kalshi-oportunidades-traders-cuantitativos-en"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q03",
+  "seed_id": 2,
+  "seed_name": "Combinatorial and negative-risk baskets over multi-outcome series",
+  "query_kind": "search",
+  "query_verbatim": "Polymarket negative risk converter multi-outcome basket arbitrage",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:09:30-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "dd677a4f783b3461fd7d4677c274105f050eeb582fcccc5d1c2add168842b6b3",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Negative Risk Markets - Polymarket Documentation",
+    "url": "https://docs.polymarket.com/concepts/negative-risk"
+   },
+   {
+    "title": "Executable Arbitrage and Market Efficiency in Prediction Markets",
+    "url": "https://arxiv.org/html/2608.00666v1"
+   },
+   {
+    "title": "Negative Risk Markets - Polymarket Documentation (mirror)",
+    "url": "https://polymarket-292d1b1b.mintlify.app/concepts/negative-risk"
+   },
+   {
+    "title": "find-negrisk-opportunities command",
+    "url": "https://pkg.go.dev/github.com/ivanzzeth/polymarket-go-gamma-client/examples/find-negrisk-opportunities"
+   },
+   {
+    "title": "Polymarket Negative Risk Markets: Multi-Outcome Mechanics Explained",
+    "url": "https://www.bucko.ai/learn/polymarket-negative-risk-markets-guide"
+   },
+   {
+    "title": "Semantic Trading: Agentic AI for Clustering and Relationship Discovery in Prediction Markets",
+    "url": "https://arxiv.org/pdf/2512.02436"
+   },
+   {
+    "title": "Semantic Non-Fungibility and Violations of the Law of One Price in Prediction Markets",
+    "url": "https://arxiv.org/pdf/2601.01706"
+   },
+   {
+    "title": "Overview - Polymarket Documentation",
+    "url": "https://docs.polymarket.com/developers/neg-risk/overview"
+   },
+   {
+    "title": "GitHub - Polymarket/neg-risk-ctf-adapter",
+    "url": "https://github.com/Polymarket/neg-risk-ctf-adapter"
+   },
+   {
+    "title": "Prediction Market Arbitrage Guide: Strategies for 2026",
+    "url": "https://newyorkcityservers.com/blog/prediction-market-arbitrage-guide"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q04",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi fed funds futures basis trade event contracts CME arbitrage",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:09:30-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 7,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "b250194fe9e32ddf4f87951c52a09c165913f0e184ef6b96e4fac9feb06c4d89",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Interactive Brokers Bundles Kalshi, CME, ForecastEx in Unified Event Trading Push",
+    "url": "https://www.financemagnates.com/forex/interactive-brokers-bundles-kalshi-cme-forecastex-in-unified-event-trading-push/"
+   },
+   {
+    "title": "Kalshi - Prediction Market for Trading the Future",
+    "url": "https://kalshi.com/about"
+   },
+   {
+    "title": "What is Kalshi? The first federally regulated US event-contract exchange",
+    "url": "https://predictionmarkets101.com/what-is-kalshi"
+   },
+   {
+    "title": "Press",
+    "url": "https://news.kalshi.com/press"
+   },
+   {
+    "title": "Tradealgo",
+    "url": "https://www.tradealgo.com/trading-guides/prediction-markets/kalshi-guide"
+   },
+   {
+    "title": "What Is Kalshi? The Complete Guide to America's Prediction Market",
+    "url": "https://predscope.com/guide/what-is-kalshi"
+   },
+   {
+    "title": "How Does Kalshi Work? Event Contracts Explained (2026)",
+    "url": "https://predscope.com/guide/how-does-kalshi-work"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q05",
+  "seed_id": 4,
+  "seed_name": "Settlement-source and resolution-rule edge cases",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi settlement source revision ambiguous resolution rule edge case trader dispute event contract",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:09:48-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 7,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "1654dc681d7cc24fa8f2442798b72d91b7930032f60cea30dfd6abca63e959bf",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "How Kalshi and Polymarket Settle Event Contracts (and Disputes)",
+    "url": "https://defirate.com/prediction-markets/how-contracts-settle/"
+   },
+   {
+    "title": "Kalshi Payout Disputes: When Traders May Need a Lawyer",
+    "url": "https://mdf-law.com/kalshi-payout-disputes-attorney/"
+   },
+   {
+    "title": "How to Trade on Kalshi (2026)",
+    "url": "https://predictorhq.com/guides/how-to-trade-on-kalshi/"
+   },
+   {
+    "title": "Sports on Kalshi: Source Checklist for CFTC-Regulated Event Contracts",
+    "url": "https://kalshiview.com/blog/sports-on-kalshi-cftc-regulated-sports-contracts/"
+   },
+   {
+    "title": "How to Trade on Kalshi (August 2026): 13-Step Beginner Guide",
+    "url": "https://tech-insider.org/prediction-markets/how-to-trade-on-kalshi/"
+   },
+   {
+    "title": "How Does Kalshi Payout Work? Contracts & Settlement (2026)",
+    "url": "https://tech-insider.org/prediction-markets/how-does-kalshi-payout-work/"
+   },
+   {
+    "title": "Kalshi Payout Explained: How Contracts Settle and When You Get Paid",
+    "url": "https://pillarlabai.com/blog/kalshi-payout-explained-settlement/"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q06",
+  "seed_id": 5,
+  "seed_name": "Timing and latency around scheduled data releases",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi latency CPI release data scraping speed advantage event contract trading",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:09:48-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "96d1cea8d21d366ee9c9125bfcb8bd0abe7ac52a37bbc5b628fd2a7a6d238f78",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Finance and Economics Discussion Series Federal Reserve Board",
+    "url": "https://www.federalreserve.gov/econres/feds/files/2026010pap.pdf"
+   },
+   {
+    "title": "Kalshi Compliance Informational Document & FAQ",
+    "url": "https://kalshi-public-docs.s3.amazonaws.com/kalshi_finance_faq.pdf"
+   },
+   {
+    "title": "Kalshi Scraper - Apify",
+    "url": "https://apify.com/mild_costume/kalshi-scraper"
+   },
+   {
+    "title": "How to Use the Kalshi API: Prediction Markets Guide",
+    "url": "https://apidog.com/blog/kalshi-api-devolpers-guide/"
+   },
+   {
+    "title": "Makers or Takers: The Economics of the Kalshi Prediction Market",
+    "url": "https://www2.gwu.edu/~forcpgm/2026-001.pdf"
+   },
+   {
+    "title": "Wednesday's crucial CPI report will show tamer inflation, according to prediction markets",
+    "url": "https://www.cnbc.com/2026/08/10/crucial-cpi-report-will-show-tame-inflation-prediction-markets-show.html"
+   },
+   {
+    "title": "Kalshi API - Codex",
+    "url": "https://docs.codex.io/prediction-markets/kalshi"
+   },
+   {
+    "title": "How to Trade on Kalshi (August 2026): 13-Step Beginner Guide",
+    "url": "https://tech-insider.org/prediction-markets/how-to-trade-on-kalshi/"
+   },
+   {
+    "title": "Using FXMacroData with Prediction Markets: Kalshi and Polymarket",
+    "url": "https://fxmacrodata.com/articles/fxmacrodata-prediction-markets-kalshi-polymarket"
+   },
+   {
+    "title": "7 Kalshi Trading Strategies, Explained (2026)",
+    "url": "https://www.botforkalshi.com/blog/kalshi-trading-strategies-guide"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q07",
+  "seed_id": 6,
+  "seed_name": "Maker-incentive and fee-structure exploitation",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi maker fee rebate zero taker fee structure exploit market maker event contracts",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:09:48-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "389713333ae3d6d0b92f8bf64e634f47ba1c3ddc0df449dc428422e507395ae6",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Kalshi revenue, valuation & funding",
+    "url": "https://sacra.com/c/kalshi/"
+   },
+   {
+    "title": "Makers or Takers: The Economics of the Kalshi Prediction Market",
+    "url": "https://www2.gwu.edu/~forcpgm/2026-001.pdf"
+   },
+   {
+    "title": "Maker/Taker Math on Kalshi - by Andrew Courtney",
+    "url": "https://whirligigbear.substack.com/p/makertaker-math-on-kalshi"
+   },
+   {
+    "title": "I Spent Six Months Trading on Kalshi. Here's What Actually Works.",
+    "url": "https://medium.com/coinmonks/i-spent-six-months-trading-on-kalshi-heres-what-actually-works-c5fd9b7d6fe2"
+   },
+   {
+    "title": "Kalshi's fee structure, explained - Polytrage",
+    "url": "https://blog.polytrage.com/kalshis-fee-structure-explained/"
+   },
+   {
+    "title": "Makers and Takers: The Economics of the Kalshi Prediction Market",
+    "url": "https://www.karlwhelan.com/Papers/Kalshi.pdf"
+   },
+   {
+    "title": "Kalshi Fees Explained (2026): Trading Costs, Fee Schedule",
+    "url": "https://marketmath.io/platforms/kalshi"
+   },
+   {
+    "title": "Prediction Market Fees: Kalshi, Polymarket, Robinhood & Coinbase",
+    "url": "https://defirate.com/prediction-markets/fees/"
+   },
+   {
+    "title": "Kalshi Fees Explained: The Full 2026 Breakdown",
+    "url": "https://predictreport.io/blog/kalshi-fees-explained"
+   },
+   {
+    "title": "What Are Kalshi Fees? Maker / Taker / Settlement / Withdrawal",
+    "url": "https://kalshibacktest.com/resources/what-are-kalshi-fees"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q08",
+  "seed_id": 7,
+  "seed_name": "Liquidity-provision programs",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi market maker program liquidity provider incentive rebate apply",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:09:48-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "76dc85c1ebe84577c6aa7334c69e31b5f73a3697f87a528245037047bf351c4f",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "KalshiEX LLC",
+    "url": "https://www.cftc.gov/filings/orgrules/rules01132513688.pdf"
+   },
+   {
+    "title": "Liquidity Provider Program",
+    "url": "https://help.kalshi.com/en/articles/15410219-liquidity-provider-program"
+   },
+   {
+    "title": "June 26, 2024 SUBMITTED VIA CFTC PORTAL",
+    "url": "https://www.cftc.gov/sites/default/files/filings/orgrules/24/06/rules0627242994.pdf"
+   },
+   {
+    "title": "Kalshi Publishes One Liquidity Subsidy and Seals the Other",
+    "url": "https://x.com/navnoorquant/article/2088369227283751256"
+   },
+   {
+    "title": "Liquidity and Volume Incentive Programs: Where to Find Them",
+    "url": "https://help.kalshi.com/en/articles/16076644-liquidity-and-volume-incentive-programs-where-to-find-them"
+   },
+   {
+    "title": "Liquidity Incentive Program",
+    "url": "https://help.kalshi.com/en/articles/13823851-liquidity-incentive-program"
+   },
+   {
+    "title": "Combo Incentive Program",
+    "url": "https://help.kalshi.com/en/articles/15410257-combo-incentive-program"
+   },
+   {
+    "title": "What is the Kalshi Volume Incentive Program?",
+    "url": "https://help.kalshi.com/en/articles/13823850-what-is-the-kalshi-volume-incentive-program"
+   },
+   {
+    "title": "Programs & Promotions",
+    "url": "https://help.kalshi.com/en/collections/18616618-programs-promotions"
+   },
+   {
+    "title": "Turning Polymarket and Kalshi Into a $500 Monthly Side Income",
+    "url": "https://medium.com/mountain-movers/turning-polymarket-and-kalshi-into-a-500-monthly-side-income-to-fund-claude-max-perplexity-max-474ab67244d5"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q09",
+  "seed_id": 8,
+  "seed_name": "Inventory and capital-efficiency structures specific to fully-collateralised binaries",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi capital efficiency fully collateralized binary contract netting offsetting positions margin release",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:10:02-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "ec850d60710e019f0352fa4b97b4bb4a65bb32fcc52fffb4b5de6794a354c0a9",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Joshua Beardsley Chief Compliance Officer Kalshi, Inc. March 26, 2026",
+    "url": "https://www.cftc.gov/media/13696/KKL%20-%2004-06-2026%20-%20Binary%20Option%20Event%20Contracts/download"
+   },
+   {
+    "title": "Kalshi Pushes Prediction Markets Into Derivatives Territory With Margin Plans",
+    "url": "https://www.financemagnates.com/institutional-forex/kalshi-pushes-prediction-markets-into-derivatives-territory-with-margin-plans/"
+   },
+   {
+    "title": "Kalshi Advances Margin Trading Capabilities With Key Regulatory Milestone",
+    "url": "https://www.crowdfundinsider.com/2026/04/269619-kalshi-advances-margin-trading-capabilities-with-key-regulatory-milestone/"
+   },
+   {
+    "title": "Kalshi Market Mechanics",
+    "url": "https://medium.com/@mgoelzer/kalshi-market-mechanics-9f4bdec45e84"
+   },
+   {
+    "title": "Kalshi Gets Margin Trading Clearance for Professional Clients",
+    "url": "https://coinmarketcap.com/academy/article/kalshi-gets-margin-trading-clearance-for-professional-clients"
+   },
+   {
+    "title": "Kalshi news: Prediction market platform secures license to offer margin trading",
+    "url": "https://www.coindesk.com/markets/2026/03/28/kalshi-secures-license-to-offer-margin-trading-to-institutional-investors"
+   },
+   {
+    "title": "Kalshi Approved for Margin Trading After Affiliate Kinetic Markets Gets FCM Registration",
+    "url": "https://news.bitcoin.com/kalshi-approved-for-margin-trading-after-affiliate-kinetic-markets-gets-fcm-registration/"
+   },
+   {
+    "title": "CFTC Staff Issues Conditional Relief from Reporting Fully Collateralized Positions",
+    "url": "https://www.cftc.gov/PressRoom/PressReleases/8382-21"
+   },
+   {
+    "title": "What is Kalshi Prediction Market?",
+    "url": "https://www.ledger.com/academy/topics/economics-and-regulation/what-is-kalshi-prediction-market"
+   },
+   {
+    "title": "Collateral return",
+    "url": "https://news.kalshi.com/p/collateral-return"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q10",
+  "seed_id": 9,
+  "seed_name": "Account and tax structure where it bears on executability",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi 1256 contract tax treatment 60/40 event contracts trader executability",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:10:02-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "686f2f16aa28891bedf1ac873ce5dddb74b5ba98ee53da60c6c011521ec21fab",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Prediction market contracts are showing up on client returns",
+    "url": "https://www.natptax.com/news-insights/blog/prediction-market-contracts-are-showing-up-on-client-returns/"
+   },
+   {
+    "title": "How to File Taxes on Polymarket and Kalshi Earnings (2026 Guide)",
+    "url": "https://www.keepertax.com/posts/how-to-file-taxes-on-kalshi-and-polymarket"
+   },
+   {
+    "title": "Prediction Market Taxes: A Complete Guide to Filing Yours Correctly",
+    "url": "https://awaken.tax/media/article/prediction-market-taxes"
+   },
+   {
+    "title": "Kalshi 1099: Tax Reporting for Event Contracts",
+    "url": "https://marketmath.io/blog/kalshi-1099-guide"
+   },
+   {
+    "title": "Kalshi & Polymarket Taxes 2026: Do You Get a 1099?",
+    "url": "https://www.monacocpa.cpa/prediction-market-tax"
+   },
+   {
+    "title": "Kalshi, Polymarket & Robinhood Taxes 2026 (No 1099? Still Owe)",
+    "url": "https://www.monacocpa.cpa/post/prediction-market-taxes-kalshi-polymarket-robinhood"
+   },
+   {
+    "title": "Kalshi Taxes: Does the 60/40 Rate Actually Apply?",
+    "url": "https://www.convoyfinance.com/resources/kalshi-polymarket-taxes-llc-section-1256"
+   },
+   {
+    "title": "Section 1256 and Event Contracts (2026): Does 60/40 Apply?",
+    "url": "https://coselite.com/blog/section-1256-event-contracts"
+   },
+   {
+    "title": "How to Report Kalshi Taxes in TurboTax (2026)",
+    "url": "https://www.contracttax.com/guides/kalshi-turbotax"
+   },
+   {
+    "title": "Form 6781 and Kalshi: How Section 1256 Is Reported",
+    "url": "https://www.contracttax.com/guides/kalshi-form-6781"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q11",
+  "seed_id": 10,
+  "seed_name": "Forecasting-model-driven approaches, including model-agent and LLM-agent forecasters",
+  "query_kind": "search",
+  "query_verbatim": "LLM agent forecaster trading Kalshi prediction market bot model-driven",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:10:02-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "44044d11525bf823142d34a33a53f217d8be774c8b4015dfdf5c8d76d510a0cd",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "GitHub - aarora4/Awesome-Prediction-Market-Tools",
+    "url": "https://github.com/aarora4/Awesome-Prediction-Market-Tools"
+   },
+   {
+    "title": "GitHub - 0mnjb/Kalshi-AI-Trading-Bot",
+    "url": "https://github.com/0mnjb/Kalshi-AI-Trading-Bot"
+   },
+   {
+    "title": "Kalshi Trading Bot: Automated Prediction Market Trading with LLM",
+    "url": "https://mixpeek.com/blog/kalshi-trading-bot-semantic-search-llm-extraction"
+   },
+   {
+    "title": "AI Agents in Prediction Markets: How Bots Beat Humans",
+    "url": "https://newyorkcityservers.com/blog/ai-agents-prediction-market-trading"
+   },
+   {
+    "title": "GitHub - bestpracticaI/kalshi-ai-trading-bot",
+    "url": "https://github.com/bestpracticaI/kalshi-ai-trading-bot"
+   },
+   {
+    "title": "Build a Prediction Market Trading Bot",
+    "url": "https://sparkco.ai/blog/how-to-build-prediction-market-trading-bot-simplefunctions"
+   },
+   {
+    "title": "I built 13 AI agents that trade Kalshi prediction markets 24/7",
+    "url": "https://dev.to/bearware/i-built-13-ai-agents-that-trade-kalshi-prediction-markets-247-heres-how-it-works-23k9"
+   },
+   {
+    "title": "GitHub - OctagonAI/kalshi-trading-bot-cli",
+    "url": "https://github.com/OctagonAI/kalshi-trading-bot-cli"
+   },
+   {
+    "title": "GitHub - alex-jb/orallexa-ai-trading-agent",
+    "url": "https://github.com/alex-jb/orallexa-ai-trading-agent"
+   },
+   {
+    "title": "The Open-Source Kalshi Bot Ecosystem: 30+ Projects (2026)",
+    "url": "https://www.botforkalshi.com/blog/open-source-kalshi-bot-ecosystem"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q12",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi weather contracts NWS model NBM ensemble forecast edge trading temperature",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:10:02-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 7,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "1f997ad00aea3b757fd2964f9c29902cff681cc56af8a17fbd6fd6bbf1f89375",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Weather and Climate Event Contracts on Kalshi - NexusFi Academy",
+    "url": "https://nexusfi.com/a/prediction-markets/weather-event-contracts"
+   },
+   {
+    "title": "GitHub - suislanchez/polymarket-kalshi-weather-bot",
+    "url": "https://github.com/suislanchez/polymarket-kalshi-weather-bot"
+   },
+   {
+    "title": "Prediction Market Trading Bot for Kalshi",
+    "url": "https://predictandprofit.io/prediction-market-trading-bot"
+   },
+   {
+    "title": "What I Learned Losing Money on Kalshi Weather Markets - MAXIMUS",
+    "url": "https://www.northlakelabs.com/max/blog/kalshi-weather-postmortem-and-pivot/"
+   },
+   {
+    "title": "Weather Edge Tool - Kalshi Temperature Market Edge Finder",
+    "url": "https://predictionmarketspicks.com/tools/weather"
+   },
+   {
+    "title": "Kalshi Weather Edge - Beat Weather Markets with NOAA Data",
+    "url": "https://www.kalshiweatheredge.com/"
+   },
+   {
+    "title": "How to Trade Kalshi Weather Markets: 2026 Strategy Guide",
+    "url": "https://www.botforkalshi.com/blog/kalshi-weather-trading-strategy"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q13",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi sportsbook line arbitrage vig-free implied probability event contract vs sportsbook price",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:11:40-05:00",
+  "executed_at_precision": "bounded",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 8,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "5d3d2686cca3ff9b2a2312a337502603a6f446a4a59427f998fcd87d8c09bb16",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Sportsbooks or Commodity Exchanges? The Rising Legal Tensions",
+    "url": "https://www.stinson.com/newsroom-publications-sportsbooks-or-commodity-exchanges-the-rising-legal-tensions-between-sports-betting-and-prediction-markets"
+   },
+   {
+    "title": "US federal court rules platform Kalshi can continue offering sport event contracts",
+    "url": "https://www.jurist.org/news/2026/04/us-federal-court-rules-platform-kalshi-can-continue-offering-sport-event-contracts-during-litigation/"
+   },
+   {
+    "title": "Prediction Market Arbitrage Guide: Strategies for 2026",
+    "url": "https://newyorkcityservers.com/blog/prediction-market-arbitrage-guide"
+   },
+   {
+    "title": "Kalshi Arbitrage Betting: How to Lock In Profit Between Prediction Markets and Sportsbooks",
+    "url": "https://www.avo.bet/articles/kalshi-arbitrage-betting"
+   },
+   {
+    "title": "Kalshi vs Polymarket Arbitrage: Bot Guide 2026",
+    "url": "https://clawarbs.com/blog/kalshi-vs-polymarket-arbitrage/"
+   },
+   {
+    "title": "Event Contract Arbitrage Calculator for Kalshi, Polymarket & More",
+    "url": "https://www.eventarb.com/"
+   },
+   {
+    "title": "How Event Contracts at Kalshi Differ From Sports Betting",
+    "url": "https://www.gamingtoday.com/news/kalshi-event-contracts-vs-sports-betting/"
+   },
+   {
+    "title": "Kalshi Sports & Player Props: AI Picks For Event Contracts",
+    "url": "https://propsbot.ai/kalshi-sports-player-props/"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q14",
+  "seed_id": 5,
+  "seed_name": "Timing and latency around scheduled data releases",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi economic data release trading strategy seconds after print BLS embargo repricing",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:11:40-05:00",
+  "executed_at_precision": "bounded",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 6,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "5477e1d9ab8e5f02b1adf4b082de3111cc8cb46a931d9fa660fc2e596b6b8e1d",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Economic Data Release Alerts: Monitor BLS CPI, Jobs Report",
+    "url": "https://pagecrawl.io/blog/economic-data-release-revision-monitoring-bls-bea"
+   },
+   {
+    "title": "How to Trade on Kalshi (August 2026): 13-Step Beginner Guide",
+    "url": "https://tech-insider.org/prediction-markets/how-to-trade-on-kalshi/"
+   },
+   {
+    "title": "7 Kalshi Trading Strategies, Explained (2026)",
+    "url": "https://www.botforkalshi.com/blog/kalshi-trading-strategies-guide"
+   },
+   {
+    "title": "Trading The CPI Print On Kalshi: How Kalshi Inflation Market",
+    "url": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-cpi-inflation-markets"
+   },
+   {
+    "title": "Kalshi Economic Markets: Fed, CPI And Jobs Contracts",
+    "url": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-economic-markets"
+   },
+   {
+    "title": "Kalshi Trading Strategies: 6 That Work in 2026 - Kairos",
+    "url": "https://kairos.trade/blog/kalshi-trading-strategies"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q15",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi inflation swap breakeven CPI contract hedge basis practitioner",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:11:40-05:00",
+  "executed_at_precision": "bounded",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "08f7a93bd321d7da2080e953a1068da3af585d59a963b96d8130575d51edbd5c",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Finance and Economics Discussion Series Federal Reserve Board",
+    "url": "https://www.federalreserve.gov/econres/feds/files/2026010pap.pdf"
+   },
+   {
+    "title": "Inflation and CPI Swaps - How Do They Work? - DayTrading.com",
+    "url": "https://www.daytrading.com/inflation-cpi-swaps"
+   },
+   {
+    "title": "Trading Activity and Price Transparency in the Inflation Swap Market",
+    "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/2013/0513flem.pdf"
+   },
+   {
+    "title": "Sick of inflation? Trade directly against it",
+    "url": "https://kalshi.com/blog/article/inflation"
+   },
+   {
+    "title": "Kalshi predicts tamer inflation ahead of Wednesday's CPI report",
+    "url": "https://cryptobriefing.com/kalshi-predicts-tamer-inflation-cpi-report/"
+   },
+   {
+    "title": "Asset Managers",
+    "url": "https://institutional.kalshi.com/asset-managers"
+   },
+   {
+    "title": "Sick of inflation? Trade directly against it",
+    "url": "https://news.kalshi.com/p/inflation"
+   },
+   {
+    "title": "Inflation swap",
+    "url": "https://en.wikipedia.org/wiki/Inflation_swap"
+   },
+   {
+    "title": "The Shape of Macroeconomic Beliefs",
+    "url": "https://arxiv.org/pdf/2606.30040"
+   },
+   {
+    "title": "Market-implied inflation expectations",
+    "url": "https://macrosynergy.com/academy/notebooks/market-implied-inflation-expectations/"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q16",
+  "seed_id": 8,
+  "seed_name": "Inventory and capital-efficiency structures specific to fully-collateralised binaries",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi interest on cash balance collateral yield event contracts carry",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:14:06-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "c36547502c3b09110672c03dc3570cf611b042e867cd07e49797c904d58de2b3",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Kalshi Review 2026: Comprehensive Event Contract Trading",
+    "url": "https://www.finder.com/stock-trading/kalshi-review"
+   },
+   {
+    "title": "APY on Kalshi",
+    "url": "https://help.kalshi.com/en/articles/13823847-apy-on-kalshi"
+   },
+   {
+    "title": "Earn While You Wait: Kalshi's APY Program Now Pays Interest on Cash Balances",
+    "url": "https://predictionnews.com/industry/earn-while-you-wait-kalshi-apy-program-pays-interest-on-cash-balances"
+   },
+   {
+    "title": "Kalshi Event Contracts Explained: How They Work In Simple Terms",
+    "url": "https://next.io/prediction-markets/kalshi/event-contracts/"
+   },
+   {
+    "title": "Working with Event Contracts",
+    "url": "https://news.kalshi.com/p/what-are-event-contracts"
+   },
+   {
+    "title": "What is Kalshi Prediction Market?",
+    "url": "https://www.ledger.com/academy/topics/economics-and-regulation/what-is-kalshi-prediction-market"
+   },
+   {
+    "title": "Starting today, Kalshi will pay you 4.05% interest on your cash",
+    "url": "https://news.kalshi.com/p/interest-cash-open-positions"
+   },
+   {
+    "title": "I lost $30k after misunderstanding Kalshi's void rules. Here's how to fix them.",
+    "url": "https://ufoholdings.substack.com/p/i-lost-30k-due-to-kalshis-void-rules"
+   },
+   {
+    "title": "How to Trade on Kalshi (August 2026): 13-Step Beginner Guide",
+    "url": "https://tech-insider.org/prediction-markets/how-to-trade-on-kalshi/"
+   },
+   {
+    "title": "How Does Kalshi Payout Work? Contracts & Settlement (2026)",
+    "url": "https://tech-insider.org/prediction-markets/how-does-kalshi-payout-work/"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q17",
+  "seed_id": 4,
+  "seed_name": "Settlement-source and resolution-rule edge cases",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi early settlement market closes before expiration contract settles early strategy",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:14:06-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "58fe3f018847dcf52e4a350c09ac4d3e3001eca7417b48081f7376a9c020649f",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Market Settlement - API Documentation",
+    "url": "https://docs.kalshi.com/getting_started/market_settlement"
+   },
+   {
+    "title": "How Kalshi and Polymarket Settle Markets (and Disputes)",
+    "url": "https://defirate.com/prediction-markets/how-contracts-settle/"
+   },
+   {
+    "title": "Market Lifecycle - API Documentation",
+    "url": "https://docs.kalshi.com/getting_started/market_lifecycle"
+   },
+   {
+    "title": "What is the market life cycle?",
+    "url": "https://news.kalshi.com/p/what-is-the-market-life-cycle"
+   },
+   {
+    "title": "How to Trade on Kalshi (August 2026): 13-Step Beginner Guide",
+    "url": "https://tech-insider.org/prediction-markets/how-to-trade-on-kalshi/"
+   },
+   {
+    "title": "Market FAQs",
+    "url": "https://help.kalshi.com/en/articles/13823821-market-faqs"
+   },
+   {
+    "title": "Crypto 15 Minute Markets: Live Kalshi vs Polymarket BTC, ETH & Solana",
+    "url": "https://defirate.com/prediction-markets/crypto/"
+   },
+   {
+    "title": "How Does Kalshi Payout Work? Contracts & Settlement (2026)",
+    "url": "https://tech-insider.org/prediction-markets/how-does-kalshi-payout-work/"
+   },
+   {
+    "title": "Kalshi Codifies Death Settlement Rule Amid Khamenei Market Controversy",
+    "url": "https://gamingamerica.com/news/1044225/kalshi-makes-death-rule-official-after-controversial-khamenei-market"
+   },
+   {
+    "title": "Kalshi Jobs Report Markets: Closed One Minute",
+    "url": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-jobs-report-markets"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q18",
+  "seed_id": 5,
+  "seed_name": "Timing and latency around scheduled data releases",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi API rate limit tiers order throughput constraint market maker access",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:14:06-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 9,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "6e00f17414aa60acc1b090153ecbcae435f46652c48d5a6cbfece03c94024529",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Rate Limits and Tiers - API Documentation",
+    "url": "https://docs.kalshi.com/getting_started/rate_limits"
+   },
+   {
+    "title": "Kalshi API: The Complete Developer's Guide - DEV Community",
+    "url": "https://zuplo.com/learning-center/kalshi-api"
+   },
+   {
+    "title": "Kalshi API - Kalshi Research Platform",
+    "url": "https://the-obstacle-is-the-way.github.io/kalshi-starter-code-python/_vendor-docs/kalshi-api-reference/"
+   },
+   {
+    "title": "API Changelog - API Documentation",
+    "url": "https://docs.kalshi.com/changelog"
+   },
+   {
+    "title": "Kalshi API Tutorial: Auth, WebSockets, Rate Limits & Orders",
+    "url": "https://www.botforkalshi.com/blog/kalshi-api-tutorial"
+   },
+   {
+    "title": "Kalshi API Tutorial: Build a Python Trading Bot (2026)",
+    "url": "https://www.botforkalshi.com/blog/kalshi-api-rate-limits"
+   },
+   {
+    "title": "Kalshi API Guide: Market Data & Historical Books",
+    "url": "https://depthfeed.com/resources/kalshi-api-guide"
+   },
+   {
+    "title": "Kalshi API: The Complete Developer Guide (2026)",
+    "url": "https://www.parlay.run/kalshi-api"
+   },
+   {
+    "title": "Kalshi API & Trading Bot Tutorial (2026, Python)",
+    "url": "https://www.alphascope.app/blog/kalshi-api"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q19",
+  "seed_id": 6,
+  "seed_name": "Maker-incentive and fee-structure exploitation",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi self-trade prevention wash trade rule order cancel restriction trading practice",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:14:06-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "c538303c7d92ee89d835a15dad9caec1b4c6430249c346955eb7bb8f99499c2b",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "WIP Copy of Kalshi Klear Rulebook v1.2 (based on v1.1)",
+    "url": "https://www.cftc.gov/sites/default/files/filings/orgrules/25/05/rules05022520613.pdf"
+   },
+   {
+    "title": "KalshiEX LLC Rulebook Date: 2025 Version 1.18 Appendix A",
+    "url": "https://www.cftc.gov/filings/orgrules/rules07012525155.pdf"
+   },
+   {
+    "title": "v1.2 Kalshi Ideas Community Guidelines",
+    "url": "https://kalshi-public-docs.s3.amazonaws.com/Kalshi+Ideas+Community+Guidelines.pdf"
+   },
+   {
+    "title": "KalshiEX LLC Rulebook Version: 1.29",
+    "url": "https://kalshi-public-docs.s3.amazonaws.com/regulatory/rulebook/Kalshi%20DCM%20Rulebook%20v.1.29.pdf"
+   },
+   {
+    "title": "Voluntary Self-Exclusion",
+    "url": "https://help.kalshi.com/en/articles/13823789-voluntary-self-exclusion"
+   },
+   {
+    "title": "Wash trade",
+    "url": "https://en.wikipedia.org/wiki/Wash_trade"
+   },
+   {
+    "title": "February 18, 2025 SUBMITTED VIA CFTC PORTAL",
+    "url": "https://www.cftc.gov/sites/default/files/filings/orgrules/25/02/rules02172515652.pdf"
+   },
+   {
+    "title": "The Complete Guide to Kalshi Trading Bots (2026)",
+    "url": "https://www.botforkalshi.com/blog/kalshi-trading-bots-complete-guide"
+   },
+   {
+    "title": "How to Trade on Kalshi (August 2026): 13-Step Beginner Guide",
+    "url": "https://tech-insider.org/prediction-markets/how-to-trade-on-kalshi/"
+   },
+   {
+    "title": "FAQ",
+    "url": "https://kalshi.com/faq"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q20",
+  "seed_id": 2,
+  "seed_name": "Combinatorial and negative-risk baskets over multi-outcome series",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi combos multi-leg parlay contract price versus product of individual legs coherence",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:15:28-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "3e1b208fabde83e060ab79ece764d800231336e7aa4d28767b4af32e338d6219",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "Can I make Parlays on Kalshi? Kalshi Combo Trading",
+    "url": "https://www.goal.com/en-us/betting/kalshi-parlays/A%3Ablt7d2603cc0a2768bf"
+   },
+   {
+    "title": "Kalshi Parlay Calculator - Joint Probability & Combo Builder",
+    "url": "https://predictionmarketspicks.com/tools/combo-builder"
+   },
+   {
+    "title": "Kalshi Combos Hub - Parlay Calculator, Same-Game Edge & How Combos Work",
+    "url": "https://predictionmarketspicks.com/kalshi-combos"
+   },
+   {
+    "title": "Kalshi Parlay Strategy: How Multi-Leg Bets Work (2026)",
+    "url": "https://www.botforkalshi.com/blog/kalshi-parlay-strategy"
+   },
+   {
+    "title": "Kalshi Parlays FAQ - Combos, Regulation & Multi-Leg Bets Explained",
+    "url": "https://kalshi-parlays.com/faq"
+   },
+   {
+    "title": "How Kalshi Combos Work - Complete Guide to Multi-Leg Contracts",
+    "url": "https://kalshi-parlays.com/combos-guide"
+   },
+   {
+    "title": "How Kalshi Combos Actually Work, Step by Step",
+    "url": "https://predictionsmarketfans.com/research/how-kalshi-combos-actually-work-step-by-step"
+   },
+   {
+    "title": "Kalshi Parlays: How Combos Work vs Sportsbook Parlays",
+    "url": "https://www.predictionhunt.com/blog/prediction-market-parlays-kalshi-combos-explained"
+   },
+   {
+    "title": "How Do Combos Work on Kalshi? Rules, Pricing, Payouts",
+    "url": "https://predictionmarketspicks.com/articles/how-kalshi-combos-work"
+   },
+   {
+    "title": "Can You Parlay on Kalshi? Platform Rules Explained",
+    "url": "https://www.sportsgambler.com/prediction-markets/kalshi/parlay/"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q21",
+  "seed_id": 1,
+  "seed_name": "Intra-series coherence across strike ladders and mutually exclusive outcomes",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi duplicate market same event two series different tickers price divergence within exchange",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:15:28-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 22,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "640765f33ffa5a366087a04eea8425b3f950a6c8b1d19cb3a7555b8fa8459c37",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "When Markets Disagree: Prediction Odds and Options-Implied Probabilities",
+    "url": "https://www.investing.com/analysis/when-markets-disagree-prediction-odds-and-optionsimplied-probabilities-200685270"
+   },
+   {
+    "title": "7 Kalshi Trading Strategies, Explained (2026)",
+    "url": "https://www.botforkalshi.com/blog/kalshi-trading-strategies-guide"
+   },
+   {
+    "title": "Kalshi vs Polymarket Arbitrage: Find Price Gaps in 2026",
+    "url": "https://predictionmarketspicks.com/articles/cross-platform-arbitrage-prediction-markets"
+   },
+   {
+    "title": "Why Kalshi and Polymarket Price the Same Market Differently",
+    "url": "https://www.predictionhunt.com/blog/why-same-market-different-prices-kalshi-polymarket"
+   },
+   {
+    "title": "Kalshi Vs Polymarket Rules: Same Event, Different Winners",
+    "url": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-vs-polymarket-settlement-rules"
+   },
+   {
+    "title": "Kalshi Glossary - API Documentation",
+    "url": "https://docs.kalshi.com/getting_started/terms"
+   },
+   {
+    "title": "Who are you trading with?",
+    "url": "https://help.kalshi.com/en/articles/13823808-who-are-you-trading-with"
+   },
+   {
+    "title": "How Kalshi and Polymarket Settle Event Contracts (and Disputes)",
+    "url": "https://defirate.com/prediction-markets/how-contracts-settle/"
+   },
+   {
+    "title": "Working with Event Contracts",
+    "url": "https://kalshi.com/blog/article/what-are-event-contracts"
+   },
+   {
+    "title": "How does Kalshi work? The complete walkthrough",
+    "url": "https://predictionmarkets101.com/how-does-kalshi-work"
+   },
+   {
+    "title": "Sportsbooks or Commodity Exchanges?",
+    "url": "https://www.stinson.com/newsroom-publications-sportsbooks-or-commodity-exchanges-the-rising-legal-tensions-between-sports-betting-and-prediction-markets"
+   },
+   {
+    "title": "Kalshi API Guide: Market Data & Historical Books",
+    "url": "https://depthfeed.com/resources/kalshi-api-guide"
+   },
+   {
+    "title": "Lookup Tickers For Market In Multivariate Event Collection - API",
+    "url": "https://docs.kalshi.com/api-reference/multivariate/lookup-tickers-for-market-in-multivariate-event-collection"
+   },
+   {
+    "title": "Working with Event Contracts",
+    "url": "https://news.kalshi.com/p/what-are-event-contracts"
+   },
+   {
+    "title": "What Is Kalshi? A Beginner's Guide",
+    "url": "https://news.kalshi.com/p/what-is-kalshi-f573"
+   },
+   {
+    "title": "Polymarket + Kalshi Arbitrage Finder - Apify",
+    "url": "https://apify.com/congism/polymarket-kalshi-arb-finder"
+   },
+   {
+    "title": "How Prediction Market Arbitrage Works (Polymarket, Kalshi)",
+    "url": "https://www.trevorlasn.com/blog/how-prediction-market-polymarket-kalshi-arbitrage-works"
+   },
+   {
+    "title": "Prediction Market Arbitrage Guide: Strategies for 2026",
+    "url": "https://newyorkcityservers.com/blog/prediction-market-arbitrage-guide"
+   },
+   {
+    "title": "Polymarket Kalshi Arbitrage Trading Bot Guide 2026 | TradingVPS",
+    "url": "https://tradingvps.io/polymarket-vs-kalshi-arbitrage-trading-bot/"
+   },
+   {
+    "title": "Kalshi vs Polymarket Arbitrage Live (Aug 2026) Guide",
+    "url": "https://predterminal.com/blog/kalshi-vs-polymarket-live-arbitrage-august-2026-whales-price-gaps-safe-trading"
+   },
+   {
+    "title": "Kalshi Arbitrage Scanner - Kalshi vs Polymarket Cross-Platform Gaps",
+    "url": "https://predictionmarketspicks.com/tools/arb-scanner"
+   },
+   {
+    "title": "Kalshi vs Polymarket Arbitrage Opportunities 2026: Fees, Spreads",
+    "url": "https://news.dropstab.com/research/kalshi-vs-polymarket"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-Q22",
+  "seed_id": 7,
+  "seed_name": "Liquidity-provision programs",
+  "query_kind": "search",
+  "query_verbatim": "Kalshi order book depth thin market liquidity provision practitioner spread capture inventory writeup",
+  "endpoint": "WebSearch tool (Claude Code / Claude Agent SDK built-in web search; US-only index). The tool does not expose the upstream provider URL or the raw HTTP response body.",
+  "executed_at": "2026-09-04T10:15:28-05:00",
+  "executed_at_precision": "exact",
+  "http_status": null,
+  "http_status_note": "Not exposed by the WebSearch tool. A non-error result was returned for every entry below.",
+  "n_returned": 10,
+  "n_total_reported": null,
+  "n_total_reported_note": "The platform reports no total-hit count; truncation to the returned block is therefore possible and is flagged here.",
+  "payload_sha256": "d2ff951d1fabc545deab851080acab36a8456fcdd49fa7dad1e4e12f5870d5ea",
+  "payload_sha256_basis": "SHA-256 over the UTF-8 bytes of json.dumps(result_links, separators=(',',':'), ensure_ascii=False), where result_links is the verbatim title/url list returned by the tool. The tool returns no raw HTTP bytes, so a digest over an HTTP response body is not recordable for search entries; the basis is declared here per protocol section 3.0.",
+  "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-lateral-queries.json (inline, field result_links)",
+  "result_links": [
+   {
+    "title": "prediction-markets-reading/articles/prediction-market-orderbook-analysis",
+    "url": "https://github.com/spfunctions/prediction-markets-reading/blob/main/articles/prediction-market-orderbook-analysis-depth-spread-liquidity.md"
+   },
+   {
+    "title": "Kalshi Publishes One Liquidity Subsidy and Seals the Other",
+    "url": "https://x.com/navnoorquant/article/2088369227283751256"
+   },
+   {
+    "title": "Market Orderbook - Allium Documentation Hub",
+    "url": "https://docs.allium.so/historical-data/predictions/kalshi/market-orderbook"
+   },
+   {
+    "title": "How Prediction Market Order Books Work on Kalshi and Polymarket",
+    "url": "https://defirate.com/prediction-markets/how-order-books-work/"
+   },
+   {
+    "title": "Liquidity Incentive Program",
+    "url": "https://help.kalshi.com/en/articles/13823851-liquidity-incentive-program"
+   },
+   {
+    "title": "Kalshi Publishes One Liquidity Subsidy and Seals the Other.",
+    "url": "https://www.navnoorbawaresearch.com/p/kalshi-publishes-one-liquidity-subsidy"
+   },
+   {
+    "title": "How to Read a Kalshi Orderbook: A Beginner's Guide - EventEdge",
+    "url": "https://eventedgehq.com/blog/how-to-read-kalshi-orderbook"
+   },
+   {
+    "title": "How to Evaluate Prediction Market Liquidity Before You Trade",
+    "url": "https://www.predictionhunt.com/blog/how-to-evaluate-prediction-market-liquidity"
+   },
+   {
+    "title": "How to Become a Market Maker on Kalshi",
+    "url": "https://help.kalshi.com/en/articles/13823819-how-to-become-a-market-maker-on-kalshi"
+   },
+   {
+    "title": "Orderbook Responses - API Documentation",
+    "url": "https://docs.kalshi.com/getting_started/orderbook_responses"
+   }
+  ],
+  "retry_of": null
+ },
+ {
+  "query_id": "KSL-R01",
+  "seed_id": 1,
+  "seed_name": "Intra-series coherence across strike ladders and mutually exclusive outcomes",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.botforkalshi.com/blog/kalshi-arbitrage-guide",
+  "endpoint": "https://www.botforkalshi.com/blog/kalshi-arbitrage-guide",
+  "executed_at": "2026-09-04T10:10:43-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "eed5742777a4c7d4251f714b094493638b4ebc543f057b1a68ea0c30762745c3",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 58023,
+  "local_name": "s1_botforkalshi_arb",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R02",
+  "seed_id": 1,
+  "seed_name": "Intra-series coherence across strike ladders and mutually exclusive outcomes",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.oddsshopper.com/articles/prediction-markets/kalshi-commodity-markets",
+  "endpoint": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-commodity-markets",
+  "executed_at": "2026-09-04T10:10:45-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "23861fe9c5e041f1881b7617425c89586420ceed24ed6e58bde082ec64a4c932",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 190847,
+  "local_name": "s1_oddsshopper_ladder",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R03",
+  "seed_id": 2,
+  "seed_name": "Combinatorial and negative-risk baskets over multi-outcome series",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://docs.polymarket.com/concepts/negative-risk",
+  "endpoint": "https://docs.polymarket.com/concepts/negative-risk",
+  "executed_at": "2026-09-04T10:10:46-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "7a064f1ba633b16a928ed9061e69d9464865c15e856be2d0874fb7934de89693",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 384216,
+  "local_name": "s2_polymarket_negrisk",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R04",
+  "seed_id": 2,
+  "seed_name": "Combinatorial and negative-risk baskets over multi-outcome series",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://github.com/Polymarket/neg-risk-ctf-adapter",
+  "endpoint": "https://github.com/Polymarket/neg-risk-ctf-adapter",
+  "executed_at": "2026-09-04T10:10:43-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "3814e588cd0fad0c6b96cdbeadb0bbc2a3acb41f166c33094d7c835a7f8aa026",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 277921,
+  "local_name": "s2_negrisk_adapter_gh",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R05",
+  "seed_id": 8,
+  "seed_name": "Inventory and capital-efficiency structures specific to fully-collateralised binaries",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://news.kalshi.com/p/collateral-return",
+  "endpoint": "https://news.kalshi.com/p/collateral-return",
+  "executed_at": "2026-09-04T10:10:44-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "722114f41ce355c70116e440e49a5e295cae37eb53784f73f5a785e7384678b1",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 786637,
+  "local_name": "s8_kalshi_collateral_return",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R06",
+  "seed_id": 4,
+  "seed_name": "Settlement-source and resolution-rule edge cases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://defirate.com/prediction-markets/how-contracts-settle/",
+  "endpoint": "https://defirate.com/prediction-markets/how-contracts-settle/",
+  "executed_at": "2026-09-04T10:10:44-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "02071bec2f56a56da9b4049b0a5cf0cfbced9823b11104118e914afab5b73be0",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 95778,
+  "local_name": "s4_defirate_settle",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R07",
+  "seed_id": 6,
+  "seed_name": "Maker-incentive and fee-structure exploitation",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://whirligigbear.substack.com/p/makertaker-math-on-kalshi",
+  "endpoint": "https://whirligigbear.substack.com/p/makertaker-math-on-kalshi",
+  "executed_at": "2026-09-04T10:10:44-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "56c539251eaf4c97accc0542aa54ac5746eb5c9a977c3d9c4f44e216ad0729e2",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 147442,
+  "local_name": "s6_whirligig_makertaker",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R08",
+  "seed_id": 6,
+  "seed_name": "Maker-incentive and fee-structure exploitation",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://blog.polytrage.com/kalshis-fee-structure-explained/",
+  "endpoint": "https://blog.polytrage.com/kalshis-fee-structure-explained/",
+  "executed_at": "2026-09-04T10:10:44-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "165441a385472128633a9903c569741e91a4d686807e5520a4a909cf9c4a3972",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 27036,
+  "local_name": "s6_polytrage_fees",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R09",
+  "seed_id": 7,
+  "seed_name": "Liquidity-provision programs",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://help.kalshi.com/en/articles/13823851-liquidity-incentive-program",
+  "endpoint": "https://help.kalshi.com/en/articles/13823851-liquidity-incentive-program",
+  "executed_at": "2026-09-04T10:10:44-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "dfc8373f145773ff1c740c5889298ef4d5c7a16f985271757c3dd90eeebfb2b1",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 104751,
+  "local_name": "s7_kalshi_lip",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R10",
+  "seed_id": 7,
+  "seed_name": "Liquidity-provision programs",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://help.kalshi.com/en/articles/15410219-liquidity-provider-program",
+  "endpoint": "https://help.kalshi.com/en/articles/15410219-liquidity-provider-program",
+  "executed_at": "2026-09-04T10:10:44-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "cf5c16cbc2d68d3b8f354edbdeb5f4300e349484a018918758ff0e8ffa10483c",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 89358,
+  "local_name": "s7_kalshi_lpp",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R11",
+  "seed_id": 7,
+  "seed_name": "Liquidity-provision programs",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://help.kalshi.com/en/articles/15410257-combo-incentive-program",
+  "endpoint": "https://help.kalshi.com/en/articles/15410257-combo-incentive-program",
+  "executed_at": "2026-09-04T10:10:44-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "404",
+  "n_returned": 0,
+  "n_total_reported": null,
+  "payload_sha256": "422ff86f519203f9330f70eb682607fef8891ad469b5f9afdeb672d400c2261b",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 50394,
+  "local_name": "s7_kalshi_combo",
+  "retry_of": null,
+  "disposition": "EXCLUDED Y4 (not retrievable): HTTP 404"
+ },
+ {
+  "query_id": "KSL-R12",
+  "seed_id": 10,
+  "seed_name": "Forecasting-model-driven approaches, including model-agent and LLM-agent forecasters",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://github.com/OctagonAI/kalshi-trading-bot-cli",
+  "endpoint": "https://github.com/OctagonAI/kalshi-trading-bot-cli",
+  "executed_at": "2026-09-04T10:10:45-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "f1d20b13256f84a90e04a1ceb256581f56c88a3fc45fbf67ed94adae834051a8",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 470951,
+  "local_name": "s10_octagon_gh",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R13",
+  "seed_id": 10,
+  "seed_name": "Forecasting-model-driven approaches, including model-agent and LLM-agent forecasters",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.northlakelabs.com/max/blog/kalshi-weather-postmortem-and-pivot/",
+  "endpoint": "https://www.northlakelabs.com/max/blog/kalshi-weather-postmortem-and-pivot/",
+  "executed_at": "2026-09-04T10:10:44-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "70b441d5ab6f13b4e695715bcd6af1f8d8d38731233c01f235e7e9367330c71e",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 28778,
+  "local_name": "s10_northlake_postmortem",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R14",
+  "seed_id": 9,
+  "seed_name": "Account and tax structure where it bears on executability",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.convoyfinance.com/resources/kalshi-polymarket-taxes-llc-section-1256",
+  "endpoint": "https://www.convoyfinance.com/resources/kalshi-polymarket-taxes-llc-section-1256",
+  "executed_at": "2026-09-04T10:10:46-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "2a08a26f198571b420038fb6eb50b1816e460087871ce3666a8f27c10cae9785",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 48596,
+  "local_name": "s9_convoy_1256",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R15",
+  "seed_id": 5,
+  "seed_name": "Timing and latency around scheduled data releases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.botforkalshi.com/blog/kalshi-trading-strategies-guide",
+  "endpoint": "https://www.botforkalshi.com/blog/kalshi-trading-strategies-guide",
+  "executed_at": "2026-09-04T10:10:45-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "745cbba5f36c427c242db6800fd0f8fd10dfb5124ee1d4ecf49df43d991e71f5",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 63760,
+  "local_name": "s5_botforkalshi_strategies",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R16",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://github.com/suislanchez/polymarket-kalshi-weather-bot",
+  "endpoint": "https://github.com/suislanchez/polymarket-kalshi-weather-bot",
+  "executed_at": "2026-09-04T10:10:45-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "f6b9cebb641b12e85414ae0537fe5600ce523882352ff58ed4d59ed5fd958b8e",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 380699,
+  "local_name": "s3_weatherbot_gh",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R17",
+  "seed_id": 5,
+  "seed_name": "Timing and latency around scheduled data releases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.oddsshopper.com/articles/prediction-markets/kalshi-cpi-inflation-markets",
+  "endpoint": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-cpi-inflation-markets",
+  "executed_at": "2026-09-04T10:12:53-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "83c99c5c473681c303217d3ef71fd0d360dd6e3f0af3683d35b9fab8e6f42389",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 189468,
+  "local_name": "s5_oddsshopper_cpi",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R18",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.oddsshopper.com/articles/prediction-markets/kalshi-economic-markets",
+  "endpoint": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-economic-markets",
+  "executed_at": "2026-09-04T10:12:53-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "2a33400a547bc9160eb58c569ce2d1842830cc332372cdfa284ee4cdb6909ad3",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 205901,
+  "local_name": "s3_oddsshopper_econ",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R19",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.avo.bet/articles/kalshi-arbitrage-betting",
+  "endpoint": "https://www.avo.bet/articles/kalshi-arbitrage-betting",
+  "executed_at": "2026-09-04T10:12:52-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "46f0555f7293e1d9cb97e4edf139afe184b6b46aaca6cf4341d1a4d3f404b936",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 112398,
+  "local_name": "s3_avo_sportsbook",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R20",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://newyorkcityservers.com/blog/prediction-market-arbitrage-guide",
+  "endpoint": "https://newyorkcityservers.com/blog/prediction-market-arbitrage-guide",
+  "executed_at": "2026-09-04T10:12:54-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "a23af606ded4f558004140d686eb703c053829dd5c569440525e6f1e2ec4d64b",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 259006,
+  "local_name": "s3_nycs_arbguide",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R21",
+  "seed_id": 6,
+  "seed_name": "Maker-incentive and fee-structure exploitation",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://help.kalshi.com/en/articles/13823850-what-is-the-kalshi-volume-incentive-program",
+  "endpoint": "https://help.kalshi.com/en/articles/13823850-what-is-the-kalshi-volume-incentive-program",
+  "executed_at": "2026-09-04T10:12:51-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "7311c15756b82104365378b6d62cf6d6ec00e4f2c1f8648ef70777a73a5be5ef",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 90466,
+  "local_name": "s6_kalshi_vip",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R22",
+  "seed_id": 4,
+  "seed_name": "Settlement-source and resolution-rule edge cases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://kalshiview.com/blog/sports-on-kalshi-cftc-regulated-sports-contracts/",
+  "endpoint": "https://kalshiview.com/blog/sports-on-kalshi-cftc-regulated-sports-contracts/",
+  "executed_at": "2026-09-04T10:12:51-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "b074261b318d4b4692b3c930ebb708ddc29178d87eec17f72d2865e4e09ded7e",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 18105,
+  "local_name": "s4_kalshiview_sources",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R23",
+  "seed_id": 5,
+  "seed_name": "Timing and latency around scheduled data releases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://apidog.com/blog/kalshi-api-devolpers-guide/",
+  "endpoint": "https://apidog.com/blog/kalshi-api-devolpers-guide/",
+  "executed_at": "2026-09-04T10:12:55-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "d77616d6d1598919fd24d7ef12e618f0664a2d2eae50ffacb151561f630039bb",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 467900,
+  "local_name": "s5_apidog_api",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R24",
+  "seed_id": 10,
+  "seed_name": "Forecasting-model-driven approaches, including model-agent and LLM-agent forecasters",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://github.com/0mnjb/Kalshi-AI-Trading-Bot",
+  "endpoint": "https://github.com/0mnjb/Kalshi-AI-Trading-Bot",
+  "executed_at": "2026-09-04T10:12:52-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "404",
+  "n_returned": 0,
+  "n_total_reported": null,
+  "payload_sha256": "b239211f6b9d74d8831b1052ede8aaac126320c6365c571c67d8c84b2a9287cb",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 266956,
+  "local_name": "s10_0mnjb_gh",
+  "retry_of": null,
+  "disposition": "EXCLUDED Y4 (not retrievable): HTTP 404"
+ },
+ {
+  "query_id": "KSL-R25",
+  "seed_id": 10,
+  "seed_name": "Forecasting-model-driven approaches, including model-agent and LLM-agent forecasters",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://github.com/aarora4/Awesome-Prediction-Market-Tools",
+  "endpoint": "https://github.com/aarora4/Awesome-Prediction-Market-Tools",
+  "executed_at": "2026-09-04T10:12:53-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "668001e41888a17fe718f568a6e474a37cedff2cd77d479aa047899e5805547f",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 393605,
+  "local_name": "s10_awesome_tools_gh",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R26",
+  "seed_id": 7,
+  "seed_name": "Liquidity-provision programs",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://x.com/navnoorquant/article/2088369227283751256",
+  "endpoint": "https://x.com/navnoorquant/article/2088369227283751256",
+  "executed_at": "2026-09-04T10:12:53-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "7a1246fd97828009ea76302200939245998fb72ccfd96850c0b491ebd8c2a0ab",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 338260,
+  "local_name": "s7_navnoor_x",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R27",
+  "seed_id": 5,
+  "seed_name": "Timing and latency around scheduled data releases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://kairos.trade/blog/kalshi-trading-strategies",
+  "endpoint": "https://kairos.trade/blog/kalshi-trading-strategies",
+  "executed_at": "2026-09-04T10:12:53-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "2726e75ad8b287db4f7fd336a7f6ff84c5f02b6e9c6411a0e3177ad94f31b8dd",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 120390,
+  "local_name": "s5_kairos_strategies",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R28",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://news.kalshi.com/p/inflation",
+  "endpoint": "https://news.kalshi.com/p/inflation",
+  "executed_at": "2026-09-04T10:12:54-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "c7fc1f8563b6690c551b32e08f36a3b1b6cf7b73a2634f81d80d8967abd54c55",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 797353,
+  "local_name": "s3_kalshi_inflation_blog",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R29",
+  "seed_id": 2,
+  "seed_name": "Combinatorial and negative-risk baskets over multi-outcome series",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://pkg.go.dev/github.com/ivanzzeth/polymarket-go-gamma-client/examples/find-negrisk-opportunities",
+  "endpoint": "https://pkg.go.dev/github.com/ivanzzeth/polymarket-go-gamma-client/examples/find-negrisk-opportunities",
+  "executed_at": "2026-09-04T10:12:54-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "61f0b70ec0fe2e7530f8d660fdd0263dc07cbbe9a85f7e0c5b6372197d9a4e34",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 75946,
+  "local_name": "s2_negrisk_go_client",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R30",
+  "seed_id": 4,
+  "seed_name": "Settlement-source and resolution-rule edge cases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://mdf-law.com/kalshi-payout-disputes-attorney/",
+  "endpoint": "https://mdf-law.com/kalshi-payout-disputes-attorney/",
+  "executed_at": "2026-09-04T10:12:54-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "69623b3ebd6b33abd5d127e1005a3d824d2982e4a1b7fd7fb5d185014901f06c",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 104670,
+  "local_name": "s4_mdf_disputes",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R31",
+  "seed_id": 8,
+  "seed_name": "Inventory and capital-efficiency structures specific to fully-collateralised binaries",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://medium.com/@mgoelzer/kalshi-market-mechanics-9f4bdec45e84",
+  "endpoint": "https://medium.com/@mgoelzer/kalshi-market-mechanics-9f4bdec45e84",
+  "executed_at": "2026-09-04T10:12:55-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "605668ac7a6c56cc8489149588c927fe58c5ec9234e258c6fc47ef9720f2c6d6",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 143889,
+  "local_name": "s8_mgoelzer_mechanics",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R32",
+  "seed_id": 1,
+  "seed_name": "Intra-series coherence across strike ladders and mutually exclusive outcomes",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.predictionhunt.com/blog/kalshi-vs-polymarket-arbitrage",
+  "endpoint": "https://www.predictionhunt.com/blog/kalshi-vs-polymarket-arbitrage",
+  "executed_at": "2026-09-04T10:12:55-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "8518c4403a9eedde788d9061267911bdbfcf7bc76310bbfce30ce17f8a9b36a5",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 143058,
+  "local_name": "s1_predictionhunt_arb",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R33",
+  "seed_id": 8,
+  "seed_name": "Inventory and capital-efficiency structures specific to fully-collateralised binaries",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://help.kalshi.com/en/articles/13823847-apy-on-kalshi",
+  "endpoint": "https://help.kalshi.com/en/articles/13823847-apy-on-kalshi",
+  "executed_at": "2026-09-04T10:14:35-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "76fb49a8e8f16db37c84d7f81035f1d9065c9f2b9ea6140da026bd4e6aaf6116",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 78348,
+  "local_name": "s8_kalshi_apy",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R34",
+  "seed_id": 8,
+  "seed_name": "Inventory and capital-efficiency structures specific to fully-collateralised binaries",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://news.kalshi.com/p/interest-cash-open-positions",
+  "endpoint": "https://news.kalshi.com/p/interest-cash-open-positions",
+  "executed_at": "2026-09-04T10:14:36-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "1f09bd13154d4f146f453fdd6fe5c6d023b0db182fad2526fc625b8e04a30b2e",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 783760,
+  "local_name": "s8_kalshi_interest_blog",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R35",
+  "seed_id": 4,
+  "seed_name": "Settlement-source and resolution-rule edge cases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://ufoholdings.substack.com/p/i-lost-30k-due-to-kalshis-void-rules",
+  "endpoint": "https://ufoholdings.substack.com/p/i-lost-30k-due-to-kalshis-void-rules",
+  "executed_at": "2026-09-04T10:14:35-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "3129c34114fcf0e30bc2af28d30b8a80092c7484d0a2107e11c58e0ec395bbaf",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 195462,
+  "local_name": "s4_ufo_void_rules",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R36",
+  "seed_id": 4,
+  "seed_name": "Settlement-source and resolution-rule edge cases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://docs.kalshi.com/getting_started/market_lifecycle",
+  "endpoint": "https://docs.kalshi.com/getting_started/market_lifecycle",
+  "executed_at": "2026-09-04T10:14:38-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "e64499bc2b06d0ef38d433989b94ddcbc33e667d98037f0927356043348f487f",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 250530,
+  "local_name": "s4_kalshi_lifecycle_api",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R37",
+  "seed_id": 5,
+  "seed_name": "Timing and latency around scheduled data releases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://docs.kalshi.com/getting_started/rate_limits",
+  "endpoint": "https://docs.kalshi.com/getting_started/rate_limits",
+  "executed_at": "2026-09-04T10:14:38-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "3c7a9b2b702b66be5a0a2765522d373609fef91181e3bb4227977878371b19a1",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 285570,
+  "local_name": "s5_kalshi_ratelimits_api",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R38",
+  "seed_id": 4,
+  "seed_name": "Settlement-source and resolution-rule edge cases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://docs.kalshi.com/getting_started/market_settlement",
+  "endpoint": "https://docs.kalshi.com/getting_started/market_settlement",
+  "executed_at": "2026-09-04T10:14:38-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "da562a32108ca5d1e1041838e0204d1a8269ff53e99fc637f3abd3fefc016619",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 214166,
+  "local_name": "s4_kalshi_settlement_api",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R39",
+  "seed_id": 4,
+  "seed_name": "Settlement-source and resolution-rule edge cases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://gamingamerica.com/news/1044225/kalshi-makes-death-rule-official-after-controversial-khamenei-market",
+  "endpoint": "https://gamingamerica.com/news/1044225/kalshi-makes-death-rule-official-after-controversial-khamenei-market",
+  "executed_at": "2026-09-04T10:14:37-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "b0cdcd804833be7f1e3ddedd5935f6a638e7ba0e87a83bfb245488c2489936d7",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 264795,
+  "local_name": "s4_gamingamerica_death_rule",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R40",
+  "seed_id": 5,
+  "seed_name": "Timing and latency around scheduled data releases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.oddsshopper.com/articles/prediction-markets/kalshi-jobs-report-markets",
+  "endpoint": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-jobs-report-markets",
+  "executed_at": "2026-09-04T10:14:37-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "ebebacea42c4521748f2433d5d8a8bb27c393e45255643e409dd867513555bda",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 197998,
+  "local_name": "s5_oddsshopper_jobs",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R41",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.botforkalshi.com/blog/kalshi-weather-trading-strategy",
+  "endpoint": "https://www.botforkalshi.com/blog/kalshi-weather-trading-strategy",
+  "executed_at": "2026-09-04T10:14:37-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "e33800389d5b469a875f8f55a42fa4035cba78eceb2bb585fc4c3d85c076abbe",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 53869,
+  "local_name": "s3_botforkalshi_weather",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R42",
+  "seed_id": 5,
+  "seed_name": "Timing and latency around scheduled data releases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.botforkalshi.com/blog/kalshi-api-rate-limits",
+  "endpoint": "https://www.botforkalshi.com/blog/kalshi-api-rate-limits",
+  "executed_at": "2026-09-04T10:14:37-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "a83b9a8d269d7dbe8d22f738cf89cf9fe4f34c90d099ab6b40d1ffaff137c730",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 65496,
+  "local_name": "s5_botforkalshi_ratelimits",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R43",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.kalshiweatheredge.com/",
+  "endpoint": "https://www.kalshiweatheredge.com/",
+  "executed_at": "2026-09-04T10:14:38-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "a6db19e8f71b82cdb8d21ceed309ef8607abc2ae1d25f688559723ff08eaf627",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 50853,
+  "local_name": "s3_kalshiweatheredge",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R44",
+  "seed_id": 7,
+  "seed_name": "Liquidity-provision programs",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://help.kalshi.com/en/articles/16076644-liquidity-and-volume-incentive-programs-where-to-find-them",
+  "endpoint": "https://help.kalshi.com/en/articles/16076644-liquidity-and-volume-incentive-programs-where-to-find-them",
+  "executed_at": "2026-09-04T10:14:38-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "85b2e39859a13b1df7de0c92c842390986a11ee4a5dff4488676310960b18039",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 104073,
+  "local_name": "s7_kalshi_programs_where",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R45",
+  "seed_id": 10,
+  "seed_name": "Forecasting-model-driven approaches, including model-agent and LLM-agent forecasters",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.botforkalshi.com/blog/open-source-kalshi-bot-ecosystem",
+  "endpoint": "https://www.botforkalshi.com/blog/open-source-kalshi-bot-ecosystem",
+  "executed_at": "2026-09-04T10:14:38-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "fe568c93a47a807a84adb16cd684d5c55da0a167491096df14b30770caff5443",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 99013,
+  "local_name": "s10_bot_ecosystem",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R46",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://nexusfi.com/a/prediction-markets/weather-event-contracts",
+  "endpoint": "https://nexusfi.com/a/prediction-markets/weather-event-contracts",
+  "executed_at": "2026-09-04T10:14:39-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "9fabe183188b54a79eef531d35a5c30d7db9c7253a09791bb705c004b53bd0fd",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 204507,
+  "local_name": "s3_nexusfi_weather",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R47",
+  "seed_id": 9,
+  "seed_name": "Account and tax structure where it bears on executability",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.natptax.com/news-insights/blog/prediction-market-contracts-are-showing-up-on-client-returns/",
+  "endpoint": "https://www.natptax.com/news-insights/blog/prediction-market-contracts-are-showing-up-on-client-returns/",
+  "executed_at": "2026-09-04T10:14:38-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "6dc1c4d2f3a1e6111f0aa303125027e8847311776f6bfc1962f5f058a464dac9",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 157664,
+  "local_name": "s9_natp_taxblog",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R48",
+  "seed_id": 6,
+  "seed_name": "Maker-incentive and fee-structure exploitation",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://marketmath.io/platforms/kalshi",
+  "endpoint": "https://marketmath.io/platforms/kalshi",
+  "executed_at": "2026-09-04T10:14:39-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "ba859a5b77026aebba2fa7f4856ee503c1fd7258ae2819bfc5a743ab55c52f35",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 102275,
+  "local_name": "s6_marketmath_fees",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R49",
+  "seed_id": 2,
+  "seed_name": "Combinatorial and negative-risk baskets over multi-outcome series",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.botforkalshi.com/blog/kalshi-parlay-strategy",
+  "endpoint": "https://www.botforkalshi.com/blog/kalshi-parlay-strategy",
+  "executed_at": "2026-09-04T10:15:57-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "649fca92502c41c0f8dcf0a173a4b4120d9af72a6f0695750abbbb15e0e4c024",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 56143,
+  "local_name": "s2_botforkalshi_parlay",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R50",
+  "seed_id": 4,
+  "seed_name": "Settlement-source and resolution-rule edge cases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.oddsshopper.com/articles/prediction-markets/kalshi-vs-polymarket-settlement-rules",
+  "endpoint": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-vs-polymarket-settlement-rules",
+  "executed_at": "2026-09-04T10:15:59-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "a31131da569d9bfb22d84f4aedf84de4824c4e29cefaa4ad9a94d7540c77ce95",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 205704,
+  "local_name": "s4_oddsshopper_settlerules",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R51",
+  "seed_id": 7,
+  "seed_name": "Liquidity-provision programs",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://help.kalshi.com/en/articles/13823819-how-to-become-a-market-maker-on-kalshi",
+  "endpoint": "https://help.kalshi.com/en/articles/13823819-how-to-become-a-market-maker-on-kalshi",
+  "executed_at": "2026-09-04T10:15:57-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "9f5bc34e18d24fc52d4734cb09e7690dd10e8c85cf64aa58d6280e76b675ef0b",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 124788,
+  "local_name": "s7_kalshi_become_mm",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R52",
+  "seed_id": 7,
+  "seed_name": "Liquidity-provision programs",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.navnoorbawaresearch.com/p/kalshi-publishes-one-liquidity-subsidy",
+  "endpoint": "https://www.navnoorbawaresearch.com/p/kalshi-publishes-one-liquidity-subsidy",
+  "executed_at": "2026-09-04T10:15:57-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "b954f07711f3eaad2d043cd0509356aa873ebadbc72153a4b6653a2d0577bed7",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 251442,
+  "local_name": "s7_navnoor_canonical",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R53",
+  "seed_id": 3,
+  "seed_name": "Cross-instrument basis against the settlement source's own market",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://www.investing.com/analysis/when-markets-disagree-prediction-odds-and-optionsimplied-probabilities-200685270",
+  "endpoint": "https://www.investing.com/analysis/when-markets-disagree-prediction-odds-and-optionsimplied-probabilities-200685270",
+  "executed_at": "2026-09-04T10:15:57-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "403",
+  "n_returned": 0,
+  "n_total_reported": null,
+  "payload_sha256": "d26eae87829adde551bf4b852f9da6b8c3c2db9b65b8b68870632a2db5f53e00",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 3,
+  "local_name": "s3_investing_optionsimplied",
+  "retry_of": null,
+  "disposition": "EXCLUDED Y4 (not retrievable): HTTP 403"
+ },
+ {
+  "query_id": "KSL-R54",
+  "seed_id": 2,
+  "seed_name": "Combinatorial and negative-risk baskets over multi-outcome series",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://kalshi-parlays.com/combos-guide",
+  "endpoint": "https://kalshi-parlays.com/combos-guide",
+  "executed_at": "2026-09-04T10:15:57-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "403",
+  "n_returned": 0,
+  "n_total_reported": null,
+  "payload_sha256": "0d9d28a3ee4687bc6d8678a7b78de29701f9391ffe59cec4b2406025819eacd4",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 146,
+  "local_name": "s2_kalshiparlays_combos",
+  "retry_of": null,
+  "disposition": "EXCLUDED Y4 (not retrievable): HTTP 403"
+ },
+ {
+  "query_id": "KSL-R55",
+  "seed_id": 7,
+  "seed_name": "Liquidity-provision programs",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://help.kalshi.com/en/articles/13823822-maker-order-protections",
+  "endpoint": "https://help.kalshi.com/en/articles/13823822-maker-order-protections",
+  "executed_at": "2026-09-04T10:15:57-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "493a68e6e83b0e6829a96d12c6ff32d4420af5e4c4c6c6994abc280f2912392f",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 75069,
+  "local_name": "s7_kalshi_mop",
+  "retry_of": null,
+  "disposition": "retrieved"
+ },
+ {
+  "query_id": "KSL-R56",
+  "seed_id": 5,
+  "seed_name": "Timing and latency around scheduled data releases",
+  "query_kind": "retrieval",
+  "query_verbatim": "curl -sSL --max-time 60 -A '<Chrome/124 UA>' -H 'Accept: text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.9' https://depthfeed.com/resources/kalshi-api-guide",
+  "endpoint": "https://depthfeed.com/resources/kalshi-api-guide",
+  "executed_at": "2026-09-04T10:15:58-05:00",
+  "executed_at_precision": "exact",
+  "http_status": "200",
+  "n_returned": 1,
+  "n_total_reported": null,
+  "payload_sha256": "90e4f3c560c8bde44927989430efd21f49ab3251148ef221932e2613a251c4fa",
+  "payload_sha256_basis": "SHA-256 over the raw response bytes as received on disk (curl -o), before any parsing.",
+  "payload_path": null,
+  "payload_path_note": "Raw payload retained only in the executing agent's session scratchpad, which is not tracked; the digest above is the durable carrier.",
+  "payload_bytes": 126490,
+  "local_name": "s5_depthfeed_api",
+  "retry_of": null,
+  "disposition": "retrieved"
+ }
+]

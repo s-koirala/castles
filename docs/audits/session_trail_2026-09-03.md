@@ -1,0 +1,2 @@
+- 2026-09-03T10:37:46 | session=0dd6aec6-5e0 | reason=other | cwd=C:\Users\skoir\castles | git=dd4d15143686
+- 2026-09-03T12:30:53 | session=0c08c031-ecf | reason=other | cwd=C:\Users\skoir\castles | git=dd4d15143686

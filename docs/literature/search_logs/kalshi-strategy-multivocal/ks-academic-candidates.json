@@ -1,0 +1,5890 @@
+{
+ "_header": true,
+ "artifact": "ACADEMIC-arm candidate table",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "built_at": "2026-09-04T11:26:58-05:00",
+ "pythonhashseed": "0",
+ "automation_tool": "Claude Opus 5 (model id claude-opus-5), acting as the single executing agent",
+ "what_this_is_NOT": [
+  "No section 4.2 stage-1 disposition is assigned in this file. No record here is included, excluded, or promoted.",
+  "Every field ending in _signal, and every contribution code suffixed '?', is a keyword signal over retrieved metadata, not a determination under N1-N6 or K1-K4.",
+  "Under section 4.4 every row is therefore a G1 row until a screening session decides it: identified, eligibility not assessed, nothing about its merits determined."
+ ],
+ "counts": {
+  "n_rows_returned_by_platforms": null,
+  "n_deduplicated_records": 528,
+  "n_in_reported_branches": 152
+ },
+ "branching_rule_file": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-academic-stage1-branch-rule.md",
+ "records": [
+  {
+   "from_query": "ks-arxiv-01",
+   "title": "ParlayMarket: Automated Market Making for Parlay-style Joint Contracts",
+   "doi": null,
+   "arxiv": "arxiv:2603.22596",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "event contract",
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi"
+   ],
+   "strategy_hits": [
+    "forecast",
+    "market ?making"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2603.22596v3",
+    "journal_ref": null,
+    "primary_category": "cs.CE"
+   },
+   "also_from_query": [
+    "ks-arxiv-11",
+    "ks-openalex-01"
+   ],
+   "alt_locators": [
+    "none"
+   ],
+   "id": "ks-a-001",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Prediction Markets Underperform Simple Baselines For Infectious Disease Forecasting",
+   "doi": null,
+   "arxiv": "arxiv:2605.11220",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi",
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ],
+    "election": [
+     "election"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2605.11220v1",
+    "journal_ref": null,
+    "primary_category": "stat.AP"
+   },
+   "id": "ks-a-004",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "The Shape of Macroeconomic Beliefs",
+   "doi": null,
+   "arxiv": "arxiv:2606.30040",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ],
+    "macro": [
+     "\\bcpi\\b",
+     "inflation",
+     "macroeconomic"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2606.30040v1",
+    "journal_ref": null,
+    "primary_category": "econ.EM"
+   },
+   "id": "ks-a-020",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Volatility in Prediction Markets: A Structural Approach",
+   "doi": null,
+   "arxiv": "arxiv:2607.08199",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi"
+   ],
+   "strategy_hits": [
+    "forecast",
+    "market ?making",
+    "spread",
+    "trading strateg"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2607.08199v2",
+    "journal_ref": null,
+    "primary_category": "q-fin.TR"
+   },
+   "also_from_query": [
+    "ks-arxiv-11"
+   ],
+   "id": "ks-a-025",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Conversational Forecasting Across Large Human Groups Using A Swarm of Surrogate AI Agents",
+   "doi": null,
+   "arxiv": "arxiv:2604.09570",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "forecast",
+    "spread"
+   ],
+   "family_hits": {
+    "sports": [
+     "nba"
+    ],
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2604.09570v2",
+    "journal_ref": null,
+    "primary_category": "cs.HC"
+   },
+   "id": "ks-a-027",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "When do prophets profit in prediction markets?",
+   "doi": null,
+   "arxiv": "arxiv:2607.06166",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi"
+   ],
+   "strategy_hits": [
+    "forecast",
+    "market maker",
+    "order book"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2607.06166v2",
+    "journal_ref": null,
+    "primary_category": "cs.AI"
+   },
+   "id": "ks-a-029",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K2?",
+    "K3?"
+   ],
+   "strategy_class_signal": [
+    "market-making-quoting-inventory",
+    "execution-and-timing",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "EventConnector: Mining Social Event Relations through Temporal Graphs",
+   "doi": null,
+   "arxiv": "arxiv:2606.15448",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi",
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2606.15448v1",
+    "journal_ref": null,
+    "primary_category": "cs.IR"
+   },
+   "id": "ks-a-032",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Polymarket-v1 Database",
+   "doi": null,
+   "arxiv": "arxiv:2606.04217",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "forecast",
+    "spread"
+   ],
+   "family_hits": {
+    "election": [
+     "election"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2606.04217v2",
+    "journal_ref": null,
+    "primary_category": "cs.CE"
+   },
+   "id": "ks-a-033",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K4?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Can LLMs Help Decentralized Dispute Arbitration? A Case Study of UMA-Resolved Markets on Polymarket",
+   "doi": null,
+   "arxiv": "arxiv:2604.15674",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ],
+    "election": [
+     "political"
+    ],
+    "llm-agent": [
+     "language model",
+     "large language model"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2604.15674v1",
+    "journal_ref": null,
+    "primary_category": "cs.CY"
+   },
+   "id": "ks-a-034",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Human Capital, Not Model Benchmarks, Predicts Hybrid Intelligence in Forecasting",
+   "doi": null,
+   "arxiv": "arxiv:2607.02467",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2607.02467v1",
+    "journal_ref": null,
+    "primary_category": "cs.CY"
+   },
+   "id": "ks-a-036",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K3?",
+    "K4?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "TimeSeek: Temporal Reliability of Agentic Forecasters",
+   "doi": null,
+   "arxiv": "arxiv:2604.04220",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent",
+     "\\bllm\\b"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2604.04220v1",
+    "journal_ref": null,
+    "primary_category": "cs.AI"
+   },
+   "id": "ks-a-037",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters",
+   "doi": null,
+   "arxiv": "arxiv:2607.14051",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "backtest",
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bllm\\b"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2607.14051v1",
+    "journal_ref": null,
+    "primary_category": "cs.CL"
+   },
+   "id": "ks-a-041",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K2?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Preference Optimization Drives Monoculture in LLM Prediction Markets",
+   "doi": null,
+   "arxiv": "arxiv:2606.26583",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi",
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent",
+     "\\bllm\\b"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2606.26583v1",
+    "journal_ref": null,
+    "primary_category": "cs.CE"
+   },
+   "id": "ks-a-046",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-07",
+   "title": "PolySwarm: A Multi-Agent Large Language Model Framework for Prediction Market Trading and Latency Arbitrage",
+   "doi": null,
+   "arxiv": "arxiv:2604.03888",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "execution",
+    "forecast",
+    "mispric"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent",
+     "\\bllm\\b",
+     "language model",
+     "large language model"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2604.03888v1",
+    "journal_ref": null,
+    "primary_category": "cs.AI"
+   },
+   "also_from_query": [
+    "ks-openalex-06"
+   ],
+   "id": "ks-a-055",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K3?",
+    "K4?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "execution-and-timing",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-07",
+   "title": "Arbitrage Analysis in Polymarket NBA Markets",
+   "doi": "10.2139/ssrn.6624718",
+   "arxiv": "arxiv:2605.00864",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "execution",
+    "mispric",
+    "order book"
+   ],
+   "family_hits": {
+    "sports": [
+     "nba"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2605.00864v1",
+    "journal_ref": null,
+    "primary_category": "q-fin.TR"
+   },
+   "also_from_query": [
+    "ks-crossref-10",
+    "ks-openalex-06"
+   ],
+   "alt_locators": [
+    "10.2139/ssrn.6624718",
+    "none"
+   ],
+   "id": "ks-a-056",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "execution-and-timing"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-07",
+   "title": "Executable Arbitrage and Market Efficiency in Prediction Markets",
+   "doi": null,
+   "arxiv": "arxiv:2608.00666",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "inventory"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2608.00666v1",
+    "journal_ref": null,
+    "primary_category": "cs.CE"
+   },
+   "id": "ks-a-057",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "market-making-quoting-inventory"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-07",
+   "title": "The Anatomy of a Blockchain Prediction Market: Polymarket in the 2024 U.S. Presidential Election",
+   "doi": "10.2139/ssrn.6336679",
+   "arxiv": "arxiv:2603.03136",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage"
+   ],
+   "family_hits": {
+    "election": [
+     "election",
+     "presidential"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2603.03136v2",
+    "journal_ref": null,
+    "primary_category": "econ.GN"
+   },
+   "also_from_query": [
+    "ks-openalex-06"
+   ],
+   "alt_locators": [
+    "10.2139/ssrn.6336679",
+    "none"
+   ],
+   "id": "ks-a-058",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-07",
+   "title": "The Ghosts of Polymarket: When Off-Chain Matches Meet On-Chain Reverts",
+   "doi": null,
+   "arxiv": "arxiv:2606.16852",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "execution"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2606.16852v1",
+    "journal_ref": null,
+    "primary_category": "cs.CR"
+   },
+   "also_from_query": [
+    "ks-openalex-06"
+   ],
+   "alt_locators": [
+    "none"
+   ],
+   "id": "ks-a-059",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "execution-and-timing"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-07",
+   "title": "Do Prediction Markets Match Option Prices? Bitcoin Threshold Evidence from Binance and Polymarket",
+   "doi": null,
+   "arxiv": "arxiv:2606.19517",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "hedg"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2606.19517v1",
+    "journal_ref": null,
+    "primary_category": "q-fin.TR"
+   },
+   "also_from_query": [
+    "ks-openalex-06"
+   ],
+   "alt_locators": [
+    "none"
+   ],
+   "id": "ks-a-060",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "hedging-and-basis"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-13",
+   "title": "PredictionMarketBench: A SWE-bench-Style Framework for Backtesting Trading Agents on Prediction Markets",
+   "doi": null,
+   "arxiv": "arxiv:2602.00133",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi"
+   ],
+   "strategy_hits": [
+    "backtest",
+    "execution"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ],
+    "weather": [
+     "weather"
+    ],
+    "llm-agent": [
+     "\\bagent",
+     "\\bllm\\b"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2602.00133v1",
+    "journal_ref": null,
+    "primary_category": "q-fin.ST"
+   },
+   "id": "ks-a-065",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K2?",
+    "K4?"
+   ],
+   "strategy_class_signal": [
+    "execution-and-timing",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-crossref-01",
+   "title": "Underreaction, Salience, and Hot-Hand Beliefs in Sports Event-Contract Markets: Evidence from Kalshi NBA and NFL",
+   "doi": "10.2139/ssrn.6964226",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi"
+   ],
+   "strategy_hits": [
+    "spread"
+   ],
+   "family_hits": {
+    "sports": [
+     "nba",
+     "nfl",
+     "sports?"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "also_from_query": [
+    "ks-crossref-05",
+    "ks-crossref-13",
+    "ks-crossref-18"
+   ],
+   "id": "ks-a-068",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-04",
+   "title": "Should the Rules Be Different When Prediction Markets Play Sportsbook?",
+   "doi": "10.2139/ssrn.7306420",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "event contract",
+    "prediction market",
+    "sports ?book"
+   ],
+   "venue_hits": [
+    "kalshi"
+   ],
+   "strategy_hits": [
+    "hedg"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ],
+    "macro": [
+     "macroeconomic"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "also_from_query": [
+    "ks-openalex-05",
+    "ks-openalex-12"
+   ],
+   "id": "ks-a-119",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "hedging-and-basis"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-04",
+   "title": "Mistiming is not Arbitrage: A Pre-registered Falsification of Cross-platform Prediction-market Arbitrage, and the Two-sided Cancellation of the Favourite-longshot Premium",
+   "doi": "10.2139/ssrn.7170178",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [],
+   "venue_hits": [
+    "kalshi",
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "quote",
+    "spread"
+   ],
+   "family_hits": {
+    "macro": [
+     "federal reserve"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "also_from_query": [
+    "ks-crossref-04",
+    "ks-openalex-02",
+    "ks-openalex-06"
+   ],
+   "alt_locators": [
+    "10.2139/ssrn.7175258"
+   ],
+   "id": "ks-a-120",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "market-making-quoting-inventory"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-04",
+   "title": "Same Bet, Different Markets: Cross-Market Pricing Anomalies and the Limits of Arbitrage in Prediction Markets",
+   "doi": "10.2139/ssrn.6861841",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi",
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "spread",
+    "trading strateg"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "also_from_query": [
+    "ks-openalex-02"
+   ],
+   "id": "ks-a-121",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-10",
+   "title": "Convergence-Weighted Aggregation of Cross-Exchange Prediction Markets: A Dependency-Aware Index for Combining Prices Across Kalshi, Polymarket, Manifold, Metaculus, and Long-Tail Venues",
+   "doi": "10.2139/ssrn.6740358",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi",
+    "metaculus",
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "backtest"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "alt_locators": [
+    "10.5281/zenodo.20095781",
+    "10.5281/zenodo.20095780"
+   ],
+   "also_from_query": [
+    "ks-openalex-02"
+   ],
+   "id": "ks-a-219",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K2?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-10",
+   "title": "Cryptocurrency Prediction Markets through the Derivatives Lens: Evidence from Kalshi and Polymarket",
+   "doi": "10.2139/ssrn.6748186",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "binary contract",
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi",
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "id": "ks-a-220",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-10",
+   "title": "Who Profits in Binary Prediction Markets? Maker-Taker Dynamics, Behavioral Bias, and Sentiment Arbitrage on Kalshi",
+   "doi": "10.2139/ssrn.6858200",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi",
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "spread"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ],
+    "election": [
+     "election"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "also_from_query": [
+    "ks-openalex-02"
+   ],
+   "id": "ks-a-223",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K2?",
+    "K3?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-10",
+   "title": "Polymarket-v1 Database",
+   "doi": "10.2139/ssrn.6870538",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "forecast",
+    "spread"
+   ],
+   "family_hits": {
+    "election": [
+     "election"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "id": "ks-a-227",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K4?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-10",
+   "title": "Integration Without Leadership: Cross-Venue Price Discovery in UFC Prediction Markets",
+   "doi": "10.2139/ssrn.7194218",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi",
+    "polymarket"
+   ],
+   "strategy_hits": [],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ],
+    "election": [
+     "election",
+     "political",
+     "presidential"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "id": "ks-a-232",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-13",
+   "title": "Optimal Taker Delays in In-Play Event Contract Markets",
+   "doi": "10.2139/ssrn.7239999",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "event contract"
+   ],
+   "venue_hits": [
+    "betfair"
+   ],
+   "strategy_hits": [
+    "market maker",
+    "quote",
+    "spread"
+   ],
+   "family_hits": {
+    "sports": [
+     "football",
+     "sports?"
+    ],
+    "election": [
+     "election"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "id": "ks-a-272",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K3?"
+   ],
+   "strategy_class_signal": [
+    "market-making-quoting-inventory",
+    "execution-and-timing"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-18",
+   "title": "Information Efficiency Across Macroeconomic Prediction Markets: Evidence from Kalshi",
+   "doi": "10.2139/ssrn.7119120",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi"
+   ],
+   "strategy_hits": [
+    "forecast",
+    "mispric"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ],
+    "macro": [
+     "federal reserve",
+     "inflation",
+     "interest rate",
+     "macroeconomic",
+     "unemployment"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "id": "ks-a-363",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "Informed Trading in Prediction Markets: Evidence from Kalshi Mentions Contracts",
+   "doi": null,
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "Scholarship - Claremont (Claremont Colleges)",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "spread"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ],
+    "election": [
+     "election"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7163462723",
+    "openalex_type": "dissertation",
+    "cited_by": 0
+   },
+   "id": "ks-a-379",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "Oracle3: Autonomous Prediction Market Trading Agent",
+   "doi": "10.5281/zenodo.20062548",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "Zenodo (CERN European Organization for Nuclear Research)",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "binary contract",
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi",
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "execution"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7160558953",
+    "openalex_type": "software",
+    "cited_by": 0
+   },
+   "alt_locators": [
+    "10.5281/zenodo.20062549",
+    "10.5281/zenodo.20076390"
+   ],
+   "also_from_query": [
+    "ks-openalex-02"
+   ],
+   "id": "ks-a-385",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "execution-and-timing"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "Forecast Accuracy in Modern Prediction Markets : An Empirical Analysis of Polymarket",
+   "doi": null,
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "Skemman",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi",
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "forecast",
+    "spread"
+   ],
+   "family_hits": {
+    "election": [
+     "election",
+     "presidential"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7164292785",
+    "openalex_type": "dissertation",
+    "cited_by": 0
+   },
+   "also_from_query": [
+    "ks-openalex-06"
+   ],
+   "id": "ks-a-387",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K2?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "Prediction Markets? The Accuracy and Efficiency of Political Prediction Markets in the 2024 Presidential Election",
+   "doi": "10.31235/osf.io/d5yx2_v5",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "iowa electronic market",
+    "kalshi",
+    "polymarket",
+    "predictit"
+   ],
+   "strategy_hits": [
+    "arbitrage"
+   ],
+   "family_hits": {
+    "election": [
+     "election",
+     "political",
+     "presidential"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7164203331",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "alt_locators": [
+    "none"
+   ],
+   "also_from_query": [
+    "ks-openalex-02"
+   ],
+   "id": "ks-a-392",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-03",
+   "title": "A comparison between financial and gambling markets",
+   "doi": "10.1007/s43546-026-01202-9",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SN Business & Economics",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "betting exchange"
+   ],
+   "venue_hits": [
+    "betfair"
+   ],
+   "strategy_hits": [
+    "arbitrage"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W4403763025",
+    "openalex_type": "article",
+    "cited_by": 1
+   },
+   "id": "ks-a-397",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-06",
+   "title": "Ep. 1107: Betting on the Brink: Polymarket and the Future of War",
+   "doi": "10.5281/zenodo.19362465",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "Zenodo (CERN European Organization for Nuclear Research)",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "market maker",
+    "spread"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ],
+    "election": [
+     "election",
+     "political"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7147082638",
+    "openalex_type": "other",
+    "cited_by": 0
+   },
+   "alt_locators": [
+    "10.5281/zenodo.19362464"
+   ],
+   "also_from_query": [
+    "ks-openalex-06"
+   ],
+   "id": "ks-a-401",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K3?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "market-making-quoting-inventory",
+    "execution-and-timing"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-06",
+   "title": "Empirical Evaluation of Deadline-Resolved Information Leakage on Documented Polymarket Insider Cases",
+   "doi": "10.2139/ssrn.6687398",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7160145161",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-402",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [
+    "K2?"
+   ],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-06",
+   "title": "What Is the Alpha on Polymarket? A Methodology of Probability Mispricing and a Taxonomy of Eleven Profitable Regimes",
+   "doi": "10.2139/ssrn.6625018",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "mispric"
+   ],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7155534206",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-403",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K2?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-06",
+   "title": "Smart Money on Polymarket: A Behavioral Anatomy of 273 Top Prediction-market Traders",
+   "doi": "10.2139/ssrn.6624899",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7171695154",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-404",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-06",
+   "title": "Can Polymarket Become a More Accurate \"Survey\"? A Replacement for Traditional Surveys That Are Easy to Game?",
+   "doi": "10.2139/ssrn.6161946",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7134041050",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-405",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "Prediction Markets, Bayes and Kalshi",
+   "doi": "10.2139/ssrn.7254820",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi"
+   ],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7202042289",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "also_from_query": [
+    "ks-openalex-13"
+   ],
+   "id": "ks-a-472",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-s2-02-i",
+   "title": "Political Prediction Markets: Bad Law, but Good Policy?",
+   "doi": "10.70167/qycv4877",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "Boston College Law Review",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "event contract",
+    "prediction market"
+   ],
+   "venue_hits": [
+    "kalshi"
+   ],
+   "strategy_hits": [],
+   "family_hits": {
+    "election": [
+     "election",
+     "political",
+     "presidential"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "s2_paperId": "c4d2a25b0f533a9ab9853601d607c3f82822324b",
+    "citationCount": 1,
+    "publicationTypes": [
+     "JournalArticle",
+     "Review"
+    ]
+   },
+   "id": "ks-a-489",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Outcome-based Reinforcement Learning to Predict the Future",
+   "doi": null,
+   "arxiv": "arxiv:2505.17989",
+   "year": "2025",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "language model",
+     "large language model"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2505.17989v4",
+    "journal_ref": null,
+    "primary_category": "cs.LG"
+   },
+   "id": "ks-a-038",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-06",
+   "title": "Convolutional Attention in Betting Exchange Markets",
+   "doi": null,
+   "arxiv": "arxiv:2510.16008",
+   "year": "2025",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "betting exchange"
+   ],
+   "venue_hits": [
+    "betfair"
+   ],
+   "strategy_hits": [
+    "execution",
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "horse ?rac"
+    ],
+    "llm-agent": [
+     "neural"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2510.16008v1",
+    "journal_ref": null,
+    "primary_category": "q-fin.ST"
+   },
+   "id": "ks-a-053",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "execution-and-timing",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-07",
+   "title": "Unravelling the Probabilistic Forest: Arbitrage in Prediction Markets",
+   "doi": null,
+   "arxiv": "arxiv:2508.03474",
+   "year": "2025",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "arbitrage",
+    "mispric",
+    "order book"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2508.03474v1",
+    "journal_ref": null,
+    "primary_category": "cs.CR"
+   },
+   "id": "ks-a-054",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "execution-and-timing"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "Prediction Markets? The Accuracy and Efficiency of $2.4 Billion in the 2024 Presidential Election",
+   "doi": "10.31235/osf.io/d5yx2_v2",
+   "arxiv": null,
+   "year": 2025,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "iowa electronic market",
+    "kalshi",
+    "polymarket",
+    "predictit"
+   ],
+   "strategy_hits": [
+    "arbitrage"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ],
+    "election": [
+     "election",
+     "political",
+     "presidential",
+     "vote"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W4417100172",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "alt_locators": [
+    "10.31235/osf.io/d5yx2_v1",
+    "10.31235/osf.io/d5yx2_v3"
+   ],
+   "also_from_query": [
+    "ks-openalex-02"
+   ],
+   "id": "ks-a-386",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-11",
+   "title": "Prediction Markets",
+   "doi": "10.70150/xrt21s70",
+   "arxiv": null,
+   "year": 2025,
+   "venue_container": "Journal of Global Trade Ethics and Law",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "iowa electronic market"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "macro": [
+     "macroeconomic"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7128715736",
+    "openalex_type": "article",
+    "cited_by": 0
+   },
+   "id": "ks-a-456",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Political Leanings in Web3 Betting: Decoding the Interplay of Political and Profitable Motives",
+   "doi": null,
+   "arxiv": "arxiv:2407.14844",
+   "year": "2024",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "polymarket"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "election": [
+     "election",
+     "political",
+     "presidential"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2407.14844v1",
+    "journal_ref": null,
+    "primary_category": "cs.CY"
+   },
+   "id": "ks-a-043",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K2?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-s2-02-i",
+   "title": "Narrative Economics of the Racetrack: An Agent-Based Model of Opinion Dynamics in In-play Betting on a Sports Betting Exchange",
+   "doi": "10.2139/ssrn.4012561",
+   "arxiv": null,
+   "year": 2022,
+   "venue_container": "International Conference on Agents and Artificial Intelligence",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "betting exchange",
+    "betting market"
+   ],
+   "venue_hits": [
+    "betfair"
+   ],
+   "strategy_hits": [],
+   "family_hits": {
+    "sports": [
+     "horse ?rac",
+     "nfl",
+     "sports?"
+    ],
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "s2_paperId": "b1ee773257d1f03306ddbc3bfa827168531e0ac4",
+    "citationCount": 3,
+    "publicationTypes": [
+     "JournalArticle"
+    ]
+   },
+   "id": "ks-a-481",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-06",
+   "title": "Implementing the BBE Agent-Based Model of a Sports-Betting Exchange",
+   "doi": null,
+   "arxiv": "arxiv:2108.02419",
+   "year": "2021",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "betting exchange"
+   ],
+   "venue_hits": [
+    "betfair"
+   ],
+   "strategy_hits": [],
+   "family_hits": {
+    "sports": [
+     "horse ?rac",
+     "sports?"
+    ],
+    "llm-agent": [
+     "\\bagent",
+     "machine learning"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2108.02419v1",
+    "journal_ref": null,
+    "primary_category": "cs.CE"
+   },
+   "id": "ks-a-052",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-crossref-13",
+   "title": "Market Design, Manipulation, and Accuracy in Political Prediction Markets: Lessons from the Iowa Electronic Markets",
+   "doi": "10.1017/s1049096514000043",
+   "arxiv": null,
+   "year": 2014,
+   "venue_container": "Political Science and Politics",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "iowa electronic market"
+   ],
+   "strategy_hits": [],
+   "family_hits": {
+    "election": [
+     "political"
+    ]
+   },
+   "has_abstract": false,
+   "extra": {
+    "crossref_type": "journal-article"
+   },
+   "id": "ks-a-287",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "REAL-MONEY VS. PLAY-MONEY FORECASTING ACCURACY IN ONLINE PREDICTION MARKETS – EMPIRICAL INSIGHTS FROM IPREDICT",
+   "doi": "10.5750/jpm.v4i3.479",
+   "arxiv": null,
+   "year": 2012,
+   "venue_container": "The Journal of Prediction Markets",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "intrade",
+    "tradesports"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl",
+     "sports?"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W1495694035",
+    "openalex_type": "article",
+    "cited_by": 10
+   },
+   "id": "ks-a-428",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K2?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-13",
+   "title": "Algorithmic Trading in the Iowa Electronic Markets",
+   "doi": "10.2139/ssrn.1593336",
+   "arxiv": null,
+   "year": 2010,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [],
+   "venue_hits": [
+    "iowa electronic market"
+   ],
+   "strategy_hits": [
+    "market ?making"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "alt_locators": [
+    "10.3233/af-2011-012"
+   ],
+   "also_from_query": [
+    "ks-crossref-13"
+   ],
+   "id": "ks-a-273",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Memoirs of an indifferent trader: Estimating forecast distributions from prediction markets",
+   "doi": "10.3982/qe6",
+   "arxiv": null,
+   "year": 2010,
+   "venue_container": "Quantitative Economics",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [
+    "iowa electronic market"
+   ],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ],
+    "election": [
+     "election",
+     "presidential",
+     "vote"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W3123678812",
+    "openalex_type": "article",
+    "cited_by": 7
+   },
+   "alt_locators": [
+    "10.2139/ssrn.1136883"
+   ],
+   "also_from_query": [
+    "ks-openalex-08"
+   ],
+   "id": "ks-a-425",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Information (in)efficiency in prediction markets",
+   "doi": "10.1017/cbo9780511493614.019",
+   "arxiv": null,
+   "year": 2005,
+   "venue_container": "Cambridge University Press eBooks",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "betting market",
+    "prediction market"
+   ],
+   "venue_hits": [
+    "tradesports"
+   ],
+   "strategy_hits": [
+    "forecast",
+    "hedg"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ],
+    "election": [
+     "election",
+     "political",
+     "vote"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W264694640",
+    "openalex_type": "book-chapter",
+    "cited_by": 31
+   },
+   "id": "ks-a-412",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "hedging-and-basis",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-13",
+   "title": "What Makes Markets Predict Well? Evidence from the Iowa Electronic Markets",
+   "doi": "10.1007/978-3-642-60495-9_34",
+   "arxiv": null,
+   "year": 1997,
+   "venue_container": "Understanding Strategic Interaction",
+   "source_class_signal": "S-A",
+   "instrument_hits": [],
+   "venue_hits": [
+    "iowa electronic market"
+   ],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "crossref_type": "book-chapter"
+   },
+   "id": "ks-a-275",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Beyond Forecasting: The Belief-to-Trade Layer in Prediction-Market Agents",
+   "doi": null,
+   "arxiv": "arxiv:2607.03015",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2607.03015v1",
+    "journal_ref": null,
+    "primary_category": "cs.AI"
+   },
+   "also_from_query": [
+    "ks-arxiv-13"
+   ],
+   "id": "ks-a-005",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Forecasting Future Language: Context Design for Mention Markets",
+   "doi": null,
+   "arxiv": "arxiv:2602.21229",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bllm\\b",
+     "language model",
+     "large language model"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2602.21229v2",
+    "journal_ref": null,
+    "primary_category": "q-fin.GN"
+   },
+   "id": "ks-a-006",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Price as Focal Point: Prediction Markets,Conditional Reflexivity, and the Politics of Common Knowledge",
+   "doi": null,
+   "arxiv": "arxiv:2604.24147",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "election": [
+     "election",
+     "political",
+     "presidential",
+     "vote"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2604.24147v1",
+    "journal_ref": null,
+    "primary_category": "econ.GN"
+   },
+   "id": "ks-a-008",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Human-AI Collaboration for Estimating Scientific Replicability",
+   "doi": null,
+   "arxiv": "arxiv:2605.27394",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ],
+    "llm-agent": [
+     "\\bagent",
+     "machine learning"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2605.27394v1",
+    "journal_ref": null,
+    "primary_category": "cs.CY"
+   },
+   "id": "ks-a-028",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "When Certainty Is Not Worth It: Capital Lock-Up and Settlement Discounting in Prediction Markets",
+   "doi": null,
+   "arxiv": "arxiv:2605.31431",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2605.31431v1",
+    "journal_ref": null,
+    "primary_category": "cs.CE"
+   },
+   "id": "ks-a-030",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K3?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Wisdom of LLM Crowds: Aggregation and Contamination in Language Model Ensembles",
+   "doi": null,
+   "arxiv": "arxiv:2607.18269",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bllm\\b",
+     "language model",
+     "large language model",
+     "neural"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2607.18269v2",
+    "journal_ref": null,
+    "primary_category": "cs.AI"
+   },
+   "id": "ks-a-035",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Manipulation in Prediction Markets: An Agent-based Modeling Experiment",
+   "doi": null,
+   "arxiv": "arxiv:2601.20452",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "election": [
+     "election",
+     "political"
+    ],
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2601.20452v1",
+    "journal_ref": null,
+    "primary_category": "econ.GN"
+   },
+   "id": "ks-a-045",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Diverse Evidence, Better Forecasts: Multi-Agent Deliberation Under Information Asymmetry",
+   "doi": null,
+   "arxiv": "arxiv:2607.01661",
+   "year": "2026",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2607.01661v1",
+    "journal_ref": null,
+    "primary_category": "cs.AI"
+   },
+   "id": "ks-a-049",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-crossref-02",
+   "title": "A Taxonomy of Event-Linked Perpetual Futures: Variant Designs Beyond the Single-Market Binary Case",
+   "doi": "10.2139/ssrn.6748298",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "event derivative"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "execution",
+    "spread"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "id": "ks-a-087",
+   "prior_disposition": "X1",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "execution-and-timing"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-19",
+   "title": "Solvent Runs on Fully Collateralized On-Chain Platforms: A Global-Games Theory of Prediction-Market Redemption",
+   "doi": "10.2139/ssrn.6886538",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "posted-content"
+   },
+   "id": "ks-a-368",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [
+    "K3?"
+   ],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-01",
+   "title": "Prediction Perps (Assets / Indexes) | The New Financial Assets Class On / Of / For The Prediction Market.",
+   "doi": "10.5281/zenodo.21645067",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "Zenodo (CERN European Organization for Nuclear Research)",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "event contract",
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "arbitrage"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7171526573",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "alt_locators": [
+    "10.5281/zenodo.21645068"
+   ],
+   "also_from_query": [
+    "ks-openalex-01"
+   ],
+   "id": "ks-a-378",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "Endogenous Limits to Arbitrage in Prediction Markets",
+   "doi": "10.2139/ssrn.7175518",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "arbitrage"
+   ],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7172429258",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "also_from_query": [
+    "ks-openalex-06"
+   ],
+   "id": "ks-a-380",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "Basis Risk Arbitrage in Prediction Markets: A Case Study of the Clarity Act",
+   "doi": "10.2139/ssrn.6984101",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "arbitrage"
+   ],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7169507978",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "also_from_query": [
+    "ks-openalex-06"
+   ],
+   "id": "ks-a-382",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "From Forecasting Tool to Financial Asset: Evidence of Persistent Arbitrage in Prediction Markets",
+   "doi": "10.2139/ssrn.6905683",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "arbitrage",
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7164354449",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "also_from_query": [
+    "ks-openalex-06"
+   ],
+   "id": "ks-a-383",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "Pricing Prediction Markets: Risk Premiums, Incomplete Markets, and a Decomposition Framework",
+   "doi": "10.2139/ssrn.6468338",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7151415399",
+    "openalex_type": "preprint",
+    "cited_by": 1
+   },
+   "id": "ks-a-384",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [
+    "K4?"
+   ],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "A Local-Volatility Theory of Prediction Markets: Absorbed Martingales on the Simplex and an Identification Law for Transient Mispricing",
+   "doi": "10.2139/ssrn.7012278",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "mispric"
+   ],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7171732357",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-389",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "From Forecasting Tool to Financial Asset: The Institutionalization of Prediction Markets and the Emergence of Event Risk Trading",
+   "doi": "10.2139/ssrn.6899199",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7171637120",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-390",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "Regulating Sports Prediction Markets",
+   "doi": "10.2139/ssrn.6350738",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ]
+   },
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7134068161",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-391",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "Event Contracts vs. Traditional Power Hedges: A Comparative Analysis of Tail Risk Hedging in ERCOT Electricity Markets An Empirical Backtest Using ERCOT Real-Time Settlement Data, 2021-2025",
+   "doi": "10.13140/rg.2.2.34147.92961/1",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": null,
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "event contract"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "backtest",
+    "hedg"
+   ],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7207615695",
+    "openalex_type": "article",
+    "cited_by": 0
+   },
+   "id": "ks-a-459",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K2?",
+    "K3?"
+   ],
+   "strategy_class_signal": [
+    "hedging-and-basis",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "Pricing the Verdict: The Case for Litigation-outcome Event Contracts",
+   "doi": "10.2139/ssrn.7302300",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "event contract"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7203751938",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-460",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "Betting on Tomorrow: Prediction Markets and the Tax Treatment of Event Contracts",
+   "doi": "10.2139/ssrn.7392018",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "event contract",
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7207642546",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-462",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "Event Contracts and the Liquidity Threshold: Risk Transfer, Sportsbook Exposure, and the Derivatives Case for Event Markets",
+   "doi": "10.2139/ssrn.6502341",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "event contract",
+    "event market",
+    "sports ?book"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ]
+   },
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7154977743",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-463",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "Different Rules for Different Markets: Insider Trading, Manipulation, and Corruption-Prone Event Contracts in Prediction Markets",
+   "doi": "10.2139/ssrn.7265180",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "event contract",
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7202293300",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-464",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "Different Markets, Different Regulatory Priorities: Insider Trading, Manipulation, and Corruption-Prone Event Contracts in Prediction Markets",
+   "doi": "10.2139/ssrn.7323118",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "event contract",
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7203918047",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-465",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "Contractibility Regimes: A Structural Theory of Regulatory Architecture for Future-State Markets (Working Paper v1)",
+   "doi": "10.5281/zenodo.21892788",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "Zenodo (CERN European Organization for Nuclear Research)",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "event contract",
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "hedg",
+    "quote"
+   ],
+   "family_hits": {
+    "election": [
+     "vote"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7202197938",
+    "openalex_type": "article",
+    "cited_by": 0
+   },
+   "alt_locators": [
+    "10.5281/zenodo.21892787"
+   ],
+   "also_from_query": [
+    "ks-openalex-12"
+   ],
+   "id": "ks-a-469",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "market-making-quoting-inventory",
+    "hedging-and-basis"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "The Unhedgeable State: Political Risk, Prediction Markets, and the Gap in Europe's Risk Management Architecture",
+   "doi": "10.2139/ssrn.6571938",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "hedg"
+   ],
+   "family_hits": {
+    "election": [
+     "political"
+    ]
+   },
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7154961819",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-470",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "hedging-and-basis"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "Finance or Gambling? Prediction Markets After Loper Bright and the Administrative Record",
+   "doi": "10.2139/ssrn.6900983",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7171724184",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-471",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-13",
+   "title": "A Microstructure Perspective on Prediction Markets",
+   "doi": "10.2139/ssrn.6325658",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7134931871",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-474",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-14",
+   "title": "An Investment Management Approach to Sports Betting",
+   "doi": null,
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "Digital Scholarship - UNLV (University of Nevada Reno)",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "betting market",
+    "sports ?book"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "arbitrage",
+    "backtest",
+    "spread"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7164628811",
+    "openalex_type": "conference-paper",
+    "cited_by": 0
+   },
+   "id": "ks-a-478",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K2?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-openalex-14",
+   "title": "Free Promo Code 1xBet Indonesia 2026: 1XVIP1X - Bonus €130",
+   "doi": "10.5281/zenodo.21265790",
+   "arxiv": null,
+   "year": 2026,
+   "venue_container": "Zenodo (CERN European Organization for Nuclear Research)",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "sports ?book"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "spread"
+   ],
+   "family_hits": {
+    "sports": [
+     "football",
+     "soccer",
+     "sports?",
+     "tennis"
+    ],
+    "election": [
+     "election"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7167669113",
+    "openalex_type": "other",
+    "cited_by": 0
+   },
+   "id": "ks-a-479",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Probabilistic Prediction Markets with Intermittent Contributions",
+   "doi": null,
+   "arxiv": "arxiv:2510.13385",
+   "year": "2025",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2510.13385v3",
+    "journal_ref": null,
+    "primary_category": "cs.LG"
+   },
+   "id": "ks-a-010",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "AIA Forecaster: Technical Report",
+   "doi": null,
+   "arxiv": "arxiv:2511.07678",
+   "year": "2025",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent",
+     "\\bllm\\b",
+     "language model",
+     "large language model"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2511.07678v1",
+    "journal_ref": null,
+    "primary_category": "cs.AI"
+   },
+   "id": "ks-a-016",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Going All-In on LLM Accuracy: Fake Prediction Markets, Real Confidence Signals",
+   "doi": "10.17605/osf.io/dc24t",
+   "arxiv": "arxiv:2512.05998",
+   "year": "2025",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bllm\\b",
+     "language model",
+     "large language model"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2512.05998v1",
+    "journal_ref": null,
+    "primary_category": "cs.AI"
+   },
+   "id": "ks-a-040",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-02",
+   "title": "Price Discovery and Trading in Modern Prediction Markets",
+   "doi": "10.2139/ssrn.5331995",
+   "arxiv": null,
+   "year": 2025,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W4411878013",
+    "openalex_type": "preprint",
+    "cited_by": 2
+   },
+   "also_from_query": [
+    "ks-openalex-06"
+   ],
+   "id": "ks-a-381",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-11",
+   "title": "Prediction Markets (English Version)",
+   "doi": "10.2139/ssrn.5954194",
+   "arxiv": null,
+   "year": 2025,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7116828012",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-457",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "Betting on Everything",
+   "doi": "10.70167/ddax4275",
+   "arxiv": null,
+   "year": 2025,
+   "venue_container": "Boston College Law Review",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "event contract"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "hedg",
+    "spread"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ],
+    "election": [
+     "election"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W4415739578",
+    "openalex_type": "article",
+    "cited_by": 0
+   },
+   "id": "ks-a-466",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "hedging-and-basis"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "All Bets Are On: Addiction, Prediction, Regulation, and the Future of Financial Gambling",
+   "doi": null,
+   "arxiv": null,
+   "year": 2025,
+   "venue_container": "eYLS (Yale Law School)",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "event contract",
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast",
+    "hedg"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7113793661",
+    "openalex_type": "article",
+    "cited_by": 0
+   },
+   "id": "ks-a-473",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "hedging-and-basis",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-openalex-13",
+   "title": "A Cloud-Native Event-Driven Orchestration Framework for Scalable E-Commerce Workflows",
+   "doi": "10.36948/ijfmr.2025.v07i06.62414",
+   "arxiv": null,
+   "year": 2025,
+   "venue_container": "International Journal For Multidisciplinary Research",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "event contract"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "inventory"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W4417100580",
+    "openalex_type": "article",
+    "cited_by": 0
+   },
+   "id": "ks-a-475",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K4?"
+   ],
+   "strategy_class_signal": [
+    "market-making-quoting-inventory"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-13",
+   "title": "Designing High-Throughput Event-Driven Architectures for E-Commerce Fulfillment at Global Scale",
+   "doi": "10.1109/iemcon67450.2025.11381226",
+   "arxiv": null,
+   "year": 2025,
+   "venue_container": null,
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "event contract"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "inventory"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W7129052817",
+    "openalex_type": "conference-paper",
+    "cited_by": 0
+   },
+   "id": "ks-a-477",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "market-making-quoting-inventory"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "On convergence of forecasts in prediction markets",
+   "doi": null,
+   "arxiv": "arxiv:2402.16345",
+   "year": "2024",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2402.16345v1",
+    "journal_ref": null,
+    "primary_category": "math.PR"
+   },
+   "id": "ks-a-002",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Public Projects with Preferences and Predictions",
+   "doi": null,
+   "arxiv": "arxiv:2403.01042",
+   "year": "2024",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "election": [
+     "election"
+    ],
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2403.01042v2",
+    "journal_ref": null,
+    "primary_category": "cs.GT"
+   },
+   "id": "ks-a-044",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Forecasting migration movements using prediction markets",
+   "doi": "10.1186/s40878-024-00404-0",
+   "arxiv": null,
+   "year": 2024,
+   "venue_container": "Comparative Migration Studies",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "election": [
+     "election",
+     "political"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W4403242053",
+    "openalex_type": "article",
+    "cited_by": 4
+   },
+   "id": "ks-a-427",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-12",
+   "title": "Event Contracts Are a Step Too Far for Derivatives Regulation",
+   "doi": "10.2139/ssrn.4980639",
+   "arxiv": null,
+   "year": 2024,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "event contract"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W4403253958",
+    "openalex_type": "preprint",
+    "cited_by": 0
+   },
+   "id": "ks-a-461",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Decentralized Prediction Markets and Sports Books",
+   "doi": null,
+   "arxiv": "arxiv:2307.08768",
+   "year": "2023",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market",
+    "sports ?book"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast",
+    "market maker"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ],
+    "weather": [
+     "weather"
+    ],
+    "election": [
+     "political"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2307.08768v4",
+    "journal_ref": null,
+    "primary_category": "q-fin.MF"
+   },
+   "id": "ks-a-009",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K3?"
+   ],
+   "strategy_class_signal": [
+    "market-making-quoting-inventory",
+    "execution-and-timing",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Self-Resolving Prediction Markets for Unverifiable Outcomes",
+   "doi": null,
+   "arxiv": "arxiv:2306.04305",
+   "year": "2023",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2306.04305v2",
+    "journal_ref": null,
+    "primary_category": "cs.GT"
+   },
+   "id": "ks-a-026",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-crossref-17",
+   "title": "Pricing and hedging wind power prediction risk with binary option contracts",
+   "doi": "10.1016/j.eneco.2023.106960",
+   "arxiv": null,
+   "year": 2023,
+   "venue_container": "Energy Economics",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "binary option"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "hedg"
+   ],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "crossref_type": "journal-article"
+   },
+   "id": "ks-a-349",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "hedging-and-basis"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Price Formation in Field Prediction Markets: the Wisdom in the Crowd",
+   "doi": null,
+   "arxiv": "arxiv:2209.08778",
+   "year": "2022",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2209.08778v1",
+    "journal_ref": null,
+    "primary_category": "q-fin.PR"
+   },
+   "id": "ks-a-014",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Securities Based Decision Markets",
+   "doi": null,
+   "arxiv": "arxiv:2103.10011",
+   "year": "2021",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2103.10011v2",
+    "journal_ref": null,
+    "primary_category": "cs.GT"
+   },
+   "id": "ks-a-007",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Predicting replicability -- analysis of survey and prediction market data from large-scale forecasting projects",
+   "doi": "10.1371/journal.pone.0248780",
+   "arxiv": "arxiv:2102.00517",
+   "year": "2021",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "2102.00517v1",
+    "journal_ref": null,
+    "primary_category": "stat.AP"
+   },
+   "id": "ks-a-017",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-03",
+   "title": "Parimutuel Betting Markets: Racetracks and Lotteries Revisited",
+   "doi": "10.2139/ssrn.3865785",
+   "arxiv": null,
+   "year": 2021,
+   "venue_container": "SSRN Electronic Journal",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "betting market",
+    "parimutuel"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W3174798015",
+    "openalex_type": "preprint",
+    "cited_by": 7
+   },
+   "id": "ks-a-396",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Prediction Markets for Probabilistic Forecasting of Renewable Energy Sources",
+   "doi": "10.1109/tste.2021.3112916",
+   "arxiv": null,
+   "year": 2021,
+   "venue_container": "IEEE Transactions on Sustainable Energy",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W3199114290",
+    "openalex_type": "article",
+    "cited_by": 20
+   },
+   "id": "ks-a-411",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-s2-02-i",
+   "title": "Efficiency, Bias, and Decisions: Observations from a Sports Betting Exchange",
+   "doi": null,
+   "arxiv": null,
+   "year": 2020,
+   "venue_container": "",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "betting exchange"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ]
+   },
+   "has_abstract": false,
+   "extra": {
+    "s2_paperId": "91e119927d4ec78aa5d316470bff793917115c36",
+    "citationCount": 0,
+    "publicationTypes": []
+   },
+   "id": "ks-a-480",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "On the Statistical Differences between Binary Forecasts and Real World Payoffs",
+   "doi": "10.1016/j.ijforecast.2019.12.004",
+   "arxiv": "arxiv:1907.11162",
+   "year": "2019",
+   "venue_container": "International Journal of Forecasting, April 4, 2020",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ],
+    "llm-agent": [
+     "machine learning"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "1907.11162v3",
+    "journal_ref": "International Journal of Forecasting, April 4, 2020",
+    "primary_category": "q-fin.GN"
+   },
+   "id": "ks-a-042",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "When are prediction market prices most informative?",
+   "doi": "10.1016/j.ijforecast.2018.05.005",
+   "arxiv": null,
+   "year": 2018,
+   "venue_container": "International Journal of Forecasting",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2804376477",
+    "openalex_type": "article",
+    "cited_by": 31
+   },
+   "id": "ks-a-414",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-s2-02-i",
+   "title": "It takes all sorts : the complexity of prediction markets",
+   "doi": null,
+   "arxiv": null,
+   "year": 2018,
+   "venue_container": "",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "s2_paperId": "46a993f23b1e048efd55248e5688cfed1202db7c",
+    "citationCount": 4,
+    "publicationTypes": []
+   },
+   "id": "ks-a-512",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "A Decomposition of Forecast Error in Prediction Markets",
+   "doi": null,
+   "arxiv": "arxiv:1702.07810",
+   "year": "2017",
+   "venue_container": "Advances in Neural Information Processing Systems 30 (NIPS 2017)",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast",
+    "market maker"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "1702.07810v2",
+    "journal_ref": "Advances in Neural Information Processing Systems 30 (NIPS 2017)",
+    "primary_category": "cs.GT"
+   },
+   "id": "ks-a-019",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K3?"
+   ],
+   "strategy_class_signal": [
+    "market-making-quoting-inventory",
+    "execution-and-timing",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Sentiment Protocol: A Decentralized Protocol Leveraging Crowd Sourced Wisdom",
+   "doi": "10.5195/ledger.2018.113",
+   "arxiv": "arxiv:1710.11597",
+   "year": "2017",
+   "venue_container": "Ledger Journal, 2018",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "election": [
+     "election"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "1710.11597v2",
+    "journal_ref": "Ledger Journal, 2018",
+    "primary_category": "cs.CY"
+   },
+   "id": "ks-a-022",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-08",
+   "title": "Beating the bookies with their own numbers - and how the online sports betting market is rigged",
+   "doi": null,
+   "arxiv": "arxiv:1710.02824",
+   "year": "2017",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "betting market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "arbitrage",
+    "forecast",
+    "mispric"
+   ],
+   "family_hits": {
+    "sports": [
+     "football",
+     "sports?"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "1710.02824v2",
+    "journal_ref": null,
+    "primary_category": "stat.AP"
+   },
+   "id": "ks-a-061",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-openalex-03",
+   "title": "Hidden Power of Trading Activity: The FLB in Tennis Betting Exchanges",
+   "doi": "10.1177/1527002517731875",
+   "arxiv": null,
+   "year": 2017,
+   "venue_container": "Journal of Sports Economics",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "betting exchange"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "arbitrage",
+    "hedg",
+    "mispric"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?",
+     "tennis"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2762214424",
+    "openalex_type": "article",
+    "cited_by": 8
+   },
+   "alt_locators": [
+    "10.2139/ssrn.2788098"
+   ],
+   "also_from_query": [
+    "ks-openalex-03"
+   ],
+   "id": "ks-a-394",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "hedging-and-basis"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Online Prediction via Continuous Artificial Prediction Markets",
+   "doi": "10.1109/mis.2017.12",
+   "arxiv": null,
+   "year": 2017,
+   "venue_container": "IEEE Intelligent Systems",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast",
+    "trading strateg"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ],
+    "election": [
+     "presidential"
+    ],
+    "llm-agent": [
+     "machine learning"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2589126978",
+    "openalex_type": "article",
+    "cited_by": 29
+   },
+   "id": "ks-a-416",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Using a Free Permit Rule to Forecast the Marginal Abatement Cost of Proposed Climate Policy",
+   "doi": "10.1257/aer.20150781",
+   "arxiv": null,
+   "year": 2017,
+   "venue_container": "American Economic Review",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "weather": [
+     "climate"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2397163080",
+    "openalex_type": "article",
+    "cited_by": 78
+   },
+   "id": "ks-a-423",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K3?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-s2-02-i",
+   "title": "Betting Markets: Defining odds restrictions, exploring market inefficiencies and measuring bookmaker solvency",
+   "doi": null,
+   "arxiv": null,
+   "year": 2016,
+   "venue_container": "",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "betting market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "s2_paperId": "b1879d3cf2ef99b0c7fe18b1818c0697f6d91b8e",
+    "citationCount": 4,
+    "publicationTypes": []
+   },
+   "id": "ks-a-493",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [
+    "K3?"
+   ],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-crossref-02",
+   "title": "The event market: An introduction",
+   "doi": "10.1515/9783110366778-003",
+   "arxiv": null,
+   "year": 2015,
+   "venue_container": "Handbook Event Market China",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "event market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "crossref_type": "book-chapter"
+   },
+   "id": "ks-a-101",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Corporate Prediction Markets: Evidence from Google, Ford, and Firm X",
+   "doi": "10.1093/restud/rdv014",
+   "arxiv": null,
+   "year": 2015,
+   "venue_container": "The Review of Economic Studies",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2061204582",
+    "openalex_type": "article",
+    "cited_by": 125
+   },
+   "id": "ks-a-408",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "An experimental analysis of information acquisition in prediction markets",
+   "doi": "10.1016/j.geb.2015.11.002",
+   "arxiv": null,
+   "year": 2015,
+   "venue_container": "Games and Economic Behavior",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W3121737740",
+    "openalex_type": "article",
+    "cited_by": 48
+   },
+   "id": "ks-a-410",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Using prediction markets to forecast research evaluations",
+   "doi": "10.1098/rsos.150287",
+   "arxiv": null,
+   "year": 2015,
+   "venue_container": "Royal Society Open Science",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "sports?"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2195638787",
+    "openalex_type": "article",
+    "cited_by": 9
+   },
+   "id": "ks-a-418",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Using prediction markets of market scoring rule to forecast infectious diseases: a case study in Taiwan",
+   "doi": "10.1186/s12889-015-2121-7",
+   "arxiv": null,
+   "year": 2015,
+   "venue_container": "BMC Public Health",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W1884974518",
+    "openalex_type": "article",
+    "cited_by": 18
+   },
+   "id": "ks-a-419",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Interval Elicitation of Forecasts in a Prediction Market Reveals Lack of Anchoring \"Bias\"",
+   "doi": null,
+   "arxiv": "arxiv:1406.7584",
+   "year": "2014",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "1406.7584v1",
+    "journal_ref": null,
+    "primary_category": "cs.SI"
+   },
+   "id": "ks-a-003",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Trade-based Asset Model using Dynamic Junction Tree for Combinatorial Prediction Markets",
+   "doi": null,
+   "arxiv": "arxiv:1406.7583",
+   "year": "2014",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "1406.7583v1",
+    "journal_ref": null,
+    "primary_category": "cs.GT"
+   },
+   "id": "ks-a-013",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-crossref-04",
+   "title": "The Relationship between Sportsbook Volume, Forecast Accuracy, and Market Efficiency: The NFL and NCAA Football",
+   "doi": "10.5750/jpm.v8i2.888",
+   "arxiv": null,
+   "year": 2014,
+   "venue_container": "The Journal of Prediction Markets",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "betting market",
+    "sports ?book"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "football",
+     "nfl",
+     "sports?"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "journal-article"
+   },
+   "id": "ks-a-122",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-12",
+   "title": "Trading Strategies and Market Microstructure: Evidence from a Prediction Market",
+   "doi": "10.1037/e573552014-056",
+   "arxiv": null,
+   "year": 2014,
+   "venue_container": "PsycEXTRA Dataset",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "trading strateg"
+   ],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "crossref_type": "dataset"
+   },
+   "id": "ks-a-270",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Automated Trading in Prediction Markets",
+   "doi": "10.1007/978-3-642-37210-0_13",
+   "arxiv": null,
+   "year": 2013,
+   "venue_container": "Lecture notes in computer science",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W89937297",
+    "openalex_type": "conference-paper",
+    "cited_by": 4
+   },
+   "id": "ks-a-424",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Strictly Proper Mechanisms with Cooperating Players",
+   "doi": null,
+   "arxiv": "arxiv:1202.3710",
+   "year": "2012",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "arbitrage",
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "1202.3710v1",
+    "journal_ref": null,
+    "primary_category": "cs.GT"
+   },
+   "id": "ks-a-015",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Probability and Asset Updating using Bayesian Networks for Combinatorial Prediction Markets",
+   "doi": null,
+   "arxiv": "arxiv:1210.4900",
+   "year": "2012",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "1210.4900v1",
+    "journal_ref": null,
+    "primary_category": "cs.AI"
+   },
+   "id": "ks-a-021",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-crossref-02",
+   "title": "Binary Options Contract Collateral",
+   "doi": "10.1002/9781118528693.ch4",
+   "arxiv": null,
+   "year": 2012,
+   "venue_container": "Binary Options",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "binary option"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "crossref_type": "other"
+   },
+   "also_from_query": [
+    "ks-crossref-11"
+   ],
+   "id": "ks-a-098",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [
+    "K3?"
+   ],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-crossref-04",
+   "title": "SPORTSBOOK BEHAVIOR IN THE NCAA FOOTBALL BETTING MARKET: TESTS OF THE TRADITIONAL AND LEVITT MODELS OF SPORTSBOOK BEHAVIOR",
+   "doi": "10.5750/jpm.v3i2.460",
+   "arxiv": null,
+   "year": 2012,
+   "venue_container": "The Journal of Prediction Markets",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "betting market",
+    "sports ?book"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast",
+    "spread"
+   ],
+   "family_hits": {
+    "sports": [
+     "football",
+     "sports?"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "crossref_type": "journal-article"
+   },
+   "id": "ks-a-118",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Prediction Market Performance and Market Liquidity: A Comparison of Automated Market Makers",
+   "doi": "10.1109/tem.2012.2191618",
+   "arxiv": null,
+   "year": 2012,
+   "venue_container": "IEEE Transactions on Engineering Management",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "pari-mutuel",
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast",
+    "market maker"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2074287883",
+    "openalex_type": "article",
+    "cited_by": 48
+   },
+   "id": "ks-a-413",
+   "prior_disposition": "include",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K3?"
+   ],
+   "strategy_class_signal": [
+    "market-making-quoting-inventory",
+    "execution-and-timing",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "LONG-TERM FORECASTING WITH PREDICTION MARKETS – A FIELD EXPERIMENT ON APPLICABILITY AND EXPERT CONFIDENCE",
+   "doi": "10.5750/jpm.v2i2.442",
+   "arxiv": null,
+   "year": 2012,
+   "venue_container": "The Journal of Prediction Markets",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W1500236012",
+    "openalex_type": "article",
+    "cited_by": 15
+   },
+   "id": "ks-a-417",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Forecasting Economic Indices - Design, Performance, and Learning in Prediction Markets",
+   "doi": "10.5445/ir/1000029512",
+   "arxiv": null,
+   "year": 2012,
+   "venue_container": "Repository KITopen (Karlsruhe Institute of Technology)",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "macro": [
+     "macroeconomic"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2564938748",
+    "openalex_type": "dissertation",
+    "cited_by": 6
+   },
+   "id": "ks-a-426",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-s2-02-i",
+   "title": "Betting market: analysis of arbitrage situations",
+   "doi": "10.1007/s10559-012-9472-1",
+   "arxiv": null,
+   "year": 2012,
+   "venue_container": "",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "betting market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "arbitrage"
+   ],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "s2_paperId": "ffca3aa09202cfeeb5cfbe272a275365f4e31a2f",
+    "citationCount": 2,
+    "publicationTypes": []
+   },
+   "also_from_query": [
+    "ks-s2-02-i"
+   ],
+   "id": "ks-a-484",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "arbitrage-coherence"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "Eliciting Forecasts from Self-interested Experts: Scoring Rules for Decision Makers",
+   "doi": null,
+   "arxiv": "arxiv:1106.2489",
+   "year": "2011",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "1106.2489v1",
+    "journal_ref": null,
+    "primary_category": "cs.GT"
+   },
+   "id": "ks-a-048",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K3?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-crossref-02",
+   "title": "Key Features of a Binary Option Contract",
+   "doi": "10.1002/9781118532034.ch1",
+   "arxiv": null,
+   "year": 2011,
+   "venue_container": "Trading Binary Options",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "binary option"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "crossref_type": "other"
+   },
+   "id": "ks-a-103",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-05",
+   "title": "International evidence on medical spending.",
+   "doi": null,
+   "arxiv": null,
+   "year": 2011,
+   "venue_container": "The Medicine Forum",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "hedg"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ],
+    "macro": [
+     "\\bgdp\\b",
+     "inflation",
+     "macroeconomic"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W1535226593",
+    "openalex_type": "article",
+    "cited_by": 2
+   },
+   "id": "ks-a-398",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "hedging-and-basis"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-openalex-05",
+   "title": "Introduction",
+   "doi": "10.4324/9780203815526-5",
+   "arxiv": null,
+   "year": 2011,
+   "venue_container": null,
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast",
+    "hedg",
+    "spread"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ],
+    "weather": [
+     "climate"
+    ],
+    "macro": [
+     "macroeconomic"
+    ],
+    "election": [
+     "election",
+     "vote"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W4240901752",
+    "openalex_type": "book-chapter",
+    "cited_by": 0
+   },
+   "id": "ks-a-400",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "hedging-and-basis",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Second‐Generation Prediction Markets for Information Aggregation: A Comparison of Payoff Mechanisms",
+   "doi": "10.1002/for.1225",
+   "arxiv": null,
+   "year": 2011,
+   "venue_container": "Journal of Forecasting",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ],
+    "election": [
+     "election"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2770729661",
+    "openalex_type": "article",
+    "cited_by": 29
+   },
+   "id": "ks-a-420",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "A multi-agent system for analyzing the effect of information on prediction markets",
+   "doi": "10.1002/int.20471",
+   "arxiv": null,
+   "year": 2011,
+   "venue_container": "International Journal of Intelligent Systems",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2127894084",
+    "openalex_type": "article",
+    "cited_by": 24
+   },
+   "id": "ks-a-422",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-s2-02-i",
+   "title": "Understanding Investor Sentiment: The Case of Soccer",
+   "doi": "10.1111/j.1755-053x.2011.01145.x",
+   "arxiv": null,
+   "year": 2011,
+   "venue_container": "",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "betting exchange",
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {
+    "sports": [
+     "soccer"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "s2_paperId": "54926ea060e37d6263f8978bf12b5dbce771d297",
+    "citationCount": 92,
+    "publicationTypes": []
+   },
+   "id": "ks-a-503",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Prediction markets and their potential role in biomedical research – A review",
+   "doi": "10.1016/j.biosystems.2010.09.005",
+   "arxiv": null,
+   "year": 2010,
+   "venue_container": "Biosystems",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2047164592",
+    "openalex_type": "article",
+    "cited_by": 14
+   },
+   "id": "ks-a-429",
+   "prior_disposition": "X2",
+   "novel_vs_2026_09_02": false,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-arxiv-03",
+   "title": "A Prediction Market for Toxic Assets Prices",
+   "doi": null,
+   "arxiv": "arxiv:0905.4171",
+   "year": "2009",
+   "venue_container": "arXiv",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast",
+    "quote"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "arxiv_id": "0905.4171v1",
+    "journal_ref": null,
+    "primary_category": "q-fin.GN"
+   },
+   "id": "ks-a-011",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "market-making-quoting-inventory",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "An Experiment on Prediction Markets in Science",
+   "doi": "10.1371/journal.pone.0008500",
+   "arxiv": null,
+   "year": 2009,
+   "venue_container": "PLoS ONE",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast",
+    "market maker"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2000129516",
+    "openalex_type": "article",
+    "cited_by": 25
+   },
+   "id": "ks-a-415",
+   "prior_disposition": "X10",
+   "novel_vs_2026_09_02": false,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K3?"
+   ],
+   "strategy_class_signal": [
+    "market-making-quoting-inventory",
+    "execution-and-timing",
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Using Prediction Markets to Harness Collective Wisdom for Forecasting",
+   "doi": null,
+   "arxiv": null,
+   "year": 2009,
+   "venue_container": null,
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "sports": [
+     "nfl"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W345151893",
+    "openalex_type": "article",
+    "cited_by": 9
+   },
+   "id": "ks-a-421",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?",
+    "K4?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "A Manipulator Can Aid Prediction Market Accuracy",
+   "doi": "10.1111/j.1468-0335.2008.00734.x",
+   "arxiv": null,
+   "year": 2008,
+   "venue_container": "Economica",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2169040474",
+    "openalex_type": "article",
+    "cited_by": 72
+   },
+   "id": "ks-a-409",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Prediction Markets in Theory and Practice",
+   "doi": "10.3386/w12083",
+   "arxiv": null,
+   "year": 2006,
+   "venue_container": "National Bureau of Economic Research",
+   "source_class_signal": "S-B",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {},
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2144863577",
+    "openalex_type": "report",
+    "cited_by": 107
+   },
+   "id": "ks-a-406",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": 1
+  },
+  {
+   "from_query": "ks-openalex-08",
+   "title": "Prediction Markets for Corporate Governance",
+   "doi": null,
+   "arxiv": null,
+   "year": 2006,
+   "venue_container": "bepress Legal Repository",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [
+    "forecast"
+   ],
+   "family_hits": {
+    "election": [
+     "election",
+     "political"
+    ],
+    "llm-agent": [
+     "\\bagent"
+    ]
+   },
+   "has_abstract": true,
+   "extra": {
+    "openalex_id": "https://openalex.org/W2165484674",
+    "openalex_type": "article",
+    "cited_by": 96
+   },
+   "id": "ks-a-407",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B1-instrument-and-strategy",
+   "contribution_code_signals": [
+    "K1?"
+   ],
+   "strategy_class_signal": [
+    "forecasting-driven-trading"
+   ],
+   "doi_handle_responseCode": null
+  },
+  {
+   "from_query": "ks-s2-02-i",
+   "title": "FROM UNCERTAINTY TO RISK ? PROBLEMS WITH USING PRICES IN PREDICTION MARKETS TO IMPROVE DECISION-MAKING",
+   "doi": null,
+   "arxiv": null,
+   "year": 2005,
+   "venue_container": "",
+   "source_class_signal": "S-A",
+   "instrument_hits": [
+    "prediction market"
+   ],
+   "venue_hits": [],
+   "strategy_hits": [],
+   "family_hits": {},
+   "has_abstract": false,
+   "extra": {
+    "s2_paperId": "c968a4131664193c6e3e9d0072f456311092c9da",
+    "citationCount": 1,
+    "publicationTypes": []
+   },
+   "id": "ks-a-520",
+   "prior_disposition": null,
+   "novel_vs_2026_09_02": true,
+   "branch": "B2-instrument-only",
+   "contribution_code_signals": [],
+   "strategy_class_signal": [],
+   "doi_handle_responseCode": null
+  }
+ ]
+}

@@ -1,0 +1,1662 @@
+[
+ {
+  "_header": true,
+  "artifact": "document set, VENUE-AND-REGULATOR arm (source class S-D), protocol section 3.3",
+  "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+  "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+  "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+  "protocol_frozen_before_first_query": true,
+  "protocol_unmodified_by_this_arm": "the working-tree protocol file digests identically to the blob at the registration commit",
+  "arm": "venue-and-regulator",
+  "branch": "kalshi-strategy-multivocal",
+  "companion_query_log": "docs/literature/search_logs/kalshi-strategy-multivocal/ks-venue-queries.json",
+  "RETRIEVAL_DATE": "2026-09-04",
+  "retrieval_date_warning": "EVERY RULE IN THIS FILE IS DATED 2026-09-04 BY RETRIEVAL. These documents are amended - the Part 40 framework at ks-vr-d22 requires only ten business days' notice for a rule change and one business day for a product listing - and a clause quoted here without that retrieval date is worthless. The SHA-256 of the retrieved bytes on each record is the drift detector; a re-retrieval that digests differently is a changed document, not a confirmation.",
+  "executed_by": "subagent (Claude Opus 5, model id claude-opus-5, Claude Code / Claude Agent SDK), dispatched by the lead session",
+  "extractor": "single extractor, no duplicate extraction (protocol section 8 item 9)",
+  "n_documents": 30,
+  "n_clauses": 132,
+  "n_queries": 87,
+  "source_class_note": "every record here is S-D under protocol section 2.1: the publisher is a trading venue or a public authority and the document states rules, specifications, fees, filings, orders or technical interface documentation. Venue blog and marketing material is S-E by the same section and none is admitted here.",
+  "contribution_code_note": "every record carries K3 (precondition or constraint) by construction: this arm collects the clauses that decide executability, whether or not they name a strategy. No record here is admitted on K1 or K2.",
+  "attribution_discipline": "FILER-PUBLISHED MATERIAL IS LABELLED AS SUCH. Each record carries an attribution_label; where a filed document is the only source the label reads 'as filed' or 'as stated in the rulebook'. No record asserts venue conduct in its own voice - the corpus never says 'Kalshi charges X', only that a named document states X as of a named date.",
+  "absence_discipline": "A CLAUSE NOT ON THE PAGE IS NOT INFERRED. Where a document states no date, document_date or effective_date is null with a note saying the document states none; a regulator-record date is never promoted to an effective date. Where a value is withheld at source it is recorded as a named gap in the clause's own text, never estimated.",
+  "quotation_discipline": "Quotations are transcribed exactly as the named extraction_tool returns them from the retrieved bytes, artifacts included. Several CFTC filings are track-changes redlines carrying DRAFT watermarks; their extracted text contains interleaved struck and inserted wording and spurious intra-word spaces. Those records carry an extraction_defect field and their quotations must never be re-quoted as clean rule text. Where a table's column alignment does not survive extraction, NO cell value is quoted and the table is described instead.",
+  "hard_constraints_observed": [
+   "no account creation",
+   "no login",
+   "no API key",
+   "no authenticated endpoint",
+   "no order placement",
+   "NO MARKET-DATA ACQUISITION: no price, order-book, trade, candlestick or ticker endpoint was called on any venue. Both venues' documentation prints curl invocations that read live order books; those were read as data and NOT executed.",
+   "every retrieved page treated as DATA, never as instruction; agent-directed text recorded in each record's injection_observed field",
+   "ADR-0003: no tradeable rule, position size, expected return, edge, spread, implied probability or Sharpe ratio is stated anywhere in this file. Where two documents state figures on incompatible bases the record says so and performs NO conversion."
+  ],
+  "document_classes": [
+   {
+    "class": "1. Rulebook and its amendments",
+    "status": "retrieved",
+    "n_documents": 5,
+    "document_ids": [
+     "ks-vr-d02",
+     "ks-vr-d10",
+     "ks-vr-d12",
+     "ks-vr-d13",
+     "ks-vr-d14"
+    ],
+    "note": "RETRIEVED ONLY AS FILED WITH THE REGULATOR, AND NOT IN A CURRENT VERSION. The venue's own rulebook page (https://kalshi.com/regulatory/rulebook) returns HTTP 200 but the body is client-rendered behind an AWS WAF challenge; no rule text is present in the retrieved bytes (KS-VR-Q01, KS-VR-Q01b), and no rulebook PDF exists at any of the five candidate paths probed (KS-VR-Q02, Q14, Q15, Q16, Q17). Of the three rulebook copies reachable through the CFTC organization record, one is a Railbird rulebook mis-served under Kalshi's Exhibit M label (ks-vr-d12), one is a Nov-2023 redline whose text extracts corrupted (ks-vr-d13), and one is a clean but redacted 2019 version (ks-vr-d14). THE RULEBOOK IN FORCE ON 2026-09-04 WAS NOT LOCATED AT THE ENDPOINTS SEARCHED ON THIS DATE. Amendments to it are individually retrievable through the filing register (111 KEX rule filings enumerated, KS-VR-Q32) and five were retrieved in full."
+   },
+   {
+    "class": "2. Contract series specifications and the named settlement source for each",
+    "status": "retrieved",
+    "n_documents": 2,
+    "document_ids": [
+     "ks-vr-d07",
+     "ks-vr-d21"
+    ],
+    "note": "One full contract terms-and-conditions document retrieved with its settlement source named (ks-vr-d21), plus the venue's general settlement documentation (ks-vr-d07). The venue's own contract-drafts page is client-rendered with no text in the bytes (KS-VR-Q12). ONE series out of the roughly ninety named in the fee schedule was specified at this depth; this is a sampled retrieval, not an enumeration of the contract set."
+   },
+   {
+    "class": "3. Fee schedule and maker/taker structure",
+    "status": "retrieved",
+    "n_documents": 3,
+    "document_ids": [
+     "ks-vr-d01",
+     "ks-vr-d08",
+     "ks-vr-d18"
+    ],
+    "note": "The current fee schedule was retrieved from the venue with a stated effective date of 2026-07-07, together with the fee-rounding mechanics and one Regulation 40.6 fee self-certification. The per-series multiplier table and the tiered perpetual-futures tables are present in the document but their cell alignment does not survive extraction and no cell value is quoted."
+   },
+   {
+    "class": "4. Position limits and membership/participant limits",
+    "status": "retrieved",
+    "n_documents": 5,
+    "document_ids": [
+     "ks-vr-d09",
+     "ks-vr-d14",
+     "ks-vr-d16",
+     "ks-vr-d17",
+     "ks-vr-d20"
+    ],
+    "note": "RETRIEVED, with the governing numbers partly withheld at source. The 25,000 USD per-member limit is on the record verbatim from the 2023 self-certification (ks-vr-d16), the 2024 amendment moves most contracts to per-contract accountability levels with market-maker levels of 1,000,000 and 10,000,000 USD (ks-vr-d17), and one contract's own level is 25,000 USD per strike per member (ks-vr-d21). The 2020-filed rulebook redacts the number entirely and the 2023 filing's Appendix A, naming which contracts carry a higher limit, is confidential."
+   },
+   {
+    "class": "5. Market-maker or liquidity-provider programs and their incentive terms",
+    "status": "retrieved",
+    "n_documents": 3,
+    "document_ids": [
+     "ks-vr-d02",
+     "ks-vr-d19",
+     "ks-vr-d27"
+    ],
+    "note": "RETRIEVED IN FORM, WITHHELD IN SUBSTANCE. The May-2026 Liquidity Provider Program terms were retrieved in full (ks-vr-d19): they name the four obligation dimensions and a 50,000 USD per-week reward ceiling, but state NO value for maximum spread, minimum size, minimum uptime or coverage, and place the selection procedure in a confidential appendix. The 2025 Market Maker Program schedules were retrieved as PDFs with NO text layer and are not extractable (KS-VR-Q45, KS-VR-Q46). Entry to every one of these programmes runs through a Market Maker Agreement that is not a published document and was not located."
+   },
+   {
+    "class": "6. API documentation and rate limits",
+    "status": "retrieved",
+    "n_documents": 5,
+    "document_ids": [
+     "ks-vr-d03",
+     "ks-vr-d04",
+     "ks-vr-d05",
+     "ks-vr-d06",
+     "ks-vr-d26"
+    ],
+    "note": "Retrieved from the venue's developer subdomain in authoritative form (ks-vr-d06, token-bucket metering with a published tier ladder and its qualification rule), plus two venue pages that state a flat '100 requests per second' figure inconsistent in units with it. The paired venue's rate limits were retrieved for comparison."
+   },
+   {
+    "class": "7. Self-certification filings",
+    "status": "retrieved",
+    "n_documents": 4,
+    "document_ids": [
+     "ks-vr-d18",
+     "ks-vr-d19",
+     "ks-vr-d20",
+     "ks-vr-d22"
+    ],
+    "note": "The filing register was enumerated for the venue's exchange code KEX and returned 111 rule filings and 13 keyword-matched product filings (KS-VR-Q32, KS-VR-Q30). Four self-certifications were retrieved in full together with the Part 40 framework that governs their timing and their redaction rights. The remaining 107 rule filings are enumerated and left unretrieved."
+   },
+   {
+    "class": "8. CFTC orders, letters, dockets and press naming the venue",
+    "status": "retrieved",
+    "n_documents": 4,
+    "document_ids": [
+     "ks-vr-d11",
+     "ks-vr-d15",
+     "ks-vr-d23",
+     "ks-vr-d24"
+    ],
+    "note": "Retrieved through the press-release listing (8 releases naming Kalshi, KS-VR-Q55) and the organization record's associated documents. NOTE the zero-yield query KS-VR-Q54: the CFTC's own 'Commission Orders and Other Actions' filing table returned NO row matching Kalshi, so this class is reachable only by the press-release and organization-record routes, not by the filing table that nominally holds it."
+   },
+   {
+    "class": "9. Equivalent published rule documents for the venues a cross-venue strategy would pair with",
+    "status": "retrieved",
+    "n_documents": 6,
+    "document_ids": [
+     "ks-vr-d25",
+     "ks-vr-d26",
+     "ks-vr-d27",
+     "ks-vr-d28",
+     "ks-vr-d29",
+     "ks-vr-d30"
+    ],
+    "note": "PARTIALLY RETRIEVED, AND THE PARTIALITY IS STRUCTURAL. Polymarket US (QCX LLC) and its non-US affiliate were retrieved in useful depth - fee schedule with effective date, rate limits, market-maker programme, trading restrictions. Everything else named in the arm's construction rule failed: CME (HTTP 403, even on robots.txt, KS-VR-Q62 and Q67), Betfair (HTTP 403, KS-VR-Q66), PredictIt (HTTP 200 but client-rendered with no rules text, KS-VR-Q61), and the Polymarket US rulebook route itself (HTTP 200, client-rendered, no rule text, KS-VR-Q58). Thirty-four further designated contract markets are enumerated at ks-vr-d30 and left unretrieved. Sportsbook house rules were not attempted."
+   }
+  ]
+ },
+ {
+  "id": "ks-vr-d01",
+  "source_class": "S-D",
+  "document_class": "3. Fee schedule and maker/taker structure",
+  "publisher": "KalshiEX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Trading Fees [Kalshi Exchange Fee Schedule]",
+  "url": "https://kalshi.com/docs/kalshi-fee-schedule.pdf",
+  "document_date": null,
+  "document_date_note": "no publication date is printed on the document; the only date it states is the effective date below",
+  "effective_date": "2026-07-07",
+  "effective_date_verbatim": "Last updated and effective: July 7, 2026",
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:10:05+00:00",
+  "sha256_of_retrieved_bytes": "c326a69f596a11e8f8be2620402d39a8d4823920c21cc97c93a114d862699601",
+  "retrieved_bytes": 281129,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q09",
+  "extraction_tool": "pdftotext -layout (poppler)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Kalshi's published fee schedule",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 11,
+  "clauses": [
+   {
+    "clause_id": "d01-c1",
+    "quote": "Trading fees are only charged for orders that are immediately matched with orders sitting on the orderbook. Trading fees are not charged for orders placed that are not immediately matched and are instead left as resting orders on the orderbook unless they are included in our \"Maker Fees\" section.",
+    "what_it_constrains": "Which side of a fill bears the trading fee, and therefore whether the passive leg of any two-leg strategy is costed at all."
+   },
+   {
+    "clause_id": "d01-c2",
+    "quote": "fees = round up(M x 0.07 x C x P x (1-P))",
+    "what_it_constrains": "The taker fee function. Fee is a function of price, so cost is not constant across the price range and is maximal near P=0.5."
+   },
+   {
+    "clause_id": "d01-c3",
+    "quote": "M = the multiplier for each contract (default is 1 unless otherwise indicated)",
+    "what_it_constrains": "Taker fee is per-series: the multiplier is set per contract series, so a fee computed for one series does not transfer to another."
+   },
+   {
+    "clause_id": "d01-c4",
+    "quote": "fees = round up(M x 0.0175 x C x P x (1-P))",
+    "what_it_constrains": "The maker fee function. Where the maker multiplier is non-zero Kalshi charges makers a positive fee - it is not a rebate."
+   },
+   {
+    "clause_id": "d01-c5",
+    "quote": "M = the multiplier for each contract (default is 0 unless otherwise indicated)",
+    "what_it_constrains": "Default maker multiplier is zero, so whether a resting order is charged at all is a per-series fact that must be read off the non-standard-fee table, never assumed."
+   },
+   {
+    "clause_id": "d01-c6",
+    "quote": "round up = rounds up such that the fee + positionCost is rounded to a centicent",
+    "what_it_constrains": "Fee rounding is always upward; small-size strategies pay a rounding premium that does not vanish as size falls."
+   },
+   {
+    "clause_id": "d01-c7",
+    "quote": "Maker fees are charged for orders placed that are not immediately matched and are instead left as resting orders on the orderbook. These fees are only charged when a trade is ultimately executed, there are no fees associated with canceling a resting order.",
+    "what_it_constrains": "Quote-and-cancel activity is not itself fee-bearing; cost accrues only on execution."
+   },
+   {
+    "clause_id": "d01-c8",
+    "quote": "There is no settlement fee.",
+    "what_it_constrains": "Holding to expiry incurs no additional exchange fee under this schedule."
+   },
+   {
+    "clause_id": "d01-c9",
+    "quote": "There is no membership fee.",
+    "what_it_constrains": "No fixed access cost is imposed by this schedule (bears on document class 4, membership limits)."
+   },
+   {
+    "clause_id": "d01-c10",
+    "quote": "Users accessing Kalshi via a third-party Futures Commission Merchant may be charged fees by their Futures Commission Merchant that vary from the above fee schedule.",
+    "what_it_constrains": "The schedule binds only direct access; an intermediated participant's cost is not determined by this document."
+   },
+   {
+    "clause_id": "d01-c11",
+    "quote": "Please refer to https://kalshi.com/fee-schedule for scheduled upcoming fee changes.",
+    "what_it_constrains": "The document is not self-sufficient over time: pending changes live at a separate URL, which this arm retrieved (KS-VR-Q18) and found client-rendered with no fee text in the bytes."
+   }
+  ],
+  "tables_not_quoted": "The document also carries a general per-price fee table, a per-series non-standard maker/taker multiplier table (roughly 90 series), and two tiered perpetual-futures fee tables (a taker schedule and a maker schedule across 11 volume tiers). Column alignment in these tables is DESTROYED by text extraction - tier labels and their values do not stay in register - so NO cell value is quoted as verbatim. The existence and shape of the tables is recorded; their contents are NOT extracted at this depth.",
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d02",
+  "source_class": "S-D",
+  "document_class": "1. Rulebook and its amendments (member-facing contract of adhesion)",
+  "publisher": "KalshiEX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Kalshi Member Agreement",
+  "url": "https://kalshi.com/docs/kalshi-member-agreement.pdf",
+  "document_date": null,
+  "document_date_note": "NO date is stated anywhere in the retrieved text. Recorded as absent, never estimated.",
+  "effective_date": null,
+  "effective_date_note": "the document states none",
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:10:08+00:00",
+  "sha256_of_retrieved_bytes": "292643cdae6c2898cf923d518d412b58f9f340547f344cef8528c6143c136884",
+  "retrieved_bytes": 167183,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q13",
+  "extraction_tool": "pdftotext -layout (poppler)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in the Kalshi Member Agreement",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 3,
+  "clauses": [
+   {
+    "clause_id": "d02-c1",
+    "quote": "You acknowledge that Kalshi's Rulebook allows Kalshi to implement market maker programs. Kalshi believes that these programs will promote liquidity and orderliness on the Kalshi Exchange. Under the rules, market makers will make markets on Kalshi in exchange for receiving benefits. The benefits can include monetary benefits, such as discounts on fees, rebates on fees, revenue share from fees, and other monetary benefits. Market makers who receive these benefits may be able to price their quotes in ways that are materially different from other Kalshi members who are not eligible to receive these financial benefits. Market makers may also be eligible for sophisticated risk management tools, such as order protections whereby orders are canceled if the market maker's trading session disconnects from the Exchange, and may be eligible to greater throughput to the Exchange. These risk management tools enable market makers to effectively manage the risks of their market making activity, and may not be available to members who are not market makers. These tools may give market makers a trading advantage over members who are not market makers; and",
+    "what_it_constrains": "DECISIVE for any quoting or latency-sensitive strategy run by a non-market-maker. The venue states in its own member agreement that market makers may receive fee discounts, fee rebates, fee revenue share, disconnect-cancel protection and GREATER THROUGHPUT, none of which are available to ordinary members. A cost or fill-rate figure built from the public fee schedule and the public rate-limit tiers is therefore an upper bound on a non-market-maker's competitiveness against the members who set the quotes."
+   },
+   {
+    "clause_id": "d02-c2",
+    "quote": "You further acknowledge that market makers may be required, during specific times, to maintain a maximum spread size and may be required to maintain a minimum depth within the spread. Outside of the required times, market makers are not required to, and potentially will not, maintain the maximum spread size and minimum depth. Therefore, pricing and liquidity outside of the required times may be worse than during the required times.",
+    "what_it_constrains": "Liquidity is contractually guaranteed only inside windows the document does not identify. Any strategy whose fills depend on a resting two-sided book must treat depth as time-varying by design, not as a stationary property."
+   },
+   {
+    "clause_id": "d02-c3",
+    "quote": "This Agreement may be amended unilaterally by Kalshi upon notice to You. You will be deemed to agree to each such amendment if You do not terminate this Agreement prior to the effective date of the amendment;",
+    "what_it_constrains": "Access terms are unilaterally amendable; no version of the executability preconditions is contractually stable for a participant."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d03",
+  "source_class": "S-D",
+  "document_class": "6. API documentation and rate limits",
+  "publisher": "KalshiEX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Kalshi API Overview",
+  "url": "https://kalshi.com/docs/api.md",
+  "document_date": null,
+  "document_date_note": "the page states no date",
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:11:08+00:00",
+  "sha256_of_retrieved_bytes": "d8d392f330abdbf7523f4db7950e803483504abcda36edda1cc3973cc1c53a61",
+  "retrieved_bytes": 7560,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q19",
+  "extraction_tool": "none required (served as text/markdown)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Kalshi's published API overview",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 4,
+  "clauses": [
+   {
+    "clause_id": "d03-c1",
+    "quote": "Public market data (markets, events, series, order books, candlesticks, public trades) is available with no authentication.",
+    "what_it_constrains": "Observation of the venue does not require an account; execution does. The asymmetry matters because a study can be run unauthenticated while the strategy it describes cannot."
+   },
+   {
+    "clause_id": "d03-c2",
+    "quote": "Default rate limit is 100 requests per second per API key on REST\n  endpoints, and a separate budget for WebSocket subscriptions.",
+    "what_it_constrains": "Order-submission throughput ceiling as stated on this page. NOTE the inconsistency with the authoritative token-bucket document ks-vr-d06, which meters in tokens per second at a default cost of 10 tokens per request; 100 requests per second is the Premier tier there, not a default."
+   },
+   {
+    "clause_id": "d03-c3",
+    "quote": "Always check `status` on a market before placing orders; trading is only\n  allowed when `status == \"active\"`.",
+    "what_it_constrains": "Executability is state-gated per market; a price observed on a non-active market is not actionable."
+   },
+   {
+    "clause_id": "d03-c4",
+    "quote": "Per CFTC requirements, every trade is published publicly through the API —\n  full transparency is part of being a regulated exchange.",
+    "what_it_constrains": "A participant's own execution footprint is public, which bears on any strategy whose edge depends on non-disclosure of its own flow."
+   }
+  ],
+  "injection_observed": "This page carries executable curl and Python samples that read a live order book, plus imperative instructions to the reader ('Always check status', 'never use floating-point arithmetic'). Recorded as data. NO sample on this page was executed and no market-data endpoint was called."
+ },
+ {
+  "id": "ks-vr-d04",
+  "source_class": "S-D",
+  "document_class": "6. API documentation and rate limits (agent-directed variant)",
+  "publisher": "KalshiEX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Kalshi - Agent Instructions (AGENTS.md)",
+  "url": "https://kalshi.com/AGENTS.md",
+  "document_date": null,
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:09:37+00:00",
+  "sha256_of_retrieved_bytes": "6b1a42e9f051bc376a5d806fefb0ffc1b307e9ac64d1d835731a884852a8e848",
+  "retrieved_bytes": 10768,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q07",
+  "extraction_tool": "none required (served as text/markdown)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Kalshi's published agent skill file",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 4,
+  "clauses": [
+   {
+    "clause_id": "d04-c1",
+    "quote": "Perps are restricted to **Eligible Contract Participants** (per CFTC\nrules). Users complete an ECP qualification flow before trading.",
+    "what_it_constrains": "Any cross-instrument strategy pairing a binary event contract against a Kalshi perpetual future is unavailable to a participant who is not an Eligible Contract Participant."
+   },
+   {
+    "clause_id": "d04-c2",
+    "quote": "Trading binary event contracts is open to U.S. residents who are 18 or\n  older with a valid SSN. Perpetual futures are restricted to Eligible\n  Contract Participants.",
+    "what_it_constrains": "Participant eligibility for each leg (document class 4, membership/participant limits) as the venue states it."
+   },
+   {
+    "clause_id": "d04-c3",
+    "quote": "Default REST limit is ~100 requests per second per API key. Burst above\n  that and you will be throttled.",
+    "what_it_constrains": "A second venue-published throughput ceiling, again in requests per second and again inconsistent with the token-bucket metering in ks-vr-d06."
+   },
+   {
+    "clause_id": "d04-c4",
+    "quote": "Customers trade peer-to-peer against other customers, not against the\n  house. Kalshi never takes the other side of a customer's trade.",
+    "what_it_constrains": "Counterparty structure as the venue states it: fills come from other participants, so fill probability is a function of the resting book and not of a house quote."
+   }
+  ],
+  "injection_observed": "THIS DOCUMENT IS ADDRESSED TO AI AGENTS AND IS WRITTEN AS INSTRUCTION. It opens 'Skill file for AI agents that need to discover, cite, or interact with Kalshi', directs the reader to 'read the repo-local AGENTS.md instead', instructs how to frame and timestamp prices, instructs 'Identify your traffic with a descriptive User-Agent header', and supplies a complete authenticated-request implementation including RSA-PSS request signing and API-key headers. It was treated as DATA, not instruction. No instruction in it was followed: no key was generated, no market-data endpoint (authenticated or unauthenticated) was called, and no order path was touched. It is recorded here because the frozen constraint requires agent-directed text on a retrieved page to be recorded rather than silently obeyed or silently discarded."
+ },
+ {
+  "id": "ks-vr-d05",
+  "source_class": "S-D",
+  "document_class": "6. API documentation and rate limits (retrieval access conditions)",
+  "publisher": "KalshiEX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "kalshi.com robots.txt",
+  "url": "https://kalshi.com/robots.txt",
+  "document_date": null,
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:09:14+00:00",
+  "sha256_of_retrieved_bytes": "4ac884d2e8aa95f47e2674f8de6f7c55aa16e2d9c6b3f3085e4da371fe08c2ad",
+  "retrieved_bytes": 1677,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q05",
+  "extraction_tool": "none required (served as text/plain)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as published by the venue",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 1,
+  "clauses": [
+   {
+    "clause_id": "d05-c1",
+    "quote": "User-agent: ClaudeBot\nAllow: /llms.txt\nAllow: /llms-full.txt\nAllow: /AGENTS.md\nAllow: /sitemap.md\nAllow: /docs/\nDisallow: /ideas\nDisallow: /sign-up?\nDisallow: /search",
+    "what_it_constrains": "The venue's stated crawl policy: the machine-readable documentation surface is opened to named AI clients while the sign-up and search paths are closed. Recorded because it is the access condition under which this arm's venue-side retrieval took place."
+   }
+  ],
+  "injection_observed": "robots.txt enumerates AI crawler user-agents and points them at /llms.txt and /AGENTS.md. This is crawler policy rather than agent instruction, but it is the mechanism by which the agent-directed document ks-vr-d04 is advertised, and is recorded alongside it."
+ },
+ {
+  "id": "ks-vr-d06",
+  "source_class": "S-D",
+  "document_class": "6. API documentation and rate limits",
+  "publisher": "KalshiEX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Rate Limits and Tiers",
+  "url": "https://docs.kalshi.com/getting_started/rate_limits.md",
+  "document_date": null,
+  "document_date_note": "the page states no date",
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:11:52+00:00",
+  "sha256_of_retrieved_bytes": "c7fac04330544488f504533d96d7893652679e4898a5fc365f8d644c2401d32d",
+  "retrieved_bytes": 11717,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q24b",
+  "extraction_tool": "none required (served as text/markdown)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Kalshi's published developer documentation",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 9,
+  "clauses": [
+   {
+    "clause_id": "d06-c1",
+    "quote": "Every authenticated request costs **tokens**. Your tier sets your **budget**: the rate, in tokens per second, at which your balance refills. Your sustained rate for an endpoint is `budget ÷ cost`.",
+    "what_it_constrains": "Throughput is metered as a token bucket, not as a fixed request count. Any claim about achievable order rate must name a tier."
+   },
+   {
+    "clause_id": "d06-c2",
+    "quote": "Most requests cost the default of **10 tokens**.",
+    "what_it_constrains": "Converts a tier's token budget into a sustained order rate: Basic write budget 100 tokens/s equals 10 orders/s; Prestige write budget 8,000 tokens/s equals 800 orders/s."
+   },
+   {
+    "clause_id": "d06-c3",
+    "quote": "| **Write** | Order placement, amends, cancels, order groups, the RFQ quote flow, and block trade proposal accepts. |",
+    "what_it_constrains": "Order traffic draws on a budget separate from market-data reads; a strategy is not throttled by its own polling."
+   },
+   {
+    "clause_id": "d06-c4",
+    "quote": "* **Basic**: complete account signup.\n* **Advanced**: call the [Upgrade Account API Usage Level endpoint](/api-reference/account/upgrade-account-api-usage-level).\n* **Expert, Premier, Paragon, Prime, and Prestige**: earned automatically from your trading volume (see [Earning higher tiers](#earning-higher-tiers-by-volume) below), or assigned by Kalshi.",
+    "what_it_constrains": "DECISIVE eligibility gate. The two highest-throughput tiers cannot be bought or requested: they are earned from realised volume share or granted at the venue's discretion. A new participant starts at Basic (write budget 100 tokens/s = 10 orders/s at default cost), so any strategy specified at high order rates is not executable at entry."
+   },
+   {
+    "clause_id": "d06-c5",
+    "quote": "`volume share = your trailing 30-day volume ÷ (previous month's exchange volume × 2)`",
+    "what_it_constrains": "The tier ladder is relative to total exchange volume, so the throughput available to a participant is a function of the rest of the market, not of the participant alone."
+   },
+   {
+    "clause_id": "d06-c6",
+    "quote": "| Tier     | Earn   | Keep  |\n| -------- | ------ | ----- |\n| Expert   | 0.075% | 0.05% |\n| Premier  | 0.125% | 0.10% |\n| Paragon  | 0.25%  | 0.20% |\n| Prime    | 0.50%  | 0.40% |\n| Prestige | 1.00%  | 0.80% |",
+    "what_it_constrains": "The exact volume-share thresholds for each throughput tier, and the hysteresis between earning and keeping one."
+   },
+   {
+    "clause_id": "d06-c7",
+    "quote": "A batch request costs the same as making each call individually. Every item in the batch is billed separately",
+    "what_it_constrains": "Batching does not relax the throughput ceiling; a multi-leg strategy cannot use batch submission to evade its tier budget."
+   },
+   {
+    "clause_id": "d06-c8",
+    "quote": "The whole batch must fit in the bucket at once. A 25-order create batch needs 250 tokens available when it arrives, or the entire batch is rejected.",
+    "what_it_constrains": "All-or-nothing batch admission: a multi-leg order set can be rejected in full on a token shortfall, which is a leg-risk source for any simultaneous multi-leg strategy."
+   },
+   {
+    "clause_id": "d06-c9",
+    "quote": "429 responses do not currently include `Retry-After` or `X-RateLimit-*` headers.",
+    "what_it_constrains": "A throttled client is given no scheduling information; backoff must be inferred, which is itself a latency cost."
+   }
+  ],
+  "tables_not_quoted": "The per-tier Read/Write budget table is embedded in raw JSX with inline styles rather than markdown; its cells are recoverable but are not quoted here as clean verbatim. Values referenced in d06-c4 (Basic 200 read / 100 write; Prestige 10,000 read / 8,000 write) are read from that JSX table and are labelled as such rather than presented as a quotation.",
+  "injection_observed": "Every docs.kalshi.com markdown page opens with a directive block addressed to a machine reader: '> ## Documentation Index / > Fetch the complete documentation index at: https://docs.kalshi.com/llms.txt / > Use this file to discover all available pages before exploring further.' Recorded as data. The index was in fact retrieved (KS-VR-Q22b), but as an act of this arm's own document-class enumeration, not in compliance with the page's instruction."
+ },
+ {
+  "id": "ks-vr-d07",
+  "source_class": "S-D",
+  "document_class": "2. Contract series specifications and the named settlement source",
+  "publisher": "KalshiEX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Market Settlement",
+  "url": "https://docs.kalshi.com/getting_started/market_settlement.md",
+  "document_date": null,
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:11:52+00:00",
+  "sha256_of_retrieved_bytes": "c8cdf6d9b09b2e76d9e25218ec2d109149b541360d8c10f2dc8a7fa5f23a54e6",
+  "retrieved_bytes": 1106,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q25b",
+  "extraction_tool": "none required (served as text/markdown)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Kalshi's published developer documentation",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 3,
+  "clauses": [
+   {
+    "clause_id": "d07-c1",
+    "quote": "* Only net positions are settled (after netting)",
+    "what_it_constrains": "Offsetting YES and NO exposure nets before settlement, which is what makes a within-market coherence position self-extinguishing at expiry."
+   },
+   {
+    "clause_id": "d07-c2",
+    "quote": "Markets typically settle shortly after expiration, but timing can vary based on market type, data source availability, and manual review requirements.",
+    "what_it_constrains": "Settlement timing is NOT guaranteed. Capital lockup duration for a hold-to-expiry strategy is undetermined by this document."
+   },
+   {
+    "clause_id": "d07-c3",
+    "quote": "Settlement fees are zero for simple yes/no determinations but may apply for sub-cent scalar settlement.",
+    "what_it_constrains": "Qualifies the fee schedule's flat 'There is no settlement fee': scalar contracts can bear a settlement cost."
+   }
+  ],
+  "injection_observed": "carries the same documentation-index directive block noted at ks-vr-d06; treated as data."
+ },
+ {
+  "id": "ks-vr-d08",
+  "source_class": "S-D",
+  "document_class": "3. Fee schedule and maker/taker structure",
+  "publisher": "KalshiEX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Fee Rounding",
+  "url": "https://docs.kalshi.com/getting_started/fee_rounding.md",
+  "document_date": null,
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:11:53+00:00",
+  "sha256_of_retrieved_bytes": "7591cf0fb277eaf8fac8aedaf1645e58b61dacb22b5fed20ba7d8ea9f76ffa22",
+  "retrieved_bytes": 4041,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q26b",
+  "extraction_tool": "none required (served as text/markdown)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Kalshi's published developer documentation",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 4,
+  "clauses": [
+   {
+    "clause_id": "d08-c1",
+    "quote": "* Direct member balances are aligned to `$0.0001` (`0.01c`)\n* Non-direct member balances are aligned to `$0.01` (`1c`)",
+    "what_it_constrains": "Balance precision differs by membership class, so the same fill returns a different net amount to a direct member than to an FCM-intermediated one."
+   },
+   {
+    "clause_id": "d08-c2",
+    "quote": "When a trade produces a balance change that is more precise than the user's target balance precision, the exchange charges a **rounding fee** to bring the balance back to that target.",
+    "what_it_constrains": "A cost component over and above the published fee formula, unmodelled by the fee schedule, and larger in relative terms for a non-direct member."
+   },
+   {
+    "clause_id": "d08-c3",
+    "quote": "**Net fee** = trade fee + rounding fee - rebate (always >= \\$0.00)",
+    "what_it_constrains": "Net fee is floored at zero: no fill returns a net credit to the participant under this mechanism."
+   },
+   {
+    "clause_id": "d08-c4",
+    "quote": "The fee accumulator is maintained per order across all fills regardless of whether the fills are taker or maker. If an order initially takes (matching resting orders) and then becomes a resting maker order, the accumulated rounding carries over to subsequent maker fills.",
+    "what_it_constrains": "Per-fill cost is path-dependent within an order, so a strategy's realised cost cannot be computed fill-by-fill in isolation."
+   }
+  ],
+  "injection_observed": "documentation-index directive block as at ks-vr-d06; treated as data."
+ },
+ {
+  "id": "ks-vr-d09",
+  "source_class": "S-D",
+  "document_class": "4. Position limits and membership/participant limits (order-level risk control)",
+  "publisher": "KalshiEX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Order Groups",
+  "url": "https://docs.kalshi.com/getting_started/order_groups.md",
+  "document_date": null,
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:11:53+00:00",
+  "sha256_of_retrieved_bytes": "b864a2c2befdae824a8271c40e2f730ed53f0bb9495fea2a8f06713129263d05",
+  "retrieved_bytes": 2134,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q27b",
+  "extraction_tool": "none required (served as text/markdown)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Kalshi's published developer documentation",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 2,
+  "clauses": [
+   {
+    "clause_id": "d09-c1",
+    "quote": "Order groups provide automatic order cancellation when a contracts limit is reached within a rolling 15-second window. When an order group is triggered, all resting orders in that group are canceled and no new orders can be placed until the group is reset.",
+    "what_it_constrains": "The venue-supplied throughput kill-switch available to a quoting strategy, and equally a mechanism by which an entire quote set can be removed mid-strategy."
+   },
+   {
+    "clause_id": "d09-c2",
+    "quote": "**Create** a group with a contracts limit (1–1,000,000). The server generates the group ID and returns it in the response.",
+    "what_it_constrains": "The admissible range of the group contract limit - a genuine numeric bound, in contrast to the position limits withheld elsewhere."
+   }
+  ],
+  "injection_observed": "documentation-index directive block as at ks-vr-d06; treated as data."
+ },
+ {
+  "id": "ks-vr-d10",
+  "source_class": "S-D",
+  "document_class": "1. Rulebook and its amendments (operational availability)",
+  "publisher": "KalshiEX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Maintenance and Pauses",
+  "url": "https://docs.kalshi.com/getting_started/maintenance_and_pauses.md",
+  "document_date": null,
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:11:54+00:00",
+  "sha256_of_retrieved_bytes": "788b5a5e994f4c86b341a995f92d51fe997784ba06772f19c6dfe32e345037bf",
+  "retrieved_bytes": 2731,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q28b",
+  "extraction_tool": "none required (served as text/markdown)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Kalshi's published developer documentation",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 4,
+  "clauses": [
+   {
+    "clause_id": "d10-c1",
+    "quote": "Every **Thursday from 3:00 AM to 5:00 AM ET**, Kalshi runs scheduled maintenance. During this window, a **trading pause** is in effect.",
+    "what_it_constrains": "A recurring, scheduled interval in which no position can be opened, amended or hedged. Any continuously-quoting or continuously-hedged strategy has a known weekly gap."
+   },
+   {
+    "clause_id": "d10-c2",
+    "quote": "| **Cancel orders**        | Yes                                                   | No                                                                                                              |",
+    "what_it_constrains": "Under a trading pause a resting order can be cancelled; under an exchange pause it cannot. In an exchange pause a participant is locked into its resting exposure."
+   },
+   {
+    "clause_id": "d10-c3",
+    "quote": "| **Resting orders**       | Remain on the book (unless CancelOrderOnPause is set) | Remain on the book (unless CancelOrderOnPause is set)                                                           |",
+    "what_it_constrains": "Default behaviour leaves quotes live across a pause; the opt-out is per order (REST `cancel_order_on_pause`, FIX tag 21006)."
+   },
+   {
+    "clause_id": "d10-c4",
+    "quote": "If an exchange pause occurs outside the scheduled Thursday window, it indicates a temporary Kalshi Exchange outage.",
+    "what_it_constrains": "Unscheduled full-stop risk is acknowledged by the venue but is given no frequency, duration or notice commitment."
+   }
+  ],
+  "injection_observed": "documentation-index directive block as at ks-vr-d06; treated as data."
+ },
+ {
+  "id": "ks-vr-d11",
+  "source_class": "S-D",
+  "document_class": "8. CFTC orders, letters, dockets and press naming the venue (index record)",
+  "publisher": "U.S. Commodity Futures Trading Commission",
+  "publisher_role": "public authority",
+  "title": "Designated Contract Markets (DCM) : 42993 - Kalshi",
+  "url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizations/42993",
+  "document_date": null,
+  "document_date_note": "the record page carries no publication date of its own; the organization Date field is quoted below",
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:14:02+00:00",
+  "sha256_of_retrieved_bytes": "690d78727aa985e89607579cf1182d236e1b98863298c84021b47ba3172d4c00",
+  "retrieved_bytes": 8857,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q22",
+  "extraction_tool": "HTML tag-strip",
+  "extraction_depth": "full-text",
+  "attribution_label": "as published by the CFTC in its industry-filings register",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 2,
+  "clauses": [
+   {
+    "clause_id": "d11-c1",
+    "quote": "Organization: Kalshi\nStatus: Designated\nDate: 2020-11-03 00:00:00",
+    "what_it_constrains": "The venue's regulatory status and its start date - the precondition behind every other rule in this arm."
+   },
+   {
+    "clause_id": "d11-c2",
+    "quote": "Remarks: On January 17, 2025, the Commission granted Kalshis petition to modify its Order of Designation to permit intermediated futures trading.",
+    "what_it_constrains": "Access channel: intermediated (FCM-carried) access became permissible only from that date, which bounds the applicability of any pre-2025 statement about how the venue can be reached."
+   }
+  ],
+  "access_conditions_observed": "cftc.gov robots.txt (retrieved as part of this arm's endpoint probing) declares 'Content-Signal: search=yes,ai-train=no,use=reference' and 'Allow: /'. Reference use - which is what this record makes of the material - is within the stated signal; no training use is made of it.",
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d12",
+  "source_class": "S-D",
+  "document_class": "1. Rulebook and its amendments - RETRIEVAL DEFECT, recorded not repaired",
+  "publisher": "U.S. Commodity Futures Trading Commission (host) / Railbird Technologies, Inc. (author of the retrieved bytes)",
+  "publisher_role": "public authority hosting a filer document",
+  "title": "Document served at the URL the CFTC Kalshi organization record labels 'Exhibit M'; the retrieved bytes are titled 'Exhibit M: Rulebook / Railbird Technologies, Inc. / Rulebook / Date: 7/3/2024'",
+  "url": "https://www.cftc.gov/filings/documents/2024/orgdcmkexkalshiexhm240709.pdf",
+  "document_date": "2024-07-03",
+  "document_date_verbatim": "Date: 7/3/2024",
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:14:22+00:00",
+  "sha256_of_retrieved_bytes": "8e73d41f670c8ac8c656ff14a39afb1d9561948cec79b3482a18242af1a2f91a",
+  "retrieved_bytes": 402074,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q23",
+  "extraction_tool": "pdftotext -layout (poppler)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as filed - and NOT attributable to Kalshi",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 1,
+  "clauses": [
+   {
+    "clause_id": "d12-c1",
+    "quote": "Exhibit M: Rulebook\n\n                                         Railbird Technologies, Inc.\n                                                    Rulebook\n\n                                                  Date: 7/3/2024",
+    "what_it_constrains": "Nothing about Kalshi. This clause is recorded to fix the defect: the CFTC's Kalshi organization record (ks-vr-d11) lists this URL under the label 'Exhibit M', and the CFTC's own filename encodes 'kex kalshi exh m', but the bytes served are the rulebook of a different applicant. The retrieved document contains ZERO occurrences of the string 'Kalshi' and 389 occurrences of 'Railbird' (counted over the extracted text)."
+   }
+  ],
+  "finding": "A regulator index label and a regulator-assigned filename both attribute this document to Kalshi; the bytes do not support that attribution. Any downstream work that had cited 'Kalshi Exhibit M (2024)' from this locator would have quoted another venue's rulebook. The 2024 Kalshi rulebook exhibit is therefore recorded as NOT LOCATED at the endpoints searched on this date.",
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d13",
+  "source_class": "S-D",
+  "document_class": "1. Rulebook and its amendments",
+  "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC",
+  "publisher_role": "venue, filer-published via regulator",
+  "title": "Appendix D: Rulebook / KalshiEX LLC Rulebook (filed as Exhibit M - Kalshi Rulebook Nov. 2023)",
+  "url": "https://www.cftc.gov/filings/documents/2023/orgkexkalshiexhibitm231130.pdf",
+  "document_date": null,
+  "document_date_note": "the title block extracts as 'D ate: February 16,November2023 / Version: 1 .111 2' - a REDLINE artifact in which the superseded and inserted dates and version numbers are overlaid. No single unambiguous document date can be read off the retrieved bytes, so none is asserted. The filing that carried it is dated 2023-11-30.",
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:15:06+00:00",
+  "sha256_of_retrieved_bytes": "db8edbbcc9864613cebbcc811d8eab829080d499d9bd49f3a4f59b43d9caf76a",
+  "retrieved_bytes": 696608,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q26",
+  "extraction_tool": "pdftotext (poppler), raw mode",
+  "extraction_depth": "full-text, DEGRADED",
+  "extraction_defect": "The PDF is a track-changes redline carrying a DRAFT watermark. Extraction interleaves struck and inserted text and injects the watermark letters D, R, A, F, T at line starts, and inserts spurious intra-word spaces. Quotations below are transcribed EXACTLY as the extractor returns them, artifacts included, so that they remain reproducible from the retrieved bytes; they are NOT clean rulebook text and must never be re-quoted as such.",
+  "attribution_label": "as filed - a redlined draft rulebook submitted in support of a petition, not a statement of the rulebook in force on any date",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 4,
+  "clauses": [
+   {
+    "clause_id": "d13-c1",
+    "quote": "(a) Kalshi has imposed P osition Limits on a ll C ontracts as specified in each contract's Terms and C onditions.",
+    "what_it_constrains": "Position limits are per contract, not global: no exchange-wide number governs, and the binding figure must be read from each contract's terms and conditions."
+   },
+   {
+    "clause_id": "d13-c2",
+    "quote": "(c) AllM emberp ositionsarefullyc ashcollateralized,a ndnoM embercantakepositionsthatwouldlead to an exposure that exceeds the funds deposited in therelevantMember Account.",
+    "what_it_constrains": "DECISIVE for capital efficiency. Full cash collateralisation means no leverage on the binary leg: a two-sided or cross-venue position ties up the full worst-case cash on each side, which sets the capital denominator of any return a strategy could report."
+   },
+   {
+    "clause_id": "d13-c3",
+    "quote": "(a) When a C ontract e xpires and h as a  P ayout C riterion that encompasses the Expiration Valueofthe\n Underlying,suchContractwillpaytheS ettlementV alueforsuchContracts(e.g.$1.00)totheholders\noflongpositionsins uchC ontracts.",
+    "what_it_constrains": "The payout rule that makes a price convertible to an implied probability, and the settlement value of one unit."
+   },
+   {
+    "clause_id": "d13-c4",
+    "quote": "(e) Kalshi has imposed R eportable Position Levels o n each contract which w ill b e c ommunicated to FCMm embers.",
+    "what_it_constrains": "A reporting threshold exists per contract, but the document states it is communicated to FCM members rather than published - so its value is not obtainable from this document."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d14",
+  "source_class": "S-D",
+  "document_class": "1. Rulebook and its amendments (earliest publicly retrievable version)",
+  "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC",
+  "publisher_role": "venue, filer-published via regulator",
+  "title": "KalshiEX LLC Rulebook (filed as Exhibit M - KalshiEX LLC - Rulebook (redacted))",
+  "url": "https://www.cftc.gov/filings/documents/2020/orgkexexhibitmrulebook200114.pdf",
+  "document_date": "2019-01-08",
+  "document_date_verbatim": "Date: January 8, 2019 Version: 1.1",
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:15:08+00:00",
+  "sha256_of_retrieved_bytes": "1136a82e986c08faa6bc20a11156d2432a71f9bd6f87f11c0df5c3815fc4c107",
+  "retrieved_bytes": 567103,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q27",
+  "extraction_tool": "pdftotext (poppler), raw mode",
+  "extraction_depth": "full-text",
+  "extraction_quality": "CLEAN - this is the only rulebook version retrieved in this arm whose text extracts without redline or watermark corruption.",
+  "attribution_label": "as filed, redacted - a 2019 version submitted in 2020, superseded many times since; quoted for the structure of the rules, never as the rule in force",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 4,
+  "clauses": [
+   {
+    "clause_id": "d14-c1",
+    "quote": "(a) Kalshi has imposed Position Limits (defined as maximum loss exposure) of [REDACTED on all Contracts.",
+    "what_it_constrains": "NAMED GAP. The position limit is defined as maximum loss exposure - a definition, not a number - and the number itself is redacted from the public filing. Recorded as an absence."
+   },
+   {
+    "clause_id": "d14-c2",
+    "quote": "(b) All Member positions are fully cash collateralized, and no Member can take positions that would lead to an exposure that exceeds the funds deposited in the Member Account.",
+    "what_it_constrains": "Full cash collateralisation, in clean text. Same constraint as d13-c2, quotable without extraction artifacts."
+   },
+   {
+    "clause_id": "d14-c3",
+    "quote": "(2) Positions held by two or more Persons acting pursuant to an express or implied agreement or understanding the same as if the positions were held by, or the trading of the position were done by, a single individual.",
+    "what_it_constrains": "Aggregation rule: limits cannot be relaxed by splitting a strategy across coordinated accounts."
+   },
+   {
+    "clause_id": "d14-c4",
+    "quote": "(a) In its capacity as a registered Derivative Clearing Organization, [REDACTED] shall serve as the clearing party to all orders matched pursuant to Chapter 5.",
+    "what_it_constrains": "Even the clearing counterparty is redacted in this version - recorded to show how much of the executability surface is withheld from the public filing rather than merely unstated."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d15",
+  "source_class": "S-D",
+  "document_class": "8. CFTC orders, letters, dockets and press naming the venue",
+  "publisher": "U.S. Commodity Futures Trading Commission",
+  "publisher_role": "public authority",
+  "title": "Amended Order of Designation - In the Matter of the Request by KalshiEX LLC to Amend Its Order of Designation as a Contract Market",
+  "url": "https://www.cftc.gov/filings/documents/2025/orgdcmkexkalshiamord250117.pdf",
+  "document_date": "2025-01-17",
+  "document_date_verbatim": "Issued in Washington, D.C., this 17th day of January, 2025.",
+  "effective_date": null,
+  "effective_date_note": "the order states an issuance date and states that it supersedes the Original Order; it states no separate effective date",
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:14:23+00:00",
+  "sha256_of_retrieved_bytes": "8fc9cc12adf3dfefad57ca4ce9ed58622583d072bfbf218e5e355bd0f19ddd6f",
+  "retrieved_bytes": 123513,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q24",
+  "extraction_tool": "pdftotext -layout (poppler)",
+  "extraction_depth": "full-text",
+  "attribution_label": "a Commission order",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 3,
+  "clauses": [
+   {
+    "clause_id": "d15-c1",
+    "quote": "WHEREAS, the Original Order includes a provision stating that Kalshi \"may not permit any futures commission merchant to intermediate any transactions or carry accounts for customers executing trades on, or pursuant to the rules of, the contract market unless the Kalshi Order of Designation has been amended to permit futures commission merchants to carry customer accounts\" (the \"Subject Provision\").",
+    "what_it_constrains": "Documents the access restriction that was in force from 2020 to 2025: no intermediated access. Any strategy description drawn from that period assumes a direct-access-only venue."
+   },
+   {
+    "clause_id": "d15-c2",
+    "quote": "Original Order is superseded by this Order of Designation (from which the Subject Provision has\nbeen removed), and Kalshi is designated as a contract market subject to the following terms and\nconditions:",
+    "quote_note": "the sentence opens 'IT IS HEREBY ORDERED, pursuant to Section 5 of the Act, 7 U.S.C.[section sign] 7, that the' on the preceding line; that line is not included in the quotation because the section sign does not round-trip through this extractor and the quotation must be byte-reproducible",
+    "what_it_constrains": "From 2025-01-17 an FCM may carry customer accounts on Kalshi, which changes both the available access channel and, per ks-vr-d01 clause d01-c10 and ks-vr-d08 clause d08-c1, the fee and balance-precision regime that applies to a participant."
+   },
+   {
+    "clause_id": "d15-c3",
+    "quote": "The Commission may condition, modify, suspend, terminate, or otherwise restrict the terms of this Order of Designation, as appropriate and as permitted by law, on its own motion.",
+    "what_it_constrains": "The venue's authority to operate is revocable on the Commission's own motion - a standing, unquantified discontinuity risk for any strategy resident on this venue."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d16",
+  "source_class": "S-D",
+  "document_class": "4. Position limits and membership/participant limits",
+  "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC under Regulation 40.6",
+  "publisher_role": "venue, filer-published via regulator",
+  "title": "KalshiEX LLC - Rulebook Amendment Regarding Position Limits (self-certification submission letter)",
+  "url": "https://www.cftc.gov/filings/orgrules/rule022123kexdcm002.pdf",
+  "document_date": "2023-02-16",
+  "document_date_verbatim": "February 16, 2023",
+  "effective_date": null,
+  "effective_date_note": "the letter states an implementation intent, not a date: 'Kalshi intends to implement the changes described in this filing ten business days following the filing, as noted on the attached filing cover page.' The CFTC filing record for this submission (id 50281) shows Status Certified with Date 2023-03-03; that regulator-record date is NOT an effective date stated by the document and is not reported as one.",
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:17:41+00:00",
+  "sha256_of_retrieved_bytes": "827db72ab6af7d1d706c40c339455eacac51c64971f2dc70c40110afbe9e465d",
+  "retrieved_bytes": 568209,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q41",
+  "extraction_tool": "pdftotext -layout (poppler)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as filed by Kalshi",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 5,
+  "clauses": [
+   {
+    "clause_id": "d16-c1",
+    "quote": "Currently, Kalshi Rule 5.14(a) provides that \"Kalshi has imposed Position Limits of 25,000 USD on all Contracts.\" This same position limit is reflected in the rules of all of Kalshi's product filings.",
+    "what_it_constrains": "THE NUMBER. The exchange-wide position limit as of this filing is 25,000 USD per member per contract - the single most consequential size constraint located in this arm, and the one the 2020-filed rulebook redacts (ks-vr-d14 clause d14-c1)."
+   },
+   {
+    "clause_id": "d16-c2",
+    "quote": "For example, the terms and conditions of the US Consumer Price Index contracts currently include the following term: \"Position Limit: The Position Limit for the $1 referred Contract shall be $25,000 per Member.\"",
+    "what_it_constrains": "Confirms the limit is expressed per member and in dollars of exposure, not in contracts - so the contract count a strategy can hold varies inversely with price."
+   },
+   {
+    "clause_id": "d16-c3",
+    "quote": "Accordingly, Kalshi is amending Rule 5.14(a) to remove the global position limit, as follows: \"Kalshi has imposed Position Limits of 25,000 USD on all Contracts as specified in each contract's Terms and Conditions.\"",
+    "what_it_constrains": "After this amendment there is no exchange-wide limit to cite; the binding limit becomes a per-contract fact and must be read from each contract's terms and conditions."
+   },
+   {
+    "clause_id": "d16-c4",
+    "quote": "Any change to the position limits of any other contract will require a separate rule filing amending that contract's terms and conditions.",
+    "what_it_constrains": "Every per-contract limit is discoverable in principle through the CFTC filing register - and equally, every such limit is subject to change on ten business days' notice."
+   },
+   {
+    "clause_id": "d16-c5",
+    "quote": "Please note that appendix A is confidential and submitted under a request for confidential FOIA treatment as noted on the attached FOIA confidential treatment request letter.",
+    "what_it_constrains": "NAMED GAP. The contracts for which a higher limit was judged appropriate, and the reasoning, are withheld. The public record therefore cannot say which contracts carry a limit above 25,000 USD."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d17",
+  "source_class": "S-D",
+  "document_class": "4. Position limits and membership/participant limits",
+  "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC",
+  "publisher_role": "venue, filer-published via regulator",
+  "title": "KalshiEX LLC - Position Accountability and Other Rulebook Changes (self-certification submission with Appendix A, redline and clean copy)",
+  "url": "https://www.cftc.gov/filings/orgrules/rules1114248723.pdf",
+  "document_date": "2024-11-14",
+  "document_date_verbatim": "November 14, 2024",
+  "effective_date": "2024-11-27",
+  "effective_date_verbatim": "K alshiEX L LC (\"Kalshi\" or \"Exchange\") h ereby n otifies the C ommodity F utures Trading\nCommission (\"CFTC\") that it is amending its rulebook, effective November 27, 2024.",
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:17:44+00:00",
+  "sha256_of_retrieved_bytes": "8113d2d4967217b37005f6a45aaf06b6986fca87f63c2eb8aa5ae80167f4c082",
+  "retrieved_bytes": 1438346,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q43",
+  "extraction_tool": "pdftotext (poppler), raw mode",
+  "extraction_depth": "full-text, DEGRADED",
+  "extraction_defect": "The submission is a track-changes document. Even the section the filer labels a clean copy retains residual redline text - Rule 5.15(a) below extracts as 'Kalshi may has imposed Position Limits' and cites 'this Rule 5.15 4', both artifacts of an unaccepted change. Extraction also inserts spurious intra-word spaces. Quotations are transcribed EXACTLY as extracted so they remain reproducible from the bytes; they are not clean rule text.",
+  "attribution_label": "as filed by Kalshi",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 9,
+  "clauses": [
+   {
+    "clause_id": "d17-c1",
+    "quote": "R ule 4.5 and Rule 5.14 are amended to add Position Accountability rules.",
+    "what_it_constrains": "Marks the regime change: from a hard position limit to an accountability level for most contracts."
+   },
+   {
+    "clause_id": "d17-c2",
+    "quote": "(a) K alshiimposesPositionAccountabilityL evelsonallC ontractsa sspecifiedineachc ontract'sTerms and Conditions, except for those contracts where Kalshi imposes a Position Limit under Rule 5.15.",
+    "what_it_constrains": "Two distinct size regimes now coexist. Which one binds a given contract is a per-contract fact, so no single size ceiling can be stated for the venue."
+   },
+   {
+    "clause_id": "d17-c3",
+    "quote": "(c) AM emberw hosepositione xceedsthepositionaccountabilitylevelmustrefrainfromincreasingthe s izeo ftheirpositionorreducethesizeo ftheirp ositioninatimelyfashionifinstructedtod osob y",
+    "what_it_constrains": "An accountability level is not a hard cap but a discretionary instruction point: above it the exchange may direct a participant to stop adding or to reduce. Strategy capacity above the level is contingent on exchange forbearance, not on a rule."
+   },
+   {
+    "clause_id": "d17-c4",
+    "quote": "K alshi.Ifa Memberfailstoreduceap ositionasinstructedb yKalshi'sCompliancestaff,K alshishall h ave the authority to liquidate the applicable p osition to a  level b elow thePositionAccountability Level or a limit imposed on the Member under this paragraph.",
+    "what_it_constrains": "Forced liquidation authority - a strategy carrying size above the accountability level is exposed to involuntary unwind at exchange discretion."
+   },
+   {
+    "clause_id": "d17-c5",
+    "quote": "M arket Makers are subject to the following Position Accountability Levels:�  (i) ForC ontractswithag enerallya pplicableP ositionA ccountabilityLevelL imitof$ 250 k or less, the Position Accountability Level for marketmakers will be $1M;�  (ii) F orContractswitha generallyapplicablePositionAccountabilityL evelL imith igherthan $ 250 k, the Position Accountability Level will be $10M.�",
+    "quote_note": "U+FFFD characters are list bullets that do not decode through this extractor; they are retained so the quotation is byte-reproducible",
+    "what_it_constrains": "DECISIVE capacity asymmetry. A market maker with quoting obligations may carry 1,000,000 or 10,000,000 USD where an ordinary member's generally applicable level is 250,000 USD or less. Capacity is a function of programme status, not of capital."
+   },
+   {
+    "clause_id": "d17-c6",
+    "quote": "(b) F or Contracts that a M arket Maker is required toa dheretoM arketMakerObligationss etforthin Rule4.4(b),M arketMakersw illn otbes ubjecttoP ositionLimitsimposedunderRule5.15inregard to such Contracts, and will be subject to Position Accountability Levels.",
+    "what_it_constrains": "Market makers are exempt from hard position limits on their obligated contracts. The size constraint that binds an ordinary participant does not bind the participants it trades against."
+   },
+   {
+    "clause_id": "d17-c7",
+    "quote": "(f) In no instance may a Member's position exceed any applicable limit established by the CFTC.",
+    "what_it_constrains": "A federal ceiling sits above the exchange's own, independent of any exchange programme status."
+   },
+   {
+    "clause_id": "d17-c8",
+    "quote": "R ule 6.3 isa mendedtod escribetheS ettlementp rocesswhen,d uetom issingdataor another contingency, it cannot b e determined whether the P ayout C riterion encompassestheE xpirationV alueoftheU nderlying.Inthesescenarios,theExchange will determine a fair p ayout a llocation to the h olders of long and short p ositions in such Contracts.",
+    "what_it_constrains": "Settlement is not always mechanical: where the settlement source fails, payout becomes a discretionary allocation by the exchange. A coherence or cross-venue position priced on the assumption of a deterministic $1/$0 payoff carries an unpriced discretionary branch."
+   },
+   {
+    "clause_id": "d17-c9",
+    "quote": "R ule7.2isa mendedtop rovidethattheExchangemaym odifya C ontract'sE xpiration Date in the event that a  market's Underlying c annot b e m easured on the original E xpirationD ate.Forexample,theE xchangem ayd elayE xpirationuntildatab ecomes available.R ule7.2isalsoa mendedtoprovidethattheE xchangem aym oveE xpiration earlier if the Payout Criterion is satisfied earlier.",
+    "what_it_constrains": "Expiration timing is movable in both directions at exchange discretion, so the holding period - and therefore the capital lockup - of any hold-to-expiry leg is not fixed at entry."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d18",
+  "source_class": "S-D",
+  "document_class": "7. Self-certification filings / 3. Fee schedule",
+  "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC under Regulation 40.6(a)",
+  "publisher_role": "venue, filer-published via regulator",
+  "title": "KalshiEX LLC - Exchange Fee Schedule Update (RFQs)",
+  "url": "https://www.cftc.gov/filings/orgrules/rules0712269458.pdf",
+  "document_date": "2026-07-12",
+  "document_date_verbatim": "July 12, 2026",
+  "effective_date": "2026-07-24 (earliest; conditional on exchange notice)",
+  "effective_date_verbatim": "This amendment or any subpart thereof shall become effective upon exchange notice, but in any event not prior to the close of business July 24, 2026 - ten (10) business days after the filing of this submission with the CFTC.",
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:17:46+00:00",
+  "sha256_of_retrieved_bytes": "d87f83d746caab5d451bfb9540cd74e4b3e78d84bb49d66f8fc7afca745e0bd9",
+  "retrieved_bytes": 84418,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q44",
+  "extraction_tool": "pdftotext -layout (poppler)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as filed by Kalshi",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 4,
+  "clauses": [
+   {
+    "clause_id": "d18-c1",
+    "quote": "KalshiEX LLC (\"Kalshi\" or \"Exchange\") hereby notifies the Commodity Futures Trading Commission (\"CFTC\") that pursuant to Regulation 40.6(a), it is self-certifying an amendment to its Exchange Fee Schedule to amend fees applicable to certain RFQ orders on the Exchange.",
+    "what_it_constrains": "Fee terms change by self-certification, not by approval: the venue sets them and the regulator does not pre-approve."
+   },
+   {
+    "clause_id": "d18-c2",
+    "quote": "A fee adjustment shall be made for trades in KXMVE, such that, for trades not involving an order that has been resting on the order book for more than 5 seconds: (1) Traders executing against a quoter will pay the equivalent of a \"taker\" fee, and (2) quoters whose quote is accepted shall pay the equivalent of a \"maker\" fee. The Exchange will originally assess normal fees, and the fee adjustment shall take place no greater than 5 seconds after execution.",
+    "what_it_constrains": "Maker/taker classification is not always determined by which side rested. On this series a five-second resting test reassigns the roles after the fact, so a strategy that assumes it earned maker treatment by resting can be reclassified post-trade."
+   },
+   {
+    "clause_id": "d18-c3",
+    "quote": "Kalshi Rule 3.13(c) further notes: \"Traders may be charged fees for Settlement of Contracts in an amount to be reflected from time to time on Kalshi's website.\"",
+    "what_it_constrains": "Qualifies 'There is no settlement fee' in ks-vr-d01: the rulebook reserves the right to charge one, published on the website rather than fixed in the rule."
+   },
+   {
+    "clause_id": "d18-c4",
+    "quote": "certifies that, concurrent with this filing, a copy of this submission was posted on the Kalshi website and may be accessed at: https://kalshi.com/regulatory/notices.",
+    "what_it_constrains": "Names the venue's public change-notification channel. This arm retrieved that URL (KS-VR-Q48) and found it client-rendered with no notice text in the retrieved bytes, so the channel is NOT machine-readable by unauthenticated HTTP fetch."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d19",
+  "source_class": "S-D",
+  "document_class": "5. Market-maker or liquidity-provider programs and their incentive terms",
+  "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC",
+  "publisher_role": "venue, filer-published via regulator",
+  "title": "KalshiEX LLC - May 2026 Liquidity Provider Program (self-certification submission with Appendix A: Terms and Conditions)",
+  "url": "https://www.cftc.gov/filings/orgrules/rules0518263591.pdf",
+  "document_date": "2026-05-04",
+  "document_date_verbatim": "May 4, 2026",
+  "effective_date": "2026-05-18 (earliest; conditional on exchange notice)",
+  "effective_date_verbatim": "hereby notifies the Commodity Futures Trading Commission (\"CFTC\") that it is implementing on or after May 18, 2026, a Liquidity Provider Program (\"Program\") as set forth in Appendix A.",
+  "termination_date_stated": "The Program will be effective upon Exchange notice, and continue until the earlier of December 1, 2027, or the date that Kalshi amends or terminates the Program.",
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:18:48+00:00",
+  "sha256_of_retrieved_bytes": "523bb57600a9ba345b113fbb480ab8e2e39fd30f9c0e40f4b6d490c6b10e07d2",
+  "retrieved_bytes": 284802,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q49",
+  "extraction_tool": "pdftotext -layout (poppler)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as filed by Kalshi",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 7,
+  "clauses": [
+   {
+    "clause_id": "d19-c1",
+    "quote": "\"Eligible Participants\" are all Kalshi members who have executed a Market Maker Agreement with Kalshi.",
+    "what_it_constrains": "THE GATE. Every incentive in this programme, and by extension the elevated position accountability levels of ks-vr-d17 clause d17-c5, is reachable only through a bilateral Market Maker Agreement. That agreement is not a published document and was not located at any endpoint searched."
+   },
+   {
+    "clause_id": "d19-c2",
+    "quote": "Eligible Participants may request to become a Designated Liquidity Provider for the Incentivized Series during the Incentive Period. If a Designated Liquidity Provider meets the \"Incentive Period Requirements,\" they will receive the \"Incentive Period Reward.\"",
+    "what_it_constrains": "Participation is by request and approval, not by satisfying a published test."
+   },
+   {
+    "clause_id": "d19-c3",
+    "quote": "In determining whether to approve the request of an Eligible Participant to become a Designated Liquidity Provider in a particular Incentivized Series, the Exchange may consider factors including, but not limited to, current liquidity conditions and the total number of Designated Liquidity Providers in the Incentivized Series. The procedure by which the Exchange anticipates making such determinations is described in Appendix B.",
+    "what_it_constrains": "NAMED GAP. Admission is discretionary and the selection procedure is in confidential Appendix B, which is withheld. Whether a given participant could obtain the incentive terms is not determinable from any public document."
+   },
+   {
+    "clause_id": "d19-c4",
+    "quote": "The Incentive Period Reward for any Incentivized Series shall not exceed $50,000 USD per week.",
+    "what_it_constrains": "An upper bound on the total incentive available per series per week - a real published ceiling on the size of the subsidy a competing quoter may be receiving."
+   },
+   {
+    "clause_id": "d19-c5",
+    "quote": "Requirements will be designed to promote liquidity in the market through incentivizing the Designated Liquidity Provider to maintain a two-sided market, and will include terms such as:\n\n     Maximum Spread (pertaining to resting orders of the Designated Liquidity Provider)\n     Minimum Size within Spread\n     Minimum Uptime\n     Market Coverage (all markets in the Designated Series, unless otherwise specified)",
+    "what_it_constrains": "Names the four obligation dimensions but states NO value for any of them. The quoted spread, depth and uptime a subsidised competitor must maintain are set per incentive period and are not published, so the competitive floor a non-programme quoting strategy would face is not determinable."
+   },
+   {
+    "clause_id": "d19-c6",
+    "quote": "Each Incentivized Series and each associated Incentive Period shall be disclosed publicly on the Exchange's website (Kalshi.com) prior to the commencement of the applicable Incentive Period. Such disclosure shall include, at a minimum, the identity of the Incentivized Series and the applicable Incentive Period dates.",
+    "what_it_constrains": "WHICH series are subsidised, and WHEN, is public; the terms of the subsidy are not. Any cross-series or cross-venue comparison must treat an incentivised series as structurally different from a non-incentivised one."
+   },
+   {
+    "clause_id": "d19-c7",
+    "quote": "Kalshi may end the Program (or any component thereof) at any time.",
+    "what_it_constrains": "Liquidity conditions that depend on the programme are revocable without notice period."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d20",
+  "source_class": "S-D",
+  "document_class": "7. Self-certification filings / 4. Position and size thresholds",
+  "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC under Regulation 40.6(a)",
+  "publisher_role": "venue, filer-published via regulator",
+  "title": "KalshiEX LLC - Block Trade Minimum Threshold",
+  "url": "https://www.cftc.gov/filings/orgrules/rules0701268684.pdf",
+  "document_date": null,
+  "document_date_note": "the letterhead date line did not survive extraction cleanly; the CFTC filing record 61508 gives an Official Receipt Date of 2026-07-01, which is a regulator-record date and is reported as such, not as a document date",
+  "effective_date": "2026-07-16",
+  "effective_date_verbatim": "hereby notifies the Commission that it is self-certifying the default block trade minimum threshold of 25,000 contracts for Kalshi event contracts markets, effective July 16, 2026.",
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:23:03+00:00",
+  "sha256_of_retrieved_bytes": "bf9f549ef338288b8748d0fffe4c264cfe83abbc75b5f4c4d95f3c40133d4b0c",
+  "retrieved_bytes": 104083,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q77",
+  "extraction_tool": "pdftotext -layout (poppler)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as filed by Kalshi",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 3,
+  "clauses": [
+   {
+    "clause_id": "d20-c1",
+    "quote": "Kalshi is formalizing its default block trade minimum threshold of 25,000 contracts as applicable to all active event contracts markets on the Exchange, unless otherwise set forth in a more specific submission.",
+    "what_it_constrains": "The size floor for off-book execution. Below 25,000 contracts there is no block route: every order must interact with the central limit order book and therefore with its depth and its fee treatment."
+   },
+   {
+    "clause_id": "d20-c2",
+    "quote": "The block trade minimum threshold is governed by Kalshi Rule 5.3(e), available in the Kalshi Rulebook at www.kalshi.com/regulatory.",
+    "what_it_constrains": "Points to the governing rule and to the venue rulebook location that this arm could not retrieve as text (see coverage limits)."
+   },
+   {
+    "clause_id": "d20-c3",
+    "quote": "The establishment of the block trade minimum threshold of 25,000 contracts is intended to provide eligible contract participants with an additional execution mechanism for bona fide large-size transactions, while preserving the integrity and price discovery function of the Exchange's centralized marketplace.",
+    "what_it_constrains": "The block route is restricted to eligible contract participants, so it is not an execution channel available to every member. Note also that this threshold is stated in CONTRACT COUNT while the position limit of ks-vr-d16 clause d16-c1 is stated in USD OF EXPOSURE; the two are in different units and neither document reconciles them. No reconciliation is performed here."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d21",
+  "source_class": "S-D",
+  "document_class": "2. Contract series specifications and the named settlement source",
+  "publisher": "KalshiEX LLC (trading venue), as filed with the CFTC under Regulation 40.2",
+  "publisher_role": "venue, filer-published via regulator",
+  "title": "Appendix A - Terms and Conditions, Kalshi Weather Index (San Francisco Bay Area) event contract, filed with the product self-certification for CFTC DCM product record 63548",
+  "url": "https://www.cftc.gov/filings/ptc/ptc09012622854.pdf",
+  "document_date": null,
+  "document_date_note": "the terms-and-conditions appendix carries no date of its own; the CFTC product record 63548 gives Status Certified with Date 2026-09-01, a regulator-record date reported as such",
+  "effective_date": null,
+  "effective_date_note": "the appendix states none",
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:22:13+00:00",
+  "sha256_of_retrieved_bytes": "6d456e2ba1a13fcd33890a18370fee45b91f7b5ae71f381ea284aa9b35d913ce",
+  "retrieved_bytes": 347967,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q74",
+  "extraction_tool": "pdftotext -layout (poppler)",
+  "extraction_depth": "full-text",
+  "extraction_defect": "spurious intra-word spaces throughout; quotations are transcribed exactly as extracted so they remain reproducible from the bytes",
+  "attribution_label": "as filed by Kalshi",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 11,
+  "clauses": [
+   {
+    "clause_id": "d21-c1",
+    "quote": "S ourceAgency:TheS ourceA gencyisKalshi.T heS ourceA gencyp ublishestheIndexandthe M ethodology itself on the Exchange's website, accessible to the public.",
+    "what_it_constrains": "DECISIVE for any cross-venue or basis strategy on this series. The settlement source is the VENUE ITSELF: Kalshi publishes the index and the methodology that settles its own contract. There is no independent third-party reference against which a mispricing could be arbitraged, and the corresponding leg cannot be hedged in the source market because the source market is the exchange."
+   },
+   {
+    "clause_id": "d21-c2",
+    "quote": "Position Accountability L evel: T he Position Accountability L evel for the Contract s hall be $25,000 per strike, per Member.",
+    "what_it_constrains": "The per-contract size regime for this series, expressed PER STRIKE per member, which is the granularity at which a laddered or multi-strike strategy consumes its allowance."
+   },
+   {
+    "clause_id": "d21-c3",
+    "quote": "Minimum Tick:The Minimum Tick size for the Contracts hall be $0.01.",
+    "what_it_constrains": "The price grid. One cent on a $1 payout is the smallest expressible edge, and it bounds any coherence or cross-venue discrepancy that could be expressed as a price difference on this venue."
+   },
+   {
+    "clause_id": "d21-c4",
+    "quote": "Settlement Value:T he Settlement Value for this Contractis $1.00.",
+    "what_it_constrains": "Unit payout, the basis on which price converts to implied probability."
+   },
+   {
+    "clause_id": "d21-c5",
+    "quote": "A\" canonicalIndexo bservation\"isanumericIndexvaluefora g ivene ventminutep ublishedb y the Source Agency with a  status of \" normal\" or \"degraded\"u ndertheMethodology.A ne vent minuteforw hichtheSourceA gencypublishesa statusofu navailabley ieldsn ocanonicalIndex o bservation.",
+    "what_it_constrains": "The settlement input is itself status-flagged by the venue, and the venue's declaration of 'unavailable' erases an observation. Settlement determinacy depends on a status field the venue controls."
+   },
+   {
+    "clause_id": "d21-c6",
+    "quote": "The canonical Index observation for a settlement time is first published as 90.05 and later restated to 89.80  90.05 governs, subject only to Rule 7.1.",
+    "what_it_constrains": "First publication governs and restatements do not reopen settlement. A strategy that trades on a corrected value after expiry has no settlement recourse."
+   },
+   {
+    "clause_id": "d21-c7",
+    "quote": "Revisions totheU nderlyingmadea fterE xpirationwillnotbeaccountedforind eterminingthe Expiration Value.",
+    "what_it_constrains": "Restates the same finality rule at the level of the underlying."
+   },
+   {
+    "clause_id": "d21-c8",
+    "quote": "If no canonical Index observation exists with an event time\n         within <time period>, the Expiration Value cannot be determined and the Contract will be\n         resolved pursuant to Rule 7.1 of the Rulebook.",
+    "what_it_constrains": "A stated failure branch: absence of any source observation in the contract's window routes settlement into the discretionary Market Outcome Review Process rather than to a determinate payout. The parallel provision for an 'at' Contract applies the same rule to a 60-minute lookback window; it is not quoted here because it straddles a page break in the retrieved bytes."
+   },
+   {
+    "clause_id": "d21-c9",
+    "quote": "C ontingencies: Before S ettlement, K alshi may, at its sole d iscretion, initiate the Market OutcomeReviewP rocesspursuanttoRule7.1oftheR ulebook.",
+    "what_it_constrains": "Sole-discretion review before settlement on every contract in the series - the discretionary branch is not confined to data failure."
+   },
+   {
+    "clause_id": "d21-c10",
+    "quote": "S ettlement D ate: The Settlement D ate o f the Contract shall b e no later than thed aya fterthe E xpiration Date, unless the Market Outcome is under review pursuant to Rule 7.1.",
+    "what_it_constrains": "Capital is released within one day of expiration EXCEPT under review, for which no maximum duration is stated. Lockup has no stated upper bound."
+   },
+   {
+    "clause_id": "d21-c11",
+    "quote": "A ppendix E (Confidential) - Source Agency",
+    "what_it_constrains": "NAMED GAP. An appendix specifically about the Source Agency is filed confidentially and is not public, so the public record of how the settlement source operates is incomplete by design."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d22",
+  "source_class": "S-D",
+  "document_class": "7. Self-certification filings (the framework that governs them)",
+  "publisher": "Office of the Federal Register / U.S. Government Publishing Office (eCFR), reproducing CFTC regulations",
+  "publisher_role": "public authority",
+  "title": "17 CFR Part 40 - Provisions Common to Registered Entities",
+  "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-17?part=40",
+  "document_date": null,
+  "document_date_note": "eCFR 'current' rendering; the part states 'Source: 76 FR 44790, July 27, 2011, unless otherwise noted.' No single document date applies to the retrieved rendering, and the retrieval timestamp is the operative currency marker.",
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:19:16+00:00",
+  "sha256_of_retrieved_bytes": "2342bcd5e5c85bfe7a084c6021afcfc815bd3c6c54b2e164c6c57093ffa9145b",
+  "retrieved_bytes": 22915,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q51",
+  "extraction_tool": "HTML tag-strip",
+  "extraction_depth": "full-text of Part 40, clauses drawn from 40.1, 40.2 and 40.6",
+  "attribution_label": "a codified federal regulation",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 6,
+  "clauses": [
+   {
+    "clause_id": "d22-c1",
+    "quote": "( 3 ) The Commission has received the submission not later than the open of business on the business day that is 10 business days prior to the registered entity's implementation of the rule or rule amendment.",
+    "what_it_constrains": "THE CHANGE-LATENCY BOUND. Every fee change, position-limit change, market-maker programme and block-trade threshold reaching this arm arrived by this route, so the minimum public notice on any of these executability preconditions is ten business days - and equally, no such precondition is stable beyond that horizon."
+   },
+   {
+    "clause_id": "d22-c2",
+    "quote": "( 2 ) The registered entity has provided a certification that the registered entity posted a notice of pending certification with the Commission and a copy of the submission, concurrent with the filing of a submission with the Commission, on the registered entity's website. Information that the registered entity seeks to keep confidential may be redacted from the documents published on the registered entity's website",
+    "what_it_constrains": "Establishes both the public-notice obligation and the redaction right that produces the confidential appendices recorded as named gaps throughout this document set."
+   },
+   {
+    "clause_id": "d22-c3",
+    "quote": "( 2 ) The Commission has received the submission by the open of business on the business day preceding the product's listing; and",
+    "what_it_constrains": "Product listings (contract series specifications) require only ONE business day of notice, an order of magnitude less than rule changes. A new contract series can appear with a single day's public warning."
+   },
+   {
+    "clause_id": "d22-c4",
+    "quote": "( ii ) A copy of the rules that set forth the contract's terms and conditions;",
+    "what_it_constrains": "Why document class 2 is retrievable at all: the terms and conditions of every listed product must be filed, which is how the settlement source in ks-vr-d21 became public."
+   },
+   {
+    "clause_id": "d22-c5",
+    "quote": "( vii ) Speculative position limits, position accountability standards, and position reporting requirements",
+    "what_it_constrains": "Position limits and accountability standards are a mandatory element of the filed terms and conditions, which is why the per-contract limit regime of ks-vr-d16 and ks-vr-d17 is discoverable through the filing register."
+   },
+   {
+    "clause_id": "d22-c6",
+    "quote": "( 4 ) The Commission has not stayed the submission pursuant to",
+    "quote_note": "the clause continues '[section sign] 40.6(c) .'; the section sign does not round-trip through this extractor and is omitted so the quotation stays byte-reproducible",
+    "what_it_constrains": "A self-certified rule change can be stayed by the Commission before it takes effect - the mechanism actually exercised against Kalshi in ks-vr-d23."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d23",
+  "source_class": "S-D",
+  "document_class": "8. CFTC orders, letters, dockets and press naming the venue",
+  "publisher": "U.S. Commodity Futures Trading Commission",
+  "publisher_role": "public authority",
+  "title": "CFTC Stays KalshiEX Rule Change and Exercises Emergency Authority to Order Fulfillment of Pending Trades (Release Number 9267-26)",
+  "url": "https://www.cftc.gov/PressRoom/PressReleases/9267-26",
+  "document_date": "2026-07-14",
+  "document_date_verbatim": "July 14, 2026",
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:20:15+00:00",
+  "sha256_of_retrieved_bytes": "56e3a0c780360210aef0b3a08de4c6c62a523e58b8a340c045e28b66844a81b4",
+  "retrieved_bytes": 9710,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q56",
+  "extraction_tool": "HTML tag-strip",
+  "extraction_depth": "full-text of the release body as retrieved",
+  "attribution_label": "a Commission press release describing Commission action",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 3,
+  "clauses": [
+   {
+    "clause_id": "d23-c1",
+    "quote": "The Commodity Futures Trading Commission today exercised its authority to stay an emergency rule change proposed by KalshiEX, LLC in response to a Michigan state court order directing the company to cancel certain previously executed trades involving Michigan residents. The CFTC also exercised its emergency authority to order KalshiEX, LLC to fulfill the open trades in accordance with its normal practices.",
+    "what_it_constrains": "TRADE FINALITY IS CONTESTED, not assumed. A state court directed cancellation of already-executed trades; the venue proposed an emergency rule change to comply; the federal regulator stayed it and compelled fulfilment. Settlement finality on this venue rests on an active federal-state conflict, which is a risk no fee, limit or rate-limit clause captures."
+   },
+   {
+    "clause_id": "d23-c2",
+    "quote": "Market participants must have impartial access to CFTC-regulated markets and registered entities must adopt transparent access criteria that are applied in a non-discriminatory manner.",
+    "what_it_constrains": "The impartial-access principle the Commission invokes - relevant to any claim that programme-gated benefits (ks-vr-d19) or discretionary tier grants (ks-vr-d06 clause d06-c4) are or are not discriminatory."
+   },
+   {
+    "clause_id": "d23-c3",
+    "quote": "Canceling trades that have already been executed is an unprecedented step that risks a cascading effect on the entire marketplace and undermines the certainty in contracting that is a necessary component of a functioning market.",
+    "quote_note": "the release wraps this in typographic quotation marks that do not round-trip through this extractor; they are omitted so the quotation stays byte-reproducible. Attributed in the release to Chairman Michael S. Selig.",
+    "what_it_constrains": "The regulator's own characterisation of the risk. Recorded as an attributed statement by the Chairman, not adopted."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d24",
+  "source_class": "S-D",
+  "document_class": "8. CFTC orders, letters, dockets and press naming the venue (Federal Register enumeration)",
+  "publisher": "Office of the Federal Register (API)",
+  "publisher_role": "public authority",
+  "title": "Federal Register documents matching the term 'Kalshi' (API query result)",
+  "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=Kalshi&per_page=40&order=newest",
+  "document_date": null,
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:19:18+00:00",
+  "sha256_of_retrieved_bytes": "c665eae8724e1a8b6e9b3216990ff0ae5c373d23c3abb61b441db50ea7b97c9e",
+  "retrieved_bytes": 711,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q52",
+  "extraction_tool": "JSON parse",
+  "extraction_depth": "metadata",
+  "extraction_note": "These four clause records are metadata rows returned by the API, not text quoted from the rules themselves. F6 extraction depth for this record is METADATA and every downstream use must carry that label.",
+  "attribution_label": "as returned by the Federal Register API",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 4,
+  "clauses": [
+   {
+    "clause_id": "d24-c1",
+    "quote": "count: 5",
+    "what_it_constrains": "The entire Federal Register footprint of the term is five documents. Recorded so that the smallness of this surface is on the record rather than inferred."
+   },
+   {
+    "clause_id": "d24-c2",
+    "quote": "2026-06-12 | Proposed Rule | Prediction Markets; Public Interest Determinations | https://www.federalregister.gov/documents/2026/06/12/2026-11854/prediction-markets-public-interest-determinations",
+    "what_it_constrains": "An open rulemaking on whether particular prediction-market contracts serve the public interest - a live source of listing-eligibility risk for the contract classes this branch studies. NOT retrieved beyond metadata at this depth."
+   },
+   {
+    "clause_id": "d24-c3",
+    "quote": "2026-07-01 | Proposed Rule | Data Reporting Requirements for Certain Event Contracts | https://www.federalregister.gov/documents/2026/07/01/2026-13239/data-reporting-requirements-for-certain-event-contracts",
+    "what_it_constrains": "An open rulemaking on event-contract data reporting, which bears on what market data is published and therefore on what any observational study of these venues can see. NOT retrieved beyond metadata."
+   },
+   {
+    "clause_id": "d24-c4",
+    "quote": "2024-06-10 | Proposed Rule | Event Contracts | https://www.federalregister.gov/documents/2024/06/10/2024-12125/event-contracts",
+    "what_it_constrains": "The 2024 event-contracts rulemaking. NOT retrieved beyond metadata."
+   }
+  ],
+  "injection_observed": null
+ },
+ {
+  "id": "ks-vr-d25",
+  "source_class": "S-D",
+  "document_class": "9. Equivalent published rule documents for a paired venue - Polymarket US (QCX LLC)",
+  "publisher": "Polymarket US / QCX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Fee Schedule",
+  "url": "https://docs.polymarket.us/fees.md",
+  "document_date": null,
+  "document_date_note": "the page states no publication date",
+  "effective_date": "2026-07-01",
+  "effective_date_verbatim": "<Info>Effective exchange-wide from 12 AM ET, Wednesday July 1, 2026.</Info>",
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:21:35+00:00",
+  "sha256_of_retrieved_bytes": "588880f87fb11d8cfea52d03be13086a13ccc17c9448377158c323190796344a",
+  "retrieved_bytes": 2926,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q68",
+  "extraction_tool": "none required (served as text/markdown)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Polymarket US's published fee schedule",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 5,
+  "clauses": [
+   {
+    "clause_id": "d25-c1",
+    "quote": "Fee = Θ × C × p × (1 - p)",
+    "what_it_constrains": "The paired venue uses the SAME functional form as Kalshi's fee formula, so the two are directly comparable coefficient-for-coefficient rather than only in aggregate."
+   },
+   {
+    "clause_id": "d25-c2",
+    "quote": "|                  | Theta   | Max (p = \\$0.50) |\n| ---------------- | ------- | ---------------- |\n| **Taker Fee**    | 0.06    | \\$1.50           |\n| **Maker Rebate** | -0.0125 | -\\$0.31          |",
+    "what_it_constrains": "THE CROSS-VENUE ASYMMETRY THAT DECIDES A PAIRED STRATEGY. On the paired venue the maker coefficient is NEGATIVE - the maker is paid. On Kalshi (ks-vr-d01 clause d01-c4) the maker coefficient is POSITIVE where it is non-zero. The passive leg of a two-venue strategy therefore has opposite sign of cost depending on which venue it rests on, and any strategy that assumes symmetric maker treatment across the pair is mis-specified at the point of writing."
+   },
+   {
+    "clause_id": "d25-c3",
+    "quote": "* **Maker rebate** is applied at the point of trade.",
+    "what_it_constrains": "The rebate is not deferred or conditional on a programme, unlike Kalshi's market-maker benefits which require a Market Maker Agreement (ks-vr-d19 clause d19-c1)."
+   },
+   {
+    "clause_id": "d25-c4",
+    "quote": "**Accelerated Tier Placement**: A Participant may provide verifiable proof of their trailing-30-day notional trading volume on another prediction market and be assigned to the rebate tier corresponding to that volume.",
+    "what_it_constrains": "Volume earned on one venue is portable to the other's fee tier. This is a stated cross-venue coupling of cost terms and it runs only in this direction: no reciprocal provision was located in any Kalshi document in this arm."
+   },
+   {
+    "clause_id": "d25-c5",
+    "quote": "| \\$250,000 - \\$999,999             | 10%                |\n| \\$1,000,000 - \\$9,999,999         | 25%                |\n| \\$10,000,000+                     | 50%                |",
+    "what_it_constrains": "The taker-rebate ladder, with a stated entry threshold of $250,000 of prior-calendar-month taker volume below which no rebate accrues."
+   }
+  ],
+  "injection_observed": "carries a documentation-index directive block addressed to a machine reader, as at ks-vr-d06; treated as data."
+ },
+ {
+  "id": "ks-vr-d26",
+  "source_class": "S-D",
+  "document_class": "9. Equivalent published rule documents for a paired venue - Polymarket US (QCX LLC)",
+  "publisher": "Polymarket US / QCX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Rate Limits",
+  "url": "https://docs.polymarket.us/api-reference/rate-limits.md",
+  "document_date": null,
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:21:36+00:00",
+  "sha256_of_retrieved_bytes": "670610f351c22e395960b58b0538ee312e1d42017faf64c1e4b1517abae41f09",
+  "retrieved_bytes": 1852,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q69",
+  "extraction_tool": "none required (served as text/markdown)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Polymarket US's published developer documentation",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 5,
+  "clauses": [
+   {
+    "clause_id": "d26-c1",
+    "quote": "The Retail API enforces a global rate limit of **20 requests per second** per API key across all endpoints.",
+    "what_it_constrains": "THROUGHPUT IS METERED ON INCOMPATIBLE BASES ACROSS THE PAIR. The paired venue states a flat 20 requests per second per API key across all endpoints, with no tier ladder. Kalshi states a per-tier token budget with a default cost of 10 tokens per request and separate read and write buckets (ks-vr-d06). The two are not expressed in comparable units, and which side binds a simultaneous two-venue strategy depends on the Kalshi tier the participant actually holds - which per ks-vr-d06 clause d06-c4 is earned from volume share or granted at the venue's discretion, not chosen. No conversion between the two schemes is performed here."
+   },
+   {
+    "clause_id": "d26-c2",
+    "quote": "| **Public (unauthenticated)**             | 20 requests per second per IP      |",
+    "what_it_constrains": "Observation of the paired venue is metered per IP, which bounds the sampling rate of any study that would measure a cross-venue discrepancy in the first place."
+   },
+   {
+    "clause_id": "d26-c3",
+    "quote": "During periods of increased latency, Polymarket US applies a **5-second stopgap** to inbound orders. If an order has been received by Polymarket US but has not been processed within 5 seconds, we reject it to protect you from a bad fill at a stale price.",
+    "what_it_constrains": "Orders are silently dropped under latency. A two-leg cross-venue strategy can have one leg fill and the other rejected precisely when the venues are moving - leg risk is concentrated in exactly the states where a discrepancy would appear."
+   },
+   {
+    "clause_id": "d26-c4",
+    "quote": "These rejects carry the message **`Global Rate Limit Exceeded`**, but they are **not** an actual rate limit.",
+    "what_it_constrains": "The reject is misnamed by the venue's own admission, so a naive client cannot distinguish throttling from latency rejection by the error text."
+   },
+   {
+    "clause_id": "d26-c5",
+    "quote": "If you're running an automated trading system and need higher limits for production:\n\n1. Document your use case and expected request volume\n2. Email [support@polymarket.us](mailto:support@polymarket.us)",
+    "what_it_constrains": "Higher throughput on the paired venue is obtained by bilateral request, not by a published ladder - the same discretionary gate as Kalshi's manual tier grants, in a different form."
+   }
+  ],
+  "injection_observed": "documentation-index directive block as at ks-vr-d06; treated as data. The page also contains Python retry code addressed to the reader; not executed."
+ },
+ {
+  "id": "ks-vr-d27",
+  "source_class": "S-D",
+  "document_class": "9. Equivalent published rule documents for a paired venue - Polymarket US (QCX LLC)",
+  "publisher": "Polymarket US / QCX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Market Maker Program",
+  "url": "https://docs.polymarket.us/incentives/market-maker.md",
+  "document_date": null,
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:21:38+00:00",
+  "sha256_of_retrieved_bytes": "d4b568df596d93c7e7d1b7da7d74602349449b59535644abafe2909dc7245d42",
+  "retrieved_bytes": 308,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q70",
+  "extraction_tool": "none required (served as text/markdown)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Polymarket US's published documentation",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 1,
+  "clauses": [
+   {
+    "clause_id": "d27-c1",
+    "quote": "This program rewards approved market makers for providing liquidity across a wide range of contracts in given categories.\n\nTo learn more or apply, contact [institutional@qcex.com](mailto:institutional@qcex.com).",
+    "what_it_constrains": "The paired venue's market-maker programme is stated in TWO SENTENCES and publishes no obligation, no reward, no eligibility test and no term. This is the entire public document. Recorded as a near-total absence: for the paired venue, document class 5 is retrieved in form and empty in substance, which is a weaker public record than Kalshi's (ks-vr-d19), which at least names its obligation dimensions and its reward ceiling."
+   }
+  ],
+  "injection_observed": "documentation-index directive block as at ks-vr-d06; treated as data."
+ },
+ {
+  "id": "ks-vr-d28",
+  "source_class": "S-D",
+  "document_class": "9. Equivalent published rule documents for a paired venue - Polymarket US (QCX LLC)",
+  "publisher": "Polymarket US / QCX LLC (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Trading Restrictions",
+  "url": "https://docs.polymarket.us/learn/trading/access-and-limits/trading-restrictions.md",
+  "document_date": null,
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:21:39+00:00",
+  "sha256_of_retrieved_bytes": "7d0e3d7dcf23f8507757bb226b29b71ea76726bd59658ffafd4eeceb0fa7bceb",
+  "retrieved_bytes": 607,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q71",
+  "extraction_tool": "none required (served as text/markdown)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Polymarket US's published documentation",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 2,
+  "clauses": [
+   {
+    "clause_id": "d28-c1",
+    "quote": "You should not trade if:\n\n* Your firm interacts with event contracts as part of its business, or\n* You possess **material nonpublic information (MNPI)** related to the event.",
+    "what_it_constrains": "A stated participation restriction on the paired venue framed as guidance to the reader rather than as an exchange rule. NOTE the form: this page is guidance, not a rulebook clause, and this record does not treat it as one."
+   },
+   {
+    "clause_id": "d28-c2",
+    "quote": "Review your firm's compliance manual and confirm with your compliance department before trading on Polymarket US.",
+    "what_it_constrains": "Eligibility on the paired venue is partly delegated to the participant's own institution, so it is not determinable from the venue's rules alone."
+   }
+  ],
+  "note": "This page is the closest the paired venue's public documentation comes to a position-limit or participant-limit statement. NO position limit and NO position accountability level for Polymarket US was located at any endpoint searched on this date. The paired venue's rulebook route (https://polymarket.us/rulebook, KS-VR-Q58) returns HTTP 200 with the title 'Polymarket - RULEBOOK' but is client-rendered and carries no rule text in the retrieved bytes.",
+  "injection_observed": "documentation-index directive block as at ks-vr-d06; treated as data."
+ },
+ {
+  "id": "ks-vr-d29",
+  "source_class": "S-D",
+  "document_class": "9. Equivalent published rule documents for a paired venue - Polymarket (non-US)",
+  "publisher": "Polymarket (trading venue)",
+  "publisher_role": "venue, filer-published",
+  "title": "Fees",
+  "url": "https://docs.polymarket.com/trading/fees.md",
+  "document_date": null,
+  "effective_date": null,
+  "effective_date_note": "the page states none; contrast the US entity's fee schedule, which does",
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:21:15+00:00",
+  "sha256_of_retrieved_bytes": "8e246189f6ca85b8b8782e1d76a769cf98672a98c4c63d8bbe6150d659db8d7c",
+  "retrieved_bytes": 1935,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q64",
+  "extraction_tool": "none required (served as text/markdown)",
+  "extraction_depth": "full-text",
+  "attribution_label": "as stated in Polymarket's published documentation",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 5,
+  "clauses": [
+   {
+    "clause_id": "d29-c1",
+    "quote": "fee = C × feeRate × p × (1 - p)",
+    "what_it_constrains": "Third instance of the same functional form across the three venue documents in this set, which is what makes the coefficient the only object that differs."
+   },
+   {
+    "clause_id": "d29-c2",
+    "quote": "**Makers are never charged fees.** Only takers pay fees.",
+    "what_it_constrains": "On this entity makers are neither charged nor rebated at the point of trade - a third distinct maker regime across the three fee documents retrieved (Kalshi charges makers where the multiplier is non-zero; Polymarket US pays them; Polymarket non-US does neither)."
+   },
+   {
+    "clause_id": "d29-c3",
+    "quote": "**Geopolitical and world events markets are fee-free.** Polymarket does not charge fees or profit from trading activity on these markets.",
+    "what_it_constrains": "Fee treatment varies by market CATEGORY on this venue, so a cross-venue cost comparison is not well-defined without naming the category on each side."
+   },
+   {
+    "clause_id": "d29-c4",
+    "quote": "| Crypto          | 0.07           | 0              | 20%          |",
+    "what_it_constrains": "An example row of the per-category taker rate, maker rate and maker-rebate table. The full table spans eleven categories with taker rates from 0 to 0.07."
+   },
+   {
+    "clause_id": "d29-c5",
+    "quote": "Fees are rounded to 5 decimal places. The smallest fee charged is **0.00001 USDC**.",
+    "what_it_constrains": "Rounding granularity differs from Kalshi's centicent upward rounding (ks-vr-d01 clause d01-c6), so per-fill cost is not comparable across the pair at small size without accounting for it."
+   }
+  ],
+  "injection_observed": "documentation-index directive block addressed to a machine reader; treated as data."
+ },
+ {
+  "id": "ks-vr-d30",
+  "source_class": "S-D",
+  "document_class": "9. Equivalent published rule documents for the venues a cross-venue strategy would pair with (enumeration)",
+  "publisher": "U.S. Commodity Futures Trading Commission",
+  "publisher_role": "public authority",
+  "title": "Industry Filings: Designated Contract Markets (DCM) - full listing",
+  "url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizations?Show_All=1",
+  "document_date": null,
+  "effective_date": null,
+  "retrieval_date": "2026-09-04",
+  "accessed_at": "2026-09-04T15:20:30+00:00",
+  "sha256_of_retrieved_bytes": "b605a7dd799c85d0888837fc476d0d5499b0076fe9560a0c8872ffb45795e8c2",
+  "retrieved_bytes": 18329,
+  "http_status_at_retrieval": 200,
+  "query_id": "KS-VR-Q57",
+  "extraction_tool": "HTML table parse",
+  "extraction_depth": "metadata",
+  "attribution_label": "as published by the CFTC in its industry-filings register",
+  "contribution_codes": [
+   "K3"
+  ],
+  "n_clauses": 3,
+  "clauses": [
+   {
+    "clause_id": "d30-c1",
+    "quote": "QCX LLC d/b/a Polymarket US| |Designated| |07/09/2025| |QCX LLC is now operating under the assumed name of Polymarket US.",
+    "what_it_constrains": "Identifies the US-regulated counterpart venue whose rule documents are recorded at ks-vr-d25 to ks-vr-d28, and fixes the date from which it has been a designated contract market."
+   },
+   {
+    "clause_id": "d30-c2",
+    "quote": "Railbird Exchange, LLC| |Designated| |06/13/2025|",
+    "what_it_constrains": "A further designated event-contract venue. Relevant here because the CFTC document mis-served under Kalshi's Exhibit M label (ks-vr-d12) is a Railbird rulebook."
+   },
+   {
+    "clause_id": "d30-c3",
+    "quote": "ForecastEx LLC| |Designated| |06/24/2024|",
+    "what_it_constrains": "A further designated venue in the same product space; its rule documents were NOT retrieved at this depth."
+   }
+  ],
+  "note": "Thirty-six organization rows were returned, of which a substantial number are event-contract or prediction-market venues designated since 2024. This arm retrieved rule documents for only ONE paired venue (Polymarket US / QCX LLC) plus its non-US affiliate. The remainder are enumerated and left unretrieved - recorded as a coverage limit, not as an absence of documents.",
+  "injection_observed": null
+ }
+]

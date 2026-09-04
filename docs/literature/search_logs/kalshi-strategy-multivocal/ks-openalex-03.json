@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-openalex-03",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://api.openalex.org/works?filter=title_and_abstract.search:%22sports%20betting%22%20AND%20%22arbitrage%22%20AND%20%22exchange%22&per-page=25&mailto=238704148%2Bs-koirala%40users.noreply.github.com",
+ "endpoint": "https://api.openalex.org/works",
+ "platform": "openalex",
+ "executed_at": "2026-09-04T10:15:19-05:00",
+ "http_status": 200,
+ "client_error": null,
+ "n_returned": 6,
+ "n_total_reported": 6,
+ "truncated_by_cap": false,
+ "retrieval_cap_in_force": "per-page=25",
+ "payload_sha256": "cc1e9a70372cff836d36e6685d354a4e532503b07461bc13c76583112c2228f4",
+ "payload_bytes": 97542,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-openalex-03.json",
+ "retry_of": null,
+ "construction_section_3_1": {
+  "instrument_term": "sports betting exchange",
+  "strategy_term": "arbitrage",
+  "venue_narrowing": null,
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "filter=title_and_abstract.search",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "S2-sports-and-sportsbook-vs-exchange",
+ "note": null,
+ "count_parse_error": null
+}

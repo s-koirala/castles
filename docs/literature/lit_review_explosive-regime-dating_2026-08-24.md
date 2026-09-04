@@ -7,7 +7,8 @@ execution_dates: "search and dual screening 2026-08-24; extraction 2026-08-25; s
 protocol: docs/methodology/protocol_explosive-regime-review_2026-08-24.md
 protocol_sha256_at_registration: 33c01c522521a9f0f9ee39caa7a71b1fcf51ca50a7b471cc4cc7ee2db7301a54
 protocol_registration_commit: 9deee0c
-protocol_sha256_with_addendum: 9d400eb557680d393af052bcb48eb52e880b3f9182b081b56c7ceaff3f83ecaa   # A1-A14 (A14 appended by the round-3 remediation)
+protocol_sha256_with_addendum: e0df3297c5971735a6f4b610e988087f086e576f4ccb131d2430c8bc353a9184   # A1-A16, 96,223 bytes. A16 appended 2026-09-04 by the round-5 remediation (finding REV-2-4): it strikes A15 section (c)'s 'passes on 9 tests' by quotation and re-attests the mechanical ground against the delivered 10-test module; no appraisal cell and no count changes. Supersedes the A1-A15 value eed7db745ff7fe241f85246c37f8f244890fb23712bf7c712093f3a40f9df9e0 (91,329 bytes) and the A1-A14 value 9d400eb557680d393af052bcb48eb52e880b3f9182b081b56c7ceaff3f83ecaa. Frozen prefix re-verified after every append: the first 51,478 bytes still hash to 33c01c522521a9f0f9ee39caa7a71b1fcf51ca50a7b471cc4cc7ee2db7301a54
+protocol_sha256_with_addendum_A1_A14: 9d400eb557680d393af052bcb48eb52e880b3f9182b081b56c7ceaff3f83ecaa  # superseded by the round-4 append
 protocol_sha256_with_addendum_A1_A13: 92fff3f271adb44404b1bb6933eb1de1bce417024dc2a07afc4cfc02f14155c2  # superseded by the round-3 append
 protocol_sha256_with_addendum_A1_A11: 0c961d3089414aa3016adaced2aa755e1fdf5d9a4db7c962b25bd3d507876b3b  # superseded by the round-2 append
 protocol_sha256_with_addendum_A1_A3: c5a4be8d84241f0ea34dfc0f6e08a0c88ee5d4f81d05a6edd934e5db7fb72721  # superseded 2026-09-02
@@ -1234,6 +1235,23 @@ divergence is not "a few cells": **31 D cells are recorded `low` where the rule
 raises concern, and 13 run the other way** — amendment **A8**. Both columns are
 therefore reported below. *(Findings QUANT-1-1, QUANT-1-2, REV-1-3.)*
 
+> **What the 31 is counted against, stated because amendment A8's prose is not
+> precise about it.** *(Added 2026-09-03, round-4 findings QUANT-1-6 and REV-1-6;
+> protocol amendment **A15**.)* The **31** — and its 22 / 9 split — is counted
+> against **the D column printed below**, i.e. the primary extractor's judgments
+> **after** the §2.8 resolution raises marked `†`. A8 describes that column as
+> "the primary extractor's own judgments, not as mechanical derivations from the
+> Q cells", which reads as the *raw* `domain_concerns` field of
+> `se-extraction-primary.jsonl`. Against that raw field the lenient count is
+> **42** (D1 4, D2 1, D3 21, D4 9, D5 6, D6 1), of which 33 have a `no`/`unclear`
+> input and 9 a `partial`-only input. The **strict** count is **13** (D3 1, D4 7,
+> D5 5) under **both** readings. The legend below is precise where A8 is not, and
+> the two extra domains D1 and D2 appear only in the raw-field count because the
+> §2.8 resolution had already raised those cells. **No appraisal cell changes**;
+> A8's decision to report both columns rather than restore the rule retroactively
+> stands. Mechanical ground: `tests/test_erob_recount.py` (tracked at `01ecfe7`)
+> reproduces the published 31/13 against this column.
+
 Legend:
 
 - Q-cell values are `yes` / `partial` / `unclear` / `no`; `n/a` = the question
@@ -1520,7 +1538,7 @@ seven independent author teams, each identifying a different departure:
 | strongly dependent (long-memory) errors | standard DF t: 0.05 at d = 0 → 0.48 (n = 100), 0.56 (n = 500) at d = 0.45 | `eru-1526` Table 2, [Lui, Phillips & Yu 2024](https://doi.org/10.1016/j.jeconom.2023.105626) |
 | long memory, PWY with unadjusted CVs | 0.0450 (dᵤ=0) → 0.3156 (dᵤ=0.2) → 0.4670 (dᵤ=0.4) at T = 250 | `eru-0691` Table 1, [Kruse & Wegener 2018](https://doi.org/10.1111/sjpe.12179) |
 | leverage / asymmetric conditional volatility (TGARCH) | GSADF up to 0.29 | `eru-1044` Table 4 |
-| stochastic volatility (Heston) at daily frequency | classical PWY 0.048–0.282 | `eru-1716` Table 1, [Boswijk, Yu & Zu 2024](https://arxiv.org/abs/2405.02087) — **preprint tier** |
+| stochastic volatility (Heston) at daily frequency | classical PWY **0.048–0.392** (was reported as 0.048–0.282, which omitted the c = 1.5 column; L-21) | `eru-1716` Table 1, [Boswijk, Yu & Zu 2024](https://arxiv.org/abs/2405.02087) — **preprint tier** |
 | price jumps under in-fill asymptotics | right-sided DF up to 0.397 | `eru-0924` Table 2, [Laurent & Shi](https://doi.org/10.2139/ssrn.3421332) (published *Econometric Theory* 38(1):113–171) |
 | deterministic drift break under the null | DF_μ diverges; size tends to 1 or 0 depending on break sign | `eru-0348` Theorem 1 and Table 2, [Sollis 2016](https://doi.org/10.1515/jtse-2013-0004) |
 | polynomial deterministic trend | AR(1)-based GSADF/BSADF false-detection probability → 1 | `eru-1260` Theorem 2.1.2–2.1.3, [Wang & Yu 2023](https://doi.org/10.1093/ectj/utac020) (single-pass, §5.4) |
@@ -1606,7 +1624,7 @@ carried forward, and it is the reason the recursive family displaced the
 Chow-type line for this problem.
 
 PWY report the corresponding inconsistency analytically and by simulation for
-their own statistic (`eru-0131` Table 4 p.221 and the Appendix pp.222–225), and PSY
+their own statistic (`eru-0131` Table 4 p.221 and the Appendix **pp.222–224**), and PSY
 2015a make Evans-type collapse a core power DGP with a survival-probability grid
 (`eru-0393` Tables 4–5), where the declared contribution includes demonstrating
 that PWY's own SADF is inconsistent in multi-bubble samples — an originator team
@@ -1795,9 +1813,9 @@ primary design object rather than an afterthought:
 | MAX_m / SEQ_m end-of-sample monitors | closed-form FPR for any monitoring horizon, invertible to fix the FPR ex ante | theoretical FPR available in closed form (eq. 5), monotonically increasing in horizon | `eru-0735`, [Astill et al. 2018](https://doi.org/10.1111/jtsa.12409) |
 | CUSUM vs volatility-standardised CUSUMV | boundary constants calibrated so FPR matches MAX10's 0.10 under homoskedasticity (b = 0.147 / 0.177) | standard CUSUM's null limit depends on the volatility path and its FPR fails under time-varying volatility; CUSUMV restores it | `eru-1117`, [Astill et al. 2021](https://doi.org/10.1093/jjfinec/nbab009) |
 | covariate-augmented CUSUM monitors | Chu–Stinchcombe–White crossing function, FPR calibrated to 0.10 by t = 241 (b = 0.1395 standard, 0.1679 volatility-corrected) | FPR retained under time-varying volatility | `eru-1921`, [Astill, Taylor & Zu 2026](https://doi.org/10.1017/S0266466626100383) |
-| two-stage bubble-then-crash monitor AMAX(k) → SMIN(m,n) | AMAX carries the AHLST closed-form FPR; conditional crash-monitor FPR analytically bounded | crash monitor never signals before the crash by construction | `eru-1519`, [Whitehouse, Harvey & Leybourne 2023](https://doi.org/10.1111/obes.12540) |
+| two-stage bubble-then-crash monitor AMAX(k) → SMIN(m,n) | AMAX carries the AHLST closed-form FPR; the crash monitor's FPR has **no closed form** and is *bounded* rather than derived | SMIN(m,n) runs only after AMAX(k) has signalled, so under H₀ its FPR is bounded by AMAX(k)'s FPR at the false-detection time and under H₁,₁ by AMAX(k)'s true-positive rate there; the authors state further theoretical analysis "is not possible" and measure it by simulation. **The earlier cell read "crash monitor never signals before the crash by construction", which the source contradicts — corrected round 4, L-21** | `eru-1519`, [Whitehouse, Harvey & Leybourne 2023](https://doi.org/10.1111/obes.12540) |
 | recursive-mean/trend-adjusted AMAX (MR, TR) | same closed-form FPR (Theorem 1: modifications do not raise false detection) | detection accelerated shortly after onset at unchanged FPR | `eru-1844`, [Whitehouse, Harvey & Leybourne 2025](https://doi.org/10.1016/j.ijforecast.2024.12.005) |
-| open-ended CUSUM detectors with weighted boundaries | boundary g(M,k)(1+k/M)(k/(k+M))^γ calibrated so the limiting crossing probability under H₀ equals α over the whole open-ended horizon | γ trades detection speed against false alarms; γ = 0.35 adopted as the compromise | `eru-0889`, [Horváth et al. 2020](https://doi.org/10.1016/j.jeconom.2019.08.010); `eru-1038`, [Horváth, Liu & Lu 2020](https://doi.org/10.2139/ssrn.3529058) |
+| CUSUM detectors with weighted boundaries — **one open-ended, one closed-ended** | `eru-1038` (open-ended): boundary **g(M,s) = c·M^{1/2}(1 + s/M)(s/(M+s))^γ**, eq. (2.8), with c = c(γ, α) chosen so that lim_{M→∞} P{τ_M < ∞} = α under H₀ over an unterminated horizon. `eru-0889` (**closed-ended, in its own words**: "we consider here closed-ended procedures in which we stop the detection procedure after observing T observations"): boundary g_M(k) = c(1 + d₀M^{−τ})M^{1/2}(1 + k/M)·f(k/(k+M)), with the limiting crossing probability taken at θ = lim T/(T+M) | γ trades detection speed against false alarms, but **the two papers choose differently**: `eru-0889` — "As a compromise, we use γ = 0.35 in the empirical study"; `eru-1038` — "we recommend γ = .45 to achieve fast and reliable detection". **The earlier cell dropped the c·M^{1/2} factor from the boundary, called both procedures open-ended, and attributed γ = 0.35 to both — corrected round 4, L-21** | `eru-0889`, [Horváth et al. 2020](https://doi.org/10.1016/j.jeconom.2019.08.010); `eru-1038`, [Horváth, Liu & Lu 2020](https://doi.org/10.2139/ssrn.3529058) |
 | weighted-CUSUM / Page-CUSUM on RCA residuals | Darling–Erdős boundary asymptotics; procedure-wise size controlled over open- and closed-ended monitoring | valid irrespective of stationarity of the observed process | `eru-1845`, [Horváth & Trapani 2025](https://doi.org/10.1017/S0266466625000052) |
 | sequential detector statistics (LBI, point-optimal, wCUSUM) | constant vs time-varying boundaries with simulated constants controlling sequence-wise crossing probability | argmax dating avoids the systematic small-sample delay of boundary-crossing dating | `eru-1852`, [Breitung & Diegel 2025](https://doi.org/10.1111/jtsa.12845) |
 
@@ -1869,7 +1887,7 @@ states the condition.
 | **jumps** | jump terms enter the in-fill limit distributions; ignoring them distorts size up to 0.397; remedy is jump dummies | `eru-0924` |
 | **alternative** | mildly explosive ρ = 1 + c/k_n, k_n → ∞, k_n = o(n), in the [Phillips & Magdalinos 2007](https://doi.org/10.1016/j.jeconom.2005.08.002) moderate-deviations sense; x₀ = o_p(√k_n); no intercept in the explosive DGP, to avoid a deterministically explosive component | `eru-0131`, `eru-0100`, `eru-0126` |
 | | PSY-type four-regime model with collapse by re-initialisation to the pre-bubble level plus O_p(1) | `eru-0395`, `eru-0503`, `eru-1580` |
-| | PWY's own detector is **inconsistent** for a second bubble in a multi-bubble sample: DF diverges to −∞ until the in-recursion second bubble dominates | `eru-0395` Theorems 4–5 |
+| | PWY's own detector is **inconsistent** for a second bubble in a multi-bubble sample: DF diverges to −∞ until the in-recursion second bubble dominates | `eru-0395` **Theorems 4–5 pp.1086–1087** (the DF/BSDF limit behaviour) and **Theorems 6–7 p.1088** (the inconsistency itself — Theorem 6: "r̂₂ₑ and r̂₂_f are not consistent estimators of r₂ₑ and r₂_f"; Theorem 7: r̂₂ₑ →ₚ r₂ₑ + r₁_f − r₁ₑ, i.e. biased by the first bubble's duration). The earlier form cited Theorems 4–5 for both; corrected round 4, L-21 |
 | **minimum window r₀** | PWY: r₀ = 0.10 — **convention, no derivation stated** | `eru-0131` Table 1 note p.213 |
 | | PSY: r₀ = 0.01 + 1.8/√T — stated as an empirical rule from "extensive simulation"; **CONVENTION, not derived** | `eru-0393` |
 | | minimum episode duration δ·log(T) with frequency-dependent δ, which PSY themselves call "inevitably arbitrary" | `eru-0393` fn.10 p.1052 |
@@ -1967,7 +1985,7 @@ DGP family** with **matched T and r₀**. Evaluated per characteristic:
 |---|---|
 | empirical size of SADF at 5% | `eru-0393` (T = 100–1600, asymptotic CVs, k = 0, r₀ = 0.01+1.8/√T) and `eru-1044` (same T range, same CV type) are the closest pair and *are* non-overlapping teams — but `eru-1044`'s null adds a TGARCH branch and its homoskedastic arm uses a different replication count and a different lag convention; the r₀ rule matches, the error DGP does not. No matched cell. |
 | empirical size of GSADF at 5% | same pair, same failure; additionally `eru-0813`'s GSADF size is measured as a "pseudo-size" bubble-detection rate under four different no-bubble processes, which is not the same quantity |
-| power under Evans-type collapse | `eru-0150` (T = 100, bubble scaled ×20, π grid) and `eru-0131` (n = 120, π grid, different scaling and calibration) are non-overlapping teams reporting the same DGP family — but different tests, different scaling, different sample size. No matched cell. |
+| power under Evans-type collapse | `eru-0150` (T = 100, bubble scaled ×20, π grid) and `eru-0131` (**T = 100**, **bubble scaled ×20** — Pₜ = Pᶠₜ + 20Bₜ — π grid, α = 1, ζ = 0.5, τ = 0.05, g = 0.05; Table 4 note p.221) are non-overlapping teams reporting the same DGP family. **Corrected round 4 (L-21): the earlier text gave `eru-0131` as `n = 120` with "different scaling" and rested the no-match verdict on "different scaling, different sample size". Both grounds are withdrawn on the PWY side — n = 120 is PWY's Table 3, the *non-collapsing* power design, not its Evans table, and the ×20 scaling is the same one this row attributes to `eru-0150`.** What survives is **different tests** (ADF₁ and supᵣ ADFᵣ versus supDF/supDFC/supK/supBT/supB). Whether the remaining cells match cannot be settled here: `eru-0150`'s own text was **not obtained on this pass either** (§5.4, L-21), so its T, scaling and calibration are known only as transcribed at extraction. No matched cell is asserted, and none is ruled out. |
 | origination date bias | `eru-0395` (fractions, T = 100–400, α = 0.6 localising rate) and `eru-1289` (months, 10-year span, quarterly/monthly) are overlapping teams *and* incommensurable units. `eru-0150`'s τ̂ estimators are different estimators entirely. |
 | detection delay | reported in months (`eru-1289`), in sample fractions (`eru-0559`), as histograms without tabulated moments (`eru-0959`, `eru-1844`), and as TPR-versus-horizon curves (`eru-0735`, `eru-1117`). No two studies report the same summary of the same quantity. |
 | FWER / FPR | `eru-1289` reports FWER of a dating recursion over a calendar span; the surveillance line reports FPR over a monitoring horizon calibrated to a target. Different estimands. |
@@ -2021,7 +2039,7 @@ be missing from this table entirely. *(Findings SCOPE-1-3, REV-1-13.)*
 | **HAR / long-memory-robust DF (LPY)** | restored size under d ∈ (0,0.45); recursive dating with an ELW-estimated memory path | strongly dependent errors, fixed-b HAR standardisation | **CS** — dating recursion causal, evaluated ex post | `eru-1526`, `eru-0691` | D7 high |
 | **End-of-sample monitors (AHLST MAX/SEQ, AMAX, AMAX-MR/TR)** | closed-form FPR at any horizon; TPR-versus-time detection profiles; MR/TR accelerate detection at unchanged FPR | stationary ergodic innovations; conditional heteroskedasticity permitted; window m a documented trade-off | **RT — the corpus's cleanest real-time designs** | `eru-0735`, `eru-0609`, `eru-1844`, `eru-1519` | D4 high (delay is given as curves, not distributions) |
 | **CUSUM-family monitors (HB CUSUM, CUSUMV, covariate-augmented)** | FPR calibrated to a target and retained under time-varying volatility; standard CUSUM's FPR fails under time-varying volatility | volatility-path dependence of the CUSUM null limit; training/monitoring split | **RT** | `eru-1117`, `eru-1921`, `eru-1852` | D8 unclear |
-| **Open-ended sequential monitors (Horváth line, RCA)** | limiting false-alarm probability α over an open-ended horizon; stopping-time limit theory | weak dependence (Bernoulli shift), finite fourth moments; boundary weight γ a documented trade-off | **RT** | `eru-0889`, `eru-1038`, `eru-1845` | D8 unclear; not bubble-specific |
+| **Sequential monitors (Horváth line, RCA)** — `eru-1038` open-ended, `eru-0889` **closed-ended**, `eru-1845` both (corrected round 4, L-21) | limiting false-alarm probability α over the stated monitoring horizon; stopping-time limit theory | weak dependence (Bernoulli shift), finite fourth moments; boundary weight γ a documented trade-off | **RT** | `eru-0889`, `eru-1038`, `eru-1845` | D8 unclear; not bubble-specific |
 | **Bayesian filtered-probability dating** | per-period false-flag rate 0.018 vs PSY's 0.057; longer, fewer episodes under a regime-change-averse loss | two-state SV; sequential parameter learning is what makes it real-time | **RT** — the paper's core critique is that full-sample MCMC parameter estimates make "filtered" probabilities non-causal | `eru-0526` | D7 high |
 | **Noncausal / MAR bubble tests** | size conditional on tail exceedances; forward-looking maximum-bubble-size and burst-horizon statements | heavy-tailed (α-stable or Student-t) innovations; anticipative dynamics | **RT** (`eru-1761`), **CS** (`eru-1770`, preprint tier) | `eru-1761`, `eru-1770` | tier flag on `eru-1770` |
 | **Panel / common-factor extensions** | dating bias as a function of N and T; group-specific roots via clustering | large-N factor structure; the first factor carries the bubble | **CS** | `eru-1112`, `eru-1405`, `eru-0597` | D4 high |
@@ -2029,8 +2047,10 @@ be missing from this table entirely. *(Findings SCOPE-1-3, REV-1-13.)*
 **The one row a branch-3 comparator set should not omit.** `eru-1716`
 (Boswijk, Yu & Zu 2024, preprint tier) devolatises daily increments by realised
 volatility computed from five-minute intraday data and then runs the recursive
-sup-DF, reporting classical PWY size of 0.048–0.282 under a Heston null at
-n = 252. It is the only record in the corpus whose design touches intraday data at
+sup-DF, reporting classical PWY size of **0.048–0.392** under a Heston null at
+n = 252 (Table 1, nominal 5% row across all nine (a, c) cells; the earlier
+`0.048–0.282` stopped at the c = 0.3 column and omitted the table's maximum,
+0.392 at a = 0.01, c = 1.5 — L-21). It is the only record in the corpus whose design touches intraday data at
 all, and its authors state explicitly that the test itself still operates at low
 frequency, with intraday data entering only through the volatility estimate. The
 corpus contains **no** published operating characteristic for any of these
@@ -2554,9 +2574,14 @@ content digest of the file retrieved on 2026-09-02, so a successor auditor can
 re-open the quoted page without repeating the retrieval search. **All seven
 texts have now been retrieved, digested and re-read** — the
 four Phillips-line texts in round 2 (which turned up the locator errors of L-18),
-the three NB texts in **round 3** (L-20). Every digest in the table below has now
+the three NB texts in **round 3** (L-20). Every digest in the table below has
 been reproduced on **three** independent fetches (rounds 1, 2 and 3 of the
-2026-09-02 remediation) and is byte-identical across all three.
+2026-09-02 remediation) and is byte-identical across all three. **The four
+Phillips-line digests and NB-08's were reproduced a fourth time on 2026-09-03**
+(round 4, L-21) and are again byte-identical; NB-02 and NB-13 were **not**
+re-fetched on that pass, because round 4's boundary was the load-bearing set
+(§7 synthesis prose plus the consumer agenda's citation sites) and neither text
+is cited there.
 *(Findings QUANT-1-7, LITERATURE-2-2, QUANT-2-4, QUANT-2-3, QUANT-3-4, REV-3-5.)*
 
 **Round-2 correction, and it is a correction of this review's own claim.** The
@@ -2639,6 +2664,16 @@ pass**, not merely bound to the right document:
   given in §12.1 **L-18**. The three §9 NB texts' own locators were corrected
   separately in round 3 (**L-20**) and are not in that count.
   *(Findings QUANT-2-3, LITERATURE-3-3.)*
+- **One of round 3's own corrections did not survive round 4.** The L-18 row for
+  PWY's Table 4 was corrected to "**p.221** (Appendix pp.222–225)"; the Appendix
+  in fact runs **pp.222–224**, ending on p.224 where REFERENCES begin. Round 4
+  also found four further errors in §7's synthesis prose that neither earlier
+  round reached — an `eru-0131` design attribution, an `eru-1716` size range, an
+  `eru-1519` claim the source contradicts, an `eru-0395` result attributed to the
+  wrong numbered theorem, and a `eru-0889` / `eru-1038` cell carrying three
+  errors at once. All six sites are tabulated in **L-21**, together with the six
+  load-bearing records that could not be retrieved at all (**VG-17**).
+  *(Round 4, 2026-09-03.)*
 
 **What is still not established.** A digest fixes a *file*, not a *version*:
 the Cowles reprints are reprints of the published *IER* articles and carry the
@@ -3266,7 +3301,7 @@ that was already right. The sentence is fixed here (LITERATURE-3-3).**
 | | 0.013–0.018 for n = 389; "sup ADF_r cannot reveal the location of the exuberance" | p.215 | **p.214** |
 | | fn. 14 window alternatives 60/120; N = 77 | p.216 | **p.215** |
 | | Table 3 Panel A (size 0.049 at g = 0.00) | p.220 | **p.219** |
-| | Table 4 (Evans-model power) | pp.221–222 | **p.221** (Appendix pp.222–225) |
+| | Table 4 (Evans-model power) | pp.221–222 | **p.221** (Appendix **pp.222–224** — the range `pp.222–225` published at round 3 was itself wrong; the Appendix opens on p.222 and ends on p.224, where REFERENCES begin; corrected round 4, L-21) |
 | PSY 2015a (`eru-0393`) | eq. (3) null | p.1048 | **p.1047** |
 | | Table 1 and its note ("2000 replications") | p.1051 | **p.1050** |
 | | fn. 10 "inevitably arbitrary"; α_T fixed at 0.05 | p.1053 | **p.1052** |
@@ -3411,6 +3446,92 @@ never obtained (VG-3). It remains an unverified single-session transcription.
 Page locators for the §9.3 regression-table notes were absent and have been
 supplied (pp.19, 24). *(Findings REV-3-5, QUANT-3-4.)*
 
+**L-21 — Round-4 targeted verification of the LOAD-BEARING locator set only;
+six error sites found, six load-bearing texts unreachable.** This pass is **not** a
+sweep of the corpus. Its scope was fixed before any source was opened and is
+stated here so the boundary is auditable: an item is load-bearing iff it is a
+page locator, table/theorem/equation/footnote identifier, or a quoted string
+that appears **inside §7's synthesis prose** — the §7.1–§7.6 "Synthesis claim"
+paragraphs, the `TO COMPUTE` handoff paragraphs, the §7.2–§7.4 lead-in
+paragraphs those claims rest on, §7.6's three causality traps, §7.7's
+pooling-failure rows and §7.8's per-detector rows — **or** is cited by
+[research_agenda_regime-classification_2026-08-21.md](../research_notes/research_agenda_regime-classification_2026-08-21.md).
+**Rows of §7's evidence tables that no synthesis paragraph re-cites are
+inventory, not load-bearing, and were deliberately NOT verified.** The
+load-bearing set is **50 items over 21 records** — 20 of the frozen 72 plus
+NB-08, which §9.0 adjudicates outside the corpus. Verdicts: **35 verified,
+7 corrected, 8 unverifiable.** Verification log:
+[se-verify-loadbearing-01.json](search_logs/explosive-regime/se-verify-loadbearing-01.json).
+
+**Against the corpus: 14 of the 72 records have now been read at full text at
+some verification round — the four Phillips-line records before this pass
+(`eru-0131`, `eru-0393`, `eru-0395`, `eru-1289`) and ten added here
+(`eru-1044`, `eru-1852`, `eru-1921`, `eru-1845`, `eru-1844`, `eru-0889`,
+`eru-1038`, `eru-1716`, `eru-1519`, `eru-1031`), several of the ten at their
+load-bearing points only and three of them in a working-paper, preprint or
+accepted-manuscript version rather than the version their DOI names.
+Fifty-eight have not been read at any verification round.** Every number in
+this review outside the 50-item set above rests on a single-session extraction
+transcription that no round has re-opened, and the error rate measured on
+re-read texts across rounds 2, 3 and 4 gives no ground for assuming otherwise.
+
+**What this pass corrected.**
+
+| § | item | as published (old) | verified (new) |
+|---|---|---|---|
+| §7.2 | PWY's Evans-model appendix | Appendix `pp.222–225` | **pp.222–224** — the Appendix opens on p.222 and ends on p.224, where REFERENCES begin. The `pp.222–225` form was introduced by the round-3 L-18 table itself |
+| §7.7 pooling row | `eru-0131`'s Evans-collapse power design | `n = 120`, "different scaling", verdict resting on "different scaling, different sample size" | **T = 100** and **bubble scaled ×20** (Pₜ = Pᶠₜ + 20Bₜ), Table 4 note p.221. `n = 120` is PWY's **Table 3**, the non-collapsing design. Both stated grounds for the no-match verdict are withdrawn; "different tests" survives, and no matched cell is asserted either way because `eru-0150` is still unobtained |
+| §7.1, §7.8 | `eru-1716` classical PWY size under the Heston null | `0.048–0.282` | **0.048–0.392** — the nominal-5% PWY column of Table 1 runs 0.048 (a = 0.25, c = 0.06) to 0.392 (a = 0.01, c = 1.5); the old range stopped at the c = 0.3 column |
+| §7.4 surveillance table | `eru-1519`'s crash monitor | "crash monitor never signals before the crash by construction" | **contradicted by the source.** SMIN(m,n)'s FPR has no closed form; it is *bounded* by AMAX(k)'s FPR (under H₀) or true-positive rate (under H₁,₁) at the detection time, and the authors state further theoretical analysis "is not possible" and measure it by simulation |
+| §7.4 surveillance table, §7.8 | `eru-0889` / `eru-1038` weighted-boundary CUSUM row | boundary "g(M,k)(1+k/M)(k/(k+M))^γ"; both called **open-ended**; "γ = 0.35 adopted as the compromise" for both | the boundary is **g(M,s) = c·M^{1/2}(1 + s/M)(s/(M+s))^γ** (`eru-1038` eq. 2.8); `eru-0889` is **explicitly closed-ended** — "we consider here closed-ended procedures in which we stop the detection procedure after observing T observations" — and its boundary carries an extra c(1 + d₀M^{−τ}) factor and a general f(·); γ = 0.35 is **`eru-0889`'s** choice, while **`eru-1038` recommends γ = .45**. Three errors in one cell |
+| §7.5 | the PWY-inconsistency result in `eru-0395` | "Theorems 4–5" | **Theorems 4–5 pp.1086–1087** carry the DF/BSDF *limit behaviour*; the *inconsistency* is **Theorems 6–7 p.1088**. Same class of error as L-20's NB-08 row: a result attributed to the wrong numbered theorem |
+
+**What re-verified unchanged.** All four Phillips-line digests reproduced
+byte-identical on a **fourth** independent fetch (`a35fac94…`, `dfd19565…`,
+`85a984e9…`, `309a38ae…`), as did NB-08 (`87277984…`). Every L-18 locator this
+pass re-opened held: PWY p.207 (eq. (8), the cv rule, "around the 4%
+significance level", fn. 6), p.210 (eq. (13)), p.213 (Table 1 note, r₀ = 0.10,
+10,000 reps), p.214 (the "cannot reveal the location" quotation), p.219 (Table 3
+Panel A, 0.049 at g = 0.00, n = 120, 10,000 reps), p.221 (Table 4); PSY 2015a
+p.1050 (Table 1 note, 2,000 reps; the r₀ = 0.01 + 1.8/√T rule and its "extensive
+simulation" ground), p.1052 (fn. 10 "inevitably arbitrary"), p.1053 (the ex
+ante / ex post quotation, verbatim), p.1058 (Table 2 — all ten k = 0 cells, the
+0.184/0.787 fixed-k = 6 pair, the 0.145/0.697 significance-test pair, the 5,000
+replications, and the "size is reasonably well controlled when a small fixed lag
+length is used in the recursive tests" sentence); PSY 2015b pp.1085/1088
+(Theorems 2–3 and 8 and their rate conditions), pp.1090–1095 (Tables 1–10; the
+0.45/0.46/0.55 dating cells at α = 0.6), p.1092 (Table 4, T = 100/200/400);
+DP 2331 p.20 (Table 1, FWER 0.55/0.78/0.93 at T = 40/120/520 over one 10-year
+span, M = 2,000) and p.21 (Table 2, 7.56 (4.99) → 12.20 (5.33) at SDR
+0.84 → 0.75, collapse 0.79 (1.72) → 0.77 (1.71)); NB-08 Theorem 1 p.609,
+Corollary 2 p.610, Corollary 3 p.611, and the "Theorem 3.1" string on p.613 as a
+citation to reference [23]. Newly verified at full text and unchanged:
+`eru-1044` Tables 2 and 4, `eru-1852` Table 3, `eru-1921`'s t = 241 / b = 0.1395
+/ 0.1679 calibration, `eru-1844`'s Theorem 1, `eru-1845`'s Darling–Erdős and
+open/closed-ended size control, `eru-0889`'s "As a compromise, we use γ = 0.35",
+and `eru-1031`'s "Using the full sample period" (in the Cowles DP 2152 twin —
+the Handbook chapter itself is still unobtained).
+
+**What this pass could NOT reach, with the failure mode per host.** Six
+load-bearing records: `eru-0150` (Homm & Breitung — publisher closed, no OA
+deposit; the June 2009 Bonn working paper the extraction used is no longer
+served at the recorded path), `eru-0348` (Sollis — De Gruyter returns HTTP 202
+with an empty body; the Newcastle ePrints record has no deposited file),
+`eru-0559` (Phillips & Shi — Southampton ePrints returns HTTP 401 on both http
+and https; the SMU deposit returns a 212-byte stub), `eru-0238` (PSY 2014 — no
+OA location in OpenAlex; no Cowles reprint found under the Phillips article
+index), `eru-0735` (Astill et al. 2018) and `eru-1117` (Astill et al. 2021 —
+OUP returns HTTP 403 to every user agent tried; the Nottingham repository
+returns HTTP 403). Every attempt is recorded per host and per scheme in the
+verification log. Consequences carried at their sites: §7.1's drift-break
+exception (`eru-0348`, the ground for TC-1 being two-sided) is **still
+single-session transcription**; §7.2's Evans π-grid table and §7.7's pooling
+verdict on that characteristic depend on `eru-0150`, unread twice now; §7.3's
+`eru-0559` reverse-regression bias rows, §7.6's causality trap 2, and two rows
+of the §7.4 surveillance table (`eru-0735`, `eru-1117`, including the
+`b = 0.147 / 0.177` constants and the "eq. 5" locator) are **unverified**.
+Verification gap **VG-17**. *(Round 4, 2026-09-03.)*
+
 **L-17 — Three protocol-mandated records never entered the screened universe.**
 Protocol §9.1 requires NB-02, NB-08 and NB-13 to be force-screened into the
 record universe regardless of query recall. They were not (§3.1, §9.0, amendment
@@ -3460,6 +3581,7 @@ text.
 | **VG-13** | major | **A fourth, PROBABLE same-work twin pair inside the frozen included set was never adjudicated:** `eru-0198` (Erasmus Econometric Institute Report 2013-12, Handle 1765/39598) and `eru-0259` (Franses 2016, *CSDA* 100:160–169, doi:10.1016/j.csda.2014.06.006). The primary extraction log records `eru-0259` as extracted from `eru-0198`'s text and flags the pair "PROBABLE SAME-WORK TWIN PAIR … recorded as probable-twin for the review's dedup ledger to adjudicate"; the recheck log records `eru-0198` as `twin_of: eru-0259`. That adjudication never ran. Both records carry independent §6 appraisal rows (rows 4 and 64) whose Q4 and Q7 cells diverge and both count in the 65 assessable denominator — where each of the three *declared* twins is instead shown `—`, appraised under its carrier, and subtracted from that denominator. The two rows are two passes over **one** document, so they are not independent evidence and their divergence is not inside the 90-of-357 inter-pass count. **Restated round 3 (LITERATURE-3-2, QUANT-3-5):** (i) the round-2 form of this gap said "neither store entry carries a twin note" — the round-2 store update added one to **both**, so that clause was false when written and is struck; (ii) the sentence "twin status was verified against the published article's indexed abstract" is **withdrawn** — `eru-0259` has no `abstract` field in the candidate store and the CSDA abstract is not deposited in Crossref, OpenAlex or Semantic Scholar as of 2026-09-02, so the comparison cannot be re-opened; (iii) the stated ground "same-work identity cannot be settled because the journal text was never obtained" **does not distinguish this pair from `eru-0622`/`eru-0675`**, whose journal text was likewise never read, and is withdrawn as the reason. On the documentary standard the review actually applies to its three declared pairs — same author line, same subject, documented WP→journal chain, one text read — **this pair qualifies and the distinct-work count is 68**. The review does not renumber to 68 because that would re-derive the 65 denominator and every "of 65" fraction inside a frozen corpus, which is a re-appraisal, not a correction; the refusal is **operational, not evidential, and is labelled as such**. **72 records are 69 distinct works under the three pairs adjudicated at extraction, and 68 under the uniform standard.** The corpus is frozen and is not re-screened (amendment A13(b), **A14(a)**, §5.4). |
 | **VG-11** | major | The automation tool's identity conflicts between this review's declaration (`claude-opus-5`) and the `AI-Assistance` trailers on the commits carrying the screening, extraction and NB-adjudication artifacts (`claude-fable-5`, commits `9deee0c` and `8aeebfe`). The ReproLog cited by `8aeebfe` records no model field, so the conflict **cannot be resolved from the logs**. The model identity for the independent re-extraction pass is unrecorded entirely, that artifact having been untracked (§12.1 L-15, frontmatter, AI-assistance statement). **Model CONFIGURATION is unrecorded for every stage and is unclosable:** no temperature, top-p, max-tokens, thinking budget or session seed appears in `er-screening-prompt.txt`, in any verdict or extraction JSONL, or in either ReproLog, so the screening stage is not re-runnable to a comparable κ and the interpretation of κ is restated as between-session variance under an unrecorded decoding configuration rather than as decoding variance (§2.5, §3.3, §15). The remediation-stage ReproLog `repro_log_a0f236b34b25417cb697df683198b3ef.json` itself carries `model_hash: null`, reproducing for the 2026-09-02 stage the omission this gap charges upstream. *(Finding REPRODUCIBILITY-2-3.)* |
 | **VG-12** | minor | The backward-chase diagnostic of VG-4 could not cover 5 of 27 I2b carriers (`eru-0813`, `eru-1289`, `eru-1770`, `eru-0268`, `eru-1310`), and took reference lists from publisher-deposited metadata rather than from source PDFs, so its own coverage is bounded (A11, `se-bc-01.json`). **Its absence test is also weaker than reported:** DOI-or-exact-normalised-title matching missed a work present in the universe under a one-word title variant, so "177 referenced DOIs absent" is an upper bound with unquantified looseness (A12(c), LITERATURE-2-1). |
+| **VG-17** | major | Six **load-bearing** records could not be retrieved on the round-4 targeted verification pass (`eru-0150`, `eru-0348`, `eru-0559`, `eru-0238`, `eru-0735`, `eru-1117`), so every §7 synthesis claim resting on them is still a single-session extraction transcription that no round has re-opened. The affected claims are named individually in **L-21**; the most consequential are §7.1's drift-break exception (the stated ground for TC-1 being two-sided, `eru-0348`), §7.2's Evans π-grid power table and the §7.7 pooling verdict that rests on it (`eru-0150`, now unobtained on two separate passes), and §7.3's reverse-regression dating-bias rows (`eru-0559`). Per-host, per-scheme attempt evidence is in [se-verify-loadbearing-01.json](search_logs/explosive-regime/se-verify-loadbearing-01.json). This gap is **narrower than VG-1**: those four records were never read at any stage, whereas these six were extracted once and could not be re-opened. |
 
 **Repository-level gaps.** The three gaps below are **not** properties of this
 review, its corpus, its protocol or its logs. They are properties of the
@@ -3473,9 +3595,9 @@ undisclosed. Each is scoped explicitly.
 
 | id | severity | scope | gap |
 |---|---|---|---|
-| **VG-14** | major | **repository-level**, not review-level | **No clone-durable environment specification exists for the runs that produced or remediated this review.** `pyproject.toml` declares every dependency unpinned — no `==`, no version floors — and the only lock artifact, `uv.lock`, is untracked (`git ls-files uv.lock` returns nothing). The pip-freeze archives that would substitute live under `logs/reproducibility/env/`, which `.gitignore` excludes. A fresh clone therefore resolves an arbitrary dependency set. The Python version is correctly pinned (`requires-python >=3.11,<3.13`, matching the ReproLog host record 3.11.9), so the gap is package-level only. Remedy available to the author: commit `uv.lock`, or copy the pinned freeze to a tracked path and cite its SHA-256. *(Finding REPRODUCIBILITY-2-1.)* |
+| **VG-14** | major | **repository-level**, not review-level | **No clone-durable environment specification exists for the runs that produced or remediated this review.** `pyproject.toml` declares every dependency unpinned — no `==`, no version floors — and the only lock artifact, `uv.lock`, is untracked (`git ls-files uv.lock` returns nothing). The pip-freeze archives that would substitute live under `logs/reproducibility/env/`, which `.gitignore` excludes. A fresh clone therefore resolves an arbitrary dependency set. The Python version is correctly pinned (`requires-python >=3.11,<3.13`, matching the ReproLog host record 3.11.9), so the gap is package-level only. Remedy available to the author: commit `uv.lock`, or copy the pinned freeze to a tracked path and cite its SHA-256. *(Finding REPRODUCIBILITY-2-1.)* **PARTIALLY CLOSED 2026-09-03 (finding REPRODUCIBILITY-1-2). The superseded text above is retained per this review's supersession convention and is no longer true as written:** `uv.lock` is now tracked — `git ls-files uv.lock` returns `uv.lock` — committed at **`2ba291f9922547e1848d7d505cedafb2979e2433`** (*build: track uv.lock as the pinning mechanism; ADR-0005; declare s4-reexecution session*), SHA-256 **`eca78f9d52a8534f2890c99bd2f16b3aadc1455b0eb7b93c6d2e621240efd885`** over the LF checkout form that `.gitattributes` (`uv.lock text eol=lf`) fixes on every platform; 1,467 lines resolving the full dependency graph with per-artifact hashes under `requires-python >=3.11,<3.13`. The decision is recorded as [ADR-0005](../decisions/ADR-0005-lockfile-is-the-pinning-mechanism.md), whose header reads *Partially closes* and which names **three residuals that keep this gap open**: (i) the lockfile pins the declared dependency graph only, and this review's deliverables were produced largely by LLM agents and by ad-hoc standard-library scripts that no lockfile pins; (ii) **the environment that produced this corpus is not the environment the lockfile describes and cannot be recovered** — the corpus-stage ReproLog carries the SHA-256 of the empty string as its `pip_freeze_sha256` (VG-15), so there is nothing to pin against, and the ADR fixes the mechanism going forward only; (iii) nothing in CI checks the lockfile against `pyproject.toml`, so a stale lockfile is a new failure mode. **VG-14 therefore stays open at reduced severity for this review's own runs, and is closed only for future ones.** |
 | **VG-15** | major | **repository-level**, not review-level | **The ReproLog for the stage that produced the frozen corpus is vacuous in environment and in data.** `repro_log_f5419aa650e249378ff40828424696bb.json` (commit `8aeebfe` — search, screening, extraction) records `pip_freeze_sha256` = `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`, which is the SHA-256 of the **empty string**, and the file it points at under `logs/reproducibility/env/` is 0 bytes. Its `config_resolved_sha256` is `null` and `dataset_checksums` is `{}`, so neither the protocol version nor the 1,996-record candidate store nor any verdict file was checksummed at the moment the run that created them executed. §15 cites this ReproLog as an environment record while disclosing only its missing model field (L-15, VG-11); the environment and input-state defects are named here. **The corpus's input state is fixed retrospectively instead** — by the digests recorded in the 2026-09-02 sidecar and by commit `8aeebfe`'s tree — which is weaker than a contemporaneous record and is not equivalent to one. **The claim this row previously made about the remediation-stage ReproLog was also wrong and is corrected (finding REPRODUCIBILITY-3-1).** It said `a0f236b3…` "is by contrast complete on 13 fields with verified dataset checksums". Complete on 13 fields, yes — but it is the **round-1** log, and **round 2 emitted no ReproLog and no sidecar at all**, so from the moment of the round-2 edits every input it checksums (`references_explosive-regime.json` at `8ed6f9ca…`, `se-bc-01.json` at `3ea52681…`) was a superseded state and its `config_resolved_sha256` was the A1–A11 protocol digest, not the A1–A13 one the document then carried. Restated accurately: **the round-1 remediation log is complete on 13 fields but pins pre-round-2 input states**, and it is superseded by the round-3 log `ee8bebfa…` in §15. *(Findings REPRODUCIBILITY-2-2, REPRODUCIBILITY-3-1.)* |
-| **VG-16** | major | **repository-level**, not review-level | **No committed entrypoint re-derives any number this review reports.** `CLAUDE.md`'s Quickstart advertises `uv run pytest`, but `tests/` and `src/` contain no tracked files, and the project venv was never populated — the 172-package freeze recorded for the remediation run is the *global* interpreter's, not the project venv the reproducibility contract calls for. Every headline count (31/13 D-cell divergences, 50 `partial` cells, 90 of 357 inter-pass divergences, the 65/53 assessable denominators, I3 = 7, 62 DOI-bearing records) was produced by throwaway code. The counts **are** re-derivable from the tracked logs — the round-2 audit re-derived all of them independently and they matched — but a successor gets no guarantee of the same parse, and the §6 table uses escaped pipes inside I2 cells, which silently breaks naive column splitting. Remedy available to the author: commit the recount as `tests/test_erob_recount.py` reading `se-extraction-primary.jsonl`, `se-extraction-recheck.jsonl` and the §6 table, and record the *project-venv* freeze in the next ReproLog. *(Finding REPRODUCIBILITY-2-5.)* |
+| **VG-16** | major | **repository-level**, not review-level | **No committed entrypoint re-derives any number this review reports.** `CLAUDE.md`'s Quickstart advertises `uv run pytest`, but `tests/` and `src/` contain no tracked files, and the project venv was never populated — the 172-package freeze recorded for the remediation run is the *global* interpreter's, not the project venv the reproducibility contract calls for. Every headline count (31/13 D-cell divergences, 50 `partial` cells, 90 of 357 inter-pass divergences, the 65/53 assessable denominators, I3 = 7, 62 DOI-bearing records) was produced by throwaway code. The counts **are** re-derivable from the tracked logs — the round-2 audit re-derived all of them independently and they matched — but a successor gets no guarantee of the same parse, and the §6 table uses escaped pipes inside I2 cells, which silently breaks naive column splitting. Remedy available to the author: commit the recount as `tests/test_erob_recount.py` reading `se-extraction-primary.jsonl`, `se-extraction-recheck.jsonl` and the §6 table, and record the *project-venv* freeze in the next ReproLog. *(Finding REPRODUCIBILITY-2-5.)* **PARTIALLY CLOSED 2026-09-03 (finding REPRODUCIBILITY-1-2), FOR THE ER-RoB DOMAIN COLUMN ONLY. The superseded text above is retained and is no longer true as written:** `tests/test_erob_recount.py` is tracked, committed at **`01ecfe7822ccca794272c35956ac8f8289d0c20b`** (*test: re-derive the ER-RoB domain column from the extraction logs; repair uv run*) — ~~707 lines and 9 tests **as committed at that hash**, green under `uv run pytest tests/test_erob_recount.py`~~. **SUPERSEDED 2026-09-04 (finding REV-2-4). The struck description above is the round-1 state and is retained so that state stays checkable; it is not the delivered artifact.** The delivered module is **1,149 lines, 56,401 bytes, 10 tests**, SHA-256 **`90981cd076377c56b438a49e11264a3dd67b7fb35f0dc976e055b96480d96994`** over the bytes on disk (no CRLF), **re-attested green — 10 passed — under `uv run pytest tests/test_erob_recount.py` on 2026-09-04** against that file and not against the 707-line state. **It is not yet committed at the time this row was written**, so the digest above is its durable identity and the commit that carries it must be named here at session close; the `01ecfe7` / 707-line / 9-test triple is kept as the superseded value. **What the two audit rounds did to the module body, since the line count alone does not say it:** round 1 (CODE-1-1, CODE-1-2, CODE-1-3) rewrote the no-magic-number guard to walk string constants as well as numeric ones, re-keyed both allow-lists by enclosing definition, and added an assertion that no allow-list entry goes unexercised; round 2 (CODE-2-1) made `divergent_cells` a **total** classifier and added the tenth test, `test_every_domain_concern_cell_is_a_declared_scale_level`. **The round-2 fix found four fail-open paths where the finding named one**: besides an unrecognised domain-concern label falling through both the lenient and the strict branch, the assessability axis was unconstrained in both directions — a recorded judgment where the rule derives *not assessable*, and a *not assessable* cell where the rule reaches a judgment. **All four hole cells of the 576-cell cross-tab are empty in the shipped §6 table, so the guards are additive and no count, no cell and no published figure moves.** The scale vocabulary is now parsed out of protocol §6 and this review's own §6 legend rather than hardcoded, so a level added to either document fails at the guard instead of being silently dropped. It re-derives the §6 D column from the two extraction logs by protocol §6's rule with A7's CONVENTION and §2.8's resolution ordering, parsing the rule and the ordering out of the amendments rather than retyping them, and it reproduces amendment A8's published **31 / 13** exactly. **What stays open:** every other count this review reports — the 50 `partial` cells, the 561 and 65/53 assessable denominators, 90 of 357 inter-pass divergences, I3 = 7, the 62 DOI-bearing records, the O6 and lineage distributions — still has no committed entrypoint and was produced by throwaway code. The `uv run` repair means the Quickstart now executes; it does not mean the numbers are covered. The 2026-09-03 audit round raised two further findings against the module itself (CODE-1-1, CODE-1-2 — the no-magic-number guard walking only numeric AST constants, and a published figure carried inside a regex string literal); those are remediated in `tests/` outside this review and are not this document's to report. **VG-16 is closed for the ER-RoB domain column and open for every other reported count.** |
 
 **Identifier and metadata verification — asserted, and now archived.** All DOI
 and arXiv identifier checks passed: 62/62 DOIs `responseCode` 1, two arXiv IDs
@@ -4011,6 +4133,30 @@ consumer-side action.
    The correct figure is **19** (L-18's recount box); four further §9 locator
    corrections are recorded separately in L-20 and are not inside the 19. Also a
    consumer-side edit.
+10. **Round-4 result for the agenda: no required edit, one advisory, one
+    informational note (L-21, VG-17, 2026-09-03).** The round-4 pass re-read
+    every locator and quotation the agenda carries from this review against the
+    retrieved full texts. **All of them verify** — PWY eq. (8) p.207;
+    log(log(ns))/100 and "around the 4% significance level" p.207; PWY Table 1
+    note p.213 with 10,000 reps; *IER* 52:214; PSY Table 1 note p.1050 with
+    2,000 reps; *IER* 56:1053; PSY 2015b Theorems 2–3 and 8 with their rate
+    conditions; `eru-1289` Table 1 p.20 and Table 2 p.21 with 7.56 → 12.20 at
+    0.84 → 0.75; NB-08 Theorem 1 p.609. **None of round 4's six corrections
+    touches a value the agenda carries**, so items 6, 8 and 9 above remain the
+    agenda's outstanding edits and round 4 adds no new required one. Two
+    non-required notes for the lead:
+    - *Advisory.* Where the agenda writes "BSADF_{r₂} (PSY 2015a **p.1053**)",
+      p.1053 is correct for the quotation it is paired with but loose as a
+      locator for the statistic itself: BSADF_{r₂}(r₀) is **defined on p.1051**
+      and the crossing-time equations (7)–(8) span pp.1052–1053. Not an error;
+      change only if a definition locator is wanted.
+    - *Informational.* The agenda's branch-3 admission of the surveillance line
+      rests on §7.4's nine-record claim. Two of those nine (`eru-0735`,
+      `eru-1117`) could not be retrieved on this pass and their cell contents —
+      including the `b = 0.147 / 0.177` constants and the "eq. 5" locator — are
+      now recorded as unverified (**VG-17**); and a third (`eru-0889`) is
+      **closed-ended**, not open-ended as §7.4's row had said. The nine-record
+      count and the branch-3 consequence are unchanged.
 
 ## 15. Provenance
 
@@ -4021,7 +4167,7 @@ consumer-side action.
 | protocol SHA-256 with addendum A1–A3 | `c5a4be8d84241f0ea34dfc0f6e08a0c88ee5d4f81d05a6edd934e5db7fb72721` (commit `8aeebfe`) — **superseded 2026-09-02** |
 | protocol SHA-256 with addendum A1–A11 | `0c961d3089414aa3016adaced2aa755e1fdf5d9a4db7c962b25bd3d507876b3b` (A4–A11 appended by this document, §12.5) — **superseded 2026-09-02 by the round-2 append** |
 | protocol SHA-256 with addendum A1–A13 | `92fff3f271adb44404b1bb6933eb1de1bce417024dc2a07afc4cfc02f14155c2` (A12 and A13 appended by the round-2 remediation) — **superseded 2026-09-02 by the round-3 append** |
-| protocol SHA-256 with addendum A1–A14 | `9d400eb557680d393af052bcb48eb52e880b3f9182b081b56c7ceaff3f83ecaa` (**A14** appended by the round-3 remediation, §12.5). **Frozen-prefix check, re-run after that append:** SHA-256 of the first **51,478** bytes of the current protocol file — its byte length at commit `9deee0c` — is `33c01c522521a9f0f9ee39caa7a71b1fcf51ca50a7b471cc4cc7ee2db7301a54`, the registration digest, so no byte above the append-only addendum changed. The protocol file contains **no CRLF**, so this digest is platform-independent |
+| protocol SHA-256 with addendum A1–A16 | `e0df3297c5971735a6f4b610e988087f086e576f4ccb131d2430c8bc353a9184` over 96,223 bytes (**A16** appended 2026-09-04 by the round-5 remediation, finding REV-2-4 — it strikes A15 §(c)'s *"passes on 9 tests"* by quotation and re-attests the mechanical ground against the delivered 10-test module; no appraisal cell, no D judgment and no count changes), superseding the A1–A15 value `eed7db745ff7fe241f85246c37f8f244890fb23712bf7c712093f3a40f9df9e0` over 91,329 bytes (**A15**, round-4, findings QUANT-1-6 / REV-1-6) and the A1–A14 value `9d400eb557680d393af052bcb48eb52e880b3f9182b081b56c7ceaff3f83ecaa` (**A14**, round-3, §12.5). **A16 does not state its own post-append digest**, because a whole-file digest cannot be written inside the file it digests; this row and the front matter are the carriers it names. **Frozen-prefix check, re-run after both appends:** SHA-256 of the first **51,478** bytes of the current protocol file — its byte length at commit `9deee0c` — is `33c01c522521a9f0f9ee39caa7a71b1fcf51ca50a7b471cc4cc7ee2db7301a54`, the registration digest, so no byte above the append-only addendum changed. The protocol file contains **no CRLF**, so this digest is platform-independent |
 | registration precedes execution | commit `9deee0c` predates every `date_executed` in the search logs (all 2026-08-24) |
 | search logs | `docs/literature/search_logs/explosive-regime/` — 42 executed query logs, dedup ledger, KI recall check, screening prompt, six verdict/extraction JSONL files, stage crosstables, κ computation, NB adjudications |
 | candidate store | `docs/literature/references_explosive-regime-dating.json` — 1,996 CSL-JSON entries |
@@ -4030,6 +4176,7 @@ consumer-side action.
 | backward-chase log | `docs/literature/search_logs/explosive-regime/se-bc-01.json` — the `er-bc-*` arm, executed post-freeze under amendment A11 (§2.2); carries an appended `corrections_2026-09-02` block recording the `er-bc-2` withdrawal (A12(b), LITERATURE-2-1). The as-executed fields are not edited |
 | identifier / metadata recheck log | `docs/literature/search_logs/explosive-regime/se-crossref-recheck-01.json`, SHA-256 `9457d3de7e3e3e60cc2b5832785b0b8b6da462153a627ddc69e29f72cd77ac9d` — 62 Crossref works with a per-record message digest, 63 Handle-System resolutions, 2 arXiv resolutions, and the three year-divergence flags of L-13(e). Written 2026-09-02 because round 1 asserted these checks without retaining their responses (REPRODUCIBILITY-2-4) |
 | source-text re-fetch log | `docs/literature/search_logs/explosive-regime/se-fetch-recheck-01.json`, SHA-256 `f93061d1871baab9f6e4af534227fef0c6158684417c987747132895192b43a9` — per-host, per-scheme, per-attempt record of the §9.5 retrievals, including the refused HTTPS attempts that round 1 mis-recorded as an access barrier (LITERATURE-2-2, QUANT-2-4) |
+| load-bearing locator verification log | `docs/literature/search_logs/explosive-regime/se-verify-loadbearing-01.json`, SHA-256 **`fb532ba9c820ee569859359dc48fbb3b25aa0857697c08fb9ca8713a59f838d8`** over the 88,377 bytes on disk (round 5, 2026-09-04), **superseding `dfd4f6a12414bb0f93c34deb15d4fa89a128ee3b3517781f3c275796a6324c81`** (83,706 bytes, round 4, 2026-09-03). **The 2026-09-04 change, finding QUANT-1-5's own denominator corrected under finding QUANT-2-2:** the `scan_scope` field pinned the candidate denominator to git HEAD `01ecfe7822ccca794272c35956ac8f8289d0c20b`, where the two declared regexes return **91 occurrences / 42 distinct strings**, not the published 107/54 — because that HEAD predates the same pass's six corrections to §7. Both states are now published side by side: the pre-correction pool the pass actually drew from (**91 / 42**, §7 = lines 1467–2038 at `01ecfe7`) and the post-correction measurement (**107 / 54**, §7 = lines 1485–2058 in the delivered file, §7 bytes pinned in the log at SHA-256 `eacc69757d3cc5e96449b4f2442ffbcdb343b7d7be13b9003d017796206c4b15`). **17 candidate occurrences were added to §7 by this pass's own corrections and 1 was removed** — 91 + 17 − 1 = 107 — so the coverage figure is restated against the 91 and is labelled an upper bound rather than a ratio. **No item, verdict, retrieval record or pre-existing count changed.** **Prior state of this row, retained verbatim so the digest chain stays checkable; every "this value" below refers to `dfd4f6a1…`, not to the current digest:** the 50-item load-bearing set, its per-item verdict, the retrieval route and content digest per text, and the per-host / per-scheme attempt record for the six records that could not be retrieved (L-21, VG-17). **This value supersedes `d76a4c60b0c86d9accdb62cf5861d0a477d33e3bd1566bde4ed85f7c76b25495` (79,443 bytes), which is the state the 2026-09-03 audit round read and which the audit trail pins.** The change is **purely additive** and was made on 2026-09-03 under finding **QUANT-1-5**: three keys were added and nothing else — `scope.inclusion_rule_priority_is_SELF_ATTESTED` (the pre-fixing claim carries no external timestamp and, as recorded, is unfalsifiable), `counts.sec7_candidate_denominator` (the §7 candidate pool the 50-item set was drawn from: 77 locator occurrences over 26 distinct strings plus 30 quoted-span occurrences over 28 distinct strings = **107 occurrences**, against which **45** of the 50 items carry a §7 site and 5 carry an agenda site), and a supersession note. **No verdict, item, retrieval record or pre-existing count changed** — deleting the three added keys and re-serialising reproduces `d76a4c60…` byte-exactly, which is the check that establishes it |
 | **round-3 verification log** | `docs/literature/search_logs/explosive-regime/se-verify-r3-01.json`, SHA-256 `a92fae17c041674094c0cfdb7753b18ef54da6fabb5c8ffb4cb68adc945a44bf` — the third re-fetch of all seven §9.5 texts with per-text digest and a match flag against the §9.5 column; the DP 2331 Table 1 / Table 2 transcription behind L-19; the PSY 2015a Table 2 transcription behind the §7.1 lag-overspecification row; the NB re-read behind L-20; and the Crossref / OpenAlex / Semantic Scholar / candidate-store abstract lookup behind the §5.4 withdrawal |
 | **digest convention for `.json` evidence logs** | Every SHA-256 above is taken over **LF-normalised bytes**, which `.gitattributes` (`*.json text eol=lf`) makes the checkout form on every platform. Round 2's published digests were over CRLF working-tree bytes and were unreproducible from the committed repository; superseded values are kept in §12.3. `se-extraction-recheck.jsonl` carried **no** published digest at the time A14(d) was written, because `*.jsonl` then got only `text=auto` and `core.autocrlf` is `true` here, so its checkout form was platform-dependent (§12.3). **LEAD-SESSION UPDATE, 2026-09-02, after A14 was written:** the repository gap is closed — `.gitattributes` now carries `*.jsonl text eol=lf` (and `*.csl text eol=lf`), and the six working-tree `.jsonl` files under `docs/` were normalised to LF, which is their checkout form under the new rule. `se-extraction-recheck.jsonl` therefore now has a stable published digest: **`51cdeed131dc651928c16037c62789dcad11825e883b3f95b786d4e30cb7e600`** (LF bytes). This update was made by the lead session as repository bookkeeping and was **not** verified by any audit round — round 3 was the cap. Amendment **A14(d)**; finding REPRODUCIBILITY-3-2 |
 | ReproLog for the **round-3** remediation — the pass whose content this document now is (**untracked locator** — `logs/` is gitignored and does not resolve in a fresh clone) | path `logs/reproducibility/repro_log_ee8bebfaafec4ce1962ee57746c90a36.json`; SHA-256 **`9e21ad6ad0e4066b193dd8e1d775293283362faa26cfd4cc28b95be7abcc0be6`**, taken over the bytes on disk (the file contains no CRLF, so the digest is platform-independent). Complete on all 13 fields: `config_resolved_sha256` = `9d400eb557680d393af052bcb48eb52e880b3f9182b081b56c7ceaff3f83ecaa` (the A1–A14 protocol), `dataset_checksums` over nine inputs including `references_explosive-regime.json` `13c76d8f…`, `se-bc-01.json` `75f36b54…`, `se-crossref-recheck-01.json` `9457d3de…`, `se-fetch-recheck-01.json` `f93061d1…` and the new `se-verify-r3-01.json` `a92fae17…`; `pip_freeze_sha256` = `379614727648a27ea24a9eda1b789f3af7fd4d4b96fa5861ca2ef41dfbbd0c40` over 172 packages; `git_head` = `27d74738aa35ec1cdf1ec6915b50532e3620ea6f`; `env_id` = `d2a0b28183f1d74260cd56bcd2881febf9e97d6d2e9dc58d07200db61c478597` (`uv.lock`, **untracked** — VG-14); `model_hash` **null** (VG-11); `rng_seed` 0; `phase` `deliver`; host Windows 10 / Python 3.11.9 / AMD64. **Two limits stated rather than buried:** the freeze is the *global* interpreter's, not the project venv's (VG-16); and the emit-repro-log helper's preferred `uv pip freeze` exits 0 with empty stdout on this host, which would have written the SHA-256 of the empty string — the exact defect VG-15 charges against the corpus-stage log — so `python -m pip freeze` was captured explicitly instead |
@@ -4038,8 +4185,8 @@ consumer-side action.
 | ReproLog for the **round-2** remediation | **NONE WAS EMITTED.** Round 2 wrote no ReproLog and no sidecar, and this section cited the round-1 pair for a document whose content was by then round-2's — so between the round-2 edits and this append there was no provenance record matching the artifact. Disclosed rather than backfilled: a ReproLog emitted now could not honestly carry a round-2 timestamp or a round-2 input state. The round-3 log above is the first record that matches its artifact since round 1. *(Finding REPRODUCIBILITY-3-1.)* |
 | git HEAD | `27d74738aa35ec1cdf1ec6915b50532e3620ea6f` — the **pre-delivery** HEAD, i.e. the commit this document was written against. The commit that delivers this document is its child and is not yet known here; the clone-durable carrier of the ReproLog path and digest is that commit's `Repro-Log-Path:` / `Repro-Log-SHA256:` trailers, per the repository reproducibility contract |
 | earlier-stage ReproLog | commit `8aeebfe` (search, screening, extraction) cites `logs/reproducibility/repro_log_f5419aa650e249378ff40828424696bb.json`, SHA-256 `7716edd8e6cdc0e81d84f624eda853f7474d096fe2c4c3598ffcd8d4e37bac7f`. It records **no model field**, which is why the automation-tool identity cannot be resolved from the logs (L-15, VG-11). **It is also vacuous as an environment and data record, and this row previously implied otherwise:** its `pip_freeze_sha256` is `e3b0c442…b855`, the SHA-256 of the empty string, and the env file it points at is 0 bytes; its `config_resolved_sha256` is `null` and its `dataset_checksums` is `{}`. So the stage that produced the frozen corpus has **no** environment record and **no** contemporaneous checksum of the protocol, the candidate store or any verdict file; the corpus's input state is fixed only retrospectively, by the 2026-09-02 sidecar digests and by commit `8aeebfe`'s tree. Repository-level gap **VG-15** (REPRODUCIBILITY-2-2) |
-| environment specification | **None that resolves in a fresh clone.** `pyproject.toml` pins no package version and `uv.lock` is untracked; the pip-freeze archives live under gitignored `logs/reproducibility/env/`. Python is pinned (`>=3.11,<3.13`; host 3.11.9). Repository-level gap **VG-14** (REPRODUCIBILITY-2-1) |
-| reproduce target | **None.** No tracked file under `tests/` or `src/` re-derives any number reported here; every count was produced by throwaway code and is re-derivable from the tracked logs only by rewriting it. Repository-level gap **VG-16** (REPRODUCIBILITY-2-5) |
+| environment specification | ~~**None that resolves in a fresh clone.** `pyproject.toml` pins no package version and `uv.lock` is untracked; the pip-freeze archives live under gitignored `logs/reproducibility/env/`.~~ **SUPERSEDED 2026-09-03 (REPRODUCIBILITY-1-2):** `uv.lock` **is tracked**, committed at `2ba291f9922547e1848d7d505cedafb2979e2433`, SHA-256 `eca78f9d52a8534f2890c99bd2f16b3aadc1455b0eb7b93c6d2e621240efd885` over its LF checkout form; it is the pinning mechanism per [ADR-0005](../decisions/ADR-0005-lockfile-is-the-pinning-mechanism.md), and `pyproject.toml` deliberately keeps ranges. Reproduce with `uv sync`, not `uv pip install -e .`. Python is pinned (`>=3.11,<3.13`; host 3.11.9). **The lockfile does not describe the environment that produced this review** — that environment is unrecoverable (VG-15) — so **VG-14 remains open for these runs** and is closed only prospectively; see the VG-14 row in §12.3 for the three residuals ADR-0005 names |
+| reproduce target | ~~**None.** No tracked file under `tests/` or `src/` re-derives any number reported here.~~ **SUPERSEDED 2026-09-03 (REPRODUCIBILITY-1-2), for one number only:** `tests/test_erob_recount.py` is tracked at `01ecfe7822ccca794272c35956ac8f8289d0c20b` (~~707 lines, 9 tests as committed at that hash; green under `uv run pytest tests/test_erob_recount.py`~~ — **superseded 2026-09-04, finding REV-2-4: the delivered module is 1,149 lines, 56,401 bytes, 10 tests, SHA-256 `90981cd076377c56b438a49e11264a3dd67b7fb35f0dc976e055b96480d96994`, re-attested green at 10 passed on 2026-09-04 and not yet committed; the struck triple is the round-1 state and is retained so it stays checkable**) and re-derives the §6 ER-RoB domain-concern column from `se-extraction-primary.jsonl` and `se-extraction-recheck.jsonl`, reproducing amendment A8's 31/13 exactly. **Every other count in this review still has no committed entrypoint** and was produced by throwaway code — the 50 `partial` cells, the 561 / 65 / 53 denominators, 90 of 357 divergences, I3 = 7, 62 DOI-bearing records, the O6 and lineage distributions. Repository-level gap **VG-16** (REPRODUCIBILITY-2-5) is therefore **closed for the ER-RoB domain column and open for everything else** |
 | model identity per stage | declared in the frontmatter `ai_assistance` block and in the AI-assistance statement below, against the `AI-Assistance` trailer on each artifact's carrier commit |
 | identifier verification | 62/62 DOIs `responseCode` 1 against the DOI Handle System; 2 arXiv IDs resolved against the arXiv API; 1 Handle `responseCode` 1 — all re-run and **archived** 2026-09-02 in `se-crossref-recheck-01.json` (round 1 asserted these without retaining the responses; REPRODUCIBILITY-2-4) |
 | computations performed by this review | deduplication re-verification, κ and its 2×2 recomputation, dual-pass divergence counts, flow-identity reconciliation, SHA-256 digests, identifier resolution; and, in the 2026-09-02 remediation: the complete 62/62 Crossref metadata cross-check (L-13), the mechanical Q→D recount over all 72 appraisal rows (§6, §6.1, A7, A8), the I3 identifier recount (§5.1), the post-freeze backward-chase retrieval and diff (A11, `se-bc-01.json`), and content digests for three of the seven §8/§9 primary texts (§9.5); and, in the 2026-09-02 **round-2** remediation: re-fetch and SHA-256 of all **seven** §9.5 primary texts, verbatim re-verification of every §7.6/§8 quotation and every reported number against them, correction of **19** page locators (L-18 — the round-2 change note said 14; recounted round 3, LITERATURE-3-3), a full three-way year-field comparison over all 62 DOI-bearing records (L-13(e)), re-resolution of 63 handles and 2 arXiv IDs, and recomputation of the O6 and lineage distributions over distinct works (§4, §7.6, §10.2); and, in the 2026-09-02 **round-3** remediation: a **third** re-fetch and SHA-256 of all seven §9.5 texts (all seven digests reproduced), a direct re-read of DP 2331's Tables 1 and 2 and of PSY 2015a's Table 2, the first re-read of the three §9 NB texts (14 quotations verified verbatim, 5 locators corrected, 1 result misattribution found), a four-source lookup for `eru-0259`'s journal abstract (Crossref, OpenAlex, Semantic Scholar, candidate store — absent from all four), the L-18 recount, and SHA-256 recomputation of three evidence logs over LF-normalised bytes. **No simulation, no fitting, no critical value** (ADR-0003) |
@@ -4416,3 +4563,63 @@ and are the lead session's to make. §14 carries the inputs, with **two new
 consumer-side corrections added this round**: the agenda's "delay cost of
 7.56 → 12.20 months" sentence (item 8) and its "corrected 14 locators" sentence
 (item 9).
+
+## 19. Change note — round-4 targeted locator verification, 2026-09-03
+
+This is **not** a fourth audit round and **not** a corpus sweep. It executes
+Thread C of
+[deliverable_spec_s4-reexecution-and-repo-gaps_2026-09-03.md](../deliverables/deliverable_spec_s4-reexecution-and-repo-gaps_2026-09-03.md):
+verify the **load-bearing** locators and quoted strings against retrieved full
+texts, correct every site of every error, and **leave the rest visibly
+unverified rather than silently unverified.**
+
+### 19.1 The boundary, fixed before any source was opened
+
+An item is load-bearing iff it is a page locator, a table / theorem / equation /
+footnote identifier, or a quoted string, and it appears **inside §7's synthesis
+prose** — the six "Synthesis claim" paragraphs, the four `TO COMPUTE` handoff
+paragraphs, the §7.2–§7.4 lead-in paragraphs those claims rest on, §7.6's three
+causality traps, §7.7's six pooling-failure rows and §7.8's twelve per-detector
+rows — **or** it is cited by
+[research_agenda_regime-classification_2026-08-21.md](../research_notes/research_agenda_regime-classification_2026-08-21.md).
+
+**Rows of §7's evidence tables that no synthesis paragraph re-cites are
+inventory, not load-bearing, and were deliberately not verified.** So were §8,
+§9.1 and §9.3, which rounds 2 and 3 already re-read, and every record outside
+the resulting 21. The set is **50 items over 21 records** — 20 of the frozen 72
+plus NB-08. Two agenda locators lie outside this review's corpus entirely
+(Hall & York 2001 *Statistica Sinica* 11:515–536 and Hamilton 1989
+*Econometrica* 57(2):357–384) and are **out of scope by construction** — they
+belong to other reviews' corpora, not this one.
+
+### 19.2 Result
+
+- **35 verified**, **7 corrected**, **8 unverifiable** (see L-21 for the
+  correction table and VG-17 for the unreachable records).
+- Corrected: the PWY Appendix range (a round-3 correction that was itself
+  wrong), `eru-0131`'s Evans-collapse design in the §7.7 pooling row,
+  `eru-1716`'s PWY size range, `eru-1519`'s crash-monitor claim, `eru-0395`'s
+  theorem attribution for the PWY-inconsistency result, and two errors in the
+  `eru-0889` / `eru-1038` surveillance row — an incomplete boundary function,
+  and a horizon type and a γ value each attributed to the wrong one of the two
+  papers.
+- **Read against 72.** Fourteen of the 72 records have now been read at full
+  text at some verification round: `eru-0131`, `eru-0393`, `eru-0395` and
+  `eru-1289` before this pass, and `eru-1044`, `eru-1852`, `eru-1921`,
+  `eru-1845`, `eru-1844`, `eru-0889`, `eru-1038`, `eru-1716`, `eru-1519` and
+  `eru-1031` here — the last several at their load-bearing points only, and
+  `eru-1519` (Sheffield SERPS 2022007), `eru-1031` (Cowles DP 2152) and
+  `eru-0889` (Reading CentAUR accepted manuscript) in a version other than the
+  one their DOI names. **Fifty-eight records have never been read at any
+  verification round**, and the error rate measured on re-read texts across
+  rounds 2, 3 and 4 gives no ground for assuming they are clean. The three NB
+  texts re-read at round 3 are additional to these fourteen and sit outside the
+  frozen 72 (§9.0).
+
+### 19.3 What this round did not do, stated so the absence is a decision
+
+It did not re-screen the corpus, alter the frozen 72, touch the frozen protocol,
+or edit the consumer agenda. Agenda corrections arising from it are listed in
+§14 and are the lead session's to apply. It did not verify §7's evidence-table
+inventory rows, and it could not reach six of the seventeen load-bearing records
+at all (VG-17).

@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-arxiv-04",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://export.arxiv.org/api/query?search_query=abs:%22event%20contract%22%20AND%20abs:%22hedging%22&max_results=50",
+ "endpoint": "https://export.arxiv.org/api/query",
+ "platform": "arxiv",
+ "executed_at": "2026-09-04T10:16:07-05:00",
+ "http_status": 200,
+ "client_error": null,
+ "n_returned": 0,
+ "n_total_reported": 0,
+ "truncated_by_cap": false,
+ "retrieval_cap_in_force": "max_results=50",
+ "payload_sha256": "06b55219b42741248e7c13d070aaa5f3401c0b1fffbb56f190f69f8dbaab85ff",
+ "payload_bytes": 758,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-arxiv-04.xml",
+ "retry_of": null,
+ "construction_section_3_1": {
+  "instrument_term": "event contract",
+  "strategy_term": "hedging",
+  "venue_narrowing": null,
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "abs: (abstract field; arXiv's title-and-abstract-equivalent restriction)",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "S3-weather-and-climate-event-contracts,S4-macro-event-contracts",
+ "note": null,
+ "count_parse_error": null
+}

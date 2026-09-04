@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-ssrn-01",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://papers.ssrn.com/sol3/results.cfm?txtKey_Words=Kalshi+event+contract+arbitrage",
+ "endpoint": "https://papers.ssrn.com/sol3/results.cfm",
+ "platform": "ssrn",
+ "executed_at": "2026-09-04T10:30:21-05:00",
+ "http_status": 403,
+ "client_error": "HTTPError 403",
+ "n_returned": 0,
+ "n_total_reported": null,
+ "truncated_by_cap": null,
+ "retrieval_cap_in_force": "not applicable; the platform returned an error before any retrieval cap could bind",
+ "payload_sha256": "d97317b1074c8cf932359e645ea9daac76b0579756bb09cc298dbf3fac4851ff",
+ "payload_bytes": 5907,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-ssrn-01.html",
+ "retry_of": null,
+ "construction_section_3_1": {
+  "instrument_term": "event contract",
+  "strategy_term": "arbitrage",
+  "venue_narrowing": "Kalshi",
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "keyword field",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "platform-reachability-probe",
+ "note": null,
+ "count_parse_error": null
+}

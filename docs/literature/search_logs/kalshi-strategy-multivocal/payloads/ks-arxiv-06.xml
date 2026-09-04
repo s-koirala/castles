@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rKxzmFGoOHABm9SiCpsa6dkpsIs</id>
+  <title>arXiv Query: search_query=abs:"betting exchange" AND abs:"execution"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-09-04T15:16:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22betting+exchange%22+AND+abs:%22execution%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2108.02419v1</id>
+    <title>Implementing the BBE Agent-Based Model of a Sports-Betting Exchange</title>
+    <updated>2021-08-05T07:29:24Z</updated>
+    <link href="https://arxiv.org/abs/2108.02419v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.02419v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe three independent implementations of a new agent-based model (ABM) that simulates a contemporary sports-betting exchange, such as those offered commercially by companies including Betfair, Smarkets, and Betdaq. The motivation for constructing this ABM, which is known as the Bristol Betting Exchange (BBE), is so that it can serve as a synthetic data generator, producing large volumes of data that can be used to develop and test new betting strategies via advanced data analytics and machine learning techniques. Betting exchanges act as online platforms on which bettors can find willing counterparties to a bet, and they do this in a way that is directly comparable to the manner in which electronic financial exchanges, such as major stock markets, act as platforms that allow traders to find willing counterparties to buy from or sell to: the platform aggregates and anonymises orders from multiple participants, showing a summary of the market that is updated in real-time. In the first instance, BBE is aimed primarily at producing synthetic data for in-play betting (also known as in-race or in-game betting) where bettors can place bets on the outcome of a track-race event, such as a horse race, after the race has started and for as long as the race is underway, with betting only ceasing when the race ends. The rationale for, and design of, BBE has been described in detail in a previous paper that we summarise here, before discussing our comparative results which contrast a single-threaded implementation in Python, a multi-threaded implementation in Python, and an implementation where Python header-code calls simulations of the track-racing events written in OpenCL that execute on a 640-core GPU -- this runs approximately 1000 times faster than the single-threaded Python. Our source-code for BBE is freely available on GitHub.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-05T07:29:24Z</published>
+    <arxiv:comment>11 pages, 4 figures, 37 references</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Dave Cliff</name>
+    </author>
+    <author>
+      <name>James Hawkins</name>
+    </author>
+    <author>
+      <name>James Keen</name>
+    </author>
+    <author>
+      <name>Roberto Lau-Soto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.16008v1</id>
+    <title>Convolutional Attention in Betting Exchange Markets</title>
+    <updated>2025-10-14T17:45:12Z</updated>
+    <link href="https://arxiv.org/abs/2510.16008v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.16008v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study presents the implementation of a short-term forecasting system for price movements in exchange markets, using market depth data and a systematic procedure to enable a fully automated trading system. The case study focuses on the UK to Win Horse Racing market during the pre-live stage on the world's leading betting exchange, Betfair. Innovative convolutional attention mechanisms are introduced and applied to multiple recurrent neural networks and bi-dimensional convolutional recurrent neural network layers. Additionally, a novel padding method for convolutional layers is proposed, specifically designed for multivariate time series processing. These innovations are thoroughly detailed, along with their execution process. The proposed architectures follow a standard supervised learning approach, involving model training and subsequent testing on new data, which requires extensive pre-processing and data analysis. The study also presents a complete end-to-end framework for automated feature engineering and market interactions using the developed models in production. The key finding of this research is that all proposed innovations positively impact the performance metrics of the classification task under examination, thereby advancing the current state-of-the-art in convolutional attention mechanisms and padding methods applied to multivariate time series problems.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-14T17:45:12Z</published>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Rui Gonçalves</name>
+    </author>
+    <author>
+      <name>Vitor Miguel Ribeiro</name>
+    </author>
+    <author>
+      <name>Roman Chertovskih</name>
+    </author>
+    <author>
+      <name>António Pedro Aguiar</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PIPIut5WEvn3VH+bc06LF12VzkM</id>
+  <title>arXiv Query: search_query=abs:"prediction market" AND abs:"trading agent"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-09-04T18:28:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22prediction+market%22+AND+abs:%22trading+agent%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.03015v1</id>
+    <title>Beyond Forecasting: The Belief-to-Trade Layer in Prediction-Market Agents</title>
+    <updated>2026-07-03T06:49:48Z</updated>
+    <link href="https://arxiv.org/abs/2607.03015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.03015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Forecasting future events has attracted growing attention as a testbed for general-purpose AI. A natural way to ground this evaluation is let the models trade in the prediction markets. Trading, however, requires more than forecasting. Moreover, recent benchmarks report a substantial gap between calibrated probability scores and the trading results. We propose Raven-Agent, to the best of our knowledge, the first autonomous trading agent for prediction markets. On a controlled replay over an archived decision set, our architecture achieves the only positive return and the only positive risk-adjusted return among all tested policies. We have released our code in https://github.com/Alchemist-X/predict-raven .</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-03T06:49:48Z</published>
+    <arxiv:comment>10 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yishu Wang</name>
+    </author>
+    <author>
+      <name>Yuxuan Wang</name>
+    </author>
+    <author>
+      <name>Jiaqi Deng</name>
+    </author>
+    <author>
+      <name>Hanyang Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00133v1</id>
+    <title>PredictionMarketBench: A SWE-bench-Style Framework for Backtesting Trading Agents on Prediction Markets</title>
+    <updated>2026-01-28T06:41:12Z</updated>
+    <link href="https://arxiv.org/abs/2602.00133v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00133v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prediction markets offer a natural testbed for trading agents: contracts have binary payoffs, prices can be interpreted as probabilities, and realized performance depends critically on market microstructure, fees, and settlement risk. We introduce PredictionMarketBench, a SWE-bench-style benchmark for evaluating algorithmic and LLM-based trading agents on prediction markets via deterministic, event-driven replay of historical limit-order-book and trade data. PredictionMarketBench standardizes (i) episode construction from raw exchange streams (orderbooks, trades, lifecycle, settlement), (ii) an execution-realistic simulator with maker/taker semantics and fee modeling, and (iii) a tool-based agent interface that supports both classical strategies and tool-calling LLM agents with reproducible trajectories. We release four Kalshi-based episodes spanning cryptocurrency, weather, and sports. Baseline results show that naive trading agents can underperform due to transaction costs and settlement losses, while fee-aware algorithmic strategies remain competitive in volatile episodes.</summary>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T06:41:12Z</published>
+    <arxiv:comment>10 pages, 5 figures. Code available at https://github.com/oddpool/PredictionMarketBench</arxiv:comment>
+    <arxiv:primary_category term="q-fin.ST"/>
+    <author>
+      <name>Avi Arora</name>
+    </author>
+    <author>
+      <name>Ritesh Malpani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.03743v1</id>
+    <title>Model-based Reinforcement Learning for Predictions and Control for Limit Order Books</title>
+    <updated>2019-10-09T01:42:27Z</updated>
+    <link href="https://arxiv.org/abs/1910.03743v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.03743v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We build a profitable electronic trading agent with Reinforcement Learning that places buy and sell orders in the stock market. An environment model is built only with historical observational data, and the RL agent learns the trading policy by interacting with the environment model instead of with the real-market to minimize the risk and potential monetary loss. Trained in unsupervised and self-supervised fashion, our environment model learned a temporal and causal representation of the market in latent space through deep neural networks. We demonstrate that the trading policy trained entirely within the environment model can be transferred back into the real market and maintain its profitability. We believe that this environment model can serve as a robust simulator that predicts market movement as well as trade impact for further studies.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-09T01:42:27Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Haoran Wei</name>
+    </author>
+    <author>
+      <name>Yuanbo Wang</name>
+    </author>
+    <author>
+      <name>Lidia Mangu</name>
+    </author>
+    <author>
+      <name>Keith Decker</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.15730v1</id>
+    <title>Deep Reinforcement Learning for Quantitative Trading</title>
+    <updated>2023-12-25T13:58:53Z</updated>
+    <link href="https://arxiv.org/abs/2312.15730v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.15730v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial Intelligence (AI) and Machine Learning (ML) are transforming the domain of Quantitative Trading (QT) through the deployment of advanced algorithms capable of sifting through extensive financial datasets to pinpoint lucrative investment openings. AI-driven models, particularly those employing ML techniques such as deep learning and reinforcement learning, have shown great prowess in predicting market trends and executing trades at a speed and accuracy that far surpass human capabilities. Its capacity to automate critical tasks, such as discerning market conditions and executing trading strategies, has been pivotal. However, persistent challenges exist in current QT methods, especially in effectively handling noisy and high-frequency financial data. Striking a balance between exploration and exploitation poses another challenge for AI-driven trading agents. To surmount these hurdles, our proposed solution, QTNet, introduces an adaptive trading model that autonomously formulates QT strategies through an intelligent trading agent. Incorporating deep reinforcement learning (DRL) with imitative learning methodologies, we bolster the proficiency of our model. To tackle the challenges posed by volatile financial datasets, we conceptualize the QT mechanism within the framework of a Partially Observable Markov Decision Process (POMDP). Moreover, by embedding imitative learning, the model can capitalize on traditional trading tactics, nurturing a balanced synergy between discovery and utilization. For a more realistic simulation, our trading agent undergoes training using minute-frequency data sourced from the live financial market. Experimental findings underscore the model's proficiency in extracting robust market features and its adaptability to diverse market conditions.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-25T13:58:53Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Maochun Xu</name>
+    </author>
+    <author>
+      <name>Zixun Lan</name>
+    </author>
+    <author>
+      <name>Zheng Tao</name>
+    </author>
+    <author>
+      <name>Jiawei Du</name>
+    </author>
+    <author>
+      <name>Zongao Ye</name>
+    </author>
+  </entry>
+</feed>

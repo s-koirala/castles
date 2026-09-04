@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-arxiv-03",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://export.arxiv.org/api/query?search_query=abs:%22prediction%20market%22%20AND%20abs:%22forecasting%22&max_results=50",
+ "endpoint": "https://export.arxiv.org/api/query",
+ "platform": "arxiv",
+ "executed_at": "2026-09-04T10:16:03-05:00",
+ "http_status": 200,
+ "client_error": null,
+ "n_returned": 50,
+ "n_total_reported": 69,
+ "truncated_by_cap": true,
+ "retrieval_cap_in_force": "max_results=50",
+ "payload_sha256": "4923cc4097ee5d9634d8d63c4f473f11f763cb41d1f12dcd3e38bc6ae06e9627",
+ "payload_bytes": 109920,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-arxiv-03.xml",
+ "retry_of": null,
+ "construction_section_3_1": {
+  "instrument_term": "prediction market",
+  "strategy_term": "forecasting-driven trading",
+  "venue_narrowing": null,
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "abs: (abstract field; arXiv's title-and-abstract-equivalent restriction)",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "S7-LLM-and-forecasting-driven-trading",
+ "note": null,
+ "count_parse_error": null
+}

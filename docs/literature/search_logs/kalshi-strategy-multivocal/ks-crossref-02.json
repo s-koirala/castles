@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-crossref-02",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://api.crossref.org/works?query.bibliographic=binary+event+contract+market+making&rows=20&select=DOI,title,issued,container-title,type,author,abstract",
+ "endpoint": "https://api.crossref.org/works",
+ "platform": "crossref",
+ "executed_at": "2026-09-04T10:14:47-05:00",
+ "http_status": 200,
+ "client_error": null,
+ "n_returned": 20,
+ "n_total_reported": 1560442,
+ "truncated_by_cap": true,
+ "retrieval_cap_in_force": "rows=20",
+ "payload_sha256": "40ad231c3a795ee45e7bad2379a8707a2753247ab6d677508b8cf3036c800c85",
+ "payload_bytes": 10588,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-crossref-02.json",
+ "retry_of": null,
+ "construction_section_3_1": {
+  "instrument_term": "binary event contract",
+  "strategy_term": "market making",
+  "venue_narrowing": null,
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "query.bibliographic (bibliographic metadata field; Crossref exposes no combined title-and-abstract field)",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "S1-venue-and-contract-families",
+ "note": null,
+ "count_parse_error": null
+}

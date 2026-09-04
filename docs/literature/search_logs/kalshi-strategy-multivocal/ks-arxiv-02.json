@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-arxiv-02",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://export.arxiv.org/api/query?search_query=abs:%22Kalshi%22%20AND%20abs:%22arbitrage%22&max_results=50",
+ "endpoint": "https://export.arxiv.org/api/query",
+ "platform": "arxiv",
+ "executed_at": "2026-09-04T10:15:44-05:00",
+ "http_status": 200,
+ "client_error": null,
+ "n_returned": 0,
+ "n_total_reported": 0,
+ "truncated_by_cap": false,
+ "retrieval_cap_in_force": "max_results=50",
+ "payload_sha256": "fd2d5d4efbc5cb0ed36e993b7704c7de105bd85389329f8022b4edf854f133a3",
+ "payload_bytes": 746,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-arxiv-02.xml",
+ "retry_of": null,
+ "construction_section_3_1": {
+  "instrument_term": "Kalshi",
+  "strategy_term": "arbitrage",
+  "venue_narrowing": null,
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "abs: (abstract field; arXiv's title-and-abstract-equivalent restriction)",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "S1-venue-and-contract-families",
+ "note": null,
+ "count_parse_error": null
+}

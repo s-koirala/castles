@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qzvoAJ/q9srzBBEW0/y3nTOkdYY</id>
+  <title>arXiv Query: search_query=abs:"sports betting" AND abs:"mispricing"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-09-04T15:16:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22sports+betting%22+AND+abs:%22mispricing%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1710.02824v2</id>
+    <title>Beating the bookies with their own numbers - and how the online sports betting market is rigged</title>
+    <updated>2017-11-11T04:09:16Z</updated>
+    <link href="https://arxiv.org/abs/1710.02824v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.02824v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The online sports gambling industry employs teams of data analysts to build forecast models that turn the odds at sports games in their favour. While several betting strategies have been proposed to beat bookmakers, from expert prediction models and arbitrage strategies to odds bias exploitation, their returns have been inconsistent and it remains to be shown that a betting strategy can outperform the online sports betting market. We designed a strategy to beat football bookmakers with their own numbers. Instead of building a forecasting model to compete with bookmakers predictions, we exploited the probability information implicit in the odds publicly available in the marketplace to find bets with mispriced odds. Our strategy proved profitable in a 10-year historical simulation using closing odds, a 6-month historical simulation using minute to minute odds, and a 5-month period during which we staked real money with the bookmakers (we made code, data and models publicly available). Our results demonstrate that the football betting market is inefficient - bookmakers can be consistently beaten across thousands of games in both simulated environments and real-life betting. We provide a detailed description of our betting experience to illustrate how the sports gambling industry compensates these market inefficiencies with discriminatory practices against successful clients.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-08T11:44:35Z</published>
+    <arxiv:comment>30 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Lisandro Kaunitz</name>
+    </author>
+    <author>
+      <name>Shenjun Zhong</name>
+    </author>
+    <author>
+      <name>Javier Kreiner</name>
+    </author>
+  </entry>
+</feed>

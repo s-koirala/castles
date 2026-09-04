@@ -107,8 +107,9 @@ text, not confirmed** ([lit_review_explosive-regime-dating_2026-08-24.md](../lit
 §8.3). The corrected form: the recursive right-tailed unit-root family
 date-stamps an explosive state in real time **through its sequence statistics**
 — ADF_r ([PWY 2011](https://doi.org/10.1111/j.1468-2354.2010.00625.x) eq. (8))
-and BSADF_{r₂} ([PSY 2015a](https://doi.org/10.1111/iere.12132) p.1053, limit
-theory in [PSY 2015b](https://doi.org/10.1111/iere.12131)) — **not** through
+and BSADF_{r₂} ([PSY 2015a](https://doi.org/10.1111/iere.12132) — defined
+p.1051, crossing-time eqs (7)-(8) pp.1052-1053, the ex-ante/ex-post quotation
+p.1053; limit theory in [PSY 2015b](https://doi.org/10.1111/iere.12131)) — **not** through
 SADF or GSADF, which their own authors describe as ex-post existence statistics
 ("sup_{r∈[r₀,1]} ADF_r cannot reveal the location of the exuberance", *IER*
 52:214; GSADF "is an ex post statistic", *IER* 56:1053). The operational
@@ -496,7 +497,7 @@ Open questions:
   **Rev 4 correction on full text**
   ([lit_review_explosive-regime-dating_2026-08-24.md](../literature/lit_review_explosive-regime-dating_2026-08-24.md)
   §8.3): the online detector is the **sequence statistic** — ADF_r (PWY eq. (8))
-  and BSADF_{r₂} (PSY 2015a p.1053, limit theory in
+  and BSADF_{r₂} (PSY 2015a defined p.1051, eqs (7)-(8) pp.1052-1053, limit theory in
   [PSY 2015b](https://doi.org/10.1111/iere.12131)) — **not** SADF or GSADF,
   which their authors call ex-post existence statistics. Only the sequence
   statistics may enter the comparator set as online detectors; SADF/GSADF enter,
@@ -546,6 +547,15 @@ Open questions:
   that line *does* publish a false-alarm rate over a stated horizon in closed
   form, which is the quantity this branch's metric needs, and enters the
   comparator set on that ground alone:
+  **Evidence bound on this admission, added 2026-09-03** (Thread C load-bearing
+  verification; review VG-17): of the nine records, **two are unverified** —
+  `eru-0735` and `eru-1117` could not be retrieved (403 at every located host,
+  including the open-access location OpenAlex names), so their cell contents,
+  including the `b = 0.147 / 0.177` constants and the "eq. 5" locator, rest on a
+  single unre-read transcription. A third, `eru-0889`, is **closed-ended**, not
+  open-ended as §7.4 first recorded, and its boundary function and γ differ from
+  `eru-1038`'s (0.35 vs .45). The nine-record count and this branch-3 consequence
+  are unchanged; what is bounded is how much of the line has been checked.
   `eru-0735`, `eru-1117`, `eru-1519`, `eru-1844`, `eru-1845`, `eru-0889`,
   `eru-1038`, `eru-1921`, `eru-1852` (review §7.4, §14).
   **Rev 4, third `TO COMPUTE` handoff (audit REV-1-7).** TC-4: r₀ and the

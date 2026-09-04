@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cHJXGaRvBQXtKvMAlNAOau1uQ2Y</id>
+  <title>arXiv Query: search_query=abs:"event contract" AND abs:"market making"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-09-04T15:15:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22event+contract%22+AND+abs:%22market+making%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2603.22596v3</id>
+    <title>ParlayMarket: Automated Market Making for Parlay-style Joint Contracts</title>
+    <updated>2026-08-10T16:26:01Z</updated>
+    <link href="https://arxiv.org/abs/2603.22596v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.22596v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prediction markets are powerful mechanisms for information aggregation, but existing designs are optimized for single-event contracts. Traders frequently express beliefs about joint outcomes - sports parlays, conditional forecasts, multi-scenario financial bets. Current platforms either prohibit such trades or rely on ad hoc mechanisms that ignore correlation structure, resulting in inefficient prices and fragmented liquidity. We introduce \textbf{\textit{ParlayMarket}}, an automated market-maker for parlay-style joint contracts. The mechanism maintains a shared pairwise exponential-family belief state, so all base and parlay prices are marginals of one coherent distribution. This compresses the $2^M$ outcome space into $O(M^2)$ sufficient statistics and allows one liquidity pool to support an exponentially large family. Our main result characterizes the resulting learning and loss dynamics. Under repeated trading, prices converge to the best pairwise approximation of the true joint distribution. The induced expected market-maker loss grows at most quadratically in the number of base events, rather than exponentially in the number of listed parlays; moreover, this quadratic dependence is worst-case optimal for dense pairwise dependence, since there are $O(M^2)$ independent correlation directions to learn. Parlay trades are essential to this guarantee: they provide direct constraints on joint outcomes and reduce steady-state error relative to learning from marginal trades alone. Experiments on synthetic correlated markets and historical Kalshi combo data confirm the predicted scaling and show that the mechanism remains effective in realistic market-making settings. Our results demonstrate that combinatorial expressiveness does not require combinatorial capital.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-23T21:45:38Z</published>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Ranvir Rana</name>
+    </author>
+    <author>
+      <name>Viraj Nadkarni</name>
+    </author>
+    <author>
+      <name>Niusha Moshrefi</name>
+    </author>
+    <author>
+      <name>Pramod Viswanath</name>
+    </author>
+  </entry>
+</feed>

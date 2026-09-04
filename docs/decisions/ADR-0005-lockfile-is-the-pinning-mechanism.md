@@ -3,9 +3,12 @@
 - **Status:** Accepted
 - **Date:** 2026-09-03
 - **Deciders:** Sajan Koirala
-- **Supersedes:** none. Closes verification gap VG-14 recorded in
+- **Supersedes:** none. **Partially closes** verification gap VG-14 recorded in
   [lit_review_explosive-regime-dating_2026-08-24.md](../literature/lit_review_explosive-regime-dating_2026-08-24.md)
-  §12.3.
+  §12.3 — see §"Why this does not fully close VG-14" below. Corrected
+  2026-09-03 after audit finding REV-1-5: the header first read "Closes",
+  contradicting the body three sections down, so a reader of the status block
+  alone got exactly the claim the body exists to prevent.
 
 ## Context
 
@@ -31,7 +34,31 @@ range specification and is not pinned.**
 
 Concretely:
 
-- `uv.lock` is committed. It resolves the full dependency graph — 1,467 lines,
+- `uv.lock` is tracked. Two states exist and **both are named, because the pin
+  must resolve**:
+  - first tracked at **`2ba291f9922547e1848d7d505cedafb2979e2433`**, blob SHA-256
+    `d2a0b28183f1d74260cd56bcd2881febf9e97d6d2e9dc58d07200db61c478597`
+    (208,360 bytes);
+  - **current state** at **`01ecfe7`**, blob SHA-256
+    `eca78f9d52a8534f2890c99bd2f16b3aadc1455b0eb7b93c6d2e621240efd885`
+    (208,234 bytes), which is also the worktree state. The file changed between
+    the two because moving the dev dependencies to a PEP 735 group made `uv lock`
+    re-record the project as `source = { virtual = "." }` rather than
+    `{ editable = "." }`.
+
+  Both digests are over the LF checkout form that `.gitattributes`
+  (`uv.lock text eol=lf`) makes identical on every platform. Verify tracking with
+  `git ls-files uv.lock`, the deliverable spec's own check for this item.
+
+  **Two corrections to this bullet, both recorded rather than overwritten.**
+  Its first draft asserted "is committed" in the present tense while the file was
+  still untracked and named no commit (audit REV-1-5). Its second draft then
+  paired commit `2ba291f` with the digest of the `01ecfe7` state — one pin naming
+  two different file states, which resolves to nothing (audit QUANT-2-1). Both
+  are the same defect this ADR identifies in `pip_freeze_sha256`: a digest whose
+  referent cannot be resolved pins nothing. That it recurred twice inside the ADR
+  arguing for resolvable pins is worth leaving on the record.
+  It resolves the full dependency graph — 1,467 lines,
   every package with its registry source, sdist and wheel URLs and SHA-256
   hashes — under `requires-python = ">=3.11, <3.13"`, matching the Python pin
   already recorded in `CLAUDE.md` §Project state and `manifest.json`.

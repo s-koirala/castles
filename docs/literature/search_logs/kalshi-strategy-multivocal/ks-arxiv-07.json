@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-arxiv-07",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://export.arxiv.org/api/query?search_query=abs:%22Polymarket%22%20AND%20abs:%22arbitrage%22&max_results=50",
+ "endpoint": "https://export.arxiv.org/api/query",
+ "platform": "arxiv",
+ "executed_at": "2026-09-04T10:16:19-05:00",
+ "http_status": 200,
+ "client_error": null,
+ "n_returned": 7,
+ "n_total_reported": 7,
+ "truncated_by_cap": false,
+ "retrieval_cap_in_force": "max_results=50",
+ "payload_sha256": "f716fd131a068e0a385953856b09bfc1eecebd6241129ee6ae214657c61eaee9",
+ "payload_bytes": 17139,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-arxiv-07.xml",
+ "retry_of": null,
+ "construction_section_3_1": {
+  "instrument_term": "Polymarket",
+  "strategy_term": "arbitrage",
+  "venue_narrowing": null,
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "abs: (abstract field; arXiv's title-and-abstract-equivalent restriction)",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "S5-cross-venue",
+ "note": null,
+ "count_parse_error": null
+}

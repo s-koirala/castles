@@ -1324,3 +1324,157 @@ date, what changed quoted against the frozen text, why, the execution stage at
 which it was decided, and the identifiers it touches. The machine-readable twin
 of every entry lives at
 `docs/literature/search_logs/kalshi-strategy-multivocal/ks-amendments.jsonl`.
+
+
+---
+
+### M1 - 2026-09-04 - three ACADEMIC-arm query-construction departures, adjudicated PRE-SCREENING - section 3.1; PRISMA-S items 1, 8
+
+**Execution stage - this is a PRE-SCREENING amendment, and that is the strongest
+form section 10 recognises.** The executing agent reported all three departures in
+its return, before assigning any stage-1 disposition. Every one of the arm's 528
+identified records is a `G1` row: identified, eligibility not assessed. **No
+record's eligibility was decided under any departure, because no record's
+eligibility was decided at all.** This is not the predecessor's A8 position
+(section 2.5), and the corpus record must not describe it as one.
+
+**Who decided.** The lead session, not the executing agent and not the drafting
+agent - the same allocation section 11(3) fixes for the freeze hash, for the same
+reason: the party that runs the queries is not the party that rules on whether
+they were in bounds.
+
+#### M1(a) - contract-family qualifiers in the INSTRUMENT slot - GRANTED, with the reading fixed
+
+*Frozen text (section 3.1), quoted:* each query conjoins "one **instrument term**
+drawn from the frozen instrument vocabulary - the terms naming binary event
+contracts, event derivatives, prediction markets, or the named venues".
+
+*What was done:* `weather derivative`, `economic derivatives` and
+`macroeconomic derivatives` were placed in the instrument slot
+(`ks-crossref-16`, `ks-crossref-17`, `ks-openalex-09`, `ks-openalex-10`,
+`ks-openalex-11`, `ks-arxiv-09`, `ks-arxiv-10`).
+
+*Ruling - GRANTED, and the construal is narrowed so it cannot travel further.* A
+contract-family qualifier may occupy the instrument slot **only** where one of
+two conditions holds, and the query log must record which:
+
+1. the family is itself an **event-derivative family** - its payoff is contingent
+   on the occurrence or non-occurrence of a verifiable event. `economic
+   derivatives` and `macroeconomic derivatives` satisfy this directly: they name
+   the auction-based binary claims on scheduled data releases, which is an event
+   derivative under any reading of the frozen phrase "event derivatives"; or
+2. the term names a **section 2.2 counterparty leg** - the non-binary instrument
+   a basis strategy would pair against. `weather derivative` enters on this
+   condition and **not** on condition 1: an HDD/CDD swap is index-linked, not
+   binary, and is not an event contract. Its admission is as a counterparty leg,
+   which section 2.2 already contemplates.
+
+*What this does NOT license.* It does not open the instrument slot to any
+financial-instrument noun. A term that names neither an event-contingent payoff
+family nor a section 2.2 counterparty leg remains outside the slot.
+
+*Traceability requirement, binding on the corpus record.* Records reaching the
+corpus **only** through `ks-crossref-16/17`, `ks-openalex-09/10/11` or
+`ks-arxiv-09/10` are tagged `reached_via: M1a`, so a reviewer who rejects this
+construal can withdraw exactly those records and no others.
+
+#### M1(b) - an agent/model-class qualifier in the STRATEGY slot - GRANTED, narrowly
+
+*Frozen text (section 3.1), quoted:* "one **strategy term** drawn from the frozen
+strategy vocabulary - arbitrage, coherence, mispricing, market making, quoting,
+inventory, spread, execution, hedging, forecasting-driven trading".
+
+*What was done:* `ks-arxiv-13` used `abs:"trading agent"`, which is not in that
+list.
+
+*Ruling - GRANTED, narrowly.* An agent- or model-class qualifier is admissible in
+the strategy slot **only** where the branch's own frozen text already names the
+area. It does here: section 3.4's frozen lateral seed list, item 10, names
+"forecasting-model-driven approaches, including model-agent forecasters". The
+protocol therefore already contemplates the object; the academic arm's vocabulary
+simply did not carry a term for it. Granting this **aligns the two arms rather
+than widening the branch**.
+
+*What this does NOT license.* An agent-class term whose area is **not** named in
+section 3.4's seed list is outside the slot. `trading agent` is admitted; a
+general actor-class noun is not.
+
+*Traceability:* records reaching only through `ks-arxiv-13` are tagged
+`reached_via: M1b`.
+
+#### M1(c) - container narrowing to SSRN - GRANTED, as a REACHING device only
+
+*Frozen text (section 3.1), quoted:* "Category or subject narrowing is applied
+**only** where the unrestricted phrase returns predominantly out-of-domain
+records ... each narrowing is recorded in the query table with the reason."
+
+*What was done:* `ks-crossref-14` set `query.container-title=SSRN`. A container
+restriction is neither a category nor a subject narrowing, so the frozen clause
+does not authorise it on its face.
+
+*Ruling - GRANTED, and the distinction that makes it admissible is stated so it
+binds future queries.* A container restriction is admissible **only where it
+REACHES a source that is otherwise unreachable**, never where it EXCLUDES records
+that would otherwise be retrieved. This one reaches: SSRN's own search interface
+returned HTTP 403 unauthenticated (`ks-ssrn-01`), and SSRN is the container of a
+large share of this branch's most on-point records. The restriction adds a
+retrieval path; it removes none. A container restriction used to filter an
+otherwise-successful query is a different act and stays unauthorised.
+
+*Precedent, recorded rather than relied on:* the predecessor branch executed the
+same device at `ka-crossref-13/14`. Precedent is not authority here - the ruling
+rests on the reach/exclude distinction, not on the predecessor's practice.
+
+*Traceability:* records reaching only through `ks-crossref-14` are tagged
+`reached_via: M1c`.
+
+#### What M1 does not touch
+
+No eligibility criterion `N1`-`N6` or `Y1`-`Y9` is altered, added, removed, or
+reinterpreted. No contribution code, no extraction field, no taxonomy class, no
+screening rule, and no arithmetic identity is changed. M1 rules on **query
+admissibility only**, and it was decided before any record was screened.
+
+
+---
+
+### M2 - 2026-09-04 - section 4.2's disposition enumeration reconciled with section 4.4's capacity codes - POST-EXECUTION, and the weakness is declared
+
+**Raised by audit finding SCOPE-1-7.** This amendment corrects an internal
+contradiction in the FROZEN TEXT, not a departure by an executing agent.
+
+**What the frozen text says, quoted against itself.** Section 4.2 states that
+every deduplicated record receives exactly ONE stage-1 disposition and enumerates
+three: `include`, `exclude` with a Y-code, and `promote`. Section 4.4 then creates
+the capacity codes `G1` and `G2`, which are none of the three, and states that a
+capacity gap is "NOT a criterion failure and NOT an eligibility determination".
+
+**Why it matters.** **1,465 of the 1,574 screened records - 93% of the delivered
+flow - took the path section 4.2 does not enumerate.** A reader reconciling the
+corpus record against section 4.2 alone would conclude either that 1,465 records
+are missing a disposition or that G-rows are a species of `exclude`. The second
+reading is the one section 4.4 exists to forbid, and it is the reading that would
+convert 1,465 capacity gaps into 1,465 eligibility determinations.
+
+**Ruling.** Section 4.2's enumeration is incomplete, and **a G-code is a FOURTH
+stage-1 outcome**. Section 4.2's "exactly one disposition" is read as conditional
+on assessment capacity: a record that is never assessed receives exactly one
+disposition, and that disposition is a capacity code. The arithmetic is unchanged
+- G-rows are counted inside `n_excluded` so the section 4.5 identities close, and
+they are reported decomposed, exactly as the corpus record does
+(`n_excluded == Y-rows + G-rows`, 10 + 1,465 = 1,475).
+
+**Execution stage - POST-EXECUTION, and this is a WEAKER amendment than M1.**
+Section 10 requires that an amendment logged after the affected decisions were
+made say so in those words. It is said here: the 1,465 G-dispositions were
+assigned before this contradiction was adjudicated. Nothing about them changes -
+no record moves, no count moves, no eligibility is decided - but the reconciliation
+is retrospective and the corpus record reports it as such. This is the second
+weakness class the predecessor's A8 illustrates, at far lower cost: A8 relaxed an
+eligibility criterion retrospectively, whereas M2 reconciles two sections of
+procedure that were always meant to agree.
+
+**What M2 does not touch.** No eligibility criterion `N1`-`N6` or `Y1`-`Y9`. No
+contribution code, extraction field, taxonomy class or arithmetic identity. No
+record's disposition. Frozen text is not edited; this addendum supersedes section
+4.2's enumeration in place and the original wording stays legible.

@@ -2021,3 +2021,1082 @@ executed retroactively. Gap G-7 stands. No record's verdict is affected.
 **Execution stage.** Retrospective, at round-2 audit remediation.
 
 **PRISMA-P item touched.** 10 (search strategy).
+
+---
+
+### A16 — 2026-09-03 — stage-2 completion for the S4 transfer-clause subset of the X11 stratum (the first amendment that decides eligibility for records amendment A5 left UNDECIDED) — PRISMA-P items 11b, 12; PRISMA 2020 items 8, 16b
+
+**Numbering note.** The brief for this stage said amendments continue from A15. A15 already exists
+in this addendum, logged at round-2 audit remediation on 2026-09-02, so this amendment is **A16**.
+Nothing above the addendum marker is altered; the first 82,677 bytes of this file still hash to
+`99524df02696a59ab878173ce7f3636d9cd07067b5a801a677cdf5d126fa13f4`.
+
+**What this completes.** Amendment A5 created disposition code X11 for records "promoted to stage 2
+under the section 2.2 transfer clause" whose "stage-2 full-text assessment [was] not performed within
+this execution session; eligibility UNDECIDED; a capacity gap, not a criterion failure." 700 records
+carry that code. A5 also recorded, correctly, that for such records eligibility "is decided by what
+the record's own text says about its payoff support and applicability conditions." This amendment
+declares the stage that performs that assessment for the subset of those records that bears on
+**strand S4**, and records its result. It **completes a screen that was never completed**; it does not
+re-screen a settled one. It follows that the corpus composition changes, which is the intended
+outcome of the stage and not a departure from the protocol.
+
+**No eligibility criterion is altered.** I1–I6, X1–X9, B-a–B-d, C1–C4 and J1–J6 are applied exactly as
+frozen in section 2. X10 and X11 are applied exactly as amendments A4 and A5 define them. **No record
+outside the X11 stratum was touched.** Unchanged are the 149 included records, the 545 X10 records, the
+single hand-verified X9 twin, and the 7,418 records carrying a terminal criterion-failure code (X1 6,707;
+X2 338; X7 244; X5 94; X3 35). Those figures reconcile: 149 + 545 + 700 + 1 + 7,418 = 8,813, the
+deduplicated universe.
+
+#### (a) The S4 subset rule, fixed BEFORE any record was assessed
+
+The rule was written to
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-subset-rule.md` and hashed **before any X11
+record was read for assessment**:
+
+- fixed at **2026-09-03T17:51:21Z** (UTC), at git HEAD `2ba291f9922547e1848d7d505cedafb2979e2433`;
+- file SHA-256 **`5f64d29b6868670c4cafc15c89618405c6a64675e4dc62b3557235140ef2c6c6`**, 10,189 bytes;
+- that digest is carried in the `_header` of the verdict file, so the rule cannot be substituted after
+  the fact without breaking the chain.
+
+Its derivation uses three frozen passages and nothing else: the section 1.3 row **"S4 | Market making,
+inventory risk, market scoring rules, automated market makers"**; the section 2.2 **C3** clause, whose
+own text ends "— see the transfer clause below (S4)"; and the section 2.2 **transfer clause**, whose
+heading states that it is "for C3". Because the transfer clause is stated for C3 and for no other
+contribution type, and because section 2.2 maps C3 to S4 in the criterion text itself, "the X11 records
+whose transfer clause bears on strand S4" is, in the protocol's own mapping, exactly "the X11 records
+that make a C3 contribution". The rule says only that. Verbatim:
+
+> **SR-1.** A record dispositioned X11 is IN the S4 completion subset if and only if, on **reading the
+> record's own retrievable text**, the record **specifies a model — an objective and a rule for a
+> liquidity supplier's prices, quotes, inventory or state — of at least one of the four objects frozen
+> section 1.3 assigns to strand S4: market making, inventory risk, a market scoring rule, or an
+> automated market maker.** This is the object half of the section 2.2 C3 clause. Whether the record's
+> instrument is in scope under section 2.1 is irrelevant to subset membership, because C3 applies
+> "whether or not it is applied to in-scope instruments".
+
+with the boundary, also fixed in advance:
+
+> **SR-2a — C4, not C3.** The record reports or analyses microstructure (spread formation, adverse
+> selection, liquidity provision, price impact, order-flow informativeness, market-maker behaviour
+> observed in data) **without specifying a model of an S4 object in the SR-1 sense**.
+> **SR-2b — incidental vocabulary.** The market-making / inventory / scoring-rule / AMM vocabulary
+> appears only in the record's background, motivation, related work, data description, or venue name.
+> **SR-2c — model of some other object.** The record specifies a model, but of an object outside the
+> four section 1.3 S4 names.
+> **SR-2d — not readable.** The record cannot be retrieved to title-and-abstract depth by this stage's
+> retrieval chain, so SR-1 cannot be applied to it by reading. Such records keep X11 and are reported
+> by name with the failure mode. They are NOT coded X8.
+
+SR-1 deliberately uses only the **object** half of C3 and reserves C3's second conjunct — *stated
+applicability conditions* — as the eligibility test applied **inside** the subset. If SR-1 required
+both conjuncts, a record lacking applicability conditions would fall out of the subset instead of being
+excluded under X6, and no record could ever receive the one verdict the frozen protocol wrote for this
+literature. That split was fixed in the rule file before assessment, for that reason.
+
+**The rule has no numeric element** — no count, cap, floor, score, similarity threshold, citation cutoff
+or sample size. There is therefore nothing in it to derive empirically or to label CONVENTION. The
+subset size is the rule's consequence, never its target.
+
+#### (b) Assessment was by reading, not by the classifier
+
+Every verdict in
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl` was formed by reading the
+record's own retrievable text — title, alternate titles and abstract at minimum. **The deterministic
+five-list keyword classifier in `ka-screening-script.py`, which amendment A10 declared the automation
+tool of record for all 8,664 non-include dispositions, was not invoked at this stage, and no verdict
+here is derived from its output.** Its R6 branch is what created the X11 stratum and is the defect this
+stage exists not to repeat. The automation tool of record for this stage is the LLM screener itself —
+**Claude Opus 5, model id `claude-opus-5`** — declared under PRISMA 2020 item 8. Screeners: **1**.
+Independent: **no**. No agreement statistic is computed or reported, per section 4.2.
+
+APIs were used for **retrieval only**: OpenAlex, Crossref and Semantic Scholar were queried to obtain
+abstracts the archived record universe lacked, and the DOI Handle System was used for landing-page
+attempts. No API output was used as a verdict.
+
+**A material consequence of reading.** The archived universe carried no abstract for 129 of the 700
+X11 records; the classifier had seen their titles only. Retrieval at this stage recovered abstracts for
+41 of them, and several proved to be records the classifier had mis-stratified — most sharply `U01611`
+(*Automated Market Making: Theory and Practice*), whose recovered abstract names Internet prediction
+markets, a fielded prediction market and wagers, so it concerns **in-scope instruments under section
+2.1** and was never a transfer-clause case at all.
+
+#### (c) How SR-1 was applied, and one mid-stage re-adjudication, both recorded
+
+Three readings were needed to apply SR-1 to real records. They are stated so a second screener can
+re-adjudicate every row:
+
+1. **"Specifies" excludes testing, measuring, reviewing and experimenting on a model.** Empirical
+   papers that estimate or test an existing dealer-pricing or spread-decomposition model are SR-2a.
+2. **The modelled agent must be an intermediary** — a market maker, dealer, specialist, designated or
+   automated market maker, or a market scoring rule — not an ordinary trader choosing between market
+   and limit orders. Generic "liquidity provision" by ordinary traders is enumerated in C4, not in the
+   four S4 names.
+3. **The record's own stated contribution must be about that supplier's pricing, spread or inventory,
+   about the market-making or AMM/MSR mechanism, or about a property of the market-making model
+   itself.** Where a supplier's rule is solved only as an intermediate step and the stated contribution
+   is about a different object — asset prices, returns, welfare, corporate policy, market efficiency,
+   price impact, market design — SR-2c applies.
+
+**Re-adjudication, disclosed rather than left to be found.** During the first reading pass a further
+test was applied that SR-1 does not contain: records whose supplier's price is pinned by a competitive
+zero-expected-profit condition were being excluded. SR-1's text is "an objective and a rule", and
+competitive zero-expected-profit pricing is an objective; the added test was an unlicensed narrowing of
+a rule fixed in advance, and it would have excluded the Glosten–Milgrom line, which section 3.4 itself
+handles with the words "transfer clause applies". The test was struck and **16 records were
+re-adjudicated** under SR-1 as written — four into the subset (`U00373`, `U02664`, `U02700`, `U03325`)
+and twelve with their exclusion ground corrected from SR-2a to SR-2c. Each carries the correction and
+its reason in the membership file.
+
+**Sixty-one determinations are marked "Borderline call" in the membership file** — 22 inside the
+subset, 39 outside it. They are labelled so a second screener can find them without re-reading 700
+records. The single most consequential is `U02700` (*Glosten–Milgrom Models*), which the struck test
+would have excluded and SR-1 as written admits.
+
+#### (d) The X6-versus-undecided reading, stated because the frozen text is not univocal
+
+The transfer clause admits a C3 record "only if the corpus can state what the record's own text says
+about its payoff support **and** applicability conditions", while X6 excludes a C3 record that "states
+**neither** payoff support **nor** an applicability condition". Those are different bars. **X6 as
+written in section 2.4 was applied**, because X-codes are the protocol's operative exclusion mechanism.
+This is a reading of frozen text, not a change to it, and it is recorded here so the reading is
+visible rather than silent.
+
+Its consequence is the honest one. A record can be **included** at abstract depth when the abstract
+itself states the model's assumed environment — the asset's value process or distribution, the
+information structure, the competition structure — or a condition under which its result holds, because
+that is a positive existence claim. A record **cannot** be coded X6 at abstract depth, because X6
+asserts something about the whole record that an abstract cannot establish. Where the abstract stated
+neither, the record was left **undecided inside the subset** with the reason and the depth recorded.
+A statement only of the record's topic or method was not counted as either.
+
+#### (e) Retrieval chain, and what it could not reach
+
+The archived record universe carried no abstract for **129** of the 700 X11 records. For every one of
+them this stage ran a uniform four-arm chain, and **every arm was attempted for every unrecovered
+record**: (1) OpenAlex, Crossref and Semantic Scholar by DOI; (2) OpenAlex title search; (3) Semantic
+Scholar title search; (4) DOI landing-page fetch. Arm 1 recovered **41**. **88 records survived all
+four arms with nothing but a title** and are coded **SR-2d**: out of subset, X11 retained, each named
+in the membership file with its own per-arm outcome.
+
+The per-record chain is archived at
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-retrieval-log.json`. Over those 88 records the
+failure modes were, exactly: arm 3 returned **HTTP 429 (rate limited) for 78 of 88** and a genuine
+HTTP 200 with no matching-title abstract for the remaining **10 of 88**; arm 4 fetched a landing page
+with no abstract metadata for **68 of 88**, returned **HTTP 403 for 19 of 88** and HTTP 302 for **1**.
+A rate-limited or bot-blocked response is a **failure of this retrieval chain, not evidence that the
+record has no abstract**, and is logged as such. This is a verification gap of the stage and is
+reported as one; **X8 is not applied to any of these records**, because X8 asserts a criterion failure
+reached after a full stage-2 retrieval chain and this was a weaker, subset-membership chain.
+
+#### (f) Result
+
+| quantity | count |
+|---|---|
+| X11 records carried into this stage | 700 |
+| in the S4 completion subset (SR-1) | **197** |
+| residual, keeping X11 / eligibility UNDECIDED | **503** |
+| — of which SR-2a (microstructure without an S4 model) | 259 |
+| — of which SR-2c (model of some other object) | 102 |
+| — of which SR-2b (incidental vocabulary) | 54 |
+| — of which SR-2d (not retrievable beyond a title) | 88 |
+| subset + residual | **700** |
+
+Inside the subset: **178 include**; **12 exclude under X5** (constant-function and automated market
+makers whose traded object is an asset pair and not an event claim — X5 precedes X6 in the section 2.4
+first-code-that-applies order); **7 still undecided** at the depth this stage reached, named in the
+verdict file with the reason for each (`U00228`, `U01126`, `U01782`, `U03553`, `U03638`, `U03788`,
+`U07469`). One of the 178, `U01611`, is included under **I1 directly** rather than through the transfer
+clause, because its own text names in-scope instruments.
+
+**Records not in the subset keep X11 verbatim.** The reading performed on them was a
+subset-membership determination under SR-1/SR-2 only, not a section 2 eligibility assessment: this
+stage did not evaluate I3 or I4 for them, did not run the section 2.4 first-code ordering, and did not
+attempt full text. Some of them plainly bear on other strands — `U01518` on S1, several on S6 — and
+this S4-scoped stage does not adjudicate them. Their eligibility remains UNDECIDED in exactly the sense
+A5 fixed, and **this amendment narrows it no further**.
+
+**Suspected same-work pairs, flagged and not resolved.** Seven pairs among the subset appear to be the
+same work under two identifiers: `U04783`/`U05692` (English and Hungarian versions in the same
+journal), `U02595`/`U06689`, `U00610`/`U07288`, `U03954`/`U07813`, `U05239`/`U06900`,
+`U03638`/`U07469`, and `U08080`/`U04464`. **X9 is not applied to any of them.** J6 decides
+journal-versus-working-paper twins and no frozen rule decides a same-journal language twin; and the
+same-work determination for the remainder was not verified against full texts at this stage. Each
+carries a `dedup_flag` in the verdict file naming its suspected twin and why the frozen rules do not
+decide it. Resolving them belongs to the section 4.1 dedup ledger, not here.
+
+#### (g) What does not change
+
+No X10 record is re-opened. No record carrying a terminal criterion-failure code is revisited. No
+extraction is performed here — the 178 newly included records carry no section-5 extraction yet, and
+the corpus record must say so until one is written. No count in the published corpus record is amended
+by this file; the corpus record's flow accounting is a separate deliverable and is not this
+amendment's to change.
+
+**Execution stage.** Stage-2 assessment, performed 2026-09-03 for the S4 subset of the X11 stratum, with
+the subset rule fixed and hashed before the first record was assessed.
+
+**PRISMA-P items touched.** 11b (selection process), 12 (data items — eligibility inputs).
+**PRISMA 2020 items touched.** 8 (automation tools), 16b (records excluded after assessment).
+
+**Artifacts.**
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-subset-rule.md`
+(sha256 `5f64d29b6868670c4cafc15c89618405c6a64675e4dc62b3557235140ef2c6c6`);
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl`;
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-subset-membership.json`;
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-retrieval-log.json`.
+
+### A17 — 2026-09-03 — extraction stage for the S4 core set (the first amendment under which any full text was read for any included record) — PRISMA-P item 12; PRISMA 2020 item 8
+
+**Numbering.** A16 is the last amendment in this addendum, logged earlier today by the completion-screen
+stage. This is **A17**. Nothing above the addendum marker is altered; the first 82,677 bytes of this file
+still hash to `99524df02696a59ab878173ce7f3636d9cd07067b5a801a677cdf5d126fa13f4`, re-verified against the
+bytes on disk immediately before this text was appended.
+
+**Digest correction, recorded rather than absorbed.** The brief for this stage carried
+`949f89e6ff7b96256a70bf0f1eaa6a3b026126e4e166dcd76a8fc0b7cc0081f5` (147,962 bytes) as the
+protocol-with-addendum digest. That value was **stale** — the completion-screen dispatch reopened and
+appended further material to A16 after this stage began. The value immediately before this amendment was
+appended is `97a4b61d5b8db0d1c639a06b8fd6d4e35f2b2e821c7a263f2d80b6bd22d4a07a` over 148,467 bytes,
+recomputed from the bytes on disk. The same recomputation found
+`ka-s4-subset-membership.json` at `d32dbc0d5ecad681209d5a76210cf631675c6be7fc64169d65e2bed4c1985207`
+(330,115 bytes), not the `f7296735…` the brief carried.
+
+**What this amendment declares.** Amendment **A9** recorded that **no full text was read for any included
+record** and that extraction fields E8–E13 were "partially completed at best". This amendment declares the
+stage that performs full-text extraction for the S4 **core set**, and records what that stage reached and
+what it did not. It performs extraction only: **it decides no record's eligibility, opens no stratum, and
+changes no verdict.** No X10 record is re-opened; no record carrying a terminal criterion-failure code is
+revisited; the 503 out-of-subset X11 records and the 7 undecided-inside-subset records are untouched.
+
+#### (a) The core set, fixed by the session's recorded deviation
+
+The 2026-09-03 deliverable spec's *Recorded deviation — Thread A item 2 scope* narrows the extraction
+target, because amendment A16 admitted 178 records and full-text reading of 178 is not achievable in one
+session. The core set is therefore, verbatim from that deviation:
+
+- **(a)** the named inventory-risk and market-scoring-rule lineage anchors — Ho & Stoll 1981, Glosten &
+  Milgrom 1985, Kyle 1985, Avellaneda & Stoikov 2008, Guéant/Lehalle/Fernandez-Tapia, Hanson's LMSR
+  (which resolves to **two** store records, `hanson2012jpmv1i1417` and `hanson2003a10220582090`),
+  Chen & Pennock, Othman et al. 2013, Abernethy/Chen/Vaughan 2013, Kroer et al. 2016;
+- **(b)** every record section 8.4 of the corpus record cites after the rewrite;
+- **(c)** every record newly included by A16, carried **at the depth already reached, labelled per record,
+  and counted**.
+
+Sets (a) and (b) together are **59 records**. Set (c) is **178**. The extraction file therefore carries
+**237 rows** plus a header.
+
+#### (b) Result, and the shortfall stated as a shortfall
+
+| quantity | count |
+|---|---|
+| records in the section-8.4 core set, full text attempted for each | **59** |
+| full text **obtained, identity-checked and read** | **33** |
+| full text **attempted and not obtained** | **26** |
+| — of which the record stood at abstract depth and stays there | 21 |
+| — of which the record stood at metadata depth and stays there | 5 |
+| newly included by A16, carried at `screen-abstract` depth, **no extraction** | **178** |
+
+**The deviation's clause (b) was NOT met in full, and that is stated rather than absorbed.** It requires
+full-text depth for *every* record section 8.4 cites. Twenty-six do not have it. Section 8.4 retains them
+at their existing depth rather than dropping them, because dropping them would delete the corpus's record
+of what was retrieved; **every claim resting on one of the 26 is marked inline in section 8.4 with the
+depth it rests on.** The alternative — cite only the 33 — was considered and rejected for that reason.
+The choice is recorded here so that a reviewer can overturn it.
+
+#### (c) Identity checking, and the four checks that mattered
+
+Every fetched file was identity-checked **before any of it was read**. The check reads the file's first
+page and compares title, author list and, where printed, the DOI, against the store record and against
+`api.crossref.org`. **A 200 response with `content-type: application/pdf` is not treated as evidence of
+identity.** Four checks did work:
+
+1. **Ho & Stoll 1981.** `https://finpko.ku.edu/…/Ho%20%26%20Stoll_Optimal%20Dealer%20Pricing_JFE_1981.pdf`
+   returned **HTTP 200**, `text/html`, 7,620 bytes, redirected to `…/cgi-sys/suspendedpage.cgi`, page
+   title *"Account Suspended"*. Not the paper. **Failed.**
+2. **A guessed Dudík/Lahaie/Pennock 2012 URL.** `https://www.jennwv.com/papers/dca.pdf` returned **HTTP
+   200** with `content-type: application/pdf` — and its first page is *"The Double Clinching Auction for
+   Wagering"*, a different paper by different authors. The file was discarded unread. **Failed**, and it
+   is exactly the failure mode a 200-plus-PDF check would have missed.
+3. **Lange & Economides 2005.** `https://doi.org/10.1111/j.1354-7798.2005.00274.x` returned **HTTP 200**,
+   `text/html`, 62,242 bytes, redirected to `onlinelibrary.wiley.com/action/cookieAbsent` — a cookie wall.
+   **Failed.**
+4. **Gao & Chen 2010.** The `nrs.harvard.edu` handle returned a repository landing page rather than the
+   paper; the check caught it and the bitstream URL was taken from that page, which then returned the
+   article with a citation block matching the store record. **Resolved.**
+
+**Four obtained files are author manifestations, not the version of record**, and each row says so:
+Hanson 2007 (the retrieved file is the author's **January 2002** working paper), Abernethy/Chen/Vaughan
+2013 (accepted manuscript printing the placeholder DOI `10.1145/0000000.0000000` and a different volume
+and article number), Guéant et al. (arXiv accepted manuscript), Dudík et al. 2021 (arXiv manifestation).
+No page locator is cited against the published pagination for any of the four.
+
+**Kyle 1985 has no text layer.** The retrieved JSTOR scan yields nothing but cover boilerplate to a text
+extractor. Extraction was performed by reading **rendered page images** of pp. 1315–1317, and the row says
+so and says which pages were read. The rest of that article was not read.
+
+#### (d) Retrieval failure is not evidence of absence
+
+Carried from A16 §(e) and from `ka-s4-retrieval-log.json` (sha256
+`dfdc6d87f61339c266787b84072830fb2429aa75fbf42c4fdbddf44f3a114dcc`), and binding on every depth statement
+in the extraction file: **a rate-limited or bot-blocked response is a failure of the retrieval chain, not
+evidence that a record has no abstract or states nothing.** In the A16 log, 88 of 129 abstract-less X11
+records survived all four arms with nothing filled — 78 of them HTTP 429 on the Semantic Scholar title arm
+and 19 HTTP 403 on the DOI landing page — and X8 is applied to none. The same discipline governs this
+stage: where a full text was attempted and not obtained, the row records that the retrieval failed and
+records **nothing** about what the record does or does not state. The field value
+`transfer_status: "not extracted at this stage"` is a statement about this stage's reach and never about a
+record's content.
+
+**SSRN is unreachable from this session.** All three of the corpus's Kalshi-specific S4 records —
+`bartlett2026ssrn6615739`, `brgi2025ssrn5502658`, `gupta2026ssrn6858200` — resolve through `doi.org` to
+`papers.ssrn.com`, which returns **HTTP 403** with a Cloudflare interstitial. The most consequential
+casualty is Bartlett & O'Hara: every figure the corpus record reports from it still rests on an abstract.
+
+#### (e) What the extraction changed in the corpus's own transfer determinations
+
+Four E10 transfer statuses moved, and each moved on a sentence the authors wrote:
+
+- **Glosten & Milgrom 1985**: `not addressed` → **`addressed`**. The record states a payoff-support
+  condition, p. 76 verbatim: *"At some time T₀ in the future, some random dollar value V [V ≥ 0, var(V) <
+  ∞] per share will be realized."* Its own section-3 example, p. 91, is a two-valued security: *"Suppose
+  that the stock can have either of two values, V = 1 or V = 11."*
+- **Kyle 1985**: `not addressed` → **`explicitly excluded`**. p. 1317 verbatim: *"The ex post liquidation
+  value of the risky asset, denoted ṽ, is normally distributed with mean p₀ and variance Σ₀."*
+- **Avellaneda & Stoikov 2008**: `not addressed` → **`explicitly excluded`**. The mid-price is driftless
+  arithmetic Brownian motion and the terminal valuation is a mark-to-market at S_T.
+- **Othman et al. 2013** and **Abernethy/Chen/Vaughan 2013** keep `addressed`, but each yielded an
+  **author-stated venue-mechanism exclusion** the abstract did not carry — see the corpus record's
+  section 8.4.
+
+**The step from a stated assumption to an incompatibility is the corpus's inference, not the author's**,
+and every row that makes it flags it in a `corpus_inference_flag` field. Kyle does not say his model
+excludes binary contracts; he says the liquidation value is normal, and the corpus says a [0,1]-supported
+value is not a realisation of that. Those are different sentences and the file keeps them apart.
+
+#### (f) What this amendment does not do
+
+It states **no tradeable rule, no quoting rule and no hedging rule**, and adopts **no numerical parameter**
+from any extracted record (ADR-0003, ADR-0004). It computes no price and calls no exchange API. The
+retrieved PDFs are **not committed**: the corpus does not redistribute publisher files, and each row
+carries the SHA-256 of the bytes as retrieved as the durable identity carrier instead.
+
+**Execution stage.** Extraction, performed 2026-09-03 for the S4 core set, after the A16 completion screen
+and against the frozen section 5 field definitions.
+
+**PRISMA-P items touched.** 12 (data items). **PRISMA 2020 items touched.** 8 (automation tools —
+Claude Opus 5, model id `claude-opus-5`; extractors: 1; independent duplicate extraction: no).
+
+**Glyph reconstruction, disclosed.** Text was extracted from the retrieved PDFs with `pdftotext`, which
+drops or mangles set membership, inequality signs, arrows and subscripts. Where a quotation in the extraction
+file contains such a glyph, **the glyph is a reconstruction and the surrounding words are verbatim**; the file's
+header names the three cases where this matters and states the ground for each reconstruction. Two records were
+read as **rendered page images** rather than trusted to the text layer for exactly this reason: Glosten &
+Milgrom's support condition on p. 76, whose OCR layer returns `V 2 0, var( V) < 001`, and the whole of the Kyle
+1985 pages read, whose scan has no text layer at all. Where a glyph could not be reconstructed with confidence
+the quotation was cut short rather than guessed. **This disclosure was added to the extraction file's header
+after its first emission, so its digest was recomputed**: the value below supersedes
+`018eed1c7465ddc55b5778e58c21eae9ee5fe25de74dd6853d88540e3a6eabba`, which appeared in no other artifact.
+
+**Artifacts.**
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-fulltext-extraction.jsonl`
+(sha256 `b7970a22c93430b69e30344737c2f8fa0f003a2f7c029545b77f8e6990ee902a`, 237 rows plus a header),
+read together with `docs/literature/search_logs/kalshi-arbitrage/ka-s4-retrieval-log.json`
+(sha256 `dfdc6d87f61339c266787b84072830fb2429aa75fbf42c4fdbddf44f3a114dcc`).
+
+
+---
+
+### A18 — 2026-09-03 (round-4 correcting entry) — corrections to A16 and A17: the subset rule's priority claim, a false count in A17, the admission bar actually applied, the retrieval chain's trigger, and the provenance of the read-based verdicts — PRISMA-P items 11b, 12; PRISMA 2020 items 8, 16b
+
+**Numbering and frozen prefix.** A17 is the last amendment in this addendum. This is
+**A18**. Nothing above the addendum marker is altered: the first **82,677 bytes** of
+this file still hash to
+`99524df02696a59ab878173ce7f3636d9cd07067b5a801a677cdf5d126fa13f4`, re-verified
+against the bytes on disk immediately before this text was appended. The
+protocol-with-addendum digest immediately before this append is
+`e93e01516f840a2f9adc2f319f128c4d13403281005fea42037b46790c1b3982` over 160,105
+bytes; this append supersedes it and the new value is published at the end of this
+entry.
+
+**What this amendment is.** A correcting entry raised by the 2026-09-03 audit round
+against A16 and A17. **A16 and A17 are not edited** — §10 makes this addendum
+append-only, and A13, A14 and A15 already establish the strike-by-quotation
+mechanism this entry uses. **No record's verdict changes. No count in the
+197 / 503 subset split or the 178 include / 12 X5 / 7 undecided verdict split
+changes. No record is admitted, dropped or recoded.** Everything below is a
+correction to what A16 and A17 *say*, or a disclosure of a defect they left
+unstated.
+
+*(Round-4 findings REV-1-2, REV-1-3, QUANT-1-1, QUANT-1-2, QUANT-1-3,
+REPRODUCIBILITY-1-3; all major, all raised 2026-09-03, none refuted.)*
+
+---
+
+#### (a) The subset rule's pre-fixing is SELF-ATTESTED — REV-1-2
+
+A16 rests the whole stage on the claim that `ka-s4-subset-rule.md` was fixed
+**before** any X11 record was read. **That claim is self-attested and carries no
+external timestamp.** Stated plainly, because it is the load-bearing
+pre-registration claim of the stage:
+
+- The rule file's own header gives a fixing time (`2026-09-03T17:51:21Z`, a
+  `date -u` string) and a "Git HEAD at fixing". Both were written by the assessing
+  agent, into the artifact whose priority is in question.
+- The SHA-256 chain outward — the rule file's digest in
+  `ka-s4-completion-screen.jsonl`'s `_header`, in `ka-s4-subset-membership.json`,
+  in `ka-s4-fulltext-extraction.jsonl`'s `_header.prior_stage_files`, in A16's
+  *Artifacts* block, and as the 2026-09-03 ReproLog's `config_resolved_sha256` —
+  establishes only that **those artifacts were written after some version of the
+  rule file**. A digest orders writes. It does not order a write against an
+  unrecorded act of reading.
+- **No commit carries the rule file at any point before the assessment.** It was
+  still untracked when the audit ran. There is no external timestamp of any kind.
+
+**What would have established it, and what this project already owns.** The correct
+mechanism is in this repository and was used for this review's own registration:
+commit **`27d74738aa35ec1cdf1ec6915b50532e3620ea6f`** — *"docs(protocol): register
+frozen kalshi-arbitrage search protocol (sha256 99524df02696)"* — committed the
+frozen protocol **before any query executed**, and the corpus record's
+`registration:` frontmatter field cites that commit, in terms, as the registration
+event. Applying the same discipline to the subset rule would have meant committing
+it, or a commit trailer carrying its digest, **before the assessing agent was
+dispatched**, and citing that commit rather than a `date -u` string. That was not
+done. **It is a process failure of the dispatch, and it is not a reason to doubt the
+rule's content:** SR-1 is the §2.2 C3 object clause and SR-2 is its boundary, both
+compositions of quoted frozen text whose derivation any holder of the frozen
+protocol can audit on its face. What is unestablished is the **ordering**.
+
+**Binding on any successor stage of this kind.** The rule file — or a commit
+trailer carrying its SHA-256 — is committed **before** the assessing agent is
+dispatched, and that commit hash, not a timestamp string written by the assessor,
+is the priority evidence.
+
+**The rule file has been amended, and its digest supersession is recorded here
+rather than absorbed.** A disclosure section stating the above was appended to
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-subset-rule.md` on 2026-09-03,
+below an explicit marker, and **nothing above that marker was edited**. Therefore:
+
+| quantity | value |
+|---|---|
+| rule text **as applied by the screen** — the first **10,189 bytes** of the file | sha256 `5f64d29b6868670c4cafc15c89618405c6a64675e4dc62b3557235140ef2c6c6` |
+| the file **as it now stands**, 14,285 bytes | sha256 `df009a0de61a4a3c60d5fea66d5bef0b0937b18a983d387a997fa416375557fe` |
+
+Every artifact that cites `5f64d29b…` — the completion-screen header, the
+membership file, the extraction-file header, A16's *Artifacts* block, the ReproLog
+— **remains correct as a prefix digest over the first 10,189 bytes**, and those
+artifacts are deliberately **not** rewritten: they record the digest of the rule
+under which the screen actually ran, and rewriting them would falsify an execution
+record. This is the same frozen-prefix discipline this protocol applies to itself.
+
+---
+
+#### (b) A17 §(e)'s "Four E10 transfer statuses moved" is STRUCK — REV-1-3
+
+A17 §(e) opens:
+
+> "**Four E10 transfer statuses moved, and each moved on a sentence the authors
+> wrote:**"
+
+**That sentence is struck.** **Three** transfer determinations changed and **one was
+confirmed**. A confirmation is not a move. A17's own enumeration shows it, and
+contains only three moves:
+
+| record | 2026-09-02 status | after full text | is this a move? |
+|---|---|---|---|
+| Glosten & Milgrom 1985 | `not addressed` | **`addressed`** | yes |
+| Kyle 1985 | `not addressed` | **`explicitly excluded`** | yes |
+| Avellaneda & Stoikov 2008 | `not addressed` | **`explicitly excluded`** | yes |
+| Guéant, Lehalle & Fernandez-Tapia | `explicitly excluded` | `explicitly excluded`, **confirmed and extended** | **no** |
+| Othman et al. 2013; Abernethy/Chen/Vaughan 2013 | `addressed` | `addressed`, each with an author-stated venue-mechanism exclusion the abstract did not carry | **no** |
+
+**What replaces the struck sentence:** *"Three E10 transfer statuses changed and one
+was confirmed at full text, and each rested on a sentence the authors wrote. Two
+further records kept `addressed` and yielded an author-stated venue-mechanism
+exclusion the abstract did not carry."* The three changes and the confirmation are
+otherwise exactly as A17 §(e) records them; **no transfer status is altered by this
+strike.** What was wrong was the count, which inflated the reported yield of the
+extraction stage by one.
+
+**The same false claim was carried to two other artifacts and is corrected at both,
+directly, because neither is append-only:** the corpus record's §8.4 standing-caveat
+block and the research agenda's rev-2 corrections list. Both said "four … changed"
+and both then contradicted themselves two lines later with "three of the four".
+
+**The pattern this belongs to, recorded because it localises the failure mode.**
+This is the **fourth** false claim introduced into this session's prose. The
+session caught two in-stage (an 8,663/7,418 arithmetic error and an 88/30 coverage
+error); the audit round caught this one and the agenda front-matter's "three of the
+five" (§(g) below). **All four were in amendment or summary prose. None was in
+verdict data.** Every one of the 197 screen verdicts and every one of the 33
+extraction rows reproduced against its own artifact under audit. The defect is in
+the layer that *describes* the work, not the layer that records it, and a reader
+of these amendments should weight the two accordingly.
+
+---
+
+#### (c) The bar actually applied for ADMISSION was the negation of X6, not the transfer clause's conjunction — QUANT-1-2
+
+A16 §(d) correctly observes that the transfer clause's bar and X6's bar differ:
+
+> "The transfer clause admits a C3 record 'only if the corpus can state what the
+> record's own text says about its payoff support **and** applicability conditions',
+> while X6 excludes a C3 record that 'states **neither** payoff support **nor** an
+> applicability condition'. Those are different bars."
+
+It then elects X6's bar. **What A16 §(d) does not state, and what this amendment
+states, is the consequence of electing it as the ADMISSION test.** X6 governs
+*exclusion*. I1 admits a non-in-scope C3 record only *under the transfer clause*,
+whose bar is **conjunctive**. Taking X6's disjunctive negation as the admission
+test converts *"eligible only if A **and** B"* into *"eligible unless neither A
+**nor** B"*. Three consequences, all recorded rather than argued away:
+
+1. **X6's rate at this stage is zero by construction of that choice.** The 12
+   exclusions are all X5. X6 — the one exclusion code the frozen protocol wrote
+   specifically for this literature (J4) — could not be returned once the reading
+   fixed that an abstract cannot establish a universal negative. A16 §(d) states the
+   epistemic asymmetry that motivates it and does not state that it forecloses the
+   code.
+2. **The stated asymmetry cuts both ways.** It is true that an abstract can carry a
+   positive existence claim and cannot establish a universal negative. It is equally
+   true that **at abstract depth the corpus cannot establish the conjunctive
+   positive the transfer clause requires** either. The rule file's own third verdict
+   — *"still undecided, inside the subset"* — was the available honest disposition
+   and was used 7 times in 197.
+3. **The include count is therefore an UPPER BOUND on the set the transfer clause
+   admits.** 178 is what the negation-of-X6 bar returns. It is not what the
+   conjunction returns.
+
+**The lower bound, and it is 0 on the evidence recorded.** See §(d).
+
+---
+
+#### (d) The 178 includes carry no per-record trace of the conjunct that decides them — QUANT-1-1
+
+A16 §(d) fixes the include bar as *"the abstract itself states the model's assumed
+environment … or a condition under which its result holds"*, and rules that *"a
+statement only of the record's topic or method was not counted as either"*.
+**No field on any include row records that statement.** Verified mechanically on
+2026-09-03 over `ka-s4-completion-screen.jsonl`:
+
+| check | result |
+|---|---|
+| include rows | 178 |
+| distinct values of `criterion_cited` among them | **2** — byte-identical boilerplate on **177**, and one bespoke value for `U01611`, which is admitted under I1 directly |
+| include rows whose `rationale` contains **any** quotation mark | **0 of 178** |
+| exclusion codes returned inside the subset | X5 × 12; **X6 × 0** |
+
+`rationale` is distinct per record (178 distinct strings) and is a real per-record
+judgment — but it is the **SR-1 subset-membership rationale**, i.e. the *object*
+half of C3, which is the conjunct SR-1 uses. The second conjunct, the one the rule
+file explicitly **reserved** as "the eligibility test applied inside the subset",
+has **no per-record trace anywhere in the file**. The eligibility test the subset
+rule promised to apply inside the subset therefore left no record of having been
+applied, and the include verdict collapses onto subset membership: 178 of
+197 = 90.4%, with the only exclusions coming from a code (X5) that turns on the
+instrument rather than on the conjunct.
+
+**Consequence, stated as the range QUANT-1-2 asks for.** On the evidence recorded
+in the verdict file, the number of includes for which the corpus **can quote** what
+the record's own text says about payoff support and applicability conditions is
+**0** — not because the records are silent, but because **no row records a
+quotation**. So:
+
+> **The set the transfer clause admits lies somewhere in [0, 178], and the file
+> records nothing that narrows it.** 178 is the upper bound. The lower bound
+> recoverable from the artifact as written is 0.
+
+**What the repair is, and why it is not performed here.** The repair is a mandatory
+`admitting_statement` field on every include row quoting the sentence from the
+record's own retrievable text that carries the payoff support or the applicability
+condition, with its source named (abstract / recovered abstract / title), and
+re-adjudication to `undecided` of every row for which no such sentence can be
+quoted — then a restatement of the include count and of every downstream count that
+uses 327. **That is a re-screen of 178 records.** This remediation is scoped to
+prose, counts-about-prose and amendments and is expressly forbidden to re-screen,
+so it is declared here as an open defect of A16 rather than performed. **Until it
+is performed, no consumer of this protocol may read 178 as the count of records the
+transfer clause admits.**
+
+---
+
+#### (e) The retrieval chain's trigger was abstract-field PRESENCE, not USABILITY — QUANT-1-3
+
+A16 §(e) reports a four-arm chain run for **129** X11 records and states the
+trigger as *"the archived universe carried no abstract"*. **That is exactly what
+the trigger was, and it is the defect.** The chain selected on the *presence* of the
+abstract field, not on the *usability* of its contents, so records whose archived
+abstract field held something that is not an abstract were treated as retrieved and
+**no arm was run for them at all**.
+
+**Verified mechanically on 2026-09-03**, by rebuilding the record universe from the
+archived scripts and joining it to the verdict file:
+`ka-universe-script.py` → 15,924 raw records; `PYTHONHASHSEED=0 ka-dedup-script.py`
+→ 8,813 works / 7,111 duplicates, both matching the published figures; 700 records
+carry `primary_code` X11; **exactly 129 of the 700 have an empty or absent
+`abstract` field**, which reproduces the chain's cohort exactly and confirms the
+trigger condition.
+
+**Four records fell through it**, each carrying a non-empty abstract field whose
+contents are not an abstract, and **none of the four appears in the 129 rows of
+`ka-s4-retrieval-log.json`** (verified by id):
+
+| uid | what the archived abstract field actually held | disposition A16 recorded | depth it rests on |
+|---|---|---|---|
+| `U01126` | a publisher correction notice about an author's surname | **in subset** (SR-1), `undecided` | title only |
+| `U02218` | a bibliographic citation string | **out of subset**, SR-2a | title only |
+| `U03553` | a single opening sentence | **in subset** (SR-1), `undecided` | title + one sentence |
+| `U03624` | a bibliographic citation string | **out of subset**, SR-2a | title only |
+
+**SR-2d, as fixed in advance, forbids two of these determinations.** SR-2d says a
+record that "cannot be retrieved to title-and-abstract depth by this stage's
+retrieval chain" is out of subset, keeps X11, and is "reported by name with the
+failure mode". `U02218` and `U03624` were instead pushed out on an **SR-2a**
+ground — a positive content determination that the record analyses microstructure
+without specifying a model — **reached from a title**. SR-2a asserts something about
+what the record does; a title does not establish it.
+
+**The chain was re-run for all four on 2026-09-03. Log:**
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-retrieval-recheck-01.json`
+(sha256 `6c4290c889f7b3d3719f7422bf9cf2ce4633727106146cc4cefe0a051a3b5df8`).
+**Retrieval only; no verdict in it, and no verdict anywhere is changed by it.**
+Result:
+
+- **`U01126` — arm 1b (Crossref by DOI, HTTP 200) returned a full, usable
+  abstract.** It opens: *"This paper develops and simulates a model of a Bayesian
+  market maker who transacts with noise and position traders in derivative
+  markets."* and states the conditions its result turns on, including *"particularly
+  when the underlying price is mean averting as opposed to a Martingale"*. **The
+  stage's own chain would have recovered this had its trigger been usability.** The
+  record's SR-1 subset membership and its `undecided` verdict both currently rest on
+  a title alone, and both are now known to be repairable at abstract depth.
+- **`U02218`, `U03553`, `U03624` — nothing usable recovered on this run.** Arm 1a
+  returns the same unusable archived string; arm 1b has no `abstract` field; arm 1c
+  returns `abstract: null`; **arms 2 and 3 returned HTTP 429 (rate limited) on every
+  attempt**, and arm 4 fetched a landing page (JSTOR ×2, Springer ×1) with no
+  abstract metadata — the Springer body being a 3,036-byte bot-block shell.
+
+**Why the repair the finding proposes is NOT the right repair.** The finding asks
+that all four be recoded SR-2d, the SR-2d count moved 88 → 92 and the SR-2a residual
+259 → 257. **That would code as unretrievable a record this remediation retrieved.**
+And for the other three, two of six arms returned HTTP 429, which this stage's own
+binding rule — *"a rate-limited or bot-blocked response is a failure of this
+retrieval chain, not evidence that the record has no abstract"* — forbids reading as
+absence. So SR-2d cannot be asserted as settled for them either.
+
+**What is therefore recorded, and what is not done.** The defect is real and is
+declared: the chain's trigger was field presence, four records bypassed it, and two
+of them carry an SR-2a ground that SR-2d forbids reaching from a title. **No count
+is corrected and no record is recoded here** — that is a re-screen, and this
+remediation may not perform one. A successor stage inherits: re-run the chain on a
+**usability** trigger over all 700 X11 records, not a presence trigger; then
+re-adjudicate `U01126` at abstract depth and settle `U02218`, `U03553` and `U03624`
+under SR-2d or SR-2a on what the chain then reaches.
+
+---
+
+#### (f) The 197 read-based verdicts and the 33 extractions are single-pass LLM outputs and are NOT re-derivable — REPRODUCIBILITY-1-3
+
+A16 and A17 declare the automation tool as **Claude Opus 5, model id
+`claude-opus-5`**, screeners 1, independent no, extractors 1, independent duplicate
+extraction no. **That is the whole of the provenance, and it is a model-family
+identifier.** What is missing is stated here rather than left to be inferred:
+
+- **No prompt is archived.** The sibling explosive-regime stage archived
+  `docs/literature/search_logs/explosive-regime/er-screening-prompt.txt`; the
+  kalshi search-log directory contains no prompt file. **The A16 subset-membership
+  prompt and the A17 extraction prompt were not captured at execution time and
+  cannot be reconstructed now.** They are **not** written retrospectively: a prompt
+  reconstructed after the fact from the deliverable spec would be a plausible
+  fabrication presented as a provenance record, which is the failure mode this whole
+  apparatus exists to prevent. The nearest surviving analogue is the stage brief in
+  `docs/deliverables/deliverable_spec_s4-reexecution-and-repo-gaps_2026-09-03.md`,
+  and it is an analogue, **not** the prompt.
+- **No sampling parameters were recorded.** Temperature, top-p and any decoding
+  settings were provider defaults at execution time and **are not recoverable**.
+- **One screener, not independent, no second pass, no agreement statistic** — as
+  A16 already states, and §4.2 of the frozen protocol licenses.
+
+**The consequence, and the distinction the frontmatter otherwise lets a reader
+miss.** This review's `rng_seed: 0` and its §5 determinism paragraph are true **of
+the classifier half** — the seed guards at `ka-dedup-script.py:17` and
+`ka-partition-script.py:14` are real and were verified, and a `PYTHONHASHSEED=0`
+rebuild reproduces the published aggregates exactly, as this amendment's own §(e)
+rebuild demonstrates again. **They are not true of the read-based half.** The 197
+A16 dispositions and the 33 A17 extractions are single-pass LLM judgments; **a
+re-run is not guaranteed to reproduce them**, and nothing pins the generating
+process beyond a model-family id. The two halves are different kinds of object on
+this axis and this amendment says so. Mirrored at the corpus record's §5 and §13.8.
+
+---
+
+#### (g) One further false claim, corrected outside this protocol — QUANT-1-4
+
+Recorded here for completeness because it belongs to the same cluster as §(b). The
+research agenda's machine-readable `revision_note` asserted that *"three of the five
+records it named as 'named-lineage anchors' … turn out, on their own texts, not to
+be inventory-control models at all"*. **The body establishes two** — Glosten &
+Milgrom and Kyle. Krishnan 1992 and Liu & Wang 2016 are both **[meta]** in this
+corpus, so "on their own texts" is false of any third candidate. Corrected in the
+agenda directly; no protocol clause is affected.
+
+---
+
+#### (h) Provenance of the run these corrections attach to
+
+The 2026-09-03 A16/A17 re-execution emitted **no** ReproLog and **no** sidecar at
+execution time. Both were emitted by the lead session on 2026-09-03 during round-4
+remediation and are cited here as the clone-durable digests, with the paths labelled
+**untracked locators** (`logs/` and `artifacts/` are gitignored):
+
+| artifact | locator | sha256 |
+|---|---|---|
+| ReproLog | `logs/reproducibility/repro_log_b47b1cf8777d494cadc68f5f90847bda.json` | `95c55f0f724c0c5940d3bb7110b67050ffea9c4f551b66f0b732fa9d2393497c` |
+| sidecar | `artifacts/runs/kalshi-arbitrage/b47b1cf8777d494cadc68f5f90847bda/sidecar.json` | `c2523746d054173460fb4ff54f80d97529f77cd284aa2bfb895567b1769a40c7` |
+
+**Two limits on that pair, stated rather than buried.** (i) It was emitted **after**
+the run it describes, at `2026-09-03T20:41:39Z`, against `git_head`
+`01ecfe7822ccca794272c35956ac8f8289d0c20b` — it is a retrospective record, not a
+contemporaneous one, and a retrospective ReproLog pins an input state, not an
+execution. (ii) Its `config_resolved_sha256` is the subset rule's prefix digest
+`5f64d29b…` and its `dataset_checksums` pin the protocol at
+`e93e01516f840a2f9adc2f319f128c4d13403281005fea42037b46790c1b3982`; **this
+amendment moves that protocol digest**, so a reader holding the ReproLog is holding
+the pre-A18 state of this file. That is intended and is recorded, not repaired.
+
+---
+
+**Execution stage.** Retrospective, at round-4 audit remediation. No record was
+read, no record was re-read, no eligibility was assessed, and no extraction was
+performed.
+
+**PRISMA-P items touched.** 11b (selection process), 12 (data items).
+**PRISMA 2020 items touched.** 8 (automation tools), 16b (records excluded after
+assessment).
+
+**Artifacts.**
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-subset-rule.md` — rule text as
+applied, first 10,189 bytes, sha256
+`5f64d29b6868670c4cafc15c89618405c6a64675e4dc62b3557235140ef2c6c6`; whole file as it
+now stands, 14,285 bytes, sha256
+`df009a0de61a4a3c60d5fea66d5bef0b0937b18a983d387a997fa416375557fe`.
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-retrieval-recheck-01.json`
+(sha256 `6c4290c889f7b3d3719f7422bf9cf2ce4633727106146cc4cefe0a051a3b5df8`, new at
+this amendment).
+Unchanged and re-verified against the bytes on disk on 2026-09-03:
+`ka-s4-completion-screen.jsonl` `8e25fa353dad315c10a7734c0e1c5a627a305b7f1fd05ab1d34406d940ef8848`;
+`ka-s4-subset-membership.json` `d32dbc0d5ecad681209d5a76210cf631675c6be7fc64169d65e2bed4c1985207`;
+`ka-s4-retrieval-log.json` `dfdc6d87f61339c266787b84072830fb2429aa75fbf42c4fdbddf44f3a114dcc`;
+`ka-s4-fulltext-extraction.jsonl` `b7970a22c93430b69e30344737c2f8fa0f003a2f7c029545b77f8e6990ee902a`.
+
+
+---
+
+### A19 — 2026-09-04 (round-5 correcting entry) — the quotation audit and four corrected quotations; E10's operative reading; qualifications to A18 §(b) and §(g); and the digest A18 promised — PRISMA-P items 12, 14; PRISMA 2020 items 8, 16b
+
+**Numbering and frozen prefix.** A18 is the last amendment in this addendum. This is
+**A19**. Nothing above the addendum marker is altered: the first **82,677 bytes** of
+this file still hash to
+`99524df02696a59ab878173ce7f3636d9cd07067b5a801a677cdf5d126fa13f4`, re-verified
+against the bytes on disk immediately before this text was appended. The
+protocol-with-addendum digest immediately before this append is
+`dcfae5643ff86e49bbcf33a68e730fcb9d7f46b41f30cbd62bafdd297c3fc4dc` over **183,534
+bytes** — **the value A18 promised and did not publish, published here** (§(e)
+below).
+
+**What this amendment is.** A correcting entry raised by the 2026-09-04 audit round
+against A16, A17 and A18 and against the corpus record's §8.4 prose. **A16, A17 and
+A18 are not edited** — §10 makes this addendum append-only, and A13, A14, A15 and A18
+establish the strike-by-quotation mechanism this entry uses. **No record's verdict
+changes. No transfer status changes. No count in the 197 / 503 subset split or the
+178 include / 12 X5 / 7 undecided verdict split changes. No record is admitted,
+dropped or recoded.** What changes is that four sentences the corpus attributed to
+authors are now the sentences those authors wrote, and that three claims the corpus
+published as established fact now carry the marker its own legend requires.
+
+---
+
+#### (a) THE QUOTATION AUDIT — every verbatim quotation the A17 extraction introduced was re-checked against its source, and seven were altered — LITERATURE-2-1
+
+**Why this is the most serious class of defect this project can produce.** A quoted
+string introduced by an attributive verb asserts that an author wrote those words. A
+count can be re-derived and a verdict can be re-adjudicated; an author's sentence
+cannot be repaired by anything except the sentence. The round-2 audit found one such
+string and this audit looked for the rest.
+
+**Method, so the census is checkable.** All **33** sources the A17 extraction records
+as read at full text were re-retrieved on 2026-09-04 from the routes recorded in
+`ka-s4-fulltext-extraction.jsonl`. **32 of the 33 hash byte-for-byte to the `sha256`
+that record publishes**, which is independent evidence that the A17 retrieval log is
+faithful and that these are the same bytes the extraction read. The exception is
+`gao2010978364217572`: the Harvard DASH endpoint now serves 335,025 bytes hashing to
+`8d4d43396ed33b918452412ec755b4f280c2d31732be52395775ecc8579f18ef` against the
+recorded 335,058 bytes / `b171dfedef2955280409644d613a08cc1c11061a7ccfb920ee3ba3190b1abafd`
+— a 33-byte difference consistent with repository re-serialization of the PDF
+container; both of that record's quoted spans verify verbatim in the re-served bytes,
+and the discrepancy is recorded rather than resolved. **231 quoted spans were
+checked**: **146** in the 33 full-text rows of the extraction log and **85** in §8.4
+of the corpus record. Matching was done on case-folded, punctuation-stripped,
+whitespace-collapsed text with mathematical notation flattened, and every non-exact
+match was then read by eye against the source. **Two records have no usable text
+layer and were verified against rendered page images**, as the extraction row says
+they were originally read: Glosten & Milgrom **pp. 76 and 91**, Kyle **pp. 1316 and
+1317**.
+
+**Result: 7 of 231 spans are altered relative to their sources.** Four of the seven
+reached the corpus record's prose and are corrected at their sites there, each with
+the correction named inline; three exist only in the extraction log. **The extraction
+log's bytes are NOT rewritten** — its digest is published in A17, in A18 and in the
+corpus record's front matter, and A17 and A18 are append-only — so the correct
+verbatim text of all seven is published here and the log is read subject to this
+entry.
+
+| # | record | field / site | what the artifact printed | what the source says | reached §8.4 prose? |
+|---|---|---|---|---|---|
+| 1 | **Feys 2026** (arXiv:2606.01477) | `E10.applicability_conditions_stated[2]`; corpus record §8.4 central block and §8.4.3 | *"the boundedness is the regime in which the dynamic-risk-measure **representation** applies"* | Remark 1, verbatim: *"The boundedness is the regime in which the dynamic-risk-measure **machinery of Kupper and Schachermayer (2009)** applies **directly**."* | **yes, at two sites** |
+| 2 | **Chen & Pennock 2007** (arXiv:1206.5252) | `E10.objective`; §8.4.2 | *"…keeps this expected utility level during the whole process of **the market**."* | *"…keeps this expected utility level during the whole process of **trading**."* | yes |
+| 3 | **Chen, Fortnow, Lambert, Pennock & Wortman 2008** | `E10.payoff_support_assumed`; §8.4.2 | *"**pay** $1 if one of the outcomes in **S** occurs and $0 otherwise"* | *"A compound security S **pays** $1 if one of the outcomes in **the set** S occurs and $0 otherwise."* | yes |
+| 4 | **Kroer, Dudík, Lahaie & Balakrishnan 2016** | `E10.applicability_conditions_stated[2]`; §8.4.2 | *"we hypothesize that while the pricing may be difficult in the worst case, a typical case is amenable to modern integer programming **(IP)** solvers"* | Introduction, verbatim: *"We hypothesize that while the pricing may be difficult in the worst case, a typical case is amenable to modern integer programming solvers."* The **"(IP)"** gloss belongs to a **different** sentence, in the abstract | yes |
+| 5 | **Chakraborty & Kearns 2011** | `E10.applicability_conditions_stated[4]` | *"Most of the theoretical work… considers a single dealer model where all trades **occur through the dealer**."* | *"Most of the theoretical work, as mentioned before, considers a single dealer model where all trades **occurred through the market maker at its quoted prices** [5, 9, 2, 3]."* | no |
+| 6 | **Othman & Sandholm 2011** | `E10.payoff_support_assumed` | *"…exhaustively partitioned into n events, **{1,…,n}**, so that exactly one of **the events** will occur."* | *"…exhaustively partitioned into n events, **{ω₁,…,ω_n}**, so that exactly one of **the ω_i** will occur."* | no |
+| 7 | **Moallemi, Robinson & Zhu 2026** | `identity_check.evidence` | *"page 1 reads … Ciamac C. Moallemi **(Columbia GSB)**, Dan Robinson **(Paradigm)**, … **(Uniswap Labs)**"* | Page 1 carries the affiliations in full — *"Decision, Risk, and Operations Division, Graduate School of Business, Columbia University"*, *"Paradigm"*, *"Uniswap Labs"*, *"Dan Robinson, Paradigm"*, *"Brian Zhu, Department of Industrial Engineering and Operations Research, Columbia University"* — not the abbreviations, which are this corpus's | no |
+
+**What none of the seven does.** **No transfer status, no verdict, no count and no
+record changes.** Defect 1 is the one that carried weight: it sits inside the REV-1-4
+remediation text and is the sentence on which §8.4's revised Feys classification
+rests. The classification survives the correction unchanged — the author does state a
+boundedness regime, which is what §8.4.3 asserts and what the central block was
+corrected to say — but he states it about *the dynamic-risk-measure machinery of
+Kupper and Schachermayer*, and the corpus had no licence to compress that into
+"representation" inside quotation marks.
+
+**One further class, recorded rather than corrected, because it is a convention and
+not an error.** §8.4 applies **bold emphasis inside quoted spans** without an
+"emphasis added" note, and transliterates mathematical notation into ASCII inside
+quotations (σ → `sigma`, ṽ → `v-tilde`, Σ₀ → `Sigma_0`, ρ(O) preserved where the
+glyph renders). Both are stated here so a reader knows the quoted text is
+typographically normalised. The extraction discipline A17 declared — *"Where a glyph
+could not be reconstructed with confidence, the quotation was cut short rather than
+guessed"* — held in every case checked.
+
+**What is NOT claimed by this audit.** It covers the **full-text** records only.
+The 21 abstract-depth and 5 metadata-depth rows, and every quotation in §§8.1–8.3
+and 8.5–8.6, were **not** re-checked against their sources, and no claim is made
+about them here.
+
+---
+
+#### (b) E10's transfer status — the operative reading is recorded, and it is not the frozen definition — LITERATURE-2-3
+
+**The frozen definition, §5 field E10:**
+
+> "Plus **transfer status** — does **the record itself** address bounded [0,1]
+> payoffs with terminal settlement at an endpoint: `addressed` / `not addressed` /
+> `explicitly excluded`"
+
+**That is a property of the record.** The A17 execution assigned `explicitly excluded`
+to **Kyle 1985** and **Avellaneda & Stoikov 2008** and `addressed` to **Glosten &
+Milgrom 1985** while the same execution records, in the corpus record's own words,
+that *"None of them mentions binary, bounded or event contracts anywhere the corpus
+read"*, and while marking the compatibility judgements **[corpus-inference]** at the
+per-record entries. On the frozen definition those three labels say the authors did
+something the corpus says the authors did not do.
+
+**The operative reading, recorded here rather than smuggled.** As applied from A17
+onward, E10's transfer status is a judgement about **compatibility between the
+payoff class and the assumptions the record's own text states**, not a finding that
+the record addressed the question:
+
+| value | frozen reading | operative reading as applied |
+|---|---|---|
+| `addressed` | the record itself takes up bounded [0,1] payoffs settling at an endpoint | the record states an assumption **that such a payoff satisfies**, and the corpus can quote it |
+| `explicitly excluded` | the record itself rules such payoffs out | the record states an assumption **that such a payoff cannot satisfy**, and the corpus can quote it |
+| `not addressed` | the record says nothing either way | the record states **no assumption that bears** either way, or none the corpus could reach at the depth read |
+
+**Which is chosen, and why no verdict moves.** The operative reading is **recorded as
+the reading in force**, and Kyle, Avellaneda & Stoikov and Glosten & Milgrom are
+**not re-coded**. Re-coding them to `not addressed` would be a truer statement of the
+frozen definition, but it would discard information the corpus actually has — a
+quoted assumption and a stated incompatibility — and it would change three verdicts,
+which this session's scope forbids. **The cost of the choice is stated: under the
+operative reading, a transfer status is a two-part object — an author's sentence plus
+this corpus's compatibility judgement — and the second part is always
+[corpus-inference].** Every per-record entry in §8.4.3 already marks it. §10 gap G-5
+did not, and is corrected in the corpus record under this amendment.
+
+**A18 §(b) is qualified, not struck.** A18 §(b) states:
+
+> "Three E10 transfer statuses changed and one was confirmed at full text, and **each
+> rested on a sentence the authors wrote**."
+
+**The clause "each rested on a sentence the authors wrote" is true and incomplete,
+and the completion is:** each rested on a sentence the authors wrote **plus a
+compatibility judgement this corpus made from it**, which is [corpus-inference] and
+is not the authors'. The sentences, named so the two parts are separable:
+
+| record | the sentence the authors wrote | what this corpus inferred from it |
+|---|---|---|
+| Glosten & Milgrom 1985 → `addressed` | p. 76: *"At some time T₀ in the future, some random dollar value V [V ≥ 0, var(V) < ∞] per share will be realized, and the informed have information about this random variable V."* | that a payoff bounded in [0,1] settling at an endpoint **satisfies** V ≥ 0 with finite variance realised at a terminal date — **[corpus-inference]** |
+| Kyle 1985 → `explicitly excluded` | p. 1317: *"The ex post liquidation value of the risky asset, denoted ṽ, is normally distributed with mean p₀ and variance Σ₀."* | that a normal distribution has unbounded support and a [0,1]-valued payoff is therefore **not** a realisation of it — **[corpus-inference]** |
+| Avellaneda & Stoikov 2008 → `explicitly excluded` | §2.1, the driftless arithmetic Brownian mid-price `dS_u = σ dW_u`, with terminal value a mark-to-market at S_T | the same incompatibility, plus that a mark-to-market is not a settlement — **[corpus-inference]** |
+| Guéant, Lehalle & Fernandez-Tapia → `explicitly excluded`, confirmed | abstract, verbatim: *"The market is modeled using a reference price S_t following a Brownian motion with standard deviation σ, arrival rates of buy or sell liquidity-consuming orders depend on the distance to the reference price S_t and a market maker maximizes the expected utility of its P&L over a finite time horizon."* | the same incompatibility — **[corpus-inference]** |
+
+**None of these four verdicts changes.** What changes is that the second half of each
+is now labelled as the corpus's step and not the authors'.
+
+---
+
+#### (c) A18 §(g)'s Kyle half carries the marker its own legend requires — QUANT-2-3
+
+A18 §(g) records:
+
+> "**The body establishes two** — Glosten & Milgrom and Kyle."
+
+**A18 is append-only and is not edited; the clause is qualified here.** The two halves
+do not rest on the same kind of evidence and the corpus record's §8.4 legend defines
+**[corpus-inference]** as *"a step this corpus takes from something an author states
+to something the author does not state"*, requiring the flag *"here and in the
+extraction file"*. The Kyle half is exactly such a step:
+
+- **Glosten & Milgrom** is established **from the authors' own text** — the footnote
+  *"if we were to recognize binding inventory constraints, we could not have a zero
+  profit condition"*, verified against the retrieved scan on 2026-09-04.
+- **Kyle** is established **as an inference from absence** over **pp. 1315-1317
+  only** — the abstract, introduction and §2 model setup, read as rendered page
+  images because the scan has no text layer. The extraction row states in terms that
+  *"The remaining pages were NOT read."* Kyle states no inventory objective **and
+  states no absence of one either**. **[corpus-inference]**
+
+**What replaces the clause for a downstream consumer:** *"The body establishes two —
+Glosten & Milgrom from the authors' own footnote, and Kyle **[corpus-inference]** as
+an inference from absence over pp. 1315-1317, the only pages read, and not over the
+article."* The same qualifier is added at the three research-agenda sites that carried
+the claim unmarked — the machine-readable `revision_note`, the Branch 2 premise
+heading, and Branch 2b's founding paragraph — under findings QUANT-2-3, REV-2-3 and
+LITERATURE-2-4.
+
+---
+
+#### (d) What the audit did NOT find, recorded so a later round does not re-raise it
+
+Four claims raised against this branch in the 2026-09-04 round were **refuted with
+evidence** and are named here rather than left to be re-litigated: the "four
+transfer determinations changed" correction landed correctly and is not double-counted
+(REV-2-2); the prefix-digest arrangement in the subset-rule file is sound
+(REPRODUCIBILITY-2-2); the Feys quotation *"genuinely outside the scope"* **is
+verbatim** — the source reads *"Path-functional preferences in the strict sense
+(e.g., maximum-drawdown aversion or time-average wealth) are genuinely outside the
+scope of Proposition 7"* (LITERATURE-2-2); and the §8.4 quoted-span scan against the
+extraction file was correct (FORMAT-2-3). **Independently re-verified in this audit:**
+of the 231 spans checked, the Feys "genuinely outside the scope" span, the
+*"we note the scope of the present contribution. We do not model adverse selection…"*
+span, the Glosten & Milgrom p. 76 and p. 91 spans, the Kyle p. 1316 and p. 1317 spans
+and the Guéant et al. abstract span all verify **verbatim**.
+
+---
+
+#### (e) THE DIGEST A18 PROMISED, AND THE RULE THAT MAKES THE PROMISE SATISFIABLE — FORMAT-2-1
+
+A18 opens:
+
+> "The protocol-with-addendum digest immediately before this append is
+> `e93e01516f840a2f9adc2f319f128c4d13403281005fea42037b46790c1b3982` over 160,105
+> bytes; this append supersedes it **and the new value is published at the end of this
+> entry**."
+
+**The clause "and the new value is published at the end of this entry" is STRUCK, and
+it was unsatisfiable as written.** A18's *Artifacts* block publishes only the
+search-log and rule-file digests, so a reader holding only this protocol was left with
+a dangling forward reference and with `e93e0151…` as the last digest the file itself
+states — the exact failure the frozen-prefix discipline exists to prevent. And the
+promise could not have been kept: **a whole-file SHA-256 cannot be written inside the
+file it digests**, because writing it changes the bytes it is a digest of.
+
+**What replaces it, and the standing rule for every future amendment.**
+
+1. **The post-A18 value is published here, one amendment later, which is the earliest
+   point at which it can be stated at all:**
+   `dcfae5643ff86e49bbcf33a68e730fcb9d7f46b41f30cbd62bafdd297c3fc4dc` over **183,534
+   bytes**, covering amendments **A1–A18**, superseding
+   `e93e01516f840a2f9adc2f319f128c4d13403281005fea42037b46790c1b3982` (160,105 bytes,
+   A1–A17) and `97a4b61d5b8db0d1c639a06b8fd6d4e35f2b2e821c7a263f2d80b6bd22d4a07a`
+   (148,467 bytes, A1–A16).
+2. **This amendment does not state its own post-append value**, for the same reason.
+   The **post-A19** whole-file digest is published by the consuming artifacts and
+   nowhere else: the corpus record's **§13.1**, its front-matter `protocol_amendments`
+   field, the research agenda's front-matter `protocol` field, and the
+   `dataset_checksums` of the round-2 remediation ReproLog named in §(f).
+3. **What a digest written inside this file CAN cover, and does:** the **frozen
+   prefix**. The first 82,677 bytes hash to
+   `99524df02696a59ab878173ce7f3636d9cd07067b5a801a677cdf5d126fa13f4` and that
+   statement is self-consistent because the prefix ends above every amendment. **Any
+   whole-file digest stated in this file is necessarily the digest of a PREVIOUS
+   state, never of the state a reader is holding**, and every such value in this
+   addendum should be read that way.
+
+---
+
+#### (f) Provenance of the two remediation passes these corrections attach to — REPRODUCIBILITY-2-1
+
+**The round-1 remediation pass (2026-09-03) emitted no ReproLog and no sidecar at
+execution time either**, and its absence was nowhere disclosed. That pass performed
+live network retrieval — the A16 four-arm chain re-run producing
+`ka-s4-retrieval-recheck-01.json` — and produced A18 itself, which is exactly the
+class of run the project's reproducibility contract covers. The pair for it was
+emitted **retrospectively on 2026-09-04** by hashing the bytes on disk, run_id
+**`9c27ee4ba0264615a1e331f7112e96d6`**. **The round-2 remediation pass — the one this
+amendment belongs to — emitted its pair at the end of the pass**, run_id
+**`ff5cee87d13144838870d65b726ae2ac`**; it performed live network retrieval of its
+own, namely the 33 re-retrievals of §(a) plus the arXiv HTML of 2606.01477 in two
+versions.
+
+**Both pairs live at untracked locators** (`logs/` and `artifacts/` are gitignored):
+`logs/reproducibility/repro_log_{run_id}.json` and
+`artifacts/runs/kalshi-arbitrage/{run_id}/sidecar.json`. **Their SHA-256 values are
+published by the corpus record's §13.8 limits 6 and 7 and by its §13.9 traceability
+table, not here** — the round-2 log's `dataset_checksums` pin this file in its
+post-A19 state, so its digest cannot be stated inside this file for the reason §(e)
+gives.
+
+**Three limits on both pairs, stated rather than buried.** (i) The round-1 pair is
+**retrospective** and pins an input state, not an execution. (ii) Neither pass is
+replayable: both are single-pass LLM outputs with no archived prompt and no
+recoverable sampling parameters, the defect A18 §(f) records for the A16/A17 stage.
+(iii) Live retrieval is reproducible only up to the remote services' availability —
+the round-1 four-arm re-run met HTTP 429 on two of six arms for three of four
+records, and the round-2 re-retrieval met a re-serialized PDF at one of 33 routes.
+
+---
+
+**Execution stage.** Retrospective, at round-5 audit remediation. **No record was
+read for eligibility, no record was re-screened, no extraction was performed, and no
+transfer status was re-decided.** Thirty-three previously-read full texts were
+re-retrieved for quotation verification only.
+
+**PRISMA-P items touched.** 12 (data items), 14 (data synthesis / appraisal posture).
+**PRISMA 2020 items touched.** 8 (automation tools), 16b (records excluded after
+assessment).
+
+**Artifacts.**
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-fulltext-extraction.jsonl` —
+**bytes unchanged**, sha256 `b7970a22c93430b69e30344737c2f8fa0f003a2f7c029545b77f8e6990ee902a`;
+the seven altered quoted spans of §(a) are corrected **in this amendment and in the
+corpus record**, and the log is read subject to §(a).
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-completion-screen.jsonl` —
+unchanged and re-verified against the bytes on disk on 2026-09-04,
+`8e25fa353dad315c10a7734c0e1c5a627a305b7f1fd05ab1d34406d940ef8848`.
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-subset-rule.md` — unchanged; first
+10,189 bytes still `5f64d29b6868670c4cafc15c89618405c6a64675e4dc62b3557235140ef2c6c6`,
+whole file 14,285 bytes `df009a0de61a4a3c60d5fea66d5bef0b0937b18a983d387a997fa416375557fe`.
+`docs/literature/search_logs/kalshi-arbitrage/ka-s4-retrieval-recheck-01.json` —
+unchanged, `6c4290c889f7b3d3719f7422bf9cf2ce4633727106146cc4cefe0a051a3b5df8`.
+**Cross-branch, recorded here because the round-2 ReproLog covers both branches:**
+`docs/literature/search_logs/explosive-regime/se-verify-loadbearing-01.json` was
+amended on 2026-09-04 under finding QUANT-2-2 — its `scan_scope` named a repository
+state at which its published candidate denominator does not reproduce — and its digest
+moves from `dfd4f6a12414bb0f93c34deb15d4fa89a128ee3b3517781f3c275796a6324c81` to the
+value published in the explosive-regime review's §15 artifact row. **No item, verdict
+or count in that log changed.**
+
+*(Round-5 findings LITERATURE-2-1, LITERATURE-2-3, LITERATURE-2-4, QUANT-2-3,
+REV-2-3, REPRODUCIBILITY-2-1, FORMAT-2-1.)*

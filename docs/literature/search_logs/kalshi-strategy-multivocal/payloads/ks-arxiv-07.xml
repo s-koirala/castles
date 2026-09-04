@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xnZ4dzcI1A+LWNkiKmQqGjh4Q78</id>
+  <title>arXiv Query: search_query=abs:"Polymarket" AND abs:"arbitrage"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-09-04T15:16:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22Polymarket%22+AND+abs:%22arbitrage%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.03474v1</id>
+    <title>Unravelling the Probabilistic Forest: Arbitrage in Prediction Markets</title>
+    <updated>2025-08-05T14:06:50Z</updated>
+    <link href="https://arxiv.org/abs/2508.03474v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.03474v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Polymarket is a prediction market platform where users can speculate on future events by trading shares tied to specific outcomes, known as conditions. Each market is associated with a set of one or more such conditions. To ensure proper market resolution, the condition set must be exhaustive -- collectively accounting for all possible outcomes -- and mutually exclusive -- only one condition may resolve as true. Thus, the collective prices of all related outcomes should be \$1, representing a combined probability of 1 of any outcome. Despite this design, Polymarket exhibits cases where dependent assets are mispriced, allowing for purchasing (or selling) a certain outcome for less than (or more than) \$1, guaranteeing profit. This phenomenon, known as arbitrage, could enable sophisticated participants to exploit such inconsistencies.
+  In this paper, we conduct an empirical arbitrage analysis on Polymarket data to answer three key questions: (Q1) What conditions give rise to arbitrage (Q2) Does arbitrage actually occur on Polymarket and (Q3) Has anyone exploited these opportunities. A major challenge in analyzing arbitrage between related markets lies in the scalability of comparisons across a large number of markets and conditions, with a naive analysis requiring $O(2^{n+m})$ comparisons. To overcome this, we employ a heuristic-driven reduction strategy based on timeliness, topical similarity, and combinatorial relationships, further validated by expert input.
+  Our study reveals two distinct forms of arbitrage on Polymarket: Market Rebalancing Arbitrage, which occurs within a single market or condition, and Combinatorial Arbitrage, which spans across multiple markets. We use on-chain historical order book data to analyze when these types of arbitrage opportunities have existed, and when they have been executed by users. We find a realized estimate of 40 million USD of profit extracted.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-05T14:06:50Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Oriol Saguillo</name>
+    </author>
+    <author>
+      <name>Vahid Ghafouri</name>
+    </author>
+    <author>
+      <name>Lucianna Kiffer</name>
+    </author>
+    <author>
+      <name>Guillermo Suarez-Tangil</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.03888v1</id>
+    <title>PolySwarm: A Multi-Agent Large Language Model Framework for Prediction Market Trading and Latency Arbitrage</title>
+    <updated>2026-04-04T22:51:06Z</updated>
+    <link href="https://arxiv.org/abs/2604.03888v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.03888v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents PolySwarm, a novel multi-agent large language model (LLM) framework designed for real-time prediction market trading and latency arbitrage on decentralized platforms such as Polymarket. PolySwarm deploys a swarm of 50 diverse LLM personas that concurrently evaluate binary outcome markets, aggregating individual probability estimates through confidence-weighted Bayesian combination of swarm consensus with market-implied probabilities, and applying quarter-Kelly position sizing for risk-controlled execution. The system incorporates an information-theoretic market analysis engine using Kullback-Leibler (KL) divergence and Jensen-Shannon (JS) divergence to detect cross-market inefficiencies and negation pair mispricings. A latency arbitrage module exploits stale Polymarket prices by deriving CEX-implied probabilities from a log-normal pricing model and executing trades within the human reaction-time window. We provide a full architectural description, implementation details, and evaluation methodology using Brier scores, calibration analysis, and log-loss metrics benchmarked against human superforecaster performance. We further discuss open challenges including hallucination in agent pools, computational cost at scale, regulatory exposure, and feedback-loop risk, and outline five priority directions for future research. Experimental results demonstrate that swarm aggregation consistently outperforms single-model baselines in probability calibration on Polymarket prediction tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-04T22:51:06Z</published>
+    <arxiv:comment>13 pages, 3 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Rajat M. Barot</name>
+    </author>
+    <author>
+      <name>Arjun S. Borkhatariya</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.00864v1</id>
+    <title>Arbitrage Analysis in Polymarket NBA Markets</title>
+    <updated>2026-04-22T03:01:49Z</updated>
+    <link href="https://arxiv.org/abs/2605.00864v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.00864v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While decentralized prediction markets like Polymarket have gained significant traction, their market microstructure and high-frequency pricing efficiency remain underexplored. This paper conducts a systematic empirical analysis of algorithmic arbitrage within Polymarket's NBA game markets. By reconstructing continuous market states from over 75 million limit order book snapshots across 173 games, we evaluate the frequency, duration, and profitability of both single-market and combinatorial arbitrage opportunities. Our findings demonstrate profound microstructural efficiency. Single-market anomalies are exceedingly rare, yielding only 7 executable in-game episodes that persist for a median duration of just 3.6 seconds. Combinatorial inefficiencies are more frequent, producing 290 active episodes overwhelmingly concentrated in the final minutes of live play. While combinatorial execution yields a statistically meaningful median return of 101 basis points, we find that the theoretical "Middle" jackpot is never empirically realized. Furthermore, execution is severely bottlenecked by shallow order book depth, with 76.9\% of combinatorial opportunities constrained to an average executable size of just 14.8 shares. Ultimately, while executable mispricings exist, they are structurally bounded by liquidity, confining risk-free extraction strictly to the retail scale.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-22T03:01:49Z</published>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Guang Cheng</name>
+    </author>
+    <author>
+      <name>Jiaxin Yang</name>
+    </author>
+    <author>
+      <name>Haoxuan Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.00666v1</id>
+    <title>Executable Arbitrage and Market Efficiency in Prediction Markets</title>
+    <updated>2026-08-01T13:42:28Z</updated>
+    <link href="https://arxiv.org/abs/2608.00666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.00666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deterministic payoff identities imply no-arbitrage bounds in winner-takes-all prediction markets, but violations of these bounds need not be exploitable before settlement. We distinguish payoff-space no-arbitrage, which follows from terminal payoffs, from protocol-executable no-arbitrage, which depends on the position transformations available to traders. Polymarket's negative-risk markets make this distinction observable: linked binary markets represent mutually exclusive outcomes, while the NegRisk Adapter operationalizes only the NO-to-YES direction before settlement. We reconstruct depth-aware executable portfolio values and combine them with actor-level transaction histories and on-chain conversion traces to measure payoff-bound violations and exploitation. Our reconstruction estimates \$1.12 million in arbitrage profit across two realization channels: \$1.086 million from converter-enabled strategies and \$32 thousand from settlement-based basket formation. In the CLOB sample, positive violations concentrate on the unsupported YES side, whereas adapter-supported NO-side violations are substantially less frequent and shorter-lived. These patterns are consistent with the view that pre-settlement conversion strengthens enforcement by reducing capital lock-up and enabling inventory recycling. Finally, we implement a prototype bidirectional extension of the NegRisk Adapter that makes the reverse path executable before settlement. Together, our findings show that market efficiency depends not only on payoff structure, but also on whether protocols expose payoff equivalences as executable primitives.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-01T13:42:28Z</published>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Jonas Gebele</name>
+    </author>
+    <author>
+      <name>Timm Mutzel</name>
+    </author>
+    <author>
+      <name>Florian Matthes</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.03136v2</id>
+    <title>The Anatomy of a Blockchain Prediction Market: Polymarket in the 2024 U.S. Presidential Election</title>
+    <updated>2026-05-07T08:33:04Z</updated>
+    <link href="https://arxiv.org/abs/2603.03136v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.03136v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using on-chain Polygon data, we analyze Polymarket's 2024 U.S. Presidential Election market and develop a transaction-level accounting framework with two components: a volume decomposition that separates exchange-equivalent turnover from share minting and burning, and trader-level disagreement measures. Naive aggregation reports $958M of October Trump-market volume, compared with $391M under our decomposition. Market quality improved as arbitrage-deviation half-lives fell from hours to under a minute and Kyle's λ dropped from 0.53 to 0.01. During October's large-account episode, capital flowed into both sides simultaneously, consistent with heterogeneous-beliefs trading rather than one-sided manipulation. The framework generalizes to other tokenized prediction markets.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-03T16:15:41Z</published>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Kwok Ping Tsang</name>
+    </author>
+    <author>
+      <name>Zichao Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.16852v1</id>
+    <title>The Ghosts of Polymarket: When Off-Chain Matches Meet On-Chain Reverts</title>
+    <updated>2026-06-15T15:26:27Z</updated>
+    <link href="https://arxiv.org/abs/2606.16852v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.16852v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Polymarket has emerged as a prominent prediction market platform and one of the fastest-growing applications in DeFi. To achieve low-latency trading, it adopts a hybrid architecture that matches orders off-chain but settles them on-chain for final execution. This design creates a consistency gap we call Ghost Fills: an order that is successfully matched off-chain may later fail during on-chain settlement. To understand the security implications of this gap, we investigate such failed settlements by building GHOSTHUNTER, which reconstructs them from on-chain traces and attributes to concrete attack patterns. Across 1,952,440 reverted match-order transactions, we find that attackers exploit the time gap between matching and settlement to invalidate already matched orders before they are finalized on-chain. We then identify four attack vectors from these incidents: nonce bump, balance drain, allowance revoke, and proxy trap, realized via 35 evolving variants. These vectors allow attackers to selectively revert 980,133 filled orders, enabling risk-free prediction, arbitrage-bot hunting, and liquidity reward manipulation, realizing at least \$1.49M in profit, which places \$1.78 B USD at risk and 2.17 M POL (about \$212 K) paid by operator. During peak hours, more than 24.3% of all filled orders reverted, causing de facto DoS attacks. We also find that code derived from the flawed contract still appears in 167 independent contracts across 10 chains holding at least \$23 M in user funds, extending the impact beyond Polymarket. We have disclosed our evidence to affected parties, and the issue has been partially mitigated.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-15T15:26:27Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yiming Shen</name>
+    </author>
+    <author>
+      <name>Yuhan Jin</name>
+    </author>
+    <author>
+      <name>Shuohan Wu</name>
+    </author>
+    <author>
+      <name>Yanlin Wang</name>
+    </author>
+    <author>
+      <name>Jiachi Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.19517v1</id>
+    <title>Do Prediction Markets Match Option Prices? Bitcoin Threshold Evidence from Binance and Polymarket</title>
+    <updated>2026-06-17T19:06:52Z</updated>
+    <link href="https://arxiv.org/abs/2606.19517v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.19517v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The digitization of financial markets has produced two classes of platforms that price, in principle, the same state - contingent payoffs: centralized crypto-option exchanges and blockchain-based prediction markets. This paper provides the first option-implied benchmark test of prediction-market pricing for cryptocurrency threshold contracts. For each hour in a matched sample, we compare the Polymarket Yes price with the discounted risk-neutral binary value implied by a listed Binance call option on the same underlying, strike, and maturity, and study the gap between them. In the main September 2023 Bitcoin contract, the mean pricing gap equals 5.6 percentage points across 214 hourly observations (t = 6.46, p &lt; 10^{-9}). Pooling three Binance-compatible Bitcoin threshold markets yields a mean gap of 6.3 percentage points across 287 observations, robust to HAC and block-bootstrap inference. The gap is persistent - with an AR(1) half-life of roughly four hours - yet mean-reverting, consistent with slow information transmission between segmented venues rather than mechanical noise. Cross-sectional regressions reveal that the wedge is largest at low option-implied probabilities and long maturities, a pattern consistent with speculative demand for prediction-market contracts rather than measurement error. A delta-hedged arbitrage proxy remains profitable after conservative transaction costs, though with marginal statistical precision. A Deribit extension on the same three Bitcoin contracts produces a larger pooled gap of 11 percentage points, while a smaller Ethereum exercise yields mixed evidence. The results demonstrate that digital fragmentation of financial markets generates systematic, persistent pricing wedges even for economically identical payoffs.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-17T19:06:52Z</published>
+    <arxiv:comment>22 pages, 6 figures, 7 tables; JEL: G13, G14, G19</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Victoria Portnaya</name>
+    </author>
+  </entry>
+</feed>

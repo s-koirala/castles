@@ -1,0 +1,1800 @@
+{
+ "log_id": "se-verify-loadbearing-01",
+ "created": "2026-09-03",
+ "review": "docs/literature/lit_review_explosive-regime-dating_2026-08-24.md",
+ "spec": "docs/deliverables/deliverable_spec_s4-reexecution-and-repo-gaps_2026-09-03.md (Thread C)",
+ "automation_tool": {
+  "model": "claude-opus-5",
+  "role": "retrieval, reading, verification, remediation",
+  "second_verifier": null
+ },
+ "scope": {
+  "declaration": "TARGETED verification of the load-bearing set only. This is NOT a sweep of the 72-record corpus. No record outside the set enumerated in `items` was opened.",
+  "inclusion_rule_fixed_before_retrieval": "An item is load-bearing iff it is a page locator, a table / theorem / equation / footnote identifier, or a quoted string, AND either (a) it appears inside the review's SECTION 7 SYNTHESIS PROSE - the six 'Synthesis claim' paragraphs, the four TO COMPUTE handoff paragraphs, the 7.2 / 7.3 / 7.4 lead-in paragraphs those claims rest on, 7.6's three causality traps, 7.7's six pooling-failure rows and 7.8's twelve per-detector rows - or (b) it is cited by docs/research_notes/research_agenda_regime-classification_2026-08-21.md.",
+  "exclusion_rule": "Rows of the section-7 evidence tables that no synthesis paragraph re-cites are INVENTORY, not load-bearing, and were deliberately NOT verified. Sections 8, 9.1 and 9.3 were re-read at rounds 2 and 3 and were not re-opened here. Any record in neither category is out of scope and is counted in the residual.",
+  "out_of_corpus_agenda_citations_declared_out_of_scope": [
+   "Hall & York (2001), Statistica Sinica 11:515-536, and its Table 1 - belongs to the f005-class-n-tests corpus, not this review's",
+   "Hamilton (1989), Econometrica 57(2):357-384 - belongs to the regime-classification corpus, not this review's"
+  ],
+  "records_outside_frozen_72": [
+   "NB-08 - adjudicated outside the corpus per review section 9.0, but in scope because the agenda cites it"
+  ],
+  "set_size_items": 50,
+  "set_size_records": 21,
+  "inclusion_rule_priority_is_SELF_ATTESTED": "ADDED 2026-09-03 at round-4 audit remediation, finding QUANT-1-5 (major, quant-auditor, not refuted). The key `inclusion_rule_fixed_before_retrieval` asserts that this stage's scoping rule was fixed before the first retrieval. THAT CLAIM IS SELF-ATTESTED AND CARRIES NO EXTERNAL TIMESTAMP OF ANY KIND. Unlike Thread A's SR-1/SR-2, which were at least written to a separate file and hashed before the verdict file was emitted (see docs/literature/search_logs/kalshi-arbitrage/ka-s4-subset-rule.md - itself only self-attested, protocol amendment A18), this rule was never carried by a separately written, timestamped or digested artifact. The key name IS the whole of the evidence, and this log was written AFTER the retrievals it describes, so as recorded the claim is unfalsifiable. What would have established it: write the rule to its own file and commit it, or a commit trailer carrying its SHA-256, BEFORE the first retrieval - the mechanism commit 27d74738aa35ec1cdf1ec6915b50532e3620ea6f used to register the kalshi-arbitrage protocol before any query ran - and cite that commit as the priority evidence. This does not impeach the rule's CONTENT, which is auditable on its face against the review's section 7; it leaves the ORDERING unestablished. Binding on any successor scoping stage."
+ },
+ "counts": {
+  "items_total": 50,
+  "verified": 35,
+  "corrected": 7,
+  "unverifiable": 8,
+  "records_in_load_bearing_set": 21,
+  "records_retrieved_at_full_text": 15,
+  "records_not_retrieved": 6,
+  "corpus_records_read_at_full_text_across_all_rounds": 14,
+  "corpus_size": 72,
+  "corpus_records_never_read_at_any_verification_round": 58,
+  "sec7_candidate_denominator": {
+   "added": "2026-09-03, finding QUANT-1-5: the 50-item set was reported with no denominator, so a reader could not tell whether it was 50 of ~60 candidates or 50 of ~110. It is ~110.",
+   "scan_scope": "CORRECTED 2026-09-04, finding QUANT-2-2. The published figures 77/26, 30/28 and 107/54 are measured on the POST-CORRECTION section 7 of docs/literature/lit_review_explosive-regime-dating_2026-08-24.md - section 7 runs from its heading at line 1485 to the section-8 heading at line 2059 in the file this remediation delivers, whose SHA-256 is published in the digest_supersession_2026_09_04 block below. They do NOT reproduce at git HEAD 01ecfe7822ccca794272c35956ac8f8289d0c20b, which the superseded scan_scope named. MECHANICAL SCAN, not a semantic classification.",
+   "scan_scope_superseded": "docs/literature/lit_review_explosive-regime-dating_2026-08-24.md lines 1467-2040 as of git HEAD 01ecfe7822ccca794272c35956ac8f8289d0c20b, i.e. the whole of section 7 up to the section-8 heading. WRONG ON TWO COUNTS and retained so the error stays checkable: (i) at that HEAD section 7 runs 1467-2038 with the section-8 heading at 2039, so the stated range 1467-2040 overshoots by one line; (ii) the regexes below return 91 occurrences / 42 distinct strings there, not the 107/54 published, because that HEAD predates this very pass's six corrections to section 7.",
+   "pre_correction_pool": {
+    "why_this_field_exists": "The candidate denominator was measured AFTER this pass had already written its own corrections into section 7, so a fraction of the counted occurrences were authored by the verification rather than being candidates for it. Both states are given so the reader can see the difference rather than take the larger number on trust.",
+    "state": "section 7 at git HEAD 01ecfe7822ccca794272c35956ac8f8289d0c20b, lines 1467-2038, section-8 heading at 2039",
+    "locator_occurrences": 69,
+    "locator_distinct_strings": 22,
+    "quoted_span_occurrences": 22,
+    "quoted_span_distinct_strings": 20,
+    "candidate_occurrences_total": 91,
+    "candidate_distinct_strings_total": 42,
+    "delta_authored_by_this_pass": "17 candidate occurrences (17 distinct strings) were ADDED to section 7 by this pass's six corrections_applied_to_review, and 1 was removed: 91 + 17 - 1 = 107. The added strings are the locators and quoted spans the corrections supplied - among them 'p.1088', 'pp.1086-1087', 'pp.222-224', 'p.221', 'table 1', 'table 3', 'table 4', 'theorem 6', 'theorem 7', and the replacement quotations about gamma = 0.35 / gamma = 0.45 and the SMIN crash monitor. Both states were re-derived on 2026-09-04 by running the two regexes in this block against the two file states.",
+    "coverage_against_the_pool_actually_drawn_from": "45 review-site items against 91 occurrences / 42 distinct strings. This is an UPPER bound on coverage, not a ratio, for two reasons stated rather than buried: the unit_mismatch_disclosed note below (an item is a claim-level unit and does not map one-to-one onto a scanned string), and the fact that a subset of the 45 verifies a locator this pass itself supplied, which was not in the pool it drew from."
+   },
+   "locator_regex": "(?:\\bpp?\\.\\s?\\d+(?:[-\\u2013]\\d+)?|\\bTable\\s+[A-Z]?\\d+|\\bFig(?:ure)?\\.?\\s+\\d+|\\beq\\.?\\s*\\(\\d+\\)|\\bequation\\s+\\(?\\d+\\)?|\\bTheorem\\s+\\d+|\\bProp(?:osition)?\\.?\\s+\\d+|\\bLemma\\s+\\d+|\\bfootnote\\s+\\d+), case-insensitive",
+   "quoted_span_regex": "\"([^\"\n]{3,500})\" - section 7 carries no curly quotation marks",
+   "locator_occurrences": 77,
+   "locator_distinct_strings": 26,
+   "quoted_span_occurrences": 30,
+   "quoted_span_distinct_strings": 28,
+   "candidate_occurrences_total": 107,
+   "candidate_distinct_strings_total": 54,
+   "items_in_this_log_drawn_from_a_section_7_site": 45,
+   "items_in_this_log_drawn_from_an_agenda_citation": 5,
+   "items_total": 50,
+   "reading": "CORRECTED 2026-09-04, finding QUANT-2-2. 45 of the 50 verified items carry a section-7 review_site; the other 5 (LB-46..LB-50) are agenda citations that no section-7 synthesis paragraph carries. The denominator the coverage should be stated against is the PRE-CORRECTION pool this pass drew from - 91 occurrences / 42 distinct strings at 01ecfe7 - not the 107/54 measured after the pass had written 17 further occurrences into section 7. Against 107 occurrences the load-bearing set took 45; against the 91 it actually drew from, 45, and both figures are bounds rather than ratios. The residual ~62 occurrences are what the exclusion_rule calls INVENTORY - evidence-table rows no synthesis paragraph re-cites - plus repeat occurrences of a locator already verified once, plus quoted spans that are this review's own terminology rather than a source quotation (e.g. \"always upward\", \"origination delay\"). THOSE THREE CLASSES WERE NOT SEPARATED HERE. 45-of-107 is therefore an order-of-magnitude denominator and not an exact eligible-of-candidates ratio, and no claim is made that the 62 are all inventory.",
+   "unit_mismatch_disclosed": "An `item` in this log is a CLAIM-level unit - a locator together with the number or string it carries - and does not map one-to-one onto a scanned string. Some items bundle two scanned strings (a table id plus a page), and some scanned strings support no verified item. The ratio bounds the coverage; it does not measure it."
+  }
+ },
+ "residual_statement": "14 of the 72 frozen records have now been read at full text at some verification round - 4 before this pass (eru-0131, eru-0393, eru-0395, eru-1289) and 10 added here (eru-1044, eru-1852, eru-1921, eru-1845, eru-1844, eru-0889, eru-1038, eru-1716, eru-1519, eru-1031), several of those at their load-bearing points only and three in a version other than the one their DOI names. 58 of the 72 have never been read at any verification round. Every value in the review outside the item list below rests on a single-session extraction transcription. The error rate measured on re-read texts across rounds 2, 3 and 4 gives no ground for assuming the 58 are clean.",
+ "unreachable_records": [
+  {
+   "record": "eru-0348",
+   "why_load_bearing": "section 7.1's drift-break exception - the sole stated ground for TC-1 being two-sided rather than one-sided (finding QUANT-1-5)",
+   "attempts": [
+    {
+     "host": "www.degruyterbrill.com",
+     "scheme": "https",
+     "port": 443,
+     "path": "/document/doi/10.1515/jtse-2013-0004/pdf",
+     "result": "HTTP 202, 2,019-byte HTML challenge page"
+    },
+    {
+     "host": "www.degruyterbrill.com",
+     "scheme": "https",
+     "port": 443,
+     "path": "/document/doi/10.1515/jtse-2013-0004/pdf?licenseType=restricted",
+     "result": "HTTP 202, zero-length body"
+    },
+    {
+     "host": "eprints.ncl.ac.uk",
+     "scheme": "https",
+     "port": 443,
+     "path": "/220306",
+     "result": "HTTP 200 metadata-only record page, no deposited file"
+    },
+    {
+     "host": "eprints.ncl.ac.uk",
+     "scheme": "https",
+     "port": 443,
+     "path": "/file_store/production/220306/",
+     "result": "HTTP 200 error_page.aspx"
+    },
+    {
+     "host": "eprints.ncl.ac.uk",
+     "scheme": "https",
+     "port": 443,
+     "path": "/fulltext.aspx?url=220306&type=pdf",
+     "result": "HTTP 200 error_page.aspx"
+    },
+    {
+     "host": "econpapers.repec.org",
+     "scheme": "https",
+     "port": 443,
+     "path": "/RePEc:bpj:jtsmet:v:8:y:2016:i:1:p:1-19:n:4",
+     "result": "HTTP 404"
+    },
+    {
+     "host": "api.openalex.org",
+     "scheme": "https",
+     "port": 443,
+     "path": "works/doi:10.1515/jtse-2013-0004",
+     "result": "oa_status=closed, best_oa_location=null, no OA pdf anywhere"
+    }
+   ]
+  },
+  {
+   "record": "eru-0150",
+   "why_load_bearing": "section 7.2's Evans pi-grid power table and the section 7.7 pooling verdict on that characteristic",
+   "attempts": [
+    {
+     "host": "www.wiwi.uni-bonn.de",
+     "scheme": "https",
+     "port": 443,
+     "path": "/breitung/paper/bubbles.pdf",
+     "result": "HTTP 200 but text/html; redirected to https://www.econ.uni-bonn.de/de - the recorded working-paper path no longer serves a file"
+    },
+    {
+     "host": "www.wiwi.uni-bonn.de",
+     "scheme": "http",
+     "port": 80,
+     "path": "/breitung/paper/bubble.pdf",
+     "result": "HTTP 200 text/html, same redirect"
+    },
+    {
+     "host": "www.econstor.eu",
+     "scheme": "https",
+     "port": 443,
+     "path": "/bitstream/10419/37067/1/60453279X.pdf",
+     "result": "HTTP 200 but 4,745-byte text/html error page"
+    },
+    {
+     "host": "citeseerx.ist.psu.edu",
+     "scheme": "https",
+     "port": 443,
+     "path": "/document?repid=rep1&type=pdf&doi=10.1.1.511.6559",
+     "result": "WinError 10060 - TCP connect timeout on 443"
+    },
+    {
+     "host": "papers.ssrn.com",
+     "scheme": "https",
+     "port": 443,
+     "path": "/sol3/Delivery.cfm SSRN_ID1443150",
+     "result": "HTTP 403"
+    },
+    {
+     "host": "pdfs.semanticscholar.org",
+     "scheme": "https",
+     "port": 443,
+     "path": "/bac6/cbd911c28ed825f028608558ea724d93cf38.pdf",
+     "result": "HTTP 202, zero-length body (JS challenge)"
+    },
+    {
+     "host": "academic.oup.com",
+     "scheme": "https",
+     "port": 443,
+     "path": "/jfec/article-pdf/10/1/198/2278113/nbr009.pdf",
+     "result": "HTTP 403 with a browser user-agent"
+    }
+   ],
+   "note": "Already UNOBTAINABLE at extraction (review section 5.4). Unobtained on two separate passes now."
+  },
+  {
+   "record": "eru-0559",
+   "why_load_bearing": "section 7.3's reverse-regression dating-bias rows and section 7.6's causality trap 2",
+   "attempts": [
+    {
+     "host": "eprints.soton.ac.uk",
+     "scheme": "https",
+     "port": 443,
+     "path": "/422399/1/BubbleImplosion_Mar2017.pdf",
+     "result": "HTTP 401 Unauthorized (OpenAlex lists this as the best OA location; it is not open)"
+    },
+    {
+     "host": "eprints.soton.ac.uk",
+     "scheme": "http",
+     "port": 80,
+     "path": "same path",
+     "result": "HTTP 401 Unauthorized"
+    },
+    {
+     "host": "ink.library.smu.edu.sg",
+     "scheme": "https",
+     "port": 443,
+     "path": "/cgi/viewcontent.cgi?article=3089&context=soe_research",
+     "result": "first attempt DNS getaddrinfo failure; retry returned HTTP 200 with a 212-byte stub, not a PDF"
+    },
+    {
+     "host": "ink.library.smu.edu.sg",
+     "scheme": "https",
+     "port": 443,
+     "path": "/context/soe_research/article/3089/viewcontent/BubbleImplosion_Mar2017.pdf",
+     "result": "HTTP 200, 960-byte text/html stub"
+    },
+    {
+     "host": "cowles.yale.edu",
+     "scheme": "https",
+     "port": 443,
+     "path": "/sites/default/files/2022-08/d2033.pdf",
+     "result": "HTTP 200 application/pdf but WRONG PAPER (Chen, Linton, Schneeberger & Yi, bid-ask spread) - discarded on identity check"
+    },
+    {
+     "host": "ideas.repec.org",
+     "scheme": "https",
+     "port": 443,
+     "path": "/p/sms/wpaper/1717.html",
+     "result": "HTTP 404"
+    }
+   ]
+  },
+  {
+   "record": "eru-0238",
+   "why_load_bearing": "section 7.8's SADF row (asymptotic distribution discontinuous at eta = 0.5)",
+   "attempts": [
+    {
+     "host": "korora.econ.yale.edu",
+     "scheme": "http",
+     "port": 80,
+     "path": "/phillips/pubs/art/p1483.pdf",
+     "result": "HTTP 200 application/pdf but WRONG PAPER (Baek, Cho & Phillips, testing linearity) - discarded on identity check"
+    },
+    {
+     "host": "korora.econ.yale.edu",
+     "scheme": "http",
+     "port": 80,
+     "path": "/phillips/pubs/art/p1418.pdf",
+     "result": "HTTP 404"
+    },
+    {
+     "host": "korora.econ.yale.edu",
+     "scheme": "http",
+     "port": 80,
+     "path": "/phillips/pubs/articles.htm",
+     "result": "HTTP 200; the article index carries no Cowles Foundation Paper number for the OBES 2014 specification-sensitivity paper"
+    },
+    {
+     "host": "cowles.yale.edu",
+     "scheme": "https",
+     "port": 443,
+     "path": "/sites/default/files/2022-08/d1915.pdf",
+     "result": "HTTP 200 application/pdf but WRONG PAPER (the PSY 2015b DP twin) - discarded on identity check"
+    },
+    {
+     "host": "hdl.handle.net",
+     "scheme": "http",
+     "port": 80,
+     "path": "/1885/35789",
+     "result": "HTTP 200, redirected to the ANU repository item page; no OA bitstream"
+    },
+    {
+     "host": "ink.library.smu.edu.sg",
+     "scheme": "https",
+     "port": 443,
+     "path": "/soe_research/1796 and /cgi/viewcontent.cgi?article=2795",
+     "result": "HTTP 200 with 212- and 954-byte stubs, not a PDF"
+    },
+    {
+     "host": "api.openalex.org",
+     "scheme": "https",
+     "port": 443,
+     "path": "works/doi:10.1111/obes.12026",
+     "result": "oa_status=closed, best_oa_location=null"
+    }
+   ]
+  },
+  {
+   "record": "eru-0735",
+   "why_load_bearing": "section 7.4 surveillance row 1 and the nine-record synthesis claim",
+   "attempts": [
+    {
+     "host": "nottingham-repository.worktribe.com",
+     "scheme": "https",
+     "port": 443,
+     "path": "/output/934432",
+     "result": "HTTP 403"
+    },
+    {
+     "host": "nottingham-repository.worktribe.com",
+     "scheme": "https",
+     "port": 443,
+     "path": "/preview/934432/RTMonitoring.pdf",
+     "result": "HTTP 403"
+    },
+    {
+     "host": "eprints.ncl.ac.uk",
+     "scheme": "https",
+     "port": 443,
+     "path": "/247570",
+     "result": "HTTP 200 metadata page, no deposited file"
+    },
+    {
+     "host": "repository.essex.ac.uk",
+     "scheme": "https",
+     "port": 443,
+     "path": "/21585/1/RTMonitoring_JTSA_Revision.pdf",
+     "result": "HTTP 404"
+    },
+    {
+     "host": "eprints.whiterose.ac.uk",
+     "scheme": "https",
+     "port": 443,
+     "path": "/id/eprint/125975/1/Astill_et_al-2018-Journal_of_Time_Series_Analysis.pdf",
+     "result": "HTTP 200 application/pdf but WRONG PAPER (Rushby et al., Astrobiology 18:469-480) - discarded on identity check"
+    }
+   ]
+  },
+  {
+   "record": "eru-1117",
+   "why_load_bearing": "section 7.4 surveillance row 2 (the b = 0.147 / 0.177 constants) and the nine-record synthesis claim",
+   "attempts": [
+    {
+     "host": "academic.oup.com",
+     "scheme": "https",
+     "port": 443,
+     "path": "/jfec/advance-article-pdf/doi/10.1093/jjfinec/nbab009/37853824/nbab009.pdf",
+     "result": "HTTP 403 with the default agent AND with a Chrome user-agent; OpenAlex lists this as best_oa_location"
+    },
+    {
+     "host": "nottingham-repository.worktribe.com",
+     "scheme": "https",
+     "port": 443,
+     "path": "/output/5396026",
+     "result": "HTTP 403"
+    },
+    {
+     "host": "nottingham-repository.worktribe.com",
+     "scheme": "https",
+     "port": 443,
+     "path": "/file/5396026/1/CUSUM-Based Monitoring for Explosive Episodes",
+     "result": "HTTP 403"
+    },
+    {
+     "host": "www.econstor.eu",
+     "scheme": "https",
+     "port": 443,
+     "path": "/bitstream/10419/200387/1/1665557141.pdf",
+     "result": "HTTP 200, 4,745-byte HTML error page"
+    },
+    {
+     "host": "eprints.whiterose.ac.uk",
+     "scheme": "https",
+     "port": 443,
+     "path": "/id/eprint/168743/1/nbab009.pdf",
+     "result": "HTTP 404"
+    },
+    {
+     "host": "repository.essex.ac.uk",
+     "scheme": "https",
+     "port": 443,
+     "path": "/29928/1/CUSUM_JFEC_Revision.pdf",
+     "result": "HTTP 404"
+    }
+   ]
+  }
+ ],
+ "digest_reproduction": {
+  "statement": "The four Phillips-line texts and NB-08 were re-fetched on 2026-09-03 and returned digests byte-identical to those recorded in review section 9.5 (rounds 1-3). This is a FOURTH independent reproduction for those five files.",
+  "reproduced": [
+   "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+   "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+   "85a984e9cab1aaf42d4decf22a2066ea6aedf0d32600d6042bddebefb8d7d012",
+   "309a38ae13210f56f81db2a871b428a56cad99547966a9d4e1418d9c40e4167e",
+   "87277984ef7ecf4c61509577257de911b40ed18331d32013ac7249b3ebe13413"
+  ],
+  "not_refetched_this_pass": [
+   "NB-02",
+   "NB-13"
+  ],
+  "not_refetched_reason": "Neither is cited in section 7 synthesis prose nor in the consumer agenda, so neither is in this pass's load-bearing set. Their round-3 digests stand unre-reproduced by this pass.",
+  "standing_limitation": "A digest fixes a file, not a version. No digest was taken at extraction time (2026-08), so version identity between the text read then and the file retrieved now still cannot be established (VG-10)."
+ },
+ "korora_port_note": "Review section 9.5's finding is reconfirmed: korora.econ.yale.edu serves the Phillips Cowles reprints over plain HTTP on port 80. All three reprints returned HTTP 200 application/pdf on http://. No https attempt was made this pass because the port-443 refusal is already recorded per attempt in se-fetch-recheck-01.json; repeating a known-refused connection would add nothing to the record.",
+ "identity_check_discipline": "Every retrieved PDF was identity-checked against its first page before any content was read. Four retrievals returned HTTP 200 application/pdf for the WRONG PAPER and were discarded: cowles d2033.pdf (bid-ask spread, not eru-0559), cowles d1915.pdf (PSY 2015b DP twin, not eru-0238), korora p1483.pdf (testing linearity, not eru-0238), and a White Rose deposit (Astrobiology, not eru-0735). A 200 with a PDF content type is not evidence of identity.",
+ "corrections_applied_to_review": [
+  {
+   "old": "Appendix pp.222-225",
+   "new": "Appendix pp.222-224",
+   "sites": [
+    "section 7.2 lead-in paragraph",
+    "section 12.1 L-18 table, PWY Table 4 row"
+   ],
+   "grep_confirmed": true
+  },
+  {
+   "old": "eru-0131 (n = 120, pi grid, different scaling and calibration) ... different scaling, different sample size",
+   "new": "eru-0131 (T = 100, bubble scaled x20, alpha = 1, zeta = 0.5, tau = 0.05, g = 0.05; Table 4 note p.221); both grounds withdrawn on the PWY side",
+   "sites": [
+    "section 7.7 pooling row 'power under Evans-type collapse'"
+   ],
+   "grep_confirmed": true,
+   "note": "The two other 'n = 120' occurrences in the review (sections 7.1 and 8.2) refer to PWY Table 3 and are CORRECT; both were checked and left alone."
+  },
+  {
+   "old": "classical PWY 0.048-0.282",
+   "new": "classical PWY 0.048-0.392",
+   "sites": [
+    "section 7.1 evidence table, stochastic-volatility row",
+    "section 7.8 closing paragraph"
+   ],
+   "grep_confirmed": true
+  },
+  {
+   "old": "crash monitor never signals before the crash by construction",
+   "new": "SMIN(m,n) runs only after AMAX(k) signals; its FPR is bounded, not derived, and is measured by simulation",
+   "sites": [
+    "section 7.4 surveillance table, AMAX->SMIN row"
+   ],
+   "grep_confirmed": true
+  },
+  {
+   "old": "eru-0395 Theorems 4-5 [for the inconsistency]",
+   "new": "Theorems 4-5 pp.1086-1087 (limit behaviour) and Theorems 6-7 p.1088 (the inconsistency)",
+   "sites": [
+    "section 7.5 validity table, alternative block"
+   ],
+   "grep_confirmed": true
+  },
+  {
+   "old": "open-ended CUSUM detectors with weighted boundaries; boundary g(M,k)(1+k/M)(k/(k+M))^gamma; gamma = 0.35 adopted as the compromise [for both eru-0889 and eru-1038]",
+   "new": "eru-1038 open-ended, g(M,s) = c*M^{1/2}(1+s/M)(s/(M+s))^gamma, gamma = 0.45; eru-0889 explicitly closed-ended, extra c(1+d_0 M^{-tau}) factor, gamma = 0.35",
+   "sites": [
+    "section 7.4 surveillance table, weighted-boundary row",
+    "section 7.8 sequential-monitor row heading"
+   ],
+   "grep_confirmed": true
+  }
+ ],
+ "corrections_for_the_LEAD_to_apply_to_the_agenda": [
+  {
+   "finding": "No agenda edit is REQUIRED by any of this pass's six corrections.",
+   "detail": "Every locator and quotation the agenda carries from this review was re-read against the retrieved text and verified: PWY eq. (8) p.207; log(log(ns))/100 and 'around the 4% significance level' p.207; PWY Table 1 note p.213 with 10,000 reps; IER 52:214 for 'cannot reveal the location of the exuberance'; PSY Table 1 note p.1050 with 2,000 reps; IER 56:1053 for the ex ante / ex post quotation; PSY 2015b Theorems 2-3, 8 and their rate conditions; eru-1289 Table 1 p.20 (FWER 0.55-0.93) and Table 2 p.21 (7.56 -> 12.20 months at SDR 0.84 -> 0.75); NB-08 Theorem 1 p.609. None of the six corrected values appears in the agenda.",
+   "severity": "none"
+  },
+  {
+   "finding": "ADVISORY - agenda's BSADF_{r2} locator",
+   "detail": "At the two sites where the agenda writes 'BSADF_{r2} ([PSY 2015a] p.1053, limit theory in [PSY 2015b])', p.1053 is correct for the quotation it is paired with but loose as a locator for the statistic's definition, which is on p.1051 (crossing-time equations (7)-(8) span pp.1052-1053). Not an error; supply p.1051 only if a definition locator is wanted.",
+   "severity": "advisory"
+  },
+  {
+   "finding": "INFORMATIONAL - evidentiary basis under the branch-3 surveillance bullet",
+   "detail": "The agenda's branch-3 admission of the surveillance/monitoring line rests on review section 7.4's nine-record claim. Two of those nine (eru-0735, eru-1117) could not be retrieved on this pass and their cell contents - including the b = 0.147 / 0.177 constants and the 'eq. 5' locator - are now recorded as unverified (VG-17). A third (eru-0889) is closed-ended, not open-ended as the review's row said. The nine-record count and the branch-3 consequence are unchanged.",
+   "severity": "informational"
+  }
+ ],
+ "not_done_and_why": [
+  "No record outside the load-bearing set was opened. The boundary is the deliverable.",
+  "The corpus was not re-screened and the frozen 72 were not altered.",
+  "The frozen protocol was not edited and its frozen prefix was not touched.",
+  "docs/research_notes/research_agenda_regime-classification_2026-08-21.md was NOT edited - the lead owns it.",
+  "No commit was made and no spec box was ticked."
+ ],
+ "items": [
+  {
+   "id": "LB-01",
+   "record": "eru-0393",
+   "review_site": "§7.1 synthesis claim (O1); TC-1",
+   "item": "Table 2 p.1058 - GSADF size 0.787 at nominal 5%, fixed lag k=6, T=100, r0=0.190",
+   "verdict": "verified",
+   "source_evidence": "p.1058 (PDF page 17) Table 2, 'Fixed Lag' block, k=6 column, T=100 row: SADF 0.184, GSADF 0.787. Header confirms asymptotic critical values; the note confirms DGP (3) with d=eta=1, nominal size 5%, 5,000 replications.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1204657,
+    "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+    "version": "Cowles Foundation Paper 1498 reprint of IER 56(4):1043-1078",
+    "page_map": "printed page = PDF page + 1041",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-02",
+   "record": "eru-0393",
+   "review_site": "§7.1 synthesis claim (O1)",
+   "item": "Table 2 p.1058 - SADF 0.145 / GSADF 0.697 under significance-test kmax=6 at T=100",
+   "verdict": "verified",
+   "source_evidence": "p.1058 'Significance Test' Max 6 column, T=100 rows: SADF 0.145, GSADF 0.697; and the body sentence 'when T = 100, r0 = 0.190, and kmax = 6, the size of SADF and GSADF is 0.145 and 0.697, respectively'.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1204657,
+    "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+    "version": "Cowles Foundation Paper 1498 reprint of IER 56(4):1043-1078",
+    "page_map": "printed page = PDF page + 1041",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-03",
+   "record": "eru-0393",
+   "review_site": "§7.1 evidence rows re-cited by TC-1 and by §7.8's GSADF row",
+   "item": "Table 2 p.1058 k=0 rows: SADF 0.041/0.049/0.042/0.054/0.060 and GSADF 0.061/0.058/0.055/0.069/0.070",
+   "verdict": "verified",
+   "source_evidence": "All ten k=0 cells reproduce exactly on p.1058. The r0 values printed in the T blocks (0.190/0.137/0.100/0.074/0.055) satisfy r0 = 0.01 + 1.8/sqrt(T) exactly, confirming the design column.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1204657,
+    "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+    "version": "Cowles Foundation Paper 1498 reprint of IER 56(4):1043-1078",
+    "page_map": "printed page = PDF page + 1041",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-04",
+   "record": "eru-0393",
+   "review_site": "§7.1 synthesis claim (O1)",
+   "item": "quoted string 'size is reasonably well controlled when a small fixed lag length is used in the recursive tests' (p.1058)",
+   "verdict": "verified",
+   "source_evidence": "p.1058, immediately below Table 2: 'Overall, size is reasonably well controlled when a small fixed lag length is used in the recursive tests.' Verbatim.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1204657,
+    "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+    "version": "Cowles Foundation Paper 1498 reprint of IER 56(4):1043-1078",
+    "page_map": "printed page = PDF page + 1041",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-05",
+   "record": "eru-0348",
+   "review_site": "§7.1 synthesis claim (O1) and TC-1 two-sidedness (finding QUANT-1-5)",
+   "item": "Theorem 1 and Table 2 - DF_mu diverges; size tends to 1 or to 0 with the break sign",
+   "verdict": "unverifiable",
+   "source_evidence": "Full text not retrieved on any of seven routes (see retrieval.attempts). This is the sole ground the review gives for making TC-1 two-sided rather than one-sided, and it remains an unre-opened single-session extraction transcription.",
+   "note": "Highest-consequence unverifiable item in this pass.",
+   "retrieval": {
+    "status": "NOT RETRIEVED",
+    "attempts": [
+     {
+      "host": "www.degruyterbrill.com",
+      "scheme": "https",
+      "port": 443,
+      "path": "/document/doi/10.1515/jtse-2013-0004/pdf",
+      "result": "HTTP 202, 2,019-byte HTML challenge page"
+     },
+     {
+      "host": "www.degruyterbrill.com",
+      "scheme": "https",
+      "port": 443,
+      "path": "/document/doi/10.1515/jtse-2013-0004/pdf?licenseType=restricted",
+      "result": "HTTP 202, zero-length body"
+     },
+     {
+      "host": "eprints.ncl.ac.uk",
+      "scheme": "https",
+      "port": 443,
+      "path": "/220306",
+      "result": "HTTP 200 metadata-only record page, no deposited file"
+     },
+     {
+      "host": "eprints.ncl.ac.uk",
+      "scheme": "https",
+      "port": 443,
+      "path": "/file_store/production/220306/",
+      "result": "HTTP 200 error_page.aspx"
+     },
+     {
+      "host": "eprints.ncl.ac.uk",
+      "scheme": "https",
+      "port": 443,
+      "path": "/fulltext.aspx?url=220306&type=pdf",
+      "result": "HTTP 200 error_page.aspx"
+     },
+     {
+      "host": "econpapers.repec.org",
+      "scheme": "https",
+      "port": 443,
+      "path": "/RePEc:bpj:jtsmet:v:8:y:2016:i:1:p:1-19:n:4",
+      "result": "HTTP 404"
+     },
+     {
+      "host": "api.openalex.org",
+      "scheme": "https",
+      "port": 443,
+      "path": "works/doi:10.1515/jtse-2013-0004",
+      "result": "oa_status=closed, best_oa_location=null, no OA pdf anywhere"
+     }
+    ]
+   }
+  },
+  {
+   "id": "LB-06",
+   "record": "eru-0150",
+   "review_site": "§7.2 lead-in paragraph (the Evans pi-grid table) and §7.7 pooling row",
+   "item": "Table 5 - supDF/supDFC/supK/supBT/supB power at pi = 0.999 / 0.85 / 0.25",
+   "verdict": "unverifiable",
+   "source_evidence": "Full text not retrieved on any of seven routes. The record was already UNOBTAINABLE at extraction (review §5.4); its numbers come from the June 2009 Bonn working paper, which is no longer served at the recorded path.",
+   "retrieval": {
+    "status": "NOT RETRIEVED",
+    "attempts": [
+     {
+      "host": "www.wiwi.uni-bonn.de",
+      "scheme": "https",
+      "port": 443,
+      "path": "/breitung/paper/bubbles.pdf",
+      "result": "HTTP 200 but text/html; redirected to https://www.econ.uni-bonn.de/de - the recorded working-paper path no longer serves a file"
+     },
+     {
+      "host": "www.wiwi.uni-bonn.de",
+      "scheme": "http",
+      "port": 80,
+      "path": "/breitung/paper/bubble.pdf",
+      "result": "HTTP 200 text/html, same redirect"
+     },
+     {
+      "host": "www.econstor.eu",
+      "scheme": "https",
+      "port": 443,
+      "path": "/bitstream/10419/37067/1/60453279X.pdf",
+      "result": "HTTP 200 but 4,745-byte text/html error page"
+     },
+     {
+      "host": "citeseerx.ist.psu.edu",
+      "scheme": "https",
+      "port": 443,
+      "path": "/document?repid=rep1&type=pdf&doi=10.1.1.511.6559",
+      "result": "WinError 10060 - TCP connect timeout on 443"
+     },
+     {
+      "host": "papers.ssrn.com",
+      "scheme": "https",
+      "port": 443,
+      "path": "/sol3/Delivery.cfm SSRN_ID1443150",
+      "result": "HTTP 403"
+     },
+     {
+      "host": "pdfs.semanticscholar.org",
+      "scheme": "https",
+      "port": 443,
+      "path": "/bac6/cbd911c28ed825f028608558ea724d93cf38.pdf",
+      "result": "HTTP 202, zero-length body (JS challenge)"
+     },
+     {
+      "host": "academic.oup.com",
+      "scheme": "https",
+      "port": 443,
+      "path": "/jfec/article-pdf/10/1/198/2278113/nbr009.pdf",
+      "result": "HTTP 403 with a browser user-agent"
+     }
+    ]
+   }
+  },
+  {
+   "id": "LB-07",
+   "record": "eru-0131",
+   "review_site": "§7.2 lead-in paragraph",
+   "item": "Table 4 p.221 - Evans-model power for ADF1 and sup ADF_r",
+   "verdict": "verified",
+   "source_evidence": "p.221 (PDF 22) TABLE 4 'POWER OF THE ADF1 AND sup_{r in [r0,1]} ADF_r TESTS UNDER THE EVANS (1991) MODEL', pi grid 0.999 ... 0.25.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 258681,
+    "sha256": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+    "version": "Cowles Foundation Paper 1349 reprint of IER 52(1):201-226",
+    "page_map": "printed page = PDF page + 199 (PDF 2 = p.201)",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-08",
+   "record": "eru-0131",
+   "review_site": "§7.2 lead-in paragraph; §12.1 L-18 table",
+   "item": "Appendix page range for the analytic Evans result",
+   "verdict": "corrected",
+   "source_evidence": "The Appendix opens on p.222 (PDF 23: 'APPENDIX: PROPERTIES OF EVANS'S (1991) MODEL') and ends on p.224 (PDF 25), where 'REFERENCES' begins on the same page. pp.225-226 are references only.",
+   "old_value": "Appendix pp.222-225",
+   "new_value": "Appendix pp.222-224",
+   "note": "This corrects a round-3 (L-18) correction that was itself wrong.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 258681,
+    "sha256": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+    "version": "Cowles Foundation Paper 1349 reprint of IER 52(1):201-226",
+    "page_map": "printed page = PDF page + 199 (PDF 2 = p.201)",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-09",
+   "record": "eru-0393",
+   "review_site": "§7.2 lead-in paragraph",
+   "item": "Tables 4-5 - Evans-type collapse as a core power DGP with a survival-probability grid",
+   "verdict": "verified",
+   "source_evidence": "p.1061 (PDF 20): TABLE 4 and TABLE 5; Table 5's lower panel is a pi grid (0.95/0.85/0.75/0.25). Notes give DGP (23) and (26), 2,000 replications, T = 400 with r0 = 0.1 for Table 5.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1204657,
+    "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+    "version": "Cowles Foundation Paper 1498 reprint of IER 56(4):1043-1078",
+    "page_map": "printed page = PDF page + 1041",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-10",
+   "record": "eru-0395",
+   "review_site": "§7.3 evidence rows re-cited by synthesis claim (O3)",
+   "item": "Tables 1-10 (pp.1090-1095): PSY origination 0.45 (0.03) and PWY 0.46 (0.03) against true 0.40; termination 0.55 (0.01) for both",
+   "verdict": "verified",
+   "source_evidence": "Table 1 on p.1090 (PDF 13), alpha = 0.60 block: PWY r_e 0.46 (0.03), PSY r_e 0.45 (0.03); r_f 0.55 (0.01) for both. Tables 1-10 occupy PDF 13-18 = pp.1090-1095 exactly. Note confirms 5,000 replications and finite-sample 95% quantiles.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1499.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 470694,
+    "sha256": "85a984e9cab1aaf42d4decf22a2066ea6aedf0d32600d6042bddebefb8d7d012",
+    "version": "Cowles Foundation Paper 1499 reprint of IER 56(4):1079-1134",
+    "page_map": "printed page = PDF page + 1077",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-11",
+   "record": "eru-0559",
+   "review_site": "§7.3 evidence row re-cited by synthesis claim (O3)",
+   "item": "Table 1 - reverse-regression origination bias +0.07 (0.04)",
+   "verdict": "unverifiable",
+   "source_evidence": "Full text not retrieved on any of six routes.",
+   "retrieval": {
+    "status": "NOT RETRIEVED",
+    "attempts": [
+     {
+      "host": "eprints.soton.ac.uk",
+      "scheme": "https",
+      "port": 443,
+      "path": "/422399/1/BubbleImplosion_Mar2017.pdf",
+      "result": "HTTP 401 Unauthorized (OpenAlex lists this as the best OA location; it is not open)"
+     },
+     {
+      "host": "eprints.soton.ac.uk",
+      "scheme": "http",
+      "port": 80,
+      "path": "same path",
+      "result": "HTTP 401 Unauthorized"
+     },
+     {
+      "host": "ink.library.smu.edu.sg",
+      "scheme": "https",
+      "port": 443,
+      "path": "/cgi/viewcontent.cgi?article=3089&context=soe_research",
+      "result": "first attempt DNS getaddrinfo failure; retry returned HTTP 200 with a 212-byte stub, not a PDF"
+     },
+     {
+      "host": "ink.library.smu.edu.sg",
+      "scheme": "https",
+      "port": 443,
+      "path": "/context/soe_research/article/3089/viewcontent/BubbleImplosion_Mar2017.pdf",
+      "result": "HTTP 200, 960-byte text/html stub"
+     },
+     {
+      "host": "cowles.yale.edu",
+      "scheme": "https",
+      "port": 443,
+      "path": "/sites/default/files/2022-08/d2033.pdf",
+      "result": "HTTP 200 application/pdf but WRONG PAPER (Chen, Linton, Schneeberger & Yi, bid-ask spread) - discarded on identity check"
+     },
+     {
+      "host": "ideas.repec.org",
+      "scheme": "https",
+      "port": 443,
+      "path": "/p/sms/wpaper/1717.html",
+      "result": "HTTP 404"
+     }
+    ]
+   }
+  },
+  {
+   "id": "LB-12",
+   "record": "eru-0559",
+   "review_site": "§7.3 evidence row re-cited by synthesis claim (O3)",
+   "item": "Table 2 - collapse-date bias by collapse type: sudden -0.00 (0.01); disturbing +0.02 (0.01); smooth +0.09 (0.04)",
+   "verdict": "unverifiable",
+   "source_evidence": "Full text not retrieved on any of six routes.",
+   "retrieval": {
+    "status": "NOT RETRIEVED",
+    "attempts": [
+     {
+      "host": "eprints.soton.ac.uk",
+      "scheme": "https",
+      "port": 443,
+      "path": "/422399/1/BubbleImplosion_Mar2017.pdf",
+      "result": "HTTP 401 Unauthorized (OpenAlex lists this as the best OA location; it is not open)"
+     },
+     {
+      "host": "eprints.soton.ac.uk",
+      "scheme": "http",
+      "port": 80,
+      "path": "same path",
+      "result": "HTTP 401 Unauthorized"
+     },
+     {
+      "host": "ink.library.smu.edu.sg",
+      "scheme": "https",
+      "port": 443,
+      "path": "/cgi/viewcontent.cgi?article=3089&context=soe_research",
+      "result": "first attempt DNS getaddrinfo failure; retry returned HTTP 200 with a 212-byte stub, not a PDF"
+     },
+     {
+      "host": "ink.library.smu.edu.sg",
+      "scheme": "https",
+      "port": 443,
+      "path": "/context/soe_research/article/3089/viewcontent/BubbleImplosion_Mar2017.pdf",
+      "result": "HTTP 200, 960-byte text/html stub"
+     },
+     {
+      "host": "cowles.yale.edu",
+      "scheme": "https",
+      "port": 443,
+      "path": "/sites/default/files/2022-08/d2033.pdf",
+      "result": "HTTP 200 application/pdf but WRONG PAPER (Chen, Linton, Schneeberger & Yi, bid-ask spread) - discarded on identity check"
+     },
+     {
+      "host": "ideas.repec.org",
+      "scheme": "https",
+      "port": 443,
+      "path": "/p/sms/wpaper/1717.html",
+      "result": "HTTP 404"
+     }
+    ]
+   }
+  },
+  {
+   "id": "LB-13",
+   "record": "eru-1289",
+   "review_site": "§7.3 'single most consumer-relevant number' paragraph; §7.4 row 3; §7.8 BSADF row; agenda",
+   "item": "Table 2 p.21 - mean bias in the estimated origination date 7.56 (4.99) months at successful-detection rate 0.84, standard per-observation CVs",
+   "verdict": "verified",
+   "source_evidence": "DP 2331 p.21 (PDF 22), Table 2, 'PSY (standard)' row: SDR 0.84, origination 7.56 (4.99), T = 120.",
+   "retrieval": {
+    "route": "https://cowles.yale.edu/sites/default/files/2022-08/d2331_0.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 591865,
+    "sha256": "309a38ae13210f56f81db2a871b428a56cad99547966a9d4e1418d9c40e4167e",
+    "version": "Cowles Foundation Discussion Paper 2331 (2022); the 2025 CUP chapter carrying the record DOI remains unobtained (L-10, VG-6)",
+    "page_map": "printed page number appears as the last line of each PDF page; Table 1 on p.20, Table 2 on p.21",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-14",
+   "record": "eru-1289",
+   "review_site": "§7.3; §7.4 row 3; §7.8 BSADF row; agenda",
+   "item": "Table 2 p.21 - 12.20 (5.33) months at successful-detection rate 0.75, FWER-controlled",
+   "verdict": "verified",
+   "source_evidence": "Same table, 'PSY (multiple)' row: SDR 0.75, 12.20 (5.33). §5.1 confirms the multiple-testing critical value fixes the false rejection probability of the largest PSY statistic within the control window at 5%; the p.20 text confirms Table 2's configuration controls over 'the entire 10-year's period', i.e. control window = the whole span.",
+   "retrieval": {
+    "route": "https://cowles.yale.edu/sites/default/files/2022-08/d2331_0.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 591865,
+    "sha256": "309a38ae13210f56f81db2a871b428a56cad99547966a9d4e1418d9c40e4167e",
+    "version": "Cowles Foundation Discussion Paper 2331 (2022); the 2025 CUP chapter carrying the record DOI remains unobtained (L-10, VG-6)",
+    "page_map": "printed page number appears as the last line of each PDF page; Table 1 on p.20, Table 2 on p.21",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-15",
+   "record": "eru-1289",
+   "review_site": "§7.3; §7.4 row 3",
+   "item": "Table 2 p.21 - collapse-date bias 0.79 (1.72) -> 0.77 (1.71)",
+   "verdict": "verified",
+   "source_evidence": "Same table, third column: 0.79 (1.72) and 0.77 (1.71).",
+   "retrieval": {
+    "route": "https://cowles.yale.edu/sites/default/files/2022-08/d2331_0.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 591865,
+    "sha256": "309a38ae13210f56f81db2a871b428a56cad99547966a9d4e1418d9c40e4167e",
+    "version": "Cowles Foundation Discussion Paper 2331 (2022); the 2025 CUP chapter carrying the record DOI remains unobtained (L-10, VG-6)",
+    "page_map": "printed page number appears as the last line of each PDF page; Table 1 on p.20, Table 2 on p.21",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-16",
+   "record": "eru-1289",
+   "review_site": "§7.3 quantity-label paragraph (L-19)",
+   "item": "Table 2 caption calls the quantity a 'bias'; §5.2 text calls it an 'averaged delay'",
+   "verdict": "verified",
+   "source_evidence": "Table 2 caption: 'The successful detection rates and the biases of the estimated bubble origination and collasping dates.' §5.2 body: 'the averaged delays in the estimated bubble origination and collapse dates', defined as (1/M) sum (t_e^(m) - t_e). Both names, one statistic - exactly as the review states.",
+   "retrieval": {
+    "route": "https://cowles.yale.edu/sites/default/files/2022-08/d2331_0.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 591865,
+    "sha256": "309a38ae13210f56f81db2a871b428a56cad99547966a9d4e1418d9c40e4167e",
+    "version": "Cowles Foundation Discussion Paper 2331 (2022); the 2025 CUP chapter carrying the record DOI remains unobtained (L-10, VG-6)",
+    "page_map": "printed page number appears as the last line of each PDF page; Table 1 on p.20, Table 2 on p.21",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-17",
+   "record": "eru-0131",
+   "review_site": "§7.4 'How the family handles multiplicity'; agenda",
+   "item": "eq. (13) p.210 - the asymptotic no-false-detection condition",
+   "verdict": "verified",
+   "source_evidence": "p.210 (PDF 11): the limit lim_{n->inf} P(ADF_s > cv_adf_{beta_n}(s)) = P(...) = 0, numbered (13).",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 258681,
+    "sha256": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+    "version": "Cowles Foundation Paper 1349 reprint of IER 52(1):201-226",
+    "page_map": "printed page = PDF page + 199 (PDF 2 = p.201)",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-18",
+   "record": "eru-0131",
+   "review_site": "§7.4; §7.5; §7.8 PWY row; agenda",
+   "item": "cv_adf(s) = log(log(ns))/100 at p.207, giving 'critical values around the 4% significance level'",
+   "verdict": "verified",
+   "source_evidence": "p.207 (PDF 8): 'The setting employed is cv_adf_{beta_n}(s) = log(log(ns))/100. For the sample sizes considered in our empirical application, this setting leads to critical values around the 4% significance level.' Verbatim.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 258681,
+    "sha256": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+    "version": "Cowles Foundation Paper 1349 reprint of IER 52(1):201-226",
+    "page_map": "printed page = PDF page + 199 (PDF 2 = p.201)",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-19",
+   "record": "eru-0395",
+   "review_site": "§7.4; §7.6; agenda",
+   "item": "Theorems 2-3 and 8 - rate conditions cv_T -> inf and cv_T / T^{1-alpha/2} -> 0 for consistency of the crossing-time estimators",
+   "verdict": "verified",
+   "source_evidence": "Theorems 2 (PWY detector) and 3 (PSY detector) on p.1085 (PDF 8), each stating 1/cv_{beta_T} + cv_{beta_T}/T^{1-alpha/2} -> 0; Theorem 8 (PSY detector, two bubbles) on p.1088 (PDF 11) with the same condition on scv. The review's 'cv_T -> inf' is an accurate restatement of 1/cv_{beta_T} -> 0.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1499.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 470694,
+    "sha256": "85a984e9cab1aaf42d4decf22a2066ea6aedf0d32600d6042bddebefb8d7d012",
+    "version": "Cowles Foundation Paper 1499 reprint of IER 56(4):1079-1134",
+    "page_map": "printed page = PDF page + 1077",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-20",
+   "record": "eru-1289",
+   "review_site": "§7.4 FWER table; agenda",
+   "item": "Table 1 p.20 - FWER 0.55 at T = 40 (quarterly)",
+   "verdict": "verified",
+   "source_evidence": "DP 2331 p.20 (PDF 21), Table 1, 'PSY (standard)' row, quarterly T = 40 column: 0.55.",
+   "retrieval": {
+    "route": "https://cowles.yale.edu/sites/default/files/2022-08/d2331_0.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 591865,
+    "sha256": "309a38ae13210f56f81db2a871b428a56cad99547966a9d4e1418d9c40e4167e",
+    "version": "Cowles Foundation Discussion Paper 2331 (2022); the 2025 CUP chapter carrying the record DOI remains unobtained (L-10, VG-6)",
+    "page_map": "printed page number appears as the last line of each PDF page; Table 1 on p.20, Table 2 on p.21",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-21",
+   "record": "eru-1289",
+   "review_site": "§7.4 FWER table; agenda",
+   "item": "Table 1 p.20 - 0.78 at T = 120 (monthly) and 0.93 at T = 520 (weekly), all over the SAME 10-year span",
+   "verdict": "verified",
+   "source_evidence": "Same table: 0.78 and 0.93. §5.2: 'The data are generated under the null hypothesis (23) over a 10-year period with sampling frequencies of quarterly, monthly, and weekly (i.e., T = {40, 120, 520}). For each parameter constellation, the simulation is repeated M = 2,000 times.' This reconfirms the round-2 'same span, frequency only' correction.",
+   "retrieval": {
+    "route": "https://cowles.yale.edu/sites/default/files/2022-08/d2331_0.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 591865,
+    "sha256": "309a38ae13210f56f81db2a871b428a56cad99547966a9d4e1418d9c40e4167e",
+    "version": "Cowles Foundation Discussion Paper 2331 (2022); the 2025 CUP chapter carrying the record DOI remains unobtained (L-10, VG-6)",
+    "page_map": "printed page number appears as the last line of each PDF page; Table 1 on p.20, Table 2 on p.21",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-22",
+   "record": "eru-0735",
+   "review_site": "§7.4 surveillance table row 1; the nine-record synthesis claim (O4)",
+   "item": "closed-form FPR for any monitoring horizon, invertible ex ante; 'theoretical FPR available in closed form (eq. 5), monotonically increasing in horizon'",
+   "verdict": "unverifiable",
+   "source_evidence": "Full text not retrieved on any of five routes. One White Rose candidate returned a PDF that was a different paper entirely and was discarded on identity check.",
+   "retrieval": {
+    "status": "NOT RETRIEVED",
+    "attempts": [
+     {
+      "host": "nottingham-repository.worktribe.com",
+      "scheme": "https",
+      "port": 443,
+      "path": "/output/934432",
+      "result": "HTTP 403"
+     },
+     {
+      "host": "nottingham-repository.worktribe.com",
+      "scheme": "https",
+      "port": 443,
+      "path": "/preview/934432/RTMonitoring.pdf",
+      "result": "HTTP 403"
+     },
+     {
+      "host": "eprints.ncl.ac.uk",
+      "scheme": "https",
+      "port": 443,
+      "path": "/247570",
+      "result": "HTTP 200 metadata page, no deposited file"
+     },
+     {
+      "host": "repository.essex.ac.uk",
+      "scheme": "https",
+      "port": 443,
+      "path": "/21585/1/RTMonitoring_JTSA_Revision.pdf",
+      "result": "HTTP 404"
+     },
+     {
+      "host": "eprints.whiterose.ac.uk",
+      "scheme": "https",
+      "port": 443,
+      "path": "/id/eprint/125975/1/Astill_et_al-2018-Journal_of_Time_Series_Analysis.pdf",
+      "result": "HTTP 200 application/pdf but WRONG PAPER (Rushby et al., Astrobiology 18:469-480) - discarded on identity check"
+     }
+    ]
+   }
+  },
+  {
+   "id": "LB-23",
+   "record": "eru-1117",
+   "review_site": "§7.4 surveillance table row 2; the nine-record synthesis claim (O4)",
+   "item": "boundary constants b = 0.147 / 0.177 calibrated so the FPR matches MAX10's 0.10 under homoskedasticity",
+   "verdict": "unverifiable",
+   "source_evidence": "Full text not retrieved on any of six routes; the OUP hybrid-OA PDF that OpenAlex names as best_oa_location returns HTTP 403 to every agent tried.",
+   "retrieval": {
+    "status": "NOT RETRIEVED",
+    "attempts": [
+     {
+      "host": "academic.oup.com",
+      "scheme": "https",
+      "port": 443,
+      "path": "/jfec/advance-article-pdf/doi/10.1093/jjfinec/nbab009/37853824/nbab009.pdf",
+      "result": "HTTP 403 with the default agent AND with a Chrome user-agent; OpenAlex lists this as best_oa_location"
+     },
+     {
+      "host": "nottingham-repository.worktribe.com",
+      "scheme": "https",
+      "port": 443,
+      "path": "/output/5396026",
+      "result": "HTTP 403"
+     },
+     {
+      "host": "nottingham-repository.worktribe.com",
+      "scheme": "https",
+      "port": 443,
+      "path": "/file/5396026/1/CUSUM-Based Monitoring for Explosive Episodes",
+      "result": "HTTP 403"
+     },
+     {
+      "host": "www.econstor.eu",
+      "scheme": "https",
+      "port": 443,
+      "path": "/bitstream/10419/200387/1/1665557141.pdf",
+      "result": "HTTP 200, 4,745-byte HTML error page"
+     },
+     {
+      "host": "eprints.whiterose.ac.uk",
+      "scheme": "https",
+      "port": 443,
+      "path": "/id/eprint/168743/1/nbab009.pdf",
+      "result": "HTTP 404"
+     },
+     {
+      "host": "repository.essex.ac.uk",
+      "scheme": "https",
+      "port": 443,
+      "path": "/29928/1/CUSUM_JFEC_Revision.pdf",
+      "result": "HTTP 404"
+     }
+    ]
+   }
+  },
+  {
+   "id": "LB-24",
+   "record": "eru-1921",
+   "review_site": "§7.4 surveillance table row 3",
+   "item": "Chu-Stinchcombe-White crossing function; FPR calibrated to 0.10 by t = 241; b = 0.1395 (standard), 0.1679 (volatility-corrected)",
+   "verdict": "verified",
+   "source_evidence": "§5.1: 'We select a value of b_alpha such that the FPR is equal to 0.10 by time t = 241 when y_t is a pure unit root process driven by NIID(0,1) innovations ... For the standard CUSUM procedure, this value is b_alpha = 0.1395, while for CUSUMV, b_alpha = 0.1679.' Chu, Stinchcombe & White (1996) Theorem 3.4 is the crossing result invoked.",
+   "retrieval": {
+    "route": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5F3501B549DAF5C5FF3B30F3E797A38A/S0266466626100383a.pdf/div-class-title-covariate-augmented-cusum-bubble-monitoring-procedures-div.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 811541,
+    "sha256": "440f48fa798e4cf0cbb913095922add991cbb0e85f8fd600a20a385d8eb016da",
+    "version": "Econometric Theory 2026, online-first, open access",
+    "page_map": "n/a",
+    "matches_sec95_digest": null
+   }
+  },
+  {
+   "id": "LB-25",
+   "record": "eru-1519",
+   "review_site": "§7.4 surveillance table row 4",
+   "item": "'crash monitor never signals before the crash by construction'",
+   "verdict": "corrected",
+   "source_evidence": "The source says the opposite in kind. SMIN(m,n)'s FPR 'is more difficult to establish compared to the AMAX(k) procedure'; it is bounded by AMAX(k)'s FPR under H0 and by AMAX(k)'s true positive rate under H_{1,1}; and 'Further theoretical analysis of the FPR of the SMIN(m,n) procedure in this case is not possible, since it will depend on nuisance parameters ... Instead we examine the FPR of SMIN(m,n) by simulation in the next section'. A procedure whose FPR is measured by simulation does signal in the absence of a crash.",
+   "old_value": "crash monitor never signals before the crash by construction",
+   "new_value": "SMIN(m,n) runs only after AMAX(k) signals; its FPR is bounded (not derived) by AMAX(k)'s FPR under H0 or true-positive rate under H_{1,1}; no closed form exists and the authors measure it by simulation",
+   "note": "Read in the Sheffield SERPS 2022007 working-paper version; the OBES 2023 version of record could not be retrieved (Wiley HTTP 403).",
+   "retrieval": {
+    "route": "https://eprints.whiterose.ac.uk/185770/7/Binder%20paper%202022007.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1363548,
+    "sha256": "2bb969eaba59ca38a84607367c346f20b828cf14bec0c6b0ac8a4e271ae52d72",
+    "version": "Sheffield Economic Research Paper Series 2022007 WORKING PAPER, not the OBES 2023 version of record - version caveat",
+    "page_map": "n/a",
+    "matches_sec95_digest": null
+   }
+  },
+  {
+   "id": "LB-26",
+   "record": "eru-1844",
+   "review_site": "§7.4 surveillance table row 5",
+   "item": "Theorem 1: the recursive-mean / trend-adjusted modifications do not raise false detection",
+   "verdict": "verified",
+   "source_evidence": "'Theorem 1 shows that the theoretical FPRs associated with the new procedures AAR_MAX(k) and ATR_MAX(k) are asymptotically identical to the theoretical FPR of AMAX(k)'; and in §4, 'we can therefore confirm that these new procedures do not suffer from increased false detection of a bubble under H0 relative to AMAX(k)'.",
+   "retrieval": {
+    "route": "https://eprints.whiterose.ac.uk/id/eprint/221239/16/1-s2.0-S016920702400133X-main.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 2993103,
+    "sha256": "e63eb55fa2763930a0eb82a433735eb6ec2e1a6a35808b4ba9a498b557cf4d5d",
+    "version": "published, Int. J. Forecasting 41:1260-1277 (2025), White Rose deposit of the publisher PDF",
+    "page_map": "n/a",
+    "matches_sec95_digest": null
+   }
+  },
+  {
+   "id": "LB-27",
+   "record": "eru-1038",
+   "review_site": "§7.4 surveillance table row 6; §7.8 sequential-monitor row",
+   "item": "the weighted boundary function and its open-ended calibration",
+   "verdict": "corrected",
+   "source_evidence": "eq. (2.8): g(M,s) = c M^{1/2} (1 + s/M) (s/(M+s))^gamma, with c = c(gamma, alpha) chosen so that lim_{M->inf} P{tau_M < inf} = alpha under H0. The procedure is genuinely open-ended: tau_M = inf{s >= 1 : Gamma(M,s) > g(M,s)} with no termination time. The review's rendering omits the c M^{1/2} factor.",
+   "old_value": "boundary g(M,k)(1+k/M)(k/(k+M))^gamma",
+   "new_value": "g(M,s) = c*M^{1/2}(1 + s/M)(s/(M+s))^gamma with c = c(gamma, alpha)",
+   "note": "Read in the arXiv:2002.04101v1 version; the record is stored under an SSRN DOI.",
+   "retrieval": {
+    "route": "https://arxiv.org/pdf/2002.04101",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1970839,
+    "sha256": "596425a29a4d6ca2f17359d69e5acb82a18e3b278d0a2484eb3d0c977aabdbf0",
+    "version": "arXiv:2002.04101v1 preprint; the record is stored under the SSRN DOI 10.2139/ssrn.3529058 - version caveat",
+    "page_map": "n/a",
+    "matches_sec95_digest": null
+   }
+  },
+  {
+   "id": "LB-28",
+   "record": "eru-0889",
+   "review_site": "§7.4 surveillance table row 6; §7.8 sequential-monitor row",
+   "item": "'open-ended' horizon and 'gamma = 0.35 adopted as the compromise', both attributed to the eru-0889 / eru-1038 pair jointly",
+   "verdict": "corrected",
+   "source_evidence": "Two errors in one cell. (i) HORIZON: eru-0889 states 'We consider here closed-ended procedures in which we stop the detection procedure after observing T observations if no non-stationarities have been detected', and Assumption 3.3 fixes theta = lim T/(T+M) (theta = 1/2 in its own simulations). It is not open-ended. (ii) GAMMA: 'As a compromise, we use gamma = 0.35 in the empirical study' is eru-0889's sentence; eru-1038 states 'Based on our simulation study, we recommend gamma = .45 to achieve fast and reliable detection'. eru-0889's boundary is also more general: g_M(k) = c(1 + d_0 M^{-tau}) M^{1/2} (1 + k/M) f(k/(k+M)).",
+   "old_value": "open-ended CUSUM detectors ... gamma = 0.35 adopted as the compromise [attributed to both records]",
+   "new_value": "eru-0889 closed-ended, gamma = 0.35; eru-1038 open-ended, gamma = 0.45",
+   "note": "Read in the Reading CentAUR accepted manuscript; the J. Econometrics version of record was not retrieved.",
+   "retrieval": {
+    "route": "https://centaur.reading.ac.uk/85667/1/Manuscript%202018360.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 601122,
+    "sha256": "7cc053c7db3a27b46a2359a0b213bd962921e5cff124d958e892583ef4b99635",
+    "version": "ACCEPTED MANUSCRIPT (Reading CentAUR), not the J. Econometrics version of record - version caveat",
+    "page_map": "n/a",
+    "matches_sec95_digest": null
+   }
+  },
+  {
+   "id": "LB-29",
+   "record": "eru-1845",
+   "review_site": "§7.4 surveillance table row 7; §7.8 sequential-monitor row",
+   "item": "Darling-Erdos boundary asymptotics; procedure-wise size controlled over open- AND closed-ended monitoring; valid irrespective of stationarity",
+   "verdict": "verified",
+   "source_evidence": "Abstract: 'we derive a Darling-Erdos-type limit theorem; our results guarantee the procedure-wise size control under both an open-ended and a closed-ended monitoring' and '(with no prior knowledge required as to) whether the observations are stationary or not, and irrespective of whether they change into a stationary or nonstationary regime'.",
+   "retrieval": {
+    "route": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B637612DA07FB9FED7BB5C9F33A13672/S0266466625000052a.pdf/div-class-title-real-time-monitoring-with-rca-models-div.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 398737,
+    "sha256": "27d927a34f03c227b66d5a18a520b71b9d2e60f064dc7a8dfb0a3aa92020b41b",
+    "version": "published, Econometric Theory 42:514-547 (2026), open access",
+    "page_map": "n/a",
+    "matches_sec95_digest": null
+   }
+  },
+  {
+   "id": "LB-30",
+   "record": "eru-1852",
+   "review_site": "§7.4 surveillance table row 8; §7.1 evidence row",
+   "item": "Table 3 sizes 0.056 / 0.040 / 0.044 / 0.037 / 0.071 at nominal 5%; 10,000 replications; T = 100",
+   "verdict": "verified",
+   "source_evidence": "Table 3 'Rejection frequencies of sequential bubble detectors', panel (i) two-sided tests, r_e = 1.0 row: supADF 0.056, CUSUM 0.040, mCUSUM 0.044, wCUSUM 0.037, AHLT_10 0.071. Table note: 'Monte Carlo rejection rates for T = 100'. §4: 'all Monte Carlo experiments are based on 10,000 replications'.",
+   "note": "The review writes the sample size as 'tau = 100'; the paper writes T = 100. Notation only, no correction made.",
+   "retrieval": {
+    "route": "http://kups.ub.uni-koeln.de/81106/1/Journal%20Time%20Series%20Analysis%20-%202025%20-%20Breitung%20-%20Sequential%20Detector%20Statistics%20for%20Speculative%20Bubbles.pdf",
+    "scheme": "http->https",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1637748,
+    "sha256": "0b16f276904c3c04156bca60eb3b14990b86ce524b1a61b4bfa1306c97ccbe8a",
+    "version": "published JTSA open-access article, University of Cologne repository copy",
+    "page_map": "n/a",
+    "matches_sec95_digest": null
+   }
+  },
+  {
+   "id": "LB-31",
+   "record": "eru-0131",
+   "review_site": "§7.5 synthesis claim (O5); TC-4; agenda",
+   "item": "Table 1 note p.213 - r0 = 0.10 as convention with no derivation; critical values by Monte Carlo with 10,000 replications",
+   "verdict": "verified",
+   "source_evidence": "p.213 (PDF 14) TABLE 1 note: '... tests of the null hypothesis of a unit root against the alternative of an explosive root, where r0 = 0.10 ... The critical values for the ADF statistic and sup_{r in [r0,1]} ADF_r are obtained by Monte Carlo simulation with 10,000 replications.' No derivation of r0 = 0.10 appears anywhere in the text.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 258681,
+    "sha256": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+    "version": "Cowles Foundation Paper 1349 reprint of IER 52(1):201-226",
+    "page_map": "printed page = PDF page + 199 (PDF 2 = p.201)",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-32",
+   "record": "eru-0393",
+   "review_site": "§7.5 synthesis claim (O5); TC-4",
+   "item": "r0 = 0.01 + 1.8/sqrt(T) presented as an empirical rule from 'extensive simulation' - CONVENTION, not derivation",
+   "verdict": "verified",
+   "source_evidence": "p.1050 (PDF 9): 'Based on extensive simulation findings, we recommend a rule for choosing r0 that is based on a lower bound of 1% of the full sample and has the simple functional form r0 = 0.01 + 1.8/sqrt(T), which is convenient for implementation.'",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1204657,
+    "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+    "version": "Cowles Foundation Paper 1498 reprint of IER 56(4):1043-1078",
+    "page_map": "printed page = PDF page + 1041",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-33",
+   "record": "eru-0393",
+   "review_site": "§7.5 synthesis claim (O5); TC-4",
+   "item": "fn. 10 p.1052 - the minimum-duration condition PSY themselves call 'inevitably arbitrary'",
+   "verdict": "verified",
+   "source_evidence": "p.1052 (PDF 11) footnote 10: 'For instance, one may wish to impose a minimal duration condition that, to be classified as a bubble, duration should exceed a period such as one year (which is inevitably arbitrary).'",
+   "note": "Strictly the phrase qualifies the one-year choice inside the condition rather than the delta*log(T) form itself. The review's use is faithful in substance; no correction made.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1204657,
+    "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+    "version": "Cowles Foundation Paper 1498 reprint of IER 56(4):1043-1078",
+    "page_map": "printed page = PDF page + 1041",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-34",
+   "record": "eru-0395",
+   "review_site": "§7.5 validity table, alternative block",
+   "item": "the PWY-inconsistency result for a second bubble in a multi-bubble sample",
+   "verdict": "corrected",
+   "source_evidence": "Theorems 4 (p.1086) and 5 (p.1087) give the LIMIT BEHAVIOUR of DF_r, BSDF_r and the sequential statistic - which is what the row's colon-clause describes. The INCONSISTENCY itself is Theorem 6 (p.1088): 'r2e-hat and r2f-hat are not consistent estimators of r2e and r2f'; and Theorem 7 (p.1088): r2e-hat ->p r2e + r1f - r1e. Same defect class as L-20's NB-08 misattribution: a result cited to the wrong numbered theorem.",
+   "old_value": "`eru-0395` Theorems 4-5",
+   "new_value": "`eru-0395` Theorems 4-5 pp.1086-1087 (limit behaviour) and Theorems 6-7 p.1088 (the inconsistency)",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1499.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 470694,
+    "sha256": "85a984e9cab1aaf42d4decf22a2066ea6aedf0d32600d6042bddebefb8d7d012",
+    "version": "Cowles Foundation Paper 1499 reprint of IER 56(4):1079-1134",
+    "page_map": "printed page = PDF page + 1077",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-35",
+   "record": "eru-0238",
+   "review_site": "§7.5 validity table; §7.8 SADF row",
+   "item": "the SADF asymptotic distribution is discontinuous at eta = 0.5",
+   "verdict": "unverifiable",
+   "source_evidence": "Full text not retrieved on any of seven routes; oa_status closed, no OA location in OpenAlex. Two candidate PDFs retrieved from Yale hosts turned out to be different papers and were discarded on identity check.",
+   "retrieval": {
+    "status": "NOT RETRIEVED",
+    "attempts": [
+     {
+      "host": "korora.econ.yale.edu",
+      "scheme": "http",
+      "port": 80,
+      "path": "/phillips/pubs/art/p1483.pdf",
+      "result": "HTTP 200 application/pdf but WRONG PAPER (Baek, Cho & Phillips, testing linearity) - discarded on identity check"
+     },
+     {
+      "host": "korora.econ.yale.edu",
+      "scheme": "http",
+      "port": 80,
+      "path": "/phillips/pubs/art/p1418.pdf",
+      "result": "HTTP 404"
+     },
+     {
+      "host": "korora.econ.yale.edu",
+      "scheme": "http",
+      "port": 80,
+      "path": "/phillips/pubs/articles.htm",
+      "result": "HTTP 200; the article index carries no Cowles Foundation Paper number for the OBES 2014 specification-sensitivity paper"
+     },
+     {
+      "host": "cowles.yale.edu",
+      "scheme": "https",
+      "port": 443,
+      "path": "/sites/default/files/2022-08/d1915.pdf",
+      "result": "HTTP 200 application/pdf but WRONG PAPER (the PSY 2015b DP twin) - discarded on identity check"
+     },
+     {
+      "host": "hdl.handle.net",
+      "scheme": "http",
+      "port": 80,
+      "path": "/1885/35789",
+      "result": "HTTP 200, redirected to the ANU repository item page; no OA bitstream"
+     },
+     {
+      "host": "ink.library.smu.edu.sg",
+      "scheme": "https",
+      "port": 443,
+      "path": "/soe_research/1796 and /cgi/viewcontent.cgi?article=2795",
+      "result": "HTTP 200 with 212- and 954-byte stubs, not a PDF"
+     },
+     {
+      "host": "api.openalex.org",
+      "scheme": "https",
+      "port": 443,
+      "path": "works/doi:10.1111/obes.12026",
+      "result": "oa_status=closed, best_oa_location=null"
+     }
+    ]
+   }
+  },
+  {
+   "id": "LB-36",
+   "record": "eru-0131",
+   "review_site": "§7.6 causality trap 1; §7.8 SADF row; agenda (IER 52:214)",
+   "item": "quoted string 'However, sup_{r in [r0,1]} ADF_r cannot reveal the location of the exuberance'",
+   "verdict": "verified",
+   "source_evidence": "p.214 (PDF 15): 'However, sup_{r in [r0,1]} ADF_r cannot reveal the location of the exuberance.' Verbatim; page confirmed by the running head '214 PHILLIPS, WU, AND YU'.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 258681,
+    "sha256": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+    "version": "Cowles Foundation Paper 1349 reprint of IER 52(1):201-226",
+    "page_map": "printed page = PDF page + 199 (PDF 2 = p.201)",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-37",
+   "record": "eru-0393",
+   "review_site": "§7.6 causality trap 1; §7.8 GSADF row; agenda (IER 56:1053)",
+   "item": "quoted string 'the new date-stamping strategy may be used as an ex ante real-time dating procedure, whereas the GSADF test is an ex post statistic used for analyzing a given data set for bubble behavior'",
+   "verdict": "verified",
+   "source_evidence": "p.1053 (PDF 12): 'Importantly, the new date-stamping strategy may be used as an ex ante real-time dating procedure, whereas the GSADF test is an ex post statistic used for analyzing a given data set for bubble behavior.' Verbatim.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1204657,
+    "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+    "version": "Cowles Foundation Paper 1498 reprint of IER 56(4):1043-1078",
+    "page_map": "printed page = PDF page + 1041",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-38",
+   "record": "eru-0559",
+   "review_site": "§7.6 causality trap 2",
+   "item": "reverse regression runs recursions on time-reversed data, so recovery-date estimation conditions on post-collapse observations",
+   "verdict": "unverifiable",
+   "source_evidence": "Full text not retrieved.",
+   "retrieval": {
+    "status": "NOT RETRIEVED",
+    "attempts": [
+     {
+      "host": "eprints.soton.ac.uk",
+      "scheme": "https",
+      "port": 443,
+      "path": "/422399/1/BubbleImplosion_Mar2017.pdf",
+      "result": "HTTP 401 Unauthorized (OpenAlex lists this as the best OA location; it is not open)"
+     },
+     {
+      "host": "eprints.soton.ac.uk",
+      "scheme": "http",
+      "port": 80,
+      "path": "same path",
+      "result": "HTTP 401 Unauthorized"
+     },
+     {
+      "host": "ink.library.smu.edu.sg",
+      "scheme": "https",
+      "port": 443,
+      "path": "/cgi/viewcontent.cgi?article=3089&context=soe_research",
+      "result": "first attempt DNS getaddrinfo failure; retry returned HTTP 200 with a 212-byte stub, not a PDF"
+     },
+     {
+      "host": "ink.library.smu.edu.sg",
+      "scheme": "https",
+      "port": 443,
+      "path": "/context/soe_research/article/3089/viewcontent/BubbleImplosion_Mar2017.pdf",
+      "result": "HTTP 200, 960-byte text/html stub"
+     },
+     {
+      "host": "cowles.yale.edu",
+      "scheme": "https",
+      "port": 443,
+      "path": "/sites/default/files/2022-08/d2033.pdf",
+      "result": "HTTP 200 application/pdf but WRONG PAPER (Chen, Linton, Schneeberger & Yi, bid-ask spread) - discarded on identity check"
+     },
+     {
+      "host": "ideas.repec.org",
+      "scheme": "https",
+      "port": 443,
+      "path": "/p/sms/wpaper/1717.html",
+      "result": "HTTP 404"
+     }
+    ]
+   }
+  },
+  {
+   "id": "LB-39",
+   "record": "eru-1031",
+   "review_site": "§7.6 causality trap 3",
+   "item": "quoted string 'using the full sample period' for the psymonitor composite bootstrap's null-model estimation",
+   "verdict": "verified",
+   "source_evidence": "Cowles DP 2152 §5 'A New Composite Bootstrap', Step 1: 'Using the full sample period, estimate the regression model (2) under the imposition of the null hypothesis of rho = 0 and obtain the estimated residual e_t.'",
+   "note": "Verified in the Cowles DP 2152 working-paper twin. The Handbook of Statistics chapter the record's DOI names was NOT obtained, so this is a version-caveated verification.",
+   "retrieval": {
+    "route": "https://cowles.yale.edu/sites/default/files/2022-08/d2152.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 442289,
+    "sha256": "9ee7afb9241cf8b7033f87020387e829ee1e7186f483ecb1ba7bb1389cdb4903",
+    "version": "Cowles Foundation Discussion Paper 2152 (Nov 2018) WORKING-PAPER TWIN of the Handbook of Statistics chapter the record's DOI names; the chapter itself was NOT obtained - version caveat",
+    "page_map": "printed page number as last line of each PDF page",
+    "matches_sec95_digest": null
+   }
+  },
+  {
+   "id": "LB-40",
+   "record": "eru-0131",
+   "review_site": "§7.7 pooling row 'power under Evans-type collapse'",
+   "item": "'`eru-0131` (n = 120, pi grid, different scaling and calibration)' and the no-match ground 'different scaling, different sample size'",
+   "verdict": "corrected",
+   "source_evidence": "PWY's Evans-model power table is Table 4, p.221, whose note reads: '... the empirical power of the ADF test for an explosive bubble at the 5% nominal size level with 100 observations and 10,000 Monte-Carlo replications. The model used for the experiment is P_t = P^f_t + 20 B_t ... We set g = 0.05, alpha = 1, zeta = 0.5, B_0 = 0.5, tau = 0.05'. So T = 100, not 120, and the bubble scaling is x20 - the same scaling this row attributes to eru-0150. n = 120 is PWY's Table 3 (p.219), the NON-collapsing power design.",
+   "old_value": "n = 120, pi grid, different scaling and calibration; no-match ground 'different scaling, different sample size'",
+   "new_value": "T = 100, bubble scaled x20, alpha = 1, zeta = 0.5, tau = 0.05, g = 0.05 (Table 4 note p.221); both grounds withdrawn on the PWY side",
+   "note": "The no-match verdict is NOT reversed. eru-0150's own text remains unobtained, so its T, scaling and calibration cannot be checked. 'Different tests' survives as a ground. No matched cell is asserted and none is ruled out.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 258681,
+    "sha256": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+    "version": "Cowles Foundation Paper 1349 reprint of IER 52(1):201-226",
+    "page_map": "printed page = PDF page + 199 (PDF 2 = p.201)",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-41",
+   "record": "eru-0395",
+   "review_site": "§7.7 pooling row 'origination date bias'",
+   "item": "'`eru-0395` (fractions, T = 100-400, alpha = 0.6 localising rate)'",
+   "verdict": "verified",
+   "source_evidence": "Table 1 p.1090 uses alpha = 0.60 with T = 100; Table 4 p.1092 is the sample-size table with T = 200 and T = 400 blocks. Dating estimates are reported in sample fractions throughout.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1499.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 470694,
+    "sha256": "85a984e9cab1aaf42d4decf22a2066ea6aedf0d32600d6042bddebefb8d7d012",
+    "version": "Cowles Foundation Paper 1499 reprint of IER 56(4):1079-1134",
+    "page_map": "printed page = PDF page + 1077",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-42",
+   "record": "eru-0393",
+   "review_site": "§7.7 pooling row 'empirical size of SADF at 5%'",
+   "item": "'`eru-0393` (T = 100-1600, asymptotic CVs, k = 0, r0 = 0.01+1.8/sqrt(T))'",
+   "verdict": "verified",
+   "source_evidence": "Table 2 p.1058 header: 'SIZES OF THE SADF AND GSADF TESTS WITH ASYMPTOTIC CRITICAL VALUES'; T blocks 100/200/400/800/1600; k = 0 column; the r0 printed in each T block satisfies 0.01 + 1.8/sqrt(T) exactly.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1204657,
+    "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+    "version": "Cowles Foundation Paper 1498 reprint of IER 56(4):1043-1078",
+    "page_map": "printed page = PDF page + 1041",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-43",
+   "record": "eru-1044",
+   "review_site": "§7.7 pooling rows for SADF and GSADF size; §7.1 evidence row",
+   "item": "'`eru-1044` (same T range, same CV type)'; Table 2 SADF 0.0385-0.0457 and GSADF 0.0484-0.0566; Table 4 GSADF up to 0.29",
+   "verdict": "verified",
+   "source_evidence": "Table 2 SADF row: 0.0390 0.0444 0.0385 0.0431 0.0457 (min 0.0385, max 0.0457). GSADF row: 0.0519 0.0566 0.0496 0.0484 0.0499 (min 0.0484, max 0.0566). Table 4 (TGARCH(1,1) errors) GSADF row maximum 0.2936.",
+   "retrieval": {
+    "route": "https://link.springer.com/content/pdf/10.1007/s00181-020-01859-7.pdf",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 967381,
+    "sha256": "f8d287513c353bca9f6f5886426821edfeae4e0d4cbc778ccdca1aa8da09bc48",
+    "version": "published, Empirical Economics 61:145-172 (2021), open access",
+    "page_map": "n/a - table numbers used, no page locator in review",
+    "matches_sec95_digest": null
+   }
+  },
+  {
+   "id": "LB-44",
+   "record": "eru-0131",
+   "review_site": "§7.8 PWY row; §7.1 evidence row",
+   "item": "Table 3 Panel A p.219 - size 0.049 at the g = 0.00 column, n = 120, 10,000 replications",
+   "verdict": "verified",
+   "source_evidence": "p.219 (PDF 20) TABLE 3 Panel A, g = 0.00 column: 0.049 at every initial value b_0. Note: '... at the 5% nominal size level with 120 observations and 10,000 Monte Carlo replications'.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 258681,
+    "sha256": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+    "version": "Cowles Foundation Paper 1349 reprint of IER 52(1):201-226",
+    "page_map": "printed page = PDF page + 199 (PDF 2 = p.201)",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-45",
+   "record": "eru-1716",
+   "review_site": "§7.8 'the one row a branch-3 comparator set should not omit'; §7.1 evidence row",
+   "item": "classical PWY size 0.048-0.282 under a Heston null at n = 252",
+   "verdict": "corrected",
+   "source_evidence": "Table 1 reports PWY, BTPWY and RVPWY sizes over an (a, c) grid at beta = 0.10 / 0.05 / 0.01. The nominal-5% PWY cells are 0.076, 0.282, 0.392 (a = 0.01); 0.063, 0.216, 0.318 (a = 0.05); 0.048, 0.088, 0.180 (a = 0.25). The range is 0.048-0.392. The published range stopped at the c = 0.3 column and dropped the table's maximum. The Heston specification, n = 252 and 5,000 replications all verify.",
+   "old_value": "0.048-0.282",
+   "new_value": "0.048-0.392",
+   "retrieval": {
+    "route": "https://arxiv.org/pdf/2405.02087",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 690402,
+    "sha256": "dd98d732568a5e9b4669eda378fe004b121a073d9b850ef78ab9a87f2da6d1ac",
+    "version": "arXiv:2405.02087 preprint (the record's own tier)",
+    "page_map": "n/a",
+    "matches_sec95_digest": null
+   }
+  },
+  {
+   "id": "LB-46",
+   "record": "eru-0131",
+   "review_site": "agenda 'ADF_r (PWY 2011 eq. (8))'; review §8.1 and §9.5",
+   "item": "eq. (8) as the date-stamp rule",
+   "verdict": "verified",
+   "source_evidence": "p.207 (PDF 8): the pair r_e-hat = inf_{s >= r0}{s : ADF_s > cv_adf(s)}, r_f-hat = inf_{s >= r_e-hat}{s : ADF_s < cv_adf(s)}, numbered (8).",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 258681,
+    "sha256": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+    "version": "Cowles Foundation Paper 1349 reprint of IER 52(1):201-226",
+    "page_map": "printed page = PDF page + 199 (PDF 2 = p.201)",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-47",
+   "record": "eru-0393",
+   "review_site": "agenda 'BSADF_{r2} (PSY 2015a p.1053)'",
+   "item": "p.1053 as the locator for BSADF_{r2}",
+   "verdict": "verified",
+   "source_evidence": "p.1053 carries the second crossing-time equation (8) in BSADF_{r2}(r0) and the 'ex ante real-time / ex post statistic' sentence the agenda quotes alongside it.",
+   "note": "ADVISORY for the lead, no correction demanded: BSADF_{r2}(r0) is DEFINED on p.1051 and the first crossing-time equation (7) is on p.1052. p.1053 is right for the quotation the agenda pairs it with, loose for the definition. If a definition locator is wanted it is p.1051.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1204657,
+    "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+    "version": "Cowles Foundation Paper 1498 reprint of IER 56(4):1043-1078",
+    "page_map": "printed page = PDF page + 1041",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-48",
+   "record": "eru-0393",
+   "review_site": "agenda 'PSY Table 1 note p.1050, 2,000 reps'",
+   "item": "Table 1 note p.1050, 2000 replications",
+   "verdict": "verified",
+   "source_evidence": "p.1050 (PDF 9) TABLE 1 note: 'The asymptotic critical values are obtained by numerical simulations with 2000 replications. The Wiener process is approximated by partial sums of N(0, 1) with 2000 steps. The finite sample critical values are obtained from Monte Carlo simulation with 2000 replications.'",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1498.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1204657,
+    "sha256": "dfd19565775d1c9814ac1d33128223f585f201a0e740020f13e3254ed83a8c81",
+    "version": "Cowles Foundation Paper 1498 reprint of IER 56(4):1043-1078",
+    "page_map": "printed page = PDF page + 1041",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-49",
+   "record": "eru-0131",
+   "review_site": "agenda 'PWY Table 1 note p.213, 10,000 reps'",
+   "item": "Table 1 note p.213, 10,000 replications",
+   "verdict": "verified",
+   "source_evidence": "p.213 TABLE 1 note, as recorded above.",
+   "retrieval": {
+    "route": "http://korora.econ.yale.edu/phillips/pubs/art/p1349.pdf",
+    "scheme": "http",
+    "port": 80,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 258681,
+    "sha256": "a35fac94e4b04a1ecd93aa9bb5dcb2f9ecde4b5418ec20566ec70eed264f7ec4",
+    "version": "Cowles Foundation Paper 1349 reprint of IER 52(1):201-226",
+    "page_map": "printed page = PDF page + 199 (PDF 2 = p.201)",
+    "matches_sec95_digest": true
+   }
+  },
+  {
+   "id": "LB-50",
+   "record": "NB-08",
+   "review_site": "agenda 'NB-08's law is Theorem 1, p.609'; review §9.2, §9.5 and TC-6",
+   "item": "Theorem 1 p.609, Corollary 2 p.610, Corollary 3 p.611; and that 'Theorem 3.1' in that paper is a citation to another work",
+   "verdict": "verified",
+   "source_evidence": "Printed page = PDF page + 602. 'Theorem 1. Consider a general time-homogeneous Markov process X satisfying assumptions ...' on PDF 7 = p.609. 'Corollary 2. Consider a spectrally negative time-homogeneous Markov process X ...' on PDF 8 = p.610. 'Corollary 3. Consider a Levy process X ...' on PDF 9 = p.611. The only occurrence of the string 'Theorem 3.1' is on PDF 11 = p.613: 'which is consistent with Theorem 3.1 of [23] and Theorem 1 of [28]' - a citation to another work, reconfirming L-20.",
+   "retrieval": {
+    "route": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0021900217000201",
+    "scheme": "https",
+    "port": 443,
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 255312,
+    "sha256": "87277984ef7ecf4c61509577257de911b40ed18331d32013ac7249b3ebe13413",
+    "version": "J. Appl. Prob. 54(2):603-626 (2017), Cambridge Core open access",
+    "page_map": "printed page = PDF page + 602",
+    "matches_sec95_digest": true
+   }
+  }
+ ],
+ "digest_supersession_2026_09_04": "This file was amended on 2026-09-04 under finding QUANT-2-2 (scan_scope repointed, pre_correction_pool added, reading restated). Its SHA-256 therefore moves from dfd4f6a12414bb0f93c34deb15d4fa89a128ee3b3517781f3c275796a6324c81 - the value the round-1 remediation left, pinned by the retrospective ReproLog repro_log_9c27ee4ba0264615a1e331f7112e96d6.json - to the value published in the review section 15 artifact row, in Kalshi protocol amendment A19, and in the round-2 remediation ReproLog. NO ITEM, NO VERDICT AND NO COUNT IN THIS LOG CHANGES.",
+ "scanned_state_pin_2026_09_04": {
+  "why_a_section_digest_and_not_a_file_digest": "The review names this log's digest in its section 15 artifact row and this log names the review state it scanned. Pinning the review's WHOLE-FILE digest here would make the two mutually circular and neither could be finalised. Section 7 is the only part of the review this scan reads, so it is pinned directly and the pin stays valid under any edit elsewhere in the review.",
+  "file": "docs/literature/lit_review_explosive-regime-dating_2026-08-24.md",
+  "section_7_lines": "1485-2058 (heading line to the line before the section-8 heading at 2059)",
+  "section_7_bytes": 55975,
+  "section_7_sha256": "eacc69757d3cc5e96449b4f2442ffbcdb343b7d7be13b9003d017796206c4b15",
+  "note": "Computed over the section-7 lines joined by LF with a trailing LF, on the bytes on disk on 2026-09-04. Section 7 was NOT edited by the round-2 remediation; this digest is the same section 7 the round-1 pass left, and it is the state on which 77/26, 30/28 and 107/54 reproduce."
+ },
+ "digest_supersession_2026_09_03": "This file was amended on 2026-09-03 at round-4 audit remediation (finding QUANT-1-5): two keys were ADDED - scope.inclusion_rule_priority_is_SELF_ATTESTED and counts.sec7_candidate_denominator - and this key. NO VERDICT, NO ITEM, NO RETRIEVAL RECORD AND NO PRE-EXISTING COUNT WAS CHANGED. The digest therefore moves: the value d76a4c60b0c86d9accdb62cf5861d0a477d33e3bd1566bde4ed85f7c76b25495 over 79,443 bytes, published in the review's section 15, is SUPERSEDED. The new value is republished at that same site."
+}

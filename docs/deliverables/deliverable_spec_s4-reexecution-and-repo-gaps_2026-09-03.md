@@ -34,6 +34,34 @@ scope_note: |
     prefix still hashes to
     `99524df02696a59ab878173ce7f3636d9cd07067b5a801a677cdf5d126fa13f4`
     over its first 82,677 bytes.
+  - **DELIVERED WITH A DECLARED DEFECT — recorded 2026-09-04 under audit finding
+    SCOPE-2-1, and the box is deliberately NOT ticked.** The artifact satisfies
+    every clause of the mechanical **check** above: the verdict file parses, it
+    carries 197 verdict-bearing rows against an S4 subset size of 197,
+    197 + 503 = 700, every row cites a criterion, the residual `undecided` count
+    is stated, the amendment (A16, with A18 and A19 correcting it) exists, and
+    the frozen prefix was re-verified against the bytes on disk after every
+    append. What it does **not** satisfy is the **state** clause, and the
+    delivery says so itself: the admission bar actually applied was the
+    **negation of X6** — a disjunction, admitted unless the record states
+    *neither* a payoff support *nor* an applicability condition — and not the
+    §2.2 transfer clause's **conjunction**, which is the criterion this item
+    names. The include verdicts are therefore not the assessment this item
+    describes. **The set the transfer clause admits lies in [0, 178]**, no lower
+    bound above zero is recorded for it, and the include count is conditioned at
+    **[149, 327]** (protocol amendment **A18** §§(c)–(d); corpus record §8.4.4).
+    The defect is declared at every governing site — §8.4.4, A18 §§(c)–(d), the
+    corpus record's front matter, its "Read this first" block, its §5 identity
+    table, §8.4, §8.8, §13.2 and the gap register — rather than papered over,
+    and **no claim line in §8 rests on any of the 178**, so the corpus record's
+    claims are unaffected and the 178 can only weaken §8.4's universal
+    negatives, which is the conservative direction. **Carried forward as an open
+    item to the next session's spec:** re-screen the 178 against the transfer
+    clause's **positive conjunct**, recording per record a mandatory
+    `admitting_statement` that quotes the record's own sentence with its source
+    named, and re-adjudicating to `undecided` wherever none can be quoted. **No
+    re-screen was performed in this session and no count, verdict or record was
+    changed by its declaration.**
 
 - [ ] `docs/literature/search_logs/kalshi-arbitrage/ka-s4-fulltext-extraction.jsonl`
   - state: Full-text extraction for the S4 core set — at minimum the named
@@ -256,6 +284,82 @@ worth more as a recorded defect than as a quiet fix.
 - Protocol amendment SHA recomputation, spec ticks, ReproLog and sidecar
   emission, trail `git add`, commits  (reason: gate-mandated deterministic
   bookkeeping and hashing, no authored research content)
+
+# Recorded deviation — Thread A item 2 scope
+
+**2026-09-03.** Thread A item 2 as declared requires full-text extraction for
+the named lineage anchors "plus every S4 record newly included by the completion
+screen". That was written expecting the completion screen to admit a modest
+number. It admitted **178** (197 assessed: 178 include, 12 exclude X5, 7
+undecided), taking the corpus from 149 to **327**. Full-text reading of 178
+records is not achievable in this session, and pretending otherwise would
+reproduce the exact defect this thread exists to correct — an extraction stage
+claiming a depth it did not reach.
+
+**The deviation:** full-text depth is required for (a) the named inventory-risk
+and market-scoring-rule lineage anchors, and (b) every record §8.4 actually
+cites after the rewrite. Newly included records that §8.4 does not cite are
+carried at the depth already reached, **labelled as such per record**, and
+counted. The rewrite's rule is unchanged and is what matters: no §8.4 claim may
+assert an applicability condition at abstract depth without saying so.
+
+This narrows the deliverable. It is recorded here rather than absorbed silently,
+and the residual — the count of included-but-not-full-text-read S4 records — is
+reported in the session's residual risk.
+
+# Findings recorded during execution, not repaired here
+
+Two defects surfaced mid-session that are outside this spec's deliverables. Both
+are recorded rather than fixed, with the reason.
+
+**F-1 — amendment A8's wording misdescribes what its own count is against.**
+A8 says the 31 lenient divergences are counted against "the primary extractor's
+own judgments". They are counted against the review's §2.8-**resolved** domain
+column, i.e. after the `†` raises. Recount against the raw `domain_concerns`
+field in `se-extraction-primary.jsonl` gives **42** (D1 4, D2 1, D3 21, D4 9,
+D5 6, D6 1); the strict count is 13 either way. Established mechanically by
+`tests/test_erob_recount.py`, which reproduces A8's published 31/13 exactly
+against the resolved column. The review's §6 legend is precise about this; A8's
+prose is not. **Not repaired:** correcting a published amendment in an
+append-only addendum is a substantive act on a frozen protocol, and the lead
+session should not do it on its own reading. Routed to the audit round.
+**REPAIRED 2026-09-03 by the audit round (findings QUANT-1-6 and REV-1-6, both
+major, neither refuted).** The stated reason above conflated *editing* an
+amendment with *appending a correcting one*; the second was available — A12(a)
+already corrects A7's denominator by append — and has now been used. Protocol
+amendment **A15** records the correction in the governing document, and the
+review's §6 legend mirrors it. Nothing above this note is edited, and no spec box
+is ticked by it. Frozen prefix re-verified after the append: the first 51,478
+bytes still hash to `33c01c522521a9f0f9ee39caa7a71b1fcf51ca50a7b471cc4cc7ee2db7301a54`;
+the protocol-with-addendum digest moves to
+`eed7db745ff7fe241f85246c37f8f244890fb23712bf7c712093f3a40f9df9e0` (91,329
+bytes), superseding `9d400eb5…`.
+
+**F-2 — absolute home-directory paths carrying the OS username are in tracked,
+public files.** Raised as D9 by the refute-gate memo. Present in 16 files:
+6 audit-trail `.md`, 9 audit-trail `.json` sidecars, 4
+`union_gate_waivers_*.md`, and `er-screening-prompt.txt`. This contravenes
+`CLAUDE.md` §Identity hygiene's closing convention ("repo-relative paths remain
+the convention in tracked prose — absolute paths under a home directory are
+brittle across machines regardless of identity policy") in a repository that is
+public by explicit choice.
+
+**Not repaired, and the reason is a genuine conflict, not reluctance.** The
+`.json` sidecars are digest-pinned by `sidecar: {path, sha256}` in their own
+`.md` trails and now also by the calibration memo; rewriting them silently
+breaks the pin chain, which is a worse defect than the leak. The trails are
+also append-only immutable records under 21 CFR 11.10(e). And the
+`union_gate_waivers_*.md` files are written by
+`~/.claude/hooks/stop_union_gate.py`, so the durable fix is in the hook, which
+this spec places out of scope.
+
+The author's decision is needed on which of three to take: (a) leave history and
+fix the hook so no new file carries an absolute path; (b) normalise history and
+re-pin every affected digest in the same commit, recording the normalisation as
+a dated addendum in each trail; (c) accept it, on the ground that the repository
+already carries the author's real name by choice and the OS username adds
+little. This session took none of them; new files it wrote use repo-relative
+paths.
 
 # Standing correction from the 2026-09-02 session
 

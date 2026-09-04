@@ -58,35 +58,35 @@ project's own documents settle it — no external judgement is used.
 
 # Deliverables
 
-- [ ] `C:\Users\skoir\castles\docs\decisions\ADR-0006-multivocal-scope-for-strategy-corpus.md`
+- [x] `C:\Users\skoir\castles\docs\decisions\ADR-0006-multivocal-scope-for-strategy-corpus.md`
   - state: an accepted ADR records the decision to admit non-persistent-identifier sources for this branch, its rejected alternatives, and its reversal cost; it cites ADR-0003/0004 and the I3/X7 clauses it works around.
   - check: the file carries Context, Decision, Alternatives, Consequences and Reversal cost headings, and resolves from the front matter of every artifact below.
 
-- [ ] `C:\Users\skoir\castles\docs\methodology\protocol_kalshi-strategy-multivocal_2026-09-04.md`
+- [x] `C:\Users\skoir\castles\docs\methodology\protocol_kalshi-strategy-multivocal_2026-09-04.md`
   - state: a protocol frozen and committed BEFORE the first query of any search arm executes, specifying the multivocal source taxonomy (peer-reviewed / preprint / software repository / exchange-and-regulator document / practitioner grey literature), eligibility criteria with codes, the verbatim query set per arm, the screening rule, the extraction schema, the grey-literature quality-appraisal instrument, the strategy-class taxonomy skeleton, and an explicit enumeration of the reporting items it does NOT meet.
   - check: `git log --oneline -1 -- docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md` shows a commit whose subject carries the file SHA-256, and that commit is an ancestor of every commit touching `docs/literature/search_logs/kalshi-strategy-multivocal/`.
 
-- [ ] `C:\Users\skoir\castles\docs\literature\search_logs\kalshi-strategy-multivocal\` (directory)
+- [x] `C:\Users\skoir\castles\docs\literature\search_logs\kalshi-strategy-multivocal\` (directory)
   - state: one machine-readable log per executed query arm — verbatim query string, endpoint/platform, ISO-8601 execution timestamp, raw response or its SHA-256, and returned record count — plus the deterministic dedup and screening scripts with `PYTHONHASHSEED=0` asserted at entry, as the 2026-09-02 branch does.
   - check: every `query_id` cited in the corpus record resolves to a file in this directory, and the screening script self-test exits 0.
 
-- [ ] `C:\Users\skoir\castles\docs\literature\lit_review_kalshi-strategy-multivocal_2026-09-04.md`
+- [x] `C:\Users\skoir\castles\docs\literature\lit_review_kalshi-strategy-multivocal_2026-09-04.md`
   - state: a compiled corpus record (NOT a systematic review, declared as such at the head) carrying the flow accounting, the strategy-class taxonomy with every class attributed to at least one retrieved source at a stated depth, per-class executability preconditions marked `TO COMPUTE`, the Kalshi-specific vs generalised-from-another-venue split for every class, a named-gap section, and the limitations a reader must carry into every number.
   - check: no `[unsourced]` marker survives in the file; every taxonomy row has a non-empty source column; the frontmatter counts satisfy `n_identified - n_duplicates_removed == n_screened` and `n_screened - n_excluded == n_included`.
 
-- [ ] `C:\Users\skoir\castles\docs\literature\references_kalshi-strategy-multivocal.json`
+- [x] `C:\Users\skoir\castles\docs\literature\references_kalshi-strategy-multivocal.json`
   - state: a CSL-JSON store covering every INCLUDED record, with `software` entries for repositories carrying repository URL, commit or release identifier, and access date, and `webpage`/`report` entries for documents carrying access date and a digest of the retrieved bytes where one exists.
   - check: the store length equals the corpus record `n_included`, so the identity `len(store) == n_included` CLOSES and the 2026-09-02 branch gap AG-11 is not repeated.
 
-- [ ] `C:\Users\skoir\castles\docs\research_notes\research_agenda_prediction-market-microstructure_2026-09-02.md` (rev 3, in place)
+- [x] `C:\Users\skoir\castles\docs\research_notes\research_agenda_prediction-market-microstructure_2026-09-02.md` (rev 3, in place)
   - state: new branches derived ONLY from named gaps or `TO COMPUTE` handoffs in the new corpus record, each with a falsification test specified to the charter standard, and no branch stating a tradeable rule.
   - check: front matter reads `revision: 3`; every new branch cites a gap id or handoff id that exists in the new corpus record.
 
-- [ ] `C:\Users\skoir\castles\docs\audits\audit_trail_kalshi-strategy-corpus_2026-09-04.md` + `.json` sidecar
+- [x] `C:\Users\skoir\castles\docs\audits\audit_trail_kalshi-strategy-corpus_2026-09-04.md` + `.json` sidecar
   - state: an audit trail written during this session that validates against the WI-3 section 2 required-field spec — 22 front-matter keys, 7 body sections — recording every refute-gate disposition verbatim.
   - check: `hooks/stop_union_gate.py` does not block at end of turn; the trail `sidecar.sha256` matches the sidecar on disk.
 
-- [ ] `C:\Users\skoir\castles\.claude\settings.json`
+- [x] `C:\Users\skoir\castles\.claude\settings.json`
   - state: a prioritized allowlist of common read-only Bash/MCP calls, produced by the `fewer-permission-prompts` skill, present in project settings.
   - check: the file parses as JSON and `permissions.allow` is a non-empty list.
 
@@ -197,3 +197,227 @@ drift. Each entry is dated and states what changed and why.
   adaptation understates it. PRISMA 2020 use remains reasoning by analogy and is
   declared as such. The predecessor protocol's blanket "both ADAPTED" framing is
   deliberately not copied.
+
+- **D5 — 2026-09-04 — one deliverable added on author instruction: a
+  pre-registration design document for hypothesis H001.** Not in the original
+  Deliverables list. The author asked which profitability hypothesis is worth
+  investigating by statistical analysis and paper testing, and then asked for the
+  design document to be drafted. Recorded here because an undeclared deliverable
+  is a scope divergence in the same way an undeclared delegation is.
+
+  - [x] `H001 pre-registration design document` (path per the
+    `pre-register-hypothesis` skill; deviation recorded in the file if the skill
+    path conflicts with the castles layout)
+    - state: a DRAFT, explicitly **not frozen** — it specifies the null, the test
+      statistic, two surrogate constructions, the family-wise aggregation rule,
+      the refutation condition as a magnitude and a frequency, and the MDES as
+      `TO COMPUTE`; every threshold carries its selection procedure and no bare
+      number appears; every venue fact is cited to a clause id in
+      `ks-venue-docs.json` and every strategy claim to a class id in
+      `ks-lateral-records.json` or a record in `ks-github-records.jsonl`.
+    - check: front matter reads `status: draft-unfrozen`; `grep -c "TO COMPUTE"`
+      returns a positive integer; no external citation appears that is absent
+      from `ks-instrument-verification.json` or an arm output.
+
+  **Why it is drafted and not frozen.** The `pre-register-hypothesis` skill
+  freezes a design by hashing it and committing the hash. Freezing now would
+  register a design against a literature corpus that does not yet exist — the
+  academic arm is still executing and
+  `lit_review_kalshi-strategy-multivocal_2026-09-04.md` is unwritten. The freeze
+  is deferred until the corpus record exists, which is the same
+  registration-before-execution discipline the protocol itself was frozen under.
+
+  **ADR-0003 boundary, restated because this deliverable sits closest to it.**
+  The design specifies a test. It acquires no market data, calls no exchange API,
+  computes no price, fits nothing, backtests nothing, and states no tradeable
+  rule. The statistical run and the paper test are an executing project's work
+  and are a `TO COMPUTE` handoff, not a debt this repository pays.
+
+- **D6 - 2026-09-04 - failure_log.md registration added to scope.** Not in the
+  original Deliverables list. Charter commitment 2 makes every null encountered an
+  object of study and requires it be registered in
+  [failure_log.md](../../failure_log.md) and worked through the charter's
+  five-step negative-result protocol. This session encountered several - the
+  lateral arm's foreclosed post-print latency race, the academic arm's near-empty
+  weather stratum (which is NOT a clean absence, because the one query aimed at
+  temperature settlement never executed), and two nulls reported by sources rather
+  than established here. Registering them is a standing charter obligation, not a
+  discretionary addition, so it is recorded as scope rather than left undone.
+
+  - [x] `C:\Users\skoir\castles\failure_log.md` (append-only)
+    - state: one row per null encountered this session, in the house schema, each
+      stating whether protocol steps 1-2 were executed, each localizing the failure
+      layer with its discriminating observation or recording `undetermined` where
+      no discriminating observation exists, and each distinguishing a null this
+      project established from a null a source reports.
+    - check: new `F00n` rows present; no existing row deleted or reworded; every
+      row states its steps 1-2 status explicitly.
+
+- **D7 - 2026-09-04 - amendment M1 issued against the frozen protocol.** Not a
+  new artifact but a change to a declared one, recorded here because the
+  declaration's protocol row said the protocol would be frozen and this records
+  what happened to it after freeze. The ACADEMIC arm reported three
+  query-construction departures BEFORE assigning any screening disposition; the
+  lead session adjudicated all three and granted each on a narrowed construal.
+  Written to both registers protocol section 10 requires - the protocol's own
+  append-only Addendum and
+  `docs/literature/search_logs/kalshi-strategy-multivocal/ks-amendments.jsonl`.
+  The frozen prefix was re-hashed after the append and is byte-identical to the
+  registration commit (`32dfea6da36c...` over the first 91,498 bytes), so no
+  frozen text was edited. Each part carries a `reached_via` tag so a reviewer
+  rejecting any ruling can withdraw exactly the affected records.
+
+# Push authorisation - GRANTED, on disclosure of the full scope
+
+The author instructed "commit and push to git" on 2026-09-04. Before acting on the
+push half, the lead session established that `main` was **ahead of `origin/main` by
+15 commits**, fourteen of which predate this session and had never been published:
+charter Rev 3 and the round-3 remediation, the phase-1 and naming sweeps, the frozen
+explosive-regime protocol and its executed review, the frozen kalshi-arbitrage
+protocol, ADR-0004, the S4 re-execution, ADR-0005 and `uv.lock`, plus this session's
+registration commit. This repository is public and real-name attributed, so a push
+discloses all of them, and that is materially broader than "commit and push" would
+ordinarily imply. The scope was put to the author, who answered **"push everything
+after committing"**. The push therefore proceeds on an informed instruction, and the
+disclosure that preceded it is recorded here rather than left to memory.
+
+Identity hygiene was verified clean before either step: `Sajan Koirala` /
+`238704148+s-koirala@users.noreply.github.com`, the noreply address CLAUDE.md
+requires, with the author's real address absent from commit metadata and from every
+tracked file this session wrote.
+
+
+# Declaration amendments, round-1 audit remediation (append-only, continued)
+
+Round 1 of the audit-remediate loop returned **verdict `block`**: 7 critical, 27
+major, 21 minors logged, 2 findings dropped by the refute gate. Six of the seven
+routed branches independently confirmed the same seeded defect. The findings
+below are the ones whose remedy is a change to THIS DECLARATION rather than to a
+deliverable, and each is recorded rather than quietly absorbed.
+
+- **D8 - 2026-09-04 - finding SCOPE-1-2: the frozen protocol freezes the query
+  CONSTRUCTION RULE, not the verbatim query set this declaration promised.** The
+  protocol row above says the frozen artifact specifies "the verbatim query set
+  per arm". It does not. Section 3.5 fixes the construction rule in sections
+  3.1-3.4 and the section 3.0 recording obligation, and leaves the concrete
+  strings to execution. **This is a change in KIND, not merely in wording**, and
+  the declaration did not carry it. It is nonetheless the right design for a
+  multivocal surface whose query space cannot be enumerated in advance across
+  four heterogeneous platforms - and it is precisely what made amendment **M1**
+  both necessary and possible, since a frozen string set could only have been
+  departed from silently or not at all. The substituted discipline is stated so a
+  reader can judge it: every executed query is logged verbatim under section 3.0
+  including zero-yield and failed rows, and any departure from the construction
+  rule is an amendment recorded before the affected records are screened. The
+  frozen protocol is NOT edited to match this declaration; the declaration is
+  corrected to match the artifact.
+
+- **D9 - 2026-09-04 - finding SCOPE-1-3: the declared "screening script
+  self-test exits 0" check is RETIRED as inapplicable, by design.** The
+  search-log row above requires "the deterministic dedup and screening scripts
+  ... as the 2026-09-02 branch does". No screening script exists in this branch
+  and none can: the predecessor screened 8,466 records with a keyword classifier
+  and declared it the automation tool of record, whereas this branch assigned
+  **no classifier verdict at all** - every unassessed record is a capacity-gap
+  G-row, which is a weaker and more honest disposition than a keyword verdict.
+  A check inherited from a branch that made the opposite methodological choice
+  cannot be satisfied and should not be. Substitute verification, which does
+  exist: the stored B1-B4 branch rule and the SR-1/SR-3 subset rule, both
+  declared non-verdict machinery, and the `PYTHONHASHSEED=0` assertion on the
+  deterministic scripts that do exist. **Retiring a check is itself a scope
+  change and is recorded as one**, not resolved by reinterpreting the words.
+
+- **D10 - 2026-09-04 - finding SCOPE-1-4: the promised known-item recall check
+  was missing and has now been PERFORMED rather than waived.** The audit's own
+  remedy offered two routes - execute the check, or register its absence as a
+  gap. The check is a deterministic set operation over two files already in the
+  repository, so it was executed:
+  `docs/literature/search_logs/kalshi-strategy-multivocal/ks-known-item-recall.json`.
+  **Result: the academic arm identified 14 of the 327 records the predecessor
+  branch dispositioned `include` - a recall of 4.3%.** The figure is published
+  with the two caveats that bound it. First, the seed set is defensible but
+  imperfect: the predecessor asks about arbitrage, coherence and market making,
+  this branch asks about STATED STRATEGIES, so a predecessor include is not
+  automatically a record this branch ought to have retrieved, and a low figure is
+  evidence about vocabulary overlap between two protocols rather than proof of a
+  missed record. Second, the seed inherits the novelty index's own bound - it
+  covers 6,923 of the predecessor's 8,813 records, so predecessor includes with
+  no identifier cannot appear in it at all. **The figure is low and is published
+  because it is low.** It is not a screening statistic: all 528 academic rows
+  remain capacity-gap G-rows and none was assessed.
+
+- **D11 - 2026-09-04 - finding SCOPE-1-6: an undeclared change to a shared
+  convention register.** `hypothesis_backlog.md` was given a new H001 row - which
+  D5 covers by implication but did not name - and, more consequentially, **a new
+  status token `specified-unfrozen` was added to that file's house status
+  legend.** That legend is a cross-project convention register inherited from the
+  SKIE-Universe layout, so adding a token to it is a broader change than shipping
+  one hypothesis row. The token was introduced because the existing legend
+  defines `designed` as "pre-registration frozen via /preregister; design.md SHA
+  recorded", none of which is true of H001, and using it would have been false.
+  **The token is PROPOSED, not ratified.** Ratification is the author's, not this
+  session's, and until it happens the token should be read as local to this
+  repository.
+
+- **SCOPE-1-5 - DISCHARGED, not amended.** The finding recorded the session audit
+  trail as absent. It was absent at audit time because it is the loop's own
+  output and cannot precede it. It now exists at
+  `docs/audits/audit_trail_kalshi-strategy-corpus_2026-09-04.md` with its JSON
+  sidecar, and was verified by the lead against the WI-3 section 2 field spec:
+  **22 of 22 front-matter keys present, all 7 required body sections present**,
+  and its digest matches the value the workflow reported.
+
+
+# Declaration amendments, round-2 audit remediation (append-only, continued)
+
+Round 2 returned **verdict `block`**: 7 critical, 26 major, 21 minors logged,
+**0 refuted**. Four branches independently raised the same critical finding, and
+it was a defect **round-1 remediation itself introduced**. That is the useful
+result of running a second round rather than exiting on the first.
+
+- **D12 - 2026-09-04 - finding SCOPE-2-3: protocol amendment M2 was issued during
+  round-1 remediation and no declaration amendment recorded it.** D7 set the
+  precedent by recording M1 for exactly this reason. M2 was raised by audit
+  finding SCOPE-1-7, rules that a capacity code is a FOURTH stage-1 outcome,
+  reconciling the frozen protocol's section 4.2 enumeration with its section 4.4
+  capacity codes, and is declared **POST-EXECUTION and therefore explicitly weaker
+  than M1** - the 1,465 G-dispositions it reconciles were assigned before the
+  contradiction was adjudicated. It changes no eligibility criterion, no
+  disposition, no count and no arithmetic identity, and the frozen prefix hash is
+  unchanged after the append. Registered in both registers protocol section 10
+  requires, and - after round 2 caught the omission - now enumerated in the corpus
+  record at section 3.4.
+
+- **D13 - 2026-09-04 - finding SCOPE-2-10: D5's citation-envelope check is
+  WIDENED, and the widening is recorded rather than left to fail silently.** D5
+  states as its check that no external citation appears in the H001 design that is
+  absent from `ks-instrument-verification.json` or an arm output. Round-1
+  remediation added two records that satisfy neither condition - Politis & White
+  2004 (doi:10.1081/ETC-120028836) and Patton, Politis & White 2009
+  (doi:10.1080/07474930802459016) - and round 2 added a third, Lopez de Prado
+  (2018), *Advances in Financial Machine Learning*, Wiley, ISBN 978-1-119-48208-6.
+  All three were added **because** audit findings recorded the design naming those
+  methods with no citation at all, which is the worse defect. **The check as
+  written was too narrow**: it was drafted for a corpus deliverable, whose sources
+  must all trace to an arm log, and applied to a design document, whose
+  statistical instruments come from `rules/quant-project.md` and the charter by
+  the ADR-0004 adoption. The check is widened to admit instruments adopted by
+  explicit reference under ADR-0004 and instruments the charter cites, **named
+  individually** as above. It is NOT widened to admit anything else, and a
+  citation in the design outside those two channels and the arm logs remains a
+  defect. All three records are flagged in the design as **not re-fetched in this
+  session**, so the widening admits them on the same terms the file uses for every
+  other carried instrument.
+
+- **A round-1 remediation error, recorded because it was mine and not the
+  agents'.** Round-1 finding REPRODUCIBILITY-1-4 was remediated by registering
+  gap **G-28**, "the CSL-JSON store builder was never archived ... not re-runnable
+  at all". Round-2 finding QUANT-2-4 established that the builder **existed at the
+  time G-28 was written**, in the same executing-session scratchpad from which
+  fifteen other scripts had just been archived. A recoverable artifact was
+  registered as a permanent gap. It is now archived as `ks-store-builder.py` and
+  **verified to regenerate the store byte-for-byte** (sha256 `c7545d31...`,
+  167,673 bytes, 99 entries), and G-28 is **closed by recovery** with its
+  superseded text struck. The general lesson is recorded here rather than only in
+  the gap row: **registering a gap is a claim about the world and is subject to
+  the same evidence standard as any other claim in this project.**

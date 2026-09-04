@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pQ9Lnc3XBPHEw2Rf6TdDLxyMJ5A</id>
+  <title>arXiv Query: search_query=abs:"weather derivative" AND abs:"hedging"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-09-04T18:28:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22weather+derivative%22+AND+abs:%22hedging%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1905.07546v2</id>
+    <title>Hedging crop yields against weather uncertainties -- a weather derivative perspective</title>
+    <updated>2019-08-01T06:25:25Z</updated>
+    <link href="https://arxiv.org/abs/1905.07546v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.07546v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The effects of weather on agriculture in recent years have become a major global concern. Hence, the need for an effective weather risk management tool (i.e., weather derivatives) that can hedge crop yields against weather uncertainties. However, most smallholder farmers and agricultural stakeholders are unwilling to pay for the price of weather derivatives (WD) because of the presence of basis risks (product-design and geographical) in the pricing models. To eliminate product-design basis risks, a machine learning ensemble technique was used to determine the relationship between maize yield and weather variables. The results revealed that the most significant weather variable that affected the yield of maize was average temperature. A mean-reverting model with a time-varying speed of mean reversion, seasonal mean, and local volatility that depended on the local average temperature was then proposed. The model was extended to a multi-dimensional model for different but correlated locations. Based on these average temperature models, pricing models for futures, options on futures, and basket futures for cumulative average temperature and growing degree-days are presented. Pricing futures on baskets reduces geographical basis risk, as buyers have the opportunity to select the most appropriate weather stations with their desired weight preference. With these pricing models, farmers and agricultural stakeholders can hedge their crops against the perils of extreme weather.</summary>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-18T07:31:21Z</published>
+    <arxiv:comment>28 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.MF"/>
+    <arxiv:journal_ref>Mathematical and Computational Applications, 24(3) (2019)</arxiv:journal_ref>
+    <author>
+      <name>Samuel Asante Gyamerah</name>
+    </author>
+    <author>
+      <name>Philip Ngare</name>
+    </author>
+    <author>
+      <name>Dennis Ikpe</name>
+    </author>
+    <arxiv:doi>10.3390/mca24030071</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/mca24030071" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.04541v3</id>
+    <title>Quantifying Seasonal Weather Risk in Indian Markets: Stochastic Model for Risk-Averse State-Specific Temperature Derivative Pricing</title>
+    <updated>2026-03-15T16:58:19Z</updated>
+    <link href="https://arxiv.org/abs/2409.04541v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.04541v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This technical report presents a stochastic model for pricing weather derivatives and devising hedging strategies tailored to Indian markets. We model temperature dynamics using a modified Ornstein-Uhlenbeck process with jumps to account for sudden shocks, such as heatwaves and coldwaves. Historical data from 12 Indian states (1951-2023) is used for calibration, and Monte Carlo simulations are employed under the risk-neutral measure to price Heating Degree Days (HDD), Cooling Degree Days (CDD), and extreme event options. Sensitivity analysis reveals that a 20% increase in volatility leads to an approximate 4.2% increase in option prices, highlighting the critical impact of volatility on derivative pricing. Results show that HDD options in colder states like Himachal Pradesh are significantly more expensive, with prices reaching up to INR 684,693, while CDD options in hotter states like Gujarat are priced higher, up to INR 262,986. A comprehensive portfolio analysis indicates that investing INR 120,000 in HDD put options in Uttar Pradesh yields an expected payoff of INR 132,369, resulting in a return on investment (ROI) of 10.3%. Conversely, a similar investment in Karnataka yields a negative ROI of -66.7% due to its milder climate. Hedging strategies are tailored to each state's climatic risk, with recommendations to buy 90.66 HDD put options at a strike of 90.89 in Uttar Pradesh and invest in CDD call options in Gujarat. These insights offer practical solutions for managing temperature-related financial risk in energy and agriculture, providing actionable, state-specific hedging strategies for diverse climatic scenarios in India.</summary>
+    <category term="q-fin.RM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-06T18:11:29Z</published>
+    <arxiv:comment>The authors have withdrawn this paper due to data processing and calibration errors that caused inconsistencies in option pricing and hedging results. We are also revising the jump process to properly account for extreme weather seasonality. The framework is being corrected and all findings will be recalculated</arxiv:comment>
+    <arxiv:primary_category term="q-fin.RM"/>
+    <author>
+      <name>Soumil Hooda</name>
+    </author>
+    <author>
+      <name>Shubham Sharma</name>
+    </author>
+    <author>
+      <name>Kunal Bansal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.21143v3</id>
+    <title>Comparative Analysis of Weather-Based Indexes and the Actuaries Climate Index$^{TM}$ for Crop Yield Prediction and Weather-Derivative Pricing</title>
+    <updated>2026-04-15T13:34:19Z</updated>
+    <link href="https://arxiv.org/abs/2504.21143v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.21143v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Climate change poses significant challenges to the agricultural and financial sectors, affecting crop productivity and overall financial stability. This study evaluates the robustness of the Actuaries Climate Index$^{TM}$ (ACI), a newer entrant in the field as a tool for measuring climate impacts, by comparing its explanatory power with well-established weather-based indexes (WBIs) across two key sectors. In the agricultural context, the yields of three major crops are predicted using generalized statistical models and advanced machine learning algorithms with climate indexes as explanatory variables. To enhance model reliability and address multicollinearity among weather-related variables, the study also incorporates both principal component analysis and functional principal component analysis. A total of 22 models, each constructed with different sets of explanatory variables, demonstrate the significant impact of wind speed and sea-level changes, alongside temperature and precipitation, on crop yield variability across six regions of the United States. For the financial market application, the analysis adapts the weather derivative framework, as it is a critical instrument for energy companies, insurers, and agribusinesses seeking to hedge against weather-related risks. By analyzing the payoffs of derivative contracts that use WBIs and ACI components as underlying variables, the findings reveal that the ACI framework holds a strong potential as a comprehensive climate risk indicator, not only for the agricultural sector but also for the finance and insurance industries.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-29T19:54:08Z</published>
+    <arxiv:comment>1) The application of the ACI within a weather-derivative framework is incorporated. 2) A time-trend analysis is integrated prior to crop yield prediction. 3) The iterative M-split leave-k-out cross-validation method is implemented. 4) The Discussion section is added</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Cem Yavrum</name>
+    </author>
+    <author>
+      <name>A. Sevtap Selcuk-Kestel</name>
+    </author>
+    <author>
+      <name>José Garrido</name>
+    </author>
+    <arxiv:doi>10.3390/risks14050102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/risks14050102" title="doi"/>
+  </entry>
+</feed>

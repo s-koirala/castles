@@ -1,0 +1,3646 @@
+{
+ "stage": "retrieval chain run by the S4 completion screen for X11 records the archived universe left without an abstract",
+ "date": "2026-09-03",
+ "purpose": "retrieval only; no verdict in this stage was derived from any API response",
+ "n_x11_without_archived_abstract": 129,
+ "n_abstract_recovered": 41,
+ "n_unrecovered_kept_X11_under_SR_2d": 88,
+ "arm_coverage_over_the_unrecovered_set": {
+  "arm1_openalex_crossref_s2_by_doi": {
+   "attempted": 88,
+   "filled": 0
+  },
+  "arm2_openalex_title_search": {
+   "attempted": 88,
+   "filled": 0
+  },
+  "arm3_semanticscholar_title_search": {
+   "attempted": 88,
+   "filled": 0,
+   "http_429_rate_limited": 78,
+   "genuine_200_no_matching_title_abstract": 10
+  },
+  "arm4_doi_landing_page": {
+   "attempted": 88,
+   "filled": 0,
+   "fetched_but_no_abstract_metadata": 68,
+   "http_403_forbidden": 19,
+   "http_302": 1
+  }
+ },
+ "reading_of_the_result": "A rate-limited or bot-blocked response is a failure of this retrieval chain, NOT evidence that the record has no abstract. X8 is therefore not applied to any of these records: X8 asserts a criterion failure reached after a full stage-2 retrieval chain, and this was a weaker subset-membership chain.",
+ "records": [
+  {
+   "id": "U00042",
+   "title": "High Frequency Market Making",
+   "doi": "10.1016/j.jeconom.2022.12.015",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0304407623000581",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00089",
+   "title": "Ambiguous Market Making",
+   "doi": "10.1016/j.jmateco.2023.102842",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0304406823000356",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00091",
+   "title": "An Optimal Price Setting Rule for Market Makers",
+   "doi": "10.2139/ssrn.4796063",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U00152",
+   "title": "High Frequency Market Making During Stressed Periods",
+   "doi": "10.1016/j.iref.2023.05.001",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1059056023001533",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00153",
+   "title": "High Frequency Trading and the New-Market Makers",
+   "doi": "10.1016/j.finmar.2013.06.006",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1386418113000281",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00209",
+   "title": "Market Makers' Supply and Pricing of Financial Market Liquidity",
+   "doi": "10.1016/s0165-1765(02)00029-0",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 200; 3 hits, none with a matching-title abstract"
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0165176502000290",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00228",
+   "title": "Optimal Liquidity Provision for Decision Makers",
+   "doi": "10.2139/ssrn.891741",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U00259",
+   "title": "Technology and Liquidity Provision: The Blurring of Traditional Definitions",
+   "doi": "10.1016/j.finmar.2008.06.002",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1386418108000220",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00326",
+   "title": "A model of market making with heterogeneous speculators",
+   "doi": "10.1007/s11403-020-00283-5",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/article/10.1007/s11403-020-00283-5",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00346",
+   "title": "An Empirical Examination of Market Maker Profits on the London Stock Exchange",
+   "doi": "10.1007/978-94-011-2180-4_4",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/chapter/10.1007/978-94-011-2180-4_4",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00376",
+   "title": "Automated Liquidity Provision",
+   "doi": "10.1016/j.pacfin.2016.05.006",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0927538X16300518",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00715",
+   "title": "Local Market Makers, Liquidity and Market Quality",
+   "doi": "10.1016/j.finmar.2011.02.002",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1386418111000048",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00740",
+   "title": "Market Makers",
+   "doi": "10.1007/978-1-4614-5360-4_38",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 200; 3 hits, none with a matching-title abstract"
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/rwe/10.1007/978-1-4614-5360-4_38",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00797",
+   "title": "Optimal Liquidity Provision",
+   "doi": "10.1016/j.spa.2015.02.015",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 200; 3 hits, none with a matching-title abstract"
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0304414915000654",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00897",
+   "title": "Security Analysis and Market Making",
+   "doi": "10.1016/j.jfi.2003.09.003",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1042957303000858",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00916",
+   "title": "Specialist Participation and Limit Orders",
+   "doi": "10.1016/s1386-4181(02)00021-6",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 200; 3 hits, none with a matching-title abstract"
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1386418102000216",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00917",
+   "title": "Specialist Performance and New Listing Allocations on the NYSE: An Empirical Analysis",
+   "doi": "10.1016/s1386-4181(03)00017-x",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S138641810300017X",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U00993",
+   "title": "The Impact of Specialist Firm Acquisitions on Market Quality",
+   "doi": "10.1016/s0304-405x(02)00153-8",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 200; 1 hits, none with a matching-title abstract"
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0304405X02001538",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U01045",
+   "title": "The impact of illegal insider trading in dealer and specialist markets: evidence from a natural experiment",
+   "doi": "10.1016/s0304-405x(03)00188-0",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0304405X03001880",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U01071",
+   "title": "Trading Venue and Voluntary Earnings Disclosure: The NYSE Specialist Market Versus the NASDAQ Dealer Market",
+   "doi": "10.2139/ssrn.950897",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U01090",
+   "title": "VIX and Liquidity Premium",
+   "doi": "10.1016/j.irfa.2020.101655",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1057521920302945",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U01114",
+   "title": "Why Designate Market Makers? Affirmative Obligations and Market Quality",
+   "doi": "10.2139/ssrn.1007274",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U01194",
+   "title": "A Regime-Level Empirical Model of the Specialist Quote Revision Process",
+   "doi": "10.1023/a:1008375911021",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/10.1023/A:1008375911021",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U01210",
+   "title": "A Structural Model of Automated Market Making",
+   "doi": "10.2139/ssrn.4591447",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U01230",
+   "title": "A better market design? Applying Automated Market Makers to trading real-world assets",
+   "doi": "10.2139/ssrn.4459924",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U01402",
+   "title": "An Analysis of Market Makers' Behavior on NASDAQ Europe",
+   "doi": "10.2139/ssrn.367463",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U01412",
+   "title": "An Automated Market Maker Algorithm for Fixed-Rate Trading with Flexible Maturities",
+   "doi": "10.1007/s10614-025-11046-4",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/10.1007/s10614-025-11046-4",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U01459",
+   "title": "An empirical analysis of NYSE specialist trading",
+   "doi": "10.1016/s0304-405x(98)00008-7",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0304405X98000087",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U01596",
+   "title": "Auction and dealership markets",
+   "doi": "10.1016/0014-2921(92)90119-h",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/001429219290119H",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U01608",
+   "title": "Automated Market Makers That Enable New Settings: Extending Constant-Utility Cost Functions",
+   "doi": "10.1007/978-3-642-30913-7_5",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/chapter/10.1007/978-3-642-30913-7_5",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U01611",
+   "title": "Automated Market Making: Theory and Practice",
+   "doi": "10.1184/r1/6714920.v1",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "openalex:doi",
+    "note": null
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U01689",
+   "title": "Bid-Ask Spreads with Indirect Competition among Specialists",
+   "doi": "10.1016/s1386-4181(97)00005-0",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 200; 2 hits, none with a matching-title abstract"
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1386418197000050",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U01698",
+   "title": "Bid-ask spreads, NYSE specialists, and NASD dealers",
+   "doi": "10.3905/jpm.1991.409381",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U01842",
+   "title": "Common market makers and commonality in liquidity",
+   "doi": "10.1016/j.jfineco.2003.05.006",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0304405X04000145",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U01857",
+   "title": "Competing market makers, liquidity provision, and bid–ask spreads",
+   "doi": "10.1016/s1386-4181(01)00014-3",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1386418101000143",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U02018",
+   "title": "Dealer Spreads in the Corporate Bond Market: Agent vs. Market-Making Roles",
+   "doi": "10.2139/ssrn.2378000",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U02031",
+   "title": "Decimalization, adverse selection, and market maker rents",
+   "doi": "10.1016/s0378-4266(00)00101-1",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 200; 3 hits, none with a matching-title abstract"
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378426600001011",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U02047",
+   "title": "Demand for the Immediacy of Execution: Time is Money",
+   "doi": "10.2139/ssrn.685944",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U02053",
+   "title": "Designated Market Makers in Electronic Limit Order Books - A Closer Look",
+   "doi": "10.2139/ssrn.2154699",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U02147",
+   "title": "Do Designated Market Makers Facilitate Earnings News Discovery?",
+   "doi": "10.1016/j.jacceco.2025.101852",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0165410125000886",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U02167",
+   "title": "Do Market Makers Suffer from Splitting Headaches?",
+   "doi": "10.1023/a:1008119513111",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/10.1023/A:1008119513111",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U02176",
+   "title": "Do `thinly-traded¿ stocks benefit from specialist intervention?",
+   "doi": "10.1016/s0378-4266(03)00103-1",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378426603001031",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U02189",
+   "title": "Do market makers matter for price efficiency?—Evidence from China’s Sci-Tech Innovation Board",
+   "doi": "10.1016/j.irfa.2025.104308",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1057521925003953",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U02299",
+   "title": "Dynamic Model of Market with Uninformed Market Maker",
+   "doi": "10.14736/kyb-2017-5-0922",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "openalex:doi",
+    "note": null
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U02388",
+   "title": "Eliciting beliefs: Proper scoring rules, incentives, stakes and hedging",
+   "doi": "10.1016/j.euroecorev.2013.03.008",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S001429211300041X",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U02466",
+   "title": "Estimating bid-ask spread components: Specialist versus multiple market maker systems",
+   "doi": "10.1007/bf00367502",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/article/10.1007/BF00367502",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U02605",
+   "title": "Finding profitable forecast combinations using probability scoring rules",
+   "doi": "10.1016/j.ijforecast.2010.01.002",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0169207010000051",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U02694",
+   "title": "Generalist vs. Specialist CEOs: R&D Investment Sensitivity to Stock Price",
+   "doi": "10.1016/j.frl.2024.105081",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1544612324001119",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U02757",
+   "title": "High-Frequency Market Making: Liquidity Provision, Adverse Selection, and Competition",
+   "doi": "10.2139/ssrn.3074313",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U02763",
+   "title": "High-frequency traders’ evolving role as market makers",
+   "doi": "10.1016/j.pacfin.2023.102184",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0927538X2300255X",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U02960",
+   "title": "Information Leakage and Opportunistic Behavior Before Analyst Recommendations: An Analysis of the Quoting Behavior of NASDAQ Market Makers",
+   "doi": "10.2139/ssrn.423840",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U03033",
+   "title": "Informational Role of Market Makers: The Case of Exchange Traded CFDs",
+   "doi": "10.1016/j.jempfin.2013.04.007",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0927539813000315",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03098",
+   "title": "Insider Trading with Non-Fiduciary Market Makers",
+   "doi": "10.2139/ssrn.2783356",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03163",
+   "title": "Intertemporal price discovery by market makers: Active versus passive learning",
+   "doi": "10.1016/1042-9573(92)90008-2",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/1042957392900082",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03185",
+   "title": "Intraday trade in dealership markets",
+   "doi": "10.1016/s0014-2921(02)00244-1",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0014292102002441",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03253",
+   "title": "Is the London Market Competitive? A Study of Trading Behavior of London Market Makers",
+   "doi": "10.2139/ssrn.246457",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U03307",
+   "title": "Learning specialists and market resilience",
+   "doi": "10.1016/j.frl.2022.103516",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1544612322006924",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03332",
+   "title": "Limit orders, asymmetric information, and the formation of asset prices with a computerized specialist",
+   "doi": "10.1007/bf01225933",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/article/10.1007/BF01225933",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03354",
+   "title": "Liquidity Provision During Periods of Intensive Information Flow",
+   "doi": "10.2139/ssrn.1343278",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U03356",
+   "title": "Liquidity Provision in Limit Order Book Markets",
+   "doi": "10.2139/ssrn.2312330",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03407",
+   "title": "Liquidity provision in the overnight foreign exchange market",
+   "doi": "10.1016/j.jimonfin.2004.12.003",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0261560604001123",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03412",
+   "title": "Liquidity with High-Frequency Market Making",
+   "doi": "10.2139/ssrn.2416396",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03540",
+   "title": "Market Maker Performance: The Search for Fair Weather Market Makers",
+   "doi": "10.1023/a:1008102803467",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/10.1023/A:1008102803467",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03543",
+   "title": "Market Makers and Liquidity",
+   "doi": "10.1002/9781118681145.ch14",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03544",
+   "title": "Market Makers’ Optimal Price-Setting Policy for Exchange-Traded Certificates",
+   "doi": "10.1016/j.jbankfin.2016.04.012",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 404: Not Found"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378426616300449",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03625",
+   "title": "Market-making strategy with asymmetric information and regime-switching",
+   "doi": "10.1016/j.jedc.2018.04.003",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0165188918301192",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U03627",
+   "title": "Marketmaking in the Laboratory: Does Competition Matter?",
+   "doi": "10.1007/bf01669273",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U03818",
+   "title": "On proper scoring rules and cumulative prospect theory",
+   "doi": "10.1007/s40070-018-0081-8",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "semanticscholar:doi",
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U03827",
+   "title": "On the Existence of Linear Equilibria in the Rochet-Vila Model of Market Making",
+   "doi": "10.2139/ssrn.609902",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U03839",
+   "title": "Online Learning of Informed Market Making",
+   "doi": "10.2139/ssrn.2083686",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U04134",
+   "title": "Pricing and Optimal Liquidation of Immediacy",
+   "doi": "10.2139/ssrn.1742563",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U04187",
+   "title": "Pseudo market-makers, market quality and the minimum tick size",
+   "doi": "10.1016/j.iref.2016.10.002",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1059056016302003",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U04269",
+   "title": "Replacement cost disclosures, information asymmetry and market-maker behaviour: Assessment through the bid-ask spread",
+   "doi": "10.1016/s0890-8389(05)80005-8",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 200, no abstract"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 200; 1 hits, none with a matching-title abstract"
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0890838905800058",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U04397",
+   "title": "Sharia compliance and strategic determinants of market maker engagement: Evidence from a segmented emerging market",
+   "doi": "10.1016/j.ribaf.2026.103567",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0275531926002941",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U04434",
+   "title": "Small-Cap Equity Mutual Fund Managers as Liquidity Providers",
+   "doi": "10.1016/j.jempfin.2011.09.002",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S092753981100065X",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U04464",
+   "title": "Specialists as risk managers: The competition between intermediated and non-intermediated markets",
+   "doi": "10.1016/j.jbankfin.2010.07.017",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S037842661000275X",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U04620",
+   "title": "Target Prices, Relative Valuations and the Premium for Liquidity Provision",
+   "doi": "10.2139/ssrn.891645",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U04633",
+   "title": "Testing for asymmetric information and inventory control effects in market maker behaviour on the London Stock Exchange",
+   "doi": "10.1016/s0927-5398(96)00014-x",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S092753989600014X",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U04754",
+   "title": "The Effects of Transparency on OTC Market-Making",
+   "doi": "10.2139/ssrn.3286731",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U04793",
+   "title": "The Impact of Illegal Insider Trading in Dealer and Specialist Markets",
+   "doi": "10.2139/ssrn.276179",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U04835",
+   "title": "The Information Content of Specialist Pricing: A Dynamic Model",
+   "doi": "10.1007/978-1-4615-6337-2_7",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/chapter/10.1007/978-1-4615-6337-2_7",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U04891",
+   "title": "The Price Effects of Fannie Mae's Liquidity Provision Activities within the Secondary Market for Mortgage Backed Securities",
+   "doi": "10.2139/ssrn.2005274",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U05004",
+   "title": "The economics of Constant Function Market Makers",
+   "doi": "10.1016/j.jcorpfin.2025.102737",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0929119925000057",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05048",
+   "title": "The immediacy service of the specialist as a coordination mechanism",
+   "doi": "10.1016/s1059-0560(00)00081-2",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 200, no abstract"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1059056000000812",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05072",
+   "title": "The impact of ownership concentration and analyst coverage on market liquidity: Comparative evidence from an auction and a specialist market",
+   "doi": "10.1016/j.econmod.2017.11.004",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 200, no abstract"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0264999317316577",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05100",
+   "title": "The intraday patterns of the spread and depth in a market without market makers: The Stock Exchange of Hong Kong",
+   "doi": "10.1016/s0927-538x(99)00023-2",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0927538X99000232",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05126",
+   "title": "The negative value of public information in the Glosten–Milgrom model",
+   "doi": "10.1016/j.econlet.2014.05.014",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0165176514001815",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05130",
+   "title": "The optimal pricing of a market maker in a heterogeneous agent economy",
+   "doi": "10.1016/j.frl.2015.04.001",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1544612315000380",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05165",
+   "title": "The strategic specialist and imperfect competition in a limit order market",
+   "doi": "10.1016/j.jbankfin.2009.07.027",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378426609001836",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05228",
+   "title": "To Subsidize Or Not to Subsidize: A Comparison of Market Scoring Rules and Continuous Double Auctions for Price Discovery",
+   "doi": "10.1007/s10796-023-10384-8",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/10.1007/s10796-023-10384-8",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05274",
+   "title": "Trading Costs of Public Investors with Obligatory and Voluntary Market-Making: Evidence from Market Reforms",
+   "doi": "10.2139/ssrn.424982",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U05300",
+   "title": "Trading mechanisms and market quality: Limit-order books versus dealership markets",
+   "doi": "10.1016/j.econlet.2017.02.022",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0165176517300678",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05346",
+   "title": "Two months in the life of several gilt-edged market makers on the London Stock Exchange",
+   "doi": "10.1016/s1042-4431(98)00038-9",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 200; 1 hits, none with a matching-title abstract"
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1042443198000389",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05354",
+   "title": "Uncertain Market Making",
+   "doi": "10.2139/ssrn.2667837",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05392",
+   "title": "Using Value-at-Risk (VaR) to Measure Market Risk of the Equity Inventory of a Market Maker",
+   "doi": "10.1007/978-3-319-18239-1_2",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/10.1007/978-3-319-18239-1_2",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05475",
+   "title": "What's special about the specialist?",
+   "doi": "10.1016/0304-405x(92)90025-s",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/0304405X9290025S",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05736",
+   "title": "Adaptive Market Making with Inventory Constraints via Online Learning",
+   "doi": "10.2139/ssrn.5110826",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U05887",
+   "title": "Are Market Makers Uninformed and Passive? Signing Trades in the Absence of Quotes",
+   "doi": "10.2139/ssrn.1409931",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U05945",
+   "title": "Automated Market Makers Designs Beyond Constant Functions",
+   "doi": "10.2139/ssrn.4459177",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U05964",
+   "title": "Batch Exchanges with Constant Function Market Makers: Axioms, Equilibria, and Computation",
+   "doi": "10.48550/arxiv.2210.04929",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "openalex:doi",
+    "note": null
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U06136",
+   "title": "Competing Market Makers, Liquidity Provision, and Bid-Ask Spread",
+   "doi": "10.2139/ssrn.253894",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U06137",
+   "title": "Competing with Inventory in Dealership Markets",
+   "doi": "10.2139/ssrn.3284836",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U06138",
+   "title": "Competition among Liquidity Providers with Access to High-Frequency Trading Technology",
+   "doi": "10.2139/ssrn.2698702",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U06188",
+   "title": "Corporate Bond Dealers' Inventory Risk and FOMC",
+   "doi": "10.2139/ssrn.2967017",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U06277",
+   "title": "Decentralized local electricity market model using Automated Market Maker",
+   "doi": "10.1016/j.apenergy.2023.120689",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0306261923000533",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U06298",
+   "title": "Designing Barrier Options Using Concentrated Liquidity Of Constant Function Market Makers",
+   "doi": "10.2139/ssrn.5233590",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U06314",
+   "title": "Did NASDAQ Market Makers Successfully Collude to Increase Spreads? A Reexamination of Evidence from Stocks that Moved from NASDAQ to the New York or American Stock Exchanges",
+   "doi": "10.2139/ssrn.962404",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U06335",
+   "title": "Discrete Pricing and the Design of Dealership Markets",
+   "doi": "10.2139/ssrn.96",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U06426",
+   "title": "Dynamic Market Making and Asset Pricing",
+   "doi": "10.2139/ssrn.3224495",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U06428",
+   "title": "Dynamic Matching and Provision of Immediacy in a Heterogeneous Asset Market",
+   "doi": "10.2139/ssrn.2868280",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U06590",
+   "title": "Event-Based Limit Order Book Simulation under a Neural Hawkes Process: Application in Market-Making",
+   "doi": "10.2139/ssrn.5152207",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U06860",
+   "title": "How Do Inventory Costs Affect Dealer Behavior in the US Corporate Bond Market?",
+   "doi": "10.2139/ssrn.2590331",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U07051",
+   "title": "Informed Traders as Liquidity Providers: Transparency, Liquidity and Price Formation",
+   "doi": "10.2139/ssrn.358801",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U07096",
+   "title": "Internalizando a internalização de ordens (The Introduction of 'Retail Liquidity Provider' Orders in Brazil: Impact on Market Quality)",
+   "doi": "10.2139/ssrn.3986368",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U07235",
+   "title": "Liquidity Crises and the Market-Maker of Last Resort",
+   "doi": "10.3386/w33587",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "openalex:doi",
+    "note": null
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U07246",
+   "title": "Liquidity Provision That Reduces Liquidity: Cream-Skimming in U.S. Equity Options",
+   "doi": "10.2139/ssrn.4199462",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U07371",
+   "title": "Market Making",
+   "doi": "10.1007/978-3-031-58060-4_14",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/10.1007/978-3-031-58060-4_14",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U07426",
+   "title": "Maximizing Extractable Value from Automated Market Makers",
+   "doi": "10.1007/978-3-031-18283-9_1",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://link.springer.com/10.1007/978-3-031-18283-9_1",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U07443",
+   "title": "Measuring private information in a specialist market",
+   "doi": "10.1016/j.jempfin.2014.10.002",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0927539814000978",
+    "note": "landing page fetched, no abstract metadata over 200 chars"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U07866",
+   "title": "Q-Learning and Algorithmic Market Making: Loss-free, Collusive, or Competitive Prices?",
+   "doi": "10.2139/ssrn.5396087",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U07983",
+   "title": "Robust Market Making",
+   "doi": "10.2139/ssrn.2310645",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U08004",
+   "title": "Scale Economies in Liquidity Provision: Evidence from Designated Market Makers",
+   "doi": "10.2139/ssrn.5811023",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 200; 2 hits, none with a matching-title abstract"
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U08080",
+   "title": "Specialists as Risk Managers: The Competition between Intermediated and Non-Intermediated Market",
+   "doi": "10.2139/ssrn.1066864",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U08092",
+   "title": "Stabilizing the Market: The Role of Retail Investors as Liquidity Providers During the COVID-19 Crisis",
+   "doi": "10.2139/ssrn.4877445",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U08128",
+   "title": "Strategic Specialist and Market Liquidity",
+   "doi": "10.2139/ssrn.942016",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U08261",
+   "title": "The Effects of the Introduction of Market Makers in the Brazilian Equity Market",
+   "doi": "10.2139/ssrn.2029602",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U08619",
+   "title": "Two-price conic Kyle model",
+   "doi": "10.1080/14697688.2026.2707212",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": false,
+    "route": null,
+    "note": "openalex 200, abstract_inverted_index null | crossref 200, no abstract field | s2 HTTPError: HTTP Error 429: "
+   },
+   "arm2_openalex_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "OpenAlex title search returned no matching record carrying an abstract"
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": true,
+    "filled": false,
+    "note": "s2 HTTPError: HTTP Error 429: "
+   },
+   "arm4_doi_landing_page": {
+    "attempted": true,
+    "filled": false,
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "outcome": "no abstract recovered; record kept X11 under SR-2d"
+  },
+  {
+   "id": "U08742",
+   "title": "Who Makes Markets? Cross-Sectional Variation in Voluntary Liquidity Provision",
+   "doi": "10.2139/ssrn.460961",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  },
+  {
+   "id": "U08811",
+   "title": "“Sell the News!” Liquidity Provision by Bond Funds Following Corporate News Events",
+   "doi": "10.2139/ssrn.3980151",
+   "arm1_openalex_crossref_s2_by_doi": {
+    "attempted": true,
+    "filled": true,
+    "route": "crossref:doi",
+    "note": "openalex 200, abstract_inverted_index null"
+   },
+   "arm2_openalex_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm3_semanticscholar_title_search": {
+    "attempted": false,
+    "filled": false,
+    "note": null
+   },
+   "arm4_doi_landing_page": {
+    "attempted": false,
+    "filled": false,
+    "final_url": null,
+    "note": null
+   },
+   "outcome": "abstract recovered"
+  }
+ ]
+}

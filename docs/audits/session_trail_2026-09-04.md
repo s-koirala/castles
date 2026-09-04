@@ -1,0 +1,3 @@
+- 2026-09-04T09:27:37 | session=bc191155-e82 | reason=other | cwd=C:\Users\skoir\castles | git=01ecfe7822cc
+- 2026-09-04T09:28:22 | session=2e784efa-aa6 | reason=other | cwd=C:\Users\skoir\castles | git=01ecfe7822cc
+- 2026-09-04T09:29:06 | session=c103a7a0-c3a | reason=other | cwd=C:\Users\skoir\castles | git=01ecfe7822cc

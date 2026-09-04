@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-s2-05-j",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://api.semanticscholar.org/graph/v1/paper/search?query=language%20model%20agent%20prediction%20market%20forecasting%20trading&fields=title,year,venue,externalIds,abstract,citationCount,publicationTypes&limit=50",
+ "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+ "platform": "semanticscholar",
+ "executed_at": "2026-09-04T11:20:52-05:00",
+ "http_status": 429,
+ "client_error": "HTTPError 429",
+ "n_returned": 0,
+ "n_total_reported": null,
+ "truncated_by_cap": null,
+ "retrieval_cap_in_force": "limit=50",
+ "payload_sha256": "65ab993d12c5c2cc9b68e6da2bb79b326930283e520363ffcdc145f88cd5a148",
+ "payload_bytes": 174,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-s2-05-j.json",
+ "retry_of": "ks-s2-05",
+ "construction_section_3_1": {
+  "instrument_term": "prediction market",
+  "strategy_term": "forecasting-driven trading",
+  "venue_narrowing": null,
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "relevance search over title and abstract; the platform offers no explicit field-restriction parameter",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "S7-LLM-and-forecasting-driven-trading",
+ "note": null,
+ "count_parse_error": null
+}

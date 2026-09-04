@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-openalex-12",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://api.openalex.org/works?filter=title_and_abstract.search:%22event%20contract%22%20AND%20%22hedging%22&per-page=25&mailto=238704148%2Bs-koirala%40users.noreply.github.com",
+ "endpoint": "https://api.openalex.org/works",
+ "platform": "openalex",
+ "executed_at": "2026-09-04T13:27:56-05:00",
+ "http_status": 200,
+ "client_error": null,
+ "n_returned": 17,
+ "n_total_reported": 17,
+ "truncated_by_cap": false,
+ "retrieval_cap_in_force": "per-page=25",
+ "payload_sha256": "f057a3d791dd9eacd9ea8479d7e82760f7b3789e3d4d220193e40649bccfaf29",
+ "payload_bytes": 229394,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-openalex-12.json",
+ "retry_of": null,
+ "construction_section_3_1": {
+  "instrument_term": "event contract",
+  "strategy_term": "hedging",
+  "venue_narrowing": "Kalshi",
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "filter=title_and_abstract.search",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "S1-venue-and-contract-families",
+ "note": null,
+ "count_parse_error": null
+}

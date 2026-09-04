@@ -1300,3 +1300,173 @@ action outside this review's scope, recorded in the review's §12.3.
 **Post-hoc**: all four parts correct, withdraw or register decisions already
 made. *(Round-3 findings LITERATURE-3-2, QUANT-3-5, REV-3-5, QUANT-3-4,
 REPRODUCIBILITY-3-2.)*
+
+
+### A15 — 2026-09-03 (round-4 correcting entry) — appraisal: what amendment A8's 31 is counted against (entry POST-HOC) — PRISMA-P item 14
+
+**Numbering and frozen prefix.** A14 is the last amendment in this addendum. This
+is **A15**. Nothing above the addendum marker is altered: the first **51,478
+bytes** of this file still hash to
+`33c01c522521a9f0f9ee39caa7a71b1fcf51ca50a7b471cc4cc7ee2db7301a54`, re-verified
+against the bytes on disk immediately before this text was appended.
+
+**The mechanism, and its precedent inside this addendum.** §10 makes this addendum
+append-only. **A8 is not edited.** It is corrected by appending a numbered
+amendment that quotes the defective sentence and states what replaces it —
+exactly what **A12(a)** already did for A7, correcting A7's answered-cell
+denominator from 585 to 561 by append rather than by edit. That precedent is
+cited here so this append is visibly the sanctioned mechanism and not a fresh
+licence. *(Round-4 findings QUANT-1-6 and REV-1-6, both major, both raised on
+2026-09-03 and neither refuted. REV-1-6 additionally records that the reason the
+lead session gave for not repairing this — "correcting a published amendment in
+an append-only addendum is a substantive act on a frozen protocol" — conflated
+*editing* an amendment with *appending a correcting one*, and that the second was
+available and unused.)*
+
+**(a) The sentence corrected.** A8 opens:
+
+> "The delivered appraisal records domain concerns as the primary extractor's own
+> judgments, not as mechanical derivations from the Q cells"
+
+and then reports, on that description:
+
+> "**31 domain cells are recorded `low` although a question in that domain is
+> answered other than `yes`** — 22 of them with a `no` or `unclear` input (D3 13,
+> D4 6, D5 2, D6 1) … and 9 whose only non-`yes` input is `partial` (D3 8, D4 1)"
+
+**The description and the count do not refer to the same column.** The 31 is
+counted against the **review's §6 domain column as published** — that is, against
+the primary extractor's judgments *after* the §2.8 resolution raises marked `†`.
+It is **not** counted against "the primary extractor's own judgments" in the sense
+of the raw `domain_concerns` field of
+`docs/literature/search_logs/explosive-regime/se-extraction-primary.jsonl`. The
+review's §6 legend is precise about the distinction — "These are **the primary
+extractor's own recorded judgments**, reproduced verbatim **except where a `†`
+marks a raise under §2.8**" — and A8's prose is not.
+
+**(b) The count against the raw field.** Recomputed 2026-09-03 over the union of
+the two extraction passes, applying §6's domain-to-question map exactly as A8
+states it, A7's CONVENTION (`partial` is not-`yes`), and §2.8's conservative
+resolution `no > unclear > partial > yes` across the two passes:
+
+| direction | against the review's §2.8-resolved column (A8 as published) | against the raw `domain_concerns` field |
+|---|---|---|
+| lenient — recorded `low` where the rule raises | **31** (D3 13, D4 6, D5 2, D6 1 with a `no`/`unclear` input; D3 8, D4 1 `partial`-only) | **42** — D1 4, D2 1, D3 21, D4 9, D5 6, D6 1 |
+| — of which the frozen rule decides directly (`no`/`unclear` input) | 22 | 33 |
+| — of which only a `partial` input, decided by A7's CONVENTION | 9 | 9 |
+| strict — recorded `unclear`/`high` where the rule leaves `low` | **13** (D3 1, D4 7, D5 5) | **13** (D3 1, D4 7, D5 5) |
+
+So the lenient rate against the extractor's raw judgments is **42, not 31** — A8's
+figure understates it by 11 cells, about 26% of the correct figure. The strict
+count is **13 under both readings**, unchanged. Note the direction: the two extra
+domains that appear only in the raw-field column, **D1 (4) and D2 (1)**, are cells
+the §2.8 resolution *had already raised*, which is why A8's column does not see
+them.
+
+**(c) The mechanical ground.** `tests/test_erob_recount.py`, tracked at commit
+`01ecfe7822ccca794272c35956ac8f8289d0c20b`, re-derives the rule column from the
+two extraction logs and reproduces A8's published **31 / 13** exactly against the
+review's §6 column; `uv run pytest tests/test_erob_recount.py` passes on 9 tests.
+The **42** was recomputed independently on 2026-09-03 from
+`se-extraction-primary.jsonl` (73 lines; 53 rows carrying a `rob` object with a
+`domain_concerns` block) and `se-extraction-recheck.jsonl` (65 lines; 63 rows
+carrying `rob_q1_7`), 65 records in the union. The test module does **not** assert
+the 42 — it derives against the published column, which is A8's own basis — so
+the 42 is this amendment's recomputation and is stated as such.
+
+**(d) What does not change.** **No appraisal cell is altered and no D judgment is
+re-decided.** A8's governing decision stands verbatim: the frozen Q→D rule is
+**not** restored retroactively over the recorded judgments, the review reports both
+columns, and the corpus-level concern profile and the abstract's D-domain claims
+remain restated on the rule-derived column with the recorded-judgment column as
+sensitivity. Nothing in §6, §6.1, §7 or §10 of the review is recounted by this
+amendment. What changes is only **what A8's prose says its 31 is a count of**.
+
+**(e) Why this is appended at all.** The defect was found by the lead session on
+2026-09-03 and recorded only in
+`docs/deliverables/deliverable_spec_s4-reexecution-and-repo-gaps_2026-09-03.md`
+as finding F-1. A deliverable spec is a session artifact, not a governing record;
+a consumer of this protocol does not read it. Leaving the correction there would
+have left this frozen document carrying a false statement about the provenance of
+its own headline count. The note is mirrored at the review's §6 legend.
+
+**Post-hoc**: this entry corrects an entry that was itself post-hoc, and is
+written after every affected appraisal entry.
+*(Round-4 findings QUANT-1-6, REV-1-6.)*
+
+
+---
+
+### A16 — 2026-09-04 (round-5 correcting entry) — A15 §(c)'s test count is STRUCK; the mechanical ground is re-attested against the delivered module — PRISMA-P item 14
+
+**Numbering and frozen prefix.** A15 is the last amendment in this addendum. This is
+**A16**. Nothing above the addendum marker is altered: the first **51,478 bytes** of
+this file still hash to
+`33c01c522521a9f0f9ee39caa7a71b1fcf51ca50a7b471cc4cc7ee2db7301a54`, re-verified
+against the bytes on disk immediately before this text was appended. The
+protocol-with-addendum digest immediately before this append is
+`eed7db745ff7fe241f85246c37f8f244890fb23712bf7c712093f3a40f9df9e0` over 91,329
+bytes. **A whole-file digest cannot be written inside the file it digests**, so the
+post-append value is not stated here; it is published by the consuming artifacts —
+the review's front matter `protocol_sha256_with_addendum` and its §15 protocol row —
+and that is the only place a reader should take it from.
+
+**What this amendment is.** A correcting entry raised by the 2026-09-04 audit round.
+**A15 is not edited** — §10 makes this addendum append-only, and A12, A13, A14 and
+A15 already establish the strike-by-quotation mechanism this entry uses. **No
+appraisal cell changes. No D judgment is re-decided. No count in this review or in
+A8's 31 / 13 or A15's 42 changes.** What changes is one attestation about a test
+module.
+
+**(a) A15 §(c)'s test count is STRUCK — finding REV-2-4 and its round-2 extension.**
+
+A15 §(c) states:
+
+> "`tests/test_erob_recount.py`, tracked at commit
+> `01ecfe7822ccca794272c35956ac8f8289d0c20b`, re-derives the rule column from the
+> two extraction logs and reproduces A8's published **31 / 13** exactly against the
+> review's §6 column; `uv run pytest tests/test_erob_recount.py` passes on 9 tests."
+
+**"passes on 9 tests" is struck.** It was true of the module as committed at
+`01ecfe7` and is no longer true of the delivered module. Two audit rounds have
+rewritten the module body since that hash:
+
+| round | findings | what changed in the module |
+|---|---|---|
+| round 1 (2026-09-03) | CODE-1-1, CODE-1-2, CODE-1-3 | the no-magic-number guard was rewritten to walk **string** constants as well as numeric ones; both allow-lists were re-keyed by enclosing definition; an assertion was added that no allow-list entry goes unexercised |
+| round 2 (2026-09-04) | CODE-2-1 | `divergent_cells` was made a **total** classifier and a **tenth** test was added, `test_every_domain_concern_cell_is_a_declared_scale_level` |
+
+**What replaces the struck clause:** *"`uv run pytest tests/test_erob_recount.py`
+passes on **10** tests against the delivered module — 1,149 lines, 56,401 bytes,
+SHA-256 `90981cd076377c56b438a49e11264a3dd67b7fb35f0dc976e055b96480d96994` over the
+bytes on disk, re-attested green (10 passed) on 2026-09-04. The module was not
+committed at the time this amendment was written, so that digest is its durable
+identity; the `01ecfe7` state — 707 lines, 9 tests — is retained as the superseded
+value."* **The rest of A15 §(c) is unaffected:** the module still re-derives the rule
+column from the two extraction logs and still reproduces A8's **31 / 13** exactly,
+and A15's **42** is still this protocol's recomputation and not an assertion of the
+module.
+
+**(b) What the round-2 fix found, recorded because it bears on what the module
+attests.** The finding named **one** fail-open path — an unrecognised
+domain-concern label falling through both the lenient and the strict branch of
+`divergent_cells`. The fix found **four**: the assessability axis was equally
+unconstrained in both directions, so a recorded judgment where §6's rule derives
+*not assessable*, and a *not assessable* cell where the rule reaches a judgment,
+were both silently dropped from the census as well. **All four hole cells of the
+576-cell cross-tab are empty in the shipped §6 table**, so the new guards are
+**additive**: they change no cell, no census and no published figure, and A8's
+31 / 13 and A15's 42 reproduce unchanged under the delivered module. The scale
+vocabulary is now parsed out of **this protocol's §6** and the review's own §6
+legend rather than hardcoded, so a level added to either document fails at the
+guard rather than being dropped.
+
+**(c) Scope of VG-16's closure, unchanged.** VG-16 remains **closed for the ER-RoB
+domain column only** and **open for every other count this review reports** — the 50
+`partial` cells, the 561 / 65 / 53 denominators, 90 of 357 inter-pass divergences,
+I3 = 7, the 62 DOI-bearing records, the O6 and lineage distributions. Nothing in this
+amendment widens that closure; it only re-attests the evidence the closure rests on
+against the artifact that now exists.
+
+**Post-hoc**: this entry corrects an entry that was itself post-hoc.
+*(Round-5 finding REV-2-4, extended by the round-2 code remediation of CODE-2-1.)*

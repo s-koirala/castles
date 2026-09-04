@@ -1,0 +1,301 @@
+{
+ "log_id": "ka-s4-retrieval-recheck-01",
+ "created": "2026-09-03T21:04:58+00:00",
+ "stage": "Round-4 audit remediation of the 2026-09-03 S4 completion screen. Re-runs the amendment-A16 four-arm retrieval chain for the FOUR X11 records the chain never covered, because its trigger condition was ABSENCE of the archived abstract field rather than UNUSABILITY of its contents.",
+ "raised_by": "audit finding QUANT-1-3 (major, quant-auditor, 2026-09-03, not refuted)",
+ "declaring_amendment": "A18 in docs/methodology/protocol_kalshi-arbitrage-review_2026-09-02.md",
+ "purpose": "RETRIEVAL ONLY. No verdict anywhere is changed by this log. This remediation is scoped to prose, counts-about-prose and amendments; it does not re-screen, moves no record between codes, and does not alter the 197 / 503 subset split or the 178 / 12 / 7 verdict split. What the chain returns is recorded here so a successor stage can act on it.",
+ "automation_tool": "Retrieval only. OpenAlex, Crossref and Semantic Scholar REST APIs and the DOI Handle System. No API output is a verdict. No LLM judgment is recorded in this file.",
+ "why_these_four": "ka-s4-retrieval-log.json covers 129 records, selected as the X11 records whose rebuilt-universe `abstract` field was empty or absent. Verified mechanically on 2026-09-03 by rebuilding the universe from the archived scripts (ka-universe-script.py -> 15,924 raw records; PYTHONHASHSEED=0 ka-dedup-script.py -> 8,813 works / 7,111 duplicates, both matching the published figures) and joining to ka-screening-verdicts.jsonl: 700 records carry primary_code X11 and exactly 129 of them have an empty or absent abstract field. These four have a NON-EMPTY abstract field whose contents are not an abstract, so none entered the chain and none has a row in ka-s4-retrieval-log.json - verified: all four are absent from its 129 record ids.",
+ "archived_field_contents_that_caused_the_bypass": {
+  "U01126": "a publisher correction notice about an author surname, not an abstract",
+  "U02218": "a bibliographic citation string (author list, journal, volume, issue, pages)",
+  "U03553": "a single opening sentence; classed partial-abstract in ka-s4-subset-membership.json",
+  "U03624": "a bibliographic citation string (author list, journal, volume, issue, pages)"
+ },
+ "retrieval_failure_is_not_evidence_of_absence": "Binding here as it is on A16 and A17. HTTP 429 and a bot-blocked landing page are failures of THIS chain and are never evidence that a record has no abstract or states nothing. X8 is applied to no record in this log.",
+ "records": [
+  {
+   "uid": "U01126",
+   "doi": "10.1002/ijfe.373",
+   "title": "'Noise trader risk' and Bayesian market making in FX derivatives: rolling loaded dice?",
+   "arms": [
+    {
+     "arm": "1a openalex by DOI",
+     "request": "https://api.openalex.org/works/doi:10.1002/ijfe.373",
+     "utc": "2026-09-03T21:03:58+00:00",
+     "status": 200,
+     "final_url": "https://api.openalex.org/works/doi:10.1002/ijfe.373",
+     "content_type": "application/json",
+     "abstract_returned": "Abstract The above article (DOI: 10.1002/ijfe.373 ) was published online in Early View on 25 July 2008. On page 1 of the initial online publication of this article, the third author's surname was incorrectly spelled. The correct spelling should be: KAREN HOVSEPIAN."
+    },
+    {
+     "arm": "1b crossref by DOI",
+     "request": "https://api.crossref.org/works/10.1002/ijfe.373",
+     "utc": "2026-09-03T21:03:59+00:00",
+     "status": 200,
+     "final_url": "https://api.crossref.org/works/10.1002/ijfe.373",
+     "content_type": "application/json",
+     "abstract_returned": "<jats:title>Abstract</jats:title><jats:p>This paper develops and simulates a model of a Bayesian market maker who transacts with noise and position traders in derivative markets. The impact of noise trading is examined relative to price determination in FX futures, noise transmission from futures to options, and risk‐management behaviour linking the two markets. The model simulations show noise trading in futures results in wider bid–ask spreads, increased price volatility, and greater variation in hedging costs. Above all, the Bayesian market maker manages price‐risk by trend chasing not for speculative purposes, but to avoid being caught on the wrong side of the market. The pecuniary effects from this risk‐management strategy suggest that noise trading tends to constrain the market maker's capacity to arbitrage; particularly when the underlying price is mean averting as opposed to a Martingale and trading sessions exhibit significant price volatility. Copyright © 2008 John Wiley &amp; Sons, Ltd.</jats:p>"
+    },
+    {
+     "arm": "1c semantic scholar by DOI",
+     "request": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1002/ijfe.373?fields=title,abstract",
+     "utc": "2026-09-03T21:04:00+00:00",
+     "status": 200,
+     "final_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1002/ijfe.373?fields=title,abstract",
+     "content_type": "application/json",
+     "abstract_returned": null
+    },
+    {
+     "arm": "2 openalex title search",
+     "request": "https://api.openalex.org/works?filter=title.search:<exact title above>&per-page=3",
+     "utc": "2026-09-03T21:04:03+00:00",
+     "status": 429,
+     "final_url": "https://api.openalex.org/works?filter=title.search:%27Noise%20trader%20risk%27%20and%20Bayesian%20market%20making%20in%20FX%20derivatives%3A%20rolling%20loaded%20dice%3F&per-page=3",
+     "content_type": "application/json",
+     "hits": null
+    },
+    {
+     "arm": "3 semantic scholar title search",
+     "request": "https://api.semanticscholar.org/graph/v1/paper/search?query=<exact title above>&fields=title,abstract&limit=3",
+     "utc": "2026-09-03T21:04:06+00:00",
+     "status": 200,
+     "final_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=%27Noise%20trader%20risk%27%20and%20Bayesian%20market%20making%20in%20FX%20derivatives%3A%20rolling%20loaded%20dice%3F&fields=title,abstract&limit=3",
+     "content_type": "application/json",
+     "hits": [
+      {
+       "title": "'Noise trader risk' and Bayesian market making in FX derivatives: rolling loaded dice?",
+       "abstract": null
+      }
+     ]
+    },
+    {
+     "arm": "4 DOI landing page",
+     "request": "https://doi.org/10.1002/ijfe.373",
+     "utc": "2026-09-03T21:04:15+00:00",
+     "status": 403,
+     "final_url": "https://doi.org/10.1002/ijfe.373",
+     "content_type": "text/html; charset=UTF-8",
+     "body_bytes": 0,
+     "abstract_metadata_found": null
+    }
+   ]
+  },
+  {
+   "uid": "U02218",
+   "doi": "10.2307/3595014",
+   "title": "Does Market Structure Affect the Immediacy of Stock Price Responses to News?",
+   "arms": [
+    {
+     "arm": "1a openalex by DOI",
+     "request": "https://api.openalex.org/works/doi:10.2307/3595014",
+     "utc": "2026-09-03T21:04:17+00:00",
+     "status": 200,
+     "final_url": "https://api.openalex.org/works/doi:10.2307/3595014",
+     "content_type": "application/json",
+     "abstract_returned": "Ronald W. Masulis, Lakshmanan Shivakumar, Does Market Structure Affect the Immediacy of Stock Price Responses to News?, The Journal of Financial and Quantitative Analysis, Vol. 37, No. 4 (Dec., 2002), pp. 617-648"
+    },
+    {
+     "arm": "1b crossref by DOI",
+     "request": "https://api.crossref.org/works/10.2307/3595014",
+     "utc": "2026-09-03T21:04:18+00:00",
+     "status": 200,
+     "final_url": "https://api.crossref.org/works/10.2307/3595014",
+     "content_type": "application/json",
+     "abstract_returned": null
+    },
+    {
+     "arm": "1c semantic scholar by DOI",
+     "request": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.2307/3595014?fields=title,abstract",
+     "utc": "2026-09-03T21:04:20+00:00",
+     "status": 200,
+     "final_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.2307/3595014?fields=title,abstract",
+     "content_type": "application/json",
+     "abstract_returned": null
+    },
+    {
+     "arm": "2 openalex title search",
+     "request": "https://api.openalex.org/works?filter=title.search:<exact title above>&per-page=3",
+     "utc": "2026-09-03T21:04:22+00:00",
+     "status": 429,
+     "final_url": "https://api.openalex.org/works?filter=title.search:Does%20Market%20Structure%20Affect%20the%20Immediacy%20of%20Stock%20Price%20Responses%20to%20News%3F&per-page=3",
+     "content_type": "application/json",
+     "hits": null
+    },
+    {
+     "arm": "3 semantic scholar title search",
+     "request": "https://api.semanticscholar.org/graph/v1/paper/search?query=<exact title above>&fields=title,abstract&limit=3",
+     "utc": "2026-09-03T21:04:26+00:00",
+     "status": 429,
+     "final_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Does%20Market%20Structure%20Affect%20the%20Immediacy%20of%20Stock%20Price%20Responses%20to%20News%3F&fields=title,abstract&limit=3",
+     "content_type": "application/json",
+     "hits": null
+    },
+    {
+     "arm": "4 DOI landing page",
+     "request": "https://doi.org/10.2307/3595014",
+     "utc": "2026-09-03T21:04:29+00:00",
+     "status": 200,
+     "final_url": "https://www.jstor.org/stable/3595014?origin=crossref",
+     "content_type": "text/html; charset=utf-8",
+     "body_bytes": 3036,
+     "abstract_metadata_found": null
+    }
+   ]
+  },
+  {
+   "uid": "U03553",
+   "doi": "10.1007/978-3-642-46938-1_13",
+   "title": "Market Making with Noise: The Case of a Specialist Financial Market with Heterogeneous Traders",
+   "arms": [
+    {
+     "arm": "1a openalex by DOI",
+     "request": "https://api.openalex.org/works/doi:10.1007/978-3-642-46938-1_13",
+     "utc": "2026-09-03T21:04:31+00:00",
+     "status": 200,
+     "final_url": "https://api.openalex.org/works/doi:10.1007/978-3-642-46938-1_13",
+     "content_type": "application/json",
+     "abstract_returned": "Several efforts have been recently devoted to the study of the microstructure of financial markets in the presence of a specialist, mostly as a short-cut for approaching the complex issue of dealers’pricing.1)"
+    },
+    {
+     "arm": "1b crossref by DOI",
+     "request": "https://api.crossref.org/works/10.1007/978-3-642-46938-1_13",
+     "utc": "2026-09-03T21:04:33+00:00",
+     "status": 200,
+     "final_url": "https://api.crossref.org/works/10.1007/978-3-642-46938-1_13",
+     "content_type": "application/json",
+     "abstract_returned": null
+    },
+    {
+     "arm": "1c semantic scholar by DOI",
+     "request": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/978-3-642-46938-1_13?fields=title,abstract",
+     "utc": "2026-09-03T21:04:34+00:00",
+     "status": 200,
+     "final_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/978-3-642-46938-1_13?fields=title,abstract",
+     "content_type": "application/json",
+     "abstract_returned": null
+    },
+    {
+     "arm": "2 openalex title search",
+     "request": "https://api.openalex.org/works?filter=title.search:<exact title above>&per-page=3",
+     "utc": "2026-09-03T21:04:36+00:00",
+     "status": 429,
+     "final_url": "https://api.openalex.org/works?filter=title.search:Market%20Making%20with%20Noise%3A%20The%20Case%20of%20a%20Specialist%20Financial%20Market%20with%20Heterogeneous%20Traders&per-page=3",
+     "content_type": "application/json",
+     "hits": null
+    },
+    {
+     "arm": "3 semantic scholar title search",
+     "request": "https://api.semanticscholar.org/graph/v1/paper/search?query=<exact title above>&fields=title,abstract&limit=3",
+     "utc": "2026-09-03T21:04:39+00:00",
+     "status": 429,
+     "final_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Market%20Making%20with%20Noise%3A%20The%20Case%20of%20a%20Specialist%20Financial%20Market%20with%20Heterogeneous%20Traders&fields=title,abstract&limit=3",
+     "content_type": "application/json",
+     "hits": null
+    },
+    {
+     "arm": "4 DOI landing page",
+     "request": "https://doi.org/10.1007/978-3-642-46938-1_13",
+     "utc": "2026-09-03T21:04:42+00:00",
+     "status": 200,
+     "final_url": "https://link.springer.com/chapter/10.1007/978-3-642-46938-1_13",
+     "content_type": "text/html; charset=utf-8",
+     "body_bytes": 3036,
+     "abstract_metadata_found": null
+    }
+   ]
+  },
+  {
+   "uid": "U03624",
+   "doi": "10.2307/2330749",
+   "title": "Market-Making in Initial Public Offerings of Common Stocks:An Empirical Analysis",
+   "arms": [
+    {
+     "arm": "1a openalex by DOI",
+     "request": "https://api.openalex.org/works/doi:10.2307/2330749",
+     "utc": "2026-09-03T21:04:45+00:00",
+     "status": 200,
+     "final_url": "https://api.openalex.org/works/doi:10.2307/2330749",
+     "content_type": "application/json",
+     "abstract_returned": "Shantaram P. Hegde, Robert E. Miller, Market-Making in Initial Public Offerings of Common Stocks: An Empirical Analysis, The Journal of Financial and Quantitative Analysis, Vol. 24, No. 1 (Mar., 1989), pp. 75-90"
+    },
+    {
+     "arm": "1b crossref by DOI",
+     "request": "https://api.crossref.org/works/10.2307/2330749",
+     "utc": "2026-09-03T21:04:46+00:00",
+     "status": 200,
+     "final_url": "https://api.crossref.org/works/10.2307/2330749",
+     "content_type": "application/json",
+     "abstract_returned": null
+    },
+    {
+     "arm": "1c semantic scholar by DOI",
+     "request": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.2307/2330749?fields=title,abstract",
+     "utc": "2026-09-03T21:04:47+00:00",
+     "status": 200,
+     "final_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.2307/2330749?fields=title,abstract",
+     "content_type": "application/json",
+     "abstract_returned": null
+    },
+    {
+     "arm": "2 openalex title search",
+     "request": "https://api.openalex.org/works?filter=title.search:<exact title above>&per-page=3",
+     "utc": "2026-09-03T21:04:49+00:00",
+     "status": 429,
+     "final_url": "https://api.openalex.org/works?filter=title.search:Market-Making%20in%20Initial%20Public%20Offerings%20of%20Common%20Stocks%3AAn%20Empirical%20Analysis&per-page=3",
+     "content_type": "application/json",
+     "hits": null
+    },
+    {
+     "arm": "3 semantic scholar title search",
+     "request": "https://api.semanticscholar.org/graph/v1/paper/search?query=<exact title above>&fields=title,abstract&limit=3",
+     "utc": "2026-09-03T21:04:53+00:00",
+     "status": 429,
+     "final_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Market-Making%20in%20Initial%20Public%20Offerings%20of%20Common%20Stocks%3AAn%20Empirical%20Analysis&fields=title,abstract&limit=3",
+     "content_type": "application/json",
+     "hits": null
+    },
+    {
+     "arm": "4 DOI landing page",
+     "request": "https://doi.org/10.2307/2330749",
+     "utc": "2026-09-03T21:04:56+00:00",
+     "status": 200,
+     "final_url": "https://www.jstor.org/stable/2330749?origin=crossref",
+     "content_type": "text/html; charset=utf-8",
+     "body_bytes": 3036,
+     "abstract_metadata_found": null
+    }
+   ]
+  }
+ ],
+ "per_record_result_2026_09_03": {
+  "U01126": {
+   "chain_outcome": "ARM 1b RECOVERED A FULL, USABLE ABSTRACT.",
+   "recovered_from": "https://api.crossref.org/works/10.1002/ijfe.373, `message.abstract`, JATS markup, HTTP 200",
+   "recovered_text": "This paper develops and simulates a model of a Bayesian market maker who transacts with noise and position traders in derivative markets. The impact of noise trading is examined relative to price determination in FX futures, noise transmission from futures to options, and risk-management behaviour linking the two markets. The model simulations show noise trading in futures results in wider bid-ask spreads, increased price volatility, and greater variation in hedging costs. Above all, the Bayesian market maker manages price-risk by trend chasing not for speculative purposes, but to avoid being caught on the wrong side of the market. The pecuniary effects from this risk-management strategy suggest that noise trading tends to constrain the market maker's capacity to arbitrage; particularly when the underlying price is mean averting as opposed to a Martingale and trading sessions exhibit significant price volatility.",
+   "glyph_note": "Transcription rule, stated so the quotation is exactly attributable. The JATS source is the value of `records[0].arms[1].abstract_returned` in this file and is the authority. The transcription above strips the <jats:title>/<jats:p> tags and the leading word 'Abstract'; resolves &amp; to &; renders the source's non-breaking hyphens as ASCII hyphens in 'risk-management', 'bid-ask' and 'price-risk'; and OMITS the trailing publisher line 'Copyright (c) 2008 John Wiley & Sons, Ltd.' Verified mechanically on 2026-09-03: after those substitutions the transcription is a character-exact prefix of the stripped source, the only residual being that omitted copyright line. Every word of the scientific content is verbatim.",
+   "what_this_means": "The stage's own chain would have recovered this if its trigger had been abstract-field USABILITY rather than PRESENCE. The record's `undecided` disposition, and its subset membership under SR-1, currently rest on a title alone.",
+   "NOT_re-adjudicated_here": "This remediation does not re-screen. The record keeps `undecided`, inside the subset, and the 178/12/7 split is unchanged. Recorded as an open defect for a successor stage."
+  },
+  "U02218": {
+   "chain_outcome": "NOTHING USABLE RECOVERED.",
+   "arm_detail": "1a OpenAlex HTTP 200 returning the same bibliographic citation string the archived universe holds; 1b Crossref HTTP 200 with no `abstract` field; 1c Semantic Scholar HTTP 200 with `abstract: null`; 2 OpenAlex title search HTTP 429 (rate limited, retried); 3 Semantic Scholar title search HTTP 429 (rate limited, retried); 4 doi.org HTTP 200 redirecting to www.jstor.org with no abstract metadata in the returned HTML.",
+   "reading": "Arms 2 and 3 are CHAIN FAILURES and are not evidence that the record has no abstract. On what was reached, SR-2d - not SR-2a - is the disposition the rule prescribes: the record could not be retrieved to title-and-abstract depth, so SR-1 cannot be applied to it by reading.",
+   "NOT_recoded_here": "This remediation does not re-screen. The record keeps its recorded SR-2a ground and the residual counts are unchanged. Recorded as an open defect for a successor stage."
+  },
+  "U03553": {
+   "chain_outcome": "NOTHING BEYOND THE ARCHIVED OPENING SENTENCE RECOVERED.",
+   "arm_detail": "1a OpenAlex HTTP 200 returning the same single opening sentence; 1b Crossref HTTP 200 with no `abstract` field; 1c Semantic Scholar HTTP 200 with `abstract: null`; 2 and 3 HTTP 429 (rate limited, retried); 4 doi.org HTTP 200 redirecting to link.springer.com, body 3,036 bytes, a JS/bot-block shell with no abstract metadata.",
+   "reading": "Arms 2 and 3 are chain failures. The record stands where the membership file put it - in the subset under SR-1 on a title plus one sentence, undecided at the depth reached.",
+   "NOT_recoded_here": "This remediation does not re-screen; the 178/12/7 split is unchanged."
+  },
+  "U03624": {
+   "chain_outcome": "NOTHING USABLE RECOVERED.",
+   "arm_detail": "1a OpenAlex HTTP 200 returning the same bibliographic citation string; 1b Crossref HTTP 200 with no `abstract` field; 1c Semantic Scholar HTTP 200 with `abstract: null`; 2 and 3 HTTP 429 (rate limited, retried); 4 doi.org HTTP 200 redirecting to www.jstor.org with no abstract metadata.",
+   "reading": "Arms 2 and 3 are chain failures. On what was reached, SR-2d - not SR-2a - is the disposition the rule prescribes.",
+   "NOT_recoded_here": "This remediation does not re-screen; the residual counts are unchanged. Recorded as an open defect for a successor stage."
+  }
+ },
+ "what_the_recheck_establishes": "One of the four (U01126) IS retrievable to abstract depth and the archived chain would have reached it. The finding's proposed repair - recode all four SR-2d and move the SR-2d count 88 -> 92 and the SR-2a residual 259 -> 257 - is therefore NOT the correct repair: it would code as unretrievable a record this log retrieves. Three of the four returned nothing usable on this run, but two of their six arms returned HTTP 429, which the stage's own binding rule classes as a chain failure and never as evidence of absence, so even for those three SR-2d cannot be asserted as settled. The correct action is a successor retrieval-and-assessment stage, and it is declared as such in amendment A18 rather than performed here."
+}

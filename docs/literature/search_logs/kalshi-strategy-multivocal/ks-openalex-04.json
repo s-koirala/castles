@@ -1,0 +1,33 @@
+{
+ "query_id": "ks-openalex-04",
+ "arm": "academic",
+ "protocol": "docs/methodology/protocol_kalshi-strategy-multivocal_2026-09-04.md",
+ "protocol_sha256": "32dfea6da36cc367ece91cc282dda50e1be7ad6cc2af02dc96e62ed52b7ad6ac",
+ "registration_commit": "4821611c1c93b5f929a76f3ba6207e900440cee5",
+ "query_verbatim": "https://api.openalex.org/works?filter=title_and_abstract.search:%22weather%22%20AND%20%22event%20contract%22%20AND%20%22hedging%22&per-page=25&mailto=238704148%2Bs-koirala%40users.noreply.github.com",
+ "endpoint": "https://api.openalex.org/works",
+ "platform": "openalex",
+ "executed_at": "2026-09-04T10:15:23-05:00",
+ "http_status": 200,
+ "client_error": null,
+ "n_returned": 0,
+ "n_total_reported": 0,
+ "truncated_by_cap": false,
+ "retrieval_cap_in_force": "per-page=25",
+ "payload_sha256": "1ceffabaadb3514a1a528cb474111e5ad95716d6dfd1764d7e6f4c8f7b7be340",
+ "payload_bytes": 777,
+ "payload_path": "docs/literature/search_logs/kalshi-strategy-multivocal/payloads/ks-openalex-04.json",
+ "retry_of": null,
+ "construction_section_3_1": {
+  "instrument_term": "weather event contract",
+  "strategy_term": "hedging",
+  "venue_narrowing": null,
+  "date_restriction": "none",
+  "language_restriction": "none",
+  "field_restriction": "filter=title_and_abstract.search",
+  "subject_or_category_narrowing": "none"
+ },
+ "target_stratum": "S3-weather-and-climate-event-contracts",
+ "note": null,
+ "count_parse_error": null
+}
