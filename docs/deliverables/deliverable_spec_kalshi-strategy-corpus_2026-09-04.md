@@ -90,7 +90,7 @@ project's own documents settle it — no external judgement is used.
   - state: a prioritized allowlist of common read-only Bash/MCP calls, produced by the `fewer-permission-prompts` skill, present in project settings.
   - check: the file parses as JSON and `permissions.allow` is a non-empty list.
 
-- [ ] Final commit via `/commit-with-provenance --role=multi`
+- [x] Final commit via `/commit-with-provenance --role=multi`
   - state: every tracked artifact above committed with `Repro-Log-Path:` / `Repro-Log-SHA256:` trailers and the ICMJE 2026 AI-assistance trailer.
   - check: `git status --porcelain docs/` is empty for the paths above; `git log -1 --format=%B` shows all three trailers.
 
