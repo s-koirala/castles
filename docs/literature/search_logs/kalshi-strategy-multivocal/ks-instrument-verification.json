@@ -1,0 +1,122 @@
+{
+ "_meta": {
+  "artifact": "pre-freeze verification of the methodological instruments named by protocol_kalshi-strategy-multivocal_2026-09-04.md section 7 and section 8",
+  "branch": "kalshi-strategy-multivocal",
+  "date": "2026-09-04",
+  "purpose": "Protocol section 7 declares that an [INSTRUMENT-*] placeholder surviving into the registration commit is itself a defect. This file is the evidence on which each placeholder is substituted. It executes no search arm and retrieves no Kalshi content.",
+  "executed_by": "literature-check agent (Claude Opus 5, model id claude-opus-5, Claude Code / Claude Agent SDK), dispatched by the lead session before protocol freeze",
+  "verdict_returned": "proceed-with-remediation",
+  "environment_verification_gap": "PDF text extraction unavailable (poppler absent); Wiley, PeerJ, ACM DL, Springer, Annals of Internal Medicine, Taylor & Francis and ScienceDirect all returned HTTP 403 to unauthenticated fetch. Instruments 1, 2, 3, 4 and 5 were verified at ABSTRACT or METADATA depth via Crossref, Semantic Scholar, institutional repositories and the official FORCE11 page. Three sub-claims were corroborated only from search-index extraction and NOT from fetched primary text: Garousi et al.'s quality-assessment criteria table, Adams et al.'s tier-to-source-type mapping and its outlet-control/expertise definitions, and Kalliamvakou et al.'s numbered peril headings including the forks peril. Every bibliographic record (title, author list, venue, volume, pages, year, DOI) was confirmed against Crossref or an equivalent registry and none was found misstated.",
+  "dominant_residual_risk": "Not a bad citation but OVERCLAIMING: four of the eight proposed uses (1, 2, 3, 5) assert something wider than the source says, and one (6) bundled an instrument that authorises the use with one that does not. Each is recorded below as a declared gap and must be carried into the protocol at the point of use."
+ },
+ "instruments": [
+  {
+   "n": 1,
+   "placeholder": "[INSTRUMENT-MLR]",
+   "proposed_use": "Guidance for conducting and reporting a multivocal literature review combining peer-reviewed and grey literature in a non-clinical technical field, including a grey-literature source-quality appraisal instrument.",
+   "resolves": true,
+   "verified_record": "Garousi V, Felderer M, Mantyla MV. Guidelines for including grey literature and conducting multivocal literature reviews in software engineering. Information and Software Technology. 2019;106:101-121.",
+   "doi": "10.1016/j.infsof.2018.09.006",
+   "evidence_depth": "abstract",
+   "supporting_clause_verbatim": "\"several phases of MLRs differ from those of traditional SLRs, for instance with respect to the search process and source quality assessment\" ... \"The resulting guidelines cover all phases of conducting and reporting MLRs in SE from the planning phase, over conducting the review to the final reporting of the review.\"",
+   "verdict": "partially-supports",
+   "gap": "The source scopes ITSELF to software engineering: its conclusion says the guidelines support conducting new MLRs \"in any area of SE\", not in any field. Application to a binary-event-contract strategy corpus is a DECLARED TRANSFER and must be labelled as one. The specific appraisal criteria table (authority of producer, methodology, objectivity, date, position w.r.t. related sources, novelty, impact, outlet type) was corroborated only from citing papers and search-index extraction; publisher full text is paywalled."
+  },
+  {
+   "n": 2,
+   "placeholder": "[INSTRUMENT-MLR] (originating source of the grading scheme)",
+   "proposed_use": "A published tiering of grey-literature sources by producer/outlet credibility, used to stratify practitioner sources.",
+   "resolves": true,
+   "verified_record": "Adams RJ, Smart P, Huff AS. Shades of Grey: Guidelines for Working with the Grey Literature in Systematic Reviews for Management and Organizational Studies. International Journal of Management Reviews. 2017;19(4):432-454. (early view 19 April 2016, which is why software-engineering papers cite it as 'Adams et al. 2016')",
+   "doi": "10.1111/ijmr.12102",
+   "evidence_depth": "abstract",
+   "supporting_clause_verbatim": "\"This paper suggests how the 'grey literature', the diverse and heterogeneous body of material that is made public outside, and not subject to, traditional academic peer-review processes, can be used to increase the relevance and impact of management and organization studies (MOS).\" Grading dimensions: \"outlet control\" = \"the extent to which content is produced, moderated or edited in conformance with explicit and transparent knowledge creation criteria\"; \"expertise\" = \"the extent to which the authority and knowledge of the producer of the content can be determined\".",
+   "verdict": "partially-supports",
+   "gap": "TWO corrections. (i) The scheme ORIGINATES with Adams, Smart & Huff, not with the MLR guideline, which reproduces it with attribution: citing the MLR guideline for it is a chain-citation error of the kind the charter's commitment 5 forbids. (ii) The scheme is explicitly a CONTINUUM, not a discrete stratifier: \"Rather than having discrete bands, the gradation in both dimensions is on a continuous range between known and unknown.\" Using 1st/2nd/3rd tier as a hard membership rule in a frozen protocol OVERSTATES what the source licenses. The tier-to-source-type mapping was verified at secondary depth only (Wiley full text HTTP 403)."
+  },
+  {
+   "n": 3,
+   "placeholder": "[INSTRUMENT-GH] (hazard half)",
+   "proposed_use": "Documented sampling and validity hazards of mining GitHub, used to justify explicit exclusions (forks, inactive repositories, non-code repositories) and to bound a completeness claim.",
+   "resolves": true,
+   "verified_record": "Kalliamvakou E, Gousios G, Blincoe K, Singer L, German DM, Damian D. The promises and perils of mining GitHub. Proceedings of the 11th Working Conference on Mining Software Repositories (MSR 2014). ACM; 2014:92-101. Extended version: An in-depth study of the promises and perils of mining GitHub. Empirical Software Engineering. 2016;21(5):2035-2071.",
+   "doi": ["10.1145/2597073.2597074", "10.1007/s10664-015-9393-5"],
+   "evidence_depth": "abstract",
+   "supporting_clause_verbatim": "MSR 2014 abstract: \"Our results indicate that, while GitHub is a rich source of data on software development, mining GitHub for research purposes should take various potential perils into consideration. We show, for example, that the majority of the projects are personal and inactive; that GitHub is also being used for free storage and as a Web hosting service; and that almost 40% of all pull requests do not appear as merged, even though they were.\" Journal version: \"approximately half of GitHub's registered users do not have public activity.\"",
+   "verdict": "partially-supports",
+   "gap": "The papers document hazards and give recommendations; they supply NO completeness bound, so the second half of the proposed use is NOT attributable to them and the protocol must not cite them for it. The fork-specific peril (\"Peril I: A repository is not necessarily a project\") and the non-development-repository peril were verified only from search-index extraction of the PDFs. All findings are conditioned on 2013-2014 GitHub data."
+  },
+  {
+   "n": 4,
+   "placeholder": "[INSTRUMENT-GH] (curation half)",
+   "proposed_use": "A published operationalisation of which GitHub repositories count as engineered software projects rather than personal or throwaway repositories.",
+   "resolves": true,
+   "verified_record": "Munaiah N, Kroh S, Cabrey C, Nagappan M. Curating GitHub for engineered software projects. Empirical Software Engineering. 2017;22(6):3219-3253.",
+   "doi": "10.1007/s10664-017-9512-6",
+   "evidence_depth": "abstract",
+   "supporting_clause_verbatim": "\"there are limited means of separating the signal (e.g. repositories containing engineered software projects) from the noise (e.g. repositories containing home work assignments). The proportion of noise in a random sample of repositories could skew the study and may lead to researchers reaching unrealistic, potentially inaccurate, conclusions. ... We propose a framework, and present a reference implementation of the framework as a tool called reaper, to enable researchers to select GitHub repositories that contain evidence of an engineered software project.\"",
+   "verdict": "supports",
+   "gap": "The operationalisation is a TRAINED CLASSIFIER over measured dimensions, not a fixed rule list; the paper reports its best classifier at 82% precision / 86% recall against a 200-repository ground truth. Any protocol adopting it must record which variant is used and must not present it as a deterministic eligibility filter."
+  },
+  {
+   "n": 5,
+   "placeholder": "[INSTRUMENT-SWCITE]",
+   "proposed_use": "Requirements for citing software as a first-class research object, used to fix the CSL-JSON metadata fields recorded per repository (identifier, version/commit, author, access date).",
+   "resolves": true,
+   "verified_record": "Smith AM, Katz DS, Niemeyer KE, FORCE11 Software Citation Working Group. Software citation principles. PeerJ Computer Science. 2016;2:e86.",
+   "doi": "10.7717/peerj-cs.86",
+   "evidence_depth": "abstract",
+   "supporting_clause_verbatim": "Principle 3 (Unique identification): a software citation \"should include a method for identification that is machine actionable, globally unique, interoperable, and recognized by at least a community of the corresponding domain experts\". Principle 6 (Specificity): \"Software citations should facilitate identification of, and access to, the specific version of software that was used. Software identification should be as specific as necessary, such as using version numbers, revision numbers, or variants such as platforms.\" Principle 2 (Credit and attribution): \"Software citations should facilitate giving scholarly credit and normative, legal attribution to all contributors to the software.\"",
+   "verdict": "partially-supports",
+   "gap": "TWO corrections. (i) The FORCE11 Software Citation Working Group is a NAMED AUTHOR on the record; omitting it misstates the author list. (ii) The principles justify recording an identifier, a specific version/commit, and all contributors, and permit a repository-URL-plus-commit-hash fallback where no persistent identifier exists — but they say NOTHING about CSL-JSON. The choice of CSL-JSON as carrier and the exact field names (including `accessed`) is a PROJECT DESIGN DECISION attributable to the Citation Style Language 1.0.2 specification, not to Smith et al."
+  },
+  {
+   "n": 6,
+   "placeholder": "search-reporting standard (protocol section 8 and front matter)",
+   "proposed_use": "Reporting requirements for a search strategy (verbatim query, platform/interface, date executed, per-source counts) in a review that is NOT a systematic review.",
+   "resolves": true,
+   "verified_record": "Rethlefsen ML, Kirtley S, Waffenschmidt S, Ayala AP, Moher D, Page MJ, Koffel JB, PRISMA-S Group. PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews. Systematic Reviews. 2021;10:39 (co-published J Med Libr Assoc 2021;109(2):174-200, doi:10.5195/jmla.2021.962). AND Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement. BMJ. 2021;372:n71.",
+   "doi": ["10.1186/s13643-020-01542-z", "10.1136/bmj.n71"],
+   "evidence_depth": "full-text",
+   "supporting_clause_verbatim": "PRISMA-S, terminology section: \"Because we intend the checklist to be used in all fields and disciplines, we use 'systematic reviews' throughout this document as a representative name for the entire family of evidence syntheses. This includes, but is not limited to, scoping reviews, rapid reviews, realist reviews, metanarrative reviews, mixed methods reviews, umbrella reviews, and evidence maps.\" Items: 1 \"Name each individual database searched, stating the platform for each.\"; 8 \"Include the search strategies for each database and information source, copied and pasted exactly as run.\"; 13 \"For each search strategy, provide the date when the last search occurred.\"; 15 \"Document the total number of records identified from each database and other information sources.\" PRISMA 2020 scope: \"designed primarily for systematic reviews of studies that evaluate the effects of health interventions\", extended only to \"reports of systematic reviews evaluating other interventions (such as social or educational interventions)\" and to \"systematic reviews with objectives other than evaluating interventions\".",
+   "verdict": "supports",
+   "gap": "THE CLAIM MUST BE SPLIT, and this is the single most load-bearing finding for the new protocol. PRISMA-S carries an EXPLICIT, QUOTABLE self-endorsement for all fields and disciplines and for the whole family of evidence syntheses, so its use here is NOT reasoning by analogy and must NOT be labelled 'adapted'. PRISMA 2020's own scope statement extends only to other SYSTEMATIC reviews and never to non-systematic reviews, so any PRISMA 2020 item invoked for this record IS reasoning by analogy with no cited endorsement and must be declared as such. The predecessor protocol's blanket 'both ADAPTED' framing UNDERSTATES PRISMA-S and must not be copied verbatim into the new record."
+  },
+  {
+   "n": 7,
+   "placeholder": "output-class basis (protocol section 8)",
+   "proposed_use": "A citable basis for treating a scoping/mapping review as a distinct output class with its own reporting checklist, so the record can decline PRISMA 2020 without declaring a lower standard.",
+   "resolves": true,
+   "verified_record": "Tricco AC, Lillie E, Zarin W, et al. PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. Annals of Internal Medicine. 2018;169(7):467-473. AND Arksey H, O'Malley L. Scoping studies: towards a methodological framework. International Journal of Social Research Methodology. 2005;8(1):19-32. AND Levac D, Colquhoun H, O'Brien KK. Scoping studies: advancing the methodology. Implementation Science. 2010;5:69.",
+   "doi": ["10.7326/M18-0850", "10.1080/1364557032000119616", "10.1186/1748-5908-5-69"],
+   "evidence_depth": "abstract",
+   "supporting_clause_verbatim": "PRISMA-ScR: \"Scoping reviews, a type of knowledge synthesis, follow a systematic approach to map evidence on a topic and identify main concepts, theories, sources, and knowledge gaps. ... The final checklist contains 20 essential reporting items and 2 optional items.\" Levac et al.: \"Scoping studies differ from systematic reviews because authors do not typically assess the quality of included studies.\" Arksey & O'Malley: \"This paper focuses on scoping studies, an approach to reviewing the literature which to date has received little attention in the research methods literature.\"",
+   "verdict": "supports",
+   "gap": "PRISMA-ScR is EQUATOR-developed and health-framed on its face, and Levac et al. is explicitly about health research; of the three, only Arksey & O'Malley — in a general social-research-methodology journal — is DOMAIN-NEUTRAL. The record should carry Arksey & O'Malley as the framework citation and PRISMA-ScR as the checklist citation WITH its health framing declared. Levac's no-quality-appraisal clause is the correct support for declining a risk-of-bias instrument."
+  },
+  {
+   "n": 8,
+   "placeholder": "access-date and retrieval-digest basis (protocol section 5 fields F12 and section 3.3)",
+   "proposed_use": "A published statement that web/online sources require an access date and an archival copy because of link rot and content drift, justifying accessed_at plus a digest of retrieved bytes for every grey-literature and venue-document record.",
+   "resolves": true,
+   "verified_record": "Klein M, Van de Sompel H, Sanderson R, Shankar H, Balakireva L, Zhou K, Tobin R. Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot. PLoS ONE. 2014;9(12):e115253. AND Jones SM, Van de Sompel H, Shankar H, Klein M, Tobin R, Grover C. Scholarly Context Adrift: Three out of Four URI References Lead to Changed Content. PLOS ONE. 2016;11(12):e0167475. AND Zittrain J, Albert K, Lessig L. Perma: Scoping and Addressing the Problem of Link and Reference Rot in Legal Citations. Legal Information Management. 2014;14(2):88-99. AND ISO 690:2021, Information and documentation - Guidelines for bibliographic references and citations to information resources, 4th ed., 2021-06-11.",
+   "doi": ["10.1371/journal.pone.0115253", "10.1371/journal.pone.0167475", "10.1017/S1472669614000255", "ISO 690:2021 (no DOI)"],
+   "evidence_depth": "full-text",
+   "supporting_clause_verbatim": "Klein et al.: \"we focus on reference rot, the combination of link rot and content drift to which references to web resources included in Science, Technology, and Medicine (STM) articles are subject. ... We find one out of five STM articles suffering from reference rot\". Definitions: link rot = \"The resource identified by a URI may cease to exist and hence a URI reference to that resource will no longer provide access to referenced content\"; content drift = \"The resource identified by a URI may change over time and hence, the content at the end of the URI may evolve, even to such an extent that it ceases to be representative of the content that was originally referenced.\" Jones et al.: \"for over 75% of references the content has drifted away from what it was when referenced.\" Zittrain et al.: \"more than 70% of the URLs within the Harvard Law Review and other journals, and 50% of the URLs within United States Supreme Court opinions, do not link to the originally cited information.\"",
+   "verdict": "partially-supports",
+   "gap": "NO SINGLE SOURCE states the compound requirement. Klein 2014 and Jones 2016 establish the empirical hazard and call generically for \"robust solutions\"; Zittrain et al. 2014 supplies the normative archiving remedy; ISO 690:2021 supplies the citation-standard basis for a date of citation on dynamic online resources, but its normative text is paywalled and was verified only at metadata/scope depth. The protocol must cite these as a STACK with a one-line derivation, never as a single 'per X' attribution. THE BYTE-DIGEST REQUIREMENT IN PARTICULAR IS A PROJECT DESIGN CHOICE WITH NO CITED SOURCE and must be labelled as such."
+  }
+ ],
+ "additional_instruments_found": [
+  {
+   "what_it_supports": "Field-level guidance on what a software citation must contain when a repository has no DOI — the implementation-side companion to instrument 5. Cite THIS for field lists, not Smith et al.",
+   "record": "Katz DS, Chue Hong NP, Clark T, Muench A, Stall S, Bouquin D, et al. Recognizing the value of software: a software citation guide. F1000Research. 2021;9:1257 (version 2, 12 January 2021).",
+   "doi": "10.12688/f1000research.26932.2"
+  },
+  {
+   "what_it_supports": "The normative basis for the CSL-JSON field set. VERIFIED: CSL 1.0.2 defines `accessed` as a date variable and `version` as a standard variable, but it is a style/rendering spec and does NOT prescribe a metadata schema — so the field set is a documented PROJECT CHOICE, not a standard requirement.",
+   "record": "Citation Style Language 1.0.2 Specification, Appendix IV (Variables), docs.citationstyles.org",
+   "doi": "no DOI; tier-2 official software documentation"
+  }
+ ]
+}
